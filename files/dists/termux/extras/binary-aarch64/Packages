@@ -1,0 +1,187 @@
+Package: arpack-ng
+Architecture: aarch64
+Installed-Size: 732
+Maintainer:  @its-pointless github
+Version: 3.4.0
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: libgfortran
+Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.4.0_aarch64.deb
+Size: 80576
+SHA256: bfd6ae611946836c219d56c61c196875e06827e4ca9ee24a41fc5adb4dc0b34f
+
+Package: gcc-6
+Architecture: aarch64
+Installed-Size: 71276
+Maintainer:  @its-pointless github
+Version: 6.3.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Filename: dists/termux/extras/binary-aarch64/gcc-6_6.3.0-2_aarch64.deb
+Size: 19250344
+SHA256: 4999e83bb69967682c50fc2b8f38f0b5274ec307784cf01fef426ad13c53d238
+
+Package: gcov-6
+Architecture: aarch64
+Installed-Size: 1008
+Maintainer:  @its-pointless github
+Version: 6.3.0-2
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-6
+Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-2_aarch64.deb
+Size: 225228
+SHA256: 3a881855098660b5627af2adcd783947a936e4f97ed42f2d943fe0ac75e96ccc
+
+Package: glpk-dev
+Architecture: aarch64
+Installed-Size: 40
+Maintainer:  @its-pointless github
+Version: 4.61
+Description: Development files for glpk
+Homepage: https://www.gnu.org/software/glpk/
+Depends: glpk
+Filename: dists/termux/extras/binary-aarch64/glpk-dev_4.61_aarch64.deb
+Size: 9124
+SHA256: 7b5b3ff0cab47c383ff0646aeafe2f5c321c1166bea7f2f95122650420d91585
+
+Package: glpk
+Architecture: aarch64
+Installed-Size: 764
+Maintainer:  @its-pointless github
+Version: 4.61
+Description: The GLPK (GNU Linear Programming Kit)
+Homepage: https://www.gnu.org/software/glpk/
+Filename: dists/termux/extras/binary-aarch64/glpk_4.61_aarch64.deb
+Size: 288828
+SHA256: 5109e9f78f3aa19cfa40c2911ac59aed57d61addf652c5cb19b5ed44ac7bda8b
+
+Package: libgfortran
+Architecture: aarch64
+Installed-Size: 1504
+Maintainer:  @its-pointless github
+Version: 6.3.0-2
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libgfortran_6.3.0-2_aarch64.deb
+Size: 281376
+SHA256: 25e439b364a41096d02454f65c349b2cda988747ce0bca302c403f973265d4b8
+
+Package: octave-dev
+Architecture: aarch64
+Installed-Size: 5644
+Maintainer: @its-pointless github
+Version: 4.2.1-4
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.1-4_aarch64.deb
+Size: 351456
+SHA256: fd7c97811a10c9f1b40a5da8119eb9170585b1bc4f09b06c8ecc06ec5c2de28c
+
+Package: octave
+Architecture: aarch64
+Installed-Size: 32632
+Maintainer: @its-pointless github
+Version: 4.2.1-4
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libgfortran, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw
+Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-4_aarch64.deb
+Size: 5018056
+SHA256: aa472d0b993ca3c76540af083eac53b9dc388425ec94b5bd40e85a0586aca0ad
+
+Package: openblas
+Architecture: aarch64
+Installed-Size: 9972
+Maintainer: @its-pointless github
+Version: 0.2.19-2
+Description: openblas
+Homepage: http://www.openblas.net/
+Depends: libgcc, libgfortran
+Filename: dists/termux/extras/binary-aarch64/openblas_0.2.19-2_aarch64.deb
+Size: 2192604
+SHA256: fed16c90421ee90fd120b581ceed83f80b31ecc09453e2dfa73debc6759b642f
+
+Package: python3-numpy
+Architecture: aarch64
+Installed-Size: 15064
+Maintainer:  @its-pointless github
+Version: 1.12.0
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran
+Filename: dists/termux/extras/binary-aarch64/python3-numpy_1.12.0_aarch64.deb
+Size: 2268932
+SHA256: 2322375a658ceba4f5ae9e5f1e32339855d7f64b1858d0fdb888d8796ed554c1
+
+Package: python3-scipy
+Architecture: aarch64
+Installed-Size: 42012
+Maintainer:  @its-pointless github
+Version: 0.18.1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran, python3-numpy
+Filename: dists/termux/extras/binary-aarch64/python3-scipy_0.18.1_aarch64.deb
+Size: 8408832
+SHA256: a0ad5436760f30e7314241181309160f8bc724b9aa5814a9521aac42413fc551
+
+Package: qhull-dev
+Architecture: aarch64
+Installed-Size: 872
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2015.2
+Description: Development files for qhull
+Homepage: http://ledger-cli.org/
+Depends: qhull
+Filename: dists/termux/extras/binary-aarch64/qhull-dev_2015.2_aarch64.deb
+Size: 83852
+SHA256: 6360ab2f9ed9af4b8ed09275620a752fffce33cddbe08da892a095bd787ba5c8
+
+Package: qhull
+Architecture: aarch64
+Installed-Size: 3704
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2015.2
+Description: Powerful, double-entry accounting system
+Homepage: http://ledger-cli.org/
+Filename: dists/termux/extras/binary-aarch64/qhull_2015.2_aarch64.deb
+Size: 421408
+SHA256: 04537fb832a144a2fd4cd7a59bc75e59051017c577e90b3e3324ac904dc92834
+
+Package: qrupdate
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.2
+Description: qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions.
+Homepage: https://sourceforge.net/projects/qrupdate/
+Filename: dists/termux/extras/binary-aarch64/qrupdate_1.1.2_aarch64.deb
+Size: 48428
+SHA256: bea4ed183e23063bd21c0807c990ec2c71802b46b18ff05bb6470d3bf18144f0
+
+Package: suitesparse-dev
+Architecture: aarch64
+Installed-Size: 784
+Maintainer: @its-pointless github
+Version: 4.5.4
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_4.5.4_aarch64.deb
+Size: 100428
+SHA256: 1b533babb638354a91c41ccca706f13259aa866a645c945df008027db66d2ccd
+
+Package: suitesparse
+Architecture: aarch64
+Installed-Size: 2276
+Maintainer: @its-pointless github
+Version: 4.5.4
+Description: SuiteSparse is a suite of sparse matrix algorithms
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: libgfortran,openblas
+Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.4_aarch64.deb
+Size: 768108
+SHA256: 913d8d1170a1c74c3371d7a9b240b113e0e1cc13e7743e04a1b1a1874bde52d7

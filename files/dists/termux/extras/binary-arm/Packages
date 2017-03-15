@@ -1,3 +1,39 @@
+Package: arpack-ng
+Architecture: arm
+Installed-Size: 704
+Maintainer:  @its-pointless github
+Version: 3.4.0
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: libgfortran
+Filename: dists/termux/extras/binary-arm/arpack-ng_3.4.0_arm.deb
+Size: 103580
+SHA256: 190cadac703a6f5ed0a9b1f38072fc5435cf00e4c2f0a06f5f493254a281a652
+
+Package: gcc-6
+Architecture: arm
+Installed-Size: 71512
+Maintainer:  @its-pointless github
+Version: 6.3.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Filename: dists/termux/extras/binary-arm/gcc-6_6.3.0-2_arm.deb
+Size: 20661076
+SHA256: 50ca0a4e4e55b5777450415757f649d8096500df262a2b5933278e14e8f255eb
+
+Package: gcov-6
+Architecture: arm
+Installed-Size: 896
+Maintainer:  @its-pointless github
+Version: 6.3.0-2
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-6
+Filename: dists/termux/extras/binary-arm/gcov-6_6.3.0-2_arm.deb
+Size: 218720
+SHA256: 7a40100745db4726ed31b7b7e76842e1ebeaf99d1a05ef18277e54be54b79c4c
+
 Package: glpk-dev
 Architecture: arm
 Installed-Size: 40
@@ -9,3 +45,154 @@ Depends: glpk
 Filename: dists/termux/extras/binary-arm/glpk-dev_4.61_arm.deb
 Size: 9116
 SHA256: 8d8183b5cb18c24fcc294ad9c1d9c4a2f1b1e75a5fef2ef15acda3f33c3c2b40
+
+Package: glpk
+Architecture: arm
+Installed-Size: 616
+Maintainer:  @its-pointless github
+Version: 4.61
+Description: The GLPK (GNU Linear Programming Kit)
+Homepage: https://www.gnu.org/software/glpk/
+Filename: dists/termux/extras/binary-arm/glpk_4.61_arm.deb
+Size: 306520
+SHA256: 223fb0b1753aa2f552a9fa9a56946fe302c0bff29f6eb2fbcdb13ba0ac907b83
+
+Package: libatlas-dev
+Architecture: arm
+Installed-Size: 592
+Maintainer:  @its-pointless github
+Version: 3.10.3
+Description: Development files for libatlas
+Homepage: math-atlas.sourceforge.net/
+Depends: libatlas
+Filename: dists/termux/extras/binary-arm/libatlas-dev_3.10.3_arm.deb
+Size: 13192
+SHA256: 4954ded6a0e5fca5da590e778c0064514ebdeaacc7a78f62d36990f79428d7eb
+
+Package: libatlas
+Architecture: arm
+Installed-Size: 16312
+Maintainer:  @its-pointless github
+Version: 3.10.3
+Description: ATLAS (Automatically Tuned Linear Algebra Software)
+Homepage: math-atlas.sourceforge.net/
+Filename: dists/termux/extras/binary-arm/libatlas_3.10.3_arm.deb
+Size: 2368208
+SHA256: f28c8d31b96e6035609944cdda3858ada80e6995124cd51d6bdb95f8a2a609cf
+
+Package: libgfortran
+Architecture: arm
+Installed-Size: 1128
+Maintainer:  @its-pointless github
+Version: 6.3.0-2
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgfortran_6.3.0-2_arm.deb
+Size: 224804
+SHA256: d4b5009dface6ebf1cff4fa6391742320bfa13d3fa541e2a0e8028530c829e6f
+
+Package: octave-dev
+Architecture: arm
+Installed-Size: 5644
+Maintainer: @its-pointless github
+Version: 4.2.1-4
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-4_arm.deb
+Size: 351544
+SHA256: acface810750522ce4a1c48a5a267442a2a271bdf49f86323a7ba0df5beb1fa7
+
+Package: octave
+Architecture: arm
+Installed-Size: 25036
+Maintainer: @its-pointless github
+Version: 4.2.1-4
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libgfortran, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw
+Filename: dists/termux/extras/binary-arm/octave_4.2.1-4_arm.deb
+Size: 4808236
+SHA256: 92c5535369e673ecf989facb35d9975d78ba1fa96060e38fc75bc7859990b06d
+
+Package: python3-numpy
+Architecture: arm
+Installed-Size: 13740
+Maintainer:  @its-pointless github
+Version: 1.12.0
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran
+Filename: dists/termux/extras/binary-arm/python3-numpy_1.12.0_arm.deb
+Size: 2017116
+SHA256: 35a81e2ffb576da169520f60af46a1d9b9ac1a444ae6334800e99dff4a71096b
+
+Package: python3-scipy
+Architecture: arm
+Installed-Size: 38804
+Maintainer:  @its-pointless github
+Version: 0.18.1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran, python3-numpy
+Filename: dists/termux/extras/binary-arm/python3-scipy_0.18.1_arm.deb
+Size: 8618040
+SHA256: 993a4c79f01067f9b3074e62179b9021af2a3191a0e6472d9ee01368a734add7
+
+Package: qhull-dev
+Architecture: arm
+Installed-Size: 872
+Maintainer: @its-pointless github
+Version: 2015.2
+Description: Development files for qhull
+Homepage: http://ledger-cli.org/
+Depends: qhull
+Filename: dists/termux/extras/binary-arm/qhull-dev_2015.2_arm.deb
+Size: 83860
+SHA256: 4d5ff6d68e30a8764125f54b1956de67a895be6e84a893f2cc45e721bed025d8
+
+Package: qhull
+Architecture: arm
+Installed-Size: 3316
+Maintainer: @its-pointless github
+Version: 2015.2
+Description: Powerful, double-entry accounting system
+Homepage: http://ledger-cli.org/
+Filename: dists/termux/extras/binary-arm/qhull_2015.2_arm.deb
+Size: 489304
+SHA256: 40ec9fcef32ce6085f0c60c9f08f91adfd804e1d08975054c8b692d1fffe0b5d
+
+Package: qrupdate
+Architecture: arm
+Installed-Size: 144
+Maintainer: @its-pointless github
+Version: 1.1.2
+Description: qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions.
+Homepage: https://sourceforge.net/projects/qrupdate/
+Filename: dists/termux/extras/binary-arm/qrupdate_1.1.2_arm.deb
+Size: 54616
+SHA256: b6e9f029878d2d7b691a6103226ef484e1a4072e09ebb42f9a21cbcee9304ead
+
+Package: suitesparse-dev
+Architecture: arm
+Installed-Size: 784
+Maintainer: @its-pointless github
+Version: 4.5.4
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-arm/suitesparse-dev_4.5.4_arm.deb
+Size: 100560
+SHA256: 672d26ba23cf029f086a3964471531e390ded992c86085663dce1bed7f214ed8
+
+Package: suitesparse
+Architecture: arm
+Installed-Size: 1704
+Maintainer: @its-pointless github
+Version: 4.5.4
+Description: SuiteSparse is a suite of sparse matrix algorithms
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: libgfortran,libatlas
+Filename: dists/termux/extras/binary-arm/suitesparse_4.5.4_arm.deb
+Size: 510532
+SHA256: c2d5b75918969c1a21962e1b42a428cd6f06c9691a39be8d587587ce067526cd
