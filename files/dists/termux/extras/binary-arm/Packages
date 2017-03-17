@@ -91,6 +91,18 @@ Filename: dists/termux/extras/binary-arm/libgfortran_6.3.0-2_arm.deb
 Size: 224804
 SHA256: d4b5009dface6ebf1cff4fa6391742320bfa13d3fa541e2a0e8028530c829e6f
 
+Package: numpy
+Architecture: arm
+Installed-Size: 13088
+Maintainer:  @its-pointless github
+Version: 1.12.0-1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran
+Filename: dists/termux/extras/binary-arm/numpy_1.12.0-1_arm.deb
+Size: 2062464
+SHA256: 0d163bdcc12cf75363f09c44787751ac66e2b6a00b810785463a7a583b9e4853
+
 Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
@@ -114,30 +126,6 @@ Depends: libgfortran, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmag
 Filename: dists/termux/extras/binary-arm/octave_4.2.1-4_arm.deb
 Size: 4808236
 SHA256: 92c5535369e673ecf989facb35d9975d78ba1fa96060e38fc75bc7859990b06d
-
-Package: python3-numpy
-Architecture: arm
-Installed-Size: 13740
-Maintainer:  @its-pointless github
-Version: 1.12.0
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran
-Filename: dists/termux/extras/binary-arm/python3-numpy_1.12.0_arm.deb
-Size: 2017116
-SHA256: 35a81e2ffb576da169520f60af46a1d9b9ac1a444ae6334800e99dff4a71096b
-
-Package: python3-scipy
-Architecture: arm
-Installed-Size: 38804
-Maintainer:  @its-pointless github
-Version: 0.18.1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran, python3-numpy
-Filename: dists/termux/extras/binary-arm/python3-scipy_0.18.1_arm.deb
-Size: 8618040
-SHA256: 993a4c79f01067f9b3074e62179b9021af2a3191a0e6472d9ee01368a734add7
 
 Package: qhull-dev
 Architecture: arm
@@ -172,6 +160,18 @@ Homepage: https://sourceforge.net/projects/qrupdate/
 Filename: dists/termux/extras/binary-arm/qrupdate_1.1.2_arm.deb
 Size: 54616
 SHA256: b6e9f029878d2d7b691a6103226ef484e1a4072e09ebb42f9a21cbcee9304ead
+
+Package: scipy
+Architecture: arm
+Installed-Size: 37068
+Maintainer: @its-pointless github
+Version: 0.19.0
+Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
+Homepage: https://github.com/scipy/scipy
+Depends: python, libgfortran, numpy, libatlas
+Filename: dists/termux/extras/binary-arm/scipy_0.19.0_arm.deb
+Size: 8562624
+SHA256: de5ab248147a5d03d5667f6561ca9f35391a5e47bf8c5e90f09960380137c50c
 
 Package: suitesparse-dev
 Architecture: arm
