@@ -12,27 +12,27 @@ SHA256: bfd6ae611946836c219d56c61c196875e06827e4ca9ee24a41fc5adb4dc0b34f
 
 Package: gcc-6
 Architecture: aarch64
-Installed-Size: 71276
+Installed-Size: 71272
 Maintainer:  @its-pointless github
-Version: 6.3.0-2
+Version: 6.3.0-3
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
 Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-aarch64/gcc-6_6.3.0-2_aarch64.deb
-Size: 19250344
-SHA256: 4999e83bb69967682c50fc2b8f38f0b5274ec307784cf01fef426ad13c53d238
+Filename: dists/termux/extras/binary-aarch64/gcc-6_6.3.0-3_aarch64.deb
+Size: 19258248
+SHA256: 7e8462a38b2dedcff6cfd4743d2f686898bb4dee938c8856c7ce56b5801efdee
 
 Package: gcov-6
 Architecture: aarch64
 Installed-Size: 1008
 Maintainer:  @its-pointless github
-Version: 6.3.0-2
+Version: 6.3.0-3
 Description: GNU coverage testing tool
 Homepage: http://gcc.gnu.org/
 Depends: gcc-6
-Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-2_aarch64.deb
-Size: 225228
-SHA256: 3a881855098660b5627af2adcd783947a936e4f97ed42f2d943fe0ac75e96ccc
+Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-3_aarch64.deb
+Size: 225364
+SHA256: d1a31e4d6eac8bcbc253d2c552e0fb1c9002f35bae21b33d54a3a91196d46326
 
 Package: glpk-dev
 Architecture: aarch64
@@ -61,12 +61,12 @@ Package: libgfortran
 Architecture: aarch64
 Installed-Size: 1504
 Maintainer:  @its-pointless github
-Version: 6.3.0-2
+Version: 6.3.0-3
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran_6.3.0-2_aarch64.deb
-Size: 281376
-SHA256: 25e439b364a41096d02454f65c349b2cda988747ce0bca302c403f973265d4b8
+Filename: dists/termux/extras/binary-aarch64/libgfortran_6.3.0-3_aarch64.deb
+Size: 281520
+SHA256: 03ccd2bef16671ade2915b54b03ddc7e87f34a80fe248485512802f6779c2027
 
 Package: numpy
 Architecture: aarch64
@@ -84,25 +84,25 @@ Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5644
 Maintainer: @its-pointless github
-Version: 4.2.1-4
+Version: 4.2.1-5
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.1-4_aarch64.deb
-Size: 351456
-SHA256: fd7c97811a10c9f1b40a5da8119eb9170585b1bc4f09b06c8ecc06ec5c2de28c
+Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.1-5_aarch64.deb
+Size: 351544
+SHA256: b488c15ecd82e110616d851326012e6750a5f52f001cda20f937c440aabf79d9
 
 Package: octave
 Architecture: aarch64
-Installed-Size: 32632
+Installed-Size: 32644
 Maintainer: @its-pointless github
-Version: 4.2.1-4
+Version: 4.2.1-5
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libgfortran, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw
-Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-4_aarch64.deb
-Size: 5018056
-SHA256: aa472d0b993ca3c76540af083eac53b9dc388425ec94b5bd40e85a0586aca0ad
+Depends: gnuplot, libgfortran, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, openblas
+Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-5_aarch64.deb
+Size: 5019852
+SHA256: 705cc69ca15c1720578acc9bed8b85a560f63aaf58bcdecaf9e764b37f9f02e1
 
 Package: openblas
 Architecture: aarch64

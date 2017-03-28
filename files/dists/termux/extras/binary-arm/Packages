@@ -12,27 +12,27 @@ SHA256: 190cadac703a6f5ed0a9b1f38072fc5435cf00e4c2f0a06f5f493254a281a652
 
 Package: gcc-6
 Architecture: arm
-Installed-Size: 71512
+Installed-Size: 71496
 Maintainer:  @its-pointless github
-Version: 6.3.0-2
+Version: 6.3.0-3
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
 Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-arm/gcc-6_6.3.0-2_arm.deb
-Size: 20661076
-SHA256: 50ca0a4e4e55b5777450415757f649d8096500df262a2b5933278e14e8f255eb
+Filename: dists/termux/extras/binary-arm/gcc-6_6.3.0-3_arm.deb
+Size: 20652204
+SHA256: 90e708b23d5e2baf434c4c37b787e74c50ca99ce736440c98193cdf52fd9d1c0
 
 Package: gcov-6
 Architecture: arm
 Installed-Size: 896
 Maintainer:  @its-pointless github
-Version: 6.3.0-2
+Version: 6.3.0-3
 Description: GNU coverage testing tool
 Homepage: http://gcc.gnu.org/
 Depends: gcc-6
-Filename: dists/termux/extras/binary-arm/gcov-6_6.3.0-2_arm.deb
-Size: 218720
-SHA256: 7a40100745db4726ed31b7b7e76842e1ebeaf99d1a05ef18277e54be54b79c4c
+Filename: dists/termux/extras/binary-arm/gcov-6_6.3.0-3_arm.deb
+Size: 218756
+SHA256: 6574a6260090534fbe313ccfef8f58a619a8b7d657a34e8dcb821915784319be
 
 Package: glpk-dev
 Architecture: arm
@@ -84,12 +84,12 @@ Package: libgfortran
 Architecture: arm
 Installed-Size: 1128
 Maintainer:  @its-pointless github
-Version: 6.3.0-2
+Version: 6.3.0-3
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-arm/libgfortran_6.3.0-2_arm.deb
-Size: 224804
-SHA256: d4b5009dface6ebf1cff4fa6391742320bfa13d3fa541e2a0e8028530c829e6f
+Filename: dists/termux/extras/binary-arm/libgfortran_6.3.0-3_arm.deb
+Size: 224860
+SHA256: 91378b53cbd5b1060a14faa66337848f45931d79ac4e22679d29b4b8b2cacd28
 
 Package: numpy
 Architecture: arm
@@ -107,25 +107,25 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
 Maintainer: @its-pointless github
-Version: 4.2.1-4
+Version: 4.2.1-5
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-4_arm.deb
-Size: 351544
-SHA256: acface810750522ce4a1c48a5a267442a2a271bdf49f86323a7ba0df5beb1fa7
+Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-5_arm.deb
+Size: 351484
+SHA256: 0977f1ef761be8cea20f2abaed822cd54f2200cbfb1bdc9a298d2fa150f2aeb4
 
 Package: octave
 Architecture: arm
-Installed-Size: 25036
+Installed-Size: 25048
 Maintainer: @its-pointless github
-Version: 4.2.1-4
+Version: 4.2.1-5
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libgfortran, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw
-Filename: dists/termux/extras/binary-arm/octave_4.2.1-4_arm.deb
-Size: 4808236
-SHA256: 92c5535369e673ecf989facb35d9975d78ba1fa96060e38fc75bc7859990b06d
+Depends: gnuplot, libgfortran, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libatlas
+Filename: dists/termux/extras/binary-arm/octave_4.2.1-5_arm.deb
+Size: 4810700
+SHA256: de924b63f179f4f8ebe3c83cc7cdd61ea4b298e2ac4feee0d91dd5818e2a1b42
 
 Package: qhull-dev
 Architecture: arm
