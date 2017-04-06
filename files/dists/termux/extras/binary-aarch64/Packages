@@ -70,15 +70,15 @@ SHA256: 03ccd2bef16671ade2915b54b03ddc7e87f34a80fe248485512802f6779c2027
 
 Package: numpy
 Architecture: aarch64
-Installed-Size: 16028
+Installed-Size: 14228
 Maintainer:  @its-pointless github
-Version: 1.12.1
+Version: 1.12.1-2
 Description: NumPy is the fundamental package for scientific computing with Python.
 Homepage: https://github.com/numpy/numpy
 Depends: python, libgfortran
-Filename: dists/termux/extras/binary-aarch64/numpy_1.12.1_aarch64.deb
-Size: 2497496
-SHA256: 022e010be1869ac1a593e2b2ff5f151ee75c25a6f3b733eddad6b5e853bb1d02
+Filename: dists/termux/extras/binary-aarch64/numpy_1.12.1-2_aarch64.deb
+Size: 2065488
+SHA256: b4d47df1c7f843f6519fbca88512e9339486df31a7e735e597ce2187be06080d
 
 Package: octave-dev
 Architecture: aarch64
@@ -152,15 +152,15 @@ SHA256: bea4ed183e23063bd21c0807c990ec2c71802b46b18ff05bb6470d3bf18144f0
 
 Package: scipy
 Architecture: aarch64
-Installed-Size: 40568
+Installed-Size: 42180
 Maintainer: @its-pointless github
-Version: 0.19.0-1
+Version: 0.19.0-2
 Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
 Homepage: https://github.com/scipy/scipy
 Depends: python, libgfortran, numpy, openblas
-Filename: dists/termux/extras/binary-aarch64/scipy_0.19.0-1_aarch64.deb
-Size: 8774916
-SHA256: 080c7f6b54616fafcbc679d15c4ffd415e2db44a05e23ee9afe8b5dea97c7c58
+Filename: dists/termux/extras/binary-aarch64/scipy_0.19.0-2_aarch64.deb
+Size: 8661612
+SHA256: 4b63c6c03e7748f27df750ee5bc67e2fe3c2b7a231525add5219f68e609f8041
 
 Package: suitesparse-dev
 Architecture: aarch64
