@@ -1,3 +1,14 @@
+Package: alpine
+Architecture: aarch64
+Installed-Size: 8276
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.20
+Description: Fast, easy to use email client
+Homepage: http://patches.freeiz.com
+Filename: dists/termux/extras/binary-aarch64/alpine_2.20_aarch64.deb
+Size: 1514052
+SHA256: 65438ed90b0b1fb3548eb77aa937d19d6ab00237be435c3fef136e023928c032
+
 Package: arpack-ng
 Architecture: aarch64
 Installed-Size: 732
@@ -34,6 +45,30 @@ Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-3_aarch64.deb
 Size: 225364
 SHA256: d1a31e4d6eac8bcbc253d2c552e0fb1c9002f35bae21b33d54a3a91196d46326
 
+Package: gettext-dev
+Architecture: aarch64
+Installed-Size: 300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.19.8
+Description: Development files for gettext
+Homepage: https://www.gnu.org/software/gettext/
+Depends: gettext
+Filename: dists/termux/extras/binary-aarch64/gettext-dev_0.19.8_aarch64.deb
+Size: 41024
+SHA256: 660d7ab1b9d7591bd81cc81a764e4151786783749847e92272dddd9589a31067
+
+Package: gettext
+Architecture: aarch64
+Installed-Size: 3956
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.19.8
+Description: GNU Internationalization utilities
+Homepage: https://www.gnu.org/software/gettext/
+Depends: pcre, liblzma, libxml2, libcroco, ncurses, libunistring
+Filename: dists/termux/extras/binary-aarch64/gettext_0.19.8_aarch64.deb
+Size: 1013952
+SHA256: 1f1566a6fb01a3c794dc0a41173d8167741a0a7b67428e70f6c3b1e034204cf9
+
 Package: glpk-dev
 Architecture: aarch64
 Installed-Size: 40
@@ -67,6 +102,19 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libgfortran_6.3.0-3_aarch64.deb
 Size: 281520
 SHA256: 03ccd2bef16671ade2915b54b03ddc7e87f34a80fe248485512802f6779c2027
+
+Package: mpv-ext
+Architecture: aarch64
+Installed-Size: 1560
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.24.0
+Description: Command-line media player
+Homepage: https://mpv.io/
+Depends: ffmpeg, openal-soft, libcaca
+Conflicts: mpv
+Filename: dists/termux/extras/binary-aarch64/mpv-ext_0.24.0_aarch64.deb
+Size: 475212
+SHA256: 8e879c4149dcaab0d24e8f5d5a86c6b17e81fb2895a98ca9abce78940768aea8
 
 Package: numpy
 Architecture: aarch64
@@ -161,6 +209,17 @@ Depends: python, libgfortran, numpy, openblas
 Filename: dists/termux/extras/binary-aarch64/scipy_0.19.0-2_aarch64.deb
 Size: 8661612
 SHA256: 4b63c6c03e7748f27df750ee5bc67e2fe3c2b7a231525add5219f68e609f8041
+
+Package: screen
+Architecture: aarch64
+Installed-Size: 832
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.0
+Description: Terminal multiplexer with VT100/ANSI terminal emulation
+Homepage: https://www.gnu.org/software/screen/
+Filename: dists/termux/extras/binary-aarch64/screen_4.4.0_aarch64.deb
+Size: 381848
+SHA256: 7ef6312d678aab1e5dc5cdf238a0f9147de10498c8b3dc553b43e2772bdcea25
 
 Package: suitesparse-dev
 Architecture: aarch64

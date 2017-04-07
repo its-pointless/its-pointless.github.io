@@ -1,3 +1,14 @@
+Package: alpine
+Architecture: arm
+Installed-Size: 6460
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.20
+Description: Fast, easy to use email client
+Homepage: http://patches.freeiz.com
+Filename: dists/termux/extras/binary-arm/alpine_2.20_arm.deb
+Size: 1489336
+SHA256: 3d534f31408791455b7353bf4c4661692df6590d59d99439ffa30a72ff1b2ca1
+
 Package: arpack-ng
 Architecture: arm
 Installed-Size: 704
@@ -33,6 +44,30 @@ Depends: gcc-6
 Filename: dists/termux/extras/binary-arm/gcov-6_6.3.0-3_arm.deb
 Size: 218756
 SHA256: 6574a6260090534fbe313ccfef8f58a619a8b7d657a34e8dcb821915784319be
+
+Package: gettext-dev
+Architecture: arm
+Installed-Size: 300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.19.8
+Description: Development files for gettext
+Homepage: https://www.gnu.org/software/gettext/
+Depends: gettext
+Filename: dists/termux/extras/binary-arm/gettext-dev_0.19.8_arm.deb
+Size: 41016
+SHA256: 5d6f86711593d3344a70d0c7d3e8573ecb1251cbcb59f7097042076adff8a8df
+
+Package: gettext
+Architecture: arm
+Installed-Size: 3304
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.19.8
+Description: GNU Internationalization utilities
+Homepage: https://www.gnu.org/software/gettext/
+Depends: pcre, liblzma, libxml2, libcroco, ncurses, libunistring
+Filename: dists/termux/extras/binary-arm/gettext_0.19.8_arm.deb
+Size: 981856
+SHA256: d57d8846cee2e6d9f7ff539334da36f259862de762036f89146434e58a19d42c
 
 Package: glpk-dev
 Architecture: arm
@@ -90,6 +125,19 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libgfortran_6.3.0-3_arm.deb
 Size: 224860
 SHA256: 91378b53cbd5b1060a14faa66337848f45931d79ac4e22679d29b4b8b2cacd28
+
+Package: mpv-ext
+Architecture: arm
+Installed-Size: 1284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.24.0
+Description: Command-line media player
+Homepage: https://mpv.io/
+Depends: ffmpeg, openal-soft, libcaca
+Conflicts: mpv
+Filename: dists/termux/extras/binary-arm/mpv-ext_0.24.0_arm.deb
+Size: 482936
+SHA256: 79e8f163bcd6c3ab0d1e18d8fdd0fa2cf84cead396f78d2016e16bd356ab188f
 
 Package: numpy
 Architecture: arm
@@ -172,6 +220,17 @@ Depends: python, libgfortran, numpy, libatlas
 Filename: dists/termux/extras/binary-arm/scipy_0.19.0_arm.deb
 Size: 8562624
 SHA256: de5ab248147a5d03d5667f6561ca9f35391a5e47bf8c5e90f09960380137c50c
+
+Package: screen
+Architecture: arm
+Installed-Size: 768
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.0
+Description: Terminal multiplexer with VT100/ANSI terminal emulation
+Homepage: https://www.gnu.org/software/screen/
+Filename: dists/termux/extras/binary-arm/screen_4.4.0_arm.deb
+Size: 406104
+SHA256: 9a8d3ba3670424e0851d936ac5680fc61c82d8e69face24efc7a9f2ba5949af6
 
 Package: suitesparse-dev
 Architecture: arm
