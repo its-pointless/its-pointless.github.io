@@ -167,25 +167,25 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
 Maintainer: @its-pointless github
-Version: 4.2.1-5
+Version: 4.2.1-6
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-5_arm.deb
-Size: 351484
-SHA256: 0977f1ef761be8cea20f2abaed822cd54f2200cbfb1bdc9a298d2fa150f2aeb4
+Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-6_arm.deb
+Size: 351496
+SHA256: c1cc279729338d5a98dd37763ba175582020f6d6b0c506ce849a7914e4f441ed
 
 Package: octave
 Architecture: arm
-Installed-Size: 25048
+Installed-Size: 25040
 Maintainer: @its-pointless github
-Version: 4.2.1-5
+Version: 4.2.1-6
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: gnuplot, libgfortran, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libatlas
-Filename: dists/termux/extras/binary-arm/octave_4.2.1-5_arm.deb
-Size: 4810700
-SHA256: de924b63f179f4f8ebe3c83cc7cdd61ea4b298e2ac4feee0d91dd5818e2a1b42
+Depends: libcrypt, libcurl, gnuplot, libgfortran, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libatlas
+Filename: dists/termux/extras/binary-arm/octave_4.2.1-6_arm.deb
+Size: 4810452
+SHA256: 7f130db1251e3c0bbc7c1c26d5fc6bd1be8c66b5dbd8a8844d4468388f62478d
 
 Package: qhull-dev
 Architecture: arm

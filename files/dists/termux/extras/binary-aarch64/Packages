@@ -144,25 +144,25 @@ Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5644
 Maintainer: @its-pointless github
-Version: 4.2.1-5
+Version: 4.2.1-6
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.1-5_aarch64.deb
-Size: 351544
-SHA256: b488c15ecd82e110616d851326012e6750a5f52f001cda20f937c440aabf79d9
+Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.1-6_aarch64.deb
+Size: 351536
+SHA256: c6a3c1f5425e95cd063352de8c906e97058ec5ccf97fb3c1bacc16cb62de1b5b
 
 Package: octave
 Architecture: aarch64
-Installed-Size: 32644
+Installed-Size: 32628
 Maintainer: @its-pointless github
-Version: 4.2.1-5
+Version: 4.2.1-6
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: gnuplot, libgfortran, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, openblas
-Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-5_aarch64.deb
-Size: 5019852
-SHA256: 705cc69ca15c1720578acc9bed8b85a560f63aaf58bcdecaf9e764b37f9f02e1
+Depends: libcrypt, libcurl, gnuplot, libgfortran, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, openblas
+Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-6_aarch64.deb
+Size: 5014140
+SHA256: 306501328b02fde09ce0cfbae2f7dcb3d5d163d6bcfad84e70bfbe29c3702578
 
 Package: openblas
 Architecture: aarch64
