@@ -92,6 +92,18 @@ Filename: dists/termux/extras/binary-aarch64/glpk_4.61_aarch64.deb
 Size: 288828
 SHA256: 5109e9f78f3aa19cfa40c2911ac59aed57d61addf652c5cb19b5ed44ac7bda8b
 
+Package: graphicsmagick++
+Architecture: aarch64
+Installed-Size: 400
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.25-1
+Description: grahicsmagic c++ version
+Homepage: http://www.graphicsmagick.org/
+Depends: graphicsmagick
+Filename: dists/termux/extras/binary-aarch64/graphicsmagick++_1.3.25-1_aarch64.deb
+Size: 66388
+SHA256: 8feb8fbe735a5167c4b88baf5dc8e173ef3238726092d2fe81f811abc7bc2cce
+
 Package: libgfortran
 Architecture: aarch64
 Installed-Size: 1504

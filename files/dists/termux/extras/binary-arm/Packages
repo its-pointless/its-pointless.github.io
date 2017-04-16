@@ -92,6 +92,18 @@ Filename: dists/termux/extras/binary-arm/glpk_4.61_arm.deb
 Size: 306520
 SHA256: 223fb0b1753aa2f552a9fa9a56946fe302c0bff29f6eb2fbcdb13ba0ac907b83
 
+Package: graphicsmagick++
+Architecture: arm
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.25-1
+Description: grahicsmagic c++ version
+Homepage: http://www.graphicsmagick.org/
+Depends: graphicsmagick
+Filename: dists/termux/extras/binary-arm/graphicsmagick++_1.3.25-1_arm.deb
+Size: 63188
+SHA256: 387580e6ca32a5f7c2bc780e486d2623f0bb8a945efd054e6182a0a9f4bee123
+
 Package: libatlas-dev
 Architecture: arm
 Installed-Size: 592
