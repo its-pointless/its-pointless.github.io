@@ -45,30 +45,6 @@ Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-3_aarch64.deb
 Size: 225364
 SHA256: d1a31e4d6eac8bcbc253d2c552e0fb1c9002f35bae21b33d54a3a91196d46326
 
-Package: gettext-dev
-Architecture: aarch64
-Installed-Size: 300
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.19.8
-Description: Development files for gettext
-Homepage: https://www.gnu.org/software/gettext/
-Depends: gettext
-Filename: dists/termux/extras/binary-aarch64/gettext-dev_0.19.8_aarch64.deb
-Size: 41024
-SHA256: 660d7ab1b9d7591bd81cc81a764e4151786783749847e92272dddd9589a31067
-
-Package: gettext
-Architecture: aarch64
-Installed-Size: 3956
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.19.8
-Description: GNU Internationalization utilities
-Homepage: https://www.gnu.org/software/gettext/
-Depends: pcre, liblzma, libxml2, libcroco, ncurses, libunistring
-Filename: dists/termux/extras/binary-aarch64/gettext_0.19.8_aarch64.deb
-Size: 1013952
-SHA256: 1f1566a6fb01a3c794dc0a41173d8167741a0a7b67428e70f6c3b1e034204cf9
-
 Package: glpk-dev
 Architecture: aarch64
 Installed-Size: 40
