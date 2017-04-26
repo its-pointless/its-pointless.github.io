@@ -1,13 +1,14 @@
 Package: alpine
 Architecture: arm
-Installed-Size: 6460
+Installed-Size: 6628
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.20
+Version: 2.21
 Description: Fast, easy to use email client
 Homepage: http://patches.freeiz.com
-Filename: dists/termux/extras/binary-arm/alpine_2.20_arm.deb
-Size: 1489336
-SHA256: 3d534f31408791455b7353bf4c4661692df6590d59d99439ffa30a72ff1b2ca1
+Depends: openssl
+Filename: dists/termux/extras/binary-arm/alpine_2.21_arm.deb
+Size: 1518664
+SHA256: d90c0647e4d6e0c897e1ec8ee8a2025f6bc19b24505a45d33caa8a8352dacecc
 
 Package: arpack-ng
 Architecture: arm
@@ -220,17 +221,6 @@ Depends: python, libgfortran, numpy, libatlas
 Filename: dists/termux/extras/binary-arm/scipy_0.19.0_arm.deb
 Size: 8562624
 SHA256: de5ab248147a5d03d5667f6561ca9f35391a5e47bf8c5e90f09960380137c50c
-
-Package: screen
-Architecture: arm
-Installed-Size: 768
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.0
-Description: Terminal multiplexer with VT100/ANSI terminal emulation
-Homepage: https://www.gnu.org/software/screen/
-Filename: dists/termux/extras/binary-arm/screen_4.4.0_arm.deb
-Size: 406104
-SHA256: 9a8d3ba3670424e0851d936ac5680fc61c82d8e69face24efc7a9f2ba5949af6
 
 Package: suitesparse-dev
 Architecture: arm

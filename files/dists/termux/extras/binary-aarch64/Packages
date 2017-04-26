@@ -1,13 +1,14 @@
 Package: alpine
 Architecture: aarch64
-Installed-Size: 8276
+Installed-Size: 8444
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.20
+Version: 2.21
 Description: Fast, easy to use email client
 Homepage: http://patches.freeiz.com
-Filename: dists/termux/extras/binary-aarch64/alpine_2.20_aarch64.deb
-Size: 1514052
-SHA256: 65438ed90b0b1fb3548eb77aa937d19d6ab00237be435c3fef136e023928c032
+Depends: openssl
+Filename: dists/termux/extras/binary-aarch64/alpine_2.21_aarch64.deb
+Size: 1544292
+SHA256: d9a538fded4e6a871c5b618b99de3c867e59cce66363fbd96d5e934bb52e1375
 
 Package: arpack-ng
 Architecture: aarch64
@@ -197,17 +198,6 @@ Depends: python, libgfortran, numpy, openblas
 Filename: dists/termux/extras/binary-aarch64/scipy_0.19.0-2_aarch64.deb
 Size: 8661612
 SHA256: 4b63c6c03e7748f27df750ee5bc67e2fe3c2b7a231525add5219f68e609f8041
-
-Package: screen
-Architecture: aarch64
-Installed-Size: 832
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.0
-Description: Terminal multiplexer with VT100/ANSI terminal emulation
-Homepage: https://www.gnu.org/software/screen/
-Filename: dists/termux/extras/binary-aarch64/screen_4.4.0_aarch64.deb
-Size: 381848
-SHA256: 7ef6312d678aab1e5dc5cdf238a0f9147de10498c8b3dc553b43e2772bdcea25
 
 Package: suitesparse-dev
 Architecture: aarch64
