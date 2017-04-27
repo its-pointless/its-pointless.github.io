@@ -187,6 +187,18 @@ Filename: dists/termux/extras/binary-aarch64/qrupdate_1.1.2_aarch64.deb
 Size: 48428
 SHA256: bea4ed183e23063bd21c0807c990ec2c71802b46b18ff05bb6470d3bf18144f0
 
+Package: r-cran
+Architecture: aarch64
+Installed-Size: 59048
+Maintainer: @its-pointless github
+Version: 3.3.3-1
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: python, libgfortran, numpy, openblas, liblzma, readline, pcre, libcurl, libbz2
+Filename: dists/termux/extras/binary-aarch64/r-cran_3.3.3-1_aarch64.deb
+Size: 36024900
+SHA256: e9d9e33ba42d15271b4d32655a7644d07b70c18c6cee382c5f5311c38733d08b
+
 Package: scipy
 Architecture: aarch64
 Installed-Size: 42180
