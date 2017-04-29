@@ -22,6 +22,30 @@ Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.4.0_aarch64.deb
 Size: 80576
 SHA256: bfd6ae611946836c219d56c61c196875e06827e4ca9ee24a41fc5adb4dc0b34f
 
+Package: boost-dev
+Architecture: aarch64
+Installed-Size: 125560
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.60.0
+Description: Development files for boost
+Homepage: https://boost.org
+Depends: boost
+Filename: dists/termux/extras/binary-aarch64/boost-dev_1.60.0_aarch64.deb
+Size: 6093752
+SHA256: 5e044fcbb6c5039edf362bced41593ba23be58632ed7ffba388ea5ce5a0a15f9
+
+Package: boost
+Architecture: aarch64
+Installed-Size: 1808
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.60.0
+Description: cpp libs
+Homepage: https://boost.org
+Depends: libbz2
+Filename: dists/termux/extras/binary-aarch64/boost_1.60.0_aarch64.deb
+Size: 307384
+SHA256: 1d41df544565cb6742576bfae477c8b798bde722daaa2807a30bb62880ee1d17
+
 Package: gcc-6
 Architecture: aarch64
 Installed-Size: 71272
@@ -80,6 +104,30 @@ Depends: graphicsmagick
 Filename: dists/termux/extras/binary-aarch64/graphicsmagick++_1.3.25-1_aarch64.deb
 Size: 66388
 SHA256: 8feb8fbe735a5167c4b88baf5dc8e173ef3238726092d2fe81f811abc7bc2cce
+
+Package: ledger-dev
+Architecture: aarch64
+Installed-Size: 560
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.1
+Description: Development files for ledger
+Homepage: http://ledger-cli.org/
+Depends: ledger
+Filename: dists/termux/extras/binary-aarch64/ledger-dev_3.1.1_aarch64.deb
+Size: 66216
+SHA256: da13e2d45275a83956658207a7d1aa52ea9553f30bf356c7870834679f1fb0cd
+
+Package: ledger
+Architecture: aarch64
+Installed-Size: 3752
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.1
+Description: Powerful, double-entry accounting system
+Homepage: http://ledger-cli.org/
+Depends: boost, uft8cpp
+Filename: dists/termux/extras/binary-aarch64/ledger_3.1.1_aarch64.deb
+Size: 673952
+SHA256: d256d1e4dd049bd9e309bfe43153557e1b24f7a87c6cf9f0aaaf4e85c67d3ab7
 
 Package: libgfortran
 Architecture: aarch64
@@ -234,3 +282,14 @@ Depends: libgfortran,openblas
 Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.4_aarch64.deb
 Size: 768108
 SHA256: 913d8d1170a1c74c3371d7a9b240b113e0e1cc13e7743e04a1b1a1874bde52d7
+
+Package: utf8cpp
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.3.4
+Description: Powerful, double-entry accounting system
+Homepage: http://utfcpp.sourceforge.net/
+Filename: dists/termux/extras/binary-aarch64/utf8cpp_2.3.4_aarch64.deb
+Size: 6076
+SHA256: b4e1c96f0626f4bd011c6d4d940b51542ae5da3f7e6a4866b458a3f7a8815194
