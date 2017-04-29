@@ -36,6 +36,18 @@ SHA256: c9ce6395eb38969c0c6a412cdb9ad6843cefe7e153077e0561572ce6654367e1
 
 Package: boost
 Architecture: arm
+Installed-Size: 1952
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.60.0-1
+Description: cpp libs
+Homepage: https://boost.org
+Depends: libbz2
+Filename: dists/termux/extras/binary-arm/boost_1.60.0-1_arm.deb
+Size: 444924
+SHA256: 401bbccaf82805d311af2e3045f02d7cabe933417b8d3aacacf953223222edf6
+
+Package: boost
+Architecture: arm
 Installed-Size: 1664
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.60.0
