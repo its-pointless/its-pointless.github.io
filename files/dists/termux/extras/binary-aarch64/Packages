@@ -22,6 +22,29 @@ Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.4.0_aarch64.deb
 Size: 80576
 SHA256: bfd6ae611946836c219d56c61c196875e06827e4ca9ee24a41fc5adb4dc0b34f
 
+Package: babl-dev
+Architecture: aarch64
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1.24
+Description: Development files for babl
+Homepage: http://gmic.eu
+Depends: babl
+Filename: dists/termux/extras/binary-aarch64/babl-dev_0.1.24_aarch64.deb
+Size: 4268
+SHA256: 9831026c122816060d0e3b0d6b3eb4316a7e40fe9e18214ee3f5111cdc9b306f
+
+Package: babl
+Architecture: aarch64
+Installed-Size: 488
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1.24
+Description: imageman
+Homepage: http://gmic.eu
+Filename: dists/termux/extras/binary-aarch64/babl_0.1.24_aarch64.deb
+Size: 169400
+SHA256: 79fda028c8ccaed7aa2109f743e30b1938863519a7059a262f18d08aa5cde726
+
 Package: boost-dev
 Architecture: aarch64
 Installed-Size: 125560
@@ -70,6 +93,30 @@ Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-3_aarch64.deb
 Size: 225364
 SHA256: d1a31e4d6eac8bcbc253d2c552e0fb1c9002f35bae21b33d54a3a91196d46326
 
+Package: gegl-dev
+Architecture: aarch64
+Installed-Size: 620
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.6
+Description: Development files for gegl
+Homepage: http://gmic.eu
+Depends: gegl
+Filename: dists/termux/extras/binary-aarch64/gegl-dev_0.3.6_aarch64.deb
+Size: 64368
+SHA256: 915cf8df042fd29cb05950d1cf99d58f76855611d0ecee80d5ccb607fa208fec
+
+Package: gegl
+Architecture: aarch64
+Installed-Size: 9012
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.6
+Description: imageman
+Homepage: http://gmic.eu
+Depends: graphviz, babl, json-glib, libpng, libffi
+Filename: dists/termux/extras/binary-aarch64/gegl_0.3.6_aarch64.deb
+Size: 1164944
+SHA256: 3ffdbd9dab446f99b8c43350934b86f730a4ad6989df24a815675df7e430d6e4
+
 Package: glpk-dev
 Architecture: aarch64
 Installed-Size: 40
@@ -116,6 +163,29 @@ Depends: graphicsmagick
 Filename: dists/termux/extras/binary-aarch64/graphicsmagick++_1.3.25-1_aarch64.deb
 Size: 66388
 SHA256: 8feb8fbe735a5167c4b88baf5dc8e173ef3238726092d2fe81f811abc7bc2cce
+
+Package: json-glib-dev
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.8
+Description: Development files for json-glib
+Homepage: http://gmic.eu
+Depends: json-glib
+Filename: dists/termux/extras/binary-aarch64/json-glib-dev_1.2.8_aarch64.deb
+Size: 9616
+SHA256: dfebb7fe9dde0f9edd930a45d699ec4ee168ef550267ddfb47326718c7dab51c
+
+Package: json-glib
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.8
+Description: imageman
+Homepage: http://gmic.eu
+Filename: dists/termux/extras/binary-aarch64/json-glib_1.2.8_aarch64.deb
+Size: 40692
+SHA256: ca15700cd24cac7cdce19b0c92520f395e3d69e12a17b3fec1e72abaca7da504
 
 Package: ledger-dev
 Architecture: aarch64
