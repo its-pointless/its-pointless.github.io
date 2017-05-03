@@ -93,6 +93,18 @@ Filename: dists/termux/extras/binary-aarch64/glpk_4.61_aarch64.deb
 Size: 288828
 SHA256: 5109e9f78f3aa19cfa40c2911ac59aed57d61addf652c5cb19b5ed44ac7bda8b
 
+Package: gmic
+Architecture: aarch64
+Installed-Size: 4640
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.9
+Description: imageman
+Homepage: http://gmic.eu
+Depends: libjpeg-turbo, graphicsmagick++, libtiff, libcurl, fftw
+Filename: dists/termux/extras/binary-aarch64/gmic_1.7.9_aarch64.deb
+Size: 1253344
+SHA256: c56428d1ba762ecedf19fd3e885911d8f49e61772fedc6ac843873d1e8e79e44
+
 Package: graphicsmagick++
 Architecture: aarch64
 Installed-Size: 400
