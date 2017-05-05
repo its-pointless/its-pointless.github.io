@@ -375,6 +375,18 @@ Filename: dists/termux/extras/binary-arm/suitesparse_4.5.4_arm.deb
 Size: 510532
 SHA256: c2d5b75918969c1a21962e1b42a428cd6f06c9691a39be8d587587ce067526cd
 
+Package: tintin++
+Architecture: arm
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.01.2
+Description: classic text-based MUD client
+Homepage: http://tintin.sourceforge.net
+Depends: pcre, libgnutls, libutil
+Filename: dists/termux/extras/binary-arm/tintin++_2.01.2_arm.deb
+Size: 127492
+SHA256: d9631f364ad4a24f69ef229eb9a9cb2aad0457d6aa01063d51e2b2a39a86d979
+
 Package: utf8cpp
 Architecture: arm
 Installed-Size: 40

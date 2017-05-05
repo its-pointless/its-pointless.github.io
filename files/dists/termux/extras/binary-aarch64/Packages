@@ -365,6 +365,18 @@ Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.4_aarch64.deb
 Size: 768108
 SHA256: 913d8d1170a1c74c3371d7a9b240b113e0e1cc13e7743e04a1b1a1874bde52d7
 
+Package: tintin++
+Architecture: aarch64
+Installed-Size: 372
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.01.2
+Description: classic text-based MUD client
+Homepage: http://tintin.sourceforge.net
+Depends: pcre, libgnutls, libutil
+Filename: dists/termux/extras/binary-aarch64/tintin++_2.01.2_aarch64.deb
+Size: 119320
+SHA256: 4b0dcdbe3b5a85aa3d0e79fda54f000024438d69d437aa918422483049cae541
+
 Package: utf8cpp
 Architecture: aarch64
 Installed-Size: 40
