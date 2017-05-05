@@ -45,30 +45,6 @@ Filename: dists/termux/extras/binary-arm/babl_0.1.24_arm.deb
 Size: 177428
 SHA256: fb8b9b8082818d6e1f8bfd5efe8847ff9efd040136d03387fcde9357e531288e
 
-Package: boost-dev
-Architecture: arm
-Installed-Size: 125548
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.60.0
-Description: Development files for boost
-Homepage: https://boost.org
-Depends: boost
-Filename: dists/termux/extras/binary-arm/boost-dev_1.60.0_arm.deb
-Size: 6093384
-SHA256: c9ce6395eb38969c0c6a412cdb9ad6843cefe7e153077e0561572ce6654367e1
-
-Package: boost
-Architecture: arm
-Installed-Size: 2312
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.60.0-2
-Description: cpp libs
-Homepage: https://boost.org
-Depends: libbz2
-Filename: dists/termux/extras/binary-arm/boost_1.60.0-2_arm.deb
-Size: 520000
-SHA256: e788dfb8129c24561fc086c293dc14e273834cd72b94f82e45457bf491a3b00b
-
 Package: gcc-6
 Architecture: arm
 Installed-Size: 71496
@@ -185,30 +161,6 @@ Homepage: http://gmic.eu
 Filename: dists/termux/extras/binary-arm/json-glib_1.2.8_arm.deb
 Size: 42892
 SHA256: 50c695ec2425e1c3bd1136ba71f0ca87f907be6b79e2135fbca0f4a605009d6f
-
-Package: ledger-dev
-Architecture: arm
-Installed-Size: 560
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.1
-Description: Development files for ledger
-Homepage: http://ledger-cli.org/
-Depends: ledger
-Filename: dists/termux/extras/binary-arm/ledger-dev_3.1.1_arm.deb
-Size: 66152
-SHA256: 012e4380cc44d26b1e1f0bbd3ec5e89438cb877b039912f687142f9eb9df17ea
-
-Package: ledger
-Architecture: arm
-Installed-Size: 2740
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.1
-Description: Powerful, double-entry accounting system
-Homepage: http://ledger-cli.org/
-Depends: boost, uft8cpp
-Filename: dists/termux/extras/binary-arm/ledger_3.1.1_arm.deb
-Size: 731228
-SHA256: dd46e4c966de80aaf6c86fb7aa6aea880a2cc71e1b595ba1c0447732c602ee44
 
 Package: libatlas-dev
 Architecture: arm
