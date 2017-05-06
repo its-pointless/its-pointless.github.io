@@ -199,30 +199,6 @@ Filename: dists/termux/extras/binary-aarch64/json-glib_1.2.8_aarch64.deb
 Size: 40692
 SHA256: ca15700cd24cac7cdce19b0c92520f395e3d69e12a17b3fec1e72abaca7da504
 
-Package: ledger-dev
-Architecture: aarch64
-Installed-Size: 560
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.1
-Description: Development files for ledger
-Homepage: http://ledger-cli.org/
-Depends: ledger
-Filename: dists/termux/extras/binary-aarch64/ledger-dev_3.1.1_aarch64.deb
-Size: 66256
-SHA256: 9bf7dd6260518d6c57e2cef3cad3efa9336b470f08233397c7943cf317c3e3eb
-
-Package: ledger
-Architecture: aarch64
-Installed-Size: 3816
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.1
-Description: Powerful, double-entry accounting system
-Homepage: http://ledger-cli.org/
-Depends: boost, utf8cpp
-Filename: dists/termux/extras/binary-aarch64/ledger_3.1.1_aarch64.deb
-Size: 674792
-SHA256: cc746037adfc31548c0b7b97275cb4998d88d3b788842099d1b39d56845c122d
-
 Package: libgfortran
 Architecture: aarch64
 Installed-Size: 1504

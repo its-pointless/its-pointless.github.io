@@ -198,30 +198,6 @@ Filename: dists/termux/extras/binary-arm/json-glib_1.2.8_arm.deb
 Size: 42892
 SHA256: 50c695ec2425e1c3bd1136ba71f0ca87f907be6b79e2135fbca0f4a605009d6f
 
-Package: ledger-dev
-Architecture: arm
-Installed-Size: 560
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.1
-Description: Development files for ledger
-Homepage: http://ledger-cli.org/
-Depends: ledger
-Filename: dists/termux/extras/binary-arm/ledger-dev_3.1.1_arm.deb
-Size: 66064
-SHA256: 156f5b24ff99c3bfd1d4bd1eb56bedfb2b1a3b1299d36db4d0f6284319afb621
-
-Package: ledger
-Architecture: arm
-Installed-Size: 2812
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.1
-Description: Powerful, double-entry accounting system
-Homepage: http://ledger-cli.org/
-Depends: boost, utf8cpp
-Filename: dists/termux/extras/binary-arm/ledger_3.1.1_arm.deb
-Size: 731536
-SHA256: 6099b8b189c244d9b2d6882f7ae47f8c6ea834f59056519aac947da9a2f59eec
-
 Package: libatlas-dev
 Architecture: arm
 Installed-Size: 592
