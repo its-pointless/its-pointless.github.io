@@ -73,25 +73,25 @@ Package: gegl-dev
 Architecture: arm
 Installed-Size: 620
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.6
+Version: 0.3.14
 Description: Development files for gegl
-Homepage: http://gmic.eu
+Homepage: gegl.org
 Depends: gegl
-Filename: dists/termux/extras/binary-arm/gegl-dev_0.3.6_arm.deb
-Size: 64292
-SHA256: 771fd3dba0d23cadec05500ca0616e7dced23a87a4461e8fc8801a25f73ab8bd
+Filename: dists/termux/extras/binary-arm/gegl-dev_0.3.14_arm.deb
+Size: 64272
+SHA256: 58381f6d10f5b75604050b88d80d93b0d65c44388744ca9aac387f95b8f33d69
 
 Package: gegl
 Architecture: arm
-Installed-Size: 8756
+Installed-Size: 8620
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.6
-Description: imageman
-Homepage: http://gmic.eu
-Depends: graphviz, babl, json-glib, libpng, libffi
-Filename: dists/termux/extras/binary-arm/gegl_0.3.6_arm.deb
-Size: 1236596
-SHA256: 25063c3488193844fa3e5a079ade665ab16c77621734185a9b73eb34740e406a
+Version: 0.3.14
+Description: data flow based image processing framework
+Homepage: gegl.org
+Depends: ffmpeg, graphviz, babl, json-glib, libpng, libffi
+Filename: dists/termux/extras/binary-arm/gegl_0.3.14_arm.deb
+Size: 1216448
+SHA256: 8f2afc820c9d359367fb4b7f4c43bb046ccee8ca63076f0ef6bd9e3610e603d7
 
 Package: glpk-dev
 Architecture: arm

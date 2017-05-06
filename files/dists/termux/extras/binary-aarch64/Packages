@@ -73,25 +73,25 @@ Package: gegl-dev
 Architecture: aarch64
 Installed-Size: 620
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.6
+Version: 0.3.14
 Description: Development files for gegl
-Homepage: http://gmic.eu
+Homepage: gegl.org
 Depends: gegl
-Filename: dists/termux/extras/binary-aarch64/gegl-dev_0.3.6_aarch64.deb
-Size: 64368
-SHA256: 915cf8df042fd29cb05950d1cf99d58f76855611d0ecee80d5ccb607fa208fec
+Filename: dists/termux/extras/binary-aarch64/gegl-dev_0.3.14_aarch64.deb
+Size: 64480
+SHA256: 0b78ae1c6cb074f55e7e2df5668e0437c68d0966f663aad9066cf1ae73c914e9
 
 Package: gegl
 Architecture: aarch64
 Installed-Size: 9012
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.6
-Description: imageman
-Homepage: http://gmic.eu
-Depends: graphviz, babl, json-glib, libpng, libffi
-Filename: dists/termux/extras/binary-aarch64/gegl_0.3.6_aarch64.deb
-Size: 1164944
-SHA256: 3ffdbd9dab446f99b8c43350934b86f730a4ad6989df24a815675df7e430d6e4
+Version: 0.3.14
+Description: data flow based image processing framework
+Homepage: gegl.org
+Depends: ffmpeg, graphviz, babl, json-glib, libpng, libffi
+Filename: dists/termux/extras/binary-aarch64/gegl_0.3.14_aarch64.deb
+Size: 1165948
+SHA256: 852fbeb10068354cdfb46f9a9ae145a398b9b134315e5b22ca64d3e65f74b2a0
 
 Package: glpk-dev
 Architecture: aarch64
