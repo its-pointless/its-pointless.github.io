@@ -163,6 +163,30 @@ Filename: dists/termux/extras/binary-aarch64/json-glib_1.2.8_aarch64.deb
 Size: 40692
 SHA256: ca15700cd24cac7cdce19b0c92520f395e3d69e12a17b3fec1e72abaca7da504
 
+Package: ledger-dev
+Architecture: aarch64
+Installed-Size: 560
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.1
+Description: Development files for ledger
+Homepage: http://ledger-cli.org/
+Depends: ledger
+Filename: dists/termux/extras/binary-aarch64/ledger-dev_3.1.1_aarch64.deb
+Size: 66256
+SHA256: 9bf7dd6260518d6c57e2cef3cad3efa9336b470f08233397c7943cf317c3e3eb
+
+Package: ledger
+Architecture: aarch64
+Installed-Size: 3816
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.1
+Description: Powerful, double-entry accounting system
+Homepage: http://ledger-cli.org/
+Depends: boost, utf8cpp
+Filename: dists/termux/extras/binary-aarch64/ledger_3.1.1_aarch64.deb
+Size: 674792
+SHA256: cc746037adfc31548c0b7b97275cb4998d88d3b788842099d1b39d56845c122d
+
 Package: libgfortran
 Architecture: aarch64
 Installed-Size: 1504
@@ -186,6 +210,18 @@ Conflicts: mpv
 Filename: dists/termux/extras/binary-aarch64/mpv-ext_0.24.0_aarch64.deb
 Size: 475212
 SHA256: 8e879c4149dcaab0d24e8f5d5a86c6b17e81fb2895a98ca9abce78940768aea8
+
+Package: ncmpcpp
+Architecture: aarch64
+Installed-Size: 1820
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.7
+Description: NCurses Music Player Client (Plus Plus)
+Homepage: https://rybczak.net/ncmpcpp/
+Depends: boost, readline, libcurl, libmpdclient
+Filename: dists/termux/extras/binary-aarch64/ncmpcpp_0.7.7_aarch64.deb
+Size: 352168
+SHA256: 361027b062f9395c4d3e7df35c9bb5796d18efe706a268b6efb26bb5f89722e0
 
 Package: numpy
 Architecture: aarch64
@@ -316,18 +352,6 @@ Depends: libgfortran,openblas
 Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.4_aarch64.deb
 Size: 768108
 SHA256: 913d8d1170a1c74c3371d7a9b240b113e0e1cc13e7743e04a1b1a1874bde52d7
-
-Package: tintin++
-Architecture: aarch64
-Installed-Size: 372
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.01.2
-Description: classic text-based MUD client
-Homepage: http://tintin.sourceforge.net
-Depends: pcre, libgnutls, libutil
-Filename: dists/termux/extras/binary-aarch64/tintin++_2.01.2_aarch64.deb
-Size: 119320
-SHA256: 4b0dcdbe3b5a85aa3d0e79fda54f000024438d69d437aa918422483049cae541
 
 Package: utf8cpp
 Architecture: aarch64
