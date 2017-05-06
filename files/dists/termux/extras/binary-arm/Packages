@@ -45,6 +45,18 @@ Filename: dists/termux/extras/binary-arm/babl_0.1.24_arm.deb
 Size: 177428
 SHA256: fb8b9b8082818d6e1f8bfd5efe8847ff9efd040136d03387fcde9357e531288e
 
+Package: cadaver
+Architecture: arm
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.23.3
+Description: cadaver is a command-line WebDAV client for Unix
+Homepage: http://www.webdav.org/cadaver/
+Depends: libgcrypt, libgnutls, libxml2, ncurses, readline
+Filename: dists/termux/extras/binary-arm/cadaver_0.23.3_arm.deb
+Size: 60564
+SHA256: d97a0d0fcf9aaaa273339a1df15cba4194870ce6e4647de4f837f6a7726a629a
+
 Package: gcc-6
 Architecture: arm
 Installed-Size: 71496
@@ -139,6 +151,30 @@ Filename: dists/termux/extras/binary-arm/graphicsmagick++_1.3.25-1_arm.deb
 Size: 63188
 SHA256: 387580e6ca32a5f7c2bc780e486d2623f0bb8a945efd054e6182a0a9f4bee123
 
+Package: httping
+Architecture: arm
+Installed-Size: 68
+Maintainer: Pierre Rudloff @Rudloff
+Version: 2.5
+Description: ping-like program for http-requests
+Homepage: https://www.vanheusden.com/httping/
+Depends: openssl
+Filename: dists/termux/extras/binary-arm/httping_2.5_arm.deb
+Size: 30260
+SHA256: 1cb389aa196e970d677e9669fc0727100a65e751e89575885030926d3690a888
+
+Package: icecast
+Architecture: arm
+Installed-Size: 268
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.3
+Description: Icecast is a streaming media (audio/video) server
+Homepage: http://icecast.org
+Depends: libcurl, libgnutls, libogg, libvorbis, libxml2, libxslt, mime-support, openssl
+Filename: dists/termux/extras/binary-arm/icecast_2.4.3_arm.deb
+Size: 93796
+SHA256: 2fefa7303abc5daa149e58fdc692dd5b70358c0e528c2325a16d99e9951c55ae
+
 Package: json-glib-dev
 Architecture: arm
 Installed-Size: 108
@@ -219,6 +255,42 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libgfortran_6.3.0-3_arm.deb
 Size: 224860
 SHA256: 91378b53cbd5b1060a14faa66337848f45931d79ac4e22679d29b4b8b2cacd28
+
+Package: mailutils-dev
+Architecture: arm
+Installed-Size: 688
+Maintainer: Pierre Rudloff <contact@rudloff.pro>
+Version: 3.2
+Description: Development files for mailutils
+Homepage: http://mailutils.org/
+Depends: mailutils
+Filename: dists/termux/extras/binary-arm/mailutils-dev_3.2_arm.deb
+Size: 65768
+SHA256: c9bea6191cea9da642aac339714962e35b0b0d2fc60cf0f6103583cb4737c930
+
+Package: mailutils
+Architecture: arm
+Installed-Size: 2876
+Maintainer: Pierre Rudloff <contact@rudloff.pro>
+Version: 3.2
+Description: GNU mailutils utilities for handling mail
+Homepage: http://mailutils.org/
+Depends: libandroid-glob, libcrypt
+Filename: dists/termux/extras/binary-arm/mailutils_3.2_arm.deb
+Size: 642672
+SHA256: b11a9ab367742626e836863c945bf9888962224c8e997f74cc9ddba71fb5c1fe
+
+Package: megatools
+Architecture: arm
+Installed-Size: 740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.98
+Description: Open-source command line tools and C library (libmega) for accessing Mega.co.nz cloud storage
+Homepage: https://github.com/megous/megatools
+Depends: glib, libandroid-support, libcurl, libgmp, openssl
+Filename: dists/termux/extras/binary-arm/megatools_1.9.98_arm.deb
+Size: 93952
+SHA256: 7917137f7cff454f5c41b95b11b863caa8728c2de82cb5fdf84dd9cc7af3d9f3
 
 Package: mpv-ext
 Architecture: arm

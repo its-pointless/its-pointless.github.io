@@ -45,6 +45,18 @@ Filename: dists/termux/extras/binary-aarch64/babl_0.1.24_aarch64.deb
 Size: 169400
 SHA256: 79fda028c8ccaed7aa2109f743e30b1938863519a7059a262f18d08aa5cde726
 
+Package: cadaver
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.23.3
+Description: cadaver is a command-line WebDAV client for Unix
+Homepage: http://www.webdav.org/cadaver/
+Depends: libgcrypt, libgnutls, libxml2, ncurses, readline
+Filename: dists/termux/extras/binary-aarch64/cadaver_0.23.3_aarch64.deb
+Size: 60268
+SHA256: 24ab5636c1d7c7eb9d088a43e2ad4d159319ab91f9b8d877c5deb2dea63e929a
+
 Package: gcc-6
 Architecture: aarch64
 Installed-Size: 71272
@@ -140,6 +152,30 @@ Filename: dists/termux/extras/binary-aarch64/graphicsmagick++_1.3.25-1_aarch64.d
 Size: 66388
 SHA256: 8feb8fbe735a5167c4b88baf5dc8e173ef3238726092d2fe81f811abc7bc2cce
 
+Package: httping
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: Pierre Rudloff @Rudloff
+Version: 2.5
+Description: ping-like program for http-requests
+Homepage: https://www.vanheusden.com/httping/
+Depends: openssl
+Filename: dists/termux/extras/binary-aarch64/httping_2.5_aarch64.deb
+Size: 25004
+SHA256: 0853037eddffecba346caa7a673cf2e61e684da82eff8717bdb76587018b229e
+
+Package: icecast
+Architecture: aarch64
+Installed-Size: 304
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.3
+Description: Icecast is a streaming media (audio/video) server
+Homepage: http://icecast.org
+Depends: libcurl, libgnutls, libogg, libvorbis, libxml2, libxslt, mime-support, openssl
+Filename: dists/termux/extras/binary-aarch64/icecast_2.4.3_aarch64.deb
+Size: 88036
+SHA256: 53c976d6241aef69485a131775b0c4823de499dd670309c824396347f6339fb5
+
 Package: json-glib-dev
 Architecture: aarch64
 Installed-Size: 108
@@ -197,6 +233,42 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libgfortran_6.3.0-3_aarch64.deb
 Size: 281520
 SHA256: 03ccd2bef16671ade2915b54b03ddc7e87f34a80fe248485512802f6779c2027
+
+Package: mailutils-dev
+Architecture: aarch64
+Installed-Size: 688
+Maintainer: Pierre Rudloff <contact@rudloff.pro>
+Version: 3.2
+Description: Development files for mailutils
+Homepage: http://mailutils.org/
+Depends: mailutils
+Filename: dists/termux/extras/binary-aarch64/mailutils-dev_3.2_aarch64.deb
+Size: 65744
+SHA256: 59d9af99ec7313e2b1c7781294bf88cdb0bcfc101cc770fee3760d5882de3df9
+
+Package: mailutils
+Architecture: aarch64
+Installed-Size: 3940
+Maintainer: Pierre Rudloff <contact@rudloff.pro>
+Version: 3.2
+Description: GNU mailutils utilities for handling mail
+Homepage: http://mailutils.org/
+Depends: libandroid-glob, libcrypt
+Filename: dists/termux/extras/binary-aarch64/mailutils_3.2_aarch64.deb
+Size: 652876
+SHA256: 1d8a871da34523465e382ddb88a73be900c7136909e2657aa3a57a7f2f88b0b3
+
+Package: megatools
+Architecture: aarch64
+Installed-Size: 972
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.98
+Description: Open-source command line tools and C library (libmega) for accessing Mega.co.nz cloud storage
+Homepage: https://github.com/megous/megatools
+Depends: glib, libandroid-support, libcurl, libgmp, openssl
+Filename: dists/termux/extras/binary-aarch64/megatools_1.9.98_aarch64.deb
+Size: 92980
+SHA256: 61a7bb6f1acc80e81c39bb4b6b6d794d904e110670aa05e575487a3be0b434e1
 
 Package: mpv-ext
 Architecture: aarch64
