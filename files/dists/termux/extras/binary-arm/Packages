@@ -186,6 +186,18 @@ Filename: dists/termux/extras/binary-arm/imapfilter_2.6.10_arm.deb
 Size: 41124
 SHA256: 5d125238d5751eab89fea75092f905243bcc99af66aba62bc9540d49b847c230
 
+Package: imgflo
+Architecture: arm
+Installed-Size: 188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.2
+Description: imageman
+Homepage: http://gmic.eu
+Depends: gegl, libsoup
+Filename: dists/termux/extras/binary-arm/imgflo_0.4.2_arm.deb
+Size: 34944
+SHA256: 7f521878a36ec5530494c84bc25b3ab7f11accd46f75f41d7f20433b2414e0a3
+
 Package: json-glib-dev
 Architecture: arm
 Installed-Size: 108
@@ -242,6 +254,30 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libgfortran_6.3.0-3_arm.deb
 Size: 224860
 SHA256: 91378b53cbd5b1060a14faa66337848f45931d79ac4e22679d29b4b8b2cacd28
+
+Package: libsoup-dev
+Architecture: arm
+Installed-Size: 308
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.58.0
+Description: Development files for libsoup
+Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
+Depends: libsoup
+Filename: dists/termux/extras/binary-arm/libsoup-dev_2.58.0_arm.deb
+Size: 24672
+SHA256: 811dc0f4efbb77fa66b21990ea209f43c66826e3f8647b8ea04443f741ff4a0c
+
+Package: libsoup
+Architecture: arm
+Installed-Size: 572
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.58.0
+Description: libsoup is an HTTP client/server library for GNOME
+Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
+Depends: glib, krb5. libffi, libsqlite3
+Filename: dists/termux/extras/binary-arm/libsoup_2.58.0_arm.deb
+Size: 177264
+SHA256: cd87d1cec6587f1d43ab57f9d184718bceecacb29d3608f269dcc0af89c14e64
 
 Package: mailutils-dev
 Architecture: arm
