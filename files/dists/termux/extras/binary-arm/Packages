@@ -232,6 +232,30 @@ Filename: dists/termux/extras/binary-arm/libatlas_3.10.3_arm.deb
 Size: 2368208
 SHA256: f28c8d31b96e6035609944cdda3858ada80e6995124cd51d6bdb95f8a2a609cf
 
+Package: libbthread-dev
+Architecture: arm
+Installed-Size: 4
+Maintainer: tux-mind
+Version: 0.2
+Description: Development files for libbthread
+Homepage: https://github.com/tux-mind/libbthread
+Depends: libbthread
+Filename: dists/termux/extras/binary-arm/libbthread-dev_0.2_arm.deb
+Size: 984
+SHA256: 73156b72198385caf0749db4286c5b6fe88c86a7e39a6ef7f60643fc339059e9
+
+Package: libbthread
+Architecture: arm
+Installed-Size: 4
+Maintainer: tux-mind
+Version: 0.2
+Description: libpthread add-on.
+Homepage: https://github.com/tux-mind/libbthread
+Depends: ndk-sysroot
+Filename: dists/termux/extras/binary-arm/libbthread_0.2_arm.deb
+Size: 2160
+SHA256: dd6d71d50e70a2eb2c6341c2c139e2150cb66486ed452fdbac9dcfca02b83df2
+
 Package: libgfortran
 Architecture: arm
 Installed-Size: 1128

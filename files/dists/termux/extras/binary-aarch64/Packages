@@ -210,6 +210,30 @@ Filename: dists/termux/extras/binary-aarch64/json-glib_1.2.8_aarch64.deb
 Size: 40692
 SHA256: ca15700cd24cac7cdce19b0c92520f395e3d69e12a17b3fec1e72abaca7da504
 
+Package: libbthread-dev
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: tux-mind
+Version: 0.2
+Description: Development files for libbthread
+Homepage: https://github.com/tux-mind/libbthread
+Depends: libbthread
+Filename: dists/termux/extras/binary-aarch64/libbthread-dev_0.2_aarch64.deb
+Size: 984
+SHA256: 7ef2f298a2210096524432dff542697570ebe7373ae587bc4c10d0d26c71eb69
+
+Package: libbthread
+Architecture: aarch64
+Installed-Size: 8
+Maintainer: tux-mind
+Version: 0.2
+Description: libpthread add-on.
+Homepage: https://github.com/tux-mind/libbthread
+Depends: ndk-sysroot
+Filename: dists/termux/extras/binary-aarch64/libbthread_0.2_aarch64.deb
+Size: 2168
+SHA256: 431d79ea1722fba413787e12b286210bf804d1ff3d38a808dcbfb568decebe55
+
 Package: libgfortran
 Architecture: aarch64
 Installed-Size: 1504
