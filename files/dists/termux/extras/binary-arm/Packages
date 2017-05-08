@@ -243,30 +243,6 @@ Filename: dists/termux/extras/binary-arm/libgfortran_6.3.0-3_arm.deb
 Size: 224860
 SHA256: 91378b53cbd5b1060a14faa66337848f45931d79ac4e22679d29b4b8b2cacd28
 
-Package: libsoup-dev
-Architecture: arm
-Installed-Size: 308
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.58.0
-Description: Development files for libsoup
-Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
-Depends: libsoup
-Filename: dists/termux/extras/binary-arm/libsoup-dev_2.58.0_arm.deb
-Size: 24672
-SHA256: 811dc0f4efbb77fa66b21990ea209f43c66826e3f8647b8ea04443f741ff4a0c
-
-Package: libsoup
-Architecture: arm
-Installed-Size: 572
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.58.0
-Description: libsoup is an HTTP client/server library for GNOME
-Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
-Depends: glib, krb5. libffi, libsqlite3
-Filename: dists/termux/extras/binary-arm/libsoup_2.58.0_arm.deb
-Size: 177264
-SHA256: cd87d1cec6587f1d43ab57f9d184718bceecacb29d3608f269dcc0af89c14e64
-
 Package: mailutils-dev
 Architecture: arm
 Installed-Size: 688
