@@ -175,6 +175,18 @@ Filename: dists/termux/extras/binary-aarch64/imapfilter_2.6.10_aarch64.deb
 Size: 40616
 SHA256: d2d42ed4b73059c65d4b8e2845f485e5b54ff74e16f668971a8b2fbbab927eac
 
+Package: imgflo
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.2
+Description: imageman
+Homepage: http://gmic.eu
+Depends: gegl, libsoup
+Filename: dists/termux/extras/binary-aarch64/imgflo_0.4.2_aarch64.deb
+Size: 34216
+SHA256: 61b9f657370e67290e33505f5f00b0d1c40c7a7b5e9403d46f530af6f428e90e
+
 Package: json-glib-dev
 Architecture: aarch64
 Installed-Size: 108
@@ -208,6 +220,30 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libgfortran_6.3.0-3_aarch64.deb
 Size: 281520
 SHA256: 03ccd2bef16671ade2915b54b03ddc7e87f34a80fe248485512802f6779c2027
+
+Package: libsoup-dev
+Architecture: aarch64
+Installed-Size: 308
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.58.0
+Description: Development files for libsoup
+Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
+Depends: libsoup
+Filename: dists/termux/extras/binary-aarch64/libsoup-dev_2.58.0_aarch64.deb
+Size: 24736
+SHA256: e1044f3425396196c012b0011426f5def918c9aecc383ec498ce985556605308
+
+Package: libsoup
+Architecture: aarch64
+Installed-Size: 892
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.58.0
+Description: libsoup is an HTTP client/server library for GNOME
+Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
+Depends: glib, krb5, libffi, libsqlite
+Filename: dists/termux/extras/binary-aarch64/libsoup_2.58.0_aarch64.deb
+Size: 183904
+SHA256: 2354b9b0cf76c65d2875272f2e21a103397a716394cc1258c450f40d9721c77b
 
 Package: mailutils-dev
 Architecture: aarch64
