@@ -434,6 +434,18 @@ Filename: dists/termux/extras/binary-arm/r-cran_3.3.3-1_arm.deb
 Size: 34787932
 SHA256: 26bfc2f6f310210e1eccd76762ad1d591bde92a36fee8d85fcb2056a2c53a0a2
 
+Package: r-cran
+Architecture: arm
+Installed-Size: 55432
+Maintainer: @its-pointless github
+Version: 3.3.3-2
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: libgfortran, libatlas, liblzma, readline, pcre, libicu, libcurl, libbz2
+Filename: dists/termux/extras/binary-arm/r-cran_3.3.3-2_arm.deb
+Size: 35273380
+SHA256: 1045f342a070ed5c6aabdd84f3aaf72a71c831dbc1ee59ad6ee7134b5d5b8035
+
 Package: scipy
 Architecture: arm
 Installed-Size: 37068
