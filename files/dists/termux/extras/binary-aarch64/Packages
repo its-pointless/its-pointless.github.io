@@ -22,29 +22,6 @@ Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.4.0_aarch64.deb
 Size: 80576
 SHA256: bfd6ae611946836c219d56c61c196875e06827e4ca9ee24a41fc5adb4dc0b34f
 
-Package: babl-dev
-Architecture: aarch64
-Installed-Size: 32
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.1.24
-Description: Development files for babl
-Homepage: http://gmic.eu
-Depends: babl
-Filename: dists/termux/extras/binary-aarch64/babl-dev_0.1.24_aarch64.deb
-Size: 4268
-SHA256: 9831026c122816060d0e3b0d6b3eb4316a7e40fe9e18214ee3f5111cdc9b306f
-
-Package: babl
-Architecture: aarch64
-Installed-Size: 488
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.1.24
-Description: imageman
-Homepage: http://gmic.eu
-Filename: dists/termux/extras/binary-aarch64/babl_0.1.24_aarch64.deb
-Size: 169400
-SHA256: 79fda028c8ccaed7aa2109f743e30b1938863519a7059a262f18d08aa5cde726
-
 Package: cadaver
 Architecture: aarch64
 Installed-Size: 168
@@ -80,30 +57,6 @@ Depends: gcc-6
 Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-3_aarch64.deb
 Size: 225364
 SHA256: d1a31e4d6eac8bcbc253d2c552e0fb1c9002f35bae21b33d54a3a91196d46326
-
-Package: gegl-dev
-Architecture: aarch64
-Installed-Size: 620
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.14
-Description: Development files for gegl
-Homepage: gegl.org
-Depends: gegl
-Filename: dists/termux/extras/binary-aarch64/gegl-dev_0.3.14_aarch64.deb
-Size: 64480
-SHA256: 0b78ae1c6cb074f55e7e2df5668e0437c68d0966f663aad9066cf1ae73c914e9
-
-Package: gegl
-Architecture: aarch64
-Installed-Size: 9012
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.14
-Description: data flow based image processing framework
-Homepage: gegl.org
-Depends: ffmpeg, graphviz, babl, json-glib, libpng, libffi
-Filename: dists/termux/extras/binary-aarch64/gegl_0.3.14_aarch64.deb
-Size: 1165948
-SHA256: 852fbeb10068354cdfb46f9a9ae145a398b9b134315e5b22ca64d3e65f74b2a0
 
 Package: glpk-dev
 Architecture: aarch64
@@ -186,29 +139,6 @@ Depends: gegl, libsoup
 Filename: dists/termux/extras/binary-aarch64/imgflo_0.4.2_aarch64.deb
 Size: 34216
 SHA256: 61b9f657370e67290e33505f5f00b0d1c40c7a7b5e9403d46f530af6f428e90e
-
-Package: json-glib-dev
-Architecture: aarch64
-Installed-Size: 108
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.8
-Description: Development files for json-glib
-Homepage: http://gmic.eu
-Depends: json-glib
-Filename: dists/termux/extras/binary-aarch64/json-glib-dev_1.2.8_aarch64.deb
-Size: 9616
-SHA256: dfebb7fe9dde0f9edd930a45d699ec4ee168ef550267ddfb47326718c7dab51c
-
-Package: json-glib
-Architecture: aarch64
-Installed-Size: 164
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.8
-Description: imageman
-Homepage: http://gmic.eu
-Filename: dists/termux/extras/binary-aarch64/json-glib_1.2.8_aarch64.deb
-Size: 40692
-SHA256: ca15700cd24cac7cdce19b0c92520f395e3d69e12a17b3fec1e72abaca7da504
 
 Package: libbthread-dev
 Architecture: aarch64
@@ -307,40 +237,39 @@ SHA256: 61a7bb6f1acc80e81c39bb4b6b6d794d904e110670aa05e575487a3be0b434e1
 
 Package: mpd
 Architecture: aarch64
-Installed-Size: 604
+Installed-Size: 736
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.20.6
 Description: music player daemon
 Homepage: https://www.musicpd.org
-Depends: libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
+Depends: libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Filename: dists/termux/extras/binary-aarch64/mpd_0.20.6_aarch64.deb
-Size: 177804
-SHA256: afdf2a06b0ad58b1dd809ca71defcbd2a459e38fc66fb663f8f5b41eabb94004
+Size: 211032
+SHA256: 45fbf96163054dbf61a88f9cd88fa69fbe6b70c42996a1e195cee01a19f76843
 
 Package: mpv-ext
 Architecture: aarch64
-Installed-Size: 1560
+Installed-Size: 1572
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.24.0
+Version: 0.25.0
 Description: Command-line media player
 Homepage: https://mpv.io/
-Depends: ffmpeg, openal-soft, libcaca
-Conflicts: mpv
-Filename: dists/termux/extras/binary-aarch64/mpv-ext_0.24.0_aarch64.deb
-Size: 475212
-SHA256: 8e879c4149dcaab0d24e8f5d5a86c6b17e81fb2895a98ca9abce78940768aea8
+Depends: ffmpeg, openal-soft
+Filename: dists/termux/extras/binary-aarch64/mpv-ext_0.25.0_aarch64.deb
+Size: 479684
+SHA256: ea5dc394517e1189e488b01bc828f0e33c32afbb3665c2cbd70a96317b69a222
 
 Package: ncmpcpp
 Architecture: aarch64
-Installed-Size: 1820
+Installed-Size: 1968
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.7.7
 Description: NCurses Music Player Client (Plus Plus)
 Homepage: https://rybczak.net/ncmpcpp/
-Depends: boost, readline, libcurl, libmpdclient
+Depends: fftw, boost, readline, libcurl, libmpdclient
 Filename: dists/termux/extras/binary-aarch64/ncmpcpp_0.7.7_aarch64.deb
-Size: 352168
-SHA256: 361027b062f9395c4d3e7df35c9bb5796d18efe706a268b6efb26bb5f89722e0
+Size: 383708
+SHA256: 38e567dbcb7353c9778fd20cca36b5a8fa933d633a67a35f1b7d3d14aa22366d
 
 Package: numpy
 Architecture: aarch64
@@ -471,14 +400,3 @@ Depends: libgfortran,openblas
 Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.4_aarch64.deb
 Size: 768108
 SHA256: 913d8d1170a1c74c3371d7a9b240b113e0e1cc13e7743e04a1b1a1874bde52d7
-
-Package: utf8cpp
-Architecture: aarch64
-Installed-Size: 40
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.3.4
-Description: Powerful, double-entry accounting system
-Homepage: http://utfcpp.sourceforge.net/
-Filename: dists/termux/extras/binary-aarch64/utf8cpp_2.3.4_aarch64.deb
-Size: 6076
-SHA256: b4e1c96f0626f4bd011c6d4d940b51542ae5da3f7e6a4866b458a3f7a8815194
