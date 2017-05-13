@@ -329,28 +329,27 @@ SHA256: 7917137f7cff454f5c41b95b11b863caa8728c2de82cb5fdf84dd9cc7af3d9f3
 
 Package: mpd
 Architecture: arm
-Installed-Size: 480
+Installed-Size: 476
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.20.6
 Description: music player daemon
 Homepage: https://www.musicpd.org
 Depends: libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Filename: dists/termux/extras/binary-arm/mpd_0.20.6_arm.deb
-Size: 200588
-SHA256: 2cd461ee0d03781c8a4f1ce40a1c313543e72fe00dc794f75e56c76f9e2db377
+Size: 198764
+SHA256: 41a59d6def3aa1bbdf545bf2905fd0a65cecec4ba273e09871ccab8a74a3543c
 
 Package: mpv-ext
 Architecture: arm
-Installed-Size: 1284
+Installed-Size: 1296
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.24.0
+Version: 0.25.0
 Description: Command-line media player
 Homepage: https://mpv.io/
-Depends: ffmpeg, openal-soft, libcaca
-Conflicts: mpv
-Filename: dists/termux/extras/binary-arm/mpv-ext_0.24.0_arm.deb
-Size: 482936
-SHA256: 79e8f163bcd6c3ab0d1e18d8fdd0fa2cf84cead396f78d2016e16bd356ab188f
+Depends: ffmpeg, openal-soft
+Filename: dists/termux/extras/binary-arm/mpv-ext_0.25.0_arm.deb
+Size: 488336
+SHA256: 90cd78423d5f2a43b7570546dd4fbc51cc36e17ee9cbe8ec1d874e43346a6142
 
 Package: ncmpcpp
 Architecture: arm
