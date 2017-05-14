@@ -1,0 +1,113 @@
+--- ../hping-master/configure	2014-12-27 01:31:29.000000000 +1100
++++ ./configure	2017-05-15 08:35:31.824032191 +1000
+@@ -1,4 +1,4 @@
+-#!/bin/sh
++#!/data/data/com.termux/files/usr/bin/sh
+ 
+ show_help()
+ {
+@@ -61,9 +61,9 @@
+ #
+ # TCL detection
+ #
+-for TCLPATH_TRY in "/usr/bin/" "/usr/local/bin/" "/bin/"
++for TCLPATH_TRY in "/data/data/com.termux/files/usr/bin/" "/usr/bin/" "/usr/local/bin/" "/bin/"
+ do
+-	for TCLVER_TRY in "8.4" "8.3" "8.2" "8.1" "8.0"
++	for TCLVER_TRY in "8.6" "8.5" "8.4" "8.3" "8.2" "8.1" "8.0"
+ 	do
+ 		if [ -z $TCLSH ]
+ 		then
+@@ -84,7 +84,7 @@
+ 	if [ -e /usr/include/tcl${TCL_VER} ]
+ 	then
+ 		TCL_INC="-I/usr/include/tcl${TCL_VER}"
+-	elif [ -e /usr/include/tcl.h ]
++	elif [ -e /data/data/com.termux/files/usr/include/tcl.h ]
+ 	then
+ 		TCL_INC=""
+ 	elif [ -e /usr/local/include/tcl${TCL_VER} ]
+@@ -99,7 +99,7 @@
+ if [ -n $USE_TCL ]
+ then
+ 	LIBPOSTFIX=`ls -1 /usr/local/lib/ /usr/lib | grep 'libtcl[0-9]' | grep so | sed -e 's/\.so.*//g' -e 's/libtcl//g' | sort -r | head -1`
+-	TCL_LIB="-ltcl${LIBPOSTFIX} -lm -lpthread"
++	TCL_LIB="-ltcl8.6 -lm -lpthread"
+ fi
+ 
+ #
+--- ../hping-master/libpcap_stuff.c	2014-12-27 01:31:29.000000000 +1100
++++ ./libpcap_stuff.c	2017-05-15 08:15:30.335752604 +1000
+@@ -16,7 +16,7 @@
+ #include <string.h>
+ #include <stdlib.h>
+ #include <sys/ioctl.h>
+-#include <net/bpf.h>
++#include <pcap/bpf.h>
+ #include <pcap.h>
+ 
+ #include "globals.h"
+--- ../hping-master/Makefile.in	2014-12-27 01:31:29.000000000 +1100
++++ ./Makefile.in	2017-05-15 08:44:53.303153396 +1000
+@@ -7,14 +7,12 @@
+ # $rev: 3$ 
+ 
+ CC= gcc
+-AR=/usr/bin/ar
+-RANLIB=/usr/bin/ranlib
+ CCOPT= -O2 -Wall @PCAP_INCLUDE@ @TCL_INC@ @USE_TCL@
+ DEBUG= -g
+ #uncomment the following if you need libpcap based build under linux
+ #(not raccomanded)
+ COMPILE_TIME=
+-INSTALL_MANPATH=@MANPATH@
++INSTALL_MANPATH=$(PREFIX)/share/man
+ @PCAP@
+ 
+ ARSOBJ = ars.o apd.o split.o rapd.o
+@@ -50,7 +48,7 @@
+ 	$(RANLIB) $@
+ 
+ hping3: byteorder.h $(OBJ)
+-	$(CC) -o hping3 $(CCOPT) $(DEBUG) $(OBJ) -L/usr/local/lib $(PCAP) @SOLARISLIB@ @TCL_LIB@
++	$(CC) -o hping3 $(CCOPT) $(DEBUG) $(OBJ) -landroid-shmem -L/usr/local/lib $(PCAP) @SOLARISLIB@ @TCL_LIB@
+ 	@echo
+ 	./hping3 -v
+ 	@echo "use \`make strip' to strip hping3 binary"
+@@ -72,10 +70,10 @@
+ 	rm -rf hping3 *.o byteorder byteorder.h systype.h Makefile libars.a .depend
+ 
+ install: hping3
+-	cp -f hping3 /usr/sbin/
+-	chmod 755 /usr/sbin/hping3
+-	ln -s /usr/sbin/hping3 /usr/sbin/hping
+-	ln -s /usr/sbin/hping3 /usr/sbin/hping2
++	cp -f hping3 $(PREFIX)/bin/
++	chmod 755 $(PREFIX)/bin/hping3
++	ln -sf $(PREFIX)/bin/hping3 $(PREFIX)/bin/hping
++	ln -sf $(PREFIX)/bin/hping3 $(PREFIX)/bin/hping2
+ 	@if [ -d ${INSTALL_MANPATH}/man8 ]; then \
+ 		cp ./docs/hping3.8 ${INSTALL_MANPATH}/man8; \
+ 		chmod 644 ${INSTALL_MANPATH}/man8/hping3.8; \
+--- ../hping-master/scan.c	2014-12-27 01:31:29.000000000 +1100
++++ ./scan.c	2017-05-15 08:15:17.186428777 +1000
+@@ -20,7 +20,7 @@
+ #include <sys/ipc.h>
+ #endif
+ #include <sys/shm.h>
+-#include <sys/sem.h>
++//#include <sys/sem.h>
+ #include <unistd.h>
+ #include <netdb.h>
+ #include <sys/time.h>
+--- ../hping-master/script.c	2014-12-27 01:31:29.000000000 +1100
++++ ./script.c	2017-05-15 08:34:26.593007589 +1000
+@@ -23,7 +23,7 @@
+ #include <sched.h>
+ 
+ #include <sys/ioctl.h>
+-#include <net/bpf.h>
++#include <pcap/bpf.h>
+ #include <pcap.h>
+ 
+ #include "release.h"
