@@ -329,15 +329,15 @@ SHA256: 7917137f7cff454f5c41b95b11b863caa8728c2de82cb5fdf84dd9cc7af3d9f3
 
 Package: mpd
 Architecture: arm
-Installed-Size: 476
+Installed-Size: 492
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.20.6
 Description: music player daemon
 Homepage: https://www.musicpd.org
-Depends: libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
+Depends: fftw, libpulseaudio, libmad, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Filename: dists/termux/extras/binary-arm/mpd_0.20.6_arm.deb
-Size: 198792
-SHA256: 69863e8db1374fb4b27c6577abf138d309d60ee2d13f8b84e259df02357be45e
+Size: 205356
+SHA256: fb2253c960c36b07de831fd25618459c496650689d9c60352fbc41efd83890fb
 
 Package: mpv-ext
 Architecture: arm
@@ -353,15 +353,15 @@ SHA256: 90cd78423d5f2a43b7570546dd4fbc51cc36e17ee9cbe8ec1d874e43346a6142
 
 Package: ncmpcpp
 Architecture: arm
-Installed-Size: 1220
+Installed-Size: 1332
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.7.7
 Description: NCurses Music Player Client (Plus Plus)
 Homepage: https://rybczak.net/ncmpcpp/
-Depends: boost, readline, libcurl, libmpdclient
+Depends: fftw, boost, readline, libcurl, libmpdclient
 Filename: dists/termux/extras/binary-arm/ncmpcpp_0.7.7_arm.deb
-Size: 342344
-SHA256: fd3decd7e5633ae9f0f1fb14a0c03e529b60ba1dcf0796eab76569758c1db00c
+Size: 373484
+SHA256: 93a3fec1717939abbb862b000b1ecfdaacc6b2a4000889d668133599e4f104ea
 
 Package: numpy
 Architecture: arm
