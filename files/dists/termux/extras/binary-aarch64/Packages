@@ -312,10 +312,10 @@ Maintainer: Fredrik Fornwall @fornwall
 Version: 0.20.6
 Description: music player daemon
 Homepage: https://www.musicpd.org
-Depends: libid3tag, fftw, libpulseaudio, libmad, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
+Depends: libbz2, libcurl, libopus, libid3tag, fftw, libpulseaudio, libmad, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Filename: dists/termux/extras/binary-aarch64/mpd_0.20.6_aarch64.deb
-Size: 215152
-SHA256: 282d2f0dfc1f32be3825a70452f0718b603cfcb3b33e274a32ddde17fce970c0
+Size: 215356
+SHA256: 49d6172b5ac460f9a4e212cffe4ecce6a655fd0cd3035b5d18b540981ac1ffd2
 
 Package: mpv-ext
 Architecture: aarch64
