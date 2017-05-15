@@ -334,10 +334,10 @@ Maintainer: Fredrik Fornwall @fornwall
 Version: 0.20.6
 Description: music player daemon
 Homepage: https://www.musicpd.org
-Depends: fftw, libpulseaudio, libmad, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
+Depends: libid3tag, fftw, libpulseaudio, libmad, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Filename: dists/termux/extras/binary-arm/mpd_0.20.6_arm.deb
-Size: 205356
-SHA256: fb2253c960c36b07de831fd25618459c496650689d9c60352fbc41efd83890fb
+Size: 206396
+SHA256: f09691b54594562ba51135ce5a360768e7f9beabd0dd2597c8c31d8d95e9fb0b
 
 Package: mpv-ext
 Architecture: arm
