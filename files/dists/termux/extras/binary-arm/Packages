@@ -22,29 +22,6 @@ Filename: dists/termux/extras/binary-arm/arpack-ng_3.4.0_arm.deb
 Size: 103580
 SHA256: 190cadac703a6f5ed0a9b1f38072fc5435cf00e4c2f0a06f5f493254a281a652
 
-Package: babl-dev
-Architecture: arm
-Installed-Size: 32
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.1.24
-Description: Development files for babl
-Homepage: http://gmic.eu
-Depends: babl
-Filename: dists/termux/extras/binary-arm/babl-dev_0.1.24_arm.deb
-Size: 4272
-SHA256: eb98106b0c41276c79ffee85ff727975082a36da2bed9b98b6774837e3ea6c4d
-
-Package: babl
-Architecture: arm
-Installed-Size: 460
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.1.24
-Description: imageman
-Homepage: http://gmic.eu
-Filename: dists/termux/extras/binary-arm/babl_0.1.24_arm.deb
-Size: 177428
-SHA256: fb8b9b8082818d6e1f8bfd5efe8847ff9efd040136d03387fcde9357e531288e
-
 Package: cadaver
 Architecture: arm
 Installed-Size: 128
@@ -80,30 +57,6 @@ Depends: gcc-6
 Filename: dists/termux/extras/binary-arm/gcov-6_6.3.0-3_arm.deb
 Size: 218756
 SHA256: 6574a6260090534fbe313ccfef8f58a619a8b7d657a34e8dcb821915784319be
-
-Package: gegl-dev
-Architecture: arm
-Installed-Size: 620
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.14
-Description: Development files for gegl
-Homepage: gegl.org
-Depends: gegl
-Filename: dists/termux/extras/binary-arm/gegl-dev_0.3.14_arm.deb
-Size: 64272
-SHA256: 58381f6d10f5b75604050b88d80d93b0d65c44388744ca9aac387f95b8f33d69
-
-Package: gegl
-Architecture: arm
-Installed-Size: 8620
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.14
-Description: data flow based image processing framework
-Homepage: gegl.org
-Depends: ffmpeg, graphviz, babl, json-glib, libpng, libffi
-Filename: dists/termux/extras/binary-arm/gegl_0.3.14_arm.deb
-Size: 1216448
-SHA256: 8f2afc820c9d359367fb4b7f4c43bb046ccee8ca63076f0ef6bd9e3610e603d7
 
 Package: glpk-dev
 Architecture: arm
@@ -185,29 +138,6 @@ Depends: gegl, libsoup
 Filename: dists/termux/extras/binary-arm/imgflo_0.4.2_arm.deb
 Size: 34620
 SHA256: 2b8e15bd61ec186d89c86ff22498a5bd6522b6893d3ee5eeaf3a109abd0aeef4
-
-Package: json-glib-dev
-Architecture: arm
-Installed-Size: 108
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.8
-Description: Development files for json-glib
-Homepage: http://gmic.eu
-Depends: json-glib
-Filename: dists/termux/extras/binary-arm/json-glib-dev_1.2.8_arm.deb
-Size: 9620
-SHA256: 33210fe0232690a52a336dd35c9a9119d6876bae5d4dc5d62679e6af1bb85ac8
-
-Package: json-glib
-Architecture: arm
-Installed-Size: 128
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.8
-Description: imageman
-Homepage: http://gmic.eu
-Filename: dists/termux/extras/binary-arm/json-glib_1.2.8_arm.deb
-Size: 42892
-SHA256: 50c695ec2425e1c3bd1136ba71f0ca87f907be6b79e2135fbca0f4a605009d6f
 
 Package: libatlas-dev
 Architecture: arm
@@ -334,10 +264,10 @@ Maintainer: Fredrik Fornwall @fornwall
 Version: 0.20.6
 Description: music player daemon
 Homepage: https://www.musicpd.org
-Depends: libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmad, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
+Depends: libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Filename: dists/termux/extras/binary-arm/mpd_0.20.6_arm.deb
-Size: 202508
-SHA256: fc9902b6e5435db876113b4d79211efa626b7c4ea20f90c1c3dbb9888b2ec68e
+Size: 202192
+SHA256: a5d071eeba485dae7d60ec0d330db4e0fc2771e794137809853874448df552a6
 
 Package: mpv-ext
 Architecture: arm
