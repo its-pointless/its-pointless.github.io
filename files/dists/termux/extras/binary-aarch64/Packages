@@ -307,15 +307,15 @@ SHA256: 61a7bb6f1acc80e81c39bb4b6b6d794d904e110670aa05e575487a3be0b434e1
 
 Package: mpd
 Architecture: aarch64
-Installed-Size: 748
+Installed-Size: 736
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.20.6
 Description: music player daemon
 Homepage: https://www.musicpd.org
-Depends: libbz2, libcurl, libopus, libid3tag, fftw, libpulseaudio, libmad, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
+Depends: libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmad, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Filename: dists/termux/extras/binary-aarch64/mpd_0.20.6_aarch64.deb
-Size: 215096
-SHA256: d621ea70c57a8b1418f84f8c7f4831f8f6be7ec84e4d395879f78f8f71d13870
+Size: 211124
+SHA256: f3f2cf38a9f4b0e984dce39f835da26aea93dd9bb2b07792fcdc8e0a470d2af3
 
 Package: mpv-ext
 Architecture: aarch64
