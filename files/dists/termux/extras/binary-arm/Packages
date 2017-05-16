@@ -447,15 +447,15 @@ SHA256: b3049cf8f3bbfceb8e5605450f9cd1f42f4ab6412f2ff4af0c1d5303c841df99
 
 Package: scipy
 Architecture: arm
-Installed-Size: 37068
+Installed-Size: 37184
 Maintainer: @its-pointless github
-Version: 0.19.0
+Version: 0.19.0-1
 Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
 Homepage: https://github.com/scipy/scipy
 Depends: python, libgfortran, numpy, libatlas
-Filename: dists/termux/extras/binary-arm/scipy_0.19.0_arm.deb
-Size: 8562624
-SHA256: de5ab248147a5d03d5667f6561ca9f35391a5e47bf8c5e90f09960380137c50c
+Filename: dists/termux/extras/binary-arm/scipy_0.19.0-1_arm.deb
+Size: 8548312
+SHA256: 9075a7bb64e52b71c543e01f7b8e6e551677a1eca9842405c9ff1c233643c4bf
 
 Package: suitesparse-dev
 Architecture: arm
@@ -480,14 +480,3 @@ Depends: libgfortran,libatlas
 Filename: dists/termux/extras/binary-arm/suitesparse_4.5.4_arm.deb
 Size: 510532
 SHA256: c2d5b75918969c1a21962e1b42a428cd6f06c9691a39be8d587587ce067526cd
-
-Package: utf8cpp
-Architecture: arm
-Installed-Size: 40
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.3.4
-Description: Powerful, double-entry accounting system
-Homepage: http://utfcpp.sourceforge.net/
-Filename: dists/termux/extras/binary-arm/utf8cpp_2.3.4_arm.deb
-Size: 6072
-SHA256: d40361acbef91634fd91fff7db4849b2e1bc35afc311916dbcc8bc33b58e5dcb
