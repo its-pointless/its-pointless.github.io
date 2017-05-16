@@ -3,56 +3,30 @@ Hash: SHA256
 
 Codename: termux
 Version: 1
-Architectures: aarch64 arm all
+Architectures: aarch64 all arm
 Description: Extras repository
 Suite: termux
-<<<<<<< HEAD
-Date: Tue, 16 May 2017 21:42:41 UTC
+Date: Tue, 16 May 2017 21:51:02 UTC
 SHA256:
  1ea616211321cae2faa01c51c4a7414d3415591e55811145d6db2f9efeb69b38 13787 extras/binary-aarch64/Packages
  26c02d9031ee1aedae2df52aa71d9ffb6d03996aa13fcd09063b7ec0ff41b87c 4036 extras/binary-aarch64/Packages.xz
+ a01f14e7edadf949837dcee94f93b0fc80feae331d34b64f61130b7a67a9bb75 381 extras/binary-all/Packages
+ 9de8f65ec4151f8b4f4636482fbb30bf8288827ae96d941dbb86106a7110af66 360 extras/binary-all/Packages.xz
  86957d0f1a1cec7fd030e6fde77f4f38246afc0e4acba72a06c139fa1dc2baf3 13669 extras/binary-arm/Packages
  05d795a5c80fcf325b26823411a2e5f4a99ea6fc4a26b691a88c86bbbd8bf052 4108 extras/binary-arm/Packages.xz
- a01f14e7edadf949837dcee94f93b0fc80feae331d34b64f61130b7a67a9bb75 381 extras/binary-all/Packages
- 9de8f65ec4151f8b4f4636482fbb30bf8288827ae96d941dbb86106a7110af66 360 extras/binary-all/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEYp8p4kODeD77H3/QkG9a+poyxy0FAlkbclMACgkQkG9a+poy
-xy0BYg/9EeG7jihhvZ/OF59yOwTM5i9ncEbBie6FgTHLnI9B/T+FfZEZhENAYvZS
-6jb9tuD5pHP7s8t1j8eG/2yEy7WP/i+UdBWsXFrCl4NFW6qbVY7fwjgDc93aW71J
-YSffFpet8R37XdgOiB6N7vM7Kr5C4sw1FttsYRFaLafV3HV9UnBp9SnlW55On9ig
-71o0ziMvRstsGpVj+/d7QxCA54B3nWCXkfxBhbh7m7MXf53fnQZ+c4k+8QHFa4rK
-gmcCRuBaR3HqmZNp7J9+mAHV9VnmzlLlFRAfo4rampLtpxYSZNznBkIjqSERygW4
-1rvYjx7+5GmT5aRH6jXr50dF0V6f+hcUFqvCSIRRwPiggOFnzgza/YUQJxf9h5GR
-ipLQ4Ovlx2yPk8tXIWKmLfXzxHtfpBy8jTVnDYtkFcB3S9m5lQ6oQhQYhk8Qyv5f
-IwYZaupHaBsRRGOCz+LtiX1ZZMwO9twDZaq+AwO86kBaXbij9bhq+YhJtFKhaEAZ
-SF8T+xey6lb1LM4OysmSUj5PHlTrJFFFkhwUYufSCMiReBJ6+nP/wGkc67WEnIZs
-Rx0Nrr7GBIngi0F53BoJD45ly31wY5rGO8fBcg4Ll4HKI7kCIUDizTUCAsUjFYxA
-2bKTEadSGuQmrHQZi9j5rlTE1ZE0TMnyr2Cj/NcUWgNvtYtv3nY=
-=gC4E
-=======
-Date: Tue, 16 May 2017 05:30:53 UTC
-SHA256:
- b892d9915e1d329c0b9e471d735119bc17841e9d391a188d00442fb349454950 13787 extras/binary-aarch64/Packages
- 28c96e11671b194721512ea46aeb5ee53c4888788d8f04be3add6326b3be61a2 4036 extras/binary-aarch64/Packages.xz
- a01f14e7edadf949837dcee94f93b0fc80feae331d34b64f61130b7a67a9bb75 381 extras/binary-all/Packages
- 9de8f65ec4151f8b4f4636482fbb30bf8288827ae96d941dbb86106a7110af66 360 extras/binary-all/Packages.xz
- fa4af12e419c81bf5b05b8c7230ca8f799803cc541f2e49f59c4efbba5273069 13669 extras/binary-arm/Packages
- 2c94244ff78e42ea4f3239adf5c7cbada88b12ef4b8f642820261aa2160e7489 4108 extras/binary-arm/Packages.xz
------BEGIN PGP SIGNATURE-----
-
-iQIzBAEBCAAdFiEEYp8p4kODeD77H3/QkG9a+poyxy0FAlkajo8ACgkQkG9a+poy
-xy20IQ/9Fk+H4FOlPuoGFJsbyXA0dvdDHcj3Il/h2/efH+yIDteysz89PRmE26d0
-rjzcDOMA3+g7vndF7RS3fQ7zd6abJLNXaGVYJm7PldaFvojmM2NQe+XSnt33Hgwb
-L5KudOEF6bWQ6Plnw1Hqm3wjyy/HrY+to5FZ5iVMgtd5UoJffZeek24QnsDcjQZ5
-BDeePkrjZ58gs9SsWHYwadYDua/+BsDL4uRr0f3w68Gkbi5MXjqcJDsuEbyK0j/t
-B5Wvb9tFcitATRkQopyWTd9Unn4DMIrxUccvSS+YOlBOP1wvmZRTHc9DaZC2PvYP
-+nNZdVYl+GRabX2VsK8SJq84oiKWLz9kyAQySw1lQwtkYkON8PZTIqKUgdAp0abX
-oUDsstiyPrNdCJSqf0jem5mQ6oDRzwRZR8BXmkKHa0HS1nL8KefH1QMQmVtdwf4R
-C0yYgFJON1VEo9gADspDvBbZYsSrZd2wexfM0LGTBEhhDCXoPCcNHgZ9eoecZtVD
-VhDUAXkV7TLA4jDStQqqnoreGZFXL4LztU3pNFvqouNw3xzTt1tJt3mmgzDGXnu1
-sru4+HsBgUA/zEi8JGhccG7apN1wEzK+58b39sfRmUY+XSiskir6hB8xciBhLJmf
-zjkFxihh+XwEc6HUGjSpAPfdgWBjMaFJ1YZd9Hp53EI9h7PsVPk=
-=OjbZ
->>>>>>> a9bb8377401b3d8d34a08371cef8f5b7def4ec2e
+iQIzBAEBCAAdFiEEYp8p4kODeD77H3/QkG9a+poyxy0FAlkbdEgACgkQkG9a+poy
+xy2leBAApr33ryLmwJ7ec1Hwu49usepFhstumhaA/Cnw7vAcVo2+FjWVle8qSkEJ
+h1IJ6kxSFmQIQjAfNMgDtG9+JV1Y0zHLPW/S9e9xFI5SRJ8Dnfa3lSCg3qEmO1sE
+GnFq7hvlIguzpbkCUX29OK90bS3qToQ46I0ByO0DFGFqwEG3X3vU+5zQQbjpovHf
+EYGJ2yKrSL1agHD3DR21yvEOHbHYpCiEOibCBfLntz2GSKZX1cE0WRN/xsR6i5qx
+g3stlXvHfRKg15Ko1d8T1fO6HzLEnDTUHtVa3+KA9zKJrll1ySc/4iEzuyhW1Pc9
+rOL5wFNYxB3yzwKAZVOJpIzOxsUm/6HekIqlzWOGTHgljBb/WJsNSLPJaZDWvKuD
+ujQ0BL9NpPQwimWuRbGDO1MupXXEG7uS84lNVI8R20jh04iMqH4ohuEvpumJH+rR
+fx5eNzAP5qfhU/dDMQtv6HbkwjjR9jr/GLxP3kCjFsjlkHBfbWiihMO1qyqEKAWB
+lL2DOhAPwNk6Cp2NkjESAHaAfCeQEOscxCgL4NoSukcDn7dM6XcRHYLNB97gLe7c
+WjOA4ZOf9fL3wD67Ig/WsrUmfpXQktWbjL2AQUvmmB/HfXnQTu/D/rj6HC6lxPDW
+8/3caWjqxxSZ883bv9p2ujMGCktwUDdQpTgdYe7C2khEBkgvKZY=
+=4wIV
 -----END PGP SIGNATURE-----
