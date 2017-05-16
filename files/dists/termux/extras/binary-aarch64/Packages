@@ -244,8 +244,8 @@ Description: music player daemon
 Homepage: https://www.musicpd.org
 Depends: libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Filename: dists/termux/extras/binary-aarch64/mpd_0.20.6_aarch64.deb
-Size: 211032
-SHA256: 45fbf96163054dbf61a88f9cd88fa69fbe6b70c42996a1e195cee01a19f76843
+Size: 211244
+SHA256: e85b4248d8fc4f6eca42ffb6e582973b852aac26623100f6728673f45c4dd54d
 
 Package: mpv-ext
 Architecture: aarch64
@@ -268,8 +268,8 @@ Description: NCurses Music Player Client (Plus Plus)
 Homepage: https://rybczak.net/ncmpcpp/
 Depends: fftw, boost, readline, libcurl, libmpdclient
 Filename: dists/termux/extras/binary-aarch64/ncmpcpp_0.7.7_aarch64.deb
-Size: 383708
-SHA256: 38e567dbcb7353c9778fd20cca36b5a8fa933d633a67a35f1b7d3d14aa22366d
+Size: 383452
+SHA256: b82bfd8ce44e676c4f627f02723910aa4ac5e83103938b3a33a6971c9328c42e
 
 Package: numpy
 Architecture: aarch64
