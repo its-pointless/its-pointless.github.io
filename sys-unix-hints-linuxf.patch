@@ -1,0 +1,34 @@
+--- ./nethack-3.6.0/sys/unix/hints/linux	2015-11-16 23:47:05.000000000 +1100
++++ ./sys/unix/hints/linux	2017-05-17 12:59:56.077999917 +1000
+@@ -10,9 +10,8 @@
+ 
+ 
+ #PREFIX=/usr
+-PREFIX=$(wildcard ~)/nh/install
+-HACKDIR=$(PREFIX)/games/lib/$(GAME)dir
+-SHELLDIR = $(PREFIX)/games
++HACKDIR=$(PREFIX)/share/$(GAME)
++#SHELLDIR = $(PREFIX)/games
+ INSTDIR=$(HACKDIR)
+ VARDIR = $(HACKDIR)
+ 
+@@ -20,8 +19,8 @@
+ 
+ POSTINSTALL=cp -n sys/unix/sysconf $(INSTDIR)/sysconf; $(CHOWN) $(GAMEUID) $(INSTDIR)/sysconf; $(CHGRP) $(GAMEGRP) $(INSTDIR)/sysconf; chmod $(VARFILEPERM) $(INSTDIR)/sysconf;
+ 
+-CFLAGS=-g -O -I../include -DNOTPARMDECL $(CFLAGS1) -DDLB
+-CFLAGS1=-DCOMPRESS=\"/bin/gzip\" -DCOMPRESS_EXTENSION=\".gz\"
++CFLAGS=-g -Os -I../include -DNOTPARMDECL $(CFLAGS1) -DDLB
++CFLAGS1=-DCOMPRESS=\"/data/data/com.termux/files/usr/bin/applets/gzip\" -DCOMPRESS_EXTENSION=\".gz\"
+ CFLAGS+=-DSYSCF -DSYSCF_FILE=\"$(HACKDIR)/sysconf\" -DSECURE
+ CFLAGS+=-DHACKDIR=\"$(HACKDIR)\"
+ 
+@@ -33,7 +32,7 @@
+ WINOBJ = $(WINTTYOBJ)
+ WINLIB = $(WINTTYLIB)
+ 
+-WINTTYLIB=-lcurses
++WINTTYLIB=-lncurses
+ 
+ CHOWN=true
+ CHGRP=true
