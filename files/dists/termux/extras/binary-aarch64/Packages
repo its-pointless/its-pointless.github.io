@@ -235,18 +235,6 @@ Filename: dists/termux/extras/binary-aarch64/megatools_1.9.98_aarch64.deb
 Size: 92980
 SHA256: 61a7bb6f1acc80e81c39bb4b6b6d794d904e110670aa05e575487a3be0b434e1
 
-Package: mpd
-Architecture: aarch64
-Installed-Size: 736
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.20.6
-Description: music player daemon
-Homepage: https://www.musicpd.org
-Depends: libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
-Filename: dists/termux/extras/binary-aarch64/mpd_0.20.6_aarch64.deb
-Size: 211244
-SHA256: e85b4248d8fc4f6eca42ffb6e582973b852aac26623100f6728673f45c4dd54d
-
 Package: mpv-ext
 Architecture: aarch64
 Installed-Size: 1572

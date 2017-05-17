@@ -257,18 +257,6 @@ Filename: dists/termux/extras/binary-arm/megatools_1.9.98_arm.deb
 Size: 93952
 SHA256: 7917137f7cff454f5c41b95b11b863caa8728c2de82cb5fdf84dd9cc7af3d9f3
 
-Package: mpd
-Architecture: arm
-Installed-Size: 484
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.20.6
-Description: music player daemon
-Homepage: https://www.musicpd.org
-Depends: libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
-Filename: dists/termux/extras/binary-arm/mpd_0.20.6_arm.deb
-Size: 202472
-SHA256: 7698adbf26935c5f9b51e2378fab3073ce22f3e3195a3eab7e7a26f469366a88
-
 Package: mpv-ext
 Architecture: arm
 Installed-Size: 1296
