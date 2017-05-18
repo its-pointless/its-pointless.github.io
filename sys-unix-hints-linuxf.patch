@@ -32,3 +32,21 @@
  
  CHOWN=true
  CHGRP=true
+--- ../nethacktest/nethack-3.6.0/sys/unix/Makefile.utl	2015-12-07 19:26:01.000000000 +1100
++++ ./sys/unix/Makefile.utl	2017-05-18 09:58:56.480817652 +1000
+@@ -104,11 +104,11 @@
+ 
+ # yacc/lex programs to use to generate *_comp.h, *_lex.c, and *_yacc.c.
+ # if, instead of yacc/lex you have bison/flex, comment/uncomment the following.
+-YACC     = yacc
+-LEX      = lex
+-# YACC     = bison -y
++#YACC     = yacc
++#LEX      = lex
++YACC     = bison -y
+ # YACC     = byacc
+-# LEX      = flex
++LEX      = flex
+ 
+ # these are the names of the output files from YACC/LEX. Under MS-DOS
+ # and similar systems, they may differ
