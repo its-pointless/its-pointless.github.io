@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/sh
+export LD_PRELOAD=/data/data/com.termux/files/usr/lib/libopus.so:/data/data/com.termux/files/usr/lib/libvorbis.so:/data/data/com.termux/files/usr/lib/libavcodec.so:/data/data/com.termux/files/usr/lib/libavfilter.so:/data/data/com.termux/files/usr/lib/libavformat.so:/data/data/com.termux/files/usr/lib/libavutil.so:/data/data/com.termux/files/usr/lib/libpostproc.so:/data/data/com.termux/files/usr/lib/libswresample.so:/data/data/com.termux/files/usr/lib/libswscale.so
+LD_LIBRARY_PATH=/system/lib:/system/vendor/lib:/data/data/com.termux/files/usr/lib /data/data/com.termux/files/usr/libexec/mpv "$@"
