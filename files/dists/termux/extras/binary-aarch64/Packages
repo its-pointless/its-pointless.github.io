@@ -34,6 +34,18 @@ Filename: dists/termux/extras/binary-aarch64/cadaver_0.23.3_aarch64.deb
 Size: 60268
 SHA256: 24ab5636c1d7c7eb9d088a43e2ad4d159319ab91f9b8d877c5deb2dea63e929a
 
+Package: cscope
+Architecture: aarch64
+Installed-Size: 680
+Maintainer: Fredrik Fornwall @fornwall
+Version: 15.8b
+Description: A developers tool for browsing program code
+Homepage: http://cscope.sourceforge.net/
+Depends: ncurses
+Filename: dists/termux/extras/binary-aarch64/cscope_15.8b_aarch64.deb
+Size: 120540
+SHA256: 5286db68d4e6484be21b721a7b5ae5898b0c1731e19c6412906a27226694b524
+
 Package: gcc-6
 Architecture: aarch64
 Installed-Size: 71272
@@ -139,6 +151,18 @@ Depends: gegl, libsoup
 Filename: dists/termux/extras/binary-aarch64/imgflo_0.4.2_aarch64.deb
 Size: 34216
 SHA256: 61b9f657370e67290e33505f5f00b0d1c40c7a7b5e9403d46f530af6f428e90e
+
+Package: lbzip2
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: Mikolaj Izdebski
+Version: 2.5
+Description: FIXME:Add description
+Homepage: http://lbzip2.org
+Depends: ndk-sysroot
+Filename: dists/termux/extras/binary-aarch64/lbzip2_2.5_aarch64.deb
+Size: 59480
+SHA256: 252da3dde8d12b5ef55b6ddcb398dff8d887575f354f7d40a4e13e379e426099
 
 Package: libbthread-dev
 Architecture: aarch64
@@ -331,6 +355,18 @@ SHA256: bea4ed183e23063bd21c0807c990ec2c71802b46b18ff05bb6470d3bf18144f0
 
 Package: r-cran
 Architecture: aarch64
+Installed-Size: 72892
+Maintainer: @its-pointless github
+Version: 3.4.0-1
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: python, libicu, libgfortran, numpy, openblas, liblzma, readline, pcre, libcurl, libbz2
+Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.0-1_aarch64.deb
+Size: 41487376
+SHA256: 5f885755bae6d7215f41408c2d9d3776729eefb85eddd29929ec3652d5de31bc
+
+Package: r-cran
+Architecture: aarch64
 Installed-Size: 59044
 Maintainer: @its-pointless github
 Version: 3.4.0
@@ -340,6 +376,18 @@ Depends: python, libgfortran, numpy, openblas, liblzma, readline, pcre, libcurl,
 Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.0_aarch64.deb
 Size: 36027180
 SHA256: a9233880a6c841e0c60897daec4c05361f63103c32d74bc523ddbb5f892545bf
+
+Package: sc
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: Wetitpig
+Version: 7.16
+Description: a venerable spreadsheet calculator
+Homepage: https://github.com/dkastner/sc
+Depends: ncurses
+Filename: dists/termux/extras/binary-aarch64/sc_7.16_aarch64.deb
+Size: 128420
+SHA256: 3b28c3d51b423d03fbf507659332ab2406c851a8c1d2965ee2e815af1f107794
 
 Package: scipy
 Architecture: aarch64

@@ -34,6 +34,18 @@ Filename: dists/termux/extras/binary-arm/cadaver_0.23.3_arm.deb
 Size: 60564
 SHA256: d97a0d0fcf9aaaa273339a1df15cba4194870ce6e4647de4f837f6a7726a629a
 
+Package: cscope
+Architecture: arm
+Installed-Size: 656
+Maintainer: Fredrik Fornwall @fornwall
+Version: 15.8b
+Description: A developers tool for browsing program code
+Homepage: http://cscope.sourceforge.net/
+Depends: ncurses
+Filename: dists/termux/extras/binary-arm/cscope_15.8b_arm.deb
+Size: 123888
+SHA256: 3284e60355d691133bd11b9247e208b5d6bff1a31d1d8b5222f732bfc9afaf81
+
 Package: gcc-6
 Architecture: arm
 Installed-Size: 71496
@@ -138,6 +150,18 @@ Depends: gegl, libsoup
 Filename: dists/termux/extras/binary-arm/imgflo_0.4.2_arm.deb
 Size: 34620
 SHA256: 2b8e15bd61ec186d89c86ff22498a5bd6522b6893d3ee5eeaf3a109abd0aeef4
+
+Package: lbzip2
+Architecture: arm
+Installed-Size: 136
+Maintainer: Mikolaj Izdebski
+Version: 2.5
+Description: FIXME:Add description
+Homepage: http://lbzip2.org
+Depends: ndk-sysroot
+Filename: dists/termux/extras/binary-arm/lbzip2_2.5_arm.deb
+Size: 62556
+SHA256: 21d4b2099beb5b8a43f7b7ead97113cc29e8c1b3876b274db534a9066e07f170
 
 Package: libatlas-dev
 Architecture: arm
@@ -341,6 +365,18 @@ SHA256: b6e9f029878d2d7b691a6103226ef484e1a4072e09ebb42f9a21cbcee9304ead
 
 Package: r-cran
 Architecture: arm
+Installed-Size: 60620
+Maintainer: @its-pointless github
+Version: 3.4.0-1
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: libgfortran, libicu, libatlas, liblzma, readline, pcre, libicu, libcurl, libbz2
+Filename: dists/termux/extras/binary-arm/r-cran_3.4.0-1_arm.deb
+Size: 38697308
+SHA256: f4f0cfb9dca09aa3cd47d03a44928873a09f3fb4a4d09fdcfce2e3b7b12121b8
+
+Package: r-cran
+Architecture: arm
 Installed-Size: 60616
 Maintainer: @its-pointless github
 Version: 3.4.0
@@ -350,6 +386,18 @@ Depends: libgfortran, libatlas, liblzma, readline, pcre, libicu, libcurl, libbz2
 Filename: dists/termux/extras/binary-arm/r-cran_3.4.0_arm.deb
 Size: 38697284
 SHA256: b3049cf8f3bbfceb8e5605450f9cd1f42f4ab6412f2ff4af0c1d5303c841df99
+
+Package: sc
+Architecture: arm
+Installed-Size: 404
+Maintainer: Wetitpig
+Version: 7.16
+Description: a venerable spreadsheet calculator
+Homepage: https://github.com/dkastner/sc
+Depends: ncurses
+Filename: dists/termux/extras/binary-arm/sc_7.16_arm.deb
+Size: 147760
+SHA256: de80d8d3eef3be77c4001109261ac6719b5e9f871b6eddb6aff7290c21ecbe79
 
 Package: scipy
 Architecture: arm
