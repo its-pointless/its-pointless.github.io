@@ -281,6 +281,17 @@ Filename: dists/termux/extras/binary-arm/megatools_1.9.98_arm.deb
 Size: 93952
 SHA256: 7917137f7cff454f5c41b95b11b863caa8728c2de82cb5fdf84dd9cc7af3d9f3
 
+Package: mksh
+Architecture: arm
+Installed-Size: 372
+Maintainer: Fredrik Fornwall @fornwall
+Version: 55
+Description: the MirBSD™ Korn Shell
+Homepage: https://www.mirbsd.org/mksh.htm
+Filename: dists/termux/extras/binary-arm/mksh_55_arm.deb
+Size: 162264
+SHA256: 40bc04d5ded2c3df8c873bb8d48383d87f8f91acf86a836f2ebfb8b20f6fd4bf
+
 Package: mpv-ext
 Architecture: arm
 Installed-Size: 1296
@@ -374,18 +385,6 @@ Depends: libgfortran, libicu, libatlas, liblzma, readline, pcre, libicu, libcurl
 Filename: dists/termux/extras/binary-arm/r-cran_3.4.0-1_arm.deb
 Size: 38697308
 SHA256: f4f0cfb9dca09aa3cd47d03a44928873a09f3fb4a4d09fdcfce2e3b7b12121b8
-
-Package: r-cran
-Architecture: arm
-Installed-Size: 60616
-Maintainer: @its-pointless github
-Version: 3.4.0
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: libgfortran, libatlas, liblzma, readline, pcre, libicu, libcurl, libbz2
-Filename: dists/termux/extras/binary-arm/r-cran_3.4.0_arm.deb
-Size: 38697284
-SHA256: b3049cf8f3bbfceb8e5605450f9cd1f42f4ab6412f2ff4af0c1d5303c841df99
 
 Package: sc
 Architecture: arm

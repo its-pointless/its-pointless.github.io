@@ -259,6 +259,17 @@ Filename: dists/termux/extras/binary-aarch64/megatools_1.9.98_aarch64.deb
 Size: 92980
 SHA256: 61a7bb6f1acc80e81c39bb4b6b6d794d904e110670aa05e575487a3be0b434e1
 
+Package: mksh
+Architecture: aarch64
+Installed-Size: 420
+Maintainer: Fredrik Fornwall @fornwall
+Version: 55
+Description: the MirBSD™ Korn Shell
+Homepage: https://www.mirbsd.org/mksh.htm
+Filename: dists/termux/extras/binary-aarch64/mksh_55_aarch64.deb
+Size: 154456
+SHA256: 5ff9b2e46e622d0ffc2e0d486120cafb2fd7a53a35ee593ffb1496bc1b4317f9
+
 Package: mpv-ext
 Architecture: aarch64
 Installed-Size: 1572
@@ -364,18 +375,6 @@ Depends: python, libicu, libgfortran, numpy, openblas, liblzma, readline, pcre, 
 Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.0-1_aarch64.deb
 Size: 41487376
 SHA256: 5f885755bae6d7215f41408c2d9d3776729eefb85eddd29929ec3652d5de31bc
-
-Package: r-cran
-Architecture: aarch64
-Installed-Size: 59044
-Maintainer: @its-pointless github
-Version: 3.4.0
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: python, libgfortran, numpy, openblas, liblzma, readline, pcre, libcurl, libbz2
-Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.0_aarch64.deb
-Size: 36027180
-SHA256: a9233880a6c841e0c60897daec4c05361f63103c32d74bc523ddbb5f892545bf
 
 Package: sc
 Architecture: aarch64
