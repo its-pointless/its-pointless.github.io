@@ -233,6 +233,52 @@ Filename: dists/termux/extras/binary-arm/libgfortran_6.3.0-3_arm.deb
 Size: 224860
 SHA256: 91378b53cbd5b1060a14faa66337848f45931d79ac4e22679d29b4b8b2cacd28
 
+Package: libgme-dev
+Architecture: arm
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.1
+Description: Development files for libgme
+Homepage: https://bitbucket.org/mpyne/game-music-emu
+Depends: libgme
+Filename: dists/termux/extras/binary-arm/libgme-dev_0.6.1_arm.deb
+Size: 4184
+SHA256: 2baa8c8ac6c73ae14e6d3d936be824eb8c17558f7d9bdb05d5a4fd7648bcec9e
+
+Package: libgme
+Architecture: arm
+Installed-Size: 216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.1
+Description: emulated game music
+Homepage: https://bitbucket.org/mpyne/game-music-emu
+Filename: dists/termux/extras/binary-arm/libgme_0.6.1_arm.deb
+Size: 95420
+SHA256: 1a940655d9c990266b7d488ba9dfeafbd7fde3ecb5faca0e0214ab39e3cc434e
+
+Package: libmodplug-dev
+Architecture: arm
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.8.9.0
+Description: Development files for libmodplug
+Homepage: https://github.com/Konstanty/libmodplug
+Depends: libmodplug
+Filename: dists/termux/extras/binary-arm/libmodplug-dev_0.8.9.0_arm.deb
+Size: 13428
+SHA256: 14c8c1787fbada2f04af0ad877d06bf702e7233d82b99da9d77b5e824afd590b
+
+Package: libmodplug
+Architecture: arm
+Installed-Size: 200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.8.9.0
+Description: the library which was part of the Modplug-xmms project
+Homepage: https://github.com/Konstanty/libmodplug
+Filename: dists/termux/extras/binary-arm/libmodplug_0.8.9.0_arm.deb
+Size: 115488
+SHA256: a009b0d59bdb2cacbfdc5cc458de5b0dece5ac10c19abdceaf33255c5e8574c0
+
 Package: libsoup-dev
 Architecture: arm
 Installed-Size: 308
@@ -303,6 +349,19 @@ Homepage: https://www.mirbsd.org/mksh.htm
 Filename: dists/termux/extras/binary-arm/mksh_55_arm.deb
 Size: 162264
 SHA256: 40bc04d5ded2c3df8c873bb8d48383d87f8f91acf86a836f2ebfb8b20f6fd4bf
+
+Package: mpd-ext
+Architecture: arm
+Installed-Size: 484
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.20.8
+Description: music player daemon with libmodplug and libgme support
+Homepage: https://www.musicpd.org
+Depends: libmodplug, libgme, libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
+Conflicts: mpd
+Filename: dists/termux/extras/binary-arm/mpd-ext_0.20.8_arm.deb
+Size: 201964
+SHA256: 62b44d3b6447302a6c2305395653f0c3d928da631a083b337e81c71f4207a10d
 
 Package: mpv-ext
 Architecture: arm

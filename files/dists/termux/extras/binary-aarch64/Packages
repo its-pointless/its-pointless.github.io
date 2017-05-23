@@ -211,6 +211,52 @@ Filename: dists/termux/extras/binary-aarch64/libgfortran_6.3.0-3_aarch64.deb
 Size: 281520
 SHA256: 03ccd2bef16671ade2915b54b03ddc7e87f34a80fe248485512802f6779c2027
 
+Package: libgme-dev
+Architecture: aarch64
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.1
+Description: Development files for libgme
+Homepage: https://bitbucket.org/mpyne/game-music-emu
+Depends: libgme
+Filename: dists/termux/extras/binary-aarch64/libgme-dev_0.6.1_aarch64.deb
+Size: 4188
+SHA256: 03a86cfcee78d419050e4b5db1b247b153f555dc19d2ddeff5cbc406b9d56c24
+
+Package: libgme
+Architecture: aarch64
+Installed-Size: 300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.1
+Description: emulated game music
+Homepage: https://bitbucket.org/mpyne/game-music-emu
+Filename: dists/termux/extras/binary-aarch64/libgme_0.6.1_aarch64.deb
+Size: 97004
+SHA256: 3f707dead8b9c7153b9d38e4c245464ca4d9a0f65b21dccb9e09a40174608947
+
+Package: libmodplug-dev
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.8.9.0
+Description: Development files for libmodplug
+Homepage: https://github.com/Konstanty/libmodplug
+Depends: libmodplug
+Filename: dists/termux/extras/binary-aarch64/libmodplug-dev_0.8.9.0_aarch64.deb
+Size: 13420
+SHA256: d36bb97a62b897c857e5c5f1c41f360284a48f871ee3f816f68f8a2f0ee28937
+
+Package: libmodplug
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.8.9.0
+Description: the library which was part of the Modplug-xmms project
+Homepage: https://github.com/Konstanty/libmodplug
+Filename: dists/termux/extras/binary-aarch64/libmodplug_0.8.9.0_aarch64.deb
+Size: 116896
+SHA256: 2f39c91b5b4f2c045a9e737da14d5468fbc40b872e3c5aca0b89ae12f3ec69c0
+
 Package: libsoup-dev
 Architecture: aarch64
 Installed-Size: 308
@@ -281,6 +327,19 @@ Homepage: https://www.mirbsd.org/mksh.htm
 Filename: dists/termux/extras/binary-aarch64/mksh_55_aarch64.deb
 Size: 154456
 SHA256: 5ff9b2e46e622d0ffc2e0d486120cafb2fd7a53a35ee593ffb1496bc1b4317f9
+
+Package: mpd-ext
+Architecture: aarch64
+Installed-Size: 728
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.20.8
+Description: music player daemon with libmodplug and libgme support
+Homepage: https://www.musicpd.org
+Depends: libmodplug, libgme, libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
+Conflicts: mpd
+Filename: dists/termux/extras/binary-aarch64/mpd-ext_0.20.8_aarch64.deb
+Size: 209920
+SHA256: a093d79c4116fd28918d11a9af42ad9a08c0aa9d39d3d6dc514d9dbfea5300a8
 
 Package: mpv-ext
 Architecture: aarch64
