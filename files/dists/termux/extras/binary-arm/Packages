@@ -10,6 +10,30 @@ Filename: dists/termux/extras/binary-arm/alpine_2.21_arm.deb
 Size: 1518664
 SHA256: d90c0647e4d6e0c897e1ec8ee8a2025f6bc19b24505a45d33caa8a8352dacecc
 
+Package: apache2-dev
+Architecture: arm
+Installed-Size: 936
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 2.4.25
+Description: Development files for apache2
+Homepage: http://httpd.apache.org
+Depends: apache2
+Filename: dists/termux/extras/binary-arm/apache2-dev_2.4.25_arm.deb
+Size: 147948
+SHA256: 8ab886ef8a95f37b3e3d48274160b7d3c6726bcb6b83fd9fccb7455cadb1ab71
+
+Package: apache2
+Architecture: arm
+Installed-Size: 27428
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 2.4.25
+Description: Apache Web Server
+Homepage: http://httpd.apache.org
+Depends: apr, apr-util, pcre, openssl, libcrypt, libandroid-support, libnghttp2, libexpat
+Filename: dists/termux/extras/binary-arm/apache2_2.4.25_arm.deb
+Size: 4537000
+SHA256: c0c56133da3c47f17f490382d47e6122e40184f99838ce40529783edab237533
+
 Package: arpack-ng
 Architecture: arm
 Installed-Size: 704
@@ -397,6 +421,18 @@ Depends: python, libgfortran, numpy, libatlas
 Filename: dists/termux/extras/binary-arm/scipy_0.19.0-1_arm.deb
 Size: 8548312
 SHA256: 9075a7bb64e52b71c543e01f7b8e6e551677a1eca9842405c9ff1c233643c4bf
+
+Package: squid
+Architecture: arm
+Installed-Size: 13072
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 3.5.25
+Description: Full-featured Web proxy cache server
+Homepage: http://www.squid-cache.org
+Depends: libcrypt, openssl
+Filename: dists/termux/extras/binary-arm/squid_3.5.25_arm.deb
+Size: 1698572
+SHA256: f4b80c550dd1cce6dd6cce88561b9ddf8f10b7838afacdc9d07d10b6e699d023
 
 Package: suitesparse-dev
 Architecture: arm

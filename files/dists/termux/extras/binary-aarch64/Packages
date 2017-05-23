@@ -10,6 +10,30 @@ Filename: dists/termux/extras/binary-aarch64/alpine_2.21_aarch64.deb
 Size: 1544292
 SHA256: d9a538fded4e6a871c5b618b99de3c867e59cce66363fbd96d5e934bb52e1375
 
+Package: apache2-dev
+Architecture: aarch64
+Installed-Size: 936
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 2.4.25
+Description: Development files for apache2
+Homepage: http://httpd.apache.org
+Depends: apache2
+Filename: dists/termux/extras/binary-aarch64/apache2-dev_2.4.25_aarch64.deb
+Size: 148488
+SHA256: 480010e92b2f3046ee90d3da6381ef2ee8814cf2697fea0787fc4caa8ecd5ea0
+
+Package: apache2
+Architecture: aarch64
+Installed-Size: 28116
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 2.4.25
+Description: Apache Web Server
+Homepage: http://httpd.apache.org
+Depends: apr, apr-util, pcre, openssl, libcrypt, libandroid-support, libnghttp2, libexpat
+Filename: dists/termux/extras/binary-aarch64/apache2_2.4.25_aarch64.deb
+Size: 4489536
+SHA256: db5cf01a975dbc3991cfac6be4f497f466a80d9a14d312d5c672c44383251de1
+
 Package: arpack-ng
 Architecture: aarch64
 Installed-Size: 732
@@ -387,6 +411,18 @@ Depends: python, libgfortran, numpy, openblas
 Filename: dists/termux/extras/binary-aarch64/scipy_0.19.0-2_aarch64.deb
 Size: 8661612
 SHA256: 4b63c6c03e7748f27df750ee5bc67e2fe3c2b7a231525add5219f68e609f8041
+
+Package: squid
+Architecture: aarch64
+Installed-Size: 14392
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 3.5.25
+Description: Full-featured Web proxy cache server
+Homepage: http://www.squid-cache.org
+Depends: libcrypt, openssl
+Filename: dists/termux/extras/binary-aarch64/squid_3.5.25_aarch64.deb
+Size: 1585732
+SHA256: 2c4119993ce735bab7870f7517aff17c14bc3f70278dece5a5b6b6b1d8c6c418
 
 Package: suitesparse-dev
 Architecture: aarch64
