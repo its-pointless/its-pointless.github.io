@@ -471,6 +471,18 @@ Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.0-1_aarch64.deb
 Size: 41487376
 SHA256: 5f885755bae6d7215f41408c2d9d3776729eefb85eddd29929ec3652d5de31bc
 
+Package: rquantlib
+Architecture: aarch64
+Installed-Size: 3956
+Maintainer: @its-pointless github
+Version: 0.4.3
+Description: QuantLib: R Interface to the 'QuantLib' Library
+Homepage: https://github.com/eddelbuettel/rquantlib
+Depends: r-cran, quantlib
+Filename: dists/termux/extras/binary-aarch64/rquantlib_0.4.3_aarch64.deb
+Size: 755352
+SHA256: e90e9f43378b57269bb1e47ba3681ee42977a75ca17c474a7ea02d3ca03b7f1d
+
 Package: sc
 Architecture: aarch64
 Installed-Size: 436
@@ -530,3 +542,15 @@ Depends: libgfortran,openblas
 Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.4_aarch64.deb
 Size: 768108
 SHA256: 913d8d1170a1c74c3371d7a9b240b113e0e1cc13e7743e04a1b1a1874bde52d7
+
+Package: zoo
+Architecture: aarch64
+Installed-Size: 1240
+Maintainer: @its-pointless github
+Version: 1.8-0-0
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-aarch64/zoo_1.8-0-0_aarch64.deb
+Size: 854996
+SHA256: 0da802a7ee45bbacff56106199360e0dc6b8bc95642ee7e55a75262a61fc961f
