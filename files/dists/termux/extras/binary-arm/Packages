@@ -445,6 +445,30 @@ Filename: dists/termux/extras/binary-arm/qrupdate_1.1.2_arm.deb
 Size: 54616
 SHA256: b6e9f029878d2d7b691a6103226ef484e1a4072e09ebb42f9a21cbcee9304ead
 
+Package: quantlib-dev
+Architecture: arm
+Installed-Size: 7876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10
+Description: Development files for quantlib
+Homepage: http://gmic.eu
+Depends: quantlib
+Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10_arm.deb
+Size: 548416
+SHA256: 5b1e4ba37ba5f9b848be501986bfce0dfbd19f77253a0e79ea76ad3beff2082a
+
+Package: quantlib
+Architecture: arm
+Installed-Size: 29332
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10
+Description: This library provides useful functions commonly found on BSD systems
+Homepage: http://gmic.eu
+Depends: boost
+Filename: dists/termux/extras/binary-arm/quantlib_1.10_arm.deb
+Size: 8407216
+SHA256: dae697d92b045593994f1976cb3222958ce42d10971d2470e2f3d4b69a28a9dc
+
 Package: r-cran
 Architecture: arm
 Installed-Size: 60620

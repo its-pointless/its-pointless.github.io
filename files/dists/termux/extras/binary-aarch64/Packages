@@ -435,6 +435,30 @@ Filename: dists/termux/extras/binary-aarch64/qrupdate_1.1.2_aarch64.deb
 Size: 48428
 SHA256: bea4ed183e23063bd21c0807c990ec2c71802b46b18ff05bb6470d3bf18144f0
 
+Package: quantlib-dev
+Architecture: aarch64
+Installed-Size: 7876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10
+Description: Development files for quantlib
+Homepage: http://gmic.eu
+Depends: quantlib
+Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.10_aarch64.deb
+Size: 548540
+SHA256: 3ac2bf852fb480ebc4ab9919d7fa03d38443375a441c10506776dfe24717648c
+
+Package: quantlib
+Architecture: aarch64
+Installed-Size: 46856
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10
+Description: This library provides useful functions commonly found on BSD systems
+Homepage: http://gmic.eu
+Depends: boost
+Filename: dists/termux/extras/binary-aarch64/quantlib_1.10_aarch64.deb
+Size: 8267328
+SHA256: b2b46deb6ed455ad04ca2dae156781d8138168566f3286e560d56f69f12285ab
+
 Package: r-cran
 Architecture: aarch64
 Installed-Size: 72892
