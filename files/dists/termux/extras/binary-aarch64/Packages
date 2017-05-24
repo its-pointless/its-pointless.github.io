@@ -332,14 +332,14 @@ Package: mpd-ext
 Architecture: aarch64
 Installed-Size: 728
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.20.8
+Version: 0.20.8-1
 Description: music player daemon with libmodplug and libgme support
 Homepage: https://www.musicpd.org
 Depends: libmodplug, libgme, libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Conflicts: mpd
-Filename: dists/termux/extras/binary-aarch64/mpd-ext_0.20.8_aarch64.deb
-Size: 209920
-SHA256: a093d79c4116fd28918d11a9af42ad9a08c0aa9d39d3d6dc514d9dbfea5300a8
+Filename: dists/termux/extras/binary-aarch64/mpd-ext_0.20.8-1_aarch64.deb
+Size: 210052
+SHA256: 4f868e3a9024fd0bc3e10f3f1f6c9714c1b026fe640ac61f9747128c0a9a3e53
 
 Package: mpv-ext
 Architecture: aarch64

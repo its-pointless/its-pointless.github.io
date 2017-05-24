@@ -354,14 +354,14 @@ Package: mpd-ext
 Architecture: arm
 Installed-Size: 484
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.20.8
+Version: 0.20.8-1
 Description: music player daemon with libmodplug and libgme support
 Homepage: https://www.musicpd.org
 Depends: libmodplug, libgme, libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Conflicts: mpd
-Filename: dists/termux/extras/binary-arm/mpd-ext_0.20.8_arm.deb
-Size: 201964
-SHA256: 62b44d3b6447302a6c2305395653f0c3d928da631a083b337e81c71f4207a10d
+Filename: dists/termux/extras/binary-arm/mpd-ext_0.20.8-1_arm.deb
+Size: 201828
+SHA256: b3076305818f729f34ba00b96ef6509bd6592a6dca739a08e36bd783bd76ba3b
 
 Package: mpv-ext
 Architecture: arm
