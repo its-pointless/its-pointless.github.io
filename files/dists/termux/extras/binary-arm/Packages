@@ -451,23 +451,23 @@ Installed-Size: 7876
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.10
 Description: Development files for quantlib
-Homepage: http://gmic.eu
+Homepage: http://quantlib.org/index.shtml
 Depends: quantlib
 Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10_arm.deb
-Size: 548416
-SHA256: 5b1e4ba37ba5f9b848be501986bfce0dfbd19f77253a0e79ea76ad3beff2082a
+Size: 548784
+SHA256: 250ce815e5569af309d445e5674e82d55541db5d6addd3342e0aee6d49985b53
 
 Package: quantlib
 Architecture: arm
 Installed-Size: 29332
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.10
-Description: This library provides useful functions commonly found on BSD systems
-Homepage: http://gmic.eu
+Description: A free/open-source library for quantitative finance
+Homepage: http://quantlib.org/index.shtml
 Depends: boost
 Filename: dists/termux/extras/binary-arm/quantlib_1.10_arm.deb
-Size: 8407216
-SHA256: dae697d92b045593994f1976cb3222958ce42d10971d2470e2f3d4b69a28a9dc
+Size: 8403256
+SHA256: 1074dbb8ca08e5cb38f190d4e766d13b779e95806f0cb045198463872fbdc56c
 
 Package: r-cran
 Architecture: arm
