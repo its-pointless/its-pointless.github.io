@@ -461,25 +461,25 @@ Package: quantlib-dev
 Architecture: arm
 Installed-Size: 7876
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10
+Version: 1.10-1
 Description: Development files for quantlib
 Homepage: http://quantlib.org/index.shtml
 Depends: quantlib
-Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10_arm.deb
-Size: 548640
-SHA256: 32a93cf9fbc4e3c9aca112b4500a00a9ed22b67206354f16fe1c3e2d1fc284eb
+Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10-1_arm.deb
+Size: 549104
+SHA256: 237b07fa13b8294e3b840732879843664b38361213bc943aff72e664a936e145
 
 Package: quantlib
 Architecture: arm
-Installed-Size: 29392
+Installed-Size: 28436
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10
+Version: 1.10-1
 Description: A free/open-source library for quantitative finance
 Homepage: http://quantlib.org/index.shtml
 Depends: boost
-Filename: dists/termux/extras/binary-arm/quantlib_1.10_arm.deb
-Size: 8420004
-SHA256: 2f02671ae7c0ee5a92201d55096b41c1cbcfc00a2686508a964922f762651b06
+Filename: dists/termux/extras/binary-arm/quantlib_1.10-1_arm.deb
+Size: 8243808
+SHA256: b0c846e15ebe9d9db27bbec344c4ebe1d946278129b1657dfba31a72399200b5
 
 Package: r-cran
 Architecture: arm
@@ -498,12 +498,12 @@ Architecture: arm
 Installed-Size: 3752
 Maintainer: @its-pointless github
 Version: 0.4.3
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
+Description: QuantLib: R Interface to the 'QuantLib' Library
+Homepage: https://github.com/eddelbuettel/rquantlib
 Depends: r-cran, quantlib
 Filename: dists/termux/extras/binary-arm/rquantlib_0.4.3_arm.deb
-Size: 751464
-SHA256: 485f20b21ab87c72470a7d91a0ffdfe87335c6c52066b7a7484625f063c1f456
+Size: 750612
+SHA256: d3b334c60898eeff0774cc83d370705a6be385a34f4c79a9e44ddd0475fa38f6
 
 Package: sc
 Architecture: arm
