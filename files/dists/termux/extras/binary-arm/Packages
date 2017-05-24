@@ -1,3 +1,15 @@
+Package: Rcpp
+Architecture: arm
+Installed-Size: 9980
+Maintainer: @its-pointless github
+Version: 0.12.10
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-arm/Rcpp_0.12.10_arm.deb
+Size: 2106424
+SHA256: ac78bbbfd9dd94e308b2e4c3be86f481c0ccfe9e937501c35a05b5adc4adc4ac
+
 Package: alpine
 Architecture: arm
 Installed-Size: 6628
@@ -454,20 +466,20 @@ Description: Development files for quantlib
 Homepage: http://quantlib.org/index.shtml
 Depends: quantlib
 Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10_arm.deb
-Size: 548784
-SHA256: 250ce815e5569af309d445e5674e82d55541db5d6addd3342e0aee6d49985b53
+Size: 548640
+SHA256: 32a93cf9fbc4e3c9aca112b4500a00a9ed22b67206354f16fe1c3e2d1fc284eb
 
 Package: quantlib
 Architecture: arm
-Installed-Size: 29332
+Installed-Size: 29392
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.10
 Description: A free/open-source library for quantitative finance
 Homepage: http://quantlib.org/index.shtml
 Depends: boost
 Filename: dists/termux/extras/binary-arm/quantlib_1.10_arm.deb
-Size: 8403256
-SHA256: 1074dbb8ca08e5cb38f190d4e766d13b779e95806f0cb045198463872fbdc56c
+Size: 8420004
+SHA256: 2f02671ae7c0ee5a92201d55096b41c1cbcfc00a2686508a964922f762651b06
 
 Package: r-cran
 Architecture: arm
@@ -480,6 +492,18 @@ Depends: libgfortran, libicu, libatlas, liblzma, readline, pcre, libicu, libcurl
 Filename: dists/termux/extras/binary-arm/r-cran_3.4.0-1_arm.deb
 Size: 38697308
 SHA256: f4f0cfb9dca09aa3cd47d03a44928873a09f3fb4a4d09fdcfce2e3b7b12121b8
+
+Package: rquantlib
+Architecture: arm
+Installed-Size: 3752
+Maintainer: @its-pointless github
+Version: 0.4.3
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: r-cran, quantlib
+Filename: dists/termux/extras/binary-arm/rquantlib_0.4.3_arm.deb
+Size: 751464
+SHA256: 485f20b21ab87c72470a7d91a0ffdfe87335c6c52066b7a7484625f063c1f456
 
 Package: sc
 Architecture: arm
@@ -540,3 +564,15 @@ Depends: libgfortran,libatlas
 Filename: dists/termux/extras/binary-arm/suitesparse_4.5.4_arm.deb
 Size: 510532
 SHA256: c2d5b75918969c1a21962e1b42a428cd6f06c9691a39be8d587587ce067526cd
+
+Package: zoo
+Architecture: arm
+Installed-Size: 1236
+Maintainer: @its-pointless github
+Version: 1.8-0-0
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-arm/zoo_1.8-0-0_arm.deb
+Size: 855548
+SHA256: 142d140023e0c2cf1fa83cad7e2b3db93dd4db1fae30b5e4cf65a8b23c3d16bd
