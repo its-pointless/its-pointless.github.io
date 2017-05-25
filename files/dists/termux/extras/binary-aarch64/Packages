@@ -483,6 +483,18 @@ Filename: dists/termux/extras/binary-aarch64/rquantlib_0.4.3_aarch64.deb
 Size: 755352
 SHA256: e90e9f43378b57269bb1e47ba3681ee42977a75ca17c474a7ea02d3ca03b7f1d
 
+Package: rustc
+Architecture: aarch64
+Installed-Size: 64276
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.17.0
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: libllvm, clang
+Filename: dists/termux/extras/binary-aarch64/rustc_1.17.0_aarch64.deb
+Size: 26341144
+SHA256: 5e3fdaca4ce00b67c859359ed14f68dd7d60c3d475073b623bf8c0b821a6c86b
+
 Package: sc
 Architecture: aarch64
 Installed-Size: 436
