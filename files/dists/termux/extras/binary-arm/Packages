@@ -315,6 +315,30 @@ Filename: dists/termux/extras/binary-arm/libsoup_2.58.0_arm.deb
 Size: 177308
 SHA256: 99de3c8c25ec46e981fd0ab707b3d0c7fd3c0c0806c39b72e6a099708ed98857
 
+Package: libssh2-dev
+Architecture: arm
+Installed-Size: 768
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Development files for libssh2
+Homepage: https://www.libssh2.org
+Depends: libssh2
+Filename: dists/termux/extras/binary-arm/libssh2-dev_1.8.0_arm.deb
+Size: 41348
+SHA256: a3ce43ae94736f0de1408b613207397c552baf8f3108ea27b28beb22f45f9e6b
+
+Package: libssh2
+Architecture: arm
+Installed-Size: 104
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Client-side C library implementing the SSH2 protocol
+Homepage: https://www.libssh2.org
+Depends: openssl
+Filename: dists/termux/extras/binary-arm/libssh2_1.8.0_arm.deb
+Size: 50100
+SHA256: dcaa3f9bf2484fc18e6d9831bd141ac9a1c3a4749b12458090f08ba20294f2c3
+
 Package: mailutils-dev
 Architecture: arm
 Installed-Size: 688

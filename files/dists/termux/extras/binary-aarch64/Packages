@@ -58,6 +58,18 @@ Filename: dists/termux/extras/binary-aarch64/cadaver_0.23.3_aarch64.deb
 Size: 60268
 SHA256: 24ab5636c1d7c7eb9d088a43e2ad4d159319ab91f9b8d877c5deb2dea63e929a
 
+Package: cargo
+Architecture: aarch64
+Installed-Size: 6684
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.18.0
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libgit2, libssh2
+Filename: dists/termux/extras/binary-aarch64/cargo_0.18.0_aarch64.deb
+Size: 1852376
+SHA256: d5bce85627282d6783eff35341d611e5fecd162168dd8411d76870059037af5f
+
 Package: gcc-6
 Architecture: aarch64
 Installed-Size: 71272
@@ -280,6 +292,30 @@ Depends: glib, krb5, libffi, libsqlite
 Filename: dists/termux/extras/binary-aarch64/libsoup_2.58.0_aarch64.deb
 Size: 183904
 SHA256: 2354b9b0cf76c65d2875272f2e21a103397a716394cc1258c450f40d9721c77b
+
+Package: libssh2-dev
+Architecture: aarch64
+Installed-Size: 768
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Development files for libssh2
+Homepage: https://www.libssh2.org
+Depends: libssh2
+Filename: dists/termux/extras/binary-aarch64/libssh2-dev_1.8.0_aarch64.deb
+Size: 41340
+SHA256: 34ea3e40ed7a3ea821d05716ac7a34313c60d984749586d6fb28e87ec15b2bce
+
+Package: libssh2
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Client-side C library implementing the SSH2 protocol
+Homepage: https://www.libssh2.org
+Depends: openssl
+Filename: dists/termux/extras/binary-aarch64/libssh2_1.8.0_aarch64.deb
+Size: 51168
+SHA256: 2171608954c620260977e96c773d9ad58d2c4d25bc4cd8208f18956926df7799
 
 Package: mailutils-dev
 Architecture: aarch64
