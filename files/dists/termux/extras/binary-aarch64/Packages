@@ -291,6 +291,29 @@ Filename: dists/termux/extras/binary-aarch64/libmodplug_0.8.9.0_aarch64.deb
 Size: 116896
 SHA256: 2f39c91b5b4f2c045a9e737da14d5468fbc40b872e3c5aca0b89ae12f3ec69c0
 
+Package: libshout-dev
+Architecture: aarch64
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.1
+Description: Development files for libshout
+Homepage: http://icecast.org/
+Depends: libshout
+Filename: dists/termux/extras/binary-aarch64/libshout-dev_2.4.1_aarch64.deb
+Size: 5156
+SHA256: bbebac156acfd054a3d51d0e16c3aac8654bfef7b3dffe0facb7103038b2f9e9
+
+Package: libshout
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.1
+Description: MP3/Ogg Vorbis broadcast streaming library
+Homepage: http://icecast.org/
+Filename: dists/termux/extras/binary-aarch64/libshout_2.4.1_aarch64.deb
+Size: 23176
+SHA256: 847060674c429d9dc29b83fefe064a28ad70e484fb9b668f7b43e57cbc5f9df4
+
 Package: libsoup-dev
 Architecture: aarch64
 Installed-Size: 308
@@ -388,16 +411,16 @@ SHA256: 5ff9b2e46e622d0ffc2e0d486120cafb2fd7a53a35ee593ffb1496bc1b4317f9
 
 Package: mpd-ext
 Architecture: aarch64
-Installed-Size: 728
+Installed-Size: 740
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.20.8-1
+Version: 0.20.8-2
 Description: music player daemon with libmodplug and libgme support
 Homepage: https://www.musicpd.org
-Depends: libmodplug, libgme, libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
+Depends: libshout, libmodplug, libgme, libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Conflicts: mpd
-Filename: dists/termux/extras/binary-aarch64/mpd-ext_0.20.8-1_aarch64.deb
-Size: 210052
-SHA256: 4f868e3a9024fd0bc3e10f3f1f6c9714c1b026fe640ac61f9747128c0a9a3e53
+Filename: dists/termux/extras/binary-aarch64/mpd-ext_0.20.8-2_aarch64.deb
+Size: 212800
+SHA256: 52928ee2b0ec4cfcdf35ff2238e48b3003459df3bbc1cb045a8641949615811f
 
 Package: mpv-ext
 Architecture: aarch64

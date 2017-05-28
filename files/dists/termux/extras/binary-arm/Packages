@@ -325,6 +325,29 @@ Filename: dists/termux/extras/binary-arm/libmodplug_0.8.9.0_arm.deb
 Size: 115488
 SHA256: a009b0d59bdb2cacbfdc5cc458de5b0dece5ac10c19abdceaf33255c5e8574c0
 
+Package: libshout-dev
+Architecture: arm
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.1
+Description: Development files for libshout
+Homepage: http://icecast.org/
+Depends: libshout
+Filename: dists/termux/extras/binary-arm/libshout-dev_2.4.1_arm.deb
+Size: 5156
+SHA256: c718886a5a979cad0d8b0e7e202a8145a142475bea69732d3ab6862c41cc5e8e
+
+Package: libshout
+Architecture: arm
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.1
+Description: MP3/Ogg Vorbis broadcast streaming library
+Homepage: http://icecast.org/
+Filename: dists/termux/extras/binary-arm/libshout_2.4.1_arm.deb
+Size: 22908
+SHA256: f5c4c915396141e24113f40b489a59a0c6917d1710d9a4d12766388149d80e1f
+
 Package: libsoup-dev
 Architecture: arm
 Installed-Size: 308
@@ -422,16 +445,16 @@ SHA256: 40bc04d5ded2c3df8c873bb8d48383d87f8f91acf86a836f2ebfb8b20f6fd4bf
 
 Package: mpd-ext
 Architecture: arm
-Installed-Size: 484
+Installed-Size: 492
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.20.8-1
+Version: 0.20.8-2
 Description: music player daemon with libmodplug and libgme support
 Homepage: https://www.musicpd.org
-Depends: libmodplug, libgme, libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
+Depends: libshout, libmodplug, libgme, libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
 Conflicts: mpd
-Filename: dists/termux/extras/binary-arm/mpd-ext_0.20.8-1_arm.deb
-Size: 201828
-SHA256: b3076305818f729f34ba00b96ef6509bd6592a6dca739a08e36bd783bd76ba3b
+Filename: dists/termux/extras/binary-arm/mpd-ext_0.20.8-2_arm.deb
+Size: 204260
+SHA256: ff107e1a9abedbf8bb54b5cc2aa707599824801c2bcfdc1699b00a927acd6b54
 
 Package: mpv-ext
 Architecture: arm
