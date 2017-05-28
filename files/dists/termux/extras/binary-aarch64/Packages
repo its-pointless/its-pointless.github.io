@@ -92,6 +92,17 @@ Filename: dists/termux/extras/binary-aarch64/cargo_0.18.0_aarch64.deb
 Size: 1852376
 SHA256: d5bce85627282d6783eff35341d611e5fecd162168dd8411d76870059037af5f
 
+Package: ccache
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 3.3.4
+Description: Compiler cache for fast recompilation of C/C++ code
+Homepage: https://ccache.samba.org
+Filename: dists/termux/extras/binary-aarch64/ccache_3.3.4_aarch64.deb
+Size: 55772
+SHA256: 24b280b69cb52bf05939e83d19c6f657a686c501a9cf1e1ff4af4f9719099d90
+
 Package: gcc-6
 Architecture: aarch64
 Installed-Size: 71272

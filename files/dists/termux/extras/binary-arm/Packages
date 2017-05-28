@@ -104,6 +104,17 @@ Filename: dists/termux/extras/binary-arm/cargo_0.18.0_arm.deb
 Size: 1831140
 SHA256: f1f32113385eb0f7944e581df76a1bc1c5f44158f57e31a7c765405457ba317c
 
+Package: ccache
+Architecture: arm
+Installed-Size: 152
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 3.3.4
+Description: Compiler cache for fast recompilation of C/C++ code
+Homepage: https://ccache.samba.org
+Filename: dists/termux/extras/binary-arm/ccache_3.3.4_arm.deb
+Size: 60496
+SHA256: 9acc39c27334bc8b6ebab76a64ccf1d574168e6b07a4a0df043978d23e237581
+
 Package: gcc-6
 Architecture: arm
 Installed-Size: 71496
