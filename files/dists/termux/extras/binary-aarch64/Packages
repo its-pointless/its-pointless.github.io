@@ -162,6 +162,18 @@ Filename: dists/termux/extras/binary-aarch64/gmic_1.7.9_aarch64.deb
 Size: 1253344
 SHA256: c56428d1ba762ecedf19fd3e885911d8f49e61772fedc6ac843873d1e8e79e44
 
+Package: gnuit
+Architecture: aarch64
+Installed-Size: 620
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.5
+Description: gnuit - GNU Interactive Tools
+Homepage: https://www.gnu.org/software/gnuit/
+Depends: ncurses
+Filename: dists/termux/extras/binary-aarch64/gnuit_4.9.5_aarch64.deb
+Size: 100264
+SHA256: 2b147edea024ecb7bbac44aea0894622301e7c243d7064c7740c7a658537da2d
+
 Package: graphicsmagick++
 Architecture: aarch64
 Installed-Size: 400

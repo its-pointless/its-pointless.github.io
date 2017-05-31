@@ -173,6 +173,18 @@ Filename: dists/termux/extras/binary-arm/gmic_1.7.9_arm.deb
 Size: 1444032
 SHA256: 6964a0e1acc20edc8c4c7bef36c671cbe4efe4c8927d9991cdbf412ee01e6e01
 
+Package: gnuit
+Architecture: arm
+Installed-Size: 564
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.5
+Description: gnuit - GNU Interactive Tools
+Homepage: https://www.gnu.org/software/gnuit/
+Depends: ncurses
+Filename: dists/termux/extras/binary-arm/gnuit_4.9.5_arm.deb
+Size: 100356
+SHA256: 68016a0dd8112be13b245550746ced8baad7ac984879669d9278a5d9b91c33aa
+
 Package: graphicsmagick++
 Architecture: arm
 Installed-Size: 292
