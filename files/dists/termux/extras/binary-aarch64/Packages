@@ -105,27 +105,51 @@ SHA256: 24b280b69cb52bf05939e83d19c6f657a686c501a9cf1e1ff4af4f9719099d90
 
 Package: gcc-6
 Architecture: aarch64
-Installed-Size: 71272
+Installed-Size: 71264
 Maintainer:  @its-pointless github
-Version: 6.3.0-3
+Version: 6.3.0-4
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-aarch64/gcc-6_6.3.0-3_aarch64.deb
-Size: 19258248
-SHA256: 7e8462a38b2dedcff6cfd4743d2f686898bb4dee938c8856c7ce56b5801efdee
+Depends: setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Filename: dists/termux/extras/binary-aarch64/gcc-6_6.3.0-4_aarch64.deb
+Size: 19255116
+SHA256: 94cf7c9acfbcae9acd3085c91fb38aaca85e6b44ab3bd599573119c9c571c8ac
+
+Package: gcc-7
+Architecture: aarch64
+Installed-Size: 61076
+Maintainer:  @its-pointless github
+Version: 7.1.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: libgfortran-4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.1.0_aarch64.deb
+Size: 16047096
+SHA256: b886e25cd2d9ca7a1a610b38f0fc2fab88766d72977980edc4a1b521681d68f1
 
 Package: gcov-6
 Architecture: aarch64
 Installed-Size: 1008
 Maintainer:  @its-pointless github
-Version: 6.3.0-3
+Version: 6.3.0-4
 Description: GNU coverage testing tool
 Homepage: http://gcc.gnu.org/
 Depends: gcc-6
-Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-3_aarch64.deb
-Size: 225364
-SHA256: d1a31e4d6eac8bcbc253d2c552e0fb1c9002f35bae21b33d54a3a91196d46326
+Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-4_aarch64.deb
+Size: 225800
+SHA256: cfce768b8d27ef90688ae761b0b3ee1f081781e96ea6021b31983ad23311f489
+
+Package: gcov-7
+Architecture: aarch64
+Installed-Size: 1620
+Maintainer:  @its-pointless github
+Version: 7.1.0
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/gcov-7_7.1.0_aarch64.deb
+Size: 281964
+SHA256: 3203958414f52105fbe02fbf466f4eb0f69ca01ca1ecc415922a7e2584121079
 
 Package: glpk-dev
 Architecture: aarch64
@@ -257,16 +281,27 @@ Filename: dists/termux/extras/binary-aarch64/libbthread_0.2_aarch64.deb
 Size: 2168
 SHA256: 431d79ea1722fba413787e12b286210bf804d1ff3d38a808dcbfb568decebe55
 
+Package: libgfortran-4
+Architecture: aarch64
+Installed-Size: 1536
+Maintainer:  @its-pointless github
+Version: 7.1.0
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libgfortran-4_7.1.0_aarch64.deb
+Size: 316996
+SHA256: d7f8997922e5b281b20ad2706bb18fb3a23711c1edef92b3e61e7da3551df5c4
+
 Package: libgfortran
 Architecture: aarch64
 Installed-Size: 1504
 Maintainer:  @its-pointless github
-Version: 6.3.0-3
+Version: 6.3.0-4
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran_6.3.0-3_aarch64.deb
-Size: 281520
-SHA256: 03ccd2bef16671ade2915b54b03ddc7e87f34a80fe248485512802f6779c2027
+Filename: dists/termux/extras/binary-aarch64/libgfortran_6.3.0-4_aarch64.deb
+Size: 281372
+SHA256: 1694c25b99d526592048f0b5d92a124cee3ed19a62f78b2beab32d25b7432e3e
 
 Package: libgme-dev
 Architecture: aarch64

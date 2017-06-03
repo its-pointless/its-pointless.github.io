@@ -31,3 +31,15 @@ Homepage: https://www.rust-lang.org
 Filename: dists/termux/extras/binary-all/rust-docs_1.17.0_all.deb
 Size: 3983844
 SHA256: eed9938aa57afbf9a60896b9194f7d334f7457e00c9c0cbfbef561e6bcd4676a
+
+Package: setup-scripts
+Architecture: all
+Installed-Size: 12
+Maintainer: @its-pointless github
+Version: 0.1
+Description: common files and scripts to setup which compiler to use
+Homepage: https://github.com/its-pointless/gcc_termux/
+Replaces: gcc-6 (<= 6.3.0-3)
+Filename: dists/termux/extras/binary-all/setup-scripts_0.1_all.deb
+Size: 1416
+SHA256: f7212861844a1196628146eb5de3fc54d5c9427fa464be61c6a8e1b8b7092232
