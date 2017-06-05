@@ -69,6 +69,18 @@ Filename: dists/termux/extras/binary-arm/arpack-ng_3.4.0_arm.deb
 Size: 103580
 SHA256: 190cadac703a6f5ed0a9b1f38072fc5435cf00e4c2f0a06f5f493254a281a652
 
+Package: asymptote
+Architecture: arm
+Installed-Size: 7176
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.41
+Description: bastard tetris
+Homepage: http://fph.altervista.org/prog/bastet.html
+Depends: libandroid-support, readline, gsl, fftw, libgc
+Filename: dists/termux/extras/binary-arm/asymptote_0.41_arm.deb
+Size: 2669272
+SHA256: 82179787d9417c6a10080a957378aaaa11ed7ecca28cbe1cc1fbf82f4ea2e125
+
 Package: bastet
 Architecture: arm
 Installed-Size: 28
