@@ -21,30 +21,6 @@ Filename: dists/termux/extras/binary-aarch64/alpine_2.21_aarch64.deb
 Size: 1544292
 SHA256: d9a538fded4e6a871c5b618b99de3c867e59cce66363fbd96d5e934bb52e1375
 
-Package: apache2-dev
-Architecture: aarch64
-Installed-Size: 936
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 2.4.25
-Description: Development files for apache2
-Homepage: http://httpd.apache.org
-Depends: apache2
-Filename: dists/termux/extras/binary-aarch64/apache2-dev_2.4.25_aarch64.deb
-Size: 148488
-SHA256: 480010e92b2f3046ee90d3da6381ef2ee8814cf2697fea0787fc4caa8ecd5ea0
-
-Package: apache2
-Architecture: aarch64
-Installed-Size: 28116
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 2.4.25
-Description: Apache Web Server
-Homepage: http://httpd.apache.org
-Depends: apr, apr-util, pcre, openssl, libcrypt, libandroid-support, libnghttp2, libexpat
-Filename: dists/termux/extras/binary-aarch64/apache2_2.4.25_aarch64.deb
-Size: 4489536
-SHA256: db5cf01a975dbc3991cfac6be4f497f466a80d9a14d312d5c672c44383251de1
-
 Package: arpack-ng
 Architecture: aarch64
 Installed-Size: 732
@@ -197,18 +173,6 @@ Depends: libjpeg-turbo, graphicsmagick++, libtiff, libcurl, fftw
 Filename: dists/termux/extras/binary-aarch64/gmic_1.7.9_aarch64.deb
 Size: 1253344
 SHA256: c56428d1ba762ecedf19fd3e885911d8f49e61772fedc6ac843873d1e8e79e44
-
-Package: gnuit
-Architecture: aarch64
-Installed-Size: 620
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.9.5
-Description: gnuit - GNU Interactive Tools
-Homepage: https://www.gnu.org/software/gnuit/
-Depends: ncurses
-Filename: dists/termux/extras/binary-aarch64/gnuit_4.9.5_aarch64.deb
-Size: 100264
-SHA256: 2b147edea024ecb7bbac44aea0894622301e7c243d7064c7740c7a658537da2d
 
 Package: graphicsmagick++
 Architecture: aarch64
