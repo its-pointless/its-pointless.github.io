@@ -80,6 +80,18 @@ Filename: dists/termux/extras/binary-aarch64/cargo_0.18.0_aarch64.deb
 Size: 1852376
 SHA256: d5bce85627282d6783eff35341d611e5fecd162168dd8411d76870059037af5f
 
+Package: cargo
+Architecture: aarch64
+Installed-Size: 5516
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.19.0
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libgit2, libssh2
+Filename: dists/termux/extras/binary-aarch64/cargo_0.19.0_aarch64.deb
+Size: 1459848
+SHA256: 2905d1cc68d9e82dd22d9a9072161cebd775c84035833067003dbd95decf67eb
+
 Package: ccache
 Architecture: aarch64
 Installed-Size: 172
@@ -642,6 +654,18 @@ Depends: libllvm, clang
 Filename: dists/termux/extras/binary-aarch64/rustc_1.17.0_aarch64.deb
 Size: 26341144
 SHA256: 5e3fdaca4ce00b67c859359ed14f68dd7d60c3d475073b623bf8c0b821a6c86b
+
+Package: rustc
+Architecture: aarch64
+Installed-Size: 91720
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.18.0
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: libllvm, clang
+Filename: dists/termux/extras/binary-aarch64/rustc_1.18.0_aarch64.deb
+Size: 34704464
+SHA256: b1884566173e8e907e157def75375789b05c14bdb95e3656be21efaa7ec81c61
 
 Package: sc
 Architecture: aarch64
