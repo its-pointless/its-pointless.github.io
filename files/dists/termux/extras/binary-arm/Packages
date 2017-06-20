@@ -548,6 +548,18 @@ Filename: dists/termux/extras/binary-arm/numpy_1.12.1_arm.deb
 Size: 2074372
 SHA256: e336f2f47c8bceaf1862011b399a6ef52dc69d12b1a2c34b2343af4862ef339b
 
+Package: numpy
+Architecture: arm
+Installed-Size: 13416
+Maintainer: @its-pointless github
+Version: 1.13.0
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran
+Filename: dists/termux/extras/binary-arm/numpy_1.13.0_arm.deb
+Size: 2112920
+SHA256: f24747c2923f7bc1d76bac421c80f25056ee911d0f9416a97fdb858f002bd7f7
+
 Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
@@ -703,27 +715,15 @@ SHA256: de80d8d3eef3be77c4001109261ac6719b5e9f871b6eddb6aff7290c21ecbe79
 
 Package: scipy
 Architecture: arm
-Installed-Size: 37184
+Installed-Size: 37180
 Maintainer: @its-pointless github
-Version: 0.19.0-1
+Version: 0.19.0-3
 Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
 Homepage: https://github.com/scipy/scipy
 Depends: python, libgfortran, numpy, libatlas
-Filename: dists/termux/extras/binary-arm/scipy_0.19.0-1_arm.deb
-Size: 8548312
-SHA256: 9075a7bb64e52b71c543e01f7b8e6e551677a1eca9842405c9ff1c233643c4bf
-
-Package: squid
-Architecture: arm
-Installed-Size: 13072
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 3.5.25
-Description: Full-featured Web proxy cache server
-Homepage: http://www.squid-cache.org
-Depends: libcrypt, openssl
-Filename: dists/termux/extras/binary-arm/squid_3.5.25_arm.deb
-Size: 1698572
-SHA256: f4b80c550dd1cce6dd6cce88561b9ddf8f10b7838afacdc9d07d10b6e699d023
+Filename: dists/termux/extras/binary-arm/scipy_0.19.0-3_arm.deb
+Size: 8544300
+SHA256: 19f6f3ecce5b8cb415772f48e24cf468cd86819c788e30f2ff67937844275092
 
 Package: suitesparse-dev
 Architecture: arm

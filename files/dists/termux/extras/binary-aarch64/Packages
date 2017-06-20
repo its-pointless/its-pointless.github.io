@@ -514,6 +514,18 @@ Filename: dists/termux/extras/binary-aarch64/numpy_1.12.1-2_aarch64.deb
 Size: 2065488
 SHA256: b4d47df1c7f843f6519fbca88512e9339486df31a7e735e597ce2187be06080d
 
+Package: numpy
+Architecture: aarch64
+Installed-Size: 15832
+Maintainer: @its-pointless github
+Version: 1.13.0
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran
+Filename: dists/termux/extras/binary-aarch64/numpy_1.13.0_aarch64.deb
+Size: 2372452
+SHA256: c958aeed0ac542b815afd3751a97e6bff02d4fcca24935b1f1e47ceee4643fc2
+
 Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5644
@@ -681,27 +693,15 @@ SHA256: 3b28c3d51b423d03fbf507659332ab2406c851a8c1d2965ee2e815af1f107794
 
 Package: scipy
 Architecture: aarch64
-Installed-Size: 42180
+Installed-Size: 43636
 Maintainer: @its-pointless github
-Version: 0.19.0-2
+Version: 0.19.0-3
 Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
 Homepage: https://github.com/scipy/scipy
 Depends: python, libgfortran, numpy, openblas
-Filename: dists/termux/extras/binary-aarch64/scipy_0.19.0-2_aarch64.deb
-Size: 8661612
-SHA256: 4b63c6c03e7748f27df750ee5bc67e2fe3c2b7a231525add5219f68e609f8041
-
-Package: squid
-Architecture: aarch64
-Installed-Size: 14392
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 3.5.25
-Description: Full-featured Web proxy cache server
-Homepage: http://www.squid-cache.org
-Depends: libcrypt, openssl
-Filename: dists/termux/extras/binary-aarch64/squid_3.5.25_aarch64.deb
-Size: 1585732
-SHA256: 2c4119993ce735bab7870f7517aff17c14bc3f70278dece5a5b6b6b1d8c6c418
+Filename: dists/termux/extras/binary-aarch64/scipy_0.19.0-3_aarch64.deb
+Size: 9292700
+SHA256: e48c3892f77522e05034009c949748cd043d8b006e6eaf11d041ec3d0a299b88
 
 Package: suitesparse-dev
 Architecture: aarch64
