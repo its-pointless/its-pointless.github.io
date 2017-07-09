@@ -11,6 +11,18 @@ SHA256: 4f7035a923571be4085c8ec3ff0010be115d97b204906dcff56d54724cbea326
 
 Package: alpine
 Architecture: aarch64
+Installed-Size: 8452
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.21-1
+Description: Fast, easy to use email client
+Homepage: http://patches.freeiz.com
+Depends: libcrypt, ncurses, openssl
+Filename: dists/termux/extras/binary-aarch64/alpine_2.21-1_aarch64.deb
+Size: 1547040
+SHA256: 3c70bc74f8dbfd0445140cfa79a5acb0c7b1a3fef554b203dda337ccb9a80912
+
+Package: alpine
+Architecture: aarch64
 Installed-Size: 8444
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.21
@@ -642,6 +654,17 @@ Depends: python, libicu, libgfortran, numpy, openblas, liblzma, readline, pcre, 
 Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.0-1_aarch64.deb
 Size: 41487376
 SHA256: 5f885755bae6d7215f41408c2d9d3776729eefb85eddd29929ec3652d5de31bc
+
+Package: ripgrep
+Architecture: aarch64
+Installed-Size: 2216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.2
+Description: fast grep written in rust
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-aarch64/ripgrep_0.5.2_aarch64.deb
+Size: 710516
+SHA256: ffbeb0a97c76cd95174673efc7e08574ae1afb3b5ef2a48fabb39fc9429c1a93
 
 Package: rquantlib
 Architecture: aarch64

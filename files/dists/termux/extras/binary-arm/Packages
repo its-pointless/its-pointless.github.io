@@ -9,17 +9,17 @@ Filename: dists/termux/extras/binary-arm/2048-cli_0.9.1_arm.deb
 Size: 8856
 SHA256: a05e64fec58be129cd107f9b1357f7b241dc4f8d1624c66221805aa6182c9c3f
 
-Package: Rcpp
+Package: alpine
 Architecture: arm
-Installed-Size: 9980
-Maintainer: @its-pointless github
-Version: 0.12.10
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: r-cran
-Filename: dists/termux/extras/binary-arm/Rcpp_0.12.10_arm.deb
-Size: 2106424
-SHA256: ac78bbbfd9dd94e308b2e4c3be86f481c0ccfe9e937501c35a05b5adc4adc4ac
+Installed-Size: 6612
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.21-1
+Description: Fast, easy to use email client
+Homepage: http://patches.freeiz.com
+Depends: libcrypt, ncurses, openssl
+Filename: dists/termux/extras/binary-arm/alpine_2.21-1_arm.deb
+Size: 1505612
+SHA256: 836e002c21aa3ba80bce07be4ffb176c12b8cc2ceb850f3eec4eda7c45a8bff4
 
 Package: alpine
 Architecture: arm
@@ -664,6 +664,17 @@ Depends: libgfortran, libicu, libatlas, liblzma, readline, pcre, libicu, libcurl
 Filename: dists/termux/extras/binary-arm/r-cran_3.4.0-1_arm.deb
 Size: 38697308
 SHA256: f4f0cfb9dca09aa3cd47d03a44928873a09f3fb4a4d09fdcfce2e3b7b12121b8
+
+Package: ripgrep
+Architecture: arm
+Installed-Size: 2220
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.2
+Description: fast grep written in rust
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-arm/ripgrep_0.5.2_arm.deb
+Size: 704600
+SHA256: 1e2e2787fe6b21fe9b83ffdcd8335c3dd44d18b5413599f6c098678042a12c7d
 
 Package: rquantlib
 Architecture: arm
