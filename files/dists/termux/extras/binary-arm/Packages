@@ -21,18 +21,6 @@ Filename: dists/termux/extras/binary-arm/alpine_2.21-1_arm.deb
 Size: 1505612
 SHA256: 836e002c21aa3ba80bce07be4ffb176c12b8cc2ceb850f3eec4eda7c45a8bff4
 
-Package: alpine
-Architecture: arm
-Installed-Size: 6628
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.21
-Description: Fast, easy to use email client
-Homepage: http://patches.freeiz.com
-Depends: openssl
-Filename: dists/termux/extras/binary-arm/alpine_2.21_arm.deb
-Size: 1518664
-SHA256: d90c0647e4d6e0c897e1ec8ee8a2025f6bc19b24505a45d33caa8a8352dacecc
-
 Package: arpack-ng
 Architecture: arm
 Installed-Size: 704
@@ -127,6 +115,31 @@ Filename: dists/termux/extras/binary-arm/gcc-6_6.3.0-4_arm.deb
 Size: 20660080
 SHA256: 738d6fd2ba665b24ab85e45af1b7e96e3dc5f1a1c21c1cd978fe923b0b710e20
 
+Package: gcc-6
+Architecture: arm
+Installed-Size: 71540
+Maintainer:  @its-pointless github
+Version: 6.4.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0_arm.deb
+Size: 20669112
+SHA256: 7d76695a73107864bd782abc53d8c0eaa481d79e1736093eef4c9522cec00b01
+
+Package: gcc-7
+Architecture: arm
+Installed-Size: 75036
+Maintainer:  @its-pointless github
+Version: 7.1.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Replaces: libgfortran-4
+Filename: dists/termux/extras/binary-arm/gcc-7_7.1.0-1_arm.deb
+Size: 21564584
+SHA256: 408fe3618b4817d6b83e491eae54110b9fb1fc84013622d0d3db51aefa18d6c9
+
 Package: gcc-7
 Architecture: arm
 Installed-Size: 59376
@@ -150,6 +163,30 @@ Depends: gcc-6
 Filename: dists/termux/extras/binary-arm/gcov-6_6.3.0-4_arm.deb
 Size: 218760
 SHA256: 9807e4c7dc997e4d38e5531603f713dc4967855c6b042da9be6b91ec1ce357a6
+
+Package: gcov-6
+Architecture: arm
+Installed-Size: 1292
+Maintainer:  @its-pointless github
+Version: 6.4.0
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-6
+Filename: dists/termux/extras/binary-arm/gcov-6_6.4.0_arm.deb
+Size: 235344
+SHA256: 67751395eda40c46928877e02dd9cc3c2164085862f6ec963350a91353f8870d
+
+Package: gcov-7
+Architecture: arm
+Installed-Size: 1412
+Maintainer:  @its-pointless github
+Version: 7.1.0-1
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/gcov-7_7.1.0-1_arm.deb
+Size: 262928
+SHA256: 02850f175cd4cf7b5c9d6cb840d5412cce5612eef5fb07fc23766b01bb792467
 
 Package: gcov-7
 Architecture: arm
@@ -314,6 +351,18 @@ Filename: dists/termux/extras/binary-arm/libgfortran-4_7.1.0_arm.deb
 Size: 255904
 SHA256: e4bbca81024f9fd4cad13a566a36b520347fa2f1fc80db0832fa6670afc10428
 
+Package: libgfortran4
+Architecture: arm
+Installed-Size: 1180
+Maintainer:  @its-pointless github
+Version: 7.1.0-1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Conflicts: libgfortran-4
+Filename: dists/termux/extras/binary-arm/libgfortran4_7.1.0-1_arm.deb
+Size: 254356
+SHA256: edcc24ddafef4b001bb6b71d3070880c4b3b30dd352acf19a2cbc6d919c4f23a
+
 Package: libgfortran
 Architecture: arm
 Installed-Size: 1128
@@ -347,6 +396,30 @@ Homepage: https://bitbucket.org/mpyne/game-music-emu
 Filename: dists/termux/extras/binary-arm/libgme_0.6.1_arm.deb
 Size: 95420
 SHA256: 1a940655d9c990266b7d488ba9dfeafbd7fde3ecb5faca0e0214ab39e3cc434e
+
+Package: libgrpc-dev
+Architecture: arm
+Installed-Size: 928
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.4.1
+Description: Development files for libgrpc
+Homepage: 
+Depends: libgrpc
+Filename: dists/termux/extras/binary-arm/libgrpc-dev_1.4.1_arm.deb
+Size: 86336
+SHA256: 9aa9ffb1169df107ff0a1e804c1fe477699b7403346fe0f184caaa5e07625f3f
+
+Package: libgrpc
+Architecture: arm
+Installed-Size: 8608
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.4.1
+Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
+Homepage: 
+Depends: openssl, protobuf, c-ares
+Filename: dists/termux/extras/binary-arm/libgrpc_1.4.1_arm.deb
+Size: 805564
+SHA256: 36c7283fa76aa56a1ebebdb76d4bfc12400de205080a77bc98f97271578877c7
 
 Package: libmodplug-dev
 Architecture: arm

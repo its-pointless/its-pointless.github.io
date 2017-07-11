@@ -21,18 +21,6 @@ Filename: dists/termux/extras/binary-aarch64/alpine_2.21-1_aarch64.deb
 Size: 1547040
 SHA256: 3c70bc74f8dbfd0445140cfa79a5acb0c7b1a3fef554b203dda337ccb9a80912
 
-Package: alpine
-Architecture: aarch64
-Installed-Size: 8444
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.21
-Description: Fast, easy to use email client
-Homepage: http://patches.freeiz.com
-Depends: openssl
-Filename: dists/termux/extras/binary-aarch64/alpine_2.21_aarch64.deb
-Size: 1544292
-SHA256: d9a538fded4e6a871c5b618b99de3c867e59cce66363fbd96d5e934bb52e1375
-
 Package: arpack-ng
 Architecture: aarch64
 Installed-Size: 732
@@ -127,6 +115,31 @@ Filename: dists/termux/extras/binary-aarch64/gcc-6_6.3.0-4_aarch64.deb
 Size: 19255116
 SHA256: 94cf7c9acfbcae9acd3085c91fb38aaca85e6b44ab3bd599573119c9c571c8ac
 
+Package: gcc-6
+Architecture: aarch64
+Installed-Size: 71316
+Maintainer:  @its-pointless github
+Version: 6.4.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0_aarch64.deb
+Size: 19281888
+SHA256: 2a146d7544e00fb69af01e180f9165be322d69467d9b4c23472305b18cdd0be4
+
+Package: gcc-7
+Architecture: aarch64
+Installed-Size: 76740
+Maintainer:  @its-pointless github
+Version: 7.1.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Replaces: libgfortran-4
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.1.0-1_aarch64.deb
+Size: 20550152
+SHA256: e79091d85c1ba8b5d3da336831ef61d7524bc01d587674de6ae4ed9acfa20281
+
 Package: gcc-7
 Architecture: aarch64
 Installed-Size: 61076
@@ -150,6 +163,30 @@ Depends: gcc-6
 Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-4_aarch64.deb
 Size: 225800
 SHA256: cfce768b8d27ef90688ae761b0b3ee1f081781e96ea6021b31983ad23311f489
+
+Package: gcov-6
+Architecture: aarch64
+Installed-Size: 1460
+Maintainer:  @its-pointless github
+Version: 6.4.0
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-6
+Filename: dists/termux/extras/binary-aarch64/gcov-6_6.4.0_aarch64.deb
+Size: 249032
+SHA256: 23a4b376d9a145f9a863d6dfeb4062c7866761fff78bf69db8b9bfa9afcd84d8
+
+Package: gcov-7
+Architecture: aarch64
+Installed-Size: 1620
+Maintainer:  @its-pointless github
+Version: 7.1.0-1
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/gcov-7_7.1.0-1_aarch64.deb
+Size: 280556
+SHA256: aaf22610eca3f5a0780c9aa65355518a20e25901517b5d3d119b486076872526
 
 Package: gcov-7
 Architecture: aarch64
@@ -292,6 +329,18 @@ Filename: dists/termux/extras/binary-aarch64/libgfortran-4_7.1.0_aarch64.deb
 Size: 316996
 SHA256: d7f8997922e5b281b20ad2706bb18fb3a23711c1edef92b3e61e7da3551df5c4
 
+Package: libgfortran4
+Architecture: aarch64
+Installed-Size: 1536
+Maintainer:  @its-pointless github
+Version: 7.1.0-1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Conflicts: libgfortran-4
+Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.1.0-1_aarch64.deb
+Size: 316464
+SHA256: e2ca69619f9b4615fbc78e6fd0fffacbe480054d8a8a3c8cf74079e2636d4325
+
 Package: libgfortran
 Architecture: aarch64
 Installed-Size: 1504
@@ -325,6 +374,30 @@ Homepage: https://bitbucket.org/mpyne/game-music-emu
 Filename: dists/termux/extras/binary-aarch64/libgme_0.6.1_aarch64.deb
 Size: 97004
 SHA256: 3f707dead8b9c7153b9d38e4c245464ca4d9a0f65b21dccb9e09a40174608947
+
+Package: libgrpc-dev
+Architecture: aarch64
+Installed-Size: 924
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.4.1
+Description: Development files for libgrpc
+Homepage: 
+Depends: libgrpc
+Filename: dists/termux/extras/binary-aarch64/libgrpc-dev_1.4.1_aarch64.deb
+Size: 86360
+SHA256: bd2d2de36919622f3adc0ddd9a8ea011da5c07ed1547fa55787621fbdbfb8016
+
+Package: libgrpc
+Architecture: aarch64
+Installed-Size: 11476
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.4.1
+Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
+Homepage: 
+Depends: openssl, protobuf, c-ares
+Filename: dists/termux/extras/binary-aarch64/libgrpc_1.4.1_aarch64.deb
+Size: 831652
+SHA256: 8d628f96c8eec6bfdd95784cd679d5653e59bbf2034ce0fda4a8fc853f72e3f6
 
 Package: libmodplug-dev
 Architecture: aarch64
