@@ -56,6 +56,29 @@ Filename: dists/termux/extras/binary-arm/bastet_0.41_arm.deb
 Size: 9656
 SHA256: dc0c175dfc509cf35c36993922b5653c23c015115bbcaa0834b91b4c01d3e2ff
 
+Package: bthread-dev
+Architecture: arm
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1
+Description: Development files for bthread
+Homepage: http://gmic.eu
+Depends: bthread
+Filename: dists/termux/extras/binary-arm/bthread-dev_0.1_arm.deb
+Size: 968
+SHA256: c58c52faf0429db438860d29e6662471c4a9b56c72a274987894f6a2e7eee215
+
+Package: bthread
+Architecture: arm
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1
+Description: This library provides useful functions commonly found on BSD systems
+Homepage: http://gmic.eu
+Filename: dists/termux/extras/binary-arm/bthread_0.1_arm.deb
+Size: 2228
+SHA256: 84774ffd492653b0ea7899c9d190d4df70fa0a6a908bbbc4199e67cc4b3d515b
+
 Package: cadaver
 Architecture: arm
 Installed-Size: 128
@@ -316,30 +339,6 @@ Filename: dists/termux/extras/binary-arm/libatlas_3.10.3_arm.deb
 Size: 2368208
 SHA256: f28c8d31b96e6035609944cdda3858ada80e6995124cd51d6bdb95f8a2a609cf
 
-Package: libbthread-dev
-Architecture: arm
-Installed-Size: 4
-Maintainer: tux-mind
-Version: 0.2
-Description: Development files for libbthread
-Homepage: https://github.com/tux-mind/libbthread
-Depends: libbthread
-Filename: dists/termux/extras/binary-arm/libbthread-dev_0.2_arm.deb
-Size: 984
-SHA256: 73156b72198385caf0749db4286c5b6fe88c86a7e39a6ef7f60643fc339059e9
-
-Package: libbthread
-Architecture: arm
-Installed-Size: 4
-Maintainer: tux-mind
-Version: 0.2
-Description: libpthread add-on.
-Homepage: https://github.com/tux-mind/libbthread
-Depends: ndk-sysroot
-Filename: dists/termux/extras/binary-arm/libbthread_0.2_arm.deb
-Size: 2160
-SHA256: dd6d71d50e70a2eb2c6341c2c139e2150cb66486ed452fdbac9dcfca02b83df2
-
 Package: libgfortran-4
 Architecture: arm
 Installed-Size: 1180
@@ -396,30 +395,6 @@ Homepage: https://bitbucket.org/mpyne/game-music-emu
 Filename: dists/termux/extras/binary-arm/libgme_0.6.1_arm.deb
 Size: 95420
 SHA256: 1a940655d9c990266b7d488ba9dfeafbd7fde3ecb5faca0e0214ab39e3cc434e
-
-Package: libgrpc-dev
-Architecture: arm
-Installed-Size: 928
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.4.1
-Description: Development files for libgrpc
-Homepage: 
-Depends: libgrpc
-Filename: dists/termux/extras/binary-arm/libgrpc-dev_1.4.1_arm.deb
-Size: 86336
-SHA256: 9aa9ffb1169df107ff0a1e804c1fe477699b7403346fe0f184caaa5e07625f3f
-
-Package: libgrpc
-Architecture: arm
-Installed-Size: 8608
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.4.1
-Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
-Homepage: 
-Depends: openssl, protobuf, c-ares
-Filename: dists/termux/extras/binary-arm/libgrpc_1.4.1_arm.deb
-Size: 805564
-SHA256: 36c7283fa76aa56a1ebebdb76d4bfc12400de205080a77bc98f97271578877c7
 
 Package: libmodplug-dev
 Architecture: arm
@@ -784,6 +759,18 @@ Depends: libllvm, clang
 Filename: dists/termux/extras/binary-arm/rustc_1.18.0_arm.deb
 Size: 34748560
 SHA256: 28ed8d45d2f68c9a760f67e063236d0cc5164ba11df9e4c3c52834b38e230ff9
+
+Package: sc-im
+Architecture: arm
+Installed-Size: 260
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.0
+Description: This library provides useful functions commonly found on BSD systems
+Homepage: https://github.com/andmarti1424/sc-im/
+Depends: libandroid-support, bthread
+Filename: dists/termux/extras/binary-arm/sc-im_0.6.0_arm.deb
+Size: 111180
+SHA256: def18f28145e167d6d6d43adba0f8763af62d8aee6769af86c455d63342f475b
 
 Package: sc
 Architecture: arm

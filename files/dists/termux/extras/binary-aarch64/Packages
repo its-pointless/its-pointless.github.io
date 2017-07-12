@@ -56,6 +56,29 @@ Filename: dists/termux/extras/binary-aarch64/bastet_0.41_aarch64.deb
 Size: 8740
 SHA256: a886135ff7b508467f8239c8fc71e5d7c956900569c031a3d968b5585a10f4f8
 
+Package: bthread-dev
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1
+Description: Development files for bthread
+Homepage: http://gmic.eu
+Depends: bthread
+Filename: dists/termux/extras/binary-aarch64/bthread-dev_0.1_aarch64.deb
+Size: 972
+SHA256: 91beeab28ef8f6f4eb37535366f536ec9fb885e69fef979bcd4a3c53ee3d9fe2
+
+Package: bthread
+Architecture: aarch64
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1
+Description: This library provides useful functions commonly found on BSD systems
+Homepage: http://gmic.eu
+Filename: dists/termux/extras/binary-aarch64/bthread_0.1_aarch64.deb
+Size: 2252
+SHA256: 48e2bd67e5dd935ecbf28e004a733774c49e4b28bfbcbd82ca17f869602649a5
+
 Package: cadaver
 Architecture: aarch64
 Installed-Size: 168
@@ -294,30 +317,6 @@ Filename: dists/termux/extras/binary-aarch64/lbzip2_2.5_aarch64.deb
 Size: 59480
 SHA256: 252da3dde8d12b5ef55b6ddcb398dff8d887575f354f7d40a4e13e379e426099
 
-Package: libbthread-dev
-Architecture: aarch64
-Installed-Size: 4
-Maintainer: tux-mind
-Version: 0.2
-Description: Development files for libbthread
-Homepage: https://github.com/tux-mind/libbthread
-Depends: libbthread
-Filename: dists/termux/extras/binary-aarch64/libbthread-dev_0.2_aarch64.deb
-Size: 984
-SHA256: 7ef2f298a2210096524432dff542697570ebe7373ae587bc4c10d0d26c71eb69
-
-Package: libbthread
-Architecture: aarch64
-Installed-Size: 8
-Maintainer: tux-mind
-Version: 0.2
-Description: libpthread add-on.
-Homepage: https://github.com/tux-mind/libbthread
-Depends: ndk-sysroot
-Filename: dists/termux/extras/binary-aarch64/libbthread_0.2_aarch64.deb
-Size: 2168
-SHA256: 431d79ea1722fba413787e12b286210bf804d1ff3d38a808dcbfb568decebe55
-
 Package: libgfortran-4
 Architecture: aarch64
 Installed-Size: 1536
@@ -374,30 +373,6 @@ Homepage: https://bitbucket.org/mpyne/game-music-emu
 Filename: dists/termux/extras/binary-aarch64/libgme_0.6.1_aarch64.deb
 Size: 97004
 SHA256: 3f707dead8b9c7153b9d38e4c245464ca4d9a0f65b21dccb9e09a40174608947
-
-Package: libgrpc-dev
-Architecture: aarch64
-Installed-Size: 924
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.4.1
-Description: Development files for libgrpc
-Homepage: 
-Depends: libgrpc
-Filename: dists/termux/extras/binary-aarch64/libgrpc-dev_1.4.1_aarch64.deb
-Size: 86360
-SHA256: bd2d2de36919622f3adc0ddd9a8ea011da5c07ed1547fa55787621fbdbfb8016
-
-Package: libgrpc
-Architecture: aarch64
-Installed-Size: 11476
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.4.1
-Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
-Homepage: 
-Depends: openssl, protobuf, c-ares
-Filename: dists/termux/extras/binary-aarch64/libgrpc_1.4.1_aarch64.deb
-Size: 831652
-SHA256: 8d628f96c8eec6bfdd95784cd679d5653e59bbf2034ce0fda4a8fc853f72e3f6
 
 Package: libmodplug-dev
 Architecture: aarch64
@@ -774,6 +749,18 @@ Depends: libllvm, clang
 Filename: dists/termux/extras/binary-aarch64/rustc_1.18.0_aarch64.deb
 Size: 34704464
 SHA256: b1884566173e8e907e157def75375789b05c14bdb95e3656be21efaa7ec81c61
+
+Package: sc-im
+Architecture: aarch64
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.0
+Description: This library provides useful functions commonly found on BSD systems
+Homepage: https://github.com/andmarti1424/sc-im/
+Depends: libandroid-support, bthread
+Filename: dists/termux/extras/binary-aarch64/sc-im_0.6.0_aarch64.deb
+Size: 98592
+SHA256: f41e2636d6e027c66e05d6d39f25dde214f6434726fcee9ca1747d8ef1cdbdc8
 
 Package: sc
 Architecture: aarch64
