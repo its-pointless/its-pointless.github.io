@@ -91,30 +91,6 @@ Filename: dists/termux/extras/binary-arm/cadaver_0.23.3_arm.deb
 Size: 60564
 SHA256: d97a0d0fcf9aaaa273339a1df15cba4194870ce6e4647de4f837f6a7726a629a
 
-Package: cargo
-Architecture: arm
-Installed-Size: 5912
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.18.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.18.0_arm.deb
-Size: 1831140
-SHA256: f1f32113385eb0f7944e581df76a1bc1c5f44158f57e31a7c765405457ba317c
-
-Package: cargo
-Architecture: arm
-Installed-Size: 5344
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.19.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.19.0_arm.deb
-Size: 1482620
-SHA256: dc545bded159b8c783813ec24cfe2bc960b871f3379ed9a76654b7e64574ba75
-
 Package: ccache
 Architecture: arm
 Installed-Size: 152
@@ -318,6 +294,18 @@ SHA256: 21d4b2099beb5b8a43f7b7ead97113cc29e8c1b3876b274db534a9066e07f170
 
 Package: libatlas-dev
 Architecture: arm
+Installed-Size: 604
+Maintainer: @its-pointless github
+Version: 3.10.3-1
+Description: Development files for libatlas
+Homepage: math-atlas.sourceforge.net/
+Depends: libatlas
+Filename: dists/termux/extras/binary-arm/libatlas-dev_3.10.3-1_arm.deb
+Size: 13908
+SHA256: ca784d0de435ee5c95d56b7688a11a17d13b997d38ceff4290b27e7874110b29
+
+Package: libatlas-dev
+Architecture: arm
 Installed-Size: 592
 Maintainer:  @its-pointless github
 Version: 3.10.3
@@ -327,6 +315,17 @@ Depends: libatlas
 Filename: dists/termux/extras/binary-arm/libatlas-dev_3.10.3_arm.deb
 Size: 13192
 SHA256: 4954ded6a0e5fca5da590e778c0064514ebdeaacc7a78f62d36990f79428d7eb
+
+Package: libatlas
+Architecture: arm
+Installed-Size: 15864
+Maintainer: @its-pointless github
+Version: 3.10.3-1
+Description: ATLAS (Automatically Tuned Linear Algebra Software)
+Homepage: math-atlas.sourceforge.net/
+Filename: dists/termux/extras/binary-arm/libatlas_3.10.3-1_arm.deb
+Size: 2396264
+SHA256: 44c822857c7b4da219e9dfd6324cc86ac880b83d28bddc408b8832da82a36edd
 
 Package: libatlas
 Architecture: arm
@@ -735,30 +734,6 @@ Depends: r-cran, quantlib
 Filename: dists/termux/extras/binary-arm/rquantlib_0.4.3_arm.deb
 Size: 750612
 SHA256: d3b334c60898eeff0774cc83d370705a6be385a34f4c79a9e44ddd0475fa38f6
-
-Package: rustc
-Architecture: arm
-Installed-Size: 61860
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.17.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-arm/rustc_1.17.0_arm.deb
-Size: 26055464
-SHA256: c5560619a31eb35ba33e2d9300d3508db3f9499e229a9066fb427f3b0b944797
-
-Package: rustc
-Architecture: arm
-Installed-Size: 89564
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.18.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-arm/rustc_1.18.0_arm.deb
-Size: 34748560
-SHA256: 28ed8d45d2f68c9a760f67e063236d0cc5164ba11df9e4c3c52834b38e230ff9
 
 Package: sc-im
 Architecture: arm
