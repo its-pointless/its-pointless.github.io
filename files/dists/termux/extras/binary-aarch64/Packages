@@ -849,15 +849,15 @@ SHA256: 1da2faf73b2e56ad8cf579d1df13fca23b70f0543b08ccda26e0021e9a28d6df
 
 Package: quantlib-dev
 Architecture: aarch64
-Installed-Size: 7880
+Installed-Size: 7876
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.10-2
 Description: Development files for quantlib
 Homepage: http://quantlib.org/index.shtml
 Depends: quantlib
 Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.10-2_aarch64.deb
-Size: 548960
-SHA256: 91f597a4597129cf84c8cabb50eee436df7b16b0f898001e9444466e543ec136
+Size: 548656
+SHA256: 163efbadefc8ba4633c76fcc25ae97fb3b7444c36e54daa37947898b180de6c7
 
 Package: quantlib
 Architecture: aarch64
@@ -873,15 +873,63 @@ SHA256: 72e3bc64b5df6a74414f8e10d2174b4276767fd8980ec9d1ac3a4aca67785e11
 
 Package: quantlib
 Architecture: aarch64
-Installed-Size: 107192
+Installed-Size: 47084
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.10-2
 Description: A free/open-source library for quantitative finance
 Homepage: http://quantlib.org/index.shtml
 Depends: boost
 Filename: dists/termux/extras/binary-aarch64/quantlib_1.10-2_aarch64.deb
-Size: 20166648
-SHA256: d9d12b46e3b3398802f648fb854a165e55aade5bb3bc7e13786a9cb7816455d4
+Size: 8289092
+SHA256: ab35fe0a2f72c0b09ec46110febe9b155c5160b05148afd692a76a3cf034e733
+
+Package: r-cran-rcpp
+Architecture: aarch64
+Installed-Size: 10184
+Maintainer: @its-pointless github
+Version: 0.12.12
+Description: C++ classes which offer a seamless integration of R and C++
+Homepage: https://cran.r-project.org/web/packages/Rcpp/
+Depends: r-cran
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.12_aarch64.deb
+Size: 2179044
+SHA256: 4d868aa18460b70f853d112a63acaf465d4308219082367a8430d2092cb2e136
+
+Package: r-cran-rquantlib
+Architecture: aarch64
+Installed-Size: 3908
+Maintainer: @its-pointless github
+Version: 0.4.3
+Description: RQuantLib' package makes parts of 'QuantLib' accessible from R
+Homepage: https://cran.r-project.org/web/packages/RQuantLib/index.html
+Depends: r-cran, quantlib, r-cran-zoo
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.3_aarch64.deb
+Size: 756180
+SHA256: bd9eea657f4f87e0a61325c0b0d3501797691ac271fab913dc821326d37725a8
+
+Package: r-cran-stringi
+Architecture: aarch64
+Installed-Size: 1040
+Maintainer: @its-pointless github
+Version: 1.15
+Description: gnu r character string/text processing in every locale
+Homepage: https://cran.r-project.org/web/packages/stringi/index.html
+Depends: r-cran, libicu
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.15_aarch64.deb
+Size: 573412
+SHA256: a340853e70d42d4c9492ff645d23a014ac63958a27854e0d825779851e3a7e8e
+
+Package: r-cran-zoo
+Architecture: aarch64
+Installed-Size: 1240
+Maintainer: @its-pointless github
+Version: 1.80-1
+Description: S3 Infrastructure for Regular and Irregular Time Series
+Homepage: https://cran.r-project.org/web/packages/zoo/
+Depends: r-cran
+Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.80-1_aarch64.deb
+Size: 857140
+SHA256: 0d1ca4db193856c30a90f282753f941cbc16a385fc9cd07341e9f881d9cde51d
 
 Package: r-cran
 Architecture: aarch64
@@ -918,18 +966,6 @@ Filename: dists/termux/extras/binary-aarch64/ripgrep_0.5.2_aarch64.deb
 Size: 710516
 SHA256: ffbeb0a97c76cd95174673efc7e08574ae1afb3b5ef2a48fabb39fc9429c1a93
 
-Package: rquantlib
-Architecture: aarch64
-Installed-Size: 3956
-Maintainer: @its-pointless github
-Version: 0.4.3
-Description: QuantLib: R Interface to the 'QuantLib' Library
-Homepage: https://github.com/eddelbuettel/rquantlib
-Depends: r-cran, quantlib
-Filename: dists/termux/extras/binary-aarch64/rquantlib_0.4.3_aarch64.deb
-Size: 755352
-SHA256: e90e9f43378b57269bb1e47ba3681ee42977a75ca17c474a7ea02d3ca03b7f1d
-
 Package: rustc
 Architecture: aarch64
 Installed-Size: 91288
@@ -965,18 +1001,6 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-aarch64/sc_7.16_aarch64.deb
 Size: 128420
 SHA256: 3b28c3d51b423d03fbf507659332ab2406c851a8c1d2965ee2e815af1f107794
-
-Package: scipy
-Architecture: aarch64
-Installed-Size: 43636
-Maintainer: @its-pointless github
-Version: 0.19.0-3
-Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
-Homepage: https://github.com/scipy/scipy
-Depends: python, libgfortran, numpy, openblas
-Filename: dists/termux/extras/binary-aarch64/scipy_0.19.0-3_aarch64.deb
-Size: 9292700
-SHA256: e48c3892f77522e05034009c949748cd043d8b006e6eaf11d041ec3d0a299b88
 
 Package: scipy
 Architecture: aarch64

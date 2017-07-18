@@ -116,6 +116,18 @@ SHA256: 738d6fd2ba665b24ab85e45af1b7e96e3dc5f1a1c21c1cd978fe923b0b710e20
 
 Package: gcc-6
 Architecture: arm
+Installed-Size: 71264
+Maintainer:  @its-pointless github
+Version: 6.4.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0-1_arm.deb
+Size: 20612056
+SHA256: 1fdb0104c87b12a40a86c119a6c63b6e9f576ad61bacfdb1f5c7e353a3dd6b71
+
+Package: gcc-6
+Architecture: arm
 Installed-Size: 71540
 Maintainer:  @its-pointless github
 Version: 6.4.0
@@ -138,6 +150,19 @@ Replaces: libgfortran-4
 Filename: dists/termux/extras/binary-arm/gcc-7_7.1.0-1_arm.deb
 Size: 21564584
 SHA256: 408fe3618b4817d6b83e491eae54110b9fb1fc84013622d0d3db51aefa18d6c9
+
+Package: gcc-7
+Architecture: arm
+Installed-Size: 74756
+Maintainer:  @its-pointless github
+Version: 7.1.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Replaces: libgfortran-4
+Filename: dists/termux/extras/binary-arm/gcc-7_7.1.0-2_arm.deb
+Size: 21516676
+SHA256: 0b7f86a0bfd318d9812dce237c337710e48dea041e842862e7c0303f2d0fa666
 
 Package: gcc-7
 Architecture: arm
@@ -165,6 +190,18 @@ SHA256: 9807e4c7dc997e4d38e5531603f713dc4967855c6b042da9be6b91ec1ce357a6
 
 Package: gcov-6
 Architecture: arm
+Installed-Size: 1136
+Maintainer:  @its-pointless github
+Version: 6.4.0-1
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-6
+Filename: dists/termux/extras/binary-arm/gcov-6_6.4.0-1_arm.deb
+Size: 204380
+SHA256: a54f92c1d2044c62d3e92519cf5d842dfc7ca134c59ba6199c10a76f7fddef5c
+
+Package: gcov-6
+Architecture: arm
 Installed-Size: 1292
 Maintainer:  @its-pointless github
 Version: 6.4.0
@@ -186,6 +223,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-arm/gcov-7_7.1.0-1_arm.deb
 Size: 262928
 SHA256: 02850f175cd4cf7b5c9d6cb840d5412cce5612eef5fb07fc23766b01bb792467
+
+Package: gcov-7
+Architecture: arm
+Installed-Size: 1220
+Maintainer:  @its-pointless github
+Version: 7.1.0-2
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/gcov-7_7.1.0-2_arm.deb
+Size: 221140
+SHA256: e5e625086ca1de6af8d1fa581977cbe5c5b94515e834cd0129c3838c9cfcbfde
 
 Package: gcov-7
 Architecture: arm
@@ -224,6 +273,18 @@ SHA256: 223fb0b1753aa2f552a9fa9a56946fe302c0bff29f6eb2fbcdb13ba0ac907b83
 
 Package: gmic
 Architecture: arm
+Installed-Size: 9480
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.9-1
+Description: imageman
+Homepage: http://gmic.eu
+Depends: graphicsmagick++, libcurl, fftw
+Filename: dists/termux/extras/binary-arm/gmic_1.7.9-1_arm.deb
+Size: 2456216
+SHA256: 42f1d52d599088a3786a6749bcd2002b25566ddc942765cc29a845c232345946
+
+Package: gmic
+Architecture: arm
 Installed-Size: 4028
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.7.9
@@ -244,6 +305,18 @@ Depends: graphicsmagick
 Filename: dists/termux/extras/binary-arm/graphicsmagick++_1.3.25-1_arm.deb
 Size: 63188
 SHA256: 387580e6ca32a5f7c2bc780e486d2623f0bb8a945efd054e6182a0a9f4bee123
+
+Package: graphicsmagick++
+Architecture: arm
+Installed-Size: 312
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.25-2
+Description: format-independent image processing - C++ shared library
+Homepage: http://www.graphicsmagick.org/
+Depends: graphicsmagick
+Filename: dists/termux/extras/binary-arm/graphicsmagick++_1.3.25-2_arm.deb
+Size: 65436
+SHA256: 9ed927b3259929a9a81df542ae9156f679761a7b2c35c2e89d67b70ebcd94759
 
 Package: icecast
 Architecture: arm
@@ -361,6 +434,18 @@ Filename: dists/termux/extras/binary-arm/libgfortran4_7.1.0-1_arm.deb
 Size: 254356
 SHA256: edcc24ddafef4b001bb6b71d3070880c4b3b30dd352acf19a2cbc6d919c4f23a
 
+Package: libgfortran4
+Architecture: arm
+Installed-Size: 1180
+Maintainer:  @its-pointless github
+Version: 7.1.0-2
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Conflicts: libgfortran-4
+Filename: dists/termux/extras/binary-arm/libgfortran4_7.1.0-2_arm.deb
+Size: 254388
+SHA256: 93a4e9c9481ed8c9fa8757930da522df25335456be09b90f51e489407a28d539
+
 Package: libgfortran
 Architecture: arm
 Installed-Size: 1128
@@ -371,6 +456,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libgfortran_6.3.0-4_arm.deb
 Size: 224716
 SHA256: b70eecd8eb220729a2e61547e32ce4792b146d61637e87fe0d0cf3b3a0c3cdac
+
+Package: libgfortran
+Architecture: arm
+Installed-Size: 1128
+Maintainer:  @its-pointless github
+Version: 6.4.0-1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgfortran_6.4.0-1_arm.deb
+Size: 224224
+SHA256: 24f3955e685334cac384b2ed1aa335bd3a54c7fd470e77019e674eb72ab0c287
 
 Package: libgme-dev
 Architecture: arm
@@ -607,6 +703,18 @@ Filename: dists/termux/extras/binary-arm/numpy_1.13.0_arm.deb
 Size: 2112920
 SHA256: f24747c2923f7bc1d76bac421c80f25056ee911d0f9416a97fdb858f002bd7f7
 
+Package: numpy
+Architecture: arm
+Installed-Size: 14396
+Maintainer: @its-pointless github
+Version: 1.13.1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran4, openblas
+Filename: dists/termux/extras/binary-arm/numpy_1.13.1_arm.deb
+Size: 2452512
+SHA256: 3afa494a7d1aa37cc36b8fb98adb18c74b639b609d79638b792e41369ae6e3d6
+
 Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
@@ -688,6 +796,18 @@ Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10-1_arm.deb
 Size: 549104
 SHA256: 237b07fa13b8294e3b840732879843664b38361213bc943aff72e664a936e145
 
+Package: quantlib-dev
+Architecture: arm
+Installed-Size: 7876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10-2
+Description: Development files for quantlib
+Homepage: http://quantlib.org/index.shtml
+Depends: quantlib
+Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10-2_arm.deb
+Size: 548584
+SHA256: a20254ba87e1bfdb8d5ef5d5601eeb065cf1bd6a4457596580facabe43c4b37c
+
 Package: quantlib
 Architecture: arm
 Installed-Size: 28436
@@ -699,6 +819,66 @@ Depends: boost
 Filename: dists/termux/extras/binary-arm/quantlib_1.10-1_arm.deb
 Size: 8243808
 SHA256: b0c846e15ebe9d9db27bbec344c4ebe1d946278129b1657dfba31a72399200b5
+
+Package: quantlib
+Architecture: arm
+Installed-Size: 30568
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10-2
+Description: A free/open-source library for quantitative finance
+Homepage: http://quantlib.org/index.shtml
+Depends: boost
+Filename: dists/termux/extras/binary-arm/quantlib_1.10-2_arm.deb
+Size: 8744120
+SHA256: 663c4cae6facbe87537688b791402b70be092af147279f10d8906e8f3960bc9e
+
+Package: r-cran-rcpp
+Architecture: arm
+Installed-Size: 10584
+Maintainer: @its-pointless github
+Version: 0.12.12
+Description: C++ classes which offer a seamless integration of R and C++
+Homepage: https://cran.r-project.org/web/packages/Rcpp/
+Depends: r-cran
+Filename: dists/termux/extras/binary-arm/r-cran-rcpp_0.12.12_arm.deb
+Size: 2228492
+SHA256: 59ee3356a1a545394de93c55e9317d90fc0411657dd38ac5d5235f2b32356af0
+
+Package: r-cran-rquantlib
+Architecture: arm
+Installed-Size: 4720
+Maintainer: @its-pointless github
+Version: 0.4.3
+Description: RQuantLib' package makes parts of 'QuantLib' accessible from R
+Homepage: https://cran.r-project.org/web/packages/RQuantLib/index.html
+Depends: r-cran, quantlib, r-cran-zoo
+Filename: dists/termux/extras/binary-arm/r-cran-rquantlib_0.4.3_arm.deb
+Size: 911500
+SHA256: 17473f9b57a2f9626088705dbfffc813e0851df5002fa8a83a7f0afe8f8f4351
+
+Package: r-cran-stringi
+Architecture: arm
+Installed-Size: 1272
+Maintainer: @its-pointless github
+Version: 1.15
+Description: gnu r character string/text processing in every locale
+Homepage: https://cran.r-project.org/web/packages/stringi/index.html
+Depends: r-cran, libicu
+Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.15_arm.deb
+Size: 595312
+SHA256: c91264b2a7268d44017d60946f125a92bde2a27943ad30a2b742acc5ffbb11a9
+
+Package: r-cran-zoo
+Architecture: arm
+Installed-Size: 1240
+Maintainer: @its-pointless github
+Version: 1.80-1
+Description: S3 Infrastructure for Regular and Irregular Time Series
+Homepage: https://cran.r-project.org/web/packages/zoo/
+Depends: r-cran
+Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.80-1_arm.deb
+Size: 855904
+SHA256: 214e5d67b396a008cce6665c188e13d9bc7af2b24ee1dfdb2885a04d5b854650
 
 Package: r-cran
 Architecture: arm
@@ -712,6 +892,18 @@ Filename: dists/termux/extras/binary-arm/r-cran_3.4.0-1_arm.deb
 Size: 38697308
 SHA256: f4f0cfb9dca09aa3cd47d03a44928873a09f3fb4a4d09fdcfce2e3b7b12121b8
 
+Package: r-cran
+Architecture: arm
+Installed-Size: 61372
+Maintainer: @its-pointless github
+Version: 3.4.1
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: libandroid-glob, libandroid-support, libgfortran4, libicu, libatlas, liblzma, readline, pcre, libcurl, libbz2
+Filename: dists/termux/extras/binary-arm/r-cran_3.4.1_arm.deb
+Size: 38533040
+SHA256: e8176545771c06c2b05fec3203c9a6859949edb875aec69b8622507e2b9ae507
+
 Package: ripgrep
 Architecture: arm
 Installed-Size: 2220
@@ -722,18 +914,6 @@ Homepage: https://github.com/BurntSushi/ripgrep
 Filename: dists/termux/extras/binary-arm/ripgrep_0.5.2_arm.deb
 Size: 704600
 SHA256: 1e2e2787fe6b21fe9b83ffdcd8335c3dd44d18b5413599f6c098678042a12c7d
-
-Package: rquantlib
-Architecture: arm
-Installed-Size: 3752
-Maintainer: @its-pointless github
-Version: 0.4.3
-Description: QuantLib: R Interface to the 'QuantLib' Library
-Homepage: https://github.com/eddelbuettel/rquantlib
-Depends: r-cran, quantlib
-Filename: dists/termux/extras/binary-arm/rquantlib_0.4.3_arm.deb
-Size: 750612
-SHA256: d3b334c60898eeff0774cc83d370705a6be385a34f4c79a9e44ddd0475fa38f6
 
 Package: sc-im
 Architecture: arm
@@ -761,15 +941,15 @@ SHA256: de80d8d3eef3be77c4001109261ac6719b5e9f871b6eddb6aff7290c21ecbe79
 
 Package: scipy
 Architecture: arm
-Installed-Size: 37180
+Installed-Size: 40916
 Maintainer: @its-pointless github
-Version: 0.19.0-3
+Version: 0.19.1
 Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
 Homepage: https://github.com/scipy/scipy
 Depends: python, libgfortran, numpy, libatlas
-Filename: dists/termux/extras/binary-arm/scipy_0.19.0-3_arm.deb
-Size: 8544300
-SHA256: 19f6f3ecce5b8cb415772f48e24cf468cd86819c788e30f2ff67937844275092
+Filename: dists/termux/extras/binary-arm/scipy_0.19.1_arm.deb
+Size: 9634668
+SHA256: 0917e2d60adfdf61ad322eff896c6b8881f8aee00d936633e4e2e65260a90ab7
 
 Package: suitesparse-dev
 Architecture: arm

@@ -46,6 +46,18 @@ SHA256: f7212861844a1196628146eb5de3fc54d5c9427fa464be61c6a8e1b8b7092232
 
 Package: setup-scripts
 Architecture: all
+Installed-Size: 16
+Maintainer: @its-pointless github
+Version: 0.2.1
+Description: common files and scripts to setup which compiler to use
+Homepage: https://github.com/its-pointless/gcc_termux/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-all/setup-scripts_0.2.1_all.deb
+Size: 1608
+SHA256: 18c20f4624c10e8ca4f4eb47a34e27ee81b27bb9159609aa834c5fb038691d6b
+
+Package: setup-scripts
+Architecture: all
 Installed-Size: 12
 Maintainer: @its-pointless github
 Version: 0.2
