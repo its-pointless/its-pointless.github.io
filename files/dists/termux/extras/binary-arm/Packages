@@ -705,15 +705,15 @@ SHA256: f24747c2923f7bc1d76bac421c80f25056ee911d0f9416a97fdb858f002bd7f7
 
 Package: numpy
 Architecture: arm
-Installed-Size: 14396
+Installed-Size: 14392
 Maintainer: @its-pointless github
 Version: 1.13.1
 Description: NumPy is the fundamental package for scientific computing with Python.
 Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
+Depends: python, libgfortran4, libatlas
 Filename: dists/termux/extras/binary-arm/numpy_1.13.1_arm.deb
-Size: 2452512
-SHA256: 3afa494a7d1aa37cc36b8fb98adb18c74b639b609d79638b792e41369ae6e3d6
+Size: 2452176
+SHA256: 9763cfd640ed352a72fdf9831e1f9d82a06dd3b04bb84f8076434db5a3e2c5b7
 
 Package: octave-dev
 Architecture: arm
