@@ -102,6 +102,17 @@ Filename: dists/termux/extras/binary-arm/ccache_3.3.4_arm.deb
 Size: 60496
 SHA256: 9acc39c27334bc8b6ebab76a64ccf1d574168e6b07a4a0df043978d23e237581
 
+Package: ffmpeg-compat
+Architecture: arm
+Installed-Size: 12
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1-1
+Description: compatibility so mpd and mpv work on android 5 roms
+Homepage: https://github.com/its-pointless/gcc_termux
+Filename: dists/termux/extras/binary-arm/ffmpeg-compat_0.1-1_arm.deb
+Size: 1548
+SHA256: be5d60ee9bb76f69ddb3930e769788da26e513e2982703c510e237ca86c4338a
+
 Package: gcc-6
 Architecture: arm
 Installed-Size: 71492
