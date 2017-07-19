@@ -152,6 +152,18 @@ SHA256: 77a6fc1020dc88f23264c784eb9cf5fcb2063f6a5f821a12557f42c073d10b0d
 
 Package: gcc-6
 Architecture: aarch64
+Installed-Size: 70688
+Maintainer:  @its-pointless github
+Version: 6.4.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0-2_aarch64.deb
+Size: 19221704
+SHA256: a7c20c92f4f9dc346dfd987811b20a3509e5c39a8ba451ae750ad3ca76f96965
+
+Package: gcc-6
+Architecture: aarch64
 Installed-Size: 71316
 Maintainer:  @its-pointless github
 Version: 6.4.0
@@ -223,6 +235,18 @@ Depends: gcc-6
 Filename: dists/termux/extras/binary-aarch64/gcov-6_6.4.0-1_aarch64.deb
 Size: 194424
 SHA256: 1fe68fedd36aff73a82bd1f080f1f532b1bba62929badac0052a590edde9bf03
+
+Package: gcov-6
+Architecture: aarch64
+Installed-Size: 1212
+Maintainer:  @its-pointless github
+Version: 6.4.0-2
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-6
+Filename: dists/termux/extras/binary-aarch64/gcov-6_6.4.0-2_aarch64.deb
+Size: 222532
+SHA256: fbf123f83ee36b97236ad717feba70f0b15282536cfa27dfe87f3c4cde4d65bc
 
 Package: gcov-6
 Architecture: aarch64
@@ -458,6 +482,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libgfortran_6.4.0-1_aarch64.deb
 Size: 281704
 SHA256: 8164763fbe6c5cb41e5f71c9db1d4752c9c172b623fb97ab6d201a224db036dd
+
+Package: libgfortran
+Architecture: aarch64
+Installed-Size: 1504
+Maintainer:  @its-pointless github
+Version: 6.4.0-2
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libgfortran_6.4.0-2_aarch64.deb
+Size: 281792
+SHA256: 3b3a8a36afd9c7650e1cba471cb08ce65346c27f53a54218d0b405e9950b644b
 
 Package: libgme-dev
 Architecture: aarch64
@@ -989,6 +1024,18 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-aarch64/sc_7.16_aarch64.deb
 Size: 128420
 SHA256: 3b28c3d51b423d03fbf507659332ab2406c851a8c1d2965ee2e815af1f107794
+
+Package: scipy
+Architecture: aarch64
+Installed-Size: 40916
+Maintainer: @its-pointless github
+Version: 0.19.1-1
+Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
+Homepage: https://github.com/scipy/scipy
+Depends: numpy
+Filename: dists/termux/extras/binary-aarch64/scipy_0.19.1-1_aarch64.deb
+Size: 9641776
+SHA256: 65bbad0a34db07220a9364d1de3ac7639c7089d2ad37ddb4dd650068b325f743
 
 Package: scipy
 Architecture: aarch64
