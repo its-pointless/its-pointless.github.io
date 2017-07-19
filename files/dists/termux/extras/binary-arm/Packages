@@ -882,18 +882,6 @@ SHA256: 214e5d67b396a008cce6665c188e13d9bc7af2b24ee1dfdb2885a04d5b854650
 
 Package: r-cran
 Architecture: arm
-Installed-Size: 60620
-Maintainer: @its-pointless github
-Version: 3.4.0-1
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: libgfortran, libicu, libatlas, liblzma, readline, pcre, libicu, libcurl, libbz2
-Filename: dists/termux/extras/binary-arm/r-cran_3.4.0-1_arm.deb
-Size: 38697308
-SHA256: f4f0cfb9dca09aa3cd47d03a44928873a09f3fb4a4d09fdcfce2e3b7b12121b8
-
-Package: r-cran
-Architecture: arm
 Installed-Size: 61372
 Maintainer: @its-pointless github
 Version: 3.4.1
@@ -974,15 +962,3 @@ Depends: libgfortran,libatlas
 Filename: dists/termux/extras/binary-arm/suitesparse_4.5.4_arm.deb
 Size: 510532
 SHA256: c2d5b75918969c1a21962e1b42a428cd6f06c9691a39be8d587587ce067526cd
-
-Package: zoo
-Architecture: arm
-Installed-Size: 1236
-Maintainer: @its-pointless github
-Version: 1.8-0-0
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: r-cran
-Filename: dists/termux/extras/binary-arm/zoo_1.8-0-0_arm.deb
-Size: 855548
-SHA256: 142d140023e0c2cf1fa83cad7e2b3db93dd4db1fae30b5e4cf65a8b23c3d16bd

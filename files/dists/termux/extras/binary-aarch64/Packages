@@ -450,14 +450,14 @@ SHA256: 1694c25b99d526592048f0b5d92a124cee3ed19a62f78b2beab32d25b7432e3e
 
 Package: libgfortran
 Architecture: aarch64
-Installed-Size: 788
+Installed-Size: 1504
 Maintainer:  @its-pointless github
 Version: 6.4.0-1
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libgfortran_6.4.0-1_aarch64.deb
-Size: 158692
-SHA256: a6cb24abd9b13eca64be2bb5cce29d2f2168359e73a51199c3dbf9643daa47c4
+Size: 281704
+SHA256: 8164763fbe6c5cb41e5f71c9db1d4752c9c172b623fb97ab6d201a224db036dd
 
 Package: libgme-dev
 Architecture: aarch64
@@ -933,18 +933,6 @@ SHA256: 0d1ca4db193856c30a90f282753f941cbc16a385fc9cd07341e9f881d9cde51d
 
 Package: r-cran
 Architecture: aarch64
-Installed-Size: 72892
-Maintainer: @its-pointless github
-Version: 3.4.0-1
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: python, libicu, libgfortran, numpy, openblas, liblzma, readline, pcre, libcurl, libbz2
-Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.0-1_aarch64.deb
-Size: 41487376
-SHA256: 5f885755bae6d7215f41408c2d9d3776729eefb85eddd29929ec3652d5de31bc
-
-Package: r-cran
-Architecture: aarch64
 Installed-Size: 60072
 Maintainer: @its-pointless github
 Version: 3.4.1
@@ -1061,15 +1049,3 @@ Depends: libgfortran,openblas
 Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.4_aarch64.deb
 Size: 768108
 SHA256: 913d8d1170a1c74c3371d7a9b240b113e0e1cc13e7743e04a1b1a1874bde52d7
-
-Package: zoo
-Architecture: aarch64
-Installed-Size: 1240
-Maintainer: @its-pointless github
-Version: 1.8-0-0
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: r-cran
-Filename: dists/termux/extras/binary-aarch64/zoo_1.8-0-0_aarch64.deb
-Size: 854996
-SHA256: 0da802a7ee45bbacff56106199360e0dc6b8bc95642ee7e55a75262a61fc961f
