@@ -91,6 +91,18 @@ Filename: dists/termux/extras/binary-arm/cadaver_0.23.3_arm.deb
 Size: 60564
 SHA256: d97a0d0fcf9aaaa273339a1df15cba4194870ce6e4647de4f837f6a7726a629a
 
+Package: cargo
+Architecture: arm
+Installed-Size: 5344
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.19.0-1
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libgit2, libssh2
+Filename: dists/termux/extras/binary-arm/cargo_0.19.0-1_arm.deb
+Size: 1479300
+SHA256: 1ba9950c1d45063fdc3eeb6290c99ec792185c630258725b241ee7b0dff8f1c8
+
 Package: ccache
 Architecture: arm
 Installed-Size: 152
@@ -925,6 +937,18 @@ Homepage: https://github.com/BurntSushi/ripgrep
 Filename: dists/termux/extras/binary-arm/ripgrep_0.5.2_arm.deb
 Size: 704600
 SHA256: 1e2e2787fe6b21fe9b83ffdcd8335c3dd44d18b5413599f6c098678042a12c7d
+
+Package: rustc
+Architecture: arm
+Installed-Size: 87956
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.18.0-1
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: libllvm, clang
+Filename: dists/termux/extras/binary-arm/rustc_1.18.0-1_arm.deb
+Size: 34541156
+SHA256: f5563b341121f7f95b3df2b3009e17f914c14c6746797dcc6b342ad0bfd52d78
 
 Package: sc-im
 Architecture: arm
