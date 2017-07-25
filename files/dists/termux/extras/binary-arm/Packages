@@ -786,6 +786,18 @@ Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-6_arm.deb
 Size: 351496
 SHA256: c1cc279729338d5a98dd37763ba175582020f6d6b0c506ce849a7914e4f441ed
 
+Package: octave-dev
+Architecture: arm
+Installed-Size: 5644
+Maintainer: @its-pointless github
+Version: 4.2.1-8
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-8_arm.deb
+Size: 351440
+SHA256: fd3e937a03276c404cb88cf512692cf60506bd32a9dec2e297750fe073ea6217
+
 Package: octave
 Architecture: arm
 Installed-Size: 25040
@@ -797,6 +809,18 @@ Depends: libcrypt, libcurl, gnuplot, libgfortran, fontconfig, arpack-ng, suitesp
 Filename: dists/termux/extras/binary-arm/octave_4.2.1-6_arm.deb
 Size: 4810452
 SHA256: 7f130db1251e3c0bbc7c1c26d5fc6bd1be8c66b5dbd8a8844d4468388f62478d
+
+Package: octave
+Architecture: arm
+Installed-Size: 33456
+Maintainer: @its-pointless github
+Version: 4.2.1-8
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libatlas
+Filename: dists/termux/extras/binary-arm/octave_4.2.1-8_arm.deb
+Size: 5697724
+SHA256: 2fd7f7a46b42e16ba0982653d41c53e1def78a1b877ced6688ef8d8c97453f32
 
 Package: pacman4console
 Architecture: arm
