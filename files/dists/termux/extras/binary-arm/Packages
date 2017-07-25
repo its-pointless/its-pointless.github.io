@@ -329,6 +329,18 @@ Filename: dists/termux/extras/binary-arm/gmic_1.7.9_arm.deb
 Size: 1444032
 SHA256: 6964a0e1acc20edc8c4c7bef36c671cbe4efe4c8927d9991cdbf412ee01e6e01
 
+Package: gmic
+Architecture: arm
+Installed-Size: 9908
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.2-2
+Description: imageman
+Homepage: http://gmic.eu
+Depends: graphicsmagick++, libcurl, fftw
+Filename: dists/termux/extras/binary-arm/gmic_2.0.2-2_arm.deb
+Size: 2588492
+SHA256: d371f5cb9054d211c9eab9d6e36e8623821173106b78603b8806085d1fc37db7
+
 Package: graphicsmagick++
 Architecture: arm
 Installed-Size: 292
