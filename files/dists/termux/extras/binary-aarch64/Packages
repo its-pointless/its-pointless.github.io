@@ -367,6 +367,18 @@ Filename: dists/termux/extras/binary-aarch64/graphicsmagick++-dev_1.3.25-2_aarch
 Size: 38904
 SHA256: e49c3881f3aea73640fcc970a597637c8e472255615c64030daaaff52113ac25
 
+Package: graphicsmagick++-dev
+Architecture: aarch64
+Installed-Size: 288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.26
+Description: Development files for graphicsmagick++
+Homepage: http://www.graphicsmagick.org/
+Depends: graphicsmagick++
+Filename: dists/termux/extras/binary-aarch64/graphicsmagick++-dev_1.3.26_aarch64.deb
+Size: 38932
+SHA256: dd04f5e5f59d0de89ab78c33e0922013dac6883592d95d4ab88ec715cc5f2b8f
+
 Package: graphicsmagick++
 Architecture: aarch64
 Installed-Size: 400
@@ -390,6 +402,18 @@ Depends: graphicsmagick
 Filename: dists/termux/extras/binary-aarch64/graphicsmagick++_1.3.25-2_aarch64.deb
 Size: 77388
 SHA256: cd121d9813dbe8655c25e652eb7434b226126dfde318e5fa3c9c626e3e91eab7
+
+Package: graphicsmagick++
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.26
+Description: format-independent image processing - C++ shared library
+Homepage: http://www.graphicsmagick.org/
+Depends: graphicsmagick
+Filename: dists/termux/extras/binary-aarch64/graphicsmagick++_1.3.26_aarch64.deb
+Size: 77704
+SHA256: aa984ff5c92a6f86bffa63d46619d17a61c695b75f28d8a4938ff2d043874c31
 
 Package: icecast
 Architecture: aarch64
