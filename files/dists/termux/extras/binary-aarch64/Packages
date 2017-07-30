@@ -731,6 +731,31 @@ Filename: dists/termux/extras/binary-aarch64/mpv-ext_0.25.0_aarch64.deb
 Size: 479684
 SHA256: ea5dc394517e1189e488b01bc828f0e33c32afbb3665c2cbd70a96317b69a222
 
+Package: nodejs-current-dev
+Architecture: aarch64
+Installed-Size: 772
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.4
+Description: Development files for nodejs-current
+Homepage: https://nodejs.org/
+Depends: nodejs-current
+Filename: dists/termux/extras/binary-aarch64/nodejs-current-dev_8.1.4_aarch64.deb
+Size: 118192
+SHA256: 9a2ed5d91d13e7f16a31843787e0bbb039b16f6a13589bb14b5cff3649784c60
+
+Package: nodejs-current
+Architecture: aarch64
+Installed-Size: 34628
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.4
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs
+Filename: dists/termux/extras/binary-aarch64/nodejs-current_8.1.4_aarch64.deb
+Size: 5517504
+SHA256: 2aadb7301a990400a6bb2c7331384293245cf26495bff923f801d5b16b873073
+
 Package: nsnake
 Architecture: aarch64
 Installed-Size: 348
