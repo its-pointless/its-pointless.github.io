@@ -752,6 +752,31 @@ Filename: dists/termux/extras/binary-arm/mpv-ext_0.25.0_arm.deb
 Size: 488336
 SHA256: 90cd78423d5f2a43b7570546dd4fbc51cc36e17ee9cbe8ec1d874e43346a6142
 
+Package: nodejs-current-dev
+Architecture: arm
+Installed-Size: 772
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.4
+Description: Development files for nodejs-current
+Homepage: https://nodejs.org/
+Depends: nodejs-current
+Filename: dists/termux/extras/binary-arm/nodejs-current-dev_8.1.4_arm.deb
+Size: 118252
+SHA256: 24fff6227d54bbacdcfffaead14f9825e805f7f57b4cb6c4f70bdf8c0bd8d4da
+
+Package: nodejs-current
+Architecture: arm
+Installed-Size: 33612
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.4
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs
+Filename: dists/termux/extras/binary-arm/nodejs-current_8.1.4_arm.deb
+Size: 5542964
+SHA256: 220f0a5f161d093cae17d45d2a834b55f27d76142039590552fd85936bf29dd1
+
 Package: nsnake
 Architecture: arm
 Installed-Size: 284
