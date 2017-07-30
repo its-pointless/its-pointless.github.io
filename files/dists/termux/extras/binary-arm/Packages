@@ -283,6 +283,18 @@ Filename: dists/termux/extras/binary-arm/gcov-7_7.1.0_arm.deb
 Size: 262804
 SHA256: c59f80602c871263ee209bf2da51417e60e9aa15bea743605dbe8b045dacabb7
 
+Package: ghostscript
+Architecture: arm
+Installed-Size: 38076
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.21
+Description: Interpreter for the PostScript language and for PDF
+Homepage: http://www.ghostscript.com/
+Depends: libandroid-support, libtiff, libjpeg-turbo, libpng, libexpat
+Filename: dists/termux/extras/binary-arm/ghostscript_9.21_arm.deb
+Size: 15819664
+SHA256: 34dd16e7b6881ea645be9f794171b78d6aeb1711c8a18bc83eee59c9aa90ae61
+
 Package: glpk-dev
 Architecture: arm
 Installed-Size: 40

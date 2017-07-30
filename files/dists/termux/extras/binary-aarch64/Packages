@@ -308,6 +308,18 @@ Filename: dists/termux/extras/binary-aarch64/gcov-7_7.1.0_aarch64.deb
 Size: 281964
 SHA256: 3203958414f52105fbe02fbf466f4eb0f69ca01ca1ecc415922a7e2584121079
 
+Package: ghostscript
+Architecture: aarch64
+Installed-Size: 40256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.21
+Description: Interpreter for the PostScript language and for PDF
+Homepage: http://www.ghostscript.com/
+Depends: libandroid-support, libtiff, libjpeg-turbo, libpng, libexpat
+Filename: dists/termux/extras/binary-aarch64/ghostscript_9.21_aarch64.deb
+Size: 15786752
+SHA256: 0cc22b1d545a145318e257a05d724a2cafcc8ec1e77019b287ee56e78d636831
+
 Package: glpk-dev
 Architecture: aarch64
 Installed-Size: 40
