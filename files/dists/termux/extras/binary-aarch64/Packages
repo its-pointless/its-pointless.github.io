@@ -743,6 +743,18 @@ Filename: dists/termux/extras/binary-aarch64/nodejs-current-dev_8.1.4_aarch64.de
 Size: 118192
 SHA256: 9a2ed5d91d13e7f16a31843787e0bbb039b16f6a13589bb14b5cff3649784c60
 
+Package: nodejs-current-dev
+Architecture: aarch64
+Installed-Size: 772
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.2.1
+Description: Development files for nodejs-current
+Homepage: https://nodejs.org/
+Depends: nodejs-current
+Filename: dists/termux/extras/binary-aarch64/nodejs-current-dev_8.2.1_aarch64.deb
+Size: 118256
+SHA256: e209367aecdba0dae2415f4dce8754409145498ee1956f12e221598e9b2aeb2c
+
 Package: nodejs-current
 Architecture: aarch64
 Installed-Size: 34628
@@ -755,6 +767,19 @@ Conflicts: nodejs
 Filename: dists/termux/extras/binary-aarch64/nodejs-current_8.1.4_aarch64.deb
 Size: 5517504
 SHA256: 2aadb7301a990400a6bb2c7331384293245cf26495bff923f801d5b16b873073
+
+Package: nodejs-current
+Architecture: aarch64
+Installed-Size: 37156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.2.1
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs
+Filename: dists/termux/extras/binary-aarch64/nodejs-current_8.2.1_aarch64.deb
+Size: 5683648
+SHA256: 227c39d06d00934dd1e8a03fa5e9fcb7e7b1b323d29b14f74525368f56713a65
 
 Package: nsnake
 Architecture: aarch64

@@ -764,6 +764,18 @@ Filename: dists/termux/extras/binary-arm/nodejs-current-dev_8.1.4_arm.deb
 Size: 118252
 SHA256: 24fff6227d54bbacdcfffaead14f9825e805f7f57b4cb6c4f70bdf8c0bd8d4da
 
+Package: nodejs-current-dev
+Architecture: arm
+Installed-Size: 772
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.2.1
+Description: Development files for nodejs-current
+Homepage: https://nodejs.org/
+Depends: nodejs-current
+Filename: dists/termux/extras/binary-arm/nodejs-current-dev_8.2.1_arm.deb
+Size: 118688
+SHA256: 1245957f65106943ea76d95ec469b15d4b0034feccc6a19eb991a84918a388f4
+
 Package: nodejs-current
 Architecture: arm
 Installed-Size: 33612
@@ -776,6 +788,19 @@ Conflicts: nodejs
 Filename: dists/termux/extras/binary-arm/nodejs-current_8.1.4_arm.deb
 Size: 5542964
 SHA256: 220f0a5f161d093cae17d45d2a834b55f27d76142039590552fd85936bf29dd1
+
+Package: nodejs-current
+Architecture: arm
+Installed-Size: 36120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.2.1
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs
+Filename: dists/termux/extras/binary-arm/nodejs-current_8.2.1_arm.deb
+Size: 5709548
+SHA256: c33c36ec37c49d9f87cae2c78e0476da551570571ba78d2c2a4a21a17728ba68
 
 Package: nsnake
 Architecture: arm
