@@ -1,0 +1,262 @@
+Package: arpack-ng
+Architecture: x86_64
+Installed-Size: 2128
+Maintainer: @its-pointless github
+Version: 3.4.0-1
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: libgfortran4, openblas
+Filename: dists/termux/extras/binary-x86_64/arpack-ng_3.4.0-1_x86_64.deb
+Size: 266176
+SHA256: 946183d509391d0839436e2be3dc3ddca29a6b4150175f649112f6efd09b46b6
+
+Package: gcc-7
+Architecture: x86_64
+Installed-Size: 104096
+Maintainer:  @its-pointless github
+Version: 7.1.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Replaces: libgfortran-4
+Filename: dists/termux/extras/binary-x86_64/gcc-7_7.1.0-2_x86_64.deb
+Size: 27755996
+SHA256: 531c9568e34b5d73643390de77479e575a6e2c75c0e008776ee2a0bc5aa2cc2e
+
+Package: gcov-7
+Architecture: x86_64
+Installed-Size: 1452
+Maintainer:  @its-pointless github
+Version: 7.1.0-2
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-x86_64/gcov-7_7.1.0-2_x86_64.deb
+Size: 280824
+SHA256: b24d5c73519b69c4d2ab5ac5c99a67ba7b44ae194a8cdf3c683300e3e2dfe20d
+
+Package: glpk-dev
+Architecture: x86_64
+Installed-Size: 40
+Maintainer:  @its-pointless github
+Version: 4.61
+Description: Development files for glpk
+Homepage: https://www.gnu.org/software/glpk/
+Depends: glpk
+Filename: dists/termux/extras/binary-x86_64/glpk-dev_4.61_x86_64.deb
+Size: 9128
+SHA256: e66314c34140870c881d678879fdf5deb64c1e7fbb5cb91ae067cf0199932ead
+
+Package: glpk
+Architecture: x86_64
+Installed-Size: 844
+Maintainer:  @its-pointless github
+Version: 4.61
+Description: The GLPK (GNU Linear Programming Kit)
+Homepage: https://www.gnu.org/software/glpk/
+Filename: dists/termux/extras/binary-x86_64/glpk_4.61_x86_64.deb
+Size: 346484
+SHA256: 0d6979d2bbec796cb44e5d770a68c74017d96e34916949a8a586f7c78d0d3f31
+
+Package: gmic
+Architecture: x86_64
+Installed-Size: 11716
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.2-2
+Description: imageman
+Homepage: http://gmic.eu
+Depends: graphicsmagick++, libcurl, fftw
+Filename: dists/termux/extras/binary-x86_64/gmic_2.0.2-2_x86_64.deb
+Size: 2738952
+SHA256: 00920cfd6b508dc40621023c1f6641dd55353fdf7c13308d08d8b5abd61913c6
+
+Package: graphicsmagick++-dev
+Architecture: x86_64
+Installed-Size: 288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.26
+Description: Development files for graphicsmagick++
+Homepage: http://www.graphicsmagick.org/
+Depends: graphicsmagick++
+Filename: dists/termux/extras/binary-x86_64/graphicsmagick++-dev_1.3.26_x86_64.deb
+Size: 38940
+SHA256: 49a4a909c8b77dae77695fd599b446d2c96b93d858284bf1483ee50281f6516b
+
+Package: graphicsmagick++
+Architecture: x86_64
+Installed-Size: 440
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.26
+Description: format-independent image processing - C++ shared library
+Homepage: http://www.graphicsmagick.org/
+Depends: graphicsmagick
+Filename: dists/termux/extras/binary-x86_64/graphicsmagick++_1.3.26_x86_64.deb
+Size: 87000
+SHA256: d8bc634fabe0ca0cc4a1683865e0b734f5f6c958916934f942d5551fe3af45c9
+
+Package: libgfortran4
+Architecture: x86_64
+Installed-Size: 2816
+Maintainer:  @its-pointless github
+Version: 7.1.0-2
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Conflicts: libgfortran-4
+Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.1.0-2_x86_64.deb
+Size: 660652
+SHA256: 44351e3937a800476e540c396bbdf8a5715a6f5a0f69456d4dbbc3342a199952
+
+Package: numpy
+Architecture: x86_64
+Installed-Size: 16680
+Maintainer: @its-pointless github
+Version: 1.13.1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran4, openblas
+Filename: dists/termux/extras/binary-x86_64/numpy_1.13.1_x86_64.deb
+Size: 2705956
+SHA256: 9a69b1b0868e1a69cbdcc694786fa742838a41c9fbb80dfa516c2c345a8ec285
+
+Package: octave-dev
+Architecture: x86_64
+Installed-Size: 5644
+Maintainer: @its-pointless github
+Version: 4.2.1-8
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-x86_64/octave-dev_4.2.1-8_x86_64.deb
+Size: 351556
+SHA256: df27304b2d4eff677f0bb28a89a207ce28c8a24ffab5e6aa829864b3940ba0cb
+
+Package: octave
+Architecture: x86_64
+Installed-Size: 37784
+Maintainer: @its-pointless github
+Version: 4.2.1-8
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: openblas, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo
+Filename: dists/termux/extras/binary-x86_64/octave_4.2.1-8_x86_64.deb
+Size: 6172928
+SHA256: 44857c83bd160dbe9cd1e2a63197b24a33a09e5b3c94eef6dbfc2b5a12eab96f
+
+Package: openblas
+Architecture: x86_64
+Installed-Size: 14924
+Maintainer: @its-pointless github
+Version: 0.2.20
+Description: openblas
+Homepage: http://www.openblas.net/
+Depends: libgcc, libgfortran4
+Filename: dists/termux/extras/binary-x86_64/openblas_0.2.20_x86_64.deb
+Size: 3328704
+SHA256: f68aa54bf1f1c761c288b5dcea0c95978f1c1a67647bfa47bd042599b71f1b2e
+
+Package: qhull-dev
+Architecture: x86_64
+Installed-Size: 872
+Maintainer: @its-pointless github
+Version: 2015.2
+Description: Development files for qhull
+Homepage: http://ledger-cli.org/
+Depends: qhull
+Filename: dists/termux/extras/binary-x86_64/qhull-dev_2015.2_x86_64.deb
+Size: 83848
+SHA256: ef675c7e8dc0962971d3db76b6ba234d25cd55b0309477b94f706f5bfdef71f8
+
+Package: qhull
+Architecture: x86_64
+Installed-Size: 4412
+Maintainer: @its-pointless github
+Version: 2015.2
+Description: Powerful, double-entry accounting system
+Homepage: http://ledger-cli.org/
+Filename: dists/termux/extras/binary-x86_64/qhull_2015.2_x86_64.deb
+Size: 524704
+SHA256: 5e41d217210cf30ee49c697a3ab7d004a2cdedc71e3be1f7f8faa287cb74c250
+
+Package: qrupdate
+Architecture: x86_64
+Installed-Size: 164
+Maintainer: @its-pointless github
+Version: 1.1.2-1
+Description: qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions.
+Homepage: https://sourceforge.net/projects/qrupdate/
+Depends: libgfortran4
+Filename: dists/termux/extras/binary-x86_64/qrupdate_1.1.2-1_x86_64.deb
+Size: 62664
+SHA256: b8f2d18b736ef957e3241c0e7d76de61630ed1fcb6ff794ec59843a3d81764e3
+
+Package: quantlib-dev
+Architecture: x86_64
+Installed-Size: 7876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10-2
+Description: Development files for quantlib
+Homepage: http://quantlib.org/index.shtml
+Depends: quantlib
+Filename: dists/termux/extras/binary-x86_64/quantlib-dev_1.10-2_x86_64.deb
+Size: 548484
+SHA256: bfa835387417462cc0d471e645fb715753346729665cdf2cc1f2877a37f6e0ae
+
+Package: quantlib
+Architecture: x86_64
+Installed-Size: 49692
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10-2
+Description: A free/open-source library for quantitative finance
+Homepage: http://quantlib.org/index.shtml
+Depends: boost
+Filename: dists/termux/extras/binary-x86_64/quantlib_1.10-2_x86_64.deb
+Size: 9407520
+SHA256: 2c695fa26d36a886499ea6d097ef27ad7f4dc8332d8d3fe49c76f148e54340a4
+
+Package: rustc
+Architecture: x86_64
+Installed-Size: 97960
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.19.0
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: libllvm, clang
+Filename: dists/termux/extras/binary-x86_64/rustc_1.19.0_x86_64.deb
+Size: 38915640
+SHA256: 16550ee0cb34c8729b7f2e06acba6c64221b3e30e8ad292d68169a6382b2fd7e
+
+Package: scipy
+Architecture: x86_64
+Installed-Size: 49724
+Maintainer: @its-pointless github
+Version: 0.19.1-2
+Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
+Homepage: https://github.com/scipy/scipy
+Depends: numpy
+Filename: dists/termux/extras/binary-x86_64/scipy_0.19.1-2_x86_64.deb
+Size: 10602284
+SHA256: afcd5c7a288dd51734d6c53327fa484920c47afeee424ed11e102276a4a55425
+
+Package: suitesparse-dev
+Architecture: x86_64
+Installed-Size: 776
+Maintainer: @its-pointless github
+Version: 4.5.4-1
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-x86_64/suitesparse-dev_4.5.4-1_x86_64.deb
+Size: 100532
+SHA256: 1deacca7067e5364fc31fecce182ed49b1f58c1637eb13dae72cd7f0ddbb07d1
+
+Package: suitesparse
+Architecture: x86_64
+Installed-Size: 2704
+Maintainer: @its-pointless github
+Version: 4.5.4-1
+Description: SuiteSparse is a suite of sparse matrix algorithms
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: libgfortran4 ,openblas
+Filename: dists/termux/extras/binary-x86_64/suitesparse_4.5.4-1_x86_64.deb
+Size: 904996
+SHA256: 439e38c1538b69e6888f45d453fb850191f1fe6ca5fdae04480673b7bb81fc48

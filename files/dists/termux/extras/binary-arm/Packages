@@ -105,6 +105,18 @@ SHA256: 1ba9950c1d45063fdc3eeb6290c99ec792185c630258725b241ee7b0dff8f1c8
 
 Package: cargo
 Architecture: arm
+Installed-Size: 5600
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.20.0-1
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libgit2, libssh2
+Filename: dists/termux/extras/binary-arm/cargo_0.20.0-1_arm.deb
+Size: 1626124
+SHA256: e2b9c92954e3c8e2d40b50c0297b7ba0649434427ea261013390540940f69ac8
+
+Package: cargo
+Architecture: arm
 Installed-Size: 5596
 Maintainer: Vishal Biswas @vishalbiswas
 Version: 0.20.0
