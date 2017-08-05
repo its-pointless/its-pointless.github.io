@@ -118,6 +118,31 @@ Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.1.0-2_x86_64.deb
 Size: 660652
 SHA256: 44351e3937a800476e540c396bbdf8a5715a6f5a0f69456d4dbbc3342a199952
 
+Package: nodejs-current-dev
+Architecture: x86_64
+Installed-Size: 772
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.2.1
+Description: Development files for nodejs-current
+Homepage: https://nodejs.org/
+Depends: nodejs-current
+Filename: dists/termux/extras/binary-x86_64/nodejs-current-dev_8.2.1_x86_64.deb
+Size: 118684
+SHA256: de2ce61c7d69f2bba5f0daf652f727aea7b9e7bce57850e0a9c0264ffc8983b0
+
+Package: nodejs-current
+Architecture: x86_64
+Installed-Size: 38112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.2.1
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs
+Filename: dists/termux/extras/binary-x86_64/nodejs-current_8.2.1_x86_64.deb
+Size: 6203384
+SHA256: 5757ece602619a7717d4a6e3d472a335138022cb1a8b70a6db293814af63228e
+
 Package: numpy
 Architecture: x86_64
 Installed-Size: 16680
