@@ -1,0 +1,23 @@
+Package: cargo
+Architecture: i686
+Installed-Size: 7496
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.20.0
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libgit2, libssh2
+Filename: dists/termux/extras/binary-i686/cargo_0.20.0_i686.deb
+Size: 1984080
+SHA256: c0cb3e973030c8ef419eb587e24ec1b9134655822e7647571f58e2d95f8c0a76
+
+Package: rustc
+Architecture: i686
+Installed-Size: 98872
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.19.0
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: libllvm, clang
+Filename: dists/termux/extras/binary-i686/rustc_1.19.0_i686.deb
+Size: 39479656
+SHA256: 49988d9f9a9c7142e5e115ca9076cc8a946625171c3a29d0c9fb2d5766be6d61

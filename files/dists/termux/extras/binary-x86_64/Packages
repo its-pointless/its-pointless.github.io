@@ -10,6 +10,29 @@ Filename: dists/termux/extras/binary-x86_64/arpack-ng_3.4.0-1_x86_64.deb
 Size: 266176
 SHA256: 946183d509391d0839436e2be3dc3ddca29a6b4150175f649112f6efd09b46b6
 
+Package: bastet
+Architecture: x86_64
+Installed-Size: 28
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.41
+Description: bastard tetris
+Homepage: http://fph.altervista.org/prog/bastet.html
+Filename: dists/termux/extras/binary-x86_64/bastet_0.41_x86_64.deb
+Size: 10000
+SHA256: bec63b3b7fde4a2586ca9dabe4cb9939a6d400ff0b2687af159638edf17a1d87
+
+Package: cadaver
+Architecture: x86_64
+Installed-Size: 188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.23.3
+Description: cadaver is a command-line WebDAV client for Unix
+Homepage: http://www.webdav.org/cadaver/
+Depends: libgcrypt, libgnutls, libxml2, ncurses, readline
+Filename: dists/termux/extras/binary-x86_64/cadaver_0.23.3_x86_64.deb
+Size: 69768
+SHA256: 84d3ae8944ac2f1ecf6687be728af80fad97d4d71f4c06088681abc0747c806f
+
 Package: cargo
 Architecture: x86_64
 Installed-Size: 6744
@@ -21,6 +44,17 @@ Depends: libcurl, rustc, openssl, libgit2, libssh2
 Filename: dists/termux/extras/binary-x86_64/cargo_0.20.0-1_x86_64.deb
 Size: 1856852
 SHA256: 69243355f8551351c4a857786bdba40e5ae57904ad338e8c662c06a8b4869bd8
+
+Package: ccache
+Architecture: x86_64
+Installed-Size: 184
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 3.3.4
+Description: Compiler cache for fast recompilation of C/C++ code
+Homepage: https://ccache.samba.org
+Filename: dists/termux/extras/binary-x86_64/ccache_3.3.4_x86_64.deb
+Size: 61996
+SHA256: fa21e9129dd078d034ca4cc33dccfb414796aeffab0f4c0a27f8317dcaa81042
 
 Package: gcc-7
 Architecture: x86_64
@@ -106,6 +140,18 @@ Filename: dists/termux/extras/binary-x86_64/graphicsmagick++_1.3.26_x86_64.deb
 Size: 87000
 SHA256: d8bc634fabe0ca0cc4a1683865e0b734f5f6c958916934f942d5551fe3af45c9
 
+Package: imgflo
+Architecture: x86_64
+Installed-Size: 224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.2
+Description: HTTP image processing server & Flowhub.io compatible runtime
+Homepage: http://www.imgflo.org/
+Depends: gegl, libsoup
+Filename: dists/termux/extras/binary-x86_64/imgflo_0.4.2_x86_64.deb
+Size: 40832
+SHA256: 718d80f080866565cd3fcbca023964cffe7f7ee0cabc13ef2d9e88fe8b4e6005
+
 Package: libgfortran4
 Architecture: x86_64
 Installed-Size: 2816
@@ -117,6 +163,30 @@ Conflicts: libgfortran-4
 Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.1.0-2_x86_64.deb
 Size: 660652
 SHA256: 44351e3937a800476e540c396bbdf8a5715a6f5a0f69456d4dbbc3342a199952
+
+Package: libsoup-dev
+Architecture: x86_64
+Installed-Size: 308
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.58.0
+Description: Development files for libsoup
+Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
+Depends: libsoup
+Filename: dists/termux/extras/binary-x86_64/libsoup-dev_2.58.0_x86_64.deb
+Size: 24748
+SHA256: c140f39c5b72c636989233b12dcedd28a5ad1097bcc2fad44c6c20c575635825
+
+Package: libsoup
+Architecture: x86_64
+Installed-Size: 940
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.58.0
+Description: libsoup is an HTTP client/server library for GNOME
+Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
+Depends: glib, krb5, libffi, libsqlite
+Filename: dists/termux/extras/binary-x86_64/libsoup_2.58.0_x86_64.deb
+Size: 213920
+SHA256: 66336d4e2ed69d8582e4215c007db03eb7dca049e7f0d4b9c7e00b1ff1f5e880
 
 Package: nodejs-current-dev
 Architecture: x86_64
@@ -142,6 +212,18 @@ Conflicts: nodejs
 Filename: dists/termux/extras/binary-x86_64/nodejs-current_8.2.1_x86_64.deb
 Size: 6203384
 SHA256: 5757ece602619a7717d4a6e3d472a335138022cb1a8b70a6db293814af63228e
+
+Package: numpy
+Architecture: x86_64
+Installed-Size: 16680
+Maintainer: @its-pointless github
+Version: 1.13.1-1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran4, openblas
+Filename: dists/termux/extras/binary-x86_64/numpy_1.13.1-1_x86_64.deb
+Size: 2705652
+SHA256: 6cbe9b69c8cb816f7ce50e5fca57cdbb208f126e94d0ef665c55b558ffeb2d07
 
 Package: numpy
 Architecture: x86_64
@@ -249,6 +331,18 @@ Depends: boost
 Filename: dists/termux/extras/binary-x86_64/quantlib_1.10-2_x86_64.deb
 Size: 9407520
 SHA256: 2c695fa26d36a886499ea6d097ef27ad7f4dc8332d8d3fe49c76f148e54340a4
+
+Package: r-cran
+Architecture: x86_64
+Installed-Size: 63584
+Maintainer: @its-pointless github
+Version: 3.4.0-2
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: libandroid-glob, libandroid-support, libicu, libgfortran, openblas, liblzma, readline, pcre, libcurl, libbz2
+Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.0-2_x86_64.deb
+Size: 40353908
+SHA256: 4920eb9076e687e5b585458968074f0fb3ac084c1a5de49f10585d893bb93509
 
 Package: rustc
 Architecture: x86_64
