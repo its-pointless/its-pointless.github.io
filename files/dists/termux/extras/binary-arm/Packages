@@ -1146,6 +1146,18 @@ SHA256: 0917e2d60adfdf61ad322eff896c6b8881f8aee00d936633e4e2e65260a90ab7
 
 Package: suitesparse-dev
 Architecture: arm
+Installed-Size: 776
+Maintainer: @its-pointless github
+Version: 4.5.4-1
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-arm/suitesparse-dev_4.5.4-1_arm.deb
+Size: 100532
+SHA256: 0a8e583856fd489002b7b7eba69b8dc7ff3c349f19fa48b35141b5bc52a93db0
+
+Package: suitesparse-dev
+Architecture: arm
 Installed-Size: 784
 Maintainer: @its-pointless github
 Version: 4.5.4
@@ -1155,6 +1167,18 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-arm/suitesparse-dev_4.5.4_arm.deb
 Size: 100560
 SHA256: 672d26ba23cf029f086a3964471531e390ded992c86085663dce1bed7f214ed8
+
+Package: suitesparse
+Architecture: arm
+Installed-Size: 1784
+Maintainer: @its-pointless github
+Version: 4.5.4-1
+Description: SuiteSparse is a suite of sparse matrix algorithms
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends:  libgfortran4, libmpfr, openblas
+Filename: dists/termux/extras/binary-arm/suitesparse_4.5.4-1_arm.deb
+Size: 520416
+SHA256: d8ab95ed54db36616a802ad41cbd871c36d674187a63d4ec1cb0997a37c53d9d
 
 Package: suitesparse
 Architecture: arm
