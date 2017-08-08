@@ -35,6 +35,18 @@ Filename: dists/termux/extras/binary-i686/gcc-7_7.1.0-2_i686.deb
 Size: 26898768
 SHA256: 3b257d2b83ec841f83c51717444851a294e37e6a3c7155fcc3b9ea6b76b9c314
 
+Package: ghostscript
+Architecture: i686
+Installed-Size: 39136
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.21
+Description: Interpreter for the PostScript language and for PDF
+Homepage: http://www.ghostscript.com/
+Depends: libandroid-support, libtiff, libjpeg-turbo, libpng, libexpat
+Filename: dists/termux/extras/binary-i686/ghostscript_9.21_i686.deb
+Size: 15945424
+SHA256: 50b3543f070c4d7e60496b32081902ce28795b8ed6a84746549cca3b81430660
+
 Package: glpk-dev
 Architecture: i686
 Installed-Size: 40
@@ -105,6 +117,31 @@ Conflicts: libgfortran-4
 Filename: dists/termux/extras/binary-i686/libgfortran4_7.1.0-2_i686.deb
 Size: 623692
 SHA256: a21d57cd0d779c11eb58042cd34c007a032cdaca356981736430424dadd9aecc
+
+Package: nodejs-current-dev
+Architecture: i686
+Installed-Size: 772
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.2.1
+Description: Development files for nodejs-current
+Homepage: https://nodejs.org/
+Depends: nodejs-current
+Filename: dists/termux/extras/binary-i686/nodejs-current-dev_8.2.1_i686.deb
+Size: 118524
+SHA256: 2b7222ae74969a8f87dd77db1696fc0124c414f4f7b8faca762cd0082e34a667
+
+Package: nodejs-current
+Architecture: i686
+Installed-Size: 37048
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.2.1
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs
+Filename: dists/termux/extras/binary-i686/nodejs-current_8.2.1_i686.deb
+Size: 6114700
+SHA256: 34837775536ab74866eb68a02cd05eba1558e4c409da34f9702e342ef539e221
 
 Package: numpy
 Architecture: i686

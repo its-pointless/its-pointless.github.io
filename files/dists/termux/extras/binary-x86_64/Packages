@@ -81,6 +81,18 @@ Filename: dists/termux/extras/binary-x86_64/gcov-7_7.1.0-2_x86_64.deb
 Size: 280824
 SHA256: b24d5c73519b69c4d2ab5ac5c99a67ba7b44ae194a8cdf3c683300e3e2dfe20d
 
+Package: ghostscript
+Architecture: x86_64
+Installed-Size: 40800
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.21
+Description: Interpreter for the PostScript language and for PDF
+Homepage: http://www.ghostscript.com/
+Depends: libandroid-support, libtiff, libjpeg-turbo, libpng, libexpat
+Filename: dists/termux/extras/binary-x86_64/ghostscript_9.21_x86_64.deb
+Size: 16058608
+SHA256: 58a03b5f545f81ae7d1d603747c78d150e093dee6123cd6c26b93f20163ef42f
+
 Package: glpk-dev
 Architecture: x86_64
 Installed-Size: 40
