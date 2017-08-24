@@ -10,6 +10,29 @@ Filename: dists/termux/extras/binary-i686/arpack-ng_3.4.0-1_i686.deb
 Size: 253908
 SHA256: b79a66bc0e70aa10e8b589fdc675684269d331e2042b7baa41f718b3ec6c40a9
 
+Package: bthread-dev
+Architecture: i686
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1
+Description: Development files for bthread
+Homepage: http://gmic.eu
+Depends: bthread
+Filename: dists/termux/extras/binary-i686/bthread-dev_0.1_i686.deb
+Size: 972
+SHA256: 28429dc8a1603bfe4ffbb2c62ae8b8046515c276da2803f1258ee47f21b2abbd
+
+Package: bthread
+Architecture: i686
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1
+Description: This library provides useful functions commonly found on BSD systems
+Homepage: http://gmic.eu
+Filename: dists/termux/extras/binary-i686/bthread_0.1_i686.deb
+Size: 2500
+SHA256: da76ddcbb49f17ade27157ea8a81e1bcedafe4c47e58df706e8ddbc33d6a5edc
+
 Package: cargo
 Architecture: i686
 Installed-Size: 7496
@@ -21,6 +44,17 @@ Depends: libcurl, rustc, openssl, libgit2, libssh2
 Filename: dists/termux/extras/binary-i686/cargo_0.20.0_i686.deb
 Size: 1984080
 SHA256: c0cb3e973030c8ef419eb587e24ec1b9134655822e7647571f58e2d95f8c0a76
+
+Package: ccache
+Architecture: i686
+Installed-Size: 168
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 3.3.4
+Description: Compiler cache for fast recompilation of C/C++ code
+Homepage: https://ccache.samba.org
+Filename: dists/termux/extras/binary-i686/ccache_3.3.4_i686.deb
+Size: 59112
+SHA256: 8627773abc1f77e7d5fc2503a96dac11ff072414c19f3d8f03136086570b8a05
 
 Package: gcc-7
 Architecture: i686
@@ -35,17 +69,30 @@ Filename: dists/termux/extras/binary-i686/gcc-7_7.1.0-2_i686.deb
 Size: 26898768
 SHA256: 3b257d2b83ec841f83c51717444851a294e37e6a3c7155fcc3b9ea6b76b9c314
 
-Package: ghostscript
+Package: gcc-7
 Architecture: i686
-Installed-Size: 39136
-Maintainer: Fredrik Fornwall @fornwall
-Version: 9.21
-Description: Interpreter for the PostScript language and for PDF
-Homepage: http://www.ghostscript.com/
-Depends: libandroid-support, libtiff, libjpeg-turbo, libpng, libexpat
-Filename: dists/termux/extras/binary-i686/ghostscript_9.21_i686.deb
-Size: 15945424
-SHA256: 50b3543f070c4d7e60496b32081902ce28795b8ed6a84746549cca3b81430660
+Installed-Size: 102232
+Maintainer:  @its-pointless github
+Version: 7.2.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Replaces: libgfortran-4
+Filename: dists/termux/extras/binary-i686/gcc-7_7.2.0_i686.deb
+Size: 26907384
+SHA256: 7631a0a1d478a168b1541337ae56f5b85a58be884b0d2d9b824119a89de84723
+
+Package: gcov-7
+Architecture: i686
+Installed-Size: 1528
+Maintainer:  @its-pointless github
+Version: 7.2.0
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-i686/gcov-7_7.2.0_i686.deb
+Size: 289904
+SHA256: 6cbaf28a8ef42abf63a6de77d24964d32f5e0f9962c31fc436b54a1d00ba1001
 
 Package: glpk-dev
 Architecture: i686
@@ -70,41 +117,16 @@ Filename: dists/termux/extras/binary-i686/glpk_4.61_i686.deb
 Size: 333428
 SHA256: 17f96e23b5f6762dadbc8844ad7b9d92878a168c3afe32f32eb1178737158ddf
 
-Package: gmic
+Package: imapfilter
 Architecture: i686
-Installed-Size: 11804
+Installed-Size: 204
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.2-2
-Description: imageman
-Homepage: http://gmic.eu
-Depends: graphicsmagick++, libcurl, fftw
-Filename: dists/termux/extras/binary-i686/gmic_2.0.2-2_i686.deb
-Size: 2700640
-SHA256: 44b2180a76aac8cc2fa042f544d8ff1a0c8c15ecd779d717f95d471248116c33
-
-Package: graphicsmagick++-dev
-Architecture: i686
-Installed-Size: 288
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.26
-Description: Development files for graphicsmagick++
-Homepage: http://www.graphicsmagick.org/
-Depends: graphicsmagick++
-Filename: dists/termux/extras/binary-i686/graphicsmagick++-dev_1.3.26_i686.deb
-Size: 38952
-SHA256: 84659babe5786e03bf68b583b76ff6ebdddac502be4f8cc47c00b8f34a66ba26
-
-Package: graphicsmagick++
-Architecture: i686
-Installed-Size: 400
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.26
-Description: format-independent image processing - C++ shared library
-Homepage: http://www.graphicsmagick.org/
-Depends: graphicsmagick
-Filename: dists/termux/extras/binary-i686/graphicsmagick++_1.3.26_i686.deb
-Size: 86348
-SHA256: 8435790af094a2496bec787f51cd9b94bf0ff67c964525bae30ce5b2d956837a
+Version: 2.6.10
+Description: Filter mail in your IMAP account
+Homepage: https://github.com/lefcha/imapfilter
+Filename: dists/termux/extras/binary-i686/imapfilter_2.6.10_i686.deb
+Size: 42408
+SHA256: b0085295bc430902daf8b9e7c1a5188b58abebc4834f2cebbe21987b7c44a9c9
 
 Package: libgfortran4
 Architecture: i686
@@ -118,30 +140,41 @@ Filename: dists/termux/extras/binary-i686/libgfortran4_7.1.0-2_i686.deb
 Size: 623692
 SHA256: a21d57cd0d779c11eb58042cd34c007a032cdaca356981736430424dadd9aecc
 
-Package: nodejs-current-dev
+Package: libgfortran4
 Architecture: i686
-Installed-Size: 772
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.2.1
-Description: Development files for nodejs-current
-Homepage: https://nodejs.org/
-Depends: nodejs-current
-Filename: dists/termux/extras/binary-i686/nodejs-current-dev_8.2.1_i686.deb
-Size: 118524
-SHA256: 2b7222ae74969a8f87dd77db1696fc0124c414f4f7b8faca762cd0082e34a667
+Installed-Size: 2508
+Maintainer:  @its-pointless github
+Version: 7.2.0
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Conflicts: libgfortran-4
+Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.0_i686.deb
+Size: 623592
+SHA256: fff4f29944240c4ebc27682e3e74f9c2f9adda5193c8bd51ce64da0848177f11
 
-Package: nodejs-current
+Package: libssh2-dev
 Architecture: i686
-Installed-Size: 37048
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.2.1
-Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
-Homepage: https://nodejs.org/
-Depends: openssl, c-ares
-Conflicts: nodejs
-Filename: dists/termux/extras/binary-i686/nodejs-current_8.2.1_i686.deb
-Size: 6114700
-SHA256: 34837775536ab74866eb68a02cd05eba1558e4c409da34f9702e342ef539e221
+Installed-Size: 768
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Development files for libssh2
+Homepage: https://www.libssh2.org
+Depends: libssh2
+Filename: dists/termux/extras/binary-i686/libssh2-dev_1.8.0_i686.deb
+Size: 41340
+SHA256: 67551905f5395bf7a0096a611e808426125028fb3857f3d5c02efb2e1dcc6f8a
+
+Package: libssh2
+Architecture: i686
+Installed-Size: 140
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Client-side C library implementing the SSH2 protocol
+Homepage: https://www.libssh2.org
+Depends: openssl
+Filename: dists/termux/extras/binary-i686/libssh2_1.8.0_i686.deb
+Size: 56328
+SHA256: 786ed8a24415ae49df2f8d208bce9f8f229a86e71846cee4c284c620337d1441
 
 Package: numpy
 Architecture: i686
@@ -191,6 +224,40 @@ Filename: dists/termux/extras/binary-i686/openblas_0.2.20_i686.deb
 Size: 3235296
 SHA256: 3a9816f8f38c7168a08cedad911bdb4dcedc86f0f68026e8b770bbdb85809f64
 
+Package: pacman4console
+Architecture: i686
+Installed-Size: 72
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3
+Description: pacman 4 terminal console
+Homepage: http://sites.google.com/site/doctormike/pacman.html
+Filename: dists/termux/extras/binary-i686/pacman4console_1.3_i686.deb
+Size: 10104
+SHA256: 4144fda9516329cc7f7b82a0025d384b348c12a3db028a3ad9da0e94ab33661b
+
+Package: qhull-dev
+Architecture: i686
+Installed-Size: 872
+Maintainer: @its-pointless github
+Version: 2015.2
+Description: Development files for qhull
+Homepage: http://ledger-cli.org/
+Depends: qhull
+Filename: dists/termux/extras/binary-i686/qhull-dev_2015.2_i686.deb
+Size: 83888
+SHA256: 523ed85675c9b92934e11d1a5b72d54c68aaf2a75c638e55d81a056aa4aaee94
+
+Package: qhull
+Architecture: i686
+Installed-Size: 3936
+Maintainer: @its-pointless github
+Version: 2015.2
+Description: Powerful, double-entry accounting system
+Homepage: http://ledger-cli.org/
+Filename: dists/termux/extras/binary-i686/qhull_2015.2_i686.deb
+Size: 494676
+SHA256: 3042be087e8eb02d974057b3df1177f39a29c2fac94ce8ac8594516f1a0a6316
+
 Package: qrupdate
 Architecture: i686
 Installed-Size: 172
@@ -202,6 +269,30 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-i686/qrupdate_1.1.2-1_i686.deb
 Size: 59064
 SHA256: c017106662792f492ca5710d34d616c3eff9b5cd0833a6ddfc6eb06ea177d922
+
+Package: quantlib-dev
+Architecture: i686
+Installed-Size: 7876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10-2
+Description: Development files for quantlib
+Homepage: http://quantlib.org/index.shtml
+Depends: quantlib
+Filename: dists/termux/extras/binary-i686/quantlib-dev_1.10-2_i686.deb
+Size: 548588
+SHA256: 42b546c7a3b680ac4010b052d188b94cb5c9eda82640ba41ba45715011395a9c
+
+Package: quantlib
+Architecture: i686
+Installed-Size: 39800
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10-2
+Description: A free/open-source library for quantitative finance
+Homepage: http://quantlib.org/index.shtml
+Depends: boost
+Filename: dists/termux/extras/binary-i686/quantlib_1.10-2_i686.deb
+Size: 8815036
+SHA256: af06e13cc7a6aef3c6d0cd10ced16c7402ee7a52ca5994f2a5df854f880e094d
 
 Package: r-cran
 Architecture: i686
@@ -226,6 +317,18 @@ Depends: libllvm, clang
 Filename: dists/termux/extras/binary-i686/rustc_1.19.0_i686.deb
 Size: 39479656
 SHA256: 49988d9f9a9c7142e5e115ca9076cc8a946625171c3a29d0c9fb2d5766be6d61
+
+Package: sc-im
+Architecture: i686
+Installed-Size: 280
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.0
+Description: This library provides useful functions commonly found on BSD systems
+Homepage: https://github.com/andmarti1424/sc-im/
+Depends: libandroid-support, bthread
+Filename: dists/termux/extras/binary-i686/sc-im_0.6.0_i686.deb
+Size: 103192
+SHA256: 4c5f77eafbbdd7403ecf61d966d5683c616c4a3aae4a48e5341448659393bb85
 
 Package: scipy
 Architecture: i686

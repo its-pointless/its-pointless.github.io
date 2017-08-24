@@ -67,18 +67,6 @@ Filename: dists/termux/extras/binary-arm/bthread_0.1_arm.deb
 Size: 2228
 SHA256: 84774ffd492653b0ea7899c9d190d4df70fa0a6a908bbbc4199e67cc4b3d515b
 
-Package: cadaver
-Architecture: arm
-Installed-Size: 128
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.23.3
-Description: cadaver is a command-line WebDAV client for Unix
-Homepage: http://www.webdav.org/cadaver/
-Depends: libgcrypt, libgnutls, libxml2, ncurses, readline
-Filename: dists/termux/extras/binary-arm/cadaver_0.23.3_arm.deb
-Size: 60564
-SHA256: d97a0d0fcf9aaaa273339a1df15cba4194870ce6e4647de4f837f6a7726a629a
-
 Package: cargo
 Architecture: arm
 Installed-Size: 5344
@@ -211,6 +199,19 @@ Filename: dists/termux/extras/binary-arm/gcc-7_7.1.0_arm.deb
 Size: 16769040
 SHA256: ca825d51d631e30e0ec5a415eabf53a43c166096f460a367737c38e4e9549dae
 
+Package: gcc-7
+Architecture: arm
+Installed-Size: 74864
+Maintainer:  @its-pointless github
+Version: 7.2.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Replaces: libgfortran-4
+Filename: dists/termux/extras/binary-arm/gcc-7_7.2.0_arm.deb
+Size: 21541180
+SHA256: 982dd386777a287c7ac3adc41471aeb62c30b70cb7c4d8dbb825e022ef7fcd64
+
 Package: gcov-6
 Architecture: arm
 Installed-Size: 896
@@ -283,17 +284,17 @@ Filename: dists/termux/extras/binary-arm/gcov-7_7.1.0_arm.deb
 Size: 262804
 SHA256: c59f80602c871263ee209bf2da51417e60e9aa15bea743605dbe8b045dacabb7
 
-Package: ghostscript
+Package: gcov-7
 Architecture: arm
-Installed-Size: 38076
-Maintainer: Fredrik Fornwall @fornwall
-Version: 9.21
-Description: Interpreter for the PostScript language and for PDF
-Homepage: http://www.ghostscript.com/
-Depends: libandroid-support, libtiff, libjpeg-turbo, libpng, libexpat
-Filename: dists/termux/extras/binary-arm/ghostscript_9.21_arm.deb
-Size: 15819664
-SHA256: 34dd16e7b6881ea645be9f794171b78d6aeb1711c8a18bc83eee59c9aa90ae61
+Installed-Size: 1232
+Maintainer:  @its-pointless github
+Version: 7.2.0
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/gcov-7_7.2.0_arm.deb
+Size: 224840
+SHA256: f0728e1d3d10e33bb50e358d5f734c7fae42aea2635d0ba2d4924f24e5afac74
 
 Package: glpk-dev
 Architecture: arm
@@ -318,89 +319,6 @@ Filename: dists/termux/extras/binary-arm/glpk_4.61_arm.deb
 Size: 306520
 SHA256: 223fb0b1753aa2f552a9fa9a56946fe302c0bff29f6eb2fbcdb13ba0ac907b83
 
-Package: gmic
-Architecture: arm
-Installed-Size: 9480
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.7.9-1
-Description: imageman
-Homepage: http://gmic.eu
-Depends: graphicsmagick++, libcurl, fftw
-Filename: dists/termux/extras/binary-arm/gmic_1.7.9-1_arm.deb
-Size: 2456216
-SHA256: 42f1d52d599088a3786a6749bcd2002b25566ddc942765cc29a845c232345946
-
-Package: gmic
-Architecture: arm
-Installed-Size: 4028
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.7.9
-Description: imageman
-Homepage: http://gmic.eu
-Filename: dists/termux/extras/binary-arm/gmic_1.7.9_arm.deb
-Size: 1444032
-SHA256: 6964a0e1acc20edc8c4c7bef36c671cbe4efe4c8927d9991cdbf412ee01e6e01
-
-Package: gmic
-Architecture: arm
-Installed-Size: 9908
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.2-2
-Description: imageman
-Homepage: http://gmic.eu
-Depends: graphicsmagick++, libcurl, fftw
-Filename: dists/termux/extras/binary-arm/gmic_2.0.2-2_arm.deb
-Size: 2588492
-SHA256: d371f5cb9054d211c9eab9d6e36e8623821173106b78603b8806085d1fc37db7
-
-Package: graphicsmagick++-dev
-Architecture: arm
-Installed-Size: 288
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.26
-Description: Development files for graphicsmagick++
-Homepage: http://www.graphicsmagick.org/
-Depends: graphicsmagick++
-Filename: dists/termux/extras/binary-arm/graphicsmagick++-dev_1.3.26_arm.deb
-Size: 38920
-SHA256: d518527200fe3a5d2e58be51520b4e54ab90334c84ade5ed5fe9473a2da9bcc4
-
-Package: graphicsmagick++
-Architecture: arm
-Installed-Size: 292
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.25-1
-Description: grahicsmagic c++ version
-Homepage: http://www.graphicsmagick.org/
-Depends: graphicsmagick
-Filename: dists/termux/extras/binary-arm/graphicsmagick++_1.3.25-1_arm.deb
-Size: 63188
-SHA256: 387580e6ca32a5f7c2bc780e486d2623f0bb8a945efd054e6182a0a9f4bee123
-
-Package: graphicsmagick++
-Architecture: arm
-Installed-Size: 312
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.25-2
-Description: format-independent image processing - C++ shared library
-Homepage: http://www.graphicsmagick.org/
-Depends: graphicsmagick
-Filename: dists/termux/extras/binary-arm/graphicsmagick++_1.3.25-2_arm.deb
-Size: 65436
-SHA256: 9ed927b3259929a9a81df542ae9156f679761a7b2c35c2e89d67b70ebcd94759
-
-Package: graphicsmagick++
-Architecture: arm
-Installed-Size: 312
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.26
-Description: format-independent image processing - C++ shared library
-Homepage: http://www.graphicsmagick.org/
-Depends: graphicsmagick
-Filename: dists/termux/extras/binary-arm/graphicsmagick++_1.3.26_arm.deb
-Size: 65836
-SHA256: 37f57a65f40c89a15d8450a7a35d27ba45cb7e1228951e078e37850c649b3dc1
-
 Package: icecast
 Architecture: arm
 Installed-Size: 268
@@ -423,18 +341,6 @@ Homepage: https://github.com/lefcha/imapfilter
 Filename: dists/termux/extras/binary-arm/imapfilter_2.6.10_arm.deb
 Size: 41124
 SHA256: 5d125238d5751eab89fea75092f905243bcc99af66aba62bc9540d49b847c230
-
-Package: imgflo
-Architecture: arm
-Installed-Size: 184
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.2
-Description: imageman
-Homepage: http://gmic.eu
-Depends: gegl, libsoup
-Filename: dists/termux/extras/binary-arm/imgflo_0.4.2_arm.deb
-Size: 34620
-SHA256: 2b8e15bd61ec186d89c86ff22498a5bd6522b6893d3ee5eeaf3a109abd0aeef4
 
 Package: lbzip2
 Architecture: arm
@@ -541,6 +447,18 @@ Filename: dists/termux/extras/binary-arm/libgfortran4_7.1.0-2_arm.deb
 Size: 254388
 SHA256: 93a4e9c9481ed8c9fa8757930da522df25335456be09b90f51e489407a28d539
 
+Package: libgfortran4
+Architecture: arm
+Installed-Size: 1180
+Maintainer:  @its-pointless github
+Version: 7.2.0
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Conflicts: libgfortran-4
+Filename: dists/termux/extras/binary-arm/libgfortran4_7.2.0_arm.deb
+Size: 255564
+SHA256: ab14c0307dd7652a9347cc784bdd8e96e1d28ea9a591862857a9c5a25a70b5fe
+
 Package: libgfortran
 Architecture: arm
 Installed-Size: 1128
@@ -632,30 +550,6 @@ Filename: dists/termux/extras/binary-arm/libshout_2.4.1_arm.deb
 Size: 22908
 SHA256: f5c4c915396141e24113f40b489a59a0c6917d1710d9a4d12766388149d80e1f
 
-Package: libsoup-dev
-Architecture: arm
-Installed-Size: 308
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.58.0
-Description: Development files for libsoup
-Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
-Depends: libsoup
-Filename: dists/termux/extras/binary-arm/libsoup-dev_2.58.0_arm.deb
-Size: 24656
-SHA256: f427bed8735a33c6cf42e2264b14c68b4312166832d684deac486b43115e07e6
-
-Package: libsoup
-Architecture: arm
-Installed-Size: 572
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.58.0
-Description: libsoup is an HTTP client/server library for GNOME
-Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
-Depends: glib, krb5, libffi, libsqlite
-Filename: dists/termux/extras/binary-arm/libsoup_2.58.0_arm.deb
-Size: 177308
-SHA256: 99de3c8c25ec46e981fd0ab707b3d0c7fd3c0c0806c39b72e6a099708ed98857
-
 Package: libssh2-dev
 Architecture: arm
 Installed-Size: 768
@@ -704,18 +598,6 @@ Filename: dists/termux/extras/binary-arm/mailutils_3.2_arm.deb
 Size: 642672
 SHA256: b11a9ab367742626e836863c945bf9888962224c8e997f74cc9ddba71fb5c1fe
 
-Package: megatools
-Architecture: arm
-Installed-Size: 740
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.9.98
-Description: Open-source command line tools and C library (libmega) for accessing Mega.co.nz cloud storage
-Homepage: https://github.com/megous/megatools
-Depends: glib, libandroid-support, libcurl, libgmp, openssl
-Filename: dists/termux/extras/binary-arm/megatools_1.9.98_arm.deb
-Size: 93952
-SHA256: 7917137f7cff454f5c41b95b11b863caa8728c2de82cb5fdf84dd9cc7af3d9f3
-
 Package: mksh
 Architecture: arm
 Installed-Size: 372
@@ -726,81 +608,6 @@ Homepage: https://www.mirbsd.org/mksh.htm
 Filename: dists/termux/extras/binary-arm/mksh_55_arm.deb
 Size: 162264
 SHA256: 40bc04d5ded2c3df8c873bb8d48383d87f8f91acf86a836f2ebfb8b20f6fd4bf
-
-Package: mpd-ext
-Architecture: arm
-Installed-Size: 492
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.20.8-2
-Description: music player daemon with libmodplug and libgme support
-Homepage: https://www.musicpd.org
-Depends: libshout, libmodplug, libgme, libcurl, libid3tag, libopus, libevent, fftw, libpulseaudio, libmpdclient, boost, openal-soft, libvorbis, libsqlite, ffmpeg
-Conflicts: mpd
-Filename: dists/termux/extras/binary-arm/mpd-ext_0.20.8-2_arm.deb
-Size: 204260
-SHA256: ff107e1a9abedbf8bb54b5cc2aa707599824801c2bcfdc1699b00a927acd6b54
-
-Package: mpv-ext
-Architecture: arm
-Installed-Size: 1296
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.25.0
-Description: Command-line media player
-Homepage: https://mpv.io/
-Depends: ffmpeg, openal-soft
-Filename: dists/termux/extras/binary-arm/mpv-ext_0.25.0_arm.deb
-Size: 488336
-SHA256: 90cd78423d5f2a43b7570546dd4fbc51cc36e17ee9cbe8ec1d874e43346a6142
-
-Package: nodejs-current-dev
-Architecture: arm
-Installed-Size: 772
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.1.4
-Description: Development files for nodejs-current
-Homepage: https://nodejs.org/
-Depends: nodejs-current
-Filename: dists/termux/extras/binary-arm/nodejs-current-dev_8.1.4_arm.deb
-Size: 118252
-SHA256: 24fff6227d54bbacdcfffaead14f9825e805f7f57b4cb6c4f70bdf8c0bd8d4da
-
-Package: nodejs-current-dev
-Architecture: arm
-Installed-Size: 772
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.2.1
-Description: Development files for nodejs-current
-Homepage: https://nodejs.org/
-Depends: nodejs-current
-Filename: dists/termux/extras/binary-arm/nodejs-current-dev_8.2.1_arm.deb
-Size: 118688
-SHA256: 1245957f65106943ea76d95ec469b15d4b0034feccc6a19eb991a84918a388f4
-
-Package: nodejs-current
-Architecture: arm
-Installed-Size: 33612
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.1.4
-Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
-Homepage: https://nodejs.org/
-Depends: openssl, c-ares
-Conflicts: nodejs
-Filename: dists/termux/extras/binary-arm/nodejs-current_8.1.4_arm.deb
-Size: 5542964
-SHA256: 220f0a5f161d093cae17d45d2a834b55f27d76142039590552fd85936bf29dd1
-
-Package: nodejs-current
-Architecture: arm
-Installed-Size: 36120
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.2.1
-Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
-Homepage: https://nodejs.org/
-Depends: openssl, c-ares
-Conflicts: nodejs
-Filename: dists/termux/extras/binary-arm/nodejs-current_8.2.1_arm.deb
-Size: 5709548
-SHA256: c33c36ec37c49d9f87cae2c78e0476da551570571ba78d2c2a4a21a17728ba68
 
 Package: nsnake
 Architecture: arm

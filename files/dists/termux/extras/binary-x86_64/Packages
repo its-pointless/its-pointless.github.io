@@ -21,17 +21,28 @@ Filename: dists/termux/extras/binary-x86_64/bastet_0.41_x86_64.deb
 Size: 10000
 SHA256: bec63b3b7fde4a2586ca9dabe4cb9939a6d400ff0b2687af159638edf17a1d87
 
-Package: cadaver
+Package: bthread-dev
 Architecture: x86_64
-Installed-Size: 188
+Installed-Size: 4
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.23.3
-Description: cadaver is a command-line WebDAV client for Unix
-Homepage: http://www.webdav.org/cadaver/
-Depends: libgcrypt, libgnutls, libxml2, ncurses, readline
-Filename: dists/termux/extras/binary-x86_64/cadaver_0.23.3_x86_64.deb
-Size: 69768
-SHA256: 84d3ae8944ac2f1ecf6687be728af80fad97d4d71f4c06088681abc0747c806f
+Version: 0.1
+Description: Development files for bthread
+Homepage: http://gmic.eu
+Depends: bthread
+Filename: dists/termux/extras/binary-x86_64/bthread-dev_0.1_x86_64.deb
+Size: 976
+SHA256: afd16ac35c6c2b53d3e123107099811f909c6a3bbec73ecd2e4b273ee30eaeb8
+
+Package: bthread
+Architecture: x86_64
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.1
+Description: This library provides useful functions commonly found on BSD systems
+Homepage: http://gmic.eu
+Filename: dists/termux/extras/binary-x86_64/bthread_0.1_x86_64.deb
+Size: 2552
+SHA256: 3d9fae0dd457ef951d2aa861bed907fd8aeeff2d0dc1e6f9e7b0d33ba0b07016
 
 Package: cargo
 Architecture: x86_64
@@ -69,6 +80,19 @@ Filename: dists/termux/extras/binary-x86_64/gcc-7_7.1.0-2_x86_64.deb
 Size: 27755996
 SHA256: 531c9568e34b5d73643390de77479e575a6e2c75c0e008776ee2a0bc5aa2cc2e
 
+Package: gcc-7
+Architecture: x86_64
+Installed-Size: 104124
+Maintainer:  @its-pointless github
+Version: 7.2.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
+Replaces: libgfortran-4
+Filename: dists/termux/extras/binary-x86_64/gcc-7_7.2.0_x86_64.deb
+Size: 27759744
+SHA256: 8097815d6aa10c1ec0c874881e0e0e1717bcfbf735a74cea0de63489ade92a2c
+
 Package: gcov-7
 Architecture: x86_64
 Installed-Size: 1452
@@ -81,17 +105,17 @@ Filename: dists/termux/extras/binary-x86_64/gcov-7_7.1.0-2_x86_64.deb
 Size: 280824
 SHA256: b24d5c73519b69c4d2ab5ac5c99a67ba7b44ae194a8cdf3c683300e3e2dfe20d
 
-Package: ghostscript
+Package: gcov-7
 Architecture: x86_64
-Installed-Size: 40800
-Maintainer: Fredrik Fornwall @fornwall
-Version: 9.21
-Description: Interpreter for the PostScript language and for PDF
-Homepage: http://www.ghostscript.com/
-Depends: libandroid-support, libtiff, libjpeg-turbo, libpng, libexpat
-Filename: dists/termux/extras/binary-x86_64/ghostscript_9.21_x86_64.deb
-Size: 16058608
-SHA256: 58a03b5f545f81ae7d1d603747c78d150e093dee6123cd6c26b93f20163ef42f
+Installed-Size: 1452
+Maintainer:  @its-pointless github
+Version: 7.2.0
+Description: GNU coverage testing tool
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-x86_64/gcov-7_7.2.0_x86_64.deb
+Size: 280960
+SHA256: 8545d8f5a77cfef0f31176bc0eec7df1a5e442516b6b715b68b5769e910c2941
 
 Package: glpk-dev
 Architecture: x86_64
@@ -116,53 +140,16 @@ Filename: dists/termux/extras/binary-x86_64/glpk_4.61_x86_64.deb
 Size: 346484
 SHA256: 0d6979d2bbec796cb44e5d770a68c74017d96e34916949a8a586f7c78d0d3f31
 
-Package: gmic
+Package: imapfilter
 Architecture: x86_64
-Installed-Size: 11716
+Installed-Size: 204
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.2-2
-Description: imageman
-Homepage: http://gmic.eu
-Depends: graphicsmagick++, libcurl, fftw
-Filename: dists/termux/extras/binary-x86_64/gmic_2.0.2-2_x86_64.deb
-Size: 2738952
-SHA256: 00920cfd6b508dc40621023c1f6641dd55353fdf7c13308d08d8b5abd61913c6
-
-Package: graphicsmagick++-dev
-Architecture: x86_64
-Installed-Size: 288
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.26
-Description: Development files for graphicsmagick++
-Homepage: http://www.graphicsmagick.org/
-Depends: graphicsmagick++
-Filename: dists/termux/extras/binary-x86_64/graphicsmagick++-dev_1.3.26_x86_64.deb
-Size: 38940
-SHA256: 49a4a909c8b77dae77695fd599b446d2c96b93d858284bf1483ee50281f6516b
-
-Package: graphicsmagick++
-Architecture: x86_64
-Installed-Size: 440
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.26
-Description: format-independent image processing - C++ shared library
-Homepage: http://www.graphicsmagick.org/
-Depends: graphicsmagick
-Filename: dists/termux/extras/binary-x86_64/graphicsmagick++_1.3.26_x86_64.deb
-Size: 87000
-SHA256: d8bc634fabe0ca0cc4a1683865e0b734f5f6c958916934f942d5551fe3af45c9
-
-Package: imgflo
-Architecture: x86_64
-Installed-Size: 224
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.2
-Description: HTTP image processing server & Flowhub.io compatible runtime
-Homepage: http://www.imgflo.org/
-Depends: gegl, libsoup
-Filename: dists/termux/extras/binary-x86_64/imgflo_0.4.2_x86_64.deb
-Size: 40832
-SHA256: 718d80f080866565cd3fcbca023964cffe7f7ee0cabc13ef2d9e88fe8b4e6005
+Version: 2.6.10
+Description: Filter mail in your IMAP account
+Homepage: https://github.com/lefcha/imapfilter
+Filename: dists/termux/extras/binary-x86_64/imapfilter_2.6.10_x86_64.deb
+Size: 44268
+SHA256: 3a910ab52a0789fbc66582b86d7b80c1f900ad4e77f5f507ce7fdc682273ecf3
 
 Package: libgfortran4
 Architecture: x86_64
@@ -176,54 +163,41 @@ Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.1.0-2_x86_64.deb
 Size: 660652
 SHA256: 44351e3937a800476e540c396bbdf8a5715a6f5a0f69456d4dbbc3342a199952
 
-Package: libsoup-dev
+Package: libgfortran4
 Architecture: x86_64
-Installed-Size: 308
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.58.0
-Description: Development files for libsoup
-Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
-Depends: libsoup
-Filename: dists/termux/extras/binary-x86_64/libsoup-dev_2.58.0_x86_64.deb
-Size: 24748
-SHA256: c140f39c5b72c636989233b12dcedd28a5ad1097bcc2fad44c6c20c575635825
+Installed-Size: 2816
+Maintainer:  @its-pointless github
+Version: 7.2.0
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Conflicts: libgfortran-4
+Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.2.0_x86_64.deb
+Size: 660656
+SHA256: 4c2e23a2e24879da7fb481e2d957c43dcd5aca2a04416491be17c513241574ea
 
-Package: libsoup
+Package: libssh2-dev
 Architecture: x86_64
-Installed-Size: 940
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.58.0
-Description: libsoup is an HTTP client/server library for GNOME
-Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
-Depends: glib, krb5, libffi, libsqlite
-Filename: dists/termux/extras/binary-x86_64/libsoup_2.58.0_x86_64.deb
-Size: 213920
-SHA256: 66336d4e2ed69d8582e4215c007db03eb7dca049e7f0d4b9c7e00b1ff1f5e880
+Installed-Size: 768
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Development files for libssh2
+Homepage: https://www.libssh2.org
+Depends: libssh2
+Filename: dists/termux/extras/binary-x86_64/libssh2-dev_1.8.0_x86_64.deb
+Size: 41348
+SHA256: 923772cd728bc8acc7302bf34c7c3287047bf3233ce50f187a3a99256c4dcd93
 
-Package: nodejs-current-dev
+Package: libssh2
 Architecture: x86_64
-Installed-Size: 772
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.2.1
-Description: Development files for nodejs-current
-Homepage: https://nodejs.org/
-Depends: nodejs-current
-Filename: dists/termux/extras/binary-x86_64/nodejs-current-dev_8.2.1_x86_64.deb
-Size: 118684
-SHA256: de2ce61c7d69f2bba5f0daf652f727aea7b9e7bce57850e0a9c0264ffc8983b0
-
-Package: nodejs-current
-Architecture: x86_64
-Installed-Size: 38112
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.2.1
-Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
-Homepage: https://nodejs.org/
-Depends: openssl, c-ares
-Conflicts: nodejs
-Filename: dists/termux/extras/binary-x86_64/nodejs-current_8.2.1_x86_64.deb
-Size: 6203384
-SHA256: 5757ece602619a7717d4a6e3d472a335138022cb1a8b70a6db293814af63228e
+Installed-Size: 156
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Client-side C library implementing the SSH2 protocol
+Homepage: https://www.libssh2.org
+Depends: openssl
+Filename: dists/termux/extras/binary-x86_64/libssh2_1.8.0_x86_64.deb
+Size: 59244
+SHA256: 00a3400d96e2105277a52a66e82a28b59fdc5d4678132d2063a617903ebc6ea1
 
 Package: numpy
 Architecture: x86_64
@@ -284,6 +258,17 @@ Depends: libgcc, libgfortran4
 Filename: dists/termux/extras/binary-x86_64/openblas_0.2.20_x86_64.deb
 Size: 3328704
 SHA256: f68aa54bf1f1c761c288b5dcea0c95978f1c1a67647bfa47bd042599b71f1b2e
+
+Package: pacman4console
+Architecture: x86_64
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3
+Description: pacman 4 terminal console
+Homepage: http://sites.google.com/site/doctormike/pacman.html
+Filename: dists/termux/extras/binary-x86_64/pacman4console_1.3_x86_64.deb
+Size: 10600
+SHA256: 1c184b6619ed2219b76ad6135f6a806d8bb1b2e646f96bee1b864021bfa7bd49
 
 Package: qhull-dev
 Architecture: x86_64
@@ -367,6 +352,18 @@ Depends: libllvm, clang
 Filename: dists/termux/extras/binary-x86_64/rustc_1.19.0_x86_64.deb
 Size: 38915640
 SHA256: 16550ee0cb34c8729b7f2e06acba6c64221b3e30e8ad292d68169a6382b2fd7e
+
+Package: sc-im
+Architecture: x86_64
+Installed-Size: 304
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.0
+Description: This library provides useful functions commonly found on BSD systems
+Homepage: https://github.com/andmarti1424/sc-im/
+Depends: libandroid-support, bthread
+Filename: dists/termux/extras/binary-x86_64/sc-im_0.6.0_x86_64.deb
+Size: 113488
+SHA256: 00859259ce80387e7aa9aade5939c07839d16b842351472730f71d28406212bc
 
 Package: scipy
 Architecture: x86_64
