@@ -45,6 +45,18 @@ Filename: dists/termux/extras/binary-i686/cargo_0.20.0_i686.deb
 Size: 1984080
 SHA256: c0cb3e973030c8ef419eb587e24ec1b9134655822e7647571f58e2d95f8c0a76
 
+Package: cava
+Architecture: i686
+Installed-Size: 56
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.5.0
+Description: Console-based Audio Visualizer. Works with MPD.
+Homepage: https://github.com/karlstav/cava
+Depends: ncurses,fftw
+Filename: dists/termux/extras/binary-i686/cava_0.5.0_i686.deb
+Size: 19700
+SHA256: b557cde2debdf83c0a6179c5adccaae0cf47f82503b1681cbf243baaa9d4cc31
+
 Package: ccache
 Architecture: i686
 Installed-Size: 168

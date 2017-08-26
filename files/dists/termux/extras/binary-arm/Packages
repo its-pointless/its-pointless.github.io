@@ -103,6 +103,18 @@ Filename: dists/termux/extras/binary-arm/cargo_0.20.0_arm.deb
 Size: 1624916
 SHA256: e485d3b7e5aa88b0c02eae4b80564f3b6d3c18f45ea5a450307e37db97d6af19
 
+Package: cava
+Architecture: arm
+Installed-Size: 56
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.5.0
+Description: Console-based Audio Visualizer. Works with MPD.
+Homepage: https://github.com/karlstav/cava
+Depends: ncurses,fftw
+Filename: dists/termux/extras/binary-arm/cava_0.5.0_arm.deb
+Size: 22216
+SHA256: e42404a1eb5401cb7f7aa1057c86433a14a6475c7f265f7755bb617302946051
+
 Package: ccache
 Architecture: arm
 Installed-Size: 152
@@ -318,18 +330,6 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-arm/glpk_4.61_arm.deb
 Size: 306520
 SHA256: 223fb0b1753aa2f552a9fa9a56946fe302c0bff29f6eb2fbcdb13ba0ac907b83
-
-Package: icecast
-Architecture: arm
-Installed-Size: 268
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.3
-Description: Icecast is a streaming media (audio/video) server
-Homepage: http://icecast.org
-Depends: libcurl, libgnutls, libogg, libvorbis, libxml2, libxslt, mime-support, openssl
-Filename: dists/termux/extras/binary-arm/icecast_2.4.3_arm.deb
-Size: 93796
-SHA256: 2fefa7303abc5daa149e58fdc692dd5b70358c0e528c2325a16d99e9951c55ae
 
 Package: imapfilter
 Architecture: arm

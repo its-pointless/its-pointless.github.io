@@ -103,6 +103,18 @@ Filename: dists/termux/extras/binary-aarch64/cargo_0.20.0_aarch64.deb
 Size: 1621836
 SHA256: cf019d749ea7943088a117e92f205cdce468144449fde22c357217f4d18198b3
 
+Package: cava
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.5.0
+Description: Console-based Audio Visualizer. Works with MPD.
+Homepage: https://github.com/karlstav/cava
+Depends: ncurses,fftw
+Filename: dists/termux/extras/binary-aarch64/cava_0.5.0_aarch64.deb
+Size: 18360
+SHA256: 5a99a035955d0f465a4736e0dd2438177e3fff46d272c4f02d94a1ddf82262c9
+
 Package: ccache
 Architecture: aarch64
 Installed-Size: 172
@@ -331,18 +343,6 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-aarch64/glpk_4.61_aarch64.deb
 Size: 288828
 SHA256: 5109e9f78f3aa19cfa40c2911ac59aed57d61addf652c5cb19b5ed44ac7bda8b
-
-Package: icecast
-Architecture: aarch64
-Installed-Size: 304
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.3
-Description: Icecast is a streaming media (audio/video) server
-Homepage: http://icecast.org
-Depends: libcurl, libgnutls, libogg, libvorbis, libxml2, libxslt, mime-support, openssl
-Filename: dists/termux/extras/binary-aarch64/icecast_2.4.3_aarch64.deb
-Size: 88036
-SHA256: 53c976d6241aef69485a131775b0c4823de499dd670309c824396347f6339fb5
 
 Package: imapfilter
 Architecture: aarch64
