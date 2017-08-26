@@ -271,6 +271,30 @@ Filename: dists/termux/extras/binary-x86_64/openblas_0.2.20_x86_64.deb
 Size: 3328704
 SHA256: f68aa54bf1f1c761c288b5dcea0c95978f1c1a67647bfa47bd042599b71f1b2e
 
+Package: openldap-dev
+Architecture: x86_64
+Installed-Size: 428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.45
+Description: Development files for openldap
+Homepage: https://openldap.org
+Depends: openldap
+Filename: dists/termux/extras/binary-x86_64/openldap-dev_2.4.45_x86_64.deb
+Size: 67188
+SHA256: 707a3e8e219b83206aaca19a2050564fcd4fc377c682b85369624a6e54654b3a
+
+Package: openldap
+Architecture: x86_64
+Installed-Size: 3636
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.45
+Description: OpenLDAP server
+Homepage: https://openldap.org
+Depends: libsasl, openssl, libuuid
+Filename: dists/termux/extras/binary-x86_64/openldap_2.4.45_x86_64.deb
+Size: 888740
+SHA256: 2ba2afe884fb22d440bcd9ab48f6c9942e3403ee247d4654176edaab35701865
+
 Package: pacman4console
 Architecture: x86_64
 Installed-Size: 76

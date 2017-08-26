@@ -729,6 +729,30 @@ Filename: dists/termux/extras/binary-aarch64/openblas_0.2.19-3_aarch64.deb
 Size: 2192904
 SHA256: 656543ba1cce7c9cc249b9c215cb15139eabdaaf30310a49d909a2f76842da43
 
+Package: openldap-dev
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.45
+Description: Development files for openldap
+Homepage: https://openldap.org
+Depends: openldap
+Filename: dists/termux/extras/binary-aarch64/openldap-dev_2.4.45_aarch64.deb
+Size: 67172
+SHA256: 974efd84a45f390c01ea8b272fd1c6d7701c81e1bb71b5c831ef9a1917a53d02
+
+Package: openldap
+Architecture: aarch64
+Installed-Size: 3404
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.45
+Description: OpenLDAP server
+Homepage: https://openldap.org
+Depends: libsasl, openssl, libuuid
+Filename: dists/termux/extras/binary-aarch64/openldap_2.4.45_aarch64.deb
+Size: 750832
+SHA256: ccd7bbe4a41944851b4aed6e632c3d17ecf03a7b05fd12dbaeb8c9c2f58eb901
+
 Package: pacman4console
 Architecture: aarch64
 Installed-Size: 72

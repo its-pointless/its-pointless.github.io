@@ -236,6 +236,30 @@ Filename: dists/termux/extras/binary-i686/openblas_0.2.20_i686.deb
 Size: 3235296
 SHA256: 3a9816f8f38c7168a08cedad911bdb4dcedc86f0f68026e8b770bbdb85809f64
 
+Package: openldap-dev
+Architecture: i686
+Installed-Size: 428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.45
+Description: Development files for openldap
+Homepage: https://openldap.org
+Depends: openldap
+Filename: dists/termux/extras/binary-i686/openldap-dev_2.4.45_i686.deb
+Size: 67152
+SHA256: b72ffff6f174c21eb5316064015f3d7e9c36b12282e99bf3d81177b69ee967b8
+
+Package: openldap
+Architecture: i686
+Installed-Size: 3372
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.45
+Description: OpenLDAP server
+Homepage: https://openldap.org
+Depends: libsasl, openssl, libuuid
+Filename: dists/termux/extras/binary-i686/openldap_2.4.45_i686.deb
+Size: 801792
+SHA256: ca95159815d8fe7d87911cf697722c313d03e5e045e898b690910bcd611044cf
+
 Package: pacman4console
 Architecture: i686
 Installed-Size: 72

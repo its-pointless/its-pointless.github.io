@@ -715,6 +715,30 @@ Filename: dists/termux/extras/binary-arm/octave_4.2.1-8_arm.deb
 Size: 5697724
 SHA256: 2fd7f7a46b42e16ba0982653d41c53e1def78a1b877ced6688ef8d8c97453f32
 
+Package: openldap-dev
+Architecture: arm
+Installed-Size: 436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.45
+Description: Development files for openldap
+Homepage: https://openldap.org
+Depends: openldap
+Filename: dists/termux/extras/binary-arm/openldap-dev_2.4.45_arm.deb
+Size: 67180
+SHA256: 21ce8dcc86ccaaea7186c20aa5c3936c4b6e245569aaa2be8c9dc00949b36b61
+
+Package: openldap
+Architecture: arm
+Installed-Size: 3004
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.45
+Description: OpenLDAP server
+Homepage: https://openldap.org
+Depends: libsasl, openssl, libuuid
+Filename: dists/termux/extras/binary-arm/openldap_2.4.45_arm.deb
+Size: 800160
+SHA256: 29c51b07f7bea59feeac5ffd059f0f30440ca96d314b25da057ae3e82d45b874
+
 Package: pacman4console
 Architecture: arm
 Installed-Size: 72
