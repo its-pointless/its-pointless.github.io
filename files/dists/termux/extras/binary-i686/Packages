@@ -152,6 +152,53 @@ Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.0_i686.deb
 Size: 623592
 SHA256: fff4f29944240c4ebc27682e3e74f9c2f9adda5193c8bd51ce64da0848177f11
 
+Package: libspice-protocol-dev
+Architecture: i686
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.13
+Description: Development files for libspice-protocol
+Homepage: https://www.spice-space.org/
+Depends: libspice-protocol
+Filename: dists/termux/extras/binary-i686/libspice-protocol-dev_0.12.13_i686.deb
+Size: 16980
+SHA256: 2328f6bd9f33e03832a5d7e9a2611b45184225b48c0cd35a29967125db164baf
+
+Package: libspice-protocol
+Architecture: i686
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.13
+Description: Remote access to virtual machines, protocol definitions
+Homepage: https://www.spice-space.org/
+Filename: dists/termux/extras/binary-i686/libspice-protocol_0.12.13_i686.deb
+Size: 984
+SHA256: 947929c38e6abbdaa05ead0ea91241fdd6f0dac54a08528bc7c4008a75a5c082
+
+Package: libspice-server-dev
+Architecture: i686
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.8
+Description: Development files for libspice-server
+Homepage: https://www.spice-space.org/
+Depends: libspice-server
+Filename: dists/termux/extras/binary-i686/libspice-server-dev_0.12.8_i686.deb
+Size: 6236
+SHA256: 2a40b4ca70c4fda748c2c57291028a6feb7aad8f1dcc383230f09399772dd884
+
+Package: libspice-server
+Architecture: i686
+Installed-Size: 924
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.8
+Description: Remote access to virtual machines, server part
+Homepage: https://www.spice-space.org/
+Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
+Filename: dists/termux/extras/binary-i686/libspice-server_0.12.8_i686.deb
+Size: 256560
+SHA256: dfd52283b83a53fc2f8082bae97815dde4e6b4d427e2414371ea582095416d4d
+
 Package: libssh2-dev
 Architecture: i686
 Installed-Size: 768
@@ -175,6 +222,17 @@ Depends: openssl
 Filename: dists/termux/extras/binary-i686/libssh2_1.8.0_i686.deb
 Size: 56328
 SHA256: 786ed8a24415ae49df2f8d208bce9f8f229a86e71846cee4c284c620337d1441
+
+Package: net-tools
+Architecture: i686
+Installed-Size: 448
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.60.2017.02.21-1
+Description: Configuration tools for Linux networking
+Homepage: http://net-tools.sourceforge.net/
+Filename: dists/termux/extras/binary-i686/net-tools_1.60.2017.02.21-1_i686.deb
+Size: 97872
+SHA256: 21e9a258c9b64e730d0ea7ea024c5c1d6c24f80dc51b480ab41ea32f4befed66
 
 Package: numpy
 Architecture: i686
@@ -258,6 +316,438 @@ Homepage: http://sites.google.com/site/doctormike/pacman.html
 Filename: dists/termux/extras/binary-i686/pacman4console_1.3_i686.deb
 Size: 10104
 SHA256: 4144fda9516329cc7f7b82a0025d384b348c12a3db028a3ad9da0e94ab33661b
+
+Package: qemu-common
+Architecture: i686
+Installed-Size: 1528
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu fast processor emulator - common files
+Homepage: http://www.qemu.org
+Depends: glib, libutil, liblzo, libbz2, libnettle, ncurses, libjpeg-turbo, libcurl, libandroid-shmem, libpulseaudio, libsasl, libgnutls, libspice-server, libspice-protocol, libpixman, libpng
+Filename: dists/termux/extras/binary-i686/qemu-common_2.9.0_i686.deb
+Size: 255560
+SHA256: fa3e80d287daf2cc1b0322ccb577a5bc210ddb72f3aed5a935103af46185ec87
+
+Package: qemu-guest-additions
+Architecture: i686
+Installed-Size: 980
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - sparc and sparc64 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-guest-additions_2.9.0_i686.deb
+Size: 208212
+SHA256: 67043adeaaa0d357b7ee9839186c5b615333d382cff1848bf6cb4b8bb4fa8dcb
+
+Package: qemu-system-alpha
+Architecture: i686
+Installed-Size: 6364
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - alpha system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-alpha_2.9.0_i686.deb
+Size: 1574952
+SHA256: 6267885a4b5e811af9a700f0fed8862eb24d94c7745831e078fa0e3ffe489cd9
+
+Package: qemu-system-arm
+Architecture: i686
+Installed-Size: 15652
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - arm and aarch64 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-arm_2.9.0_i686.deb
+Size: 2633572
+SHA256: b71f6e1de9066b6cc5a6de455d4b033ddaf824877df0a0b26990fe6fb18d3285
+
+Package: qemu-system-cris
+Architecture: i686
+Installed-Size: 3552
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - cris system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-cris_2.9.0_i686.deb
+Size: 1123908
+SHA256: ccd352285489c00810ffd4c33e17ceb2cef3c4eb7bb1ac0f5bcff435aab19ab8
+
+Package: qemu-system-lm32
+Architecture: i686
+Installed-Size: 3548
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - lm32 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-lm32_2.9.0_i686.deb
+Size: 1119976
+SHA256: 5dde5f6d5a27a036df2bf5d3c3d08735cad4a8ed4d8f8eb6ffc79bc5cba15914
+
+Package: qemu-system-m68k
+Architecture: i686
+Installed-Size: 3636
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - m68k system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-m68k_2.9.0_i686.deb
+Size: 1138964
+SHA256: dc0325aa6475f9a7f5c47f954b9d150f64d62147fae62f47b9abc79dc3667c99
+
+Package: qemu-system-microblaze
+Architecture: i686
+Installed-Size: 7112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - microblaze and microblazeel system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-microblaze_2.9.0_i686.deb
+Size: 1289920
+SHA256: 4aecb4b84f96727d0c05cdf48dfea033f7c5c716284790dddbcba56ebcb72b09
+
+Package: qemu-system-mips
+Architecture: i686
+Installed-Size: 27584
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - mips, mips64, mipsel and mips64el system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-mips_2.9.0_i686.deb
+Size: 3238060
+SHA256: 8835f456626dc5eeff1fe346faac59621d4c743afbefe33e6c23985be986f3c3
+
+Package: qemu-system-moxie
+Architecture: i686
+Installed-Size: 3496
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - moxie system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-moxie_2.9.0_i686.deb
+Size: 1106308
+SHA256: 33ff5d067366f05af559eafb1e38962d391e5dd37d5450c34f01c9c622f92c5d
+
+Package: qemu-system-nios2
+Architecture: i686
+Installed-Size: 3500
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - nios2 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-nios2_2.9.0_i686.deb
+Size: 1102248
+SHA256: 8c86ffd521833e1cb85458ddd3ea8a439b225b574bd4d611afc702377e83b235
+
+Package: qemu-system-or1k
+Architecture: i686
+Installed-Size: 3488
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - or1k system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-or1k_2.9.0_i686.deb
+Size: 1101336
+SHA256: 9c9c08db9eb75f716b037165fccb10dc375dc507cccf69c954d32926eb3382c6
+
+Package: qemu-system-ppc
+Architecture: i686
+Installed-Size: 25760
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - ppc, ppc64 and ppcemb system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-ppc_2.9.0_i686.deb
+Size: 3677080
+SHA256: c923d951649aff5ecf8315b139bbd579c676ff3c0d8fb4d8131c39fe62b375f7
+
+Package: qemu-system-s390x
+Architecture: i686
+Installed-Size: 4192
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - s390x system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-s390x_2.9.0_i686.deb
+Size: 1328408
+SHA256: 17cabfe34069ed34b09651c7b19ea1daf8a499a01cfde93fcd499c96eab95657
+
+Package: qemu-system-sh4
+Architecture: i686
+Installed-Size: 12212
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - sh4 and sh4eb system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-sh4_2.9.0_i686.deb
+Size: 1797880
+SHA256: 3dba21eff1bc8ac454bcd74fa5b18eabae821e6e1ca72c6a9e063ada45f66157
+
+Package: qemu-system-sparc
+Architecture: i686
+Installed-Size: 11956
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - sparc and sparc64 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-sparc_2.9.0_i686.deb
+Size: 2102272
+SHA256: 6770eb465d506898cfa0bf4f4ae0de0e8de18c8582e93066624925e97f5787a3
+
+Package: qemu-system-tricore
+Architecture: i686
+Installed-Size: 3592
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - tricore system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-tricore_2.9.0_i686.deb
+Size: 1126932
+SHA256: df6e8ab755416cf6ab4c2acfe397428bec67ba7714aa9588ce0e3a3e0ae2d46b
+
+Package: qemu-system-unicore32
+Architecture: i686
+Installed-Size: 3480
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - unicore32 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-unicore32_2.9.0_i686.deb
+Size: 1100160
+SHA256: ced7f1a5ee8b8c56f564815b3546be3bad4e8c8168628316892931eac8885b24
+
+Package: qemu-system-x86
+Architecture: i686
+Installed-Size: 16668
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - x86 and x86_64 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-x86_2.9.0_i686.deb
+Size: 4112840
+SHA256: 67baf87dda5d4a615da923766d99ee6e4f95fea2316d39d7745217e8cb883e90
+
+Package: qemu-system-xtensa
+Architecture: i686
+Installed-Size: 7100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - xtensa and xtensaeb system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-system-xtensa_2.9.0_i686.deb
+Size: 1297464
+SHA256: 6e3ce84cbc4e688f9663a7144b7d54e3ee74e9441e8f93e7fdbe6b2c5a867437
+
+Package: qemu-user-alpha
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - alpha user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-alpha_2.9.0_i686.deb
+Size: 792
+SHA256: 3bdcebb7b56e725ca49cf4490a0c5bb221aa7f38f4ca4df64d600e0f18ec8dfa
+
+Package: qemu-user-arm
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - arm and aarch64 user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-arm_2.9.0_i686.deb
+Size: 800
+SHA256: 463f2f39a0d867640334588f4421a1a90373c06dbafef61b7f5900e553ac731a
+
+Package: qemu-user-cris
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - cris user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-cris_2.9.0_i686.deb
+Size: 792
+SHA256: 2772b83fd4194aa6f8479f90cefce97f58ba2acf401c0a5fabf10ba4eee017f2
+
+Package: qemu-user-hppa
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - hppa user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-hppa_2.9.0_i686.deb
+Size: 796
+SHA256: d37b712909e8318b98fd94410f937e1096c4919d367adf678d5645549c636237
+
+Package: qemu-user-m68k
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - m68k user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-m68k_2.9.0_i686.deb
+Size: 796
+SHA256: b61ba989b5ae5a3e8cf1246cbbbe7229b23fee0fd40f1c71d8318bed2cbe8018
+
+Package: qemu-user-microblaze
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - microblaze(el) user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-microblaze_2.9.0_i686.deb
+Size: 804
+SHA256: 2857b133e486053f08ff7e65b2be32388313a325084bc9d638424749eaf06b2b
+
+Package: qemu-user-mips
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - mips(64)(el) user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-mips_2.9.0_i686.deb
+Size: 800
+SHA256: 94e2604742b644996af6c6e3ea18d7101c2d5b14feb8fb14b9490a8ee1785a9c
+
+Package: qemu-user-nios2
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - nios2 user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-nios2_2.9.0_i686.deb
+Size: 792
+SHA256: 741c3aa59d4ca5c31dc2d0df42ad68335f54a3401a90f41428465b4d09f11078
+
+Package: qemu-user-or1k
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - or1k user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-or1k_2.9.0_i686.deb
+Size: 796
+SHA256: 5ce94fdc67538ec9788076dd4936a120037e2430c1ce199d86c5b28bbd17e268
+
+Package: qemu-user-ppc
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - ppc and ppc64 user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-ppc_2.9.0_i686.deb
+Size: 800
+SHA256: ff3731a2e18fd7fd3feaa578005a12ffd0f7d0cf84635f0c8ee188396d52a074
+
+Package: qemu-user-s390x
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - s390x user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-s390x_2.9.0_i686.deb
+Size: 792
+SHA256: fc16eadc621641ee2a176b4f5e2bd81632568a85c7d08d9429cf84397087f583
+
+Package: qemu-user-sh4
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - sh4(eb) user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-sh4_2.9.0_i686.deb
+Size: 796
+SHA256: 76be9c3b637efa0af12ddc38e6cf1a376e8aca72c6522dfca3442be8d3f36187
+
+Package: qemu-user-sparc
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - sparc and sparc64 user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-sparc_2.9.0_i686.deb
+Size: 800
+SHA256: 6cd481b6f1a5dc73b0448cfa08345d4064fbd272f954d4f7cd3be4d9621085ec
+
+Package: qemu-user-tilegx
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - tilegx user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-tilegx_2.9.0_i686.deb
+Size: 796
+SHA256: 15bd89d2d25962f136acdfdd83ca93438c0efe82fcb2f2dfd7b16845755c5faf
+
+Package: qemu-user-x86
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - i386 and x86_64 user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-user-x86_2.9.0_i686.deb
+Size: 804
+SHA256: cd40cde5cdbaaa560d70f17930cef1856169aecdbfd67427b78df1dde71d34e9
+
+Package: qemu-utils
+Architecture: i686
+Installed-Size: 3276
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.9.0
+Description: Qemu emulator - utilities
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-i686/qemu-utils_2.9.0_i686.deb
+Size: 604984
+SHA256: 4914d66d18f32f373ed852678aced21e094011b2c897f0953bebdd77f5b56b6f
 
 Package: qhull-dev
 Architecture: i686
