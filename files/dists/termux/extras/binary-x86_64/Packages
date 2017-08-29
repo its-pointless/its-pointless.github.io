@@ -855,6 +855,17 @@ Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.0-2_x86_64.deb
 Size: 40353908
 SHA256: 4920eb9076e687e5b585458968074f0fb3ac084c1a5de49f10585d893bb93509
 
+Package: ripgrep
+Architecture: x86_64
+Installed-Size: 2616
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.0
+Description: fast grep written in rust
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-x86_64/ripgrep_0.6.0_x86_64.deb
+Size: 842092
+SHA256: 9800cd71ead2fb67146469b76ed25ed9b920f818b9f5dbab6d4a5dfb6596b902
+
 Package: rustc
 Architecture: x86_64
 Installed-Size: 97960

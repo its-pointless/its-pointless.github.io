@@ -1370,6 +1370,17 @@ Filename: dists/termux/extras/binary-arm/ripgrep_0.5.2_arm.deb
 Size: 704600
 SHA256: 1e2e2787fe6b21fe9b83ffdcd8335c3dd44d18b5413599f6c098678042a12c7d
 
+Package: ripgrep
+Architecture: arm
+Installed-Size: 2232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.0
+Description: fast grep written in rust
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-arm/ripgrep_0.6.0_arm.deb
+Size: 726700
+SHA256: 237f87a37accf9b93bccd2f76b1c9b56e050bec434034eef082c30aa42f78df0
+
 Package: rustc
 Architecture: arm
 Installed-Size: 87956
