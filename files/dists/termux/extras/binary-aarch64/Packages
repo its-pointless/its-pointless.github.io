@@ -103,17 +103,6 @@ Filename: dists/termux/extras/binary-aarch64/cargo_0.20.0_aarch64.deb
 Size: 1621836
 SHA256: cf019d749ea7943088a117e92f205cdce468144449fde22c357217f4d18198b3
 
-Package: ccache
-Architecture: aarch64
-Installed-Size: 172
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 3.3.4
-Description: Compiler cache for fast recompilation of C/C++ code
-Homepage: https://ccache.samba.org
-Filename: dists/termux/extras/binary-aarch64/ccache_3.3.4_aarch64.deb
-Size: 55772
-SHA256: 24b280b69cb52bf05939e83d19c6f657a686c501a9cf1e1ff4af4f9719099d90
-
 Package: gcc-6
 Architecture: aarch64
 Installed-Size: 71264
@@ -1327,6 +1316,19 @@ SHA256: ab35fe0a2f72c0b09ec46110febe9b155c5160b05148afd692a76a3cf034e733
 
 Package: r-cran-rcpp
 Architecture: aarch64
+Installed-Size: 10212
+Maintainer: @its-pointless github
+Version: 0.12.12-1
+Description: C++ classes which offer a seamless integration of R and C++
+Homepage: https://cran.r-project.org/web/packages/Rcpp/
+Depends: r-cran
+Replaces: rcpp
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.12-1_aarch64.deb
+Size: 2167960
+SHA256: b5dbbdc1612f986cd445cd32c123ff338a3e376d37b452d6b743e6c1b08d98ca
+
+Package: r-cran-rcpp
+Architecture: aarch64
 Installed-Size: 10184
 Maintainer: @its-pointless github
 Version: 0.12.12
@@ -1336,6 +1338,19 @@ Depends: r-cran
 Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.12_aarch64.deb
 Size: 2179044
 SHA256: 4d868aa18460b70f853d112a63acaf465d4308219082367a8430d2092cb2e136
+
+Package: r-cran-rquantlib
+Architecture: aarch64
+Installed-Size: 3900
+Maintainer: @its-pointless github
+Version: 0.4.3-1
+Description: RQuantLib' package makes parts of 'QuantLib' accessible from R
+Homepage: https://cran.r-project.org/web/packages/RQuantLib/index.html
+Depends: r-cran, quantlib, r-cran-zoo, r-cran-rcpp
+Replaces: rquantlib
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.3-1_aarch64.deb
+Size: 757776
+SHA256: 2547fd6fece427d5876000aa54c7969ea08d4469f610fc4cf9d2974bf13a5122
 
 Package: r-cran-rquantlib
 Architecture: aarch64
@@ -1351,6 +1366,18 @@ SHA256: bd9eea657f4f87e0a61325c0b0d3501797691ac271fab913dc821326d37725a8
 
 Package: r-cran-stringi
 Architecture: aarch64
+Installed-Size: 1044
+Maintainer: @its-pointless github
+Version: 1.15-1
+Description: gnu r character string/text processing in every locale
+Homepage: https://cran.r-project.org/web/packages/stringi/index.html
+Depends: r-cran, libicu
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.15-1_aarch64.deb
+Size: 558992
+SHA256: ce920ba79456fdb19537fa29174e80d78b8063ab83d822a31b66cd43f8f2cf4b
+
+Package: r-cran-stringi
+Architecture: aarch64
 Installed-Size: 1040
 Maintainer: @its-pointless github
 Version: 1.15
@@ -1360,18 +1387,6 @@ Depends: r-cran, libicu
 Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.15_aarch64.deb
 Size: 573412
 SHA256: a340853e70d42d4c9492ff645d23a014ac63958a27854e0d825779851e3a7e8e
-
-Package: r-cran-zoo
-Architecture: aarch64
-Installed-Size: 1240
-Maintainer: @its-pointless github
-Version: 1.80-1
-Description: S3 Infrastructure for Regular and Irregular Time Series
-Homepage: https://cran.r-project.org/web/packages/zoo/
-Depends: r-cran
-Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.80-1_aarch64.deb
-Size: 857140
-SHA256: 0d1ca4db193856c30a90f282753f941cbc16a385fc9cd07341e9f881d9cde51d
 
 Package: r-cran
 Architecture: aarch64

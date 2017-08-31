@@ -56,17 +56,6 @@ Filename: dists/termux/extras/binary-x86_64/cargo_0.20.0-1_x86_64.deb
 Size: 1856852
 SHA256: 69243355f8551351c4a857786bdba40e5ae57904ad338e8c662c06a8b4869bd8
 
-Package: ccache
-Architecture: x86_64
-Installed-Size: 184
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 3.3.4
-Description: Compiler cache for fast recompilation of C/C++ code
-Homepage: https://ccache.samba.org
-Filename: dists/termux/extras/binary-x86_64/ccache_3.3.4_x86_64.deb
-Size: 61996
-SHA256: fa21e9129dd078d034ca4cc33dccfb414796aeffab0f4c0a27f8317dcaa81042
-
 Package: gcc-7
 Architecture: x86_64
 Installed-Size: 104096
@@ -268,18 +257,6 @@ Depends: python, libgfortran4, openblas
 Filename: dists/termux/extras/binary-x86_64/numpy_1.13.1-1_x86_64.deb
 Size: 2705652
 SHA256: 6cbe9b69c8cb816f7ce50e5fca57cdbb208f126e94d0ef665c55b558ffeb2d07
-
-Package: numpy
-Architecture: x86_64
-Installed-Size: 16680
-Maintainer: @its-pointless github
-Version: 1.13.1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
-Filename: dists/termux/extras/binary-x86_64/numpy_1.13.1_x86_64.deb
-Size: 2705956
-SHA256: 9a69b1b0868e1a69cbdcc694786fa742838a41c9fbb80dfa516c2c345a8ec285
 
 Package: octave-dev
 Architecture: x86_64
