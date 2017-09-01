@@ -683,6 +683,18 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
 Maintainer: @its-pointless github
+Version: 4.2.1-10
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-10_arm.deb
+Size: 351560
+SHA256: 4026625c6ca6c52fa4a44827fbe27779ca19cb6b5216f6a6f4e9ca03a6a1c691
+
+Package: octave-dev
+Architecture: arm
+Installed-Size: 5644
+Maintainer: @its-pointless github
 Version: 4.2.1-6
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
@@ -702,6 +714,18 @@ Depends: octave
 Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-8_arm.deb
 Size: 351440
 SHA256: fd3e937a03276c404cb88cf512692cf60506bd32a9dec2e297750fe073ea6217
+
+Package: octave
+Architecture: arm
+Installed-Size: 29324
+Maintainer: @its-pointless github
+Version: 4.2.1-10
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: openblas, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo
+Filename: dists/termux/extras/binary-arm/octave_4.2.1-10_arm.deb
+Size: 5154268
+SHA256: df6b5a839b9de5e167920bf97b4609e21404ffb652cbc43d34069a2818784ff3
 
 Package: octave
 Architecture: arm
@@ -726,6 +750,18 @@ Depends: libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, font
 Filename: dists/termux/extras/binary-arm/octave_4.2.1-8_arm.deb
 Size: 5697724
 SHA256: 2fd7f7a46b42e16ba0982653d41c53e1def78a1b877ced6688ef8d8c97453f32
+
+Package: openblas
+Architecture: arm
+Installed-Size: 10976
+Maintainer: @its-pointless github
+Version: 0.2.20
+Description: openblas
+Homepage: http://www.openblas.net/
+Depends: libgcc, libgfortran4
+Filename: dists/termux/extras/binary-arm/openblas_0.2.20_arm.deb
+Size: 2357780
+SHA256: 471d7e523f59b114fd1262b9e3e5282474475373da148884e23553c656ded072
 
 Package: openldap-dev
 Architecture: arm

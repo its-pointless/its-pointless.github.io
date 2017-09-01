@@ -753,6 +753,18 @@ Filename: dists/termux/extras/binary-aarch64/openblas_0.2.19-3_aarch64.deb
 Size: 2192904
 SHA256: 656543ba1cce7c9cc249b9c215cb15139eabdaaf30310a49d909a2f76842da43
 
+Package: openblas
+Architecture: aarch64
+Installed-Size: 10576
+Maintainer: @its-pointless github
+Version: 0.2.20
+Description: openblas
+Homepage: http://www.openblas.net/
+Depends: libgcc, libgfortran4
+Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20_aarch64.deb
+Size: 2316268
+SHA256: e36aa2e2acb01930931a7efb50f9f485440aa17316a83a73c78d86c33e074d1e
+
 Package: openldap-dev
 Architecture: aarch64
 Installed-Size: 436
