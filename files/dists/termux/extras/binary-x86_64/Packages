@@ -832,6 +832,18 @@ Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.0-2_x86_64.deb
 Size: 40353908
 SHA256: 4920eb9076e687e5b585458968074f0fb3ac084c1a5de49f10585d893bb93509
 
+Package: r-cran
+Architecture: x86_64
+Installed-Size: 61520
+Maintainer: @its-pointless github
+Version: 3.4.1
+Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
+Homepage: https://cran.r-project.org/
+Depends: libandroid-glob, libandroid-support, libicu, libgfortran4, openblas, liblzma, readline, pcre, libcurl, libbz2
+Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.1_x86_64.deb
+Size: 39549288
+SHA256: 420b3e5d1b9d95bcded18d05832f2bbcdbd7103f6bb499a746ff3e54ce2f5400
+
 Package: ripgrep
 Architecture: x86_64
 Installed-Size: 2616
