@@ -187,6 +187,30 @@ Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.2.0_x86_64.deb
 Size: 660656
 SHA256: 4c2e23a2e24879da7fb481e2d957c43dcd5aca2a04416491be17c513241574ea
 
+Package: libpoco-dev
+Architecture: x86_64
+Installed-Size: 5316
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.pre-cpp11-0
+Description: Development files for libpoco
+Homepage: https://github.com/pocoproject/poco
+Depends: libpoco
+Filename: dists/termux/extras/binary-x86_64/libpoco-dev_1.pre-cpp11-0_x86_64.deb
+Size: 481828
+SHA256: f3d507bfcd434c339ece6e8338c07898312c8be4f42015a1c227d0ca2086d9d6
+
+Package: libpoco
+Architecture: x86_64
+Installed-Size: 9884
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.pre-cpp11-0
+Description: C++ Portable Components (POCO)
+Homepage: https://github.com/pocoproject/poco
+Depends: openssl
+Filename: dists/termux/extras/binary-x86_64/libpoco_1.pre-cpp11-0_x86_64.deb
+Size: 1880024
+SHA256: 1282705813763f5582db5345cedfe220354e659a98d323205fea10d0cdd13810
+
 Package: libspice-protocol-dev
 Architecture: x86_64
 Installed-Size: 128
