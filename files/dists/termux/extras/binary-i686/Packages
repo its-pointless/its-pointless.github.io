@@ -10,6 +10,29 @@ Filename: dists/termux/extras/binary-i686/arpack-ng_3.4.0-1_i686.deb
 Size: 253908
 SHA256: b79a66bc0e70aa10e8b589fdc675684269d331e2042b7baa41f718b3ec6c40a9
 
+Package: blis-dev
+Architecture: i686
+Installed-Size: 2516
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.2
+Description: Development files for blis
+Homepage: https://github.com/flame/blis
+Depends: blis
+Filename: dists/termux/extras/binary-i686/blis-dev_0.2.2_i686.deb
+Size: 82048
+SHA256: fb23512c0b74ec80787d232e012b27aee711a22cfac8f9d3a937cf8cb5fb9768
+
+Package: blis
+Architecture: i686
+Installed-Size: 2036
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.2
+Description: BLAS-like Library Instantiation Software Framework
+Homepage: https://github.com/flame/blis
+Filename: dists/termux/extras/binary-i686/blis_0.2.2_i686.deb
+Size: 389504
+SHA256: 2cd8c34662dcf85d677c78c834329f794420a17096759a083d96bde57856be91
+
 Package: bthread-dev
 Architecture: i686
 Installed-Size: 4

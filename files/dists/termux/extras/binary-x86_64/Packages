@@ -21,6 +21,29 @@ Filename: dists/termux/extras/binary-x86_64/bastet_0.41_x86_64.deb
 Size: 10000
 SHA256: bec63b3b7fde4a2586ca9dabe4cb9939a6d400ff0b2687af159638edf17a1d87
 
+Package: blis-dev
+Architecture: x86_64
+Installed-Size: 2516
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.2
+Description: Development files for blis
+Homepage: https://github.com/flame/blis
+Depends: blis
+Filename: dists/termux/extras/binary-x86_64/blis-dev_0.2.2_x86_64.deb
+Size: 81972
+SHA256: 8bf424d35687e12d1ff618889af18ae3894a97017b32efbe3d53751f9673fec3
+
+Package: blis
+Architecture: x86_64
+Installed-Size: 1956
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.2
+Description: BLAS-like Library Instantiation Software Framework
+Homepage: https://github.com/flame/blis
+Filename: dists/termux/extras/binary-x86_64/blis_0.2.2_x86_64.deb
+Size: 412544
+SHA256: d0455a4ee831d16301efa0b08faafaf912ff75ceb9e56165ce3a8144861432cc
+
 Package: bthread-dev
 Architecture: x86_64
 Installed-Size: 4

@@ -56,6 +56,29 @@ Filename: dists/termux/extras/binary-aarch64/bastet_0.41_aarch64.deb
 Size: 8740
 SHA256: a886135ff7b508467f8239c8fc71e5d7c956900569c031a3d968b5585a10f4f8
 
+Package: blis-dev
+Architecture: aarch64
+Installed-Size: 2520
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.2
+Description: Development files for blis
+Homepage: https://github.com/flame/blis
+Depends: blis
+Filename: dists/termux/extras/binary-aarch64/blis-dev_0.2.2_aarch64.deb
+Size: 82248
+SHA256: 4439fea92660c7d6e37d389b853a9dd18b6363928b9abc6006bc7c32ef8b7fa7
+
+Package: blis
+Architecture: aarch64
+Installed-Size: 1504
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.2
+Description: BLAS-like Library Instantiation Software Framework
+Homepage: https://github.com/flame/blis
+Filename: dists/termux/extras/binary-aarch64/blis_0.2.2_aarch64.deb
+Size: 335356
+SHA256: 95b2c52f80055c06571561e4d655587d41204657d54ad71113ab807727589c1d
+
 Package: bthread-dev
 Architecture: aarch64
 Installed-Size: 4
