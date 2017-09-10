@@ -827,6 +827,18 @@ Package: openblas
 Architecture: aarch64
 Installed-Size: 10576
 Maintainer: @its-pointless github
+Version: 0.2.20-1
+Description: openblas
+Homepage: http://www.openblas.net/
+Depends: libgcc, libgfortran4
+Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-1_aarch64.deb
+Size: 2317296
+SHA256: 7619cac6e91fd0c2f51d4cac6a26f818e0b394c746daa92f546e9f7758a9e16c
+
+Package: openblas
+Architecture: aarch64
+Installed-Size: 10576
+Maintainer: @its-pointless github
 Version: 0.2.20
 Description: openblas
 Homepage: http://www.openblas.net/

@@ -825,6 +825,18 @@ Package: openblas
 Architecture: arm
 Installed-Size: 10976
 Maintainer: @its-pointless github
+Version: 0.2.20-1
+Description: openblas
+Homepage: http://www.openblas.net/
+Depends: libgcc, libgfortran4
+Filename: dists/termux/extras/binary-arm/openblas_0.2.20-1_arm.deb
+Size: 2357464
+SHA256: eff2d05f24b3ef8b9731b6f9aff02907a04b9ecc08266bd7401104c1367f60a3
+
+Package: openblas
+Architecture: arm
+Installed-Size: 10976
+Maintainer: @its-pointless github
 Version: 0.2.20
 Description: openblas
 Homepage: http://www.openblas.net/

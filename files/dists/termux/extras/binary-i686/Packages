@@ -333,6 +333,18 @@ Package: openblas
 Architecture: i686
 Installed-Size: 16368
 Maintainer: @its-pointless github
+Version: 0.2.20-1
+Description: openblas
+Homepage: http://www.openblas.net/
+Depends: libgcc, libgfortran4
+Filename: dists/termux/extras/binary-i686/openblas_0.2.20-1_i686.deb
+Size: 3234272
+SHA256: 3f4205595051722d8e47fe06a89a1398b3e511316d1c5a21008db6251c061b6f
+
+Package: openblas
+Architecture: i686
+Installed-Size: 16368
+Maintainer: @its-pointless github
 Version: 0.2.20
 Description: openblas
 Homepage: http://www.openblas.net/
