@@ -493,6 +493,17 @@ Filename: dists/termux/extras/binary-aarch64/libgme_0.6.1_aarch64.deb
 Size: 97004
 SHA256: 3f707dead8b9c7153b9d38e4c245464ca4d9a0f65b21dccb9e09a40174608947
 
+Package: libllvm-4so
+Architecture: aarch64
+Installed-Size: 16664
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1
+Description: libLLVM-4.0.so so rustc works
+Homepage: https://github.com/its-pointless/gcc_termux
+Filename: dists/termux/extras/binary-aarch64/libllvm-4so_1_aarch64.deb
+Size: 4065312
+SHA256: 8c150cbccdf87d804a0ea7f013c81718c493efa107d1a1a5e0f566ff3b0b3750
+
 Package: libmodplug-dev
 Architecture: aarch64
 Installed-Size: 52

@@ -210,6 +210,17 @@ Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.2.0_x86_64.deb
 Size: 660656
 SHA256: 4c2e23a2e24879da7fb481e2d957c43dcd5aca2a04416491be17c513241574ea
 
+Package: libllvm-4so
+Architecture: x86_64
+Installed-Size: 22504
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1
+Description: libLLVM-4.0.so so rustc works
+Homepage: https://github.com/its-pointless/gcc_termux
+Filename: dists/termux/extras/binary-x86_64/libllvm-4so_1_x86_64.deb
+Size: 5378028
+SHA256: 8aed742373029b054de9372265aef42116fb9e31d9395b714a478f2f11b073c4
+
 Package: libpoco-dev
 Architecture: x86_64
 Installed-Size: 5316

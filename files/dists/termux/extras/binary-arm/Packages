@@ -515,6 +515,17 @@ Filename: dists/termux/extras/binary-arm/libgme_0.6.1_arm.deb
 Size: 95420
 SHA256: 1a940655d9c990266b7d488ba9dfeafbd7fde3ecb5faca0e0214ab39e3cc434e
 
+Package: libllvm-4so
+Architecture: arm
+Installed-Size: 12684
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1
+Description: libLLVM-4.0.so so rustc works
+Homepage: https://github.com/its-pointless/gcc_termux
+Filename: dists/termux/extras/binary-arm/libllvm-4so_1_arm.deb
+Size: 4403264
+SHA256: 57ea07b052a6531ec37967abbb916ff7cbfc73594f6616788862ab6c7b0417dc
+
 Package: libmodplug-dev
 Architecture: arm
 Installed-Size: 52
