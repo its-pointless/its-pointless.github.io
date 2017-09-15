@@ -149,6 +149,17 @@ Filename: dists/termux/extras/binary-aarch64/fixedshe_0.1_aarch64.deb
 Size: 2584
 SHA256: aa2a1df659e8f765719110912be5d99ab29eb863121d74668da51223bec92ada
 
+Package: fixedshe
+Architecture: aarch64
+Installed-Size: 12
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.0
+Description: wrapper for execve so /bin/sh and /usr/bin/env work
+Homepage: http://chiselapp.com/user/rkeene/repository/termux-env
+Filename: dists/termux/extras/binary-aarch64/fixedshe_0.2.0_aarch64.deb
+Size: 2656
+SHA256: 29c4c962500ec16195b35a63b0b057991bd64ffd773f59345d00e80d4602617e
+
 Package: gcc-6
 Architecture: aarch64
 Installed-Size: 71264

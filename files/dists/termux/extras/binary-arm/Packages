@@ -160,6 +160,17 @@ Filename: dists/termux/extras/binary-arm/fixedshe_0.1_arm.deb
 Size: 2632
 SHA256: fe0e9ce8dca018e4f49ea47cad29d175b75068bdd89f28a762d9445442ef6dba
 
+Package: fixedshe
+Architecture: arm
+Installed-Size: 12
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.0
+Description: wrapper for execve so /bin/sh and /usr/bin/env work
+Homepage: http://chiselapp.com/user/rkeene/repository/termux-env
+Filename: dists/termux/extras/binary-arm/fixedshe_0.2.0_arm.deb
+Size: 2540
+SHA256: 08cb820eb5dd638ace740f5bd11e845261b23ded16c3b437b3fc8e01732ce9b4
+
 Package: gcc-6
 Architecture: arm
 Installed-Size: 71492
