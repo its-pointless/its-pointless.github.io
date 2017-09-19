@@ -234,6 +234,30 @@ Filename: dists/termux/extras/binary-x86_64/libpoco_1.pre-cpp11-0_x86_64.deb
 Size: 1880024
 SHA256: 1282705813763f5582db5345cedfe220354e659a98d323205fea10d0cdd13810
 
+Package: libsixel-dev
+Architecture: x86_64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.3
+Description: Development files for libsixel
+Homepage: https://github.com/saitoha/libsixel
+Depends: libsixel
+Filename: dists/termux/extras/binary-x86_64/libsixel-dev_1.7.3_x86_64.deb
+Size: 9980
+SHA256: b75f91b99eadc59b8d825cb47eb22c87dc392fb22eb313c64d16e73ed85ffda1
+
+Package: libsixel
+Architecture: x86_64
+Installed-Size: 448
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.3
+Description: DEC SIXEL graphics codec implementation
+Homepage: https://github.com/saitoha/libsixel
+Depends: libandroid-support, libjpeg-turbo, libcurl, openssl
+Filename: dists/termux/extras/binary-x86_64/libsixel_1.7.3_x86_64.deb
+Size: 89436
+SHA256: 01e94777f781e59d86ecd21e481c4e3960174a90b814217130d68cafb2bf4725
+
 Package: libspice-protocol-dev
 Architecture: x86_64
 Installed-Size: 128

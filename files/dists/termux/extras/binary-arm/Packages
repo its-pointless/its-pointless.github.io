@@ -585,6 +585,30 @@ Filename: dists/termux/extras/binary-arm/libshout_2.4.1_arm.deb
 Size: 22908
 SHA256: f5c4c915396141e24113f40b489a59a0c6917d1710d9a4d12766388149d80e1f
 
+Package: libsixel-dev
+Architecture: arm
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.3
+Description: Development files for libsixel
+Homepage: https://github.com/saitoha/libsixel
+Depends: libsixel
+Filename: dists/termux/extras/binary-arm/libsixel-dev_1.7.3_arm.deb
+Size: 9976
+SHA256: 1f011a6b33a36ad5c490bd49c9236864af20ac85394378416dc4e30f94c96a1c
+
+Package: libsixel
+Architecture: arm
+Installed-Size: 272
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.3
+Description: DEC SIXEL graphics codec implementation
+Homepage: https://github.com/saitoha/libsixel
+Depends: libandroid-support, libjpeg-turbo, libcurl, openssl
+Filename: dists/termux/extras/binary-arm/libsixel_1.7.3_arm.deb
+Size: 78940
+SHA256: a2df29c6094450157aed86aaeb00f6c0590876fc02f6ba7447d6477d998a5eb3
+
 Package: libspice-protocol-dev
 Architecture: arm
 Installed-Size: 128

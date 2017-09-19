@@ -563,6 +563,30 @@ Filename: dists/termux/extras/binary-aarch64/libshout_2.4.1_aarch64.deb
 Size: 23176
 SHA256: 847060674c429d9dc29b83fefe064a28ad70e484fb9b668f7b43e57cbc5f9df4
 
+Package: libsixel-dev
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.3
+Description: Development files for libsixel
+Homepage: https://github.com/saitoha/libsixel
+Depends: libsixel
+Filename: dists/termux/extras/binary-aarch64/libsixel-dev_1.7.3_aarch64.deb
+Size: 9972
+SHA256: 79dc56c80cb31113b291ccb485ab25265b6103597df7fbce2153bacff15ce49e
+
+Package: libsixel
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.3
+Description: DEC SIXEL graphics codec implementation
+Homepage: https://github.com/saitoha/libsixel
+Depends: libandroid-support, libjpeg-turbo, libcurl, openssl
+Filename: dists/termux/extras/binary-aarch64/libsixel_1.7.3_aarch64.deb
+Size: 80544
+SHA256: e85a7b27594cbcdc2a049efffd312dcd6c6986c28f221d568ab5b98f5fa06d39
+
 Package: libspice-protocol-dev
 Architecture: aarch64
 Installed-Size: 128
