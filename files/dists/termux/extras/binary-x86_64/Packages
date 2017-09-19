@@ -21,6 +21,18 @@ Filename: dists/termux/extras/binary-x86_64/bastet_0.41_x86_64.deb
 Size: 10000
 SHA256: bec63b3b7fde4a2586ca9dabe4cb9939a6d400ff0b2687af159638edf17a1d87
 
+Package: bastet
+Architecture: x86_64
+Installed-Size: 228
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.43.2
+Description: bastard tetris
+Homepage: http://fph.altervista.org/prog/bastet.html
+Depends: boost, ncurses
+Filename: dists/termux/extras/binary-x86_64/bastet_0.43.2_x86_64.deb
+Size: 68784
+SHA256: afbdd5738cc7c77770809e0a5a1c5cbd60b5cf31c2f1df1f159afa8255360837
+
 Package: blis-dev
 Architecture: x86_64
 Installed-Size: 2516
@@ -339,6 +351,18 @@ Homepage: http://net-tools.sourceforge.net/
 Filename: dists/termux/extras/binary-x86_64/net-tools_1.60.2017.02.21-1_x86_64.deb
 Size: 114504
 SHA256: 81c7586713a5801af9501d9ba8abac745f590aa99b589ec53820c1334dbeff4c
+
+Package: nudoku
+Architecture: x86_64
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.5
+Description: ncurses based sudoku game
+Homepage: http://jubalh.github.io/nudoku/
+Depends: ncurses
+Filename: dists/termux/extras/binary-x86_64/nudoku_0.2.5_x86_64.deb
+Size: 7076
+SHA256: 39836c9c55d7a8803219e4ef8211c7a1779f8b815a854b7914c96f97c7ba8312
 
 Package: numpy
 Architecture: x86_64

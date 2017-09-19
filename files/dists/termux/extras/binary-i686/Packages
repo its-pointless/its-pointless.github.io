@@ -10,6 +10,18 @@ Filename: dists/termux/extras/binary-i686/arpack-ng_3.4.0-1_i686.deb
 Size: 253908
 SHA256: b79a66bc0e70aa10e8b589fdc675684269d331e2042b7baa41f718b3ec6c40a9
 
+Package: bastet
+Architecture: i686
+Installed-Size: 224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.43.2
+Description: bastard tetris
+Homepage: http://fph.altervista.org/prog/bastet.html
+Depends: boost, ncurses
+Filename: dists/termux/extras/binary-i686/bastet_0.43.2_i686.deb
+Size: 68784
+SHA256: 6b2f1951fc1d46710f0fe0499c9275296541a1d3dc77d03f04bfb5b73b8e58fd
+
 Package: blis-dev
 Architecture: i686
 Installed-Size: 2516
@@ -316,6 +328,18 @@ Homepage: http://net-tools.sourceforge.net/
 Filename: dists/termux/extras/binary-i686/net-tools_1.60.2017.02.21-1_i686.deb
 Size: 97872
 SHA256: 21e9a258c9b64e730d0ea7ea024c5c1d6c24f80dc51b480ab41ea32f4befed66
+
+Package: nudoku
+Architecture: i686
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.5
+Description: ncurses based sudoku game
+Homepage: http://jubalh.github.io/nudoku/
+Depends: ncurses
+Filename: dists/termux/extras/binary-i686/nudoku_0.2.5_i686.deb
+Size: 6644
+SHA256: 93b806a3abfe0253a689699c89af83429006e4d325aa9eebd1df585e53b721c4
 
 Package: numpy
 Architecture: i686

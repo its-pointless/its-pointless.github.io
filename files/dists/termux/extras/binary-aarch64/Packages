@@ -56,6 +56,18 @@ Filename: dists/termux/extras/binary-aarch64/bastet_0.41_aarch64.deb
 Size: 8740
 SHA256: a886135ff7b508467f8239c8fc71e5d7c956900569c031a3d968b5585a10f4f8
 
+Package: bastet
+Architecture: aarch64
+Installed-Size: 228
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.43.2
+Description: bastard tetris
+Homepage: http://fph.altervista.org/prog/bastet.html
+Depends: boost, ncurses
+Filename: dists/termux/extras/binary-aarch64/bastet_0.43.2_aarch64.deb
+Size: 60376
+SHA256: b203455df0142a6b43104dab47f3c6c1b2f2e73af48b5e453ccac8fc1f17f298
+
 Package: blis-dev
 Architecture: aarch64
 Installed-Size: 2520
