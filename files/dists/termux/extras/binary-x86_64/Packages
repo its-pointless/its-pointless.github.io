@@ -176,6 +176,30 @@ Filename: dists/termux/extras/binary-x86_64/glpk_4.61_x86_64.deb
 Size: 346484
 SHA256: 0d6979d2bbec796cb44e5d770a68c74017d96e34916949a8a586f7c78d0d3f31
 
+Package: guile-dev
+Architecture: x86_64
+Installed-Size: 784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.14
+Description: Development files for guile
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile
+Filename: dists/termux/extras/binary-x86_64/guile-dev_2.0.14_x86_64.deb
+Size: 88868
+SHA256: 20ee56e921d735259da8c131975d716b485ce039228b781ec1b9866c6165ee92
+
+Package: guile
+Architecture: x86_64
+Installed-Size: 11924
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.14
+Description: GNU extension language and Scheme interpreter
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libgc, libandroid-support
+Filename: dists/termux/extras/binary-x86_64/guile_2.0.14_x86_64.deb
+Size: 2230896
+SHA256: 6ea7ba90c9b2d1dff5ad56787e2ac4dbdccc36d11e6c0ae1ab0aed8eaf6d6031
+
 Package: imapfilter
 Architecture: x86_64
 Installed-Size: 204
@@ -1056,3 +1080,14 @@ Depends: libgfortran4 ,openblas
 Filename: dists/termux/extras/binary-x86_64/suitesparse_4.5.4-1_x86_64.deb
 Size: 904996
 SHA256: 439e38c1538b69e6888f45d453fb850191f1fe6ca5fdae04480673b7bb81fc48
+
+Package: tty-solitare
+Architecture: x86_64
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.0
+Description: solitare
+Homepage: https://github.com/mpereira/tty-solitaire/
+Filename: dists/termux/extras/binary-x86_64/tty-solitare_1.0.0_x86_64.deb
+Size: 8340
+SHA256: b675bbd9ac9586132aac8bafa0f32ea922ec673801dcbc3ba7206442b20f9e97

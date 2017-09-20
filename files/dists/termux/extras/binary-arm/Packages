@@ -355,6 +355,30 @@ Filename: dists/termux/extras/binary-arm/glpk_4.61_arm.deb
 Size: 306520
 SHA256: 223fb0b1753aa2f552a9fa9a56946fe302c0bff29f6eb2fbcdb13ba0ac907b83
 
+Package: guile-dev
+Architecture: arm
+Installed-Size: 784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.14
+Description: Development files for guile
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile
+Filename: dists/termux/extras/binary-arm/guile-dev_2.0.14_arm.deb
+Size: 89064
+SHA256: b07acfec0306d0d637f4876bfa7c910525ea81c8cb9bd00e4b227c5c7b8ac350
+
+Package: guile
+Architecture: arm
+Installed-Size: 11408
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.14
+Description: GNU extension language and Scheme interpreter
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libgc, libandroid-support
+Filename: dists/termux/extras/binary-arm/guile_2.0.14_arm.deb
+Size: 2181480
+SHA256: b5968937ea8af1d439f0ed70f41d342d7b6938a3b485b289851f7dfe64166dc8
+
 Package: imapfilter
 Architecture: arm
 Installed-Size: 196
@@ -1707,3 +1731,14 @@ Depends: libgfortran,libatlas
 Filename: dists/termux/extras/binary-arm/suitesparse_4.5.4_arm.deb
 Size: 510532
 SHA256: c2d5b75918969c1a21962e1b42a428cd6f06c9691a39be8d587587ce067526cd
+
+Package: tty-solitare
+Architecture: arm
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.0
+Description: solitare
+Homepage: https://github.com/mpereira/tty-solitaire/
+Filename: dists/termux/extras/binary-arm/tty-solitare_1.0.0_arm.deb
+Size: 9700
+SHA256: c01d4f6935d0793d83467f3692482d3fbf139adc8322a8091d6c72b5529f7535
