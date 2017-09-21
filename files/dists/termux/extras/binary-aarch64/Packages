@@ -647,6 +647,29 @@ Filename: dists/termux/extras/binary-aarch64/libshout_2.4.1_aarch64.deb
 Size: 23176
 SHA256: 847060674c429d9dc29b83fefe064a28ad70e484fb9b668f7b43e57cbc5f9df4
 
+Package: libsigsegv-dev
+Architecture: aarch64
+Installed-Size: 12
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.11
+Description: Development files for libsigsegv
+Homepage: https://www.gnu.org/software/libsigsegv/
+Depends: libsigsegv
+Filename: dists/termux/extras/binary-aarch64/libsigsegv-dev_2.11_aarch64.deb
+Size: 3684
+SHA256: 27f993dddf4bfde30f8be48282ea025c7ff7172ccf486e8861c362f111cbce31
+
+Package: libsigsegv
+Architecture: aarch64
+Installed-Size: 12
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.11
+Description: GNU libsigsegv is a library for handling page faults in user mode
+Homepage: https://www.gnu.org/software/libsigsegv/
+Filename: dists/termux/extras/binary-aarch64/libsigsegv_2.11_aarch64.deb
+Size: 3388
+SHA256: cf670df700c8ed02485ab29995df4e6bcff1e57c8f7826a7863bb73e77297b57
+
 Package: libsixel-dev
 Architecture: aarch64
 Installed-Size: 60
@@ -1766,3 +1789,15 @@ Homepage: https://github.com/mpereira/tty-solitaire/
 Filename: dists/termux/extras/binary-aarch64/tty-solitare_1.0.0_aarch64.deb
 Size: 6980
 SHA256: 4d343f55aa9f16505fdc0bc753b6979dee981a3c063ba89ed43524313103488a
+
+Package: urbit
+Architecture: aarch64
+Installed-Size: 1144
+Maintainer: @its-pointless github
+Version: 0.45
+Description: Urbit is a secure peer-to-peer network of personal servers,
+Homepage: https://www.urbit.org
+Depends: libuv, libsigsegv, libgmp, libcurl, ncurses, openssl
+Filename: dists/termux/extras/binary-aarch64/urbit_0.45_aarch64.deb
+Size: 287692
+SHA256: 176582cafdbacf3de27868908d2f2d8c0596677e580d5906a8bd8b7172f31c93
