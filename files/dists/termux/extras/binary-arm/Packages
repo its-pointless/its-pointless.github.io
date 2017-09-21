@@ -344,6 +344,18 @@ Filename: dists/termux/extras/binary-arm/glpk-dev_4.61_arm.deb
 Size: 9116
 SHA256: 8d8183b5cb18c24fcc294ad9c1d9c4a2f1b1e75a5fef2ef15acda3f33c3c2b40
 
+Package: glpk-dev
+Architecture: arm
+Installed-Size: 40
+Maintainer:  @its-pointless github
+Version: 4.63
+Description: Development files for glpk
+Homepage: https://www.gnu.org/software/glpk/
+Depends: glpk
+Filename: dists/termux/extras/binary-arm/glpk-dev_4.63_arm.deb
+Size: 9256
+SHA256: 6eb545c6151c5444e220c34e2a62b3767a5b698fb77eb8a16559e8134f316bd8
+
 Package: glpk
 Architecture: arm
 Installed-Size: 616
@@ -354,6 +366,17 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-arm/glpk_4.61_arm.deb
 Size: 306520
 SHA256: 223fb0b1753aa2f552a9fa9a56946fe302c0bff29f6eb2fbcdb13ba0ac907b83
+
+Package: glpk
+Architecture: arm
+Installed-Size: 600
+Maintainer:  @its-pointless github
+Version: 4.63
+Description: The GLPK (GNU Linear Programming Kit)
+Homepage: https://www.gnu.org/software/glpk/
+Filename: dists/termux/extras/binary-arm/glpk_4.63_arm.deb
+Size: 300632
+SHA256: 735ce7d593a422a666df8c0799b6089f050ad46fcc64ae7becbd4c2148187e3e
 
 Package: guile-dev
 Architecture: arm

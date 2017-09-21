@@ -142,6 +142,18 @@ Filename: dists/termux/extras/binary-i686/glpk-dev_4.61_i686.deb
 Size: 9120
 SHA256: 48005fe451b49326da311a6791fd58e31fab36f171b8886305ab96809ea48fb6
 
+Package: glpk-dev
+Architecture: i686
+Installed-Size: 40
+Maintainer:  @its-pointless github
+Version: 4.63
+Description: Development files for glpk
+Homepage: https://www.gnu.org/software/glpk/
+Depends: glpk
+Filename: dists/termux/extras/binary-i686/glpk-dev_4.63_i686.deb
+Size: 9264
+SHA256: ad339c552c3c71ecdf57e80e02585d3774c2982a094d4e38d7614c294367f526
+
 Package: glpk
 Architecture: i686
 Installed-Size: 828
@@ -152,6 +164,17 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-i686/glpk_4.61_i686.deb
 Size: 333428
 SHA256: 17f96e23b5f6762dadbc8844ad7b9d92878a168c3afe32f32eb1178737158ddf
+
+Package: glpk
+Architecture: i686
+Installed-Size: 804
+Maintainer:  @its-pointless github
+Version: 4.63
+Description: The GLPK (GNU Linear Programming Kit)
+Homepage: https://www.gnu.org/software/glpk/
+Filename: dists/termux/extras/binary-i686/glpk_4.63_i686.deb
+Size: 320948
+SHA256: 1ddc9d9b9e5fea1f6e4bcb53ef47cf2c0f31e654009d7ef2d06d4b5fdcfce1c1
 
 Package: guile-dev
 Architecture: i686
@@ -341,17 +364,6 @@ Depends: openssl
 Filename: dists/termux/extras/binary-i686/libssh2_1.8.0_i686.deb
 Size: 56328
 SHA256: 786ed8a24415ae49df2f8d208bce9f8f229a86e71846cee4c284c620337d1441
-
-Package: net-tools
-Architecture: i686
-Installed-Size: 448
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.60.2017.02.21-1
-Description: Configuration tools for Linux networking
-Homepage: http://net-tools.sourceforge.net/
-Filename: dists/termux/extras/binary-i686/net-tools_1.60.2017.02.21-1_i686.deb
-Size: 97872
-SHA256: 21e9a258c9b64e730d0ea7ea024c5c1d6c24f80dc51b480ab41ea32f4befed66
 
 Package: nudoku
 Architecture: i686

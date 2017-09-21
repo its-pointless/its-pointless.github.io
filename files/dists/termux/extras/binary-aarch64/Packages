@@ -357,6 +357,18 @@ Filename: dists/termux/extras/binary-aarch64/glpk-dev_4.61_aarch64.deb
 Size: 9124
 SHA256: 7b5b3ff0cab47c383ff0646aeafe2f5c321c1166bea7f2f95122650420d91585
 
+Package: glpk-dev
+Architecture: aarch64
+Installed-Size: 40
+Maintainer:  @its-pointless github
+Version: 4.63
+Description: Development files for glpk
+Homepage: https://www.gnu.org/software/glpk/
+Depends: glpk
+Filename: dists/termux/extras/binary-aarch64/glpk-dev_4.63_aarch64.deb
+Size: 9260
+SHA256: d551bfbb4b8c5938bae005aa5a4b2f7388086c61bcf32104d38c3b03363ad3bf
+
 Package: glpk
 Architecture: aarch64
 Installed-Size: 764
@@ -367,6 +379,17 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-aarch64/glpk_4.61_aarch64.deb
 Size: 288828
 SHA256: 5109e9f78f3aa19cfa40c2911ac59aed57d61addf652c5cb19b5ed44ac7bda8b
+
+Package: glpk
+Architecture: aarch64
+Installed-Size: 744
+Maintainer:  @its-pointless github
+Version: 4.63
+Description: The GLPK (GNU Linear Programming Kit)
+Homepage: https://www.gnu.org/software/glpk/
+Filename: dists/termux/extras/binary-aarch64/glpk_4.63_aarch64.deb
+Size: 279536
+SHA256: d0824059dcd523feed451991770c5e41348de5e16dba4464cf552aff02aa5b8e
 
 Package: guile-dev
 Architecture: aarch64
