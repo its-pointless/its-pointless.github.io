@@ -176,30 +176,6 @@ Filename: dists/termux/extras/binary-i686/glpk_4.63_i686.deb
 Size: 320948
 SHA256: 1ddc9d9b9e5fea1f6e4bcb53ef47cf2c0f31e654009d7ef2d06d4b5fdcfce1c1
 
-Package: guile-dev
-Architecture: i686
-Installed-Size: 784
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.14
-Description: Development files for guile
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile
-Filename: dists/termux/extras/binary-i686/guile-dev_2.0.14_i686.deb
-Size: 88844
-SHA256: 5d1dff34473191c447d95c54e815235e9d5aef85ac8bcb5165b47de6d03dd344
-
-Package: guile
-Architecture: i686
-Installed-Size: 11648
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.14
-Description: GNU extension language and Scheme interpreter
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Filename: dists/termux/extras/binary-i686/guile_2.0.14_i686.deb
-Size: 2211284
-SHA256: 33eb488c9034d77bb63f7133dafc55f508d182ba7c5abf72a21645cb74e1218b
-
 Package: imapfilter
 Architecture: i686
 Installed-Size: 204
