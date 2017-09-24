@@ -33,6 +33,18 @@ Filename: dists/termux/extras/binary-arm/arpack-ng_3.4.0_arm.deb
 Size: 103580
 SHA256: 190cadac703a6f5ed0a9b1f38072fc5435cf00e4c2f0a06f5f493254a281a652
 
+Package: asymptote
+Architecture: arm
+Installed-Size: 6860
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.41
+Description: script-based vector graphics language inspired by MetaPost
+Homepage: http://asymptote.sourceforge.net
+Depends: libandroid-support, readline, gsl, fftw, libsigsegv
+Filename: dists/termux/extras/binary-arm/asymptote_2.41_arm.deb
+Size: 2575840
+SHA256: 7f3a9e70045db9792d12d92d281c27b1a774821d1ed814ead8d9b2dc2ad21391
+
 Package: bastet
 Architecture: arm
 Installed-Size: 28
@@ -619,6 +631,29 @@ Homepage: http://icecast.org/
 Filename: dists/termux/extras/binary-arm/libshout_2.4.1_arm.deb
 Size: 22908
 SHA256: f5c4c915396141e24113f40b489a59a0c6917d1710d9a4d12766388149d80e1f
+
+Package: libsigsegv-dev
+Architecture: arm
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.11
+Description: Development files for libsigsegv
+Homepage: https://www.gnu.org/software/libsigsegv/
+Depends: libsigsegv
+Filename: dists/termux/extras/binary-arm/libsigsegv-dev_2.11_arm.deb
+Size: 3688
+SHA256: c0df2ecae07bd0e9c0dde9254645b11305d8a151678ca7884b046cc58292f85a
+
+Package: libsigsegv
+Architecture: arm
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.11
+Description: GNU libsigsegv is a library for handling page faults in user mode
+Homepage: https://www.gnu.org/software/libsigsegv/
+Filename: dists/termux/extras/binary-arm/libsigsegv_2.11_arm.deb
+Size: 6636
+SHA256: b9950532736c1636022099ba216b553aaf30bac15063115915f00bdd389c9215
 
 Package: libsixel-dev
 Architecture: arm
