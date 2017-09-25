@@ -1478,6 +1478,18 @@ Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.10-2_aarch64.deb
 Size: 548656
 SHA256: 163efbadefc8ba4633c76fcc25ae97fb3b7444c36e54daa37947898b180de6c7
 
+Package: quantlib-dev
+Architecture: aarch64
+Installed-Size: 7876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: Development files for quantlib
+Homepage: http://quantlib.org/index.shtml
+Depends: quantlib
+Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.10.1_aarch64.deb
+Size: 548944
+SHA256: 3f02e452d6dfd540c80bf7fb4e78870c2bddf284f58d6d171ee5240ae795da44
+
 Package: quantlib
 Architecture: aarch64
 Installed-Size: 44288
@@ -1501,6 +1513,18 @@ Depends: boost
 Filename: dists/termux/extras/binary-aarch64/quantlib_1.10-2_aarch64.deb
 Size: 8289092
 SHA256: ab35fe0a2f72c0b09ec46110febe9b155c5160b05148afd692a76a3cf034e733
+
+Package: quantlib
+Architecture: aarch64
+Installed-Size: 45584
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: A free/open-source library for quantitative finance
+Homepage: http://quantlib.org/index.shtml
+Depends: boost
+Filename: dists/termux/extras/binary-aarch64/quantlib_1.10.1_aarch64.deb
+Size: 7893400
+SHA256: d3a55762e944dec9456a2aa1e4ca469e1a95eab3018109d8869c1375c385f7a5
 
 Package: r-cran-rcpp
 Architecture: aarch64

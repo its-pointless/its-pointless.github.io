@@ -1464,6 +1464,18 @@ Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10-2_arm.deb
 Size: 548584
 SHA256: a20254ba87e1bfdb8d5ef5d5601eeb065cf1bd6a4457596580facabe43c4b37c
 
+Package: quantlib-dev
+Architecture: arm
+Installed-Size: 7880
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: Development files for quantlib
+Homepage: http://quantlib.org/index.shtml
+Depends: quantlib
+Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10.1_arm.deb
+Size: 548952
+SHA256: 8adfc089f4c5a6d099d606a9e1f3c3edeed91282cfdd2c4bbb3be3b818562e0a
+
 Package: quantlib
 Architecture: arm
 Installed-Size: 28436
@@ -1487,6 +1499,18 @@ Depends: boost
 Filename: dists/termux/extras/binary-arm/quantlib_1.10-2_arm.deb
 Size: 8744120
 SHA256: 663c4cae6facbe87537688b791402b70be092af147279f10d8906e8f3960bc9e
+
+Package: quantlib
+Architecture: arm
+Installed-Size: 28748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: A free/open-source library for quantitative finance
+Homepage: http://quantlib.org/index.shtml
+Depends: boost
+Filename: dists/termux/extras/binary-arm/quantlib_1.10.1_arm.deb
+Size: 8063288
+SHA256: 225efaa2df53e50d418686f379a47bc3b451796ea41417f5cf5057a0e1b871f5
 
 Package: r-cran-rcpp
 Architecture: arm

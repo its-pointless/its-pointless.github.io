@@ -962,6 +962,18 @@ Filename: dists/termux/extras/binary-i686/quantlib-dev_1.10-2_i686.deb
 Size: 548588
 SHA256: 42b546c7a3b680ac4010b052d188b94cb5c9eda82640ba41ba45715011395a9c
 
+Package: quantlib-dev
+Architecture: i686
+Installed-Size: 7880
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: Development files for quantlib
+Homepage: http://quantlib.org/index.shtml
+Depends: quantlib
+Filename: dists/termux/extras/binary-i686/quantlib-dev_1.10.1_i686.deb
+Size: 549032
+SHA256: 6b2df8e663781e5cd443f4b186bc0ba0515f2494e41b430bf6432e2e495a8c37
+
 Package: quantlib
 Architecture: i686
 Installed-Size: 39800
@@ -973,6 +985,18 @@ Depends: boost
 Filename: dists/termux/extras/binary-i686/quantlib_1.10-2_i686.deb
 Size: 8815036
 SHA256: af06e13cc7a6aef3c6d0cd10ced16c7402ee7a52ca5994f2a5df854f880e094d
+
+Package: quantlib
+Architecture: i686
+Installed-Size: 37192
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: A free/open-source library for quantitative finance
+Homepage: http://quantlib.org/index.shtml
+Depends: boost
+Filename: dists/termux/extras/binary-i686/quantlib_1.10.1_i686.deb
+Size: 8245496
+SHA256: 4791098675700a11e300140cdbd6aa31a84e0a2f3d1a99d644bdfa241ad8aaa2
 
 Package: r-cran
 Architecture: i686
