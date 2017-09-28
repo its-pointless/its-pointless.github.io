@@ -200,6 +200,30 @@ Filename: dists/termux/extras/binary-i686/glpk_4.63_i686.deb
 Size: 320948
 SHA256: 1ddc9d9b9e5fea1f6e4bcb53ef47cf2c0f31e654009d7ef2d06d4b5fdcfce1c1
 
+Package: guile-dev
+Architecture: i686
+Installed-Size: 784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.14
+Description: Development files for guile
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile
+Filename: dists/termux/extras/binary-i686/guile-dev_2.0.14_i686.deb
+Size: 89024
+SHA256: d18b441cc4a07fb06d70f0e96cebff8becdb8786a35f2d4ab05edcab18eda9e2
+
+Package: guile
+Architecture: i686
+Installed-Size: 11640
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.14
+Description: GNU extension language and Scheme interpreter
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libgc, libandroid-support
+Filename: dists/termux/extras/binary-i686/guile_2.0.14_i686.deb
+Size: 2206408
+SHA256: 7825ddafe693808bdfb936dcd5bb9d122177f862a92cca91590e58e08630e716
+
 Package: imapfilter
 Architecture: i686
 Installed-Size: 204
@@ -494,6 +518,17 @@ Homepage: http://sites.google.com/site/doctormike/pacman.html
 Filename: dists/termux/extras/binary-i686/pacman4console_1.3_i686.deb
 Size: 10104
 SHA256: 4144fda9516329cc7f7b82a0025d384b348c12a3db028a3ad9da0e94ab33661b
+
+Package: proxychains-ng
+Architecture: i686
+Installed-Size: 44
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 4.12
+Description: a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. It is a kind of proxifier.
+Homepage: https://github.com/rofl0r/proxychains-ng
+Filename: dists/termux/extras/binary-i686/proxychains-ng_4.12_i686.deb
+Size: 15228
+SHA256: cb78863da9489a3df90fac492aaa922c4f18b5ecd090c14b2f5f48cd5121486d
 
 Package: qemu-common
 Architecture: i686

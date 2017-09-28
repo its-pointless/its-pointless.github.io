@@ -402,6 +402,30 @@ Filename: dists/termux/extras/binary-arm/glpk_4.63_arm.deb
 Size: 300632
 SHA256: 735ce7d593a422a666df8c0799b6089f050ad46fcc64ae7becbd4c2148187e3e
 
+Package: guile-dev
+Architecture: arm
+Installed-Size: 784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.14
+Description: Development files for guile
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile
+Filename: dists/termux/extras/binary-arm/guile-dev_2.0.14_arm.deb
+Size: 89072
+SHA256: 0c62b2eb42c949c9f16913ef2786b5707970dc07efb0efa6624abc5b296e4a6a
+
+Package: guile
+Architecture: arm
+Installed-Size: 11408
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.14
+Description: GNU extension language and Scheme interpreter
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libgc, libandroid-support
+Filename: dists/termux/extras/binary-arm/guile_2.0.14_arm.deb
+Size: 2181488
+SHA256: 49ef8ccc7be7a5df305f5cddb52424eddc7fca397e829cbe1fe678a61297794c
+
 Package: imapfilter
 Architecture: arm
 Installed-Size: 196
@@ -985,6 +1009,17 @@ Homepage: http://sites.google.com/site/doctormike/pacman.html
 Filename: dists/termux/extras/binary-arm/pacman4console_1.3_arm.deb
 Size: 10176
 SHA256: de441c5e1858015b2f0d69322bcc0066da120ec2f5cfd0bfbdd6d06ac23aff02
+
+Package: proxychains-ng
+Architecture: arm
+Installed-Size: 52
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 4.12
+Description: a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. It is a kind of proxifier.
+Homepage: https://github.com/rofl0r/proxychains-ng
+Filename: dists/termux/extras/binary-arm/proxychains-ng_4.12_arm.deb
+Size: 17528
+SHA256: c638b61954fcc12643c32264b25699c203e4b159d15310638b5b11036432b787
 
 Package: qemu-common
 Architecture: arm

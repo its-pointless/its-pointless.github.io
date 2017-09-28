@@ -415,6 +415,30 @@ Filename: dists/termux/extras/binary-aarch64/glpk_4.63_aarch64.deb
 Size: 279536
 SHA256: d0824059dcd523feed451991770c5e41348de5e16dba4464cf552aff02aa5b8e
 
+Package: guile-dev
+Architecture: aarch64
+Installed-Size: 784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.14
+Description: Development files for guile
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile
+Filename: dists/termux/extras/binary-aarch64/guile-dev_2.0.14_aarch64.deb
+Size: 89000
+SHA256: 451e06718fa21a7e7a2abe5a6e8f237494d356f97218b4fd09794fd98cbfcfbb
+
+Package: guile
+Architecture: aarch64
+Installed-Size: 11808
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.14
+Description: GNU extension language and Scheme interpreter
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libgc, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/guile_2.0.14_aarch64.deb
+Size: 2162524
+SHA256: 1747a90b32c285c75fba4fbc4d708619e8ef20d0e19032b91b830cbb73e4837e
+
 Package: imapfilter
 Architecture: aarch64
 Installed-Size: 208
@@ -987,6 +1011,17 @@ Homepage: http://sites.google.com/site/doctormike/pacman.html
 Filename: dists/termux/extras/binary-aarch64/pacman4console_1.3_aarch64.deb
 Size: 9884
 SHA256: eaf39c13053f0d1fcece2c232297b1edc15da762f8204772c83bcb264e3d0e6b
+
+Package: proxychains-ng
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 4.12
+Description: a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. It is a kind of proxifier.
+Homepage: https://github.com/rofl0r/proxychains-ng
+Filename: dists/termux/extras/binary-aarch64/proxychains-ng_4.12_aarch64.deb
+Size: 14356
+SHA256: 89be159e38909d9f53536c5d2644909654a5aad014fd60fcbfc7ea22bfbeaca0
 
 Package: qemu-common
 Architecture: aarch64
