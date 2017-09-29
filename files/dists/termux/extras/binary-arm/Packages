@@ -402,6 +402,31 @@ Filename: dists/termux/extras/binary-arm/glpk_4.63_arm.deb
 Size: 300632
 SHA256: 735ce7d593a422a666df8c0799b6089f050ad46fcc64ae7becbd4c2148187e3e
 
+Package: guile-2.2-dev
+Architecture: arm
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.2
+Description: Development files for guile-2.2
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2
+Filename: dists/termux/extras/binary-arm/guile-2.2-dev_2.2.2_arm.deb
+Size: 77604
+SHA256: 1bbbc937d298f80a182f807efd509647fcf340d1d40b3cfe6f05c8f4bc9749a8
+
+Package: guile-2.2
+Architecture: arm
+Installed-Size: 41052
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.2
+Description: GNU extension language and Scheme interpreter
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libgc, libandroid-support
+Conflicts: guile
+Filename: dists/termux/extras/binary-arm/guile-2.2_2.2.2_arm.deb
+Size: 4865768
+SHA256: d187d29dabd915bff7d34bd1e282ed47fb6c53c9ea4d2bb7c9b9d743ddbe4ca4
+
 Package: guile-dev
 Architecture: arm
 Installed-Size: 784
