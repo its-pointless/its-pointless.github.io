@@ -80,6 +80,18 @@ Filename: dists/termux/extras/binary-arm/bastet_0.43.2_arm.deb
 Size: 56072
 SHA256: 98e5a298e622ed90bbd5d46474fe571e76c077c08d3db36e0e2dcb4df9e65aa4
 
+Package: binutils-gold
+Architecture: arm
+Installed-Size: 2552
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.29.1
+Description: plugin supoort for lto etc
+Homepage: https://www.gnu.org/software/binutils/
+Depends: binutils
+Filename: dists/termux/extras/binary-arm/binutils-gold_2.29.1_arm.deb
+Size: 820932
+SHA256: fd477220a78323e0bad52ce427bb19e1c1bc11e48583e318cd2713003b0f6601
+
 Package: blis-dev
 Architecture: arm
 Installed-Size: 2520
