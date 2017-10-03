@@ -81,6 +81,18 @@ Filename: dists/termux/extras/binary-i686/bthread-dev_0.1_i686.deb
 Size: 972
 SHA256: 28429dc8a1603bfe4ffbb2c62ae8b8046515c276da2803f1258ee47f21b2abbd
 
+Package: bthread-dev
+Architecture: i686
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: Development files for bthread
+Homepage: https://github.com/tux-mind/libbthread
+Depends: bthread
+Filename: dists/termux/extras/binary-i686/bthread-dev_0.2_i686.deb
+Size: 1028
+SHA256: ea283cff9c5242dd4b83abc50fa709fdedf185c6d1b507004f2da0ed4a620fc1
+
 Package: bthread
 Architecture: i686
 Installed-Size: 8
@@ -91,6 +103,17 @@ Homepage: http://gmic.eu
 Filename: dists/termux/extras/binary-i686/bthread_0.1_i686.deb
 Size: 2500
 SHA256: da76ddcbb49f17ade27157ea8a81e1bcedafe4c47e58df706e8ddbc33d6a5edc
+
+Package: bthread
+Architecture: i686
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: provides pthread_cancel implimentation
+Homepage: https://github.com/tux-mind/libbthread
+Filename: dists/termux/extras/binary-i686/bthread_0.2_i686.deb
+Size: 2492
+SHA256: b1e7423a7d95a3636d4ff74c071e82cd4f56d9ffbee16924a8eb4f23f9cf7ebf
 
 Package: cargo
 Architecture: i686

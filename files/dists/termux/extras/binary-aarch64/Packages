@@ -127,6 +127,18 @@ Filename: dists/termux/extras/binary-aarch64/bthread-dev_0.1_aarch64.deb
 Size: 972
 SHA256: 91beeab28ef8f6f4eb37535366f536ec9fb885e69fef979bcd4a3c53ee3d9fe2
 
+Package: bthread-dev
+Architecture: aarch64
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: Development files for bthread
+Homepage: https://github.com/tux-mind/libbthread
+Depends: bthread
+Filename: dists/termux/extras/binary-aarch64/bthread-dev_0.2_aarch64.deb
+Size: 1032
+SHA256: e000ef037060209c18695098b9966cf47aaa566e0f700446337ca23d74349107
+
 Package: bthread
 Architecture: aarch64
 Installed-Size: 8
@@ -137,6 +149,17 @@ Homepage: http://gmic.eu
 Filename: dists/termux/extras/binary-aarch64/bthread_0.1_aarch64.deb
 Size: 2252
 SHA256: 48e2bd67e5dd935ecbf28e004a733774c49e4b28bfbcbd82ca17f869602649a5
+
+Package: bthread
+Architecture: aarch64
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: provides pthread_cancel implimentation
+Homepage: https://github.com/tux-mind/libbthread
+Filename: dists/termux/extras/binary-aarch64/bthread_0.2_aarch64.deb
+Size: 2248
+SHA256: 6802a3b71c172caa7dfbdae639375bb1744850a517e7217937e28eff29de9233
 
 Package: cargo
 Architecture: aarch64

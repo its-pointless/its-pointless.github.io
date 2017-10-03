@@ -92,6 +92,18 @@ Filename: dists/termux/extras/binary-x86_64/bthread-dev_0.1_x86_64.deb
 Size: 976
 SHA256: afd16ac35c6c2b53d3e123107099811f909c6a3bbec73ecd2e4b273ee30eaeb8
 
+Package: bthread-dev
+Architecture: x86_64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: Development files for bthread
+Homepage: https://github.com/tux-mind/libbthread
+Depends: bthread
+Filename: dists/termux/extras/binary-x86_64/bthread-dev_0.2_x86_64.deb
+Size: 1032
+SHA256: 7bc2e07683002893b5fadebc271234246d87f14d4a17c508bc7f1fd1530ff70d
+
 Package: bthread
 Architecture: x86_64
 Installed-Size: 8
@@ -102,6 +114,17 @@ Homepage: http://gmic.eu
 Filename: dists/termux/extras/binary-x86_64/bthread_0.1_x86_64.deb
 Size: 2552
 SHA256: 3d9fae0dd457ef951d2aa861bed907fd8aeeff2d0dc1e6f9e7b0d33ba0b07016
+
+Package: bthread
+Architecture: x86_64
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: provides pthread_cancel implimentation
+Homepage: https://github.com/tux-mind/libbthread
+Filename: dists/termux/extras/binary-x86_64/bthread_0.2_x86_64.deb
+Size: 2544
+SHA256: 159bede202dd07fa1d1a5a205ff2b839352732580b860ae778b6d0db3d417a96
 
 Package: cargo
 Architecture: x86_64

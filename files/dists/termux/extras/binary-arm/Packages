@@ -115,6 +115,18 @@ Filename: dists/termux/extras/binary-arm/bthread-dev_0.1_arm.deb
 Size: 968
 SHA256: c58c52faf0429db438860d29e6662471c4a9b56c72a274987894f6a2e7eee215
 
+Package: bthread-dev
+Architecture: arm
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: Development files for bthread
+Homepage: https://github.com/tux-mind/libbthread
+Depends: bthread
+Filename: dists/termux/extras/binary-arm/bthread-dev_0.2_arm.deb
+Size: 1028
+SHA256: 96f1542fffb37ea8d11dc4d0380676316a01cfe8bff782c632946e209652e07b
+
 Package: bthread
 Architecture: arm
 Installed-Size: 8
@@ -125,6 +137,17 @@ Homepage: http://gmic.eu
 Filename: dists/termux/extras/binary-arm/bthread_0.1_arm.deb
 Size: 2228
 SHA256: 84774ffd492653b0ea7899c9d190d4df70fa0a6a908bbbc4199e67cc4b3d515b
+
+Package: bthread
+Architecture: arm
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: provides pthread_cancel implimentation
+Homepage: https://github.com/tux-mind/libbthread
+Filename: dists/termux/extras/binary-arm/bthread_0.2_arm.deb
+Size: 2224
+SHA256: 741f9d090eb896ba77dd11ea0147d59f6566fad8a3d1b5738220c9bdae56b627
 
 Package: cargo
 Architecture: arm
