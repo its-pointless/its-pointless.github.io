@@ -1256,3 +1256,15 @@ Homepage: https://github.com/mpereira/tty-solitaire/
 Filename: dists/termux/extras/binary-x86_64/tty-solitare_1.0.0_x86_64.deb
 Size: 8340
 SHA256: b675bbd9ac9586132aac8bafa0f32ea922ec673801dcbc3ba7206442b20f9e97
+
+Package: vifm
+Architecture: x86_64
+Installed-Size: 1620
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9
+Description: Vifm is an ncurses based file manager with vi like keybindings/modes/options/commands/configuration
+Homepage: https://vifm.info/
+Depends: ncurses, file
+Filename: dists/termux/extras/binary-x86_64/vifm_0.9_x86_64.deb
+Size: 400316
+SHA256: c4a9477288d64cab4b7801815d7eb94db1614c7f763e72a68d7029f55976536c
