@@ -415,6 +415,18 @@ Filename: dists/termux/extras/binary-aarch64/gcov-7_7.2.0_aarch64.deb
 Size: 240296
 SHA256: 1579f4d0f8974725faba042a0e1d275b9aeeea5e4a5a4355661cfb9dd0d8c9a6
 
+Package: gforth
+Architecture: aarch64
+Installed-Size: 3504
+Maintainer: @its-pointless github
+Version: 0.7.3
+Description: Gforth is the Forth implementation of the GNU project
+Homepage: https://www.gnu.org/software/gforth/
+Depends: libandroid-glob, libandroid-support, libgfortran4, libicu, openblas, liblzma, readline, pcre, libcurl, libbz2
+Filename: dists/termux/extras/binary-aarch64/gforth_0.7.3_aarch64.deb
+Size: 416208
+SHA256: 0e3b435abfca560125cca11f5db1768907dcffca68c71dfd3302d1a2f35496eb
+
 Package: glpk-dev
 Architecture: aarch64
 Installed-Size: 40
