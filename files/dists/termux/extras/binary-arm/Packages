@@ -402,6 +402,18 @@ Filename: dists/termux/extras/binary-arm/gcov-7_7.2.0_arm.deb
 Size: 224840
 SHA256: f0728e1d3d10e33bb50e358d5f734c7fae42aea2635d0ba2d4924f24e5afac74
 
+Package: gforth
+Architecture: arm
+Installed-Size: 3004
+Maintainer: @its-pointless github
+Version: 0.7.3
+Description: Gforth is the Forth implementation of the GNU project
+Homepage: https://www.gnu.org/software/gforth/
+Depends: libandroid-glob, libandroid-support, libgfortran4, libicu, openblas, liblzma, readline, pcre, libcurl, libbz2
+Filename: dists/termux/extras/binary-arm/gforth_0.7.3_arm.deb
+Size: 398672
+SHA256: eb01dd573d6e8870427dbd4dfc99797bc4c780a9f49be233fa0cdaf149457cf0
+
 Package: glpk-dev
 Architecture: arm
 Installed-Size: 40
