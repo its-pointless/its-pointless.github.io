@@ -422,10 +422,10 @@ Maintainer: @its-pointless github
 Version: 0.7.3
 Description: Gforth is the Forth implementation of the GNU project
 Homepage: https://www.gnu.org/software/gforth/
-Depends: libandroid-glob, libandroid-support, libgfortran4, libicu, openblas, liblzma, readline, pcre, libcurl, libbz2
+Depends: libtool, libffi
 Filename: dists/termux/extras/binary-aarch64/gforth_0.7.3_aarch64.deb
-Size: 416208
-SHA256: 0e3b435abfca560125cca11f5db1768907dcffca68c71dfd3302d1a2f35496eb
+Size: 416452
+SHA256: 26a15f8af5bb297d37c9c5b18961fdd7fbd528bb87b3f3d41828dfa0c5e5cc2c
 
 Package: glpk-dev
 Architecture: aarch64
