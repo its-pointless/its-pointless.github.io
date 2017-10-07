@@ -530,6 +530,18 @@ Filename: dists/termux/extras/binary-x86_64/numpy_1.13.1-1_x86_64.deb
 Size: 2705652
 SHA256: 6cbe9b69c8cb816f7ce50e5fca57cdbb208f126e94d0ef665c55b558ffeb2d07
 
+Package: numpy
+Architecture: x86_64
+Installed-Size: 14160
+Maintainer: @its-pointless github
+Version: 1.13.3
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran4, openblas
+Filename: dists/termux/extras/binary-x86_64/numpy_1.13.3_x86_64.deb
+Size: 2234700
+SHA256: 36efe872f401b15e8426d8f2ba848f6edf469ab646e634e07b8bf2e9a02a4ad8
+
 Package: octave-dev
 Architecture: x86_64
 Installed-Size: 5644
@@ -623,6 +635,30 @@ Homepage: https://github.com/rofl0r/proxychains-ng
 Filename: dists/termux/extras/binary-x86_64/proxychains-ng_4.12_x86_64.deb
 Size: 16376
 SHA256: 865955db266f0061a08bdae862f40a81ed4829b65206e20394274b4650e41c92
+
+Package: python2-numpy
+Architecture: x86_64
+Installed-Size: 16604
+Maintainer: @its-pointless github
+Version: 1.13.3
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran4, openblas
+Filename: dists/termux/extras/binary-x86_64/python2-numpy_1.13.3_x86_64.deb
+Size: 2561536
+SHA256: 1f1a6cebe00af47b2d0be0fb26361d123510c64260b691cdd2a2a1bd0e1995bd
+
+Package: python2-scipy
+Architecture: x86_64
+Installed-Size: 49984
+Maintainer: @its-pointless github
+Version: 1.0.0rc1
+Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
+Homepage: https://github.com/scipy/scipy
+Depends: numpy
+Filename: dists/termux/extras/binary-x86_64/python2-scipy_1.0.0rc1_x86_64.deb
+Size: 10536616
+SHA256: a00fd529ffa56f941d4349e25b79ae21462a54d9ceb71143945321cf9229880d
 
 Package: qemu-common
 Architecture: x86_64
@@ -1221,6 +1257,18 @@ Depends: numpy
 Filename: dists/termux/extras/binary-x86_64/scipy_0.19.1-3_x86_64.deb
 Size: 10609248
 SHA256: b97de6ce23457165611c59ac37120ca5f0d5ef6c87dbdf21ab7f26155819132b
+
+Package: scipy
+Architecture: x86_64
+Installed-Size: 45504
+Maintainer: @its-pointless github
+Version: 1.0.0rc1
+Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
+Homepage: https://github.com/scipy/scipy
+Depends: numpy
+Filename: dists/termux/extras/binary-x86_64/scipy_1.0.0rc1_x86_64.deb
+Size: 9801592
+SHA256: 1f5ebd181447b39ffc697efb3010c90edd7fdb5bcfbde0c522ae94faef6c64a5
 
 Package: suitesparse-dev
 Architecture: x86_64

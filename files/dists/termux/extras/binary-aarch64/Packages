@@ -1081,6 +1081,30 @@ Filename: dists/termux/extras/binary-aarch64/proxychains-ng_4.12_aarch64.deb
 Size: 14356
 SHA256: 89be159e38909d9f53536c5d2644909654a5aad014fd60fcbfc7ea22bfbeaca0
 
+Package: python2-numpy
+Architecture: aarch64
+Installed-Size: 15160
+Maintainer: @its-pointless github
+Version: 1.13.3
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran4, openblas
+Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.13.3_aarch64.deb
+Size: 2192196
+SHA256: 97319224dbde1668b0774380fc2edcd16418d9908caf2992d8d4ae66eb65d03e
+
+Package: python2-scipy
+Architecture: aarch64
+Installed-Size: 45728
+Maintainer: @its-pointless github
+Version: 1.0.0rc1
+Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
+Homepage: https://github.com/scipy/scipy
+Depends: numpy
+Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.0.0rc1_aarch64.deb
+Size: 9401824
+SHA256: f69b6cb569fdb4f47b1e8c871f6e8420f297c44f640cdb475f18113deb3a6660
+
 Package: qemu-common
 Architecture: aarch64
 Installed-Size: 1704

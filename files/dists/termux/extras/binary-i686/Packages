@@ -507,6 +507,18 @@ Filename: dists/termux/extras/binary-i686/numpy_1.13.1-1_i686.deb
 Size: 2716452
 SHA256: 54b1bac978e8ab2329afc76df3e4e6865ea184f278938e743fd7cb624778ea82
 
+Package: numpy
+Architecture: i686
+Installed-Size: 13804
+Maintainer: @its-pointless github
+Version: 1.13.3
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran4, openblas
+Filename: dists/termux/extras/binary-i686/numpy_1.13.3_i686.deb
+Size: 2125408
+SHA256: 53c1ba2b733cd9c2b87cd943acb9e734b1149d2e9294f26f07b932a18a46bc09
+
 Package: octave-dev
 Architecture: i686
 Installed-Size: 5644
@@ -600,6 +612,30 @@ Homepage: https://github.com/rofl0r/proxychains-ng
 Filename: dists/termux/extras/binary-i686/proxychains-ng_4.12_i686.deb
 Size: 15228
 SHA256: cb78863da9489a3df90fac492aaa922c4f18b5ecd090c14b2f5f48cd5121486d
+
+Package: python2-numpy
+Architecture: i686
+Installed-Size: 15448
+Maintainer: @its-pointless github
+Version: 1.13.3
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran4, openblas
+Filename: dists/termux/extras/binary-i686/python2-numpy_1.13.3_i686.deb
+Size: 2355704
+SHA256: 7193cfad62d5a6989a8a4cf194ac0815929991a2ed318356ffb807d0f31b5cd1
+
+Package: python2-scipy
+Architecture: i686
+Installed-Size: 47872
+Maintainer: @its-pointless github
+Version: 1.0.0rc1
+Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
+Homepage: https://github.com/scipy/scipy
+Depends: numpy
+Filename: dists/termux/extras/binary-i686/python2-scipy_1.0.0rc1_i686.deb
+Size: 9754916
+SHA256: b1fe6a75f8febf0904e4d23848d79b4ce4b8ff4e33d3dcf3a394eaeb91544c77
 
 Package: qemu-common
 Architecture: i686
@@ -1186,6 +1222,18 @@ Depends: numpy
 Filename: dists/termux/extras/binary-i686/scipy_0.19.1-2_i686.deb
 Size: 10255488
 SHA256: 8a51d15644fa51d059e863d53205c7fe6e064967967a49c370c207a59f1a85a6
+
+Package: scipy
+Architecture: i686
+Installed-Size: 43724
+Maintainer: @its-pointless github
+Version: 1.0.0rc1
+Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
+Homepage: https://github.com/scipy/scipy
+Depends: numpy
+Filename: dists/termux/extras/binary-i686/scipy_1.0.0rc1_i686.deb
+Size: 9164532
+SHA256: ecad152116428c4080d7639789d82981a6324f658301ea9d23baa81e73842dd0
 
 Package: suitesparse-dev
 Architecture: i686
