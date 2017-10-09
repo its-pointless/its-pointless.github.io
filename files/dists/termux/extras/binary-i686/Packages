@@ -1270,6 +1270,29 @@ Filename: dists/termux/extras/binary-i686/tty-solitare_1.0.0_i686.deb
 Size: 7572
 SHA256: 09f70b34b4abc562ce81873fcc9d37a22f181ccebbc3f3c47db8e1043532c4af
 
+Package: unicorn-dev
+Architecture: i686
+Installed-Size: 96
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: Development files for unicorn
+Homepage: http://www.unicorn-engine.org/
+Depends: unicorn
+Filename: dists/termux/extras/binary-i686/unicorn-dev_1.0.1_i686.deb
+Size: 12384
+SHA256: 8c02d46cff5a8e715ab2825e2a4ff222b5e5b39a48cae7fdf540a1c61db5c492
+
+Package: unicorn
+Architecture: i686
+Installed-Size: 8740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: Unicorn is a lightweight multi-platform, multi-architecture CPU emulator framework.
+Homepage: http://www.unicorn-engine.org/
+Filename: dists/termux/extras/binary-i686/unicorn_1.0.1_i686.deb
+Size: 1075664
+SHA256: 674a801325d461c9a36830f8df0af0b9f9985cc26ed3233b85a44e6ea1b40f30
+
 Package: vifm
 Architecture: i686
 Installed-Size: 1476

@@ -1917,6 +1917,29 @@ Filename: dists/termux/extras/binary-aarch64/tty-solitare_1.0.0_aarch64.deb
 Size: 6980
 SHA256: 4d343f55aa9f16505fdc0bc753b6979dee981a3c063ba89ed43524313103488a
 
+Package: unicorn-dev
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: Development files for unicorn
+Homepage: http://www.unicorn-engine.org/
+Depends: unicorn
+Filename: dists/termux/extras/binary-aarch64/unicorn-dev_1.0.1_aarch64.deb
+Size: 12376
+SHA256: 6552fb3df953bdad081ed4628f34b0fb0b0b613103eb3576b2c086072ae1459b
+
+Package: unicorn
+Architecture: aarch64
+Installed-Size: 7644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: Unicorn is a lightweight multi-platform, multi-architecture CPU emulator framework.
+Homepage: http://www.unicorn-engine.org/
+Filename: dists/termux/extras/binary-aarch64/unicorn_1.0.1_aarch64.deb
+Size: 854228
+SHA256: 44dd84a23212ce09300b9013bc50298be6ce33176cb92b6bc456933340384326
+
 Package: urbit
 Architecture: aarch64
 Installed-Size: 1144
