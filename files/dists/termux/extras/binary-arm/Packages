@@ -1609,6 +1609,18 @@ SHA256: 40ec9fcef32ce6085f0c60c9f08f91adfd804e1d08975054c8b692d1fffe0b5d
 
 Package: qrupdate
 Architecture: arm
+Installed-Size: 132
+Maintainer: @its-pointless github
+Version: 1.1.2-1
+Description: qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions.
+Homepage: https://sourceforge.net/projects/qrupdate/
+Depends: libgfortran4
+Filename: dists/termux/extras/binary-arm/qrupdate_1.1.2-1_arm.deb
+Size: 50488
+SHA256: a55f8cd6a2444d55129f3eaa5dc52b8f4cad2e11dff783ffd378813ec91f6700
+
+Package: qrupdate
+Architecture: arm
 Installed-Size: 144
 Maintainer: @its-pointless github
 Version: 1.1.2

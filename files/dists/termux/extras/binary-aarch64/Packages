@@ -1569,19 +1569,20 @@ Description: qrupdate is a Fortran library for fast updates of QR and Cholesky d
 Homepage: https://sourceforge.net/projects/qrupdate/
 Depends: libgfortran4
 Filename: dists/termux/extras/binary-aarch64/qrupdate_1.1.2-1_aarch64.deb
-Size: 48472
-SHA256: 617dbefc5519c0a43513f599bbfa562c76dc763e531655d0c37148fd65f4c40c
+Size: 48448
+SHA256: 185dd4357457b8f552940b6359a6479a629fc9b4bf0fa539d91099d3b2bc9ece
 
 Package: qrupdate
 Architecture: aarch64
 Installed-Size: 132
-Maintainer: Fredrik Fornwall @fornwall
+Maintainer: @its-pointless github
 Version: 1.1.2
 Description: qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions.
 Homepage: https://sourceforge.net/projects/qrupdate/
+Depends: libgfortran4
 Filename: dists/termux/extras/binary-aarch64/qrupdate_1.1.2_aarch64.deb
 Size: 48428
-SHA256: bea4ed183e23063bd21c0807c990ec2c71802b46b18ff05bb6470d3bf18144f0
+SHA256: 9d8a1555eeb1bf91537be907d3c1437915d6af910c8f7b3d14f6a4099baa3380
 
 Package: quantlib-dev
 Architecture: aarch64
