@@ -23,6 +23,18 @@ SHA256: 836e002c21aa3ba80bce07be4ffb176c12b8cc2ceb850f3eec4eda7c45a8bff4
 
 Package: arpack-ng
 Architecture: arm
+Installed-Size: 1396
+Maintainer: @its-pointless github
+Version: 3.4.0-1
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: libgfortran4, openblas
+Filename: dists/termux/extras/binary-arm/arpack-ng_3.4.0-1_arm.deb
+Size: 241412
+SHA256: a602269dbcac15f00269b5b82fb0d7a6b586639420cd19b3bc614aaa809bb094
+
+Package: arpack-ng
+Architecture: arm
 Installed-Size: 704
 Maintainer:  @its-pointless github
 Version: 3.4.0
