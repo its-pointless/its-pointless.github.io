@@ -173,6 +173,29 @@ Filename: dists/termux/extras/binary-arm/bthread_0.2_arm.deb
 Size: 2224
 SHA256: 741f9d090eb896ba77dd11ea0147d59f6566fad8a3d1b5738220c9bdae56b627
 
+Package: capstone-dev
+Architecture: arm
+Installed-Size: 200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.4
+Description: Development files for capstone
+Homepage: http://www.capstone-engine.org/
+Depends: capstone
+Filename: dists/termux/extras/binary-arm/capstone-dev_3.0.4_arm.deb
+Size: 27640
+SHA256: 2f10674015d2496aa676bd5825a0bd5a1f03b3f68efc34dd8c8d1acb699c0803
+
+Package: capstone
+Architecture: arm
+Installed-Size: 2176
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.4
+Description: Capstone is a disassembly framework
+Homepage: http://www.capstone-engine.org/
+Filename: dists/termux/extras/binary-arm/capstone_3.0.4_arm.deb
+Size: 364864
+SHA256: fe7485a1a854252917248a5629f0f9aa719287964e0957fb6f737b5440019b2f
+
 Package: cargo
 Architecture: arm
 Installed-Size: 5344
@@ -531,6 +554,29 @@ Homepage: https://github.com/lefcha/imapfilter
 Filename: dists/termux/extras/binary-arm/imapfilter_2.6.10_arm.deb
 Size: 41124
 SHA256: 5d125238d5751eab89fea75092f905243bcc99af66aba62bc9540d49b847c230
+
+Package: keystone-dev
+Architecture: arm
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Development files for keystone
+Homepage: http://www.keystone-engine.org/
+Depends: keystone
+Filename: dists/termux/extras/binary-arm/keystone-dev_0.9.1_arm.deb
+Size: 4868
+SHA256: 1896d366760ce32c65012614d8f8a8b98a09a0996defda35933ccc4ec0ef0fa0
+
+Package: keystone
+Architecture: arm
+Installed-Size: 4528
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Keystone is a lightweight multi-platform, multi-architecture assembler framework
+Homepage: http://www.keystone-engine.org/
+Filename: dists/termux/extras/binary-arm/keystone_0.9.1_arm.deb
+Size: 758928
+SHA256: c954b270bc9bee10ef0232e4c5bea8bdb951499a6e5a1790f4cd029edd8fbffa
 
 Package: lbzip2
 Architecture: arm
@@ -2025,14 +2071,3 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-arm/unicorn_1.0.1_arm.deb
 Size: 1126228
 SHA256: 20ac3ee2cfd9d355f61339bc200c6a4a1dc6a5b3a2f8dcc9f390e42aac3acb21
-
-Package: vifm
-Architecture: arm
-Installed-Size: 1344
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9
-Description: Vifm is an ncurses based file manager with vi like keybindings/modes/options/commands/configuration
-Homepage: https://vifm.info/
-Filename: dists/termux/extras/binary-arm/vifm_0.9_arm.deb
-Size: 360044
-SHA256: 9982f8a1ddac86b005cdffa626bc74929536335e301d7ab772006baefc64ba53

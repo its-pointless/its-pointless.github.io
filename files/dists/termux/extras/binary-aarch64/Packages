@@ -173,6 +173,29 @@ Filename: dists/termux/extras/binary-aarch64/bthread_0.2_aarch64.deb
 Size: 2248
 SHA256: 6802a3b71c172caa7dfbdae639375bb1744850a517e7217937e28eff29de9233
 
+Package: capstone-dev
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.4
+Description: Development files for capstone
+Homepage: http://www.capstone-engine.org/
+Depends: capstone
+Filename: dists/termux/extras/binary-aarch64/capstone-dev_3.0.4_aarch64.deb
+Size: 27624
+SHA256: af368dd181bbaab746cb97732a39729d0b6301f1302d6d1e2669e96af9e2aafd
+
+Package: capstone
+Architecture: aarch64
+Installed-Size: 2496
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.4
+Description: Capstone is a disassembly framework
+Homepage: http://www.capstone-engine.org/
+Filename: dists/termux/extras/binary-aarch64/capstone_3.0.4_aarch64.deb
+Size: 358380
+SHA256: 48cae51a0cf6ca49bbed17c3fa16c8ad2ecac6a64615dbd842bb00c5b67d685a
+
 Package: cargo
 Architecture: aarch64
 Installed-Size: 5516
@@ -507,6 +530,29 @@ Homepage: https://github.com/lefcha/imapfilter
 Filename: dists/termux/extras/binary-aarch64/imapfilter_2.6.10_aarch64.deb
 Size: 40616
 SHA256: d2d42ed4b73059c65d4b8e2845f485e5b54ff74e16f668971a8b2fbbab927eac
+
+Package: keystone-dev
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Development files for keystone
+Homepage: http://www.keystone-engine.org/
+Depends: keystone
+Filename: dists/termux/extras/binary-aarch64/keystone-dev_0.9.1_aarch64.deb
+Size: 4872
+SHA256: 038a2520dac0a3e7f5dce30c2238550648c423f3df3117f87ce79f35e5b52b33
+
+Package: keystone
+Architecture: aarch64
+Installed-Size: 5684
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Keystone is a lightweight multi-platform, multi-architecture assembler framework
+Homepage: http://www.keystone-engine.org/
+Filename: dists/termux/extras/binary-aarch64/keystone_0.9.1_aarch64.deb
+Size: 774348
+SHA256: da1689e5bd4d791b66ca01939de824b861eafdc57aabb3d62fb8cba93b02766d
 
 Package: lbzip2
 Architecture: aarch64
@@ -1952,14 +1998,3 @@ Depends: libuv, libsigsegv, libgmp, libcurl, ncurses, openssl
 Filename: dists/termux/extras/binary-aarch64/urbit_0.45_aarch64.deb
 Size: 287692
 SHA256: 176582cafdbacf3de27868908d2f2d8c0596677e580d5906a8bd8b7172f31c93
-
-Package: vifm
-Architecture: aarch64
-Installed-Size: 1548
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9
-Description: Make a fortune dealing drugs on the streets of New York...
-Homepage: https://dopewars.sourceforge.io/
-Filename: dists/termux/extras/binary-aarch64/vifm_0.9_aarch64.deb
-Size: 347464
-SHA256: 73fde2811c933a688dc62e019edaf669558f06a2abb4fc262e4b6b5cbbcc6808

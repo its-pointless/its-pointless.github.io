@@ -127,6 +127,29 @@ Filename: dists/termux/extras/binary-i686/bthread_0.2_i686.deb
 Size: 2492
 SHA256: b1e7423a7d95a3636d4ff74c071e82cd4f56d9ffbee16924a8eb4f23f9cf7ebf
 
+Package: capstone-dev
+Architecture: i686
+Installed-Size: 188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.4
+Description: Development files for capstone
+Homepage: http://www.capstone-engine.org/
+Depends: capstone
+Filename: dists/termux/extras/binary-i686/capstone-dev_3.0.4_i686.deb
+Size: 27644
+SHA256: a95fad31ab3d824043bfe008e64c2864655d9810a7f45dce4145970999d2b605
+
+Package: capstone
+Architecture: i686
+Installed-Size: 2372
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.4
+Description: Capstone is a disassembly framework
+Homepage: http://www.capstone-engine.org/
+Filename: dists/termux/extras/binary-i686/capstone_3.0.4_i686.deb
+Size: 382368
+SHA256: cd6e4ff715f8e47214e81b732119ddc5fbfa7be8d2c40aed16143275d04c6cb6
+
 Package: cargo
 Architecture: i686
 Installed-Size: 7496
@@ -305,6 +328,29 @@ Homepage: https://github.com/lefcha/imapfilter
 Filename: dists/termux/extras/binary-i686/imapfilter_2.6.10_i686.deb
 Size: 42408
 SHA256: b0085295bc430902daf8b9e7c1a5188b58abebc4834f2cebbe21987b7c44a9c9
+
+Package: keystone-dev
+Architecture: i686
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Development files for keystone
+Homepage: http://www.keystone-engine.org/
+Depends: keystone
+Filename: dists/termux/extras/binary-i686/keystone-dev_0.9.1_i686.deb
+Size: 4872
+SHA256: ac37abb9b4ab41f2cfe41b94411ac8cb6fd692375b120324856d01a07dfbf7fc
+
+Package: keystone
+Architecture: i686
+Installed-Size: 4836
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Keystone is a lightweight multi-platform, multi-architecture assembler framework
+Homepage: http://www.keystone-engine.org/
+Filename: dists/termux/extras/binary-i686/keystone_0.9.1_i686.deb
+Size: 821236
+SHA256: a149e3b4581d1fafd45bbf942498360d7ee59817b95803a097efe57a467d959c
 
 Package: libgfortran4
 Architecture: i686
@@ -1292,15 +1338,3 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-i686/unicorn_1.0.1_i686.deb
 Size: 1075664
 SHA256: 674a801325d461c9a36830f8df0af0b9f9985cc26ed3233b85a44e6ea1b40f30
-
-Package: vifm
-Architecture: i686
-Installed-Size: 1476
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9
-Description: Vifm is an ncurses based file manager with vi like keybindings/modes/options/commands/configuration
-Homepage: https://vifm.info/
-Depends: ncurses, file
-Filename: dists/termux/extras/binary-i686/vifm_0.9_i686.deb
-Size: 363360
-SHA256: 63889cb8997abd4c4fbf5c9aec8f0318d236354f1e7b40fffec7e4c8c7e17114

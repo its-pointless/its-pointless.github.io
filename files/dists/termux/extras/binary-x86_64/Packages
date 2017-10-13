@@ -138,6 +138,29 @@ Filename: dists/termux/extras/binary-x86_64/bthread_0.2_x86_64.deb
 Size: 2544
 SHA256: 159bede202dd07fa1d1a5a205ff2b839352732580b860ae778b6d0db3d417a96
 
+Package: capstone-dev
+Architecture: x86_64
+Installed-Size: 188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.4
+Description: Development files for capstone
+Homepage: http://www.capstone-engine.org/
+Depends: capstone
+Filename: dists/termux/extras/binary-x86_64/capstone-dev_3.0.4_x86_64.deb
+Size: 27628
+SHA256: a21de9098d7b40efdcfdace581d0ede3aefbc480a78c570d83c12bdbf734a042
+
+Package: capstone
+Architecture: x86_64
+Installed-Size: 2580
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.4
+Description: Capstone is a disassembly framework
+Homepage: http://www.capstone-engine.org/
+Filename: dists/termux/extras/binary-x86_64/capstone_3.0.4_x86_64.deb
+Size: 396448
+SHA256: d32dda5c13d2658f81b2c6334a3cef48ef4fcff5b6d7fa558883215ce33e68c4
+
 Package: cargo
 Architecture: x86_64
 Installed-Size: 6744
@@ -328,6 +351,29 @@ Homepage: https://github.com/lefcha/imapfilter
 Filename: dists/termux/extras/binary-x86_64/imapfilter_2.6.10_x86_64.deb
 Size: 44268
 SHA256: 3a910ab52a0789fbc66582b86d7b80c1f900ad4e77f5f507ce7fdc682273ecf3
+
+Package: keystone-dev
+Architecture: x86_64
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Development files for keystone
+Homepage: http://www.keystone-engine.org/
+Depends: keystone
+Filename: dists/termux/extras/binary-x86_64/keystone-dev_0.9.1_x86_64.deb
+Size: 4872
+SHA256: ff8126f20c9e7c9c219ea14c5514ca72c7a5aea0eb69687e459c48a99d2ba8c8
+
+Package: keystone
+Architecture: x86_64
+Installed-Size: 5740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Keystone is a lightweight multi-platform, multi-architecture assembler framework
+Homepage: http://www.keystone-engine.org/
+Filename: dists/termux/extras/binary-x86_64/keystone_0.9.1_x86_64.deb
+Size: 813180
+SHA256: d08ee8999f93a1a1600a2a57d236d68bf49bd4fbb5b6db80096e257443ddf8b0
 
 Package: libgfortran4
 Architecture: x86_64
@@ -1327,15 +1373,3 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-x86_64/unicorn_1.0.1_x86_64.deb
 Size: 1098648
 SHA256: 5901cb303064d5953f72d172a8dfdef40d064c597fe46d955d1f9f1d06f40462
-
-Package: vifm
-Architecture: x86_64
-Installed-Size: 1620
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9
-Description: Vifm is an ncurses based file manager with vi like keybindings/modes/options/commands/configuration
-Homepage: https://vifm.info/
-Depends: ncurses, file
-Filename: dists/termux/extras/binary-x86_64/vifm_0.9_x86_64.deb
-Size: 400316
-SHA256: c4a9477288d64cab4b7801815d7eb94db1614c7f763e72a68d7029f55976536c
