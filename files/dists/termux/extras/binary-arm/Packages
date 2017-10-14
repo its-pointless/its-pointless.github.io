@@ -1022,6 +1022,18 @@ SHA256: 1b56bf7e033caaae69d08988e2d42ae3a9f2d5e291308237516c259887bcc1f8
 
 Package: numpy
 Architecture: arm
+Installed-Size: 13292
+Maintainer: @its-pointless github
+Version: 1.13.3-1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran4, openblas
+Filename: dists/termux/extras/binary-arm/numpy_1.13.3-1_arm.deb
+Size: 2100352
+SHA256: 5e0b55085e2ef0d1bd786918ec8330102657a1ae26a7c5e7e41ee23e4d32aad3
+
+Package: numpy
+Architecture: arm
 Installed-Size: 13288
 Maintainer: @its-pointless github
 Version: 1.13.3
@@ -1173,6 +1185,18 @@ Homepage: https://github.com/rofl0r/proxychains-ng
 Filename: dists/termux/extras/binary-arm/proxychains-ng_4.12_arm.deb
 Size: 17528
 SHA256: c638b61954fcc12643c32264b25699c203e4b159d15310638b5b11036432b787
+
+Package: python2-numpy
+Architecture: arm
+Installed-Size: 14384
+Maintainer: @its-pointless github
+Version: 1.13.3-1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: https://github.com/numpy/numpy
+Depends: python, libgfortran4, openblas
+Filename: dists/termux/extras/binary-arm/python2-numpy_1.13.3-1_arm.deb
+Size: 2253280
+SHA256: 4224153b6c4a84aed75172d3e529779aab12b53ea6fe0d3b26fdfa5f30bf3584
 
 Package: python2-numpy
 Architecture: arm
