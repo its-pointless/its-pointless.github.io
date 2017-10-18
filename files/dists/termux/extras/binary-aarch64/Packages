@@ -961,6 +961,18 @@ Filename: dists/termux/extras/binary-aarch64/numpy_1.13.1_aarch64.deb
 Size: 2396896
 SHA256: f2bee97bc2743a447d58e3ec918269dede3533697239c6ba287f944b9b9131c1
 
+Package: ocaml
+Architecture: aarch64
+Installed-Size: 185320
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.05.0
+Description: Programming language supporting functional, imperative and object-oriented styles
+Homepage: https://ocaml.org
+Depends: opam
+Filename: dists/termux/extras/binary-aarch64/ocaml_4.05.0_aarch64.deb
+Size: 39974140
+SHA256: 0984c5d5d1eaf8fd1df80bd6dd78b0dccb9ebea9b26295507dcd1fcba8ee0c05
+
 Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5644
@@ -1032,6 +1044,18 @@ Depends: libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, font
 Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-8_aarch64.deb
 Size: 5135160
 SHA256: 7cf6a48bd325db19028e36cd66cf3c7e45330fdd41cdf4cc4642b323a40818fb
+
+Package: opam
+Architecture: aarch64
+Installed-Size: 16996
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.2.1
+Description: OPAM is a source-based package manager for OCaml.
+Homepage: http://www.ocaml.org
+Depends: wget, curl, git, patch, tar, gzip, bzip2, xz-utils, rsync, termux-exec
+Filename: dists/termux/extras/binary-aarch64/opam_1.2.2.1_aarch64.deb
+Size: 2390060
+SHA256: a48a7eff8a3a5f46f12cd12450adc9b6e0ae2db87075b64fecc86ef8b7d19284
 
 Package: openblas
 Architecture: aarch64

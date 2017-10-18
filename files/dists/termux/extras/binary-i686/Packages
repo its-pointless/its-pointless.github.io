@@ -565,6 +565,18 @@ Filename: dists/termux/extras/binary-i686/numpy_1.13.3_i686.deb
 Size: 2125408
 SHA256: 53c1ba2b733cd9c2b87cd943acb9e734b1149d2e9294f26f07b932a18a46bc09
 
+Package: ocaml
+Architecture: i686
+Installed-Size: 171824
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.05.0
+Description: Programming language supporting functional, imperative and object-oriented styles
+Homepage: https://ocaml.org
+Depends: opam
+Filename: dists/termux/extras/binary-i686/ocaml_4.05.0_i686.deb
+Size: 38698088
+SHA256: f14ecd68576f4a8d57ea1c613a9afcf8f9a08d28873fa7c56088edd95834ec2a
+
 Package: octave-dev
 Architecture: i686
 Installed-Size: 5644
@@ -588,6 +600,18 @@ Depends: openblas, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfort
 Filename: dists/termux/extras/binary-i686/octave_4.2.1-9_i686.deb
 Size: 6134508
 SHA256: d96a940c1d65ae85f7b90477c700babc3f6768cbda9d8576294d7e09a43da868
+
+Package: opam
+Architecture: i686
+Installed-Size: 12468
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.2.1
+Description: OPAM is a source-based package manager for OCaml.
+Homepage: http://www.ocaml.org
+Depends: wget, curl, git, patch, tar, gzip, bzip2, xz-utils, rsync, termux-exec
+Filename: dists/termux/extras/binary-i686/opam_1.2.2.1_i686.deb
+Size: 2003964
+SHA256: 4c390098e1a1bedc482bc13ff5ab2877605cad245d3a4cfc940c636befd0fbc2
 
 Package: openblas
 Architecture: i686
@@ -1256,18 +1280,6 @@ Depends: libandroid-support, bthread
 Filename: dists/termux/extras/binary-i686/sc-im_0.6.0_i686.deb
 Size: 103192
 SHA256: 4c5f77eafbbdd7403ecf61d966d5683c616c4a3aae4a48e5341448659393bb85
-
-Package: scipy
-Architecture: i686
-Installed-Size: 50460
-Maintainer: @its-pointless github
-Version: 0.19.1-2
-Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
-Homepage: https://github.com/scipy/scipy
-Depends: numpy
-Filename: dists/termux/extras/binary-i686/scipy_0.19.1-2_i686.deb
-Size: 10255488
-SHA256: 8a51d15644fa51d059e863d53205c7fe6e064967967a49c370c207a59f1a85a6
 
 Package: scipy
 Architecture: i686
