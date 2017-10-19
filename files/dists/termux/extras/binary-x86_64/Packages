@@ -588,6 +588,18 @@ Filename: dists/termux/extras/binary-x86_64/numpy_1.13.3_x86_64.deb
 Size: 2234700
 SHA256: 36efe872f401b15e8426d8f2ba848f6edf469ab646e634e07b8bf2e9a02a4ad8
 
+Package: ocaml
+Architecture: x86_64
+Installed-Size: 186268
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.05.0
+Description: Programming language supporting functional, imperative and object-oriented styles
+Homepage: https://ocaml.org
+Depends: opam
+Filename: dists/termux/extras/binary-x86_64/ocaml_4.05.0_x86_64.deb
+Size: 39948664
+SHA256: 02295e9b15caa27bf09aeee3e19155dbd8c9387fb9ae84c90f7e93534c04bd05
+
 Package: octave-dev
 Architecture: x86_64
 Installed-Size: 5644
