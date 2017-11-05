@@ -45,6 +45,18 @@ Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.4.0_aarch64.deb
 Size: 80576
 SHA256: bfd6ae611946836c219d56c61c196875e06827e4ca9ee24a41fc5adb4dc0b34f
 
+Package: arpack-ng
+Architecture: aarch64
+Installed-Size: 404
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0
+Description: FTP/HTTP client and file transfer program
+Homepage: https://lftp.tech/
+Depends: openblas
+Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.5.0_aarch64.deb
+Size: 60384
+SHA256: 2331e2dd7f16f3eccbea25284e4f3ac9633ea874308498050782b42bac51ba41
+
 Package: asymptote
 Architecture: aarch64
 Installed-Size: 7576
