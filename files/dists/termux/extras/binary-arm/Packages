@@ -1095,6 +1095,18 @@ SHA256: 8edc5623738acad77209445ef17c0c3438361dc01e405f25d60d7b1537f36139
 Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1-12
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-12_arm.deb
+Size: 351136
+SHA256: a267389d54781dd30107cbfafa0322f6cb9dfd8c09c22cdc41de9d21c63dc376
+
+Package: octave-dev
+Architecture: arm
+Installed-Size: 5644
 Maintainer: @its-pointless github
 Version: 4.2.1-6
 Description: Development files for octave
@@ -1139,6 +1151,18 @@ Depends: openblas, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfort
 Filename: dists/termux/extras/binary-arm/octave_4.2.1-11_arm.deb
 Size: 5575872
 SHA256: 5c41bbba6885940098ed1d6927fd67441a7fb60547ff8bdd28260ccfe104534e
+
+Package: octave
+Architecture: arm
+Installed-Size: 31164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1-12
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
+Filename: dists/termux/extras/binary-arm/octave_4.2.1-12_arm.deb
+Size: 5575912
+SHA256: 505df338f10093728c6c8e8569dbf2374ff82793b15d4012369f47223dc44ea3
 
 Package: octave
 Architecture: arm
@@ -2098,6 +2122,18 @@ Filename: dists/termux/extras/binary-arm/suitesparse-dev_4.5.4_arm.deb
 Size: 100560
 SHA256: 672d26ba23cf029f086a3964471531e390ded992c86085663dce1bed7f214ed8
 
+Package: suitesparse-dev
+Architecture: arm
+Installed-Size: 796
+Maintainer:  @its-pointless github
+Version: 4.5.6
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-arm/suitesparse-dev_4.5.6_arm.deb
+Size: 103460
+SHA256: fe14233688a62fbc10ba64d821c5736caf8aa5017f7db266b1555b0db6d81338
+
 Package: suitesparse
 Architecture: arm
 Installed-Size: 1784
@@ -2122,16 +2158,17 @@ Filename: dists/termux/extras/binary-arm/suitesparse_4.5.4_arm.deb
 Size: 510532
 SHA256: c2d5b75918969c1a21962e1b42a428cd6f06c9691a39be8d587587ce067526cd
 
-Package: tty-solitare
+Package: suitesparse
 Architecture: arm
-Installed-Size: 20
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0
-Description: solitare
-Homepage: https://github.com/mpereira/tty-solitaire/
-Filename: dists/termux/extras/binary-arm/tty-solitare_1.0.0_arm.deb
-Size: 9700
-SHA256: c01d4f6935d0793d83467f3692482d3fbf139adc8322a8091d6c72b5529f7535
+Installed-Size: 2180
+Maintainer:  @its-pointless github
+Version: 4.5.6
+Description: a suite of sparse matrix software
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: libgfortran4
+Filename: dists/termux/extras/binary-arm/suitesparse_4.5.6_arm.deb
+Size: 695644
+SHA256: 3fd09cbb654eb4db3c1504cf46e66c88f80337f091bc825bdeed75e333c8a66d
 
 Package: unicorn-dev
 Architecture: arm

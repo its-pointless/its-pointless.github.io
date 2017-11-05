@@ -592,6 +592,18 @@ SHA256: b1447e84c6ebc8db784e6534d8d368c4cf2ee0d62f05f49783ddcd93142e3807
 Package: octave-dev
 Architecture: i686
 Installed-Size: 5644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1-12
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-i686/octave-dev_4.2.1-12_i686.deb
+Size: 351312
+SHA256: 97590eb962ac86c39d0f66a5af7bb3b150a40f3645f4a92686a87ded4a6e550f
+
+Package: octave-dev
+Architecture: i686
+Installed-Size: 5644
 Maintainer: @its-pointless github
 Version: 4.2.1-9
 Description: Development files for octave
@@ -600,6 +612,18 @@ Depends: octave
 Filename: dists/termux/extras/binary-i686/octave-dev_4.2.1-9_i686.deb
 Size: 351488
 SHA256: 207b0c431e0ab0cf589b653996270e8aedd33e1d9d84157166f04ec4ec9dc9b6
+
+Package: octave
+Architecture: i686
+Installed-Size: 36256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1-12
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
+Filename: dists/termux/extras/binary-i686/octave_4.2.1-12_i686.deb
+Size: 6020788
+SHA256: 2f2dec3c9ea3233154f7e349d13bbecace28f6867facbf2160642fbdb88775c6
 
 Package: octave
 Architecture: i686
@@ -1317,6 +1341,18 @@ Filename: dists/termux/extras/binary-i686/suitesparse-dev_4.5.4-1_i686.deb
 Size: 100536
 SHA256: f9899c1a7b20eed11d494146c55929fbfb2d7141ac5950dffe024d13b8489e89
 
+Package: suitesparse-dev
+Architecture: i686
+Installed-Size: 796
+Maintainer:  @its-pointless github
+Version: 4.5.6
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-i686/suitesparse-dev_4.5.6_i686.deb
+Size: 103556
+SHA256: 44f9da2a0fcfdb689f9a11ccfb3a2e5687b25ccaa9ac07aee1edecaee6b623b1
+
 Package: suitesparse
 Architecture: i686
 Installed-Size: 3040
@@ -1329,16 +1365,17 @@ Filename: dists/termux/extras/binary-i686/suitesparse_4.5.4-1_i686.deb
 Size: 637020
 SHA256: 53774236f01ab500cb2844971462556eebe90f680bd3b1a703a00fb2aa367903
 
-Package: tty-solitare
+Package: suitesparse
 Architecture: i686
-Installed-Size: 20
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0
-Description: solitare
-Homepage: https://github.com/mpereira/tty-solitaire/
-Filename: dists/termux/extras/binary-i686/tty-solitare_1.0.0_i686.deb
-Size: 7572
-SHA256: 09f70b34b4abc562ce81873fcc9d37a22f181ccebbc3f3c47db8e1043532c4af
+Installed-Size: 3724
+Maintainer:  @its-pointless github
+Version: 4.5.6
+Description: a suite of sparse matrix software
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: libgfortran4
+Filename: dists/termux/extras/binary-i686/suitesparse_4.5.6_i686.deb
+Size: 870036
+SHA256: 4d98be4ad338f6a70cce6bdf53e6312d5f61d8e162301ca57f4f3d603d96eb2d
 
 Package: unicorn-dev
 Architecture: i686

@@ -988,6 +988,18 @@ SHA256: c479622b30a1b32bb03ba576f298afa3d783e0045df225b79993d061d50095e4
 Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1-12
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.1-12_aarch64.deb
+Size: 351248
+SHA256: 8e4e9c074a4cb6efb45602aeeffaa115c20f1000d56a52bcdf3ba77222074c35
+
+Package: octave-dev
+Architecture: aarch64
+Installed-Size: 5644
 Maintainer: @its-pointless github
 Version: 4.2.1-6
 Description: Development files for octave
@@ -1020,6 +1032,18 @@ Depends: octave
 Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.1-8_aarch64.deb
 Size: 351492
 SHA256: 403646746560c175f75db40d8c76fdb6ae7827274deaf5a403d6e3b4fe81ba98
+
+Package: octave
+Architecture: aarch64
+Installed-Size: 36844
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1-12
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
+Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-12_aarch64.deb
+Size: 5070772
+SHA256: 2262e4c6ab59a79eff1996b4b9eb2cff31ccb3454453176869ce86367b1206a5
 
 Package: octave
 Architecture: aarch64
@@ -1965,6 +1989,18 @@ Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_4.5.4_aarch64.deb
 Size: 100428
 SHA256: 1b533babb638354a91c41ccca706f13259aa866a645c945df008027db66d2ccd
 
+Package: suitesparse-dev
+Architecture: aarch64
+Installed-Size: 796
+Maintainer:  @its-pointless github
+Version: 4.5.6
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_4.5.6_aarch64.deb
+Size: 103340
+SHA256: a2e45273f0cba7c19780c522c3827a2ed01447e07c1ff29f6d46693b60b8d2c0
+
 Package: suitesparse
 Architecture: aarch64
 Installed-Size: 2276
@@ -1989,16 +2025,17 @@ Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.4_aarch64.deb
 Size: 768108
 SHA256: 913d8d1170a1c74c3371d7a9b240b113e0e1cc13e7743e04a1b1a1874bde52d7
 
-Package: tty-solitare
+Package: suitesparse
 Architecture: aarch64
-Installed-Size: 20
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0
-Description: solitare
-Homepage: https://github.com/mpereira/tty-solitaire/
-Filename: dists/termux/extras/binary-aarch64/tty-solitare_1.0.0_aarch64.deb
-Size: 6980
-SHA256: 4d343f55aa9f16505fdc0bc753b6979dee981a3c063ba89ed43524313103488a
+Installed-Size: 2712
+Maintainer:  @its-pointless github
+Version: 4.5.6
+Description: a suite of sparse matrix software
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: libgfortran4
+Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.6_aarch64.deb
+Size: 913684
+SHA256: a28d22877b6e8bca5c0744d5f457f60ef7599530e252cdfe54d0d8dfed261608
 
 Package: unicorn-dev
 Architecture: aarch64
