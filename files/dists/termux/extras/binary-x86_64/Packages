@@ -1316,29 +1316,16 @@ Filename: dists/termux/extras/binary-x86_64/ripgrep_0.6.0_x86_64.deb
 Size: 842092
 SHA256: 9800cd71ead2fb67146469b76ed25ed9b920f818b9f5dbab6d4a5dfb6596b902
 
-Package: rustc
+Package: ripgrep
 Architecture: x86_64
-Installed-Size: 97960
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.19.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-x86_64/rustc_1.19.0_x86_64.deb
-Size: 38915640
-SHA256: 16550ee0cb34c8729b7f2e06acba6c64221b3e30e8ad292d68169a6382b2fd7e
-
-Package: rustc
-Architecture: x86_64
-Installed-Size: 103344
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.20.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-x86_64/rustc_1.20.0_x86_64.deb
-Size: 41168240
-SHA256: 83ec421a3d20a5ba5e6405b3af02b25a3e6f6c29af75a35e084b71fa57d197d4
+Installed-Size: 2780
+Maintainer: @its-pointless
+Version: 0.7.1
+Description: ripgrep is a line-oriented search tool
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-x86_64/ripgrep_0.7.1_x86_64.deb
+Size: 860720
+SHA256: 788f626744be2f575f85fbf2e43b3b594d950d2d924967b04b644e3dc302a74e
 
 Package: sc-im
 Architecture: x86_64

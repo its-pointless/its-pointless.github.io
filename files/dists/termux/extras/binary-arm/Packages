@@ -258,15 +258,15 @@ SHA256: b5517b842125a3525409eb1e9c06c3a1c575aad1127b9f9638b7b1d0a620d3a9
 
 Package: cargo
 Architecture: arm
-Installed-Size: 5428
+Installed-Size: 5788
 Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.22.0
+Version: 0.22.0-1
 Description: Rust package manager
 Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.22.0_arm.deb
-Size: 1576068
-SHA256: bd95b10de703d0416f48b1e588b4a275eed0d4b93674e9940f66e703655d1ecb
+Depends: libcurl, rustc, openssl, libssh2
+Filename: dists/termux/extras/binary-arm/cargo_0.22.0-1_arm.deb
+Size: 1796372
+SHA256: 65613d9d4d338fbb5c4b9eae01a366d6c6226e64ce5ddd0f5577528f3b4e321c
 
 Package: dopewars
 Architecture: arm
@@ -2013,6 +2013,17 @@ Homepage: https://github.com/BurntSushi/ripgrep
 Filename: dists/termux/extras/binary-arm/ripgrep_0.6.0_arm.deb
 Size: 726700
 SHA256: 237f87a37accf9b93bccd2f76b1c9b56e050bec434034eef082c30aa42f78df0
+
+Package: ripgrep
+Architecture: arm
+Installed-Size: 2284
+Maintainer: @its-pointless
+Version: 0.7.1
+Description: ripgrep is a line-oriented search tool
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-arm/ripgrep_0.7.1_arm.deb
+Size: 719248
+SHA256: 1110ab4b0d8e1d25b5c3ce1217f9cfcd537dd1960f6a574f2a7b4f95dc657785
 
 Package: rustc
 Architecture: arm
