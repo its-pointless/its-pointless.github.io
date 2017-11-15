@@ -268,6 +268,18 @@ Filename: dists/termux/extras/binary-arm/cargo_0.22.0-1_arm.deb
 Size: 1784736
 SHA256: 4ee11a0cf477d91e76eb116d1eb72558e6df99273e916060e2c25864c1d69bb6
 
+Package: cargo
+Architecture: arm
+Installed-Size: 5752
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.22.0-2
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libssh2
+Filename: dists/termux/extras/binary-arm/cargo_0.22.0-2_arm.deb
+Size: 1786652
+SHA256: 478f6950f013bce946a3f02eaf78377576c0e7b2623e86697fb704f308306dc9
+
 Package: dopewars
 Architecture: arm
 Installed-Size: 120
@@ -1991,6 +2003,18 @@ Depends: libandroid-glob, libandroid-support, libgfortran4, libicu, libatlas, li
 Filename: dists/termux/extras/binary-arm/r-cran_3.4.1_arm.deb
 Size: 38533040
 SHA256: e8176545771c06c2b05fec3203c9a6859949edb875aec69b8622507e2b9ae507
+
+Package: r-cran
+Architecture: arm
+Installed-Size: 59256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.2
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo
+Filename: dists/termux/extras/binary-arm/r-cran_3.4.2_arm.deb
+Size: 38704168
+SHA256: 87d88aebbb935af5845c1373a09ad684370062dc729e5f1b3285b583866e915b
 
 Package: ripgrep
 Architecture: arm

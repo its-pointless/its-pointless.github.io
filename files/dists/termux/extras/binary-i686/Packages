@@ -1281,6 +1281,18 @@ Filename: dists/termux/extras/binary-i686/r-cran_3.4.1_i686.deb
 Size: 39236348
 SHA256: ad8c11be47789baaefc3bfa30025a3e2bad28a53e78122408d1402266fdfaf95
 
+Package: r-cran
+Architecture: i686
+Installed-Size: 70000
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.2
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo
+Filename: dists/termux/extras/binary-i686/r-cran_3.4.2_i686.deb
+Size: 40835820
+SHA256: 4df9bab58e7ea6da86accc511873c0fb0e1dd993356530de31da1340ef09ff78
+
 Package: ripgrep
 Architecture: i686
 Installed-Size: 2984
