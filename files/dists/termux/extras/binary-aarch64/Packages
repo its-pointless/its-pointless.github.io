@@ -1860,6 +1860,18 @@ Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.1_aarch64.deb
 Size: 39041620
 SHA256: 131f9c067f1e3b51b4393207e8660d468ebf7303a5142a1e7a64be284cab9d19
 
+Package: r-cran
+Architecture: aarch64
+Installed-Size: 87816
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.2
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo
+Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.2_aarch64.deb
+Size: 45432848
+SHA256: da7e8f1052d750db379e9f8a998b01bff363f751f05cc9cfe5dc78249a4f4e26
+
 Package: re2c
 Architecture: aarch64
 Installed-Size: 356
