@@ -1738,6 +1738,18 @@ Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.10.1_aarch64.deb
 Size: 548944
 SHA256: 3f02e452d6dfd540c80bf7fb4e78870c2bddf284f58d6d171ee5240ae795da44
 
+Package: quantlib-dev
+Architecture: aarch64
+Installed-Size: 7900
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.11
+Description: Development files for quantlib
+Homepage: http://quantlib.org
+Depends: quantlib,boost-dev
+Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.11_aarch64.deb
+Size: 552200
+SHA256: ca4f7abc8906204d8fbebe7b96f595620df9abdbfddb6c60a6f7b78a5927cd95
+
 Package: quantlib
 Architecture: aarch64
 Installed-Size: 44288
@@ -1774,6 +1786,17 @@ Filename: dists/termux/extras/binary-aarch64/quantlib_1.10.1_aarch64.deb
 Size: 7893400
 SHA256: d3a55762e944dec9456a2aa1e4ca469e1a95eab3018109d8869c1375c385f7a5
 
+Package: quantlib
+Architecture: aarch64
+Installed-Size: 49340
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.11
+Description: a comprehensive software framework for quantitative finance
+Homepage: http://quantlib.org
+Filename: dists/termux/extras/binary-aarch64/quantlib_1.11_aarch64.deb
+Size: 8362108
+SHA256: fa0842cf7932e695e9172c7590a9bf33e3be9aa03218adec7fe02eb0712e9388
+
 Package: r-cran-rcpp
 Architecture: aarch64
 Installed-Size: 10212
@@ -1798,6 +1821,18 @@ Depends: r-cran
 Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.12_aarch64.deb
 Size: 2179044
 SHA256: 4d868aa18460b70f853d112a63acaf465d4308219082367a8430d2092cb2e136
+
+Package: r-cran-rcpp
+Architecture: aarch64
+Installed-Size: 11224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.13
+Description: Rcpp' package provides R functions as well as C++ classes which offer a seamless integration of R and C++.
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.13_aarch64.deb
+Size: 3169532
+SHA256: c4453be010df35b3a6cf16c0084bdc74bf9dd0eac721034ee0db8cd9a9749036
 
 Package: r-cran-rquantlib
 Architecture: aarch64
@@ -1824,6 +1859,30 @@ Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.3_aarch64.deb
 Size: 756180
 SHA256: bd9eea657f4f87e0a61325c0b0d3501797691ac271fab913dc821326d37725a8
 
+Package: r-cran-rquantlib
+Architecture: aarch64
+Installed-Size: 3364
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: r-cran, r-cran-zoo, r-cran-rcpp
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.4_aarch64.deb
+Size: 677332
+SHA256: dba9b94aaa020375e22b0d1bcd4d5a184e0bfa8bb87a513fce27f20304c1b8e2
+
+Package: r-cran-stringi
+Architecture: aarch64
+Installed-Size: 1032
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.6
+Description: Allows for fast, correct, consistent, portable, as well as convenient character string/text processing in every locale and any native encoding.
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.1.6_aarch64.deb
+Size: 551064
+SHA256: 27f3904c197b7479f3578252255bb10c18185bb1e594f9667d9953634e48339d
+
 Package: r-cran-stringi
 Architecture: aarch64
 Installed-Size: 1044
@@ -1847,6 +1906,18 @@ Depends: r-cran, libicu
 Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.15_aarch64.deb
 Size: 573412
 SHA256: a340853e70d42d4c9492ff645d23a014ac63958a27854e0d825779851e3a7e8e
+
+Package: r-cran-zoo
+Architecture: aarch64
+Installed-Size: 1260
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-0
+Description: An S3 class with methods for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-0_aarch64.deb
+Size: 864852
+SHA256: 69baca34e8d2ee8f33c913998d71a2c2e1a9b4df95bf0297ca1fc6254f13e448
 
 Package: r-cran
 Architecture: aarch64
