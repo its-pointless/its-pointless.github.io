@@ -985,6 +985,18 @@ Filename: dists/termux/extras/binary-aarch64/numpy_1.13.1_aarch64.deb
 Size: 2396896
 SHA256: f2bee97bc2743a447d58e3ec918269dede3533697239c6ba287f944b9b9131c1
 
+Package: numpy
+Architecture: aarch64
+Installed-Size: 13760
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.13.3-1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python
+Filename: dists/termux/extras/binary-aarch64/numpy_1.13.3-1_aarch64.deb
+Size: 2020620
+SHA256: e3918f563c1e2f5a4f61b9856534b28bf36b13a5247c118fc5686a647381bb3d
+
 Package: ocaml
 Architecture: aarch64
 Installed-Size: 185332
@@ -1201,15 +1213,27 @@ SHA256: 89be159e38909d9f53536c5d2644909654a5aad014fd60fcbfc7ea22bfbeaca0
 
 Package: python2-numpy
 Architecture: aarch64
-Installed-Size: 15160
-Maintainer: @its-pointless github
-Version: 1.13.3
+Installed-Size: 14900
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.13.3-1
 Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
-Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.13.3_aarch64.deb
-Size: 2192196
-SHA256: 97319224dbde1668b0774380fc2edcd16418d9908caf2992d8d4ae66eb65d03e
+Homepage: http://www.numpy.org/
+Depends: openblas, python2
+Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.13.3-1_aarch64.deb
+Size: 2150076
+SHA256: 73023d4ceda1ef74cdac346e9e5fb5bbc71ecb1fbd0f19b95631ff8070ea4390
+
+Package: python2-scipy
+Architecture: aarch64
+Installed-Size: 45932
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.0
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.0.0_aarch64.deb
+Size: 9439656
+SHA256: cbfa116e916169d9b4315c715ed7519f469a770609fe2adf0a27cd67e60cf76e
 
 Package: python2-scipy
 Architecture: aarch64
@@ -1945,6 +1969,18 @@ SHA256: 47757f4c2710f83d17cb39196c1da0cb32d35e85fe418debe128547161caa183
 
 Package: r-cran
 Architecture: aarch64
+Installed-Size: 62224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.2-2
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.2-2_aarch64.deb
+Size: 39074596
+SHA256: 91fdac2ce90234163a500ad2039ce703c19a766fd4fdfd5a6cfdf59bd0e1055b
+
+Package: r-cran
+Architecture: aarch64
 Installed-Size: 87816
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.2
@@ -2094,6 +2130,18 @@ Depends: python, libgfortran, numpy, openblas
 Filename: dists/termux/extras/binary-aarch64/scipy_0.19.1_aarch64.deb
 Size: 9562448
 SHA256: c9825067b5967a0162d2533d09d9ce1f83f6a2051ab54ce830f6cd7c1d0ada74
+
+Package: scipy
+Architecture: aarch64
+Installed-Size: 42984
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.0
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Filename: dists/termux/extras/binary-aarch64/scipy_1.0.0_aarch64.deb
+Size: 8971012
+SHA256: 7be519485307bce258b8949cf2f98884ad26c0fca446f68f7153c32e95dfec9a
 
 Package: suitesparse-dev
 Architecture: aarch64

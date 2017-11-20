@@ -1058,27 +1058,15 @@ SHA256: 1b56bf7e033caaae69d08988e2d42ae3a9f2d5e291308237516c259887bcc1f8
 
 Package: numpy
 Architecture: arm
-Installed-Size: 13292
-Maintainer: @its-pointless github
+Installed-Size: 13136
+Maintainer: Fredrik Fornwall @fornwall
 Version: 1.13.3-1
 Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
+Homepage: http://www.numpy.org/
+Depends: openblas, python
 Filename: dists/termux/extras/binary-arm/numpy_1.13.3-1_arm.deb
-Size: 2100352
-SHA256: 5e0b55085e2ef0d1bd786918ec8330102657a1ae26a7c5e7e41ee23e4d32aad3
-
-Package: numpy
-Architecture: arm
-Installed-Size: 13288
-Maintainer: @its-pointless github
-Version: 1.13.3
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
-Filename: dists/termux/extras/binary-arm/numpy_1.13.3_arm.deb
-Size: 2100588
-SHA256: c6637040d8063b1142a07f18d6ef9f22177b3152e3fcf8b08a891e10faa7b65a
+Size: 2072852
+SHA256: 9d3ab5c92c13d108961b98ef99fe381320e50d73e01102aa09ae5260e1b34851
 
 Package: ocaml
 Architecture: arm
@@ -1296,27 +1284,27 @@ SHA256: c638b61954fcc12643c32264b25699c203e4b159d15310638b5b11036432b787
 
 Package: python2-numpy
 Architecture: arm
-Installed-Size: 14384
-Maintainer: @its-pointless github
+Installed-Size: 14236
+Maintainer: Fredrik Fornwall @fornwall
 Version: 1.13.3-1
 Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
+Homepage: http://www.numpy.org/
+Depends: openblas, python2
 Filename: dists/termux/extras/binary-arm/python2-numpy_1.13.3-1_arm.deb
-Size: 2253280
-SHA256: 4224153b6c4a84aed75172d3e529779aab12b53ea6fe0d3b26fdfa5f30bf3584
+Size: 2221276
+SHA256: d334a644a14a6a05eb0f554250eb16694040f6bbfce4be23c423d4d3e1cf90c1
 
-Package: python2-numpy
+Package: python2-scipy
 Architecture: arm
-Installed-Size: 14388
-Maintainer: @its-pointless github
-Version: 1.13.3
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
-Filename: dists/termux/extras/binary-arm/python2-numpy_1.13.3_arm.deb
-Size: 2253172
-SHA256: a954ebe0acdd0b6c1f491f5f15a588c74157e1b16e7dc37802c60807dc0af3ac
+Installed-Size: 42392
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.0
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Filename: dists/termux/extras/binary-arm/python2-scipy_1.0.0_arm.deb
+Size: 9583076
+SHA256: 885980bf8b140e475643bafeaf01669dbd9aaa21286577a9ce53acb6729c7631
 
 Package: python2-scipy
 Architecture: arm
@@ -2025,32 +2013,6 @@ Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.8-0_arm.deb
 Size: 855256
 SHA256: 500656979fc49caa961e5dc72b5725d6f127ed90c61e04b499c77446a0a8a616
 
-Package: r-cran-zoo
-Architecture: arm
-Installed-Size: 1236
-Maintainer: @its-pointless github
-Version: 1.80-1
-Description: S3 Infrastructure for Regular and Irregular Time Series
-Homepage: https://cran.r-project.org/web/packages/zoo/
-Depends: r-cran
-Replaces: zoo
-Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.80-1_arm.deb
-Size: 855528
-SHA256: 379730deef953f7850d6e094fe691824dac31bae6dcab04ff686fc564d28c791
-
-Package: r-cran-zoo
-Architecture: arm
-Installed-Size: 1236
-Maintainer: @its-pointless github
-Version: 1.80-2
-Description: S3 Infrastructure for Regular and Irregular Time Series
-Homepage: https://cran.r-project.org/web/packages/zoo/
-Depends: r-cran
-Replaces: zoo
-Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.80-2_arm.deb
-Size: 855680
-SHA256: 611e2461b50157b03384237569421f99781a0e6e371ac5be57f2df2b5a53e612
-
 Package: r-cran
 Architecture: arm
 Installed-Size: 59584
@@ -2086,6 +2048,18 @@ Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, rea
 Filename: dists/termux/extras/binary-arm/r-cran_3.4.2-1_arm.deb
 Size: 40009176
 SHA256: 79c70c13e46ef99aa042dd3bfab020e4ca35887887be0fa0bbd8455b3ab57b91
+
+Package: r-cran
+Architecture: arm
+Installed-Size: 64148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.2-2
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-arm/r-cran_3.4.2-2_arm.deb
+Size: 40013552
+SHA256: 035958d171cb4677885361e7588405882bcde7657462f8eaca385c7046ea2f50
 
 Package: r-cran
 Architecture: arm
@@ -2206,18 +2180,6 @@ SHA256: de80d8d3eef3be77c4001109261ac6719b5e9f871b6eddb6aff7290c21ecbe79
 
 Package: scipy
 Architecture: arm
-Installed-Size: 40920
-Maintainer: @its-pointless github
-Version: 0.19.1-1
-Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
-Homepage: https://github.com/scipy/scipy
-Depends: numpy
-Filename: dists/termux/extras/binary-arm/scipy_0.19.1-1_arm.deb
-Size: 9635396
-SHA256: 276ca9076105b97b423fc32d4d46132e511d2a0820580334d1d39ed0e5cef64c
-
-Package: scipy
-Architecture: arm
 Installed-Size: 39572
 Maintainer: @its-pointless github
 Version: 0.19.1-2
@@ -2227,6 +2189,18 @@ Depends: numpy
 Filename: dists/termux/extras/binary-arm/scipy_0.19.1-2_arm.deb
 Size: 9210992
 SHA256: fbe3008f52b40ad175024f2e37172639ddfce9ddcecbfbc76608a65e2a01d0d0
+
+Package: scipy
+Architecture: arm
+Installed-Size: 39444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.0
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Filename: dists/termux/extras/binary-arm/scipy_1.0.0_arm.deb
+Size: 9035392
+SHA256: cf9df5e61a0c3a5ca95539d1146d51e34677337527cb281272843f6c1be87c9b
 
 Package: scipy
 Architecture: arm
