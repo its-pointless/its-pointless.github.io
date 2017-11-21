@@ -9,18 +9,6 @@ Filename: dists/termux/extras/binary-aarch64/2048-cli_0.9.1_aarch64.deb
 Size: 6180
 SHA256: 4f7035a923571be4085c8ec3ff0010be115d97b204906dcff56d54724cbea326
 
-Package: alpine
-Architecture: aarch64
-Installed-Size: 8452
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.21-1
-Description: Fast, easy to use email client
-Homepage: http://patches.freeiz.com
-Depends: libcrypt, ncurses, openssl
-Filename: dists/termux/extras/binary-aarch64/alpine_2.21-1_aarch64.deb
-Size: 1547040
-SHA256: 3c70bc74f8dbfd0445140cfa79a5acb0c7b1a3fef554b203dda337ccb9a80912
-
 Package: arpack-ng
 Architecture: aarch64
 Installed-Size: 280
@@ -68,6 +56,17 @@ Depends: libandroid-support, readline, gsl, fftw, libsigsegv
 Filename: dists/termux/extras/binary-aarch64/asymptote_2.41_aarch64.deb
 Size: 2540872
 SHA256: bb37aa94d94f461a4a0ccf36a79b1d3191f36cb4cf176f74ff60eb5188484cc3
+
+Package: atomicparsley
+Architecture: aarch64
+Installed-Size: 288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.6
+Description: read, parse and set metadata of MPEG-4 and 3gp files
+Homepage: https://bitbucket.org/wez/atomicparsley
+Filename: dists/termux/extras/binary-aarch64/atomicparsley_0.9.6_aarch64.deb
+Size: 82848
+SHA256: 3c7ba4b059897a99792104b010796a5a83cf31befa1035e48deec3ba5f7db7a1
 
 Package: bastet
 Architecture: aarch64
@@ -210,42 +209,6 @@ SHA256: 48cae51a0cf6ca49bbed17c3fa16c8ad2ecac6a64615dbd842bb00c5b67d685a
 
 Package: cargo
 Architecture: aarch64
-Installed-Size: 5516
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.19.0-1
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.19.0-1_aarch64.deb
-Size: 1460600
-SHA256: 3d2417286cb92a4b9fa77d39fd7ccf03970f5ac88221c05f01dce6283ed885f1
-
-Package: cargo
-Architecture: aarch64
-Installed-Size: 5644
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.20.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.20.0_aarch64.deb
-Size: 1621836
-SHA256: cf019d749ea7943088a117e92f205cdce468144449fde22c357217f4d18198b3
-
-Package: cargo
-Architecture: aarch64
-Installed-Size: 5240
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.21.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.21.0_aarch64.deb
-Size: 1488184
-SHA256: 5506c17cd84a3f0f9b18e217f3440d80d09c5d2ccb0b4ba9781772b127fe7541
-
-Package: cargo
-Architecture: aarch64
 Installed-Size: 5372
 Maintainer: Vishal Biswas @vishalbiswas
 Version: 0.22.0
@@ -277,18 +240,6 @@ Homepage: https://dopewars.sourceforge.io/
 Filename: dists/termux/extras/binary-aarch64/dopewars_1.5.12_aarch64.deb
 Size: 48352
 SHA256: de268db5371ea05e77437297e319739ee2f84e0380627d91917b1521c144c534
-
-Package: gcc-6
-Architecture: aarch64
-Installed-Size: 71264
-Maintainer:  @its-pointless github
-Version: 6.3.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-aarch64/gcc-6_6.3.0-4_aarch64.deb
-Size: 19255116
-SHA256: 94cf7c9acfbcae9acd3085c91fb38aaca85e6b44ab3bd599573119c9c571c8ac
 
 Package: gcc-6
 Architecture: aarch64
@@ -325,44 +276,6 @@ Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot,
 Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0_aarch64.deb
 Size: 19281888
 SHA256: 2a146d7544e00fb69af01e180f9165be322d69467d9b4c23472305b18cdd0be4
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 76740
-Maintainer:  @its-pointless github
-Version: 7.1.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Replaces: libgfortran-4
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.1.0-1_aarch64.deb
-Size: 20550152
-SHA256: e79091d85c1ba8b5d3da336831ef61d7524bc01d587674de6ae4ed9acfa20281
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 76116
-Maintainer:  @its-pointless github
-Version: 7.1.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Replaces: libgfortran-4
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.1.0-2_aarch64.deb
-Size: 20502952
-SHA256: 72f6e2e1787bc17dbf9db817d566b15abe7f43f529c3b08d4f4940e3a73a5e05
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 61076
-Maintainer:  @its-pointless github
-Version: 7.1.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: libgfortran-4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.1.0_aarch64.deb
-Size: 16047096
-SHA256: b886e25cd2d9ca7a1a610b38f0fc2fab88766d72977980edc4a1b521681d68f1
 
 Package: gcc-7
 Architecture: aarch64
@@ -1127,30 +1040,6 @@ Depends: wget, curl, git, patch, tar, gzip, bzip2, xz-utils, rsync, termux-exec
 Filename: dists/termux/extras/binary-aarch64/opam_1.2.2.1_aarch64.deb
 Size: 2390060
 SHA256: a48a7eff8a3a5f46f12cd12450adc9b6e0ae2db87075b64fecc86ef8b7d19284
-
-Package: openblas
-Architecture: aarch64
-Installed-Size: 9972
-Maintainer: @its-pointless github
-Version: 0.2.19-2
-Description: openblas
-Homepage: http://www.openblas.net/
-Depends: libgcc, libgfortran
-Filename: dists/termux/extras/binary-aarch64/openblas_0.2.19-2_aarch64.deb
-Size: 2192604
-SHA256: fed16c90421ee90fd120b581ceed83f80b31ecc09453e2dfa73debc6759b642f
-
-Package: openblas
-Architecture: aarch64
-Installed-Size: 9972
-Maintainer: @its-pointless github
-Version: 0.2.19-3
-Description: openblas
-Homepage: http://www.openblas.net/
-Depends: libgcc, libgfortran4
-Filename: dists/termux/extras/binary-aarch64/openblas_0.2.19-3_aarch64.deb
-Size: 2192904
-SHA256: 656543ba1cce7c9cc249b9c215cb15139eabdaaf30310a49d909a2f76842da43
 
 Package: openblas
 Architecture: aarch64
@@ -1956,18 +1845,6 @@ SHA256: 69baca34e8d2ee8f33c913998d71a2c2e1a9b4df95bf0297ca1fc6254f13e448
 
 Package: r-cran
 Architecture: aarch64
-Installed-Size: 60072
-Maintainer: @its-pointless github
-Version: 3.4.1
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: libandroid-glob, libandroid-support, libicu, libgfortran4, openblas, liblzma, readline, pcre, libcurl, libbz2
-Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.1_aarch64.deb
-Size: 39041620
-SHA256: 131f9c067f1e3b51b4393207e8660d468ebf7303a5142a1e7a64be284cab9d19
-
-Package: r-cran
-Architecture: aarch64
 Installed-Size: 62224
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.2-1
@@ -2015,28 +1892,6 @@ SHA256: 3329b4f0695999c16ea67c02cffa377655199df1f083b3bc04db70f7008c6238
 
 Package: ripgrep
 Architecture: aarch64
-Installed-Size: 2216
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.5.2
-Description: fast grep written in rust
-Homepage: https://github.com/BurntSushi/ripgrep
-Filename: dists/termux/extras/binary-aarch64/ripgrep_0.5.2_aarch64.deb
-Size: 710516
-SHA256: ffbeb0a97c76cd95174673efc7e08574ae1afb3b5ef2a48fabb39fc9429c1a93
-
-Package: ripgrep
-Architecture: aarch64
-Installed-Size: 2236
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.6.0
-Description: fast grep written in rust
-Homepage: https://github.com/BurntSushi/ripgrep
-Filename: dists/termux/extras/binary-aarch64/ripgrep_0.6.0_aarch64.deb
-Size: 725120
-SHA256: 82f0aa2a82672dd433875672e29194f0be5b51d4d0a47f87a28d66d84d3e9c99
-
-Package: ripgrep
-Architecture: aarch64
 Installed-Size: 2340
 Maintainer: @its-pointless
 Version: 0.7.1
@@ -2045,30 +1900,6 @@ Homepage: https://github.com/BurntSushi/ripgrep
 Filename: dists/termux/extras/binary-aarch64/ripgrep_0.7.1_aarch64.deb
 Size: 735604
 SHA256: a7450e9751705b06daa59254ab0115a0ad3bf2902b800d7b505f98b9bc6fe76d
-
-Package: rustc
-Architecture: aarch64
-Installed-Size: 91288
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.18.0-1
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-aarch64/rustc_1.18.0-1_aarch64.deb
-Size: 34596924
-SHA256: 44e7d33418308431626fc62d35077b3219ade0ede2c54fc2dc042de1b3d622a7
-
-Package: rustc
-Architecture: aarch64
-Installed-Size: 94740
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.19.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-aarch64/rustc_1.19.0_aarch64.deb
-Size: 37930176
-SHA256: 280666c39b1f6e6e531ecc333e12d1e65e7f83acf91559448ad5e9cb7e540c99
 
 Package: rustc
 Architecture: aarch64

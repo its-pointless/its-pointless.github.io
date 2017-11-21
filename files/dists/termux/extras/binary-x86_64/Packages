@@ -34,6 +34,17 @@ Filename: dists/termux/extras/binary-x86_64/asymptote_2.41_x86_64.deb
 Size: 2673248
 SHA256: 3e3d4ece97fac30c6963101abc9083b9920943338f453007f61879e27a37c291
 
+Package: atomicparsley
+Architecture: x86_64
+Installed-Size: 244
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.6
+Description: read, parse and set metadata of MPEG-4 and 3gp files
+Homepage: https://bitbucket.org/wez/atomicparsley
+Filename: dists/termux/extras/binary-x86_64/atomicparsley_0.9.6_x86_64.deb
+Size: 91108
+SHA256: 1c050d65882e77eef3cbc80e244400cb7fbaaa4ba6e9b176b6ca4e6ca6d5e783
+
 Package: bastet
 Architecture: x86_64
 Installed-Size: 28
@@ -175,30 +186,6 @@ SHA256: d32dda5c13d2658f81b2c6334a3cef48ef4fcff5b6d7fa558883215ce33e68c4
 
 Package: cargo
 Architecture: x86_64
-Installed-Size: 6744
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.20.0-1
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-x86_64/cargo_0.20.0-1_x86_64.deb
-Size: 1856852
-SHA256: 69243355f8551351c4a857786bdba40e5ae57904ad338e8c662c06a8b4869bd8
-
-Package: cargo
-Architecture: x86_64
-Installed-Size: 6316
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.21.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-x86_64/cargo_0.21.0_x86_64.deb
-Size: 1749120
-SHA256: fc642c262a34a2ddb6cd71620d2012671d78db3928511f2da20cf17d8589e6af
-
-Package: cargo
-Architecture: x86_64
 Installed-Size: 6584
 Maintainer: Vishal Biswas @vishalbiswas
 Version: 0.22.0-1
@@ -230,19 +217,6 @@ Homepage: https://dopewars.sourceforge.io/
 Filename: dists/termux/extras/binary-x86_64/dopewars_1.5.12_x86_64.deb
 Size: 55952
 SHA256: 726cd63ab33ea047b4efc3e062088be6b9ddf6bf70b8708f2931716326e5d0f8
-
-Package: gcc-7
-Architecture: x86_64
-Installed-Size: 104096
-Maintainer:  @its-pointless github
-Version: 7.1.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Replaces: libgfortran-4
-Filename: dists/termux/extras/binary-x86_64/gcc-7_7.1.0-2_x86_64.deb
-Size: 27755996
-SHA256: 531c9568e34b5d73643390de77479e575a6e2c75c0e008776ee2a0bc5aa2cc2e
 
 Package: gcc-7
 Architecture: x86_64
@@ -1412,30 +1386,6 @@ SHA256: 5162f4ff084d59b98a0e790aacf93d8ed96442060e8e51fbea7492f90faf6547
 
 Package: r-cran
 Architecture: x86_64
-Installed-Size: 63584
-Maintainer: @its-pointless github
-Version: 3.4.0-2
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: libandroid-glob, libandroid-support, libicu, libgfortran, openblas, liblzma, readline, pcre, libcurl, libbz2
-Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.0-2_x86_64.deb
-Size: 40353908
-SHA256: 4920eb9076e687e5b585458968074f0fb3ac084c1a5de49f10585d893bb93509
-
-Package: r-cran
-Architecture: x86_64
-Installed-Size: 61520
-Maintainer: @its-pointless github
-Version: 3.4.1
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: libandroid-glob, libandroid-support, libicu, libgfortran4, openblas, liblzma, readline, pcre, libcurl, libbz2
-Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.1_x86_64.deb
-Size: 39549288
-SHA256: 420b3e5d1b9d95bcded18d05832f2bbcdbd7103f6bb499a746ff3e54ce2f5400
-
-Package: r-cran
-Architecture: x86_64
 Installed-Size: 63252
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.2-1
@@ -1468,17 +1418,6 @@ Homepage: https://cran.r-project.org/
 Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.2_x86_64.deb
 Size: 40170360
 SHA256: bd8e3f085f421853d09d92bea2afd759b1728f3ac2c18c64ec1a66649e4e7dca
-
-Package: ripgrep
-Architecture: x86_64
-Installed-Size: 2616
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.6.0
-Description: fast grep written in rust
-Homepage: https://github.com/BurntSushi/ripgrep
-Filename: dists/termux/extras/binary-x86_64/ripgrep_0.6.0_x86_64.deb
-Size: 842092
-SHA256: 9800cd71ead2fb67146469b76ed25ed9b920f818b9f5dbab6d4a5dfb6596b902
 
 Package: ripgrep
 Architecture: x86_64

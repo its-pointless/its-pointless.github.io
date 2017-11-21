@@ -9,18 +9,6 @@ Filename: dists/termux/extras/binary-arm/2048-cli_0.9.1_arm.deb
 Size: 8856
 SHA256: a05e64fec58be129cd107f9b1357f7b241dc4f8d1624c66221805aa6182c9c3f
 
-Package: alpine
-Architecture: arm
-Installed-Size: 6612
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.21-1
-Description: Fast, easy to use email client
-Homepage: http://patches.freeiz.com
-Depends: libcrypt, ncurses, openssl
-Filename: dists/termux/extras/binary-arm/alpine_2.21-1_arm.deb
-Size: 1505612
-SHA256: 836e002c21aa3ba80bce07be4ffb176c12b8cc2ceb850f3eec4eda7c45a8bff4
-
 Package: arpack-ng
 Architecture: arm
 Installed-Size: 1396
@@ -68,6 +56,17 @@ Depends: libandroid-support, readline, gsl, fftw, libsigsegv
 Filename: dists/termux/extras/binary-arm/asymptote_2.41_arm.deb
 Size: 2575840
 SHA256: 7f3a9e70045db9792d12d92d281c27b1a774821d1ed814ead8d9b2dc2ad21391
+
+Package: atomicparsley
+Architecture: arm
+Installed-Size: 212
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.6
+Description: read, parse and set metadata of MPEG-4 and 3gp files
+Homepage: https://bitbucket.org/wez/atomicparsley
+Filename: dists/termux/extras/binary-arm/atomicparsley_0.9.6_arm.deb
+Size: 93992
+SHA256: 621783f31419e2fe32f12e2280274c9f5f9defff80389ffd8893d7bbadf7c70c
 
 Package: bastet
 Architecture: arm
@@ -210,54 +209,6 @@ SHA256: fe7485a1a854252917248a5629f0f9aa719287964e0957fb6f737b5440019b2f
 
 Package: cargo
 Architecture: arm
-Installed-Size: 5344
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.19.0-1
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.19.0-1_arm.deb
-Size: 1479300
-SHA256: 1ba9950c1d45063fdc3eeb6290c99ec792185c630258725b241ee7b0dff8f1c8
-
-Package: cargo
-Architecture: arm
-Installed-Size: 5600
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.20.0-1
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.20.0-1_arm.deb
-Size: 1626124
-SHA256: e2b9c92954e3c8e2d40b50c0297b7ba0649434427ea261013390540940f69ac8
-
-Package: cargo
-Architecture: arm
-Installed-Size: 5596
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.20.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.20.0_arm.deb
-Size: 1624916
-SHA256: e485d3b7e5aa88b0c02eae4b80564f3b6d3c18f45ea5a450307e37db97d6af19
-
-Package: cargo
-Architecture: arm
-Installed-Size: 5264
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.21.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.21.0_arm.deb
-Size: 1520360
-SHA256: b5517b842125a3525409eb1e9c06c3a1c575aad1127b9f9638b7b1d0a620d3a9
-
-Package: cargo
-Architecture: arm
 Installed-Size: 5752
 Maintainer: Vishal Biswas @vishalbiswas
 Version: 0.22.0-1
@@ -315,18 +266,6 @@ SHA256: be5d60ee9bb76f69ddb3930e769788da26e513e2982703c510e237ca86c4338a
 
 Package: gcc-6
 Architecture: arm
-Installed-Size: 71492
-Maintainer:  @its-pointless github
-Version: 6.3.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-arm/gcc-6_6.3.0-4_arm.deb
-Size: 20660080
-SHA256: 738d6fd2ba665b24ab85e45af1b7e96e3dc5f1a1c21c1cd978fe923b0b710e20
-
-Package: gcc-6
-Architecture: arm
 Installed-Size: 71264
 Maintainer:  @its-pointless github
 Version: 6.4.0-1
@@ -348,44 +287,6 @@ Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot,
 Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0_arm.deb
 Size: 20669112
 SHA256: 7d76695a73107864bd782abc53d8c0eaa481d79e1736093eef4c9522cec00b01
-
-Package: gcc-7
-Architecture: arm
-Installed-Size: 75036
-Maintainer:  @its-pointless github
-Version: 7.1.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Replaces: libgfortran-4
-Filename: dists/termux/extras/binary-arm/gcc-7_7.1.0-1_arm.deb
-Size: 21564584
-SHA256: 408fe3618b4817d6b83e491eae54110b9fb1fc84013622d0d3db51aefa18d6c9
-
-Package: gcc-7
-Architecture: arm
-Installed-Size: 74756
-Maintainer:  @its-pointless github
-Version: 7.1.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Replaces: libgfortran-4
-Filename: dists/termux/extras/binary-arm/gcc-7_7.1.0-2_arm.deb
-Size: 21516676
-SHA256: 0b7f86a0bfd318d9812dce237c337710e48dea041e842862e7c0303f2d0fa666
-
-Package: gcc-7
-Architecture: arm
-Installed-Size: 59376
-Maintainer:  @its-pointless github
-Version: 7.1.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: libgfortran-4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-arm/gcc-7_7.1.0_arm.deb
-Size: 16769040
-SHA256: ca825d51d631e30e0ec5a415eabf53a43c166096f460a367737c38e4e9549dae
 
 Package: gcc-7
 Architecture: arm
@@ -2026,30 +1927,6 @@ SHA256: 500656979fc49caa961e5dc72b5725d6f127ed90c61e04b499c77446a0a8a616
 
 Package: r-cran
 Architecture: arm
-Installed-Size: 59584
-Maintainer: @its-pointless github
-Version: 3.4.1-1
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: libandroid-glob, libandroid-support, libgfortran4, libicu, openblas, liblzma, readline, pcre, libcurl, libbz2
-Filename: dists/termux/extras/binary-arm/r-cran_3.4.1-1_arm.deb
-Size: 38926192
-SHA256: bdcf2e3e5cf25964b57a344a31d9287dce4406b5f73abffe3fb0fc8c65fdadd0
-
-Package: r-cran
-Architecture: arm
-Installed-Size: 61372
-Maintainer: @its-pointless github
-Version: 3.4.1
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: libandroid-glob, libandroid-support, libgfortran4, libicu, libatlas, liblzma, readline, pcre, libcurl, libbz2
-Filename: dists/termux/extras/binary-arm/r-cran_3.4.1_arm.deb
-Size: 38533040
-SHA256: e8176545771c06c2b05fec3203c9a6859949edb875aec69b8622507e2b9ae507
-
-Package: r-cran
-Architecture: arm
 Installed-Size: 64148
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.2-1
@@ -2086,28 +1963,6 @@ SHA256: 87d88aebbb935af5845c1373a09ad684370062dc729e5f1b3285b583866e915b
 
 Package: ripgrep
 Architecture: arm
-Installed-Size: 2220
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.5.2
-Description: fast grep written in rust
-Homepage: https://github.com/BurntSushi/ripgrep
-Filename: dists/termux/extras/binary-arm/ripgrep_0.5.2_arm.deb
-Size: 704600
-SHA256: 1e2e2787fe6b21fe9b83ffdcd8335c3dd44d18b5413599f6c098678042a12c7d
-
-Package: ripgrep
-Architecture: arm
-Installed-Size: 2232
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.6.0
-Description: fast grep written in rust
-Homepage: https://github.com/BurntSushi/ripgrep
-Filename: dists/termux/extras/binary-arm/ripgrep_0.6.0_arm.deb
-Size: 726700
-SHA256: 237f87a37accf9b93bccd2f76b1c9b56e050bec434034eef082c30aa42f78df0
-
-Package: ripgrep
-Architecture: arm
 Installed-Size: 2284
 Maintainer: @its-pointless
 Version: 0.7.1
@@ -2116,30 +1971,6 @@ Homepage: https://github.com/BurntSushi/ripgrep
 Filename: dists/termux/extras/binary-arm/ripgrep_0.7.1_arm.deb
 Size: 719248
 SHA256: 1110ab4b0d8e1d25b5c3ce1217f9cfcd537dd1960f6a574f2a7b4f95dc657785
-
-Package: rustc
-Architecture: arm
-Installed-Size: 87956
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.18.0-1
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-arm/rustc_1.18.0-1_arm.deb
-Size: 34541156
-SHA256: f5563b341121f7f95b3df2b3009e17f914c14c6746797dcc6b342ad0bfd52d78
-
-Package: rustc
-Architecture: arm
-Installed-Size: 91640
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.19.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-arm/rustc_1.19.0_arm.deb
-Size: 37947556
-SHA256: e3f7cb2277bc02f13c7f5650fd6ca8340c401c247665441ad68771e8f8132b17
 
 Package: rustc
 Architecture: arm

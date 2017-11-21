@@ -34,6 +34,17 @@ Filename: dists/termux/extras/binary-i686/asymptote_2.41_i686.deb
 Size: 2669008
 SHA256: 42f1e387e9e33cb9c979b3541989f1d06a87aa6170284edf6782cba3e4f4fe08
 
+Package: atomicparsley
+Architecture: i686
+Installed-Size: 236
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.6
+Description: read, parse and set metadata of MPEG-4 and 3gp files
+Homepage: https://bitbucket.org/wez/atomicparsley
+Filename: dists/termux/extras/binary-i686/atomicparsley_0.9.6_i686.deb
+Size: 90888
+SHA256: 41f30b511ae200fb0542c7f066fbeee8d221d7ef58ab90004edec69cf2351b51
+
 Package: bastet
 Architecture: i686
 Installed-Size: 232
@@ -164,30 +175,6 @@ SHA256: cd6e4ff715f8e47214e81b732119ddc5fbfa7be8d2c40aed16143275d04c6cb6
 
 Package: cargo
 Architecture: i686
-Installed-Size: 7496
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.20.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-i686/cargo_0.20.0_i686.deb
-Size: 1984080
-SHA256: c0cb3e973030c8ef419eb587e24ec1b9134655822e7647571f58e2d95f8c0a76
-
-Package: cargo
-Architecture: i686
-Installed-Size: 6756
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.21.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-i686/cargo_0.21.0_i686.deb
-Size: 1849996
-SHA256: 519e8421d3b28280aa99cf5579fb835085fc59ec8f4fbb6175a9e3999f201c6a
-
-Package: cargo
-Architecture: i686
 Installed-Size: 7072
 Maintainer: Vishal Biswas @vishalbiswas
 Version: 0.22.0
@@ -219,19 +206,6 @@ Homepage: https://dopewars.sourceforge.io/
 Filename: dists/termux/extras/binary-i686/dopewars_1.5.12_i686.deb
 Size: 51332
 SHA256: ea838b5b73e6fc9c30e2e36cff0e5419fcf8a5ff6f5520b6d5c658830c3ca1ba
-
-Package: gcc-7
-Architecture: i686
-Installed-Size: 102216
-Maintainer:  @its-pointless github
-Version: 7.1.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Replaces: libgfortran-4
-Filename: dists/termux/extras/binary-i686/gcc-7_7.1.0-2_i686.deb
-Size: 26898768
-SHA256: 3b257d2b83ec841f83c51717444851a294e37e6a3c7155fcc3b9ea6b76b9c314
 
 Package: gcc-7
 Architecture: i686
@@ -1376,18 +1350,6 @@ SHA256: dde72d150bc7838321dbc522c9bf55e6b0daffe6b528854d11f7ff20c343ff4a
 
 Package: r-cran
 Architecture: i686
-Installed-Size: 60568
-Maintainer: @its-pointless github
-Version: 3.4.1
-Description: R is ‘GNU S’, a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques
-Homepage: https://cran.r-project.org/
-Depends: libandroid-glob, libandroid-support, libicu, libgfortran4, openblas, liblzma, readline, pcre, libcurl, libbz2
-Filename: dists/termux/extras/binary-i686/r-cran_3.4.1_i686.deb
-Size: 39236348
-SHA256: ad8c11be47789baaefc3bfa30025a3e2bad28a53e78122408d1402266fdfaf95
-
-Package: r-cran
-Architecture: i686
 Installed-Size: 63216
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.2-2
@@ -1412,17 +1374,6 @@ SHA256: 4df9bab58e7ea6da86accc511873c0fb0e1dd993356530de31da1340ef09ff78
 
 Package: ripgrep
 Architecture: i686
-Installed-Size: 2984
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.6.0
-Description: fast grep written in rust
-Homepage: https://github.com/BurntSushi/ripgrep
-Filename: dists/termux/extras/binary-i686/ripgrep_0.6.0_i686.deb
-Size: 900708
-SHA256: 4f6c0fdcefbb6b7f2dbe89e68c2fa49dc61b3042c795c5901fb586c8a6fcd532
-
-Package: ripgrep
-Architecture: i686
 Installed-Size: 3020
 Maintainer: @its-pointless
 Version: 0.7.1
@@ -1431,18 +1382,6 @@ Homepage: https://github.com/BurntSushi/ripgrep
 Filename: dists/termux/extras/binary-i686/ripgrep_0.7.1_i686.deb
 Size: 900320
 SHA256: 7847a466f63880cca08a1930fee648f1002798e92e72afd0c7896baaeee919e3
-
-Package: rustc
-Architecture: i686
-Installed-Size: 98872
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.19.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-i686/rustc_1.19.0_i686.deb
-Size: 39479656
-SHA256: 49988d9f9a9c7142e5e115ca9076cc8a946625171c3a29d0c9fb2d5766be6d61
 
 Package: rustc
 Architecture: i686
