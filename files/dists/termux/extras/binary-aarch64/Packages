@@ -256,6 +256,17 @@ Filename: dists/termux/extras/binary-aarch64/cargo_0.22.0_aarch64.deb
 Size: 1549008
 SHA256: b0b171531bc507ba69de62c64332c35ea08e1d69771144a3831f6f010a2476f2
 
+Package: distcc
+Architecture: aarch64
+Installed-Size: 412
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2-rc1-1
+Description: Distributed C/C++ compiler.
+Homepage: http://distcc.org/
+Filename: dists/termux/extras/binary-aarch64/distcc_3.2-rc1-1_aarch64.deb
+Size: 91896
+SHA256: 49375514dfa7ad2f92f448b7c0dc0f4c22fe7907d0c0839ddea44b316cbe4e80
+
 Package: dopewars
 Architecture: aarch64
 Installed-Size: 148
@@ -2237,3 +2248,26 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-aarch64/unicorn_1.0.1_aarch64.deb
 Size: 854228
 SHA256: 44dd84a23212ce09300b9013bc50298be6ce33176cb92b6bc456933340384326
+
+Package: zstd-dev
+Architecture: aarch64
+Installed-Size: 116
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2-1
+Description: Development files for zstd
+Homepage: https://github.com/facebook/zstd
+Depends: zstd
+Filename: dists/termux/extras/binary-aarch64/zstd-dev_1.3.2-1_aarch64.deb
+Size: 23116
+SHA256: 946924362dc65d979d09093e3908d55b49f78e6d0a0301a31cd5d5fc2228c50a
+
+Package: zstd
+Architecture: aarch64
+Installed-Size: 612
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2-1
+Description: Zstandard compression.
+Homepage: https://github.com/facebook/zstd
+Filename: dists/termux/extras/binary-aarch64/zstd_1.3.2-1_aarch64.deb
+Size: 125764
+SHA256: e84884343651f07a3de020f25b9c6fa4c9ca0016139a010d7181e1e4c18e780a

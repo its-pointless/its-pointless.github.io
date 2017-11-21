@@ -280,6 +280,17 @@ Filename: dists/termux/extras/binary-arm/cargo_0.22.0-2_arm.deb
 Size: 1786652
 SHA256: 478f6950f013bce946a3f02eaf78377576c0e7b2623e86697fb704f308306dc9
 
+Package: distcc
+Architecture: arm
+Installed-Size: 264
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2-rc1-1
+Description: Distributed C/C++ compiler.
+Homepage: http://distcc.org/
+Filename: dists/termux/extras/binary-arm/distcc_3.2-rc1-1_arm.deb
+Size: 90616
+SHA256: a1ff99e192d56e067393e02bc61694fb73f0533fcddc3079f299afd20b865b4d
+
 Package: dopewars
 Architecture: arm
 Installed-Size: 120
@@ -2308,3 +2319,26 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-arm/unicorn_1.0.1_arm.deb
 Size: 1126228
 SHA256: 20ac3ee2cfd9d355f61339bc200c6a4a1dc6a5b3a2f8dcc9f390e42aac3acb21
+
+Package: zstd-dev
+Architecture: arm
+Installed-Size: 116
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2-1
+Description: Development files for zstd
+Homepage: https://github.com/facebook/zstd
+Depends: zstd
+Filename: dists/termux/extras/binary-arm/zstd-dev_1.3.2-1_arm.deb
+Size: 23120
+SHA256: 872849ee283be4966272f308a46a64ca2804c140484d79e492007816610190b0
+
+Package: zstd
+Architecture: arm
+Installed-Size: 456
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2-1
+Description: Zstandard compression.
+Homepage: https://github.com/facebook/zstd
+Filename: dists/termux/extras/binary-arm/zstd_1.3.2-1_arm.deb
+Size: 139136
+SHA256: edd54e6fc455234ff8dc0ae04120dc552bcf7ee2490d9b921b3428d041d19cc7
