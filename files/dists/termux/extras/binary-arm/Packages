@@ -1974,6 +1974,18 @@ SHA256: 035958d171cb4677885361e7588405882bcde7657462f8eaca385c7046ea2f50
 
 Package: r-cran
 Architecture: arm
+Installed-Size: 61284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.2-3
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-arm/r-cran_3.4.2-3_arm.deb
+Size: 39556928
+SHA256: f851dc47374ca757dabdb6d53ddd1c76142e8ce1944fd3c0f7257792b575c96e
+
+Package: r-cran
+Architecture: arm
 Installed-Size: 59256
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.2
