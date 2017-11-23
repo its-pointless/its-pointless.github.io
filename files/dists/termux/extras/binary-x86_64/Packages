@@ -220,6 +220,18 @@ SHA256: 726cd63ab33ea047b4efc3e062088be6b9ddf6bf70b8708f2931716326e5d0f8
 
 Package: gcc-7
 Architecture: x86_64
+Installed-Size: 105100
+Maintainer: @its-pointless github
+Version: 7.2.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
+Filename: dists/termux/extras/binary-x86_64/gcc-7_7.2.0-1_x86_64.deb
+Size: 27872576
+SHA256: a0d72ebb4b2b8f101a30e6e7d640b2a9a10c1584ca3c709ec2fecf37aa879550
+
+Package: gcc-7
+Architecture: x86_64
 Installed-Size: 104124
 Maintainer:  @its-pointless github
 Version: 7.2.0
@@ -419,6 +431,17 @@ Conflicts: libgfortran-4
 Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.2.0_x86_64.deb
 Size: 660656
 SHA256: 4c2e23a2e24879da7fb481e2d957c43dcd5aca2a04416491be17c513241574ea
+
+Package: libgomp
+Architecture: x86_64
+Installed-Size: 544
+Maintainer: @its-pointless github
+Version: 4.9.x
+Description: openmp library for gcc and gfortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-x86_64/libgomp_4.9.x_x86_64.deb
+Size: 188464
+SHA256: 7d37f67c54c572233250e7cd4b8397a8284c5e56459fb9ab18cf2d747401e718
 
 Package: libllvm-4so
 Architecture: x86_64

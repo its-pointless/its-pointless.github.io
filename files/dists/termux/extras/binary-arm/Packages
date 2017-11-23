@@ -290,6 +290,18 @@ SHA256: 7d76695a73107864bd782abc53d8c0eaa481d79e1736093eef4c9522cec00b01
 
 Package: gcc-7
 Architecture: arm
+Installed-Size: 76116
+Maintainer: @its-pointless github
+Version: 7.2.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
+Filename: dists/termux/extras/binary-arm/gcc-7_7.2.0-1_arm.deb
+Size: 21648672
+SHA256: 532159d44b135f9d6a8504394c1d064097f2bc33e65d46ccd4edeb284f7bceea
+
+Package: gcc-7
+Architecture: arm
 Installed-Size: 74864
 Maintainer:  @its-pointless github
 Version: 7.2.0
@@ -675,6 +687,17 @@ Homepage: https://bitbucket.org/mpyne/game-music-emu
 Filename: dists/termux/extras/binary-arm/libgme_0.6.1_arm.deb
 Size: 95420
 SHA256: 1a940655d9c990266b7d488ba9dfeafbd7fde3ecb5faca0e0214ab39e3cc434e
+
+Package: libgomp
+Architecture: arm
+Installed-Size: 500
+Maintainer: @its-pointless github
+Version: 4.9.x
+Description: openmp library for gcc and gfortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgomp_4.9.x_arm.deb
+Size: 115884
+SHA256: 5b3ec0b2f41d79b29ca34cfefaed4dc63b918103aa6278b797eb17ce1afd626e
 
 Package: libllvm-4so
 Architecture: arm

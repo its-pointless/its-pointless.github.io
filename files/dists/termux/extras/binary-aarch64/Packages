@@ -279,6 +279,18 @@ SHA256: 2a146d7544e00fb69af01e180f9165be322d69467d9b4c23472305b18cdd0be4
 
 Package: gcc-7
 Architecture: aarch64
+Installed-Size: 77540
+Maintainer: @its-pointless github
+Version: 7.2.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.0-1_aarch64.deb
+Size: 20597492
+SHA256: e8b123a3512704d5d81ef7479c311a7b7e0909f2e09730343ccc60e6476c5b0b
+
+Package: gcc-7
+Architecture: aarch64
 Installed-Size: 76152
 Maintainer:  @its-pointless github
 Version: 7.2.0
@@ -616,6 +628,17 @@ Homepage: https://bitbucket.org/mpyne/game-music-emu
 Filename: dists/termux/extras/binary-aarch64/libgme_0.6.1_aarch64.deb
 Size: 97004
 SHA256: 3f707dead8b9c7153b9d38e4c245464ca4d9a0f65b21dccb9e09a40174608947
+
+Package: libgomp
+Architecture: aarch64
+Installed-Size: 772
+Maintainer: @its-pointless github
+Version: 4.9.x
+Description: openmp library for gcc and gfortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libgomp_4.9.x_aarch64.deb
+Size: 121832
+SHA256: 3a254cee8b97d1a591292d26a7952a9e28bbb16d76cd9dcaaf8e24a8b85e1f0a
 
 Package: libllvm-4so
 Architecture: aarch64

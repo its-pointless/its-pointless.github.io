@@ -209,6 +209,18 @@ SHA256: ea838b5b73e6fc9c30e2e36cff0e5419fcf8a5ff6f5520b6d5c658830c3ca1ba
 
 Package: gcc-7
 Architecture: i686
+Installed-Size: 103328
+Maintainer: @its-pointless github
+Version: 7.2.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
+Filename: dists/termux/extras/binary-i686/gcc-7_7.2.0-1_i686.deb
+Size: 26972960
+SHA256: 5257f98ad6570528b0d24a364d2316c9b357f9cbd650730780491a3525a26198
+
+Package: gcc-7
+Architecture: i686
 Installed-Size: 102232
 Maintainer:  @its-pointless github
 Version: 7.2.0
@@ -383,6 +395,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.0_i686.deb
 Size: 623672
 SHA256: 69615dabbc62cff60e0f6020019f582be7849243c8b306da65f34ab7e701edc9
+
+Package: libgomp
+Architecture: i686
+Installed-Size: 360
+Maintainer: @its-pointless github
+Version: 4.9.x
+Description: openmp library for gcc and gfortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-i686/libgomp_4.9.x_i686.deb
+Size: 180152
+SHA256: 7d5921b2d38a04337c1094cc4a51a271de3ebddf9e26a020b73a975f6affabe0
 
 Package: libllvm-4so
 Architecture: i686
