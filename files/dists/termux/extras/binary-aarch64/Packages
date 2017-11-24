@@ -887,14 +887,15 @@ SHA256: 5ff9b2e46e622d0ffc2e0d486120cafb2fd7a53a35ee593ffb1496bc1b4317f9
 
 Package: nim
 Architecture: aarch64
-Installed-Size: 10552
+Installed-Size: 10040
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.17.2
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
+Description: Nim is a systems and applications programming language. Statically typed and compiled, it provides unparalleled performance in an elegant package.
+Homepage: https://nim-lang.org/
+Depends: git, clang, libandroid-glob
 Filename: dists/termux/extras/binary-aarch64/nim_0.17.2_aarch64.deb
-Size: 1903608
-SHA256: b130f9a08bff1ad7eb49497334d347cb9749e9576a8b2ebbc183f449268cec6b
+Size: 1934292
+SHA256: 6c0633c650bedb461d6919362789bd450cfd41c49b3bd38b65de196ea69463f4
 
 Package: nsnake
 Architecture: aarch64

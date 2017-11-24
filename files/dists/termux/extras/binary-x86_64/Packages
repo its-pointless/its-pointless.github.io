@@ -598,14 +598,15 @@ SHA256: 00a3400d96e2105277a52a66e82a28b59fdc5d4678132d2063a617903ebc6ea1
 
 Package: nim
 Architecture: x86_64
-Installed-Size: 10752
+Installed-Size: 10196
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.17.2
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
+Description: Nim is a systems and applications programming language. Statically typed and compiled, it provides unparalleled performance in an elegant package.
+Homepage: https://nim-lang.org/
+Depends: git, clang, libandroid-glob
 Filename: dists/termux/extras/binary-x86_64/nim_0.17.2_x86_64.deb
-Size: 2090276
-SHA256: 304a34270a5c9622e97d649e6ca3b410ff484a8563b800c935ad3b595650e659
+Size: 2159356
+SHA256: 0f70b3e517e0294200c2c238ba5b4a53ad80d8f5bc309483d321f243036740b7
 
 Package: nsnake
 Architecture: x86_64
@@ -1487,6 +1488,18 @@ Depends: clang
 Filename: dists/termux/extras/binary-x86_64/rustc_1.21.0_x86_64.deb
 Size: 52019900
 SHA256: 9b3fd01a1e7c859e5f76d02a5bc1c5b8fccaeb520cd7f7604ca0a4b4dc1163b0
+
+Package: rustc
+Architecture: x86_64
+Installed-Size: 144072
+Maintainer: @its-pointless
+Version: 1.22.1
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-x86_64/rustc_1.22.1_x86_64.deb
+Size: 47275364
+SHA256: 91802a85f1f43cd7e12c06311ee8a4a99b37612c1d249e5a4e2fb1b8ce84246b
 
 Package: sc-im
 Architecture: x86_64
