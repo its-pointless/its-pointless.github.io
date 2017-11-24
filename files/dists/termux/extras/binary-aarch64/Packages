@@ -885,6 +885,17 @@ Filename: dists/termux/extras/binary-aarch64/mksh_55_aarch64.deb
 Size: 154456
 SHA256: 5ff9b2e46e622d0ffc2e0d486120cafb2fd7a53a35ee593ffb1496bc1b4317f9
 
+Package: nim
+Architecture: aarch64
+Installed-Size: 10552
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.17.2
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-aarch64/nim_0.17.2_aarch64.deb
+Size: 1903608
+SHA256: b130f9a08bff1ad7eb49497334d347cb9749e9576a8b2ebbc183f449268cec6b
+
 Package: nsnake
 Architecture: aarch64
 Installed-Size: 348
@@ -1970,6 +1981,18 @@ Depends: libllvm, clang, libllvm-4so
 Filename: dists/termux/extras/binary-aarch64/rustc_1.21.0_aarch64.deb
 Size: 39825304
 SHA256: bceaab874cf69c729262c45ee426f55094d2442d6b8d4f1716d815bacb462fbc
+
+Package: rustc
+Architecture: aarch64
+Installed-Size: 137044
+Maintainer: @its-pointless
+Version: 1.22.1
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-aarch64/rustc_1.22.1_aarch64.deb
+Size: 44588352
+SHA256: be761e9b9c5ac51aeb213c91f6816243a70665ff350d5b6a2283d8b9671fbd1c
 
 Package: sc-im
 Architecture: aarch64

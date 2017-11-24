@@ -560,6 +560,17 @@ Filename: dists/termux/extras/binary-i686/libssh2_1.8.0_i686.deb
 Size: 56328
 SHA256: 786ed8a24415ae49df2f8d208bce9f8f229a86e71846cee4c284c620337d1441
 
+Package: nim
+Architecture: i686
+Installed-Size: 10496
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.17.2
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-i686/nim_0.17.2_i686.deb
+Size: 2210724
+SHA256: db73ec3ebb68581a7ea441673f7e0ce08e4002d4272bfe9cd4a907b56a91c937
+
 Package: nsnake
 Architecture: i686
 Installed-Size: 396
@@ -1441,6 +1452,18 @@ Depends: libllvm, clang
 Filename: dists/termux/extras/binary-i686/rustc_1.21.0_i686.deb
 Size: 53601576
 SHA256: 15dec29bf60c653df520790640599fd4d32ae3fb18ad3ff3f716cdeb387fd159
+
+Package: rustc
+Architecture: i686
+Installed-Size: 141788
+Maintainer: @its-pointless
+Version: 1.22.1
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-i686/rustc_1.22.1_i686.deb
+Size: 47844980
+SHA256: de5e66f235ad4c77928ef75f716c6067cd161b2ebdbb2d105de275195e1749bb
 
 Package: sc-im
 Architecture: i686

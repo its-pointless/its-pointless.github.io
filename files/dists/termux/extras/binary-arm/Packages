@@ -933,6 +933,17 @@ Filename: dists/termux/extras/binary-arm/mksh_55_arm.deb
 Size: 162264
 SHA256: 40bc04d5ded2c3df8c873bb8d48383d87f8f91acf86a836f2ebfb8b20f6fd4bf
 
+Package: nim
+Architecture: arm
+Installed-Size: 9888
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.17.2
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-arm/nim_0.17.2_arm.deb
+Size: 2206460
+SHA256: c1d1c4771fc7b524b6ab0833376904d019f03aec5c6152ab6ef40df756ce5ffb
+
 Package: nsnake
 Architecture: arm
 Installed-Size: 284
@@ -2030,6 +2041,18 @@ Depends: libllvm, clang, libllvm-4so
 Filename: dists/termux/extras/binary-arm/rustc_1.21.0_arm.deb
 Size: 39757352
 SHA256: e589c2e165eebbf06e1c5cc06b85efc257e41bb5ff6ca515d0b02bf9d6967b57
+
+Package: rustc
+Architecture: arm
+Installed-Size: 119344
+Maintainer: @its-pointless
+Version: 1.22.1
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-arm/rustc_1.22.1_arm.deb
+Size: 45321840
+SHA256: 922ac32bd715b53e31fba736c0f558a7c0b24cb711c2b6a6aa3118415ff272ed
 
 Package: sc-im
 Architecture: arm
