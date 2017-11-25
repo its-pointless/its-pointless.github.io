@@ -688,6 +688,31 @@ Filename: dists/termux/extras/binary-arm/libgme_0.6.1_arm.deb
 Size: 95420
 SHA256: 1a940655d9c990266b7d488ba9dfeafbd7fde3ecb5faca0e0214ab39e3cc434e
 
+Package: libgomp-7
+Architecture: arm
+Installed-Size: 1352
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.2.0
+Description: openmp library from gcc-7
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/libgomp-7_7.2.0_arm.deb
+Size: 299860
+SHA256: 5e191b4944eed74fa5413fed2526dbe7391b5bb07f339d1742562bdf149139fd
+
+Package: libgomp
+Architecture: arm
+Installed-Size: 512
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.x-1
+Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Conflicts: libgomp
+Filename: dists/termux/extras/binary-arm/libgomp_4.9.x-1_arm.deb
+Size: 117152
+SHA256: f9a9f558a2e7c85a8c29a409bc993bb356a056128ea70739ab8b1b15aa0c1dba
+
 Package: libgomp
 Architecture: arm
 Installed-Size: 500

@@ -640,6 +640,31 @@ Filename: dists/termux/extras/binary-aarch64/libgnuiconv_1.15_aarch64.deb
 Size: 485264
 SHA256: d207bc92c97ad7d95ee04d61f0048a3069de9a61db879e77c4c6fa5dc37d0a56
 
+Package: libgomp-7
+Architecture: aarch64
+Installed-Size: 2128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.2.0
+Description: openmp library from gcc-7
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.2.0_aarch64.deb
+Size: 315096
+SHA256: f8112df6e95f086d9d2bdbd85d371a8e17ecaf8e338f7c5222087a21f814452a
+
+Package: libgomp
+Architecture: aarch64
+Installed-Size: 784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.x-1
+Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Conflicts: libgomp
+Filename: dists/termux/extras/binary-aarch64/libgomp_4.9.x-1_aarch64.deb
+Size: 123036
+SHA256: 814d243a0f578427da1bd3bbd638d79b6e58ffe6787c0bd8daec454aa7f3b8eb
+
 Package: libgomp
 Architecture: aarch64
 Installed-Size: 772

@@ -396,6 +396,31 @@ Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.0_i686.deb
 Size: 623672
 SHA256: 69615dabbc62cff60e0f6020019f582be7849243c8b306da65f34ab7e701edc9
 
+Package: libgomp-7
+Architecture: i686
+Installed-Size: 940
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.2.0
+Description: openmp library from gcc-7
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-i686/libgomp-7_7.2.0_i686.deb
+Size: 522368
+SHA256: 28c4fc37ddc73b54ec2184ecd4e77b566f6878e20cd69f2c0965b064c7534cac
+
+Package: libgomp
+Architecture: i686
+Installed-Size: 372
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.x-1
+Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Conflicts: libgomp
+Filename: dists/termux/extras/binary-i686/libgomp_4.9.x-1_i686.deb
+Size: 181696
+SHA256: 7e77a32366bcabab48f2208185d79583c6746bb8287cebcaccb28e593c5b2691
+
 Package: libgomp
 Architecture: i686
 Installed-Size: 360
