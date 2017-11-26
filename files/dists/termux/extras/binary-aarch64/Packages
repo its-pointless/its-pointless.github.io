@@ -291,6 +291,18 @@ SHA256: e8b123a3512704d5d81ef7479c311a7b7e0909f2e09730343ccc60e6476c5b0b
 
 Package: gcc-7
 Architecture: aarch64
+Installed-Size: 77528
+Maintainer: @its-pointless github
+Version: 7.2.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.0-2_aarch64.deb
+Size: 20591320
+SHA256: efef0cb1a6de4fa94767a130753829e7f7e7dcc7c384b32152cbf5aa14000d39
+
+Package: gcc-7
+Architecture: aarch64
 Installed-Size: 76152
 Maintainer:  @its-pointless github
 Version: 7.2.0

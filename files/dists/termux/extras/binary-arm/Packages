@@ -302,6 +302,18 @@ SHA256: 532159d44b135f9d6a8504394c1d064097f2bc33e65d46ccd4edeb284f7bceea
 
 Package: gcc-7
 Architecture: arm
+Installed-Size: 76100
+Maintainer: @its-pointless github
+Version: 7.2.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
+Filename: dists/termux/extras/binary-arm/gcc-7_7.2.0-2_arm.deb
+Size: 21655712
+SHA256: d77a0eaa7053b22eaf7efc54197d139594082172fdb5d1ed54204eaecfff99cd
+
+Package: gcc-7
+Architecture: arm
 Installed-Size: 74864
 Maintainer:  @its-pointless github
 Version: 7.2.0
