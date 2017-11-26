@@ -221,14 +221,15 @@ SHA256: b0b171531bc507ba69de62c64332c35ea08e1d69771144a3831f6f010a2476f2
 
 Package: distcc
 Architecture: aarch64
-Installed-Size: 412
+Installed-Size: 396
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.2-rc1-1
 Description: Distributed C/C++ compiler.
 Homepage: http://distcc.org/
+Depends: libpopt
 Filename: dists/termux/extras/binary-aarch64/distcc_3.2-rc1-1_aarch64.deb
-Size: 91896
-SHA256: 49375514dfa7ad2f92f448b7c0dc0f4c22fe7907d0c0839ddea44b316cbe4e80
+Size: 90716
+SHA256: e582795dad365f2510838efaf60cabc30760fdc65e50c9705d3d105828ccd587
 
 Package: dopewars
 Architecture: aarch64

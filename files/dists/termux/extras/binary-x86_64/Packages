@@ -198,14 +198,15 @@ SHA256: c36b3d89a1519164c60cca7abbe4b05c4481201407a100efc75db37338718e25
 
 Package: distcc
 Architecture: x86_64
-Installed-Size: 352
+Installed-Size: 336
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.2-rc1-1
 Description: Distributed C/C++ compiler.
 Homepage: http://distcc.org/
+Depends: libpopt
 Filename: dists/termux/extras/binary-x86_64/distcc_3.2-rc1-1_x86_64.deb
-Size: 103160
-SHA256: b8f3740235f64459317bf775425d3498c5c9b3364c0f9f19788a24c64e994bef
+Size: 101696
+SHA256: 863e353e92d68dfcac5b13ba95a1aea6c30c33e84fbcbae2ea276ea7f40b0689
 
 Package: dopewars
 Architecture: x86_64
