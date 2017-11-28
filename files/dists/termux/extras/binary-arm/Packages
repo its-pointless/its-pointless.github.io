@@ -238,10 +238,9 @@ Maintainer: Fredrik Fornwall @fornwall
 Version: 3.2-rc1-1
 Description: Distributed C/C++ compiler.
 Homepage: http://distcc.org/
-Depends: libpopt
 Filename: dists/termux/extras/binary-arm/distcc_3.2-rc1-1_arm.deb
-Size: 89048
-SHA256: 56474abecfaa711076738706b7560cee5223ca41f9b8425f1ea535640ee7763a
+Size: 89032
+SHA256: 0187bd06aa791f58bc80f596204437930dc859b2ac7f7d44fb7cd761c8f1a693
 
 Package: dopewars
 Architecture: arm
@@ -747,17 +746,6 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libgomp_4.9.x_arm.deb
 Size: 115884
 SHA256: 5b3ec0b2f41d79b29ca34cfefaed4dc63b918103aa6278b797eb17ce1afd626e
-
-Package: libllvm-4so
-Architecture: arm
-Installed-Size: 12684
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1
-Description: libLLVM-4.0.so so rustc works
-Homepage: https://github.com/its-pointless/gcc_termux
-Filename: dists/termux/extras/binary-arm/libllvm-4so_1_arm.deb
-Size: 4403264
-SHA256: 57ea07b052a6531ec37967abbb916ff7cbfc73594f6616788862ab6c7b0417dc
 
 Package: libmodplug-dev
 Architecture: arm

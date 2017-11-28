@@ -203,10 +203,9 @@ Maintainer: Fredrik Fornwall @fornwall
 Version: 3.2-rc1-1
 Description: Distributed C/C++ compiler.
 Homepage: http://distcc.org/
-Depends: libpopt
 Filename: dists/termux/extras/binary-x86_64/distcc_3.2-rc1-1_x86_64.deb
-Size: 101696
-SHA256: 863e353e92d68dfcac5b13ba95a1aea6c30c33e84fbcbae2ea276ea7f40b0689
+Size: 101644
+SHA256: af6fe63e931aca6420b78109de4531cdca8137ec717948f42b5d40e3ba847a11
 
 Package: dopewars
 Architecture: x86_64
@@ -479,17 +478,6 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-x86_64/libgomp_4.9.x_x86_64.deb
 Size: 188464
 SHA256: 7d37f67c54c572233250e7cd4b8397a8284c5e56459fb9ab18cf2d747401e718
-
-Package: libllvm-4so
-Architecture: x86_64
-Installed-Size: 22504
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1
-Description: libLLVM-4.0.so so rustc works
-Homepage: https://github.com/its-pointless/gcc_termux
-Filename: dists/termux/extras/binary-x86_64/libllvm-4so_1_x86_64.deb
-Size: 5378028
-SHA256: 8aed742373029b054de9372265aef42116fb9e31d9395b714a478f2f11b073c4
 
 Package: libpoco-dev
 Architecture: x86_64

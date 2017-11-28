@@ -226,10 +226,9 @@ Maintainer: Fredrik Fornwall @fornwall
 Version: 3.2-rc1-1
 Description: Distributed C/C++ compiler.
 Homepage: http://distcc.org/
-Depends: libpopt
 Filename: dists/termux/extras/binary-aarch64/distcc_3.2-rc1-1_aarch64.deb
-Size: 90716
-SHA256: e582795dad365f2510838efaf60cabc30760fdc65e50c9705d3d105828ccd587
+Size: 90388
+SHA256: 7e7d543dadc0673836b0cd42c2df8b896b6ef1ec8765fd918634301120566c94
 
 Package: dopewars
 Architecture: aarch64
@@ -699,17 +698,6 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libgomp_4.9.x_aarch64.deb
 Size: 121832
 SHA256: 3a254cee8b97d1a591292d26a7952a9e28bbb16d76cd9dcaaf8e24a8b85e1f0a
-
-Package: libllvm-4so
-Architecture: aarch64
-Installed-Size: 16664
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1
-Description: libLLVM-4.0.so so rustc works
-Homepage: https://github.com/its-pointless/gcc_termux
-Filename: dists/termux/extras/binary-aarch64/libllvm-4so_1_aarch64.deb
-Size: 4065312
-SHA256: 8c150cbccdf87d804a0ea7f013c81718c493efa107d1a1a5e0f566ff3b0b3750
 
 Package: libmodplug-dev
 Architecture: aarch64

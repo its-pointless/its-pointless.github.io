@@ -192,10 +192,9 @@ Maintainer: Fredrik Fornwall @fornwall
 Version: 3.2-rc1-1
 Description: Distributed C/C++ compiler.
 Homepage: http://distcc.org/
-Depends: libpopt
 Filename: dists/termux/extras/binary-i686/distcc_3.2-rc1-1_i686.deb
-Size: 92820
-SHA256: 0e46fc271c77f139724f038928e234fe24c7458558ab20a1ffe64300c633ef37
+Size: 92824
+SHA256: 677585ace9565cc469a347cd89b9d9abcf11b7c1b603c2ab2dbe8b44eb4857ef
 
 Package: dopewars
 Architecture: i686
@@ -455,17 +454,6 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-i686/libgomp_4.9.x_i686.deb
 Size: 180152
 SHA256: 7d5921b2d38a04337c1094cc4a51a271de3ebddf9e26a020b73a975f6affabe0
-
-Package: libllvm-4so
-Architecture: i686
-Installed-Size: 21016
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1
-Description: libLLVM-4.0.so so rustc works
-Homepage: https://github.com/its-pointless/gcc_termux
-Filename: dists/termux/extras/binary-i686/libllvm-4so_1_i686.deb
-Size: 5361404
-SHA256: e316eca1b1444ebff532082183c904ecd593b51822faeb51aabad0e0f971eb78
 
 Package: libpoco-dev
 Architecture: i686
