@@ -1,3 +1,16 @@
+Package: electrum
+Architecture: all
+Installed-Size: 3984
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.2
+Description: Electrum is a lightweight Bitcoin wallet.
+Homepage: https://electrum.org
+Depends: python
+Conflicts: asciinema (<< 1.4.0-1)
+Filename: dists/termux/extras/binary-all/electrum_3.0.2_all.deb
+Size: 1105380
+SHA256: 4b30b17bb16f7284b2a2bef232f372728e0057dd90dc88da685e4f38fb23195e
+
 Package: myrepos
 Architecture: all
 Installed-Size: 100
@@ -9,6 +22,17 @@ Depends: perl
 Filename: dists/termux/extras/binary-all/myrepos_1.20160123_all.deb
 Size: 22220
 SHA256: 5dc9be306a27e4db41c41272ec175a5f439c65524f2ecdc9a3155e1afee23993
+
+Package: rust-docs-nightly
+Architecture: all
+Installed-Size: 143916
+Maintainer: @its-pointless
+Version: 1.24
+Description: Rust language documentation
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.24_all.deb
+Size: 5247268
+SHA256: d81ea068949781b9cde99d2a2607c64b28d63ec31610839cd38ed71a87747da3
 
 Package: rust-docs
 Architecture: all

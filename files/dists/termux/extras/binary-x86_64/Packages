@@ -620,6 +620,18 @@ Filename: dists/termux/extras/binary-x86_64/libssh2_1.8.0_x86_64.deb
 Size: 59244
 SHA256: 00a3400d96e2105277a52a66e82a28b59fdc5d4678132d2063a617903ebc6ea1
 
+Package: mksh
+Architecture: x86_64
+Installed-Size: 448
+Maintainer: Fredrik Fornwall @fornwall
+Version: 56b
+Description: Flexible, screen-oriented MUD client
+Homepage: http://tinyfugue.sourceforge.net/
+Depends: libandroid-support
+Filename: dists/termux/extras/binary-x86_64/mksh_56b_x86_64.deb
+Size: 175460
+SHA256: 933aecae6241014a786a46457c8bebf929493e5c90428b65f0ce9869280dc22e
+
 Package: nim
 Architecture: x86_64
 Installed-Size: 10196
@@ -1643,26 +1655,3 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-x86_64/unicorn_1.0.1_x86_64.deb
 Size: 1098648
 SHA256: 5901cb303064d5953f72d172a8dfdef40d064c597fe46d955d1f9f1d06f40462
-
-Package: zstd-dev
-Architecture: x86_64
-Installed-Size: 116
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.2-1
-Description: Development files for zstd
-Homepage: https://github.com/facebook/zstd
-Depends: zstd
-Filename: dists/termux/extras/binary-x86_64/zstd-dev_1.3.2-1_x86_64.deb
-Size: 23116
-SHA256: 00b980c11d6d6699614c5bd2118a7f89229145594bb53d0ef57514c7c7fdafaa
-
-Package: zstd
-Architecture: x86_64
-Installed-Size: 656
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.2-1
-Description: Zstandard compression.
-Homepage: https://github.com/facebook/zstd
-Filename: dists/termux/extras/binary-x86_64/zstd_1.3.2-1_x86_64.deb
-Size: 160312
-SHA256: 21bf8bfb73f42f1028121dc70dc9bb5951d7023757d47ae2b4e7c747cf264aa0

@@ -969,6 +969,18 @@ Filename: dists/termux/extras/binary-arm/mksh_55_arm.deb
 Size: 162264
 SHA256: 40bc04d5ded2c3df8c873bb8d48383d87f8f91acf86a836f2ebfb8b20f6fd4bf
 
+Package: mksh
+Architecture: arm
+Installed-Size: 380
+Maintainer: Fredrik Fornwall @fornwall
+Version: 56b
+Description: Flexible, screen-oriented MUD client
+Homepage: http://tinyfugue.sourceforge.net/
+Depends: libandroid-support
+Filename: dists/termux/extras/binary-arm/mksh_56b_arm.deb
+Size: 163860
+SHA256: 5ce38eb674bb514397ff5c7ee91d608d30792a64cc65cfeffd400f8d31c61e4a
+
 Package: nim
 Architecture: arm
 Installed-Size: 9464
@@ -2055,6 +2067,19 @@ Filename: dists/termux/extras/binary-arm/ripgrep_0.7.1_arm.deb
 Size: 719248
 SHA256: 1110ab4b0d8e1d25b5c3ce1217f9cfcd537dd1960f6a574f2a7b4f95dc657785
 
+Package: rustc-nightly
+Architecture: arm
+Installed-Size: 159912
+Maintainer: @its-pointless
+Version: 1.24
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-arm/rustc-nightly_1.24_arm.deb
+Size: 53411632
+SHA256: 8c2c974c21835e467eb3a97d2ec3e9414f06d3be6d723ff190dccc12315ccb46
+
 Package: rustc
 Architecture: arm
 Installed-Size: 97744
@@ -2245,26 +2270,3 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-arm/unicorn_1.0.1_arm.deb
 Size: 1126228
 SHA256: 20ac3ee2cfd9d355f61339bc200c6a4a1dc6a5b3a2f8dcc9f390e42aac3acb21
-
-Package: zstd-dev
-Architecture: arm
-Installed-Size: 116
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.2-1
-Description: Development files for zstd
-Homepage: https://github.com/facebook/zstd
-Depends: zstd
-Filename: dists/termux/extras/binary-arm/zstd-dev_1.3.2-1_arm.deb
-Size: 23120
-SHA256: 872849ee283be4966272f308a46a64ca2804c140484d79e492007816610190b0
-
-Package: zstd
-Architecture: arm
-Installed-Size: 456
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.2-1
-Description: Zstandard compression.
-Homepage: https://github.com/facebook/zstd
-Filename: dists/termux/extras/binary-arm/zstd_1.3.2-1_arm.deb
-Size: 139136
-SHA256: edd54e6fc455234ff8dc0ae04120dc552bcf7ee2490d9b921b3428d041d19cc7

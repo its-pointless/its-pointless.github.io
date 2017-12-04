@@ -921,6 +921,18 @@ Filename: dists/termux/extras/binary-aarch64/mksh_55_aarch64.deb
 Size: 154456
 SHA256: 5ff9b2e46e622d0ffc2e0d486120cafb2fd7a53a35ee593ffb1496bc1b4317f9
 
+Package: mksh
+Architecture: aarch64
+Installed-Size: 460
+Maintainer: Fredrik Fornwall @fornwall
+Version: 56b
+Description: Flexible, screen-oriented MUD client
+Homepage: http://tinyfugue.sourceforge.net/
+Depends: libandroid-support
+Filename: dists/termux/extras/binary-aarch64/mksh_56b_aarch64.deb
+Size: 156448
+SHA256: 6015ad82aeaa180e4769c114e2e7cf83fa176b84343e8e35147483aae6716f96
+
 Package: nim
 Architecture: aarch64
 Installed-Size: 10040
@@ -1995,6 +2007,19 @@ Filename: dists/termux/extras/binary-aarch64/ripgrep_0.7.1_aarch64.deb
 Size: 735604
 SHA256: a7450e9751705b06daa59254ab0115a0ad3bf2902b800d7b505f98b9bc6fe76d
 
+Package: rustc-nightly
+Architecture: aarch64
+Installed-Size: 176576
+Maintainer: @its-pointless
+Version: 1.24
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.24_aarch64.deb
+Size: 52766508
+SHA256: 41756213e7ef9ce64f055f2e0c96c12bfb27fa3793279b3d681072c92fcfd07f
+
 Package: rustc
 Architecture: aarch64
 Installed-Size: 100624
@@ -2185,26 +2210,3 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-aarch64/unicorn_1.0.1_aarch64.deb
 Size: 854228
 SHA256: 44dd84a23212ce09300b9013bc50298be6ce33176cb92b6bc456933340384326
-
-Package: zstd-dev
-Architecture: aarch64
-Installed-Size: 116
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.2-1
-Description: Development files for zstd
-Homepage: https://github.com/facebook/zstd
-Depends: zstd
-Filename: dists/termux/extras/binary-aarch64/zstd-dev_1.3.2-1_aarch64.deb
-Size: 23116
-SHA256: 946924362dc65d979d09093e3908d55b49f78e6d0a0301a31cd5d5fc2228c50a
-
-Package: zstd
-Architecture: aarch64
-Installed-Size: 612
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.2-1
-Description: Zstandard compression.
-Homepage: https://github.com/facebook/zstd
-Filename: dists/termux/extras/binary-aarch64/zstd_1.3.2-1_aarch64.deb
-Size: 125764
-SHA256: e84884343651f07a3de020f25b9c6fa4c9ca0016139a010d7181e1e4c18e780a
