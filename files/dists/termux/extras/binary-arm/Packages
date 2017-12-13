@@ -253,6 +253,18 @@ Filename: dists/termux/extras/binary-arm/dopewars_1.5.12_arm.deb
 Size: 56180
 SHA256: 5e251c1c09c0de89c0bfe5ae7d6e59ec18e78f1caad9a7a46bf7d647b9e9aa29
 
+Package: ecl
+Architecture: arm
+Installed-Size: 4920
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3
+Description: Embeddable Common-Lisp
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi, libgc, libgmp, clang
+Filename: dists/termux/extras/binary-arm/ecl_16.1.3_arm.deb
+Size: 1287660
+SHA256: 7dcb2a5a6ea84e916290ece58a93c075cd01b2f5c15e2498ea3fbe12c27cb392
+
 Package: ffmpeg-compat
 Architecture: arm
 Installed-Size: 12
