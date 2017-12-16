@@ -690,6 +690,18 @@ Filename: dists/termux/extras/binary-i686/numpy_1.13.3-1_i686.deb
 Size: 2090264
 SHA256: c0fff7db8c81cd54e4ec1514108570140eca9a6b20d8b8081d8a67010a258b43
 
+Package: numpy
+Architecture: i686
+Installed-Size: 13792
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.13.3-2
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python
+Filename: dists/termux/extras/binary-i686/numpy_1.13.3-2_i686.deb
+Size: 2124164
+SHA256: 067e6f19aa84bd5bda37ddb2983a5eb24a0bbcfda9bd6e43ceedb9e145d21370
+
 Package: ocaml
 Architecture: i686
 Installed-Size: 171828

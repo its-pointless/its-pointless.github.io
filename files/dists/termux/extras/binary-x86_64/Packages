@@ -714,6 +714,18 @@ Filename: dists/termux/extras/binary-x86_64/numpy_1.13.3-1_x86_64.deb
 Size: 2191868
 SHA256: 818628b741ee7a8a214c1f58577c92dd52ac3b9b192b70792008511b1e1ea021
 
+Package: numpy
+Architecture: x86_64
+Installed-Size: 14176
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.13.3-2
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python
+Filename: dists/termux/extras/binary-x86_64/numpy_1.13.3-2_x86_64.deb
+Size: 2228472
+SHA256: 4f5246c172a956003baf14ba034486922f311d035f0ecbe736103120b3c8ff5c
+
 Package: ocaml
 Architecture: x86_64
 Installed-Size: 186264
