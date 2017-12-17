@@ -1252,6 +1252,18 @@ Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.13.3-1_aarch64.deb
 Size: 2150340
 SHA256: 0cb7977a554439c1a30ff141635adbe6fbb19be7377854a1c6cc4efcb28810db
 
+Package: python2-numpy
+Architecture: aarch64
+Installed-Size: 15112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.13.3-3
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python2
+Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.13.3-3_aarch64.deb
+Size: 2183244
+SHA256: 6a69d01fdea1da082dd5b6da6257c0439b0d37ebe9d7ab0b775b012e4daaf8a4
+
 Package: python2-scipy
 Architecture: aarch64
 Installed-Size: 45932
