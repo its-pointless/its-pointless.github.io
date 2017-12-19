@@ -185,6 +185,18 @@ Filename: dists/termux/extras/binary-i686/cargo_0.22.0_i686.deb
 Size: 1926068
 SHA256: 44acae86763a3b3029af38fd6ba765902ea566f1e3c5dd630e129613b75d6a9b
 
+Package: cargo
+Architecture: i686
+Installed-Size: 7208
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.23.0
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libssh2
+Filename: dists/termux/extras/binary-i686/cargo_0.23.0_i686.deb
+Size: 1955400
+SHA256: 6068a8c0e02d06e0c58a6e861bd01329cca6b47b218c9c673c072fd14881c175
+
 Package: cksfv
 Architecture: i686
 Installed-Size: 24
@@ -1524,6 +1536,19 @@ Homepage: https://github.com/BurntSushi/ripgrep
 Filename: dists/termux/extras/binary-i686/ripgrep_0.7.1_i686.deb
 Size: 900320
 SHA256: 7847a466f63880cca08a1930fee648f1002798e92e72afd0c7896baaeee919e3
+
+Package: rustc-nightly
+Architecture: i686
+Installed-Size: 187972
+Maintainer: @its-pointless
+Version: 1.24-1
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-i686/rustc-nightly_1.24-1_i686.deb
+Size: 59642392
+SHA256: 82aff5a13030830e876195ceeea8dbeb3e77e2a2368ce6fa94e1da02ab8d90aa
 
 Package: rustc
 Architecture: i686

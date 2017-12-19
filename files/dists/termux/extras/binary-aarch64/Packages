@@ -2056,6 +2056,19 @@ SHA256: a7450e9751705b06daa59254ab0115a0ad3bf2902b800d7b505f98b9bc6fe76d
 
 Package: rustc-nightly
 Architecture: aarch64
+Installed-Size: 183772
+Maintainer: @its-pointless
+Version: 1.24-1
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.24-1_aarch64.deb
+Size: 55727976
+SHA256: 0fb759bc5b0eeb5b8bbd63c2cf2e91d1fe4a2dbcd18adccd0844479974bf7677
+
+Package: rustc-nightly
+Architecture: aarch64
 Installed-Size: 176576
 Maintainer: @its-pointless
 Version: 1.24

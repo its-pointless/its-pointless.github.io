@@ -231,6 +231,18 @@ Filename: dists/termux/extras/binary-arm/cargo_0.22.0-2_arm.deb
 Size: 1786652
 SHA256: 478f6950f013bce946a3f02eaf78377576c0e7b2623e86697fb704f308306dc9
 
+Package: cargo
+Architecture: arm
+Installed-Size: 4464
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.23.0
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libssh2
+Filename: dists/termux/extras/binary-arm/cargo_0.23.0_arm.deb
+Size: 1820340
+SHA256: 1423193bcce1fbe1223400541b4a54ea00bbbdbe7bffd2c77bb47751b867328f
+
 Package: cksfv
 Architecture: arm
 Installed-Size: 20
@@ -2113,6 +2125,19 @@ Homepage: https://github.com/BurntSushi/ripgrep
 Filename: dists/termux/extras/binary-arm/ripgrep_0.7.1_arm.deb
 Size: 719248
 SHA256: 1110ab4b0d8e1d25b5c3ce1217f9cfcd537dd1960f6a574f2a7b4f95dc657785
+
+Package: rustc-nightly
+Architecture: arm
+Installed-Size: 156544
+Maintainer: @its-pointless
+Version: 1.24-1
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-arm/rustc-nightly_1.24-1_arm.deb
+Size: 56506752
+SHA256: c26277807870d57ed51321eb421ea79648ab2932260934433ccc40a07c799fc0
 
 Package: rustc-nightly
 Architecture: arm
