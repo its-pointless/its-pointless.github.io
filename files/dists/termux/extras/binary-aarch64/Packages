@@ -254,15 +254,15 @@ SHA256: de268db5371ea05e77437297e319739ee2f84e0380627d91917b1521c144c534
 
 Package: ecl
 Architecture: aarch64
-Installed-Size: 6188
+Installed-Size: 6840
 Maintainer: Fredrik Fornwall @fornwall
 Version: 16.1.3
 Description: Embeddable Common-Lisp
 Homepage: https://common-lisp.net/project/ecl
-Depends: libffi, libgc, libgmp, clang
+Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libandroid-support
 Filename: dists/termux/extras/binary-aarch64/ecl_16.1.3_aarch64.deb
-Size: 1234632
-SHA256: 417162ec3b56427a33af1c40e299a52f25ef2979bad4570d86e7741d2fa87848
+Size: 1417924
+SHA256: bdea898d0db6f81d2341dd6616dfd760f18585111edb02ec9abfe4e7824d4c5c
 
 Package: gcc-6
 Architecture: aarch64

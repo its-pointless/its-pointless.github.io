@@ -220,15 +220,15 @@ SHA256: ea838b5b73e6fc9c30e2e36cff0e5419fcf8a5ff6f5520b6d5c658830c3ca1ba
 
 Package: ecl
 Architecture: i686
-Installed-Size: 5616
+Installed-Size: 6100
 Maintainer: Fredrik Fornwall @fornwall
 Version: 16.1.3
 Description: Embeddable Common-Lisp
 Homepage: https://common-lisp.net/project/ecl
-Depends: libffi, libgc, libgmp, clang
+Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libandroid-support
 Filename: dists/termux/extras/binary-i686/ecl_16.1.3_i686.deb
-Size: 1338732
-SHA256: 68ceede1c10271cbce054300b85802426c1f74821eba1c9862352fb481778fc1
+Size: 1476592
+SHA256: c31208c8552d6e2e6d3b8ebbe5492522d6cc5dd893956e9b72f355bd7049c95b
 
 Package: gcc-7
 Architecture: i686
