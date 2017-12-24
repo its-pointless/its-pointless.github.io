@@ -1586,6 +1586,18 @@ Filename: dists/termux/extras/binary-i686/sc-im_0.6.0_i686.deb
 Size: 103192
 SHA256: 4c5f77eafbbdd7403ecf61d966d5683c616c4a3aae4a48e5341448659393bb85
 
+Package: sc-im
+Architecture: i686
+Installed-Size: 312
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.0
+Description: Common Linux command line utilities
+Homepage: http://landley.net/toybox/
+Depends:  libandroid-support, bthread
+Filename: dists/termux/extras/binary-i686/sc-im_0.7.0_i686.deb
+Size: 109392
+SHA256: 4f99199aa7c981d808dc4ba8aa724e398f724f74132f52a07d193158636264ec
+
 Package: scipy
 Architecture: i686
 Installed-Size: 43680

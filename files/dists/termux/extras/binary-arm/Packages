@@ -2200,6 +2200,18 @@ Filename: dists/termux/extras/binary-arm/sc-im_0.6.0_arm.deb
 Size: 111180
 SHA256: def18f28145e167d6d6d43adba0f8763af62d8aee6769af86c455d63342f475b
 
+Package: sc-im
+Architecture: arm
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.0
+Description: Common Linux command line utilities
+Homepage: http://landley.net/toybox/
+Depends:  libandroid-support, bthread
+Filename: dists/termux/extras/binary-arm/sc-im_0.7.0_arm.deb
+Size: 117992
+SHA256: cc9983094e6df8196b9febb37ba02980398db40b6c0c3af3966ea32d39971f5e
+
 Package: sc
 Architecture: arm
 Installed-Size: 404
