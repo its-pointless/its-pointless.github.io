@@ -1624,6 +1624,18 @@ Package: sc-im
 Architecture: x86_64
 Installed-Size: 332
 Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.0-1
+Description: Common Linux command line utilities
+Homepage: http://landley.net/toybox/
+Depends:  libandroid-support, bthread
+Filename: dists/termux/extras/binary-x86_64/sc-im_0.7.0-1_x86_64.deb
+Size: 120312
+SHA256: 43db7ace38d2bfb20bd4f36638c57c2396b2bd52bc8050ff67ec965858bbbcfa
+
+Package: sc-im
+Architecture: x86_64
+Installed-Size: 332
+Maintainer: Fredrik Fornwall @fornwall
 Version: 0.7.0
 Description: Common Linux command line utilities
 Homepage: http://landley.net/toybox/
