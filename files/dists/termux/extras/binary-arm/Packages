@@ -254,6 +254,18 @@ Filename: dists/termux/extras/binary-arm/cksfv_1.3.14_arm.deb
 Size: 8908
 SHA256: 7d7b4420de573d9a5ceca6c230b29e3ebc53bafa6ce6aedb405c4be5b6c2b5e9
 
+Package: dictd
+Architecture: arm
+Installed-Size: 400
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12.1
+Description: Client/server software, human language dictionary databases, and tools supporting the DICT protocol 
+Homepage: https://sourceforge.net/projects/dict/
+Depends: libmaa
+Filename: dists/termux/extras/binary-arm/dictd_1.12.1_arm.deb
+Size: 113220
+SHA256: 9a911defe3fb720cdec030a1ac9e3cf563b21087fbfc5b32a5aa1ef7a2fb99b9
+
 Package: distcc
 Architecture: arm
 Installed-Size: 248
@@ -275,6 +287,19 @@ Homepage: https://dopewars.sourceforge.io/
 Filename: dists/termux/extras/binary-arm/dopewars_1.5.12_arm.deb
 Size: 56180
 SHA256: 5e251c1c09c0de89c0bfe5ae7d6e59ec18e78f1caad9a7a46bf7d647b9e9aa29
+
+Package: ecl-ext
+Architecture: arm
+Installed-Size: 5108
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3
+Description: Embeddable Common-Lisp with threads for 32bit android-6 and up
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libandroid-support
+Conflicts: ecl
+Filename: dists/termux/extras/binary-arm/ecl-ext_16.1.3_arm.deb
+Size: 1351724
+SHA256: df81391f334623d8fa01cef9351585ccfb7aeb339423e6ce24abcdf1afb2e06b
 
 Package: ecl
 Architecture: arm
@@ -781,6 +806,29 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libgomp_4.9.x_arm.deb
 Size: 115884
 SHA256: 5b3ec0b2f41d79b29ca34cfefaed4dc63b918103aa6278b797eb17ce1afd626e
+
+Package: libmaa-dev
+Architecture: arm
+Installed-Size: 28
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2
+Description: Development files for libmaa
+Homepage: https://directory.fsf.org/wiki/Libmaa
+Depends: libmaa
+Filename: dists/termux/extras/binary-arm/libmaa-dev_1.3.2_arm.deb
+Size: 5792
+SHA256: 6c69cefb3a4b17312bb49ec4f2ba028a787f2aac3b994e4d4c8fe4446600c50b
+
+Package: libmaa
+Architecture: arm
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2
+Description: maa programming library
+Homepage: https://directory.fsf.org/wiki/Libmaa
+Filename: dists/termux/extras/binary-arm/libmaa_1.3.2_arm.deb
+Size: 23628
+SHA256: cd1aae3e02161a4ec7f0a633c26651bbf4753871ec0e76c6a94ccbcb3671ec24
 
 Package: libmodplug-dev
 Architecture: arm
@@ -2190,18 +2238,6 @@ SHA256: 922ac32bd715b53e31fba736c0f558a7c0b24cb711c2b6a6aa3118415ff272ed
 
 Package: sc-im
 Architecture: arm
-Installed-Size: 260
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.6.0
-Description: This library provides useful functions commonly found on BSD systems
-Homepage: https://github.com/andmarti1424/sc-im/
-Depends: libandroid-support, bthread
-Filename: dists/termux/extras/binary-arm/sc-im_0.6.0_arm.deb
-Size: 111180
-SHA256: def18f28145e167d6d6d43adba0f8763af62d8aee6769af86c455d63342f475b
-
-Package: sc-im
-Architecture: arm
 Installed-Size: 292
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.7.0-1
@@ -2274,30 +2310,6 @@ SHA256: a73aa9fec910ed214f7076532390ab73839be7a025a0b70babe5584478c2f630
 
 Package: suitesparse-dev
 Architecture: arm
-Installed-Size: 776
-Maintainer: @its-pointless github
-Version: 4.5.4-1
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-arm/suitesparse-dev_4.5.4-1_arm.deb
-Size: 100532
-SHA256: 0a8e583856fd489002b7b7eba69b8dc7ff3c349f19fa48b35141b5bc52a93db0
-
-Package: suitesparse-dev
-Architecture: arm
-Installed-Size: 784
-Maintainer: @its-pointless github
-Version: 4.5.4
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-arm/suitesparse-dev_4.5.4_arm.deb
-Size: 100560
-SHA256: 672d26ba23cf029f086a3964471531e390ded992c86085663dce1bed7f214ed8
-
-Package: suitesparse-dev
-Architecture: arm
 Installed-Size: 796
 Maintainer:  @its-pointless github
 Version: 4.5.6
@@ -2307,30 +2319,6 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-arm/suitesparse-dev_4.5.6_arm.deb
 Size: 103460
 SHA256: fe14233688a62fbc10ba64d821c5736caf8aa5017f7db266b1555b0db6d81338
-
-Package: suitesparse
-Architecture: arm
-Installed-Size: 1784
-Maintainer: @its-pointless github
-Version: 4.5.4-1
-Description: SuiteSparse is a suite of sparse matrix algorithms
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends:  libgfortran4, libmpfr, openblas
-Filename: dists/termux/extras/binary-arm/suitesparse_4.5.4-1_arm.deb
-Size: 520416
-SHA256: d8ab95ed54db36616a802ad41cbd871c36d674187a63d4ec1cb0997a37c53d9d
-
-Package: suitesparse
-Architecture: arm
-Installed-Size: 1704
-Maintainer: @its-pointless github
-Version: 4.5.4
-Description: SuiteSparse is a suite of sparse matrix algorithms
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: libgfortran,libatlas
-Filename: dists/termux/extras/binary-arm/suitesparse_4.5.4_arm.deb
-Size: 510532
-SHA256: c2d5b75918969c1a21962e1b42a428cd6f06c9691a39be8d587587ce067526cd
 
 Package: suitesparse
 Architecture: arm

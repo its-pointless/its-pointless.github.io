@@ -242,6 +242,18 @@ Filename: dists/termux/extras/binary-aarch64/cksfv_1.3.14_aarch64.deb
 Size: 8848
 SHA256: 9609418941adf5315e104ab821f2e77538756d0e46be6982000e518927a1e112
 
+Package: dictd
+Architecture: aarch64
+Installed-Size: 500
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12.1
+Description: Client/server software, human language dictionary databases, and tools supporting the DICT protocol 
+Homepage: https://sourceforge.net/projects/dict/
+Depends: libmaa
+Filename: dists/termux/extras/binary-aarch64/dictd_1.12.1_aarch64.deb
+Size: 103168
+SHA256: 2de21124846038393d6fc14af463fa74b91f969cfd3898401c25d4d0b1922aec
+
 Package: distcc
 Architecture: aarch64
 Installed-Size: 396
@@ -733,6 +745,29 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libgomp_4.9.x_aarch64.deb
 Size: 121832
 SHA256: 3a254cee8b97d1a591292d26a7952a9e28bbb16d76cd9dcaaf8e24a8b85e1f0a
+
+Package: libmaa-dev
+Architecture: aarch64
+Installed-Size: 28
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2
+Description: Development files for libmaa
+Homepage: https://directory.fsf.org/wiki/Libmaa
+Depends: libmaa
+Filename: dists/termux/extras/binary-aarch64/libmaa-dev_1.3.2_aarch64.deb
+Size: 5788
+SHA256: 7578997f7c8aca96d13b66e2f2ff2a5994410ce86374369133e92d95b921cbf3
+
+Package: libmaa
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2
+Description: maa programming library
+Homepage: https://directory.fsf.org/wiki/Libmaa
+Filename: dists/termux/extras/binary-aarch64/libmaa_1.3.2_aarch64.deb
+Size: 20548
+SHA256: 79888105b332af6f2af0b2ce0fd8ce361d478c83a3318f4f190e53fd10f544dc
 
 Package: libmodplug-dev
 Architecture: aarch64
@@ -2130,18 +2165,6 @@ SHA256: be761e9b9c5ac51aeb213c91f6816243a70665ff350d5b6a2283d8b9671fbd1c
 
 Package: sc-im
 Architecture: aarch64
-Installed-Size: 292
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.6.0
-Description: This library provides useful functions commonly found on BSD systems
-Homepage: https://github.com/andmarti1424/sc-im/
-Depends: libandroid-support, bthread
-Filename: dists/termux/extras/binary-aarch64/sc-im_0.6.0_aarch64.deb
-Size: 98592
-SHA256: f41e2636d6e027c66e05d6d39f25dde214f6434726fcee9ca1747d8ef1cdbdc8
-
-Package: sc-im
-Architecture: aarch64
 Installed-Size: 352
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.7.0-1
@@ -2214,30 +2237,6 @@ SHA256: f7995add1384fefdc1d064c173b80862292991816de793973efa8883137d89a8
 
 Package: suitesparse-dev
 Architecture: aarch64
-Installed-Size: 776
-Maintainer: @its-pointless github
-Version: 4.5.4-1
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_4.5.4-1_aarch64.deb
-Size: 100560
-SHA256: d05425a4b83c6d780f4ccc014a5eea818a8d59473ee62a221d4227b0c6b3f484
-
-Package: suitesparse-dev
-Architecture: aarch64
-Installed-Size: 784
-Maintainer: @its-pointless github
-Version: 4.5.4
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_4.5.4_aarch64.deb
-Size: 100428
-SHA256: 1b533babb638354a91c41ccca706f13259aa866a645c945df008027db66d2ccd
-
-Package: suitesparse-dev
-Architecture: aarch64
 Installed-Size: 796
 Maintainer:  @its-pointless github
 Version: 4.5.6
@@ -2247,30 +2246,6 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_4.5.6_aarch64.deb
 Size: 103340
 SHA256: a2e45273f0cba7c19780c522c3827a2ed01447e07c1ff29f6d46693b60b8d2c0
-
-Package: suitesparse
-Architecture: aarch64
-Installed-Size: 2276
-Maintainer: @its-pointless github
-Version: 4.5.4-1
-Description: SuiteSparse is a suite of sparse matrix algorithms
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: libgfortran4 ,openblas
-Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.4-1_aarch64.deb
-Size: 768392
-SHA256: a63b2f8b9f21e772e02c95d119bac2331c691a138874a060b79e7180346ecf12
-
-Package: suitesparse
-Architecture: aarch64
-Installed-Size: 2276
-Maintainer: @its-pointless github
-Version: 4.5.4
-Description: SuiteSparse is a suite of sparse matrix algorithms
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: libgfortran,openblas
-Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.4_aarch64.deb
-Size: 768108
-SHA256: 913d8d1170a1c74c3371d7a9b240b113e0e1cc13e7743e04a1b1a1874bde52d7
 
 Package: suitesparse
 Architecture: aarch64

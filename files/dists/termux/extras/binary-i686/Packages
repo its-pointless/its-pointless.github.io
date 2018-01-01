@@ -196,6 +196,18 @@ Filename: dists/termux/extras/binary-i686/cksfv_1.3.14_i686.deb
 Size: 9072
 SHA256: e1bf4de0d9f8ca74cfe17334331f0810ec03d0726dcc1dbb04ce875d2c3c0970
 
+Package: dictd
+Architecture: i686
+Installed-Size: 412
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12.1
+Description: Client/server software, human language dictionary databases, and tools supporting the DICT protocol 
+Homepage: https://sourceforge.net/projects/dict/
+Depends: libmaa
+Filename: dists/termux/extras/binary-i686/dictd_1.12.1_i686.deb
+Size: 106260
+SHA256: 20c81d563ba00431691267c77b381009448a886148edc44d76dbe3ddc7e675b9
+
 Package: distcc
 Architecture: i686
 Installed-Size: 288
@@ -217,6 +229,19 @@ Homepage: https://dopewars.sourceforge.io/
 Filename: dists/termux/extras/binary-i686/dopewars_1.5.12_i686.deb
 Size: 51332
 SHA256: ea838b5b73e6fc9c30e2e36cff0e5419fcf8a5ff6f5520b6d5c658830c3ca1ba
+
+Package: ecl-ext
+Architecture: i686
+Installed-Size: 5748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3
+Description: Embeddable Common-Lisp with threads for 32bit android-6 and up
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libandroid-support
+Conflicts: ecl
+Filename: dists/termux/extras/binary-i686/ecl-ext_16.1.3_i686.deb
+Size: 1381740
+SHA256: 0d3460442285224a033f01220a5faccd5cd04782ae6064bf9fbb6bf85b327cf0
 
 Package: ecl
 Architecture: i686
@@ -477,6 +502,29 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-i686/libgomp_4.9.x_i686.deb
 Size: 180152
 SHA256: 7d5921b2d38a04337c1094cc4a51a271de3ebddf9e26a020b73a975f6affabe0
+
+Package: libmaa-dev
+Architecture: i686
+Installed-Size: 28
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2
+Description: Development files for libmaa
+Homepage: https://directory.fsf.org/wiki/Libmaa
+Depends: libmaa
+Filename: dists/termux/extras/binary-i686/libmaa-dev_1.3.2_i686.deb
+Size: 5796
+SHA256: 4fb63dffa96d16c1969442485392cba22226da1513007888b4dc54f2ccb2cc30
+
+Package: libmaa
+Architecture: i686
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2
+Description: maa programming library
+Homepage: https://directory.fsf.org/wiki/Libmaa
+Filename: dists/termux/extras/binary-i686/libmaa_1.3.2_i686.deb
+Size: 21664
+SHA256: e1b159db833c49fe9ded36b80ddc377dbef85e904f45377696a865e7dc495df1
 
 Package: libpoco-dev
 Architecture: i686
@@ -1576,18 +1624,6 @@ SHA256: de5e66f235ad4c77928ef75f716c6067cd161b2ebdbb2d105de275195e1749bb
 
 Package: sc-im
 Architecture: i686
-Installed-Size: 280
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.6.0
-Description: This library provides useful functions commonly found on BSD systems
-Homepage: https://github.com/andmarti1424/sc-im/
-Depends: libandroid-support, bthread
-Filename: dists/termux/extras/binary-i686/sc-im_0.6.0_i686.deb
-Size: 103192
-SHA256: 4c5f77eafbbdd7403ecf61d966d5683c616c4a3aae4a48e5341448659393bb85
-
-Package: sc-im
-Architecture: i686
 Installed-Size: 312
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.7.0-1
@@ -1636,18 +1672,6 @@ SHA256: ecad152116428c4080d7639789d82981a6324f658301ea9d23baa81e73842dd0
 
 Package: suitesparse-dev
 Architecture: i686
-Installed-Size: 776
-Maintainer: @its-pointless github
-Version: 4.5.4-1
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-i686/suitesparse-dev_4.5.4-1_i686.deb
-Size: 100536
-SHA256: f9899c1a7b20eed11d494146c55929fbfb2d7141ac5950dffe024d13b8489e89
-
-Package: suitesparse-dev
-Architecture: i686
 Installed-Size: 796
 Maintainer:  @its-pointless github
 Version: 4.5.6
@@ -1657,18 +1681,6 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-i686/suitesparse-dev_4.5.6_i686.deb
 Size: 103556
 SHA256: 44f9da2a0fcfdb689f9a11ccfb3a2e5687b25ccaa9ac07aee1edecaee6b623b1
-
-Package: suitesparse
-Architecture: i686
-Installed-Size: 3040
-Maintainer: @its-pointless github
-Version: 4.5.4-1
-Description: SuiteSparse is a suite of sparse matrix algorithms
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends:  libgfortran4, libmpfr, openblas
-Filename: dists/termux/extras/binary-i686/suitesparse_4.5.4-1_i686.deb
-Size: 637020
-SHA256: 53774236f01ab500cb2844971462556eebe90f680bd3b1a703a00fb2aa367903
 
 Package: suitesparse
 Architecture: i686
