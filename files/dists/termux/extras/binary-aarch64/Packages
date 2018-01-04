@@ -361,6 +361,18 @@ Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.0_aarch64.deb
 Size: 20519980
 SHA256: f3e80dd357b2bcc1fecc80cdd3e58cf29de688ee117c1a383be3d88d9f8cf99d
 
+Package: gcc-7
+Architecture: aarch64
+Installed-Size: 78496
+Maintainer: @its-pointless github
+Version: 7.2.1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.1_aarch64.deb
+Size: 21176116
+SHA256: f4abc67f47d166168fe4b3d2cf8d73ab61ff489d8d1994f63fec88aab791644c
+
 Package: gcov-6
 Architecture: aarch64
 Installed-Size: 1008
@@ -643,6 +655,17 @@ Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.2.0_aarch64.deb
 Size: 316644
 SHA256: addc3830395d3a7f5503f02b33f1c0e8e870d79f00f84fb40b732914d7bc55f9
 
+Package: libgfortran4
+Architecture: aarch64
+Installed-Size: 836
+Maintainer: @its-pointless github
+Version: 7.2.1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.2.1_aarch64.deb
+Size: 178248
+SHA256: 6051d67c0c1c616f56d4281e74a493835c2071053ea7b9950726b6440152edb8
+
 Package: libgfortran
 Architecture: aarch64
 Installed-Size: 1504
@@ -722,6 +745,18 @@ Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.2.0_aarch64.deb
 Size: 315096
 SHA256: f8112df6e95f086d9d2bdbd85d371a8e17ecaf8e338f7c5222087a21f814452a
 
+Package: libgomp-7
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: @its-pointless github
+Version: 7.2.1
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.2.1_aarch64.deb
+Size: 53772
+SHA256: 719d71a5278d16b77d76b5b0d8111889e772dacd7e63429028b709794cb8ee7e
+
 Package: libgomp
 Architecture: aarch64
 Installed-Size: 784
@@ -734,6 +769,18 @@ Conflicts: libgomp
 Filename: dists/termux/extras/binary-aarch64/libgomp_4.9.x-1_aarch64.deb
 Size: 123036
 SHA256: 814d243a0f578427da1bd3bbd638d79b6e58ffe6787c0bd8daec454aa7f3b8eb
+
+Package: libgomp
+Architecture: aarch64
+Installed-Size: 776
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.x-2
+Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/libgomp_4.9.x-2_aarch64.deb
+Size: 123028
+SHA256: 17fa2ac3a4faa9b9557a02d36239a7a6fb35303b9bec94e17e5ac9d078a2aab8
 
 Package: libgomp
 Architecture: aarch64

@@ -280,6 +280,18 @@ Filename: dists/termux/extras/binary-i686/gcc-7_7.2.0_i686.deb
 Size: 26907384
 SHA256: 7631a0a1d478a168b1541337ae56f5b85a58be884b0d2d9b824119a89de84723
 
+Package: gcc-7
+Architecture: i686
+Installed-Size: 106368
+Maintainer: @its-pointless github
+Version: 7.2.1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-i686/gcc-7_7.2.1_i686.deb
+Size: 29559672
+SHA256: fd37eac1a2fd1ef75db225d851bf9bd73878444b0172a307ae93295948861f17
+
 Package: gcov-7
 Architecture: i686
 Installed-Size: 1528
@@ -467,6 +479,17 @@ Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.0_i686.deb
 Size: 623672
 SHA256: 69615dabbc62cff60e0f6020019f582be7849243c8b306da65f34ab7e701edc9
 
+Package: libgfortran4
+Architecture: i686
+Installed-Size: 1100
+Maintainer: @its-pointless github
+Version: 7.2.1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.1_i686.deb
+Size: 332084
+SHA256: 24ad681f7f1a98003614cb4e824bcc02772485e4455949c72f2638d0eb7da270
+
 Package: libgomp-7
 Architecture: i686
 Installed-Size: 940
@@ -478,6 +501,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-i686/libgomp-7_7.2.0_i686.deb
 Size: 522368
 SHA256: 28c4fc37ddc73b54ec2184ecd4e77b566f6878e20cd69f2c0965b064c7534cac
+
+Package: libgomp-7
+Architecture: i686
+Installed-Size: 240
+Maintainer: @its-pointless github
+Version: 7.2.1
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-i686/libgomp-7_7.2.1_i686.deb
+Size: 63292
+SHA256: 9a4dd8e3fc41ba8379100c357f3daa3be1616dd3682fc71797b8620a99ba9587
 
 Package: libgomp
 Architecture: i686
@@ -491,6 +526,18 @@ Conflicts: libgomp
 Filename: dists/termux/extras/binary-i686/libgomp_4.9.x-1_i686.deb
 Size: 181696
 SHA256: 7e77a32366bcabab48f2208185d79583c6746bb8287cebcaccb28e593c5b2691
+
+Package: libgomp
+Architecture: i686
+Installed-Size: 364
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.x-2
+Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-i686/libgomp_4.9.x-2_i686.deb
+Size: 181256
+SHA256: 7a6970f49e70cb9516252af708f70b00dca71d17a8035f67c5b42f2bd9e23504
 
 Package: libgomp
 Architecture: i686
@@ -1561,6 +1608,18 @@ Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, rea
 Filename: dists/termux/extras/binary-i686/r-cran_3.4.2_i686.deb
 Size: 40835820
 SHA256: 4df9bab58e7ea6da86accc511873c0fb0e1dd993356530de31da1340ef09ff78
+
+Package: racket
+Architecture: i686
+Installed-Size: 34696
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.11
+Description: Full-spectrum programming language going beyond Lisp and Scheme
+Homepage: https://racket-lang.org
+Depends: libffi, libandroid-support
+Filename: dists/termux/extras/binary-i686/racket_6.11_i686.deb
+Size: 5674784
+SHA256: 133ceef81ae6555df67e3fec49282eddd5b1be93383098417c223dc92486f1dd
 
 Package: ripgrep
 Architecture: i686

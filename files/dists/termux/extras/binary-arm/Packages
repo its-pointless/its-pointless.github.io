@@ -385,6 +385,18 @@ Filename: dists/termux/extras/binary-arm/gcc-7_7.2.0_arm.deb
 Size: 21541180
 SHA256: 982dd386777a287c7ac3adc41471aeb62c30b70cb7c4d8dbb825e022ef7fcd64
 
+Package: gcc-7
+Architecture: arm
+Installed-Size: 97968
+Maintainer: @its-pointless github
+Version: 7.2.1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-arm/gcc-7_7.2.1_arm.deb
+Size: 21666200
+SHA256: f6be85e8175cba573e8a6fd593691b2cafd33799ec772aecd6f0db69fee3588b
+
 Package: gcov-6
 Architecture: arm
 Installed-Size: 896
@@ -526,6 +538,18 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-arm/glpk_4.63_arm.deb
 Size: 300632
 SHA256: 735ce7d593a422a666df8c0799b6089f050ad46fcc64ae7becbd4c2148187e3e
+
+Package: gnat
+Architecture: arm
+Installed-Size: 91732
+Maintainer: @its-pointless github
+Version: 7.2.1
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/gnat_7.2.1_arm.deb
+Size: 15694448
+SHA256: 0d91d69e7cf59cf337d321669eb11e06699d9d17d71c9510e1aa3d8912e0763e
 
 Package: guile-2.2-dev
 Architecture: arm
@@ -726,6 +750,17 @@ Filename: dists/termux/extras/binary-arm/libgfortran4_7.2.0_arm.deb
 Size: 255564
 SHA256: ab14c0307dd7652a9347cc784bdd8e96e1d28ea9a591862857a9c5a25a70b5fe
 
+Package: libgfortran4
+Architecture: arm
+Installed-Size: 584
+Maintainer: @its-pointless github
+Version: 7.2.1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgfortran4_7.2.1_arm.deb
+Size: 151912
+SHA256: 6bfd5408ede6753524ffd256964210a07c8747593bfc51fef496ddfba40f259c
+
 Package: libgfortran
 Architecture: arm
 Installed-Size: 1128
@@ -783,6 +818,18 @@ Filename: dists/termux/extras/binary-arm/libgomp-7_7.2.0_arm.deb
 Size: 299860
 SHA256: 5e191b4944eed74fa5413fed2526dbe7391b5bb07f339d1742562bdf149139fd
 
+Package: libgomp-7
+Architecture: arm
+Installed-Size: 208
+Maintainer: @its-pointless github
+Version: 7.2.1
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/libgomp-7_7.2.1_arm.deb
+Size: 54836
+SHA256: 6d87022889536798568471d6e8cc0e45aaa7be11f9e95ebe84a428a894166603
+
 Package: libgomp
 Architecture: arm
 Installed-Size: 512
@@ -795,6 +842,18 @@ Conflicts: libgomp
 Filename: dists/termux/extras/binary-arm/libgomp_4.9.x-1_arm.deb
 Size: 117152
 SHA256: f9a9f558a2e7c85a8c29a409bc993bb356a056128ea70739ab8b1b15aa0c1dba
+
+Package: libgomp
+Architecture: arm
+Installed-Size: 504
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.x-2
+Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/libgomp_4.9.x-2_arm.deb
+Size: 116932
+SHA256: 5758dc3366011f93e22a7c3901adf36c3af77a9495f43763f8f8a1ad0b664486
 
 Package: libgomp
 Architecture: arm
@@ -2162,6 +2221,18 @@ Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, rea
 Filename: dists/termux/extras/binary-arm/r-cran_3.4.2_arm.deb
 Size: 38704168
 SHA256: 87d88aebbb935af5845c1373a09ad684370062dc729e5f1b3285b583866e915b
+
+Package: racket
+Architecture: arm
+Installed-Size: 31868
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.11
+Description: Full-spectrum programming language going beyond Lisp and Scheme
+Homepage: https://racket-lang.org
+Depends: libffi, libandroid-support
+Filename: dists/termux/extras/binary-arm/racket_6.11_arm.deb
+Size: 5548692
+SHA256: da57c1947eb7e1cc912ec2a60e6dc1ecadff6ecb45656f2fc741ca7746ce9200
 
 Package: ripgrep
 Architecture: arm
