@@ -11,30 +11,6 @@ SHA256: a05e64fec58be129cd107f9b1357f7b241dc4f8d1624c66221805aa6182c9c3f
 
 Package: arpack-ng
 Architecture: arm
-Installed-Size: 1396
-Maintainer: @its-pointless github
-Version: 3.4.0-1
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: libgfortran4, openblas
-Filename: dists/termux/extras/binary-arm/arpack-ng_3.4.0-1_arm.deb
-Size: 241412
-SHA256: a602269dbcac15f00269b5b82fb0d7a6b586639420cd19b3bc614aaa809bb094
-
-Package: arpack-ng
-Architecture: arm
-Installed-Size: 704
-Maintainer:  @its-pointless github
-Version: 3.4.0
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: libgfortran
-Filename: dists/termux/extras/binary-arm/arpack-ng_3.4.0_arm.deb
-Size: 103580
-SHA256: 190cadac703a6f5ed0a9b1f38072fc5435cf00e4c2f0a06f5f493254a281a652
-
-Package: arpack-ng
-Architecture: arm
 Installed-Size: 428
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0
@@ -691,6 +667,18 @@ Homepage: math-atlas.sourceforge.net/
 Filename: dists/termux/extras/binary-arm/libatlas_3.10.3_arm.deb
 Size: 2368208
 SHA256: f28c8d31b96e6035609944cdda3858ada80e6995124cd51d6bdb95f8a2a609cf
+
+Package: libboost-python
+Architecture: arm
+Installed-Size: 224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.65.1-1
+Description: Boost.Python Library
+Homepage: https://boost.org
+Depends: python, boost
+Filename: dists/termux/extras/binary-arm/libboost-python_1.65.1-1_arm.deb
+Size: 63592
+SHA256: b3afb1d6ca02c1e267d2195b885c0360349d57ebf40ab1b679277518c2e14b79
 
 Package: libgfortran-4
 Architecture: arm
@@ -2273,30 +2261,6 @@ SHA256: 8c2c974c21835e467eb3a97d2ec3e9414f06d3be6d723ff190dccc12315ccb46
 
 Package: rustc
 Architecture: arm
-Installed-Size: 97744
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.20.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-arm/rustc_1.20.0_arm.deb
-Size: 40234944
-SHA256: 997176ab71ad5e68e109f5dfc88ead1b1ea5a1461a0e7f9e9f99e541a24e394d
-
-Package: rustc
-Architecture: arm
-Installed-Size: 97348
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.21.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang, libllvm-4so
-Filename: dists/termux/extras/binary-arm/rustc_1.21.0_arm.deb
-Size: 39757352
-SHA256: e589c2e165eebbf06e1c5cc06b85efc257e41bb5ff6ca515d0b02bf9d6967b57
-
-Package: rustc
-Architecture: arm
 Installed-Size: 119344
 Maintainer: @its-pointless
 Version: 1.22.1
@@ -2345,18 +2309,6 @@ SHA256: de80d8d3eef3be77c4001109261ac6719b5e9f871b6eddb6aff7290c21ecbe79
 
 Package: scipy
 Architecture: arm
-Installed-Size: 39572
-Maintainer: @its-pointless github
-Version: 0.19.1-2
-Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
-Homepage: https://github.com/scipy/scipy
-Depends: numpy
-Filename: dists/termux/extras/binary-arm/scipy_0.19.1-2_arm.deb
-Size: 9210992
-SHA256: fbe3008f52b40ad175024f2e37172639ddfce9ddcecbfbc76608a65e2a01d0d0
-
-Package: scipy
-Architecture: arm
 Installed-Size: 39444
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.0.0
@@ -2366,18 +2318,6 @@ Depends: numpy
 Filename: dists/termux/extras/binary-arm/scipy_1.0.0_arm.deb
 Size: 9035428
 SHA256: 9d6781df3e63b56e02eb68cf8c4ccbdf17c4c314f4cebffaa7daa6880522fbcb
-
-Package: scipy
-Architecture: arm
-Installed-Size: 39468
-Maintainer: @its-pointless github
-Version: 1.0.0rc1
-Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
-Homepage: https://github.com/scipy/scipy
-Depends: numpy
-Filename: dists/termux/extras/binary-arm/scipy_1.0.0rc1_arm.deb
-Size: 9053908
-SHA256: a73aa9fec910ed214f7076532390ab73839be7a025a0b70babe5584478c2f630
 
 Package: suitesparse-dev
 Architecture: arm

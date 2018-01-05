@@ -11,30 +11,6 @@ SHA256: 4f7035a923571be4085c8ec3ff0010be115d97b204906dcff56d54724cbea326
 
 Package: arpack-ng
 Architecture: aarch64
-Installed-Size: 280
-Maintainer: @its-pointless github
-Version: 3.4.0-1
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: libgfortran4, openblas
-Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.4.0-1_aarch64.deb
-Size: 72904
-SHA256: a8be52dc984d809bc6e4ce981edec80b10d6a4ee9841d75ba5df3047b0b5a8c9
-
-Package: arpack-ng
-Architecture: aarch64
-Installed-Size: 732
-Maintainer:  @its-pointless github
-Version: 3.4.0
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: libgfortran
-Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.4.0_aarch64.deb
-Size: 80576
-SHA256: bfd6ae611946836c219d56c61c196875e06827e4ca9ee24a41fc5adb4dc0b34f
-
-Package: arpack-ng
-Architecture: aarch64
 Installed-Size: 404
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0
@@ -596,6 +572,18 @@ Depends: ndk-sysroot
 Filename: dists/termux/extras/binary-aarch64/lbzip2_2.5_aarch64.deb
 Size: 59480
 SHA256: 252da3dde8d12b5ef55b6ddcb398dff8d887575f354f7d40a4e13e379e426099
+
+Package: libboost-python
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.65.1-1
+Description: Boost.Python Library
+Homepage: https://boost.org
+Depends: python, boost
+Filename: dists/termux/extras/binary-aarch64/libboost-python_1.65.1-1_aarch64.deb
+Size: 62988
+SHA256: ddb62852c75fd34c9d11116fe8a5218cebb9ef2ef8e307ad40a8cc7b9e8da945
 
 Package: libgfortran-4
 Architecture: aarch64
@@ -2176,30 +2164,6 @@ SHA256: 41756213e7ef9ce64f055f2e0c96c12bfb27fa3793279b3d681072c92fcfd07f
 
 Package: rustc
 Architecture: aarch64
-Installed-Size: 100624
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.20.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-aarch64/rustc_1.20.0_aarch64.deb
-Size: 40326648
-SHA256: 07f7c049e764ef2763f2458759a38dc2cc75e673ffff3c7dfe3de890fb42a0c3
-
-Package: rustc
-Architecture: aarch64
-Installed-Size: 100004
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.21.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang, libllvm-4so
-Filename: dists/termux/extras/binary-aarch64/rustc_1.21.0_aarch64.deb
-Size: 39825304
-SHA256: bceaab874cf69c729262c45ee426f55094d2442d6b8d4f1716d815bacb462fbc
-
-Package: rustc
-Architecture: aarch64
 Installed-Size: 137044
 Maintainer: @its-pointless
 Version: 1.22.1
@@ -2245,30 +2209,6 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-aarch64/sc_7.16_aarch64.deb
 Size: 128420
 SHA256: 3b28c3d51b423d03fbf507659332ab2406c851a8c1d2965ee2e815af1f107794
-
-Package: scipy
-Architecture: aarch64
-Installed-Size: 44820
-Maintainer: @its-pointless github
-Version: 0.19.1-2
-Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
-Homepage: https://github.com/scipy/scipy
-Depends: numpy
-Filename: dists/termux/extras/binary-aarch64/scipy_0.19.1-2_aarch64.deb
-Size: 9559988
-SHA256: d7d23065673ef902d49c50d18ce5e93ce688967cdcdbd804b924bdea4062929c
-
-Package: scipy
-Architecture: aarch64
-Installed-Size: 44820
-Maintainer: @its-pointless github
-Version: 0.19.1
-Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
-Homepage: https://github.com/scipy/scipy
-Depends: python, libgfortran, numpy, openblas
-Filename: dists/termux/extras/binary-aarch64/scipy_0.19.1_aarch64.deb
-Size: 9562448
-SHA256: c9825067b5967a0162d2533d09d9ce1f83f6a2051ab54ce830f6cd7c1d0ada74
 
 Package: scipy
 Architecture: aarch64

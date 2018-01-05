@@ -1,17 +1,5 @@
 Package: arpack-ng
 Architecture: i686
-Installed-Size: 1512
-Maintainer: @its-pointless github
-Version: 3.4.0-1
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: libgfortran4, openblas
-Filename: dists/termux/extras/binary-i686/arpack-ng_3.4.0-1_i686.deb
-Size: 253908
-SHA256: b79a66bc0e70aa10e8b589fdc675684269d331e2042b7baa41f718b3ec6c40a9
-
-Package: arpack-ng
-Architecture: i686
 Installed-Size: 344
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0
@@ -444,6 +432,18 @@ Homepage: http://www.keystone-engine.org/
 Filename: dists/termux/extras/binary-i686/keystone_0.9.1_i686.deb
 Size: 821236
 SHA256: a149e3b4581d1fafd45bbf942498360d7ee59817b95803a097efe57a467d959c
+
+Package: libboost-python
+Architecture: i686
+Installed-Size: 284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.65.1-1
+Description: Boost.Python Library
+Homepage: https://boost.org
+Depends: python, boost
+Filename: dists/termux/extras/binary-i686/libboost-python_1.65.1-1_i686.deb
+Size: 71912
+SHA256: 55aef10ee6dd7b1c8a4f74e7343687789b989f6dd56701dd55af8dcbcfd91ea5
 
 Package: libgfortran4
 Architecture: i686
@@ -1647,30 +1647,6 @@ SHA256: 82aff5a13030830e876195ceeea8dbeb3e77e2a2368ce6fa94e1da02ab8d90aa
 
 Package: rustc
 Architecture: i686
-Installed-Size: 102332
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.20.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-i686/rustc_1.20.0_i686.deb
-Size: 41512636
-SHA256: f0e5837a387986574897d65609ef7d54512f816b29f18756169b7ae4184356e1
-
-Package: rustc
-Architecture: i686
-Installed-Size: 149048
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.21.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: libllvm, clang
-Filename: dists/termux/extras/binary-i686/rustc_1.21.0_i686.deb
-Size: 53601576
-SHA256: 15dec29bf60c653df520790640599fd4d32ae3fb18ad3ff3f716cdeb387fd159
-
-Package: rustc
-Architecture: i686
 Installed-Size: 141788
 Maintainer: @its-pointless
 Version: 1.22.1
@@ -1716,18 +1692,6 @@ Depends: numpy
 Filename: dists/termux/extras/binary-i686/scipy_1.0.0_i686.deb
 Size: 9156252
 SHA256: 5e807e95d94418902554a26a4d844b5c8236dff1f923649f7808e4cfd4ef7e7e
-
-Package: scipy
-Architecture: i686
-Installed-Size: 43724
-Maintainer: @its-pointless github
-Version: 1.0.0rc1
-Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
-Homepage: https://github.com/scipy/scipy
-Depends: numpy
-Filename: dists/termux/extras/binary-i686/scipy_1.0.0rc1_i686.deb
-Size: 9164532
-SHA256: ecad152116428c4080d7639789d82981a6324f658301ea9d23baa81e73842dd0
 
 Package: suitesparse-dev
 Architecture: i686
