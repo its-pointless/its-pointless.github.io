@@ -196,6 +196,18 @@ Filename: dists/termux/extras/binary-x86_64/cargo_0.23.0_x86_64.deb
 Size: 1827896
 SHA256: f62608dc3e4ac5189270abc4e26d5c6dcba11e0449a90da4a0e08de20fadde35
 
+Package: cargo
+Architecture: x86_64
+Installed-Size: 6528
+Maintainer: @its-pointless
+Version: 0.24.0
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libssh2
+Filename: dists/termux/extras/binary-x86_64/cargo_0.24.0_x86_64.deb
+Size: 1808772
+SHA256: 1f89aff9a1d740eb12c5b17e3fe5f734835f3ee156028f596c031aec17139f2c
+
 Package: cksfv
 Architecture: x86_64
 Installed-Size: 24

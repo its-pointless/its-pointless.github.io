@@ -173,6 +173,18 @@ Filename: dists/termux/extras/binary-i686/cargo_0.22.0_i686.deb
 Size: 1926068
 SHA256: 44acae86763a3b3029af38fd6ba765902ea566f1e3c5dd630e129613b75d6a9b
 
+Package: cargo
+Architecture: i686
+Installed-Size: 7080
+Maintainer: @its-pointless
+Version: 0.24.0
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libssh2
+Filename: dists/termux/extras/binary-i686/cargo_0.24.0_i686.deb
+Size: 1935820
+SHA256: 635b9d55da11c5baeb3b8695164db96866ebf2fd59757153ffc3c3afda97543f
+
 Package: cksfv
 Architecture: i686
 Installed-Size: 24
@@ -1667,6 +1679,18 @@ Depends: clang
 Filename: dists/termux/extras/binary-i686/rustc_1.22.1_i686.deb
 Size: 47844980
 SHA256: de5e66f235ad4c77928ef75f716c6067cd161b2ebdbb2d105de275195e1749bb
+
+Package: rustc
+Architecture: i686
+Installed-Size: 172628
+Maintainer: @its-pointless
+Version: 1.23.0
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-i686/rustc_1.23.0_i686.deb
+Size: 53322092
+SHA256: 5b81d73845500f26fecd809fba54db3bf0d73ff13be023c1c926305079b8bf06
 
 Package: sc-im
 Architecture: i686
