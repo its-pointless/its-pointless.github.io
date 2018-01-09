@@ -2161,32 +2161,6 @@ SHA256: a7450e9751705b06daa59254ab0115a0ad3bf2902b800d7b505f98b9bc6fe76d
 
 Package: rustc-nightly
 Architecture: aarch64
-Installed-Size: 183772
-Maintainer: @its-pointless
-Version: 1.24-1
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.24-1_aarch64.deb
-Size: 55727976
-SHA256: 0fb759bc5b0eeb5b8bbd63c2cf2e91d1fe4a2dbcd18adccd0844479974bf7677
-
-Package: rustc-nightly
-Architecture: aarch64
-Installed-Size: 176576
-Maintainer: @its-pointless
-Version: 1.24
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.24_aarch64.deb
-Size: 52766508
-SHA256: 41756213e7ef9ce64f055f2e0c96c12bfb27fa3793279b3d681072c92fcfd07f
-
-Package: rustc-nightly
-Architecture: aarch64
 Installed-Size: 179328
 Maintainer: @its-pointless
 Version: 1.25
@@ -2197,18 +2171,6 @@ Provides: rustc
 Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.25_aarch64.deb
 Size: 54021236
 SHA256: 899c5f47306e2c16152a4cf6cd65a44decd134a1b2d59c98a7e1aff0821a9468
-
-Package: rustc
-Architecture: aarch64
-Installed-Size: 137044
-Maintainer: @its-pointless
-Version: 1.22.1
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-aarch64/rustc_1.22.1_aarch64.deb
-Size: 44588352
-SHA256: be761e9b9c5ac51aeb213c91f6816243a70665ff350d5b6a2283d8b9671fbd1c
 
 Package: rustc
 Architecture: aarch64

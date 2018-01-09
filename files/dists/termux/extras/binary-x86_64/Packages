@@ -1736,17 +1736,18 @@ Filename: dists/termux/extras/binary-x86_64/ripgrep_0.7.1_x86_64.deb
 Size: 860720
 SHA256: 788f626744be2f575f85fbf2e43b3b594d950d2d924967b04b644e3dc302a74e
 
-Package: rustc
+Package: rustc-nightly
 Architecture: x86_64
-Installed-Size: 144072
+Installed-Size: 186476
 Maintainer: @its-pointless
-Version: 1.22.1
-Description: A safe, concurrent, practical language.
+Version: 1.25
+Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
-Filename: dists/termux/extras/binary-x86_64/rustc_1.22.1_x86_64.deb
-Size: 47275364
-SHA256: 91802a85f1f43cd7e12c06311ee8a4a99b37612c1d249e5a4e2fb1b8ce84246b
+Provides: rustc
+Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.25_x86_64.deb
+Size: 57028336
+SHA256: c47b5d3626e46dd0fe7252303b3110767fe9a49e4827e0b2434bf45ae9cf98e6
 
 Package: rustc
 Architecture: x86_64

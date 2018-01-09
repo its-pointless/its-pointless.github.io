@@ -2258,41 +2258,16 @@ SHA256: 1110ab4b0d8e1d25b5c3ce1217f9cfcd537dd1960f6a574f2a7b4f95dc657785
 
 Package: rustc-nightly
 Architecture: arm
-Installed-Size: 156544
+Installed-Size: 153204
 Maintainer: @its-pointless
-Version: 1.24-1
+Version: 1.25
 Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
 Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.24-1_arm.deb
-Size: 56506752
-SHA256: c26277807870d57ed51321eb421ea79648ab2932260934433ccc40a07c799fc0
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 159912
-Maintainer: @its-pointless
-Version: 1.24
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.24_arm.deb
-Size: 53411632
-SHA256: 8c2c974c21835e467eb3a97d2ec3e9414f06d3be6d723ff190dccc12315ccb46
-
-Package: rustc
-Architecture: arm
-Installed-Size: 119344
-Maintainer: @its-pointless
-Version: 1.22.1
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-arm/rustc_1.22.1_arm.deb
-Size: 45321840
-SHA256: 922ac32bd715b53e31fba736c0f558a7c0b24cb711c2b6a6aa3118415ff272ed
+Filename: dists/termux/extras/binary-arm/rustc-nightly_1.25_arm.deb
+Size: 54862520
+SHA256: 6470c9b6997e6ed68a91a3e3915aa1a9cbd61467260f9031dc687a59a58dbb9c
 
 Package: rustc
 Architecture: arm

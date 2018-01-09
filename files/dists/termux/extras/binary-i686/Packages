@@ -1657,19 +1657,6 @@ SHA256: 7847a466f63880cca08a1930fee648f1002798e92e72afd0c7896baaeee919e3
 
 Package: rustc-nightly
 Architecture: i686
-Installed-Size: 187972
-Maintainer: @its-pointless
-Version: 1.24-1
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.24-1_i686.deb
-Size: 59642392
-SHA256: 82aff5a13030830e876195ceeea8dbeb3e77e2a2368ce6fa94e1da02ab8d90aa
-
-Package: rustc-nightly
-Architecture: i686
 Installed-Size: 184492
 Maintainer: @its-pointless
 Version: 1.25
@@ -1680,18 +1667,6 @@ Provides: rustc
 Filename: dists/termux/extras/binary-i686/rustc-nightly_1.25_i686.deb
 Size: 58058348
 SHA256: 30209d7cd1020715e83a8f2a4738f1180d8d146ebf6ceea71cb8543338ea8acc
-
-Package: rustc
-Architecture: i686
-Installed-Size: 141788
-Maintainer: @its-pointless
-Version: 1.22.1
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-i686/rustc_1.22.1_i686.deb
-Size: 47844980
-SHA256: de5e66f235ad4c77928ef75f716c6067cd161b2ebdbb2d105de275195e1749bb
 
 Package: rustc
 Architecture: i686
