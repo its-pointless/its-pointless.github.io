@@ -1668,6 +1668,19 @@ Filename: dists/termux/extras/binary-i686/rustc-nightly_1.24-1_i686.deb
 Size: 59642392
 SHA256: 82aff5a13030830e876195ceeea8dbeb3e77e2a2368ce6fa94e1da02ab8d90aa
 
+Package: rustc-nightly
+Architecture: i686
+Installed-Size: 184492
+Maintainer: @its-pointless
+Version: 1.25
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-i686/rustc-nightly_1.25_i686.deb
+Size: 58058348
+SHA256: 30209d7cd1020715e83a8f2a4738f1180d8d146ebf6ceea71cb8543338ea8acc
+
 Package: rustc
 Architecture: i686
 Installed-Size: 141788

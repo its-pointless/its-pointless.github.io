@@ -1748,6 +1748,18 @@ Filename: dists/termux/extras/binary-x86_64/rustc_1.22.1_x86_64.deb
 Size: 47275364
 SHA256: 91802a85f1f43cd7e12c06311ee8a4a99b37612c1d249e5a4e2fb1b8ce84246b
 
+Package: rustc
+Architecture: x86_64
+Installed-Size: 173508
+Maintainer: @its-pointless
+Version: 1.23.0
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-x86_64/rustc_1.23.0_x86_64.deb
+Size: 52375328
+SHA256: 5c6d21235448110cacb0c50b05db6e2e723ee53669a7741b7cfa1febfa0e08f2
+
 Package: sc-im
 Architecture: x86_64
 Installed-Size: 332
