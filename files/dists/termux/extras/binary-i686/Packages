@@ -330,17 +330,6 @@ SHA256: ad339c552c3c71ecdf57e80e02585d3774c2982a094d4e38d7614c294367f526
 
 Package: glpk
 Architecture: i686
-Installed-Size: 828
-Maintainer:  @its-pointless github
-Version: 4.61
-Description: The GLPK (GNU Linear Programming Kit)
-Homepage: https://www.gnu.org/software/glpk/
-Filename: dists/termux/extras/binary-i686/glpk_4.61_i686.deb
-Size: 333428
-SHA256: 17f96e23b5f6762dadbc8844ad7b9d92878a168c3afe32f32eb1178737158ddf
-
-Package: glpk
-Architecture: i686
 Installed-Size: 804
 Maintainer:  @its-pointless github
 Version: 4.63
@@ -501,6 +490,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.1_i686.deb
 Size: 332084
 SHA256: 24ad681f7f1a98003614cb4e824bcc02772485e4455949c72f2638d0eb7da270
+
+Package: libgnuiconv
+Architecture: i686
+Installed-Size: 892
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15
+Description: the gnuiconv library to use in place of libandroid-support for R
+Homepage: https://www.gnu.org/software/libiconv/
+Filename: dists/termux/extras/binary-i686/libgnuiconv_1.15_i686.deb
+Size: 488664
+SHA256: 3446d32b99c845876024e0daa327ad25297f0a8dc90e9446f4a4e4f18aa118ee
 
 Package: libgomp-7
 Architecture: i686
@@ -1560,29 +1560,41 @@ Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.13_i686.deb
 Size: 3217224
 SHA256: 7714733ac4339f59d9099a7e1f506ef8ed68ce7c15e173d8e41070b62603b3fc
 
+Package: r-cran-rcpp
+Architecture: i686
+Installed-Size: 11288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.14
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.14_i686.deb
+Size: 3221892
+SHA256: e3932a02e2cd0e88ee0960de2fafb782dc486f32a7e12c6ecee69a1a74b4caae
+
 Package: r-cran-rquantlib
 Architecture: i686
-Installed-Size: 3944
+Installed-Size: 3948
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.4
-Description: a freely available language and environment for statistical computing and graphics
+Version: 0.4.4-1
+Description: GNU R package interfacing the QuantLib finance library
 Homepage: https://cran.r-project.org/
-Depends: r-cran, r-cran-zoo, r-cran-rcpp
-Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.4_i686.deb
-Size: 804892
-SHA256: 0de8dabfdf42290cf0adc8e32cbae50e0610dd90ff4829649c490478088fa65a
+Depends: r-cran, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.4-1_i686.deb
+Size: 806068
+SHA256: fdd11d6459d5a9cef7a46fe87dfbc9dbdc63331786ed9c5fbcb1a783900008ef
 
 Package: r-cran-stringi
 Architecture: i686
 Installed-Size: 1060
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.1.6
-Description: Allows for fast, correct, consistent, portable, as well as convenient character string/text processing in every locale and any native encoding.
+Description: GNU R character string processing facilities
 Homepage: https://cran.r-project.org/
-Depends: r-cran
+Depends: r-cran, libicu
 Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.1.6_i686.deb
-Size: 580696
-SHA256: 0399c846f1f0cb5469718521c7be15775056b88f32ebc3195f95f8c5a9c3565f
+Size: 580488
+SHA256: 6877b17d7ec4e639b68ffb8a390df6b4d43db510f5460c4b649feafa98f10b33
 
 Package: r-cran-zoo
 Architecture: i686
@@ -1595,6 +1607,18 @@ Depends: r-cran
 Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-0_i686.deb
 Size: 865892
 SHA256: dde72d150bc7838321dbc522c9bf55e6b0daffe6b528854d11f7ff20c343ff4a
+
+Package: r-cran-zoo
+Architecture: i686
+Installed-Size: 1276
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-1-0
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-1-0_i686.deb
+Size: 879632
+SHA256: fb9ed7cb2bcc3c449b4e4392667c6a2adcdaffb099231416a91a65f742d92632
 
 Package: r-cran
 Architecture: i686
@@ -1631,6 +1655,18 @@ Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, rea
 Filename: dists/termux/extras/binary-i686/r-cran_3.4.2_i686.deb
 Size: 40835820
 SHA256: 4df9bab58e7ea6da86accc511873c0fb0e1dd993356530de31da1340ef09ff78
+
+Package: r-cran
+Architecture: i686
+Installed-Size: 64476
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.3
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-i686/r-cran_3.4.3_i686.deb
+Size: 39863520
+SHA256: 44e7740132e6001bc7a5bc3c0c5f3fbbe2c8316dfb05debe1bd2247ad2a03738
 
 Package: racket
 Architecture: i686

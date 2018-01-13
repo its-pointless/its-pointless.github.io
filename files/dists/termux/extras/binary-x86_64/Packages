@@ -352,17 +352,6 @@ SHA256: 7dd93f403a3ee2f9f2b82430d79b5bd7eefadaff62aa08aaf5af3019084e387c
 
 Package: glpk
 Architecture: x86_64
-Installed-Size: 844
-Maintainer:  @its-pointless github
-Version: 4.61
-Description: The GLPK (GNU Linear Programming Kit)
-Homepage: https://www.gnu.org/software/glpk/
-Filename: dists/termux/extras/binary-x86_64/glpk_4.61_x86_64.deb
-Size: 346484
-SHA256: 0d6979d2bbec796cb44e5d770a68c74017d96e34916949a8a586f7c78d0d3f31
-
-Package: glpk
-Architecture: x86_64
 Installed-Size: 840
 Maintainer:  @its-pointless github
 Version: 4.63
@@ -547,6 +536,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.2.1_x86_64.deb
 Size: 351216
 SHA256: 0c29555f36beb9618a39dbea2c4401b30c9d478134524c4a0ee086aca66c9784
+
+Package: libgnuiconv
+Architecture: x86_64
+Installed-Size: 912
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15
+Description: the gnuiconv library to use in place of libandroid-support for R
+Homepage: https://www.gnu.org/software/libiconv/
+Filename: dists/termux/extras/binary-x86_64/libgnuiconv_1.15_x86_64.deb
+Size: 492512
+SHA256: 5bde5cb6d4c08f2c557f1bc1f2c36d4e630cf685b6c11b452ce8572caafc2ec6
 
 Package: libgomp-7
 Architecture: x86_64
@@ -1642,29 +1642,41 @@ Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_0.12.13_x86_64.deb
 Size: 3304928
 SHA256: 3843a9f8c57830806d1af08bad4f534f003082b1f347d0804c77231561c2f7f2
 
+Package: r-cran-rcpp
+Architecture: x86_64
+Installed-Size: 11284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.14
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_0.12.14_x86_64.deb
+Size: 3222344
+SHA256: 1d7c308403af3351f4f585778a155966dd153e28e15d3b487394f086891fbdfd
+
 Package: r-cran-rquantlib
 Architecture: x86_64
-Installed-Size: 7444
+Installed-Size: 4152
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.4
-Description: a freely available language and environment for statistical computing and graphics
+Version: 0.4.4-1
+Description: GNU R package interfacing the QuantLib finance library
 Homepage: https://cran.r-project.org/
-Depends: r-cran, r-cran-zoo, r-cran-rcpp
-Filename: dists/termux/extras/binary-x86_64/r-cran-rquantlib_0.4.4_x86_64.deb
-Size: 1182632
-SHA256: a4206e6e2fb48ea71ea474caa3f007cc95f2b5d97a77176a1a5a635a9459df34
+Depends: r-cran, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-x86_64/r-cran-rquantlib_0.4.4-1_x86_64.deb
+Size: 876628
+SHA256: 19baa701ef713bac73e9913d76f7c19a7a063552ad72d7270c2ec61b6364a3fb
 
 Package: r-cran-stringi
 Architecture: x86_64
-Installed-Size: 1488
+Installed-Size: 1068
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.1.6
-Description: Allows for fast, correct, consistent, portable, as well as convenient character string/text processing in every locale and any native encoding.
+Description: GNU R character string processing facilities
 Homepage: https://cran.r-project.org/
-Depends: r-cran
+Depends: r-cran, libicu
 Filename: dists/termux/extras/binary-x86_64/r-cran-stringi_1.1.6_x86_64.deb
-Size: 644040
-SHA256: 5fa89f8c747adfa43d847ebcedfbc5c150af6228af9b3b0686f4291582ab17ee
+Size: 584608
+SHA256: 36abce319004a56d4cdf22ab232e3d22e04d2ba7b4c2333a2e386b6e74d57712
 
 Package: r-cran-zoo
 Architecture: x86_64
@@ -1677,6 +1689,18 @@ Depends: r-cran
 Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-0_x86_64.deb
 Size: 866124
 SHA256: 5162f4ff084d59b98a0e790aacf93d8ed96442060e8e51fbea7492f90faf6547
+
+Package: r-cran-zoo
+Architecture: x86_64
+Installed-Size: 1280
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-1-0
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-1-0_x86_64.deb
+Size: 880840
+SHA256: dc3115fc11e3cefe49ab30aa65df5f5004dc24d65473b79d05fa1b2f0c4a6566
 
 Package: r-cran
 Architecture: x86_64
@@ -1724,6 +1748,18 @@ Homepage: https://cran.r-project.org/
 Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.2_x86_64.deb
 Size: 40170360
 SHA256: bd8e3f085f421853d09d92bea2afd759b1728f3ac2c18c64ec1a66649e4e7dca
+
+Package: r-cran
+Architecture: x86_64
+Installed-Size: 83416
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.3
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.3_x86_64.deb
+Size: 45763420
+SHA256: c19ff424b1b928eec4270c5e3f407fecc14e7b5fe6219def6845dcf83bc38d66
 
 Package: ripgrep
 Architecture: x86_64

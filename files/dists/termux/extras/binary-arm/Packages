@@ -507,17 +507,6 @@ SHA256: 6eb545c6151c5444e220c34e2a62b3767a5b698fb77eb8a16559e8134f316bd8
 
 Package: glpk
 Architecture: arm
-Installed-Size: 616
-Maintainer:  @its-pointless github
-Version: 4.61
-Description: The GLPK (GNU Linear Programming Kit)
-Homepage: https://www.gnu.org/software/glpk/
-Filename: dists/termux/extras/binary-arm/glpk_4.61_arm.deb
-Size: 306520
-SHA256: 223fb0b1753aa2f552a9fa9a56946fe302c0bff29f6eb2fbcdb13ba0ac907b83
-
-Package: glpk
-Architecture: arm
 Installed-Size: 600
 Maintainer:  @its-pointless github
 Version: 4.63
@@ -805,6 +794,17 @@ Homepage: https://bitbucket.org/mpyne/game-music-emu
 Filename: dists/termux/extras/binary-arm/libgme_0.6.1_arm.deb
 Size: 95420
 SHA256: 1a940655d9c990266b7d488ba9dfeafbd7fde3ecb5faca0e0214ab39e3cc434e
+
+Package: libgnuiconv
+Architecture: arm
+Installed-Size: 880
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15
+Description: the gnuiconv library to use in place of libandroid-support for R
+Homepage: https://www.gnu.org/software/libiconv/
+Filename: dists/termux/extras/binary-arm/libgnuiconv_1.15_arm.deb
+Size: 485140
+SHA256: 2840838572449016236221872a8d9ce47a2fe7e4c79affe54350e3ea4bcff8fa
 
 Package: libgomp-7
 Architecture: arm
@@ -2100,6 +2100,18 @@ Filename: dists/termux/extras/binary-arm/r-cran-rcpp_0.12.13_arm.deb
 Size: 3168232
 SHA256: 1ea16b72e84d1ab8d10353ebe674c77b805f82ef9294684fc082493e5c3eecd5
 
+Package: r-cran-rcpp
+Architecture: arm
+Installed-Size: 11236
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.14
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-arm/r-cran-rcpp_0.12.14_arm.deb
+Size: 3200124
+SHA256: df87e487f269860b8e9275c295ca7c57a16fafaef2a35dffad1ca4f029db7f78
+
 Package: r-cran-rquantlib
 Architecture: arm
 Installed-Size: 3640
@@ -2127,51 +2139,27 @@ SHA256: 17473f9b57a2f9626088705dbfffc813e0851df5002fa8a83a7f0afe8f8f4351
 
 Package: r-cran-rquantlib
 Architecture: arm
-Installed-Size: 2960
+Installed-Size: 3600
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.4
-Description: a freely available language and environment for statistical computing and graphics
+Version: 0.4.4-1
+Description: GNU R package interfacing the QuantLib finance library
 Homepage: https://cran.r-project.org/
-Depends: r-cran, r-cran-zoo, r-cran-rcpp
-Filename: dists/termux/extras/binary-arm/r-cran-rquantlib_0.4.4_arm.deb
-Size: 677568
-SHA256: dab1dd4b43da83064b7703796cc92f257c4cabe28b909b856958b1f321d93c39
+Depends: r-cran, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-arm/r-cran-rquantlib_0.4.4-1_arm.deb
+Size: 759160
+SHA256: b6f30a870f3d0f59b1c4e62a15f0d120f5f14c328f94fde49d088fc5ba7475df
 
 Package: r-cran-stringi
 Architecture: arm
-Installed-Size: 980
+Installed-Size: 996
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.1.6
-Description: Allows for fast, correct, consistent, portable, as well as convenient character string/text processing in every locale and any native encoding.
+Description: GNU R character string processing facilities
 Homepage: https://cran.r-project.org/
-Depends: r-cran
+Depends: r-cran, libicu
 Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.1.6_arm.deb
-Size: 548796
-SHA256: 886fabfb2ed8eea6edc71cd0cfc8fc0f2e4f9a83274bbca67e8f6a91c4f15ec4
-
-Package: r-cran-stringi
-Architecture: arm
-Installed-Size: 976
-Maintainer: @its-pointless github
-Version: 1.15-1
-Description: gnu r character string/text processing in every locale
-Homepage: https://cran.r-project.org/web/packages/stringi/index.html
-Depends: r-cran, libicu
-Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.15-1_arm.deb
-Size: 559044
-SHA256: d0659915bb20832189c2347123d9c96b32fdd5afa2add3c6b56a0e85f26ea506
-
-Package: r-cran-stringi
-Architecture: arm
-Installed-Size: 1272
-Maintainer: @its-pointless github
-Version: 1.15
-Description: gnu r character string/text processing in every locale
-Homepage: https://cran.r-project.org/web/packages/stringi/index.html
-Depends: r-cran, libicu
-Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.15_arm.deb
-Size: 595312
-SHA256: c91264b2a7268d44017d60946f125a92bde2a27943ad30a2b742acc5ffbb11a9
+Size: 554496
+SHA256: a268bbd55e91ad0e3448fdb803957adf971f2dbc49228e88c1ce728882d4f751
 
 Package: r-cran-zoo
 Architecture: arm
@@ -2184,6 +2172,18 @@ Depends: r-cran
 Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.8-0_arm.deb
 Size: 855256
 SHA256: 500656979fc49caa961e5dc72b5725d6f127ed90c61e04b499c77446a0a8a616
+
+Package: r-cran-zoo
+Architecture: arm
+Installed-Size: 1260
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-1-0
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.8-1-0_arm.deb
+Size: 871372
+SHA256: 551438a16ec94f3fc0e79074b456a7a0559dee229927f89d3c888eaf6801171b
 
 Package: r-cran
 Architecture: arm
@@ -2232,6 +2232,18 @@ Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, rea
 Filename: dists/termux/extras/binary-arm/r-cran_3.4.2_arm.deb
 Size: 38704168
 SHA256: 87d88aebbb935af5845c1373a09ad684370062dc729e5f1b3285b583866e915b
+
+Package: r-cran
+Architecture: arm
+Installed-Size: 60464
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.3
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-arm/r-cran_3.4.3_arm.deb
+Size: 39114584
+SHA256: 9f0537b997736d1be6a39ab87d36f797f9212d1a9115a427fb2d3d5bc31877e5
 
 Package: racket
 Architecture: arm
