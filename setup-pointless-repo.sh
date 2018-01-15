@@ -2,7 +2,7 @@
 # Get some needed tools. coreutils for mkdir command, gnugp for the signing key, and apt-transport-https to actually connect to the repo
 apt-get update
 apt-get  --assume-yes upgrade 
-apt-get  --assume-yes install coreutils gnupg2 apt-transport-https wget 
+apt-get  --assume-yes install coreutils gnupg2 wget 
 # Make the sources.list.d directory
 mkdir $PREFIX/etc/apt/sources.list.d
 # Write the needed source file
