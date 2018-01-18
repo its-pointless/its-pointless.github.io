@@ -200,6 +200,18 @@ Package: cargo
 Architecture: x86_64
 Installed-Size: 6528
 Maintainer: @its-pointless
+Version: 0.24.0-1
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libssh2, libgit2
+Filename: dists/termux/extras/binary-x86_64/cargo_0.24.0-1_x86_64.deb
+Size: 1808968
+SHA256: 1889a3a6fd700f51db2decdb3a25dc451ba391f0ec505da700f8b204b378620a
+
+Package: cargo
+Architecture: x86_64
+Installed-Size: 6528
+Maintainer: @its-pointless
 Version: 0.24.0
 Description: Rust package manager
 Homepage: https://crates.io
