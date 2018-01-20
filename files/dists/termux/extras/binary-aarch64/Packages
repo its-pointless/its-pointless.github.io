@@ -1053,6 +1053,18 @@ SHA256: 6015ad82aeaa180e4769c114e2e7cf83fa176b84343e8e35147483aae6716f96
 
 Package: nim
 Architecture: aarch64
+Installed-Size: 10552
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.17.2-1
+Description: Nim is a systems and applications programming language. Statically typed and compiled, it provides unparalleled performance in an elegant package.
+Homepage: https://nim-lang.org/
+Depends: git, clang, libandroid-glob
+Filename: dists/termux/extras/binary-aarch64/nim_0.17.2-1_aarch64.deb
+Size: 1906004
+SHA256: de13f97132240f7a78618640dff45b4d5b7f4ecd88468922eaa80cd6ea4bd00e
+
+Package: nim
+Architecture: aarch64
 Installed-Size: 10040
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.17.2
