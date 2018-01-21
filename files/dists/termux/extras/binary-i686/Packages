@@ -1622,39 +1622,15 @@ SHA256: fb9ed7cb2bcc3c449b4e4392667c6a2adcdaffb099231416a91a65f742d92632
 
 Package: r-cran
 Architecture: i686
-Installed-Size: 63216
+Installed-Size: 64476
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.2-2
+Version: 3.4.3-2
 Description: a freely available language and environment for statistical computing and graphics
 Homepage: https://cran.r-project.org/
-Depends: openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-i686/r-cran_3.4.2-2_i686.deb
-Size: 39723280
-SHA256: 96af2a08578d5cb9793c2c1dc55cd7d74b966594dad3da13f0055a70906cf08b
-
-Package: r-cran
-Architecture: i686
-Installed-Size: 62872
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.2-3
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-i686/r-cran_3.4.2-3_i686.deb
-Size: 39895624
-SHA256: 6acc968d67b38b2e8d2b5476b45511c2599dbcc5458560234e3846cd901326c2
-
-Package: r-cran
-Architecture: i686
-Installed-Size: 70000
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.2
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo
-Filename: dists/termux/extras/binary-i686/r-cran_3.4.2_i686.deb
-Size: 40835820
-SHA256: 4df9bab58e7ea6da86accc511873c0fb0e1dd993356530de31da1340ef09ff78
+Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-i686/r-cran_3.4.3-2_i686.deb
+Size: 39838464
+SHA256: 51264685ad563d71994d81cb8d50c8a70cd68d708036de6c2d549037adc18862
 
 Package: r-cran
 Architecture: i686

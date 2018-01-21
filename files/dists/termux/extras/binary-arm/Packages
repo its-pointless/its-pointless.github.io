@@ -2187,51 +2187,15 @@ SHA256: 551438a16ec94f3fc0e79074b456a7a0559dee229927f89d3c888eaf6801171b
 
 Package: r-cran
 Architecture: arm
-Installed-Size: 64148
+Installed-Size: 60464
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.2-1
+Version: 3.4.3-2
 Description: a freely available language and environment for statistical computing and graphics
 Homepage: https://cran.r-project.org/
-Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo
-Filename: dists/termux/extras/binary-arm/r-cran_3.4.2-1_arm.deb
-Size: 40009176
-SHA256: 79c70c13e46ef99aa042dd3bfab020e4ca35887887be0fa0bbd8455b3ab57b91
-
-Package: r-cran
-Architecture: arm
-Installed-Size: 64148
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.2-2
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-arm/r-cran_3.4.2-2_arm.deb
-Size: 40013552
-SHA256: 035958d171cb4677885361e7588405882bcde7657462f8eaca385c7046ea2f50
-
-Package: r-cran
-Architecture: arm
-Installed-Size: 61284
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.2-3
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-arm/r-cran_3.4.2-3_arm.deb
-Size: 39556928
-SHA256: f851dc47374ca757dabdb6d53ddd1c76142e8ce1944fd3c0f7257792b575c96e
-
-Package: r-cran
-Architecture: arm
-Installed-Size: 59256
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.2
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo
-Filename: dists/termux/extras/binary-arm/r-cran_3.4.2_arm.deb
-Size: 38704168
-SHA256: 87d88aebbb935af5845c1373a09ad684370062dc729e5f1b3285b583866e915b
+Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-arm/r-cran_3.4.3-2_arm.deb
+Size: 39115692
+SHA256: e64a663bf0301878e312b0e3a2c494927b8b14e2cb40e1242e0e3601187c141e
 
 Package: r-cran
 Architecture: arm
