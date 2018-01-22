@@ -1029,6 +1029,29 @@ Filename: dists/termux/extras/binary-aarch64/libssh2_1.8.0_aarch64.deb
 Size: 51168
 SHA256: 2171608954c620260977e96c773d9ad58d2c4d25bc4cd8208f18956926df7799
 
+Package: libtommath-dev
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: Development files for libtommath
+Homepage: https://github.com/libtom/libtommath
+Depends: libtommath
+Filename: dists/termux/extras/binary-aarch64/libtommath-dev_1.0.1_aarch64.deb
+Size: 8508
+SHA256: 192e7e251ef13d79a6e3eb7359ecd0a7d745bbb664745ff9df8b1ee2f336fb7a
+
+Package: libtommath
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: portable number theoretic multiple-precision integer library written entirely in C
+Homepage: https://github.com/libtom/libtommath
+Filename: dists/termux/extras/binary-aarch64/libtommath_1.0.1_aarch64.deb
+Size: 23300
+SHA256: 5bfd619e6b5138ea7f287cac85adb6acab258ddb9fb8f6a468984ccedc66d411
+
 Package: mailutils-dev
 Architecture: aarch64
 Installed-Size: 688
@@ -1076,6 +1099,18 @@ Filename: dists/termux/extras/binary-aarch64/mksh_56b_aarch64.deb
 Size: 156448
 SHA256: 6015ad82aeaa180e4769c114e2e7cf83fa176b84343e8e35147483aae6716f96
 
+Package: moarvm
+Architecture: aarch64
+Installed-Size: 6828
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2017.12.1
+Description: A modern VM built for Rakudo Perl 6
+Homepage: https://github.com/MoarVM/MoarVM
+Depends: libffi, libtommath, libuv
+Filename: dists/termux/extras/binary-aarch64/moarvm_2017.12.1_aarch64.deb
+Size: 824564
+SHA256: 8b0281d325574c6f5332baeffd1e5282f4ebf6541c9fc64663b94152926ab7c4
+
 Package: nim
 Architecture: aarch64
 Installed-Size: 10552
@@ -1087,18 +1122,6 @@ Depends: git, clang, libandroid-glob
 Filename: dists/termux/extras/binary-aarch64/nim_0.17.2-1_aarch64.deb
 Size: 1906004
 SHA256: de13f97132240f7a78618640dff45b4d5b7f4ecd88468922eaa80cd6ea4bd00e
-
-Package: nim
-Architecture: aarch64
-Installed-Size: 10040
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.17.2
-Description: Nim is a systems and applications programming language. Statically typed and compiled, it provides unparalleled performance in an elegant package.
-Homepage: https://nim-lang.org/
-Depends: git, clang, libandroid-glob
-Filename: dists/termux/extras/binary-aarch64/nim_0.17.2_aarch64.deb
-Size: 1934292
-SHA256: 6c0633c650bedb461d6919362789bd450cfd41c49b3bd38b65de196ea69463f4
 
 Package: nsnake
 Architecture: aarch64

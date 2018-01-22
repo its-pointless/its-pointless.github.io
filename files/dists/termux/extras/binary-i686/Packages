@@ -751,6 +751,29 @@ Filename: dists/termux/extras/binary-i686/libssh2_1.8.0_i686.deb
 Size: 56328
 SHA256: 786ed8a24415ae49df2f8d208bce9f8f229a86e71846cee4c284c620337d1441
 
+Package: libtommath-dev
+Architecture: i686
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: Development files for libtommath
+Homepage: https://github.com/libtom/libtommath
+Depends: libtommath
+Filename: dists/termux/extras/binary-i686/libtommath-dev_1.0.1_i686.deb
+Size: 8524
+SHA256: 8f1b07521846e03362155f384c98c2ed140ada6aac63468f9db5345e7ed9a3d3
+
+Package: libtommath
+Architecture: i686
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: portable number theoretic multiple-precision integer library written entirely in C
+Homepage: https://github.com/libtom/libtommath
+Filename: dists/termux/extras/binary-i686/libtommath_1.0.1_i686.deb
+Size: 25688
+SHA256: bb67a399fd8666ed31d17b47d70423b9b9607c6d3701b4541814ae09d2b58cc7
+
 Package: mksh
 Architecture: i686
 Installed-Size: 420
@@ -762,6 +785,18 @@ Depends: libandroid-support
 Filename: dists/termux/extras/binary-i686/mksh_56b_i686.deb
 Size: 161912
 SHA256: d3b78c48a5fdb8e5cd91e4f5a6afc3e29f490d2228e130589043f67b98b81f47
+
+Package: moarvm
+Architecture: i686
+Installed-Size: 5416
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2017.12.1
+Description: A modern VM built for Rakudo Perl 6
+Homepage: https://github.com/MoarVM/MoarVM
+Depends: libffi, libtommath, libuv
+Filename: dists/termux/extras/binary-i686/moarvm_2017.12.1_i686.deb
+Size: 782492
+SHA256: 6445662a484c4d9a1eb034aff8fd5c554767789085504bb2653f0b3eef3e364a
 
 Package: nim
 Architecture: i686
