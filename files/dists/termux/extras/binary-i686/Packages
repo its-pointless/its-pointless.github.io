@@ -351,6 +351,18 @@ Filename: dists/termux/extras/binary-i686/guile-2.2-dev_2.2.2_i686.deb
 Size: 77608
 SHA256: 80a5ef3bf45af8d7dc00cec4c8e3dd913ad6ab3ca6d5e92a5d80ec0a750e3625
 
+Package: guile-2.2-dev
+Architecture: i686
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.3
+Description: Development files for guile-2.2
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2
+Filename: dists/termux/extras/binary-i686/guile-2.2-dev_2.2.3_i686.deb
+Size: 77680
+SHA256: 048a9b78ee8498c4c3593ea069bd0a1304550da54ac7129591a4e63023da8316
+
 Package: guile-2.2
 Architecture: i686
 Installed-Size: 41292
@@ -363,6 +375,19 @@ Conflicts: guile
 Filename: dists/termux/extras/binary-i686/guile-2.2_2.2.2_i686.deb
 Size: 4896100
 SHA256: f1198d973688695d26cf050ec6e76bf720bd75fd9f986a07a9d88f02f839b33d
+
+Package: guile-2.2
+Architecture: i686
+Installed-Size: 41404
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.3
+Description: GNU extension language and Scheme interpreter
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libgc, libandroid-support
+Conflicts: guile
+Filename: dists/termux/extras/binary-i686/guile-2.2_2.2.3_i686.deb
+Size: 4965896
+SHA256: 324b5d193a47a1316c0afad2737b2043cdc150668e541d69bfd896c545d18cfc
 
 Package: guile-dev
 Architecture: i686

@@ -385,6 +385,18 @@ Filename: dists/termux/extras/binary-x86_64/guile-2.2-dev_2.2.2_x86_64.deb
 Size: 77528
 SHA256: 437c9e187d4f9e2f0ca6d09bca994213cab77d460474a9ea57082926e09be48e
 
+Package: guile-2.2-dev
+Architecture: x86_64
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.3
+Description: Development files for guile-2.2
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2
+Filename: dists/termux/extras/binary-x86_64/guile-2.2-dev_2.2.3_x86_64.deb
+Size: 77640
+SHA256: 2531edb8bff48f07b6d0ad542692adbce6037fc451295b1d4985504de8c6bf7d
+
 Package: guile-2.2
 Architecture: x86_64
 Installed-Size: 44892
@@ -397,6 +409,19 @@ Conflicts: guile
 Filename: dists/termux/extras/binary-x86_64/guile-2.2_2.2.2_x86_64.deb
 Size: 4905892
 SHA256: 67396a683a4e5091f8cbaa6b7d146465a2f7fad03b6ac87177304902f729d449
+
+Package: guile-2.2
+Architecture: x86_64
+Installed-Size: 45080
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.3
+Description: GNU extension language and Scheme interpreter
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libgc, libandroid-support
+Conflicts: guile
+Filename: dists/termux/extras/binary-x86_64/guile-2.2_2.2.3_x86_64.deb
+Size: 4973756
+SHA256: 75d800231a43faf8ceacf3c08f409fcea4df252bb953371d0feb26334b22b414
 
 Package: guile-dev
 Architecture: x86_64

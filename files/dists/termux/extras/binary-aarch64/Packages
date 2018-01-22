@@ -516,6 +516,31 @@ Filename: dists/termux/extras/binary-aarch64/glpk_4.63_aarch64.deb
 Size: 279536
 SHA256: d0824059dcd523feed451991770c5e41348de5e16dba4464cf552aff02aa5b8e
 
+Package: guile-2.2-dev
+Architecture: aarch64
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.3
+Description: Development files for guile-2.2
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2
+Filename: dists/termux/extras/binary-aarch64/guile-2.2-dev_2.2.3_aarch64.deb
+Size: 77644
+SHA256: 4dee844923f976aa2042b5fb3d1580d00b9b46fe07bc1cef119751451f12e9bf
+
+Package: guile-2.2
+Architecture: aarch64
+Installed-Size: 45068
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.3
+Description: GNU extension language and Scheme interpreter
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libgc, libandroid-support
+Conflicts: guile
+Filename: dists/termux/extras/binary-aarch64/guile-2.2_2.2.3_aarch64.deb
+Size: 4869972
+SHA256: 358de90d66fcd6d077b2d724709081e1c6c5cef15ca2a862fb91b15fa8c22e61
+
 Package: guile-dev
 Architecture: aarch64
 Installed-Size: 784
