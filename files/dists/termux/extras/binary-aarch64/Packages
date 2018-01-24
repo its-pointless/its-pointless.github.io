@@ -1122,6 +1122,18 @@ Filename: dists/termux/extras/binary-aarch64/moarvm_2017.12.1_aarch64.deb
 Size: 824564
 SHA256: 8b0281d325574c6f5332baeffd1e5282f4ebf6541c9fc64663b94152926ab7c4
 
+Package: msmtp
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.6
+Description: light SMTP client
+Homepage: http://msmtp.sourceforge.net
+Depends: libgnutls, libidn
+Filename: dists/termux/extras/binary-aarch64/msmtp_1.6.6_aarch64.deb
+Size: 44372
+SHA256: 07dc055d4cecb3971b0de48f09c3c455b939b844c305095baa4779bcf3e7c40e
+
 Package: nim
 Architecture: aarch64
 Installed-Size: 10552
