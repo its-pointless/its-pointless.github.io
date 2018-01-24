@@ -809,6 +809,18 @@ Filename: dists/termux/extras/binary-i686/moarvm_2017.12.1_i686.deb
 Size: 782492
 SHA256: 6445662a484c4d9a1eb034aff8fd5c554767789085504bb2653f0b3eef3e364a
 
+Package: msmtp
+Architecture: i686
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.6
+Description: light SMTP client
+Homepage: http://msmtp.sourceforge.net
+Depends: libgnutls, libidn
+Filename: dists/termux/extras/binary-i686/msmtp_1.6.6_i686.deb
+Size: 46456
+SHA256: 6291960827e4e872b856980270d52f46010210c1ebad3be7649aa36861766d71
+
 Package: nim
 Architecture: i686
 Installed-Size: 9848

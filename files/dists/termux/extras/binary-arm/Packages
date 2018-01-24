@@ -1194,6 +1194,18 @@ Filename: dists/termux/extras/binary-arm/moarvm_2017.12.1_arm.deb
 Size: 762848
 SHA256: a85c50da4dc8ef4e9e02865486e1b2fddd108339f6ec1dd70401f30a72b1492e
 
+Package: msmtp
+Architecture: arm
+Installed-Size: 108
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.6
+Description: light SMTP client
+Homepage: http://msmtp.sourceforge.net
+Depends: libgnutls, libidn
+Filename: dists/termux/extras/binary-arm/msmtp_1.6.6_arm.deb
+Size: 45056
+SHA256: 2402ce3798149ff4342a9934f617b5eced7bbc3626dbad94fc5c0073475f09d3
+
 Package: nim
 Architecture: arm
 Installed-Size: 9464
