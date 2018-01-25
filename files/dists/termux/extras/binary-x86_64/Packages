@@ -304,6 +304,18 @@ SHA256: 8097815d6aa10c1ec0c874881e0e0e1717bcfbf735a74cea0de63489ade92a2c
 
 Package: gcc-7
 Architecture: x86_64
+Installed-Size: 109220
+Maintainer: @its-pointless github
+Version: 7.2.1-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-x86_64/gcc-7_7.2.1-1_x86_64.deb
+Size: 29914848
+SHA256: 355a0eb078605b1ea735041b3e8921c05e14ffc26ecf1b1dcf21bef129c2f09d
+
+Package: gcc-7
+Architecture: x86_64
 Installed-Size: 109304
 Maintainer: @its-pointless github
 Version: 7.2.1
@@ -607,6 +619,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.2.0_x86_64.deb
 Size: 516292
 SHA256: 351a5c28c0d73693370010d246d1efddedb4f4970aa9e44f036e4b9343513a29
+
+Package: libgomp-7
+Architecture: x86_64
+Installed-Size: 276
+Maintainer: @its-pointless github
+Version: 7.2.1-1
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.2.1-1_x86_64.deb
+Size: 61100
+SHA256: 20cf68bf0e7aefc541abae4e2de1a183b93d5a6df41abe0fb66cb216d382e4bb
 
 Package: libgomp-7
 Architecture: x86_64
