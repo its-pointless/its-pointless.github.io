@@ -1761,6 +1761,17 @@ Filename: dists/termux/extras/binary-i686/ripgrep_0.7.1_i686.deb
 Size: 900320
 SHA256: 7847a466f63880cca08a1930fee648f1002798e92e72afd0c7896baaeee919e3
 
+Package: rust-rls
+Architecture: i686
+Installed-Size: 14168
+Maintainer: @its-pointless
+Version: 1.23.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-i686/rust-rls_1.23.0_i686.deb
+Size: 3478200
+SHA256: c7a8a35483aea73940298254b04d688b2f96b5ebb7cba68c0a9ef659ce069e57
+
 Package: rustc-nightly
 Architecture: i686
 Installed-Size: 184492
