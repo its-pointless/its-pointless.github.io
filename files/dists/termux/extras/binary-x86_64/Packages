@@ -1879,6 +1879,18 @@ Filename: dists/termux/extras/binary-x86_64/ripgrep_0.7.1_x86_64.deb
 Size: 860720
 SHA256: 788f626744be2f575f85fbf2e43b3b594d950d2d924967b04b644e3dc302a74e
 
+Package: rust-rls
+Architecture: x86_64
+Installed-Size: 12476
+Maintainer: @its-pointless
+Version: 1.23.0-1
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-x86_64/rust-rls_1.23.0-1_x86_64.deb
+Size: 3163572
+SHA256: c14c943798a0565a0fb41900669aa1504ac482536d4035d2e08cfa2741e728e5
+
 Package: rustc-nightly
 Architecture: x86_64
 Installed-Size: 186476
@@ -1891,6 +1903,18 @@ Provides: rustc
 Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.25_x86_64.deb
 Size: 57028336
 SHA256: c47b5d3626e46dd0fe7252303b3110767fe9a49e4827e0b2434bf45ae9cf98e6
+
+Package: rustc
+Architecture: x86_64
+Installed-Size: 173508
+Maintainer: @its-pointless
+Version: 1.23.0-1
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-x86_64/rustc_1.23.0-1_x86_64.deb
+Size: 52356840
+SHA256: c518fcfda051e3483716ab1f3512eb52bdd532e2fe56c410b96a1d9dc8a62a14
 
 Package: rustc
 Architecture: x86_64

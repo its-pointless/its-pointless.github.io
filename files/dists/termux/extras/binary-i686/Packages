@@ -1763,6 +1763,18 @@ SHA256: 7847a466f63880cca08a1930fee648f1002798e92e72afd0c7896baaeee919e3
 
 Package: rust-rls
 Architecture: i686
+Installed-Size: 14164
+Maintainer: @its-pointless
+Version: 1.23.0-1
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-i686/rust-rls_1.23.0-1_i686.deb
+Size: 3477020
+SHA256: 29d6b9a99e8b48393b0da6ce8536cb0d19e03dcbdf3efa82c23095ea563710d5
+
+Package: rust-rls
+Architecture: i686
 Installed-Size: 14168
 Maintainer: @its-pointless
 Version: 1.23.0
@@ -1784,6 +1796,18 @@ Provides: rustc
 Filename: dists/termux/extras/binary-i686/rustc-nightly_1.25_i686.deb
 Size: 58058348
 SHA256: 30209d7cd1020715e83a8f2a4738f1180d8d146ebf6ceea71cb8543338ea8acc
+
+Package: rustc
+Architecture: i686
+Installed-Size: 172936
+Maintainer: @its-pointless
+Version: 1.23.0-1
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-i686/rustc_1.23.0-1_i686.deb
+Size: 53388932
+SHA256: 075a8bbd3ed6e46fa79e40102493e8ba49fc808a549c9330d44a1bb9bda421f3
 
 Package: rustc
 Architecture: i686

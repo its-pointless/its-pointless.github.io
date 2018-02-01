@@ -2234,6 +2234,18 @@ Package: rust-rls
 Architecture: aarch64
 Installed-Size: 10976
 Maintainer: @its-pointless
+Version: 1.23.0-1
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-aarch64/rust-rls_1.23.0-1_aarch64.deb
+Size: 2699280
+SHA256: 0caf6fa040b58bc9b50484e6f19747ff537b61b6f1d9f2bbdac5a5450a225970
+
+Package: rust-rls
+Architecture: aarch64
+Installed-Size: 10976
+Maintainer: @its-pointless
 Version: 1.23.0
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
@@ -2253,6 +2265,18 @@ Provides: rustc
 Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.25_aarch64.deb
 Size: 54021236
 SHA256: 899c5f47306e2c16152a4cf6cd65a44decd134a1b2d59c98a7e1aff0821a9468
+
+Package: rustc
+Architecture: aarch64
+Installed-Size: 166572
+Maintainer: @its-pointless
+Version: 1.23.0-1
+Description: A safe, concurrent, practical language.
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-aarch64/rustc_1.23.0-1_aarch64.deb
+Size: 49469072
+SHA256: afdd0cc4bfcfec9877900ed84f0685182f8de396e2f715d34448a49c6da04ef9
 
 Package: rustc
 Architecture: aarch64
