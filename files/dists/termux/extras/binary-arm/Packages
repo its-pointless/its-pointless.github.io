@@ -1525,6 +1525,17 @@ Filename: dists/termux/extras/binary-arm/potrace_1.15_arm.deb
 Size: 66036
 SHA256: 908a76fab6354044fe57981b2588e7890edc8512dd7b80f587d9970b1bf9c044
 
+Package: povray
+Architecture: arm
+Installed-Size: 24432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.7
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-arm/povray_3.7.0.7_arm.deb
+Size: 10988212
+SHA256: ca73fda8614a970d7f38d8293d777f2de12fb424f3f866362733c5abc45f11cf
+
 Package: proxychains-ng
 Architecture: arm
 Installed-Size: 52
@@ -2387,18 +2398,6 @@ Depends: clang
 Filename: dists/termux/extras/binary-arm/rustc_1.23.0-1_arm.deb
 Size: 50088656
 SHA256: 2d3a9d0ec5c35128fd726e81759e1f3eb2f3b3011e8bbe5a3ea249f85c63d681
-
-Package: rustc
-Architecture: arm
-Installed-Size: 141300
-Maintainer: @its-pointless
-Version: 1.23.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-arm/rustc_1.23.0_arm.deb
-Size: 50004300
-SHA256: 240d4b5270633e4d567bebaec22ff28d5c4fe524130b75af37db433fdd522bc0
 
 Package: sc-im
 Architecture: arm

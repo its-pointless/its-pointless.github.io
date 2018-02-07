@@ -1045,6 +1045,18 @@ Filename: dists/termux/extras/binary-i686/potrace_1.15_i686.deb
 Size: 59616
 SHA256: 2c942158558944427930cecb9d7dbd3dc207fc08ea7ffcadbf903ec992c9a329
 
+Package: povray
+Architecture: i686
+Installed-Size: 25172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.7
+Description:  Persistence of Vision Raytracer
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Filename: dists/termux/extras/binary-i686/povray_3.7.0.7_i686.deb
+Size: 11036384
+SHA256: e3eab7bba5d9fb6c20fb35b1f9d67c83bea53da70b9212828996515717f45f15
+
 Package: proxychains-ng
 Architecture: i686
 Installed-Size: 44
@@ -1833,18 +1845,6 @@ Depends: clang
 Filename: dists/termux/extras/binary-i686/rustc_1.23.0-1_i686.deb
 Size: 53388932
 SHA256: 075a8bbd3ed6e46fa79e40102493e8ba49fc808a549c9330d44a1bb9bda421f3
-
-Package: rustc
-Architecture: i686
-Installed-Size: 172628
-Maintainer: @its-pointless
-Version: 1.23.0
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-i686/rustc_1.23.0_i686.deb
-Size: 53322092
-SHA256: 5b81d73845500f26fecd809fba54db3bf0d73ff13be023c1c926305079b8bf06
 
 Package: sc-im
 Architecture: i686
