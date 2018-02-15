@@ -314,6 +314,18 @@ SHA256: a7c20c92f4f9dc346dfd987811b20a3509e5c39a8ba451ae750ad3ca76f96965
 
 Package: gcc-6
 Architecture: aarch64
+Installed-Size: 68808
+Maintainer:  @its-pointless github
+Version: 6.4.0-3
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0-3_aarch64.deb
+Size: 19428084
+SHA256: 4168562e079208144d58883ac92ddb62e36aa990ddd00cad4c8aecfb14359c5a
+
+Package: gcc-6
+Architecture: aarch64
 Installed-Size: 71316
 Maintainer:  @its-pointless github
 Version: 6.4.0
@@ -360,6 +372,18 @@ Replaces: libgfortran-4
 Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.0_aarch64.deb
 Size: 20519980
 SHA256: f3e80dd357b2bcc1fecc80cdd3e58cf29de688ee117c1a383be3d88d9f8cf99d
+
+Package: gcc-7
+Architecture: aarch64
+Installed-Size: 78552
+Maintainer: @its-pointless github
+Version: 7.2.1-3
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.1-3_aarch64.deb
+Size: 21192928
+SHA256: ed72281ea1376065a0d2a2332ddb1c1afe71e2eb92e0212b5fd6cbaed8485734
 
 Package: gcc-7
 Architecture: aarch64

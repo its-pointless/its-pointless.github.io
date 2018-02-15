@@ -277,6 +277,18 @@ Filename: dists/termux/extras/binary-x86_64/ecl_16.1.3_x86_64.deb
 Size: 1689400
 SHA256: a7d6aa688696a7b232b691def952d6820bac77b5a79f27621bc1a9f14434563c
 
+Package: gcc-6
+Architecture: x86_64
+Installed-Size: 95668
+Maintainer:  @its-pointless github
+Version: 6.4.0-3
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Filename: dists/termux/extras/binary-x86_64/gcc-6_6.4.0-3_x86_64.deb
+Size: 25617816
+SHA256: 930ab99fc0a8599baadd317561e6f6d61b5643cebbd395d9a2d7f8425acf3348
+
 Package: gcc-7
 Architecture: x86_64
 Installed-Size: 105100
@@ -313,6 +325,18 @@ Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-s
 Filename: dists/termux/extras/binary-x86_64/gcc-7_7.2.1-1_x86_64.deb
 Size: 29914848
 SHA256: 355a0eb078605b1ea735041b3e8921c05e14ffc26ecf1b1dcf21bef129c2f09d
+
+Package: gcc-7
+Architecture: x86_64
+Installed-Size: 109252
+Maintainer: @its-pointless github
+Version: 7.2.1-3
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-x86_64/gcc-7_7.2.1-3_x86_64.deb
+Size: 29693300
+SHA256: eae34cbfec55d086ba175b6d78b94a0044545201523077b73366dad1ad4f66aa
 
 Package: gcc-7
 Architecture: x86_64

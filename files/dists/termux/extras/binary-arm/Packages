@@ -326,6 +326,18 @@ SHA256: 1fdb0104c87b12a40a86c119a6c63b6e9f576ad61bacfdb1f5c7e353a3dd6b71
 
 Package: gcc-6
 Architecture: arm
+Installed-Size: 68276
+Maintainer:  @its-pointless github
+Version: 6.4.0-3
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0-3_arm.deb
+Size: 20071996
+SHA256: abc42282554b1ece98b31b4e3f618e06fb43485ce5cf4763001023b753719e16
+
+Package: gcc-6
+Architecture: arm
 Installed-Size: 71540
 Maintainer:  @its-pointless github
 Version: 6.4.0
@@ -372,6 +384,18 @@ Replaces: libgfortran-4
 Filename: dists/termux/extras/binary-arm/gcc-7_7.2.0_arm.deb
 Size: 21541180
 SHA256: 982dd386777a287c7ac3adc41471aeb62c30b70cb7c4d8dbb825e022ef7fcd64
+
+Package: gcc-7
+Architecture: arm
+Installed-Size: 98016
+Maintainer: @its-pointless github
+Version: 7.2.1-3
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-arm/gcc-7_7.2.1-3_arm.deb
+Size: 21690372
+SHA256: 93476d216b4e974ca2d18e47dabf35a5622dad9b9a685e195a55d5b07caed9e0
 
 Package: gcc-7
 Architecture: arm
