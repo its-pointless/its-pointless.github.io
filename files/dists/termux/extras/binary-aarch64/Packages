@@ -1397,6 +1397,18 @@ SHA256: 7619cac6e91fd0c2f51d4cac6a26f818e0b394c746daa92f546e9f7758a9e16c
 
 Package: openblas
 Architecture: aarch64
+Installed-Size: 9836
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.20-2
+Description: blas
+Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
+Depends: libgfortran4
+Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-2_aarch64.deb
+Size: 1918556
+SHA256: 825de3fe7595e05d720b2f04fd718081418d0e55d36e2d79ec213411943c9387
+
+Package: openblas
+Architecture: aarch64
 Installed-Size: 10576
 Maintainer: @its-pointless github
 Version: 0.2.20
