@@ -1253,6 +1253,18 @@ Filename: dists/termux/extras/binary-arm/nim_0.17.2_arm.deb
 Size: 2058356
 SHA256: d1ea56f5dbfed280167265fbf42b46081c24ca22b5974a557119d78431c5a314
 
+Package: nim
+Architecture: arm
+Installed-Size: 10012
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.18.0
+Description: Nim is a systems and applications programming language. Statically typed and compiled, it provides unparalleled performance in an elegant package.
+Homepage: https://nim-lang.org/
+Depends: git, clang, libandroid-glob
+Filename: dists/termux/extras/binary-arm/nim_0.18.0_arm.deb
+Size: 2268156
+SHA256: 890c3e544aa2062a3bb729833bf201634a04debafe32a7990c3ae5e3107fcec0
+
 Package: nsnake
 Architecture: arm
 Installed-Size: 284
