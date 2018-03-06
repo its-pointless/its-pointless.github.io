@@ -185,51 +185,15 @@ SHA256: 48cae51a0cf6ca49bbed17c3fa16c8ad2ecac6a64615dbd842bb00c5b67d685a
 
 Package: cargo
 Architecture: aarch64
-Installed-Size: 5372
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.22.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.22.0_aarch64.deb
-Size: 1549008
-SHA256: b0b171531bc507ba69de62c64332c35ea08e1d69771144a3831f6f010a2476f2
-
-Package: cargo
-Architecture: aarch64
-Installed-Size: 5460
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.23.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.23.0_aarch64.deb
-Size: 1552916
-SHA256: 780d8b06c582be063c784cc214dd048a5b9cbe1af9fd3e304ecd76e2dd24c33d
-
-Package: cargo
-Architecture: aarch64
-Installed-Size: 5460
+Installed-Size: 6356
 Maintainer: @its-pointless
-Version: 0.24.0-1
+Version: 0.25.0
 Description: Rust package manager
 Homepage: https://crates.io
 Depends: libcurl, rustc, openssl, libssh2, libgit2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.24.0-1_aarch64.deb
-Size: 1541220
-SHA256: 0ac6fae094ba843d8b7bd13e6405c6babd417e520f1bdc172e86c99c61c4a4e1
-
-Package: cargo
-Architecture: aarch64
-Installed-Size: 5460
-Maintainer: @its-pointless
-Version: 0.24.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.24.0_aarch64.deb
-Size: 1541952
-SHA256: a509f84ceb9fc174801159029e1fcd7d6b38013d860a7f4e167c1910a6146b11
+Filename: dists/termux/extras/binary-aarch64/cargo_0.25.0_aarch64.deb
+Size: 1615520
+SHA256: 23173cdd7f76324451540bb5705ba0a1150fcd2ae8aa4c53ccdf99c483de7ed2
 
 Package: cksfv
 Architecture: aarch64
@@ -290,18 +254,6 @@ SHA256: bdea898d0db6f81d2341dd6616dfd760f18585111edb02ec9abfe4e7824d4c5c
 
 Package: gcc-6
 Architecture: aarch64
-Installed-Size: 61752
-Maintainer:  @its-pointless github
-Version: 6.4.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0-1_aarch64.deb
-Size: 16054468
-SHA256: 77a6fc1020dc88f23264c784eb9cf5fcb2063f6a5f821a12557f42c073d10b0d
-
-Package: gcc-6
-Architecture: aarch64
 Installed-Size: 70688
 Maintainer:  @its-pointless github
 Version: 6.4.0-2
@@ -335,43 +287,6 @@ Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot,
 Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0_aarch64.deb
 Size: 19281888
 SHA256: 2a146d7544e00fb69af01e180f9165be322d69467d9b4c23472305b18cdd0be4
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 77540
-Maintainer: @its-pointless github
-Version: 7.2.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.0-1_aarch64.deb
-Size: 20597492
-SHA256: e8b123a3512704d5d81ef7479c311a7b7e0909f2e09730343ccc60e6476c5b0b
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 77528
-Maintainer: @its-pointless github
-Version: 7.2.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.0-2_aarch64.deb
-Size: 20591320
-SHA256: efef0cb1a6de4fa94767a130753829e7f7e7dcc7c384b32152cbf5aa14000d39
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 76152
-Maintainer:  @its-pointless github
-Version: 7.2.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Replaces: libgfortran-4
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.0_aarch64.deb
-Size: 20519980
-SHA256: f3e80dd357b2bcc1fecc80cdd3e58cf29de688ee117c1a383be3d88d9f8cf99d
 
 Package: gcc-7
 Architecture: aarch64
@@ -444,42 +359,6 @@ Depends: gcc-6
 Filename: dists/termux/extras/binary-aarch64/gcov-6_6.4.0_aarch64.deb
 Size: 249032
 SHA256: 23a4b376d9a145f9a863d6dfeb4062c7866761fff78bf69db8b9bfa9afcd84d8
-
-Package: gcov-7
-Architecture: aarch64
-Installed-Size: 1620
-Maintainer:  @its-pointless github
-Version: 7.1.0-1
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/gcov-7_7.1.0-1_aarch64.deb
-Size: 280556
-SHA256: aaf22610eca3f5a0780c9aa65355518a20e25901517b5d3d119b486076872526
-
-Package: gcov-7
-Architecture: aarch64
-Installed-Size: 1320
-Maintainer:  @its-pointless github
-Version: 7.1.0-2
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/gcov-7_7.1.0-2_aarch64.deb
-Size: 241756
-SHA256: e5fcc107df0c0166c1d5a69a90d683c9d5013dca285fdede7cf63ccc30e48d60
-
-Package: gcov-7
-Architecture: aarch64
-Installed-Size: 1620
-Maintainer:  @its-pointless github
-Version: 7.1.0
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/gcov-7_7.1.0_aarch64.deb
-Size: 281964
-SHA256: 3203958414f52105fbe02fbf466f4eb0f69ca01ca1ecc415922a7e2584121079
 
 Package: gcov-7
 Architecture: aarch64
@@ -1217,42 +1096,6 @@ SHA256: 25631f1b2f2db9d5c154da3f58897e60b9c55cf7352b26b760aa856195d4d90a
 
 Package: numpy
 Architecture: aarch64
-Installed-Size: 14228
-Maintainer:  @its-pointless github
-Version: 1.12.1-2
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran
-Filename: dists/termux/extras/binary-aarch64/numpy_1.12.1-2_aarch64.deb
-Size: 2065488
-SHA256: b4d47df1c7f843f6519fbca88512e9339486df31a7e735e597ce2187be06080d
-
-Package: numpy
-Architecture: aarch64
-Installed-Size: 15832
-Maintainer: @its-pointless github
-Version: 1.13.0
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran
-Filename: dists/termux/extras/binary-aarch64/numpy_1.13.0_aarch64.deb
-Size: 2372452
-SHA256: c958aeed0ac542b815afd3751a97e6bff02d4fcca24935b1f1e47ceee4643fc2
-
-Package: numpy
-Architecture: aarch64
-Installed-Size: 15676
-Maintainer: @its-pointless github
-Version: 1.13.1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
-Filename: dists/termux/extras/binary-aarch64/numpy_1.13.1_aarch64.deb
-Size: 2396896
-SHA256: f2bee97bc2743a447d58e3ec918269dede3533697239c6ba287f944b9b9131c1
-
-Package: numpy
-Architecture: aarch64
 Installed-Size: 13760
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.13.3-1
@@ -1347,42 +1190,6 @@ Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-12_aarch64.deb
 Size: 5072132
 SHA256: efed0fc8280f9fedbf94d26ba78491f95210fb3c786ab5a87ddd047aeeb5be4b
 
-Package: octave
-Architecture: aarch64
-Installed-Size: 37236
-Maintainer: @its-pointless github
-Version: 4.2.1-6
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, openblas
-Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-6_aarch64.deb
-Size: 5114272
-SHA256: 48434b04431f4598a80ceb15c3e203cbef443106d51a54f5b0bc9dc50ba9eb01
-
-Package: octave
-Architecture: aarch64
-Installed-Size: 37328
-Maintainer: @its-pointless github
-Version: 4.2.1-7
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, openblas
-Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-7_aarch64.deb
-Size: 5133084
-SHA256: a34bb4b9685ca16d542b160837a5ee35328c8de416b56e0e3e9dc2cf7ab5d48d
-
-Package: octave
-Architecture: aarch64
-Installed-Size: 37332
-Maintainer: @its-pointless github
-Version: 4.2.1-8
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, openblas
-Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-8_aarch64.deb
-Size: 5135160
-SHA256: 7cf6a48bd325db19028e36cd66cf3c7e45330fdd41cdf4cc4642b323a40818fb
-
 Package: opam
 Architecture: aarch64
 Installed-Size: 16996
@@ -1397,18 +1204,6 @@ SHA256: a48a7eff8a3a5f46f12cd12450adc9b6e0ae2db87075b64fecc86ef8b7d19284
 
 Package: openblas
 Architecture: aarch64
-Installed-Size: 10576
-Maintainer: @its-pointless github
-Version: 0.2.20-1
-Description: openblas
-Homepage: http://www.openblas.net/
-Depends: libgcc, libgfortran4
-Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-1_aarch64.deb
-Size: 2317296
-SHA256: 7619cac6e91fd0c2f51d4cac6a26f818e0b394c746daa92f546e9f7758a9e16c
-
-Package: openblas
-Architecture: aarch64
 Installed-Size: 9836
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.2.20-2
@@ -1418,18 +1213,6 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-2_aarch64.deb
 Size: 1918556
 SHA256: 825de3fe7595e05d720b2f04fd718081418d0e55d36e2d79ec213411943c9387
-
-Package: openblas
-Architecture: aarch64
-Installed-Size: 10576
-Maintainer: @its-pointless github
-Version: 0.2.20
-Description: openblas
-Homepage: http://www.openblas.net/
-Depends: libgcc, libgfortran4
-Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20_aarch64.deb
-Size: 2316268
-SHA256: e36aa2e2acb01930931a7efb50f9f485440aa17316a83a73c78d86c33e074d1e
 
 Package: openldap-dev
 Architecture: aarch64
@@ -2077,42 +1860,6 @@ SHA256: ca4f7abc8906204d8fbebe7b96f595620df9abdbfddb6c60a6f7b78a5927cd95
 
 Package: quantlib
 Architecture: aarch64
-Installed-Size: 44288
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10-1
-Description: A free/open-source library for quantitative finance
-Homepage: http://quantlib.org/index.shtml
-Depends: boost
-Filename: dists/termux/extras/binary-aarch64/quantlib_1.10-1_aarch64.deb
-Size: 7935884
-SHA256: 72e3bc64b5df6a74414f8e10d2174b4276767fd8980ec9d1ac3a4aca67785e11
-
-Package: quantlib
-Architecture: aarch64
-Installed-Size: 47084
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10-2
-Description: A free/open-source library for quantitative finance
-Homepage: http://quantlib.org/index.shtml
-Depends: boost
-Filename: dists/termux/extras/binary-aarch64/quantlib_1.10-2_aarch64.deb
-Size: 8289092
-SHA256: ab35fe0a2f72c0b09ec46110febe9b155c5160b05148afd692a76a3cf034e733
-
-Package: quantlib
-Architecture: aarch64
-Installed-Size: 45584
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10.1
-Description: A free/open-source library for quantitative finance
-Homepage: http://quantlib.org/index.shtml
-Depends: boost
-Filename: dists/termux/extras/binary-aarch64/quantlib_1.10.1_aarch64.deb
-Size: 7893400
-SHA256: d3a55762e944dec9456a2aa1e4ca469e1a95eab3018109d8869c1375c385f7a5
-
-Package: quantlib
-Architecture: aarch64
 Installed-Size: 49340
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.11
@@ -2290,6 +2037,17 @@ Filename: dists/termux/extras/binary-aarch64/ripgrep_0.7.1_aarch64.deb
 Size: 735604
 SHA256: a7450e9751705b06daa59254ab0115a0ad3bf2902b800d7b505f98b9bc6fe76d
 
+Package: ripgrep
+Architecture: aarch64
+Installed-Size: 2720
+Maintainer: @its-pointless
+Version: 0.8.1
+Description: ripgrep is a line-oriented search tool
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-aarch64/ripgrep_0.8.1_aarch64.deb
+Size: 776248
+SHA256: 7f481033e61983d40b5a46ad6475b2def808e07bb119cb69f01993a55713508e
+
 Package: rust-rls-nightly
 Architecture: aarch64
 Installed-Size: 12936
@@ -2325,6 +2083,18 @@ Filename: dists/termux/extras/binary-aarch64/rust-rls_1.23.0_aarch64.deb
 Size: 2698456
 SHA256: 55843e6c2e48c308c9b1141775f30d962e03b0a0192a44fe3cb0eab01e02c766
 
+Package: rust-rls
+Architecture: aarch64
+Installed-Size: 10976
+Maintainer: @its-pointless
+Version: 1.24.1
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-aarch64/rust-rls_1.24.1_aarch64.deb
+Size: 2723216
+SHA256: 274fbda1d4fa91c90e0339b3bf2f2ee77890bb08eb394b57d717069c6d14718f
+
 Package: rustc-nightly
 Architecture: aarch64
 Installed-Size: 169928
@@ -2353,15 +2123,27 @@ SHA256: 899c5f47306e2c16152a4cf6cd65a44decd134a1b2d59c98a7e1aff0821a9468
 
 Package: rustc
 Architecture: aarch64
-Installed-Size: 166572
+Installed-Size: 187084
 Maintainer: @its-pointless
-Version: 1.23.0-1
+Version: 1.24.1
 Description: A safe, concurrent, practical language.
 Homepage: https://www.rust-lang.org
 Depends: clang
-Filename: dists/termux/extras/binary-aarch64/rustc_1.23.0-1_aarch64.deb
-Size: 49469072
-SHA256: afdd0cc4bfcfec9877900ed84f0685182f8de396e2f715d34448a49c6da04ef9
+Filename: dists/termux/extras/binary-aarch64/rustc_1.24.1_aarch64.deb
+Size: 55288332
+SHA256: 6507ef29224b7dc088fdd3e272259255f9a324f31cc49b8e541187a33ce46fc1
+
+Package: rustfmt
+Architecture: aarch64
+Installed-Size: 3044
+Maintainer: @its-pointless
+Version: 1.24.1
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-aarch64/rustfmt_1.24.1_aarch64.deb
+Size: 761864
+SHA256: 123272ba2037a3fb1536b6834ec901a33369ba7c2d633d5f34fd5197f0f032ff
 
 Package: sc-im
 Architecture: aarch64

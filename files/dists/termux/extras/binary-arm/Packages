@@ -185,51 +185,15 @@ SHA256: fe7485a1a854252917248a5629f0f9aa719287964e0957fb6f737b5440019b2f
 
 Package: cargo
 Architecture: arm
-Installed-Size: 5752
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.22.0-1
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.22.0-1_arm.deb
-Size: 1784736
-SHA256: 4ee11a0cf477d91e76eb116d1eb72558e6df99273e916060e2c25864c1d69bb6
-
-Package: cargo
-Architecture: arm
-Installed-Size: 5752
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.22.0-2
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.22.0-2_arm.deb
-Size: 1786652
-SHA256: 478f6950f013bce946a3f02eaf78377576c0e7b2623e86697fb704f308306dc9
-
-Package: cargo
-Architecture: arm
-Installed-Size: 4464
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.23.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.23.0_arm.deb
-Size: 1820340
-SHA256: 1423193bcce1fbe1223400541b4a54ea00bbbdbe7bffd2c77bb47751b867328f
-
-Package: cargo
-Architecture: arm
-Installed-Size: 4440
+Installed-Size: 4896
 Maintainer: @its-pointless
-Version: 0.24.0
+Version: 0.25.0
 Description: Rust package manager
 Homepage: https://crates.io
 Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.24.0_arm.deb
-Size: 1804792
-SHA256: 3306d5bd4ee0fdefce4a627eaa1038ac3e0de986051056397291d703f8a2a54e
+Filename: dists/termux/extras/binary-arm/cargo_0.25.0_arm.deb
+Size: 1836204
+SHA256: c48364fc3392d7ae70f35d6aedded1a71f7ad7f37575edc4732f7ab2c33abe0c
 
 Package: cksfv
 Architecture: arm
@@ -314,18 +278,6 @@ SHA256: be5d60ee9bb76f69ddb3930e769788da26e513e2982703c510e237ca86c4338a
 
 Package: gcc-6
 Architecture: arm
-Installed-Size: 71264
-Maintainer:  @its-pointless github
-Version: 6.4.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0-1_arm.deb
-Size: 20612056
-SHA256: 1fdb0104c87b12a40a86c119a6c63b6e9f576ad61bacfdb1f5c7e353a3dd6b71
-
-Package: gcc-6
-Architecture: arm
 Installed-Size: 68276
 Maintainer:  @its-pointless github
 Version: 6.4.0-3
@@ -347,43 +299,6 @@ Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot,
 Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0_arm.deb
 Size: 20669112
 SHA256: 7d76695a73107864bd782abc53d8c0eaa481d79e1736093eef4c9522cec00b01
-
-Package: gcc-7
-Architecture: arm
-Installed-Size: 76116
-Maintainer: @its-pointless github
-Version: 7.2.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
-Filename: dists/termux/extras/binary-arm/gcc-7_7.2.0-1_arm.deb
-Size: 21648672
-SHA256: 532159d44b135f9d6a8504394c1d064097f2bc33e65d46ccd4edeb284f7bceea
-
-Package: gcc-7
-Architecture: arm
-Installed-Size: 76100
-Maintainer: @its-pointless github
-Version: 7.2.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
-Filename: dists/termux/extras/binary-arm/gcc-7_7.2.0-2_arm.deb
-Size: 21655712
-SHA256: d77a0eaa7053b22eaf7efc54197d139594082172fdb5d1ed54204eaecfff99cd
-
-Package: gcc-7
-Architecture: arm
-Installed-Size: 74864
-Maintainer:  @its-pointless github
-Version: 7.2.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Replaces: libgfortran-4
-Filename: dists/termux/extras/binary-arm/gcc-7_7.2.0_arm.deb
-Size: 21541180
-SHA256: 982dd386777a287c7ac3adc41471aeb62c30b70cb7c4d8dbb825e022ef7fcd64
 
 Package: gcc-7
 Architecture: arm
@@ -444,42 +359,6 @@ Depends: gcc-6
 Filename: dists/termux/extras/binary-arm/gcov-6_6.4.0_arm.deb
 Size: 235344
 SHA256: 67751395eda40c46928877e02dd9cc3c2164085862f6ec963350a91353f8870d
-
-Package: gcov-7
-Architecture: arm
-Installed-Size: 1412
-Maintainer:  @its-pointless github
-Version: 7.1.0-1
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/gcov-7_7.1.0-1_arm.deb
-Size: 262928
-SHA256: 02850f175cd4cf7b5c9d6cb840d5412cce5612eef5fb07fc23766b01bb792467
-
-Package: gcov-7
-Architecture: arm
-Installed-Size: 1220
-Maintainer:  @its-pointless github
-Version: 7.1.0-2
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/gcov-7_7.1.0-2_arm.deb
-Size: 221140
-SHA256: e5e625086ca1de6af8d1fa581977cbe5c5b94515e834cd0129c3838c9cfcbfde
-
-Package: gcov-7
-Architecture: arm
-Installed-Size: 1412
-Maintainer:  @its-pointless github
-Version: 7.1.0
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/gcov-7_7.1.0_arm.deb
-Size: 262804
-SHA256: c59f80602c871263ee209bf2da51417e60e9aa15bea743605dbe8b045dacabb7
 
 Package: gcov-7
 Architecture: arm
@@ -1289,42 +1168,6 @@ SHA256: c50349472359f8bf986e99b1096a851692fffd5f8449a71307dcbeedc4ea522b
 
 Package: numpy
 Architecture: arm
-Installed-Size: 13160
-Maintainer:  @its-pointless github
-Version: 1.12.1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran
-Filename: dists/termux/extras/binary-arm/numpy_1.12.1_arm.deb
-Size: 2074372
-SHA256: e336f2f47c8bceaf1862011b399a6ef52dc69d12b1a2c34b2343af4862ef339b
-
-Package: numpy
-Architecture: arm
-Installed-Size: 13416
-Maintainer: @its-pointless github
-Version: 1.13.0
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran
-Filename: dists/termux/extras/binary-arm/numpy_1.13.0_arm.deb
-Size: 2112920
-SHA256: f24747c2923f7bc1d76bac421c80f25056ee911d0f9416a97fdb858f002bd7f7
-
-Package: numpy
-Architecture: arm
-Installed-Size: 14396
-Maintainer: @its-pointless github
-Version: 1.13.1-1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
-Filename: dists/termux/extras/binary-arm/numpy_1.13.1-1_arm.deb
-Size: 2446240
-SHA256: 1b56bf7e033caaae69d08988e2d42ae3a9f2d5e291308237516c259887bcc1f8
-
-Package: numpy
-Architecture: arm
 Installed-Size: 13136
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.13.3-1
@@ -1358,18 +1201,6 @@ Depends: opam
 Filename: dists/termux/extras/binary-arm/ocaml_4.05.0_arm.deb
 Size: 36984320
 SHA256: c581bb93971ec436ce818818dd3c1d6fb124354f79ea1d1de35b301cd1dba675
-
-Package: octave-dev
-Architecture: arm
-Installed-Size: 5644
-Maintainer: @its-pointless github
-Version: 4.2.1-10
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-10_arm.deb
-Size: 351560
-SHA256: 4026625c6ca6c52fa4a44827fbe27779ca19cb6b5216f6a6f4e9ca03a6a1c691
 
 Package: octave-dev
 Architecture: arm
@@ -1421,30 +1252,6 @@ SHA256: fd3e937a03276c404cb88cf512692cf60506bd32a9dec2e297750fe073ea6217
 
 Package: octave
 Architecture: arm
-Installed-Size: 29324
-Maintainer: @its-pointless github
-Version: 4.2.1-10
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: openblas, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo
-Filename: dists/termux/extras/binary-arm/octave_4.2.1-10_arm.deb
-Size: 5154268
-SHA256: df6b5a839b9de5e167920bf97b4609e21404ffb652cbc43d34069a2818784ff3
-
-Package: octave
-Architecture: arm
-Installed-Size: 31124
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.1-11
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: openblas, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
-Filename: dists/termux/extras/binary-arm/octave_4.2.1-11_arm.deb
-Size: 5575872
-SHA256: 5c41bbba6885940098ed1d6927fd67441a7fb60547ff8bdd28260ccfe104534e
-
-Package: octave
-Architecture: arm
 Installed-Size: 31164
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.2.1-12
@@ -1454,30 +1261,6 @@ Depends: libbz2, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, li
 Filename: dists/termux/extras/binary-arm/octave_4.2.1-12_arm.deb
 Size: 5575912
 SHA256: 505df338f10093728c6c8e8569dbf2374ff82793b15d4012369f47223dc44ea3
-
-Package: octave
-Architecture: arm
-Installed-Size: 25040
-Maintainer: @its-pointless github
-Version: 4.2.1-6
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libcrypt, libcurl, gnuplot, libgfortran, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libatlas
-Filename: dists/termux/extras/binary-arm/octave_4.2.1-6_arm.deb
-Size: 4810452
-SHA256: 7f130db1251e3c0bbc7c1c26d5fc6bd1be8c66b5dbd8a8844d4468388f62478d
-
-Package: octave
-Architecture: arm
-Installed-Size: 33456
-Maintainer: @its-pointless github
-Version: 4.2.1-8
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libatlas
-Filename: dists/termux/extras/binary-arm/octave_4.2.1-8_arm.deb
-Size: 5697724
-SHA256: 2fd7f7a46b42e16ba0982653d41c53e1def78a1b877ced6688ef8d8c97453f32
 
 Package: opam
 Architecture: arm
@@ -1493,18 +1276,6 @@ SHA256: 84815b616ab38d9d595b2ec3537dc33b9c01cb114905b171f7a2c85206d6eba8
 
 Package: openblas
 Architecture: arm
-Installed-Size: 10976
-Maintainer: @its-pointless github
-Version: 0.2.20-1
-Description: openblas
-Homepage: http://www.openblas.net/
-Depends: libgcc, libgfortran4
-Filename: dists/termux/extras/binary-arm/openblas_0.2.20-1_arm.deb
-Size: 2357464
-SHA256: eff2d05f24b3ef8b9731b6f9aff02907a04b9ecc08266bd7401104c1367f60a3
-
-Package: openblas
-Architecture: arm
 Installed-Size: 9320
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.2.20-2
@@ -1514,18 +1285,6 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-arm/openblas_0.2.20-2_arm.deb
 Size: 2109444
 SHA256: 0ab44b03245474e6e73a2836a1df7a31f57536524b7e54015f38fa621513a74c
-
-Package: openblas
-Architecture: arm
-Installed-Size: 10976
-Maintainer: @its-pointless github
-Version: 0.2.20
-Description: openblas
-Homepage: http://www.openblas.net/
-Depends: libgcc, libgfortran4
-Filename: dists/termux/extras/binary-arm/openblas_0.2.20_arm.deb
-Size: 2357780
-SHA256: 471d7e523f59b114fd1262b9e3e5282474475373da148884e23553c656ded072
 
 Package: openldap-dev
 Architecture: arm
@@ -2171,42 +1930,6 @@ SHA256: db47cb4d34b750680d3090f1c0f4ce09c045c634d90dd99f025403a798a0653f
 
 Package: quantlib
 Architecture: arm
-Installed-Size: 28436
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10-1
-Description: A free/open-source library for quantitative finance
-Homepage: http://quantlib.org/index.shtml
-Depends: boost
-Filename: dists/termux/extras/binary-arm/quantlib_1.10-1_arm.deb
-Size: 8243808
-SHA256: b0c846e15ebe9d9db27bbec344c4ebe1d946278129b1657dfba31a72399200b5
-
-Package: quantlib
-Architecture: arm
-Installed-Size: 30568
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10-2
-Description: A free/open-source library for quantitative finance
-Homepage: http://quantlib.org/index.shtml
-Depends: boost
-Filename: dists/termux/extras/binary-arm/quantlib_1.10-2_arm.deb
-Size: 8744120
-SHA256: 663c4cae6facbe87537688b791402b70be092af147279f10d8906e8f3960bc9e
-
-Package: quantlib
-Architecture: arm
-Installed-Size: 28748
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10.1
-Description: A free/open-source library for quantitative finance
-Homepage: http://quantlib.org/index.shtml
-Depends: boost
-Filename: dists/termux/extras/binary-arm/quantlib_1.10.1_arm.deb
-Size: 8063288
-SHA256: 225efaa2df53e50d418686f379a47bc3b451796ea41417f5cf5057a0e1b871f5
-
-Package: quantlib
-Architecture: arm
 Installed-Size: 30476
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.11
@@ -2385,6 +2108,17 @@ Filename: dists/termux/extras/binary-arm/ripgrep_0.7.1_arm.deb
 Size: 719248
 SHA256: 1110ab4b0d8e1d25b5c3ce1217f9cfcd537dd1960f6a574f2a7b4f95dc657785
 
+Package: ripgrep
+Architecture: arm
+Installed-Size: 2020
+Maintainer: @its-pointless
+Version: 0.8.1
+Description: ripgrep is a line-oriented search tool
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-arm/ripgrep_0.8.1_arm.deb
+Size: 778292
+SHA256: ad25e680b8ccce4f601a2be2b66a71efdf3f6269875d72c3e33daca1c4aaa906
+
 Package: rust-rls-nightly
 Architecture: arm
 Installed-Size: 8672
@@ -2408,6 +2142,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-arm/rust-rls_1.23.0-1_arm.deb
 Size: 2710348
 SHA256: debe1e12a4c001da54dc8f2faca2c732b660ce248b1d1603677b0302afb1413b
+
+Package: rust-rls
+Architecture: arm
+Installed-Size: 7472
+Maintainer: @its-pointless
+Version: 1.24.1
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-arm/rust-rls_1.24.1_arm.deb
+Size: 2733264
+SHA256: 3e0a80a38215e88a7885f100a55889b561f98c46b53483c624999d20e4f418d4
 
 Package: rustc-nightly
 Architecture: arm
@@ -2437,15 +2183,27 @@ SHA256: 6470c9b6997e6ed68a91a3e3915aa1a9cbd61467260f9031dc687a59a58dbb9c
 
 Package: rustc
 Architecture: arm
-Installed-Size: 141528
+Installed-Size: 161336
 Maintainer: @its-pointless
-Version: 1.23.0-1
+Version: 1.24.1
 Description: A safe, concurrent, practical language.
 Homepage: https://www.rust-lang.org
 Depends: clang
-Filename: dists/termux/extras/binary-arm/rustc_1.23.0-1_arm.deb
-Size: 50088656
-SHA256: 2d3a9d0ec5c35128fd726e81759e1f3eb2f3b3011e8bbe5a3ea249f85c63d681
+Filename: dists/termux/extras/binary-arm/rustc_1.24.1_arm.deb
+Size: 56284540
+SHA256: c5212fbce9fbf2a29e3d6326392c9243b2549e3e56745c157ae025d7bc1189e4
+
+Package: rustfmt
+Architecture: arm
+Installed-Size: 1648
+Maintainer: @its-pointless
+Version: 1.24.1
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-arm/rustfmt_1.24.1_arm.deb
+Size: 610516
+SHA256: d96ed589ccb138d711e4b9ad82c988b6bb5d540759e4135207d99eaacb90e572
 
 Package: sc-im
 Architecture: arm

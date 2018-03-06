@@ -174,51 +174,15 @@ SHA256: d32dda5c13d2658f81b2c6334a3cef48ef4fcff5b6d7fa558883215ce33e68c4
 
 Package: cargo
 Architecture: x86_64
-Installed-Size: 6584
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.22.0-1
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-x86_64/cargo_0.22.0-1_x86_64.deb
-Size: 1816624
-SHA256: c36b3d89a1519164c60cca7abbe4b05c4481201407a100efc75db37338718e25
-
-Package: cargo
-Architecture: x86_64
-Installed-Size: 6652
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.23.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-x86_64/cargo_0.23.0_x86_64.deb
-Size: 1827896
-SHA256: f62608dc3e4ac5189270abc4e26d5c6dcba11e0449a90da4a0e08de20fadde35
-
-Package: cargo
-Architecture: x86_64
-Installed-Size: 6528
+Installed-Size: 7324
 Maintainer: @its-pointless
-Version: 0.24.0-1
+Version: 0.25.0
 Description: Rust package manager
 Homepage: https://crates.io
 Depends: libcurl, rustc, openssl, libssh2, libgit2
-Filename: dists/termux/extras/binary-x86_64/cargo_0.24.0-1_x86_64.deb
-Size: 1808968
-SHA256: 1889a3a6fd700f51db2decdb3a25dc451ba391f0ec505da700f8b204b378620a
-
-Package: cargo
-Architecture: x86_64
-Installed-Size: 6528
-Maintainer: @its-pointless
-Version: 0.24.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-x86_64/cargo_0.24.0_x86_64.deb
-Size: 1808772
-SHA256: 1f89aff9a1d740eb12c5b17e3fe5f734835f3ee156028f596c031aec17139f2c
+Filename: dists/termux/extras/binary-x86_64/cargo_0.25.0_x86_64.deb
+Size: 1870108
+SHA256: 6206167d7767f708611ba5eec6b5def4a287d43258b277163ec17df0f6103eb1
 
 Package: cksfv
 Architecture: x86_64
@@ -291,31 +255,6 @@ SHA256: 10a65a6bc76b693bf1b6542bebb2ca5c07a12388dbdc3d3ba5b5efcc97446cef
 
 Package: gcc-7
 Architecture: x86_64
-Installed-Size: 105100
-Maintainer: @its-pointless github
-Version: 7.2.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
-Filename: dists/termux/extras/binary-x86_64/gcc-7_7.2.0-1_x86_64.deb
-Size: 27872576
-SHA256: a0d72ebb4b2b8f101a30e6e7d640b2a9a10c1584ca3c709ec2fecf37aa879550
-
-Package: gcc-7
-Architecture: x86_64
-Installed-Size: 104124
-Maintainer:  @its-pointless github
-Version: 7.2.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Replaces: libgfortran-4
-Filename: dists/termux/extras/binary-x86_64/gcc-7_7.2.0_x86_64.deb
-Size: 27759744
-SHA256: 8097815d6aa10c1ec0c874881e0e0e1717bcfbf735a74cea0de63489ade92a2c
-
-Package: gcc-7
-Architecture: x86_64
 Installed-Size: 109220
 Maintainer: @its-pointless github
 Version: 7.2.1-1
@@ -349,18 +288,6 @@ Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-s
 Filename: dists/termux/extras/binary-x86_64/gcc-7_7.2.1_x86_64.deb
 Size: 29914656
 SHA256: 640804f24ae0b1fcba242879b191ff1dd86f369f1b7aad365394525a9886a8ca
-
-Package: gcov-7
-Architecture: x86_64
-Installed-Size: 1452
-Maintainer:  @its-pointless github
-Version: 7.1.0-2
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-x86_64/gcov-7_7.1.0-2_x86_64.deb
-Size: 280824
-SHA256: b24d5c73519b69c4d2ab5ac5c99a67ba7b44ae194a8cdf3c683300e3e2dfe20d
 
 Package: gcov-7
 Architecture: x86_64
@@ -987,18 +914,6 @@ SHA256: 39836c9c55d7a8803219e4ef8211c7a1779f8b815a854b7914c96f97c7ba8312
 
 Package: numpy
 Architecture: x86_64
-Installed-Size: 16680
-Maintainer: @its-pointless github
-Version: 1.13.1-1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
-Filename: dists/termux/extras/binary-x86_64/numpy_1.13.1-1_x86_64.deb
-Size: 2705652
-SHA256: 6cbe9b69c8cb816f7ce50e5fca57cdbb208f126e94d0ef665c55b558ffeb2d07
-
-Package: numpy
-Architecture: x86_64
 Installed-Size: 13960
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.13.3-1
@@ -1081,18 +996,6 @@ Filename: dists/termux/extras/binary-x86_64/octave_4.2.1-12_x86_64.deb
 Size: 6079024
 SHA256: 00965280056a8fa4d0523abfd7d7d03130b717869b23d25ae9d8aa71b189e4f5
 
-Package: octave
-Architecture: x86_64
-Installed-Size: 37784
-Maintainer: @its-pointless github
-Version: 4.2.1-8
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: openblas, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo
-Filename: dists/termux/extras/binary-x86_64/octave_4.2.1-8_x86_64.deb
-Size: 6172928
-SHA256: 44857c83bd160dbe9cd1e2a63197b24a33a09e5b3c94eef6dbfc2b5a12eab96f
-
 Package: opam
 Architecture: x86_64
 Installed-Size: 17728
@@ -1107,18 +1010,6 @@ SHA256: 8c316a12ba5179510e84e22e31ff8a55e501dc4ebfdf39858eac4325b9329849
 
 Package: openblas
 Architecture: x86_64
-Installed-Size: 16500
-Maintainer: @its-pointless github
-Version: 0.2.20-1
-Description: openblas
-Homepage: http://www.openblas.net/
-Depends: libgcc, libgfortran4
-Filename: dists/termux/extras/binary-x86_64/openblas_0.2.20-1_x86_64.deb
-Size: 3516648
-SHA256: 04e3c7b3849ff14188c019209dc1d9687117481d1f4e137ece8987c614be154a
-
-Package: openblas
-Architecture: x86_64
 Installed-Size: 15768
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.2.20-2
@@ -1128,18 +1019,6 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-x86_64/openblas_0.2.20-2_x86_64.deb
 Size: 3260300
 SHA256: 5ad430493bc3eed1d3bc2be5d85273057728c3233469a9a08bd8b05b6d68cb42
-
-Package: openblas
-Architecture: x86_64
-Installed-Size: 14924
-Maintainer: @its-pointless github
-Version: 0.2.20
-Description: openblas
-Homepage: http://www.openblas.net/
-Depends: libgcc, libgfortran4
-Filename: dists/termux/extras/binary-x86_64/openblas_0.2.20_x86_64.deb
-Size: 3328704
-SHA256: f68aa54bf1f1c761c288b5dcea0c95978f1c1a67647bfa47bd042599b71f1b2e
 
 Package: openldap-dev
 Architecture: x86_64
@@ -1787,30 +1666,6 @@ SHA256: 506a2d86f79434ee7d24aa77858fbfac34d15031ab461cb5145bc9a018b0517e
 
 Package: quantlib
 Architecture: x86_64
-Installed-Size: 49692
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10-2
-Description: A free/open-source library for quantitative finance
-Homepage: http://quantlib.org/index.shtml
-Depends: boost
-Filename: dists/termux/extras/binary-x86_64/quantlib_1.10-2_x86_64.deb
-Size: 9407520
-SHA256: 2c695fa26d36a886499ea6d097ef27ad7f4dc8332d8d3fe49c76f148e54340a4
-
-Package: quantlib
-Architecture: x86_64
-Installed-Size: 47436
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10.1
-Description: A free/open-source library for quantitative finance
-Homepage: http://quantlib.org/index.shtml
-Depends: boost
-Filename: dists/termux/extras/binary-x86_64/quantlib_1.10.1_x86_64.deb
-Size: 8755768
-SHA256: 7cb2a9a28a0169d196dc5639025a607e2d4616fc14b1cd06ddf35d15e4954ddd
-
-Package: quantlib
-Architecture: x86_64
 Installed-Size: 50620
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.11
@@ -1939,6 +1794,17 @@ Filename: dists/termux/extras/binary-x86_64/ripgrep_0.7.1_x86_64.deb
 Size: 860720
 SHA256: 788f626744be2f575f85fbf2e43b3b594d950d2d924967b04b644e3dc302a74e
 
+Package: ripgrep
+Architecture: x86_64
+Installed-Size: 3076
+Maintainer: @its-pointless
+Version: 0.8.1
+Description: ripgrep is a line-oriented search tool
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-x86_64/ripgrep_0.8.1_x86_64.deb
+Size: 900236
+SHA256: 7f6445a5b57e470463757926f2da7066a10cb5e952bc29b2827f1d6071f4a1b2
+
 Package: rust-rls-nightly
 Architecture: x86_64
 Installed-Size: 14656
@@ -1962,6 +1828,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-x86_64/rust-rls_1.23.0-1_x86_64.deb
 Size: 3163572
 SHA256: c14c943798a0565a0fb41900669aa1504ac482536d4035d2e08cfa2741e728e5
+
+Package: rust-rls
+Architecture: x86_64
+Installed-Size: 12492
+Maintainer: @its-pointless
+Version: 1.24.1
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-x86_64/rust-rls_1.24.1_x86_64.deb
+Size: 3183164
+SHA256: 42cb7bf5438fa1cb74ef76c84d549876191ca777788f0a45af483df444adc85e
 
 Package: rustc-nightly
 Architecture: x86_64
@@ -1991,15 +1869,27 @@ SHA256: c47b5d3626e46dd0fe7252303b3110767fe9a49e4827e0b2434bf45ae9cf98e6
 
 Package: rustc
 Architecture: x86_64
-Installed-Size: 173508
+Installed-Size: 188784
 Maintainer: @its-pointless
-Version: 1.23.0-1
+Version: 1.24.1
 Description: A safe, concurrent, practical language.
 Homepage: https://www.rust-lang.org
 Depends: clang
-Filename: dists/termux/extras/binary-x86_64/rustc_1.23.0-1_x86_64.deb
-Size: 52356840
-SHA256: c518fcfda051e3483716ab1f3512eb52bdd532e2fe56c410b96a1d9dc8a62a14
+Filename: dists/termux/extras/binary-x86_64/rustc_1.24.1_x86_64.deb
+Size: 57887792
+SHA256: 7e0baf6ed31064cd5d16678fbca30e2d6ff53070f5aec952a0ea1f9b367f9b90
+
+Package: rustfmt
+Architecture: x86_64
+Installed-Size: 3304
+Maintainer: @its-pointless
+Version: 1.24.1
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-x86_64/rustfmt_1.24.1_x86_64.deb
+Size: 892680
+SHA256: 48dd6075089620ed8cc1171d05638a5bdd31a12f91cdcf4dbfb876d066e66998
 
 Package: sc-im
 Architecture: x86_64

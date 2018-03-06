@@ -163,27 +163,15 @@ SHA256: cd6e4ff715f8e47214e81b732119ddc5fbfa7be8d2c40aed16143275d04c6cb6
 
 Package: cargo
 Architecture: i686
-Installed-Size: 7072
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 0.22.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libgit2, libssh2
-Filename: dists/termux/extras/binary-i686/cargo_0.22.0_i686.deb
-Size: 1926068
-SHA256: 44acae86763a3b3029af38fd6ba765902ea566f1e3c5dd630e129613b75d6a9b
-
-Package: cargo
-Architecture: i686
-Installed-Size: 7412
+Installed-Size: 7524
 Maintainer: @its-pointless
-Version: 0.24.0-1
+Version: 0.25.0
 Description: Rust package manager
 Homepage: https://crates.io
 Depends: libcurl, rustc, openssl, libssh2, libgit2
-Filename: dists/termux/extras/binary-i686/cargo_0.24.0-1_i686.deb
-Size: 2090536
-SHA256: b7184a30459fbd34d9256f3d662127b1659c67d2d413d476791d041d33437e12
+Filename: dists/termux/extras/binary-i686/cargo_0.25.0_i686.deb
+Size: 2129120
+SHA256: 6001b0521246bdb34e180395aa07c2f63d0358469530d42e8ada80cedbf20a57
 
 Package: cksfv
 Architecture: i686
@@ -266,31 +254,6 @@ Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
 Filename: dists/termux/extras/binary-i686/gcc-6_6.4.0-3_i686.deb
 Size: 25409844
 SHA256: 900bed5f0cf8de0efd614f2a376293dcba3fa4884cf31fa44da99a4355903c6b
-
-Package: gcc-7
-Architecture: i686
-Installed-Size: 103328
-Maintainer: @its-pointless github
-Version: 7.2.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts
-Filename: dists/termux/extras/binary-i686/gcc-7_7.2.0-1_i686.deb
-Size: 26972960
-SHA256: 5257f98ad6570528b0d24a364d2316c9b357f9cbd650730780491a3525a26198
-
-Package: gcc-7
-Architecture: i686
-Installed-Size: 102232
-Maintainer:  @its-pointless github
-Version: 7.2.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, libgfortran4, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Replaces: libgfortran-4
-Filename: dists/termux/extras/binary-i686/gcc-7_7.2.0_i686.deb
-Size: 26907384
-SHA256: 7631a0a1d478a168b1541337ae56f5b85a58be884b0d2d9b824119a89de84723
 
 Package: gcc-7
 Architecture: i686
@@ -905,18 +868,6 @@ SHA256: 93b806a3abfe0253a689699c89af83429006e4d325aa9eebd1df585e53b721c4
 
 Package: numpy
 Architecture: i686
-Installed-Size: 16876
-Maintainer: @its-pointless github
-Version: 1.13.1-1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: https://github.com/numpy/numpy
-Depends: python, libgfortran4, openblas
-Filename: dists/termux/extras/binary-i686/numpy_1.13.1-1_i686.deb
-Size: 2716452
-SHA256: 54b1bac978e8ab2329afc76df3e4e6865ea184f278938e743fd7cb624778ea82
-
-Package: numpy
-Architecture: i686
 Installed-Size: 13636
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.13.3-1
@@ -987,18 +938,6 @@ Filename: dists/termux/extras/binary-i686/octave_4.2.1-12_i686.deb
 Size: 6005576
 SHA256: 6b5002d2ac9ff9d01811cc14a4b3691e32cf32137973c604968147fb9fc14a8f
 
-Package: octave
-Architecture: i686
-Installed-Size: 37304
-Maintainer: @its-pointless github
-Version: 4.2.1-9
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: openblas, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo
-Filename: dists/termux/extras/binary-i686/octave_4.2.1-9_i686.deb
-Size: 6134508
-SHA256: d96a940c1d65ae85f7b90477c700babc3f6768cbda9d8576294d7e09a43da868
-
 Package: opam
 Architecture: i686
 Installed-Size: 12468
@@ -1013,18 +952,6 @@ SHA256: 4c390098e1a1bedc482bc13ff5ab2877605cad245d3a4cfc940c636befd0fbc2
 
 Package: openblas
 Architecture: i686
-Installed-Size: 16368
-Maintainer: @its-pointless github
-Version: 0.2.20-1
-Description: openblas
-Homepage: http://www.openblas.net/
-Depends: libgcc, libgfortran4
-Filename: dists/termux/extras/binary-i686/openblas_0.2.20-1_i686.deb
-Size: 3234272
-SHA256: 3f4205595051722d8e47fe06a89a1398b3e511316d1c5a21008db6251c061b6f
-
-Package: openblas
-Architecture: i686
 Installed-Size: 15752
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.2.20-2
@@ -1034,18 +961,6 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-i686/openblas_0.2.20-2_i686.deb
 Size: 3042404
 SHA256: 062e5e0c48ab9dce7aae0af302ef6490814e8643242c5a2a6739af5ae94d01a0
-
-Package: openblas
-Architecture: i686
-Installed-Size: 16368
-Maintainer: @its-pointless github
-Version: 0.2.20
-Description: openblas
-Homepage: http://www.openblas.net/
-Depends: libgcc, libgfortran4
-Filename: dists/termux/extras/binary-i686/openblas_0.2.20_i686.deb
-Size: 3235296
-SHA256: 3a9816f8f38c7168a08cedad911bdb4dcedc86f0f68026e8b770bbdb85809f64
 
 Package: openldap-dev
 Architecture: i686
@@ -1669,30 +1584,6 @@ SHA256: fd9f6defe9ff7dcdb04f7d749408c53d5862f3beab850516b6aea7ef170d078f
 
 Package: quantlib
 Architecture: i686
-Installed-Size: 39800
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10-2
-Description: A free/open-source library for quantitative finance
-Homepage: http://quantlib.org/index.shtml
-Depends: boost
-Filename: dists/termux/extras/binary-i686/quantlib_1.10-2_i686.deb
-Size: 8815036
-SHA256: af06e13cc7a6aef3c6d0cd10ced16c7402ee7a52ca5994f2a5df854f880e094d
-
-Package: quantlib
-Architecture: i686
-Installed-Size: 37192
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10.1
-Description: A free/open-source library for quantitative finance
-Homepage: http://quantlib.org/index.shtml
-Depends: boost
-Filename: dists/termux/extras/binary-i686/quantlib_1.10.1_i686.deb
-Size: 8245496
-SHA256: 4791098675700a11e300140cdbd6aa31a84e0a2f3d1a99d644bdfa241ad8aaa2
-
-Package: quantlib
-Architecture: i686
 Installed-Size: 40948
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.11
@@ -1821,6 +1712,17 @@ Filename: dists/termux/extras/binary-i686/ripgrep_0.7.1_i686.deb
 Size: 900320
 SHA256: 7847a466f63880cca08a1930fee648f1002798e92e72afd0c7896baaeee919e3
 
+Package: ripgrep
+Architecture: i686
+Installed-Size: 3412
+Maintainer: @its-pointless
+Version: 0.8.1
+Description: ripgrep is a line-oriented search tool
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-i686/ripgrep_0.8.1_i686.deb
+Size: 961372
+SHA256: 892e1cc925244f41da4306f0e97ff19236ded189efd933f8151b9fbf31c5d7a4
+
 Package: rust-rls-nightly
 Architecture: i686
 Installed-Size: 16664
@@ -1856,6 +1758,18 @@ Filename: dists/termux/extras/binary-i686/rust-rls_1.23.0_i686.deb
 Size: 3478200
 SHA256: c7a8a35483aea73940298254b04d688b2f96b5ebb7cba68c0a9ef659ce069e57
 
+Package: rust-rls
+Architecture: i686
+Installed-Size: 14144
+Maintainer: @its-pointless
+Version: 1.24.1
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-i686/rust-rls_1.24.1_i686.deb
+Size: 3499904
+SHA256: 050a75d378d45c494f74d85e0099124474e8b227211b8463657e5bdf30e31eda
+
 Package: rustc-nightly
 Architecture: i686
 Installed-Size: 177488
@@ -1884,15 +1798,27 @@ SHA256: 30209d7cd1020715e83a8f2a4738f1180d8d146ebf6ceea71cb8543338ea8acc
 
 Package: rustc
 Architecture: i686
-Installed-Size: 172936
+Installed-Size: 192344
 Maintainer: @its-pointless
-Version: 1.23.0-1
+Version: 1.24.1
 Description: A safe, concurrent, practical language.
 Homepage: https://www.rust-lang.org
 Depends: clang
-Filename: dists/termux/extras/binary-i686/rustc_1.23.0-1_i686.deb
-Size: 53388932
-SHA256: 075a8bbd3ed6e46fa79e40102493e8ba49fc808a549c9330d44a1bb9bda421f3
+Filename: dists/termux/extras/binary-i686/rustc_1.24.1_i686.deb
+Size: 59340884
+SHA256: b0305edfe64214560cb3143d64442bfb147d474273edfec4b5bd4dda58f26414
+
+Package: rustfmt
+Architecture: i686
+Installed-Size: 3716
+Maintainer: @its-pointless
+Version: 1.24.1
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-i686/rustfmt_1.24.1_i686.deb
+Size: 978456
+SHA256: 5badda83aa9b7ae27f69b6d94c972d2135713b9366e70a5e4a73ec63ba788059
 
 Package: sc-im
 Architecture: i686
