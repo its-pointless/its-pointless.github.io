@@ -596,6 +596,30 @@ Filename: dists/termux/extras/binary-i686/libgomp_4.9.x_i686.deb
 Size: 180152
 SHA256: 7d5921b2d38a04337c1094cc4a51a271de3ebddf9e26a020b73a975f6affabe0
 
+Package: libgsasl-dev
+Architecture: i686
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0
+Description: Development files for libgsasl
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libgsasl
+Filename: dists/termux/extras/binary-i686/libgsasl-dev_1.8.0_i686.deb
+Size: 7780
+SHA256: 87d004a0158f2a6b5036a9476966cc407af084492204bbe2339fec6ea6bf80a1
+
+Package: libgsasl
+Architecture: i686
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0
+Description: GNU SASL library
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libidn
+Filename: dists/termux/extras/binary-i686/libgsasl_1.8.0_i686.deb
+Size: 34464
+SHA256: bda2d707465a446ec3befa4907092f83351bf95fd8540540ea7480af601204bc
+
 Package: libmaa-dev
 Architecture: i686
 Installed-Size: 28
@@ -809,15 +833,15 @@ SHA256: 6445662a484c4d9a1eb034aff8fd5c554767789085504bb2653f0b3eef3e364a
 
 Package: msmtp
 Architecture: i686
-Installed-Size: 128
+Installed-Size: 124
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.6.6
-Description: light SMTP client
-Homepage: http://msmtp.sourceforge.net
-Depends: libgnutls, libidn
+Description: light SMTP client with support for server profiles
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libgsasl
 Filename: dists/termux/extras/binary-i686/msmtp_1.6.6_i686.deb
-Size: 46456
-SHA256: 6291960827e4e872b856980270d52f46010210c1ebad3be7649aa36861766d71
+Size: 44408
+SHA256: 9eeef41edcba081031be8ee48fbbb0ffdb6e2490b78a1bf9e53e15964de9e829
 
 Package: nim
 Architecture: i686
@@ -1701,6 +1725,18 @@ Filename: dists/termux/extras/binary-i686/racket_6.11_i686.deb
 Size: 5674784
 SHA256: 133ceef81ae6555df67e3fec49282eddd5b1be93383098417c223dc92486f1dd
 
+Package: racket
+Architecture: i686
+Installed-Size: 27920
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.12
+Description: Full-spectrum programming language going beyond Lisp and Scheme
+Homepage: https://racket-lang.org
+Depends: libffi, libandroid-support
+Filename: dists/termux/extras/binary-i686/racket_6.12_i686.deb
+Size: 5156100
+SHA256: 69382e16f7359da5662fe3f9bf2f8685cfbc4fe19a342f2865089298cc59b4cb
+
 Package: ripgrep
 Architecture: i686
 Installed-Size: 3020
@@ -1781,32 +1817,6 @@ Depends: rustc
 Filename: dists/termux/extras/binary-i686/rust-rls_1.24.1_i686.deb
 Size: 3499904
 SHA256: 050a75d378d45c494f74d85e0099124474e8b227211b8463657e5bdf30e31eda
-
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 177488
-Maintainer: @its-pointless
-Version: 1.25-2
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.25-2_i686.deb
-Size: 57032184
-SHA256: 588a153ed40a657d0d01c12bd23f664197a51e3b0c8509786e854a844202cea6
-
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 184492
-Maintainer: @its-pointless
-Version: 1.25
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.25_i686.deb
-Size: 58058348
-SHA256: 30209d7cd1020715e83a8f2a4738f1180d8d146ebf6ceea71cb8543338ea8acc
 
 Package: rustc-nightly
 Architecture: i686

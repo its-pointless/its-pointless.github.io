@@ -816,6 +816,53 @@ Filename: dists/termux/extras/binary-arm/libgomp_4.9.x_arm.deb
 Size: 115884
 SHA256: 5b3ec0b2f41d79b29ca34cfefaed4dc63b918103aa6278b797eb17ce1afd626e
 
+Package: libgsasl-dev
+Architecture: arm
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.20
+Description: Development files for libgsasl
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libgsasl
+Filename: dists/termux/extras/binary-arm/libgsasl-dev_0.12.20_arm.deb
+Size: 7784
+SHA256: 82b9d4f45e73fe0d6a14a9ecd0ef1f368390c039061e1ad6ff5e65bc3cd3438d
+
+Package: libgsasl-dev
+Architecture: arm
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0
+Description: Development files for libgsasl
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libgsasl
+Filename: dists/termux/extras/binary-arm/libgsasl-dev_1.8.0_arm.deb
+Size: 7780
+SHA256: e22dec71874ac4a0f64095a06ff487873a3c2e7fb7384681bc88656569542fb3
+
+Package: libgsasl
+Architecture: arm
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.20
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-arm/libgsasl_0.12.20_arm.deb
+Size: 29956
+SHA256: a282cc698f6253375a9939e850f5b1ccbe3182af34ac680832f902b953588722
+
+Package: libgsasl
+Architecture: arm
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0
+Description: GNU SASL library
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libidn
+Filename: dists/termux/extras/binary-arm/libgsasl_1.8.0_arm.deb
+Size: 29868
+SHA256: 74bdd7fd10778898e6ef271bcd919bfc46b4a55b6907a0b436a87202193d50ba
+
 Package: libmaa-dev
 Architecture: arm
 Installed-Size: 28
@@ -1110,15 +1157,15 @@ SHA256: a85c50da4dc8ef4e9e02865486e1b2fddd108339f6ec1dd70401f30a72b1492e
 
 Package: msmtp
 Architecture: arm
-Installed-Size: 108
+Installed-Size: 104
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.6.6
-Description: light SMTP client
-Homepage: http://msmtp.sourceforge.net
-Depends: libgnutls, libidn
+Description: light SMTP client with support for server profiles
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libgsasl
 Filename: dists/termux/extras/binary-arm/msmtp_1.6.6_arm.deb
-Size: 45056
-SHA256: 2402ce3798149ff4342a9934f617b5eced7bbc3626dbad94fc5c0073475f09d3
+Size: 42836
+SHA256: 117ccadf2bccd39417dcc8b8e70f7eb489ad83ca46d4baa4a8c3db37937b1bb5
 
 Package: nim
 Architecture: arm
@@ -2097,6 +2144,18 @@ Filename: dists/termux/extras/binary-arm/racket_6.11_arm.deb
 Size: 5548692
 SHA256: da57c1947eb7e1cc912ec2a60e6dc1ecadff6ecb45656f2fc741ca7746ce9200
 
+Package: racket
+Architecture: arm
+Installed-Size: 27100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.12
+Description: Full-spectrum programming language going beyond Lisp and Scheme
+Homepage: https://racket-lang.org
+Depends: libffi, libandroid-support
+Filename: dists/termux/extras/binary-arm/racket_6.12_arm.deb
+Size: 5148960
+SHA256: beb346048e54f9e0de3f3b087be3c2e6d487227df550038ba1bd1ef0c2522d84
+
 Package: ripgrep
 Architecture: arm
 Installed-Size: 2284
@@ -2166,32 +2225,6 @@ Depends: rustc
 Filename: dists/termux/extras/binary-arm/rust-rls_1.24.1_arm.deb
 Size: 2733264
 SHA256: 3e0a80a38215e88a7885f100a55889b561f98c46b53483c624999d20e4f418d4
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 144340
-Maintainer: @its-pointless
-Version: 1.25-2
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.25-2_arm.deb
-Size: 53624080
-SHA256: dfef24be7726d0be6b67dc406f65fed2f021358faedb438f1d3a3035095f9155
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 153204
-Maintainer: @its-pointless
-Version: 1.25
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.25_arm.deb
-Size: 54862520
-SHA256: 6470c9b6997e6ed68a91a3e3915aa1a9cbd61467260f9031dc687a59a58dbb9c
 
 Package: rustc-nightly
 Architecture: arm

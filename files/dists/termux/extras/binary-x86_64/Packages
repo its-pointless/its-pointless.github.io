@@ -642,6 +642,30 @@ Filename: dists/termux/extras/binary-x86_64/libgomp_4.9.x_x86_64.deb
 Size: 188464
 SHA256: 7d37f67c54c572233250e7cd4b8397a8284c5e56459fb9ab18cf2d747401e718
 
+Package: libgsasl-dev
+Architecture: x86_64
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0
+Description: Development files for libgsasl
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libgsasl
+Filename: dists/termux/extras/binary-x86_64/libgsasl-dev_1.8.0_x86_64.deb
+Size: 7776
+SHA256: 08e7de288eabdc94c64ef340ded2b68f099e87e6bac12800d3b2582efd198284
+
+Package: libgsasl
+Architecture: x86_64
+Installed-Size: 100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0
+Description: GNU SASL library
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libidn
+Filename: dists/termux/extras/binary-x86_64/libgsasl_1.8.0_x86_64.deb
+Size: 38216
+SHA256: 86f5d5654018dbc1f718172fc761f6e076fd7325e6593d716d32f3418462734f
+
 Package: libmaa-dev
 Architecture: x86_64
 Installed-Size: 28
@@ -855,15 +879,15 @@ SHA256: d7f082742daa38f553d9243b3ee010f70eeb1b500da82e677a9dc903bc5af20b
 
 Package: msmtp
 Architecture: x86_64
-Installed-Size: 136
+Installed-Size: 132
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.6.6
-Description: light SMTP client
-Homepage: http://msmtp.sourceforge.net
-Depends: libgnutls, libidn
+Description: light SMTP client with support for server profiles
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libgsasl
 Filename: dists/termux/extras/binary-x86_64/msmtp_1.6.6_x86_64.deb
-Size: 50004
-SHA256: 764ce28cd35bbc0128835636691ee840371abcd288f238df451c0df3765bc22b
+Size: 47864
+SHA256: 5c3030571f25d3ac29d91ad3fb98e8e27dbc2b5432dfb83da59254c966b93db8
 
 Package: nim
 Architecture: x86_64
@@ -1783,6 +1807,18 @@ Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.3_x86_64.deb
 Size: 45763420
 SHA256: c19ff424b1b928eec4270c5e3f407fecc14e7b5fe6219def6845dcf83bc38d66
 
+Package: racket
+Architecture: x86_64
+Installed-Size: 27992
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.12
+Description: Full-spectrum programming language going beyond Lisp and Scheme
+Homepage: https://racket-lang.org
+Depends: libffi, libandroid-support
+Filename: dists/termux/extras/binary-x86_64/racket_6.12_x86_64.deb
+Size: 5230636
+SHA256: 9e5f9f4ad5746b7b2875d2e19cf9976e9e7a30aadab6575a269280c4466d5c7c
+
 Package: ripgrep
 Architecture: x86_64
 Installed-Size: 2780
@@ -1852,32 +1888,6 @@ Depends: rustc
 Filename: dists/termux/extras/binary-x86_64/rust-rls_1.24.1_x86_64.deb
 Size: 3183164
 SHA256: 42cb7bf5438fa1cb74ef76c84d549876191ca777788f0a45af483df444adc85e
-
-Package: rustc-nightly
-Architecture: x86_64
-Installed-Size: 177532
-Maintainer: @its-pointless
-Version: 1.25-2
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.25-2_x86_64.deb
-Size: 55947744
-SHA256: acc6ef4e2a5fd73df13516dc243949ef8ff7c5b3a97e6a12630692fa77889b1b
-
-Package: rustc-nightly
-Architecture: x86_64
-Installed-Size: 186476
-Maintainer: @its-pointless
-Version: 1.25
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.25_x86_64.deb
-Size: 57028336
-SHA256: c47b5d3626e46dd0fe7252303b3110767fe9a49e4827e0b2434bf45ae9cf98e6
 
 Package: rustc-nightly
 Architecture: x86_64
