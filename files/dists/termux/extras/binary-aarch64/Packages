@@ -11,6 +11,18 @@ SHA256: 4f7035a923571be4085c8ec3ff0010be115d97b204906dcff56d54724cbea326
 
 Package: arpack-ng
 Architecture: aarch64
+Installed-Size: 264
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0-1
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: openblas
+Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.5.0-1_aarch64.deb
+Size: 55552
+SHA256: d4e867db7a3b45424c8df921463765d24aba49f7a30bc8d14e7aa675a8ec324d
+
+Package: arpack-ng
+Architecture: aarch64
 Installed-Size: 404
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0
@@ -299,6 +311,18 @@ Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts,
 Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.1-3_aarch64.deb
 Size: 21192928
 SHA256: ed72281ea1376065a0d2a2332ddb1c1afe71e2eb92e0212b5fd6cbaed8485734
+
+Package: gcc-7
+Architecture: aarch64
+Installed-Size: 78552
+Maintainer: @its-pointless github
+Version: 7.2.1-4
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.1-4_aarch64.deb
+Size: 21191156
+SHA256: 73f5d8358cbf47035c02ca10e0ddfa7bc9c2f993ee0c426cbb63f118b11dc883
 
 Package: gcc-7
 Architecture: aarch64
@@ -610,6 +634,17 @@ Package: libgfortran4
 Architecture: aarch64
 Installed-Size: 836
 Maintainer: @its-pointless github
+Version: 7.2.1-4
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.2.1-4_aarch64.deb
+Size: 178196
+SHA256: 065436b136f281a801ccd02a01b0c2a5eac711eb5d5dc35fe6873a50140b0664
+
+Package: libgfortran4
+Architecture: aarch64
+Installed-Size: 836
+Maintainer: @its-pointless github
 Version: 7.2.1
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -695,6 +730,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.2.0_aarch64.deb
 Size: 315096
 SHA256: f8112df6e95f086d9d2bdbd85d371a8e17ecaf8e338f7c5222087a21f814452a
+
+Package: libgomp-7
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: @its-pointless github
+Version: 7.2.1-4
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.2.1-4_aarch64.deb
+Size: 53760
+SHA256: 2a071dbfe44d4a1b1fbb1c3f1faa67eb804de3b1d0f1188d7aba10d0bc8b016d
 
 Package: libgomp-7
 Architecture: aarch64
@@ -1169,6 +1216,18 @@ SHA256: e59a9b3c001d0ea9f2586a1ef4513dd4d382b817a00110cd38df8ba016674590
 Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1-13
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.1-13_aarch64.deb
+Size: 351224
+SHA256: ea69dd88de6a45691de9215c7d76b43108c79d97a5c33030f054b9ad4b38cdb3
+
+Package: octave-dev
+Architecture: aarch64
+Installed-Size: 5644
 Maintainer: @its-pointless github
 Version: 4.2.1-6
 Description: Development files for octave
@@ -1214,6 +1273,18 @@ Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-12_aarch64.deb
 Size: 5072132
 SHA256: efed0fc8280f9fedbf94d26ba78491f95210fb3c786ab5a87ddd047aeeb5be4b
 
+Package: octave
+Architecture: aarch64
+Installed-Size: 36608
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1-13
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
+Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-13_aarch64.deb
+Size: 5027064
+SHA256: d49c5febdf288727c5de1cf542851d287676ac8282d5e43d12a2c4dfc30a1483
+
 Package: opam
 Architecture: aarch64
 Installed-Size: 16996
@@ -1237,6 +1308,18 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-2_aarch64.deb
 Size: 1918556
 SHA256: 825de3fe7595e05d720b2f04fd718081418d0e55d36e2d79ec213411943c9387
+
+Package: openblas
+Architecture: aarch64
+Installed-Size: 9836
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.20-3
+Description: blas
+Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
+Depends: libgfortran4
+Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-3_aarch64.deb
+Size: 1916356
+SHA256: 92f04dbf5adc4832549269bd6cc329409d58ed57ca87f61310704c1f8043583f
 
 Package: openldap-dev
 Architecture: aarch64
@@ -2252,6 +2335,18 @@ Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_4.5.6_aarch64.deb
 Size: 103340
 SHA256: a2e45273f0cba7c19780c522c3827a2ed01447e07c1ff29f6d46693b60b8d2c0
 
+Package: suitesparse-dev
+Architecture: aarch64
+Installed-Size: 796
+Maintainer:  @its-pointless github
+Version: 5.1.0
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_5.1.0_aarch64.deb
+Size: 103460
+SHA256: 543a39600ab331dea83e82511f5f48a2455d2b7ba61a161f9f1f0a2243c8b518
+
 Package: suitesparse
 Architecture: aarch64
 Installed-Size: 2712
@@ -2263,6 +2358,18 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.6_aarch64.deb
 Size: 913684
 SHA256: a28d22877b6e8bca5c0744d5f457f60ef7599530e252cdfe54d0d8dfed261608
+
+Package: suitesparse
+Architecture: aarch64
+Installed-Size: 3184
+Maintainer:  @its-pointless github
+Version: 5.1.0
+Description: a suite of sparse matrix software
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Filename: dists/termux/extras/binary-aarch64/suitesparse_5.1.0_aarch64.deb
+Size: 868868
+SHA256: 866f7a34bafa93d4ba384eb38b4473b487d1ea4d6c85d0702f7b1d9280521c1c
 
 Package: unicorn-dev
 Architecture: aarch64

@@ -11,6 +11,18 @@ SHA256: a05e64fec58be129cd107f9b1357f7b241dc4f8d1624c66221805aa6182c9c3f
 
 Package: arpack-ng
 Architecture: arm
+Installed-Size: 248
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0-1
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: openblas
+Filename: dists/termux/extras/binary-arm/arpack-ng_3.5.0-1_arm.deb
+Size: 59084
+SHA256: f52641b240af0f3c236dc980a6fa323cf7037b63a8cbe9a7784c88294ff007e6
+
+Package: arpack-ng
+Architecture: arm
 Installed-Size: 428
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0
@@ -314,6 +326,18 @@ SHA256: 93476d216b4e974ca2d18e47dabf35a5622dad9b9a685e195a55d5b07caed9e0
 
 Package: gcc-7
 Architecture: arm
+Installed-Size: 98016
+Maintainer: @its-pointless github
+Version: 7.2.1-4
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-arm/gcc-7_7.2.1-4_arm.deb
+Size: 21687648
+SHA256: f6bcf927b1aa3cba5a0ec7c21dcb998b80f4462cb31aaa2ab1a93d0dcd794342
+
+Package: gcc-7
+Architecture: arm
 Installed-Size: 97968
 Maintainer: @its-pointless github
 Version: 7.2.1
@@ -418,6 +442,18 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-arm/glpk_4.63_arm.deb
 Size: 300632
 SHA256: 735ce7d593a422a666df8c0799b6089f050ad46fcc64ae7becbd4c2148187e3e
+
+Package: gnat
+Architecture: arm
+Installed-Size: 91752
+Maintainer: @its-pointless github
+Version: 7.2.1-4
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/gnat_7.2.1-4_arm.deb
+Size: 15695024
+SHA256: 853c210673d7e301234db72c4f7299bc4eaf41447fdbd642a00a0be81e26b90f
 
 Package: gnat
 Architecture: arm
@@ -691,6 +727,17 @@ SHA256: ab14c0307dd7652a9347cc784bdd8e96e1d28ea9a591862857a9c5a25a70b5fe
 
 Package: libgfortran4
 Architecture: arm
+Installed-Size: 588
+Maintainer: @its-pointless github
+Version: 7.2.1-4
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgfortran4_7.2.1-4_arm.deb
+Size: 152144
+SHA256: 2f170ee2f685cf3cfb8935503cebbf1ecf4eafed378c962c0e12226e78ce8d7a
+
+Package: libgfortran4
+Architecture: arm
 Installed-Size: 584
 Maintainer: @its-pointless github
 Version: 7.2.1
@@ -767,6 +814,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-arm/libgomp-7_7.2.0_arm.deb
 Size: 299860
 SHA256: 5e191b4944eed74fa5413fed2526dbe7391b5bb07f339d1742562bdf149139fd
+
+Package: libgomp-7
+Architecture: arm
+Installed-Size: 208
+Maintainer: @its-pointless github
+Version: 7.2.1-4
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/libgomp-7_7.2.1-4_arm.deb
+Size: 54884
+SHA256: e63fefa7ba92e3108f0f8fc23ed9bcef5d5ce3f67b573217105e1ef656fc8b91
 
 Package: libgomp-7
 Architecture: arm
@@ -1276,6 +1335,18 @@ SHA256: a267389d54781dd30107cbfafa0322f6cb9dfd8c09c22cdc41de9d21c63dc376
 Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1-13
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-13_arm.deb
+Size: 351176
+SHA256: 54676b53f46cca0a289e73ebabdf984fbe381d28576b28edca51faa41fed6063
+
+Package: octave-dev
+Architecture: arm
+Installed-Size: 5644
 Maintainer: @its-pointless github
 Version: 4.2.1-6
 Description: Development files for octave
@@ -1309,6 +1380,18 @@ Filename: dists/termux/extras/binary-arm/octave_4.2.1-12_arm.deb
 Size: 5575912
 SHA256: 505df338f10093728c6c8e8569dbf2374ff82793b15d4012369f47223dc44ea3
 
+Package: octave
+Architecture: arm
+Installed-Size: 30632
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.1-13
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
+Filename: dists/termux/extras/binary-arm/octave_4.2.1-13_arm.deb
+Size: 5545728
+SHA256: 6241af4876027833e22d0dc3e054e16ab7029ed7141b0c60b06d1134c3c9d071
+
 Package: opam
 Architecture: arm
 Installed-Size: 12092
@@ -1332,6 +1415,18 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-arm/openblas_0.2.20-2_arm.deb
 Size: 2109444
 SHA256: 0ab44b03245474e6e73a2836a1df7a31f57536524b7e54015f38fa621513a74c
+
+Package: openblas
+Architecture: arm
+Installed-Size: 10548
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.20-3
+Description: blas
+Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
+Depends: libgfortran4
+Filename: dists/termux/extras/binary-arm/openblas_0.2.20-3_arm.deb
+Size: 2150144
+SHA256: 76ab7f3da203674b580e06024372d7de20e4e7436e50432016e3e1789bd6e88f
 
 Package: openldap-dev
 Architecture: arm
@@ -2335,6 +2430,18 @@ Filename: dists/termux/extras/binary-arm/suitesparse-dev_4.5.6_arm.deb
 Size: 103460
 SHA256: fe14233688a62fbc10ba64d821c5736caf8aa5017f7db266b1555b0db6d81338
 
+Package: suitesparse-dev
+Architecture: arm
+Installed-Size: 796
+Maintainer:  @its-pointless github
+Version: 5.1.0
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-arm/suitesparse-dev_5.1.0_arm.deb
+Size: 103464
+SHA256: 2aeb8a7b6dba798c4c4d9dc5a229fc6d7167732069c13fa4531e71f9968deb8b
+
 Package: suitesparse
 Architecture: arm
 Installed-Size: 2180
@@ -2346,6 +2453,18 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-arm/suitesparse_4.5.6_arm.deb
 Size: 695644
 SHA256: 3fd09cbb654eb4db3c1504cf46e66c88f80337f091bc825bdeed75e333c8a66d
+
+Package: suitesparse
+Architecture: arm
+Installed-Size: 2488
+Maintainer:  @its-pointless github
+Version: 5.1.0
+Description: a suite of sparse matrix software
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Filename: dists/termux/extras/binary-arm/suitesparse_5.1.0_arm.deb
+Size: 781688
+SHA256: 874d1a8e5cfc52a5586923dca3165588205e91e9f6b4caad58563843211ca1b1
 
 Package: unicorn-dev
 Architecture: arm
