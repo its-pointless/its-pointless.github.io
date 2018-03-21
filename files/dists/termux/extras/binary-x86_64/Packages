@@ -1115,6 +1115,20 @@ Filename: dists/termux/extras/binary-x86_64/opam_1.2.2.1_x86_64.deb
 Size: 2723536
 SHA256: 8c316a12ba5179510e84e22e31ff8a55e501dc4ebfdf39858eac4325b9329849
 
+Package: openblas-sandybridge
+Architecture: x86_64
+Installed-Size: 15172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.20
+Description: blas library optimized for sandybridge(chromebooks)
+Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
+Depends: libgfortran4
+Conflicts: openblas
+Provides: openblas
+Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge_0.2.20_x86_64.deb
+Size: 3203548
+SHA256: c874469242080c76e2fa18885493e3d1794248f030b1f52ebf2d38a0ca30a572
+
 Package: openblas
 Architecture: x86_64
 Installed-Size: 15768
