@@ -426,9 +426,10 @@ Maintainer: Fredrik Fornwall @fornwall
 Version: 2.4.0
 Description: Git Large File Support
 Homepage: https://git-lfs.github.com
+Depends: git
 Filename: dists/termux/extras/binary-arm/git-lfs_2.4.0_arm.deb
-Size: 2091236
-SHA256: 1acc8f329508488c3beda2c807d50b4637e076c6468f7198710abc4bd947b529
+Size: 2089124
+SHA256: a2e39c6630c8b12df659701d52aa1977a69a667f554e348d21528723b8243982
 
 Package: glpk-dev
 Architecture: arm

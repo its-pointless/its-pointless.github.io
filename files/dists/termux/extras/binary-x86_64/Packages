@@ -332,9 +332,10 @@ Maintainer: Fredrik Fornwall @fornwall
 Version: 2.4.0
 Description: Git Large File Support
 Homepage: https://git-lfs.github.com
+Depends: git
 Filename: dists/termux/extras/binary-x86_64/git-lfs_2.4.0_x86_64.deb
-Size: 2418388
-SHA256: e1b5264c1b699daa20578c4ae10d0d19e22150d2beda6e8186a9ed64db5b7c4a
+Size: 2420256
+SHA256: 80b246870ab7071354f2331f512367817e087c7d9818f115a07862fdbcf8c3a3
 
 Package: glpk-dev
 Architecture: x86_64

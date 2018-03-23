@@ -415,9 +415,10 @@ Maintainer: Fredrik Fornwall @fornwall
 Version: 2.4.0
 Description: Git Large File Support
 Homepage: https://git-lfs.github.com
+Depends: git
 Filename: dists/termux/extras/binary-aarch64/git-lfs_2.4.0_aarch64.deb
-Size: 2168476
-SHA256: 1eac26159eb85a215911e5b4ad6ce95b30d4e785126f7305c7f19c557e41ec32
+Size: 2164224
+SHA256: 873de326adf3da88298dd2dc9f2ba2c6e012a10b092d6ffce4b9e07b45bbf5ae
 
 Package: glpk-dev
 Architecture: aarch64
