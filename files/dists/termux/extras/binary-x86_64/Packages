@@ -1141,7 +1141,7 @@ SHA256: 8c316a12ba5179510e84e22e31ff8a55e501dc4ebfdf39858eac4325b9329849
 
 Package: openblas-sandybridge
 Architecture: x86_64
-Installed-Size: 15172
+Installed-Size: 15604
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.2.20
 Description: blas library optimized for sandybridge(chromebooks)
@@ -1150,8 +1150,8 @@ Depends: libgfortran4
 Conflicts: openblas
 Provides: openblas
 Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge_0.2.20_x86_64.deb
-Size: 3203548
-SHA256: c874469242080c76e2fa18885493e3d1794248f030b1f52ebf2d38a0ca30a572
+Size: 3322428
+SHA256: e3c81e030886c0b84c67bcd79436910eb98e4b3b52aa3804f7f2e6f0e9c1cf82
 
 Package: openblas
 Architecture: x86_64
