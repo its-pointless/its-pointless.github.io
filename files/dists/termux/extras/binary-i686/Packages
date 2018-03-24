@@ -230,18 +230,19 @@ Filename: dists/termux/extras/binary-i686/dopewars_1.5.12_i686.deb
 Size: 51332
 SHA256: ea838b5b73e6fc9c30e2e36cff0e5419fcf8a5ff6f5520b6d5c658830c3ca1ba
 
-Package: ecl-ext
+Package: ecl
 Architecture: i686
-Installed-Size: 5748
+Installed-Size: 6236
 Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1.3
-Description: Embeddable Common-Lisp with threads for 32bit android-6 and up
+Version: 16.1.3-1
+Description: Embeddable Common-Lisp
 Homepage: https://common-lisp.net/project/ecl
 Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libandroid-support
-Conflicts: ecl
-Filename: dists/termux/extras/binary-i686/ecl-ext_16.1.3_i686.deb
-Size: 1381740
-SHA256: 0d3460442285224a033f01220a5faccd5cd04782ae6064bf9fbb6bf85b327cf0
+Conflicts: ecl-ext, ecl (16.1.3)
+Replaces: ecl-ext
+Filename: dists/termux/extras/binary-i686/ecl_16.1.3-1_i686.deb
+Size: 1539684
+SHA256: c9d6676d1dc2176f5b962a4b40ce840db30819780187c307c40375a03494080b
 
 Package: ecl
 Architecture: i686
@@ -923,18 +924,6 @@ Depends: libgsasl
 Filename: dists/termux/extras/binary-i686/msmtp_1.6.6_i686.deb
 Size: 44408
 SHA256: 9eeef41edcba081031be8ee48fbbb0ffdb6e2490b78a1bf9e53e15964de9e829
-
-Package: nim
-Architecture: i686
-Installed-Size: 9848
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.17.2
-Description: Nim is a systems and applications programming language. Statically typed and compiled, it provides unparalleled performance in an elegant package.
-Homepage: https://nim-lang.org/
-Depends: git, clang, libandroid-glob
-Filename: dists/termux/extras/binary-i686/nim_0.17.2_i686.deb
-Size: 2107680
-SHA256: 998d4b7c83fd9e28517b30cd5b0350ca47da340e5462796e15861e1984784fa6
 
 Package: nim
 Architecture: i686

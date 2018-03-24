@@ -243,6 +243,19 @@ SHA256: 726cd63ab33ea047b4efc3e062088be6b9ddf6bf70b8708f2931716326e5d0f8
 
 Package: ecl
 Architecture: x86_64
+Installed-Size: 7300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3-1
+Description: Embeddable Common-Lisp
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libandroid-support
+Replaces: ecl-ext
+Filename: dists/termux/extras/binary-x86_64/ecl_16.1.3-1_x86_64.deb
+Size: 1706124
+SHA256: 3b2579075d581c9e40415223e627d3fee4f8738d873fd52f4716da83fdd510f5
+
+Package: ecl
+Architecture: x86_64
 Installed-Size: 7304
 Maintainer: Fredrik Fornwall @fornwall
 Version: 16.1.3
@@ -958,18 +971,6 @@ Depends: libgsasl
 Filename: dists/termux/extras/binary-x86_64/msmtp_1.6.6_x86_64.deb
 Size: 47864
 SHA256: 5c3030571f25d3ac29d91ad3fb98e8e27dbc2b5432dfb83da59254c966b93db8
-
-Package: nim
-Architecture: x86_64
-Installed-Size: 10196
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.17.2
-Description: Nim is a systems and applications programming language. Statically typed and compiled, it provides unparalleled performance in an elegant package.
-Homepage: https://nim-lang.org/
-Depends: git, clang, libandroid-glob
-Filename: dists/termux/extras/binary-x86_64/nim_0.17.2_x86_64.deb
-Size: 2159356
-SHA256: 0f70b3e517e0294200c2c238ba5b4a53ad80d8f5bc309483d321f243036740b7
 
 Package: nim
 Architecture: x86_64
