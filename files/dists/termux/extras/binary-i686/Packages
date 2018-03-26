@@ -104,6 +104,29 @@ Filename: dists/termux/extras/binary-i686/blis_0.2.2_i686.deb
 Size: 389504
 SHA256: 2cd8c34662dcf85d677c78c834329f794420a17096759a083d96bde57856be91
 
+Package: brotli-dev
+Architecture: i686
+Installed-Size: 96
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: Development files for brotli
+Homepage: https://github.com/google/brotli
+Depends: brotli
+Filename: dists/termux/extras/binary-i686/brotli-dev_1.0.3_i686.deb
+Size: 12600
+SHA256: a2bd145612bd6e574af8c4ab2d38f368079a79d7ab842f8def98ce0b93d151d1
+
+Package: brotli
+Architecture: i686
+Installed-Size: 720
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: lossless compression algorithm and format (command line utility)
+Homepage: https://github.com/google/brotli
+Filename: dists/termux/extras/binary-i686/brotli_1.0.3_i686.deb
+Size: 245684
+SHA256: 0257ca2aab513fd3d139227a243ab0f0fef0d5107b8683691ac1f20f4aebc585
+
 Package: bthread-dev
 Architecture: i686
 Installed-Size: 4
@@ -281,39 +304,15 @@ SHA256: 900bed5f0cf8de0efd614f2a376293dcba3fa4884cf31fa44da99a4355903c6b
 
 Package: gcc-7
 Architecture: i686
-Installed-Size: 106348
+Installed-Size: 106724
 Maintainer: @its-pointless github
-Version: 7.2.1-3
+Version: 7.3.0
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
 Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-7_7.2.1-3_i686.deb
-Size: 29575920
-SHA256: 75860cfc35e65f03ca7d7ea38c3aefc11d2d01adcf6a277417cc332d246d890c
-
-Package: gcc-7
-Architecture: i686
-Installed-Size: 106348
-Maintainer: @its-pointless github
-Version: 7.2.1-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-7_7.2.1-4_i686.deb
-Size: 29577304
-SHA256: 7ff4181a3bb5740c0a23bb4cbda19996a3a6bfc85a047c208d4f802269f01530
-
-Package: gcc-7
-Architecture: i686
-Installed-Size: 106368
-Maintainer: @its-pointless github
-Version: 7.2.1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-7_7.2.1_i686.deb
-Size: 29559672
-SHA256: fd37eac1a2fd1ef75db225d851bf9bd73878444b0172a307ae93295948861f17
+Filename: dists/termux/extras/binary-i686/gcc-7_7.3.0_i686.deb
+Size: 29856896
+SHA256: 5833bc15b93959d0d218d73e04d62f8c2d123a4c943544dd24fa99924ef7ea31
 
 Package: gcov-7
 Architecture: i686
@@ -481,6 +480,18 @@ Filename: dists/termux/extras/binary-i686/imapfilter_2.6.10_i686.deb
 Size: 42408
 SHA256: b0085295bc430902daf8b9e7c1a5188b58abebc4834f2cebbe21987b7c44a9c9
 
+Package: indent
+Architecture: i686
+Installed-Size: 280
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.11
+Description: C language source code formatting program
+Homepage: https://packages.debian.org/sid/indent
+Depends: libandroid-support
+Filename: dists/termux/extras/binary-i686/indent_2.2.11_i686.deb
+Size: 53760
+SHA256: e6e04feb8d7d41a2b94a526ead7a2461da939caf80fd411e204f3acd372fc197
+
 Package: julia
 Architecture: i686
 Installed-Size: 194428
@@ -527,6 +538,17 @@ Filename: dists/termux/extras/binary-i686/libatomic-ops-dev_7.6.2_i686.deb
 Size: 56188
 SHA256: f16b8d6db4f8cf4562c38185f10477acf4ac61f5d535e16b6fd043134f57b45c
 
+Package: libatomic
+Architecture: i686
+Installed-Size: 24
+Maintainer: @its-pointless github
+Version: 7.3.0
+Description: dynamic library for atomic
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-i686/libatomic_7.3.0_i686.deb
+Size: 7240
+SHA256: 4924894c7f2e1e149bf49dfa7c3d52d4b14bd9e73de791a36f8ab341ad1c43d8
+
 Package: libboost-python
 Architecture: i686
 Installed-Size: 284
@@ -541,59 +563,14 @@ SHA256: e660dc988cd0e374661b853306558502292cf313dca0b6bf5eed75192e541227
 
 Package: libgfortran4
 Architecture: i686
-Installed-Size: 2508
-Maintainer:  @its-pointless github
-Version: 7.1.0-2
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Conflicts: libgfortran-4
-Filename: dists/termux/extras/binary-i686/libgfortran4_7.1.0-2_i686.deb
-Size: 623692
-SHA256: a21d57cd0d779c11eb58042cd34c007a032cdaca356981736430424dadd9aecc
-
-Package: libgfortran4
-Architecture: i686
-Installed-Size: 2508
+Installed-Size: 1792
 Maintainer: @its-pointless github
-Version: 7.2.0-1
+Version: 7.3.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.0-1_i686.deb
-Size: 625156
-SHA256: a5acb801e546dadd2392bd07b0f299d02151bab052f76cd5c9374e877c161f13
-
-Package: libgfortran4
-Architecture: i686
-Installed-Size: 2504
-Maintainer:  @its-pointless github
-Version: 7.2.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.0_i686.deb
-Size: 623672
-SHA256: 69615dabbc62cff60e0f6020019f582be7849243c8b306da65f34ab7e701edc9
-
-Package: libgfortran4
-Architecture: i686
-Installed-Size: 1100
-Maintainer: @its-pointless github
-Version: 7.2.1-4
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.1-4_i686.deb
-Size: 332304
-SHA256: 0b9880928127b3554abaa93e0895eb72070c5aa93fc823e3728856196f2b5239
-
-Package: libgfortran4
-Architecture: i686
-Installed-Size: 1100
-Maintainer: @its-pointless github
-Version: 7.2.1
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libgfortran4_7.2.1_i686.deb
-Size: 332084
-SHA256: 24ad681f7f1a98003614cb4e824bcc02772485e4455949c72f2638d0eb7da270
+Filename: dists/termux/extras/binary-i686/libgfortran4_7.3.0_i686.deb
+Size: 540468
+SHA256: 17cc8c3a25107c2f3dc43e55750c6f504dd80c70fd6f045e6a40d7dcf297daa4
 
 Package: libgnuiconv
 Architecture: i686
@@ -641,6 +618,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-i686/libgomp-7_7.2.1_i686.deb
 Size: 63292
 SHA256: 9a4dd8e3fc41ba8379100c357f3daa3be1616dd3682fc71797b8620a99ba9587
+
+Package: libgomp-7
+Architecture: i686
+Installed-Size: 288
+Maintainer: @its-pointless github
+Version: 7.3.0
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-i686/libgomp-7_7.3.0_i686.deb
+Size: 80700
+SHA256: db2107410a4c6685842752241584412f972bb889d445fe93862bc3791e4d5491
 
 Package: libgomp
 Architecture: i686
@@ -1044,6 +1033,18 @@ Filename: dists/termux/extras/binary-i686/octave-dev_4.2.1-9_i686.deb
 Size: 351488
 SHA256: 207b0c431e0ab0cf589b653996270e8aedd33e1d9d84157166f04ec4ec9dc9b6
 
+Package: octave-dev
+Architecture: i686
+Installed-Size: 5644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.2
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-i686/octave-dev_4.2.2_i686.deb
+Size: 351196
+SHA256: 6e9c062f5d4ab85a8fce41c939aa1d44d80c044e3975a071ae11938d66a26de0
+
 Package: octave
 Architecture: i686
 Installed-Size: 36256
@@ -1068,6 +1069,18 @@ Filename: dists/termux/extras/binary-i686/octave_4.2.1-13_i686.deb
 Size: 5951232
 SHA256: d4df3fe5ec614a3c9e52682da048cf3a7eeccee7134d1e29c52aae83bf9ea772
 
+Package: octave
+Architecture: i686
+Installed-Size: 36148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.2
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
+Filename: dists/termux/extras/binary-i686/octave_4.2.2_i686.deb
+Size: 5949716
+SHA256: ac561f9da4fd4b4e00da3ef8a35f01d0bf9a81c11a0003c435fd0141cc919b76
+
 Package: opam
 Architecture: i686
 Installed-Size: 12468
@@ -1079,6 +1092,20 @@ Depends: wget, curl, git, patch, tar, gzip, bzip2, xz-utils, rsync, termux-exec
 Filename: dists/termux/extras/binary-i686/opam_1.2.2.1_i686.deb
 Size: 2003964
 SHA256: 4c390098e1a1bedc482bc13ff5ab2877605cad245d3a4cfc940c636befd0fbc2
+
+Package: openblas-sandybridge
+Architecture: i686
+Installed-Size: 14160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.20
+Description: blas library optimized for sandybridge(chromebooks)
+Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
+Depends: libgfortran4
+Conflicts: openblas
+Provides: openblas
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.2.20_i686.deb
+Size: 2949508
+SHA256: 43c3835ddbb62772bd80e474cf9a6decb48e47c050ea11129916d2ca88db4c24
 
 Package: openblas
 Architecture: i686
@@ -2061,18 +2088,6 @@ Package: suitesparse-dev
 Architecture: i686
 Installed-Size: 796
 Maintainer:  @its-pointless github
-Version: 4.5.6
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-i686/suitesparse-dev_4.5.6_i686.deb
-Size: 103556
-SHA256: 44f9da2a0fcfdb689f9a11ccfb3a2e5687b25ccaa9ac07aee1edecaee6b623b1
-
-Package: suitesparse-dev
-Architecture: i686
-Installed-Size: 796
-Maintainer:  @its-pointless github
 Version: 5.1.0
 Description: Development files for suitesparse
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
@@ -2080,18 +2095,6 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.1.0_i686.deb
 Size: 103456
 SHA256: f771cc15735df8560272e1dd20763d55e99193eb61fda52d99718a2078f515b7
-
-Package: suitesparse
-Architecture: i686
-Installed-Size: 3724
-Maintainer:  @its-pointless github
-Version: 4.5.6
-Description: a suite of sparse matrix software
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-i686/suitesparse_4.5.6_i686.deb
-Size: 870036
-SHA256: 4d98be4ad338f6a70cce6bdf53e6312d5f61d8e162301ca57f4f3d603d96eb2d
 
 Package: suitesparse
 Architecture: i686

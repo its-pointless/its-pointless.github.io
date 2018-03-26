@@ -126,6 +126,29 @@ Filename: dists/termux/extras/binary-aarch64/blis_0.2.2_aarch64.deb
 Size: 335356
 SHA256: 95b2c52f80055c06571561e4d655587d41204657d54ad71113ab807727589c1d
 
+Package: brotli-dev
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: Development files for brotli
+Homepage: https://github.com/google/brotli
+Depends: brotli
+Filename: dists/termux/extras/binary-aarch64/brotli-dev_1.0.3_aarch64.deb
+Size: 12596
+SHA256: 3910157bbffc7896ad8911985d7256c8db46191241c411b3b3d9e99a5d723cee
+
+Package: brotli
+Architecture: aarch64
+Installed-Size: 724
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: lossless compression algorithm and format (command line utility)
+Homepage: https://github.com/google/brotli
+Filename: dists/termux/extras/binary-aarch64/brotli_1.0.3_aarch64.deb
+Size: 232272
+SHA256: 7721eb61b72981b6ca9f26affdd6a599898ee07c57f9964070cac1ccaae9c173
+
 Package: bthread-dev
 Architecture: aarch64
 Installed-Size: 4
@@ -315,39 +338,15 @@ SHA256: 2a146d7544e00fb69af01e180f9165be322d69467d9b4c23472305b18cdd0be4
 
 Package: gcc-7
 Architecture: aarch64
-Installed-Size: 78552
+Installed-Size: 78984
 Maintainer: @its-pointless github
-Version: 7.2.1-3
+Version: 7.3.0
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
 Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.1-3_aarch64.deb
-Size: 21192928
-SHA256: ed72281ea1376065a0d2a2332ddb1c1afe71e2eb92e0212b5fd6cbaed8485734
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 78552
-Maintainer: @its-pointless github
-Version: 7.2.1-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.1-4_aarch64.deb
-Size: 21191156
-SHA256: 73f5d8358cbf47035c02ca10e0ddfa7bc9c2f993ee0c426cbb63f118b11dc883
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 78496
-Maintainer: @its-pointless github
-Version: 7.2.1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.2.1_aarch64.deb
-Size: 21176116
-SHA256: f4abc67f47d166168fe4b3d2cf8d73ab61ff489d8d1994f63fec88aab791644c
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0_aarch64.deb
+Size: 21290484
+SHA256: 041c3b1afed3dd61fb4f251ff826f2ba9142964805e3318e77fd17d364c26005
 
 Package: gcov-6
 Architecture: aarch64
@@ -550,6 +549,18 @@ Filename: dists/termux/extras/binary-aarch64/imapfilter_2.6.10_aarch64.deb
 Size: 40616
 SHA256: d2d42ed4b73059c65d4b8e2845f485e5b54ff74e16f668971a8b2fbbab927eac
 
+Package: indent
+Architecture: aarch64
+Installed-Size: 356
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.11
+Description: C language source code formatting program
+Homepage: https://packages.debian.org/sid/indent
+Depends: libandroid-support
+Filename: dists/termux/extras/binary-aarch64/indent_2.2.11_aarch64.deb
+Size: 54524
+SHA256: 9bf49cff9aa6cdee10a8641acf26fb338d9fb8f217b7bcf0cef64cf1af78aa92
+
 Package: keystone-dev
 Architecture: aarch64
 Installed-Size: 60
@@ -596,6 +607,17 @@ Filename: dists/termux/extras/binary-aarch64/libatomic-ops-dev_7.6.2_aarch64.deb
 Size: 56548
 SHA256: 61bf6aea430a7644e5d3a3810742039346cb882db7354eb37bd3d5a3c6c6d29f
 
+Package: libatomic
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: @its-pointless github
+Version: 7.3.0
+Description: dynamic library for atomic
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libatomic_7.3.0_aarch64.deb
+Size: 5128
+SHA256: 6a5d4a5f38a6546002b6a13dc5e376cb88875ce94b65f0f57ef65f2170c29829
+
 Package: libboost-python
 Architecture: aarch64
 Installed-Size: 332
@@ -608,85 +630,16 @@ Filename: dists/termux/extras/binary-aarch64/libboost-python_1.65.1-1_aarch64.de
 Size: 63360
 SHA256: 3ecf428fde2eea596ebd36eec333bd6da0d8c273b03ed523aaf934515b0d0632
 
-Package: libgfortran-4
-Architecture: aarch64
-Installed-Size: 1536
-Maintainer:  @its-pointless github
-Version: 7.1.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran-4_7.1.0_aarch64.deb
-Size: 316996
-SHA256: d7f8997922e5b281b20ad2706bb18fb3a23711c1edef92b3e61e7da3551df5c4
-
 Package: libgfortran4
 Architecture: aarch64
-Installed-Size: 1536
-Maintainer:  @its-pointless github
-Version: 7.1.0-1
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Conflicts: libgfortran-4
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.1.0-1_aarch64.deb
-Size: 316464
-SHA256: e2ca69619f9b4615fbc78e6fd0fffacbe480054d8a8a3c8cf74079e2636d4325
-
-Package: libgfortran4
-Architecture: aarch64
-Installed-Size: 1536
-Maintainer:  @its-pointless github
-Version: 7.1.0-2
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Conflicts: libgfortran-4
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.1.0-2_aarch64.deb
-Size: 316952
-SHA256: 7ca5e5ba0ff87aa17da6cc5aac467874d4dce76ebe2ecbffbb756cc0133e28e3
-
-Package: libgfortran4
-Architecture: aarch64
-Installed-Size: 1604
+Installed-Size: 964
 Maintainer: @its-pointless github
-Version: 7.2.0-2
+Version: 7.3.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.2.0-2_aarch64.deb
-Size: 319228
-SHA256: 0b45f7a82ee68b01a8bcad6d6ba49e9293ef9199c208f204ba82c183c01005f3
-
-Package: libgfortran4
-Architecture: aarch64
-Installed-Size: 1536
-Maintainer:  @its-pointless github
-Version: 7.2.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Conflicts: libgfortran-4
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.2.0_aarch64.deb
-Size: 316644
-SHA256: addc3830395d3a7f5503f02b33f1c0e8e870d79f00f84fb40b732914d7bc55f9
-
-Package: libgfortran4
-Architecture: aarch64
-Installed-Size: 836
-Maintainer: @its-pointless github
-Version: 7.2.1-4
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.2.1-4_aarch64.deb
-Size: 178196
-SHA256: 065436b136f281a801ccd02a01b0c2a5eac711eb5d5dc35fe6873a50140b0664
-
-Package: libgfortran4
-Architecture: aarch64
-Installed-Size: 836
-Maintainer: @its-pointless github
-Version: 7.2.1
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.2.1_aarch64.deb
-Size: 178248
-SHA256: 6051d67c0c1c616f56d4281e74a493835c2071053ea7b9950726b6440152edb8
+Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0_aarch64.deb
+Size: 243488
+SHA256: 93e56d774d9a4cbaefd31891d37825c7ad09004797ee04918dfe913f79376318
 
 Package: libgfortran
 Architecture: aarch64
@@ -790,6 +743,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.2.1_aarch64.deb
 Size: 53772
 SHA256: 719d71a5278d16b77d76b5b0d8111889e772dacd7e63429028b709794cb8ee7e
+
+Package: libgomp-7
+Architecture: aarch64
+Installed-Size: 300
+Maintainer: @its-pointless github
+Version: 7.3.0
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0_aarch64.deb
+Size: 67168
+SHA256: 8f8e051798b58d1d3371b586b2d09432acac3b4647decb8225333629d3a38c8d
 
 Package: libgomp
 Architecture: aarch64
@@ -1285,6 +1250,18 @@ Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.1-8_aarch64.deb
 Size: 351492
 SHA256: 403646746560c175f75db40d8c76fdb6ae7827274deaf5a403d6e3b4fe81ba98
 
+Package: octave-dev
+Architecture: aarch64
+Installed-Size: 5644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.2
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.2_aarch64.deb
+Size: 351332
+SHA256: af96a5e46e88a9b232d8baa3ca6fd4147c571723bd357de5f7f120c40693210b
+
 Package: octave
 Architecture: aarch64
 Installed-Size: 36416
@@ -1308,6 +1285,18 @@ Depends: libbz2, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, li
 Filename: dists/termux/extras/binary-aarch64/octave_4.2.1-13_aarch64.deb
 Size: 5027064
 SHA256: d49c5febdf288727c5de1cf542851d287676ac8282d5e43d12a2c4dfc30a1483
+
+Package: octave
+Architecture: aarch64
+Installed-Size: 36680
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.2
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
+Filename: dists/termux/extras/binary-aarch64/octave_4.2.2_aarch64.deb
+Size: 5032308
+SHA256: 68173374faebc4b0fa6580d2ead566c01191aed823bece9f4230efdbdc3a70b2
 
 Package: opam
 Architecture: aarch64
@@ -2351,18 +2340,6 @@ Package: suitesparse-dev
 Architecture: aarch64
 Installed-Size: 796
 Maintainer:  @its-pointless github
-Version: 4.5.6
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_4.5.6_aarch64.deb
-Size: 103340
-SHA256: a2e45273f0cba7c19780c522c3827a2ed01447e07c1ff29f6d46693b60b8d2c0
-
-Package: suitesparse-dev
-Architecture: aarch64
-Installed-Size: 796
-Maintainer:  @its-pointless github
 Version: 5.1.0
 Description: Development files for suitesparse
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
@@ -2370,18 +2347,6 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_5.1.0_aarch64.deb
 Size: 103460
 SHA256: 543a39600ab331dea83e82511f5f48a2455d2b7ba61a161f9f1f0a2243c8b518
-
-Package: suitesparse
-Architecture: aarch64
-Installed-Size: 2712
-Maintainer:  @its-pointless github
-Version: 4.5.6
-Description: a suite of sparse matrix software
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-aarch64/suitesparse_4.5.6_aarch64.deb
-Size: 913684
-SHA256: a28d22877b6e8bca5c0744d5f457f60ef7599530e252cdfe54d0d8dfed261608
 
 Package: suitesparse
 Architecture: aarch64
