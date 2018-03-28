@@ -338,6 +338,18 @@ SHA256: 2a146d7544e00fb69af01e180f9165be322d69467d9b4c23472305b18cdd0be4
 
 Package: gcc-7
 Architecture: aarch64
+Installed-Size: 78980
+Maintainer: @its-pointless github
+Version: 7.3.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-1_aarch64.deb
+Size: 21297188
+SHA256: 5d38f3457b2360319d76a2f7c7c5d428bc68d7e0b3798b48f030a9d8790134da
+
+Package: gcc-7
+Architecture: aarch64
 Installed-Size: 78984
 Maintainer: @its-pointless github
 Version: 7.3.0
@@ -634,6 +646,17 @@ Package: libgfortran4
 Architecture: aarch64
 Installed-Size: 964
 Maintainer: @its-pointless github
+Version: 7.3.0-1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0-1_aarch64.deb
+Size: 243560
+SHA256: 1f93510d02eafae688747e07220ed7776eaca2211a1945edd1452ebf0094a8df
+
+Package: libgfortran4
+Architecture: aarch64
+Installed-Size: 964
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -743,6 +766,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.2.1_aarch64.deb
 Size: 53772
 SHA256: 719d71a5278d16b77d76b5b0d8111889e772dacd7e63429028b709794cb8ee7e
+
+Package: libgomp-7
+Architecture: aarch64
+Installed-Size: 300
+Maintainer: @its-pointless github
+Version: 7.3.0-1
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0-1_aarch64.deb
+Size: 67060
+SHA256: 5892bec7a801d2d80c76b86d2b3bb30d0b35baea1ad9560b00801012c75448d3
 
 Package: libgomp-7
 Architecture: aarch64

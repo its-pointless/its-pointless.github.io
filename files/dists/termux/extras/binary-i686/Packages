@@ -304,6 +304,18 @@ SHA256: 900bed5f0cf8de0efd614f2a376293dcba3fa4884cf31fa44da99a4355903c6b
 
 Package: gcc-7
 Architecture: i686
+Installed-Size: 106720
+Maintainer: @its-pointless github
+Version: 7.3.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-i686/gcc-7_7.3.0-1_i686.deb
+Size: 29852920
+SHA256: 74cb909b40d71958ae5113a9a9e2c615ac7688465167ba394e8b0b607329f848
+
+Package: gcc-7
+Architecture: i686
 Installed-Size: 106724
 Maintainer: @its-pointless github
 Version: 7.3.0
@@ -565,6 +577,17 @@ Package: libgfortran4
 Architecture: i686
 Installed-Size: 1792
 Maintainer: @its-pointless github
+Version: 7.3.0-1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-i686/libgfortran4_7.3.0-1_i686.deb
+Size: 540480
+SHA256: 67153fa0844acc3b6e7c11ad5ee3b6f937ec914a56d10647cd66508e24f8e45d
+
+Package: libgfortran4
+Architecture: i686
+Installed-Size: 1792
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -618,6 +641,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-i686/libgomp-7_7.2.1_i686.deb
 Size: 63292
 SHA256: 9a4dd8e3fc41ba8379100c357f3daa3be1616dd3682fc71797b8620a99ba9587
+
+Package: libgomp-7
+Architecture: i686
+Installed-Size: 288
+Maintainer: @its-pointless github
+Version: 7.3.0-1
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-i686/libgomp-7_7.3.0-1_i686.deb
+Size: 80728
+SHA256: 0684825403b1b63facf8f9e3f431e2a0c3307b36c6a7fde0e85653c477e1fb83
 
 Package: libgomp-7
 Architecture: i686

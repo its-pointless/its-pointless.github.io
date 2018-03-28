@@ -349,6 +349,18 @@ SHA256: 7d76695a73107864bd782abc53d8c0eaa481d79e1736093eef4c9522cec00b01
 
 Package: gcc-7
 Architecture: arm
+Installed-Size: 117716
+Maintainer: @its-pointless github
+Version: 7.3.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-arm/gcc-7_7.3.0-1_arm.deb
+Size: 27883552
+SHA256: 40252373f4297f8680685f3b78ba62fc1bdeefee2bc9a9e9dc26700e9da871c6
+
+Package: gcc-7
+Architecture: arm
 Installed-Size: 117720
 Maintainer: @its-pointless github
 Version: 7.3.0
@@ -465,30 +477,6 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-arm/glpk_4.63_arm.deb
 Size: 300632
 SHA256: 735ce7d593a422a666df8c0799b6089f050ad46fcc64ae7becbd4c2148187e3e
-
-Package: gnat
-Architecture: arm
-Installed-Size: 91752
-Maintainer: @its-pointless github
-Version: 7.2.1-4
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/gnat_7.2.1-4_arm.deb
-Size: 15695024
-SHA256: 853c210673d7e301234db72c4f7299bc4eaf41447fdbd642a00a0be81e26b90f
-
-Package: gnat
-Architecture: arm
-Installed-Size: 91732
-Maintainer: @its-pointless github
-Version: 7.2.1
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/gnat_7.2.1_arm.deb
-Size: 15694448
-SHA256: 0d91d69e7cf59cf337d321669eb11e06699d9d17d71c9510e1aa3d8912e0763e
 
 Package: gnat
 Architecture: arm
@@ -740,6 +728,17 @@ Package: libgfortran4
 Architecture: arm
 Installed-Size: 708
 Maintainer: @its-pointless github
+Version: 7.3.0-1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgfortran4_7.3.0-1_arm.deb
+Size: 194304
+SHA256: 9f6b5fe81adbe025f9fd6333dbad216d1607bcba27cf60bad1352620fd8fc386
+
+Package: libgfortran4
+Architecture: arm
+Installed-Size: 708
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -838,6 +837,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-arm/libgomp-7_7.2.1_arm.deb
 Size: 54836
 SHA256: 6d87022889536798568471d6e8cc0e45aaa7be11f9e95ebe84a428a894166603
+
+Package: libgomp-7
+Architecture: arm
+Installed-Size: 240
+Maintainer: @its-pointless github
+Version: 7.3.0-1
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/libgomp-7_7.3.0-1_arm.deb
+Size: 66132
+SHA256: 29beb62d7711f2c5e61ed49ec68c3c012870457892b00c45396bb932fcc2ae30
 
 Package: libgomp-7
 Architecture: arm
