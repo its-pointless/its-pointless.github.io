@@ -609,6 +609,18 @@ Filename: dists/termux/extras/binary-arm/indent_2.2.11_arm.deb
 Size: 61140
 SHA256: 249978d34f7615f09ff01cb3fe79767188ae4fb9e25803982ce79660ddbffab1
 
+Package: julia
+Architecture: arm
+Installed-Size: 134316
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0
+Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libunwind, libgit2-armfix, libunwind
+Filename: dists/termux/extras/binary-arm/julia_7.0_arm.deb
+Size: 17612412
+SHA256: 9e28926bb3b18e929090193b7a5c2cd3abc44ddf56e4b4f7b166cc9c9d1b89f0
+
 Package: keystone-dev
 Architecture: arm
 Installed-Size: 60
@@ -767,6 +779,21 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libgfortran_6.4.0-1_arm.deb
 Size: 224224
 SHA256: 24f3955e685334cac384b2ed1aa335bd3a54c7fd470e77019e674eb72ab0c287
+
+Package: libgit2-armfix
+Architecture: arm
+Installed-Size: 436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.26.3
+Description: C library implementing Git core methods
+Homepage: https://libgit2.github.com/
+Depends: libcurl, openssl
+Conflicts: libgit2
+Replaces: libgit2
+Provides: libgit2
+Filename: dists/termux/extras/binary-arm/libgit2-armfix_0.26.3_arm.deb
+Size: 244948
+SHA256: 74bb82ddfcef7bd5f6f76e9d7acd5b3cb1481ce85bf7f6848b482a2f3e3a344a
 
 Package: libgme-dev
 Architecture: arm
