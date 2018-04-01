@@ -315,6 +315,18 @@ SHA256: c346c404096a4f24fdcc8ac52adf3fe978df2ade9322314c93a2ff26cc656001
 
 Package: gcc-7
 Architecture: x86_64
+Installed-Size: 109596
+Maintainer: @its-pointless github
+Version: 7.3.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-x86_64/gcc-7_7.3.0-2_x86_64.deb
+Size: 30145044
+SHA256: 4f8fee5f93bbfc07fa4e41fffb83d541a64d35cd9ba7ff59fdc09c7b516eb01b
+
+Package: gcc-7
+Architecture: x86_64
 Installed-Size: 109600
 Maintainer: @its-pointless github
 Version: 7.3.0
@@ -590,6 +602,17 @@ Package: libgfortran4
 Architecture: x86_64
 Installed-Size: 1972
 Maintainer: @its-pointless github
+Version: 7.3.0-2
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.3.0-2_x86_64.deb
+Size: 582804
+SHA256: faf8328552f3b1ca91098847679657a05493687a7790ac77979846e12ec53d79
+
+Package: libgfortran4
+Architecture: x86_64
+Installed-Size: 1972
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -672,6 +695,18 @@ Package: libgomp-7
 Architecture: x86_64
 Installed-Size: 332
 Maintainer: @its-pointless github
+Version: 7.3.0-2
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.3.0-2_x86_64.deb
+Size: 76884
+SHA256: e4c91767b567378f0cf64916d93bcc2c4e28b818712b5330d2910c05b267481b
+
+Package: libgomp-7
+Architecture: x86_64
+Installed-Size: 332
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: openmp library for gcc
 Homepage: http://gcc.gnu.org/
@@ -704,6 +739,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-x86_64/libgomp_4.9.x-2_x86_64.deb
 Size: 189580
 SHA256: fad002d3a4e216bfa7a5f7705823011bbc8f2e393cd713943024c638855029b3
+
+Package: libgomp
+Architecture: x86_64
+Installed-Size: 548
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.x-3
+Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-x86_64/libgomp_4.9.x-3_x86_64.deb
+Size: 189664
+SHA256: 4513ee37bb1bd6dccfa364c84e3b9c0a8914852f4aedeca9cfba47e50db29ff1
 
 Package: libgomp
 Architecture: x86_64
@@ -1990,42 +2037,6 @@ Depends: r-cran
 Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-1-1_x86_64.deb
 Size: 871004
 SHA256: 2a1dd5959c6abfcef5826030b4240e9f0f464d41c66bf4acb7506510e435f174
-
-Package: r-cran
-Architecture: x86_64
-Installed-Size: 62924
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3-1
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.3-1_x86_64.deb
-Size: 39784676
-SHA256: 8c0a2bc7327635e7378d236e220c2683fa80bdabe18d72a36c6ae98097477ca2
-
-Package: r-cran
-Architecture: x86_64
-Installed-Size: 62924
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3-2
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.3-2_x86_64.deb
-Size: 39786656
-SHA256: 24254c4a430998cd841891a9ca8c2c0748cbc489f54b09837f7c4d6c0fcd8d08
-
-Package: r-cran
-Architecture: x86_64
-Installed-Size: 83416
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.3_x86_64.deb
-Size: 45763420
-SHA256: c19ff424b1b928eec4270c5e3f407fecc14e7b5fe6219def6845dcf83bc38d66
 
 Package: r-cran
 Architecture: x86_64

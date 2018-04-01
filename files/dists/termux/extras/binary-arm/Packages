@@ -361,6 +361,18 @@ SHA256: 40252373f4297f8680685f3b78ba62fc1bdeefee2bc9a9e9dc26700e9da871c6
 
 Package: gcc-7
 Architecture: arm
+Installed-Size: 117764
+Maintainer: @its-pointless github
+Version: 7.3.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-arm/gcc-7_7.3.0-2_arm.deb
+Size: 27886544
+SHA256: 16f0d6c294af759d798a3b6eaf3e07628467440feb04f65abb39997da360e306
+
+Package: gcc-7
+Architecture: arm
 Installed-Size: 117720
 Maintainer: @its-pointless github
 Version: 7.3.0
@@ -477,6 +489,18 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-arm/glpk_4.63_arm.deb
 Size: 300632
 SHA256: 735ce7d593a422a666df8c0799b6089f050ad46fcc64ae7becbd4c2148187e3e
+
+Package: gnat
+Architecture: arm
+Installed-Size: 71868
+Maintainer: @its-pointless github
+Version: 7.3.0-2
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/gnat_7.3.0-2_arm.deb
+Size: 9592276
+SHA256: 91a5b4fd7b9c4625db073d003055ee517a8b6a6ffe260ed81cf2e564a095073f
 
 Package: gnat
 Architecture: arm
@@ -754,6 +778,17 @@ Package: libgfortran4
 Architecture: arm
 Installed-Size: 708
 Maintainer: @its-pointless github
+Version: 7.3.0-2
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgfortran4_7.3.0-2_arm.deb
+Size: 194260
+SHA256: c92b09e81a3ebd70c1b5722e5a764ee8f4197a8a902d96271d50c13994557aac
+
+Package: libgfortran4
+Architecture: arm
+Installed-Size: 708
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -884,6 +919,18 @@ Package: libgomp-7
 Architecture: arm
 Installed-Size: 240
 Maintainer: @its-pointless github
+Version: 7.3.0-2
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/libgomp-7_7.3.0-2_arm.deb
+Size: 66168
+SHA256: 84086254fd1593cf3764e7f479a0ba51a6c94f57ea70b1b158bfefe52e5333f7
+
+Package: libgomp-7
+Architecture: arm
+Installed-Size: 240
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: openmp library for gcc
 Homepage: http://gcc.gnu.org/
@@ -916,6 +963,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-arm/libgomp_4.9.x-2_arm.deb
 Size: 116932
 SHA256: 5758dc3366011f93e22a7c3901adf36c3af77a9495f43763f8f8a1ad0b664486
+
+Package: libgomp
+Architecture: arm
+Installed-Size: 504
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.x-3
+Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-arm/libgomp_4.9.x-3_arm.deb
+Size: 116860
+SHA256: ee4180c50f7b8f65eef2c63a5a27536eb93d665bbea1251a0aa5f54b5ef841db
 
 Package: libgomp
 Architecture: arm
@@ -2351,30 +2410,6 @@ Depends: r-cran
 Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.8-1-1_arm.deb
 Size: 870280
 SHA256: 7333297e4dc2564dfa1a20fd48a311f906f841229839f3b455102a7ac3c48830
-
-Package: r-cran
-Architecture: arm
-Installed-Size: 60464
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3-2
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-arm/r-cran_3.4.3-2_arm.deb
-Size: 39115692
-SHA256: e64a663bf0301878e312b0e3a2c494927b8b14e2cb40e1242e0e3601187c141e
-
-Package: r-cran
-Architecture: arm
-Installed-Size: 60464
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-arm/r-cran_3.4.3_arm.deb
-Size: 39114584
-SHA256: 9f0537b997736d1be6a39ab87d36f797f9212d1a9115a427fb2d3d5bc31877e5
 
 Package: r-cran
 Architecture: arm

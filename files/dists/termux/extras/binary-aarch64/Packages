@@ -350,6 +350,18 @@ SHA256: 5d38f3457b2360319d76a2f7c7c5d428bc68d7e0b3798b48f030a9d8790134da
 
 Package: gcc-7
 Architecture: aarch64
+Installed-Size: 79032
+Maintainer: @its-pointless github
+Version: 7.3.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-2_aarch64.deb
+Size: 21301536
+SHA256: 162d5a0ec0e26bda56a9d2a80db6acc8c0c2e5d34e772111a1129946377bf0fb
+
+Package: gcc-7
+Architecture: aarch64
 Installed-Size: 78984
 Maintainer: @its-pointless github
 Version: 7.3.0
@@ -672,6 +684,17 @@ Package: libgfortran4
 Architecture: aarch64
 Installed-Size: 964
 Maintainer: @its-pointless github
+Version: 7.3.0-2
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0-2_aarch64.deb
+Size: 243616
+SHA256: ee69cfd43f29a73aa24deebd3d568aa50c708703945b1ffb9d2138fd7b5a9d7c
+
+Package: libgfortran4
+Architecture: aarch64
+Installed-Size: 964
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -798,6 +821,18 @@ Package: libgomp-7
 Architecture: aarch64
 Installed-Size: 300
 Maintainer: @its-pointless github
+Version: 7.3.0-2
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0-2_aarch64.deb
+Size: 67064
+SHA256: 743006b980a30e0386f971fd59014da400b29021943d4bf11b9b34d97862fcad
+
+Package: libgomp-7
+Architecture: aarch64
+Installed-Size: 300
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: openmp library for gcc
 Homepage: http://gcc.gnu.org/
@@ -830,6 +865,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-aarch64/libgomp_4.9.x-2_aarch64.deb
 Size: 123028
 SHA256: 17fa2ac3a4faa9b9557a02d36239a7a6fb35303b9bec94e17e5ac9d078a2aab8
+
+Package: libgomp
+Architecture: aarch64
+Installed-Size: 776
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.x-3
+Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
+Homepage: https://gcc.gnu.org/projects/gomp/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/libgomp_4.9.x-3_aarch64.deb
+Size: 122820
+SHA256: 22f8dc665d21ef616090c46ea3c9b87e25d8efc7a263105984239271861661cb
 
 Package: libgomp
 Architecture: aarch64
@@ -2208,30 +2255,6 @@ Depends: r-cran
 Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-1-1_aarch64.deb
 Size: 870620
 SHA256: 05e6af6081dbfcfc9257b7f36bd90f38eeab6ca2ba3d40355527e95820bd2756
-
-Package: r-cran
-Architecture: aarch64
-Installed-Size: 62000
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3-2
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.3-2_aarch64.deb
-Size: 38957500
-SHA256: 2fff59b2a14050b723e9686baf6a90d6fd72112da331e7a1dbf61bb4e1b71ecf
-
-Package: r-cran
-Architecture: aarch64
-Installed-Size: 62000
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.3_aarch64.deb
-Size: 38956828
-SHA256: d20a1549fc558bec583f0343043c4ccea90b48b8c4c305459130da4f451e113d
 
 Package: r-cran
 Architecture: aarch64
