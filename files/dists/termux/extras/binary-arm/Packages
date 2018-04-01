@@ -609,17 +609,20 @@ Filename: dists/termux/extras/binary-arm/indent_2.2.11_arm.deb
 Size: 61140
 SHA256: 249978d34f7615f09ff01cb3fe79767188ae4fb9e25803982ce79660ddbffab1
 
-Package: julia
+Package: julia-devprev
 Architecture: arm
 Installed-Size: 134316
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.0
+Version: 0.7.0
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libunwind, libgit2-armfix, libunwind
-Filename: dists/termux/extras/binary-arm/julia_7.0_arm.deb
-Size: 17613412
-SHA256: 2221a592eeb06384db57f6ceae6353ace1b955863fbb5f84ed9fc4781da72bd9
+Conflicts: julia
+Replaces: julia
+Provides: openblas
+Filename: dists/termux/extras/binary-arm/julia-devprev_0.7.0_arm.deb
+Size: 17609200
+SHA256: 309e90cd7d000f5037474b64273d844956d6410fd85a6315167290a2b4c351fd
 
 Package: keystone-dev
 Architecture: arm
@@ -2228,6 +2231,18 @@ Filename: dists/termux/extras/binary-arm/r-cran-rcpp_0.12.14_arm.deb
 Size: 3200124
 SHA256: df87e487f269860b8e9275c295ca7c57a16fafaef2a35dffad1ca4f029db7f78
 
+Package: r-cran-rcpp
+Architecture: arm
+Installed-Size: 11252
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.16
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-arm/r-cran-rcpp_0.12.16_arm.deb
+Size: 3185400
+SHA256: aec8ba124ece476fe4987a7f37b39c8bb70ce42c49eb7aad91c01fdc6f6984b1
+
 Package: r-cran-rquantlib
 Architecture: arm
 Installed-Size: 3640
@@ -2265,6 +2280,18 @@ Filename: dists/termux/extras/binary-arm/r-cran-rquantlib_0.4.4-1_arm.deb
 Size: 759160
 SHA256: b6f30a870f3d0f59b1c4e62a15f0d120f5f14c328f94fde49d088fc5ba7475df
 
+Package: r-cran-rquantlib
+Architecture: arm
+Installed-Size: 3472
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4-2
+Description: GNU R package interfacing the QuantLib finance library
+Homepage: https://cran.r-project.org/
+Depends: r-cran, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-arm/r-cran-rquantlib_0.4.4-2_arm.deb
+Size: 764548
+SHA256: e81755d585aa597df6e68c3aa109de146f3893a4412c7b1655a65bd6f611db40
+
 Package: r-cran-stringi
 Architecture: arm
 Installed-Size: 996
@@ -2276,6 +2303,18 @@ Depends: r-cran, libicu
 Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.1.6_arm.deb
 Size: 554496
 SHA256: a268bbd55e91ad0e3448fdb803957adf971f2dbc49228e88c1ce728882d4f751
+
+Package: r-cran-stringi
+Architecture: arm
+Installed-Size: 1004
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.7
+Description: GNU R character string processing facilities
+Homepage: https://cran.r-project.org/
+Depends: r-cran, libicu
+Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.1.7_arm.deb
+Size: 561880
+SHA256: 310d56ccc24a1adabc6afdcc3729b5880341df848d72e7e9133fe693ee8e30f7
 
 Package: r-cran-zoo
 Architecture: arm
@@ -2301,6 +2340,18 @@ Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.8-1-0_arm.deb
 Size: 871372
 SHA256: 551438a16ec94f3fc0e79074b456a7a0559dee229927f89d3c888eaf6801171b
 
+Package: r-cran-zoo
+Architecture: arm
+Installed-Size: 1256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-1-1
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.8-1-1_arm.deb
+Size: 870280
+SHA256: 7333297e4dc2564dfa1a20fd48a311f906f841229839f3b455102a7ac3c48830
+
 Package: r-cran
 Architecture: arm
 Installed-Size: 60464
@@ -2324,6 +2375,18 @@ Depends: libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblz
 Filename: dists/termux/extras/binary-arm/r-cran_3.4.3_arm.deb
 Size: 39114584
 SHA256: 9f0537b997736d1be6a39ab87d36f797f9212d1a9115a427fb2d3d5bc31877e5
+
+Package: r-cran
+Architecture: arm
+Installed-Size: 62628
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.4
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-arm/r-cran_3.4.4_arm.deb
+Size: 39452796
+SHA256: f356a3c3f44897e84ea2e4f7981334a3dce4eac5dde2fc79ec7b26b747856ea9
 
 Package: racket
 Architecture: arm
