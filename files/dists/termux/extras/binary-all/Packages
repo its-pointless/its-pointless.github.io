@@ -69,6 +69,17 @@ SHA256: f35bbce3a18cfd7bed1916b415da1500c9f2276ac0af7dba7f62729ff941fd1e
 
 Package: rust-docs-nightly
 Architecture: all
+Installed-Size: 240072
+Maintainer: @its-pointless
+Version: 1.26-1
+Description: Rust language documentation
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.26-1_all.deb
+Size: 7184620
+SHA256: 76385d4a200abe129732129e72202c122aed227509fe01ae3beeac212dfdcc60
+
+Package: rust-docs-nightly
+Architecture: all
 Installed-Size: 176712
 Maintainer: @its-pointless
 Version: 1.26
@@ -110,6 +121,17 @@ Homepage: https://www.rust-lang.org
 Filename: dists/termux/extras/binary-all/rust-docs_1.24.1_all.deb
 Size: 6009668
 SHA256: e5a11aa69fbbb420db41a44b34b0c4243440231db78dcd7377331345015eab44
+
+Package: rust-nightly-wasm32-unknown-unknown
+Architecture: all
+Installed-Size: 49260
+Maintainer: @its-pointless
+Version: 1.26-1
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.26-1_all.deb
+Size: 10952556
+SHA256: 5f11701b34c8a08484c62378111d6b446f400bffb182c8ad42abc5f0a1367447
 
 Package: setup-scripts
 Architecture: all
