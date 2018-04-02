@@ -2132,19 +2132,6 @@ Filename: dists/termux/extras/binary-x86_64/rust-rls_1.24.1_x86_64.deb
 Size: 3183164
 SHA256: 42cb7bf5438fa1cb74ef76c84d549876191ca777788f0a45af483df444adc85e
 
-Package: rustc-nightly
-Architecture: x86_64
-Installed-Size: 195904
-Maintainer: @its-pointless
-Version: 1.26
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.26_x86_64.deb
-Size: 58227328
-SHA256: 137ce5ea9db76a71385b81480743722c0e6e0fc00b800a50c3793b6e3c7c6fca
-
 Package: rustc
 Architecture: x86_64
 Installed-Size: 188784
