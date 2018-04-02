@@ -2063,6 +2063,18 @@ SHA256: e6d649aca6da8e8b5dbe475c7520b366f9b4c223d405bcd7036e8241dd34fc97
 
 Package: rust-rls-nightly
 Architecture: i686
+Installed-Size: 17276
+Maintainer: @its-pointless
+Version: 1.26-1
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.26-1_i686.deb
+Size: 4000956
+SHA256: 46866e92e430af4d30e441cff797ea09e5d433836e4964b1289d236502ddf891
+
+Package: rust-rls-nightly
+Architecture: i686
 Installed-Size: 16940
 Maintainer: @its-pointless
 Version: 1.26
@@ -2110,6 +2122,19 @@ SHA256: 050a75d378d45c494f74d85e0099124474e8b227211b8463657e5bdf30e31eda
 
 Package: rustc-nightly
 Architecture: i686
+Installed-Size: 165280
+Maintainer: @its-pointless
+Version: 1.26-1
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-i686/rustc-nightly_1.26-1_i686.deb
+Size: 50819620
+SHA256: 737f54db7a82177dfefd8bc26aa476646cfd195f7804834d6d3778fa337055d8
+
+Package: rustc-nightly
+Architecture: i686
 Installed-Size: 195180
 Maintainer: @its-pointless
 Version: 1.26
@@ -2132,6 +2157,18 @@ Depends: clang
 Filename: dists/termux/extras/binary-i686/rustc_1.24.1_i686.deb
 Size: 59340884
 SHA256: b0305edfe64214560cb3143d64442bfb147d474273edfec4b5bd4dda58f26414
+
+Package: rustfmt-nightly
+Architecture: i686
+Installed-Size: 6856
+Maintainer: @its-pointless
+Version: 1.26-1
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.26-1_i686.deb
+Size: 1668048
+SHA256: 0cdb1703cd7eb6a202c5a1756442c94a516155ea938e1cb62209d29e328979ff
 
 Package: rustfmt-nightly
 Architecture: i686
