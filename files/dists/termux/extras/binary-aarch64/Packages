@@ -2411,18 +2411,6 @@ SHA256: 5d3f2c2f5bc5ddaaf479d06a2b960a681ab14066ac7b1cd86257ede2748cd6dc
 
 Package: rustc
 Architecture: aarch64
-Installed-Size: 187084
-Maintainer: @its-pointless
-Version: 1.24.1
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-aarch64/rustc_1.24.1_aarch64.deb
-Size: 55288332
-SHA256: 6507ef29224b7dc088fdd3e272259255f9a324f31cc49b8e541187a33ce46fc1
-
-Package: rustc
-Architecture: aarch64
 Installed-Size: 141580
 Maintainer: @its-pointless
 Version: 1.25.0
@@ -2456,18 +2444,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.26_aarch64.deb
 Size: 812
 SHA256: d5675fd20242e512d8d63120caa280fa3f7fffaf70c54bf60cb1e72c28b5ce8f
-
-Package: rustfmt
-Architecture: aarch64
-Installed-Size: 3044
-Maintainer: @its-pointless
-Version: 1.24.1
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-aarch64/rustfmt_1.24.1_aarch64.deb
-Size: 761864
-SHA256: 123272ba2037a3fb1536b6834ec901a33369ba7c2d633d5f34fd5197f0f032ff
 
 Package: rustfmt
 Architecture: aarch64

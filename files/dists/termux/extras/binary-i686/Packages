@@ -2159,18 +2159,6 @@ SHA256: 737f54db7a82177dfefd8bc26aa476646cfd195f7804834d6d3778fa337055d8
 
 Package: rustc
 Architecture: i686
-Installed-Size: 192344
-Maintainer: @its-pointless
-Version: 1.24.1
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-i686/rustc_1.24.1_i686.deb
-Size: 59340884
-SHA256: b0305edfe64214560cb3143d64442bfb147d474273edfec4b5bd4dda58f26414
-
-Package: rustc
-Architecture: i686
 Installed-Size: 146820
 Maintainer: @its-pointless
 Version: 1.25.0
@@ -2204,18 +2192,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.26_i686.deb
 Size: 812
 SHA256: 03432d0b4a97a5b5403bc860e8bd5a74e075cc1884f32d7209b7257932cab068
-
-Package: rustfmt
-Architecture: i686
-Installed-Size: 3716
-Maintainer: @its-pointless
-Version: 1.24.1
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-i686/rustfmt_1.24.1_i686.deb
-Size: 978456
-SHA256: 5badda83aa9b7ae27f69b6d94c972d2135713b9366e70a5e4a73ec63ba788059
 
 Package: rustfmt
 Architecture: i686

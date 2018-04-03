@@ -219,6 +219,18 @@ Filename: dists/termux/extras/binary-x86_64/cargo_0.25.0_x86_64.deb
 Size: 1870108
 SHA256: 6206167d7767f708611ba5eec6b5def4a287d43258b277163ec17df0f6103eb1
 
+Package: cargo
+Architecture: x86_64
+Installed-Size: 7808
+Maintainer: @its-pointless
+Version: 0.26.0
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libssh2, libgit2
+Filename: dists/termux/extras/binary-x86_64/cargo_0.26.0_x86_64.deb
+Size: 1950420
+SHA256: 0165a8cbe256e3b6edb1c7aa24c825f4f5d82c3d476fc1711d89e7381cddfa15
+
 Package: cksfv
 Architecture: x86_64
 Installed-Size: 24
@@ -2171,18 +2183,6 @@ SHA256: f4fa80d7d7b7578e7104599cdad8d6694d7c27bbd7ee36ad5798832b4fc8d5a0
 
 Package: rustc
 Architecture: x86_64
-Installed-Size: 188784
-Maintainer: @its-pointless
-Version: 1.24.1
-Description: A safe, concurrent, practical language.
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-x86_64/rustc_1.24.1_x86_64.deb
-Size: 57887792
-SHA256: 7e0baf6ed31064cd5d16678fbca30e2d6ff53070f5aec952a0ea1f9b367f9b90
-
-Package: rustc
-Architecture: x86_64
 Installed-Size: 145188
 Maintainer: @its-pointless
 Version: 1.25.0
@@ -2216,18 +2216,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.26_x86_64.deb
 Size: 816
 SHA256: 67b734cdb0eae25258ce4231cea7146b4b7d553276d31c179756863ceb080069
-
-Package: rustfmt
-Architecture: x86_64
-Installed-Size: 3304
-Maintainer: @its-pointless
-Version: 1.24.1
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rustfmt_1.24.1_x86_64.deb
-Size: 892680
-SHA256: 48dd6075089620ed8cc1171d05638a5bdd31a12f91cdcf4dbfb876d066e66998
 
 Package: rustfmt
 Architecture: x86_64
