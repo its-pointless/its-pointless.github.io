@@ -1253,27 +1253,15 @@ SHA256: 25631f1b2f2db9d5c154da3f58897e60b9c55cf7352b26b760aa856195d4d90a
 
 Package: numpy
 Architecture: aarch64
-Installed-Size: 13760
+Installed-Size: 15384
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13.3-1
+Version: 1.14.2-1
 Description: NumPy is the fundamental package for scientific computing with Python.
 Homepage: http://www.numpy.org/
 Depends: openblas, python
-Filename: dists/termux/extras/binary-aarch64/numpy_1.13.3-1_aarch64.deb
-Size: 2020980
-SHA256: 61c51c67b3ab07a6ab57e280cdb2cec00b92c8a2c94f6bcc37487f7e63bf7dee
-
-Package: numpy
-Architecture: aarch64
-Installed-Size: 13960
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13.3-2
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Depends: openblas, python
-Filename: dists/termux/extras/binary-aarch64/numpy_1.13.3-2_aarch64.deb
-Size: 2052896
-SHA256: 92d35269738c189a64b2ce31d84af8797d483f16a4e9c696764356bf7132c94c
+Filename: dists/termux/extras/binary-aarch64/numpy_1.14.2-1_aarch64.deb
+Size: 2301552
+SHA256: ab7c473d56348883e9ff9c1fc95cf772af7f59e8efb8ecc39c6215b3387cc861
 
 Package: ocaml
 Architecture: aarch64
@@ -1502,51 +1490,27 @@ SHA256: 89be159e38909d9f53536c5d2644909654a5aad014fd60fcbfc7ea22bfbeaca0
 
 Package: python2-numpy
 Architecture: aarch64
-Installed-Size: 14900
+Installed-Size: 15768
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13.3-1
+Version: 1.14.2-1
 Description: NumPy is the fundamental package for scientific computing with Python.
 Homepage: http://www.numpy.org/
 Depends: openblas, python2
-Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.13.3-1_aarch64.deb
-Size: 2150340
-SHA256: 0cb7977a554439c1a30ff141635adbe6fbb19be7377854a1c6cc4efcb28810db
-
-Package: python2-numpy
-Architecture: aarch64
-Installed-Size: 15112
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13.3-3
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Depends: openblas, python2
-Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.13.3-3_aarch64.deb
-Size: 2183244
-SHA256: 6a69d01fdea1da082dd5b6da6257c0439b0d37ebe9d7ab0b775b012e4daaf8a4
+Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.14.2-1_aarch64.deb
+Size: 2270948
+SHA256: 3b02880b7ad81dfe0cb9f040cb7493767f0dbca9507dda9ae80fbdf0cdbe4d3f
 
 Package: python2-scipy
 Architecture: aarch64
-Installed-Size: 45932
+Installed-Size: 48904
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0
+Version: 1.0.1
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
 Homepage: https://scipy.org/scipylib
 Depends: python2-numpy
-Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.0.0_aarch64.deb
-Size: 9443384
-SHA256: db4cb59e991676d3a0e47b1620a93dcbfca4ae37edb1b759cc6593bd272aaa96
-
-Package: python2-scipy
-Architecture: aarch64
-Installed-Size: 45728
-Maintainer: @its-pointless github
-Version: 1.0.0rc1
-Description: SciPy (pronounced 'Sigh Pie') is open-source software for mathematics, science, and engineering.
-Homepage: https://github.com/scipy/scipy
-Depends: numpy
-Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.0.0rc1_aarch64.deb
-Size: 9401824
-SHA256: f69b6cb569fdb4f47b1e8c871f6e8420f297c44f640cdb475f18113deb3a6660
+Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.0.1_aarch64.deb
+Size: 9587128
+SHA256: 5dd4e83c2802440c9d002033fae4da82a5372a3d91dd0b592d1e338a5189734e
 
 Package: qemu-common
 Architecture: aarch64
@@ -2495,15 +2459,15 @@ SHA256: 3b28c3d51b423d03fbf507659332ab2406c851a8c1d2965ee2e815af1f107794
 
 Package: scipy
 Architecture: aarch64
-Installed-Size: 42984
+Installed-Size: 47788
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0
+Version: 1.0.1
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
 Homepage: https://scipy.org/scipylib
 Depends: numpy
-Filename: dists/termux/extras/binary-aarch64/scipy_1.0.0_aarch64.deb
-Size: 8966240
-SHA256: f7995add1384fefdc1d064c173b80862292991816de793973efa8883137d89a8
+Filename: dists/termux/extras/binary-aarch64/scipy_1.0.1_aarch64.deb
+Size: 9514160
+SHA256: b1e7dcedf785b080bdec7bfbc3741699d5bd3b43f0aa4b949ddf53f710955212
 
 Package: suitesparse-dev
 Architecture: aarch64
