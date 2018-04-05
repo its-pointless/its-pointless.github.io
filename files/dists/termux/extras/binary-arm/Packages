@@ -45,6 +45,18 @@ Filename: dists/termux/extras/binary-arm/asymptote_2.41_arm.deb
 Size: 2575840
 SHA256: 7f3a9e70045db9792d12d92d281c27b1a774821d1ed814ead8d9b2dc2ad21391
 
+Package: asymptote
+Architecture: arm
+Installed-Size: 3908
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.42
+Description: script-based vector graphics language inspired by MetaPost
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends:  gsl, ncurses, readline, libsigsegv
+Filename: dists/termux/extras/binary-arm/asymptote_2.42_arm.deb
+Size: 999228
+SHA256: 6b3eee8f8c2a3312425160e8ccffb98e7f02b0bb11d433ca92f9a6ee70ff96f6
+
 Package: atomicparsley
 Architecture: arm
 Installed-Size: 220
@@ -2422,17 +2434,6 @@ Depends: libffi, libandroid-support
 Filename: dists/termux/extras/binary-arm/racket_6.12_arm.deb
 Size: 5148960
 SHA256: beb346048e54f9e0de3f3b087be3c2e6d487227df550038ba1bd1ef0c2522d84
-
-Package: ripgrep
-Architecture: arm
-Installed-Size: 2284
-Maintainer: @its-pointless
-Version: 0.7.1
-Description: ripgrep is a line-oriented search tool
-Homepage: https://github.com/BurntSushi/ripgrep
-Filename: dists/termux/extras/binary-arm/ripgrep_0.7.1_arm.deb
-Size: 719248
-SHA256: 1110ab4b0d8e1d25b5c3ce1217f9cfcd537dd1960f6a574f2a7b4f95dc657785
 
 Package: ripgrep
 Architecture: arm

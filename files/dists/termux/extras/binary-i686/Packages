@@ -34,6 +34,18 @@ Filename: dists/termux/extras/binary-i686/asymptote_2.41_i686.deb
 Size: 2669008
 SHA256: 42f1e387e9e33cb9c979b3541989f1d06a87aa6170284edf6782cba3e4f4fe08
 
+Package: asymptote
+Architecture: i686
+Installed-Size: 5284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.42
+Description: script-based vector graphics language inspired by MetaPost
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends:  gsl, ncurses, readline, libsigsegv
+Filename: dists/termux/extras/binary-i686/asymptote_2.42_i686.deb
+Size: 979456
+SHA256: 25ad426506b6b19653c5538d8ddd5aa81ca9131ad27307f4ccccdf915c3e01ca
+
 Package: atomicparsley
 Architecture: i686
 Installed-Size: 248
@@ -766,6 +778,18 @@ SHA256: 7d5921b2d38a04337c1094cc4a51a271de3ebddf9e26a020b73a975f6affabe0
 
 Package: libgsasl-dev
 Architecture: i686
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0-1
+Description: Development files for libgsasl
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libgsasl
+Filename: dists/termux/extras/binary-i686/libgsasl-dev_1.8.0-1_i686.deb
+Size: 7784
+SHA256: ba014a6db6db4c3baa9a78a48aac2aa4eee7bf53c3ab933a9e9c0d8c5dca8f0d
+
+Package: libgsasl-dev
+Architecture: i686
 Installed-Size: 44
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.8.0
@@ -775,6 +799,18 @@ Depends: libgsasl
 Filename: dists/termux/extras/binary-i686/libgsasl-dev_1.8.0_i686.deb
 Size: 7780
 SHA256: 87d004a0158f2a6b5036a9476966cc407af084492204bbe2339fec6ea6bf80a1
+
+Package: libgsasl
+Architecture: i686
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0-1
+Description: GNU SASL library
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libidn
+Filename: dists/termux/extras/binary-i686/libgsasl_1.8.0-1_i686.deb
+Size: 34464
+SHA256: ddd350793e711cf9abeefd635dcd08e01e24cc4559fd996fda30b9d7af278d56
 
 Package: libgsasl
 Architecture: i686
@@ -998,6 +1034,18 @@ Depends: libffi, libtommath, libuv
 Filename: dists/termux/extras/binary-i686/moarvm_2017.12.1_i686.deb
 Size: 782492
 SHA256: 6445662a484c4d9a1eb034aff8fd5c554767789085504bb2653f0b3eef3e364a
+
+Package: msmtp
+Architecture: i686
+Installed-Size: 124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.6-1
+Description: light SMTP client with support for server profiles
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libgsasl
+Filename: dists/termux/extras/binary-i686/msmtp_1.6.6-1_i686.deb
+Size: 44376
+SHA256: 75f9408d7d9322cdddb0e840172d1bf24860b118e4894ad225a5045efaf0004a
 
 Package: msmtp
 Architecture: i686
@@ -1966,17 +2014,6 @@ Depends: libffi, libandroid-support
 Filename: dists/termux/extras/binary-i686/racket_6.12_i686.deb
 Size: 5156100
 SHA256: 69382e16f7359da5662fe3f9bf2f8685cfbc4fe19a342f2865089298cc59b4cb
-
-Package: ripgrep
-Architecture: i686
-Installed-Size: 3020
-Maintainer: @its-pointless
-Version: 0.7.1
-Description: ripgrep is a line-oriented search tool
-Homepage: https://github.com/BurntSushi/ripgrep
-Filename: dists/termux/extras/binary-i686/ripgrep_0.7.1_i686.deb
-Size: 900320
-SHA256: 7847a466f63880cca08a1930fee648f1002798e92e72afd0c7896baaeee919e3
 
 Package: ripgrep
 Architecture: i686

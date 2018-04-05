@@ -45,6 +45,18 @@ Filename: dists/termux/extras/binary-aarch64/asymptote_2.41_aarch64.deb
 Size: 2540872
 SHA256: bb37aa94d94f461a4a0ccf36a79b1d3191f36cb4cf176f74ff60eb5188484cc3
 
+Package: asymptote
+Architecture: aarch64
+Installed-Size: 4264
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.42
+Description: script-based vector graphics language inspired by MetaPost
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends:  gsl, ncurses, readline, libsigsegv
+Filename: dists/termux/extras/binary-aarch64/asymptote_2.42_aarch64.deb
+Size: 849404
+SHA256: dfac4914cf2e307654ef090a84adde33d722e78b822016706c76acab059688cb
+
 Package: atomicparsley
 Architecture: aarch64
 Installed-Size: 356
@@ -2290,17 +2302,6 @@ Homepage: http://re2c.org
 Filename: dists/termux/extras/binary-aarch64/re2c_0.16_aarch64.deb
 Size: 103300
 SHA256: 3329b4f0695999c16ea67c02cffa377655199df1f083b3bc04db70f7008c6238
-
-Package: ripgrep
-Architecture: aarch64
-Installed-Size: 2340
-Maintainer: @its-pointless
-Version: 0.7.1
-Description: ripgrep is a line-oriented search tool
-Homepage: https://github.com/BurntSushi/ripgrep
-Filename: dists/termux/extras/binary-aarch64/ripgrep_0.7.1_aarch64.deb
-Size: 735604
-SHA256: a7450e9751705b06daa59254ab0115a0ad3bf2902b800d7b505f98b9bc6fe76d
 
 Package: ripgrep
 Architecture: aarch64

@@ -34,6 +34,18 @@ Filename: dists/termux/extras/binary-x86_64/asymptote_2.41_x86_64.deb
 Size: 2673248
 SHA256: 3e3d4ece97fac30c6963101abc9083b9920943338f453007f61879e27a37c291
 
+Package: asymptote
+Architecture: x86_64
+Installed-Size: 4708
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.42
+Description: script-based vector graphics language inspired by MetaPost
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends:  gsl, ncurses, readline, libsigsegv
+Filename: dists/termux/extras/binary-x86_64/asymptote_2.42_x86_64.deb
+Size: 976676
+SHA256: 118d3c502b32926c71428e9bec775a34fbacc1d71d9ab89bcb3d510e1d039865
+
 Package: atomicparsley
 Architecture: x86_64
 Installed-Size: 296
@@ -779,6 +791,18 @@ Package: libgsasl-dev
 Architecture: x86_64
 Installed-Size: 44
 Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0-1
+Description: Development files for libgsasl
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libgsasl
+Filename: dists/termux/extras/binary-x86_64/libgsasl-dev_1.8.0-1_x86_64.deb
+Size: 7776
+SHA256: 8f52b6cd732bc0150d047957495975bd54b07927b0d4a46c67e96fbb5ac4d17a
+
+Package: libgsasl-dev
+Architecture: x86_64
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
 Version: 1.8.0
 Description: Development files for libgsasl
 Homepage: https://www.gnu.org/software/gsasl
@@ -786,6 +810,18 @@ Depends: libgsasl
 Filename: dists/termux/extras/binary-x86_64/libgsasl-dev_1.8.0_x86_64.deb
 Size: 7776
 SHA256: 08e7de288eabdc94c64ef340ded2b68f099e87e6bac12800d3b2582efd198284
+
+Package: libgsasl
+Architecture: x86_64
+Installed-Size: 100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0-1
+Description: GNU SASL library
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libidn
+Filename: dists/termux/extras/binary-x86_64/libgsasl_1.8.0-1_x86_64.deb
+Size: 38184
+SHA256: 227101bbc15a731b1e9858b68c7d7245980791f7409bc7b4abe287c62705cb36
 
 Package: libgsasl
 Architecture: x86_64
@@ -1009,6 +1045,18 @@ Depends: libffi, libtommath, libuv
 Filename: dists/termux/extras/binary-x86_64/moarvm_2017.12.1_x86_64.deb
 Size: 882608
 SHA256: d7f082742daa38f553d9243b3ee010f70eeb1b500da82e677a9dc903bc5af20b
+
+Package: msmtp
+Architecture: x86_64
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.6-1
+Description: light SMTP client with support for server profiles
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libgsasl
+Filename: dists/termux/extras/binary-x86_64/msmtp_1.6.6-1_x86_64.deb
+Size: 47732
+SHA256: fa70ef89aceb34b78f3a2f92b2fe42ba07bd45fac40bcb92b463fc2b230e7d46
 
 Package: msmtp
 Architecture: x86_64
@@ -1965,17 +2013,6 @@ Depends: libffi, libandroid-support
 Filename: dists/termux/extras/binary-x86_64/racket_6.12_x86_64.deb
 Size: 5230636
 SHA256: 9e5f9f4ad5746b7b2875d2e19cf9976e9e7a30aadab6575a269280c4466d5c7c
-
-Package: ripgrep
-Architecture: x86_64
-Installed-Size: 2780
-Maintainer: @its-pointless
-Version: 0.7.1
-Description: ripgrep is a line-oriented search tool
-Homepage: https://github.com/BurntSushi/ripgrep
-Filename: dists/termux/extras/binary-x86_64/ripgrep_0.7.1_x86_64.deb
-Size: 860720
-SHA256: 788f626744be2f575f85fbf2e43b3b594d950d2d924967b04b644e3dc302a74e
 
 Package: ripgrep
 Architecture: x86_64
