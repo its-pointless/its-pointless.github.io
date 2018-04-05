@@ -788,6 +788,18 @@ Filename: dists/termux/extras/binary-i686/libsigsegv-dev_2.11_i686.deb
 Size: 3684
 SHA256: f5e14e4760e0f36e76f1206e21e5e6fcf172967144790605e4b1027959b78a74
 
+Package: libsigsegv-dev
+Architecture: i686
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12
+Description: Development files for libsigsegv
+Homepage: https://www.gnu.org/software/libsigsegv/
+Depends: libsigsegv
+Filename: dists/termux/extras/binary-i686/libsigsegv-dev_2.12_i686.deb
+Size: 3960
+SHA256: 7085569130443897c667751ffa0fc6a0c0dc63ff8f97d2ad39fe291836cd315b
+
 Package: libsigsegv
 Architecture: i686
 Installed-Size: 12
@@ -798,6 +810,17 @@ Homepage: https://www.gnu.org/software/libsigsegv/
 Filename: dists/termux/extras/binary-i686/libsigsegv_2.11_i686.deb
 Size: 3560
 SHA256: 75fe969c02f862da6d476219acc0a914e5e1f9bcc04544d6f574e1665e906969
+
+Package: libsigsegv
+Architecture: i686
+Installed-Size: 12
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12
+Description: GNU libsigsegv is a library for handling page faults in user mode
+Homepage: https://www.gnu.org/software/libsigsegv/
+Filename: dists/termux/extras/binary-i686/libsigsegv_2.12_i686.deb
+Size: 4612
+SHA256: 085490854d2f0236af706938ed8269c41c138333d6ccb84f6d0ab4c614fb514b
 
 Package: libsixel-dev
 Architecture: i686
@@ -931,15 +954,15 @@ SHA256: d3b78c48a5fdb8e5cd91e4f5a6afc3e29f490d2228e130589043f67b98b81f47
 
 Package: moarvm
 Architecture: i686
-Installed-Size: 5416
+Installed-Size: 6072
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2017.12.1
+Version: 2018.03
 Description: A modern VM built for Rakudo Perl 6
 Homepage: https://github.com/MoarVM/MoarVM
-Depends: libffi, libtommath, libuv
-Filename: dists/termux/extras/binary-i686/moarvm_2017.12.1_i686.deb
-Size: 782492
-SHA256: 6445662a484c4d9a1eb034aff8fd5c554767789085504bb2653f0b3eef3e364a
+Depends: libffi, libtommath, libuv, libandroid-support
+Filename: dists/termux/extras/binary-i686/moarvm_2018.03_i686.deb
+Size: 882224
+SHA256: 5b94edfe92f5ac70e16139fdf3bf543400aab8d2abac9950ac93bc36bcf9fd01
 
 Package: msmtp
 Architecture: i686
@@ -1934,18 +1957,6 @@ SHA256: 892e1cc925244f41da4306f0e97ff19236ded189efd933f8151b9fbf31c5d7a4
 
 Package: rust-rls-nightly
 Architecture: i686
-Installed-Size: 16664
-Maintainer: @its-pointless
-Version: 1.25-2
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.25-2_i686.deb
-Size: 4052072
-SHA256: e6d649aca6da8e8b5dbe475c7520b366f9b4c223d405bcd7036e8241dd34fc97
-
-Package: rust-rls-nightly
-Architecture: i686
 Installed-Size: 17276
 Maintainer: @its-pointless
 Version: 1.26-1
@@ -1955,18 +1966,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.26-1_i686.deb
 Size: 4000956
 SHA256: 46866e92e430af4d30e441cff797ea09e5d433836e4964b1289d236502ddf891
-
-Package: rust-rls-nightly
-Architecture: i686
-Installed-Size: 16940
-Maintainer: @its-pointless
-Version: 1.26
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.26_i686.deb
-Size: 4130532
-SHA256: f5e282b29d9d329ebaab7236fda4f2088e89a6e93fb4d347a107747649e6c82c
 
 Package: rust-rls
 Architecture: i686

@@ -899,6 +899,18 @@ Filename: dists/termux/extras/binary-aarch64/libsigsegv-dev_2.11_aarch64.deb
 Size: 3684
 SHA256: cbe40ef7007d82b02508cbb57cc0dfe2635d5c68bba66f1e680a8c3b425d5a28
 
+Package: libsigsegv-dev
+Architecture: aarch64
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12
+Description: Development files for libsigsegv
+Homepage: https://www.gnu.org/software/libsigsegv/
+Depends: libsigsegv
+Filename: dists/termux/extras/binary-aarch64/libsigsegv-dev_2.12_aarch64.deb
+Size: 3960
+SHA256: bb4b27693cad25d0a28f0775aad25c42e1e359fece3b2f830809305d2f142fbc
+
 Package: libsigsegv
 Architecture: aarch64
 Installed-Size: 12
@@ -909,6 +921,17 @@ Homepage: https://www.gnu.org/software/libsigsegv/
 Filename: dists/termux/extras/binary-aarch64/libsigsegv_2.11_aarch64.deb
 Size: 3392
 SHA256: 9b68da4cd676d18de89f32ed941435a3c879d4e930043ba77d6792d86ba89dc8
+
+Package: libsigsegv
+Architecture: aarch64
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12
+Description: GNU libsigsegv is a library for handling page faults in user mode
+Homepage: https://www.gnu.org/software/libsigsegv/
+Filename: dists/termux/extras/binary-aarch64/libsigsegv_2.12_aarch64.deb
+Size: 4400
+SHA256: 172ec6aba1cd6fee7796ff06456ecfd1c88c08b8771363e96cec471991b50fd3
 
 Package: libsixel-dev
 Architecture: aarch64
@@ -1077,15 +1100,15 @@ SHA256: 6015ad82aeaa180e4769c114e2e7cf83fa176b84343e8e35147483aae6716f96
 
 Package: moarvm
 Architecture: aarch64
-Installed-Size: 6828
+Installed-Size: 7428
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2017.12.1
+Version: 2018.03
 Description: A modern VM built for Rakudo Perl 6
 Homepage: https://github.com/MoarVM/MoarVM
-Depends: libffi, libtommath, libuv
-Filename: dists/termux/extras/binary-aarch64/moarvm_2017.12.1_aarch64.deb
-Size: 824564
-SHA256: 8b0281d325574c6f5332baeffd1e5282f4ebf6541c9fc64663b94152926ab7c4
+Depends: libffi, libtommath, libuv, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/moarvm_2018.03_aarch64.deb
+Size: 908372
+SHA256: 8e24f2e0bbd8e33342c928fa7b278ea593c4426d9b1d7e07f5f119f0f8c58fca
 
 Package: msmtp
 Architecture: aarch64
@@ -2162,18 +2185,6 @@ SHA256: 7f481033e61983d40b5a46ad6475b2def808e07bb119cb69f01993a55713508e
 
 Package: rust-rls-nightly
 Architecture: aarch64
-Installed-Size: 12936
-Maintainer: @its-pointless
-Version: 1.25-2
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.25-2_aarch64.deb
-Size: 3136760
-SHA256: 4b6bbda1c48c816dd594e22ed9f35213cbe7780e59f1c878c11a99741eeaed62
-
-Package: rust-rls-nightly
-Architecture: aarch64
 Installed-Size: 13188
 Maintainer: @its-pointless
 Version: 1.26-1
@@ -2183,18 +2194,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.26-1_aarch64.deb
 Size: 3055392
 SHA256: 08dadd01788e758327c28ac08b2d82ed60ca6ae68d6db125aacad9e1f07e95a3
-
-Package: rust-rls-nightly
-Architecture: aarch64
-Installed-Size: 13064
-Maintainer: @its-pointless
-Version: 1.26
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.26_aarch64.deb
-Size: 3183984
-SHA256: 313ffaf273c7bebeee50756ea043ba4c05662660e7d25a58e2585ceb6ee29f4d
 
 Package: rust-rls
 Architecture: aarch64

@@ -1044,6 +1044,18 @@ Filename: dists/termux/extras/binary-arm/libsigsegv-dev_2.11_arm.deb
 Size: 3688
 SHA256: c0df2ecae07bd0e9c0dde9254645b11305d8a151678ca7884b046cc58292f85a
 
+Package: libsigsegv-dev
+Architecture: arm
+Installed-Size: 12
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12
+Description: Development files for libsigsegv
+Homepage: https://www.gnu.org/software/libsigsegv/
+Depends: libsigsegv
+Filename: dists/termux/extras/binary-arm/libsigsegv-dev_2.12_arm.deb
+Size: 3956
+SHA256: 92d0ffae9661b5cf1ac59209baa6aac888a6d09d9603be7eab5cc98a7c51430e
+
 Package: libsigsegv
 Architecture: arm
 Installed-Size: 16
@@ -1054,6 +1066,17 @@ Homepage: https://www.gnu.org/software/libsigsegv/
 Filename: dists/termux/extras/binary-arm/libsigsegv_2.11_arm.deb
 Size: 6636
 SHA256: b9950532736c1636022099ba216b553aaf30bac15063115915f00bdd389c9215
+
+Package: libsigsegv
+Architecture: arm
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12
+Description: GNU libsigsegv is a library for handling page faults in user mode
+Homepage: https://www.gnu.org/software/libsigsegv/
+Filename: dists/termux/extras/binary-arm/libsigsegv_2.12_arm.deb
+Size: 7144
+SHA256: 6be216455bca8f6c8e0d812ca81f4e2d4d6423aa2f9ecd62e09925001b8cb713
 
 Package: libsixel-dev
 Architecture: arm
@@ -1222,15 +1245,15 @@ SHA256: 5ce38eb674bb514397ff5c7ee91d608d30792a64cc65cfeffd400f8d31c61e4a
 
 Package: moarvm
 Architecture: arm
-Installed-Size: 5232
+Installed-Size: 5728
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2017.12.1
+Version: 2018.03
 Description: A modern VM built for Rakudo Perl 6
 Homepage: https://github.com/MoarVM/MoarVM
-Depends: libffi, libtommath, libuv
-Filename: dists/termux/extras/binary-arm/moarvm_2017.12.1_arm.deb
-Size: 762848
-SHA256: a85c50da4dc8ef4e9e02865486e1b2fddd108339f6ec1dd70401f30a72b1492e
+Depends: libffi, libtommath, libuv, libandroid-support
+Filename: dists/termux/extras/binary-arm/moarvm_2018.03_arm.deb
+Size: 818224
+SHA256: fd70103235a7e62bdd3be2ad4a219d299ff473e2048810e47df3f96dbee29bc5
 
 Package: msmtp
 Architecture: arm
@@ -2306,18 +2329,6 @@ SHA256: ad25e680b8ccce4f601a2be2b66a71efdf3f6269875d72c3e33daca1c4aaa906
 
 Package: rust-rls-nightly
 Architecture: arm
-Installed-Size: 8672
-Maintainer: @its-pointless
-Version: 1.25-2
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.25-2_arm.deb
-Size: 3125144
-SHA256: e9a2723e7909ee85c286ce43bc938b3def83b2f5322ded8b5d67da4972d7c025
-
-Package: rust-rls-nightly
-Architecture: arm
 Installed-Size: 8760
 Maintainer: @its-pointless
 Version: 1.26-1
@@ -2327,18 +2338,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.26-1_arm.deb
 Size: 3054652
 SHA256: 9913a2c06fc97bd4300e5f1f26c017fd0f2d70a28e8da72cc748d00d282aac17
-
-Package: rust-rls-nightly
-Architecture: arm
-Installed-Size: 8732
-Maintainer: @its-pointless
-Version: 1.26
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.26_arm.deb
-Size: 3199072
-SHA256: 684edc09500573b31392ce02f69e60f85f4070aeb878e6d32a34a95fa9a1235f
 
 Package: rust-rls
 Architecture: arm
