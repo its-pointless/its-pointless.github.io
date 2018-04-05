@@ -1013,6 +1013,18 @@ SHA256: 82b9d4f45e73fe0d6a14a9ecd0ef1f368390c039061e1ad6ff5e65bc3cd3438d
 
 Package: libgsasl-dev
 Architecture: arm
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0-1
+Description: Development files for libgsasl
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libgsasl
+Filename: dists/termux/extras/binary-arm/libgsasl-dev_1.8.0-1_arm.deb
+Size: 7780
+SHA256: c39f86b90a5502ed0c06729a5767dde7b223e58597b571ff936c9532c2b39f80
+
+Package: libgsasl-dev
+Architecture: arm
 Installed-Size: 44
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.8.0
@@ -1033,6 +1045,18 @@ Homepage: https://ohse.de/uwe/software/lrzsz.html
 Filename: dists/termux/extras/binary-arm/libgsasl_0.12.20_arm.deb
 Size: 29956
 SHA256: a282cc698f6253375a9939e850f5b1ccbe3182af34ac680832f902b953588722
+
+Package: libgsasl
+Architecture: arm
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.0-1
+Description: GNU SASL library
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libidn
+Filename: dists/termux/extras/binary-arm/libgsasl_1.8.0-1_arm.deb
+Size: 29832
+SHA256: 8b7c1bc424034043335dc046b2471b6ce204b797ba1dde8a868eb2058e1ad070
 
 Package: libgsasl
 Architecture: arm
@@ -1337,6 +1361,18 @@ Depends: libffi, libtommath, libuv
 Filename: dists/termux/extras/binary-arm/moarvm_2017.12.1_arm.deb
 Size: 762848
 SHA256: a85c50da4dc8ef4e9e02865486e1b2fddd108339f6ec1dd70401f30a72b1492e
+
+Package: msmtp
+Architecture: arm
+Installed-Size: 104
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.6-1
+Description: light SMTP client with support for server profiles
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libgsasl
+Filename: dists/termux/extras/binary-arm/msmtp_1.6.6-1_arm.deb
+Size: 42824
+SHA256: 19cafcaed7607447f9b6c49d2b8bd6250d0d94820158b8d1aa26b2941d8a8da5
 
 Package: msmtp
 Architecture: arm
