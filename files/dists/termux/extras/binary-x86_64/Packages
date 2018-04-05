@@ -329,18 +329,6 @@ Package: gcc-7
 Architecture: x86_64
 Installed-Size: 109596
 Maintainer: @its-pointless github
-Version: 7.3.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-7_7.3.0-1_x86_64.deb
-Size: 30153504
-SHA256: c346c404096a4f24fdcc8ac52adf3fe978df2ade9322314c93a2ff26cc656001
-
-Package: gcc-7
-Architecture: x86_64
-Installed-Size: 109596
-Maintainer: @its-pointless github
 Version: 7.3.0-2
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
@@ -348,30 +336,6 @@ Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts,
 Filename: dists/termux/extras/binary-x86_64/gcc-7_7.3.0-2_x86_64.deb
 Size: 30145044
 SHA256: 4f8fee5f93bbfc07fa4e41fffb83d541a64d35cd9ba7ff59fdc09c7b516eb01b
-
-Package: gcc-7
-Architecture: x86_64
-Installed-Size: 109600
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-7_7.3.0_x86_64.deb
-Size: 30152748
-SHA256: 2001bae580e019c39a6af62e49c880dc91f7e269de2809b171f2e2e9e25b8cf4
-
-Package: gcov-7
-Architecture: x86_64
-Installed-Size: 1452
-Maintainer:  @its-pointless github
-Version: 7.2.0
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-x86_64/gcov-7_7.2.0_x86_64.deb
-Size: 280960
-SHA256: 8545d8f5a77cfef0f31176bc0eec7df1a5e442516b6b715b68b5769e910c2941
 
 Package: git-lfs
 Architecture: x86_64
@@ -615,34 +579,12 @@ Package: libgfortran4
 Architecture: x86_64
 Installed-Size: 1972
 Maintainer: @its-pointless github
-Version: 7.3.0-1
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.3.0-1_x86_64.deb
-Size: 582468
-SHA256: e0bbe14b7f541ab863240bee46a8a314194b8949ffa3a0de54c2446b2d10d8c8
-
-Package: libgfortran4
-Architecture: x86_64
-Installed-Size: 1972
-Maintainer: @its-pointless github
 Version: 7.3.0-2
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.3.0-2_x86_64.deb
 Size: 582804
 SHA256: faf8328552f3b1ca91098847679657a05493687a7790ac77979846e12ec53d79
-
-Package: libgfortran4
-Architecture: x86_64
-Installed-Size: 1972
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.3.0_x86_64.deb
-Size: 582672
-SHA256: c79536bc0b20cb4408be78f22d44c6da2618bb6e267805b000053de68cda9a10
 
 Package: libgnuiconv
 Architecture: x86_64
@@ -654,54 +596,6 @@ Homepage: https://www.gnu.org/software/libiconv/
 Filename: dists/termux/extras/binary-x86_64/libgnuiconv_1.15_x86_64.deb
 Size: 492512
 SHA256: 5bde5cb6d4c08f2c557f1bc1f2c36d4e630cf685b6c11b452ce8572caafc2ec6
-
-Package: libgomp-7
-Architecture: x86_64
-Installed-Size: 1400
-Maintainer: Fredrik Fornwall @fornwall
-Version: 7.2.0
-Description: openmp library from gcc-7
-Homepage: https://gcc.gnu.org/projects/gomp/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.2.0_x86_64.deb
-Size: 516292
-SHA256: 351a5c28c0d73693370010d246d1efddedb4f4970aa9e44f036e4b9343513a29
-
-Package: libgomp-7
-Architecture: x86_64
-Installed-Size: 276
-Maintainer: @its-pointless github
-Version: 7.2.1-1
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.2.1-1_x86_64.deb
-Size: 61100
-SHA256: 20cf68bf0e7aefc541abae4e2de1a183b93d5a6df41abe0fb66cb216d382e4bb
-
-Package: libgomp-7
-Architecture: x86_64
-Installed-Size: 276
-Maintainer: @its-pointless github
-Version: 7.2.1-4
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.2.1-4_x86_64.deb
-Size: 61088
-SHA256: 14c4f75dbc28db02fff069bfa3aae1dc6de737fae52690bb49d954d4fad13759
-
-Package: libgomp-7
-Architecture: x86_64
-Installed-Size: 276
-Maintainer: @its-pointless github
-Version: 7.2.1
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.2.1_x86_64.deb
-Size: 61060
-SHA256: 3e6b0208495ac67762f66f5ef7ef53de1a99d98e0889460664542459da4615df
 
 Package: libgomp-7
 Architecture: x86_64
@@ -2060,30 +1954,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.26_x86_64.deb
 Size: 3739328
 SHA256: 1f3dd1743694729010319163afcac68a690184eaabc978c25eed4fbbac7be8cd
-
-Package: rust-rls
-Architecture: x86_64
-Installed-Size: 12476
-Maintainer: @its-pointless
-Version: 1.23.0-1
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rust-rls_1.23.0-1_x86_64.deb
-Size: 3163572
-SHA256: c14c943798a0565a0fb41900669aa1504ac482536d4035d2e08cfa2741e728e5
-
-Package: rust-rls
-Architecture: x86_64
-Installed-Size: 12492
-Maintainer: @its-pointless
-Version: 1.24.1
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rust-rls_1.24.1_x86_64.deb
-Size: 3183164
-SHA256: 42cb7bf5438fa1cb74ef76c84d549876191ca777788f0a45af483df444adc85e
 
 Package: rust-rls
 Architecture: x86_64

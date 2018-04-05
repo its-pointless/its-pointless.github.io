@@ -242,6 +242,18 @@ Filename: dists/termux/extras/binary-aarch64/cargo_0.25.0_aarch64.deb
 Size: 1615520
 SHA256: 23173cdd7f76324451540bb5705ba0a1150fcd2ae8aa4c53ccdf99c483de7ed2
 
+Package: cargo
+Architecture: aarch64
+Installed-Size: 6932
+Maintainer: @its-pointless
+Version: 0.26.0
+Description: Rust package manager
+Homepage: https://crates.io
+Depends: libcurl, rustc, openssl, libssh2, libgit2
+Filename: dists/termux/extras/binary-aarch64/cargo_0.26.0_aarch64.deb
+Size: 1712292
+SHA256: a3ef3852dcaf7d2abf26851d1a967de7e8d14acff6fda317c3f45a4a52b48f9b
+
 Package: cksfv
 Architecture: aarch64
 Installed-Size: 28
@@ -314,18 +326,6 @@ SHA256: bdea898d0db6f81d2341dd6616dfd760f18585111edb02ec9abfe4e7824d4c5c
 
 Package: gcc-6
 Architecture: aarch64
-Installed-Size: 70688
-Maintainer:  @its-pointless github
-Version: 6.4.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0-2_aarch64.deb
-Size: 19221704
-SHA256: a7c20c92f4f9dc346dfd987811b20a3509e5c39a8ba451ae750ad3ca76f96965
-
-Package: gcc-6
-Architecture: aarch64
 Installed-Size: 68808
 Maintainer:  @its-pointless github
 Version: 6.4.0-3
@@ -335,30 +335,6 @@ Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
 Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0-3_aarch64.deb
 Size: 19428084
 SHA256: 4168562e079208144d58883ac92ddb62e36aa990ddd00cad4c8aecfb14359c5a
-
-Package: gcc-6
-Architecture: aarch64
-Installed-Size: 71316
-Maintainer:  @its-pointless github
-Version: 6.4.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0_aarch64.deb
-Size: 19281888
-SHA256: 2a146d7544e00fb69af01e180f9165be322d69467d9b4c23472305b18cdd0be4
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 78980
-Maintainer: @its-pointless github
-Version: 7.3.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-1_aarch64.deb
-Size: 21297188
-SHA256: 5d38f3457b2360319d76a2f7c7c5d428bc68d7e0b3798b48f030a9d8790134da
 
 Package: gcc-7
 Architecture: aarch64
@@ -371,78 +347,6 @@ Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts,
 Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-2_aarch64.deb
 Size: 21301536
 SHA256: 162d5a0ec0e26bda56a9d2a80db6acc8c0c2e5d34e772111a1129946377bf0fb
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 78984
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0_aarch64.deb
-Size: 21290484
-SHA256: 041c3b1afed3dd61fb4f251ff826f2ba9142964805e3318e77fd17d364c26005
-
-Package: gcov-6
-Architecture: aarch64
-Installed-Size: 1008
-Maintainer:  @its-pointless github
-Version: 6.3.0-4
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-6
-Filename: dists/termux/extras/binary-aarch64/gcov-6_6.3.0-4_aarch64.deb
-Size: 225800
-SHA256: cfce768b8d27ef90688ae761b0b3ee1f081781e96ea6021b31983ad23311f489
-
-Package: gcov-6
-Architecture: aarch64
-Installed-Size: 1040
-Maintainer:  @its-pointless github
-Version: 6.4.0-1
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-6
-Filename: dists/termux/extras/binary-aarch64/gcov-6_6.4.0-1_aarch64.deb
-Size: 194424
-SHA256: 1fe68fedd36aff73a82bd1f080f1f532b1bba62929badac0052a590edde9bf03
-
-Package: gcov-6
-Architecture: aarch64
-Installed-Size: 1212
-Maintainer:  @its-pointless github
-Version: 6.4.0-2
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-6
-Filename: dists/termux/extras/binary-aarch64/gcov-6_6.4.0-2_aarch64.deb
-Size: 222532
-SHA256: fbf123f83ee36b97236ad717feba70f0b15282536cfa27dfe87f3c4cde4d65bc
-
-Package: gcov-6
-Architecture: aarch64
-Installed-Size: 1460
-Maintainer:  @its-pointless github
-Version: 6.4.0
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-6
-Filename: dists/termux/extras/binary-aarch64/gcov-6_6.4.0_aarch64.deb
-Size: 249032
-SHA256: 23a4b376d9a145f9a863d6dfeb4062c7866761fff78bf69db8b9bfa9afcd84d8
-
-Package: gcov-7
-Architecture: aarch64
-Installed-Size: 1320
-Maintainer:  @its-pointless github
-Version: 7.2.0
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/gcov-7_7.2.0_aarch64.deb
-Size: 240296
-SHA256: 1579f4d0f8974725faba042a0e1d275b9aeeea5e4a5a4355661cfb9dd0d8c9a6
 
 Package: gforth
 Architecture: aarch64
@@ -685,34 +589,12 @@ Package: libgfortran4
 Architecture: aarch64
 Installed-Size: 964
 Maintainer: @its-pointless github
-Version: 7.3.0-1
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0-1_aarch64.deb
-Size: 243560
-SHA256: 1f93510d02eafae688747e07220ed7776eaca2211a1945edd1452ebf0094a8df
-
-Package: libgfortran4
-Architecture: aarch64
-Installed-Size: 964
-Maintainer: @its-pointless github
 Version: 7.3.0-2
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0-2_aarch64.deb
 Size: 243616
 SHA256: ee69cfd43f29a73aa24deebd3d568aa50c708703945b1ffb9d2138fd7b5a9d7c
-
-Package: libgfortran4
-Architecture: aarch64
-Installed-Size: 964
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0_aarch64.deb
-Size: 243488
-SHA256: 93e56d774d9a4cbaefd31891d37825c7ad09004797ee04918dfe913f79376318
 
 Package: libgfortran
 Architecture: aarch64
@@ -780,42 +662,6 @@ Homepage: https://www.gnu.org/software/libiconv/
 Filename: dists/termux/extras/binary-aarch64/libgnuiconv_1.15_aarch64.deb
 Size: 485264
 SHA256: d207bc92c97ad7d95ee04d61f0048a3069de9a61db879e77c4c6fa5dc37d0a56
-
-Package: libgomp-7
-Architecture: aarch64
-Installed-Size: 2128
-Maintainer: Fredrik Fornwall @fornwall
-Version: 7.2.0
-Description: openmp library from gcc-7
-Homepage: https://gcc.gnu.org/projects/gomp/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.2.0_aarch64.deb
-Size: 315096
-SHA256: f8112df6e95f086d9d2bdbd85d371a8e17ecaf8e338f7c5222087a21f814452a
-
-Package: libgomp-7
-Architecture: aarch64
-Installed-Size: 256
-Maintainer: @its-pointless github
-Version: 7.2.1-4
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.2.1-4_aarch64.deb
-Size: 53760
-SHA256: 2a071dbfe44d4a1b1fbb1c3f1faa67eb804de3b1d0f1188d7aba10d0bc8b016d
-
-Package: libgomp-7
-Architecture: aarch64
-Installed-Size: 252
-Maintainer: @its-pointless github
-Version: 7.2.1
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.2.1_aarch64.deb
-Size: 53772
-SHA256: 719d71a5278d16b77d76b5b0d8111889e772dacd7e63429028b709794cb8ee7e
 
 Package: libgomp-7
 Architecture: aarch64
@@ -2349,41 +2195,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.26_aarch64.deb
 Size: 3183984
 SHA256: 313ffaf273c7bebeee50756ea043ba4c05662660e7d25a58e2585ceb6ee29f4d
-
-Package: rust-rls
-Architecture: aarch64
-Installed-Size: 10976
-Maintainer: @its-pointless
-Version: 1.23.0-1
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-aarch64/rust-rls_1.23.0-1_aarch64.deb
-Size: 2699280
-SHA256: 0caf6fa040b58bc9b50484e6f19747ff537b61b6f1d9f2bbdac5a5450a225970
-
-Package: rust-rls
-Architecture: aarch64
-Installed-Size: 10976
-Maintainer: @its-pointless
-Version: 1.23.0
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-aarch64/rust-rls_1.23.0_aarch64.deb
-Size: 2698456
-SHA256: 55843e6c2e48c308c9b1141775f30d962e03b0a0192a44fe3cb0eab01e02c766
-
-Package: rust-rls
-Architecture: aarch64
-Installed-Size: 10976
-Maintainer: @its-pointless
-Version: 1.24.1
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-aarch64/rust-rls_1.24.1_aarch64.deb
-Size: 2723216
-SHA256: 274fbda1d4fa91c90e0339b3bf2f2ee77890bb08eb394b57d717069c6d14718f
 
 Package: rust-rls
 Architecture: aarch64

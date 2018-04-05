@@ -359,30 +359,6 @@ Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0-3_arm.deb
 Size: 20071996
 SHA256: abc42282554b1ece98b31b4e3f618e06fb43485ce5cf4763001023b753719e16
 
-Package: gcc-6
-Architecture: arm
-Installed-Size: 71540
-Maintainer:  @its-pointless github
-Version: 6.4.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: ndk-stl, setup-scripts, binutils, libgmp, libmpfr, libmpc, ndk-sysroot, libgcc, libisl
-Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0_arm.deb
-Size: 20669112
-SHA256: 7d76695a73107864bd782abc53d8c0eaa481d79e1736093eef4c9522cec00b01
-
-Package: gcc-7
-Architecture: arm
-Installed-Size: 117716
-Maintainer: @its-pointless github
-Version: 7.3.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-arm/gcc-7_7.3.0-1_arm.deb
-Size: 27883552
-SHA256: 40252373f4297f8680685f3b78ba62fc1bdeefee2bc9a9e9dc26700e9da871c6
-
 Package: gcc-7
 Architecture: arm
 Installed-Size: 117764
@@ -394,66 +370,6 @@ Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts,
 Filename: dists/termux/extras/binary-arm/gcc-7_7.3.0-2_arm.deb
 Size: 27886544
 SHA256: 16f0d6c294af759d798a3b6eaf3e07628467440feb04f65abb39997da360e306
-
-Package: gcc-7
-Architecture: arm
-Installed-Size: 117720
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-arm/gcc-7_7.3.0_arm.deb
-Size: 27882652
-SHA256: e5ad18e06fa9448410f29c58c277369ec06a2b068039d159cc2b2c3a5222da02
-
-Package: gcov-6
-Architecture: arm
-Installed-Size: 896
-Maintainer:  @its-pointless github
-Version: 6.3.0-4
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-6
-Filename: dists/termux/extras/binary-arm/gcov-6_6.3.0-4_arm.deb
-Size: 218760
-SHA256: 9807e4c7dc997e4d38e5531603f713dc4967855c6b042da9be6b91ec1ce357a6
-
-Package: gcov-6
-Architecture: arm
-Installed-Size: 1136
-Maintainer:  @its-pointless github
-Version: 6.4.0-1
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-6
-Filename: dists/termux/extras/binary-arm/gcov-6_6.4.0-1_arm.deb
-Size: 204380
-SHA256: a54f92c1d2044c62d3e92519cf5d842dfc7ca134c59ba6199c10a76f7fddef5c
-
-Package: gcov-6
-Architecture: arm
-Installed-Size: 1292
-Maintainer:  @its-pointless github
-Version: 6.4.0
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-6
-Filename: dists/termux/extras/binary-arm/gcov-6_6.4.0_arm.deb
-Size: 235344
-SHA256: 67751395eda40c46928877e02dd9cc3c2164085862f6ec963350a91353f8870d
-
-Package: gcov-7
-Architecture: arm
-Installed-Size: 1232
-Maintainer:  @its-pointless github
-Version: 7.2.0
-Description: GNU coverage testing tool
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/gcov-7_7.2.0_arm.deb
-Size: 224840
-SHA256: f0728e1d3d10e33bb50e358d5f734c7fae42aea2635d0ba2d4924f24e5afac74
 
 Package: gforth
 Architecture: arm
@@ -791,34 +707,12 @@ Package: libgfortran4
 Architecture: arm
 Installed-Size: 708
 Maintainer: @its-pointless github
-Version: 7.3.0-1
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-arm/libgfortran4_7.3.0-1_arm.deb
-Size: 194304
-SHA256: 9f6b5fe81adbe025f9fd6333dbad216d1607bcba27cf60bad1352620fd8fc386
-
-Package: libgfortran4
-Architecture: arm
-Installed-Size: 708
-Maintainer: @its-pointless github
 Version: 7.3.0-2
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libgfortran4_7.3.0-2_arm.deb
 Size: 194260
 SHA256: c92b09e81a3ebd70c1b5722e5a764ee8f4197a8a902d96271d50c13994557aac
-
-Package: libgfortran4
-Architecture: arm
-Installed-Size: 708
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-arm/libgfortran4_7.3.0_arm.deb
-Size: 194768
-SHA256: c3966b47a7a17d083156dd7febb85c7b9c5b5a793adcf1fbf7d1b494b8bdc42a
 
 Package: libgfortran
 Architecture: arm
@@ -890,42 +784,6 @@ Homepage: https://www.gnu.org/software/libiconv/
 Filename: dists/termux/extras/binary-arm/libgnuiconv_1.15_arm.deb
 Size: 485140
 SHA256: 2840838572449016236221872a8d9ce47a2fe7e4c79affe54350e3ea4bcff8fa
-
-Package: libgomp-7
-Architecture: arm
-Installed-Size: 1352
-Maintainer: Fredrik Fornwall @fornwall
-Version: 7.2.0
-Description: openmp library from gcc-7
-Homepage: https://gcc.gnu.org/projects/gomp/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/libgomp-7_7.2.0_arm.deb
-Size: 299860
-SHA256: 5e191b4944eed74fa5413fed2526dbe7391b5bb07f339d1742562bdf149139fd
-
-Package: libgomp-7
-Architecture: arm
-Installed-Size: 208
-Maintainer: @its-pointless github
-Version: 7.2.1-4
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/libgomp-7_7.2.1-4_arm.deb
-Size: 54884
-SHA256: e63fefa7ba92e3108f0f8fc23ed9bcef5d5ce3f67b573217105e1ef656fc8b91
-
-Package: libgomp-7
-Architecture: arm
-Installed-Size: 208
-Maintainer: @its-pointless github
-Version: 7.2.1
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/libgomp-7_7.2.1_arm.deb
-Size: 54836
-SHA256: 6d87022889536798568471d6e8cc0e45aaa7be11f9e95ebe84a428a894166603
 
 Package: libgomp-7
 Architecture: arm
@@ -2481,30 +2339,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.26_arm.deb
 Size: 3199072
 SHA256: 684edc09500573b31392ce02f69e60f85f4070aeb878e6d32a34a95fa9a1235f
-
-Package: rust-rls
-Architecture: arm
-Installed-Size: 7420
-Maintainer: @its-pointless
-Version: 1.23.0-1
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-arm/rust-rls_1.23.0-1_arm.deb
-Size: 2710348
-SHA256: debe1e12a4c001da54dc8f2faca2c732b660ce248b1d1603677b0302afb1413b
-
-Package: rust-rls
-Architecture: arm
-Installed-Size: 7472
-Maintainer: @its-pointless
-Version: 1.24.1
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-arm/rust-rls_1.24.1_arm.deb
-Size: 2733264
-SHA256: 3e0a80a38215e88a7885f100a55889b561f98c46b53483c624999d20e4f418d4
 
 Package: rust-rls
 Architecture: arm
