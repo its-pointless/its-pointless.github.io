@@ -953,6 +953,18 @@ SHA256: 933aecae6241014a786a46457c8bebf929493e5c90428b65f0ce9869280dc22e
 
 Package: moarvm
 Architecture: x86_64
+Installed-Size: 7484
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018.03-1
+Description: A modern VM built for Rakudo Perl 6
+Homepage: https://github.com/MoarVM/MoarVM
+Depends: libtommath, libuv, libandroid-support
+Filename: dists/termux/extras/binary-x86_64/moarvm_2018.03-1_x86_64.deb
+Size: 976504
+SHA256: adb0ebe9ce6182e07688437ed1b7951a6f1033e360496705a80e9f42be720d95
+
+Package: moarvm
+Architecture: x86_64
 Installed-Size: 7188
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2018.03
