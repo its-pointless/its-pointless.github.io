@@ -736,6 +736,18 @@ Filename: dists/termux/extras/binary-arm/libgfortran_6.4.0-1_arm.deb
 Size: 224224
 SHA256: 24f3955e685334cac384b2ed1aa335bd3a54c7fd470e77019e674eb72ab0c287
 
+Package: libgit2-armfix-dev
+Architecture: arm
+Installed-Size: 792
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.27.0
+Description: Development files for libgit2-armfix
+Homepage: https://libgit2.github.com/
+Depends: libgit2-armfix
+Filename: dists/termux/extras/binary-arm/libgit2-armfix-dev_0.27.0_arm.deb
+Size: 118680
+SHA256: c70ad6d48c1ed57d76051f6f32cacfaf4dc8608dd75d9f49c0e9da4ba1ef781b
+
 Package: libgit2-armfix
 Architecture: arm
 Installed-Size: 436
@@ -750,6 +762,21 @@ Provides: libgit2
 Filename: dists/termux/extras/binary-arm/libgit2-armfix_0.26.3_arm.deb
 Size: 244948
 SHA256: 74bb82ddfcef7bd5f6f76e9d7acd5b3cb1481ce85bf7f6848b482a2f3e3a344a
+
+Package: libgit2-armfix
+Architecture: arm
+Installed-Size: 472
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.27.0
+Description: C library implementing Git core methods
+Homepage: https://libgit2.github.com/
+Depends: libcurl, openssl
+Conflicts: libgit2
+Replaces: libgit2
+Provides: libgit2
+Filename: dists/termux/extras/binary-arm/libgit2-armfix_0.27.0_arm.deb
+Size: 258116
+SHA256: b1bc2060a155ced39655d7143e26ec2864d5de48e8fe6efd5bff481fd3687f1f
 
 Package: libgme-dev
 Architecture: arm
