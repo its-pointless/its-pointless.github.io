@@ -747,54 +747,6 @@ Filename: dists/termux/extras/binary-aarch64/libgomp_4.9.x_aarch64.deb
 Size: 121832
 SHA256: 3a254cee8b97d1a591292d26a7952a9e28bbb16d76cd9dcaaf8e24a8b85e1f0a
 
-Package: libgsasl-dev
-Architecture: aarch64
-Installed-Size: 56
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0-1
-Description: Development files for libgsasl
-Homepage: https://www.gnu.org/software/gsasl
-Depends: libgsasl
-Filename: dists/termux/extras/binary-aarch64/libgsasl-dev_1.8.0-1_aarch64.deb
-Size: 7776
-SHA256: 4b505643349c6e8c9c9b6bb5413d4724d4c51d03197d16b9cb9020f1ac994858
-
-Package: libgsasl-dev
-Architecture: aarch64
-Installed-Size: 44
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0
-Description: Development files for libgsasl
-Homepage: https://www.gnu.org/software/gsasl
-Depends: libgsasl
-Filename: dists/termux/extras/binary-aarch64/libgsasl-dev_1.8.0_aarch64.deb
-Size: 7780
-SHA256: aee4aca6434e84287182e1cf56dd1c2356bb91d8797a3c3b871279e07e808403
-
-Package: libgsasl
-Architecture: aarch64
-Installed-Size: 132
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0-1
-Description: GNU SASL library
-Homepage: https://www.gnu.org/software/gsasl
-Depends: libidn
-Filename: dists/termux/extras/binary-aarch64/libgsasl_1.8.0-1_aarch64.deb
-Size: 32040
-SHA256: 35097603b331c0e7a364161ba067666db1adfafb4400eb40c7ea87f29fb78b1b
-
-Package: libgsasl
-Architecture: aarch64
-Installed-Size: 132
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0
-Description: GNU SASL library
-Homepage: https://www.gnu.org/software/gsasl
-Depends: libidn
-Filename: dists/termux/extras/binary-aarch64/libgsasl_1.8.0_aarch64.deb
-Size: 32244
-SHA256: 4c555dd76cab1fa7967144c5b67c40169c262b8845e0004bd0b1c74994185507
-
 Package: libmaa-dev
 Architecture: aarch64
 Installed-Size: 28
@@ -1121,30 +1073,6 @@ Depends: libffi, libtommath, libuv, libandroid-support
 Filename: dists/termux/extras/binary-aarch64/moarvm_2018.03_aarch64.deb
 Size: 908372
 SHA256: 8e24f2e0bbd8e33342c928fa7b278ea593c4426d9b1d7e07f5f119f0f8c58fca
-
-Package: msmtp
-Architecture: aarch64
-Installed-Size: 168
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.6.6-1
-Description: light SMTP client with support for server profiles
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: libgsasl
-Filename: dists/termux/extras/binary-aarch64/msmtp_1.6.6-1_aarch64.deb
-Size: 42228
-SHA256: 7945ed5125975946b96a8ff761b70228df5010fa143beb2d4bb5c6dbfc8a6cbc
-
-Package: msmtp
-Architecture: aarch64
-Installed-Size: 168
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.6.6
-Description: light SMTP client with support for server profiles
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: libgsasl
-Filename: dists/termux/extras/binary-aarch64/msmtp_1.6.6_aarch64.deb
-Size: 42276
-SHA256: ce24c16c8c5aad4187d8e309b2937df7770ff33643a92418cb723a61de7d47c2
 
 Package: nim
 Architecture: aarch64

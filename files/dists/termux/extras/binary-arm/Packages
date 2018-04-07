@@ -896,77 +896,6 @@ Filename: dists/termux/extras/binary-arm/libgomp_4.9.x_arm.deb
 Size: 115884
 SHA256: 5b3ec0b2f41d79b29ca34cfefaed4dc63b918103aa6278b797eb17ce1afd626e
 
-Package: libgsasl-dev
-Architecture: arm
-Installed-Size: 44
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.20
-Description: Development files for libgsasl
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: libgsasl
-Filename: dists/termux/extras/binary-arm/libgsasl-dev_0.12.20_arm.deb
-Size: 7784
-SHA256: 82b9d4f45e73fe0d6a14a9ecd0ef1f368390c039061e1ad6ff5e65bc3cd3438d
-
-Package: libgsasl-dev
-Architecture: arm
-Installed-Size: 56
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0-1
-Description: Development files for libgsasl
-Homepage: https://www.gnu.org/software/gsasl
-Depends: libgsasl
-Filename: dists/termux/extras/binary-arm/libgsasl-dev_1.8.0-1_arm.deb
-Size: 7780
-SHA256: c39f86b90a5502ed0c06729a5767dde7b223e58597b571ff936c9532c2b39f80
-
-Package: libgsasl-dev
-Architecture: arm
-Installed-Size: 44
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0
-Description: Development files for libgsasl
-Homepage: https://www.gnu.org/software/gsasl
-Depends: libgsasl
-Filename: dists/termux/extras/binary-arm/libgsasl-dev_1.8.0_arm.deb
-Size: 7780
-SHA256: e22dec71874ac4a0f64095a06ff487873a3c2e7fb7384681bc88656569542fb3
-
-Package: libgsasl
-Architecture: arm
-Installed-Size: 64
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.20
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-arm/libgsasl_0.12.20_arm.deb
-Size: 29956
-SHA256: a282cc698f6253375a9939e850f5b1ccbe3182af34ac680832f902b953588722
-
-Package: libgsasl
-Architecture: arm
-Installed-Size: 64
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0-1
-Description: GNU SASL library
-Homepage: https://www.gnu.org/software/gsasl
-Depends: libidn
-Filename: dists/termux/extras/binary-arm/libgsasl_1.8.0-1_arm.deb
-Size: 29832
-SHA256: 8b7c1bc424034043335dc046b2471b6ce204b797ba1dde8a868eb2058e1ad070
-
-Package: libgsasl
-Architecture: arm
-Installed-Size: 64
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0
-Description: GNU SASL library
-Homepage: https://www.gnu.org/software/gsasl
-Depends: libidn
-Filename: dists/termux/extras/binary-arm/libgsasl_1.8.0_arm.deb
-Size: 29868
-SHA256: 74bdd7fd10778898e6ef271bcd919bfc46b4a55b6907a0b436a87202193d50ba
-
 Package: libmaa-dev
 Architecture: arm
 Installed-Size: 28
@@ -1293,30 +1222,6 @@ Depends: libffi, libtommath, libuv, libandroid-support
 Filename: dists/termux/extras/binary-arm/moarvm_2018.03_arm.deb
 Size: 818224
 SHA256: fd70103235a7e62bdd3be2ad4a219d299ff473e2048810e47df3f96dbee29bc5
-
-Package: msmtp
-Architecture: arm
-Installed-Size: 104
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.6.6-1
-Description: light SMTP client with support for server profiles
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: libgsasl
-Filename: dists/termux/extras/binary-arm/msmtp_1.6.6-1_arm.deb
-Size: 42824
-SHA256: 19cafcaed7607447f9b6c49d2b8bd6250d0d94820158b8d1aa26b2941d8a8da5
-
-Package: msmtp
-Architecture: arm
-Installed-Size: 104
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.6.6
-Description: light SMTP client with support for server profiles
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: libgsasl
-Filename: dists/termux/extras/binary-arm/msmtp_1.6.6_arm.deb
-Size: 42836
-SHA256: 117ccadf2bccd39417dcc8b8e70f7eb489ad83ca46d4baa4a8c3db37937b1bb5
 
 Package: nim
 Architecture: arm
