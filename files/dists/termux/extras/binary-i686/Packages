@@ -24,18 +24,6 @@ SHA256: b85e6ad5ded7cc49d1b016dad176d8c96535fc1fff125c3148da8b2b65da4674
 
 Package: asymptote
 Architecture: i686
-Installed-Size: 8580
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.41
-Description: script-based vector graphics language inspired by MetaPost
-Homepage: http://asymptote.sourceforge.net
-Depends: libandroid-support, readline, gsl, fftw, libsigsegv
-Filename: dists/termux/extras/binary-i686/asymptote_2.41_i686.deb
-Size: 2669008
-SHA256: 42f1e387e9e33cb9c979b3541989f1d06a87aa6170284edf6782cba3e4f4fe08
-
-Package: asymptote
-Architecture: i686
 Installed-Size: 5284
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.42
@@ -80,18 +68,6 @@ Depends: boost, ncurses
 Filename: dists/termux/extras/binary-i686/bastet_0.43.2_i686.deb
 Size: 68784
 SHA256: 6b2f1951fc1d46710f0fe0499c9275296541a1d3dc77d03f04bfb5b73b8e58fd
-
-Package: binutils-gold
-Architecture: i686
-Installed-Size: 3860
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.29.1
-Description: plugin supoort for lto etc
-Homepage: https://www.gnu.org/software/binutils/
-Depends: binutils
-Filename: dists/termux/extras/binary-i686/binutils-gold_2.29.1_i686.deb
-Size: 944188
-SHA256: c305be4c29e7f513b88678f8a78f9c56308cf8cfe2ef38acf9449ed6d769e39b
 
 Package: blis-dev
 Architecture: i686

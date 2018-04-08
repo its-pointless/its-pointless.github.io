@@ -35,18 +35,6 @@ SHA256: 1b122ec3f6eaef7631daf326b23f90d7919249a845797bda64a0b6cb6278b633
 
 Package: asymptote
 Architecture: arm
-Installed-Size: 6860
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.41
-Description: script-based vector graphics language inspired by MetaPost
-Homepage: http://asymptote.sourceforge.net
-Depends: libandroid-support, readline, gsl, fftw, libsigsegv
-Filename: dists/termux/extras/binary-arm/asymptote_2.41_arm.deb
-Size: 2575840
-SHA256: 7f3a9e70045db9792d12d92d281c27b1a774821d1ed814ead8d9b2dc2ad21391
-
-Package: asymptote
-Architecture: arm
 Installed-Size: 3908
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.42
@@ -102,18 +90,6 @@ Depends: boost, ncurses
 Filename: dists/termux/extras/binary-arm/bastet_0.43.2_arm.deb
 Size: 56072
 SHA256: 98e5a298e622ed90bbd5d46474fe571e76c077c08d3db36e0e2dcb4df9e65aa4
-
-Package: binutils-gold
-Architecture: arm
-Installed-Size: 2552
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.29.1
-Description: plugin supoort for lto etc
-Homepage: https://www.gnu.org/software/binutils/
-Depends: binutils
-Filename: dists/termux/extras/binary-arm/binutils-gold_2.29.1_arm.deb
-Size: 820932
-SHA256: fd477220a78323e0bad52ce427bb19e1c1bc11e48583e318cd2713003b0f6601
 
 Package: blis-dev
 Architecture: arm
@@ -723,48 +699,6 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libgfortran_6.4.0-1_arm.deb
 Size: 224224
 SHA256: 24f3955e685334cac384b2ed1aa335bd3a54c7fd470e77019e674eb72ab0c287
-
-Package: libgit2-armfix-dev
-Architecture: arm
-Installed-Size: 792
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.27.0
-Description: Development files for libgit2-armfix
-Homepage: https://libgit2.github.com/
-Depends: libgit2-armfix
-Filename: dists/termux/extras/binary-arm/libgit2-armfix-dev_0.27.0_arm.deb
-Size: 118680
-SHA256: c70ad6d48c1ed57d76051f6f32cacfaf4dc8608dd75d9f49c0e9da4ba1ef781b
-
-Package: libgit2-armfix
-Architecture: arm
-Installed-Size: 436
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.26.3
-Description: C library implementing Git core methods
-Homepage: https://libgit2.github.com/
-Depends: libcurl, openssl
-Conflicts: libgit2
-Replaces: libgit2
-Provides: libgit2
-Filename: dists/termux/extras/binary-arm/libgit2-armfix_0.26.3_arm.deb
-Size: 244948
-SHA256: 74bb82ddfcef7bd5f6f76e9d7acd5b3cb1481ce85bf7f6848b482a2f3e3a344a
-
-Package: libgit2-armfix
-Architecture: arm
-Installed-Size: 472
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.27.0
-Description: C library implementing Git core methods
-Homepage: https://libgit2.github.com/
-Depends: libcurl, openssl
-Conflicts: libgit2
-Replaces: libgit2
-Provides: libgit2
-Filename: dists/termux/extras/binary-arm/libgit2-armfix_0.27.0_arm.deb
-Size: 258116
-SHA256: b1bc2060a155ced39655d7143e26ec2864d5de48e8fe6efd5bff481fd3687f1f
 
 Package: libgme-dev
 Architecture: arm
