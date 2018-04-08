@@ -232,27 +232,15 @@ SHA256: fe7485a1a854252917248a5629f0f9aa719287964e0957fb6f737b5440019b2f
 
 Package: cargo
 Architecture: arm
-Installed-Size: 4896
+Installed-Size: 4944
 Maintainer: @its-pointless
-Version: 0.25.0
+Version: 0.26.0-1
 Description: Rust package manager
 Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.25.0_arm.deb
-Size: 1836204
-SHA256: c48364fc3392d7ae70f35d6aedded1a71f7ad7f37575edc4732f7ab2c33abe0c
-
-Package: cargo
-Architecture: arm
-Installed-Size: 4852
-Maintainer: @its-pointless
-Version: 0.26.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.26.0_arm.deb
-Size: 1702432
-SHA256: 27c445cb12f38838589a05ad456b0c1dfe971c69f5d348700e8f238f731e8d39
+Depends: libcurl, rustc, openssl, libssh2, libgit2
+Filename: dists/termux/extras/binary-arm/cargo_0.26.0-1_arm.deb
+Size: 1748896
+SHA256: 7be16247a20415650f358ad65b59ce7e7759599c9237a5965a54df2a8e94c3ba
 
 Package: cksfv
 Architecture: arm
@@ -577,16 +565,16 @@ Package: julia-devprev
 Architecture: arm
 Installed-Size: 134316
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
+Version: 0.7.0-1
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
-Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libunwind, libgit2-armfix, libunwind
+Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libunwind
 Conflicts: julia
 Replaces: julia
 Provides: openblas
-Filename: dists/termux/extras/binary-arm/julia-devprev_0.7.0_arm.deb
-Size: 17609200
-SHA256: 309e90cd7d000f5037474b64273d844956d6410fd85a6315167290a2b4c351fd
+Filename: dists/termux/extras/binary-arm/julia-devprev_0.7.0-1_arm.deb
+Size: 17611396
+SHA256: 29f8b450e81e47c2f7ba903d5721bdb4856bca2dd8afa87f4f88fbf28ad2f17e
 
 Package: keystone-dev
 Architecture: arm
