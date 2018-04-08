@@ -2079,6 +2079,18 @@ SHA256: 05e6af6081dbfcfc9257b7f36bd90f38eeab6ca2ba3d40355527e95820bd2756
 
 Package: r-cran
 Architecture: aarch64
+Installed-Size: 61092
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.4-1
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.4-1_aarch64.deb
+Size: 39073188
+SHA256: c288e18a5ea18492092bc618630fa0e67c5ed3600949c5abab92e4eddda299e5
+
+Package: r-cran
+Architecture: aarch64
 Installed-Size: 61044
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.4
