@@ -681,6 +681,18 @@ Filename: dists/termux/extras/binary-i686/libpoco-dev_1.8.0.1_i686.deb
 Size: 467516
 SHA256: 8fa561e2e84de60f5d130086872d96b5ca3df3079249e8dfbf201e7e0b0eb882
 
+Package: libpoco-dev
+Architecture: i686
+Installed-Size: 5300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0
+Description: Development files for libpoco
+Homepage: https://pocoproject.org
+Depends: libpoco
+Filename: dists/termux/extras/binary-i686/libpoco-dev_1.9.0_i686.deb
+Size: 471876
+SHA256: 3f9b2065269b860d2125c6c6b817a911c7938fea7475e731e082d9e471f9ef1e
+
 Package: libpoco
 Architecture: i686
 Installed-Size: 8980
@@ -691,6 +703,17 @@ Homepage: https://pocoproject.org
 Filename: dists/termux/extras/binary-i686/libpoco_1.8.0.1_i686.deb
 Size: 1819708
 SHA256: c8b3fb9133dc46acaa646c5236b33174ef5560e154623e0524b523a589e72440
+
+Package: libpoco
+Architecture: i686
+Installed-Size: 9544
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0
+Description: C++ Portable Components (POCO)
+Homepage: https://pocoproject.org
+Filename: dists/termux/extras/binary-i686/libpoco_1.9.0_i686.deb
+Size: 2147396
+SHA256: 1f2805cabd84095471d0259d29dc68801f37628351fb901e72239f080a8fe0e7
 
 Package: libsigsegv-dev
 Architecture: i686
