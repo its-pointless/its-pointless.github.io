@@ -312,6 +312,18 @@ Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-2_aarch64.deb
 Size: 21301536
 SHA256: 162d5a0ec0e26bda56a9d2a80db6acc8c0c2e5d34e772111a1129946377bf0fb
 
+Package: gcc-7
+Architecture: aarch64
+Installed-Size: 78976
+Maintainer: @its-pointless github
+Version: 7.3.0-3
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-3_aarch64.deb
+Size: 21296172
+SHA256: 6b82a94e638d0d11bfd8d32b646014a9cd1e532d074253715fc4c1e658e9489b
+
 Package: gforth
 Architecture: aarch64
 Installed-Size: 3504
@@ -560,6 +572,17 @@ Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0-2_aarch64.deb
 Size: 243616
 SHA256: ee69cfd43f29a73aa24deebd3d568aa50c708703945b1ffb9d2138fd7b5a9d7c
 
+Package: libgfortran4
+Architecture: aarch64
+Installed-Size: 964
+Maintainer: @its-pointless github
+Version: 7.3.0-3
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0-3_aarch64.deb
+Size: 243120
+SHA256: 382f72f31dad4f4441f71bcec5e8eb8afd2427998530f44cff5bdb3e36d893d6
+
 Package: libgfortran
 Architecture: aarch64
 Installed-Size: 1504
@@ -650,6 +673,18 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0-2_aarch64.deb
 Size: 67064
 SHA256: 743006b980a30e0386f971fd59014da400b29021943d4bf11b9b34d97862fcad
+
+Package: libgomp-7
+Architecture: aarch64
+Installed-Size: 300
+Maintainer: @its-pointless github
+Version: 7.3.0-3
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0-3_aarch64.deb
+Size: 67076
+SHA256: 2f5eb1df60376aa2624d97dc528e0bdbd1e9081a47579498b0c819d0bf0bfae4
 
 Package: libgomp-7
 Architecture: aarch64
@@ -1239,6 +1274,18 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-3_aarch64.deb
 Size: 1916356
 SHA256: 92f04dbf5adc4832549269bd6cc329409d58ed57ca87f61310704c1f8043583f
+
+Package: openblas
+Architecture: aarch64
+Installed-Size: 9900
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.20-4
+Description: blas
+Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
+Depends: libgfortran4
+Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-4_aarch64.deb
+Size: 1889744
+SHA256: b6c2154b12817aa881382ef741be41908824de602117c8f026415a9c0ea37f8e
 
 Package: openldap-dev
 Architecture: aarch64
