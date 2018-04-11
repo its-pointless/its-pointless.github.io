@@ -2171,15 +2171,15 @@ SHA256: 7f481033e61983d40b5a46ad6475b2def808e07bb119cb69f01993a55713508e
 
 Package: rust-rls-nightly
 Architecture: aarch64
-Installed-Size: 13188
+Installed-Size: 13252
 Maintainer: @its-pointless
-Version: 1.26-1
+Version: 1.27
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.26-1_aarch64.deb
-Size: 3055392
-SHA256: 08dadd01788e758327c28ac08b2d82ed60ca6ae68d6db125aacad9e1f07e95a3
+Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.27_aarch64.deb
+Size: 3085276
+SHA256: 927c7a6bd02f2ec30f1ded8534f544c80096d981507af5253b96b3e7f788af20
 
 Package: rust-rls
 Architecture: aarch64
@@ -2195,16 +2195,16 @@ SHA256: 6079cf3f0071c052db84d1b4eb323e545536b530651e4b27ada43f96f3256f82
 
 Package: rustc-nightly
 Architecture: aarch64
-Installed-Size: 150120
+Installed-Size: 162064
 Maintainer: @its-pointless
-Version: 1.26-1
+Version: 1.27
 Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
 Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.26-1_aarch64.deb
-Size: 47766704
-SHA256: 5d3f2c2f5bc5ddaaf479d06a2b960a681ab14066ac7b1cd86257ede2748cd6dc
+Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.27_aarch64.deb
+Size: 49812692
+SHA256: ed1fa359858babb92ca9dbf8d9492b0772313f8d83ce14a54afb4b93b01d98ff
 
 Package: rustc
 Architecture: aarch64
@@ -2222,25 +2222,13 @@ Package: rustfmt-nightly
 Architecture: aarch64
 Installed-Size: 5576
 Maintainer: @its-pointless
-Version: 1.26-1
+Version: 1.27
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.26-1_aarch64.deb
-Size: 1294688
-SHA256: d45344351c064595ccbd1bf144acf94b1f1735f866009456c999c325c3d4a39b
-
-Package: rustfmt-nightly
-Architecture: aarch64
-Installed-Size: 0
-Maintainer: @its-pointless
-Version: 1.26
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.26_aarch64.deb
-Size: 812
-SHA256: d5675fd20242e512d8d63120caa280fa3f7fffaf70c54bf60cb1e72c28b5ce8f
+Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.27_aarch64.deb
+Size: 1307692
+SHA256: 46df28fba589ed672a0d29a5404182751dcf8153954e401ec8f6102e16380b31
 
 Package: rustfmt
 Architecture: aarch64
