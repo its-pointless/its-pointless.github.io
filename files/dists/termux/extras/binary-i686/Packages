@@ -267,6 +267,18 @@ Filename: dists/termux/extras/binary-i686/ecl_16.1.3_i686.deb
 Size: 1300316
 SHA256: 1c8fbe35b269340e68fe346da00859ff97310262ecdda2141e1d906b0dc0d2aa
 
+Package: exa
+Architecture: i686
+Installed-Size: 1356
+Maintainer: @its-pointless
+Version: 0.8.0
+Description: exa is a modern replacement for ls
+Homepage: https://the.exa.website/
+Depends: tzdata
+Filename: dists/termux/extras/binary-i686/exa_0.8.0_i686.deb
+Size: 495424
+SHA256: f5dc94c67d5dc9150ee9055a76574eebd0eb1173d103825383ec15c6a6c45c2d
+
 Package: fp-compiler
 Architecture: i686
 Installed-Size: 78924
@@ -878,6 +890,30 @@ Homepage: https://github.com/libtom/libtommath
 Filename: dists/termux/extras/binary-i686/libtommath_1.0.1_i686.deb
 Size: 25688
 SHA256: bb67a399fd8666ed31d17b47d70423b9b9607c6d3701b4541814ae09d2b58cc7
+
+Package: lldb-dev
+Architecture: i686
+Installed-Size: 3656
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: Development files for lldb
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: lldb
+Filename: dists/termux/extras/binary-i686/lldb-dev_6.0.0_i686.deb
+Size: 393560
+SHA256: 0cdae956b32e361541d41913dc1074b47382dc7ba7e37699140e923d4906c769
+
+Package: lldb
+Architecture: i686
+Installed-Size: 114160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libedit, libllvm
+Filename: dists/termux/extras/binary-i686/lldb_6.0.0_i686.deb
+Size: 28836628
+SHA256: e04adcd9c55949e2607b14a639437bf7b937e8cd1c7bec090612c7f191f0be79
 
 Package: mksh
 Architecture: i686
@@ -2014,6 +2050,17 @@ Depends: openblas
 Filename: dists/termux/extras/binary-i686/suitesparse_5.1.0_i686.deb
 Size: 879316
 SHA256: 0176d66145721044df72d12eb334e0e837f310990a1bd87a7ccf7ed0a14e05c7
+
+Package: tzdata
+Architecture: i686
+Installed-Size: 3508
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018d
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-i686/tzdata_2018d_i686.deb
+Size: 191460
+SHA256: ed9a51105164ab425f8aeda90545e1cdbfec095b01ec4cf4037f710b0a7cea0b
 
 Package: unicorn-dev
 Architecture: i686

@@ -289,6 +289,18 @@ Filename: dists/termux/extras/binary-arm/ecl_16.1.3_arm.deb
 Size: 1301256
 SHA256: c7e2cd828f7debd177bb1632af3eac4123dd29230f218d2238a704f8fba29d81
 
+Package: exa
+Architecture: arm
+Installed-Size: 988
+Maintainer: @its-pointless
+Version: 0.8.0
+Description: exa is a modern replacement for ls
+Homepage: https://the.exa.website/
+Depends: tzdata
+Filename: dists/termux/extras/binary-arm/exa_0.8.0_arm.deb
+Size: 437904
+SHA256: 04932db5fcb451dab89c719e5d5799984f33759778446e4226a4bb1332a337c7
+
 Package: ffmpeg-compat
 Architecture: arm
 Installed-Size: 12
@@ -1096,6 +1108,30 @@ Homepage: https://github.com/libtom/libtommath
 Filename: dists/termux/extras/binary-arm/libtommath_1.0.1_arm.deb
 Size: 24448
 SHA256: 18d34138bd6daca96293ead39fd54c477e3e2ffe9e45f05a6e5fcd64c59882c5
+
+Package: lldb-dev
+Architecture: arm
+Installed-Size: 3668
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: Development files for lldb
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: lldb
+Filename: dists/termux/extras/binary-arm/lldb-dev_6.0.0_arm.deb
+Size: 393416
+SHA256: ec461b79990c884aa00165b86a8b5e870e95c6b3c5b4d094cc321a2df7631402
+
+Package: lldb
+Architecture: arm
+Installed-Size: 84952
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libedit
+Filename: dists/termux/extras/binary-arm/lldb_6.0.0_arm.deb
+Size: 24946304
+SHA256: 21cc22d184fdfba328541ecfca417ed45055900a416e5b30406a98d44af1d389
 
 Package: mailutils-dev
 Architecture: arm
@@ -2360,6 +2396,17 @@ Depends: openblas
 Filename: dists/termux/extras/binary-arm/suitesparse_5.1.0_arm.deb
 Size: 781688
 SHA256: 874d1a8e5cfc52a5586923dca3165588205e91e9f6b4caad58563843211ca1b1
+
+Package: tzdata
+Architecture: arm
+Installed-Size: 5156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018d
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-arm/tzdata_2018d_arm.deb
+Size: 208476
+SHA256: a054904a4fbffff9e479a57a81244f593bed0884e9f25fb0163fad08f08462eb
 
 Package: unicorn-dev
 Architecture: arm
