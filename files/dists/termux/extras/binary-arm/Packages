@@ -830,6 +830,30 @@ Filename: dists/termux/extras/binary-arm/libgomp_4.9.x_arm.deb
 Size: 115884
 SHA256: 5b3ec0b2f41d79b29ca34cfefaed4dc63b918103aa6278b797eb17ce1afd626e
 
+Package: libhdf5-dev
+Architecture: arm
+Installed-Size: 1708
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: Development files for libhdf5
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libhdf5
+Filename: dists/termux/extras/binary-arm/libhdf5-dev_1.10.1_arm.deb
+Size: 177968
+SHA256: 682b36d0aee0d53d13aa3ef1c8880fef163d50160f34e9647f8d9ca26e09a2f6
+
+Package: libhdf5
+Architecture: arm
+Installed-Size: 47620
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: Hierarchical Data Format 5 (HDF5)
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libzopfli
+Filename: dists/termux/extras/binary-arm/libhdf5_1.10.1_arm.deb
+Size: 5319492
+SHA256: 78bb293743225afa471be3500ec2b63e47bcfeeb2755170827fea57645042d7e
+
 Package: libmaa-dev
 Architecture: arm
 Installed-Size: 28

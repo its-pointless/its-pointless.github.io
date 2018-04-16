@@ -758,6 +758,30 @@ Filename: dists/termux/extras/binary-aarch64/libgomp_4.9.x_aarch64.deb
 Size: 121832
 SHA256: 3a254cee8b97d1a591292d26a7952a9e28bbb16d76cd9dcaaf8e24a8b85e1f0a
 
+Package: libhdf5-dev
+Architecture: aarch64
+Installed-Size: 1708
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: Development files for libhdf5
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libhdf5
+Filename: dists/termux/extras/binary-aarch64/libhdf5-dev_1.10.1_aarch64.deb
+Size: 177772
+SHA256: 208d0016f757444615bfb89090592fab7bc987c8e8a2d0db7c077e9b0fd50fcf
+
+Package: libhdf5
+Architecture: aarch64
+Installed-Size: 47928
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: Hierarchical Data Format 5 (HDF5)
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libzopfli
+Filename: dists/termux/extras/binary-aarch64/libhdf5_1.10.1_aarch64.deb
+Size: 3844904
+SHA256: f0b2e49fb0a8e571eb8781358cdca3f62d802b58d1ca9499233dd0d5b0dab4bd
+
 Package: libmaa-dev
 Architecture: aarch64
 Installed-Size: 28

@@ -269,6 +269,18 @@ SHA256: 1c8fbe35b269340e68fe346da00859ff97310262ecdda2141e1d906b0dc0d2aa
 
 Package: exa
 Architecture: i686
+Installed-Size: 1096
+Maintainer: @its-pointless
+Version: 0.8.0-1
+Description: exa is a modern replacement for ls
+Homepage: https://the.exa.website/
+Depends: tzdata
+Filename: dists/termux/extras/binary-i686/exa_0.8.0-1_i686.deb
+Size: 402636
+SHA256: 13ffe91dee5eb81422e9e05a8e0b248e7ffb8ffe37251575e5619b32395e4062
+
+Package: exa
+Architecture: i686
 Installed-Size: 1356
 Maintainer: @its-pointless
 Version: 0.8.0
@@ -657,6 +669,30 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-i686/libgomp_4.9.x_i686.deb
 Size: 180152
 SHA256: 7d5921b2d38a04337c1094cc4a51a271de3ebddf9e26a020b73a975f6affabe0
+
+Package: libhdf5-dev
+Architecture: i686
+Installed-Size: 1708
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: Development files for libhdf5
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libhdf5
+Filename: dists/termux/extras/binary-i686/libhdf5-dev_1.10.1_i686.deb
+Size: 177620
+SHA256: c13c68e81ee0d6b8ed90bf1907bfff139a214f5a89c676e075c41d283403dac3
+
+Package: libhdf5
+Architecture: i686
+Installed-Size: 49808
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.1
+Description: Hierarchical Data Format 5 (HDF5)
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libzopfli
+Filename: dists/termux/extras/binary-i686/libhdf5_1.10.1_i686.deb
+Size: 4018184
+SHA256: b0823b94df6d5eef9894ca451654137621082836b91c4d0d2705d4a31cde3e1f
 
 Package: libmaa-dev
 Architecture: i686
