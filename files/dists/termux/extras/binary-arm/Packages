@@ -1133,30 +1133,6 @@ Filename: dists/termux/extras/binary-arm/libtommath_1.0.1_arm.deb
 Size: 24448
 SHA256: 18d34138bd6daca96293ead39fd54c477e3e2ffe9e45f05a6e5fcd64c59882c5
 
-Package: lldb-dev
-Architecture: arm
-Installed-Size: 3668
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: Development files for lldb
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: lldb
-Filename: dists/termux/extras/binary-arm/lldb-dev_6.0.0_arm.deb
-Size: 393416
-SHA256: ec461b79990c884aa00165b86a8b5e870e95c6b3c5b4d094cc321a2df7631402
-
-Package: lldb
-Architecture: arm
-Installed-Size: 84952
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: libedit
-Filename: dists/termux/extras/binary-arm/lldb_6.0.0_arm.deb
-Size: 24946304
-SHA256: 21cc22d184fdfba328541ecfca417ed45055900a416e5b30406a98d44af1d389
-
 Package: mailutils-dev
 Architecture: arm
 Installed-Size: 688

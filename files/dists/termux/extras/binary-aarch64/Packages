@@ -1061,30 +1061,6 @@ Filename: dists/termux/extras/binary-aarch64/libtommath_1.0.1_aarch64.deb
 Size: 23300
 SHA256: 5bfd619e6b5138ea7f287cac85adb6acab258ddb9fb8f6a468984ccedc66d411
 
-Package: lldb-dev
-Architecture: aarch64
-Installed-Size: 3668
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: Development files for lldb
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: lldb
-Filename: dists/termux/extras/binary-aarch64/lldb-dev_6.0.0_aarch64.deb
-Size: 393384
-SHA256: ccc8a58076f168e1c738bda92abe1f7d4e1f8d39bb363b0f5b94e978216aa2ea
-
-Package: lldb
-Architecture: aarch64
-Installed-Size: 112024
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: libedit
-Filename: dists/termux/extras/binary-aarch64/lldb_6.0.0_aarch64.deb
-Size: 24238820
-SHA256: ec463fe4c224541708325543086a4dbc74604121e7eb0653840b0202de752fed
-
 Package: mailutils-dev
 Architecture: aarch64
 Installed-Size: 688

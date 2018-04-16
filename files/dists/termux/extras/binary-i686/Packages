@@ -927,30 +927,6 @@ Filename: dists/termux/extras/binary-i686/libtommath_1.0.1_i686.deb
 Size: 25688
 SHA256: bb67a399fd8666ed31d17b47d70423b9b9607c6d3701b4541814ae09d2b58cc7
 
-Package: lldb-dev
-Architecture: i686
-Installed-Size: 3656
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: Development files for lldb
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: lldb
-Filename: dists/termux/extras/binary-i686/lldb-dev_6.0.0_i686.deb
-Size: 393560
-SHA256: 0cdae956b32e361541d41913dc1074b47382dc7ba7e37699140e923d4906c769
-
-Package: lldb
-Architecture: i686
-Installed-Size: 114160
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Depends: libedit, libllvm
-Filename: dists/termux/extras/binary-i686/lldb_6.0.0_i686.deb
-Size: 28836628
-SHA256: e04adcd9c55949e2607b14a639437bf7b937e8cd1c7bec090612c7f191f0be79
-
 Package: mksh
 Architecture: i686
 Installed-Size: 420
