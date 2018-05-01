@@ -670,30 +670,6 @@ Filename: dists/termux/extras/binary-i686/libgomp_4.9.x_i686.deb
 Size: 180152
 SHA256: 7d5921b2d38a04337c1094cc4a51a271de3ebddf9e26a020b73a975f6affabe0
 
-Package: libhdf5-dev
-Architecture: i686
-Installed-Size: 1708
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10.1
-Description: Development files for libhdf5
-Homepage: https://portal.hdfgroup.org/display/support
-Depends: libhdf5
-Filename: dists/termux/extras/binary-i686/libhdf5-dev_1.10.1_i686.deb
-Size: 177620
-SHA256: c13c68e81ee0d6b8ed90bf1907bfff139a214f5a89c676e075c41d283403dac3
-
-Package: libhdf5
-Architecture: i686
-Installed-Size: 49808
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10.1
-Description: Hierarchical Data Format 5 (HDF5)
-Homepage: https://portal.hdfgroup.org/display/support
-Depends: libzopfli
-Filename: dists/termux/extras/binary-i686/libhdf5_1.10.1_i686.deb
-Size: 4018184
-SHA256: b0823b94df6d5eef9894ca451654137621082836b91c4d0d2705d4a31cde3e1f
-
 Package: libmaa-dev
 Architecture: i686
 Installed-Size: 28
@@ -1944,6 +1920,18 @@ SHA256: bbaaf35f876f4e9204d2d22ab3ca908a4b30fa7b631d1cb6adecbd48ad08ee38
 
 Package: rust-rls-nightly
 Architecture: i686
+Installed-Size: 19896
+Maintainer: @its-pointless
+Version: 1.27-2
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.27-2_i686.deb
+Size: 4637376
+SHA256: 12ba1f04735e605de36d1205d4a435117bd344ddd8714f1cc8090d83f18adb4f
+
+Package: rust-rls-nightly
+Architecture: i686
 Installed-Size: 17344
 Maintainer: @its-pointless
 Version: 1.27
@@ -1981,6 +1969,19 @@ SHA256: 460d2c6a345a6a03e3692a4c44d1db551763aaba6e595582cbc089fa6a4f5c2f
 
 Package: rustc-nightly
 Architecture: i686
+Installed-Size: 212796
+Maintainer: @its-pointless
+Version: 1.27-2
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-i686/rustc-nightly_1.27-2_i686.deb
+Size: 60794976
+SHA256: ba6decc9ba5c5ae310068e8b67a1082cc4b724870e52b5c19c614ac41bacde2b
+
+Package: rustc-nightly
+Architecture: i686
 Installed-Size: 180780
 Maintainer: @its-pointless
 Version: 1.27
@@ -2015,6 +2016,18 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.27-1_i686.deb
 Size: 1655436
 SHA256: c7f7846134f631f7c1d9e157ad925b0ae68329d2da508cc6075d5fcb6b9eafc2
+
+Package: rustfmt-nightly
+Architecture: i686
+Installed-Size: 6676
+Maintainer: @its-pointless
+Version: 1.27-2
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.27-2_i686.deb
+Size: 1654096
+SHA256: 9bd12765baf5a5178b71aa53d3901f4246e515aa02401cb7e1120d9b8d9ba8d4
 
 Package: rustfmt-nightly
 Architecture: i686

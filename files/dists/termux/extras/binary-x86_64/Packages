@@ -657,30 +657,6 @@ Filename: dists/termux/extras/binary-x86_64/libgomp_4.9.x_x86_64.deb
 Size: 188464
 SHA256: 7d37f67c54c572233250e7cd4b8397a8284c5e56459fb9ab18cf2d747401e718
 
-Package: libhdf5-dev
-Architecture: x86_64
-Installed-Size: 1708
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10.1
-Description: Development files for libhdf5
-Homepage: https://portal.hdfgroup.org/display/support
-Depends: libhdf5
-Filename: dists/termux/extras/binary-x86_64/libhdf5-dev_1.10.1_x86_64.deb
-Size: 177568
-SHA256: 5af13b36240fa536893014120aa62639f24c427af3613c97381c584a48c57b8e
-
-Package: libhdf5
-Architecture: x86_64
-Installed-Size: 50544
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10.1
-Description: Hierarchical Data Format 5 (HDF5)
-Homepage: https://portal.hdfgroup.org/display/support
-Depends: libzopfli
-Filename: dists/termux/extras/binary-x86_64/libhdf5_1.10.1_x86_64.deb
-Size: 6675780
-SHA256: 04f8630351585029d61e36c2b3136c7129cdcd81bf36e71b5dd75675db4704ad
-
 Package: libmaa-dev
 Architecture: x86_64
 Installed-Size: 28
@@ -1919,6 +1895,18 @@ SHA256: bad095a5880250ef1bd5eaee6050eb90aa3d518789885644e456f939cbb33149
 
 Package: rust-rls-nightly
 Architecture: x86_64
+Installed-Size: 17828
+Maintainer: @its-pointless
+Version: 1.27-2
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.27-2_x86_64.deb
+Size: 4203616
+SHA256: f240c94108c90777ad8aa67f9dd74b61c417f5a685ef69023c923ae12a555596
+
+Package: rust-rls-nightly
+Architecture: x86_64
 Installed-Size: 15088
 Maintainer: @its-pointless
 Version: 1.27
@@ -1956,6 +1944,19 @@ SHA256: ed17987a3f3d950b74420e0c6649a006480e7a1c223994c2830982e7e7c1f7c7
 
 Package: rustc-nightly
 Architecture: x86_64
+Installed-Size: 175184
+Maintainer: @its-pointless
+Version: 1.27-2
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.27-2_x86_64.deb
+Size: 51527760
+SHA256: 1135c9e1f5fde385d9fb2fd76bfc163d153f3a2ff630473c8bd10f4392afee1f
+
+Package: rustc-nightly
+Architecture: x86_64
 Installed-Size: 178300
 Maintainer: @its-pointless
 Version: 1.27
@@ -1990,6 +1991,18 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.27-1_x86_64.deb
 Size: 1503508
 SHA256: be35dcf0333ceb772897d8f583edd7cd80284681556b1759420df638f0539b10
+
+Package: rustfmt-nightly
+Architecture: x86_64
+Installed-Size: 6048
+Maintainer: @its-pointless
+Version: 1.27-2
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.27-2_x86_64.deb
+Size: 1514140
+SHA256: 383327c6827f30f47d58150049c45e8cd1a525c19b50fde6568e9087a9a6a045
 
 Package: rustfmt-nightly
 Architecture: x86_64
