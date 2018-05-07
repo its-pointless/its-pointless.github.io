@@ -542,32 +542,17 @@ SHA256: e6e04feb8d7d41a2b94a526ead7a2461da939caf80fd411e204f3acd372fc197
 
 Package: julia-devprev
 Architecture: i686
-Installed-Size: 133576
+Installed-Size: 133960
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0-2
+Version: 0.7.0-3
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
 Conflicts: julia
 Replaces: julia
-Filename: dists/termux/extras/binary-i686/julia-devprev_0.7.0-2_i686.deb
-Size: 17790900
-SHA256: 056e6b25bd7d4ba2b4c1e5de778d977f09f369bf6dca956ec04bb68edc4c1c49
-
-Package: julia-devprev
-Architecture: i686
-Installed-Size: 135172
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
-Conflicts: julia
-Replaces: julia
-Provides: openblas
-Filename: dists/termux/extras/binary-i686/julia-devprev_0.7.0_i686.deb
-Size: 17618584
-SHA256: 3e087ae89a4e46b7ba58863ac6aeef3fa671d2496eeda2a4081b8c78c4162ad9
+Filename: dists/termux/extras/binary-i686/julia-devprev_0.7.0-3_i686.deb
+Size: 17817840
+SHA256: fe3f9478b96d61dd99cd7e55ba86cc53c60afbb5441b5b353b7368096facd7b0
 
 Package: keystone-dev
 Architecture: i686
@@ -1089,25 +1074,25 @@ Package: octave-dev
 Architecture: i686
 Installed-Size: 5644
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-1
+Version: 4.2.2-2
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-i686/octave-dev_4.2.2-1_i686.deb
-Size: 351332
-SHA256: 5fa5e70c96bdd56d9feaf3d06668f13c7c47c8fbc0b47445002b83374035d28c
+Filename: dists/termux/extras/binary-i686/octave-dev_4.2.2-2_i686.deb
+Size: 351288
+SHA256: 7e955282e725dbae07ae0e873b123e9d7da03bb8e674ec3c2aa315a7e115d2a8
 
 Package: octave
 Architecture: i686
-Installed-Size: 36304
+Installed-Size: 36252
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-1
+Version: 4.2.2-2
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo
-Filename: dists/termux/extras/binary-i686/octave_4.2.2-1_i686.deb
-Size: 6006776
-SHA256: 6341850eeb561761fc31a56ac99dcf2291385ef51c21b39de690ca4aedc99e69
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-i686/octave_4.2.2-2_i686.deb
+Size: 6000380
+SHA256: 270a5ad0b0f808aa1c0c22553e60d1ae4a3b6285528ed0434317365565360487
 
 Package: opam
 Architecture: i686

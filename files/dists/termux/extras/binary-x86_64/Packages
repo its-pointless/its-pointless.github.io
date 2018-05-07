@@ -529,32 +529,17 @@ SHA256: 582c4754d76a9f1a99ba5d91dc3c6d4c4e8a75fae9c19e4f5258a7aafd9b3814
 
 Package: julia-devprev
 Architecture: x86_64
-Installed-Size: 154212
+Installed-Size: 154108
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0-2
+Version: 0.7.0-3
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
 Conflicts: julia
 Replaces: julia
-Filename: dists/termux/extras/binary-x86_64/julia-devprev_0.7.0-2_x86_64.deb
-Size: 18354720
-SHA256: c06ab2a46299ab5b51f0f0778888659be66c70e4a7f278cf4fcf22f8b32ce8dd
-
-Package: julia-devprev
-Architecture: x86_64
-Installed-Size: 156920
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
-Conflicts: julia
-Replaces: julia
-Provides: openblas
-Filename: dists/termux/extras/binary-x86_64/julia-devprev_0.7.0_x86_64.deb
-Size: 18094056
-SHA256: 4a1b2d95dc25467e0234e9410985706db1154111c3fc5952285665fff9ab7a5d
+Filename: dists/termux/extras/binary-x86_64/julia-devprev_0.7.0-3_x86_64.deb
+Size: 18399384
+SHA256: be058833973ad7f9b60b6fc5273753faf5cb74929e393be3a4ca1b53fb755596
 
 Package: keystone-dev
 Architecture: x86_64
@@ -1078,25 +1063,25 @@ Package: octave-dev
 Architecture: x86_64
 Installed-Size: 5644
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-1
+Version: 4.2.2-2
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-x86_64/octave-dev_4.2.2-1_x86_64.deb
-Size: 351284
-SHA256: 69230e975d2778f8d971dd494ad774e77a1476641762799b32072537cf3e1e07
+Filename: dists/termux/extras/binary-x86_64/octave-dev_4.2.2-2_x86_64.deb
+Size: 351300
+SHA256: 6bb99effc5f3ed2df88750448494e1c4714d6b013a840febfc764fdfc466737f
 
 Package: octave
 Architecture: x86_64
-Installed-Size: 37368
+Installed-Size: 37312
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-1
+Version: 4.2.2-2
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo
-Filename: dists/termux/extras/binary-x86_64/octave_4.2.2-1_x86_64.deb
-Size: 6077412
-SHA256: 4566198195dce430120bd21289291695e583a830482b56f37f88212f2874eb41
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-x86_64/octave_4.2.2-2_x86_64.deb
+Size: 6086920
+SHA256: 5c162984cd0761c3c7ec5e5ae091eae0c6a1d2ee567041406ce4ec44e562135c
 
 Package: opam
 Architecture: x86_64
@@ -2214,6 +2199,18 @@ Filename: dists/termux/extras/binary-x86_64/quantlib-dev_1.11_x86_64.deb
 Size: 552120
 SHA256: 506a2d86f79434ee7d24aa77858fbfac34d15031ab461cb5145bc9a018b0517e
 
+Package: quantlib-dev
+Architecture: x86_64
+Installed-Size: 7976
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12.1
+Description: Development files for quantlib
+Homepage: http://quantlib.org
+Depends: quantlib,boost-dev
+Filename: dists/termux/extras/binary-x86_64/quantlib-dev_1.12.1_x86_64.deb
+Size: 558624
+SHA256: 079709c73c3899009ca18c164432e138adba6fe669474e5da7a429c96f76c73e
+
 Package: quantlib
 Architecture: x86_64
 Installed-Size: 50620
@@ -2224,6 +2221,17 @@ Homepage: http://quantlib.org
 Filename: dists/termux/extras/binary-x86_64/quantlib_1.11_x86_64.deb
 Size: 9176312
 SHA256: 53e24cae167c5c92919a16da9bc8cf04a1f0444170a961cf8d021a8fe873361a
+
+Package: quantlib
+Architecture: x86_64
+Installed-Size: 48748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12.1
+Description: a comprehensive software framework for quantitative finance
+Homepage: http://quantlib.org
+Filename: dists/termux/extras/binary-x86_64/quantlib_1.12.1_x86_64.deb
+Size: 9260120
+SHA256: 4bc2b88dfe830939960637e34d343af55fffea59ecd3b93fb9dd72be779b48a4
 
 Package: r-cran-rcpp
 Architecture: x86_64

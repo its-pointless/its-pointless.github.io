@@ -539,32 +539,17 @@ SHA256: 9bf49cff9aa6cdee10a8641acf26fb338d9fb8f217b7bcf0cef64cf1af78aa92
 
 Package: julia-devprev
 Architecture: aarch64
-Installed-Size: 153464
+Installed-Size: 153676
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0-2
+Version: 0.7.0-3
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
 Conflicts: julia
 Replaces: julia
-Filename: dists/termux/extras/binary-aarch64/julia-devprev_0.7.0-2_aarch64.deb
-Size: 17933480
-SHA256: 5cc633c347eea9f8155567b05a0051ad38d7bd85dd978e1702c0224c6eacf24f
-
-Package: julia-devprev
-Architecture: aarch64
-Installed-Size: 157132
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
-Conflicts: julia
-Replaces: julia
-Provides: openblas
-Filename: dists/termux/extras/binary-aarch64/julia-devprev_0.7.0_aarch64.deb
-Size: 17665504
-SHA256: f645671919c208babbc5c8005b7434f16ad28d3739e106e5c7f06aa4207a8b3f
+Filename: dists/termux/extras/binary-aarch64/julia-devprev_0.7.0-3_aarch64.deb
+Size: 17970096
+SHA256: c595726bf56a047681486b1ab956b8bd63615026d35906f34720632f3c2d08ba
 
 Package: keystone-dev
 Architecture: aarch64
@@ -1271,25 +1256,25 @@ Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5644
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-1
+Version: 4.2.2-2
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.2-1_aarch64.deb
-Size: 351332
-SHA256: eb9233dd3214ff222272b1b4a0c3aa0c9d36ef1df7dc68ca5a1359ea6012faa6
+Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.2-2_aarch64.deb
+Size: 351284
+SHA256: f436f7723af40bf25ae673ce48aecc4527c24975e0e1272703ea3268df973360
 
 Package: octave
 Architecture: aarch64
 Installed-Size: 37092
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-1
+Version: 4.2.2-2
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo
-Filename: dists/termux/extras/binary-aarch64/octave_4.2.2-1_aarch64.deb
-Size: 5084008
-SHA256: eb6198777f6c8098881ec3f48080974a8886173145fa82481fba72cc003499a1
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-aarch64/octave_4.2.2-2_aarch64.deb
+Size: 5083072
+SHA256: e45d172d311fcb6d34361164546ec15f5434d37d837ba3ba21d0de75e9e87f1d
 
 Package: opam
 Architecture: aarch64

@@ -626,21 +626,6 @@ SHA256: 249978d34f7615f09ff01cb3fe79767188ae4fb9e25803982ce79660ddbffab1
 
 Package: julia-devprev
 Architecture: arm
-Installed-Size: 134316
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0-1
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libunwind
-Conflicts: julia
-Replaces: julia
-Provides: openblas
-Filename: dists/termux/extras/binary-arm/julia-devprev_0.7.0-1_arm.deb
-Size: 17611396
-SHA256: 29f8b450e81e47c2f7ba903d5721bdb4856bca2dd8afa87f4f88fbf28ad2f17e
-
-Package: julia-devprev
-Architecture: arm
 Installed-Size: 132244
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.7.0-2
@@ -1358,25 +1343,25 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-1
+Version: 4.2.2-2
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.2-1_arm.deb
-Size: 351268
-SHA256: 6f53738a2cab63d97b439cb58007fcd1ba635e318fc6d5c26d4c90fe8ddb3ddb
+Filename: dists/termux/extras/binary-arm/octave-dev_4.2.2-2_arm.deb
+Size: 351232
+SHA256: fce2747d00b75b46a86de7000553a571e1686c3db937047e4fe2a0daf60c06d8
 
 Package: octave
 Architecture: arm
-Installed-Size: 30816
+Installed-Size: 30764
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-1
+Version: 4.2.2-2
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo
-Filename: dists/termux/extras/binary-arm/octave_4.2.2-1_arm.deb
-Size: 5656044
-SHA256: 9419d4d27cbd1772fc2adfa3c25205b378913b32947e0931b8febf7666117984
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-arm/octave_4.2.2-2_arm.deb
+Size: 5652496
+SHA256: c6ce70c53c62d94c064f6383cf4ee4e884729a93eee13668d2e26fb7c2d7b96e
 
 Package: opam
 Architecture: arm
@@ -2561,6 +2546,18 @@ SHA256: df87e487f269860b8e9275c295ca7c57a16fafaef2a35dffad1ca4f029db7f78
 
 Package: r-cran-rcpp
 Architecture: arm
+Installed-Size: 11256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.16-1
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-cran
+Filename: dists/termux/extras/binary-arm/r-cran-rcpp_0.12.16-1_arm.deb
+Size: 3185908
+SHA256: 1d01100b1969638848731b4431e40616ad0e6f6acbe93c2f4d216d240aba7ac2
+
+Package: r-cran-rcpp
+Architecture: arm
 Installed-Size: 11252
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.12.16
@@ -2610,15 +2607,15 @@ SHA256: b6f30a870f3d0f59b1c4e62a15f0d120f5f14c328f94fde49d088fc5ba7475df
 
 Package: r-cran-rquantlib
 Architecture: arm
-Installed-Size: 3472
+Installed-Size: 3524
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.4.4-2
 Description: GNU R package interfacing the QuantLib finance library
 Homepage: https://cran.r-project.org/
 Depends: r-cran, r-cran-zoo, r-cran-rcpp, quantlib
 Filename: dists/termux/extras/binary-arm/r-cran-rquantlib_0.4.4-2_arm.deb
-Size: 764548
-SHA256: e81755d585aa597df6e68c3aa109de146f3893a4412c7b1655a65bd6f611db40
+Size: 767200
+SHA256: 7e1927b5beb6c84d86085e1b7111d564714861c785b9eb013822a9ecc2d842e5
 
 Package: r-cran-stringi
 Architecture: arm
@@ -2643,6 +2640,18 @@ Depends: r-cran, libicu
 Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.1.7_arm.deb
 Size: 561880
 SHA256: 310d56ccc24a1adabc6afdcc3729b5880341df848d72e7e9133fe693ee8e30f7
+
+Package: r-cran-stringi
+Architecture: arm
+Installed-Size: 1036
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.2
+Description: GNU R character string processing facilities
+Homepage: https://cran.r-project.org/
+Depends: r-cran, libicu
+Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.2.2_arm.deb
+Size: 570588
+SHA256: cb5be00131d9768bf58e80d24d9d44e13ab4b3d23feca793c4eaf08b687dd00e
 
 Package: r-cran-zoo
 Architecture: arm
@@ -2677,8 +2686,20 @@ Description: GNU R package for totally ordered indexed observations
 Homepage: https://cran.r-project.org/
 Depends: r-cran
 Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.8-1-1_arm.deb
-Size: 870280
-SHA256: 7333297e4dc2564dfa1a20fd48a311f906f841229839f3b455102a7ac3c48830
+Size: 870260
+SHA256: 53a66c2ca66e24e0eba1b751772d5d854a7707a05eeb5aaef344fba005cb8650
+
+Package: r-cran
+Architecture: arm
+Installed-Size: 59564
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.4-1
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Filename: dists/termux/extras/binary-arm/r-cran_3.4.4-1_arm.deb
+Size: 38885716
+SHA256: 02f562a09db3f3c3a3c2b4b83ec197700ad1e95666a11cc42308a5c7c2bcaefe
 
 Package: r-cran
 Architecture: arm
