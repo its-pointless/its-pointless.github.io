@@ -23,6 +23,18 @@ SHA256: f52641b240af0f3c236dc980a6fa323cf7037b63a8cbe9a7784c88294ff007e6
 
 Package: arpack-ng
 Architecture: arm
+Installed-Size: 248
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0-2
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: openblas
+Filename: dists/termux/extras/binary-arm/arpack-ng_3.5.0-2_arm.deb
+Size: 59496
+SHA256: c38ff3342486cdfeda22da5236491a2772eac06f40dddb5de37e73cf13107616
+
+Package: arpack-ng
+Architecture: arm
 Installed-Size: 428
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0
@@ -229,17 +241,29 @@ Filename: dists/termux/extras/binary-arm/cksfv_1.3.14_arm.deb
 Size: 8908
 SHA256: 7d7b4420de573d9a5ceca6c230b29e3ebc53bafa6ce6aedb405c4be5b6c2b5e9
 
-Package: dictd
+Package: dictd-dev
 Architecture: arm
-Installed-Size: 400
+Installed-Size: 4
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.12.1
-Description: Client/server software, human language dictionary databases, and tools supporting the DICT protocol 
-Homepage: https://sourceforge.net/projects/dict/
-Depends: libmaa
+Description: Development files for dictd
+Homepage: http://sourceforge.net/projects/dict/
+Depends: dictd
+Filename: dists/termux/extras/binary-arm/dictd-dev_1.12.1_arm.deb
+Size: 2016
+SHA256: 350727ce59f29b50842afec6aa0ce24d944815896a78fc2fddf306bc045b574d
+
+Package: dictd
+Architecture: arm
+Installed-Size: 396
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12.1
+Description: Online dictionary client and server
+Homepage: http://sourceforge.net/projects/dict/
+Depends: libmaa, readline
 Filename: dists/termux/extras/binary-arm/dictd_1.12.1_arm.deb
-Size: 113220
-SHA256: 9a911defe3fb720cdec030a1ac9e3cf563b21087fbfc5b32a5aa1ef7a2fb99b9
+Size: 113164
+SHA256: b9e3970d4c078a2565f280e857833bd915436fb7ce1d5d4bfd7e9c621c899b8a
 
 Package: distcc
 Architecture: arm
@@ -347,6 +371,30 @@ Filename: dists/termux/extras/binary-arm/gcc-7_7.3.0-2_arm.deb
 Size: 27886544
 SHA256: 16f0d6c294af759d798a3b6eaf3e07628467440feb04f65abb39997da360e306
 
+Package: gcc-7
+Architecture: arm
+Installed-Size: 97884
+Maintainer: @its-pointless github
+Version: 7.3.0-4
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-arm/gcc-7_7.3.0-4_arm.deb
+Size: 21773732
+SHA256: 80c2b091ff5e77b36d9cbdb7d17f44449807e9e7bf9834b655a5f7db54e812de
+
+Package: gcc-8
+Architecture: arm
+Installed-Size: 107420
+Maintainer: @its-pointless github
+Version: 8.1.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-arm/gcc-8_8.1.0_arm.deb
+Size: 23960908
+SHA256: efb7e6e0917105ebeac3490665aa3be6b9d17c9b748b109661bfd7602d2640c2
+
 Package: gforth
 Architecture: arm
 Installed-Size: 3004
@@ -406,6 +454,33 @@ Filename: dists/termux/extras/binary-arm/glpk_4.63_arm.deb
 Size: 300632
 SHA256: 735ce7d593a422a666df8c0799b6089f050ad46fcc64ae7becbd4c2148187e3e
 
+Package: gnat-7
+Architecture: arm
+Installed-Size: 91704
+Maintainer: @its-pointless github
+Version: 7.3.0-4
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Conflicts: gnat-8, gnat
+Replaces: gnat
+Filename: dists/termux/extras/binary-arm/gnat-7_7.3.0-4_arm.deb
+Size: 16473672
+SHA256: e3632af799d586307f41a5eefb55bd7aaa5ef195c7f6c961dd4a44ed0986b7da
+
+Package: gnat-8
+Architecture: arm
+Installed-Size: 88612
+Maintainer: @its-pointless github
+Version: 8.1.0
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-arm/gnat-8_8.1.0_arm.deb
+Size: 15684956
+SHA256: 80c713f4a14fb78c4e4a3a0582d01f57549828c6c358028298336384944124de
+
 Package: gnat
 Architecture: arm
 Installed-Size: 71868
@@ -440,17 +515,6 @@ Homepage: http://www.gnu.org/software/groff/
 Filename: dists/termux/extras/binary-arm/groff_1.22.3-1_arm.deb
 Size: 1587436
 SHA256: b441587be72bbf458a1220bd9e7ec60de15253aa5785b19e4ff56db364f4aede
-
-Package: groff
-Architecture: arm
-Installed-Size: 10024
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.22.3
-Description: GNU troff text-formatting program
-Homepage: http://www.gnu.org/software/groff/
-Filename: dists/termux/extras/binary-arm/groff_1.22.3_arm.deb
-Size: 1585116
-SHA256: 5be9e7d13072bb45d288a4c79da56545befd442ae479d0a3165aaac17ea27c43
 
 Package: guile-2.2-dev
 Architecture: arm
@@ -563,6 +627,20 @@ Provides: openblas
 Filename: dists/termux/extras/binary-arm/julia-devprev_0.7.0-1_arm.deb
 Size: 17611396
 SHA256: 29f8b450e81e47c2f7ba903d5721bdb4856bca2dd8afa87f4f88fbf28ad2f17e
+
+Package: julia-devprev
+Architecture: arm
+Installed-Size: 132244
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.0-2
+Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libunwind
+Conflicts: julia
+Replaces: julia
+Filename: dists/termux/extras/binary-arm/julia-devprev_0.7.0-2_arm.deb
+Size: 17725884
+SHA256: 0116b1b70c8add038617b54ac53e0b753a099f34a564e5dde2f56e30d61d4763
 
 Package: keystone-dev
 Architecture: arm
@@ -690,6 +768,28 @@ Filename: dists/termux/extras/binary-arm/libgfortran4_7.3.0-2_arm.deb
 Size: 194260
 SHA256: c92b09e81a3ebd70c1b5722e5a764ee8f4197a8a902d96271d50c13994557aac
 
+Package: libgfortran4
+Architecture: arm
+Installed-Size: 708
+Maintainer: @its-pointless github
+Version: 7.3.0-4
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgfortran4_7.3.0-4_arm.deb
+Size: 194184
+SHA256: 151d90d096fe6a2a22ceaf92c953b750843289617d4cba3b88a77e1c7161c608
+
+Package: libgfortran5
+Architecture: arm
+Installed-Size: 832
+Maintainer: @its-pointless github
+Version: 8.1.0
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgfortran5_8.1.0_arm.deb
+Size: 219556
+SHA256: 7eb98a6dc992e91a496a9f7ce75f3025f87d63ebe1d5601dc5f910056d4eea1e
+
 Package: libgfortran
 Architecture: arm
 Installed-Size: 1128
@@ -774,6 +874,20 @@ Package: libgomp-7
 Architecture: arm
 Installed-Size: 240
 Maintainer: @its-pointless github
+Version: 7.3.0-4
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-arm/libgomp-7_7.3.0-4_arm.deb
+Size: 66212
+SHA256: 7d8e0121071c057c418ec5b80ac06d60a7b4596c3b48865a71ead63453832c11
+
+Package: libgomp-7
+Architecture: arm
+Installed-Size: 240
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: openmp library for gcc
 Homepage: http://gcc.gnu.org/
@@ -782,53 +896,19 @@ Filename: dists/termux/extras/binary-arm/libgomp-7_7.3.0_arm.deb
 Size: 66216
 SHA256: c1523ae1c768859e067b08e23b282d78e4171bbff41d10df852dbaf09832fff5
 
-Package: libgomp
+Package: libgomp-8
 Architecture: arm
-Installed-Size: 512
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.9.x-1
-Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
-Homepage: https://gcc.gnu.org/projects/gomp/
-Depends: gcc-7
-Conflicts: libgomp
-Filename: dists/termux/extras/binary-arm/libgomp_4.9.x-1_arm.deb
-Size: 117152
-SHA256: f9a9f558a2e7c85a8c29a409bc993bb356a056128ea70739ab8b1b15aa0c1dba
-
-Package: libgomp
-Architecture: arm
-Installed-Size: 504
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.9.x-2
-Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
-Homepage: https://gcc.gnu.org/projects/gomp/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/libgomp_4.9.x-2_arm.deb
-Size: 116932
-SHA256: 5758dc3366011f93e22a7c3901adf36c3af77a9495f43763f8f8a1ad0b664486
-
-Package: libgomp
-Architecture: arm
-Installed-Size: 504
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.9.x-3
-Description: an implementation of OpenMP for the C, C++, and Fortran gnu compilers
-Homepage: https://gcc.gnu.org/projects/gomp/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/libgomp_4.9.x-3_arm.deb
-Size: 116860
-SHA256: ee4180c50f7b8f65eef2c63a5a27536eb93d665bbea1251a0aa5f54b5ef841db
-
-Package: libgomp
-Architecture: arm
-Installed-Size: 500
+Installed-Size: 244
 Maintainer: @its-pointless github
-Version: 4.9.x
-Description: openmp library for gcc and gfortran
+Version: 8.1.0
+Description: openmp library for gcc-8
 Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-arm/libgomp_4.9.x_arm.deb
-Size: 115884
-SHA256: 5b3ec0b2f41d79b29ca34cfefaed4dc63b918103aa6278b797eb17ce1afd626e
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-arm/libgomp-8_8.1.0_arm.deb
+Size: 66700
+SHA256: 5326eba25bf7415d2b3774285b2f9335b97c7896d6f96a1f98360cd804e9d5f5
 
 Package: libmaa-dev
 Architecture: arm
@@ -973,17 +1053,6 @@ Package: libsigsegv
 Architecture: arm
 Installed-Size: 16
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.11
-Description: GNU libsigsegv is a library for handling page faults in user mode
-Homepage: https://www.gnu.org/software/libsigsegv/
-Filename: dists/termux/extras/binary-arm/libsigsegv_2.11_arm.deb
-Size: 6636
-SHA256: b9950532736c1636022099ba216b553aaf30bac15063115915f00bdd389c9215
-
-Package: libsigsegv
-Architecture: arm
-Installed-Size: 16
-Maintainer: Fredrik Fornwall @fornwall
 Version: 2.12
 Description: GNU libsigsegv is a library for handling page faults in user mode
 Homepage: https://www.gnu.org/software/libsigsegv/
@@ -1024,8 +1093,8 @@ Description: Development files for libspice-protocol
 Homepage: https://www.spice-space.org/
 Depends: libspice-protocol
 Filename: dists/termux/extras/binary-arm/libspice-protocol-dev_0.12.13_arm.deb
-Size: 16980
-SHA256: aedda13741872c0cd940538ba1a392e4eb921260294e35d3af983a793f54ca5c
+Size: 17152
+SHA256: 198a5825c694339834236b27dcbd79b80c9becfd1be25e5d1333840292b174cc
 
 Package: libspice-protocol
 Architecture: arm
@@ -1035,8 +1104,8 @@ Version: 0.12.13
 Description: Remote access to virtual machines, protocol definitions
 Homepage: https://www.spice-space.org/
 Filename: dists/termux/extras/binary-arm/libspice-protocol_0.12.13_arm.deb
-Size: 984
-SHA256: 7b4864ec7ede31744aac23716457cb97d3b2cdfd200cf276e0646d10a3cb03b3
+Size: 976
+SHA256: 5346fa9ded21c5ddfae2e113d4b9eba177f857756191f6beeb85987149d30ffe
 
 Package: libspice-server-dev
 Architecture: arm
@@ -1050,6 +1119,18 @@ Filename: dists/termux/extras/binary-arm/libspice-server-dev_0.12.8_arm.deb
 Size: 6236
 SHA256: 4c353ee9291cc0aa01bf1fede2c007a0f1db1d8bf8333e49125a599f638975ac
 
+Package: libspice-server-dev
+Architecture: arm
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.14.0
+Description: Development files for libspice-server
+Homepage: https://www.spice-space.org/
+Depends: libspice-server
+Filename: dists/termux/extras/binary-arm/libspice-server-dev_0.14.0_arm.deb
+Size: 6932
+SHA256: c08a7dfc6f9ae0f8ee6a7ece5e18fc00d7f5249e6719b999cd846a4cb600e66a
+
 Package: libspice-server
 Architecture: arm
 Installed-Size: 720
@@ -1061,6 +1142,18 @@ Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
 Filename: dists/termux/extras/binary-arm/libspice-server_0.12.8_arm.deb
 Size: 253840
 SHA256: 70c12d5cff19fabe11238f2e7953a9353da4569f86fb4084c08f7e53243ec6b5
+
+Package: libspice-server
+Architecture: arm
+Installed-Size: 828
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.14.0
+Description: Remote access to virtual machines, server part
+Homepage: https://www.spice-space.org/
+Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
+Filename: dists/termux/extras/binary-arm/libspice-server_0.14.0_arm.deb
+Size: 290180
+SHA256: e49e9da168561b73ca49048a75bf9d74ef3183e317095029a56d1dac0a45bf2d
 
 Package: libssh2-dev
 Architecture: arm
@@ -1226,6 +1319,18 @@ Filename: dists/termux/extras/binary-arm/numpy_1.14.2-1_arm.deb
 Size: 2297380
 SHA256: a9558e76516f7c5c14d297b71f2e213d765583e3dddecd747c80818a0c768220
 
+Package: numpy
+Architecture: arm
+Installed-Size: 13944
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.3
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-arm/numpy_1.14.3_arm.deb
+Size: 2236176
+SHA256: eeaf3ad5091d29754fd87056be9e7698a3696887528e6193762e18552f00653f
+
 Package: ocaml
 Architecture: arm
 Installed-Size: 163788
@@ -1242,109 +1347,25 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.1-11
+Version: 4.2.2-1
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-11_arm.deb
-Size: 351260
-SHA256: 8edc5623738acad77209445ef17c0c3438361dc01e405f25d60d7b1537f36139
-
-Package: octave-dev
-Architecture: arm
-Installed-Size: 5644
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.1-12
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-12_arm.deb
-Size: 351136
-SHA256: a267389d54781dd30107cbfafa0322f6cb9dfd8c09c22cdc41de9d21c63dc376
-
-Package: octave-dev
-Architecture: arm
-Installed-Size: 5644
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.1-13
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-13_arm.deb
-Size: 351176
-SHA256: 54676b53f46cca0a289e73ebabdf984fbe381d28576b28edca51faa41fed6063
-
-Package: octave-dev
-Architecture: arm
-Installed-Size: 5644
-Maintainer: @its-pointless github
-Version: 4.2.1-6
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-6_arm.deb
-Size: 351496
-SHA256: c1cc279729338d5a98dd37763ba175582020f6d6b0c506ce849a7914e4f441ed
-
-Package: octave-dev
-Architecture: arm
-Installed-Size: 5644
-Maintainer: @its-pointless github
-Version: 4.2.1-8
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.1-8_arm.deb
-Size: 351440
-SHA256: fd3e937a03276c404cb88cf512692cf60506bd32a9dec2e297750fe073ea6217
-
-Package: octave-dev
-Architecture: arm
-Installed-Size: 5644
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.2_arm.deb
+Filename: dists/termux/extras/binary-arm/octave-dev_4.2.2-1_arm.deb
 Size: 351268
-SHA256: ee1275ec2fea99cde76638afee5e416c8bf10b841732b86d65e922d6abff3db9
+SHA256: 6f53738a2cab63d97b439cb58007fcd1ba635e318fc6d5c26d4c90fe8ddb3ddb
 
 Package: octave
 Architecture: arm
-Installed-Size: 31164
+Installed-Size: 30816
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.1-12
+Version: 4.2.2-1
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
-Filename: dists/termux/extras/binary-arm/octave_4.2.1-12_arm.deb
-Size: 5575912
-SHA256: 505df338f10093728c6c8e8569dbf2374ff82793b15d4012369f47223dc44ea3
-
-Package: octave
-Architecture: arm
-Installed-Size: 30632
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.1-13
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
-Filename: dists/termux/extras/binary-arm/octave_4.2.1-13_arm.deb
-Size: 5545728
-SHA256: 6241af4876027833e22d0dc3e054e16ab7029ed7141b0c60b06d1134c3c9d071
-
-Package: octave
-Architecture: arm
-Installed-Size: 30696
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran4, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, termux-exec
-Filename: dists/termux/extras/binary-arm/octave_4.2.2_arm.deb
-Size: 5553524
-SHA256: 51d7d336fd5e25a5811450a3ad662a2e95072b4b54e29980fe636f09d872894a
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo
+Filename: dists/termux/extras/binary-arm/octave_4.2.2-1_arm.deb
+Size: 5656044
+SHA256: 9419d4d27cbd1772fc2adfa3c25205b378913b32947e0931b8febf7666117984
 
 Package: opam
 Architecture: arm
@@ -1381,6 +1402,18 @@ Depends: libgfortran4
 Filename: dists/termux/extras/binary-arm/openblas_0.2.20-3_arm.deb
 Size: 2150144
 SHA256: 76ab7f3da203674b580e06024372d7de20e4e7436e50432016e3e1789bd6e88f
+
+Package: openblas
+Architecture: arm
+Installed-Size: 10536
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.20-5
+Description: blas
+Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-arm/openblas_0.2.20-5_arm.deb
+Size: 2124844
+SHA256: a82103aec1a7fd33d390159eea20407c5543d5b97482980ef01d3d318d1b2986
 
 Package: openldap-dev
 Architecture: arm
@@ -1462,6 +1495,18 @@ Filename: dists/termux/extras/binary-arm/python2-numpy_1.14.2-1_arm.deb
 Size: 2335544
 SHA256: df4483e13b231755e9ff32700f999f90dbc8c7ec874cfc523c9d2e4b1e420b9b
 
+Package: python2-numpy
+Architecture: arm
+Installed-Size: 14876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.14.3
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python2-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-arm/python2-numpy_1.14.3_arm.deb
+Size: 2347624
+SHA256: 6cb283cf8091cf5c08f5672f72f24b52c6b395e1e12427a65c1cf195b2999ec0
+
 Package: python2-scipy
 Architecture: arm
 Installed-Size: 42352
@@ -1473,6 +1518,30 @@ Depends: python2-numpy
 Filename: dists/termux/extras/binary-arm/python2-scipy_1.0.1_arm.deb
 Size: 9594388
 SHA256: 8d6723911535d391ec603fe4fd9a91be4a29e7f66ffe0b0f7f5d070dbcba3196
+
+Package: python2-scipy
+Architecture: arm
+Installed-Size: 43232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Filename: dists/termux/extras/binary-arm/python2-scipy_1.1.0_arm.deb
+Size: 9876728
+SHA256: 623fbd113a00f8c938858b553b73c202698491afb96cc9406aa0d7c8a51def1a
+
+Package: qemu-common
+Architecture: arm
+Installed-Size: 38536
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu fast processor emulator - common files
+Homepage: http://www.qemu.org
+Depends: glib, libutil, liblzo, libbz2, libnettle, ncurses, libjpeg-turbo, libcurl, libandroid-shmem, libpulseaudio, libsasl, libgnutls, libspice-server, libspice-protocol, libpixman, libpng
+Filename: dists/termux/extras/binary-arm/qemu-common_2.12.0_arm.deb
+Size: 4431992
+SHA256: 5f9d032852d676510c6da2de863ad7a024ca10f6ea96981d98e7ae027db141c8
 
 Package: qemu-common
 Architecture: arm
@@ -1488,6 +1557,18 @@ SHA256: 5f75a25a87088a785a636513e9e3f4ff8f0ee4780d04677a15265efb3c7886e7
 
 Package: qemu-guest-additions
 Architecture: arm
+Installed-Size: 360
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - sparc and sparc64 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-guest-additions_2.12.0_arm.deb
+Size: 120256
+SHA256: 56cd08c11cb33c31554028471a3c209a516e99136df3c26f3a00a766cce218ac
+
+Package: qemu-guest-additions
+Architecture: arm
 Installed-Size: 868
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1497,6 +1578,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-guest-additions_2.9.0_arm.deb
 Size: 210880
 SHA256: a51cba2cb2bde87aaa96c6ea1ee3e96e174c3e4d0486c4ad1676d0eed2a34dbf
+
+Package: qemu-system-alpha
+Architecture: arm
+Installed-Size: 8548
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - alpha system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-alpha_2.12.0_arm.deb
+Size: 2127112
+SHA256: cbd92debf9cfc838c26e95bd8abc1d661256648247d86895ac812de485a76aad
 
 Package: qemu-system-alpha
 Architecture: arm
@@ -1512,6 +1605,18 @@ SHA256: cd3965d227de2933f8140a4ac4fcdadf702c5fb5ee045e8908a155ce4e38bd7a
 
 Package: qemu-system-arm
 Architecture: arm
+Installed-Size: 19512
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - arm and aarch64 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-arm_2.12.0_arm.deb
+Size: 5310384
+SHA256: 817a63f6694f8d7def8b559f06f3e7c0ccf68f63686dc8ad207f72a94be9abc6
+
+Package: qemu-system-arm
+Architecture: arm
 Installed-Size: 12984
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1521,6 +1626,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-system-arm_2.9.0_arm.deb
 Size: 2451660
 SHA256: ed1665e6f756fac8a5ddf308b45cfb721b3a1445cc51e1499182a2b49bcaff55
+
+Package: qemu-system-cris
+Architecture: arm
+Installed-Size: 5640
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - cris system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-cris_2.12.0_arm.deb
+Size: 1595872
+SHA256: f9cf4835faffbd85dc726aef7f0ff0ceef206cb1dc1b59e69c11a3cbc949abc7
 
 Package: qemu-system-cris
 Architecture: arm
@@ -1536,6 +1653,18 @@ SHA256: f716d40c15e4431143a960e53d2b3deec481896f1e419927424168f2952b69a7
 
 Package: qemu-system-lm32
 Architecture: arm
+Installed-Size: 5784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - lm32 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-lm32_2.12.0_arm.deb
+Size: 1613804
+SHA256: 7e1778e04b050e7c5b5b982a3537533a3727489981a0f1dc6c4bb48316fd9718
+
+Package: qemu-system-lm32
+Architecture: arm
 Installed-Size: 2968
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1545,6 +1674,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-system-lm32_2.9.0_arm.deb
 Size: 1119184
 SHA256: 3ee5da2dce03b24366e980285b13214e4cffad21136edf5cd898740999e0f835
+
+Package: qemu-system-m68k
+Architecture: arm
+Installed-Size: 5808
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - m68k system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-m68k_2.12.0_arm.deb
+Size: 1650892
+SHA256: b295bd8b43aa42ae884cbd53c887fea65518be2cc0c4871bd847fde9b2181b6d
 
 Package: qemu-system-m68k
 Architecture: arm
@@ -1560,6 +1701,18 @@ SHA256: a7e7de075ed5e8c74701939b89e1b35790c629bb3a6b125c4436f5fbc9819ff1
 
 Package: qemu-system-microblaze
 Architecture: arm
+Installed-Size: 11352
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - microblaze and microblazeel system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-microblaze_2.12.0_arm.deb
+Size: 1791140
+SHA256: ed92c2dad624c0532a3d65b4820f9e18f5830ae965dd0d7e07ad94d85cf54031
+
+Package: qemu-system-microblaze
+Architecture: arm
 Installed-Size: 5976
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1569,6 +1722,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-system-microblaze_2.9.0_arm.deb
 Size: 1250968
 SHA256: 9547c25c842a6dffa47945164b4c2493b4227a247bd0a8ac989de7ac71668595
+
+Package: qemu-system-mips
+Architecture: arm
+Installed-Size: 36100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - mips, mips64, mipsel and mips64el system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-mips_2.12.0_arm.deb
+Size: 9129788
+SHA256: 1c6f49e41dea365dd3ec941e7a5d4a208ff7ffe28d9de41d8c5959aeb5710f9c
 
 Package: qemu-system-mips
 Architecture: arm
@@ -1584,6 +1749,18 @@ SHA256: 70348cd13558b243f65af9a73d7c268080909263939cbe9d06674fe98ff40d37
 
 Package: qemu-system-moxie
 Architecture: arm
+Installed-Size: 5616
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - moxie system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-moxie_2.12.0_arm.deb
+Size: 1581344
+SHA256: fc765901dd9d5f7128857e4ff0b3f886e105e5465f7b609299fd5464d060738c
+
+Package: qemu-system-moxie
+Architecture: arm
 Installed-Size: 2928
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1593,6 +1770,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-system-moxie_2.9.0_arm.deb
 Size: 1105188
 SHA256: 5295b9e4d8d98128e762fbfa5e3d967d1416c9d4db6cb29fc62d0371cac70c16
+
+Package: qemu-system-nios2
+Architecture: arm
+Installed-Size: 5592
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - nios2 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-nios2_2.12.0_arm.deb
+Size: 1571692
+SHA256: 0c9406a71bea0102b77b6f1f13f6ff9c4f938c6182f36e05c5befd56d5415945
 
 Package: qemu-system-nios2
 Architecture: arm
@@ -1608,6 +1797,18 @@ SHA256: cab1faedecebefa91783d912855c1701049175729aad35001e225d6b373507c9
 
 Package: qemu-system-or1k
 Architecture: arm
+Installed-Size: 5644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - or1k system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-or1k_2.12.0_arm.deb
+Size: 1582368
+SHA256: 8baa8c03293ff5ce64614b5ce7897c2c8c7187abb1be7602dd863f7a23cc552c
+
+Package: qemu-system-or1k
+Architecture: arm
 Installed-Size: 2928
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1617,6 +1818,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-system-or1k_2.9.0_arm.deb
 Size: 1101812
 SHA256: 0e5ae38cab8a05ade72f3acd56cbe77750303019bafc7ec1251e10e8809c0dd4
+
+Package: qemu-system-ppc
+Architecture: arm
+Installed-Size: 33068
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - ppc, ppc64 and ppcemb system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-ppc_2.12.0_arm.deb
+Size: 8051520
+SHA256: 2861bd754c6ae1e43d654f3eef129232a121d20b01be086eb8080d3393026a07
 
 Package: qemu-system-ppc
 Architecture: arm
@@ -1632,6 +1845,18 @@ SHA256: 5cb22bb9d9a347bf11f2ea51fc55a91d20edc25e05dd67222dd8b5a9f52b3b00
 
 Package: qemu-system-s390x
 Architecture: arm
+Installed-Size: 6424
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - s390x system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-s390x_2.12.0_arm.deb
+Size: 1872516
+SHA256: 14ed8f5c7b3630f05a13d3590be5270df669f8488dce82759c9910800467ecb9
+
+Package: qemu-system-s390x
+Architecture: arm
 Installed-Size: 3512
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1641,6 +1866,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-system-s390x_2.9.0_arm.deb
 Size: 1318416
 SHA256: ebaea03a5710898fe6cea872d3b98b1b9a06bf200465a6611c74f41bd031c58b
+
+Package: qemu-system-sh4
+Architecture: arm
+Installed-Size: 16516
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - sh4 and sh4eb system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-sh4_2.12.0_arm.deb
+Size: 4108768
+SHA256: f3805446d521e71403511d3b9e6afcbc7b50db1cff670a30b7f37cedafc23a87
 
 Package: qemu-system-sh4
 Architecture: arm
@@ -1656,6 +1893,18 @@ SHA256: 13cf6297c38bddc6aeaf3a15343a411d034df64b636f4eb704b496ab15099483
 
 Package: qemu-system-sparc
 Architecture: arm
+Installed-Size: 16324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - sparc and sparc64 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-sparc_2.12.0_arm.deb
+Size: 2751348
+SHA256: 7551482db9a7be6e845ba595c59ff45f52cfc6a89018b9a1e678256f4cc06619
+
+Package: qemu-system-sparc
+Architecture: arm
 Installed-Size: 10556
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1665,6 +1914,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-system-sparc_2.9.0_arm.deb
 Size: 2044312
 SHA256: fdca4aeaec8454cc763f4401a35cdeea5d7932edbcd697b347579482163e3a3b
+
+Package: qemu-system-tricore
+Architecture: arm
+Installed-Size: 5724
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - tricore system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-tricore_2.12.0_arm.deb
+Size: 1625164
+SHA256: 812c182cd97d7e7081a08608c65fd8fe7eaa085901d315c5615bfc4da7e149ae
 
 Package: qemu-system-tricore
 Architecture: arm
@@ -1680,6 +1941,18 @@ SHA256: 69a62f9a6d2adae9e5dc46a2bb6f720fa9fd376f5c6cd69cbd2298bdc9d45ffc
 
 Package: qemu-system-unicore32
 Architecture: arm
+Installed-Size: 5580
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - unicore32 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-unicore32_2.12.0_arm.deb
+Size: 1573228
+SHA256: 9eda708cf030b8ec440240899689fbd990215a6b2fa433d2bfc5104417e84b99
+
+Package: qemu-system-unicore32
+Architecture: arm
 Installed-Size: 2916
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1689,6 +1962,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-system-unicore32_2.9.0_arm.deb
 Size: 1099772
 SHA256: 18ec6b3bbffa0c15ca9fb8d44d66b3b34c3e12714bb50d2c8cd181ce62a01656
+
+Package: qemu-system-x86
+Architecture: arm
+Installed-Size: 21568
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - x86 and x86_64 system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-x86_2.12.0_arm.deb
+Size: 6913696
+SHA256: beed541eeaf011ea459baeca0e5a093db3149efc9b93e478c7d508d963ffcf5b
 
 Package: qemu-system-x86
 Architecture: arm
@@ -1704,6 +1989,18 @@ SHA256: 6978badc7febbb841f753edf91dca9aceb5bc20ed6a09fef2fe4b355031d86b2
 
 Package: qemu-system-xtensa
 Architecture: arm
+Installed-Size: 12128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - xtensa and xtensaeb system emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-system-xtensa_2.12.0_arm.deb
+Size: 1844440
+SHA256: 94dabf1de4dd7ab5cdfcc4b798d160ed5a52e27744b0d6c7e0a7372dab4a91e7
+
+Package: qemu-system-xtensa
+Architecture: arm
 Installed-Size: 5964
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1713,6 +2010,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-system-xtensa_2.9.0_arm.deb
 Size: 1275208
 SHA256: 9f91fc16cc87e1662c7c5edcdf5d6913b123b0cde115d8167f3b01c6e5af0d70
+
+Package: qemu-user-alpha
+Architecture: arm
+Installed-Size: 2904
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - alpha user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-alpha_2.12.0_arm.deb
+Size: 674888
+SHA256: 1983b8a0eda4c5c102efae6f14a6d9267ff3536f0196a8491f82d49596d503f7
 
 Package: qemu-user-alpha
 Architecture: arm
@@ -1728,6 +2037,18 @@ SHA256: 9ea1315a1812a9206def1d136d90b27ce4e2045127e7a2af39344718ee705d5a
 
 Package: qemu-user-arm
 Architecture: arm
+Installed-Size: 9596
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - arm and aarch64 user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-arm_2.12.0_arm.deb
+Size: 1193084
+SHA256: f935ae44803e2aee915dac7529651faa5a9dc2cc08bcca37c7acc69969994492
+
+Package: qemu-user-arm
+Architecture: arm
 Installed-Size: 0
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1737,6 +2058,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-user-arm_2.9.0_arm.deb
 Size: 796
 SHA256: 999b931bbd41b5ea3ff4cd5d7f0b6676c99e9ee14916a998a35e2dab17746e23
+
+Package: qemu-user-cris
+Architecture: arm
+Installed-Size: 2876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - cris user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-cris_2.12.0_arm.deb
+Size: 673476
+SHA256: d98bb278b38666ed02d462f1ce345452df210d1b22eb75340bfbd2a75e16776b
 
 Package: qemu-user-cris
 Architecture: arm
@@ -1752,6 +2085,18 @@ SHA256: f9e0b4d62a6c45267bc5b5722d6c3c2cb76efb30f4d487a751b87713185d03c0
 
 Package: qemu-user-hppa
 Architecture: arm
+Installed-Size: 2908
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - hppa user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-hppa_2.12.0_arm.deb
+Size: 679124
+SHA256: 305082610ab24b553794a3ed556b04e1df3fc7d5a55629db738726850ea34ba0
+
+Package: qemu-user-hppa
+Architecture: arm
 Installed-Size: 0
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1761,6 +2106,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-user-hppa_2.9.0_arm.deb
 Size: 792
 SHA256: 693669b8c86d1a04e09b7315fb4372ee6d805596a20c223907f59a4cc76c15bb
+
+Package: qemu-user-m68k
+Architecture: arm
+Installed-Size: 3064
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - m68k user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-m68k_2.12.0_arm.deb
+Size: 734308
+SHA256: 2b385da7e8df4a75b0c1943ded28afd5414c60679a4a8005a054ce7d2462adf1
 
 Package: qemu-user-m68k
 Architecture: arm
@@ -1776,6 +2133,18 @@ SHA256: 0cc2b11c418cde4c503505844f87cc8cd7884096a47f722c0f21bde19dcfb3f4
 
 Package: qemu-user-microblaze
 Architecture: arm
+Installed-Size: 5736
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - microblaze(el) user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-microblaze_2.12.0_arm.deb
+Size: 779208
+SHA256: 17eb10675780b0c8c73a72509f9ba507dcc1f2b315e4a3128ab4ee92e84cf176
+
+Package: qemu-user-microblaze
+Architecture: arm
 Installed-Size: 0
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1785,6 +2154,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-user-microblaze_2.9.0_arm.deb
 Size: 804
 SHA256: a7ff017aca29485691c09dd56d13452f39d62ad01054755743dc4ffedf5fa742
+
+Package: qemu-user-mips
+Architecture: arm
+Installed-Size: 19884
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - mips(64)(el) user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-mips_2.12.0_arm.deb
+Size: 1718464
+SHA256: 2c529584e2bd562d3a60c2e1c25ca85595d822a30fc0c4e3c333e15d9d79681b
 
 Package: qemu-user-mips
 Architecture: arm
@@ -1800,6 +2181,18 @@ SHA256: 30ae0fef8cb46bb6fcecbe874c228e272bf0bf02c2ecb8cb3a179b8635215da1
 
 Package: qemu-user-nios2
 Architecture: arm
+Installed-Size: 2844
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - nios2 user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-nios2_2.12.0_arm.deb
+Size: 654304
+SHA256: b1e38faada927fe59ece8758519e10cfdeafc69cb38cdd359a61c5e17de285a2
+
+Package: qemu-user-nios2
+Architecture: arm
 Installed-Size: 0
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1809,6 +2202,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-user-nios2_2.9.0_arm.deb
 Size: 792
 SHA256: f22c57407a5f7428a947177d257e3e03001fd318090ae2d16132f0655cd5b165
+
+Package: qemu-user-or1k
+Architecture: arm
+Installed-Size: 2840
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - or1k user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-or1k_2.12.0_arm.deb
+Size: 657232
+SHA256: 3b0a988c40fce19c5e18e089270d3b9a1c265c58406596fdbb5aeea0c83aaf96
 
 Package: qemu-user-or1k
 Architecture: arm
@@ -1824,6 +2229,18 @@ SHA256: 378ecc55bdc0c8bce04c80867378085d8d83efd9a42df708650c3ff869ffa921
 
 Package: qemu-user-ppc
 Architecture: arm
+Installed-Size: 15188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - ppc and ppc64 user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-ppc_2.12.0_arm.deb
+Size: 1565748
+SHA256: e474e31d0a8a35e1ba8a0e192c562c2b8a67f2de80b084ee75254210b61521db
+
+Package: qemu-user-ppc
+Architecture: arm
 Installed-Size: 0
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1833,6 +2250,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-user-ppc_2.9.0_arm.deb
 Size: 800
 SHA256: ce2168d578054f35cb57d38bddbfbed4b718317a8774b07a0e4bf27f5d9aa8f7
+
+Package: qemu-user-s390x
+Architecture: arm
+Installed-Size: 3128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - s390x user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-s390x_2.12.0_arm.deb
+Size: 738144
+SHA256: a8d3eebd9c2880756a3cd3321ba3f951544d3994787a17c79adbd544e07a9e95
 
 Package: qemu-user-s390x
 Architecture: arm
@@ -1848,6 +2277,18 @@ SHA256: eb0e3c6a71c98f7c9ef84f44abee72b24e638c38d77eb79bc33ed86072766fbf
 
 Package: qemu-user-sh4
 Architecture: arm
+Installed-Size: 5788
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - sh4(eb) user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-sh4_2.12.0_arm.deb
+Size: 780360
+SHA256: cfe146b315f13c44665fae69753879941e69ce61b46751eb3f6a23b8c99272cb
+
+Package: qemu-user-sh4
+Architecture: arm
 Installed-Size: 0
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1857,6 +2298,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-user-sh4_2.9.0_arm.deb
 Size: 796
 SHA256: fee990c63f8cec65918acd061261885b14295e7c13a12ce26c9d3723f0be68aa
+
+Package: qemu-user-sparc
+Architecture: arm
+Installed-Size: 9048
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - sparc and sparc64 user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-sparc_2.12.0_arm.deb
+Size: 1045444
+SHA256: 552d2d8fa7b941356fb9029f4a14a921995510c2a9643c7ef27b06a16ccd0743
 
 Package: qemu-user-sparc
 Architecture: arm
@@ -1872,6 +2325,18 @@ SHA256: 79396fe0d0615a7c26d7d855786770d654d3e1c7db923ccb0d654b73fc0a8278
 
 Package: qemu-user-tilegx
 Architecture: arm
+Installed-Size: 2848
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - tilegx user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-tilegx_2.12.0_arm.deb
+Size: 664948
+SHA256: 0ebd3248f2c198c5414ec73295190e9cf89a906e93cebee5d78264ba4a22a570
+
+Package: qemu-user-tilegx
+Architecture: arm
 Installed-Size: 0
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1884,6 +2349,18 @@ SHA256: d14be3c890fd021e61cba58d839a6b62da8d1ca673c04a0b39ff6c83fa6dc92a
 
 Package: qemu-user-x86
 Architecture: arm
+Installed-Size: 6620
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - i386 and x86_64 user emulation
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-user-x86_2.12.0_arm.deb
+Size: 1072124
+SHA256: 43af223a150a5233b85c6bf0f035f68f494d524aa5e1b3ac544a0ebab761955b
+
+Package: qemu-user-x86
+Architecture: arm
 Installed-Size: 0
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.9.0
@@ -1893,6 +2370,18 @@ Depends: qemu-common
 Filename: dists/termux/extras/binary-arm/qemu-user-x86_2.9.0_arm.deb
 Size: 800
 SHA256: e109ef1b24e1e277d28b716151bc2877e74da565609313d3507b997da9d1828f
+
+Package: qemu-utils
+Architecture: arm
+Installed-Size: 2380
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12.0
+Description: Qemu emulator - utilities
+Homepage: http://www.qemu.org
+Depends: qemu-common
+Filename: dists/termux/extras/binary-arm/qemu-utils_2.12.0_arm.deb
+Size: 613468
+SHA256: 886333782043dda3758c2651dfc84dc6df101dd33491dbd32b30533cf638220f
 
 Package: qemu-utils
 Architecture: arm
@@ -1943,6 +2432,18 @@ SHA256: a55f8cd6a2444d55129f3eaa5dc52b8f4cad2e11dff783ffd378813ec91f6700
 
 Package: qrupdate
 Architecture: arm
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.2-2
+Description: a Fortran library for fast updates of QR and Cholesky decompositions
+Homepage: https://sourceforge.net/projects/qrupdate/
+Depends: openblas
+Filename: dists/termux/extras/binary-arm/qrupdate_1.1.2-2_arm.deb
+Size: 44444
+SHA256: ad09329ea7c4283fb520b09478892520cde8f35cb92b83086e641dba924b709f
+
+Package: qrupdate
+Architecture: arm
 Installed-Size: 144
 Maintainer: @its-pointless github
 Version: 1.1.2
@@ -1951,42 +2452,6 @@ Homepage: https://sourceforge.net/projects/qrupdate/
 Filename: dists/termux/extras/binary-arm/qrupdate_1.1.2_arm.deb
 Size: 54616
 SHA256: b6e9f029878d2d7b691a6103226ef484e1a4072e09ebb42f9a21cbcee9304ead
-
-Package: quantlib-dev
-Architecture: arm
-Installed-Size: 7876
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10-1
-Description: Development files for quantlib
-Homepage: http://quantlib.org/index.shtml
-Depends: quantlib
-Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10-1_arm.deb
-Size: 549104
-SHA256: 237b07fa13b8294e3b840732879843664b38361213bc943aff72e664a936e145
-
-Package: quantlib-dev
-Architecture: arm
-Installed-Size: 7876
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10-2
-Description: Development files for quantlib
-Homepage: http://quantlib.org/index.shtml
-Depends: quantlib
-Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10-2_arm.deb
-Size: 548584
-SHA256: a20254ba87e1bfdb8d5ef5d5601eeb065cf1bd6a4457596580facabe43c4b37c
-
-Package: quantlib-dev
-Architecture: arm
-Installed-Size: 7880
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.10.1
-Description: Development files for quantlib
-Homepage: http://quantlib.org/index.shtml
-Depends: quantlib
-Filename: dists/termux/extras/binary-arm/quantlib-dev_1.10.1_arm.deb
-Size: 548952
-SHA256: 8adfc089f4c5a6d099d606a9e1f3c3edeed91282cfdd2c4bbb3be3b818562e0a
 
 Package: quantlib-dev
 Architecture: arm
@@ -2000,6 +2465,18 @@ Filename: dists/termux/extras/binary-arm/quantlib-dev_1.11_arm.deb
 Size: 552024
 SHA256: db47cb4d34b750680d3090f1c0f4ce09c045c634d90dd99f025403a798a0653f
 
+Package: quantlib-dev
+Architecture: arm
+Installed-Size: 7976
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12.1
+Description: Development files for quantlib
+Homepage: http://quantlib.org
+Depends: quantlib,boost-dev
+Filename: dists/termux/extras/binary-arm/quantlib-dev_1.12.1_arm.deb
+Size: 558984
+SHA256: ecd15c262083994337d07df1489217fcf9a0d5728541752d05ac26e505e4cac1
+
 Package: quantlib
 Architecture: arm
 Installed-Size: 30476
@@ -2010,6 +2487,17 @@ Homepage: http://quantlib.org
 Filename: dists/termux/extras/binary-arm/quantlib_1.11_arm.deb
 Size: 8481916
 SHA256: b3e9eb3a26d3596a026926626bae2e93684340c4542bc8bc8b54fa40346c2d6e
+
+Package: quantlib
+Architecture: arm
+Installed-Size: 36268
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12.1
+Description: a comprehensive software framework for quantitative finance
+Homepage: http://quantlib.org
+Filename: dists/termux/extras/binary-arm/quantlib_1.12.1_arm.deb
+Size: 9447360
+SHA256: 49db9dc79a1d5245a703c37460b7dc414c3727e73c5062ce3b731874c8cb14df
 
 Package: r-cran-rcpp
 Architecture: arm
@@ -2195,18 +2683,6 @@ SHA256: f356a3c3f44897e84ea2e4f7981334a3dce4eac5dde2fc79ec7b26b747856ea9
 
 Package: racket
 Architecture: arm
-Installed-Size: 31868
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.11
-Description: Full-spectrum programming language going beyond Lisp and Scheme
-Homepage: https://racket-lang.org
-Depends: libffi, libandroid-support
-Filename: dists/termux/extras/binary-arm/racket_6.11_arm.deb
-Size: 5548692
-SHA256: da57c1947eb7e1cc912ec2a60e6dc1ecadff6ecb45656f2fc741ca7746ce9200
-
-Package: racket
-Architecture: arm
 Installed-Size: 27100
 Maintainer: Fredrik Fornwall @fornwall
 Version: 6.12
@@ -2230,18 +2706,6 @@ SHA256: ad25e680b8ccce4f601a2be2b66a71efdf3f6269875d72c3e33daca1c4aaa906
 
 Package: rust-rls-nightly
 Architecture: arm
-Installed-Size: 8616
-Maintainer: @its-pointless
-Version: 1.27-1
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.27-1_arm.deb
-Size: 3047528
-SHA256: 767348e68cb27e5dbf4d1331c5fc588ccce71b84b96ff453a9cb2817f254e1a5
-
-Package: rust-rls-nightly
-Architecture: arm
 Installed-Size: 10196
 Maintainer: @its-pointless
 Version: 1.27-2
@@ -2251,18 +2715,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.27-2_arm.deb
 Size: 3526484
 SHA256: be0fa97385c6a5ccf0c6f11d0a09e0bb1c5ea8483ea3c0ce92784a6a0e01a489
-
-Package: rust-rls-nightly
-Architecture: arm
-Installed-Size: 8792
-Maintainer: @its-pointless
-Version: 1.27
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.27_arm.deb
-Size: 3078816
-SHA256: 5f344e8c4d7da31075c1e69ab5eea3c3a081d2e4127d6aebc99872879c478fc8
 
 Package: rust-rls
 Architecture: arm
@@ -2278,19 +2730,6 @@ SHA256: e196f7e393d97bbd65729f6a842f1280dd95abe93362ad41a4d6a7e8f39b58cb
 
 Package: rustc-nightly
 Architecture: arm
-Installed-Size: 142760
-Maintainer: @its-pointless
-Version: 1.27-1
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.27-1_arm.deb
-Size: 49693664
-SHA256: 71f8ab85b11836bd7ac00ea2ed8978dbf43127b9a601cbd5adbe99d2a697b8a0
-
-Package: rustc-nightly
-Architecture: arm
 Installed-Size: 136912
 Maintainer: @its-pointless
 Version: 1.27-2
@@ -2301,19 +2740,6 @@ Provides: rustc
 Filename: dists/termux/extras/binary-arm/rustc-nightly_1.27-2_arm.deb
 Size: 48799696
 SHA256: b4e105792c7b2729aee453aff78d3d3fd6ff59aa6c7301fe828af504c4159149
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 140316
-Maintainer: @its-pointless
-Version: 1.27
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.27_arm.deb
-Size: 49679104
-SHA256: f3c0b60a2b5c056caed0942665ea9b1ac250392bb1499b3d2015a65d655bd2d7
 
 Package: rustc
 Architecture: arm
@@ -2423,6 +2849,18 @@ Filename: dists/termux/extras/binary-arm/scipy_1.0.1_arm.deb
 Size: 9573264
 SHA256: 69a4c5a4f113b0e1418ef13b8f4e28fbbbad2b4a85f4571dc08ffcede4de7834
 
+Package: scipy
+Architecture: arm
+Installed-Size: 41372
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Filename: dists/termux/extras/binary-arm/scipy_1.1.0_arm.deb
+Size: 9607948
+SHA256: 62adbcc5b058568500dba6f7647c243627a90eb7f2b4f53f00ae2f23eb53a3cd
+
 Package: suitesparse-dev
 Architecture: arm
 Installed-Size: 796
@@ -2435,6 +2873,18 @@ Filename: dists/termux/extras/binary-arm/suitesparse-dev_5.1.0_arm.deb
 Size: 103464
 SHA256: 2aeb8a7b6dba798c4c4d9dc5a229fc6d7167732069c13fa4531e71f9968deb8b
 
+Package: suitesparse-dev
+Architecture: arm
+Installed-Size: 1040
+Maintainer:  @its-pointless github
+Version: 5.2.0
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-arm/suitesparse-dev_5.2.0_arm.deb
+Size: 126216
+SHA256: e14698c062e1e42b67bab6706e8d1cc0dfd678736655db868f7393a73e02ac17
+
 Package: suitesparse
 Architecture: arm
 Installed-Size: 2488
@@ -2446,6 +2896,18 @@ Depends: openblas
 Filename: dists/termux/extras/binary-arm/suitesparse_5.1.0_arm.deb
 Size: 781688
 SHA256: 874d1a8e5cfc52a5586923dca3165588205e91e9f6b4caad58563843211ca1b1
+
+Package: suitesparse
+Architecture: arm
+Installed-Size: 7892
+Maintainer:  @its-pointless github
+Version: 5.2.0
+Description: a suite of sparse matrix software
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Filename: dists/termux/extras/binary-arm/suitesparse_5.2.0_arm.deb
+Size: 1059036
+SHA256: a3b6378dba2d562cb1c22ae25e8dbf7939518d80c86fc72a088de8a72a794bab
 
 Package: tzdata
 Architecture: arm
