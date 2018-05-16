@@ -230,6 +230,18 @@ Filename: dists/termux/extras/binary-aarch64/cargo_0.26.0_aarch64.deb
 Size: 1712292
 SHA256: a3ef3852dcaf7d2abf26851d1a967de7e8d14acff6fda317c3f45a4a52b48f9b
 
+Package: cargo
+Architecture: aarch64
+Installed-Size: 7228
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc, libgit2
+Filename: dists/termux/extras/binary-aarch64/cargo_1.26.0_aarch64.deb
+Size: 1703076
+SHA256: 5b2ad202f42f25f69bb03ca12235f5d8ca213088f023c7315cfbd5afb7dc359d
+
 Package: cksfv
 Architecture: aarch64
 Installed-Size: 28
@@ -2457,6 +2469,19 @@ Filename: dists/termux/extras/binary-aarch64/quantlib_1.12.1_aarch64.deb
 Size: 8450816
 SHA256: 1ed82505934cead00ae0fdb305fbe91c8e5ca0cc44c7099d0f146b3ec306f056
 
+Package: r-base
+Architecture: aarch64
+Installed-Size: 60684
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Replaces: r-cran
+Filename: dists/termux/extras/binary-aarch64/r-base_3.5.0_aarch64.deb
+Size: 39220060
+SHA256: a3a18cae71045ca79994b6fd06c921fbc055991a2e9328ef511ca68328cd178a
+
 Package: r-cran-rcpp
 Architecture: aarch64
 Installed-Size: 10212
@@ -2520,6 +2545,18 @@ SHA256: 025d2cd59ab8cd68b9cdd6d6a4d06013ae56a47973306722d515a14d59ffbfd1
 
 Package: r-cran-rcpp
 Architecture: aarch64
+Installed-Size: 11420
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.16-2
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.16-2_aarch64.deb
+Size: 3312376
+SHA256: cdd4403f5508edcbd97fefaa07e30dec784cf856ef7c7ece3bf8acce62a54db4
+
+Package: r-cran-rcpp
+Architecture: aarch64
 Installed-Size: 11288
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.12.16
@@ -2579,6 +2616,18 @@ Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.4-2_aarch64.de
 Size: 797880
 SHA256: 763c599f656c5f58f08a3e1bcb7ed93a4fe88a9e87a6e4494f30882c5f9d46c6
 
+Package: r-cran-rquantlib
+Architecture: aarch64
+Installed-Size: 4020
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4-3
+Description: GNU R package interfacing the QuantLib finance library
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.4-3_aarch64.deb
+Size: 862564
+SHA256: 1e206c9d23ed042e2d0c286fc545da76dc29ccc02dc590dd32d9bf0d400aa5a9
+
 Package: r-cran-stringi
 Architecture: aarch64
 Installed-Size: 1068
@@ -2602,6 +2651,18 @@ Depends: r-cran, libicu
 Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.1.7_aarch64.deb
 Size: 568272
 SHA256: 3fc06137d0a7f303aa25c4508b2d42c376db2daa8af35f48862b207694c3043a
+
+Package: r-cran-stringi
+Architecture: aarch64
+Installed-Size: 1148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.2-1
+Description: GNU R character string processing facilities
+Homepage: https://cran.r-project.org/
+Depends: r-base, libicu
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.2.2-1_aarch64.deb
+Size: 639564
+SHA256: 7b6b003d04c342463a578297f4d59fc658c77e25953be7cb8d30e682129ee2e3
 
 Package: r-cran-stringi
 Architecture: aarch64
@@ -2651,6 +2712,18 @@ Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-1-1_aarch64.deb
 Size: 870104
 SHA256: 1eb947a9cffc6d4bfc7020be9f9cfce7a017d98b676cbaf41ef1748e9c1a02a6
 
+Package: r-cran-zoo
+Architecture: aarch64
+Installed-Size: 1432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-1-2
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-1-2_aarch64.deb
+Size: 1040920
+SHA256: 267e6d5713c44eebf78f19905f9a8162972c833a3e189d2ad69f605d0d07a7aa
+
 Package: r-cran
 Architecture: aarch64
 Installed-Size: 60036
@@ -2674,6 +2747,18 @@ Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz
 Filename: dists/termux/extras/binary-aarch64/r-cran_3.4.4_aarch64.deb
 Size: 39059452
 SHA256: 4f2f9108db0daff0d1c06a4468ede481206f3d6b6544bf824104dd02dadb1b43
+
+Package: r-cran
+Architecture: aarch64
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0
+Description: install r-base instead
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-aarch64/r-cran_3.5.0_aarch64.deb
+Size: 832
+SHA256: ef79c95517e801b1a8abef44d8aea315916f479fe1881ca73017e0992a607a7c
 
 Package: racket
 Architecture: aarch64
@@ -2721,6 +2806,18 @@ Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.27-2_aarch64.deb
 Size: 3598388
 SHA256: c3d661c1eb13ab4e144f6ac9f68d8faf60d465885aa6ff532410c96b9af61a54
 
+Package: rust-rls-nightly
+Architecture: aarch64
+Installed-Size: 14212
+Maintainer: @its-pointless
+Version: 1.28
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.28_aarch64.deb
+Size: 3339908
+SHA256: 9cbde0ae0a303f19a6a184639ec8c6dc100ebd1cbfa728a483655699fe019c03
+
 Package: rust-rls
 Architecture: aarch64
 Installed-Size: 13216
@@ -2732,6 +2829,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-aarch64/rust-rls_1.25.0_aarch64.deb
 Size: 3206176
 SHA256: 6079cf3f0071c052db84d1b4eb323e545536b530651e4b27ada43f96f3256f82
+
+Package: rust-rls
+Architecture: aarch64
+Installed-Size: 13212
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-aarch64/rust-rls_1.26.0_aarch64.deb
+Size: 3062480
+SHA256: 5fdcabd97b727bc84e9ed3d6a2de80978643de633e31bd6d9d8746e96a122f51
 
 Package: rustc-nightly
 Architecture: aarch64
@@ -2746,6 +2855,19 @@ Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.27-2_aarch64.deb
 Size: 49034900
 SHA256: c470ac9b6f342fc6d4eac5d6b4641961a30a650255a797ca6f868c6e57be0fcf
 
+Package: rustc-nightly
+Architecture: aarch64
+Installed-Size: 154024
+Maintainer: @its-pointless
+Version: 1.28
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.28_aarch64.deb
+Size: 49803760
+SHA256: 147b7fc397abc42fe3325ee2dffa5f20885c9e4a74df477e46b53176bd10a68b
+
 Package: rustc
 Architecture: aarch64
 Installed-Size: 141580
@@ -2757,6 +2879,18 @@ Depends: clang
 Filename: dists/termux/extras/binary-aarch64/rustc_1.25.0_aarch64.deb
 Size: 46039556
 SHA256: f57913efcd6e92b1f925f95f5aee71e71d900550c543c971a3468ac75594abd7
+
+Package: rustc
+Architecture: aarch64
+Installed-Size: 152956
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: rust toolchain
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-aarch64/rustc_1.26.0_aarch64.deb
+Size: 47729128
+SHA256: 94a2ebdf1bf4bccd19fad00fa1d7c123f8e2ddb1565456f3bda76dd06a0ee68e
 
 Package: rustfmt-nightly
 Architecture: aarch64
@@ -2794,6 +2928,18 @@ Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.27_aarch64.deb
 Size: 1307692
 SHA256: 46df28fba589ed672a0d29a5404182751dcf8153954e401ec8f6102e16380b31
 
+Package: rustfmt-nightly
+Architecture: aarch64
+Installed-Size: 5768
+Maintainer: @its-pointless
+Version: 1.28
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.28_aarch64.deb
+Size: 1379428
+SHA256: c3bb4a394a9792d65622225b2b6cafd3c28651846f6838dc6d653e573af09a1f
+
 Package: rustfmt
 Architecture: aarch64
 Installed-Size: 5092
@@ -2805,6 +2951,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-aarch64/rustfmt_1.25.0_aarch64.deb
 Size: 1229708
 SHA256: fe51136a7a7061592a21439b2d6649d438d98bd2dbaf5300f677fe19e602b1a0
+
+Package: rustfmt
+Architecture: aarch64
+Installed-Size: 4960
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-aarch64/rustfmt_1.26.0_aarch64.deb
+Size: 1208456
+SHA256: 70b864bd18eb95c701d7b6f9ad9d7421c1d1e596bd0ed814f71f42666179a775
 
 Package: sc-im
 Architecture: aarch64

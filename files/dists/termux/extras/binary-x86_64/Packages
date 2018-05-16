@@ -219,6 +219,18 @@ Filename: dists/termux/extras/binary-x86_64/cargo_0.26.0_x86_64.deb
 Size: 1950420
 SHA256: 0165a8cbe256e3b6edb1c7aa24c825f4f5d82c3d476fc1711d89e7381cddfa15
 
+Package: cargo
+Architecture: x86_64
+Installed-Size: 8192
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc, libgit2
+Filename: dists/termux/extras/binary-x86_64/cargo_1.26.0_x86_64.deb
+Size: 1970392
+SHA256: bb62a46896dae761d0d3cec458d4d4089a1c39e19c068a45c1bed4189b5aa65e
+
 Package: cksfv
 Architecture: x86_64
 Installed-Size: 24
@@ -2244,6 +2256,19 @@ Filename: dists/termux/extras/binary-x86_64/quantlib_1.12.1_x86_64.deb
 Size: 9260120
 SHA256: 4bc2b88dfe830939960637e34d343af55fffea59ecd3b93fb9dd72be779b48a4
 
+Package: r-base
+Architecture: x86_64
+Installed-Size: 61992
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Replaces: r-cran
+Filename: dists/termux/extras/binary-x86_64/r-base_3.5.0_x86_64.deb
+Size: 39922428
+SHA256: 1e6508e716c96ffb3e7e1acc5e650a81145a94247cfd6beba34a14eb0b0d1dcd
+
 Package: r-cran-rcpp
 Architecture: x86_64
 Installed-Size: 11908
@@ -2282,6 +2307,18 @@ SHA256: d334c03e4f7bbcf3f53225a3e4985b6050d42387a3d07c6a0b0d034835577de1
 
 Package: r-cran-rcpp
 Architecture: x86_64
+Installed-Size: 11444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.16-2
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_0.12.16-2_x86_64.deb
+Size: 3333400
+SHA256: 9615326c8e6a543ea3ef2dd77e71886883c54725685f5772803ac98852fb2fc6
+
+Package: r-cran-rcpp
+Architecture: x86_64
 Installed-Size: 11316
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.12.16
@@ -2316,6 +2353,18 @@ Filename: dists/termux/extras/binary-x86_64/r-cran-rquantlib_0.4.4-2_x86_64.deb
 Size: 893284
 SHA256: 11d20cbd23859e324060477f9eac29d1467dfccb2d74c4afbd3bc517734d04c0
 
+Package: r-cran-rquantlib
+Architecture: x86_64
+Installed-Size: 4084
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4-3
+Description: GNU R package interfacing the QuantLib finance library
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-x86_64/r-cran-rquantlib_0.4.4-3_x86_64.deb
+Size: 956136
+SHA256: 255a0193bc03c6b1dfb90ad1ccbdacaab46338dfda5e520e8c33c30e300791f6
+
 Package: r-cran-stringi
 Architecture: x86_64
 Installed-Size: 1068
@@ -2339,6 +2388,18 @@ Depends: r-cran, libicu
 Filename: dists/termux/extras/binary-x86_64/r-cran-stringi_1.1.7_x86_64.deb
 Size: 591192
 SHA256: 78cec25f4d7f8f71e381c18df192ee3c7704e38cf7d79c7e9f7a3e54569b28e2
+
+Package: r-cran-stringi
+Architecture: x86_64
+Installed-Size: 1176
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.2-1
+Description: GNU R character string processing facilities
+Homepage: https://cran.r-project.org/
+Depends: r-base, libicu
+Filename: dists/termux/extras/binary-x86_64/r-cran-stringi_1.2.2-1_x86_64.deb
+Size: 665052
+SHA256: 6388c7e1dbdaf45e54402a93565b6fd1ff340f204b37f16833100b6ea2e844ec
 
 Package: r-cran-stringi
 Architecture: x86_64
@@ -2388,6 +2449,18 @@ Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-1-1_x86_64.deb
 Size: 871416
 SHA256: c79b41f95dcb63d73d9ab91ad140864f9f0195216515de2bd542f6ed946a7c8e
 
+Package: r-cran-zoo
+Architecture: x86_64
+Installed-Size: 1432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-1-2
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-1-2_x86_64.deb
+Size: 1043016
+SHA256: 47a445ab2b133089e65a11c972ac47c081b023e0fc4c638f462b3a39547fd384
+
 Package: r-cran
 Architecture: x86_64
 Installed-Size: 61344
@@ -2411,6 +2484,18 @@ Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz
 Filename: dists/termux/extras/binary-x86_64/r-cran_3.4.4_x86_64.deb
 Size: 39804140
 SHA256: 5b171a9e79db7bd65c9059c1ca1a9bb1eba0e3500e55abdd81dc379f61ac0a07
+
+Package: r-cran
+Architecture: x86_64
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0
+Description: install r-base instead
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-x86_64/r-cran_3.5.0_x86_64.deb
+Size: 836
+SHA256: eea266c8d93ea930364b8eee4c85588c508f213d2c99f517c13c454b7dfd2fa9
 
 Package: racket
 Architecture: x86_64
@@ -2447,6 +2532,18 @@ Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.27-2_x86_64.deb
 Size: 4203616
 SHA256: f240c94108c90777ad8aa67f9dd74b61c417f5a685ef69023c923ae12a555596
 
+Package: rust-rls-nightly
+Architecture: x86_64
+Installed-Size: 16168
+Maintainer: @its-pointless
+Version: 1.28
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.28_x86_64.deb
+Size: 3948428
+SHA256: ba0d2b56c33b95417a85acc1e7062203e2e9ee5e910b0e55c8515b9b71be948f
+
 Package: rust-rls
 Architecture: x86_64
 Installed-Size: 14800
@@ -2458,6 +2555,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-x86_64/rust-rls_1.25.0_x86_64.deb
 Size: 3674648
 SHA256: 2da3c2b207dafd78d2306c0179508d664643e7f5ada1419a484bb008c271796d
+
+Package: rust-rls
+Architecture: x86_64
+Installed-Size: 15056
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-x86_64/rust-rls_1.26.0_x86_64.deb
+Size: 3589812
+SHA256: 5665858d176853083785551148c2ff687676a98da61fe467f36fddca5be5578e
 
 Package: rustc-nightly
 Architecture: x86_64
@@ -2472,6 +2581,19 @@ Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.27-2_x86_64.deb
 Size: 51527760
 SHA256: 1135c9e1f5fde385d9fb2fd76bfc163d153f3a2ff630473c8bd10f4392afee1f
 
+Package: rustc-nightly
+Architecture: x86_64
+Installed-Size: 168872
+Maintainer: @its-pointless
+Version: 1.28
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.28_x86_64.deb
+Size: 52342708
+SHA256: e8d75faee0fbea87f203c4580e431645ba6e1f8233f81c7801b4cd6ce56d265d
+
 Package: rustc
 Architecture: x86_64
 Installed-Size: 145188
@@ -2483,6 +2605,18 @@ Depends: clang
 Filename: dists/termux/extras/binary-x86_64/rustc_1.25.0_x86_64.deb
 Size: 47498468
 SHA256: a5c1c14b3abdb0947840c8ad1647bdc8ab963b8b2e55baf4a7c17dcd014f4285
+
+Package: rustc
+Architecture: x86_64
+Installed-Size: 168056
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: rust toolchain
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-x86_64/rustc_1.26.0_x86_64.deb
+Size: 49689848
+SHA256: ab556d99fd5e3884effc52ea02ac49e3eb81a4f45f4d8ddc0bfc4d20ac4c4a01
 
 Package: rustfmt-nightly
 Architecture: x86_64
@@ -2520,6 +2654,18 @@ Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.27_x86_64.deb
 Size: 1531120
 SHA256: 95e516bc9124600db6d236c61a0bf57d90f0741478c0d7b74fc20ba97b8317d7
 
+Package: rustfmt-nightly
+Architecture: x86_64
+Installed-Size: 6420
+Maintainer: @its-pointless
+Version: 1.28
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.28_x86_64.deb
+Size: 1620380
+SHA256: fe1549da283134b2c6579a6be04028615c5c9c954b6144ad35d41db57559535e
+
 Package: rustfmt
 Architecture: x86_64
 Installed-Size: 5660
@@ -2531,6 +2677,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-x86_64/rustfmt_1.25.0_x86_64.deb
 Size: 1431684
 SHA256: 1b4545e7db4c08ff88bfbe8ccc8723444cd4ca77352cff284ca33817a941b844
+
+Package: rustfmt
+Architecture: x86_64
+Installed-Size: 5540
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-x86_64/rustfmt_1.26.0_x86_64.deb
+Size: 1413016
+SHA256: 3e2e51ea30a0014c6b1040c9ed1f698b2494d1f8d87cc3abde87139150c32861
 
 Package: sc-im
 Architecture: x86_64

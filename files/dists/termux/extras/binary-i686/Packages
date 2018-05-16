@@ -208,6 +208,18 @@ Filename: dists/termux/extras/binary-i686/cargo_0.26.0_i686.deb
 Size: 2287764
 SHA256: 3b554f6028bafb5e0f167e5e7a9590b84f7d89ac372320f96707be1b8eedee8e
 
+Package: cargo
+Architecture: i686
+Installed-Size: 9228
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc, libgit2
+Filename: dists/termux/extras/binary-i686/cargo_1.26.0_i686.deb
+Size: 2202932
+SHA256: 955e538387438e22b045506657d0c7ac2db7c50a48af0d683de6fe0f31e3a5c4
+
 Package: cksfv
 Architecture: i686
 Installed-Size: 24
@@ -2255,6 +2267,19 @@ Filename: dists/termux/extras/binary-i686/quantlib_1.12.1_i686.deb
 Size: 8907776
 SHA256: 22d76c93ce3fc1b45a598825f1ef29b94cbda21a4a17aa4f878f597f5a68acbb
 
+Package: r-base
+Architecture: i686
+Installed-Size: 61172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
+Replaces: r-cran
+Filename: dists/termux/extras/binary-i686/r-base_3.5.0_i686.deb
+Size: 39592752
+SHA256: 32bb5a3431115b1dda75c9e91cf655debfac786228a84b80d3f32c893715ef53
+
 Package: r-cran-rcpp
 Architecture: i686
 Installed-Size: 11288
@@ -2293,6 +2318,18 @@ SHA256: fee1ad35a772f49f71746da56366c1f13f34cc1e437524dde1dd380a78ce7775
 
 Package: r-cran-rcpp
 Architecture: i686
+Installed-Size: 11444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.16-2
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.16-2_i686.deb
+Size: 3331616
+SHA256: 0dcd79d95c0ea01e18dee6ba8b2ccc353ad0c2fa87e3949ea2bf1a0ecffb79b5
+
+Package: r-cran-rcpp
+Architecture: i686
 Installed-Size: 11316
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.12.16
@@ -2327,6 +2364,18 @@ Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.4-2_i686.deb
 Size: 820308
 SHA256: cf506385a6ebd1a378f1b530813c9e92611c07f25bc8dfc7d02d49ca98d963c3
 
+Package: r-cran-rquantlib
+Architecture: i686
+Installed-Size: 3816
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4-3
+Description: GNU R package interfacing the QuantLib finance library
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.4-3_i686.deb
+Size: 884920
+SHA256: fefdc3846150298c92db6473b069de315fa697cac2806f0573309a68b3338f76
+
 Package: r-cran-stringi
 Architecture: i686
 Installed-Size: 1060
@@ -2350,6 +2399,18 @@ Depends: r-cran, libicu
 Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.1.7_i686.deb
 Size: 589520
 SHA256: 845b9489cdb908d16c6b0cd702a55a50ab58c9fd9d836ad7f88b04abfec45557
+
+Package: r-cran-stringi
+Architecture: i686
+Installed-Size: 1188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.2-1
+Description: GNU R character string processing facilities
+Homepage: https://cran.r-project.org/
+Depends: r-base, libicu
+Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.2.2-1_i686.deb
+Size: 668868
+SHA256: 8f741fa7c878c0dbff866062f9653843ccde281e42b09416416d6e0ff6c65808
 
 Package: r-cran-stringi
 Architecture: i686
@@ -2399,6 +2460,18 @@ Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-1-1_i686.deb
 Size: 870600
 SHA256: 10ab4cc933d9bfbf50e325e042c02e726251ecf1f8815962d65df75ce97f7977
 
+Package: r-cran-zoo
+Architecture: i686
+Installed-Size: 1432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-1-2
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-1-2_i686.deb
+Size: 1042444
+SHA256: fb2e6255669670c4e316d76b6a4697b7002af223660d9fb97e6390eb2f76b713
+
 Package: r-cran
 Architecture: i686
 Installed-Size: 60308
@@ -2422,6 +2495,18 @@ Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz
 Filename: dists/termux/extras/binary-i686/r-cran_3.4.4_i686.deb
 Size: 39399020
 SHA256: 35b614954aa237e3282154e71d3a9f3890ae00e447120473ba21745e4854959a
+
+Package: r-cran
+Architecture: i686
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0
+Description: install r-base instead
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-i686/r-cran_3.5.0_i686.deb
+Size: 836
+SHA256: 0dfc60063e7fc00a209f8ee322eb3a5c406e2158135a4d29e5a045995b157921
 
 Package: racket
 Architecture: i686
@@ -2458,6 +2543,18 @@ Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.27-2_i686.deb
 Size: 4637376
 SHA256: 12ba1f04735e605de36d1205d4a435117bd344ddd8714f1cc8090d83f18adb4f
 
+Package: rust-rls-nightly
+Architecture: i686
+Installed-Size: 18112
+Maintainer: @its-pointless
+Version: 1.28
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.28_i686.deb
+Size: 4321644
+SHA256: 1f115893c2c51ccb6f3b1221530ff0429452b0736aad3d9137cd262982edffd0
+
 Package: rust-rls
 Architecture: i686
 Installed-Size: 17136
@@ -2469,6 +2566,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-i686/rust-rls_1.25.0_i686.deb
 Size: 4163172
 SHA256: 9e35caf1b219e02329d8d99cfcf9dff395e7a478c0b77b048e739e58c06d175b
+
+Package: rust-rls
+Architecture: i686
+Installed-Size: 17288
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-i686/rust-rls_1.26.0_i686.deb
+Size: 4007720
+SHA256: 9cb2360115b08414d7e1085bdd3e16f9fa6e137074f27ac201e883c9196d3eed
 
 Package: rustc-nightly
 Architecture: i686
@@ -2483,6 +2592,19 @@ Filename: dists/termux/extras/binary-i686/rustc-nightly_1.27-2_i686.deb
 Size: 60794976
 SHA256: ba6decc9ba5c5ae310068e8b67a1082cc4b724870e52b5c19c614ac41bacde2b
 
+Package: rustc-nightly
+Architecture: i686
+Installed-Size: 171924
+Maintainer: @its-pointless
+Version: 1.28
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: clang
+Provides: rustc
+Filename: dists/termux/extras/binary-i686/rustc-nightly_1.28_i686.deb
+Size: 53570536
+SHA256: ac5ec4e02f7c7ba091c11a11287de5517c0872976feaf1711221ba30fe1b2aff
+
 Package: rustc
 Architecture: i686
 Installed-Size: 146820
@@ -2494,6 +2616,18 @@ Depends: clang
 Filename: dists/termux/extras/binary-i686/rustc_1.25.0_i686.deb
 Size: 48448416
 SHA256: 6d9a695085d3e252b0a371dbd754080b33f308a68876f0321ce49588974ba437
+
+Package: rustc
+Architecture: i686
+Installed-Size: 169452
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: rust toolchain
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-i686/rustc_1.26.0_i686.deb
+Size: 50713916
+SHA256: d680d033abe84cb3cad78dd0b7c5cb34a5a4c37a903a8c169fa26b08046c8f59
 
 Package: rustfmt-nightly
 Architecture: i686
@@ -2531,6 +2665,18 @@ Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.27_i686.deb
 Size: 1692620
 SHA256: 8561ab326559916d1775d3227bfbdb5f2276f2c2f234fa4cab0fafbeb835bf29
 
+Package: rustfmt-nightly
+Architecture: i686
+Installed-Size: 7112
+Maintainer: @its-pointless
+Version: 1.28
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.28_i686.deb
+Size: 1757424
+SHA256: 97accd34e213361518f2d1961c580f46cf9e3263dcc19dc90e1c3ad29084a443
+
 Package: rustfmt
 Architecture: i686
 Installed-Size: 6392
@@ -2542,6 +2688,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-i686/rustfmt_1.25.0_i686.deb
 Size: 1580332
 SHA256: d2347a0e26893c7b9bfac6790f031e41d7ad12d9c65d3c94bc3ba02b5dbf95c6
+
+Package: rustfmt
+Architecture: i686
+Installed-Size: 6188
+Maintainer: @its-pointless
+Version: 1.26.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-i686/rustfmt_1.26.0_i686.deb
+Size: 1555084
+SHA256: e60df682fa38ec59820143af5486111b8d51f2aabd113713cec4e764d8969e3f
 
 Package: sc-im
 Architecture: i686
