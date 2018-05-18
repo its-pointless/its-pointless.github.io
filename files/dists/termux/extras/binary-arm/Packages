@@ -70,38 +70,15 @@ SHA256: 47205107c74cb3b9dfa996ef5fdaa027ff8957a8669e912ab3d39d17dda517c9
 
 Package: bastet
 Architecture: arm
-Installed-Size: 28
+Installed-Size: 168
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.41
-Description: bastard tetris
-Homepage: http://fph.altervista.org/prog/bastet.html
-Filename: dists/termux/extras/binary-arm/bastet_0.41_arm.deb
-Size: 9656
-SHA256: dc0c175dfc509cf35c36993922b5653c23c015115bbcaa0834b91b4c01d3e2ff
-
-Package: bastet
-Architecture: arm
-Installed-Size: 164
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.43.2-1
+Version: 0.43.2-2
 Description: bastard tetris
 Homepage: http://fph.altervista.org/prog/bastet.html
 Depends: boost, ncurses
-Filename: dists/termux/extras/binary-arm/bastet_0.43.2-1_arm.deb
-Size: 57040
-SHA256: 42d5131dc52d0a36eb6495d453e4574a13bebb543cf1056ada51f5c3ccfc48ad
-
-Package: bastet
-Architecture: arm
-Installed-Size: 160
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.43.2
-Description: bastard tetris
-Homepage: http://fph.altervista.org/prog/bastet.html
-Depends: boost, ncurses
-Filename: dists/termux/extras/binary-arm/bastet_0.43.2_arm.deb
-Size: 56072
-SHA256: 98e5a298e622ed90bbd5d46474fe571e76c077c08d3db36e0e2dcb4df9e65aa4
+Filename: dists/termux/extras/binary-arm/bastet_0.43.2-2_arm.deb
+Size: 61020
+SHA256: 7a65494239ea2c9ddccd7c432c7e550dd588827a30b0e777f5aea5401ba09daa
 
 Package: blis-dev
 Architecture: arm
