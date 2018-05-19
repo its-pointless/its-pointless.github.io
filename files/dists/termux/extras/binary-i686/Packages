@@ -1815,6 +1815,19 @@ Package: r-base
 Architecture: i686
 Installed-Size: 61172
 Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0-1
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Replaces: r-cran
+Filename: dists/termux/extras/binary-i686/r-base_3.5.0-1_i686.deb
+Size: 39585116
+SHA256: 3e6c361e6f71e81c81c106bd7c204ed9ad0dcb954414ba97c11f161297897a3d
+
+Package: r-base
+Architecture: i686
+Installed-Size: 61172
+Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0
 Description: a freely available language and environment for statistical computing and graphics
 Homepage: https://cran.r-project.org/
@@ -1883,30 +1896,6 @@ Depends: r-base
 Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-1-2_i686.deb
 Size: 1042444
 SHA256: fb2e6255669670c4e316d76b6a4697b7002af223660d9fb97e6390eb2f76b713
-
-Package: r-cran
-Architecture: i686
-Installed-Size: 60308
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.4-1
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-i686/r-cran_3.4.4-1_i686.deb
-Size: 39122868
-SHA256: 0f5878e5076eb0ae397d63376479d3409b5387bac7c9fa83f298f983cda1e6ac
-
-Package: r-cran
-Architecture: i686
-Installed-Size: 61456
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.4
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Filename: dists/termux/extras/binary-i686/r-cran_3.4.4_i686.deb
-Size: 39399020
-SHA256: 35b614954aa237e3282154e71d3a9f3890ae00e447120473ba21745e4854959a
 
 Package: r-cran
 Architecture: i686
