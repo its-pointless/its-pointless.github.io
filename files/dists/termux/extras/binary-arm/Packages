@@ -2030,6 +2030,19 @@ SHA256: 49db9dc79a1d5245a703c37460b7dc414c3727e73c5062ce3b731874c8cb14df
 
 Package: r-base
 Architecture: arm
+Installed-Size: 60440
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0-1
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Replaces: r-cran
+Filename: dists/termux/extras/binary-arm/r-base_3.5.0-1_arm.deb
+Size: 39327740
+SHA256: 589ba385ee560cbb6183fdd5e9451f7664ee95ce3c351fa540e93dc57e129661
+
+Package: r-base
+Architecture: arm
 Installed-Size: 60408
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0
