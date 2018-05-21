@@ -1306,15 +1306,15 @@ SHA256: eeaf3ad5091d29754fd87056be9e7698a3696887528e6193762e18552f00653f
 
 Package: ocaml
 Architecture: arm
-Installed-Size: 163788
+Installed-Size: 203164
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.05.0
-Description: Programming language supporting functional, imperative and object-oriented styles
+Version: 4.05.0-1
+Description: OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
 Homepage: https://ocaml.org
 Depends: opam
-Filename: dists/termux/extras/binary-arm/ocaml_4.05.0_arm.deb
-Size: 36984320
-SHA256: c581bb93971ec436ce818818dd3c1d6fb124354f79ea1d1de35b301cd1dba675
+Filename: dists/termux/extras/binary-arm/ocaml_4.05.0-1_arm.deb
+Size: 47840388
+SHA256: b6cfa2f65f04fdbda2a7df543e8260c50fc6272a54e9d081117d78b1e6589e69
 
 Package: octave-dev
 Architecture: arm
@@ -1342,15 +1342,15 @@ SHA256: c6ce70c53c62d94c064f6383cf4ee4e884729a93eee13668d2e26fb7c2d7b96e
 
 Package: opam
 Architecture: arm
-Installed-Size: 12092
+Installed-Size: 13360
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.2.1
+Version: 1.2.2.1-1
 Description: OPAM is a source-based package manager for OCaml.
 Homepage: http://www.ocaml.org
-Depends: wget, curl, git, patch, tar, gzip, bzip2, xz-utils, rsync, termux-exec
-Filename: dists/termux/extras/binary-arm/opam_1.2.2.1_arm.deb
-Size: 1914324
-SHA256: 84815b616ab38d9d595b2ec3537dc33b9c01cb114905b171f7a2c85206d6eba8
+Depends: termux-exec
+Filename: dists/termux/extras/binary-arm/opam_1.2.2.1-1_arm.deb
+Size: 2049852
+SHA256: a9f1262da87a0f9e330d2867b8df1d4f6ac72fe63647a612aad00e0c965ff490
 
 Package: openblas
 Architecture: arm
