@@ -1436,14 +1436,15 @@ SHA256: 908a76fab6354044fe57981b2588e7890edc8512dd7b80f587d9970b1bf9c044
 
 Package: povray
 Architecture: arm
-Installed-Size: 24432
+Installed-Size: 24420
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.7.0.7
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-arm/povray_3.7.0.7_arm.deb
-Size: 10988212
-SHA256: ca73fda8614a970d7f38d8293d777f2de12fb424f3f866362733c5abc45f11cf
+Version: 3.7.0.7-1
+Description:  Persistence of Vision Raytracer
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Filename: dists/termux/extras/binary-arm/povray_3.7.0.7-1_arm.deb
+Size: 10983384
+SHA256: 2d6e12faaa97b9967c3ab8923677685a10ce5215c47180ea2d05473443465925
 
 Package: proxychains-ng
 Architecture: arm
