@@ -526,6 +526,17 @@ Filename: dists/termux/extras/binary-aarch64/indent_2.2.11_aarch64.deb
 Size: 54524
 SHA256: 9bf49cff9aa6cdee10a8641acf26fb338d9fb8f217b7bcf0cef64cf1af78aa92
 
+Package: jbuilder
+Architecture: aarch64
+Installed-Size: 3844
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.beta20
+Description: ocaml dune jbuiler
+Homepage: https://github.com/ocaml/dune/
+Filename: dists/termux/extras/binary-aarch64/jbuilder_1.0.beta20_aarch64.deb
+Size: 823468
+SHA256: 6c4525c7e0c62986af5f910c8155ba5046d84e8f5f7ab47160826b0ea510e09d
+
 Package: julia-devprev
 Architecture: aarch64
 Installed-Size: 153676
@@ -1230,6 +1241,18 @@ Depends: openblas, python-dev, libcrypt-dev
 Filename: dists/termux/extras/binary-aarch64/numpy_1.14.3_aarch64.deb
 Size: 2306492
 SHA256: d0f2f11052ac209d03f949b37624dd28c91ad44b94817ddba788c3a3dbd89bf7
+
+Package: ocaml
+Architecture: aarch64
+Installed-Size: 221424
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.05.0-1
+Description: OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
+Homepage: https://ocaml.org
+Depends: opam
+Filename: dists/termux/extras/binary-aarch64/ocaml_4.05.0-1_aarch64.deb
+Size: 48490320
+SHA256: fc9cafd39638120c68be47ad6733419e5bb037e0ba946f094871bef95e478e5a
 
 Package: ocaml
 Architecture: aarch64
