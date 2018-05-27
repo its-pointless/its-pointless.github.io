@@ -1101,6 +1101,30 @@ Filename: dists/termux/extras/binary-aarch64/libtommath_1.0.1_aarch64.deb
 Size: 23300
 SHA256: 5bfd619e6b5138ea7f287cac85adb6acab258ddb9fb8f6a468984ccedc66d411
 
+Package: llvm-libunwind-dev
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: Development files for llvm-libunwind
+Homepage: https://github.com/llvm-mirror/libunwind
+Depends: llvm-libunwind
+Filename: dists/termux/extras/binary-aarch64/llvm-libunwind-dev_6.0.0_aarch64.deb
+Size: 7996
+SHA256: 725c02f8b60602c5cec1d32784ffd25cae0ae30b1d0ccf5b9cf85f7652f2f6ce
+
+Package: llvm-libunwind
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: llvm libunwind
+Homepage: https://github.com/llvm-mirror/libunwind
+Conflicts: libunwind
+Filename: dists/termux/extras/binary-aarch64/llvm-libunwind_6.0.0_aarch64.deb
+Size: 10884
+SHA256: 52362c2d736a2150ad5cd710207578b7fc88c27080acc58dc1f09724815c3088
+
 Package: mailutils-dev
 Architecture: aarch64
 Installed-Size: 688

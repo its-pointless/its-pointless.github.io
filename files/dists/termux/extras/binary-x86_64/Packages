@@ -963,6 +963,30 @@ Filename: dists/termux/extras/binary-x86_64/libtommath_1.0.1_x86_64.deb
 Size: 29124
 SHA256: 1d76c53f0ea5d58d4317e1e6950d3c10db79f2cc1dabdbfab15c87047f7e3981
 
+Package: llvm-libunwind-dev
+Architecture: x86_64
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: Development files for llvm-libunwind
+Homepage: https://github.com/llvm-mirror/libunwind
+Depends: llvm-libunwind
+Filename: dists/termux/extras/binary-x86_64/llvm-libunwind-dev_6.0.0_x86_64.deb
+Size: 8000
+SHA256: 0dfa55b03b34faf4d474be81366eb39117bd9866554070994f1d65b3f2d05c21
+
+Package: llvm-libunwind
+Architecture: x86_64
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: llvm libunwind
+Homepage: https://github.com/llvm-mirror/libunwind
+Conflicts: libunwind
+Filename: dists/termux/extras/binary-x86_64/llvm-libunwind_6.0.0_x86_64.deb
+Size: 11744
+SHA256: 4d461609588be3246ccd16f7854aea967ad307a8426136266ebd3d81897b6afb
+
 Package: mksh
 Architecture: x86_64
 Installed-Size: 448
