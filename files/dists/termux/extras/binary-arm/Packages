@@ -103,29 +103,6 @@ Filename: dists/termux/extras/binary-arm/blis_0.2.2_arm.deb
 Size: 441048
 SHA256: e150d6ca9948821768301ffe8d98e70f1c2f9d47cb2d874fcee608881c7c5939
 
-Package: brotli-dev
-Architecture: arm
-Installed-Size: 96
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.3
-Description: Development files for brotli
-Homepage: https://github.com/google/brotli
-Depends: brotli
-Filename: dists/termux/extras/binary-arm/brotli-dev_1.0.3_arm.deb
-Size: 12596
-SHA256: bb4ce6e63405b135829354f9d7f34d0d4ae54d6a6ef8046d39af4a8c21c61299
-
-Package: brotli
-Architecture: arm
-Installed-Size: 652
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.3
-Description: lossless compression algorithm and format (command line utility)
-Homepage: https://github.com/google/brotli
-Filename: dists/termux/extras/binary-arm/brotli_1.0.3_arm.deb
-Size: 245144
-SHA256: 588d6bda6bb372a6cec8cfa819faf6e23b7c431d8a86ebec03468c3a75123b8b
-
 Package: bthread-dev
 Architecture: arm
 Installed-Size: 4

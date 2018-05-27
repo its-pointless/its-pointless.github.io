@@ -103,29 +103,6 @@ Filename: dists/termux/extras/binary-aarch64/blis_0.2.2_aarch64.deb
 Size: 335356
 SHA256: 95b2c52f80055c06571561e4d655587d41204657d54ad71113ab807727589c1d
 
-Package: brotli-dev
-Architecture: aarch64
-Installed-Size: 96
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.3
-Description: Development files for brotli
-Homepage: https://github.com/google/brotli
-Depends: brotli
-Filename: dists/termux/extras/binary-aarch64/brotli-dev_1.0.3_aarch64.deb
-Size: 12596
-SHA256: 3910157bbffc7896ad8911985d7256c8db46191241c411b3b3d9e99a5d723cee
-
-Package: brotli
-Architecture: aarch64
-Installed-Size: 724
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.3
-Description: lossless compression algorithm and format (command line utility)
-Homepage: https://github.com/google/brotli
-Filename: dists/termux/extras/binary-aarch64/brotli_1.0.3_aarch64.deb
-Size: 232272
-SHA256: 7721eb61b72981b6ca9f26affdd6a599898ee07c57f9964070cac1ccaae9c173
-
 Package: bthread-dev
 Architecture: aarch64
 Installed-Size: 4

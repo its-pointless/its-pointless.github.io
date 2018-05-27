@@ -92,29 +92,6 @@ Filename: dists/termux/extras/binary-i686/blis_0.2.2_i686.deb
 Size: 389504
 SHA256: 2cd8c34662dcf85d677c78c834329f794420a17096759a083d96bde57856be91
 
-Package: brotli-dev
-Architecture: i686
-Installed-Size: 96
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.3
-Description: Development files for brotli
-Homepage: https://github.com/google/brotli
-Depends: brotli
-Filename: dists/termux/extras/binary-i686/brotli-dev_1.0.3_i686.deb
-Size: 12600
-SHA256: a2bd145612bd6e574af8c4ab2d38f368079a79d7ab842f8def98ce0b93d151d1
-
-Package: brotli
-Architecture: i686
-Installed-Size: 720
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.3
-Description: lossless compression algorithm and format (command line utility)
-Homepage: https://github.com/google/brotli
-Filename: dists/termux/extras/binary-i686/brotli_1.0.3_i686.deb
-Size: 245684
-SHA256: 0257ca2aab513fd3d139227a243ab0f0fef0d5107b8683691ac1f20f4aebc585
-
 Package: bthread-dev
 Architecture: i686
 Installed-Size: 4
