@@ -700,23 +700,12 @@ Package: libatomic-ops-dev
 Architecture: arm
 Installed-Size: 756
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.6.2
+Version: 7.6.4
 Description: A library for atomic operations
 Homepage: http://www.hboehm.info/gc/
-Filename: dists/termux/extras/binary-arm/libatomic-ops-dev_7.6.2_arm.deb
-Size: 56624
-SHA256: ced743e049907069b3b0e54779397ba4fded05cdfaa8f4e41a1211528ee3b4c0
-
-Package: libatomic
-Architecture: arm
-Installed-Size: 20
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: dynamic library for atomic
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-arm/libatomic_7.3.0_arm.deb
-Size: 4828
-SHA256: c7515a28c7862a6c272545de0edb14ce214f173bf0e715cd8aed88fdb292f152
+Filename: dists/termux/extras/binary-arm/libatomic-ops-dev_7.6.4_arm.deb
+Size: 56784
+SHA256: ae2261e993c0910966ddaa6c5817595b4e12fddb453ae24bc0d27c8ae9094260
 
 Package: libboost-python
 Architecture: arm

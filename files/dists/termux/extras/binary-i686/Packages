@@ -542,6 +542,20 @@ Filename: dists/termux/extras/binary-i686/julia-devprev_0.7.0-3_i686.deb
 Size: 17817840
 SHA256: fe3f9478b96d61dd99cd7e55ba86cc53c60afbb5441b5b353b7368096facd7b0
 
+Package: julia-devprev
+Architecture: i686
+Installed-Size: 135972
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.0-4
+Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
+Conflicts: julia
+Replaces: julia
+Filename: dists/termux/extras/binary-i686/julia-devprev_0.7.0-4_i686.deb
+Size: 18688596
+SHA256: 3b414a63c01ff7e2bcd25af9397a31675bb802b0a7e01eba9854ca2852b637e7
+
 Package: keystone-dev
 Architecture: i686
 Installed-Size: 48
@@ -569,23 +583,12 @@ Package: libatomic-ops-dev
 Architecture: i686
 Installed-Size: 756
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.6.2
+Version: 7.6.4
 Description: A library for atomic operations
 Homepage: http://www.hboehm.info/gc/
-Filename: dists/termux/extras/binary-i686/libatomic-ops-dev_7.6.2_i686.deb
-Size: 56188
-SHA256: f16b8d6db4f8cf4562c38185f10477acf4ac61f5d535e16b6fd043134f57b45c
-
-Package: libatomic
-Architecture: i686
-Installed-Size: 24
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: dynamic library for atomic
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libatomic_7.3.0_i686.deb
-Size: 7240
-SHA256: 4924894c7f2e1e149bf49dfa7c3d52d4b14bd9e73de791a36f8ab341ad1c43d8
+Filename: dists/termux/extras/binary-i686/libatomic-ops-dev_7.6.4_i686.deb
+Size: 56632
+SHA256: f6b8de967b8e28bd4a66e987b47a456d9a3944dced0caa5b135edafaee86b4f2
 
 Package: libboost-python
 Architecture: i686

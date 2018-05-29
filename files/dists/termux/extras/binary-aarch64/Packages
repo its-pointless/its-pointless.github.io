@@ -581,23 +581,12 @@ Package: libatomic-ops-dev
 Architecture: aarch64
 Installed-Size: 756
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.6.2
+Version: 7.6.4
 Description: A library for atomic operations
 Homepage: http://www.hboehm.info/gc/
-Filename: dists/termux/extras/binary-aarch64/libatomic-ops-dev_7.6.2_aarch64.deb
-Size: 56548
-SHA256: 61bf6aea430a7644e5d3a3810742039346cb882db7354eb37bd3d5a3c6c6d29f
-
-Package: libatomic
-Architecture: aarch64
-Installed-Size: 24
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: dynamic library for atomic
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libatomic_7.3.0_aarch64.deb
-Size: 5128
-SHA256: 6a5d4a5f38a6546002b6a13dc5e376cb88875ce94b65f0f57ef65f2170c29829
+Filename: dists/termux/extras/binary-aarch64/libatomic-ops-dev_7.6.4_aarch64.deb
+Size: 56784
+SHA256: 0c429e034bf37429969ada74aef984464778de7792244c6042890ef23206e481
 
 Package: libboost-python
 Architecture: aarch64
