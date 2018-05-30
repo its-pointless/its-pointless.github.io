@@ -25,157 +25,47 @@ SHA256: 5dc9be306a27e4db41c41272ec175a5f439c65524f2ecdc9a3155e1afee23993
 
 Package: rust-docs-nightly
 Architecture: all
-Installed-Size: 281552
+Installed-Size: 300620
 Maintainer: @its-pointless
-Version: 1.27-1
+Version: 1.28-1
 Description: Rust language documentation
 Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.27-1_all.deb
-Size: 9978532
-SHA256: 1e7a82c5906ca7d9b09d2a908588aa373f31c383097ffe34a215345446b2234f
-
-Package: rust-docs-nightly
-Architecture: all
-Installed-Size: 283920
-Maintainer: @its-pointless
-Version: 1.27-2
-Description: Rust language documentation
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.27-2_all.deb
-Size: 9576644
-SHA256: 004986ec5c7a7ea0320d8799738879fbf5c49cc8fcab5277b369e7eede29a21e
-
-Package: rust-docs-nightly
-Architecture: all
-Installed-Size: 263628
-Maintainer: @its-pointless
-Version: 1.27
-Description: Rust language documentation
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.27_all.deb
-Size: 9652836
-SHA256: 90b73db1129e8b7e202073ce9b1768b7d70c8f03032b46bbc5f315f56f9a99aa
-
-Package: rust-docs-nightly
-Architecture: all
-Installed-Size: 287112
-Maintainer: @its-pointless
-Version: 1.28
-Description: Rust language documentation
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.28_all.deb
-Size: 10212976
-SHA256: 002f960e460dfe2e9da9269cc63209108fb1bcc9f9efe4f982ce5e5fbbe54325
+Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.28-1_all.deb
+Size: 11738776
+SHA256: 5eff47b2ccfb26395d09dc0abc564f2c47c0c06b8094bdd87ea87e17a2a074ac
 
 Package: rust-docs
 Architecture: all
-Installed-Size: 132084
+Installed-Size: 239220
 Maintainer: @its-pointless
-Version: 1.22.1
+Version: 1.26.1
 Description: Rust language documentation
 Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs_1.22.1_all.deb
-Size: 6079016
-SHA256: 5bed1029498694576534908c8f55f6e0f624d018bc82215c9ca5501d54f71459
-
-Package: rust-docs
-Architecture: all
-Installed-Size: 135208
-Maintainer: @its-pointless
-Version: 1.23.0
-Description: Rust language documentation
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs_1.23.0_all.deb
-Size: 5919072
-SHA256: ae58c8fbe61c6f466d356d68712845800996a1765b1fbb9608a407365c756838
-
-Package: rust-docs
-Architecture: all
-Installed-Size: 145648
-Maintainer: @its-pointless
-Version: 1.24.1
-Description: Rust language documentation
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs_1.24.1_all.deb
-Size: 6009668
-SHA256: e5a11aa69fbbb420db41a44b34b0c4243440231db78dcd7377331345015eab44
-
-Package: rust-docs
-Architecture: all
-Installed-Size: 158540
-Maintainer: @its-pointless
-Version: 1.25.0
-Description: Rust language documentation
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs_1.25.0_all.deb
-Size: 6673488
-SHA256: 9c2c667e315c9bfcad4c58260f4dd1308151a46402f0da63ce3159e9011a4637
-
-Package: rust-docs
-Architecture: all
-Installed-Size: 240292
-Maintainer: @its-pointless
-Version: 1.26.0
-Description: Rust language documentation
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs_1.26.0_all.deb
-Size: 7461244
-SHA256: 911c66cba29b4d9f438f6d26322e445a22dc61a9da02f2aff37a8345ee74f60b
+Filename: dists/termux/extras/binary-all/rust-docs_1.26.1_all.deb
+Size: 7842064
+SHA256: 5b98171c7fd1ac5065129e01039ce2ffa887bf1c34a8d9d1bfeae0f28f27a231
 
 Package: rust-nightly-wasm32-unknown-unknown
 Architecture: all
-Installed-Size: 53664
+Installed-Size: 50376
 Maintainer: @its-pointless
-Version: 1.27-1
+Version: 1.28-1
 Description: rust std for wasm32-unknown-unknown target
 Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.27-1_all.deb
-Size: 10995200
-SHA256: e2c463d4a5da25dd21572dcc88dc2c23eee8fcf3414c3be2bb6fc36e417fd576
-
-Package: rust-nightly-wasm32-unknown-unknown
-Architecture: all
-Installed-Size: 49924
-Maintainer: @its-pointless
-Version: 1.27-2
-Description: rust std for wasm32-unknown-unknown target
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.27-2_all.deb
-Size: 10743860
-SHA256: ad997ad36e7d51f6211e5d7900d424f5fb706aacbda9c67acbd3b4dd49fa9486
-
-Package: rust-nightly-wasm32-unknown-unknown
-Architecture: all
-Installed-Size: 51376
-Maintainer: @its-pointless
-Version: 1.27
-Description: rust std for wasm32-unknown-unknown target
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.27_all.deb
-Size: 10845456
-SHA256: b831d9214edcb3c518875684d6b9f53602cc7956b2d210883a818527f8456c87
-
-Package: rust-nightly-wasm32-unknown-unknown
-Architecture: all
-Installed-Size: 40240
-Maintainer: @its-pointless
-Version: 1.28
-Description: rust std for wasm32-unknown-unknown target
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.28_all.deb
-Size: 10627916
-SHA256: db5e1d81c0630082714a1d5b15c11e3786bbfc62b06852b67fd6af5c1111e263
+Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.28-1_all.deb
+Size: 10717488
+SHA256: ca32d7be6d394024e4083e18bed8086c57a418239e95e864da4716ad9717f420
 
 Package: rust-std-wasm32-unknown-unknown
 Architecture: all
 Installed-Size: 44664
 Maintainer: @its-pointless
-Version: 1.26.0
+Version: 1.26.1
 Description: rust std for wasm32-unknown-unknown target
 Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-std-wasm32-unknown-unknown_1.26.0_all.deb
-Size: 10722136
-SHA256: 5a3de297541627b3ba25250c96f38c6ec7f4965866d252ea89ecfaba3f7c14f5
+Filename: dists/termux/extras/binary-all/rust-std-wasm32-unknown-unknown_1.26.1_all.deb
+Size: 10718172
+SHA256: bfeae045740a7ff118d4dd3ae7dbf84e55b1924affcd5544c60d2e34486d06f5
 
 Package: setup-scripts
 Architecture: all

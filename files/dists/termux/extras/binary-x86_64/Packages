@@ -163,27 +163,15 @@ SHA256: d32dda5c13d2658f81b2c6334a3cef48ef4fcff5b6d7fa558883215ce33e68c4
 
 Package: cargo
 Architecture: x86_64
-Installed-Size: 7808
-Maintainer: @its-pointless
-Version: 0.26.0
-Description: Rust package manager
-Homepage: https://crates.io
-Depends: libcurl, rustc, openssl, libssh2, libgit2
-Filename: dists/termux/extras/binary-x86_64/cargo_0.26.0_x86_64.deb
-Size: 1950420
-SHA256: 0165a8cbe256e3b6edb1c7aa24c825f4f5d82c3d476fc1711d89e7381cddfa15
-
-Package: cargo
-Architecture: x86_64
 Installed-Size: 8192
 Maintainer: @its-pointless
-Version: 1.26.0
+Version: 0.27.0
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
-Depends: rustc, libgit2
-Filename: dists/termux/extras/binary-x86_64/cargo_1.26.0_x86_64.deb
-Size: 1970392
-SHA256: bb62a46896dae761d0d3cec458d4d4089a1c39e19c068a45c1bed4189b5aa65e
+Depends: rustc, libgit2, libssh2
+Filename: dists/termux/extras/binary-x86_64/cargo_0.27.0_x86_64.deb
+Size: 1968000
+SHA256: ae0649f9d8b8eb87c1639fc072678427ea12eaf7a276683a871209dbfa076109
 
 Package: cksfv
 Architecture: x86_64
@@ -1925,100 +1913,76 @@ SHA256: 7f6445a5b57e470463757926f2da7066a10cb5e952bc29b2827f1d6071f4a1b2
 
 Package: rust-rls-nightly
 Architecture: x86_64
-Installed-Size: 17828
+Installed-Size: 16184
 Maintainer: @its-pointless
-Version: 1.27-2
+Version: 1.28-1
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.27-2_x86_64.deb
-Size: 4203616
-SHA256: f240c94108c90777ad8aa67f9dd74b61c417f5a685ef69023c923ae12a555596
-
-Package: rust-rls-nightly
-Architecture: x86_64
-Installed-Size: 16168
-Maintainer: @its-pointless
-Version: 1.28
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.28_x86_64.deb
-Size: 3948428
-SHA256: ba0d2b56c33b95417a85acc1e7062203e2e9ee5e910b0e55c8515b9b71be948f
+Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.28-1_x86_64.deb
+Size: 3791544
+SHA256: 6234ecf8544af394e4a0690e2628654e738cbb58c8de566b75d9f401b8c36a28
 
 Package: rust-rls
 Architecture: x86_64
-Installed-Size: 14800
+Installed-Size: 15040
 Maintainer: @its-pointless
-Version: 1.25.0
+Version: 0.126.0
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rust-rls_1.25.0_x86_64.deb
-Size: 3674648
-SHA256: 2da3c2b207dafd78d2306c0179508d664643e7f5ada1419a484bb008c271796d
-
-Package: rust-rls
-Architecture: x86_64
-Installed-Size: 15056
-Maintainer: @its-pointless
-Version: 1.26.0
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rust-rls_1.26.0_x86_64.deb
-Size: 3589812
-SHA256: 5665858d176853083785551148c2ff687676a98da61fe467f36fddca5be5578e
+Filename: dists/termux/extras/binary-x86_64/rust-rls_0.126.0_x86_64.deb
+Size: 3605164
+SHA256: 4266f41b2f52bec2068a474e94d0a514820cbe95090a1333445d8060d3c31ecc
 
 Package: rustc-nightly
 Architecture: x86_64
-Installed-Size: 168872
+Installed-Size: 173176
 Maintainer: @its-pointless
-Version: 1.28
+Version: 1.28-1
 Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
 Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.28_x86_64.deb
-Size: 52342708
-SHA256: e8d75faee0fbea87f203c4580e431645ba6e1f8233f81c7801b4cd6ce56d265d
+Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.28-1_x86_64.deb
+Size: 51409840
+SHA256: 5910627ce9cd0c0bd501d26efe7aeac24c35db95773e177bc9c5149606736d0b
 
 Package: rustc
 Architecture: x86_64
-Installed-Size: 168056
+Installed-Size: 168096
 Maintainer: @its-pointless
-Version: 1.26.0
+Version: 1.26.1
 Description: rust toolchain
 Homepage: https://www.rust-lang.org
 Depends: clang
-Filename: dists/termux/extras/binary-x86_64/rustc_1.26.0_x86_64.deb
-Size: 49689848
-SHA256: ab556d99fd5e3884effc52ea02ac49e3eb81a4f45f4d8ddc0bfc4d20ac4c4a01
+Filename: dists/termux/extras/binary-x86_64/rustc_1.26.1_x86_64.deb
+Size: 49711752
+SHA256: b0e70b5305935cf9a20276492b0c4beecc5ecc3fb90cc647dde8486257451fff
 
 Package: rustfmt-nightly
 Architecture: x86_64
-Installed-Size: 6420
+Installed-Size: 7144
 Maintainer: @its-pointless
-Version: 1.28
+Version: 1.28-1
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.28_x86_64.deb
-Size: 1620380
-SHA256: fe1549da283134b2c6579a6be04028615c5c9c954b6144ad35d41db57559535e
+Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.28-1_x86_64.deb
+Size: 1650556
+SHA256: 3c33b74b1e7ec3cf4898bec000b369c1d71b6f9c114564f3985564a2c3f4686e
 
 Package: rustfmt
 Architecture: x86_64
-Installed-Size: 5540
+Installed-Size: 5516
 Maintainer: @its-pointless
-Version: 1.26.0
+Version: 1.26.1
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rustfmt_1.26.0_x86_64.deb
-Size: 1413016
-SHA256: 3e2e51ea30a0014c6b1040c9ed1f698b2494d1f8d87cc3abde87139150c32861
+Filename: dists/termux/extras/binary-x86_64/rustfmt_1.26.1_x86_64.deb
+Size: 1419528
+SHA256: 8b178e8a4f7c278448eee3f55caf1e294f1de91a7ed72e1232f0770e9782959e
 
 Package: sc-im
 Architecture: x86_64
