@@ -516,33 +516,19 @@ Filename: dists/termux/extras/binary-i686/jbuilder_1.0.beta20_i686.deb
 Size: 86744
 SHA256: 997ae1e52b867828c4993be53800b005d7ed5d5d3812d1e5461551bf894eb512
 
-Package: julia-devprev
-Architecture: i686
-Installed-Size: 133960
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0-3
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
-Conflicts: julia
-Replaces: julia
-Filename: dists/termux/extras/binary-i686/julia-devprev_0.7.0-3_i686.deb
-Size: 17817840
-SHA256: fe3f9478b96d61dd99cd7e55ba86cc53c60afbb5441b5b353b7368096facd7b0
-
-Package: julia-devprev
+Package: julia-alpha
 Architecture: i686
 Installed-Size: 135972
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0-4
+Version: 0.7.0
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
-Conflicts: julia
-Replaces: julia
-Filename: dists/termux/extras/binary-i686/julia-devprev_0.7.0-4_i686.deb
-Size: 18688596
-SHA256: 3b414a63c01ff7e2bcd25af9397a31675bb802b0a7e01eba9854ca2852b637e7
+Conflicts: julia-devprev
+Replaces: julia-devprev
+Filename: dists/termux/extras/binary-i686/julia-alpha_0.7.0_i686.deb
+Size: 18688648
+SHA256: 4d8427db9eac67b30f720dfb99632b536acd7471a06ee2c2d84fd0b67ca2b51f
 
 Package: keystone-dev
 Architecture: i686

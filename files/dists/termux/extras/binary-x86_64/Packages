@@ -492,19 +492,19 @@ Filename: dists/termux/extras/binary-x86_64/jbuilder_1.0.beta20_x86_64.deb
 Size: 811556
 SHA256: 32cefa43b56dd9392ae51c7d539a0ab1d5cb2349917b539fb2ea6ae818fe2122
 
-Package: julia-devprev
+Package: julia-alpha
 Architecture: x86_64
-Installed-Size: 154108
+Installed-Size: 176852
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0-3
+Version: 0.7.0
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
-Conflicts: julia
-Replaces: julia
-Filename: dists/termux/extras/binary-x86_64/julia-devprev_0.7.0-3_x86_64.deb
-Size: 18399384
-SHA256: be058833973ad7f9b60b6fc5273753faf5cb74929e393be3a4ca1b53fb755596
+Conflicts: julia-devprev
+Replaces: julia-devprev
+Filename: dists/termux/extras/binary-x86_64/julia-alpha_0.7.0_x86_64.deb
+Size: 20934828
+SHA256: 2a31ed62073a10cba27d580776e9b85a32713af7fdcba23dc90141cbe73c3438
 
 Package: keystone-dev
 Architecture: x86_64
