@@ -1124,6 +1124,20 @@ Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge_0.2.20_x86_64.d
 Size: 3322428
 SHA256: e3c81e030886c0b84c67bcd79436910eb98e4b3b52aa3804f7f2e6f0e9c1cf82
 
+Package: openblas-sandybridge
+Architecture: x86_64
+Installed-Size: 15720
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.30
+Description: blas library optimized for sandybridge(chromebooks)
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Conflicts: openblas
+Provides: openblas
+Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge_0.2.30_x86_64.deb
+Size: 3317592
+SHA256: 56eb0f97196baafabe4e59585a55323c246015453018514ab25459dd2143d986
+
 Package: openblas
 Architecture: x86_64
 Installed-Size: 15768
@@ -1159,6 +1173,18 @@ Depends: libgfortran5
 Filename: dists/termux/extras/binary-x86_64/openblas_0.2.20-5_x86_64.deb
 Size: 3173900
 SHA256: 89795aa39a39d75f901ae6da79acb017055686bfb90602f4a8d275969f3ee27c
+
+Package: openblas
+Architecture: x86_64
+Installed-Size: 15316
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.30
+Description: blas
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-x86_64/openblas_0.2.30_x86_64.deb
+Size: 3210236
+SHA256: ea0853ec49d6096b997197173a52ae522a29772a0fc974062b501ed69362c328
 
 Package: openldap-dev
 Architecture: x86_64

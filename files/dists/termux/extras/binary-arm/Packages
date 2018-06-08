@@ -1353,6 +1353,18 @@ Filename: dists/termux/extras/binary-arm/openblas_0.2.20-5_arm.deb
 Size: 2124844
 SHA256: a82103aec1a7fd33d390159eea20407c5543d5b97482980ef01d3d318d1b2986
 
+Package: openblas
+Architecture: arm
+Installed-Size: 10712
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.30
+Description: blas
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-arm/openblas_0.2.30_arm.deb
+Size: 2152588
+SHA256: d2855aa95720eb1df733ee594a79cc3338a254284e0eaf0b37f9655b07770644
+
 Package: openldap-dev
 Architecture: arm
 Installed-Size: 436
