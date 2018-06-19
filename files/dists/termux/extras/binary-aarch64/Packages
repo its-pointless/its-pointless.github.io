@@ -479,18 +479,6 @@ Filename: dists/termux/extras/binary-aarch64/imapfilter_2.6.10_aarch64.deb
 Size: 40616
 SHA256: d2d42ed4b73059c65d4b8e2845f485e5b54ff74e16f668971a8b2fbbab927eac
 
-Package: indent
-Architecture: aarch64
-Installed-Size: 356
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.11
-Description: C language source code formatting program
-Homepage: https://packages.debian.org/sid/indent
-Depends: libandroid-support
-Filename: dists/termux/extras/binary-aarch64/indent_2.2.11_aarch64.deb
-Size: 54524
-SHA256: 9bf49cff9aa6cdee10a8641acf26fb338d9fb8f217b7bcf0cef64cf1af78aa92
-
 Package: jbuilder
 Architecture: aarch64
 Installed-Size: 3844
@@ -1268,54 +1256,6 @@ SHA256: a48a7eff8a3a5f46f12cd12450adc9b6e0ae2db87075b64fecc86ef8b7d19284
 
 Package: openblas
 Architecture: aarch64
-Installed-Size: 9836
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.20-2
-Description: blas
-Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-2_aarch64.deb
-Size: 1918556
-SHA256: 825de3fe7595e05d720b2f04fd718081418d0e55d36e2d79ec213411943c9387
-
-Package: openblas
-Architecture: aarch64
-Installed-Size: 9836
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.20-3
-Description: blas
-Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-3_aarch64.deb
-Size: 1916356
-SHA256: 92f04dbf5adc4832549269bd6cc329409d58ed57ca87f61310704c1f8043583f
-
-Package: openblas
-Architecture: aarch64
-Installed-Size: 9900
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.20-4
-Description: blas
-Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-4_aarch64.deb
-Size: 1889744
-SHA256: b6c2154b12817aa881382ef741be41908824de602117c8f026415a9c0ea37f8e
-
-Package: openblas
-Architecture: aarch64
-Installed-Size: 10540
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.20-5
-Description: blas
-Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-aarch64/openblas_0.2.20-5_aarch64.deb
-Size: 2061204
-SHA256: 3c96aeb53a7c63edc0efd456f7179919f401bafcb91063a39d2b1f05694d1a2b
-
-Package: openblas
-Architecture: aarch64
 Installed-Size: 10704
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.2.30
@@ -1936,18 +1876,6 @@ SHA256: 9d8a1555eeb1bf91537be907d3c1437915d6af910c8f7b3d14f6a4099baa3380
 
 Package: quantlib-dev
 Architecture: aarch64
-Installed-Size: 7900
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.11
-Description: Development files for quantlib
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.11_aarch64.deb
-Size: 552200
-SHA256: ca4f7abc8906204d8fbebe7b96f595620df9abdbfddb6c60a6f7b78a5927cd95
-
-Package: quantlib-dev
-Architecture: aarch64
 Installed-Size: 7976
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.12.1
@@ -1958,27 +1886,28 @@ Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.12.1_aarch64.deb
 Size: 559108
 SHA256: 94dde9647646ee8c3ed3d110f1f0743acf06f29d25ebbcdf0500f2c6045ede61
 
-Package: quantlib
+Package: quantlib-dev
 Architecture: aarch64
-Installed-Size: 49340
+Installed-Size: 8004
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.11
-Description: a comprehensive software framework for quantitative finance
+Version: 1.13
+Description: Development files for quantlib
 Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-aarch64/quantlib_1.11_aarch64.deb
-Size: 8362108
-SHA256: fa0842cf7932e695e9172c7590a9bf33e3be9aa03218adec7fe02eb0712e9388
+Depends: quantlib,boost-dev
+Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.13_aarch64.deb
+Size: 561192
+SHA256: 64e12e7f6a87379b3e67ec689caaf5fca587096cfd0722751bc4652f1934fd87
 
 Package: quantlib
 Architecture: aarch64
-Installed-Size: 47360
+Installed-Size: 47620
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.12.1
+Version: 1.13
 Description: a comprehensive software framework for quantitative finance
 Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-aarch64/quantlib_1.12.1_aarch64.deb
-Size: 8450816
-SHA256: 1ed82505934cead00ae0fdb305fbe91c8e5ca0cc44c7099d0f146b3ec306f056
+Filename: dists/termux/extras/binary-aarch64/quantlib_1.13_aarch64.deb
+Size: 8361348
+SHA256: 3157e6bdf9372aa3b30be712f042b47c668de35752814e1e5eff72b98da8833c
 
 Package: r-base
 Architecture: aarch64
@@ -1992,6 +1921,19 @@ Replaces: r-cran
 Filename: dists/termux/extras/binary-aarch64/r-base_3.5.0-1_aarch64.deb
 Size: 39232180
 SHA256: 5cee76d9415ef36c1a77f2959032d4b456aa3af804b8d484732b665b3f5f81fc
+
+Package: r-base
+Architecture: aarch64
+Installed-Size: 61120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0-2
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Replaces: r-cran
+Filename: dists/termux/extras/binary-aarch64/r-base_3.5.0-2_aarch64.deb
+Size: 39223568
+SHA256: 642ce76473b128bdf5f1e495a6a00b3aa64029b1889512db4225e5bb38c84b85
 
 Package: r-base
 Architecture: aarch64
@@ -2018,6 +1960,18 @@ Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.16-2_aarch64.deb
 Size: 3312376
 SHA256: cdd4403f5508edcbd97fefaa07e30dec784cf856ef7c7ece3bf8acce62a54db4
 
+Package: r-cran-rcpp
+Architecture: aarch64
+Installed-Size: 11464
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.17
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.17_aarch64.deb
+Size: 3324424
+SHA256: aec0cd2fbec8eccd923703beec4812ceaf02eb88c5c4c5678c79aefa83d5ca87
+
 Package: r-cran-rquantlib
 Architecture: aarch64
 Installed-Size: 4020
@@ -2030,6 +1984,18 @@ Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.4-3_aarch64.de
 Size: 862564
 SHA256: 1e206c9d23ed042e2d0c286fc545da76dc29ccc02dc590dd32d9bf0d400aa5a9
 
+Package: r-cran-rquantlib
+Architecture: aarch64
+Installed-Size: 4132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4-4
+Description: GNU R package interfacing the QuantLib finance library
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.4-4_aarch64.deb
+Size: 876400
+SHA256: 3ea4b35ab8648b2be08b486b9ec1afd3c9d69addfd67d584a69c2db6ac13a08a
+
 Package: r-cran-stringi
 Architecture: aarch64
 Installed-Size: 1148
@@ -2041,6 +2007,18 @@ Depends: r-base, libicu
 Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.2.2-1_aarch64.deb
 Size: 639564
 SHA256: 7b6b003d04c342463a578297f4d59fc658c77e25953be7cb8d30e682129ee2e3
+
+Package: r-cran-stringi
+Architecture: aarch64
+Installed-Size: 1160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.3
+Description: GNU R character string processing facilities
+Homepage: https://cran.r-project.org/
+Depends: r-base, libicu
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.2.3_aarch64.deb
+Size: 640572
+SHA256: 3f4c44070abf018c4559f0be48ed90f67b01adbd351fd39197fd1fab10995190
 
 Package: r-cran-zoo
 Architecture: aarch64
@@ -2065,6 +2043,18 @@ Depends: r-base
 Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-1-2_aarch64.deb
 Size: 1040920
 SHA256: 267e6d5713c44eebf78f19905f9a8162972c833a3e189d2ad69f605d0d07a7aa
+
+Package: r-cran-zoo
+Architecture: aarch64
+Installed-Size: 1432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-2-0
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-2-0_aarch64.deb
+Size: 1040948
+SHA256: 17ba5f70a92b669013bb31df1d4046599e6e15386d73d130ef1ffbd974cae8fd
 
 Package: r-cran
 Architecture: aarch64

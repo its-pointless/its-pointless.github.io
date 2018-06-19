@@ -493,18 +493,6 @@ Filename: dists/termux/extras/binary-i686/imapfilter_2.6.10_i686.deb
 Size: 42408
 SHA256: b0085295bc430902daf8b9e7c1a5188b58abebc4834f2cebbe21987b7c44a9c9
 
-Package: indent
-Architecture: i686
-Installed-Size: 280
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.11
-Description: C language source code formatting program
-Homepage: https://packages.debian.org/sid/indent
-Depends: libandroid-support
-Filename: dists/termux/extras/binary-i686/indent_2.2.11_i686.deb
-Size: 53760
-SHA256: e6e04feb8d7d41a2b94a526ead7a2461da939caf80fd411e204f3acd372fc197
-
 Package: jbuilder
 Architecture: i686
 Installed-Size: 316
@@ -1108,34 +1096,6 @@ SHA256: 4c390098e1a1bedc482bc13ff5ab2877605cad245d3a4cfc940c636befd0fbc2
 
 Package: openblas-sandybridge
 Architecture: i686
-Installed-Size: 14160
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.20-1
-Description: blas library optimized for sandybridge(chromebooks)
-Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
-Depends: libgfortran5
-Conflicts: openblas
-Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.2.20-1_i686.deb
-Size: 2980636
-SHA256: ff1868e535b9c812ed4788df49814aa95bd83331fe01b38722d7a36fe3549fa3
-
-Package: openblas-sandybridge
-Architecture: i686
-Installed-Size: 14160
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.20
-Description: blas library optimized for sandybridge(chromebooks)
-Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
-Depends: libgfortran4
-Conflicts: openblas
-Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.2.20_i686.deb
-Size: 2949508
-SHA256: 43c3835ddbb62772bd80e474cf9a6decb48e47c050ea11129916d2ca88db4c24
-
-Package: openblas-sandybridge
-Architecture: i686
 Installed-Size: 14352
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.2.30
@@ -1147,42 +1107,6 @@ Provides: openblas
 Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.2.30_i686.deb
 Size: 3010296
 SHA256: 3370d2510fdac65f47f966c757391a0df734dd101dcc916fe832c141f53e8fcc
-
-Package: openblas
-Architecture: i686
-Installed-Size: 15752
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.20-2
-Description: blas
-Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-i686/openblas_0.2.20-2_i686.deb
-Size: 3042404
-SHA256: 062e5e0c48ab9dce7aae0af302ef6490814e8643242c5a2a6739af5ae94d01a0
-
-Package: openblas
-Architecture: i686
-Installed-Size: 15736
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.20-3
-Description: blas
-Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-i686/openblas_0.2.20-3_i686.deb
-Size: 3035244
-SHA256: c32389c6f16ea98292a1ffd88438bdbd6c9191c7a27a21d3e116050925868600
-
-Package: openblas
-Architecture: i686
-Installed-Size: 14048
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.20-5
-Description: blas
-Homepage: http://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-i686/openblas_0.2.20-5_i686.deb
-Size: 2917880
-SHA256: 6199c40b65ac2657e2a878e6315c8d47a399ec8dbdd4330b87b6fe013491684a
 
 Package: openblas
 Architecture: i686
@@ -1782,18 +1706,6 @@ SHA256: 25bdb40c5ae61562111c0c41028f7f919c47d44fbd91dc634475b69fd197d114
 
 Package: quantlib-dev
 Architecture: i686
-Installed-Size: 7900
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.11
-Description: Development files for quantlib
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Filename: dists/termux/extras/binary-i686/quantlib-dev_1.11_i686.deb
-Size: 552140
-SHA256: fd9f6defe9ff7dcdb04f7d749408c53d5862f3beab850516b6aea7ef170d078f
-
-Package: quantlib-dev
-Architecture: i686
 Installed-Size: 7976
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.12.1
@@ -1804,27 +1716,28 @@ Filename: dists/termux/extras/binary-i686/quantlib-dev_1.12.1_i686.deb
 Size: 558924
 SHA256: d284995868c62646ce344b915a69a7bb5fd1241016b5a0e1e4c35d2f0a857b45
 
-Package: quantlib
+Package: quantlib-dev
 Architecture: i686
-Installed-Size: 40948
+Installed-Size: 8004
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.11
-Description: a comprehensive software framework for quantitative finance
+Version: 1.13
+Description: Development files for quantlib
 Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-i686/quantlib_1.11_i686.deb
-Size: 8761712
-SHA256: 3f2cdb581a9ccc543c9eba7b91680602dd08a2041ae25e48737a1a5a0ba58273
+Depends: quantlib,boost-dev
+Filename: dists/termux/extras/binary-i686/quantlib-dev_1.13_i686.deb
+Size: 561060
+SHA256: 214ca8235d9225a4782b8366f1cb2305e78ea23ef947a100ce73004624aca6e3
 
 Package: quantlib
 Architecture: i686
-Installed-Size: 41432
+Installed-Size: 41648
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.12.1
+Version: 1.13
 Description: a comprehensive software framework for quantitative finance
 Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-i686/quantlib_1.12.1_i686.deb
-Size: 8907776
-SHA256: 22d76c93ce3fc1b45a598825f1ef29b94cbda21a4a17aa4f878f597f5a68acbb
+Filename: dists/termux/extras/binary-i686/quantlib_1.13_i686.deb
+Size: 8870416
+SHA256: 266a43274a2a3c121626b8eb40c512de505bd33cbdcd4061c2cdcd713a393ccb
 
 Package: r-base
 Architecture: i686
@@ -1838,6 +1751,19 @@ Replaces: r-cran
 Filename: dists/termux/extras/binary-i686/r-base_3.5.0-1_i686.deb
 Size: 39585116
 SHA256: 3e6c361e6f71e81c81c106bd7c204ed9ad0dcb954414ba97c11f161297897a3d
+
+Package: r-base
+Architecture: i686
+Installed-Size: 61224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0-2
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Replaces: r-cran
+Filename: dists/termux/extras/binary-i686/r-base_3.5.0-2_i686.deb
+Size: 39561516
+SHA256: d73d1447237ef4d418ecd69985afd0f8a71377bdc6f49997ad77d3d8a28f32df
 
 Package: r-base
 Architecture: i686
@@ -1864,6 +1790,18 @@ Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.16-2_i686.deb
 Size: 3331616
 SHA256: 0dcd79d95c0ea01e18dee6ba8b2ccc353ad0c2fa87e3949ea2bf1a0ecffb79b5
 
+Package: r-cran-rcpp
+Architecture: i686
+Installed-Size: 11460
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.17
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.17_i686.deb
+Size: 3342644
+SHA256: 75796a16173477185d66dc7d973f534b260577e1b76586be763ed05de7acfa03
+
 Package: r-cran-rquantlib
 Architecture: i686
 Installed-Size: 3816
@@ -1876,6 +1814,18 @@ Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.4-3_i686.deb
 Size: 884920
 SHA256: fefdc3846150298c92db6473b069de315fa697cac2806f0573309a68b3338f76
 
+Package: r-cran-rquantlib
+Architecture: i686
+Installed-Size: 3884
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4-4
+Description: GNU R package interfacing the QuantLib finance library
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.4-4_i686.deb
+Size: 894608
+SHA256: b8d60f10101ec49479889a5545f1e0a35914d7c45e5c3760dc3d2779018568a1
+
 Package: r-cran-stringi
 Architecture: i686
 Installed-Size: 1188
@@ -1887,6 +1837,18 @@ Depends: r-base, libicu
 Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.2.2-1_i686.deb
 Size: 668868
 SHA256: 8f741fa7c878c0dbff866062f9653843ccde281e42b09416416d6e0ff6c65808
+
+Package: r-cran-stringi
+Architecture: i686
+Installed-Size: 1196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.3
+Description: GNU R character string processing facilities
+Homepage: https://cran.r-project.org/
+Depends: r-base, libicu
+Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.2.3_i686.deb
+Size: 668392
+SHA256: 0ec73ee46f60d5625043f0d24040ad49f1025197ffd5d2729818ea34340f5b17
 
 Package: r-cran-zoo
 Architecture: i686
@@ -1911,6 +1873,18 @@ Depends: r-base
 Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-1-2_i686.deb
 Size: 1042444
 SHA256: fb2e6255669670c4e316d76b6a4697b7002af223660d9fb97e6390eb2f76b713
+
+Package: r-cran-zoo
+Architecture: i686
+Installed-Size: 1432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-2-0
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-2-0_i686.deb
+Size: 1042476
+SHA256: cb2551e5dc31ed93242e5da9ad47a914d63ca135eb4ffde8db49181c5ff5db14
 
 Package: r-cran
 Architecture: i686
