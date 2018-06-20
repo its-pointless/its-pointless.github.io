@@ -1098,27 +1098,27 @@ Package: openblas-sandybridge
 Architecture: i686
 Installed-Size: 14352
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.30
+Version: 0.3.0
 Description: blas library optimized for sandybridge(chromebooks)
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
 Conflicts: openblas
 Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.2.30_i686.deb
-Size: 3010296
-SHA256: 3370d2510fdac65f47f966c757391a0df734dd101dcc916fe832c141f53e8fcc
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.0_i686.deb
+Size: 3008920
+SHA256: d1d810f73f55fd564d4e6b60fba9000001767b9cb1badeb63b78f55af7099436
 
 Package: openblas
 Architecture: i686
 Installed-Size: 14236
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.30
+Version: 0.3.0
 Description: blas
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
-Filename: dists/termux/extras/binary-i686/openblas_0.2.30_i686.deb
-Size: 2946448
-SHA256: 6d74858fd9cea3997e17cba5927146a116349a3df4887e481f15cd8aac0e7a0a
+Filename: dists/termux/extras/binary-i686/openblas_0.3.0_i686.deb
+Size: 2944440
+SHA256: 200ef68c1c8d98c58d2fbb3912cfb290ef649ea1113c0d89df2021db9231a824
 
 Package: openldap-dev
 Architecture: i686
