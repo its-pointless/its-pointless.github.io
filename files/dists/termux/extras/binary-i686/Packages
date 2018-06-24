@@ -504,19 +504,19 @@ Filename: dists/termux/extras/binary-i686/jbuilder_1.0.beta20_i686.deb
 Size: 86744
 SHA256: 997ae1e52b867828c4993be53800b005d7ed5d5d3812d1e5461551bf894eb512
 
-Package: julia-alpha
+Package: julia-beta
 Architecture: i686
-Installed-Size: 135972
+Installed-Size: 281368
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.7.0
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
-Depends: openblas, suitesparse, arpack-ng, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
-Conflicts: julia-devprev
-Replaces: julia-devprev
-Filename: dists/termux/extras/binary-i686/julia-alpha_0.7.0_i686.deb
-Size: 18688648
-SHA256: 4d8427db9eac67b30f720dfb99632b536acd7471a06ee2c2d84fd0b67ca2b51f
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
+Conflicts: julia-devprev, julia-alpha
+Replaces: julia-devprev, julia-alpha
+Filename: dists/termux/extras/binary-i686/julia-beta_0.7.0_i686.deb
+Size: 35368988
+SHA256: 063ab164b96f763e6e4f80609ff220ce2cf2b4fa0476f787cdb08b836293e1d4
 
 Package: keystone-dev
 Architecture: i686
@@ -1767,6 +1767,19 @@ SHA256: d73d1447237ef4d418ecd69985afd0f8a71377bdc6f49997ad77d3d8a28f32df
 
 Package: r-base
 Architecture: i686
+Installed-Size: 61176
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0-3
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Replaces: r-cran
+Filename: dists/termux/extras/binary-i686/r-base_3.5.0-3_i686.deb
+Size: 39552052
+SHA256: e4880a84f33c2483006e0f1cb02377a2928992fa597d8cc6587ced5a7fc1fd73
+
+Package: r-base
+Architecture: i686
 Installed-Size: 61172
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0
@@ -1789,6 +1802,18 @@ Depends: r-base
 Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.16-2_i686.deb
 Size: 3331616
 SHA256: 0dcd79d95c0ea01e18dee6ba8b2ccc353ad0c2fa87e3949ea2bf1a0ecffb79b5
+
+Package: r-cran-rcpp
+Architecture: i686
+Installed-Size: 11460
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.17-1
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.17-1_i686.deb
+Size: 3342844
+SHA256: 77cca17659a95fb2346fea475c9445abb08a6ed75bf60de93ecf0f53b9c80e17
 
 Package: r-cran-rcpp
 Architecture: i686
@@ -1826,6 +1851,18 @@ Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.4-4_i686.deb
 Size: 894608
 SHA256: b8d60f10101ec49479889a5545f1e0a35914d7c45e5c3760dc3d2779018568a1
 
+Package: r-cran-rquantlib
+Architecture: i686
+Installed-Size: 3884
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4-5
+Description: GNU R package interfacing the QuantLib finance library
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.4-5_i686.deb
+Size: 893336
+SHA256: 8c1a9387359cccf7aa36868f3ab4be38ef51add3e2aaab9361d964f2bb8e4711
+
 Package: r-cran-stringi
 Architecture: i686
 Installed-Size: 1188
@@ -1837,6 +1874,18 @@ Depends: r-base, libicu
 Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.2.2-1_i686.deb
 Size: 668868
 SHA256: 8f741fa7c878c0dbff866062f9653843ccde281e42b09416416d6e0ff6c65808
+
+Package: r-cran-stringi
+Architecture: i686
+Installed-Size: 1196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.3-1
+Description: GNU R character string processing facilities
+Homepage: https://cran.r-project.org/
+Depends: r-base, libicu
+Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.2.3-1_i686.deb
+Size: 666444
+SHA256: e87feb27fbe4d65de6d49e6993034782630b8c3000fcc8e149757612368ec7e2
 
 Package: r-cran-stringi
 Architecture: i686
@@ -1885,6 +1934,18 @@ Depends: r-base
 Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-2-0_i686.deb
 Size: 1042476
 SHA256: cb2551e5dc31ed93242e5da9ad47a914d63ca135eb4ffde8db49181c5ff5db14
+
+Package: r-cran-zoo
+Architecture: i686
+Installed-Size: 1444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-2-1
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-2-1_i686.deb
+Size: 1053392
+SHA256: 7341584ad0afbb76b93267bd0ef34dfb6cc1d55f0d1beb30171bab79002d4ab2
 
 Package: r-cran
 Architecture: i686
