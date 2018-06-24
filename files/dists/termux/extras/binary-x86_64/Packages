@@ -1913,15 +1913,15 @@ SHA256: 7f6445a5b57e470463757926f2da7066a10cb5e952bc29b2827f1d6071f4a1b2
 
 Package: rust-rls-nightly
 Architecture: x86_64
-Installed-Size: 16184
+Installed-Size: 16456
 Maintainer: @its-pointless
-Version: 1.28-1
+Version: 1.28-3
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.28-1_x86_64.deb
-Size: 3791544
-SHA256: 6234ecf8544af394e4a0690e2628654e738cbb58c8de566b75d9f401b8c36a28
+Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.28-3_x86_64.deb
+Size: 3856912
+SHA256: 9e616576d68750e13cf335168e975b7f54e118dfb7612bb8762e4988ef0aa208
 
 Package: rust-rls
 Architecture: x86_64
@@ -1937,16 +1937,16 @@ SHA256: 823779fdc23afc7d465ac851b6e76b4d48f87010a5f9f4e57ed977d58731ea50
 
 Package: rustc-nightly
 Architecture: x86_64
-Installed-Size: 173176
+Installed-Size: 179656
 Maintainer: @its-pointless
-Version: 1.28-1
+Version: 1.28-3
 Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
 Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.28-1_x86_64.deb
-Size: 51409840
-SHA256: 5910627ce9cd0c0bd501d26efe7aeac24c35db95773e177bc9c5149606736d0b
+Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.28-3_x86_64.deb
+Size: 53658132
+SHA256: 4222f2d1aac19b25c5ec9caff5c7d10de03b9d1185bb26c47fa5fb37d046ebd3
 
 Package: rustc
 Architecture: x86_64
@@ -1962,15 +1962,15 @@ SHA256: 5d4b209229f379b97839e1c1481601c7cbdd2e74d35f1c0d84b72d9fdbde0d22
 
 Package: rustfmt-nightly
 Architecture: x86_64
-Installed-Size: 7144
+Installed-Size: 7236
 Maintainer: @its-pointless
-Version: 1.28-1
+Version: 1.28-3
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.28-1_x86_64.deb
-Size: 1650556
-SHA256: 3c33b74b1e7ec3cf4898bec000b369c1d71b6f9c114564f3985564a2c3f4686e
+Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.28-3_x86_64.deb
+Size: 1664368
+SHA256: 8db5abf9f365e139ad9f8b3d4968628f901ab507f0e3eef5c9138f4c0354fd96
 
 Package: rustfmt
 Architecture: x86_64
