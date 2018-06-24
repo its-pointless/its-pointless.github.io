@@ -490,6 +490,20 @@ Filename: dists/termux/extras/binary-aarch64/jbuilder_1.0.beta20_aarch64.deb
 Size: 823468
 SHA256: 6c4525c7e0c62986af5f910c8155ba5046d84e8f5f7ab47160826b0ea510e09d
 
+Package: julia-beta
+Architecture: aarch64
+Installed-Size: 326564
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.0
+Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
+Conflicts: julia-devprev, julia-alpha
+Replaces: julia-devprev, julia-alpha
+Filename: dists/termux/extras/binary-aarch64/julia-beta_0.7.0_aarch64.deb
+Size: 35363380
+SHA256: bda64582b6784e6899f7bfa5d68dfe6c734de08998cf193c3cd6850374cc783f
+
 Package: keystone-dev
 Architecture: aarch64
 Installed-Size: 60
@@ -1923,6 +1937,19 @@ SHA256: 642ce76473b128bdf5f1e495a6a00b3aa64029b1889512db4225e5bb38c84b85
 
 Package: r-base
 Architecture: aarch64
+Installed-Size: 61080
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.0-3
+Description: a freely available language and environment for statistical computing and graphics
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Replaces: r-cran
+Filename: dists/termux/extras/binary-aarch64/r-base_3.5.0-3_aarch64.deb
+Size: 39171248
+SHA256: 92121ee15274df9525686c3043dc9a8ae699634564c9b2958930d8ed491d239e
+
+Package: r-base
+Architecture: aarch64
 Installed-Size: 60684
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0
@@ -1945,6 +1972,18 @@ Depends: r-base
 Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.16-2_aarch64.deb
 Size: 3312376
 SHA256: cdd4403f5508edcbd97fefaa07e30dec784cf856ef7c7ece3bf8acce62a54db4
+
+Package: r-cran-rcpp
+Architecture: aarch64
+Installed-Size: 11464
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12.17-1
+Description: GNU R package for Seamless R and C++ Integration
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.17-1_aarch64.deb
+Size: 3324020
+SHA256: 618b08ada67d24ccb152181f6a973dc4fad33da6cb6a71ab9e71349b1255172d
 
 Package: r-cran-rcpp
 Architecture: aarch64
@@ -1982,6 +2021,18 @@ Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.4-4_aarch64.de
 Size: 876400
 SHA256: 3ea4b35ab8648b2be08b486b9ec1afd3c9d69addfd67d584a69c2db6ac13a08a
 
+Package: r-cran-rquantlib
+Architecture: aarch64
+Installed-Size: 4132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4-5
+Description: GNU R package interfacing the QuantLib finance library
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.4-5_aarch64.deb
+Size: 873680
+SHA256: 85921619846f613beb1688a2da924e14a4ce4cbb5fae3a9af748935128ce537f
+
 Package: r-cran-stringi
 Architecture: aarch64
 Installed-Size: 1148
@@ -1993,6 +2044,18 @@ Depends: r-base, libicu
 Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.2.2-1_aarch64.deb
 Size: 639564
 SHA256: 7b6b003d04c342463a578297f4d59fc658c77e25953be7cb8d30e682129ee2e3
+
+Package: r-cran-stringi
+Architecture: aarch64
+Installed-Size: 1160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.3-1
+Description: GNU R character string processing facilities
+Homepage: https://cran.r-project.org/
+Depends: r-base, libicu
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.2.3-1_aarch64.deb
+Size: 638588
+SHA256: 24da68ad57d500d0d217080dbe6347d504fe8955417f854e91e6e452441a835d
 
 Package: r-cran-stringi
 Architecture: aarch64
@@ -2041,6 +2104,18 @@ Depends: r-base
 Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-2-0_aarch64.deb
 Size: 1040948
 SHA256: 17ba5f70a92b669013bb31df1d4046599e6e15386d73d130ef1ffbd974cae8fd
+
+Package: r-cran-zoo
+Architecture: aarch64
+Installed-Size: 1444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-2-1
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-2-1_aarch64.deb
+Size: 1052616
+SHA256: 9b0ee12e16021452501119b80357c8cf070972981050b22fa5d4f3bd7c628e5b
 
 Package: r-cran
 Architecture: aarch64
