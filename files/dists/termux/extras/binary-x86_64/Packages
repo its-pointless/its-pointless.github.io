@@ -1731,32 +1731,6 @@ SHA256: 4f1108d6babb5b4f570f7f8b9b75315018197fa8c72e232d24f56f7e0052ee1f
 
 Package: r-base
 Architecture: x86_64
-Installed-Size: 61992
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-1
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
-Replaces: r-cran
-Filename: dists/termux/extras/binary-x86_64/r-base_3.5.0-1_x86_64.deb
-Size: 39922556
-SHA256: b28d829e88d8e022208768e32a209542ba906c6bfcfa562e8ca74852e7a7201c
-
-Package: r-base
-Architecture: x86_64
-Installed-Size: 61996
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-2
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
-Replaces: r-cran
-Filename: dists/termux/extras/binary-x86_64/r-base_3.5.0-2_x86_64.deb
-Size: 39894608
-SHA256: 52c00fe518a949a358ca7a94344f22ae03504c6ce82765a647bc2794c6e75d54
-
-Package: r-base
-Architecture: x86_64
 Installed-Size: 61996
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0-3
@@ -1767,19 +1741,6 @@ Replaces: r-cran
 Filename: dists/termux/extras/binary-x86_64/r-base_3.5.0-3_x86_64.deb
 Size: 39858596
 SHA256: 5bdb3b7160efedadc6f29f5aad6ed09dcc100452dc7c62c30953a187caadbca2
-
-Package: r-base
-Architecture: x86_64
-Installed-Size: 61992
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Replaces: r-cran
-Filename: dists/termux/extras/binary-x86_64/r-base_3.5.0_x86_64.deb
-Size: 39922428
-SHA256: 1e6508e716c96ffb3e7e1acc5e650a81145a94247cfd6beba34a14eb0b0d1dcd
 
 Package: r-cran-rcpp
 Architecture: x86_64

@@ -1911,32 +1911,6 @@ SHA256: 3157e6bdf9372aa3b30be712f042b47c668de35752814e1e5eff72b98da8833c
 
 Package: r-base
 Architecture: aarch64
-Installed-Size: 60720
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-1
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
-Replaces: r-cran
-Filename: dists/termux/extras/binary-aarch64/r-base_3.5.0-1_aarch64.deb
-Size: 39232180
-SHA256: 5cee76d9415ef36c1a77f2959032d4b456aa3af804b8d484732b665b3f5f81fc
-
-Package: r-base
-Architecture: aarch64
-Installed-Size: 61120
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-2
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
-Replaces: r-cran
-Filename: dists/termux/extras/binary-aarch64/r-base_3.5.0-2_aarch64.deb
-Size: 39223568
-SHA256: 642ce76473b128bdf5f1e495a6a00b3aa64029b1889512db4225e5bb38c84b85
-
-Package: r-base
-Architecture: aarch64
 Installed-Size: 61080
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0-3
@@ -1947,19 +1921,6 @@ Replaces: r-cran
 Filename: dists/termux/extras/binary-aarch64/r-base_3.5.0-3_aarch64.deb
 Size: 39171248
 SHA256: 92121ee15274df9525686c3043dc9a8ae699634564c9b2958930d8ed491d239e
-
-Package: r-base
-Architecture: aarch64
-Installed-Size: 60684
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng
-Replaces: r-cran
-Filename: dists/termux/extras/binary-aarch64/r-base_3.5.0_aarch64.deb
-Size: 39220060
-SHA256: a3a18cae71045ca79994b6fd06c921fbc055991a2e9328ef511ca68328cd178a
 
 Package: r-cran-rcpp
 Architecture: aarch64
