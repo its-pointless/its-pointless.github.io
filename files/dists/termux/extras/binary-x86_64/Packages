@@ -279,6 +279,18 @@ Filename: dists/termux/extras/binary-x86_64/gcc-6_6.4.0-3_x86_64.deb
 Size: 25608400
 SHA256: 10a65a6bc76b693bf1b6542bebb2ca5c07a12388dbdc3d3ba5b5efcc97446cef
 
+Package: gcc-6
+Architecture: x86_64
+Installed-Size: 98964
+Maintainer:  @its-pointless github
+Version: 6.4.0-4
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Filename: dists/termux/extras/binary-x86_64/gcc-6_6.4.0-4_x86_64.deb
+Size: 26385668
+SHA256: 1b375ce23147c4b3e2f29ff1492150ebb4c8764e71caebb006f4b5b6f1b94ad0
+
 Package: gcc-7
 Architecture: x86_64
 Installed-Size: 109596
@@ -302,6 +314,30 @@ Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts,
 Filename: dists/termux/extras/binary-x86_64/gcc-7_7.3.0-4_x86_64.deb
 Size: 30289280
 SHA256: d966ab825111c61ba2da0d24c02e3c02d1553a5ba5a062a258d961553831765c
+
+Package: gcc-7
+Architecture: x86_64
+Installed-Size: 111004
+Maintainer: @its-pointless github
+Version: 7.3.0-5
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-x86_64/gcc-7_7.3.0-5_x86_64.deb
+Size: 30707932
+SHA256: e113da46bea86e25a331235a4d6e50bd17c96668cd1c51ff89272b2d0f9e10d1
+
+Package: gcc-8
+Architecture: x86_64
+Installed-Size: 118840
+Maintainer: @its-pointless github
+Version: 8.1.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-x86_64/gcc-8_8.1.0-1_x86_64.deb
+Size: 32646292
+SHA256: 3f33366fb876377f5922abb301accaeda2f0d95f6f55145e3f9b8bb92fe796d7
 
 Package: gcc-8
 Architecture: x86_64
@@ -540,6 +576,30 @@ Filename: dists/termux/extras/binary-x86_64/libboost-python_1.65.1-1_x86_64.deb
 Size: 71468
 SHA256: 1b97d1debcb1e2a17625d66409aaf2f72f3f54f2ae1de53869b8345e22aa1b12
 
+Package: libcgal-dev
+Architecture: x86_64
+Installed-Size: 40348
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.12
+Description: Development files for libcgal
+Homepage: https://www.cgal.org
+Depends: libcgal,boost-dev
+Filename: dists/termux/extras/binary-x86_64/libcgal-dev_4.12_x86_64.deb
+Size: 4195188
+SHA256: 235cebf461ba7c3c1c4e45071c2b39a424edeea68ea909c317f1957f177ea6df
+
+Package: libcgal
+Architecture: x86_64
+Installed-Size: 948
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.12
+Description: C++ library for computational geometry
+Homepage: https://www.cgal.org
+Depends: boost
+Filename: dists/termux/extras/binary-x86_64/libcgal_4.12_x86_64.deb
+Size: 227212
+SHA256: c46dbf946cdfe1e02543f6d9c8c0174004baa4119942fb2599063bc18759fff7
+
 Package: libcompiler-rt
 Architecture: x86_64
 Installed-Size: 15740
@@ -573,6 +633,29 @@ Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.3.0-4_x86_64.deb
 Size: 582780
 SHA256: e87898ef6754a60e45e89d3dc0e4bcdd3a2b22b012086ffe5112314b14df3c35
 
+Package: libgfortran4
+Architecture: x86_64
+Installed-Size: 1956
+Maintainer: @its-pointless github
+Version: 7.3.0-5
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.3.0-5_x86_64.deb
+Size: 572412
+SHA256: b38bd0717875e53e85a1cbd829120ef5928b737428e85c19235bef78616152a1
+
+Package: libgfortran5
+Architecture: x86_64
+Installed-Size: 2536
+Maintainer: @its-pointless github
+Version: 8.1.0-1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.1.0-1_x86_64.deb
+Size: 676712
+SHA256: ebfa1e86532bf31df9dd24886e09511466f8ef363abb0bf4c8423b2a36a6f75a
+
 Package: libgfortran5
 Architecture: x86_64
 Installed-Size: 2536
@@ -583,6 +666,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.1.0_x86_64.deb
 Size: 676852
 SHA256: c910fa172c7782023573d603b6010fba4c91e748fdec59607114bf21b1192c31
+
+Package: libgfortran
+Architecture: x86_64
+Installed-Size: 1116
+Maintainer:  @its-pointless github
+Version: 6.4.0-4
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-x86_64/libgfortran_6.4.0-4_x86_64.deb
+Size: 256572
+SHA256: cd7b2dae925ebb3f8b304610c33680376ab87870cba796bfaee14ecc109ca3b8
 
 Package: libgnuiconv
 Architecture: x86_64
@@ -637,6 +731,20 @@ Package: libgomp-7
 Architecture: x86_64
 Installed-Size: 332
 Maintainer: @its-pointless github
+Version: 7.3.0-5
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.3.0-5_x86_64.deb
+Size: 76844
+SHA256: 18f47b3fe6af3af84e8fec4ccb0f58263ac5bcb6bd7670fb0bcc2a338bfce381
+
+Package: libgomp-7
+Architecture: x86_64
+Installed-Size: 332
+Maintainer: @its-pointless github
 Version: 7.3.0
 Description: openmp library for gcc
 Homepage: http://gcc.gnu.org/
@@ -644,6 +752,20 @@ Depends: gcc-7
 Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.3.0_x86_64.deb
 Size: 76772
 SHA256: cbd03bd2d3632be1d6a7abc7a3050ff1351aeb33feb335fe019ab74f790e8b3d
+
+Package: libgomp-8
+Architecture: x86_64
+Installed-Size: 336
+Maintainer: @its-pointless github
+Version: 8.1.0-1
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.1.0-1_x86_64.deb
+Size: 77340
+SHA256: 8244c523b8f4d7a38c7f7108b19bd673b78a19177d1127a9a2949201723412e1
 
 Package: libgomp-8
 Architecture: x86_64
