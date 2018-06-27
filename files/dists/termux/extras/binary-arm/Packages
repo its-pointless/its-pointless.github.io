@@ -1303,26 +1303,14 @@ SHA256: b11a9ab367742626e836863c945bf9888962224c8e997f74cc9ddba71fb5c1fe
 
 Package: mksh
 Architecture: arm
-Installed-Size: 372
+Installed-Size: 396
 Maintainer: Fredrik Fornwall @fornwall
-Version: 55
-Description: the MirBSD™ Korn Shell
-Homepage: https://www.mirbsd.org/mksh.htm
-Filename: dists/termux/extras/binary-arm/mksh_55_arm.deb
-Size: 162264
-SHA256: 40bc04d5ded2c3df8c873bb8d48383d87f8f91acf86a836f2ebfb8b20f6fd4bf
-
-Package: mksh
-Architecture: arm
-Installed-Size: 380
-Maintainer: Fredrik Fornwall @fornwall
-Version: 56b
-Description: Flexible, screen-oriented MUD client
-Homepage: http://tinyfugue.sourceforge.net/
-Depends: libandroid-support
-Filename: dists/termux/extras/binary-arm/mksh_56b_arm.deb
-Size: 163860
-SHA256: 5ce38eb674bb514397ff5c7ee91d608d30792a64cc65cfeffd400f8d31c61e4a
+Version: 56c
+Description: MirBSD Korn Shell
+Homepage: https://www.mirbsd.org
+Filename: dists/termux/extras/binary-arm/mksh_56c_arm.deb
+Size: 170064
+SHA256: f95d2ca44b92105c5ab12af062f5b57e3a4475d0720fd30002a6c9710e78005a
 
 Package: moarvm
 Architecture: arm
@@ -1422,25 +1410,25 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5644
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-2
+Version: 4.2.2-3
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.2-2_arm.deb
-Size: 351232
-SHA256: fce2747d00b75b46a86de7000553a571e1686c3db937047e4fe2a0daf60c06d8
+Filename: dists/termux/extras/binary-arm/octave-dev_4.2.2-3_arm.deb
+Size: 351584
+SHA256: 4b7ec822cf9b74ff85b7b1f8d346df43e26a8cc3386f375d666fc6b821eefa9d
 
 Package: octave
 Architecture: arm
-Installed-Size: 30764
+Installed-Size: 30964
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-2
+Version: 4.2.2-3
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
 Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-arm/octave_4.2.2-2_arm.deb
-Size: 5652496
-SHA256: c6ce70c53c62d94c064f6383cf4ee4e884729a93eee13668d2e26fb7c2d7b96e
+Filename: dists/termux/extras/binary-arm/octave_4.2.2-3_arm.deb
+Size: 5630300
+SHA256: eb333ed03f790563ccd5b2cdba6960ea6c0eb959631598b6dc537bd13d579535
 
 Package: opam
 Architecture: arm

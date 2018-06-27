@@ -1201,26 +1201,14 @@ SHA256: 1d8a871da34523465e382ddb88a73be900c7136909e2657aa3a57a7f2f88b0b3
 
 Package: mksh
 Architecture: aarch64
-Installed-Size: 420
-Maintainer: Fredrik Fornwall @fornwall
-Version: 55
-Description: the MirBSD™ Korn Shell
-Homepage: https://www.mirbsd.org/mksh.htm
-Filename: dists/termux/extras/binary-aarch64/mksh_55_aarch64.deb
-Size: 154456
-SHA256: 5ff9b2e46e622d0ffc2e0d486120cafb2fd7a53a35ee593ffb1496bc1b4317f9
-
-Package: mksh
-Architecture: aarch64
 Installed-Size: 460
 Maintainer: Fredrik Fornwall @fornwall
-Version: 56b
-Description: Flexible, screen-oriented MUD client
-Homepage: http://tinyfugue.sourceforge.net/
-Depends: libandroid-support
-Filename: dists/termux/extras/binary-aarch64/mksh_56b_aarch64.deb
-Size: 156448
-SHA256: 6015ad82aeaa180e4769c114e2e7cf83fa176b84343e8e35147483aae6716f96
+Version: 56c
+Description: MirBSD Korn Shell
+Homepage: https://www.mirbsd.org
+Filename: dists/termux/extras/binary-aarch64/mksh_56c_aarch64.deb
+Size: 156760
+SHA256: 7e7fbe481b5ff03476ee8aa43f2a005306fc045fcee28546805da3ed67a2da3e
 
 Package: moarvm
 Architecture: aarch64
@@ -1344,25 +1332,25 @@ Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5644
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-2
+Version: 4.2.2-3
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.2-2_aarch64.deb
-Size: 351284
-SHA256: f436f7723af40bf25ae673ce48aecc4527c24975e0e1272703ea3268df973360
+Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.2-3_aarch64.deb
+Size: 351680
+SHA256: 403ef3086cf7b52ddaf07c1277fff16da6d39985af0fc60f8b6498fcbd4d1e3d
 
 Package: octave
 Architecture: aarch64
-Installed-Size: 37092
+Installed-Size: 37168
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-2
+Version: 4.2.2-3
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
 Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-aarch64/octave_4.2.2-2_aarch64.deb
-Size: 5083072
-SHA256: e45d172d311fcb6d34361164546ec15f5434d37d837ba3ba21d0de75e9e87f1d
+Filename: dists/termux/extras/binary-aarch64/octave_4.2.2-3_aarch64.deb
+Size: 5066260
+SHA256: 1ae66858011f2c498f6faf401337bffc5c7e0ab4cddc3e18f9bfbdca7c377cb5
 
 Package: opam
 Architecture: aarch64

@@ -1055,13 +1055,12 @@ Package: mksh
 Architecture: x86_64
 Installed-Size: 448
 Maintainer: Fredrik Fornwall @fornwall
-Version: 56b
-Description: Flexible, screen-oriented MUD client
-Homepage: http://tinyfugue.sourceforge.net/
-Depends: libandroid-support
-Filename: dists/termux/extras/binary-x86_64/mksh_56b_x86_64.deb
-Size: 175460
-SHA256: 933aecae6241014a786a46457c8bebf929493e5c90428b65f0ce9869280dc22e
+Version: 56c
+Description: MirBSD Korn Shell
+Homepage: https://www.mirbsd.org
+Filename: dists/termux/extras/binary-x86_64/mksh_56c_x86_64.deb
+Size: 175872
+SHA256: cdd52678d07e0cdf2528b5220343c28f48fec38248ada26a2adf11df749cc65e
 
 Package: moarvm
 Architecture: x86_64
@@ -1174,25 +1173,25 @@ Package: octave-dev
 Architecture: x86_64
 Installed-Size: 5644
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-2
+Version: 4.2.2-3
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-x86_64/octave-dev_4.2.2-2_x86_64.deb
-Size: 351300
-SHA256: 6bb99effc5f3ed2df88750448494e1c4714d6b013a840febfc764fdfc466737f
+Filename: dists/termux/extras/binary-x86_64/octave-dev_4.2.2-3_x86_64.deb
+Size: 351560
+SHA256: b84a6e965fede31cc7bdc75cd844e323cc9cf22846962a18f36a3411460f7c88
 
 Package: octave
 Architecture: x86_64
-Installed-Size: 37312
+Installed-Size: 37828
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-2
+Version: 4.2.2-3
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
 Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-x86_64/octave_4.2.2-2_x86_64.deb
-Size: 6086920
-SHA256: 5c162984cd0761c3c7ec5e5ae091eae0c6a1d2ee567041406ce4ec44e562135c
+Filename: dists/termux/extras/binary-x86_64/octave_4.2.2-3_x86_64.deb
+Size: 6083828
+SHA256: 38c92ed9215b011f799e36c54176c92fd76f9b15203f749a7871f589955f9dfa
 
 Package: opam
 Architecture: x86_64

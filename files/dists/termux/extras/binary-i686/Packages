@@ -1077,13 +1077,12 @@ Package: mksh
 Architecture: i686
 Installed-Size: 420
 Maintainer: Fredrik Fornwall @fornwall
-Version: 56b
-Description: Flexible, screen-oriented MUD client
-Homepage: http://tinyfugue.sourceforge.net/
-Depends: libandroid-support
-Filename: dists/termux/extras/binary-i686/mksh_56b_i686.deb
-Size: 161912
-SHA256: d3b78c48a5fdb8e5cd91e4f5a6afc3e29f490d2228e130589043f67b98b81f47
+Version: 56c
+Description: MirBSD Korn Shell
+Homepage: https://www.mirbsd.org
+Filename: dists/termux/extras/binary-i686/mksh_56c_i686.deb
+Size: 162364
+SHA256: c845030fe0f5e12b9b34795a83c86a3a8eac29da5672ddfc092952e18ef0d82c
 
 Package: moarvm
 Architecture: i686
@@ -1184,25 +1183,25 @@ Package: octave-dev
 Architecture: i686
 Installed-Size: 5644
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-2
+Version: 4.2.2-3
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-i686/octave-dev_4.2.2-2_i686.deb
-Size: 351288
-SHA256: 7e955282e725dbae07ae0e873b123e9d7da03bb8e674ec3c2aa315a7e115d2a8
+Filename: dists/termux/extras/binary-i686/octave-dev_4.2.2-3_i686.deb
+Size: 351504
+SHA256: 449077b04d6d64f07188ba9d138bc0abe1215592a73c9c30d59e96fda25cb8be
 
 Package: octave
 Architecture: i686
-Installed-Size: 36252
+Installed-Size: 36808
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-2
+Version: 4.2.2-3
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
 Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-i686/octave_4.2.2-2_i686.deb
-Size: 6000380
-SHA256: 270a5ad0b0f808aa1c0c22553e60d1ae4a3b6285528ed0434317365565360487
+Filename: dists/termux/extras/binary-i686/octave_4.2.2-3_i686.deb
+Size: 6030300
+SHA256: 8221f81abd2f561d7575120be51ed9dbafe8538048fd28fc1196628c227000c2
 
 Package: opam
 Architecture: i686
