@@ -278,6 +278,18 @@ Filename: dists/termux/extras/binary-aarch64/exa_0.8.0_aarch64.deb
 Size: 423064
 SHA256: 183971e4099476ec29412b998ce15f9928bc57a702c3f4b16d16d749670f6fb2
 
+Package: fp-compiler-snapshot
+Architecture: aarch64
+Installed-Size: 300828
+Maintainer: Fredrik Fornwall @fornwall
+Version: 29062018
+Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
+Homepage: https://www.freepascal.org/
+Depends: binutils
+Filename: dists/termux/extras/binary-aarch64/fp-compiler-snapshot_29062018_aarch64.deb
+Size: 31900440
+SHA256: a898d489b19913248215796da534cead457b197838c8e8153f0c460313d77b6a
+
 Package: gcc-6
 Architecture: aarch64
 Installed-Size: 68808
