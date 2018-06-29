@@ -1314,27 +1314,15 @@ SHA256: f95d2ca44b92105c5ab12af062f5b57e3a4475d0720fd30002a6c9710e78005a
 
 Package: moarvm
 Architecture: arm
-Installed-Size: 6024
+Installed-Size: 6028
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2018.03-1
+Version: 2018.05
 Description: A modern VM built for Rakudo Perl 6
 Homepage: https://github.com/MoarVM/MoarVM
 Depends: libtommath, libuv, libandroid-support
-Filename: dists/termux/extras/binary-arm/moarvm_2018.03-1_arm.deb
-Size: 830780
-SHA256: 09cbc3e7b3125080b0c5b8eb5a01d3af88d554d915630f681a59e4ed153722c9
-
-Package: moarvm
-Architecture: arm
-Installed-Size: 5728
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2018.03
-Description: A modern VM built for Rakudo Perl 6
-Homepage: https://github.com/MoarVM/MoarVM
-Depends: libffi, libtommath, libuv, libandroid-support
-Filename: dists/termux/extras/binary-arm/moarvm_2018.03_arm.deb
-Size: 818224
-SHA256: fd70103235a7e62bdd3be2ad4a219d299ff473e2048810e47df3f96dbee29bc5
+Filename: dists/termux/extras/binary-arm/moarvm_2018.05_arm.deb
+Size: 888772
+SHA256: 3ce8409ebaf40562cf755a53a6d1c72c1a710410699ee4df8ea8318f4b672709
 
 Package: nim
 Architecture: arm
