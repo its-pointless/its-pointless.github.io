@@ -176,13 +176,13 @@ Package: cargo
 Architecture: arm
 Installed-Size: 5388
 Maintainer: @its-pointless
-Version: 0.28.0
+Version: 0.28.0-1
 Description: Rust package manager
 Homepage: https://www.rust-lang.org
 Depends: rustc, libgit2, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.28.0_arm.deb
-Size: 1890064
-SHA256: 082baa6e29f52081c864a92bbde4600ca72c18d4ac6272099d785bd15d3a13c4
+Filename: dists/termux/extras/binary-arm/cargo_0.28.0-1_arm.deb
+Size: 1889804
+SHA256: a92d59eff43fb9d62e2ea98d49da673d6eba53acbb7819934d6ca280fee66844
 
 Package: cksfv
 Architecture: arm
@@ -639,20 +639,6 @@ Homepage: https://github.com/ocaml/dune/
 Filename: dists/termux/extras/binary-arm/jbuilder_1.0.beta20_arm.deb
 Size: 826784
 SHA256: 10a426b928921b17e60730f6fc2ca1d4f38523740abf4c625db243f1b2720a9a
-
-Package: julia-beta
-Architecture: arm
-Installed-Size: 280424
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libunwind
-Conflicts: julia-devprev, julia-alpha
-Replaces: julia-devprev, julia-alpha
-Filename: dists/termux/extras/binary-arm/julia-beta_0.7.0_arm.deb
-Size: 35292816
-SHA256: a210b35a7ea7699871599a6a7469e3d5f54fcbb9c5b6f8f5b1be213e0fcfd6da
 
 Package: keystone-dev
 Architecture: arm
@@ -2312,78 +2298,41 @@ Filename: dists/termux/extras/binary-arm/ripgrep_0.8.1_arm.deb
 Size: 778292
 SHA256: ad25e680b8ccce4f601a2be2b66a71efdf3f6269875d72c3e33daca1c4aaa906
 
-Package: rust-rls-nightly
-Architecture: arm
-Installed-Size: 9480
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.28-3_arm.deb
-Size: 3244200
-SHA256: e0a55d9cd98771afedb1a620a30837f7b1a74aa17863a3e74bc2f064773fcf00
-
 Package: rust-rls
 Architecture: arm
 Installed-Size: 9520
 Maintainer: @its-pointless
-Version: 0.127.0
+Version: 0.127.0-1
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-arm/rust-rls_0.127.0_arm.deb
-Size: 3349708
-SHA256: e6aaac7e1d2f5ee09c54caf95078fc30a1b92848b61d607cc104643bcd28d383
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 141208
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.28-3_arm.deb
-Size: 50755444
-SHA256: 78d9b80382af964d267ca73d38c0f44705b39bba663c593839e491c415b80779
+Filename: dists/termux/extras/binary-arm/rust-rls_0.127.0-1_arm.deb
+Size: 3350220
+SHA256: a5fc2b4210baf1246f00c02b44861dc17743f72063401713dfcaaeddf352c128
 
 Package: rustc
 Architecture: arm
 Installed-Size: 120480
 Maintainer: @its-pointless
-Version: 1.27.0
+Version: 1.27.0-1
 Description: rust toolchain
 Homepage: https://www.rust-lang.org
 Depends: clang
-Filename: dists/termux/extras/binary-arm/rustc_1.27.0_arm.deb
-Size: 46350080
-SHA256: b10ae809d29b0671c7c64bc9e176186ae6fbad4de57ecfcb0c50f7dbacc40d10
-
-Package: rustfmt-nightly
-Architecture: arm
-Installed-Size: 4140
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.28-3_arm.deb
-Size: 1360280
-SHA256: d187b4a682bd57aca07f91454f659718349048ef44c687d78cb501d35f1e08cb
+Filename: dists/termux/extras/binary-arm/rustc_1.27.0-1_arm.deb
+Size: 46344796
+SHA256: 2922db61ecc038342f497cee7d391c67211d186a89ac1b7edf6d57a00e04fabf
 
 Package: rustfmt
 Architecture: arm
 Installed-Size: 3380
 Maintainer: @its-pointless
-Version: 1.27.0
+Version: 1.27.0-1
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-arm/rustfmt_1.27.0_arm.deb
-Size: 1263728
-SHA256: d761af16865418212f97f50c0c2fd7ea80d7019c1e0af11dc7ffeef9ff0d7ecf
+Filename: dists/termux/extras/binary-arm/rustfmt_1.27.0-1_arm.deb
+Size: 1264208
+SHA256: 605c030edd4b6d44e08ac1e1549cfe1a97c64b8cdada657c2a97c4c298805426
 
 Package: sc-im
 Architecture: arm

@@ -161,18 +161,6 @@ Filename: dists/termux/extras/binary-x86_64/capstone_3.0.4_x86_64.deb
 Size: 396448
 SHA256: d32dda5c13d2658f81b2c6334a3cef48ef4fcff5b6d7fa558883215ce33e68c4
 
-Package: cargo
-Architecture: x86_64
-Installed-Size: 8976
-Maintainer: @its-pointless
-Version: 0.28.0
-Description: Rust package manager
-Homepage: https://www.rust-lang.org
-Depends: rustc, libgit2, libssh2
-Filename: dists/termux/extras/binary-x86_64/cargo_0.28.0_x86_64.deb
-Size: 2192664
-SHA256: bd39adc19d4e551676cbfa2b543a807a61a62a747544744b26945363b545de25
-
 Package: cksfv
 Architecture: x86_64
 Installed-Size: 24
@@ -515,20 +503,6 @@ Homepage: https://github.com/ocaml/dune/
 Filename: dists/termux/extras/binary-x86_64/jbuilder_1.0.beta20_x86_64.deb
 Size: 811556
 SHA256: 32cefa43b56dd9392ae51c7d539a0ab1d5cb2349917b539fb2ea6ae818fe2122
-
-Package: julia-beta
-Architecture: x86_64
-Installed-Size: 327212
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
-Conflicts: julia-devprev, julia-alpha
-Replaces: julia-devprev, julia-alpha
-Filename: dists/termux/extras/binary-x86_64/julia-beta_0.7.0_x86_64.deb
-Size: 35797324
-SHA256: 8fbaacb4c76f43eee33bae166dc1922079cc0f4c77a85b8974bf0f0c1b274f6c
 
 Package: keystone-dev
 Architecture: x86_64
@@ -1031,25 +1005,26 @@ Package: llvm-libunwind-dev
 Architecture: x86_64
 Installed-Size: 52
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
+Version: 6.0.1
 Description: Development files for llvm-libunwind
 Homepage: https://github.com/llvm-mirror/libunwind
 Depends: llvm-libunwind
-Filename: dists/termux/extras/binary-x86_64/llvm-libunwind-dev_6.0.0_x86_64.deb
-Size: 8000
-SHA256: 0dfa55b03b34faf4d474be81366eb39117bd9866554070994f1d65b3f2d05c21
+Filename: dists/termux/extras/binary-x86_64/llvm-libunwind-dev_6.0.1_x86_64.deb
+Size: 8044
+SHA256: 33a47efec7eff4af7c140f1f9e0074961771d759614114973e16b31a02e58baf
 
 Package: llvm-libunwind
 Architecture: x86_64
 Installed-Size: 32
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
+Version: 6.0.1
 Description: llvm libunwind
 Homepage: https://github.com/llvm-mirror/libunwind
 Conflicts: libunwind
-Filename: dists/termux/extras/binary-x86_64/llvm-libunwind_6.0.0_x86_64.deb
+Provides: libunwind
+Filename: dists/termux/extras/binary-x86_64/llvm-libunwind_6.0.1_x86_64.deb
 Size: 11744
-SHA256: 4d461609588be3246ccd16f7854aea967ad307a8426136266ebd3d81897b6afb
+SHA256: 9a9b323261634a827c19f95f93a0eaf25762a9c671d7542bcff8f360eafa7908
 
 Package: mksh
 Architecture: x86_64
@@ -2077,79 +2052,6 @@ Homepage: https://github.com/BurntSushi/ripgrep
 Filename: dists/termux/extras/binary-x86_64/ripgrep_0.8.1_x86_64.deb
 Size: 900236
 SHA256: 7f6445a5b57e470463757926f2da7066a10cb5e952bc29b2827f1d6071f4a1b2
-
-Package: rust-rls-nightly
-Architecture: x86_64
-Installed-Size: 16456
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.28-3_x86_64.deb
-Size: 3856912
-SHA256: 9e616576d68750e13cf335168e975b7f54e118dfb7612bb8762e4988ef0aa208
-
-Package: rust-rls
-Architecture: x86_64
-Installed-Size: 16284
-Maintainer: @its-pointless
-Version: 0.127.0
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rust-rls_0.127.0_x86_64.deb
-Size: 3984784
-SHA256: 823779fdc23afc7d465ac851b6e76b4d48f87010a5f9f4e57ed977d58731ea50
-
-Package: rustc-nightly
-Architecture: x86_64
-Installed-Size: 179656
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.28-3_x86_64.deb
-Size: 53658132
-SHA256: 4222f2d1aac19b25c5ec9caff5c7d10de03b9d1185bb26c47fa5fb37d046ebd3
-
-Package: rustc
-Architecture: x86_64
-Installed-Size: 156296
-Maintainer: @its-pointless
-Version: 1.27.0
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-x86_64/rustc_1.27.0_x86_64.deb
-Size: 48887200
-SHA256: 5d4b209229f379b97839e1c1481601c7cbdd2e74d35f1c0d84b72d9fdbde0d22
-
-Package: rustfmt-nightly
-Architecture: x86_64
-Installed-Size: 7236
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.28-3_x86_64.deb
-Size: 1664368
-SHA256: 8db5abf9f365e139ad9f8b3d4968628f901ab507f0e3eef5c9138f4c0354fd96
-
-Package: rustfmt
-Architecture: x86_64
-Installed-Size: 5820
-Maintainer: @its-pointless
-Version: 1.27.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rustfmt_1.27.0_x86_64.deb
-Size: 1524424
-SHA256: 5a47885edc270284bc6f4f3d497e9efb24add5f15e7672165a9c72340ca2adf9
 
 Package: sc-im
 Architecture: x86_64

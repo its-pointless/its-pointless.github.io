@@ -161,18 +161,6 @@ Filename: dists/termux/extras/binary-i686/capstone_3.0.4_i686.deb
 Size: 382368
 SHA256: cd6e4ff715f8e47214e81b732119ddc5fbfa7be8d2c40aed16143275d04c6cb6
 
-Package: cargo
-Architecture: i686
-Installed-Size: 9932
-Maintainer: @its-pointless
-Version: 0.28.0
-Description: Rust package manager
-Homepage: https://www.rust-lang.org
-Depends: rustc, libgit2, libssh2
-Filename: dists/termux/extras/binary-i686/cargo_0.28.0_i686.deb
-Size: 2399032
-SHA256: 6a4d6422e91ff9be85f3feebb51ae8921cfb38b33f8c07f77d5eaeb7288c36fa
-
 Package: cksfv
 Architecture: i686
 Installed-Size: 24
@@ -539,20 +527,6 @@ Homepage: https://github.com/ocaml/dune/
 Filename: dists/termux/extras/binary-i686/jbuilder_1.0.beta20_i686.deb
 Size: 86744
 SHA256: 997ae1e52b867828c4993be53800b005d7ed5d5d3812d1e5461551bf894eb512
-
-Package: julia-beta
-Architecture: i686
-Installed-Size: 281368
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
-Conflicts: julia-devprev, julia-alpha
-Replaces: julia-devprev, julia-alpha
-Filename: dists/termux/extras/binary-i686/julia-beta_0.7.0_i686.deb
-Size: 35368988
-SHA256: 063ab164b96f763e6e4f80609ff220ce2cf2b4fa0476f787cdb08b836293e1d4
 
 Package: keystone-dev
 Architecture: i686
@@ -1053,25 +1027,26 @@ Package: llvm-libunwind-dev
 Architecture: i686
 Installed-Size: 52
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
+Version: 6.0.1
 Description: Development files for llvm-libunwind
 Homepage: https://github.com/llvm-mirror/libunwind
 Depends: llvm-libunwind
-Filename: dists/termux/extras/binary-i686/llvm-libunwind-dev_6.0.0_i686.deb
-Size: 8036
-SHA256: 8859f226d7e017579afd255c280070fa62b3161dc214a0fcc4aed9e0bd08b46b
+Filename: dists/termux/extras/binary-i686/llvm-libunwind-dev_6.0.1_i686.deb
+Size: 8028
+SHA256: 60bd076383b0bde46f97ce3f6e6f681e2fea22e06e3e97d89583e7ba322771c0
 
 Package: llvm-libunwind
 Architecture: i686
 Installed-Size: 32
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
+Version: 6.0.1
 Description: llvm libunwind
 Homepage: https://github.com/llvm-mirror/libunwind
 Conflicts: libunwind
-Filename: dists/termux/extras/binary-i686/llvm-libunwind_6.0.0_i686.deb
-Size: 11208
-SHA256: 3b0f57ba40f37e0c1df85873dce56ad5758fdfa2a48210111b114b11c8573168
+Provides: libunwind
+Filename: dists/termux/extras/binary-i686/llvm-libunwind_6.0.1_i686.deb
+Size: 11216
+SHA256: 44cdd6a8a990f356ab06fcd29967efb2eca2abecfc2618ac3a05067215b952a9
 
 Package: mksh
 Architecture: i686
@@ -2087,79 +2062,6 @@ Homepage: https://github.com/BurntSushi/ripgrep
 Filename: dists/termux/extras/binary-i686/ripgrep_0.8.1_i686.deb
 Size: 961372
 SHA256: 892e1cc925244f41da4306f0e97ff19236ded189efd933f8151b9fbf31c5d7a4
-
-Package: rust-rls-nightly
-Architecture: i686
-Installed-Size: 18456
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.28-3_i686.deb
-Size: 4250708
-SHA256: 465591a6aca7327901b1e17523ca706c8b2abaaf3438deb1f016872bf76d6924
-
-Package: rust-rls
-Architecture: i686
-Installed-Size: 18220
-Maintainer: @its-pointless
-Version: 0.127.0
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-i686/rust-rls_0.127.0_i686.deb
-Size: 4348956
-SHA256: 3b4dc25367cd27f7904581a2097be09e52e42e3331844e74e342c5230652ace7
-
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 182992
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.28-3_i686.deb
-Size: 54782936
-SHA256: b29a97e5f534b6a3707fe8a9fc07e34fc9b166774576bfdb3ef32f5a801f9538
-
-Package: rustc
-Architecture: i686
-Installed-Size: 158652
-Maintainer: @its-pointless
-Version: 1.27.0
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-i686/rustc_1.27.0_i686.deb
-Size: 49917504
-SHA256: 2c9e3db66f7c8914679cd8f4abda23a8171abb96a774d3cdbe55fb56d738867f
-
-Package: rustfmt-nightly
-Architecture: i686
-Installed-Size: 7948
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.28-3_i686.deb
-Size: 1821980
-SHA256: 5a4b8d806162b4442c56c180dd0c2c712a8ae118886b7edcf9475bc123bd4a0f
-
-Package: rustfmt
-Architecture: i686
-Installed-Size: 6468
-Maintainer: @its-pointless
-Version: 1.27.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-i686/rustfmt_1.27.0_i686.deb
-Size: 1656788
-SHA256: b26b6b72e3a91774b2fdae566fcb92cca568028911d244202e2c081525862487
 
 Package: sc-im
 Architecture: i686

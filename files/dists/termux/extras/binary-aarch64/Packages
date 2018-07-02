@@ -176,13 +176,13 @@ Package: cargo
 Architecture: aarch64
 Installed-Size: 7804
 Maintainer: @its-pointless
-Version: 0.28.0
+Version: 0.28.0-1
 Description: Rust package manager
 Homepage: https://www.rust-lang.org
 Depends: rustc, libgit2, libssh2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.28.0_aarch64.deb
-Size: 1879844
-SHA256: 08322aa639e49695122fcacc9d421ff22981868561a5bd9332020b45af893325
+Filename: dists/termux/extras/binary-aarch64/cargo_0.28.0-1_aarch64.deb
+Size: 1881312
+SHA256: e2babb87711c80b633fcfb97b3acf18aae3051abca92736eb2ee5f4fca3fc9cc
 
 Package: cksfv
 Architecture: aarch64
@@ -542,15 +542,15 @@ Package: julia-beta
 Architecture: aarch64
 Installed-Size: 326564
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
+Version: 0.7.0-1
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
 Conflicts: julia-devprev, julia-alpha
 Replaces: julia-devprev, julia-alpha
-Filename: dists/termux/extras/binary-aarch64/julia-beta_0.7.0_aarch64.deb
-Size: 35363380
-SHA256: bda64582b6784e6899f7bfa5d68dfe6c734de08998cf193c3cd6850374cc783f
+Filename: dists/termux/extras/binary-aarch64/julia-beta_0.7.0-1_aarch64.deb
+Size: 35363556
+SHA256: 19dafae94b4fabb9bd0f6c33220f342551cb43974d36297398997452c4e7307f
 
 Package: keystone-dev
 Architecture: aarch64
@@ -1167,25 +1167,26 @@ Package: llvm-libunwind-dev
 Architecture: aarch64
 Installed-Size: 52
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
+Version: 6.0.1
 Description: Development files for llvm-libunwind
 Homepage: https://github.com/llvm-mirror/libunwind
 Depends: llvm-libunwind
-Filename: dists/termux/extras/binary-aarch64/llvm-libunwind-dev_6.0.0_aarch64.deb
-Size: 7996
-SHA256: 725c02f8b60602c5cec1d32784ffd25cae0ae30b1d0ccf5b9cf85f7652f2f6ce
+Filename: dists/termux/extras/binary-aarch64/llvm-libunwind-dev_6.0.1_aarch64.deb
+Size: 8024
+SHA256: f7689d8da388542f5f7c272cddbc14e2dc98bff8b79310847e0cf204b447b36f
 
 Package: llvm-libunwind
 Architecture: aarch64
 Installed-Size: 36
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
+Version: 6.0.1
 Description: llvm libunwind
 Homepage: https://github.com/llvm-mirror/libunwind
 Conflicts: libunwind
-Filename: dists/termux/extras/binary-aarch64/llvm-libunwind_6.0.0_aarch64.deb
-Size: 10884
-SHA256: 52362c2d736a2150ad5cd710207578b7fc88c27080acc58dc1f09724815c3088
+Provides: libunwind
+Filename: dists/termux/extras/binary-aarch64/llvm-libunwind_6.0.1_aarch64.deb
+Size: 10888
+SHA256: de9e90baa17c85ee7a9b4662f4d84353ff25d9a67fb99da23d4302fcfd6b7e35
 
 Package: mailutils-dev
 Architecture: aarch64
@@ -2270,78 +2271,41 @@ Filename: dists/termux/extras/binary-aarch64/ripgrep_0.8.1_aarch64.deb
 Size: 776248
 SHA256: 7f481033e61983d40b5a46ad6475b2def808e07bb119cb69f01993a55713508e
 
-Package: rust-rls-nightly
-Architecture: aarch64
-Installed-Size: 14404
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.28-3_aarch64.deb
-Size: 3286912
-SHA256: 065ac7c2cb3e154eefe51c1c3799aa9c6fc9f983008825029cd70efd237b43d1
-
 Package: rust-rls
 Architecture: aarch64
 Installed-Size: 14300
 Maintainer: @its-pointless
-Version: 0.127.0
+Version: 0.127.0-1
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-aarch64/rust-rls_0.127.0_aarch64.deb
-Size: 3364004
-SHA256: 14a5e1ab8816a94e8855ed6b85f71502d6772df6e226e43a44f03a9ab64afb6a
-
-Package: rustc-nightly
-Architecture: aarch64
-Installed-Size: 164780
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.28-3_aarch64.deb
-Size: 50951252
-SHA256: 3d5e96a60d6a0e879c0025ba6fdd5e25b69112c73656bf4119d06fc40cc42224
+Filename: dists/termux/extras/binary-aarch64/rust-rls_0.127.0-1_aarch64.deb
+Size: 3365076
+SHA256: 30d2ba22d02e81e860980b73a10184f6c605cce15d2e79cc1a526c2178277b25
 
 Package: rustc
 Architecture: aarch64
 Installed-Size: 142564
 Maintainer: @its-pointless
-Version: 1.27.0
+Version: 1.27.0-1
 Description: rust toolchain
 Homepage: https://www.rust-lang.org
 Depends: clang
-Filename: dists/termux/extras/binary-aarch64/rustc_1.27.0_aarch64.deb
-Size: 46565412
-SHA256: 74829f86663fc2c31b813bcbac17829f3f7af6517a5bc5476553094d8baef5a6
-
-Package: rustfmt-nightly
-Architecture: aarch64
-Installed-Size: 6536
-Maintainer: @its-pointless
-Version: 1.28-3
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.28-3_aarch64.deb
-Size: 1422380
-SHA256: 096d434acd1c5bb7b53125e91a071481c2a84bdffefc92ad7b729dbe8ba0a848
+Filename: dists/termux/extras/binary-aarch64/rustc_1.27.0-1_aarch64.deb
+Size: 46562688
+SHA256: 9e5282191c97881d68ef8524f5a8fae90a4270fa5187e892cdab257df7563c48
 
 Package: rustfmt
 Architecture: aarch64
 Installed-Size: 5216
 Maintainer: @its-pointless
-Version: 1.27.0
+Version: 1.27.0-1
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-aarch64/rustfmt_1.27.0_aarch64.deb
-Size: 1299320
-SHA256: c560495b69cc90bde0d2a2026c9e6e13539a316d69bd4f85a6eb4a7d10d2fe17
+Filename: dists/termux/extras/binary-aarch64/rustfmt_1.27.0-1_aarch64.deb
+Size: 1298608
+SHA256: 18424c6f45bd732b4d82f9be10bdd04051f9ee0ece0a610fbff112c577673198
 
 Package: sc-im
 Architecture: aarch64
