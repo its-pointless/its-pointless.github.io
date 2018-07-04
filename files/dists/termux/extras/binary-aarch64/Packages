@@ -304,15 +304,15 @@ SHA256: 4168562e079208144d58883ac92ddb62e36aa990ddd00cad4c8aecfb14359c5a
 
 Package: gcc-6
 Architecture: aarch64
-Installed-Size: 70860
+Installed-Size: 70856
 Maintainer:  @its-pointless github
 Version: 6.4.0-4
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
 Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
 Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0-4_aarch64.deb
-Size: 19548448
-SHA256: 4779ee764090108739ce7552d01861048246aecba2186ef4d0daf6d1bd840e98
+Size: 19554940
+SHA256: 3858b1662f1dc27e2d2328a2d384973e34a003d170c0ca0bf6e6db085755155f
 
 Package: gcc-7
 Architecture: aarch64
@@ -753,8 +753,8 @@ Version: 6.4.0-4
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libgfortran_6.4.0-4_aarch64.deb
-Size: 230076
-SHA256: d2495d8b088ee0af9748ed5ea3d24e3d7132b62307fbf875fd064c0730eb8bdb
+Size: 229964
+SHA256: f84f0ac445b751fce68ae4e5f13e4893469bc48b52d5b65da9a81c6ca6db9e3c
 
 Package: libgme-dev
 Architecture: aarch64
