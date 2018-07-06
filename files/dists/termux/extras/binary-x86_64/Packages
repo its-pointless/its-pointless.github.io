@@ -267,30 +267,6 @@ Filename: dists/termux/extras/binary-x86_64/exa_0.8.0_x86_64.deb
 Size: 501632
 SHA256: afd417ae480480f2741d38777912c77e4f85d22023b2b69c2e97470ebe566ab3
 
-Package: gcc-6
-Architecture: x86_64
-Installed-Size: 95668
-Maintainer:  @its-pointless github
-Version: 6.4.0-3
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-x86_64/gcc-6_6.4.0-3_x86_64.deb
-Size: 25608400
-SHA256: 10a65a6bc76b693bf1b6542bebb2ca5c07a12388dbdc3d3ba5b5efcc97446cef
-
-Package: gcc-6
-Architecture: x86_64
-Installed-Size: 98964
-Maintainer:  @its-pointless github
-Version: 6.4.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-x86_64/gcc-6_6.4.0-4_x86_64.deb
-Size: 26385668
-SHA256: 1b375ce23147c4b3e2f29ff1492150ebb4c8764e71caebb006f4b5b6f1b94ad0
-
 Package: gcc-7
 Architecture: x86_64
 Installed-Size: 109596
@@ -422,77 +398,27 @@ SHA256: ec33b63c7cb988bd07b9b74ebe9664280ad4005800a76822ea216e79f9cefa92
 
 Package: guile-2.2-dev
 Architecture: x86_64
-Installed-Size: 744
+Installed-Size: 756
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.2
+Version: 2.2.4
 Description: Development files for guile-2.2
 Homepage: http://www.gnu.org/software/guile/
 Depends: guile-2.2
-Filename: dists/termux/extras/binary-x86_64/guile-2.2-dev_2.2.2_x86_64.deb
-Size: 77528
-SHA256: 437c9e187d4f9e2f0ca6d09bca994213cab77d460474a9ea57082926e09be48e
-
-Package: guile-2.2-dev
-Architecture: x86_64
-Installed-Size: 744
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.3
-Description: Development files for guile-2.2
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2
-Filename: dists/termux/extras/binary-x86_64/guile-2.2-dev_2.2.3_x86_64.deb
-Size: 77640
-SHA256: 2531edb8bff48f07b6d0ad542692adbce6037fc451295b1d4985504de8c6bf7d
+Filename: dists/termux/extras/binary-x86_64/guile-2.2-dev_2.2.4_x86_64.deb
+Size: 77700
+SHA256: 7330b6db560a9cbd58bb35b20c94a9828ba955d3f99cf589bfe5aa5c0de913aa
 
 Package: guile-2.2
 Architecture: x86_64
-Installed-Size: 44892
+Installed-Size: 45144
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.2
+Version: 2.2.4
 Description: GNU extension language and Scheme interpreter
 Homepage: http://www.gnu.org/software/guile/
 Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Conflicts: guile
-Filename: dists/termux/extras/binary-x86_64/guile-2.2_2.2.2_x86_64.deb
-Size: 4905892
-SHA256: 67396a683a4e5091f8cbaa6b7d146465a2f7fad03b6ac87177304902f729d449
-
-Package: guile-2.2
-Architecture: x86_64
-Installed-Size: 45080
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.3
-Description: GNU extension language and Scheme interpreter
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Conflicts: guile
-Filename: dists/termux/extras/binary-x86_64/guile-2.2_2.2.3_x86_64.deb
-Size: 4973756
-SHA256: 75d800231a43faf8ceacf3c08f409fcea4df252bb953371d0feb26334b22b414
-
-Package: guile-dev
-Architecture: x86_64
-Installed-Size: 784
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.14
-Description: Development files for guile
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile
-Filename: dists/termux/extras/binary-x86_64/guile-dev_2.0.14_x86_64.deb
-Size: 89016
-SHA256: fd9c93cc0af4a8c89ec17dc554956c9a4885676f30576e80ba75d03f4c33cf9c
-
-Package: guile
-Architecture: x86_64
-Installed-Size: 11924
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.14
-Description: GNU extension language and Scheme interpreter
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/guile_2.0.14_x86_64.deb
-Size: 2231072
-SHA256: 7899925965567ada2bbcb6cab9c653ef395f6901cc714585ebc525df4e0722d5
+Filename: dists/termux/extras/binary-x86_64/guile-2.2_2.2.4_x86_64.deb
+Size: 5001384
+SHA256: 0b69b2b1f5ba299bce15704c5ad33d647e7e1b10cbf50eac6d51d4f1644651a7
 
 Package: imapfilter
 Architecture: x86_64

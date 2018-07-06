@@ -301,30 +301,6 @@ Filename: dists/termux/extras/binary-arm/fp-compiler_3.0.4_arm.deb
 Size: 10778020
 SHA256: a351ec0bf44752c9aed516b355248b842209e9a307417e425cb862250b2dc499
 
-Package: gcc-6
-Architecture: arm
-Installed-Size: 68276
-Maintainer:  @its-pointless github
-Version: 6.4.0-3
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0-3_arm.deb
-Size: 20071996
-SHA256: abc42282554b1ece98b31b4e3f618e06fb43485ce5cf4763001023b753719e16
-
-Package: gcc-6
-Architecture: arm
-Installed-Size: 73620
-Maintainer:  @its-pointless github
-Version: 6.4.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0-4_arm.deb
-Size: 21097544
-SHA256: 99646cb3aa7abf5d0b581b0d32ea2ae46f062e21d74e1c16497c2d8aa3a42a96
-
 Package: gcc-7
 Architecture: arm
 Installed-Size: 117764
@@ -546,77 +522,27 @@ SHA256: 0db951fc39239f6069826929a644f7712d5a9c904d297ee88ddb3697736ab865
 
 Package: guile-2.2-dev
 Architecture: arm
-Installed-Size: 744
+Installed-Size: 756
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.2
+Version: 2.2.4
 Description: Development files for guile-2.2
 Homepage: http://www.gnu.org/software/guile/
 Depends: guile-2.2
-Filename: dists/termux/extras/binary-arm/guile-2.2-dev_2.2.2_arm.deb
-Size: 77604
-SHA256: 1bbbc937d298f80a182f807efd509647fcf340d1d40b3cfe6f05c8f4bc9749a8
-
-Package: guile-2.2-dev
-Architecture: arm
-Installed-Size: 744
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.3
-Description: Development files for guile-2.2
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2
-Filename: dists/termux/extras/binary-arm/guile-2.2-dev_2.2.3_arm.deb
-Size: 77656
-SHA256: 8cd30d8ed0b38bbb4da4b4861efbc19b6def57d7176152956c255b69edb89923
+Filename: dists/termux/extras/binary-arm/guile-2.2-dev_2.2.4_arm.deb
+Size: 77752
+SHA256: 7238c9d3f26d3c955bf7a011963da31cbb98d318aec382871a0538270fc24f9b
 
 Package: guile-2.2
 Architecture: arm
-Installed-Size: 41052
+Installed-Size: 41512
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.2
+Version: 2.2.4
 Description: GNU extension language and Scheme interpreter
 Homepage: http://www.gnu.org/software/guile/
 Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Conflicts: guile
-Filename: dists/termux/extras/binary-arm/guile-2.2_2.2.2_arm.deb
-Size: 4865768
-SHA256: d187d29dabd915bff7d34bd1e282ed47fb6c53c9ea4d2bb7c9b9d743ddbe4ca4
-
-Package: guile-2.2
-Architecture: arm
-Installed-Size: 41164
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.3
-Description: GNU extension language and Scheme interpreter
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Conflicts: guile
-Filename: dists/termux/extras/binary-arm/guile-2.2_2.2.3_arm.deb
-Size: 4899656
-SHA256: 8bcd36d2e2eac98c5532effe3202b178240c09ade31a2bfd2be6cba2091ed9e5
-
-Package: guile-dev
-Architecture: arm
-Installed-Size: 784
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.14
-Description: Development files for guile
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile
-Filename: dists/termux/extras/binary-arm/guile-dev_2.0.14_arm.deb
-Size: 89072
-SHA256: 0c62b2eb42c949c9f16913ef2786b5707970dc07efb0efa6624abc5b296e4a6a
-
-Package: guile
-Architecture: arm
-Installed-Size: 11408
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.14
-Description: GNU extension language and Scheme interpreter
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Filename: dists/termux/extras/binary-arm/guile_2.0.14_arm.deb
-Size: 2181488
-SHA256: 49ef8ccc7be7a5df305f5cddb52424eddc7fca397e829cbe1fe678a61297794c
+Filename: dists/termux/extras/binary-arm/guile-2.2_2.2.4_arm.deb
+Size: 4971892
+SHA256: 86f916ba161ac9c076fff61bd562b08140deda0eb6867dceabd04db48b776301
 
 Package: imapfilter
 Architecture: arm

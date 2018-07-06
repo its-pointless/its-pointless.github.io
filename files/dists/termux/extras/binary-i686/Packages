@@ -291,30 +291,6 @@ Filename: dists/termux/extras/binary-i686/fp-compiler_3.0.4_i686.deb
 Size: 11031360
 SHA256: 56a0852c1d274d6a66ce4c6ad22cc18911707cad14a7e9a63ec6f9958d97bfbe
 
-Package: gcc-6
-Architecture: i686
-Installed-Size: 93756
-Maintainer:  @its-pointless github
-Version: 6.4.0-3
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-i686/gcc-6_6.4.0-3_i686.deb
-Size: 25409844
-SHA256: 900bed5f0cf8de0efd614f2a376293dcba3fa4884cf31fa44da99a4355903c6b
-
-Package: gcc-6
-Architecture: i686
-Installed-Size: 96940
-Maintainer:  @its-pointless github
-Version: 6.4.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-i686/gcc-6_6.4.0-4_i686.deb
-Size: 25857176
-SHA256: c91c9790e8af129a48cb43a777bdfd06bb1fb9f5a1ae316e57b584a525e44fe8
-
 Package: gcc-7
 Architecture: i686
 Installed-Size: 106720
@@ -446,77 +422,27 @@ SHA256: 9d3a5d79571177f8cf393d9e9e2653fdad6b4bf0465355e75adaa67e9f061871
 
 Package: guile-2.2-dev
 Architecture: i686
-Installed-Size: 744
+Installed-Size: 756
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.2
+Version: 2.2.4
 Description: Development files for guile-2.2
 Homepage: http://www.gnu.org/software/guile/
 Depends: guile-2.2
-Filename: dists/termux/extras/binary-i686/guile-2.2-dev_2.2.2_i686.deb
-Size: 77608
-SHA256: 80a5ef3bf45af8d7dc00cec4c8e3dd913ad6ab3ca6d5e92a5d80ec0a750e3625
-
-Package: guile-2.2-dev
-Architecture: i686
-Installed-Size: 744
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.3
-Description: Development files for guile-2.2
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2
-Filename: dists/termux/extras/binary-i686/guile-2.2-dev_2.2.3_i686.deb
-Size: 77680
-SHA256: 048a9b78ee8498c4c3593ea069bd0a1304550da54ac7129591a4e63023da8316
+Filename: dists/termux/extras/binary-i686/guile-2.2-dev_2.2.4_i686.deb
+Size: 77716
+SHA256: 878f3ce6546fd31efc9a54594c4c4bceb5c14925af35424c815c4a78c47cee61
 
 Package: guile-2.2
 Architecture: i686
-Installed-Size: 41292
+Installed-Size: 41768
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.2
+Version: 2.2.4
 Description: GNU extension language and Scheme interpreter
 Homepage: http://www.gnu.org/software/guile/
 Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Conflicts: guile
-Filename: dists/termux/extras/binary-i686/guile-2.2_2.2.2_i686.deb
-Size: 4896100
-SHA256: f1198d973688695d26cf050ec6e76bf720bd75fd9f986a07a9d88f02f839b33d
-
-Package: guile-2.2
-Architecture: i686
-Installed-Size: 41404
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.3
-Description: GNU extension language and Scheme interpreter
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Conflicts: guile
-Filename: dists/termux/extras/binary-i686/guile-2.2_2.2.3_i686.deb
-Size: 4965896
-SHA256: 324b5d193a47a1316c0afad2737b2043cdc150668e541d69bfd896c545d18cfc
-
-Package: guile-dev
-Architecture: i686
-Installed-Size: 784
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.14
-Description: Development files for guile
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile
-Filename: dists/termux/extras/binary-i686/guile-dev_2.0.14_i686.deb
-Size: 89024
-SHA256: d18b441cc4a07fb06d70f0e96cebff8becdb8786a35f2d4ab05edcab18eda9e2
-
-Package: guile
-Architecture: i686
-Installed-Size: 11640
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.14
-Description: GNU extension language and Scheme interpreter
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Filename: dists/termux/extras/binary-i686/guile_2.0.14_i686.deb
-Size: 2206408
-SHA256: 7825ddafe693808bdfb936dcd5bb9d122177f862a92cca91590e58e08630e716
+Filename: dists/termux/extras/binary-i686/guile-2.2_2.2.4_i686.deb
+Size: 5001584
+SHA256: 23acfdb83b3c30da0330087b5700b55887750d811be13fc8ee0ca5cfdee5e18f
 
 Package: imapfilter
 Architecture: i686

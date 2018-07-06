@@ -290,30 +290,6 @@ Filename: dists/termux/extras/binary-aarch64/fp-compiler-snapshot_29062018_aarch
 Size: 31900440
 SHA256: a898d489b19913248215796da534cead457b197838c8e8153f0c460313d77b6a
 
-Package: gcc-6
-Architecture: aarch64
-Installed-Size: 68808
-Maintainer:  @its-pointless github
-Version: 6.4.0-3
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0-3_aarch64.deb
-Size: 19428084
-SHA256: 4168562e079208144d58883ac92ddb62e36aa990ddd00cad4c8aecfb14359c5a
-
-Package: gcc-6
-Architecture: aarch64
-Installed-Size: 70856
-Maintainer:  @its-pointless github
-Version: 6.4.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0-4_aarch64.deb
-Size: 19554940
-SHA256: 3858b1662f1dc27e2d2328a2d384973e34a003d170c0ca0bf6e6db085755155f
-
 Package: gcc-7
 Architecture: aarch64
 Installed-Size: 79032
@@ -469,52 +445,27 @@ SHA256: b8dca3d25dcda0c9cee23e780e2e8bcbc90dcee4bab157e9c024a3f165c7a83e
 
 Package: guile-2.2-dev
 Architecture: aarch64
-Installed-Size: 744
+Installed-Size: 756
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.3
+Version: 2.2.4
 Description: Development files for guile-2.2
 Homepage: http://www.gnu.org/software/guile/
 Depends: guile-2.2
-Filename: dists/termux/extras/binary-aarch64/guile-2.2-dev_2.2.3_aarch64.deb
-Size: 77644
-SHA256: 4dee844923f976aa2042b5fb3d1580d00b9b46fe07bc1cef119751451f12e9bf
+Filename: dists/termux/extras/binary-aarch64/guile-2.2-dev_2.2.4_aarch64.deb
+Size: 77740
+SHA256: 1ea0c0a87d26dcb8b58ca63e9bed1aa7e017eba87bf23c412c6f0e222a96ded4
 
 Package: guile-2.2
 Architecture: aarch64
-Installed-Size: 45068
+Installed-Size: 45128
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.3
+Version: 2.2.4
 Description: GNU extension language and Scheme interpreter
 Homepage: http://www.gnu.org/software/guile/
 Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Conflicts: guile
-Filename: dists/termux/extras/binary-aarch64/guile-2.2_2.2.3_aarch64.deb
-Size: 4869972
-SHA256: 358de90d66fcd6d077b2d724709081e1c6c5cef15ca2a862fb91b15fa8c22e61
-
-Package: guile-dev
-Architecture: aarch64
-Installed-Size: 784
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.14
-Description: Development files for guile
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile
-Filename: dists/termux/extras/binary-aarch64/guile-dev_2.0.14_aarch64.deb
-Size: 89000
-SHA256: 451e06718fa21a7e7a2abe5a6e8f237494d356f97218b4fd09794fd98cbfcfbb
-
-Package: guile
-Architecture: aarch64
-Installed-Size: 11808
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.14
-Description: GNU extension language and Scheme interpreter
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libgc, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/guile_2.0.14_aarch64.deb
-Size: 2162524
-SHA256: 1747a90b32c285c75fba4fbc4d708619e8ef20d0e19032b91b830cbb73e4837e
+Filename: dists/termux/extras/binary-aarch64/guile-2.2_2.2.4_aarch64.deb
+Size: 4903492
+SHA256: bfc1f4f271c49d1fc45aa86a6382de87eefd03bd5ac66ffcee954b8debec0d85
 
 Package: imapfilter
 Architecture: aarch64
