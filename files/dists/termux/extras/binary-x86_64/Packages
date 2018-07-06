@@ -267,6 +267,18 @@ Filename: dists/termux/extras/binary-x86_64/exa_0.8.0_x86_64.deb
 Size: 501632
 SHA256: afd417ae480480f2741d38777912c77e4f85d22023b2b69c2e97470ebe566ab3
 
+Package: gcc-6
+Architecture: x86_64
+Installed-Size: 98956
+Maintainer:  @its-pointless github
+Version: 6.4.0-5
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Filename: dists/termux/extras/binary-x86_64/gcc-6_6.4.0-5_x86_64.deb
+Size: 26376192
+SHA256: f436d23e6aab4e09968b49246d635bf874fc83fd79f3dd7e61998c7ff97bfbf8
+
 Package: gcc-7
 Architecture: x86_64
 Installed-Size: 109596

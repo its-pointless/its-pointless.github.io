@@ -291,6 +291,18 @@ Filename: dists/termux/extras/binary-i686/fp-compiler_3.0.4_i686.deb
 Size: 11031360
 SHA256: 56a0852c1d274d6a66ce4c6ad22cc18911707cad14a7e9a63ec6f9958d97bfbe
 
+Package: gcc-6
+Architecture: i686
+Installed-Size: 96936
+Maintainer:  @its-pointless github
+Version: 6.4.0-5
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Filename: dists/termux/extras/binary-i686/gcc-6_6.4.0-5_i686.deb
+Size: 25852712
+SHA256: 3a26e8391526671a65aa96ef3e3404d35e6d0088e30b6a51672e3c87d0ba04ba
+
 Package: gcc-7
 Architecture: i686
 Installed-Size: 106720
