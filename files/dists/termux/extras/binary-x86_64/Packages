@@ -549,6 +549,17 @@ Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_6.0.0_x86_64.deb
 Size: 1311748
 SHA256: 86d506f330e8ad978746eebd8be8e9fe7b4c31fd180d315118a1e4f23ef9bfc7
 
+Package: libcompiler-rt
+Architecture: x86_64
+Installed-Size: 16380
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_6.0.1_x86_64.deb
+Size: 1359776
+SHA256: aa4b4ca0c4d5a0f790b98f476a51185cde8c50e7a51be722dfe82e0c1fa10608
+
 Package: libgfortran4
 Architecture: x86_64
 Installed-Size: 1972
@@ -1160,15 +1171,15 @@ SHA256: 0ccd6316aa9ba9b920b59f05b0ebf779d6e32f620d2be4baa4844e6556631711
 
 Package: openblas
 Architecture: x86_64
-Installed-Size: 15468
+Installed-Size: 15296
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.3.1
 Description:  Optimized BLAS (linear algebra) library
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
 Filename: dists/termux/extras/binary-x86_64/openblas_0.3.1_x86_64.deb
-Size: 3164592
-SHA256: 0fbb0c8ac84facb532877a54a8d70719bc3bde4dc0051b265a5ac95968eda135
+Size: 3203860
+SHA256: 50116513f7e29cdbb94a0c457759c023fdd556c9ed1eb619308b95f7dcf18929
 
 Package: openldap-dev
 Architecture: x86_64
