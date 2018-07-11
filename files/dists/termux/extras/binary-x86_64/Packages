@@ -753,6 +753,30 @@ Filename: dists/termux/extras/binary-x86_64/libmaa_1.3.2_x86_64.deb
 Size: 24852
 SHA256: 18f5fe65a00bf69e71f018e6d0ea71b8a78e5c022ccc973e28bac20ade53d2af
 
+Package: liboauth-dev
+Architecture: x86_64
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: Development files for liboauth
+Homepage: https://sourceforge.net/projects/liboauth
+Depends: liboauth
+Filename: dists/termux/extras/binary-x86_64/liboauth-dev_1.0.3_x86_64.deb
+Size: 10400
+SHA256: 328b13258609ee98725d40ce6254f63c6295a413d5b7729faa1cc493db5e7d02
+
+Package: liboauth
+Architecture: x86_64
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: C library implementing OAuth Core 1.0a API
+Homepage: https://sourceforge.net/projects/liboauth
+Depends: openssl
+Filename: dists/termux/extras/binary-x86_64/liboauth_1.0.3_x86_64.deb
+Size: 10844
+SHA256: 36214030b3cb2a5c75e29f0097706fb347f85ca56ccee5193ceed2175578a29a
+
 Package: libpoco-dev
 Architecture: x86_64
 Installed-Size: 5172
@@ -953,6 +977,52 @@ Filename: dists/termux/extras/binary-x86_64/libssh2_1.8.0_x86_64.deb
 Size: 59244
 SHA256: 00a3400d96e2105277a52a66e82a28b59fdc5d4678132d2063a617903ebc6ea1
 
+Package: libsundials-dev
+Architecture: x86_64
+Installed-Size: 1284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.0
+Description: Development files for libsundials
+Homepage: https://computation.llnl.gov
+Depends: libsundials
+Filename: dists/termux/extras/binary-x86_64/libsundials-dev_2.7.0_x86_64.deb
+Size: 110748
+SHA256: 33c973e314b23283926813da4d64be3b86e20a9995ee82958581a0ecc8f3234c
+
+Package: libsundials
+Architecture: x86_64
+Installed-Size: 2676
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.0
+Description: 
+Homepage: https://computation.llnl.gov
+Filename: dists/termux/extras/binary-x86_64/libsundials_2.7.0_x86_64.deb
+Size: 327392
+SHA256: 0cee8448e01074fea44b217977052720b390a5b53415841694212aa4db59078e
+
+Package: libtinyxml2-dev
+Architecture: x86_64
+Installed-Size: 100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.0
+Description: Development files for libtinyxml2
+Homepage: https://github.com/leethomason/tinyxml2
+Depends: libtinyxml2
+Filename: dists/termux/extras/binary-x86_64/libtinyxml2-dev_6.2.0_x86_64.deb
+Size: 17932
+SHA256: 74f76ce44d74bf466bcf8e29b7d4fd5736ed0c7d7796460ec03cbd79f3427eac
+
+Package: libtinyxml2
+Architecture: x86_64
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.0
+Description: C++ XML parsing library
+Homepage: https://github.com/leethomason/tinyxml2
+Filename: dists/termux/extras/binary-x86_64/libtinyxml2_6.2.0_x86_64.deb
+Size: 27832
+SHA256: 17ef303b592f098b5190b98babf7e8d6f683c1b0c09315194a4b50de29e0f7af
+
 Package: libtommath-dev
 Architecture: x86_64
 Installed-Size: 48
@@ -1121,27 +1191,27 @@ SHA256: e674715485d051b5aaa3132652c0a89f6dc5f513e6838c692786a5bd746183bd
 
 Package: octave-dev
 Architecture: x86_64
-Installed-Size: 5644
+Installed-Size: 5940
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-3
+Version: 4.4.0
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-x86_64/octave-dev_4.2.2-3_x86_64.deb
-Size: 351560
-SHA256: b84a6e965fede31cc7bdc75cd844e323cc9cf22846962a18f36a3411460f7c88
+Filename: dists/termux/extras/binary-x86_64/octave-dev_4.4.0_x86_64.deb
+Size: 409424
+SHA256: 9fe40817f7f5e1a1e21dc156fe0be1c489200f7331514606ea4a150f93a22271
 
 Package: octave
 Architecture: x86_64
-Installed-Size: 37828
+Installed-Size: 44240
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-3
+Version: 4.4.0
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-x86_64/octave_4.2.2-3_x86_64.deb
-Size: 6083828
-SHA256: 38c92ed9215b011f799e36c54176c92fd76f9b15203f749a7871f589955f9dfa
+Depends: libandroid-support, libbz2, curl, libxml2, pcre, openblas, liblzma, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, sed, readline
+Filename: dists/termux/extras/binary-x86_64/octave_4.4.0_x86_64.deb
+Size: 9677348
+SHA256: 7d2f726aec5e9fbdb49b44f3b039b4290422ce1eeff0da67c3116b525590cb0c
 
 Package: opam
 Architecture: x86_64

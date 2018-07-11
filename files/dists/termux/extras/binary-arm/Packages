@@ -980,6 +980,30 @@ Filename: dists/termux/extras/binary-arm/libmaa_1.3.2_arm.deb
 Size: 23628
 SHA256: cd1aae3e02161a4ec7f0a633c26651bbf4753871ec0e76c6a94ccbcb3671ec24
 
+Package: liboauth-dev
+Architecture: arm
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: Development files for liboauth
+Homepage: https://sourceforge.net/projects/liboauth
+Depends: liboauth
+Filename: dists/termux/extras/binary-arm/liboauth-dev_1.0.3_arm.deb
+Size: 10392
+SHA256: 60e86d731cee50f31eff1fed5cabc07c52dfa780476b3c9f1b3a892471718f04
+
+Package: liboauth
+Architecture: arm
+Installed-Size: 28
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: C library implementing OAuth Core 1.0a API
+Homepage: https://sourceforge.net/projects/liboauth
+Depends: openssl
+Filename: dists/termux/extras/binary-arm/liboauth_1.0.3_arm.deb
+Size: 11784
+SHA256: cafbcb6102f7ae198e8d5322aa8412938332c04105ce39275d8556f1115b5ebe
+
 Package: libpoco-dev
 Architecture: arm
 Installed-Size: 5172
@@ -1203,6 +1227,52 @@ Filename: dists/termux/extras/binary-arm/libssh2_1.8.0_arm.deb
 Size: 50100
 SHA256: dcaa3f9bf2484fc18e6d9831bd141ac9a1c3a4749b12458090f08ba20294f2c3
 
+Package: libsundials-dev
+Architecture: arm
+Installed-Size: 1284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.0
+Description: Development files for libsundials
+Homepage: https://computation.llnl.gov
+Depends: libsundials
+Filename: dists/termux/extras/binary-arm/libsundials-dev_2.7.0_arm.deb
+Size: 110720
+SHA256: 97ced2566599ae9064601010f5eec6b4e17a073686cffad5affe57a754d0038f
+
+Package: libsundials
+Architecture: arm
+Installed-Size: 2476
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.0
+Description: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers
+Homepage: https://computation.llnl.gov
+Filename: dists/termux/extras/binary-arm/libsundials_2.7.0_arm.deb
+Size: 311704
+SHA256: 680c6fe13f1e24050b5ee334dec14c29ba9361b541cda524e3d687badac5525d
+
+Package: libtinyxml2-dev
+Architecture: arm
+Installed-Size: 100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.0
+Description: Development files for libtinyxml2
+Homepage: https://github.com/leethomason/tinyxml2
+Depends: libtinyxml2
+Filename: dists/termux/extras/binary-arm/libtinyxml2-dev_6.2.0_arm.deb
+Size: 17920
+SHA256: 1e19f4b714f5530eb0489c0559d118b23f5fe8779bc4455b679f202c48ea5d1a
+
+Package: libtinyxml2
+Architecture: arm
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.0
+Description: C++ XML parsing library
+Homepage: https://github.com/leethomason/tinyxml2
+Filename: dists/termux/extras/binary-arm/libtinyxml2_6.2.0_arm.deb
+Size: 20356
+SHA256: 75901347768d0b1ebba1e302c43f6571c3fb53850494281975c48dbf9979118a
+
 Package: libtommath-dev
 Architecture: arm
 Installed-Size: 56
@@ -1357,27 +1427,27 @@ SHA256: b6cfa2f65f04fdbda2a7df543e8260c50fc6272a54e9d081117d78b1e6589e69
 
 Package: octave-dev
 Architecture: arm
-Installed-Size: 5644
+Installed-Size: 5888
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-3
+Version: 4.4.0
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.2.2-3_arm.deb
-Size: 351584
-SHA256: 4b7ec822cf9b74ff85b7b1f8d346df43e26a8cc3386f375d666fc6b821eefa9d
+Filename: dists/termux/extras/binary-arm/octave-dev_4.4.0_arm.deb
+Size: 406264
+SHA256: 6330063d5094f690ebe5ab797de7ce0cc21bbcc2a3c1c4213dda8ccacfd09b97
 
 Package: octave
 Architecture: arm
-Installed-Size: 30964
+Installed-Size: 37488
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-3
+Version: 4.4.0
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-arm/octave_4.2.2-3_arm.deb
-Size: 5630300
-SHA256: eb333ed03f790563ccd5b2cdba6960ea6c0eb959631598b6dc537bd13d579535
+Depends: libandroid-support, libbz2, curl, libxml2, pcre, openblas, liblzma, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, sed, readline
+Filename: dists/termux/extras/binary-arm/octave_4.4.0_arm.deb
+Size: 9120772
+SHA256: 56dae92829dedd900e0dea2912392b6b85c3ebc7964e3b23c7e7a60c6e30f3da
 
 Package: opam
 Architecture: arm

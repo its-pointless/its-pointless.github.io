@@ -456,6 +456,17 @@ Filename: dists/termux/extras/binary-i686/guile-2.2_2.2.4_i686.deb
 Size: 5001584
 SHA256: 23acfdb83b3c30da0330087b5700b55887750d811be13fc8ee0ca5cfdee5e18f
 
+Package: htmlcxx
+Architecture: i686
+Installed-Size: 256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.86
+Description: simple HTML/CSS1 parser library for C++
+Homepage: http://htmlcxx.sourceforge.net
+Filename: dists/termux/extras/binary-i686/htmlcxx_0.86_i686.deb
+Size: 67880
+SHA256: 08fc60406ec8b186b59459657690bdb039a6ac827581b5c469d75b9ed85467ed
+
 Package: imapfilter
 Architecture: i686
 Installed-Size: 204
@@ -775,6 +786,30 @@ Filename: dists/termux/extras/binary-i686/libmaa_1.3.2_i686.deb
 Size: 21664
 SHA256: e1b159db833c49fe9ded36b80ddc377dbef85e904f45377696a865e7dc495df1
 
+Package: liboauth-dev
+Architecture: i686
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: Development files for liboauth
+Homepage: https://sourceforge.net/projects/liboauth
+Depends: liboauth
+Filename: dists/termux/extras/binary-i686/liboauth-dev_1.0.3_i686.deb
+Size: 10388
+SHA256: 84f9dc3fe45f5a162833880fd22d03387ff27c8eacec8b30cfe5cb5770e4228e
+
+Package: liboauth
+Architecture: i686
+Installed-Size: 28
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: C library implementing OAuth Core 1.0a API
+Homepage: https://sourceforge.net/projects/liboauth
+Depends: openssl
+Filename: dists/termux/extras/binary-i686/liboauth_1.0.3_i686.deb
+Size: 9976
+SHA256: ceb8dc7d31b008b26e72c04eb8f2bc1c632ffa28498ae1e7897f7d1f8b605fc0
+
 Package: libpoco-dev
 Architecture: i686
 Installed-Size: 5172
@@ -975,6 +1010,52 @@ Filename: dists/termux/extras/binary-i686/libssh2_1.8.0_i686.deb
 Size: 56328
 SHA256: 786ed8a24415ae49df2f8d208bce9f8f229a86e71846cee4c284c620337d1441
 
+Package: libsundials-dev
+Architecture: i686
+Installed-Size: 1284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.0
+Description: Development files for libsundials
+Homepage: https://computation.llnl.gov
+Depends: libsundials
+Filename: dists/termux/extras/binary-i686/libsundials-dev_2.7.0_i686.deb
+Size: 111532
+SHA256: 1307dd3569b052eca1841b79e9541b5f4fa20f088af04cf0ccefd9fab4ce6435
+
+Package: libsundials
+Architecture: i686
+Installed-Size: 2656
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.0
+Description: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers
+Homepage: https://computation.llnl.gov
+Filename: dists/termux/extras/binary-i686/libsundials_2.7.0_i686.deb
+Size: 312772
+SHA256: 6468ff2a60204c15e02822a96e01a6a45061c2f3f99d1df5eb52bc2652e4f2ad
+
+Package: libtinyxml2-dev
+Architecture: i686
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.0
+Description: Development files for libtinyxml2
+Homepage: https://github.com/leethomason/tinyxml2
+Depends: libtinyxml2
+Filename: dists/termux/extras/binary-i686/libtinyxml2-dev_6.2.0_i686.deb
+Size: 17928
+SHA256: e710a6d80944ecd0c48576104d3ad8b752dac77b105f8ec71f51c4040c46d033
+
+Package: libtinyxml2
+Architecture: i686
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.0
+Description: C++ XML parsing library
+Homepage: https://github.com/leethomason/tinyxml2
+Filename: dists/termux/extras/binary-i686/libtinyxml2_6.2.0_i686.deb
+Size: 27444
+SHA256: 2b903204712ba6a7c915640eabeff801e654b97bfc1a0644422c9559d0a49f98
+
 Package: libtommath-dev
 Architecture: i686
 Installed-Size: 48
@@ -1131,27 +1212,27 @@ SHA256: b1447e84c6ebc8db784e6534d8d368c4cf2ee0d62f05f49783ddcd93142e3807
 
 Package: octave-dev
 Architecture: i686
-Installed-Size: 5644
+Installed-Size: 5936
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-3
+Version: 4.4.0
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-i686/octave-dev_4.2.2-3_i686.deb
-Size: 351504
-SHA256: 449077b04d6d64f07188ba9d138bc0abe1215592a73c9c30d59e96fda25cb8be
+Filename: dists/termux/extras/binary-i686/octave-dev_4.4.0_i686.deb
+Size: 409812
+SHA256: e3081408b38d06cc91a0bd476d2d9c6fa7ea781ef53232ed50fccc279bccf959
 
 Package: octave
 Architecture: i686
-Installed-Size: 36808
+Installed-Size: 43444
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-3
+Version: 4.4.0
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-i686/octave_4.2.2-3_i686.deb
-Size: 6030300
-SHA256: 8221f81abd2f561d7575120be51ed9dbafe8538048fd28fc1196628c227000c2
+Depends: libandroid-support, libbz2, curl, libxml2, pcre, openblas, liblzma, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, sed, readline
+Filename: dists/termux/extras/binary-i686/octave_4.4.0_i686.deb
+Size: 9655160
+SHA256: c08ecf7ab782199d1cae39c98ef2801bfc47434b35d6b385758d43a3c8d356b0
 
 Package: opam
 Architecture: i686

@@ -891,6 +891,30 @@ Filename: dists/termux/extras/binary-aarch64/libmaa_1.3.2_aarch64.deb
 Size: 20548
 SHA256: 79888105b332af6f2af0b2ce0fd8ce361d478c83a3318f4f190e53fd10f544dc
 
+Package: liboauth-dev
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: Development files for liboauth
+Homepage: https://sourceforge.net/projects/liboauth
+Depends: liboauth
+Filename: dists/termux/extras/binary-aarch64/liboauth-dev_1.0.3_aarch64.deb
+Size: 10404
+SHA256: 6db8f853447f00b4706e258a7716eee49efd622edc20264c280a38e63d412ae5
+
+Package: liboauth
+Architecture: aarch64
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: C library implementing OAuth Core 1.0a API
+Homepage: https://sourceforge.net/projects/liboauth
+Depends: openssl
+Filename: dists/termux/extras/binary-aarch64/liboauth_1.0.3_aarch64.deb
+Size: 9056
+SHA256: 3bb70c33985dc36fc4f06c7539f73a4a92fa97314d7f17ff96e2a0a54d903168
+
 Package: libpoco-dev
 Architecture: aarch64
 Installed-Size: 5172
@@ -1114,6 +1138,52 @@ Filename: dists/termux/extras/binary-aarch64/libssh2_1.8.0_aarch64.deb
 Size: 51168
 SHA256: 2171608954c620260977e96c773d9ad58d2c4d25bc4cd8208f18956926df7799
 
+Package: libsundials-dev
+Architecture: aarch64
+Installed-Size: 1284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.0
+Description: Development files for libsundials
+Homepage: https://computation.llnl.gov
+Depends: libsundials
+Filename: dists/termux/extras/binary-aarch64/libsundials-dev_2.7.0_aarch64.deb
+Size: 110688
+SHA256: ccb74b8a5bef6f2c0352ada09cf586a4ca79160f160eee2bbc2d60334d00d4c5
+
+Package: libsundials
+Architecture: aarch64
+Installed-Size: 2808
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.0
+Description: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers
+Homepage: https://computation.llnl.gov
+Filename: dists/termux/extras/binary-aarch64/libsundials_2.7.0_aarch64.deb
+Size: 272352
+SHA256: 2ba408517210d50f6fb9b75602c86f0c8a3266a8c080f020f5b2ff48a689ec55
+
+Package: libtinyxml2-dev
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.0
+Description: Development files for libtinyxml2
+Homepage: https://github.com/leethomason/tinyxml2
+Depends: libtinyxml2
+Filename: dists/termux/extras/binary-aarch64/libtinyxml2-dev_6.2.0_aarch64.deb
+Size: 17920
+SHA256: 96bb6334cd4c88ce69072d3a46b6e30911c4588dfb4e826dc3a1d250489a66a9
+
+Package: libtinyxml2
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.0
+Description: C++ XML parsing library
+Homepage: https://github.com/leethomason/tinyxml2
+Filename: dists/termux/extras/binary-aarch64/libtinyxml2_6.2.0_aarch64.deb
+Size: 26660
+SHA256: 434654dc382e8f899b21fdd1683699b114649022b0f03188bf58fc82d897c89a
+
 Package: libtommath-dev
 Architecture: aarch64
 Installed-Size: 60
@@ -1317,27 +1387,27 @@ SHA256: c479622b30a1b32bb03ba576f298afa3d783e0045df225b79993d061d50095e4
 
 Package: octave-dev
 Architecture: aarch64
-Installed-Size: 5644
+Installed-Size: 5940
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-3
+Version: 4.4.0
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-aarch64/octave-dev_4.2.2-3_aarch64.deb
-Size: 351680
-SHA256: 403ef3086cf7b52ddaf07c1277fff16da6d39985af0fc60f8b6498fcbd4d1e3d
+Filename: dists/termux/extras/binary-aarch64/octave-dev_4.4.0_aarch64.deb
+Size: 402600
+SHA256: 6185837f9a09ca48339270c91417c61c4d411faf4caeacf08d14d10641ff5a14
 
 Package: octave
 Architecture: aarch64
-Installed-Size: 37168
+Installed-Size: 43972
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.2-3
+Version: 4.4.0
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-aarch64/octave_4.2.2-3_aarch64.deb
-Size: 5066260
-SHA256: 1ae66858011f2c498f6faf401337bffc5c7e0ab4cddc3e18f9bfbdca7c377cb5
+Depends: libandroid-support, libbz2, curl, libxml2, pcre, openblas, liblzma, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, sed, readline
+Filename: dists/termux/extras/binary-aarch64/octave_4.4.0_aarch64.deb
+Size: 8704624
+SHA256: 76ac053946ac19c0a547fc9696cc499799a40398f679321e150180bb4bcecbae
 
 Package: opam
 Architecture: aarch64
