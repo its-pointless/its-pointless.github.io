@@ -2345,15 +2345,15 @@ SHA256: 2a573989f3b3df15bebc4bbec98fc8592441de6c84022ffcac5a5888a9751d69
 
 Package: rust-rls
 Architecture: arm
-Installed-Size: 9520
+Installed-Size: 9528
 Maintainer: @its-pointless
-Version: 0.127.0-1
+Version: 0.127.0-2
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-arm/rust-rls_0.127.0-1_arm.deb
-Size: 3350220
-SHA256: a5fc2b4210baf1246f00c02b44861dc17743f72063401713dfcaaeddf352c128
+Filename: dists/termux/extras/binary-arm/rust-rls_0.127.0-2_arm.deb
+Size: 3350708
+SHA256: ca26306169cefc9b3edfecfb78060a4ba5a4e71ae61f4caafaf41f23a6533e2a
 
 Package: rustc-nightly
 Architecture: arm
@@ -2370,15 +2370,15 @@ SHA256: e6ca37aa10a845c7443e009a227b1c96b65d1a4c31e15cbba1bec502dc7df9ff
 
 Package: rustc
 Architecture: arm
-Installed-Size: 120480
+Installed-Size: 120468
 Maintainer: @its-pointless
-Version: 1.27.0-1
+Version: 1.27.1
 Description: rust toolchain
 Homepage: https://www.rust-lang.org
 Depends: clang
-Filename: dists/termux/extras/binary-arm/rustc_1.27.0-1_arm.deb
-Size: 46344796
-SHA256: 2922db61ecc038342f497cee7d391c67211d186a89ac1b7edf6d57a00e04fabf
+Filename: dists/termux/extras/binary-arm/rustc_1.27.1_arm.deb
+Size: 46338208
+SHA256: 2193fe2ade70b96f5e3491d91a1f92b468207bb7ee25c0027caba26c804b3e36
 
 Package: rustfmt-nightly
 Architecture: arm
@@ -2394,15 +2394,15 @@ SHA256: 957cb5837127d96915cb5d5dada3fd812466cda51c536e5e2f5ff473af6cad50
 
 Package: rustfmt
 Architecture: arm
-Installed-Size: 3380
+Installed-Size: 3372
 Maintainer: @its-pointless
-Version: 1.27.0-1
+Version: 0.6.1-1
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-arm/rustfmt_1.27.0-1_arm.deb
-Size: 1264208
-SHA256: 605c030edd4b6d44e08ac1e1549cfe1a97c64b8cdada657c2a97c4c298805426
+Filename: dists/termux/extras/binary-arm/rustfmt_0.6.1-1_arm.deb
+Size: 1260564
+SHA256: 7d308acd0d8a2393be11c8e72cec517037585ba96dce22d886a01d780354d987
 
 Package: sc-im
 Architecture: arm

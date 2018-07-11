@@ -2112,15 +2112,15 @@ SHA256: 1c6885310b74948a6ea39039fbd60f5eddcecaf02b544c8d5647b18c24086df3
 
 Package: rust-rls
 Architecture: x86_64
-Installed-Size: 16284
+Installed-Size: 16276
 Maintainer: @its-pointless
-Version: 0.127.0-1
+Version: 0.127.0-2
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rust-rls_0.127.0-1_x86_64.deb
-Size: 3979684
-SHA256: b9f6e2dc5c09037c0de21dc7a851a3c13c31f62ec6e4bea02bcbacd5cf857970
+Filename: dists/termux/extras/binary-x86_64/rust-rls_0.127.0-2_x86_64.deb
+Size: 3973964
+SHA256: 6c20f479d018ed53a4fadcf9e3f3a28dd83632faa95c65491e2aa6fcc3129b67
 
 Package: rustc-nightly
 Architecture: x86_64
@@ -2137,15 +2137,15 @@ SHA256: 003f93d4a3881271c6a32aa422159226d219683f8734f0fc9d8c190f7a172bcc
 
 Package: rustc
 Architecture: x86_64
-Installed-Size: 156296
+Installed-Size: 156260
 Maintainer: @its-pointless
-Version: 1.27.0-1
+Version: 1.27.1
 Description: rust toolchain
 Homepage: https://www.rust-lang.org
 Depends: clang
-Filename: dists/termux/extras/binary-x86_64/rustc_1.27.0-1_x86_64.deb
-Size: 48881884
-SHA256: 002ba4bed903b26cc15532465f1b38a8d9f14ca62eecc2eb0ef28e6503e51631
+Filename: dists/termux/extras/binary-x86_64/rustc_1.27.1_x86_64.deb
+Size: 48876588
+SHA256: 499919357178b4b5e471899945be6642fc737ab81e7b87182734e98905a2694e
 
 Package: rustfmt-nightly
 Architecture: x86_64
@@ -2161,15 +2161,15 @@ SHA256: 1714bce9486d2ba614cd44249f84605ff42e4a90b3ed0083aa06051842ea57e6
 
 Package: rustfmt
 Architecture: x86_64
-Installed-Size: 5820
+Installed-Size: 5796
 Maintainer: @its-pointless
-Version: 1.27.0-1
+Version: 0.6.1-1
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rustfmt_1.27.0-1_x86_64.deb
-Size: 1523860
-SHA256: a81e12fa2e74cf457b2b0e84783a3cf51fa568903df8962d32b17104ba8b3c43
+Filename: dists/termux/extras/binary-x86_64/rustfmt_0.6.1-1_x86_64.deb
+Size: 1517636
+SHA256: c30ee7241d93a202a6976f89c48d708d2a3c26b0b96773c0cbe75371da1d8e37
 
 Package: sc-im
 Architecture: x86_64
