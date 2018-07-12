@@ -13,18 +13,6 @@ Package: arpack-ng
 Architecture: aarch64
 Installed-Size: 264
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-1
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: openblas
-Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.5.0-1_aarch64.deb
-Size: 55552
-SHA256: d4e867db7a3b45424c8df921463765d24aba49f7a30bc8d14e7aa675a8ec324d
-
-Package: arpack-ng
-Architecture: aarch64
-Installed-Size: 264
-Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0-2
 Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
 Homepage: https://github.com/opencollab/arpack-ng
@@ -32,18 +20,6 @@ Depends: openblas
 Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.5.0-2_aarch64.deb
 Size: 58020
 SHA256: adf32475142ecb5fae98667309ddedb4f823d17c43739c8f15332d5131642338
-
-Package: arpack-ng
-Architecture: aarch64
-Installed-Size: 404
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: openblas
-Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.5.0_aarch64.deb
-Size: 60472
-SHA256: 13464ea531a4ddcf8a2ec8db0f84f49d27fc3ca6cfe69ff74f670b1c2be048a4
 
 Package: asymptote
 Architecture: aarch64
@@ -79,29 +55,6 @@ Depends: boost, ncurses
 Filename: dists/termux/extras/binary-aarch64/bastet_0.43.2-2_aarch64.deb
 Size: 61384
 SHA256: 32b5417ab9637ecb5ce6d1b6c36341d890e8a497eeba132fc9c3e3f5b5c3e8ca
-
-Package: blis-dev
-Architecture: aarch64
-Installed-Size: 2520
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.2
-Description: Development files for blis
-Homepage: https://github.com/flame/blis
-Depends: blis
-Filename: dists/termux/extras/binary-aarch64/blis-dev_0.2.2_aarch64.deb
-Size: 82248
-SHA256: 4439fea92660c7d6e37d389b853a9dd18b6363928b9abc6006bc7c32ef8b7fa7
-
-Package: blis
-Architecture: aarch64
-Installed-Size: 1504
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.2
-Description: BLAS-like Library Instantiation Software Framework
-Homepage: https://github.com/flame/blis
-Filename: dists/termux/extras/binary-aarch64/blis_0.2.2_aarch64.deb
-Size: 335356
-SHA256: 95b2c52f80055c06571561e4d655587d41204657d54ad71113ab807727589c1d
 
 Package: bthread-dev
 Architecture: aarch64
@@ -304,42 +257,6 @@ SHA256: 6ae437817157de7fa52ebefe5c7c84286dc1f7cb344e7e24e5f1ef7d97245c77
 
 Package: gcc-7
 Architecture: aarch64
-Installed-Size: 79032
-Maintainer: @its-pointless github
-Version: 7.3.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-2_aarch64.deb
-Size: 21301536
-SHA256: 162d5a0ec0e26bda56a9d2a80db6acc8c0c2e5d34e772111a1129946377bf0fb
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 78976
-Maintainer: @its-pointless github
-Version: 7.3.0-3
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-3_aarch64.deb
-Size: 21296172
-SHA256: 6b82a94e638d0d11bfd8d32b646014a9cd1e532d074253715fc4c1e658e9489b
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 78980
-Maintainer: @its-pointless github
-Version: 7.3.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-4_aarch64.deb
-Size: 21572436
-SHA256: 5a259fbf16be8e736341e93e8f5f1d4521c3a7bffc98052cbe327962068fd463
-
-Package: gcc-7
-Architecture: aarch64
 Installed-Size: 78596
 Maintainer: @its-pointless github
 Version: 7.3.0-5
@@ -361,18 +278,6 @@ Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts,
 Filename: dists/termux/extras/binary-aarch64/gcc-8_8.1.0-1_aarch64.deb
 Size: 23118296
 SHA256: 3d82390a5f432ab1741a5f3d2fa8e3309dcb559e1d267562efe7fc1f1fbb0dc8
-
-Package: gcc-8
-Architecture: aarch64
-Installed-Size: 87428
-Maintainer: @its-pointless github
-Version: 8.1.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-8_8.1.0_aarch64.deb
-Size: 23075120
-SHA256: 363cb6a85fea4846603dff88d15f40e6c1b208b974e5ed0801e7833a51314c2a
 
 Package: gforth
 Architecture: aarch64
@@ -402,18 +307,6 @@ Package: glpk-dev
 Architecture: aarch64
 Installed-Size: 40
 Maintainer:  @its-pointless github
-Version: 4.61
-Description: Development files for glpk
-Homepage: https://www.gnu.org/software/glpk/
-Depends: glpk
-Filename: dists/termux/extras/binary-aarch64/glpk-dev_4.61_aarch64.deb
-Size: 9124
-SHA256: 7b5b3ff0cab47c383ff0646aeafe2f5c321c1166bea7f2f95122650420d91585
-
-Package: glpk-dev
-Architecture: aarch64
-Installed-Size: 40
-Maintainer:  @its-pointless github
 Version: 4.63
 Description: Development files for glpk
 Homepage: https://www.gnu.org/software/glpk/
@@ -432,17 +325,6 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-aarch64/glpk_4.63_aarch64.deb
 Size: 279536
 SHA256: d0824059dcd523feed451991770c5e41348de5e16dba4464cf552aff02aa5b8e
-
-Package: groff
-Architecture: aarch64
-Installed-Size: 11236
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.22.3-1
-Description: GNU troff text-formatting program
-Homepage: http://www.gnu.org/software/groff/
-Filename: dists/termux/extras/binary-aarch64/groff_1.22.3-1_aarch64.deb
-Size: 1586712
-SHA256: 4d96b0d1e5c44fa4594050476705ad7d010bca99e112d34b08f9b18d24923b5d
 
 Package: groff
 Architecture: aarch64
@@ -478,6 +360,29 @@ Depends: libgmp, libunistring, libffi, libgc, libandroid-support
 Filename: dists/termux/extras/binary-aarch64/guile-2.2_2.2.4_aarch64.deb
 Size: 4903492
 SHA256: bfc1f4f271c49d1fc45aa86a6382de87eefd03bd5ac66ffcee954b8debec0d85
+
+Package: htmlcxx-dev
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.86
+Description: Development files for htmlcxx
+Homepage: http://htmlcxx.sourceforge.net
+Depends: htmlcxx
+Filename: dists/termux/extras/binary-aarch64/htmlcxx-dev_0.86_aarch64.deb
+Size: 16536
+SHA256: 48c66930e2e28284f09a9f3c0f836f2d497debe0462683b501a18841b0a07b8b
+
+Package: htmlcxx
+Architecture: aarch64
+Installed-Size: 296
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.86
+Description: simple HTML/CSS1 parser library for C++
+Homepage: http://htmlcxx.sourceforge.net
+Filename: dists/termux/extras/binary-aarch64/htmlcxx_0.86_aarch64.deb
+Size: 62288
+SHA256: a7d175cb468b58082e6e3e11ec763961176c06e888efd9b85814fc954b7aaf09
 
 Package: imapfilter
 Architecture: aarch64
@@ -550,6 +455,18 @@ Filename: dists/termux/extras/binary-aarch64/lbzip2_2.5_aarch64.deb
 Size: 59480
 SHA256: 252da3dde8d12b5ef55b6ddcb398dff8d887575f354f7d40a4e13e379e426099
 
+Package: lgogdownloader
+Architecture: aarch64
+Installed-Size: 904
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3
+Description: downloader for GOG.com files
+Homepage: https://github.com/Sude-/lgogdownloader
+Depends: boost, htmlcxx, libtinyxml2, jsoncpp, libcurl, liboauth, rhash
+Filename: dists/termux/extras/binary-aarch64/lgogdownloader_3.3_aarch64.deb
+Size: 216820
+SHA256: 979b2c43b665ba5f3afeba60d13b19a715a93f126c477f446023a3de4af23167
+
 Package: libatomic-ops-dev
 Architecture: aarch64
 Installed-Size: 756
@@ -599,17 +516,6 @@ SHA256: 0da354d745bfa06ce8a26d88cdba0350c79c1a017390789872022a24743f10bb
 
 Package: libcompiler-rt
 Architecture: aarch64
-Installed-Size: 15420
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-aarch64/libcompiler-rt_6.0.0_aarch64.deb
-Size: 1141892
-SHA256: 6592b804b923ddd6e8b2ac52b91e74b29c35346fe5b9ceeaf8db62c38babcbaf
-
-Package: libcompiler-rt
-Architecture: aarch64
 Installed-Size: 15664
 Maintainer: Fredrik Fornwall @fornwall
 Version: 6.0.1
@@ -618,39 +524,6 @@ Homepage: https://ohse.de/uwe/software/lrzsz.html
 Filename: dists/termux/extras/binary-aarch64/libcompiler-rt_6.0.1_aarch64.deb
 Size: 1152264
 SHA256: 88668a9a11b4d71d4ac9f9184c155167422cd5f7f80f3b2f46492808d2a0051a
-
-Package: libgfortran4
-Architecture: aarch64
-Installed-Size: 964
-Maintainer: @its-pointless github
-Version: 7.3.0-2
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0-2_aarch64.deb
-Size: 243616
-SHA256: ee69cfd43f29a73aa24deebd3d568aa50c708703945b1ffb9d2138fd7b5a9d7c
-
-Package: libgfortran4
-Architecture: aarch64
-Installed-Size: 964
-Maintainer: @its-pointless github
-Version: 7.3.0-3
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0-3_aarch64.deb
-Size: 243120
-SHA256: 382f72f31dad4f4441f71bcec5e8eb8afd2427998530f44cff5bdb3e36d893d6
-
-Package: libgfortran4
-Architecture: aarch64
-Installed-Size: 964
-Maintainer: @its-pointless github
-Version: 7.3.0-4
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.3.0-4_aarch64.deb
-Size: 243168
-SHA256: 170dfb1c2c2a312db6d6b77ec47f978e203a87117f1dee10118a5d2f0208448b
 
 Package: libgfortran4
 Architecture: aarch64
@@ -685,17 +558,6 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libgfortran5_8.1.0_aarch64.deb
 Size: 306256
 SHA256: ad440e5091676677879c37054456489c076f9501e21f9c808ae7f7222a75fe37
-
-Package: libgfortran
-Architecture: aarch64
-Installed-Size: 1504
-Maintainer:  @its-pointless github
-Version: 6.3.0-4
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran_6.3.0-4_aarch64.deb
-Size: 281372
-SHA256: 1694c25b99d526592048f0b5d92a124cee3ed19a62f78b2beab32d25b7432e3e
 
 Package: libgfortran
 Architecture: aarch64
@@ -766,56 +628,6 @@ SHA256: d207bc92c97ad7d95ee04d61f0048a3069de9a61db879e77c4c6fa5dc37d0a56
 
 Package: libgomp-7
 Architecture: aarch64
-Installed-Size: 300
-Maintainer: @its-pointless github
-Version: 7.3.0-1
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0-1_aarch64.deb
-Size: 67060
-SHA256: 5892bec7a801d2d80c76b86d2b3bb30d0b35baea1ad9560b00801012c75448d3
-
-Package: libgomp-7
-Architecture: aarch64
-Installed-Size: 300
-Maintainer: @its-pointless github
-Version: 7.3.0-2
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0-2_aarch64.deb
-Size: 67064
-SHA256: 743006b980a30e0386f971fd59014da400b29021943d4bf11b9b34d97862fcad
-
-Package: libgomp-7
-Architecture: aarch64
-Installed-Size: 300
-Maintainer: @its-pointless github
-Version: 7.3.0-3
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0-3_aarch64.deb
-Size: 67076
-SHA256: 2f5eb1df60376aa2624d97dc528e0bdbd1e9081a47579498b0c819d0bf0bfae4
-
-Package: libgomp-7
-Architecture: aarch64
-Installed-Size: 300
-Maintainer: @its-pointless github
-Version: 7.3.0-4
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0-4_aarch64.deb
-Size: 67144
-SHA256: 63efabfb8bcef098ad723a34bedf5c17f08c327a38d6c61f2974c5312d4e04ee
-
-Package: libgomp-7
-Architecture: aarch64
 Installed-Size: 332
 Maintainer: @its-pointless github
 Version: 7.3.0-5
@@ -827,18 +639,6 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0-5_aarch64.deb
 Size: 73304
 SHA256: fc151abda10c21053e22214b02edf4e2249bd58852aa92beba643f66713524c1
-
-Package: libgomp-7
-Architecture: aarch64
-Installed-Size: 300
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0_aarch64.deb
-Size: 67168
-SHA256: 8f8e051798b58d1d3371b586b2d09432acac3b4647decb8225333629d3a38c8d
 
 Package: libgomp-8
 Architecture: aarch64
@@ -917,18 +717,6 @@ SHA256: 3bb70c33985dc36fc4f06c7539f73a4a92fa97314d7f17ff96e2a0a54d903168
 
 Package: libpoco-dev
 Architecture: aarch64
-Installed-Size: 5172
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0.1
-Description: Development files for libpoco
-Homepage: https://pocoproject.org
-Depends: libpoco
-Filename: dists/termux/extras/binary-aarch64/libpoco-dev_1.8.0.1_aarch64.deb
-Size: 467496
-SHA256: 0291f52fd106477d7d03d494f1143891dd7c0abc98b8b79039e7d9b895cf2b48
-
-Package: libpoco-dev
-Architecture: aarch64
 Installed-Size: 5308
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.9.0
@@ -941,17 +729,6 @@ SHA256: 8dd6e95669c3313efc747741bc61fbcadd5997dcaaad19e99fab4c93792198ac
 
 Package: libpoco
 Architecture: aarch64
-Installed-Size: 10088
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0.1
-Description: C++ Portable Components (POCO)
-Homepage: https://pocoproject.org
-Filename: dists/termux/extras/binary-aarch64/libpoco_1.8.0.1_aarch64.deb
-Size: 1618036
-SHA256: 1fb385f6944ba0c7a58cfaf4edf2fc9434e83370262cd48c2200469ea2326540
-
-Package: libpoco
-Architecture: aarch64
 Installed-Size: 10604
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.9.0
@@ -960,29 +737,6 @@ Homepage: https://pocoproject.org
 Filename: dists/termux/extras/binary-aarch64/libpoco_1.9.0_aarch64.deb
 Size: 1935404
 SHA256: 0f2bb7ce2a29a718cb92d57c75b1f5f40a6f602bfe286ff3f1de94809a40469d
-
-Package: libshout-dev
-Architecture: aarch64
-Installed-Size: 20
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.1
-Description: Development files for libshout
-Homepage: http://icecast.org/
-Depends: libshout
-Filename: dists/termux/extras/binary-aarch64/libshout-dev_2.4.1_aarch64.deb
-Size: 5156
-SHA256: bbebac156acfd054a3d51d0e16c3aac8654bfef7b3dffe0facb7103038b2f9e9
-
-Package: libshout
-Architecture: aarch64
-Installed-Size: 68
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.1
-Description: MP3/Ogg Vorbis broadcast streaming library
-Homepage: http://icecast.org/
-Filename: dists/termux/extras/binary-aarch64/libshout_2.4.1_aarch64.deb
-Size: 23176
-SHA256: 847060674c429d9dc29b83fefe064a28ad70e484fb9b668f7b43e57cbc5f9df4
 
 Package: libsigsegv-dev
 Architecture: aarch64
@@ -1068,18 +822,6 @@ SHA256: a51f51552efea722ef652d68dcc265d8ac34ce6ba139c01554e1beddc5227509
 
 Package: libspice-server-dev
 Architecture: aarch64
-Installed-Size: 56
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.8
-Description: Development files for libspice-server
-Homepage: https://www.spice-space.org/
-Depends: libspice-server
-Filename: dists/termux/extras/binary-aarch64/libspice-server-dev_0.12.8_aarch64.deb
-Size: 6232
-SHA256: eca183d3a564611c18a68295d16d0e05ab2629d7bcefc46c75f123bc321540d3
-
-Package: libspice-server-dev
-Architecture: aarch64
 Installed-Size: 60
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.14.0
@@ -1089,18 +831,6 @@ Depends: libspice-server
 Filename: dists/termux/extras/binary-aarch64/libspice-server-dev_0.14.0_aarch64.deb
 Size: 6936
 SHA256: b88afb6d99e77a4465b37aa6597d9a8833d5bbce75ed2b96436dfafcc2514fd1
-
-Package: libspice-server
-Architecture: aarch64
-Installed-Size: 940
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.8
-Description: Remote access to virtual machines, server part
-Homepage: https://www.spice-space.org/
-Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
-Filename: dists/termux/extras/binary-aarch64/libspice-server_0.12.8_aarch64.deb
-Size: 219812
-SHA256: 4988462716e9495d5141e97bebfd0711a922c8361f7d2a25665a34dd547fd30c
 
 Package: libspice-server
 Architecture: aarch64
@@ -2032,18 +1762,6 @@ SHA256: 04537fb832a144a2fd4cd7a59bc75e59051017c577e90b3e3324ac904dc92834
 Package: qrupdate
 Architecture: aarch64
 Installed-Size: 132
-Maintainer: @its-pointless github
-Version: 1.1.2-1
-Description: qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions.
-Homepage: https://sourceforge.net/projects/qrupdate/
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-aarch64/qrupdate_1.1.2-1_aarch64.deb
-Size: 48448
-SHA256: 185dd4357457b8f552940b6359a6479a629fc9b4bf0fa539d91099d3b2bc9ece
-
-Package: qrupdate
-Architecture: aarch64
-Installed-Size: 132
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.1.2-2
 Description: a Fortran library for fast updates of QR and Cholesky decompositions
@@ -2052,18 +1770,6 @@ Depends: openblas
 Filename: dists/termux/extras/binary-aarch64/qrupdate_1.1.2-2_aarch64.deb
 Size: 47320
 SHA256: 813759db64d47a56c7f83ea9a0b1e18032547a1205bc55a434a2148a52446ede
-
-Package: qrupdate
-Architecture: aarch64
-Installed-Size: 132
-Maintainer: @its-pointless github
-Version: 1.1.2
-Description: qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions.
-Homepage: https://sourceforge.net/projects/qrupdate/
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-aarch64/qrupdate_1.1.2_aarch64.deb
-Size: 48428
-SHA256: 9d8a1555eeb1bf91537be907d3c1437915d6af910c8f7b3d14f6a4099baa3380
 
 Package: quantlib-dev
 Architecture: aarch64
@@ -2115,18 +1821,6 @@ SHA256: 92121ee15274df9525686c3043dc9a8ae699634564c9b2958930d8ed491d239e
 
 Package: r-cran-rcpp
 Architecture: aarch64
-Installed-Size: 11420
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.16-2
-Description: GNU R package for Seamless R and C++ Integration
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.16-2_aarch64.deb
-Size: 3312376
-SHA256: cdd4403f5508edcbd97fefaa07e30dec784cf856ef7c7ece3bf8acce62a54db4
-
-Package: r-cran-rcpp
-Architecture: aarch64
 Installed-Size: 11464
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.12.17-1
@@ -2136,18 +1830,6 @@ Depends: r-base
 Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.17-1_aarch64.deb
 Size: 3324020
 SHA256: 618b08ada67d24ccb152181f6a973dc4fad33da6cb6a71ab9e71349b1255172d
-
-Package: r-cran-rcpp
-Architecture: aarch64
-Installed-Size: 11464
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.17
-Description: GNU R package for Seamless R and C++ Integration
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.17_aarch64.deb
-Size: 3324424
-SHA256: aec0cd2fbec8eccd923703beec4812ceaf02eb88c5c4c5678c79aefa83d5ca87
 
 Package: r-cran-rquantlib
 Architecture: aarch64
@@ -2327,6 +2009,18 @@ Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.28-4_aarch64.deb
 Size: 3289852
 SHA256: 75856c8f90f20ee2e724d5b8f26765647ca61506232444baf34ed6de6fd8b675
 
+Package: rust-rls-nightly
+Architecture: aarch64
+Installed-Size: 14724
+Maintainer: @its-pointless
+Version: 1.29.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.29.0_aarch64.deb
+Size: 3280848
+SHA256: fed8af113da16db64d92dc7eaf9b5b5a424dc019402de286b2e28d99d7f6f665
+
 Package: rust-rls
 Architecture: aarch64
 Installed-Size: 14300
@@ -2341,16 +2035,16 @@ SHA256: e09d7f910dbaaa40c886b45e197a6c54f0553338128f633e7860d0dea64cfc8c
 
 Package: rustc-nightly
 Architecture: aarch64
-Installed-Size: 165448
+Installed-Size: 166708
 Maintainer: @its-pointless
-Version: 1.28-4
+Version: 1.29.0
 Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
 Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.28-4_aarch64.deb
-Size: 51232300
-SHA256: 61b312f315c68e3419035e1f21e2227ab5a89193e09d3e4cf2559ae1d57ba3d0
+Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.29.0_aarch64.deb
+Size: 51139752
+SHA256: d93b0f8135ef5be792f906ecbe512a85eff02ddb55326d34676d3a527f5d9be7
 
 Package: rustc
 Architecture: aarch64
@@ -2375,6 +2069,18 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.28-4_aarch64.deb
 Size: 1420276
 SHA256: 51c509e3e2c469aa60e460b44641e746b5ba06f085475b245258a7c4e6a099ed
+
+Package: rustfmt-nightly
+Architecture: aarch64
+Installed-Size: 5704
+Maintainer: @its-pointless
+Version: 1.29.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.29.0_aarch64.deb
+Size: 1354328
+SHA256: 60a809f8bb08302c7ac39dbaa71ad2e2112785720b57fc3cadf5e0927950d548
 
 Package: rustfmt
 Architecture: aarch64
@@ -2450,18 +2156,6 @@ SHA256: c632c7d3bbb3d49464ad7dc34c00dfc9119bf489cad75dbf2680a1ca8497c40e
 
 Package: suitesparse-dev
 Architecture: aarch64
-Installed-Size: 796
-Maintainer:  @its-pointless github
-Version: 5.1.0
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_5.1.0_aarch64.deb
-Size: 103460
-SHA256: 543a39600ab331dea83e82511f5f48a2455d2b7ba61a161f9f1f0a2243c8b518
-
-Package: suitesparse-dev
-Architecture: aarch64
 Installed-Size: 1040
 Maintainer:  @its-pointless github
 Version: 5.2.0
@@ -2471,18 +2165,6 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_5.2.0_aarch64.deb
 Size: 126124
 SHA256: a5585853c0ee6e97523c3e0edd18dca56ddfdc8cbc3ae47580caff63b1cc85d8
-
-Package: suitesparse
-Architecture: aarch64
-Installed-Size: 3184
-Maintainer:  @its-pointless github
-Version: 5.1.0
-Description: a suite of sparse matrix software
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Filename: dists/termux/extras/binary-aarch64/suitesparse_5.1.0_aarch64.deb
-Size: 868868
-SHA256: 866f7a34bafa93d4ba384eb38b4473b487d1ea4d6c85d0702f7b1d9280521c1c
 
 Package: suitesparse
 Architecture: aarch64

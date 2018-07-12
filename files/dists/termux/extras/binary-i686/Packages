@@ -2,18 +2,6 @@ Package: arpack-ng
 Architecture: i686
 Installed-Size: 236
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-1
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: openblas
-Filename: dists/termux/extras/binary-i686/arpack-ng_3.5.0-1_i686.deb
-Size: 66144
-SHA256: 8382c1ab8b5778cfde140aecdced8f96a518dba0eaf9e17417250a97eb20c67d
-
-Package: arpack-ng
-Architecture: i686
-Installed-Size: 236
-Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0-2
 Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
 Homepage: https://github.com/opencollab/arpack-ng
@@ -21,18 +9,6 @@ Depends: openblas
 Filename: dists/termux/extras/binary-i686/arpack-ng_3.5.0-2_i686.deb
 Size: 65236
 SHA256: 4682ce201f699bdb3886af1f9b06b95f80f93cf8cfb95f378165212ba94ea85b
-
-Package: arpack-ng
-Architecture: i686
-Installed-Size: 344
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: openblas
-Filename: dists/termux/extras/binary-i686/arpack-ng_3.5.0_i686.deb
-Size: 61172
-SHA256: b85e6ad5ded7cc49d1b016dad176d8c96535fc1fff125c3148da8b2b65da4674
 
 Package: asymptote
 Architecture: i686
@@ -68,29 +44,6 @@ Depends: boost, ncurses
 Filename: dists/termux/extras/binary-i686/bastet_0.43.2-2_i686.deb
 Size: 70160
 SHA256: 8e0a97a44b6c9c84f6fdfcf5d89d465f196047b13e5f5dcc4042c15d557c956d
-
-Package: blis-dev
-Architecture: i686
-Installed-Size: 2516
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.2
-Description: Development files for blis
-Homepage: https://github.com/flame/blis
-Depends: blis
-Filename: dists/termux/extras/binary-i686/blis-dev_0.2.2_i686.deb
-Size: 82048
-SHA256: fb23512c0b74ec80787d232e012b27aee711a22cfac8f9d3a937cf8cb5fb9768
-
-Package: blis
-Architecture: i686
-Installed-Size: 2036
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.2
-Description: BLAS-like Library Instantiation Software Framework
-Homepage: https://github.com/flame/blis
-Filename: dists/termux/extras/binary-i686/blis_0.2.2_i686.deb
-Size: 389504
-SHA256: 2cd8c34662dcf85d677c78c834329f794420a17096759a083d96bde57856be91
 
 Package: bthread-dev
 Architecture: i686
@@ -305,30 +258,6 @@ SHA256: 3a26e8391526671a65aa96ef3e3404d35e6d0088e30b6a51672e3c87d0ba04ba
 
 Package: gcc-7
 Architecture: i686
-Installed-Size: 106720
-Maintainer: @its-pointless github
-Version: 7.3.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-7_7.3.0-2_i686.deb
-Size: 29858088
-SHA256: b5aaf5bdd8f168e16cedc994741a8d0f4b05df444bcdfbaa863c47e1c5699c37
-
-Package: gcc-7
-Architecture: i686
-Installed-Size: 106724
-Maintainer: @its-pointless github
-Version: 7.3.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-7_7.3.0-4_i686.deb
-Size: 30189744
-SHA256: 61925126badf03079d0a140e3853040b3c0b98e623010c1e3f963e55cb7935e9
-
-Package: gcc-7
-Architecture: i686
 Installed-Size: 107780
 Maintainer: @its-pointless github
 Version: 7.3.0-5
@@ -351,18 +280,6 @@ Filename: dists/termux/extras/binary-i686/gcc-8_8.1.0-1_i686.deb
 Size: 32385460
 SHA256: d85a28066ee5fb80a2b70d11ff3e35e4242092de36c9e8c44b6bdcf8e3812742
 
-Package: gcc-8
-Architecture: i686
-Installed-Size: 115812
-Maintainer: @its-pointless github
-Version: 8.1.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-8_8.1.0_i686.deb
-Size: 32324988
-SHA256: 42bfce993d26aad81e08a4f6e0cb5e11c66fa2df4d50679af53093fa6d891062
-
 Package: git-lfs
 Architecture: i686
 Installed-Size: 7960
@@ -374,18 +291,6 @@ Depends: git
 Filename: dists/termux/extras/binary-i686/git-lfs_2.4.0_i686.deb
 Size: 2370692
 SHA256: 7ad32ac9e5641bfcd341b41cd157e72d7522f47a53aee23bf0f68bc7b9a7fade
-
-Package: glpk-dev
-Architecture: i686
-Installed-Size: 40
-Maintainer:  @its-pointless github
-Version: 4.61
-Description: Development files for glpk
-Homepage: https://www.gnu.org/software/glpk/
-Depends: glpk
-Filename: dists/termux/extras/binary-i686/glpk-dev_4.61_i686.deb
-Size: 9120
-SHA256: 48005fe451b49326da311a6791fd58e31fab36f171b8886305ab96809ea48fb6
 
 Package: glpk-dev
 Architecture: i686
@@ -409,17 +314,6 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-i686/glpk_4.63_i686.deb
 Size: 320948
 SHA256: 1ddc9d9b9e5fea1f6e4bcb53ef47cf2c0f31e654009d7ef2d06d4b5fdcfce1c1
-
-Package: groff
-Architecture: i686
-Installed-Size: 10264
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.22.3-1
-Description: GNU troff text-formatting program
-Homepage: http://www.gnu.org/software/groff/
-Filename: dists/termux/extras/binary-i686/groff_1.22.3-1_i686.deb
-Size: 1585268
-SHA256: 224dca6c33436deb140dfd4ff9ff81b511d36586b7f4be8590af400de1aefe89
 
 Package: groff
 Architecture: i686
@@ -455,6 +349,18 @@ Depends: libgmp, libunistring, libffi, libgc, libandroid-support
 Filename: dists/termux/extras/binary-i686/guile-2.2_2.2.4_i686.deb
 Size: 5001584
 SHA256: 23acfdb83b3c30da0330087b5700b55887750d811be13fc8ee0ca5cfdee5e18f
+
+Package: htmlcxx-dev
+Architecture: i686
+Installed-Size: 124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.86
+Description: Development files for htmlcxx
+Homepage: http://htmlcxx.sourceforge.net
+Depends: htmlcxx
+Filename: dists/termux/extras/binary-i686/htmlcxx-dev_0.86_i686.deb
+Size: 16528
+SHA256: 007a9a83b492ba490bab06395e962128b0afab612f8ac4166d557ac19319387f
 
 Package: htmlcxx
 Architecture: i686
@@ -526,6 +432,18 @@ Filename: dists/termux/extras/binary-i686/keystone_0.9.1_i686.deb
 Size: 821236
 SHA256: a149e3b4581d1fafd45bbf942498360d7ee59817b95803a097efe57a467d959c
 
+Package: lgogdownloader
+Architecture: i686
+Installed-Size: 928
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3
+Description: downloader for GOG.com files
+Homepage: https://github.com/Sude-/lgogdownloader
+Depends: boost, htmlcxx, libtinyxml2, jsoncpp, libcurl, liboauth, rhash
+Filename: dists/termux/extras/binary-i686/lgogdownloader_3.3_i686.deb
+Size: 252664
+SHA256: 7c1a3dbe74eac988a06bc35a5337f92df7f469b6ac8ae02870fd92009a98316f
+
 Package: libatomic-ops-dev
 Architecture: i686
 Installed-Size: 756
@@ -575,17 +493,6 @@ SHA256: 7113977aa34752567d0f406d095776ef4d574d60a508264e1825c3d215960da5
 
 Package: libcompiler-rt
 Architecture: i686
-Installed-Size: 6596
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-i686/libcompiler-rt_6.0.0_i686.deb
-Size: 696476
-SHA256: f9f4fc140c65cacae507aef50d66b88a19b88bd16e02a8278e1d74e36a710a40
-
-Package: libcompiler-rt
-Architecture: i686
 Installed-Size: 6688
 Maintainer: Fredrik Fornwall @fornwall
 Version: 6.0.1
@@ -594,28 +501,6 @@ Homepage: https://ohse.de/uwe/software/lrzsz.html
 Filename: dists/termux/extras/binary-i686/libcompiler-rt_6.0.1_i686.deb
 Size: 711548
 SHA256: 05b0d207405f0c93aad7abfcf441b4526742e7958ee5aa112bd78ebe392ac421
-
-Package: libgfortran4
-Architecture: i686
-Installed-Size: 1792
-Maintainer: @its-pointless github
-Version: 7.3.0-2
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libgfortran4_7.3.0-2_i686.deb
-Size: 540648
-SHA256: 2ecee4974b909a288a500dcbf6f954d04e4365d86aecf3c1ae2a06cce2335496
-
-Package: libgfortran4
-Architecture: i686
-Installed-Size: 1792
-Maintainer: @its-pointless github
-Version: 7.3.0-4
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libgfortran4_7.3.0-4_i686.deb
-Size: 540556
-SHA256: 51820dc0cae77f51efa108ba1cbc2940cc3051975a76d1fcce2c6f645ddc5dbd
 
 Package: libgfortran4
 Architecture: i686
@@ -677,42 +562,6 @@ Package: libgomp-7
 Architecture: i686
 Installed-Size: 288
 Maintainer: @its-pointless github
-Version: 7.3.0-1
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-i686/libgomp-7_7.3.0-1_i686.deb
-Size: 80728
-SHA256: 0684825403b1b63facf8f9e3f431e2a0c3307b36c6a7fde0e85653c477e1fb83
-
-Package: libgomp-7
-Architecture: i686
-Installed-Size: 288
-Maintainer: @its-pointless github
-Version: 7.3.0-2
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-i686/libgomp-7_7.3.0-2_i686.deb
-Size: 80712
-SHA256: 4e64b6cb073f7fbce3fbf0bceee8244d3373e07a298087868aa1d770b33d0c44
-
-Package: libgomp-7
-Architecture: i686
-Installed-Size: 288
-Maintainer: @its-pointless github
-Version: 7.3.0-4
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-i686/libgomp-7_7.3.0-4_i686.deb
-Size: 80724
-SHA256: 58bd85cd70784a09ff35a636b54ce97d1ecfd8262e64669e85c3c29d3aa19ee0
-
-Package: libgomp-7
-Architecture: i686
-Installed-Size: 288
-Maintainer: @its-pointless github
 Version: 7.3.0-5
 Description: openmp library for gcc
 Homepage: http://gcc.gnu.org/
@@ -722,18 +571,6 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-i686/libgomp-7_7.3.0-5_i686.deb
 Size: 80420
 SHA256: 127ee8b31b54d5815a1813d597d2aa2bd9e02f60b3b5754db0b2dd06d7fbdf91
-
-Package: libgomp-7
-Architecture: i686
-Installed-Size: 288
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-i686/libgomp-7_7.3.0_i686.deb
-Size: 80700
-SHA256: db2107410a4c6685842752241584412f972bb889d445fe93862bc3791e4d5491
 
 Package: libgomp-8
 Architecture: i686
@@ -812,18 +649,6 @@ SHA256: ceb8dc7d31b008b26e72c04eb8f2bc1c632ffa28498ae1e7897f7d1f8b605fc0
 
 Package: libpoco-dev
 Architecture: i686
-Installed-Size: 5172
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0.1
-Description: Development files for libpoco
-Homepage: https://pocoproject.org
-Depends: libpoco
-Filename: dists/termux/extras/binary-i686/libpoco-dev_1.8.0.1_i686.deb
-Size: 467516
-SHA256: 8fa561e2e84de60f5d130086872d96b5ca3df3079249e8dfbf201e7e0b0eb882
-
-Package: libpoco-dev
-Architecture: i686
 Installed-Size: 5300
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.9.0
@@ -833,17 +658,6 @@ Depends: libpoco
 Filename: dists/termux/extras/binary-i686/libpoco-dev_1.9.0_i686.deb
 Size: 471876
 SHA256: 3f9b2065269b860d2125c6c6b817a911c7938fea7475e731e082d9e471f9ef1e
-
-Package: libpoco
-Architecture: i686
-Installed-Size: 8980
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0.1
-Description: C++ Portable Components (POCO)
-Homepage: https://pocoproject.org
-Filename: dists/termux/extras/binary-i686/libpoco_1.8.0.1_i686.deb
-Size: 1819708
-SHA256: c8b3fb9133dc46acaa646c5236b33174ef5560e154623e0524b523a589e72440
 
 Package: libpoco
 Architecture: i686
@@ -940,18 +754,6 @@ SHA256: 480f51fb845725b39eb232ceed824454fc407b425aa5237cb7053b21150f008e
 
 Package: libspice-server-dev
 Architecture: i686
-Installed-Size: 56
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.8
-Description: Development files for libspice-server
-Homepage: https://www.spice-space.org/
-Depends: libspice-server
-Filename: dists/termux/extras/binary-i686/libspice-server-dev_0.12.8_i686.deb
-Size: 6236
-SHA256: 2a40b4ca70c4fda748c2c57291028a6feb7aad8f1dcc383230f09399772dd884
-
-Package: libspice-server-dev
-Architecture: i686
 Installed-Size: 60
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.14.0
@@ -961,18 +763,6 @@ Depends: libspice-server
 Filename: dists/termux/extras/binary-i686/libspice-server-dev_0.14.0_i686.deb
 Size: 6936
 SHA256: 9df10fbe5055c18389fecb69cd25c669701b538b96f6bc59579670ee7b95ceca
-
-Package: libspice-server
-Architecture: i686
-Installed-Size: 924
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.8
-Description: Remote access to virtual machines, server part
-Homepage: https://www.spice-space.org/
-Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
-Filename: dists/termux/extras/binary-i686/libspice-server_0.12.8_i686.deb
-Size: 256560
-SHA256: dfd52283b83a53fc2f8082bae97815dde4e6b4d427e2414371ea582095416d4d
 
 Package: libspice-server
 Architecture: i686
@@ -1858,18 +1648,6 @@ SHA256: 3042be087e8eb02d974057b3df1177f39a29c2fac94ce8ac8594516f1a0a6316
 
 Package: qrupdate
 Architecture: i686
-Installed-Size: 172
-Maintainer: @its-pointless github
-Version: 1.1.2-1
-Description: qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions.
-Homepage: https://sourceforge.net/projects/qrupdate/
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-i686/qrupdate_1.1.2-1_i686.deb
-Size: 59052
-SHA256: c74f24168488082fdab82e1658e6cbb2241955d3fee1ba3f49f67f1fe3fc1f61
-
-Package: qrupdate
-Architecture: i686
 Installed-Size: 156
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.1.2-2
@@ -1930,18 +1708,6 @@ SHA256: e4880a84f33c2483006e0f1cb02377a2928992fa597d8cc6587ced5a7fc1fd73
 
 Package: r-cran-rcpp
 Architecture: i686
-Installed-Size: 11444
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.16-2
-Description: GNU R package for Seamless R and C++ Integration
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.16-2_i686.deb
-Size: 3331616
-SHA256: 0dcd79d95c0ea01e18dee6ba8b2ccc353ad0c2fa87e3949ea2bf1a0ecffb79b5
-
-Package: r-cran-rcpp
-Architecture: i686
 Installed-Size: 11460
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.12.17-1
@@ -1951,18 +1717,6 @@ Depends: r-base
 Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.17-1_i686.deb
 Size: 3342844
 SHA256: 77cca17659a95fb2346fea475c9445abb08a6ed75bf60de93ecf0f53b9c80e17
-
-Package: r-cran-rcpp
-Architecture: i686
-Installed-Size: 11460
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.17
-Description: GNU R package for Seamless R and C++ Integration
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.17_i686.deb
-Size: 3342644
-SHA256: 75796a16173477185d66dc7d973f534b260577e1b76586be763ed05de7acfa03
 
 Package: r-cran-rquantlib
 Architecture: i686
@@ -2131,6 +1885,18 @@ Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.28-4_i686.deb
 Size: 4250064
 SHA256: af6dfff3a561aa64e8115ed53fda3c22b02df4af0ee1a2e5605f727b2002a1f1
 
+Package: rust-rls-nightly
+Architecture: i686
+Installed-Size: 18812
+Maintainer: @its-pointless
+Version: 1.29.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.29.0_i686.deb
+Size: 4302176
+SHA256: 0fe0fbc15ea1d6edb959d653486f8e66415a6bc7f877d0d6172ae7955427255c
+
 Package: rust-rls
 Architecture: i686
 Installed-Size: 18192
@@ -2145,16 +1911,16 @@ SHA256: f79d8633120a3abeab5e056d9323ca589633a48eda2847ef52159bb9bdde4cc5
 
 Package: rustc-nightly
 Architecture: i686
-Installed-Size: 183836
+Installed-Size: 185316
 Maintainer: @its-pointless
-Version: 1.28-4
+Version: 1.29.0
 Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
 Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.28-4_i686.deb
-Size: 55078992
-SHA256: e363c31e9cf26a27ccfb964e627bdb9d3708eb046f825f1bbd35c5467676b962
+Filename: dists/termux/extras/binary-i686/rustc-nightly_1.29.0_i686.deb
+Size: 55108520
+SHA256: dec856a3a6bad99046d232674cb516fc614e380c0bb9d3ea34e9aff2644a3e52
 
 Package: rustc
 Architecture: i686
@@ -2179,6 +1945,18 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.28-4_i686.deb
 Size: 1815024
 SHA256: 543b2cb81e5a9dc2a83001e0a40ca68442461f01370e05743ed7a018c8673569
+
+Package: rustfmt-nightly
+Architecture: i686
+Installed-Size: 7100
+Maintainer: @its-pointless
+Version: 1.29.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.29.0_i686.deb
+Size: 1736652
+SHA256: 404b209c1959cf2b1e9c0fe7bafd7cc929d7c6b11909cf041a869f46884c7e3d
 
 Package: rustfmt
 Architecture: i686
@@ -2242,18 +2020,6 @@ SHA256: a46aa7a5ea207719c4679a5b237f124395883ff2efa6a80f839dee919ffaa0cb
 
 Package: suitesparse-dev
 Architecture: i686
-Installed-Size: 796
-Maintainer:  @its-pointless github
-Version: 5.1.0
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.1.0_i686.deb
-Size: 103456
-SHA256: f771cc15735df8560272e1dd20763d55e99193eb61fda52d99718a2078f515b7
-
-Package: suitesparse-dev
-Architecture: i686
 Installed-Size: 1040
 Maintainer:  @its-pointless github
 Version: 5.2.0
@@ -2263,18 +2029,6 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.2.0_i686.deb
 Size: 126184
 SHA256: 81ca5b32f6515232fe9996d3e63bc085089e21f537e097fb8d76f02b6fe51e9b
-
-Package: suitesparse
-Architecture: i686
-Installed-Size: 3504
-Maintainer:  @its-pointless github
-Version: 5.1.0
-Description: a suite of sparse matrix software
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Filename: dists/termux/extras/binary-i686/suitesparse_5.1.0_i686.deb
-Size: 879316
-SHA256: 0176d66145721044df72d12eb334e0e837f310990a1bd87a7ccf7ed0a14e05c7
 
 Package: suitesparse
 Architecture: i686

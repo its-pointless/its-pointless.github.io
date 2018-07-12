@@ -2,18 +2,6 @@ Package: arpack-ng
 Architecture: x86_64
 Installed-Size: 260
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-1
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: openblas
-Filename: dists/termux/extras/binary-x86_64/arpack-ng_3.5.0-1_x86_64.deb
-Size: 72260
-SHA256: d30a432c6968d959132636293ccee77738d36201b563e9b6081d78b38980f5ff
-
-Package: arpack-ng
-Architecture: x86_64
-Installed-Size: 260
-Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.0-2
 Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
 Homepage: https://github.com/opencollab/arpack-ng
@@ -21,18 +9,6 @@ Depends: openblas
 Filename: dists/termux/extras/binary-x86_64/arpack-ng_3.5.0-2_x86_64.deb
 Size: 71944
 SHA256: 4f284d197c312ac272dcdfcc4e17ec027ea4a3ba29d03e125b73c14743bffd03
-
-Package: arpack-ng
-Architecture: x86_64
-Installed-Size: 396
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Homepage: https://github.com/opencollab/arpack-ng
-Depends: openblas
-Filename: dists/termux/extras/binary-x86_64/arpack-ng_3.5.0_x86_64.deb
-Size: 76680
-SHA256: 6a1007f75f86a0ff9a7cd496a6ea1a5378a94bb80d8b5143a170a03cb46ae21d
 
 Package: asymptote
 Architecture: x86_64
@@ -68,29 +44,6 @@ Depends: boost, ncurses
 Filename: dists/termux/extras/binary-x86_64/bastet_0.43.2-2_x86_64.deb
 Size: 70340
 SHA256: c8b16cf8bdbb1018ce459da878bac09109591662b5be9a5c376fcfcbae4c76f7
-
-Package: blis-dev
-Architecture: x86_64
-Installed-Size: 2516
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.2
-Description: Development files for blis
-Homepage: https://github.com/flame/blis
-Depends: blis
-Filename: dists/termux/extras/binary-x86_64/blis-dev_0.2.2_x86_64.deb
-Size: 81972
-SHA256: 8bf424d35687e12d1ff618889af18ae3894a97017b32efbe3d53751f9673fec3
-
-Package: blis
-Architecture: x86_64
-Installed-Size: 1956
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.2
-Description: BLAS-like Library Instantiation Software Framework
-Homepage: https://github.com/flame/blis
-Filename: dists/termux/extras/binary-x86_64/blis_0.2.2_x86_64.deb
-Size: 412544
-SHA256: d0455a4ee831d16301efa0b08faafaf912ff75ceb9e56165ce3a8144861432cc
 
 Package: bthread-dev
 Architecture: x86_64
@@ -281,30 +234,6 @@ SHA256: f436d23e6aab4e09968b49246d635bf874fc83fd79f3dd7e61998c7ff97bfbf8
 
 Package: gcc-7
 Architecture: x86_64
-Installed-Size: 109596
-Maintainer: @its-pointless github
-Version: 7.3.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-7_7.3.0-2_x86_64.deb
-Size: 30145044
-SHA256: 4f8fee5f93bbfc07fa4e41fffb83d541a64d35cd9ba7ff59fdc09c7b516eb01b
-
-Package: gcc-7
-Architecture: x86_64
-Installed-Size: 109600
-Maintainer: @its-pointless github
-Version: 7.3.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-7_7.3.0-4_x86_64.deb
-Size: 30289280
-SHA256: d966ab825111c61ba2da0d24c02e3c02d1553a5ba5a062a258d961553831765c
-
-Package: gcc-7
-Architecture: x86_64
 Installed-Size: 111004
 Maintainer: @its-pointless github
 Version: 7.3.0-5
@@ -327,18 +256,6 @@ Filename: dists/termux/extras/binary-x86_64/gcc-8_8.1.0-1_x86_64.deb
 Size: 32646292
 SHA256: 3f33366fb876377f5922abb301accaeda2f0d95f6f55145e3f9b8bb92fe796d7
 
-Package: gcc-8
-Architecture: x86_64
-Installed-Size: 118532
-Maintainer: @its-pointless github
-Version: 8.1.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-8_8.1.0_x86_64.deb
-Size: 32578296
-SHA256: 424514dcee2a82dc6708f88efb442dc680421efe536bf1d0bbbabbf30f2951c1
-
 Package: git-lfs
 Architecture: x86_64
 Installed-Size: 10232
@@ -350,18 +267,6 @@ Depends: git
 Filename: dists/termux/extras/binary-x86_64/git-lfs_2.4.0_x86_64.deb
 Size: 2420256
 SHA256: 80b246870ab7071354f2331f512367817e087c7d9818f115a07862fdbcf8c3a3
-
-Package: glpk-dev
-Architecture: x86_64
-Installed-Size: 40
-Maintainer:  @its-pointless github
-Version: 4.61
-Description: Development files for glpk
-Homepage: https://www.gnu.org/software/glpk/
-Depends: glpk
-Filename: dists/termux/extras/binary-x86_64/glpk-dev_4.61_x86_64.deb
-Size: 9128
-SHA256: e66314c34140870c881d678879fdf5deb64c1e7fbb5cb91ae067cf0199932ead
 
 Package: glpk-dev
 Architecture: x86_64
@@ -385,17 +290,6 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-x86_64/glpk_4.63_x86_64.deb
 Size: 346368
 SHA256: 8d36a78ffcc6555a4920ec343e52898840ae605c2c0e625f13357861fab102d4
-
-Package: groff
-Architecture: x86_64
-Installed-Size: 10760
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.22.3-1
-Description: GNU troff text-formatting program
-Homepage: http://www.gnu.org/software/groff/
-Filename: dists/termux/extras/binary-x86_64/groff_1.22.3-1_x86_64.deb
-Size: 1650832
-SHA256: 946d27207d555b9988d5e785df062df8a9934bb50e3dae51d5dd46c95288dd40
 
 Package: groff
 Architecture: x86_64
@@ -431,6 +325,29 @@ Depends: libgmp, libunistring, libffi, libgc, libandroid-support
 Filename: dists/termux/extras/binary-x86_64/guile-2.2_2.2.4_x86_64.deb
 Size: 5001384
 SHA256: 0b69b2b1f5ba299bce15704c5ad33d647e7e1b10cbf50eac6d51d4f1644651a7
+
+Package: htmlcxx-dev
+Architecture: x86_64
+Installed-Size: 136
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.86
+Description: Development files for htmlcxx
+Homepage: http://htmlcxx.sourceforge.net
+Depends: htmlcxx
+Filename: dists/termux/extras/binary-x86_64/htmlcxx-dev_0.86_x86_64.deb
+Size: 16528
+SHA256: b4a18597a668a889f2876bc5c0d99d435f6c0193c6a0d8dca416ea82b215556f
+
+Package: htmlcxx
+Architecture: x86_64
+Installed-Size: 276
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.86
+Description: simple HTML/CSS1 parser library for C++
+Homepage: http://htmlcxx.sourceforge.net
+Filename: dists/termux/extras/binary-x86_64/htmlcxx_0.86_x86_64.deb
+Size: 68868
+SHA256: 51c587b953737d2e4de13b88bec5e5232f6e600dba0f50e918b5b9c9db3334bc
 
 Package: imapfilter
 Architecture: x86_64
@@ -491,6 +408,18 @@ Filename: dists/termux/extras/binary-x86_64/keystone_0.9.1_x86_64.deb
 Size: 813180
 SHA256: d08ee8999f93a1a1600a2a57d236d68bf49bd4fbb5b6db80096e257443ddf8b0
 
+Package: lgogdownloader
+Architecture: x86_64
+Installed-Size: 904
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3
+Description: downloader for GOG.com files
+Homepage: https://github.com/Sude-/lgogdownloader
+Depends: boost, htmlcxx, libtinyxml2, jsoncpp, libcurl, liboauth, rhash
+Filename: dists/termux/extras/binary-x86_64/lgogdownloader_3.3_x86_64.deb
+Size: 251068
+SHA256: 8198057aed73a9493e0cf4f7619a22baffce9eedefc24ef3f64a9610a7578e10
+
 Package: libatomic-ops-dev
 Architecture: x86_64
 Installed-Size: 760
@@ -540,17 +469,6 @@ SHA256: c46dbf946cdfe1e02543f6d9c8c0174004baa4119942fb2599063bc18759fff7
 
 Package: libcompiler-rt
 Architecture: x86_64
-Installed-Size: 15740
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_6.0.0_x86_64.deb
-Size: 1311748
-SHA256: 86d506f330e8ad978746eebd8be8e9fe7b4c31fd180d315118a1e4f23ef9bfc7
-
-Package: libcompiler-rt
-Architecture: x86_64
 Installed-Size: 16380
 Maintainer: Fredrik Fornwall @fornwall
 Version: 6.0.1
@@ -559,28 +477,6 @@ Homepage: https://ohse.de/uwe/software/lrzsz.html
 Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_6.0.1_x86_64.deb
 Size: 1359776
 SHA256: aa4b4ca0c4d5a0f790b98f476a51185cde8c50e7a51be722dfe82e0c1fa10608
-
-Package: libgfortran4
-Architecture: x86_64
-Installed-Size: 1972
-Maintainer: @its-pointless github
-Version: 7.3.0-2
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.3.0-2_x86_64.deb
-Size: 582804
-SHA256: faf8328552f3b1ca91098847679657a05493687a7790ac77979846e12ec53d79
-
-Package: libgfortran4
-Architecture: x86_64
-Installed-Size: 1972
-Maintainer: @its-pointless github
-Version: 7.3.0-4
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.3.0-4_x86_64.deb
-Size: 582780
-SHA256: e87898ef6754a60e45e89d3dc0e4bcdd3a2b22b012086ffe5112314b14df3c35
 
 Package: libgfortran4
 Architecture: x86_64
@@ -642,44 +538,6 @@ Package: libgomp-7
 Architecture: x86_64
 Installed-Size: 332
 Maintainer: @its-pointless github
-Version: 7.3.0-1
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.3.0-1_x86_64.deb
-Size: 76752
-SHA256: 19dfd331d06f65b703c8fd4403066f7e6ef5c0ac6c83dfbfc6e84aca759f4655
-
-Package: libgomp-7
-Architecture: x86_64
-Installed-Size: 332
-Maintainer: @its-pointless github
-Version: 7.3.0-2
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.3.0-2_x86_64.deb
-Size: 76884
-SHA256: e4c91767b567378f0cf64916d93bcc2c4e28b818712b5330d2910c05b267481b
-
-Package: libgomp-7
-Architecture: x86_64
-Installed-Size: 332
-Maintainer: @its-pointless github
-Version: 7.3.0-4
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.3.0-4_x86_64.deb
-Size: 76844
-SHA256: b87f367d545fea8c05a3e8bb49da946fadecf7eb2d875f4254eec42c06ca8a7f
-
-Package: libgomp-7
-Architecture: x86_64
-Installed-Size: 332
-Maintainer: @its-pointless github
 Version: 7.3.0-5
 Description: openmp library for gcc
 Homepage: http://gcc.gnu.org/
@@ -689,18 +547,6 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.3.0-5_x86_64.deb
 Size: 76844
 SHA256: 18f47b3fe6af3af84e8fec4ccb0f58263ac5bcb6bd7670fb0bcc2a338bfce381
-
-Package: libgomp-7
-Architecture: x86_64
-Installed-Size: 332
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: openmp library for gcc
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.3.0_x86_64.deb
-Size: 76772
-SHA256: cbd03bd2d3632be1d6a7abc7a3050ff1351aeb33feb335fe019ab74f790e8b3d
 
 Package: libgomp-8
 Architecture: x86_64
@@ -779,18 +625,6 @@ SHA256: 36214030b3cb2a5c75e29f0097706fb347f85ca56ccee5193ceed2175578a29a
 
 Package: libpoco-dev
 Architecture: x86_64
-Installed-Size: 5172
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0.1
-Description: Development files for libpoco
-Homepage: https://pocoproject.org
-Depends: libpoco
-Filename: dists/termux/extras/binary-x86_64/libpoco-dev_1.8.0.1_x86_64.deb
-Size: 467504
-SHA256: 4b1ac806bd289ded8b661088808ec1737c5414a32a528787c60bcb8f44f86e95
-
-Package: libpoco-dev
-Architecture: x86_64
 Installed-Size: 5308
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.9.0
@@ -800,17 +634,6 @@ Depends: libpoco
 Filename: dists/termux/extras/binary-x86_64/libpoco-dev_1.9.0_x86_64.deb
 Size: 471936
 SHA256: ffb98d7ace7046c8a7bbc0c683311c0d7bd31cc90c4c0f4232ae6ebea929115d
-
-Package: libpoco
-Architecture: x86_64
-Installed-Size: 9688
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.0.1
-Description: C++ Portable Components (POCO)
-Homepage: https://pocoproject.org
-Filename: dists/termux/extras/binary-x86_64/libpoco_1.8.0.1_x86_64.deb
-Size: 1875296
-SHA256: 8221410b6bbef9929ebae465b2f54f513c9a040f2eed278b17042ca1f529cc6a
 
 Package: libpoco
 Architecture: x86_64
@@ -907,18 +730,6 @@ SHA256: db4adba3531b59d92d1ebd80b17f7904fd2f72b897658e92fb1a3b34f3252f8f
 
 Package: libspice-server-dev
 Architecture: x86_64
-Installed-Size: 56
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.8
-Description: Development files for libspice-server
-Homepage: https://www.spice-space.org/
-Depends: libspice-server
-Filename: dists/termux/extras/binary-x86_64/libspice-server-dev_0.12.8_x86_64.deb
-Size: 6240
-SHA256: 8e6bafe7192520e988a84e1543df1ac6137c2de5c5d965a1bba88ce91c111a57
-
-Package: libspice-server-dev
-Architecture: x86_64
 Installed-Size: 60
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.14.0
@@ -928,18 +739,6 @@ Depends: libspice-server
 Filename: dists/termux/extras/binary-x86_64/libspice-server-dev_0.14.0_x86_64.deb
 Size: 6940
 SHA256: eaec702cbcfdce4dc56ac5fb256f1aeb5e6d81cf08092f6b78c917ffd8bd996f
-
-Package: libspice-server
-Architecture: x86_64
-Installed-Size: 996
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.8
-Description: Remote access to virtual machines, server part
-Homepage: https://www.spice-space.org/
-Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
-Filename: dists/termux/extras/binary-x86_64/libspice-server_0.12.8_x86_64.deb
-Size: 270648
-SHA256: 556c4dfd9b1e635c0c7444a66f0c9bda375e48e059ca17886ac250e3af549a3a
 
 Package: libspice-server
 Architecture: x86_64
@@ -1837,18 +1636,6 @@ SHA256: 5e41d217210cf30ee49c697a3ab7d004a2cdedc71e3be1f7f8faa287cb74c250
 
 Package: qrupdate
 Architecture: x86_64
-Installed-Size: 164
-Maintainer: @its-pointless github
-Version: 1.1.2-1
-Description: qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions.
-Homepage: https://sourceforge.net/projects/qrupdate/
-Depends: libgfortran4
-Filename: dists/termux/extras/binary-x86_64/qrupdate_1.1.2-1_x86_64.deb
-Size: 62668
-SHA256: 011a8719a65af12684a43f75b27363edfd7f9773c66503e05b606866725e5e6c
-
-Package: qrupdate
-Architecture: x86_64
 Installed-Size: 144
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.1.2-2
@@ -1909,18 +1696,6 @@ SHA256: 5bdb3b7160efedadc6f29f5aad6ed09dcc100452dc7c62c30953a187caadbca2
 
 Package: r-cran-rcpp
 Architecture: x86_64
-Installed-Size: 11444
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.16-2
-Description: GNU R package for Seamless R and C++ Integration
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_0.12.16-2_x86_64.deb
-Size: 3333400
-SHA256: 9615326c8e6a543ea3ef2dd77e71886883c54725685f5772803ac98852fb2fc6
-
-Package: r-cran-rcpp
-Architecture: x86_64
 Installed-Size: 11456
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.12.17-1
@@ -1930,18 +1705,6 @@ Depends: r-base
 Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_0.12.17-1_x86_64.deb
 Size: 3343416
 SHA256: c64e5659e8e6d6d3576144f4606a621c2a0cd96edd9cdf49c864829f74dbe112
-
-Package: r-cran-rcpp
-Architecture: x86_64
-Installed-Size: 11456
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.17
-Description: GNU R package for Seamless R and C++ Integration
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_0.12.17_x86_64.deb
-Size: 3343680
-SHA256: 2bd76fe74c3601b85a0d3fbcf104de5c717c37a21c98c65fa08f672b7fd58927
 
 Package: r-cran-rquantlib
 Architecture: x86_64
@@ -2110,6 +1873,18 @@ Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.28-4_x86_64.deb
 Size: 3856248
 SHA256: 1c6885310b74948a6ea39039fbd60f5eddcecaf02b544c8d5647b18c24086df3
 
+Package: rust-rls-nightly
+Architecture: x86_64
+Installed-Size: 16648
+Maintainer: @its-pointless
+Version: 1.29.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.29.0_x86_64.deb
+Size: 3863044
+SHA256: ae359a87f85b1eaa9da5f81777cb0e6191e0cc5ce2f7023e900dab4cf1edc7b0
+
 Package: rust-rls
 Architecture: x86_64
 Installed-Size: 16276
@@ -2124,16 +1899,16 @@ SHA256: 6c20f479d018ed53a4fadcf9e3f3a28dd83632faa95c65491e2aa6fcc3129b67
 
 Package: rustc-nightly
 Architecture: x86_64
-Installed-Size: 180144
+Installed-Size: 181328
 Maintainer: @its-pointless
-Version: 1.28-4
+Version: 1.29.0
 Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
 Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.28-4_x86_64.deb
-Size: 53906624
-SHA256: 003f93d4a3881271c6a32aa422159226d219683f8734f0fc9d8c190f7a172bcc
+Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.29.0_x86_64.deb
+Size: 53828056
+SHA256: a1e7f7f5b2cd3b1445102b74fa0fa15b25f08c9aa3fd8bef1e72342b146b8043
 
 Package: rustc
 Architecture: x86_64
@@ -2158,6 +1933,18 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.28-4_x86_64.deb
 Size: 1654684
 SHA256: 1714bce9486d2ba614cd44249f84605ff42e4a90b3ed0083aa06051842ea57e6
+
+Package: rustfmt-nightly
+Architecture: x86_64
+Installed-Size: 6424
+Maintainer: @its-pointless
+Version: 1.29.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.29.0_x86_64.deb
+Size: 1590956
+SHA256: 2bc80160f76f04cf6d4821295151a0bbbc1d5c1d19cda63c76b279ae7c4b107f
 
 Package: rustfmt
 Architecture: x86_64
@@ -2221,18 +2008,6 @@ SHA256: 579c00a93eeff8100bc6fce50f4c92dcf082eb807d61a32eda605c0759729a7d
 
 Package: suitesparse-dev
 Architecture: x86_64
-Installed-Size: 796
-Maintainer:  @its-pointless github
-Version: 5.1.0
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-x86_64/suitesparse-dev_5.1.0_x86_64.deb
-Size: 103492
-SHA256: bfbdab7363532bf4c7ecc14349c5c37fabfbde89707be61e369257d950014af6
-
-Package: suitesparse-dev
-Architecture: x86_64
 Installed-Size: 1040
 Maintainer:  @its-pointless github
 Version: 5.2.0
@@ -2242,18 +2017,6 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-x86_64/suitesparse-dev_5.2.0_x86_64.deb
 Size: 126120
 SHA256: c924fbc35ab026edaabe7bef4fdf02951002feb06d8ea638e12d78fb2c034628
-
-Package: suitesparse
-Architecture: x86_64
-Installed-Size: 4052
-Maintainer:  @its-pointless github
-Version: 5.1.0
-Description: a suite of sparse matrix software
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Filename: dists/termux/extras/binary-x86_64/suitesparse_5.1.0_x86_64.deb
-Size: 1324108
-SHA256: 78312d68c03403e0e335fba054dd0aee741aaa482500b70eb1e7c0b8dd82ecb5
 
 Package: suitesparse
 Architecture: x86_64

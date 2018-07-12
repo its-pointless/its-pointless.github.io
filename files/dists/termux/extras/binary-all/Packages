@@ -25,25 +25,14 @@ SHA256: 5dc9be306a27e4db41c41272ec175a5f439c65524f2ecdc9a3155e1afee23993
 
 Package: rust-docs-nightly
 Architecture: all
-Installed-Size: 303960
+Installed-Size: 309116
 Maintainer: @its-pointless
-Version: 1.28-4
+Version: 1.29.0
 Description: Rust language documentation
 Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.28-4_all.deb
-Size: 12450880
-SHA256: c401e10fa5dd1681c7ad5146cbb33c9ac62f3e5cff2a6c2f3e35f37daa6ecadc
-
-Package: rust-docs
-Architecture: all
-Installed-Size: 284820
-Maintainer: @its-pointless
-Version: 1.27.0-1
-Description: Rust language documentation
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-all/rust-docs_1.27.0-1_all.deb
-Size: 9754776
-SHA256: 823c37ce726f985afe02197ccb29e9db69d61c9484f198294d40efb48005d5d3
+Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.29.0_all.deb
+Size: 11598524
+SHA256: ae5ea10a80807aefcbe9ce03d65937e701df62bacb0015b9f13cd0d7472edad6
 
 Package: rust-docs
 Architecture: all
@@ -67,6 +56,17 @@ Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.2
 Size: 10784560
 SHA256: 7a73539f3cca188241fa37c64879b7b7c09511213f66bb74cd21fb0083766905
 
+Package: rust-nightly-wasm32-unknown-unknown
+Architecture: all
+Installed-Size: 50848
+Maintainer: @its-pointless
+Version: 1.29.0
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.29.0_all.deb
+Size: 10863796
+SHA256: b57eab8936df27df06d7b2fef49b82198969ff25ad70355c8a1e07350e47e6e7
+
 Package: rust-std-wasm32-unknown-unknown
 Architecture: all
 Installed-Size: 35412
@@ -88,54 +88,6 @@ Homepage: https://www.rust-lang.org
 Filename: dists/termux/extras/binary-all/rust-std-wasm32-unknown-unknown_1.27.1_all.deb
 Size: 10298432
 SHA256: d051d67e94818273f22b21c690e9f6f53687a282b270cfb5cbbff6f143158191
-
-Package: setup-scripts
-Architecture: all
-Installed-Size: 12
-Maintainer: @its-pointless github
-Version: 0.1
-Description: common files and scripts to setup which compiler to use
-Homepage: https://github.com/its-pointless/gcc_termux/
-Replaces: gcc-6 (<= 6.3.0-3)
-Filename: dists/termux/extras/binary-all/setup-scripts_0.1_all.deb
-Size: 1416
-SHA256: f7212861844a1196628146eb5de3fc54d5c9427fa464be61c6a8e1b8b7092232
-
-Package: setup-scripts
-Architecture: all
-Installed-Size: 16
-Maintainer: @its-pointless github
-Version: 0.2.1
-Description: common files and scripts to setup which compiler to use
-Homepage: https://github.com/its-pointless/gcc_termux/
-Replaces: libgfortran4
-Filename: dists/termux/extras/binary-all/setup-scripts_0.2.1_all.deb
-Size: 1608
-SHA256: 18c20f4624c10e8ca4f4eb47a34e27ee81b27bb9159609aa834c5fb038691d6b
-
-Package: setup-scripts
-Architecture: all
-Installed-Size: 20
-Maintainer: @its-pointless github
-Version: 0.2.2
-Description: common files and scripts to setup which compiler to use
-Homepage: https://github.com/its-pointless/gcc_termux/
-Replaces: libgfortran, libgfortran4
-Filename: dists/termux/extras/binary-all/setup-scripts_0.2.2_all.deb
-Size: 1548
-SHA256: 8ca59d312087dd9fc22e415976ca828cb10588ede6a27bc4e22b1586675f95e0
-
-Package: setup-scripts
-Architecture: all
-Installed-Size: 12
-Maintainer: @its-pointless github
-Version: 0.2
-Description: common files and scripts to setup which compiler to use
-Homepage: https://github.com/its-pointless/gcc_termux/
-Replaces: gcc-6 (<= 6.3.0-3)
-Filename: dists/termux/extras/binary-all/setup-scripts_0.2_all.deb
-Size: 1404
-SHA256: 663968e74f11db5bc392587ce6247c40a3f0f5a1675d1892424dccf5b562280b
 
 Package: setup-scripts
 Architecture: all
