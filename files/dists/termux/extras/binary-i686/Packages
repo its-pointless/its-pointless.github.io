@@ -397,17 +397,17 @@ SHA256: 997ae1e52b867828c4993be53800b005d7ed5d5d3812d1e5461551bf894eb512
 
 Package: julia-beta
 Architecture: i686
-Installed-Size: 160496
+Installed-Size: 144884
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0-1
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing
+Version: 0.7.0-2
+Description: Julia is a high-level, high-performance dynamic programming language for numerical computing beta-2
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
 Conflicts: julia-devprev, julia-alpha
 Replaces: julia-devprev, julia-alpha
-Filename: dists/termux/extras/binary-i686/julia-beta_0.7.0-1_i686.deb
-Size: 20946628
-SHA256: 6aed394ac146d59fd04574e75372c2644ebb8738af4a0f3dff5879ef192a7449
+Filename: dists/termux/extras/binary-i686/julia-beta_0.7.0-2_i686.deb
+Size: 20619484
+SHA256: 3b871afba2c913e913be477d185822b7ce677ea90b403a37d989dfad6792f150
 
 Package: keystone-dev
 Architecture: i686
@@ -1861,6 +1861,17 @@ Depends: libffi, libandroid-support
 Filename: dists/termux/extras/binary-i686/racket_6.12_i686.deb
 Size: 5156100
 SHA256: 69382e16f7359da5662fe3f9bf2f8685cfbc4fe19a342f2865089298cc59b4cb
+
+Package: re2c
+Architecture: i686
+Installed-Size: 488
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: re2c is a free and open-source lexer generator for C and C++.
+Homepage: http://re2c.org/
+Filename: dists/termux/extras/binary-i686/re2c_1.0.3_i686.deb
+Size: 158324
+SHA256: 6924620f345bc9a319ddc018f1647a75465fa4fe39425bff2e89eb0a4d996e05
 
 Package: ripgrep
 Architecture: i686
