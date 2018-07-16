@@ -33,17 +33,6 @@ Filename: dists/termux/extras/binary-arm/asymptote_2.42_arm.deb
 Size: 998792
 SHA256: 0720e5a32bbabdc0f0ec5f04cbc695aaa8993612d30c1f6e3bd2cc3e366433b2
 
-Package: atomicparsley
-Architecture: arm
-Installed-Size: 220
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.6
-Description: read, parse and set metadata of MPEG-4 and 3gp files
-Homepage: https://bitbucket.org/wez/atomicparsley
-Filename: dists/termux/extras/binary-arm/atomicparsley_0.9.6_arm.deb
-Size: 92844
-SHA256: 47205107c74cb3b9dfa996ef5fdaa027ff8957a8669e912ab3d39d17dda517c9
-
 Package: bastet
 Architecture: arm
 Installed-Size: 168
@@ -317,25 +306,25 @@ SHA256: a2e39c6630c8b12df659701d52aa1977a69a667f554e348d21528723b8243982
 Package: glpk-dev
 Architecture: arm
 Installed-Size: 40
-Maintainer:  @its-pointless github
-Version: 4.63
+Maintainer: @its-pointless github
+Version: 4.65
 Description: Development files for glpk
 Homepage: https://www.gnu.org/software/glpk/
 Depends: glpk
-Filename: dists/termux/extras/binary-arm/glpk-dev_4.63_arm.deb
-Size: 9256
-SHA256: 6eb545c6151c5444e220c34e2a62b3767a5b698fb77eb8a16559e8134f316bd8
+Filename: dists/termux/extras/binary-arm/glpk-dev_4.65_arm.deb
+Size: 9440
+SHA256: 410ea0a3b351b6f01220831fccd600f713c29b114212fd7a769b4e82a4e3d4ca
 
 Package: glpk
 Architecture: arm
-Installed-Size: 600
-Maintainer:  @its-pointless github
-Version: 4.63
+Installed-Size: 640
+Maintainer: @its-pointless github
+Version: 4.65
 Description: The GLPK (GNU Linear Programming Kit)
 Homepage: https://www.gnu.org/software/glpk/
-Filename: dists/termux/extras/binary-arm/glpk_4.63_arm.deb
-Size: 300632
-SHA256: 735ce7d593a422a666df8c0799b6089f050ad46fcc64ae7becbd4c2148187e3e
+Filename: dists/termux/extras/binary-arm/glpk_4.65_arm.deb
+Size: 318188
+SHA256: c9c0e071ad44d1501e42f3f8ea53045af9e4c483debf68e19403b954de2bc265
 
 Package: gnat-7
 Architecture: arm
@@ -967,30 +956,6 @@ Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
 Filename: dists/termux/extras/binary-arm/libspice-server_0.14.0_arm.deb
 Size: 290180
 SHA256: e49e9da168561b73ca49048a75bf9d74ef3183e317095029a56d1dac0a45bf2d
-
-Package: libssh2-dev
-Architecture: arm
-Installed-Size: 768
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.8.0
-Description: Development files for libssh2
-Homepage: https://www.libssh2.org
-Depends: libssh2
-Filename: dists/termux/extras/binary-arm/libssh2-dev_1.8.0_arm.deb
-Size: 41348
-SHA256: a3ce43ae94736f0de1408b613207397c552baf8f3108ea27b28beb22f45f9e6b
-
-Package: libssh2
-Architecture: arm
-Installed-Size: 104
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.8.0
-Description: Client-side C library implementing the SSH2 protocol
-Homepage: https://www.libssh2.org
-Depends: openssl
-Filename: dists/termux/extras/binary-arm/libssh2_1.8.0_arm.deb
-Size: 50100
-SHA256: dcaa3f9bf2484fc18e6d9831bd141ac9a1c3a4749b12458090f08ba20294f2c3
 
 Package: libsundials-dev
 Architecture: arm

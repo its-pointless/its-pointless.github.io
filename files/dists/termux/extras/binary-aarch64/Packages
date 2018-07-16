@@ -33,17 +33,6 @@ Filename: dists/termux/extras/binary-aarch64/asymptote_2.42_aarch64.deb
 Size: 848868
 SHA256: b442a5af3e0f5cef0c6e2c737a04d3eb7c4f6144b78db2edba94914b4d62d5dd
 
-Package: atomicparsley
-Architecture: aarch64
-Installed-Size: 356
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.6
-Description: read, parse and set metadata of MPEG-4 and 3gp files
-Homepage: https://bitbucket.org/wez/atomicparsley
-Filename: dists/termux/extras/binary-aarch64/atomicparsley_0.9.6_aarch64.deb
-Size: 90412
-SHA256: b821ec5dee73cfdc0c22d19e9a6bdeea5bc81139e23ade78733924a2a62892d6
-
 Package: bastet
 Architecture: aarch64
 Installed-Size: 264
@@ -306,25 +295,25 @@ SHA256: 873de326adf3da88298dd2dc9f2ba2c6e012a10b092d6ffce4b9e07b45bbf5ae
 Package: glpk-dev
 Architecture: aarch64
 Installed-Size: 40
-Maintainer:  @its-pointless github
-Version: 4.63
+Maintainer: @its-pointless github
+Version: 4.65
 Description: Development files for glpk
 Homepage: https://www.gnu.org/software/glpk/
 Depends: glpk
-Filename: dists/termux/extras/binary-aarch64/glpk-dev_4.63_aarch64.deb
-Size: 9260
-SHA256: d551bfbb4b8c5938bae005aa5a4b2f7388086c61bcf32104d38c3b03363ad3bf
+Filename: dists/termux/extras/binary-aarch64/glpk-dev_4.65_aarch64.deb
+Size: 9448
+SHA256: 88257914de333b9459968988f29cc5b431e23acd9acad69be9f38275b68e65bb
 
 Package: glpk
 Architecture: aarch64
-Installed-Size: 744
-Maintainer:  @its-pointless github
-Version: 4.63
+Installed-Size: 812
+Maintainer: @its-pointless github
+Version: 4.65
 Description: The GLPK (GNU Linear Programming Kit)
 Homepage: https://www.gnu.org/software/glpk/
-Filename: dists/termux/extras/binary-aarch64/glpk_4.63_aarch64.deb
-Size: 279536
-SHA256: d0824059dcd523feed451991770c5e41348de5e16dba4464cf552aff02aa5b8e
+Filename: dists/termux/extras/binary-aarch64/glpk_4.65_aarch64.deb
+Size: 287232
+SHA256: dd9c173c889ef384fe2055525f8de1489e695261cb22aabd7491718ac6c970fe
 
 Package: groff
 Architecture: aarch64
@@ -843,30 +832,6 @@ Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
 Filename: dists/termux/extras/binary-aarch64/libspice-server_0.14.0_aarch64.deb
 Size: 225416
 SHA256: 9d745ec14dcecefe8d3de72aa9456f3106c49612b8e42ed04fc7ec702c3ec1ca
-
-Package: libssh2-dev
-Architecture: aarch64
-Installed-Size: 768
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.8.0
-Description: Development files for libssh2
-Homepage: https://www.libssh2.org
-Depends: libssh2
-Filename: dists/termux/extras/binary-aarch64/libssh2-dev_1.8.0_aarch64.deb
-Size: 41340
-SHA256: 34ea3e40ed7a3ea821d05716ac7a34313c60d984749586d6fb28e87ec15b2bce
-
-Package: libssh2
-Architecture: aarch64
-Installed-Size: 144
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.8.0
-Description: Client-side C library implementing the SSH2 protocol
-Homepage: https://www.libssh2.org
-Depends: openssl
-Filename: dists/termux/extras/binary-aarch64/libssh2_1.8.0_aarch64.deb
-Size: 51168
-SHA256: 2171608954c620260977e96c773d9ad58d2c4d25bc4cd8208f18956926df7799
 
 Package: libsundials-dev
 Architecture: aarch64

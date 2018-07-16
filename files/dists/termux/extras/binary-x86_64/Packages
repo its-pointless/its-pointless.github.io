@@ -22,17 +22,6 @@ Filename: dists/termux/extras/binary-x86_64/asymptote_2.42_x86_64.deb
 Size: 976224
 SHA256: 682c9f155d172e0a2d76e6f25b159dc1cf61afc3fcea821cddf5d0482231dae8
 
-Package: atomicparsley
-Architecture: x86_64
-Installed-Size: 296
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.6
-Description: read, parse and set metadata of MPEG-4 and 3gp files
-Homepage: https://bitbucket.org/wez/atomicparsley
-Filename: dists/termux/extras/binary-x86_64/atomicparsley_0.9.6_x86_64.deb
-Size: 95308
-SHA256: 63324ec57b52c8c6e0a6f0314b9844ecba782db2ecb2b2480ee8265872a63964
-
 Package: bastet
 Architecture: x86_64
 Installed-Size: 236
@@ -271,25 +260,25 @@ SHA256: 80b246870ab7071354f2331f512367817e087c7d9818f115a07862fdbcf8c3a3
 Package: glpk-dev
 Architecture: x86_64
 Installed-Size: 40
-Maintainer:  @its-pointless github
-Version: 4.63
+Maintainer: @its-pointless github
+Version: 4.65
 Description: Development files for glpk
 Homepage: https://www.gnu.org/software/glpk/
 Depends: glpk
-Filename: dists/termux/extras/binary-x86_64/glpk-dev_4.63_x86_64.deb
-Size: 9264
-SHA256: 7dd93f403a3ee2f9f2b82430d79b5bd7eefadaff62aa08aaf5af3019084e387c
+Filename: dists/termux/extras/binary-x86_64/glpk-dev_4.65_x86_64.deb
+Size: 9444
+SHA256: a30621992768e436f50f25a17ed7537e424153a74b96c8fc4e9dd43b99c56abd
 
 Package: glpk
 Architecture: x86_64
-Installed-Size: 840
-Maintainer:  @its-pointless github
-Version: 4.63
+Installed-Size: 856
+Maintainer: @its-pointless github
+Version: 4.65
 Description: The GLPK (GNU Linear Programming Kit)
 Homepage: https://www.gnu.org/software/glpk/
-Filename: dists/termux/extras/binary-x86_64/glpk_4.63_x86_64.deb
-Size: 346368
-SHA256: 8d36a78ffcc6555a4920ec343e52898840ae605c2c0e625f13357861fab102d4
+Filename: dists/termux/extras/binary-x86_64/glpk_4.65_x86_64.deb
+Size: 352860
+SHA256: 7779ffa2fd8b1d69100a5ae9e684dcdc9e0117016a71a7c060b5b388519a1987
 
 Package: groff
 Architecture: x86_64
@@ -751,30 +740,6 @@ Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
 Filename: dists/termux/extras/binary-x86_64/libspice-server_0.14.0_x86_64.deb
 Size: 277736
 SHA256: a5edb15d19ef997cca2e84400bbf2c49f0f7f5b282711933f8fb0be744063ad7
-
-Package: libssh2-dev
-Architecture: x86_64
-Installed-Size: 768
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.8.0
-Description: Development files for libssh2
-Homepage: https://www.libssh2.org
-Depends: libssh2
-Filename: dists/termux/extras/binary-x86_64/libssh2-dev_1.8.0_x86_64.deb
-Size: 41348
-SHA256: 923772cd728bc8acc7302bf34c7c3287047bf3233ce50f187a3a99256c4dcd93
-
-Package: libssh2
-Architecture: x86_64
-Installed-Size: 156
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.8.0
-Description: Client-side C library implementing the SSH2 protocol
-Homepage: https://www.libssh2.org
-Depends: openssl
-Filename: dists/termux/extras/binary-x86_64/libssh2_1.8.0_x86_64.deb
-Size: 59244
-SHA256: 00a3400d96e2105277a52a66e82a28b59fdc5d4678132d2063a617903ebc6ea1
 
 Package: libsundials-dev
 Architecture: x86_64

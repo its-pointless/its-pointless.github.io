@@ -22,17 +22,6 @@ Filename: dists/termux/extras/binary-i686/asymptote_2.42_i686.deb
 Size: 978744
 SHA256: beb05c7056fc0c336fd57b2d844899ef1c652650441fe220ffa9f8e2d37f559d
 
-Package: atomicparsley
-Architecture: i686
-Installed-Size: 248
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.6
-Description: read, parse and set metadata of MPEG-4 and 3gp files
-Homepage: https://bitbucket.org/wez/atomicparsley
-Filename: dists/termux/extras/binary-i686/atomicparsley_0.9.6_i686.deb
-Size: 93032
-SHA256: d1439562a79f0347b52c9e1ba6eba9a0c9fbffd286c73ea3c2cc474205007203
-
 Package: bastet
 Architecture: i686
 Installed-Size: 232
@@ -295,25 +284,25 @@ SHA256: 7ad32ac9e5641bfcd341b41cd157e72d7522f47a53aee23bf0f68bc7b9a7fade
 Package: glpk-dev
 Architecture: i686
 Installed-Size: 40
-Maintainer:  @its-pointless github
-Version: 4.63
+Maintainer: @its-pointless github
+Version: 4.65
 Description: Development files for glpk
 Homepage: https://www.gnu.org/software/glpk/
 Depends: glpk
-Filename: dists/termux/extras/binary-i686/glpk-dev_4.63_i686.deb
-Size: 9264
-SHA256: ad339c552c3c71ecdf57e80e02585d3774c2982a094d4e38d7614c294367f526
+Filename: dists/termux/extras/binary-i686/glpk-dev_4.65_i686.deb
+Size: 9444
+SHA256: fa02ad8f85006fe74fb9b5a85fe1e8f1cbf842a362cb3b9ee231b85d76521c14
 
 Package: glpk
 Architecture: i686
-Installed-Size: 804
-Maintainer:  @its-pointless github
-Version: 4.63
+Installed-Size: 816
+Maintainer: @its-pointless github
+Version: 4.65
 Description: The GLPK (GNU Linear Programming Kit)
 Homepage: https://www.gnu.org/software/glpk/
-Filename: dists/termux/extras/binary-i686/glpk_4.63_i686.deb
-Size: 320948
-SHA256: 1ddc9d9b9e5fea1f6e4bcb53ef47cf2c0f31e654009d7ef2d06d4b5fdcfce1c1
+Filename: dists/termux/extras/binary-i686/glpk_4.65_i686.deb
+Size: 325820
+SHA256: 98c670060492f23c35315a40952d3ded1f39daceae55c60becdec7ec068e59fd
 
 Package: groff
 Architecture: i686
@@ -775,30 +764,6 @@ Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
 Filename: dists/termux/extras/binary-i686/libspice-server_0.14.0_i686.deb
 Size: 266772
 SHA256: 8644f2af4ce17e81c45b7b35d45059488d49ce99cc0a9adddfed1e5609bf4756
-
-Package: libssh2-dev
-Architecture: i686
-Installed-Size: 768
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.8.0
-Description: Development files for libssh2
-Homepage: https://www.libssh2.org
-Depends: libssh2
-Filename: dists/termux/extras/binary-i686/libssh2-dev_1.8.0_i686.deb
-Size: 41340
-SHA256: 67551905f5395bf7a0096a611e808426125028fb3857f3d5c02efb2e1dcc6f8a
-
-Package: libssh2
-Architecture: i686
-Installed-Size: 140
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.8.0
-Description: Client-side C library implementing the SSH2 protocol
-Homepage: https://www.libssh2.org
-Depends: openssl
-Filename: dists/termux/extras/binary-i686/libssh2_1.8.0_i686.deb
-Size: 56328
-SHA256: 786ed8a24415ae49df2f8d208bce9f8f229a86e71846cee4c284c620337d1441
 
 Package: libsundials-dev
 Architecture: i686
