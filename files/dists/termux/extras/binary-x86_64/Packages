@@ -741,6 +741,30 @@ Filename: dists/termux/extras/binary-x86_64/libspice-server_0.14.0_x86_64.deb
 Size: 277736
 SHA256: a5edb15d19ef997cca2e84400bbf2c49f0f7f5b282711933f8fb0be744063ad7
 
+Package: libssh2-dev
+Architecture: x86_64
+Installed-Size: 768
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Development files for libssh2
+Homepage: https://www.libssh2.org
+Depends: libssh2
+Filename: dists/termux/extras/binary-x86_64/libssh2-dev_1.8.0_x86_64.deb
+Size: 41348
+SHA256: a92fba82fdecc409e708fcc7cf7798b1aceeccfa299959e984291373299f3bb5
+
+Package: libssh2
+Architecture: x86_64
+Installed-Size: 156
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Client-side C library implementing the SSH2 protocol
+Homepage: https://www.libssh2.org
+Depends: openssl
+Filename: dists/termux/extras/binary-x86_64/libssh2_1.8.0_x86_64.deb
+Size: 60796
+SHA256: 0143c27836893051fbf4f66db830d5ea77993d06c23c5402209935cb3dd37785
+
 Package: libsundials-dev
 Architecture: x86_64
 Installed-Size: 1284
@@ -858,6 +882,18 @@ Filename: dists/termux/extras/binary-x86_64/moarvm_2018.05_x86_64.deb
 Size: 1027216
 SHA256: c25ebc2a0588636d3b37a609f68ae538e9ee27bae421f84a1765749942e95570
 
+Package: nethack
+Architecture: x86_64
+Installed-Size: 4004
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.1
+Description: Dungeon crawl game
+Homepage: http://www.nethack.org/
+Depends: ncurses
+Filename: dists/termux/extras/binary-x86_64/nethack_3.6.1_x86_64.deb
+Size: 1400140
+SHA256: 4cb1ce3ed38e67d41beaadd875143ef5beffbd9a441c77d28d57cc287b7f6866
+
 Package: nim
 Architecture: x86_64
 Installed-Size: 10876
@@ -885,37 +921,13 @@ Package: nudoku
 Architecture: x86_64
 Installed-Size: 20
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.5
-Description: ncurses based sudoku game
-Homepage: http://jubalh.github.io/nudoku/
+Version: 1.0.0
+Description: a ncurses based sudoku game
+Homepage: https://github.com/jubalh/nudoku
 Depends: ncurses
-Filename: dists/termux/extras/binary-x86_64/nudoku_0.2.5_x86_64.deb
-Size: 7076
-SHA256: 39836c9c55d7a8803219e4ef8211c7a1779f8b815a854b7914c96f97c7ba8312
-
-Package: numpy
-Architecture: x86_64
-Installed-Size: 16584
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.14.2-1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Depends: openblas, python
-Filename: dists/termux/extras/binary-x86_64/numpy_1.14.2-1_x86_64.deb
-Size: 2628564
-SHA256: 532ec6229e15a8071e868a4536380069912c112c0d8c130a07ad7ff6638db72f
-
-Package: numpy
-Architecture: x86_64
-Installed-Size: 16748
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.14.3
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Depends: openblas, python-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-x86_64/numpy_1.14.3_x86_64.deb
-Size: 2674332
-SHA256: 05a0d68f9e85d20c78fe943a528034b08ddb2bf9d5674b2f5552d6cc596dd6e7
+Filename: dists/termux/extras/binary-x86_64/nudoku_1.0.0_x86_64.deb
+Size: 7600
+SHA256: 2ff6de89f2530f40ef9e51ca8f99e97f949a2ae3bebd86e31243d0151cf27f47
 
 Package: numpy
 Architecture: x86_64

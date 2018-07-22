@@ -957,6 +957,30 @@ Filename: dists/termux/extras/binary-arm/libspice-server_0.14.0_arm.deb
 Size: 290180
 SHA256: e49e9da168561b73ca49048a75bf9d74ef3183e317095029a56d1dac0a45bf2d
 
+Package: libssh2-dev
+Architecture: arm
+Installed-Size: 768
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Development files for libssh2
+Homepage: https://www.libssh2.org
+Depends: libssh2
+Filename: dists/termux/extras/binary-arm/libssh2-dev_1.8.0_arm.deb
+Size: 41356
+SHA256: dd274178fa6425a622ecf431413b41d8fa7d1e536441efd94dd181b7921ff073
+
+Package: libssh2
+Architecture: arm
+Installed-Size: 108
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.8.0
+Description: Client-side C library implementing the SSH2 protocol
+Homepage: https://www.libssh2.org
+Depends: openssl
+Filename: dists/termux/extras/binary-arm/libssh2_1.8.0_arm.deb
+Size: 53912
+SHA256: ac95d7f0a1263d054d18c9b0c0423a0a00517ff157ad0389297a14e0d3e00312
+
 Package: libsundials-dev
 Architecture: arm
 Installed-Size: 1284
@@ -1073,6 +1097,18 @@ Filename: dists/termux/extras/binary-arm/moarvm_2018.05_arm.deb
 Size: 888772
 SHA256: 3ce8409ebaf40562cf755a53a6d1c72c1a710410699ee4df8ea8318f4b672709
 
+Package: nethack
+Architecture: arm
+Installed-Size: 3512
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.1
+Description: Dungeon crawl game
+Homepage: http://www.nethack.org/
+Depends: ncurses
+Filename: dists/termux/extras/binary-arm/nethack_3.6.1_arm.deb
+Size: 1382084
+SHA256: 1c0293f1ab19292e317ddb3e6bce5c3d31d1b2f1df5151510591dee782c33ee2
+
 Package: nim
 Architecture: arm
 Installed-Size: 10012
@@ -1098,38 +1134,15 @@ SHA256: b717f376e1af15e8407632de74c14d8fd34aac55500b8e241a8e1fd01aa660bf
 
 Package: nudoku
 Architecture: arm
-Installed-Size: 16
+Installed-Size: 24
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2.5
-Description: ncurses based sudoku game
-Homepage: http://jubalh.github.io/nudoku/
-Filename: dists/termux/extras/binary-arm/nudoku_0.2.5_arm.deb
-Size: 6540
-SHA256: c50349472359f8bf986e99b1096a851692fffd5f8449a71307dcbeedc4ea522b
-
-Package: numpy
-Architecture: arm
-Installed-Size: 14312
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.14.2-1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Depends: openblas, python
-Filename: dists/termux/extras/binary-arm/numpy_1.14.2-1_arm.deb
-Size: 2297380
-SHA256: a9558e76516f7c5c14d297b71f2e213d765583e3dddecd747c80818a0c768220
-
-Package: numpy
-Architecture: arm
-Installed-Size: 13944
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.14.3
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Depends: openblas, python-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-arm/numpy_1.14.3_arm.deb
-Size: 2236176
-SHA256: eeaf3ad5091d29754fd87056be9e7698a3696887528e6193762e18552f00653f
+Version: 1.0.0
+Description: a ncurses based sudoku game
+Homepage: https://github.com/jubalh/nudoku
+Depends: ncurses
+Filename: dists/termux/extras/binary-arm/nudoku_1.0.0_arm.deb
+Size: 10180
+SHA256: 05423939c6a27cc31e53e4b203b0d92194daacb29ee7e70462622b7c985ac17a
 
 Package: numpy
 Architecture: arm
