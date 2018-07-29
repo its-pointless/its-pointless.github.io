@@ -34,6 +34,17 @@ Filename: dists/termux/extras/binary-x86_64/bastet_0.43.2-2_x86_64.deb
 Size: 70340
 SHA256: c8b16cf8bdbb1018ce459da878bac09109591662b5be9a5c376fcfcbae4c76f7
 
+Package: bcal
+Architecture: x86_64
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9
+Description: 
+Homepage:
+Filename: dists/termux/extras/binary-x86_64/bcal_1.9_x86_64.deb
+Size: 18884
+SHA256: 2495d15a63836c5c2edc8c18fcb20c0033363bb18e2dc423ea0e9e3f34b04972
+
 Package: bthread-dev
 Architecture: x86_64
 Installed-Size: 4
@@ -235,15 +246,15 @@ SHA256: e113da46bea86e25a331235a4d6e50bd17c96668cd1c51ff89272b2d0f9e10d1
 
 Package: gcc-8
 Architecture: x86_64
-Installed-Size: 118840
+Installed-Size: 118924
 Maintainer: @its-pointless github
-Version: 8.1.0-1
+Version: 8.2.0
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
 Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-8_8.1.0-1_x86_64.deb
-Size: 32646292
-SHA256: 3f33366fb876377f5922abb301accaeda2f0d95f6f55145e3f9b8bb92fe796d7
+Filename: dists/termux/extras/binary-x86_64/gcc-8_8.2.0_x86_64.deb
+Size: 32663260
+SHA256: 819689f1581607ebf7100e2280792fe61a8cea487cc00d5ced831f74fbc76e90
 
 Package: git-lfs
 Architecture: x86_64
@@ -482,24 +493,13 @@ Package: libgfortran5
 Architecture: x86_64
 Installed-Size: 2536
 Maintainer: @its-pointless github
-Version: 8.1.0-1
+Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
 Replaces: libgfortran4
-Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.1.0-1_x86_64.deb
-Size: 676712
-SHA256: ebfa1e86532bf31df9dd24886e09511466f8ef363abb0bf4c8423b2a36a6f75a
-
-Package: libgfortran5
-Architecture: x86_64
-Installed-Size: 2536
-Maintainer: @its-pointless github
-Version: 8.1.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.1.0_x86_64.deb
-Size: 676852
-SHA256: c910fa172c7782023573d603b6010fba4c91e748fdec59607114bf21b1192c31
+Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.2.0_x86_64.deb
+Size: 676312
+SHA256: 1b62bc5ad75404ce698c6ee794d25c10288bf78b7e7420813d44894537da769a
 
 Package: libgfortran
 Architecture: x86_64
@@ -541,29 +541,15 @@ Package: libgomp-8
 Architecture: x86_64
 Installed-Size: 336
 Maintainer: @its-pointless github
-Version: 8.1.0-1
+Version: 8.2.0
 Description: openmp library for gcc-8
 Homepage: http://gcc.gnu.org/
 Depends: gcc-8
 Conflicts: libgomp
 Replaces: libgomp
-Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.1.0-1_x86_64.deb
-Size: 77340
-SHA256: 8244c523b8f4d7a38c7f7108b19bd673b78a19177d1127a9a2949201723412e1
-
-Package: libgomp-8
-Architecture: x86_64
-Installed-Size: 336
-Maintainer: @its-pointless github
-Version: 8.1.0
-Description: openmp library for gcc-8
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.1.0_x86_64.deb
-Size: 77356
-SHA256: a2220750d760a088649648de0b2d0a55d3aa7d4855a157966c8317a1bf30077e
+Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.2.0_x86_64.deb
+Size: 77320
+SHA256: de5aa7e74ff437c5bbb4fb728dc2748543ccf1f3a71e0e458714ddfe45741e60
 
 Package: libmaa-dev
 Architecture: x86_64
@@ -1061,6 +1047,30 @@ Homepage: http://sites.google.com/site/doctormike/pacman.html
 Filename: dists/termux/extras/binary-x86_64/pacman4console_1.3_x86_64.deb
 Size: 10600
 SHA256: 1c184b6619ed2219b76ad6135f6a806d8bb1b2e646f96bee1b864021bfa7bd49
+
+Package: pcrecpp-dev
+Architecture: x86_64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.42
+Description: pcre cpp
+Homepage: https://www.pcre.org
+Depends: pcrecpp
+Filename: dists/termux/extras/binary-x86_64/pcrecpp-dev_8.42_x86_64.deb
+Size: 9656
+SHA256: 80b846c8c0d780b29670f91ded21babc6f39fb682f091e8aac005a6078a39afa
+
+Package: pcrecpp
+Architecture: x86_64
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.42
+Description: pcre cpp
+Homepage: https://www.pcre.org
+Depends: pcre
+Filename: dists/termux/extras/binary-x86_64/pcrecpp_8.42_x86_64.deb
+Size: 21384
+SHA256: d9898a5dbe183e1e3de887f76846d4b98bef97f75b09c4e2b4c9b33ca5d3243a
 
 Package: potrace
 Architecture: x86_64

@@ -259,15 +259,15 @@ SHA256: a48165fa6d7e84b20ece71b86cadc527e494fd05238599769f4ad9966647d72b
 
 Package: gcc-8
 Architecture: i686
-Installed-Size: 116100
+Installed-Size: 116184
 Maintainer: @its-pointless github
-Version: 8.1.0-1
+Version: 8.2.0
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
 Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-8_8.1.0-1_i686.deb
-Size: 32385460
-SHA256: d85a28066ee5fb80a2b70d11ff3e35e4242092de36c9e8c44b6bdcf8e3812742
+Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0_i686.deb
+Size: 32403888
+SHA256: 25a5d362bb6f097d201ec4014cdadcd82f85e2c94fb6ca86b7745048cf4131b9
 
 Package: git-lfs
 Architecture: i686
@@ -504,26 +504,15 @@ SHA256: dbd62767a5d7484845a8d981f5c4e3384904efd509f6f0300103f62ef8b57d64
 
 Package: libgfortran5
 Architecture: i686
-Installed-Size: 2152
+Installed-Size: 2156
 Maintainer: @its-pointless github
-Version: 8.1.0-1
+Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
 Replaces: libgfortran4
-Filename: dists/termux/extras/binary-i686/libgfortran5_8.1.0-1_i686.deb
-Size: 571740
-SHA256: d2554db194fc1db907faf0082ac0deebf4249d73b2e545245ba046bef012fad5
-
-Package: libgfortran5
-Architecture: i686
-Installed-Size: 2152
-Maintainer: @its-pointless github
-Version: 8.1.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libgfortran5_8.1.0_i686.deb
-Size: 571692
-SHA256: 8122456749b35536f2483eca60b38ad05613c25ad447ab66d20585e23a0abb6b
+Filename: dists/termux/extras/binary-i686/libgfortran5_8.2.0_i686.deb
+Size: 574080
+SHA256: 4011640e37c32b6f88a43a51053b952c5bf20dc8bdfdd7c9a894363c73837f82
 
 Package: libgfortran
 Architecture: i686
@@ -565,29 +554,15 @@ Package: libgomp-8
 Architecture: i686
 Installed-Size: 288
 Maintainer: @its-pointless github
-Version: 8.1.0-1
+Version: 8.2.0
 Description: openmp library for gcc-8
 Homepage: http://gcc.gnu.org/
 Depends: gcc-8
 Conflicts: libgomp
 Replaces: libgomp
-Filename: dists/termux/extras/binary-i686/libgomp-8_8.1.0-1_i686.deb
-Size: 81240
-SHA256: 3ed49961d91a5a7a1c27b1e7a94d17ce4d6f63b1f42e1116a7f63b343065d5dc
-
-Package: libgomp-8
-Architecture: i686
-Installed-Size: 288
-Maintainer: @its-pointless github
-Version: 8.1.0
-Description: openmp library for gcc-8
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-i686/libgomp-8_8.1.0_i686.deb
-Size: 81316
-SHA256: e7233f61e72d732bea4c1fd0c42604fb0c1dc660e3315e07f12fca94b2afdaf0
+Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0_i686.deb
+Size: 81272
+SHA256: e7b67cb8a9efa90fa17a6567a252b48907f4cc6ad1119db74baf159e683588c4
 
 Package: libmaa-dev
 Architecture: i686

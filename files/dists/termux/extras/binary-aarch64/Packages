@@ -45,6 +45,18 @@ Filename: dists/termux/extras/binary-aarch64/bastet_0.43.2-2_aarch64.deb
 Size: 61384
 SHA256: 32b5417ab9637ecb5ce6d1b6c36341d890e8a497eeba132fc9c3e3f5b5c3e8ca
 
+Package: bcal
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9
+Description: Command-line utility for storage conversions and calculations
+Homepage: https://github.com/jarun/bcal
+Depends: readline
+Filename: dists/termux/extras/binary-aarch64/bcal_1.9_aarch64.deb
+Size: 17556
+SHA256: 8d473db2980abbe8841074628ce06dcf75934aa4924fc4a227c644a378eadbdf
+
 Package: bthread-dev
 Architecture: aarch64
 Installed-Size: 4
@@ -260,13 +272,13 @@ Package: gcc-8
 Architecture: aarch64
 Installed-Size: 87748
 Maintainer: @its-pointless github
-Version: 8.1.0-1
+Version: 8.2.0
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
 Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-8_8.1.0-1_aarch64.deb
-Size: 23118296
-SHA256: 3d82390a5f432ab1741a5f3d2fa8e3309dcb559e1d267562efe7fc1f1fbb0dc8
+Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0_aarch64.deb
+Size: 23133428
+SHA256: 1a16c564d2346bd36620f6c90f0b1d0682cfe988536dec59e1a3b070e3050f0e
 
 Package: gforth
 Architecture: aarch64
@@ -529,24 +541,13 @@ Package: libgfortran5
 Architecture: aarch64
 Installed-Size: 1348
 Maintainer: @its-pointless github
-Version: 8.1.0-1
+Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
 Replaces: libgfortran4
-Filename: dists/termux/extras/binary-aarch64/libgfortran5_8.1.0-1_aarch64.deb
-Size: 306096
-SHA256: b7357f9bd8b68f3d158c639139cdbc8ab271db3017cdf2b183898d8086beb910
-
-Package: libgfortran5
-Architecture: aarch64
-Installed-Size: 1348
-Maintainer: @its-pointless github
-Version: 8.1.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran5_8.1.0_aarch64.deb
-Size: 306256
-SHA256: ad440e5091676677879c37054456489c076f9501e21f9c808ae7f7222a75fe37
+Filename: dists/termux/extras/binary-aarch64/libgfortran5_8.2.0_aarch64.deb
+Size: 306084
+SHA256: 4b6aea002b3f90ad442e0942949a7b100f44c07cba456a0b07b80068d9b32762
 
 Package: libgfortran
 Architecture: aarch64
@@ -633,29 +634,15 @@ Package: libgomp-8
 Architecture: aarch64
 Installed-Size: 332
 Maintainer: @its-pointless github
-Version: 8.1.0-1
+Version: 8.2.0
 Description: openmp library for gcc-8
 Homepage: http://gcc.gnu.org/
 Depends: gcc-8
 Conflicts: libgomp
 Replaces: libgomp
-Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.1.0-1_aarch64.deb
-Size: 73688
-SHA256: 01704a578a0701c025ec363bb4759443ffd28b3ae7b4e4e0c41b0d7910a6497b
-
-Package: libgomp-8
-Architecture: aarch64
-Installed-Size: 332
-Maintainer: @its-pointless github
-Version: 8.1.0
-Description: openmp library for gcc-8
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.1.0_aarch64.deb
-Size: 73632
-SHA256: a6cf90e3fad340a574bfdf9515967b25f9d512c1a055028ffd87e2b2a2c4521c
+Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.2.0_aarch64.deb
+Size: 73640
+SHA256: 6a566aac9bfe4951a84157f91df7bfc0f4b0c3369882aefa604315fcb9fc9ff0
 
 Package: libmaa-dev
 Architecture: aarch64
@@ -785,6 +772,29 @@ Depends: libandroid-support, libjpeg-turbo, libcurl, openssl
 Filename: dists/termux/extras/binary-aarch64/libsixel_1.7.3_aarch64.deb
 Size: 80544
 SHA256: e85a7b27594cbcdc2a049efffd312dcd6c6986c28f221d568ab5b98f5fa06d39
+
+Package: libsnappy-dev
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.7
+Description: Development files for libsnappy
+Homepage: http://google.github.io/snappy/
+Depends: libsnappy
+Filename: dists/termux/extras/binary-aarch64/libsnappy-dev_1.1.7_aarch64.deb
+Size: 8488
+SHA256: 668b42760d06cee54017ec5fbe6e5f5807558120968c6af45b64882966ff22d1
+
+Package: libsnappy
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.7
+Description: A fast compressor/decompressor
+Homepage: http://google.github.io/snappy/
+Filename: dists/termux/extras/binary-aarch64/libsnappy_1.1.7_aarch64.deb
+Size: 20528
+SHA256: b7bfcdfda6a64af9d335f5434ff747f7fa30320da6e7523f9a8d5b8f6106f02e
 
 Package: libspice-protocol-dev
 Architecture: aarch64
@@ -998,6 +1008,18 @@ Filename: dists/termux/extras/binary-aarch64/moarvm_2018.05_aarch64.deb
 Size: 955108
 SHA256: 93a28a1d9d5b082be29228b7e48faf22b8f72e27dd5e0a07e73b05aa0a6b7adf
 
+Package: mongodb
+Architecture: aarch64
+Installed-Size: 113524
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.1
+Description: mongo db
+Homepage: https://github.com/mongodb/mongo
+Depends: wiredtiger, boost, pcrecpp, libicu
+Filename: dists/termux/extras/binary-aarch64/mongodb_4.1.1_aarch64.deb
+Size: 17894984
+SHA256: 44e61b622d024f448419edcca345bbea4dccf6e14f418836c0db82835baaa399
+
 Package: nethack
 Architecture: aarch64
 Installed-Size: 3852
@@ -1163,6 +1185,30 @@ Homepage: http://sites.google.com/site/doctormike/pacman.html
 Filename: dists/termux/extras/binary-aarch64/pacman4console_1.3_aarch64.deb
 Size: 9884
 SHA256: eaf39c13053f0d1fcece2c232297b1edc15da762f8204772c83bcb264e3d0e6b
+
+Package: pcrecpp-dev
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.42
+Description: pcre cpp
+Homepage: https://www.pcre.org
+Depends: pcrecpp
+Filename: dists/termux/extras/binary-aarch64/pcrecpp-dev_8.42_aarch64.deb
+Size: 9656
+SHA256: a480cd48a081bf3ace5c75861f2ccb7e1ee02409866f259a2cdcfce03171b052
+
+Package: pcrecpp
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.42
+Description: pcre cpp
+Homepage: https://www.pcre.org
+Depends: pcre
+Filename: dists/termux/extras/binary-aarch64/pcrecpp_8.42_aarch64.deb
+Size: 20076
+SHA256: 21a0e59dc4670843d1233abf493e9c30d541a53e96b1242ae459ae7e5bc65a44
 
 Package: potrace
 Architecture: aarch64
@@ -2165,3 +2211,27 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-aarch64/unicorn_1.0.1_aarch64.deb
 Size: 854228
 SHA256: 44dd84a23212ce09300b9013bc50298be6ce33176cb92b6bc456933340384326
+
+Package: wiredtiger-dev
+Architecture: aarch64
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.0
+Description: Development files for wiredtiger
+Homepage: https://github.com/wiredtiger/wiredtiger
+Depends: wiredtiger
+Filename: dists/termux/extras/binary-aarch64/wiredtiger-dev_3.1.0_aarch64.deb
+Size: 48812
+SHA256: 5363acdc097f1b2b5f3ab8e24e7aa04e33966e9bb714d6fc679db2f8f8a50750
+
+Package: wiredtiger
+Architecture: aarch64
+Installed-Size: 1160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.0
+Description: high performance, scalable, NoSQL, extensible platform
+Homepage: https://github.com/wiredtiger/wiredtiger
+Depends: libsnappy
+Filename: dists/termux/extras/binary-aarch64/wiredtiger_3.1.0_aarch64.deb
+Size: 334012
+SHA256: cd14e6224a9a3c857cbf97f447abbd8cb935e36c211e3b213c6611602280ac14
