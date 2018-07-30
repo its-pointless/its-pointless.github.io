@@ -1010,15 +1010,15 @@ SHA256: 93a28a1d9d5b082be29228b7e48faf22b8f72e27dd5e0a07e73b05aa0a6b7adf
 
 Package: mongodb
 Architecture: aarch64
-Installed-Size: 113524
+Installed-Size: 136352
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.1.1
 Description: mongo db
 Homepage: https://github.com/mongodb/mongo
-Depends: wiredtiger, boost, pcrecpp, libicu
+Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
 Filename: dists/termux/extras/binary-aarch64/mongodb_4.1.1_aarch64.deb
-Size: 17894984
-SHA256: 44e61b622d024f448419edcca345bbea4dccf6e14f418836c0db82835baaa399
+Size: 23966872
+SHA256: 5580f043934a0482239000a260e2f83f9e5d2adc67c27073c8698deb420ae54b
 
 Package: nethack
 Architecture: aarch64
@@ -2221,17 +2221,40 @@ Description: Development files for wiredtiger
 Homepage: https://github.com/wiredtiger/wiredtiger
 Depends: wiredtiger
 Filename: dists/termux/extras/binary-aarch64/wiredtiger-dev_3.1.0_aarch64.deb
-Size: 48812
-SHA256: 5363acdc097f1b2b5f3ab8e24e7aa04e33966e9bb714d6fc679db2f8f8a50750
+Size: 48788
+SHA256: 87786ed8844c45d25589b3f51ce27e0017fd7addc878de646c1e654ddd22790e
 
 Package: wiredtiger
 Architecture: aarch64
-Installed-Size: 1160
+Installed-Size: 1168
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.1.0
 Description: high performance, scalable, NoSQL, extensible platform
 Homepage: https://github.com/wiredtiger/wiredtiger
 Depends: libsnappy
 Filename: dists/termux/extras/binary-aarch64/wiredtiger_3.1.0_aarch64.deb
-Size: 334012
-SHA256: cd14e6224a9a3c857cbf97f447abbd8cb935e36c211e3b213c6611602280ac14
+Size: 333264
+SHA256: ea521dee3466fa21799a6347fa142b14e4d9b3f40f47a22450fc6a84a33d59d0
+
+Package: yaml-cpp-dev
+Architecture: aarch64
+Installed-Size: 1880
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.2
+Description: Development files for yaml-cpp
+Homepage: https://github.com/jbeder/yaml-cpp
+Depends: yaml-cpp
+Filename: dists/termux/extras/binary-aarch64/yaml-cpp-dev_0.6.2_aarch64.deb
+Size: 193208
+SHA256: 1c2743c7e71b44455ce42996bf473b2b79578f29bb3493d850ddd8c8041ed505
+
+Package: yaml-cpp
+Architecture: aarch64
+Installed-Size: 1848
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.2
+Description: yaml-cpp
+Homepage: https://github.com/jbeder/yaml-cpp
+Filename: dists/termux/extras/binary-aarch64/yaml-cpp_0.6.2_aarch64.deb
+Size: 225148
+SHA256: 47c54d3d848d44cae30b9f97d3802cded8ba3da5fe6134b2a4e0ac1dd5794c06

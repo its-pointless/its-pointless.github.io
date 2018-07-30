@@ -680,6 +680,29 @@ Filename: dists/termux/extras/binary-x86_64/libsixel_1.7.3_x86_64.deb
 Size: 89436
 SHA256: 01e94777f781e59d86ecd21e481c4e3960174a90b814217130d68cafb2bf4725
 
+Package: libsnappy-dev
+Architecture: x86_64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.7
+Description: Development files for libsnappy
+Homepage: http://google.github.io/snappy/
+Depends: libsnappy
+Filename: dists/termux/extras/binary-x86_64/libsnappy-dev_1.1.7_x86_64.deb
+Size: 8488
+SHA256: 9fa2d3596bb48a71001be1fb8dec35e128bc2a3ed96cbbd61c8f4292cdcfd9c6
+
+Package: libsnappy
+Architecture: x86_64
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.7
+Description: A fast compressor/decompressor
+Homepage: http://google.github.io/snappy/
+Filename: dists/termux/extras/binary-x86_64/libsnappy_1.1.7_x86_64.deb
+Size: 21320
+SHA256: 3cbbe77a225075b7d19366707c3c8a75293c9f98236ca7ffdab72d3487b64c29
+
 Package: libspice-protocol-dev
 Architecture: x86_64
 Installed-Size: 128
@@ -867,6 +890,18 @@ Depends: libtommath, libuv, libandroid-support
 Filename: dists/termux/extras/binary-x86_64/moarvm_2018.05_x86_64.deb
 Size: 1027216
 SHA256: c25ebc2a0588636d3b37a609f68ae538e9ee27bae421f84a1765749942e95570
+
+Package: mongodb
+Architecture: x86_64
+Installed-Size: 142496
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.1
+Description: mongo db
+Homepage: https://github.com/mongodb/mongo
+Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
+Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.1_x86_64.deb
+Size: 28034900
+SHA256: 9f212b1bd24826da12dff5ad6d14b384eb2094643b368e0b4856a433b1798e40
 
 Package: nethack
 Architecture: x86_64
@@ -2049,3 +2084,50 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-x86_64/unicorn_1.0.1_x86_64.deb
 Size: 1098648
 SHA256: 5901cb303064d5953f72d172a8dfdef40d064c597fe46d955d1f9f1d06f40462
+
+Package: wiredtiger-dev
+Architecture: x86_64
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.0
+Description: Development files for wiredtiger
+Homepage: https://github.com/wiredtiger/wiredtiger
+Depends: wiredtiger
+Filename: dists/termux/extras/binary-x86_64/wiredtiger-dev_3.1.0_x86_64.deb
+Size: 48812
+SHA256: 8a14da5a5ff856ce91756d2c611860df48e9974b4bbe8afae3bf8895ccdca283
+
+Package: wiredtiger
+Architecture: x86_64
+Installed-Size: 1268
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.0
+Description: high performance, scalable, NoSQL, extensible platform
+Homepage: https://github.com/wiredtiger/wiredtiger
+Depends: libsnappy
+Filename: dists/termux/extras/binary-x86_64/wiredtiger_3.1.0_x86_64.deb
+Size: 402332
+SHA256: a14fb52e13d97d7ddf1882d24a1896b774294a80f7b9c62a496ddb411511ca7a
+
+Package: yaml-cpp-dev
+Architecture: x86_64
+Installed-Size: 1880
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.2
+Description: Development files for yaml-cpp
+Homepage: https://github.com/jbeder/yaml-cpp
+Depends: yaml-cpp
+Filename: dists/termux/extras/binary-x86_64/yaml-cpp-dev_0.6.2_x86_64.deb
+Size: 193036
+SHA256: bfcf8c7b5caac6763df1bfa3c0bfa11a16421fd08818ee4388711b403811bc58
+
+Package: yaml-cpp
+Architecture: x86_64
+Installed-Size: 4256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6.2
+Description: yaml-cpp
+Homepage: https://github.com/jbeder/yaml-cpp
+Filename: dists/termux/extras/binary-x86_64/yaml-cpp_0.6.2_x86_64.deb
+Size: 286200
+SHA256: dd7d36a391862ee49715bc77034c703dad69e13a1eb772e16a4f8ae034f838a4
