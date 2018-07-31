@@ -248,6 +248,18 @@ Package: gcc-8
 Architecture: x86_64
 Installed-Size: 118924
 Maintainer: @its-pointless github
+Version: 8.2.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-x86_64/gcc-8_8.2.0-1_x86_64.deb
+Size: 32658372
+SHA256: 59b17e80c298aeabcf145e7c5d5cff00eb88ab1dd96938fc32ccb52f712eb635
+
+Package: gcc-8
+Architecture: x86_64
+Installed-Size: 118924
+Maintainer: @its-pointless github
 Version: 8.2.0
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
@@ -258,15 +270,15 @@ SHA256: 819689f1581607ebf7100e2280792fe61a8cea487cc00d5ced831f74fbc76e90
 
 Package: git-lfs
 Architecture: x86_64
-Installed-Size: 10232
+Installed-Size: 10228
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.0
+Version: 2.5.0
 Description: Git Large File Support
 Homepage: https://git-lfs.github.com
 Depends: git
-Filename: dists/termux/extras/binary-x86_64/git-lfs_2.4.0_x86_64.deb
-Size: 2420256
-SHA256: 80b246870ab7071354f2331f512367817e087c7d9818f115a07862fdbcf8c3a3
+Filename: dists/termux/extras/binary-x86_64/git-lfs_2.5.0_x86_64.deb
+Size: 2433384
+SHA256: 814f54097a6d387050e40f97fba4b02a31e9ce10edc128843c0e6aad59b7b865
 
 Package: glpk-dev
 Architecture: x86_64
@@ -493,6 +505,18 @@ Package: libgfortran5
 Architecture: x86_64
 Installed-Size: 2536
 Maintainer: @its-pointless github
+Version: 8.2.0-1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.2.0-1_x86_64.deb
+Size: 676488
+SHA256: fab0ec60b9a5b3ddcceac97107d50e09cdf46c246266408c0fc704549ade3197
+
+Package: libgfortran5
+Architecture: x86_64
+Installed-Size: 2536
+Maintainer: @its-pointless github
 Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -536,6 +560,20 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.3.0-5_x86_64.deb
 Size: 76844
 SHA256: 18f47b3fe6af3af84e8fec4ccb0f58263ac5bcb6bd7670fb0bcc2a338bfce381
+
+Package: libgomp-8
+Architecture: x86_64
+Installed-Size: 336
+Maintainer: @its-pointless github
+Version: 8.2.0-1
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.2.0-1_x86_64.deb
+Size: 77344
+SHA256: 12c96442fd34a004af002890af2b312d83cd768d2c513299495e8d4e42eb61ee
 
 Package: libgomp-8
 Architecture: x86_64

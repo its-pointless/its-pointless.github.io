@@ -270,6 +270,18 @@ SHA256: 0ccd80d48e45fd00d626df672c9d21a02f7937b1b271f0625c762acf9b599fbe
 
 Package: gcc-8
 Architecture: aarch64
+Installed-Size: 87752
+Maintainer: @its-pointless github
+Version: 8.2.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-1_aarch64.deb
+Size: 23136644
+SHA256: 3ad3ddf954b0094d69bbef30d54edf80990d61b990f2ed4dfcb15a61f90dcb50
+
+Package: gcc-8
+Architecture: aarch64
 Installed-Size: 87748
 Maintainer: @its-pointless github
 Version: 8.2.0
@@ -294,15 +306,15 @@ SHA256: 26a15f8af5bb297d37c9c5b18961fdd7fbd528bb87b3f3d41828dfa0c5e5cc2c
 
 Package: git-lfs
 Architecture: aarch64
-Installed-Size: 9704
+Installed-Size: 9712
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.0
+Version: 2.5.0
 Description: Git Large File Support
 Homepage: https://git-lfs.github.com
 Depends: git
-Filename: dists/termux/extras/binary-aarch64/git-lfs_2.4.0_aarch64.deb
-Size: 2164224
-SHA256: 873de326adf3da88298dd2dc9f2ba2c6e012a10b092d6ffce4b9e07b45bbf5ae
+Filename: dists/termux/extras/binary-aarch64/git-lfs_2.5.0_aarch64.deb
+Size: 2173724
+SHA256: 2b63432abe1f28c5bcc546c27a18c6119b5a3ec25e99b7eefa2bc5a0fd7f9254
 
 Package: glpk-dev
 Architecture: aarch64
@@ -541,6 +553,18 @@ Package: libgfortran5
 Architecture: aarch64
 Installed-Size: 1348
 Maintainer: @its-pointless github
+Version: 8.2.0-1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-aarch64/libgfortran5_8.2.0-1_aarch64.deb
+Size: 306276
+SHA256: adb3bfb030931684d6f40c8ae44b201e18e21d79aee1ec0648bf1324dbdf6115
+
+Package: libgfortran5
+Architecture: aarch64
+Installed-Size: 1348
+Maintainer: @its-pointless github
 Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -629,6 +653,20 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.3.0-5_aarch64.deb
 Size: 73304
 SHA256: fc151abda10c21053e22214b02edf4e2249bd58852aa92beba643f66713524c1
+
+Package: libgomp-8
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @its-pointless github
+Version: 8.2.0-1
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.2.0-1_aarch64.deb
+Size: 73756
+SHA256: 3a79743dc7ef702e754ced7f3a131eaf523de7954cadf303b18dfc2ef8927235
 
 Package: libgomp-8
 Architecture: aarch64

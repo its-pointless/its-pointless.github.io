@@ -269,6 +269,18 @@ SHA256: 116a6dc6297f4eda42ab7e9838687d2bdc57921f69bb449c82073da1f6a5dffb
 
 Package: gcc-8
 Architecture: arm
+Installed-Size: 104684
+Maintainer: @its-pointless github
+Version: 8.2.0-1
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-arm/gcc-8_8.2.0-1_arm.deb
+Size: 23422056
+SHA256: 33ceaa3942568b4105f6429941b79473ebc96b612678e81cf357c771292b90a2
+
+Package: gcc-8
+Architecture: arm
 Installed-Size: 107504
 Maintainer: @its-pointless github
 Version: 8.2.0
@@ -293,15 +305,15 @@ SHA256: ff0d41b45f31b98015b6f279761a25faa779081f1963f577dc731ea2a4f49d7e
 
 Package: git-lfs
 Architecture: arm
-Installed-Size: 7880
+Installed-Size: 7892
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.0
+Version: 2.5.0
 Description: Git Large File Support
 Homepage: https://git-lfs.github.com
 Depends: git
-Filename: dists/termux/extras/binary-arm/git-lfs_2.4.0_arm.deb
-Size: 2089124
-SHA256: a2e39c6630c8b12df659701d52aa1977a69a667f554e348d21528723b8243982
+Filename: dists/termux/extras/binary-arm/git-lfs_2.5.0_arm.deb
+Size: 2113768
+SHA256: 6107bddd3570b9d7d8a97115361043b43228f0e55e6d04f28f46b906ff0a3731
 
 Package: glpk-dev
 Architecture: arm
@@ -353,6 +365,19 @@ Replaces: gnat
 Filename: dists/termux/extras/binary-arm/gnat-7_7.3.0-5_arm.deb
 Size: 16469196
 SHA256: b3e33b1246ae2fa7fcfcb85e0ce735dfeae80cb36917d1207de779a578e02f83
+
+Package: gnat-8
+Architecture: arm
+Installed-Size: 91400
+Maintainer: @its-pointless github
+Version: 8.2.0-1
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0-1_arm.deb
+Size: 16219136
+SHA256: d5ed98abf578a6006a59ac2c23de7e4f91ad39fd584e59794ffbb648d746faa1
 
 Package: gnat-8
 Architecture: arm
@@ -651,6 +676,18 @@ Package: libgfortran5
 Architecture: arm
 Installed-Size: 836
 Maintainer: @its-pointless github
+Version: 8.2.0-1
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-arm/libgfortran5_8.2.0-1_arm.deb
+Size: 220376
+SHA256: cec7d54d14b36502ced1d346a4a0b44c4123ca43ef097422dce563962a7fd6e7
+
+Package: libgfortran5
+Architecture: arm
+Installed-Size: 836
+Maintainer: @its-pointless github
 Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -728,6 +765,20 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-arm/libgomp-7_7.3.0-5_arm.deb
 Size: 66268
 SHA256: eb17df67e2e16390746eb4a9f6bbc4c432043a2e684f7865a4124885ddbb5e6a
+
+Package: libgomp-8
+Architecture: arm
+Installed-Size: 244
+Maintainer: @its-pointless github
+Version: 8.2.0-1
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-arm/libgomp-8_8.2.0-1_arm.deb
+Size: 66716
+SHA256: bbca924bd1ef927cb9e79fe8c0c18141da383eba4505efa56b71bb6753302bfb
 
 Package: libgomp-8
 Architecture: arm
