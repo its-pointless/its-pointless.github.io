@@ -1087,6 +1087,18 @@ Filename: dists/termux/extras/binary-i686/pacman4console_1.3_i686.deb
 Size: 10104
 SHA256: 4144fda9516329cc7f7b82a0025d384b348c12a3db028a3ad9da0e94ab33661b
 
+Package: pari-gp
+Architecture: i686
+Installed-Size: 8652
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.11.0
+Description: PARI/GP Computer Algebra
+Homepage: https://pari.math.u-bordeaux.fr
+Depends: readline, libgmp
+Filename: dists/termux/extras/binary-i686/pari-gp_2.11.0_i686.deb
+Size: 2358864
+SHA256: c7a13e1e0f640fb3c5339884894f1884ba079448a8bdce29a27cc3a034fa98db
+
 Package: potrace
 Architecture: i686
 Installed-Size: 176
