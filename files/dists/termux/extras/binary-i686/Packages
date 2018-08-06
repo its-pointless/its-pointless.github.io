@@ -115,6 +115,18 @@ Filename: dists/termux/extras/binary-i686/cargo_0.28.0-1_i686.deb
 Size: 2398928
 SHA256: b1c16e82000c69fa83055b6728b3a67e4595ffac802b2f5635f2d0693febf2b3
 
+Package: cargo
+Architecture: i686
+Installed-Size: 9696
+Maintainer: @its-pointless
+Version: 0.29.0
+Description: Rust package manager
+Homepage: https://www.rust-lang.org
+Depends: rustc, libgit2, libssh2
+Filename: dists/termux/extras/binary-i686/cargo_0.29.0_i686.deb
+Size: 2304224
+SHA256: 17c1a80e1529a393d063060e3682e37c2a9b309b9222e7f0350cb3f859a26572
+
 Package: cksfv
 Architecture: i686
 Installed-Size: 24
@@ -1886,6 +1898,17 @@ Filename: dists/termux/extras/binary-i686/ripgrep_0.8.1_i686.deb
 Size: 961372
 SHA256: 892e1cc925244f41da4306f0e97ff19236ded189efd933f8151b9fbf31c5d7a4
 
+Package: ripgrep
+Architecture: i686
+Installed-Size: 3764
+Maintainer: @its-pointless
+Version: 0.9.0
+Description: ripgrep is a line-oriented search tool
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-i686/ripgrep_0.9.0_i686.deb
+Size: 1020156
+SHA256: 0046c8cde07b7761e19404648deb2572cb2f8f1ec9bce7f0d8dca276d9eb512f
+
 Package: rust-rls-nightly
 Architecture: i686
 Installed-Size: 18812
@@ -1909,6 +1932,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-i686/rust-rls_0.127.0-2_i686.deb
 Size: 4334728
 SHA256: f79d8633120a3abeab5e056d9323ca589633a48eda2847ef52159bb9bdde4cc5
+
+Package: rust-rls
+Architecture: i686
+Installed-Size: 18504
+Maintainer: @its-pointless
+Version: 0.128.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-i686/rust-rls_0.128.0_i686.deb
+Size: 4262408
+SHA256: b7c23b353dd19b76e540b5360e7f337c96851517a6f7cb5e431b71db1f6aa435
 
 Package: rustc-nightly
 Architecture: i686
@@ -1934,6 +1969,18 @@ Depends: clang
 Filename: dists/termux/extras/binary-i686/rustc_1.27.1_i686.deb
 Size: 49920628
 SHA256: f98078949bd5a3852551f729bb25083a220f2d8f00253bd7b841137ca6cfddea
+
+Package: rustc
+Architecture: i686
+Installed-Size: 169640
+Maintainer: @its-pointless
+Version: 1.28.0
+Description: rust toolchain
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-i686/rustc_1.28.0_i686.deb
+Size: 50987464
+SHA256: 6377f85cc8c12ab98c58c262b845f4d7a6ad7b6861baafe7addbe76fdaebe0c3
 
 Package: rustfmt-nightly
 Architecture: i686
@@ -1970,6 +2017,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-i686/rustfmt_0.6.1-1_i686.deb
 Size: 1644252
 SHA256: 92d3b581de43b9b7bc0c4027def58bac490f0e0125163758aa1c5ba0d69b8588
+
+Package: rustfmt
+Architecture: i686
+Installed-Size: 7208
+Maintainer: @its-pointless
+Version: 0.8.2
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-i686/rustfmt_0.8.2_i686.deb
+Size: 1707920
+SHA256: 2a38f66d1df51212d0d49106b9cd232b1e0efaed843ec12401a197df5839f7a5
 
 Package: sc-im
 Architecture: i686

@@ -138,6 +138,18 @@ Filename: dists/termux/extras/binary-aarch64/cargo_0.28.0-1_aarch64.deb
 Size: 1881312
 SHA256: e2babb87711c80b633fcfb97b3acf18aae3051abca92736eb2ee5f4fca3fc9cc
 
+Package: cargo
+Architecture: aarch64
+Installed-Size: 7548
+Maintainer: @its-pointless
+Version: 0.29.0
+Description: Rust package manager
+Homepage: https://www.rust-lang.org
+Depends: rustc, libgit2, libssh2
+Filename: dists/termux/extras/binary-aarch64/cargo_0.29.0_aarch64.deb
+Size: 1804384
+SHA256: 51d25b8a0c17883948cf44205b503a43cc6ceeaae3b64a26fd36a0ed751c22a6
+
 Package: cksfv
 Architecture: aarch64
 Installed-Size: 28
@@ -2059,6 +2071,17 @@ Filename: dists/termux/extras/binary-aarch64/ripgrep_0.8.1_aarch64.deb
 Size: 776248
 SHA256: 7f481033e61983d40b5a46ad6475b2def808e07bb119cb69f01993a55713508e
 
+Package: ripgrep
+Architecture: aarch64
+Installed-Size: 3236
+Maintainer: @its-pointless
+Version: 0.9.0
+Description: ripgrep is a line-oriented search tool
+Homepage: https://github.com/BurntSushi/ripgrep
+Filename: dists/termux/extras/binary-aarch64/ripgrep_0.9.0_aarch64.deb
+Size: 870544
+SHA256: b99e089f624e08af839dd44737f52fc79847ef57ecc0d05342afd1bf5c02b623
+
 Package: rust-rls-nightly
 Architecture: aarch64
 Installed-Size: 14724
@@ -2082,6 +2105,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-aarch64/rust-rls_0.127.0-2_aarch64.deb
 Size: 3359712
 SHA256: e09d7f910dbaaa40c886b45e197a6c54f0553338128f633e7860d0dea64cfc8c
+
+Package: rust-rls
+Architecture: aarch64
+Installed-Size: 14492
+Maintainer: @its-pointless
+Version: 0.128.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-aarch64/rust-rls_0.128.0_aarch64.deb
+Size: 3295228
+SHA256: ef141baaa0c9ae225d22785fa35cc39eeb51bb686ff56b663c1cdbc03fc3a4b3
 
 Package: rustc-nightly
 Architecture: aarch64
@@ -2107,6 +2142,18 @@ Depends: clang
 Filename: dists/termux/extras/binary-aarch64/rustc_1.27.1_aarch64.deb
 Size: 46561756
 SHA256: 86f2f090ff0be1c379df7ecb1d1ef9b234c1851576943cc8a7635503d3a07dac
+
+Package: rustc
+Architecture: aarch64
+Installed-Size: 152824
+Maintainer: @its-pointless
+Version: 1.28.0
+Description: rust toolchain
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-aarch64/rustc_1.28.0_aarch64.deb
+Size: 47612772
+SHA256: 77c3458708974e043a406491a34babe6709f56882d430c8dba22ea2c74133677
 
 Package: rustfmt-nightly
 Architecture: aarch64
@@ -2143,6 +2190,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-aarch64/rustfmt_0.6.1-1_aarch64.deb
 Size: 1294812
 SHA256: 4f7b7bd84f685d9e391c99bdc71067ee579253a4595472f25f0e09a4e8ae3e8b
+
+Package: rustfmt
+Architecture: aarch64
+Installed-Size: 5856
+Maintainer: @its-pointless
+Version: 0.8.2
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-aarch64/rustfmt_0.8.2_aarch64.deb
+Size: 1336780
+SHA256: ab94d8982643f701c24baaf4b13c460c4fc0e2991d7e871142c2a77cd019845e
 
 Package: sc-im
 Architecture: aarch64
