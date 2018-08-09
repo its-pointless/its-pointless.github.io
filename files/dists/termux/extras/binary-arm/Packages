@@ -508,19 +508,19 @@ Filename: dists/termux/extras/binary-arm/jbuilder_1.0.beta20_arm.deb
 Size: 826784
 SHA256: 10a426b928921b17e60730f6fc2ca1d4f38523740abf4c625db243f1b2720a9a
 
-Package: julia-beta
+Package: julia
 Architecture: arm
-Installed-Size: 143296
+Installed-Size: 168220
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0-2
+Version: 0.7.0
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing beta-2
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libunwind
-Conflicts: julia-devprev, julia-alpha
-Replaces: julia-devprev, julia-alpha
-Filename: dists/termux/extras/binary-arm/julia-beta_0.7.0-2_arm.deb
-Size: 20428452
-SHA256: 8b32f0c3d32bafe843ba1ab71c962e11b65c7bbc3ada717e9f574e835eefd731
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Filename: dists/termux/extras/binary-arm/julia_0.7.0_arm.deb
+Size: 29857572
+SHA256: 3a580f9eb14789cc66a01bd53a9f3910177efe95c5fd5621c48a025878443fac
 
 Package: keystone-dev
 Architecture: arm
