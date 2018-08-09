@@ -1201,6 +1201,18 @@ Filename: dists/termux/extras/binary-aarch64/openblas_0.3.1_aarch64.deb
 Size: 2085676
 SHA256: 8c7d489ae814d5cb08371bb0550b1b28621f9156dee196ea71e2f9858ee4b725
 
+Package: openblas
+Architecture: aarch64
+Installed-Size: 10296
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.2-1
+Description:  Optimized BLAS (linear algebra) library
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-aarch64/openblas_0.3.2-1_aarch64.deb
+Size: 2014656
+SHA256: f9428ddc3d44b5ab7a6f919bdd38e48d401d37b2b6aa73d0e40e5dcb9cf9f9de
+
 Package: openldap-dev
 Architecture: aarch64
 Installed-Size: 436
