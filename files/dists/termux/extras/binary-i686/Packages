@@ -12,15 +12,15 @@ SHA256: 4682ce201f699bdb3886af1f9b06b95f80f93cf8cfb95f378165212ba94ea85b
 
 Package: asymptote
 Architecture: i686
-Installed-Size: 5284
+Installed-Size: 5824
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.42
+Version: 2.47
 Description: script-based vector graphics language inspired by MetaPost
 Homepage: https://sourceforge.net/projects/asymptote/
 Depends:  gsl, ncurses, readline, libsigsegv
-Filename: dists/termux/extras/binary-i686/asymptote_2.42_i686.deb
-Size: 978744
-SHA256: beb05c7056fc0c336fd57b2d844899ef1c652650441fe220ffa9f8e2d37f559d
+Filename: dists/termux/extras/binary-i686/asymptote_2.47_i686.deb
+Size: 1031588
+SHA256: d7eb5b3967629d155a1528d7855d7c14c9ece24837ab0919fa69eeb52de25880
 
 Package: bastet
 Architecture: i686
@@ -408,19 +408,33 @@ Filename: dists/termux/extras/binary-i686/jbuilder_1.0.beta20_i686.deb
 Size: 86744
 SHA256: 997ae1e52b867828c4993be53800b005d7ed5d5d3812d1e5461551bf894eb512
 
+Package: julia-llvm
+Architecture: i686
+Installed-Size: 133840
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: llvm with julia patches (only useful if compiling julia itself)
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libffi, libllvm-julia
+Conflicts: gcc, clang (<< 3.9.1-3), libclang-dev (<< 6.0.0-2)
+Replaces: gcc
+Filename: dists/termux/extras/binary-i686/julia-llvm_6.0.0_i686.deb
+Size: 20907060
+SHA256: 6c9446d8c745a72b4d356824cf6e7b26ef902e34250191d98ab310dc25b433d8
+
 Package: julia
 Architecture: i686
-Installed-Size: 179312
+Installed-Size: 129704
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
+Version: 1.0.0
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing beta-2
 Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia
 Conflicts: julia-devprev, julia-alpha, julia-beta
 Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-i686/julia_0.7.0_i686.deb
-Size: 31320372
-SHA256: 5d9fb852a3230ef2c1161c5cb73d41c58f88f89e4e2e99ee7adfbc24a2a3e217
+Filename: dists/termux/extras/binary-i686/julia_1.0.0_i686.deb
+Size: 20341320
+SHA256: 384c5d349bec95ec996810e3fc99268dcb797af0c8e24812f8bd6ad8f4805380
 
 Package: keystone-dev
 Architecture: i686
@@ -613,6 +627,17 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0_i686.deb
 Size: 81272
 SHA256: e7b67cb8a9efa90fa17a6567a252b48907f4cc6ad1119db74baf159e683588c4
+
+Package: libllvm-julia
+Architecture: i686
+Installed-Size: 43984
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: patched libllvm for use with julia
+Homepage: https://clang.llvm.org/
+Filename: dists/termux/extras/binary-i686/libllvm-julia_6.0.0_i686.deb
+Size: 9877580
+SHA256: 6e673a7b4e951db959688a077d91550a6ece028b645086babd2cedd97e0d7d77
 
 Package: libmaa-dev
 Architecture: i686
@@ -930,6 +955,18 @@ Depends: libtommath, libuv, libandroid-support
 Filename: dists/termux/extras/binary-i686/moarvm_2018.05_i686.deb
 Size: 926800
 SHA256: 7edb224157c05251cd6c35812446b076c8be2cf2273eee84a72f33df3b02a667
+
+Package: moarvm
+Architecture: i686
+Installed-Size: 6432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018.06
+Description: A modern VM built for Rakudo Perl 6
+Homepage: https://github.com/MoarVM/MoarVM
+Depends: libtommath, libuv, libandroid-support
+Filename: dists/termux/extras/binary-i686/moarvm_2018.06_i686.deb
+Size: 962940
+SHA256: cb285ab1c47fb4b350569b017f2d5d714ec33024af8cb19112e7910430d467c3
 
 Package: nethack
 Architecture: i686

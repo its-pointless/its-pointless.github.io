@@ -23,15 +23,15 @@ SHA256: adf32475142ecb5fae98667309ddedb4f823d17c43739c8f15332d5131642338
 
 Package: asymptote
 Architecture: aarch64
-Installed-Size: 4264
+Installed-Size: 4848
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.42
+Version: 2.47
 Description: script-based vector graphics language inspired by MetaPost
 Homepage: https://sourceforge.net/projects/asymptote/
 Depends:  gsl, ncurses, readline, libsigsegv
-Filename: dists/termux/extras/binary-aarch64/asymptote_2.42_aarch64.deb
-Size: 848868
-SHA256: b442a5af3e0f5cef0c6e2c737a04d3eb7c4f6144b78db2edba94914b4d62d5dd
+Filename: dists/termux/extras/binary-aarch64/asymptote_2.47_aarch64.deb
+Size: 881064
+SHA256: e8845f9a0a2b4b4dea45a1edb7463d275c4eaf7d11d5f3e871169e894c206b98
 
 Package: bastet
 Architecture: aarch64
@@ -246,15 +246,15 @@ SHA256: 183971e4099476ec29412b998ce15f9928bc57a702c3f4b16d16d749670f6fb2
 
 Package: fp-compiler-snapshot
 Architecture: aarch64
-Installed-Size: 300828
+Installed-Size: 295800
 Maintainer: Fredrik Fornwall @fornwall
-Version: 29062018
+Version: 20180630
 Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
 Homepage: https://www.freepascal.org/
 Depends: binutils
-Filename: dists/termux/extras/binary-aarch64/fp-compiler-snapshot_29062018_aarch64.deb
-Size: 31900440
-SHA256: a898d489b19913248215796da534cead457b197838c8e8153f0c460313d77b6a
+Filename: dists/termux/extras/binary-aarch64/fp-compiler-snapshot_20180630_aarch64.deb
+Size: 31383296
+SHA256: 0c88b177e8e855932d9022e798c65efdec8035d2c0b3ee1bad7ba8d561192971
 
 Package: gcc-6
 Architecture: aarch64
@@ -431,19 +431,33 @@ Filename: dists/termux/extras/binary-aarch64/jbuilder_1.0.beta20_aarch64.deb
 Size: 823468
 SHA256: 6c4525c7e0c62986af5f910c8155ba5046d84e8f5f7ab47160826b0ea510e09d
 
+Package: julia-llvm
+Architecture: aarch64
+Installed-Size: 159916
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: llvm with julia patches (only useful if compiling julia itself)
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libffi, libllvm-julia
+Conflicts: gcc, clang (<< 3.9.1-3), libclang-dev (<< 6.0.0-2)
+Replaces: gcc
+Filename: dists/termux/extras/binary-aarch64/julia-llvm_6.0.0_aarch64.deb
+Size: 20147128
+SHA256: 95c479f963ab7b080bc48f17110df8a7d478781a8260ef52441fb0124f13d5ed
+
 Package: julia
 Architecture: aarch64
-Installed-Size: 200428
+Installed-Size: 149708
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
+Version: 1.0.0
 Description: Julia is a high-level, high-performance dynamic programming language for numerical computing beta-2
 Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia
 Conflicts: julia-devprev, julia-alpha, julia-beta
 Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-aarch64/julia_0.7.0_aarch64.deb
-Size: 29508640
-SHA256: f48f44ba09edc56fd91f729e205346767bdf08f758b6a405e54e87110d47c502
+Filename: dists/termux/extras/binary-aarch64/julia_1.0.0_aarch64.deb
+Size: 20106284
+SHA256: 8870d6f70e5876bcf8f6d702fec88f28874af12444a8578a138aa1b636b1c6e7
 
 Package: keystone-dev
 Architecture: aarch64
@@ -693,6 +707,17 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.2.0_aarch64.deb
 Size: 73640
 SHA256: 6a566aac9bfe4951a84157f91df7bfc0f4b0c3369882aefa604315fcb9fc9ff0
+
+Package: libllvm-julia
+Architecture: aarch64
+Installed-Size: 43656
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0
+Description: patched libllvm for use with julia
+Homepage: https://clang.llvm.org/
+Filename: dists/termux/extras/binary-aarch64/libllvm-julia_6.0.0_aarch64.deb
+Size: 8372112
+SHA256: 3828359217516e4358cc74e1693518aaeb45d961ea70cb8fb0bea875c1d5e906
 
 Package: libmaa-dev
 Architecture: aarch64
@@ -1057,6 +1082,18 @@ Depends: libtommath, libuv, libandroid-support
 Filename: dists/termux/extras/binary-aarch64/moarvm_2018.05_aarch64.deb
 Size: 955108
 SHA256: 93a28a1d9d5b082be29228b7e48faf22b8f72e27dd5e0a07e73b05aa0a6b7adf
+
+Package: moarvm
+Architecture: aarch64
+Installed-Size: 7764
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018.06
+Description: A modern VM built for Rakudo Perl 6
+Homepage: https://github.com/MoarVM/MoarVM
+Depends: libtommath, libuv, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/moarvm_2018.06_aarch64.deb
+Size: 983508
+SHA256: 5db44632d8ab1ed3f31976026fe9748a6c5e05cc34ba58b6cc9e6ce848364f84
 
 Package: mongodb
 Architecture: aarch64
