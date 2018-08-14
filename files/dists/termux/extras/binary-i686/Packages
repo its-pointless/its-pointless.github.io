@@ -482,6 +482,17 @@ Filename: dists/termux/extras/binary-i686/libatomic-ops-dev_7.6.4_i686.deb
 Size: 56632
 SHA256: f6b8de967b8e28bd4a66e987b47a456d9a3944dced0caa5b135edafaee86b4f2
 
+Package: libatomic-ops-dev
+Architecture: i686
+Installed-Size: 756
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.6.6
+Description: A library for atomic operations
+Homepage: http://www.hboehm.info/gc/
+Filename: dists/termux/extras/binary-i686/libatomic-ops-dev_7.6.6_i686.deb
+Size: 56672
+SHA256: 36bc8c41ede3240a0a3c29e4f98c007dfff370e92aeb6c2a1733c0fedd16a451
+
 Package: libboost-python
 Architecture: i686
 Installed-Size: 284
@@ -2117,27 +2128,27 @@ SHA256: a46aa7a5ea207719c4679a5b237f124395883ff2efa6a80f839dee919ffaa0cb
 
 Package: suitesparse-dev
 Architecture: i686
-Installed-Size: 1040
+Installed-Size: 1044
 Maintainer:  @its-pointless github
-Version: 5.2.0
+Version: 5.3.0
 Description: Development files for suitesparse
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
 Depends: suitesparse
-Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.2.0_i686.deb
-Size: 126184
-SHA256: 81ca5b32f6515232fe9996d3e63bc085089e21f537e097fb8d76f02b6fe51e9b
+Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.3.0_i686.deb
+Size: 127136
+SHA256: 53fa4461041c0bca474a32645f31eeaa07ee57d05a3e5c2306f29bfb08f5a898
 
 Package: suitesparse
 Architecture: i686
-Installed-Size: 10980
+Installed-Size: 11828
 Maintainer:  @its-pointless github
-Version: 5.2.0
+Version: 5.3.0
 Description: a suite of sparse matrix software
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
 Depends: openblas
-Filename: dists/termux/extras/binary-i686/suitesparse_5.2.0_i686.deb
-Size: 1458288
-SHA256: 6553bed6e84fd1e01c0b56bf22fdaa471a6934cd898b2fd9b265303b9996ef35
+Filename: dists/termux/extras/binary-i686/suitesparse_5.3.0_i686.deb
+Size: 1753428
+SHA256: dcd15450268f76a24f70b82dcbbb8adff6b0672cf76313f247fd47e0df41c76a
 
 Package: tzdata
 Architecture: i686

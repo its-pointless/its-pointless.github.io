@@ -640,6 +640,17 @@ Filename: dists/termux/extras/binary-arm/libatomic-ops-dev_7.6.4_arm.deb
 Size: 56784
 SHA256: ae2261e993c0910966ddaa6c5817595b4e12fddb453ae24bc0d27c8ae9094260
 
+Package: libatomic-ops-dev
+Architecture: arm
+Installed-Size: 760
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.6.6
+Description: A library for atomic operations
+Homepage: http://www.hboehm.info/gc/
+Filename: dists/termux/extras/binary-arm/libatomic-ops-dev_7.6.6_arm.deb
+Size: 57160
+SHA256: 6d82a6e14c2a846224ee71d5674a7964db40d44d284d5e38fb763418dfe31a07
+
 Package: libboost-python
 Architecture: arm
 Installed-Size: 224
@@ -2306,27 +2317,27 @@ SHA256: 62adbcc5b058568500dba6f7647c243627a90eb7f2b4f53f00ae2f23eb53a3cd
 
 Package: suitesparse-dev
 Architecture: arm
-Installed-Size: 1040
+Installed-Size: 1044
 Maintainer:  @its-pointless github
-Version: 5.2.0
+Version: 5.3.0
 Description: Development files for suitesparse
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
 Depends: suitesparse
-Filename: dists/termux/extras/binary-arm/suitesparse-dev_5.2.0_arm.deb
-Size: 126216
-SHA256: e14698c062e1e42b67bab6706e8d1cc0dfd678736655db868f7393a73e02ac17
+Filename: dists/termux/extras/binary-arm/suitesparse-dev_5.3.0_arm.deb
+Size: 127168
+SHA256: 9a26dba0db0d6603209c35608d46879e9e54c74c6b3ed9c6e335dc293ca61917
 
 Package: suitesparse
 Architecture: arm
-Installed-Size: 7892
+Installed-Size: 8388
 Maintainer:  @its-pointless github
-Version: 5.2.0
+Version: 5.3.0
 Description: a suite of sparse matrix software
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
 Depends: openblas
-Filename: dists/termux/extras/binary-arm/suitesparse_5.2.0_arm.deb
-Size: 1059036
-SHA256: a3b6378dba2d562cb1c22ae25e8dbf7939518d80c86fc72a088de8a72a794bab
+Filename: dists/termux/extras/binary-arm/suitesparse_5.3.0_arm.deb
+Size: 1188620
+SHA256: 650effecaf4bce75067412d5b805552a1c559dfdb22f597ab2c21e169376ebbb
 
 Package: tzdata
 Architecture: arm
