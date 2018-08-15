@@ -1778,41 +1778,6 @@ Filename: dists/termux/extras/binary-x86_64/qrupdate_1.1.2-2_x86_64.deb
 Size: 54348
 SHA256: 98c6a2e63ea71a3f36b19d785edb02c62481bb0ef958d6fba0d4262d9c36ed23
 
-Package: quantlib-dev
-Architecture: x86_64
-Installed-Size: 7976
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.12.1
-Description: Development files for quantlib
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Filename: dists/termux/extras/binary-x86_64/quantlib-dev_1.12.1_x86_64.deb
-Size: 558624
-SHA256: 079709c73c3899009ca18c164432e138adba6fe669474e5da7a429c96f76c73e
-
-Package: quantlib-dev
-Architecture: x86_64
-Installed-Size: 8004
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13
-Description: Development files for quantlib
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Filename: dists/termux/extras/binary-x86_64/quantlib-dev_1.13_x86_64.deb
-Size: 561284
-SHA256: 52db3cd1f2d70193903a24a8c951fd0039d8348e3e3fef033a00e04adcedb98c
-
-Package: quantlib
-Architecture: x86_64
-Installed-Size: 48888
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13
-Description: a comprehensive software framework for quantitative finance
-Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-x86_64/quantlib_1.13_x86_64.deb
-Size: 9175320
-SHA256: 4f1108d6babb5b4f570f7f8b9b75315018197fa8c72e232d24f56f7e0052ee1f
-
 Package: r-base
 Architecture: x86_64
 Installed-Size: 61996
@@ -2017,15 +1982,15 @@ SHA256: a204be806a3ee21deab8754e3c2a4b70fe5cc840b57f60863dfcf97fced6d763
 
 Package: rust-rls-nightly
 Architecture: x86_64
-Installed-Size: 16648
+Installed-Size: 20308
 Maintainer: @its-pointless
-Version: 1.29.0
+Version: 1.30.0
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.29.0_x86_64.deb
-Size: 3863044
-SHA256: ae359a87f85b1eaa9da5f81777cb0e6191e0cc5ce2f7023e900dab4cf1edc7b0
+Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.30.0_x86_64.deb
+Size: 4705720
+SHA256: b97e3684eb6438009920f88f98e014e882da9b8f335d7ba7947df56eca3cee91
 
 Package: rust-rls
 Architecture: x86_64
@@ -2053,16 +2018,16 @@ SHA256: 0d2a513bdcda7918c067bd1889508e6c993e75256508344f8a5424aebec68312
 
 Package: rustc-nightly
 Architecture: x86_64
-Installed-Size: 181328
+Installed-Size: 163888
 Maintainer: @its-pointless
-Version: 1.29.0
+Version: 1.30.0
 Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
 Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.29.0_x86_64.deb
-Size: 53828056
-SHA256: a1e7f7f5b2cd3b1445102b74fa0fa15b25f08c9aa3fd8bef1e72342b146b8043
+Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.30.0_x86_64.deb
+Size: 53562136
+SHA256: 5754d1e7c95155120410b7620ac6db26c359c1d5df01b9262c2286ba703a92ce
 
 Package: rustc
 Architecture: x86_64
@@ -2090,27 +2055,15 @@ SHA256: 2b13b6d44b95d4f926ec28bebe71e0c1bb0ba92606be6d832e7c810e47689604
 
 Package: rustfmt-nightly
 Architecture: x86_64
-Installed-Size: 7192
+Installed-Size: 5800
 Maintainer: @its-pointless
-Version: 1.28-4
+Version: 1.30.0
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.28-4_x86_64.deb
-Size: 1654684
-SHA256: 1714bce9486d2ba614cd44249f84605ff42e4a90b3ed0083aa06051842ea57e6
-
-Package: rustfmt-nightly
-Architecture: x86_64
-Installed-Size: 6424
-Maintainer: @its-pointless
-Version: 1.29.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.29.0_x86_64.deb
-Size: 1590956
-SHA256: 2bc80160f76f04cf6d4821295151a0bbbc1d5c1d19cda63c76b279ae7c4b107f
+Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.30.0_x86_64.deb
+Size: 1562952
+SHA256: 885e5ac386d07bbea2dfc72157b38feab4d33b1aa8159870839207327c86977d
 
 Package: rustfmt
 Architecture: x86_64

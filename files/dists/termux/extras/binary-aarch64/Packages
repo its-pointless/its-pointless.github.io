@@ -1905,41 +1905,6 @@ Filename: dists/termux/extras/binary-aarch64/qrupdate_1.1.2-2_aarch64.deb
 Size: 47320
 SHA256: 813759db64d47a56c7f83ea9a0b1e18032547a1205bc55a434a2148a52446ede
 
-Package: quantlib-dev
-Architecture: aarch64
-Installed-Size: 7976
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.12.1
-Description: Development files for quantlib
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.12.1_aarch64.deb
-Size: 559108
-SHA256: 94dde9647646ee8c3ed3d110f1f0743acf06f29d25ebbcdf0500f2c6045ede61
-
-Package: quantlib-dev
-Architecture: aarch64
-Installed-Size: 8004
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13
-Description: Development files for quantlib
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.13_aarch64.deb
-Size: 561192
-SHA256: 64e12e7f6a87379b3e67ec689caaf5fca587096cfd0722751bc4652f1934fd87
-
-Package: quantlib
-Architecture: aarch64
-Installed-Size: 47620
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13
-Description: a comprehensive software framework for quantitative finance
-Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-aarch64/quantlib_1.13_aarch64.deb
-Size: 8361348
-SHA256: 3157e6bdf9372aa3b30be712f042b47c668de35752814e1e5eff72b98da8833c
-
 Package: r-base
 Architecture: aarch64
 Installed-Size: 61080
@@ -2144,15 +2109,15 @@ SHA256: b99e089f624e08af839dd44737f52fc79847ef57ecc0d05342afd1bf5c02b623
 
 Package: rust-rls-nightly
 Architecture: aarch64
-Installed-Size: 14724
+Installed-Size: 17412
 Maintainer: @its-pointless
-Version: 1.29.0
+Version: 1.30.0
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.29.0_aarch64.deb
-Size: 3280848
-SHA256: fed8af113da16db64d92dc7eaf9b5b5a424dc019402de286b2e28d99d7f6f665
+Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.30.0_aarch64.deb
+Size: 4035228
+SHA256: 53344d240b3202591859cee07db18e027e28ae87d3c770c11074c2871967bc09
 
 Package: rust-rls
 Architecture: aarch64
@@ -2180,16 +2145,16 @@ SHA256: ef141baaa0c9ae225d22785fa35cc39eeb51bb686ff56b663c1cdbc03fc3a4b3
 
 Package: rustc-nightly
 Architecture: aarch64
-Installed-Size: 166708
+Installed-Size: 146960
 Maintainer: @its-pointless
-Version: 1.29.0
+Version: 1.30.0
 Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
 Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.29.0_aarch64.deb
-Size: 51139752
-SHA256: d93b0f8135ef5be792f906ecbe512a85eff02ddb55326d34676d3a527f5d9be7
+Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.30.0_aarch64.deb
+Size: 50908932
+SHA256: 1a578f3b49a907fb926f02c471739c71033de2177bed942cd12b4a4d3c0ab761
 
 Package: rustc
 Architecture: aarch64
@@ -2217,27 +2182,15 @@ SHA256: 77c3458708974e043a406491a34babe6709f56882d430c8dba22ea2c74133677
 
 Package: rustfmt-nightly
 Architecture: aarch64
-Installed-Size: 6472
+Installed-Size: 5064
 Maintainer: @its-pointless
-Version: 1.28-4
+Version: 1.30.0
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.28-4_aarch64.deb
-Size: 1420276
-SHA256: 51c509e3e2c469aa60e460b44641e746b5ba06f085475b245258a7c4e6a099ed
-
-Package: rustfmt-nightly
-Architecture: aarch64
-Installed-Size: 5704
-Maintainer: @its-pointless
-Version: 1.29.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.29.0_aarch64.deb
-Size: 1354328
-SHA256: 60a809f8bb08302c7ac39dbaa71ad2e2112785720b57fc3cadf5e0927950d548
+Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.30.0_aarch64.deb
+Size: 1344436
+SHA256: 85297ac9abdf19d3dcc40d686caf34dd7f233b46c7c980f505edda38aa6c050e
 
 Package: rustfmt
 Architecture: aarch64

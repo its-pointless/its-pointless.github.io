@@ -1897,41 +1897,6 @@ Filename: dists/termux/extras/binary-arm/qrupdate_1.1.2-2_arm.deb
 Size: 44444
 SHA256: ad09329ea7c4283fb520b09478892520cde8f35cb92b83086e641dba924b709f
 
-Package: quantlib-dev
-Architecture: arm
-Installed-Size: 7976
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.12.1
-Description: Development files for quantlib
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Filename: dists/termux/extras/binary-arm/quantlib-dev_1.12.1_arm.deb
-Size: 558984
-SHA256: ecd15c262083994337d07df1489217fcf9a0d5728541752d05ac26e505e4cac1
-
-Package: quantlib-dev
-Architecture: arm
-Installed-Size: 8004
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13
-Description: Development files for quantlib
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Filename: dists/termux/extras/binary-arm/quantlib-dev_1.13_arm.deb
-Size: 561184
-SHA256: 59fcb673897e2ae0bcf0d48b9a116670a343995348802cebf0efeaff0506e270
-
-Package: quantlib
-Architecture: arm
-Installed-Size: 36200
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13
-Description: a comprehensive software framework for quantitative finance
-Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-arm/quantlib_1.13_arm.deb
-Size: 9278844
-SHA256: b912951bf5c014260dad217c004c77f2f3c8779ce6ad13a78ca7d648027bb271
-
 Package: r-base
 Architecture: arm
 Installed-Size: 60452
@@ -2136,15 +2101,15 @@ SHA256: 05944abc67c070bb26a7d2e494ce0ab829d8aec2ffc6db8431f9d10f213fd6eb
 
 Package: rust-rls-nightly
 Architecture: arm
-Installed-Size: 9636
+Installed-Size: 10968
 Maintainer: @its-pointless
-Version: 1.29.0
+Version: 1.30.0
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.29.0_arm.deb
-Size: 3236728
-SHA256: 4d5db482307bb5f4397c5d0218aa18898450413c566761e16c73061eb8aecc26
+Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.30.0_arm.deb
+Size: 3807380
+SHA256: 3abff6f93bc75185b4b7de29789572d65cd41385ac5a9d561f821620a9ac709e
 
 Package: rust-rls
 Architecture: arm
@@ -2172,16 +2137,16 @@ SHA256: 17daa17718f58d3f2a9eabf563865c82a955a29744d62ea7380e1942bfa87121
 
 Package: rustc-nightly
 Architecture: arm
-Installed-Size: 142680
+Installed-Size: 123020
 Maintainer: @its-pointless
-Version: 1.29.0
+Version: 1.30.0
 Description: rust nightly
 Homepage: https://www.rust-lang.org
 Depends: clang
 Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.29.0_arm.deb
-Size: 50998688
-SHA256: 42845ea84300e1f9c2858c819f3b33289d700ba412d391e68c89f4c3a8170169
+Filename: dists/termux/extras/binary-arm/rustc-nightly_1.30.0_arm.deb
+Size: 50373220
+SHA256: 6083c0c95fa9c1a121b39dc8216aaddb2e13d7540600f94b4bcf7463ebe946e0
 
 Package: rustc
 Architecture: arm
@@ -2209,27 +2174,15 @@ SHA256: 5e8628a0778e017617b1a254735d2890fa6f45959aea4241bf4f5162df42668e
 
 Package: rustfmt-nightly
 Architecture: arm
-Installed-Size: 4116
+Installed-Size: 3144
 Maintainer: @its-pointless
-Version: 1.28-4
+Version: 1.30.0
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.28-4_arm.deb
-Size: 1352152
-SHA256: 957cb5837127d96915cb5d5dada3fd812466cda51c536e5e2f5ff473af6cad50
-
-Package: rustfmt-nightly
-Architecture: arm
-Installed-Size: 3600
-Maintainer: @its-pointless
-Version: 1.29.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.29.0_arm.deb
-Size: 1293136
-SHA256: 0535951fd5ce50e57a90669f328ae078d3c693269e70d4474112a16dcdf44fc0
+Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.30.0_arm.deb
+Size: 1239624
+SHA256: ae20d5aa143b3813a6678d7747af15d50ce0a8fb093e6353ae0cf6ddb23d70d7
 
 Package: rustfmt
 Architecture: arm
