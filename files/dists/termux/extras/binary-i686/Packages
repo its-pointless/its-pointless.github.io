@@ -22,6 +22,18 @@ Filename: dists/termux/extras/binary-i686/asymptote_2.47_i686.deb
 Size: 1031588
 SHA256: d7eb5b3967629d155a1528d7855d7c14c9ece24837ab0919fa69eeb52de25880
 
+Package: bastet
+Architecture: i686
+Installed-Size: 232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.43.2-3
+Description: bastard tetris
+Homepage: http://fph.altervista.org/prog/bastet.html
+Depends: boost, ncurses
+Filename: dists/termux/extras/binary-i686/bastet_0.43.2-3_i686.deb
+Size: 70096
+SHA256: a49b2a920ba2dc13a8e41f5d090c32e139da8b83d3391547b817efc9dd1ea10e
+
 Package: bthread-dev
 Architecture: i686
 Installed-Size: 4
@@ -1037,6 +1049,18 @@ Depends: opam
 Filename: dists/termux/extras/binary-i686/ocaml_4.05.0_i686.deb
 Size: 38689636
 SHA256: b1447e84c6ebc8db784e6534d8d368c4cf2ee0d62f05f49783ddcd93142e3807
+
+Package: octave
+Architecture: i686
+Installed-Size: 44656
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-i686/octave_4.4.1_i686.deb
+Size: 9745252
+SHA256: 6b723bf52a497d63049749dd74a7626f5873129af23d86da8b8503ced8b9d216
 
 Package: opam
 Architecture: i686
