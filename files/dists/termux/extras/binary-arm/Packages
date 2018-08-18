@@ -35,15 +35,15 @@ SHA256: 6f2c21f21c038709c233c8ba8fd1a3adacfd3d1e26f5e8eac8a9c37528ca2b5b
 
 Package: bastet
 Architecture: arm
-Installed-Size: 168
+Installed-Size: 164
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.43.2-2
+Version: 0.43.2-3
 Description: bastard tetris
 Homepage: http://fph.altervista.org/prog/bastet.html
 Depends: boost, ncurses
-Filename: dists/termux/extras/binary-arm/bastet_0.43.2-2_arm.deb
-Size: 61020
-SHA256: 7a65494239ea2c9ddccd7c432c7e550dd588827a30b0e777f5aea5401ba09daa
+Filename: dists/termux/extras/binary-arm/bastet_0.43.2-3_arm.deb
+Size: 60664
+SHA256: 8ad84ccd9996863ca1e6dace4e5399059a80dd421bfe015cef54beb31f0f4e4e
 
 Package: bthread-dev
 Architecture: arm
@@ -1243,27 +1243,27 @@ SHA256: b6cfa2f65f04fdbda2a7df543e8260c50fc6272a54e9d081117d78b1e6589e69
 
 Package: octave-dev
 Architecture: arm
-Installed-Size: 5888
+Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.0
+Version: 4.4.1
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.4.0_arm.deb
-Size: 406264
-SHA256: 6330063d5094f690ebe5ab797de7ce0cc21bbcc2a3c1c4213dda8ccacfd09b97
+Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1_arm.deb
+Size: 359868
+SHA256: 4df0d3a6936d40f3c6ab3c6e5fbf4880ca85e5ede40bd942a6267ced3ca8b940
 
 Package: octave
 Architecture: arm
-Installed-Size: 37488
+Installed-Size: 38136
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.0
+Version: 4.4.1
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libandroid-support, libbz2, curl, libxml2, pcre, openblas, liblzma, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, sed, readline
-Filename: dists/termux/extras/binary-arm/octave_4.4.0_arm.deb
-Size: 9120772
-SHA256: 56dae92829dedd900e0dea2912392b6b85c3ebc7964e3b23c7e7a60c6e30f3da
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-arm/octave_4.4.1_arm.deb
+Size: 9101300
+SHA256: 354bdab457f0b320e6f83b10d8e8387cd3247eff949e40e5f32e16459944ce67
 
 Package: opam
 Architecture: arm

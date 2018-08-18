@@ -26,13 +26,13 @@ Package: bastet
 Architecture: x86_64
 Installed-Size: 236
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.43.2-2
+Version: 0.43.2-3
 Description: bastard tetris
 Homepage: http://fph.altervista.org/prog/bastet.html
 Depends: boost, ncurses
-Filename: dists/termux/extras/binary-x86_64/bastet_0.43.2-2_x86_64.deb
-Size: 70340
-SHA256: c8b16cf8bdbb1018ce459da878bac09109591662b5be9a5c376fcfcbae4c76f7
+Filename: dists/termux/extras/binary-x86_64/bastet_0.43.2-3_x86_64.deb
+Size: 70524
+SHA256: f30f2710dc327449ad7fdf0eecb74f5a0e98718fa542b266e45405b62bbe0a0b
 
 Package: bcal
 Architecture: x86_64
@@ -1086,27 +1086,27 @@ SHA256: e674715485d051b5aaa3132652c0a89f6dc5f513e6838c692786a5bd746183bd
 
 Package: octave-dev
 Architecture: x86_64
-Installed-Size: 5940
+Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.0
+Version: 4.4.1
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-x86_64/octave-dev_4.4.0_x86_64.deb
-Size: 409424
-SHA256: 9fe40817f7f5e1a1e21dc156fe0be1c489200f7331514606ea4a150f93a22271
+Filename: dists/termux/extras/binary-x86_64/octave-dev_4.4.1_x86_64.deb
+Size: 359916
+SHA256: 1efb337b966bff7035520697f1b262bdb275f8baac453f792f5e41ba192804c7
 
 Package: octave
 Architecture: x86_64
-Installed-Size: 44240
+Installed-Size: 45824
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.0
+Version: 4.4.1
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
-Depends: libandroid-support, libbz2, curl, libxml2, pcre, openblas, liblzma, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, sed, readline
-Filename: dists/termux/extras/binary-x86_64/octave_4.4.0_x86_64.deb
-Size: 9677348
-SHA256: 7d2f726aec5e9fbdb49b44f3b039b4290422ce1eeff0da67c3116b525590cb0c
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-x86_64/octave_4.4.1_x86_64.deb
+Size: 9787224
+SHA256: d5a5662cfd789601ace8c708e00570df4ff050a342ee4abd954f7b0a12997f31
 
 Package: opam
 Architecture: x86_64

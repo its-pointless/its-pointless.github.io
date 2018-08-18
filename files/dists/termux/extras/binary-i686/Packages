@@ -22,18 +22,6 @@ Filename: dists/termux/extras/binary-i686/asymptote_2.47_i686.deb
 Size: 1031588
 SHA256: d7eb5b3967629d155a1528d7855d7c14c9ece24837ab0919fa69eeb52de25880
 
-Package: bastet
-Architecture: i686
-Installed-Size: 232
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.43.2-2
-Description: bastard tetris
-Homepage: http://fph.altervista.org/prog/bastet.html
-Depends: boost, ncurses
-Filename: dists/termux/extras/binary-i686/bastet_0.43.2-2_i686.deb
-Size: 70160
-SHA256: 8e0a97a44b6c9c84f6fdfcf5d89d465f196047b13e5f5dcc4042c15d557c956d
-
 Package: bthread-dev
 Architecture: i686
 Installed-Size: 4
@@ -1049,30 +1037,6 @@ Depends: opam
 Filename: dists/termux/extras/binary-i686/ocaml_4.05.0_i686.deb
 Size: 38689636
 SHA256: b1447e84c6ebc8db784e6534d8d368c4cf2ee0d62f05f49783ddcd93142e3807
-
-Package: octave-dev
-Architecture: i686
-Installed-Size: 5936
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.0
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-i686/octave-dev_4.4.0_i686.deb
-Size: 409812
-SHA256: e3081408b38d06cc91a0bd476d2d9c6fa7ea781ef53232ed50fccc279bccf959
-
-Package: octave
-Architecture: i686
-Installed-Size: 43444
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.0
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libandroid-support, libbz2, curl, libxml2, pcre, openblas, liblzma, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, sed, readline
-Filename: dists/termux/extras/binary-i686/octave_4.4.0_i686.deb
-Size: 9655160
-SHA256: c08ecf7ab782199d1cae39c98ef2801bfc47434b35d6b385758d43a3c8d356b0
 
 Package: opam
 Architecture: i686
