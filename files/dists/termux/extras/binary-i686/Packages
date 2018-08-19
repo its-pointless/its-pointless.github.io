@@ -697,6 +697,30 @@ Filename: dists/termux/extras/binary-i686/liboauth_1.0.3_i686.deb
 Size: 9976
 SHA256: ceb8dc7d31b008b26e72c04eb8f2bc1c632ffa28498ae1e7897f7d1f8b605fc0
 
+Package: libopenspecfun-dev
+Architecture: i686
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3
+Description: Development files for libopenspecfun
+Homepage: https://github.com/JuliaMath/openspecfun
+Depends: libopenspecfun
+Filename: dists/termux/extras/binary-i686/libopenspecfun-dev_0.5.3_i686.deb
+Size: 2024
+SHA256: 8c8f8a3474272438ef3bcfcd8881ff07b8ee40ba1913ebcb5b2d8eb8ed3de55e
+
+Package: libopenspecfun
+Architecture: i686
+Installed-Size: 204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3
+Description: A collection of special mathematical functions
+Homepage: https://github.com/JuliaMath/openspecfun
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-i686/libopenspecfun_0.5.3_i686.deb
+Size: 90716
+SHA256: 8dc7253731621032fef6ddbdf2141eba9553ddf362e8271061bcc8e309ee0451
+
 Package: libpoco-dev
 Architecture: i686
 Installed-Size: 5300

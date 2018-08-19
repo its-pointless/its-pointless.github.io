@@ -684,6 +684,30 @@ Filename: dists/termux/extras/binary-x86_64/liboauth_1.0.3_x86_64.deb
 Size: 10844
 SHA256: 36214030b3cb2a5c75e29f0097706fb347f85ca56ccee5193ceed2175578a29a
 
+Package: libopenspecfun-dev
+Architecture: x86_64
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3
+Description: Development files for libopenspecfun
+Homepage: https://github.com/JuliaMath/openspecfun
+Depends: libopenspecfun
+Filename: dists/termux/extras/binary-x86_64/libopenspecfun-dev_0.5.3_x86_64.deb
+Size: 2032
+SHA256: b82cb945abcabd5e725233cddc3d79fde3faf2fd22a38e5e395af08885b50152
+
+Package: libopenspecfun
+Architecture: x86_64
+Installed-Size: 196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3
+Description: A collection of special mathematical functions
+Homepage: https://github.com/JuliaMath/openspecfun
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-x86_64/libopenspecfun_0.5.3_x86_64.deb
+Size: 90512
+SHA256: 7114b6dc9d0ec7608be03e700374ff0c6d7cf04add9b955ab130d07e03b9c634
+
 Package: libpoco-dev
 Architecture: x86_64
 Installed-Size: 5308
@@ -1000,6 +1024,18 @@ Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
 Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.1_x86_64.deb
 Size: 28034900
 SHA256: 9f212b1bd24826da12dff5ad6d14b384eb2094643b368e0b4856a433b1798e40
+
+Package: mpich
+Architecture: x86_64
+Installed-Size: 6620
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2.1
+Description: Implementation of the MPI Message Passing Interface standard
+Homepage: http://www.mpich.org
+Depends: libandroid-support, gcc-8
+Filename: dists/termux/extras/binary-x86_64/mpich_3.2.1_x86_64.deb
+Size: 1307148
+SHA256: 066eb21620718a9cbd3081a603d9f116fab3adfbe09fcbb1b725e5395c7e619d
 
 Package: nethack
 Architecture: x86_64
