@@ -1170,6 +1170,18 @@ Filename: dists/termux/extras/binary-arm/moarvm_2018.06_arm.deb
 Size: 891056
 SHA256: c8b1bd7de8cff2d12722bbcf843f77ce4e862b8bdd41539537a20e45e77787f7
 
+Package: mpich
+Architecture: arm
+Installed-Size: 5204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2.1
+Description: Implementation of the MPI Message Passing Interface standard
+Homepage: http://www.mpich.org
+Depends: libandroid-support (>= 22), gcc-8 (>= 8.2.0-1)
+Filename: dists/termux/extras/binary-arm/mpich_3.2.1_arm.deb
+Size: 1154576
+SHA256: a3b58cc24c59c82c057b9118e1728a46adfb71a8e3bad48fb090dc69ffcc9a41
+
 Package: nethack
 Architecture: arm
 Installed-Size: 3512
