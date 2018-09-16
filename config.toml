@@ -1,0 +1,48 @@
+[build]
+build = "x86_64-unknown-linux-gnu"
+host = [ "@RUST_TARGET_TRIPLE@" ]
+target = [ "@RUST_TARGET_TRIPLE@" ]
+python = "python2.7"
+full-bootstrap = false
+extended = true
+#deny-warnings = false
+tools = ["rls", "rustfmt", "analysis"]
+openssl-static = false
+rustc = '@RUSTC@'
+cargo = '@CARGO@'
+##configure-args = ['--target=wasm32-unknown-unknown', '--set', 'llvm.experimental-targets=WebAssembly']
+[install]
+prefix = "@TERMUX_PREFIX@"
+
+[llvm]
+experimental-targets = 'WebAssembly'
+link-shared = true
+[rust]
+use-jemalloc = false
+#backtrace = true
+#default-linker = "clang"
+#default-ar = "ar"
+channel = "stable"
+rpath = true
+optimize-tests = false
+debuginfo-tests = false
+codegen-tests = false
+codegen-units = 0
+deny-warnings = false
+
+[target.wasm32-unknown-unknown]
+
+[target.x86_64-unknown-linux-gnu]
+cc = "/home/builder/termux-packages/.junk/llvm-6.0.1/bin/clang"
+cxx = "/home/builder/termux-packages/.junk/llvm-6.0.1/bin/clang++"
+llvm-config = "/home/builder/termux-packages/.junk/llvm-6.0.1/bin/llvm-config"
+
+[target.@RUST_TARGET_TRIPLE@]
+cc = "@TERMUX_HOST_PLATFORM@-clang"
+cxx = "@TERMUX_HOST_PLATFORM@-clang++"
+llvm-config = "@TERMUX_PREFIX@/bin/llvm-config"
+
+#jemalloc = "/path/to/jemalloc/libjemalloc_pic.a"
+#android-ndk = "/path/to/ndk"
+[dist] 
+src-tarball = false
