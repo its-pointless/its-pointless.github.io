@@ -1,0 +1,105 @@
+TERMUX_PKG_HOMEPAGE=https://www.rust-lang.org
+TERMUX_PKG_DEPENDS="clang"
+TERMUX_PKG_VERSION=1.28.0
+TERMUX_PKG_REVISION=1
+TERMUX_PKG_SHA256=8a899afd4b502b4ebff5cfc82cba77a8cb37113b5e6018f15c09545936081848
+TERMUX_PKG_SRCURL=https://static.rust-lang.org/dist/rustc-$TERMUX_PKG_VERSION-src.tar.xz
+TERMUX_PKG_DESCRIPTION="rust toolchain"
+TERMUX_PKG_MAINTAINER="@its-pointless"
+TERMUX_PKG_KEEP_SHARE_DOC=true
+RLS_VERSION=0.128.0
+RUSTFMT=0.8.2
+CARGO_VERSION=0.29.0
+TERMUX_PKG_EXTRA_CONFIGURE_ARGS="
+--disable-option-checking
+--enable-clang
+--disable-optimize-tests
+--disable-debuginfo-tests
+--disable-codegen-tests
+--enable-local-rust
+--enable-local-rebuild 
+--enable-llvm-link-shared
+"
+termux_step_pre_configure () {
+	termux_setup_cmake
+	termux_setup_rust
+RUST_BACKTRACE=1
+	export LIBGIT2_SYS_USE_PKG_CONFIG=1
+	RUST_PREFIX=$TERMUX_PREFIX
+	export RUST_BACKTRACE=1	
+	export PKG_CONFIG_ALLOW_CROSS=1
+	export PATH=$TERMUX_PKG_TMPDIR/bin:$PATH
+	
+	if [ $TERMUX_ARCH = "aarch64" ]; then
+                CARCH="AARCH64"
+        elif [ $TERMUX_ARCH = "i686" ]; then
+                CARCH=I686
+        else CARCH=X86_64
+        fi
+	if [ $TERMUX_ARCH = "arm" ]; then          
+		export LDFLAGS_armv7_linux_androideabi="-L$TERMUX_PKG_BUILDDIR/build/$RUST_TARGET_TRIPLE/llvm/lib  -L$TERMUX_PKG_BUILDDIR/build/$RUST_TARGET_TRIPLE/stage2/lib/rustlib/$RUST_TARGET_TRIPLE/lib -L$TERMUX_PKG_TMPDIR -L/usr/lib"
+		#$LDFLAGS -L$TERMUX_PKG_BUILDDIR/build/$RUST_TARGET_TRIPLE/stage2/lib/rustlib/$RUST_TARGET_TRIPLE/lib -L$TERMUX_PKG_TMPDIR"
+		export CFLAGS_armv7_linux_androideabi="$CFLAGS "
+		export CXXFLAGS_armv7_linux_androideabi="$CXXFLAGS "
+		export LD_armv7_linux_androideabi="$LD"
+		export ARMV7_LINUX_ANDROIDEABI_OPENSSL_LIB_DIR="$TERMUX_PREFIX/lib"
+		export ARMV7_LINUX_ANDROIDEABI_OPENSSL_INCLUDE_DIR="$TERMUX_PREFIX/include"
+		#		export ARMV7_LINUX_ANDROIDEABI_OPENSSL_LIB_DIR=$TERMUX_PKG_TMPDIR/lib
+ #               export ARMV7_LINUX_ANDROIDEABI_OPENSSL_INCLUDE_DIR=$TERMUX_PKG_TMPDIR/include
+	else 
+		export LDFLAGS_${TERMUX_ARCH}_linux_android="-L$TERMUX_PKG_BUILDDIR/build/$RUST_TARGET_TRIPLE/llvm/lib  -L$TERMUX_PKG_BUILDDIR/build/$RUST_TARGET_TRIPLE/stage2/lib/rustlib/$RUST_TARGET_TRIPLE/lib -L$TERMUX_PKG_TMPDIR"
+		export ${CARCH}_LINUX_ANDROID_OPENSSL_INCLUDE_DIR=$TERMUX_PREFIX/include
+		export ${CARCH}_LINUX_ANDROID_OPENSSL_LIB_DIR=$TERMUX_PREFIX/lib
+		export CFLAGS_${TERMUX_ARCH}_linux_android="$CFLAGS" # -L$TERMUX_PKG_BUILDDIR/build/$RUST_TARGET_TRIPLE/llvm/lib -lLLVMCore"
+		export LD_${TERMUX_ARCH}_linux_android="$LD"
+		export CXXFLAGS_${TERMUX_ARCH}_linux_android="$CXXFLAGS" #	-L$TERMUX_PKG_BUILDDIR/build/$RUST_TARGET_TRIPLE/llvm/lib -lLLMCore"
+	fi
+	export ${CARCH}_LINUX_ANDROID_OPENSSL_INCLUDE_DIR=$TERMUX_PREFIX/include
+	export ${CARCH}_LINUX_ANDROID_OPENSSL_LIB_DIR=$TERMUX_PREFIX/lib
+
+	if [ $TERMUX_ARCH = "x86_64" ]; then
+ln -s $TERMUX_STANDALONE_TOOLCHAIN/sysroot/usr/lib64/libc.so $TERMUX_PKG_TMPDIR/libunwind.so
+else
+ln -s $TERMUX_STANDALONE_TOOLCHAIN/sysroot/usr/lib/libc.so $TERMUX_PKG_TMPDIR/libunwind.so
+fi
+		sed $TERMUX_PKG_BUILDER_DIR/config.toml \
+                        -e "s|@RUST_PREFIX@|$RUST_PREFIX|g" \
+                        -e "s|@TERMUX_PREFIX@|$TERMUX_PREFIX|g" \
+			-e "s|@TERMUX_HOST_PLATFORM@|$TERMUX_HOST_PLATFORM|g" \
+                        -e "s|@RUST_TARGET_TRIPLE@|$RUST_TARGET_TRIPLE|g" \
+			-e "s|@RUSTC@|${TERMUX_COMMON_CACHEDIR}/rust/bin/rustc|g" \
+			-e "s|@CARGO@|$(which cargo)|g" > $TERMUX_PKG_BUILDDIR/config.toml
+	cp $TERMUX_PKG_BUILDDIR/config.toml $TERMUX_PKG_TMPDIR
+	_CC=$CC	
+	unset CFLAGS CXXFLAGS LDFLAGS CC CXX LD CPP CPPFLAGS PREFIX
+	export _arch_args="--host=$RUST_TARGET_TRIPLE --target=$RUST_TARGET_TRIPLE,wasm32-unknown-unknown"
+	TERMUX_PKG_EXTRA_CONFIGURE_ARGS+=" $_arch_args --local-rust-root=$RUSTUP_HOME"
+	export LD_LIBRARY_PATH=/home/builder/termux-packages/.junk/llvm-6.0.1/lib
+}
+
+termux_step_make () {
+	mv config.toml config.toml.orig
+	cp $TERMUX_PKG_TMPDIR/config.toml config.toml
+
+../src/x.py build clippy
+../src/x.py dist --host $RUST_TARGET_TRIPLE --target $RUST_TARGET_TRIPLE --target wasm32-unknown-unknown  || ../src/x.py dist --host $RUST_TARGET_TRIPLE --target $RUST_TARGET_TRIPLE --target wasm32-unknown-unknown || ../src/x.py dist --host $RUST_TARGET_TRIPLE --target $RUST_TARGET_TRIPLE --target wasm32-unknown-unknown 
+}
+
+termux_step_make_install () {
+	mkdir -p $TERMUX_PKG_BUILDDIR/install
+	for tar in rustc rust-docs rust-std rust-analysis rustfmt cargo rls; do
+		tar -xf $TERMUX_PKG_BUILDDIR/build/dist/$tar-*-$RUST_TARGET_TRIPLE.tar.gz -C $TERMUX_PKG_BUILDDIR/install
+		# uninstall previous version
+		$TERMUX_PKG_BUILDDIR/install/$tar-*-$RUST_TARGET_TRIPLE/install.sh --uninstall --prefix=$RUST_PREFIX || true
+		$TERMUX_PKG_BUILDDIR/install/$tar-*-$RUST_TARGET_TRIPLE/install.sh --prefix=$RUST_PREFIX
+	done
+		tar -xf $TERMUX_PKG_BUILDDIR/build/dist/rust-std-*-wasm32-unknown-unknown.tar.gz -C $TERMUX_PKG_BUILDDIR/install	
+	$TERMUX_PKG_BUILDDIR/install/rust-std-*-wasm32-unknown-unknown/install.sh --uninstall --prefix=$RUST_PREFIX || true
+		$TERMUX_PKG_BUILDDIR/install/rust-std-*-wasm32-unknown-unknown/install.sh --prefix=$RUST_PREFIX
+        cd "$TERMUX_PREFIX/lib"
+        ln -sf rustlib/$RUST_TARGET_TRIPLE/lib/*.so .	
+}
+
+termux_step_post_massage () {
+	rm $TERMUX_PKG_MASSAGEDIR/$RUST_PREFIX/lib/rustlib/{components,rust-installer-version,install.log,uninstall.sh}
+}
