@@ -128,30 +128,6 @@ SHA256: 48cae51a0cf6ca49bbed17c3fa16c8ad2ecac6a64615dbd842bb00c5b67d685a
 
 Package: cargo
 Architecture: aarch64
-Installed-Size: 7804
-Maintainer: @its-pointless
-Version: 0.28.0-1
-Description: Rust package manager
-Homepage: https://www.rust-lang.org
-Depends: rustc, libgit2, libssh2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.28.0-1_aarch64.deb
-Size: 1881312
-SHA256: e2babb87711c80b633fcfb97b3acf18aae3051abca92736eb2ee5f4fca3fc9cc
-
-Package: cargo
-Architecture: aarch64
-Installed-Size: 7548
-Maintainer: @its-pointless
-Version: 0.29.0
-Description: Rust package manager
-Homepage: https://www.rust-lang.org
-Depends: rustc, libgit2, libssh2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.29.0_aarch64.deb
-Size: 1804384
-SHA256: 51d25b8a0c17883948cf44205b503a43cc6ceeaae3b64a26fd36a0ed751c22a6
-
-Package: cargo
-Architecture: aarch64
 Installed-Size: 8508
 Maintainer: @its-pointless
 Version: 0.30.0
@@ -962,30 +938,6 @@ Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
 Filename: dists/termux/extras/binary-aarch64/libspice-server_0.14.0_aarch64.deb
 Size: 225416
 SHA256: 9d745ec14dcecefe8d3de72aa9456f3106c49612b8e42ed04fc7ec702c3ec1ca
-
-Package: libssh2-dev
-Architecture: aarch64
-Installed-Size: 768
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.8.0
-Description: Development files for libssh2
-Homepage: https://www.libssh2.org
-Depends: libssh2
-Filename: dists/termux/extras/binary-aarch64/libssh2-dev_1.8.0_aarch64.deb
-Size: 41364
-SHA256: d6bed2894045ca2473d7293fc13c5d9e4cc27746e83298127b9c3bdfcecaeab4
-
-Package: libssh2
-Architecture: aarch64
-Installed-Size: 196
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 1.8.0
-Description: Client-side C library implementing the SSH2 protocol
-Homepage: https://www.libssh2.org
-Depends: openssl
-Filename: dists/termux/extras/binary-aarch64/libssh2_1.8.0_aarch64.deb
-Size: 51128
-SHA256: d16bbca8b8d7a2220c76b19917d7fa8ea2a2043895cf84388dcdb28ad6aae281
 
 Package: libsundials-dev
 Architecture: aarch64
