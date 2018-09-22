@@ -289,6 +289,18 @@ Filename: dists/termux/extras/binary-arm/gcc-8_8.2.0-1_arm.deb
 Size: 23422056
 SHA256: 33ceaa3942568b4105f6429941b79473ebc96b612678e81cf357c771292b90a2
 
+Package: gcc-8
+Architecture: arm
+Installed-Size: 104508
+Maintainer: @its-pointless github
+Version: 8.2.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils (>= 2.31.1-1), libgmp (>= 6.1.2-1), libmpfr (>= 4.0.1-1), libmpc (>= 1.1.0), ndk-sysroot (>= 18-8), libisl (>= 0.20), setup-scripts (>= 2.6), libandroid-support (>= 22)
+Filename: dists/termux/extras/binary-arm/gcc-8_8.2.0-2_arm.deb
+Size: 23437072
+SHA256: 40e4eb9df57a49ac688886ce9faab39dbc9441b35dde7d69fd7c2add0dda680c
+
 Package: gforth
 Architecture: arm
 Installed-Size: 3004
@@ -376,6 +388,19 @@ Conflicts: gnat-7
 Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0-1_arm.deb
 Size: 16219136
 SHA256: d5ed98abf578a6006a59ac2c23de7e4f91ad39fd584e59794ffbb648d746faa1
+
+Package: gnat-8
+Architecture: arm
+Installed-Size: 91420
+Maintainer: @its-pointless github
+Version: 8.2.0-2
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8 (>= 8.2.0-2)
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0-2_arm.deb
+Size: 16218172
+SHA256: 5b0eadd5ae5d8c08dcab6c2133dac91130c619720b485bdd6d7f87d58821a82a
 
 Package: gnat-8
 Architecture: arm
@@ -722,6 +747,18 @@ Package: libgfortran5
 Architecture: arm
 Installed-Size: 836
 Maintainer: @its-pointless github
+Version: 8.2.0-2
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-arm/libgfortran5_8.2.0-2_arm.deb
+Size: 220108
+SHA256: c427bc3eb924433dc213341c661190457a1226cfaf3f34d2a8d5790f187269f5
+
+Package: libgfortran5
+Architecture: arm
+Installed-Size: 836
+Maintainer: @its-pointless github
 Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -813,6 +850,20 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-arm/libgomp-8_8.2.0-1_arm.deb
 Size: 66716
 SHA256: bbca924bd1ef927cb9e79fe8c0c18141da383eba4505efa56b71bb6753302bfb
+
+Package: libgomp-8
+Architecture: arm
+Installed-Size: 244
+Maintainer: @its-pointless github
+Version: 8.2.0-2
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8 (>= 8.2.0-2)
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-arm/libgomp-8_8.2.0-2_arm.deb
+Size: 66668
+SHA256: cc50337a1defd43f3607bc1b6bf8b7d15067f2032d4216f9ff97b3722e746e1e
 
 Package: libgomp-8
 Architecture: arm
@@ -1284,6 +1335,18 @@ Depends: libgfortran5
 Filename: dists/termux/extras/binary-arm/openblas_0.3.1_arm.deb
 Size: 2151940
 SHA256: a86fe1bbefbcd93b940ee2e3bae62667218bb445696fadb4dd8066e67ae76aff
+
+Package: openblas
+Architecture: arm
+Installed-Size: 10712
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.2-1
+Description:  Optimized BLAS (linear algebra) library
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5 (>= 8.2.0-2)
+Filename: dists/termux/extras/binary-arm/openblas_0.3.2-1_arm.deb
+Size: 2153748
+SHA256: 6b7c8ae2ae6e1547996332c869670ec176984a7366a9db9f5372fd6f1b83ec02
 
 Package: openldap-dev
 Architecture: arm
@@ -1855,6 +1918,29 @@ Filename: dists/termux/extras/binary-arm/qrupdate_1.1.2-2_arm.deb
 Size: 44444
 SHA256: ad09329ea7c4283fb520b09478892520cde8f35cb92b83086e641dba924b709f
 
+Package: quantlib-dev
+Architecture: arm
+Installed-Size: 8004
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.13-1
+Description: Development files for quantlib
+Homepage: http://quantlib.org
+Depends: quantlib (>= 1.13-1), boost-dev (>= 1.68.0)
+Filename: dists/termux/extras/binary-arm/quantlib-dev_1.13-1_arm.deb
+Size: 560804
+SHA256: d307d61c04317b6074ed9ec2b71084c94acaaeace8960db4d5c9b76b5856a2da
+
+Package: quantlib
+Architecture: arm
+Installed-Size: 29072
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.13-1
+Description: a comprehensive software framework for quantitative finance
+Homepage: http://quantlib.org
+Filename: dists/termux/extras/binary-arm/quantlib_1.13-1_arm.deb
+Size: 8541848
+SHA256: cd67a626b136f6a355966b958e417b9cf2bb557f6882169f7971fd2218688b22
+
 Package: r-base
 Architecture: arm
 Installed-Size: 60452
@@ -1964,147 +2050,41 @@ Filename: dists/termux/extras/binary-arm/re2c_1.0.3_arm.deb
 Size: 138708
 SHA256: 96d7f5fcf02b0a62afe94b22d3c09247ba927fac532537881a3eb0d8205c0876
 
-Package: rust-rls-nightly
-Architecture: arm
-Installed-Size: 9340
-Maintainer: @its-pointless
-Version: 1.30.0-1
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.30.0-1_arm.deb
-Size: 3463800
-SHA256: 7f05e54e60979306be196e9f6c937aae66c6015e07e44f08f1d8fa86df05d920
-
-Package: rust-rls-nightly
-Architecture: arm
-Installed-Size: 10968
-Maintainer: @its-pointless
-Version: 1.30.0
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.30.0_arm.deb
-Size: 3807380
-SHA256: 3abff6f93bc75185b4b7de29789572d65cd41385ac5a9d561f821620a9ac709e
-
 Package: rust-rls
 Architecture: arm
-Installed-Size: 9512
+Installed-Size: 11780
 Maintainer: @its-pointless
-Version: 0.128.0
+Version: 0.130.0-1
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
 Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-arm/rust-rls_0.128.0_arm.deb
-Size: 3250192
-SHA256: 17daa17718f58d3f2a9eabf563865c82a955a29744d62ea7380e1942bfa87121
-
-Package: rust-rls
-Architecture: arm
-Installed-Size: 11792
-Maintainer: @its-pointless
-Version: 0.130.0
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-arm/rust-rls_0.130.0_arm.deb
-Size: 3980320
-SHA256: 4de13adc48a148b829756a3106eccbe7416b00689e44c1bcaa98284b30371ac6
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 127648
-Maintainer: @its-pointless
-Version: 1.30.0-1
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang (>= 6.0.1), libgit2 (>= 0.27.4), libssh2 (>= 1.8.0)
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.30.0-1_arm.deb
-Size: 51874248
-SHA256: a91c2f2b4ba21afc2b2095fb3421e0a8874545b8af829fe0d65fca7af50046d9
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 123020
-Maintainer: @its-pointless
-Version: 1.30.0
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.30.0_arm.deb
-Size: 50373220
-SHA256: 6083c0c95fa9c1a121b39dc8216aaddb2e13d7540600f94b4bcf7463ebe946e0
+Depends: rustc (>= get-version.sh: No package with name rustc found)
+Filename: dists/termux/extras/binary-arm/rust-rls_0.130.0-1_arm.deb
+Size: 3979636
+SHA256: ab6c721415efbc3166b463401969b34a09e495f984c389717c82ef2452df7464
 
 Package: rustc
 Architecture: arm
-Installed-Size: 131984
+Installed-Size: 117060
 Maintainer: @its-pointless
-Version: 1.28.0
+Version: 1.29.0-1
 Description: rust toolchain
 Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-arm/rustc_1.28.0_arm.deb
-Size: 47397436
-SHA256: 5e8628a0778e017617b1a254735d2890fa6f45959aea4241bf4f5162df42668e
-
-Package: rustc
-Architecture: arm
-Installed-Size: 117124
-Maintainer: @its-pointless
-Version: 1.29.0
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-arm/rustc_1.29.0_arm.deb
-Size: 47975456
-SHA256: e96e978159881db2f40fff8ded405bffd831d159d35fbb42486a280b574d33ce
-
-Package: rustfmt-nightly
-Architecture: arm
-Installed-Size: 3144
-Maintainer: @its-pointless
-Version: 1.30.0-1
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (>= get-version.sh: No package with name rustc-nightly found)
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.30.0-1_arm.deb
-Size: 1239756
-SHA256: 6bd6b2f782ad43af93b555a109032a0f63415822318f68d31de6ee6376729241
-
-Package: rustfmt-nightly
-Architecture: arm
-Installed-Size: 3144
-Maintainer: @its-pointless
-Version: 1.30.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.30.0_arm.deb
-Size: 1239624
-SHA256: ae20d5aa143b3813a6678d7747af15d50ce0a8fb093e6353ae0cf6ddb23d70d7
-
-Package: rustfmt
-Architecture: arm
-Installed-Size: 3728
-Maintainer: @its-pointless
-Version: 0.8.2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-arm/rustfmt_0.8.2_arm.deb
-Size: 1270372
-SHA256: 55f0b11931838fa6d660896474e0e27b04e88da053f03943f840a699789d9810
+Depends: clang (>= 7.0.0)
+Filename: dists/termux/extras/binary-arm/rustc_1.29.0-1_arm.deb
+Size: 47972556
+SHA256: a0b56a62a1f029f75c41477c2018e410572c5bd86ff26f6c2bca3f90f366bede
 
 Package: rustfmt
 Architecture: arm
 Installed-Size: 2936
 Maintainer: @its-pointless
-Version: 0.99.1
+Version: 0.99.1-1
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-arm/rustfmt_0.99.1_arm.deb
-Size: 1185036
-SHA256: 3e77e758889c94f6ab918d7923e96baaf4f887c99c45565044891007a9df28da
+Depends: rustc (>= get-version.sh: No package with name rustc found)
+Filename: dists/termux/extras/binary-arm/rustfmt_0.99.1-1_arm.deb
+Size: 1183588
+SHA256: 8d35ae82938bc4912b2538cbb353b3ca2f83728a2f6d99c1bb3e3b52b4d248b2
 
 Package: sc-im
 Architecture: arm

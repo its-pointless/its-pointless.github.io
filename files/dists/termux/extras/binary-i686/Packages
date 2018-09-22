@@ -279,6 +279,18 @@ Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-1_i686.deb
 Size: 32402136
 SHA256: 382cf73b40e7010d8f661887110abc75f1bc75160bd929a546cbf5d89be5c214
 
+Package: gcc-8
+Architecture: i686
+Installed-Size: 116184
+Maintainer: @its-pointless github
+Version: 8.2.0-2
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils (>= 2.31.1-1), libgmp (>= 6.1.2-1), libmpfr (>= 4.0.1-1), libmpc (>= 1.1.0), ndk-sysroot (>= 18-8), libisl (>= 0.20), setup-scripts (>= 2.6), libandroid-support (>= 22)
+Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-2_i686.deb
+Size: 32394672
+SHA256: 614ad799f99028fd74877c07acd8f97158dbbbf81054cc974500b1e443cae865
+
 Package: git-lfs
 Architecture: i686
 Installed-Size: 7936
@@ -564,6 +576,18 @@ Package: libgfortran5
 Architecture: i686
 Installed-Size: 2156
 Maintainer: @its-pointless github
+Version: 8.2.0-2
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-i686/libgfortran5_8.2.0-2_i686.deb
+Size: 574136
+SHA256: 6f7373cea6217636df2bda780b1c6a59f7ad28ed5fdecdfc8e2025bf22b72cd4
+
+Package: libgfortran5
+Architecture: i686
+Installed-Size: 2156
+Maintainer: @its-pointless github
 Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -621,6 +645,20 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0-1_i686.deb
 Size: 81224
 SHA256: 1857947a5bcfa0bf20e9d903c53db0e5e0e6d4755d177aec29e6755fa22a476f
+
+Package: libgomp-8
+Architecture: i686
+Installed-Size: 288
+Maintainer: @its-pointless github
+Version: 8.2.0-2
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8 (>= 8.2.0-2)
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0-2_i686.deb
+Size: 81244
+SHA256: 907e5b51d5a1463c60f407342fef3f3bc284a60256307f8df37be39b6191dcfc
 
 Package: libgomp-8
 Architecture: i686
@@ -1084,6 +1122,20 @@ Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.1_i686.deb
 Size: 3008932
 SHA256: 302a6f6b0dad727c2d88a407ddd875ebdd54760840fec590ac4394eda252a940
 
+Package: openblas-sandybridge
+Architecture: i686
+Installed-Size: 14368
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.2
+Description: blas library optimized for sandybridge(chromebooks)
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5 (>= 8.2.0-2)
+Conflicts: openblas
+Provides: openblas
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.2_i686.deb
+Size: 3012176
+SHA256: 92131cb3d3db3dc3948584ac0ed845c16e72a12255931d56821385d7112dc498
+
 Package: openblas
 Architecture: i686
 Installed-Size: 14224
@@ -1095,6 +1147,18 @@ Depends: libgfortran5
 Filename: dists/termux/extras/binary-i686/openblas_0.3.1_i686.deb
 Size: 2946108
 SHA256: 6824f6b677d3027727505697efc89abbd8d6bfdc5cafcd9d2334c92a02789206
+
+Package: openblas
+Architecture: i686
+Installed-Size: 14236
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.2-2
+Description:  Optimized BLAS (linear algebra) library
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5 (>= 8.2.0-2)
+Filename: dists/termux/extras/binary-i686/openblas_0.3.2-2_i686.deb
+Size: 2946516
+SHA256: 663058e9e012ad6416feb473bd93db0be3fcd497d75618b9d9d36e7b9abb622d
 
 Package: openldap-dev
 Architecture: i686
@@ -1666,6 +1730,29 @@ Filename: dists/termux/extras/binary-i686/qrupdate_1.1.2-2_i686.deb
 Size: 56416
 SHA256: 25bdb40c5ae61562111c0c41028f7f919c47d44fbd91dc634475b69fd197d114
 
+Package: quantlib-dev
+Architecture: i686
+Installed-Size: 8004
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.13-1
+Description: Development files for quantlib
+Homepage: http://quantlib.org
+Depends: quantlib (>= 1.13-1), boost-dev (>= 1.68.0)
+Filename: dists/termux/extras/binary-i686/quantlib-dev_1.13-1_i686.deb
+Size: 560844
+SHA256: 1ee633a03543e5aa28de903c144fe24f98c41d1820b66af870ab1a07f432bf92
+
+Package: quantlib
+Architecture: i686
+Installed-Size: 35100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.13-1
+Description: a comprehensive software framework for quantitative finance
+Homepage: http://quantlib.org
+Filename: dists/termux/extras/binary-i686/quantlib_1.13-1_i686.deb
+Size: 8242068
+SHA256: 8d34febe2da0caa7f5cdba69e8f3edbd387d93b60d77c27851b190596739caea
+
 Package: r-base
 Architecture: i686
 Installed-Size: 61176
@@ -1774,148 +1861,6 @@ Homepage: http://re2c.org/
 Filename: dists/termux/extras/binary-i686/re2c_1.0.3_i686.deb
 Size: 158324
 SHA256: 6924620f345bc9a319ddc018f1647a75465fa4fe39425bff2e89eb0a4d996e05
-
-Package: rust-rls-nightly
-Architecture: i686
-Installed-Size: 18888
-Maintainer: @its-pointless
-Version: 1.30.0-1
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.30.0-1_i686.deb
-Size: 4544996
-SHA256: 7ae404a60cac727ef622dfa2b153eaffe1187b8665bb952455a47e0768392822
-
-Package: rust-rls-nightly
-Architecture: i686
-Installed-Size: 22100
-Maintainer: @its-pointless
-Version: 1.30.0
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.30.0_i686.deb
-Size: 5027532
-SHA256: b38b9ae2815eab910d6b78d58c517cb6793d567c99ee7bbeef0458b1a9662f4a
-
-Package: rust-rls
-Architecture: i686
-Installed-Size: 18504
-Maintainer: @its-pointless
-Version: 0.128.0
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-i686/rust-rls_0.128.0_i686.deb
-Size: 4262408
-SHA256: b7c23b353dd19b76e540b5360e7f337c96851517a6f7cb5e431b71db1f6aa435
-
-Package: rust-rls
-Architecture: i686
-Installed-Size: 23920
-Maintainer: @its-pointless
-Version: 0.130.0
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-i686/rust-rls_0.130.0_i686.deb
-Size: 5259592
-SHA256: 241d9a7ed0d101476f9eec59ccb4ac4b90fce1adb48b207a074640ac2a940dec
-
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 173812
-Maintainer: @its-pointless
-Version: 1.30.0-1
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang (>= 6.0.1), libgit2 (>= 0.27.4), libssh2 (>= 1.8.0)
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.30.0-1_i686.deb
-Size: 56217220
-SHA256: 2debda215d6fdc8d25619f62b1f8a95b6a36c7292bc37cea5fdc86b1c91fd6e3
-
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 166812
-Maintainer: @its-pointless
-Version: 1.30.0
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: clang
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.30.0_i686.deb
-Size: 54449972
-SHA256: f8c74d8d85f204b7b1589324697d67da12f990cad28da2e1e94be2b10af8f0a6
-
-Package: rustc
-Architecture: i686
-Installed-Size: 169640
-Maintainer: @its-pointless
-Version: 1.28.0
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-i686/rustc_1.28.0_i686.deb
-Size: 50987464
-SHA256: 6377f85cc8c12ab98c58c262b845f4d7a6ad7b6861baafe7addbe76fdaebe0c3
-
-Package: rustc
-Architecture: i686
-Installed-Size: 160676
-Maintainer: @its-pointless
-Version: 1.29.0
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-i686/rustc_1.29.0_i686.deb
-Size: 52629236
-SHA256: 6ff90b3b3b7981106cb9774d33f9137669cf0cfd6fcdd3ba693a734557a8d391
-
-Package: rustfmt-nightly
-Architecture: i686
-Installed-Size: 6336
-Maintainer: @its-pointless
-Version: 1.30.0-1
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (>= get-version.sh: No package with name rustc-nightly found)
-Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.30.0-1_i686.deb
-Size: 1655480
-SHA256: f18a488a0403609268b8b546855673c6680de5b11a53e4c76041de427de34752
-
-Package: rustfmt-nightly
-Architecture: i686
-Installed-Size: 6316
-Maintainer: @its-pointless
-Version: 1.30.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.30.0_i686.deb
-Size: 1653476
-SHA256: e1486ad0f81030d60828c6f711c2f10bb076e668b38f7c27f72733966fec02c3
-
-Package: rustfmt
-Architecture: i686
-Installed-Size: 7208
-Maintainer: @its-pointless
-Version: 0.8.2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-i686/rustfmt_0.8.2_i686.deb
-Size: 1707920
-SHA256: 2a38f66d1df51212d0d49106b9cd232b1e0efaed843ec12401a197df5839f7a5
-
-Package: rustfmt
-Architecture: i686
-Installed-Size: 5856
-Maintainer: @its-pointless
-Version: 0.99.1
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-i686/rustfmt_0.99.1_i686.deb
-Size: 1575304
-SHA256: ba2d303ac94e8bccc87ab2727ac5e1424c2efecd00159cb7fc37ed1e5e0347b2
 
 Package: sc-im
 Architecture: i686
