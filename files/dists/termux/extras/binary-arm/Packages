@@ -219,6 +219,18 @@ Filename: dists/termux/extras/binary-arm/ecl_16.1.3_arm.deb
 Size: 1301256
 SHA256: c7e2cd828f7debd177bb1632af3eac4123dd29230f218d2238a704f8fba29d81
 
+Package: elfutils-ext
+Architecture: arm
+Installed-Size: 1420
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.174
+Description: collection of utilities to handle ELF objects
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, liblzma, libbz2, libelf
+Filename: dists/termux/extras/binary-arm/elfutils-ext_0.174_arm.deb
+Size: 364212
+SHA256: 384a86bbf18c5c7a459dba97c6ef56740209a7683c758cd991f538ed8b52b0ae
+
 Package: exa
 Architecture: arm
 Installed-Size: 988
@@ -1395,6 +1407,30 @@ Filename: dists/termux/extras/binary-arm/pari-gp_2.11.0_arm.deb
 Size: 2999152
 SHA256: 40384e6d0146aa52876d18418be283997813f4794a5a7aa199261a154b0cf87b
 
+Package: portaudio-dev
+Architecture: arm
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180920
+Description: Development files for portaudio
+Homepage: http://www.portaudio.com
+Depends: portaudio
+Filename: dists/termux/extras/binary-arm/portaudio-dev_20180920_arm.deb
+Size: 14780
+SHA256: fc62c5c06edb6497c5c7c7ae056b864ef2befde3f89afd6a17ebe4137849687f
+
+Package: portaudio
+Architecture: arm
+Installed-Size: 636
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180920
+Description: portaudio io via pulseaudio
+Homepage: http://www.portaudio.com
+Depends: pulseaudio
+Filename: dists/termux/extras/binary-arm/portaudio_20180920_arm.deb
+Size: 58740
+SHA256: 74faa9bc621f232a806d492660e5feaaa9cb9dbb8f0df98e1140dc7fa8fe24c9
+
 Package: potrace
 Architecture: arm
 Installed-Size: 160
@@ -2215,6 +2251,17 @@ Homepage: https://ohse.de/uwe/software/lrzsz.html
 Filename: dists/termux/extras/binary-arm/tzdata_2018d_arm.deb
 Size: 208476
 SHA256: a054904a4fbffff9e479a57a81244f593bed0884e9f25fb0163fad08f08462eb
+
+Package: tzdata
+Architecture: arm
+Installed-Size: 5156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018e
+Description: time zone and daylight-saving time data
+Homepage: https://data.iana.org/time-zones
+Filename: dists/termux/extras/binary-arm/tzdata_2018e_arm.deb
+Size: 206584
+SHA256: a5047bbbe7f0f1baddd6c335a146a34ac22eb559b36f732be481e46518d0a94a
 
 Package: unicorn-dev
 Architecture: arm

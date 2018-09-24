@@ -218,6 +218,18 @@ Filename: dists/termux/extras/binary-x86_64/ecl_16.1.3_x86_64.deb
 Size: 1689400
 SHA256: a7d6aa688696a7b232b691def952d6820bac77b5a79f27621bc1a9f14434563c
 
+Package: elfutils-ext
+Architecture: x86_64
+Installed-Size: 1848
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.174
+Description: collection of utilities to handle ELF objects
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, liblzma, libbz2, libelf
+Filename: dists/termux/extras/binary-x86_64/elfutils-ext_0.174_x86_64.deb
+Size: 405428
+SHA256: 3247cd395be801a747344c4c0a6dbacf8eb42ef5fbeeb40f09271f1afb8153e4
+
 Package: exa
 Architecture: x86_64
 Installed-Size: 1400
@@ -1277,6 +1289,30 @@ Filename: dists/termux/extras/binary-x86_64/pcrecpp_8.42_x86_64.deb
 Size: 21384
 SHA256: d9898a5dbe183e1e3de887f76846d4b98bef97f75b09c4e2b4c9b33ca5d3243a
 
+Package: portaudio-dev
+Architecture: x86_64
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180920
+Description: Development files for portaudio
+Homepage: http://www.portaudio.com
+Depends: portaudio
+Filename: dists/termux/extras/binary-x86_64/portaudio-dev_20180920_x86_64.deb
+Size: 14772
+SHA256: 211855e3510d86cc2f339a3362e4e4cf3146060561c6f1d2dc968ea8405c20e7
+
+Package: portaudio
+Architecture: x86_64
+Installed-Size: 812
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180920
+Description: portaudio io via pulseaudio
+Homepage: http://www.portaudio.com
+Depends: pulseaudio
+Filename: dists/termux/extras/binary-x86_64/portaudio_20180920_x86_64.deb
+Size: 85604
+SHA256: f336ee1c4fb7ac647a1fdee0715aae7f8d0d45447225b666cc63824fed595d1d
+
 Package: potrace
 Architecture: x86_64
 Installed-Size: 188
@@ -2085,6 +2121,17 @@ Homepage: https://ohse.de/uwe/software/lrzsz.html
 Filename: dists/termux/extras/binary-x86_64/tzdata_2018d_x86_64.deb
 Size: 188840
 SHA256: 00710e6da4c52f9b8c2e954f8de0f051b2816cfc74fe552dec49a0635cc352dd
+
+Package: tzdata
+Architecture: x86_64
+Installed-Size: 5092
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018e
+Description: time zone and daylight-saving time data
+Homepage: https://data.iana.org/time-zones
+Filename: dists/termux/extras/binary-x86_64/tzdata_2018e_x86_64.deb
+Size: 189524
+SHA256: a882da041398469ed6774779564a803185bc64ea5fbd49ee541a7c2b91a85852
 
 Package: unicorn-dev
 Architecture: x86_64

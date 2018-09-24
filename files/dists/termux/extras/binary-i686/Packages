@@ -208,6 +208,18 @@ Filename: dists/termux/extras/binary-i686/ecl_16.1.3_i686.deb
 Size: 1300316
 SHA256: 1c8fbe35b269340e68fe346da00859ff97310262ecdda2141e1d906b0dc0d2aa
 
+Package: elfutils-ext
+Architecture: i686
+Installed-Size: 1692
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.174
+Description: collection of utilities to handle ELF objects
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, liblzma, libbz2, libelf
+Filename: dists/termux/extras/binary-i686/elfutils-ext_0.174_i686.deb
+Size: 408880
+SHA256: e86c2ca8bd93b1c81ee48c6f1448a0c7f80729d87da12425ad3c54faff84ff2d
+
 Package: exa
 Architecture: i686
 Installed-Size: 1096
@@ -1219,6 +1231,30 @@ Filename: dists/termux/extras/binary-i686/pari-gp_2.11.0_i686.deb
 Size: 2358864
 SHA256: c7a13e1e0f640fb3c5339884894f1884ba079448a8bdce29a27cc3a034fa98db
 
+Package: portaudio-dev
+Architecture: i686
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180920
+Description: Development files for portaudio
+Homepage: http://www.portaudio.com
+Depends: portaudio
+Filename: dists/termux/extras/binary-i686/portaudio-dev_20180920_i686.deb
+Size: 14776
+SHA256: ebe564e5ed2226644a6454709c9cae7430b0d74dff4db15b864132121fb4a74e
+
+Package: portaudio
+Architecture: i686
+Installed-Size: 708
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180920
+Description: portaudio io via pulseaudio
+Homepage: http://www.portaudio.com
+Depends: pulseaudio
+Filename: dists/termux/extras/binary-i686/portaudio_20180920_i686.deb
+Size: 68916
+SHA256: c1be160e2992c9e574f09eb330e6a812224cae392c08005a1618491d4b0cfa38
+
 Package: potrace
 Architecture: i686
 Installed-Size: 176
@@ -2027,6 +2063,17 @@ Homepage: https://ohse.de/uwe/software/lrzsz.html
 Filename: dists/termux/extras/binary-i686/tzdata_2018d_i686.deb
 Size: 191460
 SHA256: ed9a51105164ab425f8aeda90545e1cdbfec095b01ec4cf4037f710b0a7cea0b
+
+Package: tzdata
+Architecture: i686
+Installed-Size: 5096
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018e
+Description: time zone and daylight-saving time data
+Homepage: https://data.iana.org/time-zones
+Filename: dists/termux/extras/binary-i686/tzdata_2018e_i686.deb
+Size: 191956
+SHA256: c331891aa1085fffbb3ffb5cc0cf2f3c8861e90ad7bb2666fa3815ffe056e0e3
 
 Package: unicorn-dev
 Architecture: i686

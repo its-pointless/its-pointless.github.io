@@ -230,6 +230,18 @@ Filename: dists/termux/extras/binary-aarch64/ecl_16.1.3_aarch64.deb
 Size: 1417924
 SHA256: bdea898d0db6f81d2341dd6616dfd760f18585111edb02ec9abfe4e7824d4c5c
 
+Package: elfutils-ext
+Architecture: aarch64
+Installed-Size: 2000
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.174
+Description: collection of utilities to handle ELF objects
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, liblzma, libbz2, libelf
+Filename: dists/termux/extras/binary-aarch64/elfutils-ext_0.174_aarch64.deb
+Size: 377824
+SHA256: d84dd977905f68ad447adc6017dcdb37a33c0589b74efc9ddef43fee5305c96d
+
 Package: exa
 Architecture: aarch64
 Installed-Size: 1236
@@ -1366,6 +1378,30 @@ Filename: dists/termux/extras/binary-aarch64/pcrecpp_8.42_aarch64.deb
 Size: 20076
 SHA256: 21a0e59dc4670843d1233abf493e9c30d541a53e96b1242ae459ae7e5bc65a44
 
+Package: portaudio-dev
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180920
+Description: Development files for portaudio
+Homepage: http://www.portaudio.com
+Depends: portaudio
+Filename: dists/termux/extras/binary-aarch64/portaudio-dev_20180920_aarch64.deb
+Size: 14772
+SHA256: 53ea6b299cf7b50bbb0652a8f39f9223159225b552ef388e9faebcd576a4c824
+
+Package: portaudio
+Architecture: aarch64
+Installed-Size: 820
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180920
+Description: portaudio io via pulseaudio
+Homepage: http://www.portaudio.com
+Depends: pulseaudio
+Filename: dists/termux/extras/binary-aarch64/portaudio_20180920_aarch64.deb
+Size: 63076
+SHA256: c4008232c707d5196c9d6570b451c2cc2cec74834fa58059417407d854bfa56c
+
 Package: potrace
 Architecture: aarch64
 Installed-Size: 208
@@ -2186,6 +2222,17 @@ Homepage: https://ohse.de/uwe/software/lrzsz.html
 Filename: dists/termux/extras/binary-aarch64/tzdata_2018d_aarch64.deb
 Size: 184300
 SHA256: 49dc7d29ad81a11d8606f799949d714d27cdcc85ba192d76616d8b4e16493057
+
+Package: tzdata
+Architecture: aarch64
+Installed-Size: 5156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018e
+Description: time zone and daylight-saving time data
+Homepage: https://data.iana.org/time-zones
+Filename: dists/termux/extras/binary-aarch64/tzdata_2018e_aarch64.deb
+Size: 187448
+SHA256: 6360e9aa23e7291a80e903133ab9a6b7a11a1cd3819fa4fc0b0c662ec2a505ac
 
 Package: unicorn-dev
 Architecture: aarch64
