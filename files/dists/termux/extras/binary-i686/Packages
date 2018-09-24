@@ -281,15 +281,27 @@ SHA256: 382cf73b40e7010d8f661887110abc75f1bc75160bd929a546cbf5d89be5c214
 
 Package: gcc-8
 Architecture: i686
-Installed-Size: 116184
+Installed-Size: 116180
 Maintainer: @its-pointless github
 Version: 8.2.0-2
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
-Depends: binutils (>= 2.31.1-1), libgmp (>= 6.1.2-1), libmpfr (>= 4.0.1-1), libmpc (>= 1.1.0), ndk-sysroot (>= 18-8), libisl (>= 0.20), setup-scripts (>= 2.6), libandroid-support (>= 22)
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
 Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-2_i686.deb
-Size: 32394672
-SHA256: 614ad799f99028fd74877c07acd8f97158dbbbf81054cc974500b1e443cae865
+Size: 32393972
+SHA256: f54148e5828441e8e8dc152e24f7b0515ac9590885564528512deb9ed586bca5
+
+Package: gcc-8
+Architecture: i686
+Installed-Size: 116180
+Maintainer: @its-pointless github
+Version: 8.2.0-3
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-3_i686.deb
+Size: 32394408
+SHA256: eda002f45819fda1ff99a43686cbdf7f3917d5a3eb75f6573fedb7cdd63ea73d
 
 Package: git-lfs
 Architecture: i686
