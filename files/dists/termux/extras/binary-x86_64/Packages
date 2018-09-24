@@ -1932,6 +1932,90 @@ Filename: dists/termux/extras/binary-x86_64/re2c_1.0.3_x86_64.deb
 Size: 158960
 SHA256: 1f87ccf36b00f70091f9e07e9848391c1a0ac7accc0df6cf63de3623bf06fb10
 
+Package: rust-rls-nightly
+Architecture: x86_64
+Installed-Size: 17516
+Maintainer: @its-pointless
+Version: 1.30.0-2
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.30.0-2_x86_64.deb
+Size: 4302832
+SHA256: 9ea860bb3901c89cf6fcc36e36cd113865b5a94450ed6d0553bc3579a0e8c0cf
+
+Package: rust-rls
+Architecture: x86_64
+Installed-Size: 21808
+Maintainer: @its-pointless
+Version: 0.130.0-1
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-x86_64/rust-rls_0.130.0-1_x86_64.deb
+Size: 4865220
+SHA256: 6854ddf46d1a16f6c6e696fd12683d217b8509a4652891fe764f89beede45e0c
+
+Package: rustc-nightly
+Architecture: x86_64
+Installed-Size: 172296
+Maintainer: @its-pointless
+Version: 1.30.0-2
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Provides: rustc
+Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.30.0-2_x86_64.deb
+Size: 55715008
+SHA256: 6f9aabcc6b188e7c8b36414e8ccf04fedc0dfda0bbf53cbae95ae433995b809a
+
+Package: rustc
+Architecture: x86_64
+Installed-Size: 153272
+Maintainer: @its-pointless
+Version: 1.29.0-1
+Description: rust toolchain
+Homepage: https://www.rust-lang.org
+Depends: clang
+Filename: dists/termux/extras/binary-x86_64/rustc_1.29.0-1_x86_64.deb
+Size: 50716160
+SHA256: c93d400324fdf38fd7bd99d1df3793a85b4708ac0e49851b5c2be94236bb49cd
+
+Package: rustfmt-nightly
+Architecture: x86_64
+Installed-Size: 5708
+Maintainer: @its-pointless
+Version: 1.30.0-2
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.30.0-2_x86_64.deb
+Size: 1552664
+SHA256: d24bfa91614322f70022280bcc01c34b91db01c165d59b9cb3035644a904755a
+
+Package: rustfmt
+Architecture: x86_64
+Installed-Size: 5348
+Maintainer: @its-pointless
+Version: 0.99.1-1
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc (>= get-version.sh: No package with name rustc found)
+Filename: dists/termux/extras/binary-x86_64/rustfmt_0.99.1-1_x86_64.deb
+Size: 1463752
+SHA256: 9eb0a97e3cbba9fb0877423268a2e6edeaade874ebffaf9b0288654dbad3d596
+
+Package: rustfmt
+Architecture: x86_64
+Installed-Size: 5348
+Maintainer: @its-pointless
+Version: 1.29.0-1
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-x86_64/rustfmt_1.29.0-1_x86_64.deb
+Size: 1462576
+SHA256: db05ae3bccd3595a1b6f1d7b9e96ebf2420506a109be91735eb734c8feb8b7c5
+
 Package: sc-im
 Architecture: x86_64
 Installed-Size: 332

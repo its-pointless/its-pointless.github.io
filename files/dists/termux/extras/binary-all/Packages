@@ -12,25 +12,26 @@ SHA256: 5dc9be306a27e4db41c41272ec175a5f439c65524f2ecdc9a3155e1afee23993
 
 Package: rust-docs-nightly
 Architecture: all
-Installed-Size: 318260
+Installed-Size: 317668
 Maintainer: @its-pointless
 Version: 1.30.0-2
 Description: Rust language documentation
 Homepage: https://www.rust-lang.org
+Depends: rustc
 Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.30.0-2_all.deb
-Size: 11316056
-SHA256: 817f8815e48067f743f1b099d43cd142d65e54b3c5a3dacf5ea86cb1ff5b07d7
+Size: 11798720
+SHA256: 9291d1ad675f0cfc81bca2da70495ebc5f8554d07111d701630a47476e01c24d
 
 Package: rust-docs
 Architecture: all
-Installed-Size: 270856
+Installed-Size: 270324
 Maintainer: @its-pointless
 Version: 1.29.0-1
 Description: Rust language documentation
 Homepage: https://www.rust-lang.org
 Filename: dists/termux/extras/binary-all/rust-docs_1.29.0-1_all.deb
-Size: 10757248
-SHA256: 9fb11cb6c31fa76417ebde192e913ab0c3e87502811972bd23775bad7e4a4641
+Size: 10711204
+SHA256: 5cc47b1f1e8fffa8aa290286c68b9050896b98323afefe7de3e12393664690c8
 
 Package: rust-nightly-wasm32-unknown-unknown
 Architecture: all
@@ -40,8 +41,8 @@ Version: 1.30.0-2
 Description: rust std for wasm32-unknown-unknown target
 Homepage: https://www.rust-lang.org
 Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.30.0-2_all.deb
-Size: 11611568
-SHA256: 3bac43271373bafac69b1032c5020a2ed63f8ec8a8a3cfc33a6cf419e6a4e52d
+Size: 11608796
+SHA256: 6387a493e14859e7ec4718bec595dc1dde0776afdaf5c1339142079c1a9b9413
 
 Package: rust-std-wasm32-unknown-unknown
 Architecture: all
@@ -50,9 +51,10 @@ Maintainer: @its-pointless
 Version: 1.29.0-1
 Description: rust std for wasm32-unknown-unknown target
 Homepage: https://www.rust-lang.org
+Depends: rustc
 Filename: dists/termux/extras/binary-all/rust-std-wasm32-unknown-unknown_1.29.0-1_all.deb
-Size: 11172188
-SHA256: db0c6e66f90f64d7083cb91bd164e1a42d6b413e7e8c23bf8550527d8d13676b
+Size: 11169984
+SHA256: 858d21dbe9ebc982f83f1fb22fdf322a5c365e1173dc50afbac465d8857be1cc
 
 Package: setup-scripts
 Architecture: all
