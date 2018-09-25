@@ -1299,6 +1299,18 @@ Filename: dists/termux/extras/binary-arm/numpy_1.15.1_arm.deb
 Size: 2316184
 SHA256: e34277c3d7c66056eb9fa889f492a41b60c1edbf11f8080d041df932cad046f0
 
+Package: numpy
+Architecture: arm
+Installed-Size: 14940
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15.2
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-arm/numpy_1.15.2_arm.deb
+Size: 2529288
+SHA256: 497449808eca04ab4b9eb5db19abf3009abf96a741d9836d33965d455ec6d040
+
 Package: ocaml
 Architecture: arm
 Installed-Size: 203164
@@ -1511,6 +1523,18 @@ Filename: dists/termux/extras/binary-arm/python2-numpy_1.15.1_arm.deb
 Size: 2375816
 SHA256: c38887512bb6e49717295c5ed2ef581514bade8fc91f7b44d1552e81ad1edb5d
 
+Package: python2-numpy
+Architecture: arm
+Installed-Size: 15240
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15.2
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python2-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-arm/python2-numpy_1.15.2_arm.deb
+Size: 2529564
+SHA256: 6c03f5934c56457aecbcb573d98b3fa963d9a1228d68f28e5c71e39138c1f947
+
 Package: python2-scipy
 Architecture: arm
 Installed-Size: 43152
@@ -1521,6 +1545,18 @@ Homepage: https://scipy.org/scipylib
 Filename: dists/termux/extras/binary-arm/python2-scipy_1.1.0-2_arm.deb
 Size: 9869476
 SHA256: 81985e32b530f122631b9a352b370196acb66da506f8c87e0995bea0472da15a
+
+Package: python2-scipy
+Architecture: arm
+Installed-Size: 43824
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0-3
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Filename: dists/termux/extras/binary-arm/python2-scipy_1.1.0-3_arm.deb
+Size: 10313720
+SHA256: ae8d92e9ac261763ccb29d10282dce23898d877932f890aa17ad43ae92f77ade
 
 Package: qemu-common
 Architecture: arm
@@ -2251,6 +2287,18 @@ Homepage: https://scipy.org/scipylib
 Filename: dists/termux/extras/binary-arm/scipy_1.1.0-3_arm.deb
 Size: 9608664
 SHA256: 2f2e953103861611b4fa6f0a3bd9eeda576396152f57c32f9aa0fd26284ffe63
+
+Package: scipy
+Architecture: arm
+Installed-Size: 43228
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0-4
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Filename: dists/termux/extras/binary-arm/scipy_1.1.0-4_arm.deb
+Size: 10284696
+SHA256: fe7024b03ddf57f01d3d54b0927a9f27e177dfa3c021a315a899cce5f071062a
 
 Package: suitesparse-dev
 Architecture: arm
