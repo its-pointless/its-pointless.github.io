@@ -573,6 +573,17 @@ Filename: dists/termux/extras/binary-i686/libcompiler-rt_6.0.1_i686.deb
 Size: 711548
 SHA256: 05b0d207405f0c93aad7abfcf441b4526742e7958ee5aa112bd78ebe392ac421
 
+Package: libcompiler-rt
+Architecture: i686
+Installed-Size: 8112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-i686/libcompiler-rt_7.0.0_i686.deb
+Size: 770864
+SHA256: 29ee4eae75f9c612ebefaf6ba36a31476478163aea2781cfcd2224bbdbd282d3
+
 Package: libgfortran4
 Architecture: i686
 Installed-Size: 1760
@@ -990,6 +1001,18 @@ Filename: dists/termux/extras/binary-i686/llvm-libunwind-dev_6.0.1_i686.deb
 Size: 8028
 SHA256: 60bd076383b0bde46f97ce3f6e6f681e2fea22e06e3e97d89583e7ba322771c0
 
+Package: llvm-libunwind-dev
+Architecture: i686
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0
+Description: Development files for llvm-libunwind
+Homepage: https://github.com/llvm-mirror/libunwind
+Depends: llvm-libunwind
+Filename: dists/termux/extras/binary-i686/llvm-libunwind-dev_7.0.0_i686.deb
+Size: 8352
+SHA256: 97538ff73d7b651443d710dff6c4fd8b7b01ced2c4dd15ff2b98880eff66bf7f
+
 Package: llvm-libunwind
 Architecture: i686
 Installed-Size: 32
@@ -1002,6 +1025,19 @@ Provides: libunwind
 Filename: dists/termux/extras/binary-i686/llvm-libunwind_6.0.1_i686.deb
 Size: 11216
 SHA256: 44cdd6a8a990f356ab06fcd29967efb2eca2abecfc2618ac3a05067215b952a9
+
+Package: llvm-libunwind
+Architecture: i686
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0
+Description: llvm libunwind
+Homepage: https://github.com/llvm-mirror/libunwind
+Conflicts: libunwind
+Provides: libunwind
+Filename: dists/termux/extras/binary-i686/llvm-libunwind_7.0.0_i686.deb
+Size: 12896
+SHA256: 4c3cd3e15023d63d0f16aaf9d0817f169eba8ca80248e34104c9672af40fd366
 
 Package: mksh
 Architecture: i686
@@ -1107,6 +1143,30 @@ Depends: opam
 Filename: dists/termux/extras/binary-i686/ocaml_4.05.0_i686.deb
 Size: 38689636
 SHA256: b1447e84c6ebc8db784e6534d8d368c4cf2ee0d62f05f49783ddcd93142e3807
+
+Package: octave-dev
+Architecture: i686
+Installed-Size: 5748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1-1
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-i686/octave-dev_4.4.1-1_i686.deb
+Size: 359880
+SHA256: e75a849ac796a07e436910af185b935c16d442fe5d86e27c1213ed65a5e0ed82
+
+Package: octave
+Architecture: i686
+Installed-Size: 43288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1-1
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-i686/octave_4.4.1-1_i686.deb
+Size: 9774292
+SHA256: 866fc78e69d6bfaeb0677cf2365de1f210cd1bddb657f05af47b227c26269af2
 
 Package: octave
 Architecture: i686

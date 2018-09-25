@@ -732,6 +732,17 @@ Filename: dists/termux/extras/binary-arm/libcompiler-rt_6.0.1_arm.deb
 Size: 753884
 SHA256: eb3b773ba2900cd1b6824771caa339b8e7c169d5300e81b33282050eb81faa69
 
+Package: libcompiler-rt
+Architecture: arm
+Installed-Size: 8976
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-arm/libcompiler-rt_7.0.0_arm.deb
+Size: 806216
+SHA256: d697ba31f53774638c0b61875fd9c84a3464b73285c423f6f3243aae267bb7b0
+
 Package: libgfortran4
 Architecture: arm
 Installed-Size: 708
@@ -1304,6 +1315,18 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1-1
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1-1_arm.deb
+Size: 359876
+SHA256: 60fa69e372df1942de2bfdddfcf4d233d88c4636432758f2da9d91002f543959
+
+Package: octave-dev
+Architecture: arm
+Installed-Size: 5748
+Maintainer: Fredrik Fornwall @fornwall
 Version: 4.4.1
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
@@ -1311,6 +1334,18 @@ Depends: octave
 Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1_arm.deb
 Size: 359868
 SHA256: 4df0d3a6936d40f3c6ab3c6e5fbf4880ca85e5ede40bd942a6267ced3ca8b940
+
+Package: octave
+Architecture: arm
+Installed-Size: 36924
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1-1
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-arm/octave_4.4.1-1_arm.deb
+Size: 9107804
+SHA256: 1d0b15b0f0514c0dfd845c5b69617dd38eeb32e5baec6f28eb91ac0f2b39629a
 
 Package: octave
 Architecture: arm

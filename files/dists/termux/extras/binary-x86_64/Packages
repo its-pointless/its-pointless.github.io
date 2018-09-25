@@ -548,6 +548,17 @@ Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_6.0.1_x86_64.deb
 Size: 1359776
 SHA256: aa4b4ca0c4d5a0f790b98f476a51185cde8c50e7a51be722dfe82e0c1fa10608
 
+Package: libcompiler-rt
+Architecture: x86_64
+Installed-Size: 21344
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_7.0.0_x86_64.deb
+Size: 1770412
+SHA256: 46351bc4b34f82adc8831420addf103e7d7aa7d4276f130b67ab46e425e7ce41
+
 Package: libgfortran4
 Architecture: x86_64
 Installed-Size: 1956
@@ -988,6 +999,18 @@ Filename: dists/termux/extras/binary-x86_64/llvm-libunwind-dev_6.0.1_x86_64.deb
 Size: 8044
 SHA256: 33a47efec7eff4af7c140f1f9e0074961771d759614114973e16b31a02e58baf
 
+Package: llvm-libunwind-dev
+Architecture: x86_64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0
+Description: Development files for llvm-libunwind
+Homepage: https://github.com/llvm-mirror/libunwind
+Depends: llvm-libunwind
+Filename: dists/termux/extras/binary-x86_64/llvm-libunwind-dev_7.0.0_x86_64.deb
+Size: 8360
+SHA256: b8d48cfef1e316b22e16cddbc520082b8cc35b0f87386406056ca580ac5f42d6
+
 Package: llvm-libunwind
 Architecture: x86_64
 Installed-Size: 32
@@ -1000,6 +1023,19 @@ Provides: libunwind
 Filename: dists/termux/extras/binary-x86_64/llvm-libunwind_6.0.1_x86_64.deb
 Size: 11744
 SHA256: 9a9b323261634a827c19f95f93a0eaf25762a9c671d7542bcff8f360eafa7908
+
+Package: llvm-libunwind
+Architecture: x86_64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0
+Description: llvm libunwind
+Homepage: https://github.com/llvm-mirror/libunwind
+Conflicts: libunwind
+Provides: libunwind
+Filename: dists/termux/extras/binary-x86_64/llvm-libunwind_7.0.0_x86_64.deb
+Size: 13116
+SHA256: 108792f74cb633a388189c034c876ddf451018352aa398779b1174e35d4a7113
 
 Package: mksh
 Architecture: x86_64
@@ -1134,6 +1170,18 @@ Package: octave-dev
 Architecture: x86_64
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1-1
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-x86_64/octave-dev_4.4.1-1_x86_64.deb
+Size: 359940
+SHA256: f7ee8dd946a1681da6a31c3901255ad312aced62e6870a5494ac9fc0c5834508
+
+Package: octave-dev
+Architecture: x86_64
+Installed-Size: 5748
+Maintainer: Fredrik Fornwall @fornwall
 Version: 4.4.1
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
@@ -1141,6 +1189,18 @@ Depends: octave
 Filename: dists/termux/extras/binary-x86_64/octave-dev_4.4.1_x86_64.deb
 Size: 359916
 SHA256: 1efb337b966bff7035520697f1b262bdb275f8baac453f792f5e41ba192804c7
+
+Package: octave
+Architecture: x86_64
+Installed-Size: 44080
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1-1
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-x86_64/octave_4.4.1-1_x86_64.deb
+Size: 9789132
+SHA256: c60cdbced3642358b515a173c74b51e6a9b6d2128e8c53aa5f6ea77a165afb9e
 
 Package: octave
 Architecture: x86_64
