@@ -1179,6 +1179,18 @@ SHA256: 5db44632d8ab1ed3f31976026fe9748a6c5e05cc34ba58b6cc9e6ce848364f84
 
 Package: mongodb
 Architecture: aarch64
+Installed-Size: 133728
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.1-1
+Description: mongo db
+Homepage: https://github.com/mongodb/mongo
+Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
+Filename: dists/termux/extras/binary-aarch64/mongodb_4.1.1-1_aarch64.deb
+Size: 28109644
+SHA256: a8c9bcc562a87d1a5851cd7bc3871dd61baa38b3fe1bf2b8dc1ee1c00cb7a77d
+
+Package: mongodb
+Architecture: aarch64
 Installed-Size: 136352
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.1.1
@@ -1435,8 +1447,8 @@ Description: pcre cpp
 Homepage: https://www.pcre.org
 Depends: pcrecpp
 Filename: dists/termux/extras/binary-aarch64/pcrecpp-dev_8.42_aarch64.deb
-Size: 9656
-SHA256: a480cd48a081bf3ace5c75861f2ccb7e1ee02409866f259a2cdcfce03171b052
+Size: 9668
+SHA256: 90cff83ef9e3b3845f28698e8f205e272e83fdc5f885327723579639078de541
 
 Package: pcrecpp
 Architecture: aarch64
@@ -1447,8 +1459,8 @@ Description: pcre cpp
 Homepage: https://www.pcre.org
 Depends: pcre
 Filename: dists/termux/extras/binary-aarch64/pcrecpp_8.42_aarch64.deb
-Size: 20076
-SHA256: 21a0e59dc4670843d1233abf493e9c30d541a53e96b1242ae459ae7e5bc65a44
+Size: 19972
+SHA256: 01a1e22d5e099a8eccc1156130f6de7225940bec7dc455ad47cd4c35cd797b48
 
 Package: portaudio-dev
 Architecture: aarch64
