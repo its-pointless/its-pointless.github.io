@@ -712,28 +712,6 @@ SHA256: 712ad4b57104c5b5e5a32467fd38e49dc36917e763f6f20485dccac278cf8902
 
 Package: libcompiler-rt
 Architecture: arm
-Installed-Size: 7532
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1-1
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-arm/libcompiler-rt_6.0.1-1_arm.deb
-Size: 752984
-SHA256: 962908475e9866e01f034dbfbc57490a6823a698de2d926fb461aef6f3656e1b
-
-Package: libcompiler-rt
-Architecture: arm
-Installed-Size: 7532
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-arm/libcompiler-rt_6.0.1_arm.deb
-Size: 753884
-SHA256: eb3b773ba2900cd1b6824771caa339b8e7c169d5300e81b33282050eb81faa69
-
-Package: libcompiler-rt
-Architecture: arm
 Installed-Size: 8976
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0.0
@@ -1253,6 +1231,21 @@ Filename: dists/termux/extras/binary-arm/nethack_3.6.1_arm.deb
 Size: 1382084
 SHA256: 1c0293f1ab19292e317ddb3e6bce5c3d31d1b2f1df5151510591dee782c33ee2
 
+Package: newsboat-android-5.0
+Architecture: arm
+Installed-Size: 1504
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.13
+Description: RSS/Atom feed reader for the text console
+Homepage: https://newsboat.org/
+Depends: libandroid-support, libandroid-glob, json-c, libsqlite, libcurl, libxml2, stfl, ncurses, openssl
+Conflicts: newsboat
+Replaces: newsboat
+Provides: newsboat
+Filename: dists/termux/extras/binary-arm/newsboat-android-5.0_2.13_arm.deb
+Size: 480616
+SHA256: dc80a7b2742c4c888bf452bf7ee6b61775406667a0d3fa31493e7336ea992c63
+
 Package: nim
 Architecture: arm
 Installed-Size: 10012
@@ -1327,49 +1320,25 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-1
+Version: 4.4.1-2
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1-1_arm.deb
-Size: 359876
-SHA256: 60fa69e372df1942de2bfdddfcf4d233d88c4636432758f2da9d91002f543959
-
-Package: octave-dev
-Architecture: arm
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1_arm.deb
-Size: 359868
-SHA256: 4df0d3a6936d40f3c6ab3c6e5fbf4880ca85e5ede40bd942a6267ced3ca8b940
+Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1-2_arm.deb
+Size: 359848
+SHA256: 417ea6d63359d8a56f01a0cad984c670ab9a9dcac448308bb92ce3a60df135b7
 
 Package: octave
 Architecture: arm
-Installed-Size: 36924
+Installed-Size: 36760
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-1
+Version: 4.4.1-2
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
 Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-arm/octave_4.4.1-1_arm.deb
-Size: 9107804
-SHA256: 1d0b15b0f0514c0dfd845c5b69617dd38eeb32e5baec6f28eb91ac0f2b39629a
-
-Package: octave
-Architecture: arm
-Installed-Size: 38136
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-arm/octave_4.4.1_arm.deb
-Size: 9101300
-SHA256: 354bdab457f0b320e6f83b10d8e8387cd3247eff949e40e5f32e16459944ce67
+Filename: dists/termux/extras/binary-arm/octave_4.4.1-2_arm.deb
+Size: 9024172
+SHA256: fa589399095356ea843c117db1e01536715b4d547c14d34be2ccb49dbc009181
 
 Package: opam
 Architecture: arm

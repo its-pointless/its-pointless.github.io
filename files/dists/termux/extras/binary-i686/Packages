@@ -553,28 +553,6 @@ SHA256: 7113977aa34752567d0f406d095776ef4d574d60a508264e1825c3d215960da5
 
 Package: libcompiler-rt
 Architecture: i686
-Installed-Size: 6688
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1-1
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-i686/libcompiler-rt_6.0.1-1_i686.deb
-Size: 711964
-SHA256: f2e646ad9303bdceb937070defba8b6ac1eec52ecd1bc31c4ab9ac7cf94f3ccf
-
-Package: libcompiler-rt
-Architecture: i686
-Installed-Size: 6688
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-i686/libcompiler-rt_6.0.1_i686.deb
-Size: 711548
-SHA256: 05b0d207405f0c93aad7abfcf441b4526742e7958ee5aa112bd78ebe392ac421
-
-Package: libcompiler-rt
-Architecture: i686
 Installed-Size: 8112
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0.0
@@ -1086,6 +1064,21 @@ Filename: dists/termux/extras/binary-i686/nethack_3.6.1_i686.deb
 Size: 1317736
 SHA256: b81efee6265decd4605d07b687c5e582de5e45953054e00b83511220de819872
 
+Package: newsboat-android-5.0
+Architecture: i686
+Installed-Size: 1896
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.13
+Description: RSS/Atom feed reader for the text console
+Homepage: https://newsboat.org/
+Depends: libandroid-support, libandroid-glob, json-c, libsqlite, libcurl, libxml2, stfl, ncurses, openssl
+Conflicts: newsboat
+Replaces: newsboat
+Provides: newsboat
+Filename: dists/termux/extras/binary-i686/newsboat-android-5.0_2.13_i686.deb
+Size: 488636
+SHA256: 33773b7c8a0a8f7d4722f924512442ee8182096266bc5eb9541955538e04c0d5
+
 Package: nim
 Architecture: i686
 Installed-Size: 10608
@@ -1160,37 +1153,25 @@ Package: octave-dev
 Architecture: i686
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-1
+Version: 4.4.1-2
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-i686/octave-dev_4.4.1-1_i686.deb
-Size: 359880
-SHA256: e75a849ac796a07e436910af185b935c16d442fe5d86e27c1213ed65a5e0ed82
+Filename: dists/termux/extras/binary-i686/octave-dev_4.4.1-2_i686.deb
+Size: 359804
+SHA256: dfab3b00870ebcac47bf2af09e8f7f8661cd3f7d91dd12416e181c1d66496c00
 
 Package: octave
 Architecture: i686
-Installed-Size: 43288
+Installed-Size: 43084
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-1
+Version: 4.4.1-2
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
 Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-i686/octave_4.4.1-1_i686.deb
-Size: 9774292
-SHA256: 866fc78e69d6bfaeb0677cf2365de1f210cd1bddb657f05af47b227c26269af2
-
-Package: octave
-Architecture: i686
-Installed-Size: 44656
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-i686/octave_4.4.1_i686.deb
-Size: 9745252
-SHA256: 6b723bf52a497d63049749dd74a7626f5873129af23d86da8b8503ced8b9d216
+Filename: dists/termux/extras/binary-i686/octave_4.4.1-2_i686.deb
+Size: 9704412
+SHA256: 7dfe7e5158b63b3bf4779571bf4a5dc3596b2ce63f06940c1d376db12025c321
 
 Package: opam
 Architecture: i686

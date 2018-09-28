@@ -576,28 +576,6 @@ SHA256: 0da354d745bfa06ce8a26d88cdba0350c79c1a017390789872022a24743f10bb
 
 Package: libcompiler-rt
 Architecture: aarch64
-Installed-Size: 15660
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1-1
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-aarch64/libcompiler-rt_6.0.1-1_aarch64.deb
-Size: 1159976
-SHA256: 8b5d7eaf86b8c814e7012e22e079f39cb30da4f62575882a355301edf62a2bf4
-
-Package: libcompiler-rt
-Architecture: aarch64
-Installed-Size: 15664
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-aarch64/libcompiler-rt_6.0.1_aarch64.deb
-Size: 1152264
-SHA256: 88668a9a11b4d71d4ac9f9184c155167422cd5f7f80f3b2f46492808d2a0051a
-
-Package: libcompiler-rt
-Architecture: aarch64
 Installed-Size: 23584
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0.0
@@ -1201,6 +1179,18 @@ Filename: dists/termux/extras/binary-aarch64/mongodb_4.1.1_aarch64.deb
 Size: 23966872
 SHA256: 5580f043934a0482239000a260e2f83f9e5d2adc67c27073c8698deb420ae54b
 
+Package: mongodb
+Architecture: aarch64
+Installed-Size: 135200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.3
+Description: mongo db
+Homepage: https://github.com/mongodb/mongo
+Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
+Filename: dists/termux/extras/binary-aarch64/mongodb_4.1.3_aarch64.deb
+Size: 28097452
+SHA256: af1f6317137a488594b08e41c2d00a8466fd9fd76ad1760bf7f5b2abccded655
+
 Package: mpich
 Architecture: aarch64
 Installed-Size: 6320
@@ -1224,6 +1214,21 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-aarch64/nethack_3.6.1_aarch64.deb
 Size: 1230976
 SHA256: a2e3d341b9ead9f2ad1c7b5a4ee78be54545516783bf3c3da2e499f7c67597bd
+
+Package: newsboat-android-5.0
+Architecture: aarch64
+Installed-Size: 1888
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.13
+Description: RSS/Atom feed reader for the text console
+Homepage: https://newsboat.org/
+Depends: libandroid-support, libandroid-glob, json-c, libsqlite, libcurl, libxml2, stfl, ncurses, openssl
+Conflicts: newsboat
+Replaces: newsboat
+Provides: newsboat
+Filename: dists/termux/extras/binary-aarch64/newsboat-android-5.0_2.13_aarch64.deb
+Size: 415568
+SHA256: 7c7ca33bcb8ee2903dc887ea15e5bc29629c44e7998debeea95a0766e59f1109
 
 Package: nim
 Architecture: aarch64
@@ -1311,49 +1316,25 @@ Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-1
+Version: 4.4.1-2
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
-Filename: dists/termux/extras/binary-aarch64/octave-dev_4.4.1-1_aarch64.deb
-Size: 359920
-SHA256: 05eb906421ef0e4f6186bb4a92b22179a58b3ef5a303feb36bc97e78a9c1331c
-
-Package: octave-dev
-Architecture: aarch64
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-aarch64/octave-dev_4.4.1_aarch64.deb
-Size: 359984
-SHA256: 3f44dac90283222bfc3cddd89392e04393ff14df1b66abde60794e00444822ad
+Filename: dists/termux/extras/binary-aarch64/octave-dev_4.4.1-2_aarch64.deb
+Size: 359828
+SHA256: eeb1c65ed2b0a419ba5ae8d92fc5b1e50ab0c5659927561c8e79a41306c8db1e
 
 Package: octave
 Architecture: aarch64
-Installed-Size: 43440
+Installed-Size: 43224
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-1
+Version: 4.4.1-2
 Description: Scientific Programming Language
 Homepage: https://www.gnu.org/software/octave/
 Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-aarch64/octave_4.4.1-1_aarch64.deb
-Size: 8724396
-SHA256: 479ef3e4803b71e1b362ee70b00f4d0ce38a024442f53038bee945c233f2e96d
-
-Package: octave
-Architecture: aarch64
-Installed-Size: 45204
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-aarch64/octave_4.4.1_aarch64.deb
-Size: 8728468
-SHA256: d431e6e53abe40b7a646c2e58be1d499954086690c07e6e933bc9139cd09c779
+Filename: dists/termux/extras/binary-aarch64/octave_4.4.1-2_aarch64.deb
+Size: 8652360
+SHA256: fe43de07f3397af62eef7912bbd6bc0c4c8431850cf7318740675bacc8697343
 
 Package: opam
 Architecture: aarch64
