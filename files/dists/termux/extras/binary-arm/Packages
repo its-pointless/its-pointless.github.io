@@ -533,6 +533,18 @@ SHA256: 10a426b928921b17e60730f6fc2ca1d4f38523740abf4c625db243f1b2720a9a
 
 Package: julia-llvm
 Architecture: arm
+Installed-Size: 141376
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0-1
+Description: llvm with julia patches (only useful if compiling julia itself)
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libllvm-julia
+Filename: dists/termux/extras/binary-arm/julia-llvm_6.0.0-1_arm.deb
+Size: 21988292
+SHA256: 635617c5c8d58e9f5f8d4b87c39a9426e9075aa5c89ab4417acc4e3fa8fcc5dd
+
+Package: julia-llvm
+Architecture: arm
 Installed-Size: 175864
 Maintainer: Fredrik Fornwall @fornwall
 Version: 6.0.0
@@ -558,6 +570,20 @@ Replaces: julia-devprev, julia-alpha, julia-beta
 Filename: dists/termux/extras/binary-arm/julia_1.0.0_arm.deb
 Size: 20159712
 SHA256: 7ef5cb479efea677608fb5843ea6974e6e829af30cfc79bc5e3b84d6bdf99c94
+
+Package: julia
+Architecture: arm
+Installed-Size: 127476
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: high-performance dynamic programming language for numerical computing
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux, libunwind
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Filename: dists/termux/extras/binary-arm/julia_1.0.1_arm.deb
+Size: 20166156
+SHA256: 971595bfafe9d252f4c14ee0cf38ccd460e33a2efe3abb413debfbfcc5d132ff
 
 Package: keystone-dev
 Architecture: arm
@@ -709,6 +735,17 @@ Depends: boost
 Filename: dists/termux/extras/binary-arm/libcgal_4.12_arm.deb
 Size: 192276
 SHA256: 712ad4b57104c5b5e5a32467fd38e49dc36917e763f6f20485dccac278cf8902
+
+Package: libcompiler-rt-termux
+Architecture: arm
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-arm/libcompiler-rt-termux_7.0.0_arm.deb
+Size: 16832
+SHA256: 05fbef66670f96173e48a6b4d45e62b38b672b5fde9c58e19cc6ee76e42f9fd1
 
 Package: libcompiler-rt
 Architecture: arm
@@ -879,6 +916,17 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-arm/libgomp-8_8.2.0_arm.deb
 Size: 66696
 SHA256: de402fe11f4b9d9aa94c63900be8e743dfeac3a413654677b98fa04d22d4cec5
+
+Package: libllvm-julia
+Architecture: arm
+Installed-Size: 34352
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0-1
+Description: patched libllvm for use with julia
+Homepage: https://clang.llvm.org/
+Filename: dists/termux/extras/binary-arm/libllvm-julia_6.0.0-1_arm.deb
+Size: 8581412
+SHA256: d3ae3fefa1a876ffd36a4f71c9e319b9e4e5167d2ee9dfbed3b67ec95b57eac3
 
 Package: libllvm-julia
 Architecture: arm
@@ -1280,17 +1328,6 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-arm/nudoku_1.0.0_arm.deb
 Size: 10180
 SHA256: 05423939c6a27cc31e53e4b203b0d92194daacb29ee7e70462622b7c985ac17a
-
-Package: numpy
-Architecture: arm
-Installed-Size: 14212
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Filename: dists/termux/extras/binary-arm/numpy_1.15.1_arm.deb
-Size: 2316184
-SHA256: e34277c3d7c66056eb9fa889f492a41b60c1edbf11f8080d041df932cad046f0
 
 Package: numpy
 Architecture: arm
@@ -2019,19 +2056,6 @@ SHA256: cd67a626b136f6a355966b958e417b9cf2bb557f6882169f7971fd2218688b22
 
 Package: r-base
 Architecture: arm
-Installed-Size: 60452
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-3
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
-Replaces: r-cran
-Filename: dists/termux/extras/binary-arm/r-base_3.5.0-3_arm.deb
-Size: 39248728
-SHA256: 19d558f7340adde839983fcc52bf17f780d2dcf7553c8688a3f0c95c4f2c5593
-
-Package: r-base
-Architecture: arm
 Installed-Size: 59596
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.1
@@ -2245,17 +2269,6 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-arm/sc_7.16_arm.deb
 Size: 147760
 SHA256: de80d8d3eef3be77c4001109261ac6719b5e9f871b6eddb6aff7290c21ecbe79
-
-Package: scipy
-Architecture: arm
-Installed-Size: 41360
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-3
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Filename: dists/termux/extras/binary-arm/scipy_1.1.0-3_arm.deb
-Size: 9608664
-SHA256: 2f2e953103861611b4fa6f0a3bd9eeda576396152f57c32f9aa0fd26284ffe63
 
 Package: scipy
 Architecture: arm

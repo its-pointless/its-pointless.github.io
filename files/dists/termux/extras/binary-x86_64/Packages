@@ -407,6 +407,18 @@ SHA256: 32cefa43b56dd9392ae51c7d539a0ab1d5cb2349917b539fb2ea6ae818fe2122
 
 Package: julia-llvm
 Architecture: x86_64
+Installed-Size: 161452
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0-1
+Description: llvm with julia patches (only useful if compiling julia itself)
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libllvm-julia
+Filename: dists/termux/extras/binary-x86_64/julia-llvm_6.0.0-1_x86_64.deb
+Size: 21457696
+SHA256: d1f97263c18ef3ae7a39eacadaab5be9ad93dec31564f10d76fd02fd7550a2c9
+
+Package: julia-llvm
+Architecture: x86_64
 Installed-Size: 163120
 Maintainer: Fredrik Fornwall @fornwall
 Version: 6.0.0
@@ -432,6 +444,20 @@ Replaces: julia-devprev, julia-alpha, julia-beta
 Filename: dists/termux/extras/binary-x86_64/julia_1.0.0_x86_64.deb
 Size: 20522536
 SHA256: 53e01df7f924a72adbc0e3bf50854ebcb52d3cc8baeb04f305ca98766cc0c8e3
+
+Package: julia
+Architecture: x86_64
+Installed-Size: 149168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: high-performance dynamic programming language for numerical computing
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Filename: dists/termux/extras/binary-x86_64/julia_1.0.1_x86_64.deb
+Size: 20411556
+SHA256: ab9dc71faa10e66214085ac6648fd74c8615a0ec341c9336a4ac6bb8a7b5f377
 
 Package: keystone-dev
 Architecture: x86_64
@@ -525,6 +551,17 @@ Depends: boost
 Filename: dists/termux/extras/binary-x86_64/libcgal_4.12_x86_64.deb
 Size: 227212
 SHA256: c46dbf946cdfe1e02543f6d9c8c0174004baa4119942fb2599063bc18759fff7
+
+Package: libcompiler-rt-termux
+Architecture: x86_64
+Installed-Size: 72
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-x86_64/libcompiler-rt-termux_7.0.0_x86_64.deb
+Size: 30864
+SHA256: 6a60a5900c563d5a51f3a87ae589b3b210e906f32f0fa662a7eeba439f1fd0dc
 
 Package: libcompiler-rt
 Architecture: x86_64
@@ -661,6 +698,17 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.2.0_x86_64.deb
 Size: 77320
 SHA256: de5aa7e74ff437c5bbb4fb728dc2748543ccf1f3a71e0e458714ddfe45741e60
+
+Package: libllvm-julia
+Architecture: x86_64
+Installed-Size: 46772
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0-1
+Description: patched libllvm for use with julia
+Homepage: https://clang.llvm.org/
+Filename: dists/termux/extras/binary-x86_64/libllvm-julia_6.0.0-1_x86_64.deb
+Size: 9784388
+SHA256: 5f2fd0f2b08c8af2730ab4441593fd7b9979bdd88246eeb72a78390f63a1ee6e
 
 Package: libllvm-julia
 Architecture: x86_64
@@ -1040,30 +1088,6 @@ SHA256: 6ed56efb116a20f75b73344b98e495759dd41e05a3ccdef31eb16f8684e5a042
 
 Package: mongodb
 Architecture: x86_64
-Installed-Size: 141564
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.1-1
-Description: mongo db
-Homepage: https://github.com/mongodb/mongo
-Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
-Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.1-1_x86_64.deb
-Size: 32845040
-SHA256: fd6e079f1fa3438f5f4e88dc0ce08a6c8ade20af252498406dc5168e8d976005
-
-Package: mongodb
-Architecture: x86_64
-Installed-Size: 142496
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.1
-Description: mongo db
-Homepage: https://github.com/mongodb/mongo
-Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
-Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.1_x86_64.deb
-Size: 28034900
-SHA256: 9f212b1bd24826da12dff5ad6d14b384eb2094643b368e0b4856a433b1798e40
-
-Package: mongodb
-Architecture: x86_64
 Installed-Size: 143104
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.1.3
@@ -1147,17 +1171,6 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-x86_64/nudoku_1.0.0_x86_64.deb
 Size: 7600
 SHA256: 2ff6de89f2530f40ef9e51ca8f99e97f949a2ae3bebd86e31243d0151cf27f47
-
-Package: numpy
-Architecture: x86_64
-Installed-Size: 15092
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Filename: dists/termux/extras/binary-x86_64/numpy_1.15.1_x86_64.deb
-Size: 2367764
-SHA256: 71f318205f84ce1ce3afa2e8cf42954d6cab0c6ca9c869cacf832319fec81395
 
 Package: numpy
 Architecture: x86_64
@@ -1950,19 +1963,6 @@ SHA256: 313ca1a20d8c08e9030a8fe30ffb58d5e2039ff9e353d390e19051d8b547eb45
 
 Package: r-base
 Architecture: x86_64
-Installed-Size: 61996
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-3
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
-Replaces: r-cran
-Filename: dists/termux/extras/binary-x86_64/r-base_3.5.0-3_x86_64.deb
-Size: 39858596
-SHA256: 5bdb3b7160efedadc6f29f5aad6ed09dcc100452dc7c62c30953a187caadbca2
-
-Package: r-base
-Architecture: x86_64
 Installed-Size: 61552
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.1
@@ -2164,17 +2164,6 @@ Depends:  libandroid-support, bthread
 Filename: dists/termux/extras/binary-x86_64/sc-im_0.7.0_x86_64.deb
 Size: 120416
 SHA256: dd85fdbfb8b3f954c26ebff7d712aff376fef85a53ea92c56b9915eb0790f8b0
-
-Package: scipy
-Architecture: x86_64
-Installed-Size: 46668
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-3
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Filename: dists/termux/extras/binary-x86_64/scipy_1.1.0-3_x86_64.deb
-Size: 10127752
-SHA256: 0ff0052b76ab1209f98c7bdb61c198413ca4790d85301631804ac0ebab18367b
 
 Package: scipy
 Architecture: x86_64

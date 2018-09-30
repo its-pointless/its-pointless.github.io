@@ -432,6 +432,18 @@ SHA256: 997ae1e52b867828c4993be53800b005d7ed5d5d3812d1e5461551bf894eb512
 
 Package: julia-llvm
 Architecture: i686
+Installed-Size: 132296
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0-1
+Description: llvm with julia patches (only useful if compiling julia itself)
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libllvm-julia
+Filename: dists/termux/extras/binary-i686/julia-llvm_6.0.0-1_i686.deb
+Size: 20753912
+SHA256: 9612272a889ff13621d32f04239ee87e03ad54b4bcb4cb7b4e0711bf430c16b6
+
+Package: julia-llvm
+Architecture: i686
 Installed-Size: 133840
 Maintainer: Fredrik Fornwall @fornwall
 Version: 6.0.0
@@ -457,6 +469,20 @@ Replaces: julia-devprev, julia-alpha, julia-beta
 Filename: dists/termux/extras/binary-i686/julia_1.0.0_i686.deb
 Size: 20341320
 SHA256: 384c5d349bec95ec996810e3fc99268dcb797af0c8e24812f8bd6ad8f4805380
+
+Package: julia
+Architecture: i686
+Installed-Size: 127220
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Description: high-performance dynamic programming language for numerical computing
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Filename: dists/termux/extras/binary-i686/julia_1.0.1_i686.deb
+Size: 19997888
+SHA256: e9c6ecd6453cdc55dca3cd5d7b908001f29eecba29044641fee9995eff322d09
 
 Package: keystone-dev
 Architecture: i686
@@ -550,6 +576,17 @@ Depends: boost
 Filename: dists/termux/extras/binary-i686/libcgal_4.12_i686.deb
 Size: 223832
 SHA256: 7113977aa34752567d0f406d095776ef4d574d60a508264e1825c3d215960da5
+
+Package: libcompiler-rt-termux
+Architecture: i686
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-i686/libcompiler-rt-termux_7.0.0_i686.deb
+Size: 24420
+SHA256: e0af998188c64874cc53df05caaa003dc31f9d8a24382d9c4fbc84f20de1fab5
 
 Package: libcompiler-rt
 Architecture: i686
@@ -686,6 +723,17 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0_i686.deb
 Size: 81272
 SHA256: e7b67cb8a9efa90fa17a6567a252b48907f4cc6ad1119db74baf159e683588c4
+
+Package: libllvm-julia
+Architecture: i686
+Installed-Size: 43504
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.0-1
+Description: patched libllvm for use with julia
+Homepage: https://clang.llvm.org/
+Filename: dists/termux/extras/binary-i686/libllvm-julia_6.0.0-1_i686.deb
+Size: 9797476
+SHA256: 5a3aa18792452b9144cea4444d41ec88592df51c7b145285864a84e29b01a9d2
 
 Package: libllvm-julia
 Architecture: i686
@@ -1113,17 +1161,6 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-i686/nudoku_1.0.0_i686.deb
 Size: 7152
 SHA256: 9285f61602b132e4e63de3bf4e008739e24dc792ca4bfffb4659d3d2b6f8f25f
-
-Package: numpy
-Architecture: i686
-Installed-Size: 14788
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Filename: dists/termux/extras/binary-i686/numpy_1.15.1_i686.deb
-Size: 2316268
-SHA256: c9b2b6b703f8c20916b98381c74dc0fcd142cddebb3b5b7b3ee66982fa5a0356
 
 Package: numpy
 Architecture: i686
@@ -1880,19 +1917,6 @@ SHA256: 8d34febe2da0caa7f5cdba69e8f3edbd387d93b60d77c27851b190596739caea
 
 Package: r-base
 Architecture: i686
-Installed-Size: 61176
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-3
-Description: a freely available language and environment for statistical computing and graphics
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran4, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
-Replaces: r-cran
-Filename: dists/termux/extras/binary-i686/r-base_3.5.0-3_i686.deb
-Size: 39552052
-SHA256: e4880a84f33c2483006e0f1cb02377a2928992fa597d8cc6587ced5a7fc1fd73
-
-Package: r-base
-Architecture: i686
 Installed-Size: 60712
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.1
@@ -2094,17 +2118,6 @@ Depends:  libandroid-support, bthread
 Filename: dists/termux/extras/binary-i686/sc-im_0.7.0_i686.deb
 Size: 109392
 SHA256: 4f99199aa7c981d808dc4ba8aa724e398f724f74132f52a07d193158636264ec
-
-Package: scipy
-Architecture: i686
-Installed-Size: 44800
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-3
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Filename: dists/termux/extras/binary-i686/scipy_1.1.0-3_i686.deb
-Size: 9481548
-SHA256: 8d1ee1bb06991bdda09356e302df7e7c500bf8232419344135eaf26ed01c098b
 
 Package: scipy
 Architecture: i686
