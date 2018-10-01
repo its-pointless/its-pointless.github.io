@@ -2270,6 +2270,18 @@ Filename: dists/termux/extras/binary-x86_64/wiredtiger_3.1.0_x86_64.deb
 Size: 402332
 SHA256: a14fb52e13d97d7ddf1882d24a1896b774294a80f7b9c62a496ddb411511ca7a
 
+Package: wordgrinder
+Architecture: x86_64
+Installed-Size: 296
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.1
+Description: a Unicode-aware character cell word processor
+Homepage: http://cowlark.com/wordgrinder/
+Depends: libandroid-support, ncurses, liblua
+Filename: dists/termux/extras/binary-x86_64/wordgrinder_0.7.1_x86_64.deb
+Size: 67528
+SHA256: 72433fd0b3a103b4274c993c8afdb2c7952b4dc30fb9a46785ee8e9ac4ef6c15
+
 Package: yaml-cpp-dev
 Architecture: x86_64
 Installed-Size: 1880

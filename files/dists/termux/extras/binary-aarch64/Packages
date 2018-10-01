@@ -2371,6 +2371,18 @@ Filename: dists/termux/extras/binary-aarch64/wiredtiger_3.1.0_aarch64.deb
 Size: 333264
 SHA256: ea521dee3466fa21799a6347fa142b14e4d9b3f40f47a22450fc6a84a33d59d0
 
+Package: wordgrinder
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.1
+Description: a Unicode-aware character cell word processor
+Homepage: http://cowlark.com/wordgrinder/
+Depends: libandroid-support, ncurses, liblua
+Filename: dists/termux/extras/binary-aarch64/wordgrinder_0.7.1_aarch64.deb
+Size: 64392
+SHA256: a2644b27303d3effb1517c531919ac1704a90a9b667544510ce038b3e56e3bda
+
 Package: yaml-cpp-dev
 Architecture: aarch64
 Installed-Size: 1880

@@ -2350,3 +2350,15 @@ Homepage: http://www.unicorn-engine.org/
 Filename: dists/termux/extras/binary-arm/unicorn_1.0.1_arm.deb
 Size: 1126228
 SHA256: 20ac3ee2cfd9d355f61339bc200c6a4a1dc6a5b3a2f8dcc9f390e42aac3acb21
+
+Package: wordgrinder
+Architecture: arm
+Installed-Size: 276
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.1
+Description: a Unicode-aware character cell word processor
+Homepage: http://cowlark.com/wordgrinder/
+Depends: libandroid-support, ncurses, liblua
+Filename: dists/termux/extras/binary-arm/wordgrinder_0.7.1_arm.deb
+Size: 64088
+SHA256: 354392492acf9ff7ff79c7cc06a7029aaa75e52c4ebafa2afc1d9f3fd27e4981
