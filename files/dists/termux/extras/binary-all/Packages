@@ -33,6 +33,17 @@ Filename: dists/termux/extras/binary-all/rust-docs_1.29.0-1_all.deb
 Size: 10711204
 SHA256: 5cc47b1f1e8fffa8aa290286c68b9050896b98323afefe7de3e12393664690c8
 
+Package: rust-docs
+Architecture: all
+Installed-Size: 270812
+Maintainer: @its-pointless
+Version: 1.29.1-2
+Description: Rust language documentation
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-all/rust-docs_1.29.1-2_all.deb
+Size: 10737604
+SHA256: f74bae0eb525d4f3cd8cadab0e2e94c7eaf277773bdccc6b6f314bd2ebb59de3
+
 Package: rust-nightly-wasm32-unknown-unknown
 Architecture: all
 Installed-Size: 39400
@@ -55,6 +66,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-all/rust-std-wasm32-unknown-unknown_1.29.0-1_all.deb
 Size: 11169984
 SHA256: 858d21dbe9ebc982f83f1fb22fdf322a5c365e1173dc50afbac465d8857be1cc
+
+Package: rust-std-wasm32-unknown-unknown
+Architecture: all
+Installed-Size: 33416
+Maintainer: @its-pointless
+Version: 1.29.1-2
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-all/rust-std-wasm32-unknown-unknown_1.29.1-2_all.deb
+Size: 11175496
+SHA256: abd652ecda7ca85fd5a241d10aae64994c4374911ca96128609548e67b557b74
 
 Package: setup-scripts
 Architecture: all

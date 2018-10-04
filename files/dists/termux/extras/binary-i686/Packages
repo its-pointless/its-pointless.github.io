@@ -116,6 +116,18 @@ SHA256: 446d10cccf1e0ebc2704c573b0f70b0b08e46bef97b81804d297222f0ef05625
 
 Package: cargo
 Architecture: i686
+Installed-Size: 10696
+Maintainer: @its-pointless
+Version: 0.30.0-2
+Description: Rust package manager
+Homepage: https://www.rust-lang.org
+Depends: rustc, libgit2, libssh2
+Filename: dists/termux/extras/binary-i686/cargo_0.30.0-2_i686.deb
+Size: 2498116
+SHA256: 78ae8874eec5ddb14d7a1b0cf878cef6815208b533fd6b3c40075c3b2d4ef6c1
+
+Package: cargo
+Architecture: i686
 Installed-Size: 10708
 Maintainer: @its-pointless
 Version: 0.30.0
@@ -2034,6 +2046,18 @@ Filename: dists/termux/extras/binary-i686/rust-rls_0.130.0-1_i686.deb
 Size: 5258628
 SHA256: 5b2e46765a252979f004d33417cfaaea820a5207416fbb4d30e766d8f3785a59
 
+Package: rust-rls
+Architecture: i686
+Installed-Size: 23904
+Maintainer: @its-pointless
+Version: 0.130.0-2
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Depends: rustc, libgit2, libssh2, libcurl
+Filename: dists/termux/extras/binary-i686/rust-rls_0.130.0-2_i686.deb
+Size: 5263632
+SHA256: 5e806b64859b390f5edaac56cfeb889b073a4b26f071b8c2f1b68bad6e4920ca
+
 Package: rustc-nightly
 Architecture: i686
 Installed-Size: 170316
@@ -2059,6 +2083,20 @@ Filename: dists/termux/extras/binary-i686/rustc_1.29.0-1_i686.deb
 Size: 51569300
 SHA256: dbeae4336b3c98a39fae750df8d7718dba99004da9da06ec0ed0e4fa20e77d76
 
+Package: rustc
+Architecture: i686
+Installed-Size: 155556
+Maintainer: @its-pointless
+Version: 1.29.1
+Description: rust toolchain
+Homepage: https://www.rust-lang.org
+Depends: clang, lld
+Conflicts: rustfmt (>= 1.29.0-1)
+Replaces: rustfmt (>= 1.29.0-1)
+Filename: dists/termux/extras/binary-i686/rustc_1.29.1_i686.deb
+Size: 51576456
+SHA256: ea475dbe18b7ee87761f1364a841428b87e5a96aa0afc1f361bd04b80fee264e
+
 Package: rustfmt-nightly
 Architecture: i686
 Installed-Size: 6220
@@ -2073,27 +2111,15 @@ SHA256: a2a6e22964ab7cfdbce9d4cb906a6f38f5658a1f6c3b718ec4b4f42d5f0f37b9
 
 Package: rustfmt
 Architecture: i686
-Installed-Size: 5852
+Installed-Size: 5848
 Maintainer: @its-pointless
-Version: 0.99.1-1
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc (>= get-version.sh: No package with name rustc found)
-Filename: dists/termux/extras/binary-i686/rustfmt_0.99.1-1_i686.deb
-Size: 1574576
-SHA256: 93a3432f7ed5b913df71f06f737f7196161494a2733713d5b451843e52e6e155
-
-Package: rustfmt
-Architecture: i686
-Installed-Size: 5852
-Maintainer: @its-pointless
-Version: 1.29.0-1
+Version: 0.99.1-2
 Description: A tool for formatting Rust code according to style guidelines
 Homepage: https://www.rust-lang.org
 Depends: rustc
-Filename: dists/termux/extras/binary-i686/rustfmt_1.29.0-1_i686.deb
-Size: 1574836
-SHA256: 6b88aed471299e652e73484672265c6f544271a3ae9cbac70b9c65ce9a5b9fbf
+Filename: dists/termux/extras/binary-i686/rustfmt_0.99.1-2_i686.deb
+Size: 1574372
+SHA256: 88f93f85359e7b39e7573c79a0f20c7bceb050f3067116f6017a0e757905016e
 
 Package: sc-im
 Architecture: i686
@@ -2165,6 +2191,17 @@ Homepage: https://ohse.de/uwe/software/lrzsz.html
 Filename: dists/termux/extras/binary-i686/tzdata_2018d_i686.deb
 Size: 191460
 SHA256: ed9a51105164ab425f8aeda90545e1cdbfec095b01ec4cf4037f710b0a7cea0b
+
+Package: tzdata
+Architecture: i686
+Installed-Size: 5096
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2018e-1
+Description: time zone and daylight-saving time data
+Homepage: https://data.iana.org/time-zones
+Filename: dists/termux/extras/binary-i686/tzdata_2018e-1_i686.deb
+Size: 193284
+SHA256: ff05f9cc3a50efac44f0ba9291471b84956a6b30822de3fe278f26e82280de0f
 
 Package: tzdata
 Architecture: i686
