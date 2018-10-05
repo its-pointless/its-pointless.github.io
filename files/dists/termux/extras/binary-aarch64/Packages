@@ -2169,6 +2169,17 @@ Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.30.0-2_aarch64.d
 Size: 3683680
 SHA256: 3c527551fd9a90123397262dc5882434da7fe2c9fc03b644d219e1d54444c7d4
 
+Package: rust-rls-nightly
+Architecture: aarch64
+Installed-Size: 15364
+Maintainer: @its-pointless
+Version: 1.31.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.31.0_aarch64.deb
+Size: 3770844
+SHA256: 412e7992e0ea24721a734567e43d589384a1380fba434c1378035ae8855fd802
+
 Package: rust-rls
 Architecture: aarch64
 Installed-Size: 18780
@@ -2205,6 +2216,19 @@ Provides: rustc
 Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.30.0-2_aarch64.deb
 Size: 53057620
 SHA256: 23e28ce53f187f5c2c1c5da4a17b0599f4d75fff34fc50ee4b92b69b907f8b96
+
+Package: rustc-nightly
+Architecture: aarch64
+Installed-Size: 155344
+Maintainer: @its-pointless
+Version: 1.31.0
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly, libgit2, libssh2, libcurl
+Provides: rustc
+Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.31.0_aarch64.deb
+Size: 52964832
+SHA256: 883971eff3594af65fefb7fd49fdfcf48412f4db79c0bb2d88fcf3675097e139
 
 Package: rustc
 Architecture: aarch64
@@ -2243,6 +2267,18 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.30.0-2_aarch64.deb
 Size: 1337492
 SHA256: 63077f0c690095cd8e7438a9196ec3497a1a3ad5fbbbd037fa55daad23a529bf
+
+Package: rustfmt-nightly
+Architecture: aarch64
+Installed-Size: 5128
+Maintainer: @its-pointless
+Version: 1.31.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.31.0_aarch64.deb
+Size: 1353016
+SHA256: 0e8386c1e85bd6fa8db45afc22a25b9fc639c0e81d1e98a4b220f00764de599f
 
 Package: rustfmt
 Architecture: aarch64
