@@ -1257,15 +1257,15 @@ SHA256: f95d2ca44b92105c5ab12af062f5b57e3a4475d0720fd30002a6c9710e78005a
 
 Package: moarvm
 Architecture: arm
-Installed-Size: 6064
+Installed-Size: 6052
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2018.06
+Version: 2018.09
 Description: A modern VM built for Rakudo Perl 6
 Homepage: https://github.com/MoarVM/MoarVM
 Depends: libtommath, libuv, libandroid-support
-Filename: dists/termux/extras/binary-arm/moarvm_2018.06_arm.deb
-Size: 891056
-SHA256: c8b1bd7de8cff2d12722bbcf843f77ce4e862b8bdd41539537a20e45e77787f7
+Filename: dists/termux/extras/binary-arm/moarvm_2018.09_arm.deb
+Size: 898180
+SHA256: 953f202e48089fa737ce50706b49799ef0739921a0520475c715454a72da4b8c
 
 Package: mpich
 Architecture: arm
@@ -1471,6 +1471,18 @@ Depends: readline, libgmp
 Filename: dists/termux/extras/binary-arm/pari-gp_2.11.0_arm.deb
 Size: 2999152
 SHA256: 40384e6d0146aa52876d18418be283997813f4794a5a7aa199261a154b0cf87b
+
+Package: picolisp
+Architecture: arm
+Installed-Size: 4068
+Maintainer: Fredrik Fornwall @fornwall
+Version: 18.9.18
+Description: Lisp interpreter and application server framework
+Homepage: https://picolisp.com
+Depends: libcrypt, openssl
+Filename: dists/termux/extras/binary-arm/picolisp_18.9.18_arm.deb
+Size: 689860
+SHA256: de6e49ab34fb70b3515f0754eb42239074c5c68bdbcf46d8946613695ea84dbe
 
 Package: portaudio-dev
 Architecture: arm
@@ -2164,17 +2176,6 @@ SHA256: 96d7f5fcf02b0a62afe94b22d3c09247ba927fac532537881a3eb0d8205c0876
 
 Package: rust-rls-nightly
 Architecture: arm
-Installed-Size: 9456
-Maintainer: @its-pointless
-Version: 1.30.0-2
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.30.0-2_arm.deb
-Size: 3499316
-SHA256: 2ecb7d436b2ce66523a436af4dea88426c44088e6b4dcbaa2555d64d6fafd97c
-
-Package: rust-rls-nightly
-Architecture: arm
 Installed-Size: 9644
 Maintainer: @its-pointless
 Version: 1.31.0
@@ -2207,19 +2208,6 @@ Depends: rustc, libgit2, libssh2, libcurl
 Filename: dists/termux/extras/binary-arm/rust-rls_0.130.0-2_arm.deb
 Size: 3980816
 SHA256: ef12fb0d1717cedd5d6222cbf98f192744aabb528f6305b1514845fe5e533ca0
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 126080
-Maintainer: @its-pointless
-Version: 1.30.0-2
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.30.0-2_arm.deb
-Size: 51597608
-SHA256: e13f6de61dfbb401080e4cc5673d91fc5dad1e74ece4e88368cd0b7721d13539
 
 Package: rustc-nightly
 Architecture: arm
@@ -2259,18 +2247,6 @@ Replaces: rustfmt (>= 1.29.0-1)
 Filename: dists/termux/extras/binary-arm/rustc_1.29.1_arm.deb
 Size: 47968980
 SHA256: 1913247b587244482492c3368ad302f468bd16636cd6a8cff85f14fec2f9e238
-
-Package: rustfmt-nightly
-Architecture: arm
-Installed-Size: 3092
-Maintainer: @its-pointless
-Version: 1.30.0-2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.30.0-2_arm.deb
-Size: 1233204
-SHA256: 6d8d623c6142b8c9751660d771300311a12ba255e822904e8d3922f51ca1f631
 
 Package: rustfmt-nightly
 Architecture: arm

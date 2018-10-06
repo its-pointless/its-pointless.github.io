@@ -1205,15 +1205,15 @@ SHA256: 7e7fbe481b5ff03476ee8aa43f2a005306fc045fcee28546805da3ed67a2da3e
 
 Package: moarvm
 Architecture: aarch64
-Installed-Size: 7764
+Installed-Size: 7792
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2018.06
+Version: 2018.09
 Description: A modern VM built for Rakudo Perl 6
 Homepage: https://github.com/MoarVM/MoarVM
 Depends: libtommath, libuv, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/moarvm_2018.06_aarch64.deb
-Size: 983508
-SHA256: 5db44632d8ab1ed3f31976026fe9748a6c5e05cc34ba58b6cc9e6ce848364f84
+Filename: dists/termux/extras/binary-aarch64/moarvm_2018.09_aarch64.deb
+Size: 975820
+SHA256: 9b17158c54583073a820fce8e1b47fd31e2c5a43326506482aceeb320d100a47
 
 Package: mongodb
 Architecture: aarch64
@@ -2160,17 +2160,6 @@ SHA256: 42de8fea03d9367bc1e3f0cd68555e604fbb976cbb56eb73aab78a9159c15bfd
 
 Package: rust-rls-nightly
 Architecture: aarch64
-Installed-Size: 15044
-Maintainer: @its-pointless
-Version: 1.30.0-2
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.30.0-2_aarch64.deb
-Size: 3683680
-SHA256: 3c527551fd9a90123397262dc5882434da7fe2c9fc03b644d219e1d54444c7d4
-
-Package: rust-rls-nightly
-Architecture: aarch64
 Installed-Size: 15364
 Maintainer: @its-pointless
 Version: 1.31.0
@@ -2203,19 +2192,6 @@ Depends: rustc, libgit2, libssh2, libcurl
 Filename: dists/termux/extras/binary-aarch64/rust-rls_0.130.0-2_aarch64.deb
 Size: 4162428
 SHA256: 959d0672b406c8b3d001270c3b28d17de517e4420445a2e3ecce7f23e6e60cd2
-
-Package: rustc-nightly
-Architecture: aarch64
-Installed-Size: 154564
-Maintainer: @its-pointless
-Version: 1.30.0-2
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.30.0-2_aarch64.deb
-Size: 53057620
-SHA256: 23e28ce53f187f5c2c1c5da4a17b0599f4d75fff34fc50ee4b92b69b907f8b96
 
 Package: rustc-nightly
 Architecture: aarch64
@@ -2255,18 +2231,6 @@ Replaces: rustfmt (>= 1.29.0-1)
 Filename: dists/termux/extras/binary-aarch64/rustc_1.29.1_aarch64.deb
 Size: 49312736
 SHA256: 1681e4ee0185d23aa9e9f755d0ee3f4b59ea74f18e09cda0e3dea45e653e1e0f
-
-Package: rustfmt-nightly
-Architecture: aarch64
-Installed-Size: 5000
-Maintainer: @its-pointless
-Version: 1.30.0-2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.30.0-2_aarch64.deb
-Size: 1337492
-SHA256: 63077f0c690095cd8e7438a9196ec3497a1a3ad5fbbbd037fa55daad23a529bf
 
 Package: rustfmt-nightly
 Architecture: aarch64

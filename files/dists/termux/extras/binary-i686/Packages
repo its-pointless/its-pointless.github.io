@@ -1090,15 +1090,15 @@ SHA256: c845030fe0f5e12b9b34795a83c86a3a8eac29da5672ddfc092952e18ef0d82c
 
 Package: moarvm
 Architecture: i686
-Installed-Size: 6432
+Installed-Size: 6380
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2018.06
+Version: 2018.09
 Description: A modern VM built for Rakudo Perl 6
 Homepage: https://github.com/MoarVM/MoarVM
 Depends: libtommath, libuv, libandroid-support
-Filename: dists/termux/extras/binary-i686/moarvm_2018.06_i686.deb
-Size: 962940
-SHA256: cb285ab1c47fb4b350569b017f2d5d714ec33024af8cb19112e7910430d467c3
+Filename: dists/termux/extras/binary-i686/moarvm_2018.09_i686.deb
+Size: 948692
+SHA256: a2f9070e6036ec701eff8b1082804af13061bc3057bb4cedf27a44f148d49645
 
 Package: mpich
 Architecture: i686
@@ -1332,6 +1332,18 @@ Depends: readline, libgmp
 Filename: dists/termux/extras/binary-i686/pari-gp_2.11.0_i686.deb
 Size: 2358864
 SHA256: c7a13e1e0f640fb3c5339884894f1884ba079448a8bdce29a27cc3a034fa98db
+
+Package: picolisp
+Architecture: i686
+Installed-Size: 4164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 18.9.18
+Description: Lisp interpreter and application server framework
+Homepage: https://picolisp.com
+Depends: libcrypt, openssl
+Filename: dists/termux/extras/binary-i686/picolisp_18.9.18_i686.deb
+Size: 711112
+SHA256: 944bfb70b03e453e69d634c183a9729f7e70f1c453581d5f695356411c38e9de
 
 Package: portaudio-dev
 Architecture: i686
@@ -2025,17 +2037,6 @@ SHA256: 6924620f345bc9a319ddc018f1647a75465fa4fe39425bff2e89eb0a4d996e05
 
 Package: rust-rls-nightly
 Architecture: i686
-Installed-Size: 19164
-Maintainer: @its-pointless
-Version: 1.30.0-2
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.30.0-2_i686.deb
-Size: 4618304
-SHA256: 4c2eb707647ed9dcf23dd44f6a20f57c95701c1e604386736be6b8dcfb245668
-
-Package: rust-rls-nightly
-Architecture: i686
 Installed-Size: 19616
 Maintainer: @its-pointless
 Version: 1.31.0
@@ -2068,19 +2069,6 @@ Depends: rustc, libgit2, libssh2, libcurl
 Filename: dists/termux/extras/binary-i686/rust-rls_0.130.0-2_i686.deb
 Size: 5263632
 SHA256: 5e806b64859b390f5edaac56cfeb889b073a4b26f071b8c2f1b68bad6e4920ca
-
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 170316
-Maintainer: @its-pointless
-Version: 1.30.0-2
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.30.0-2_i686.deb
-Size: 55748056
-SHA256: 5df8062d274b23f75546ce4e6ac979f0ff7608547be40bc915bfdf1ed9548497
 
 Package: rustc-nightly
 Architecture: i686
@@ -2120,18 +2108,6 @@ Replaces: rustfmt (>= 1.29.0-1)
 Filename: dists/termux/extras/binary-i686/rustc_1.29.1_i686.deb
 Size: 51576456
 SHA256: ea475dbe18b7ee87761f1364a841428b87e5a96aa0afc1f361bd04b80fee264e
-
-Package: rustfmt-nightly
-Architecture: i686
-Installed-Size: 6220
-Maintainer: @its-pointless
-Version: 1.30.0-2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.30.0-2_i686.deb
-Size: 1645832
-SHA256: a2a6e22964ab7cfdbce9d4cb906a6f38f5658a1f6c3b718ec4b4f42d5f0f37b9
 
 Package: rustfmt-nightly
 Architecture: i686
