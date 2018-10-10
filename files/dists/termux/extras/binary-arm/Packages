@@ -532,6 +532,18 @@ Filename: dists/termux/extras/binary-arm/imapfilter_2.6.10_arm.deb
 Size: 41124
 SHA256: 5d125238d5751eab89fea75092f905243bcc99af66aba62bc9540d49b847c230
 
+Package: imapfilter
+Architecture: arm
+Installed-Size: 192
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.12
+Description: filter mail in your IMAP account
+Homepage: https://github.com/lefcha/imapfilter
+Depends: pcre, liblua
+Filename: dists/termux/extras/binary-arm/imapfilter_2.6.12_arm.deb
+Size: 41940
+SHA256: 7f9c7af5ae30cad941204ee0bb6aa8d4b27e8d4a607a245383827b72b50f0d8a
+
 Package: jbuilder
 Architecture: arm
 Installed-Size: 3140
@@ -2221,18 +2233,6 @@ Provides: rustc
 Filename: dists/termux/extras/binary-arm/rustc-nightly_1.31.0_arm.deb
 Size: 52269696
 SHA256: fe632df6a03e5039f07e068c2da0f06b831aae377550f540dc03d2e1ce9a193e
-
-Package: rustc
-Architecture: arm
-Installed-Size: 117060
-Maintainer: @its-pointless
-Version: 1.29.0-1
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-arm/rustc_1.29.0-1_arm.deb
-Size: 47975400
-SHA256: cb543cbd0f79e5318e0b8ddd8599af0c20f13534ddd0dbbc4baf4646f15e4326
 
 Package: rustc
 Architecture: arm

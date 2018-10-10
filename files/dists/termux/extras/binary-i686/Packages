@@ -431,6 +431,18 @@ Filename: dists/termux/extras/binary-i686/imapfilter_2.6.10_i686.deb
 Size: 42408
 SHA256: b0085295bc430902daf8b9e7c1a5188b58abebc4834f2cebbe21987b7c44a9c9
 
+Package: imapfilter
+Architecture: i686
+Installed-Size: 208
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.12
+Description: filter mail in your IMAP account
+Homepage: https://github.com/lefcha/imapfilter
+Depends: pcre, liblua
+Filename: dists/termux/extras/binary-i686/imapfilter_2.6.12_i686.deb
+Size: 42772
+SHA256: 3d24b90fd591ea55e13d5bb4e5ecbb363271d5c20bc542a2d7f8b9f86cfc1fb7
+
 Package: jbuilder
 Architecture: i686
 Installed-Size: 316
@@ -2082,18 +2094,6 @@ Provides: rustc
 Filename: dists/termux/extras/binary-i686/rustc-nightly_1.31.0_i686.deb
 Size: 56739352
 SHA256: 02c889fb10403d9cfa4376ad01e08334e4d8594e91512f1d446f7c41b28402bd
-
-Package: rustc
-Architecture: i686
-Installed-Size: 155424
-Maintainer: @its-pointless
-Version: 1.29.0-1
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang
-Filename: dists/termux/extras/binary-i686/rustc_1.29.0-1_i686.deb
-Size: 51569300
-SHA256: dbeae4336b3c98a39fae750df8d7718dba99004da9da06ec0ed0e4fa20e77d76
 
 Package: rustc
 Architecture: i686
