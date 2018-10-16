@@ -748,6 +748,29 @@ Filename: dists/termux/extras/binary-arm/libboost-python_1.65.1-1_arm.deb
 Size: 63180
 SHA256: be848711c82b39b2c6416730285577fb531002a8fff2ebe4f29c9b1f7bd2d8d3
 
+Package: libbsd-dev
+Architecture: arm
+Installed-Size: 1200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Development files for libbsd
+Homepage: https://libbsd.freedesktop.org
+Depends: libbsd
+Filename: dists/termux/extras/binary-arm/libbsd-dev_0.9.1_arm.deb
+Size: 58876
+SHA256: 6c4e59f28d0423bbd095c53ec76033c834de91351eeae58862bc27226fb29c6a
+
+Package: libbsd
+Architecture: arm
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: utility functions from BSD systems
+Homepage: https://libbsd.freedesktop.org
+Filename: dists/termux/extras/binary-arm/libbsd_0.9.1_arm.deb
+Size: 41572
+SHA256: ec0d3660a7e21d530c2f22cc8be32dbd012ec5f853920fef8aa5da3a48cd813c
+
 Package: libcgal-dev
 Architecture: arm
 Installed-Size: 40340
@@ -1267,6 +1290,18 @@ Depends: libandroid-glob, libcrypt
 Filename: dists/termux/extras/binary-arm/mailutils_3.2_arm.deb
 Size: 642672
 SHA256: b11a9ab367742626e836863c945bf9888962224c8e997f74cc9ddba71fb5c1fe
+
+Package: mg
+Architecture: arm
+Installed-Size: 148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180927
+Description: microscopic GNU Emacs-style editor
+Homepage: 
+Depends: libbsd, ncurses
+Filename: dists/termux/extras/binary-arm/mg_20180927_arm.deb
+Size: 70324
+SHA256: f2c5581fd9793d9733ede458bbd320bc7aebb331818868631da4a74b0b874c7c
 
 Package: mksh
 Architecture: arm

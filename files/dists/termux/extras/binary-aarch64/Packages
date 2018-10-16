@@ -612,6 +612,29 @@ Filename: dists/termux/extras/binary-aarch64/libboost-python_1.65.1-1_aarch64.de
 Size: 63360
 SHA256: 3ecf428fde2eea596ebd36eec333bd6da0d8c273b03ed523aaf934515b0d0632
 
+Package: libbsd-dev
+Architecture: aarch64
+Installed-Size: 1188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Development files for libbsd
+Homepage: https://libbsd.freedesktop.org
+Depends: libbsd
+Filename: dists/termux/extras/binary-aarch64/libbsd-dev_0.9.1_aarch64.deb
+Size: 58888
+SHA256: 8de23671b0028c07d4433417e0cb0873ebf4c9e3150b0df5c5794f3354a0eb10
+
+Package: libbsd
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: utility functions from BSD systems
+Homepage: https://libbsd.freedesktop.org
+Filename: dists/termux/extras/binary-aarch64/libbsd_0.9.1_aarch64.deb
+Size: 28876
+SHA256: 3ff7ab16ccbdcd82a0a0e723ef19e0e2a86c68e3d197b7e0942204a1a78abd53
+
 Package: libcgal-dev
 Architecture: aarch64
 Installed-Size: 40348
@@ -1215,6 +1238,18 @@ Depends: libandroid-glob, libcrypt
 Filename: dists/termux/extras/binary-aarch64/mailutils_3.2_aarch64.deb
 Size: 652876
 SHA256: 1d8a871da34523465e382ddb88a73be900c7136909e2657aa3a57a7f2f88b0b3
+
+Package: mg
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180927
+Description: microscopic GNU Emacs-style editor
+Homepage: 
+Depends: libbsd, ncurses
+Filename: dists/termux/extras/binary-aarch64/mg_20180927_aarch64.deb
+Size: 65516
+SHA256: 624e9ea25949619aa6662f7772a8a03ec42515615587a6ef0d1042b237ca8752
 
 Package: mksh
 Architecture: aarch64

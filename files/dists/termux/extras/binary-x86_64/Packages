@@ -564,6 +564,29 @@ Filename: dists/termux/extras/binary-x86_64/libboost-python_1.65.1-1_x86_64.deb
 Size: 71468
 SHA256: 1b97d1debcb1e2a17625d66409aaf2f72f3f54f2ae1de53869b8345e22aa1b12
 
+Package: libbsd-dev
+Architecture: x86_64
+Installed-Size: 1200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Development files for libbsd
+Homepage: https://libbsd.freedesktop.org
+Depends: libbsd
+Filename: dists/termux/extras/binary-x86_64/libbsd-dev_0.9.1_x86_64.deb
+Size: 58884
+SHA256: a4045e536eb01ccd99555eb92a88ceec4b6346ebac0e26ffc97ecc0decde2b00
+
+Package: libbsd
+Architecture: x86_64
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: utility functions from BSD systems
+Homepage: https://libbsd.freedesktop.org
+Filename: dists/termux/extras/binary-x86_64/libbsd_0.9.1_x86_64.deb
+Size: 33576
+SHA256: 1bd7f39d6c2b3b50aefa162f984346201aa9e108bbc218138eafda8168f6a2d2
+
 Package: libcgal-dev
 Architecture: x86_64
 Installed-Size: 40348
@@ -1098,6 +1121,18 @@ Provides: libunwind
 Filename: dists/termux/extras/binary-x86_64/llvm-libunwind_7.0.0_x86_64.deb
 Size: 13116
 SHA256: 108792f74cb633a388189c034c876ddf451018352aa398779b1174e35d4a7113
+
+Package: mg
+Architecture: x86_64
+Installed-Size: 204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180927
+Description: microscopic GNU Emacs-style editor
+Homepage: 
+Depends: libbsd, ncurses
+Filename: dists/termux/extras/binary-x86_64/mg_20180927_x86_64.deb
+Size: 78600
+SHA256: 39e841f47c8bb1662b9851cf63c01a7f266a5404965a5aef3a301640ced15173
 
 Package: mksh
 Architecture: x86_64

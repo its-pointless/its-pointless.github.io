@@ -589,6 +589,29 @@ Filename: dists/termux/extras/binary-i686/libboost-python_1.65.1-1_i686.deb
 Size: 71976
 SHA256: e660dc988cd0e374661b853306558502292cf313dca0b6bf5eed75192e541227
 
+Package: libbsd-dev
+Architecture: i686
+Installed-Size: 1200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: Development files for libbsd
+Homepage: https://libbsd.freedesktop.org
+Depends: libbsd
+Filename: dists/termux/extras/binary-i686/libbsd-dev_0.9.1_i686.deb
+Size: 58884
+SHA256: bd8e71b14dc49c0aa16d855c0fdabf2c9c7c0b26131a64b3e08e67d38c988e7c
+
+Package: libbsd
+Architecture: i686
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.1
+Description: utility functions from BSD systems
+Homepage: https://libbsd.freedesktop.org
+Filename: dists/termux/extras/binary-i686/libbsd_0.9.1_i686.deb
+Size: 35176
+SHA256: 5115eb9fbbd5a072a981ab94cecc8c2ca92f88f4915a512461bbdb01b2cd46ab
+
 Package: libcgal-dev
 Architecture: i686
 Installed-Size: 40352
@@ -1100,6 +1123,18 @@ Provides: libunwind
 Filename: dists/termux/extras/binary-i686/llvm-libunwind_7.0.0_i686.deb
 Size: 12896
 SHA256: 4c3cd3e15023d63d0f16aaf9d0817f169eba8ca80248e34104c9672af40fd366
+
+Package: mg
+Architecture: i686
+Installed-Size: 164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180927
+Description: microscopic GNU Emacs-style editor
+Homepage: 
+Depends: libbsd, ncurses
+Filename: dists/termux/extras/binary-i686/mg_20180927_i686.deb
+Size: 67620
+SHA256: 5594e8c5a982bff70f66530b633eda7552d7dcf598ff452d09f9245fbb5a6464
 
 Package: mksh
 Architecture: i686
