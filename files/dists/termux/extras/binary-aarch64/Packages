@@ -266,18 +266,6 @@ Filename: dists/termux/extras/binary-aarch64/elfutils-ext_0.174_aarch64.deb
 Size: 377824
 SHA256: d84dd977905f68ad447adc6017dcdb37a33c0589b74efc9ddef43fee5305c96d
 
-Package: exa
-Architecture: aarch64
-Installed-Size: 1236
-Maintainer: @its-pointless
-Version: 0.8.0
-Description: exa is a modern replacement for ls
-Homepage: https://the.exa.website/
-Depends: tzdata
-Filename: dists/termux/extras/binary-aarch64/exa_0.8.0_aarch64.deb
-Size: 423064
-SHA256: 183971e4099476ec29412b998ce15f9928bc57a702c3f4b16d16d749670f6fb2
-
 Package: fp-compiler-snapshot
 Architecture: aarch64
 Installed-Size: 295800
@@ -1362,6 +1350,18 @@ SHA256: b5ac294e025cc56cce56a1bfaaf453d635c0ee1f4aba0a5295a122e463176623
 
 Package: numpy
 Architecture: aarch64
+Installed-Size: 15436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15.2-1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-aarch64/numpy_1.15.2-1_aarch64.deb
+Size: 2319264
+SHA256: aa0a79182db88b41c776276816b511dfca1c72dd97a621af5b0464ec6bd559fb
+
+Package: numpy
+Architecture: aarch64
 Installed-Size: 15432
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.15.2
@@ -1455,6 +1455,18 @@ Depends: libgfortran5 (>= 8.2.0-2)
 Filename: dists/termux/extras/binary-aarch64/openblas_0.3.2-1_aarch64.deb
 Size: 2013484
 SHA256: 7b150b2f04aafd510008cb7ad587ce47c314425b172827c2c13c1948ba9f8b20
+
+Package: openblas
+Architecture: aarch64
+Installed-Size: 10036
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.3
+Description:  Optimized BLAS (linear algebra) library
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-aarch64/openblas_0.3.3_aarch64.deb
+Size: 1996108
+SHA256: 32304853ff7413d087216e1d953d5da0dac0a7bae56e50c3dd2096d7dd7b2f64
 
 Package: openldap-dev
 Architecture: aarch64
@@ -1598,6 +1610,18 @@ SHA256: e3a5a4f66912b7dec99903ad084d3bc24ebbfadbdcbebb20f596337cf9d7a57c
 
 Package: python2-numpy
 Architecture: aarch64
+Installed-Size: 15980
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15.2-1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python2-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.15.2-1_aarch64.deb
+Size: 2329288
+SHA256: 053dcd2ee40a2743293ac2f2fc7726132d664c04b7a91cb08dff7d5389b3a193
+
+Package: python2-numpy
+Architecture: aarch64
 Installed-Size: 15972
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.15.2
@@ -1630,6 +1654,18 @@ Depends: python2-numpy
 Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.1.0-3_aarch64.deb
 Size: 9830192
 SHA256: b30ed4b0fcf3b4e85421516d4d6d55b3a3f09363bd2349bd80f9efd7dbe313f5
+
+Package: python2-scipy
+Architecture: aarch64
+Installed-Size: 47672
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0-4
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.1.0-4_aarch64.deb
+Size: 9911636
+SHA256: 939842b27087fad32923f7fe46e348d764b3a6b88fd7b77b2145dc9ede9f16c7
 
 Package: qemu-common
 Architecture: aarch64
@@ -2436,6 +2472,18 @@ Depends: numpy
 Filename: dists/termux/extras/binary-aarch64/scipy_1.1.0-4_aarch64.deb
 Size: 9716652
 SHA256: 94a2030890dffefa8de2b3a7bff67ad354eac523eb6bd86294980000ae3ed5e8
+
+Package: scipy
+Architecture: aarch64
+Installed-Size: 46336
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0-5
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Filename: dists/termux/extras/binary-aarch64/scipy_1.1.0-5_aarch64.deb
+Size: 9776252
+SHA256: 0046d9509313d5d758b0d103306c0d075ba6b6baa9752f967fa5cd51a6595af8
 
 Package: suitesparse-dev
 Architecture: aarch64

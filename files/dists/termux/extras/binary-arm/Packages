@@ -255,18 +255,6 @@ Filename: dists/termux/extras/binary-arm/elfutils-ext_0.174_arm.deb
 Size: 364212
 SHA256: 384a86bbf18c5c7a459dba97c6ef56740209a7683c758cd991f538ed8b52b0ae
 
-Package: exa
-Architecture: arm
-Installed-Size: 988
-Maintainer: @its-pointless
-Version: 0.8.0
-Description: exa is a modern replacement for ls
-Homepage: https://the.exa.website/
-Depends: tzdata
-Filename: dists/termux/extras/binary-arm/exa_0.8.0_arm.deb
-Size: 437904
-SHA256: 04932db5fcb451dab89c719e5d5799984f33759778446e4226a4bb1332a337c7
-
 Package: ffmpeg-compat
 Architecture: arm
 Installed-Size: 12
@@ -1404,6 +1392,18 @@ Package: numpy
 Architecture: arm
 Installed-Size: 14940
 Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15.2-1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-arm/numpy_1.15.2-1_arm.deb
+Size: 2529236
+SHA256: 5dff46607e861246ac9b9e519c6e80ba99f7b2730c0f458bd7da62de694f58ab
+
+Package: numpy
+Architecture: arm
+Installed-Size: 14940
+Maintainer: Fredrik Fornwall @fornwall
 Version: 1.15.2
 Description: NumPy is the fundamental package for scientific computing with Python.
 Homepage: http://www.numpy.org/
@@ -1483,6 +1483,18 @@ Depends: libgfortran5 (>= 8.2.0-2)
 Filename: dists/termux/extras/binary-arm/openblas_0.3.2-1_arm.deb
 Size: 2153748
 SHA256: 6b7c8ae2ae6e1547996332c869670ec176984a7366a9db9f5372fd6f1b83ec02
+
+Package: openblas
+Architecture: arm
+Installed-Size: 10408
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.3
+Description:  Optimized BLAS (linear algebra) library
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-arm/openblas_0.3.3_arm.deb
+Size: 2130380
+SHA256: 10ca8a72a41bbca2397f156ca2c10aa3ad61581b6e880fc3de76865c5a81a43e
 
 Package: openldap-dev
 Architecture: arm
@@ -1616,6 +1628,18 @@ Package: python2-numpy
 Architecture: arm
 Installed-Size: 15240
 Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15.2-1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python2-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-arm/python2-numpy_1.15.2-1_arm.deb
+Size: 2529472
+SHA256: ecb78080e7da1cbc8e15e135c1c3c81b0ce595e18484fdfbd201b777765840ee
+
+Package: python2-numpy
+Architecture: arm
+Installed-Size: 15240
+Maintainer: Fredrik Fornwall @fornwall
 Version: 1.15.2
 Description: NumPy is the fundamental package for scientific computing with Python.
 Homepage: http://www.numpy.org/
@@ -1646,6 +1670,18 @@ Depends: python2-numpy
 Filename: dists/termux/extras/binary-arm/python2-scipy_1.1.0-3_arm.deb
 Size: 10313720
 SHA256: ae8d92e9ac261763ccb29d10282dce23898d877932f890aa17ad43ae92f77ade
+
+Package: python2-scipy
+Architecture: arm
+Installed-Size: 43736
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0-4
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Filename: dists/termux/extras/binary-arm/python2-scipy_1.1.0-4_arm.deb
+Size: 10302540
+SHA256: 49a8756784f03b96637c43e7632442b7a2d25dfaf38d00e5062452ff376d0c18
 
 Package: qemu-common
 Architecture: arm

@@ -244,30 +244,6 @@ Filename: dists/termux/extras/binary-i686/elfutils-ext_0.174_i686.deb
 Size: 408880
 SHA256: e86c2ca8bd93b1c81ee48c6f1448a0c7f80729d87da12425ad3c54faff84ff2d
 
-Package: exa
-Architecture: i686
-Installed-Size: 1096
-Maintainer: @its-pointless
-Version: 0.8.0-1
-Description: exa is a modern replacement for ls
-Homepage: https://the.exa.website/
-Depends: tzdata
-Filename: dists/termux/extras/binary-i686/exa_0.8.0-1_i686.deb
-Size: 402636
-SHA256: 13ffe91dee5eb81422e9e05a8e0b248e7ffb8ffe37251575e5619b32395e4062
-
-Package: exa
-Architecture: i686
-Installed-Size: 1356
-Maintainer: @its-pointless
-Version: 0.8.0
-Description: exa is a modern replacement for ls
-Homepage: https://the.exa.website/
-Depends: tzdata
-Filename: dists/termux/extras/binary-i686/exa_0.8.0_i686.deb
-Size: 495424
-SHA256: f5dc94c67d5dc9150ee9055a76574eebd0eb1173d103825383ec15c6a6c45c2d
-
 Package: fp-compiler
 Architecture: i686
 Installed-Size: 78924
@@ -1242,8 +1218,8 @@ Description: NumPy is the fundamental package for scientific computing with Pyth
 Homepage: http://www.numpy.org/
 Depends: openblas, python-dev, libcrypt-dev
 Filename: dists/termux/extras/binary-i686/numpy_1.15.2_i686.deb
-Size: 2264692
-SHA256: 38d24d29bd9cbcca8a9313cbcfff64b124570429fc2d5be84fc29c35d1c867c0
+Size: 2264880
+SHA256: 2748f3e5dc003541b522deaeda03f0b0ce991d04ec2159a31d24916f9dd96253
 
 Package: ocaml
 Architecture: i686
@@ -1321,6 +1297,20 @@ Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.2_i686.deb
 Size: 3012176
 SHA256: 92131cb3d3db3dc3948584ac0ed845c16e72a12255931d56821385d7112dc498
 
+Package: openblas-sandybridge
+Architecture: i686
+Installed-Size: 13520
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.3
+Description: blas library optimized for sandybridge(chromebooks)
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Conflicts: openblas
+Provides: openblas
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.3_i686.deb
+Size: 2958320
+SHA256: 757f2c9954b09b0c77f5034d3b214eddba717b58557cb74b5d7c6c9d4352d6a3
+
 Package: openblas
 Architecture: i686
 Installed-Size: 14224
@@ -1344,6 +1334,18 @@ Depends: libgfortran5 (>= 8.2.0-2)
 Filename: dists/termux/extras/binary-i686/openblas_0.3.2-2_i686.deb
 Size: 2946516
 SHA256: 663058e9e012ad6416feb473bd93db0be3fcd497d75618b9d9d36e7b9abb622d
+
+Package: openblas
+Architecture: i686
+Installed-Size: 13392
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.3
+Description:  Optimized BLAS (linear algebra) library
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-i686/openblas_0.3.3_i686.deb
+Size: 2898956
+SHA256: e8a44b45b2c718493948dfdb19bb162125f17e7d0694dab77d3134828a8e018a
 
 Package: openldap-dev
 Architecture: i686
@@ -1472,6 +1474,18 @@ Homepage: http://www.numpy.org/
 Filename: dists/termux/extras/binary-i686/python2-numpy_1.15.1_i686.deb
 Size: 2521512
 SHA256: 565502959135f188ad90b808b7ace3165844e1ef8569a9a8eda4ac9a5fa634cd
+
+Package: python2-numpy
+Architecture: i686
+Installed-Size: 16428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15.2-1
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python2-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-i686/python2-numpy_1.15.2-1_i686.deb
+Size: 2521392
+SHA256: 10ac0ff90bd01d9a5271edc39a6df3492f76c1351f54428f6f015b2f9ee9cd11
 
 Package: python2-numpy
 Architecture: i686
@@ -2299,8 +2313,20 @@ Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of op
 Homepage: https://scipy.org/scipylib
 Depends: numpy
 Filename: dists/termux/extras/binary-i686/scipy_1.1.0-4_i686.deb
-Size: 9476968
-SHA256: f3a7a19108eb9a6b58ffda8646979cb3a86c9fe9750e35d516876584006b8e4e
+Size: 9474820
+SHA256: a1b5d8c71c5101cabd4d9a95807226adeb1175edba23ce2462e7d4964ad7837c
+
+Package: scipy
+Architecture: i686
+Installed-Size: 44756
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0-5
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Filename: dists/termux/extras/binary-i686/scipy_1.1.0-5_i686.deb
+Size: 9477488
+SHA256: 200a350eb6fa717639cdc1b0ac62e93466eeb94d6e408fc8730d8a18fe37120f
 
 Package: suitesparse-dev
 Architecture: i686
