@@ -1492,18 +1492,6 @@ Filename: dists/termux/extras/binary-aarch64/openblas_0.3.3_aarch64.deb
 Size: 1996108
 SHA256: 32304853ff7413d087216e1d953d5da0dac0a7bae56e50c3dd2096d7dd7b2f64
 
-Package: opencv
-Architecture: aarch64
-Installed-Size: 33576
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3
-Description: computer vision image library (with python3 library)
-Homepage: https://opencv.org
-Depends: numpy, ffmpeg. gst-plugins-base
-Filename: dists/termux/extras/binary-aarch64/opencv_3.4.3_aarch64.deb
-Size: 6087168
-SHA256: 152e30d627060756e6e5a1fc8e7cbe61c9b2125e2a0d95d5457e91d7e3058112
-
 Package: openldap-dev
 Architecture: aarch64
 Installed-Size: 436
