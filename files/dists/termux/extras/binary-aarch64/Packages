@@ -2360,33 +2360,6 @@ Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.31.0-1_aarch64.deb
 Size: 53646852
 SHA256: 015a3b7d80a4223041919e1b9e1bfbcfa04df8e4017f7f1d0c1bc48c72f54409
 
-Package: rustc-nightly
-Architecture: aarch64
-Installed-Size: 155344
-Maintainer: @its-pointless
-Version: 1.31.0
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.31.0_aarch64.deb
-Size: 52964832
-SHA256: 883971eff3594af65fefb7fd49fdfcf48412f4db79c0bb2d88fcf3675097e139
-
-Package: rustc
-Architecture: aarch64
-Installed-Size: 142740
-Maintainer: @its-pointless
-Version: 1.29.1
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang, lld
-Conflicts: rustfmt (>= 1.29.0-1)
-Replaces: rustfmt (>= 1.29.0-1)
-Filename: dists/termux/extras/binary-aarch64/rustc_1.29.1_aarch64.deb
-Size: 49312736
-SHA256: 1681e4ee0185d23aa9e9f755d0ee3f4b59ea74f18e09cda0e3dea45e653e1e0f
-
 Package: rustc
 Architecture: aarch64
 Installed-Size: 142508
@@ -2513,6 +2486,18 @@ Package: suitesparse-dev
 Architecture: aarch64
 Installed-Size: 1044
 Maintainer:  @its-pointless github
+Version: 5.3.0-2
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_5.3.0-2_aarch64.deb
+Size: 127016
+SHA256: 3a2f6b15f40aff10017171011fb46e4a66c6b4aec4555197ad873fc3b6c95f1f
+
+Package: suitesparse-dev
+Architecture: aarch64
+Installed-Size: 1044
+Maintainer:  @its-pointless github
 Version: 5.3.0
 Description: Development files for suitesparse
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
@@ -2520,6 +2505,18 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_5.3.0_aarch64.deb
 Size: 127464
 SHA256: 0d72ee21094d16e34693b86bcf8970fd4f860066075cc200b6ce6fbb16263964
+
+Package: suitesparse
+Architecture: aarch64
+Installed-Size: 8420
+Maintainer:  @its-pointless github
+Version: 5.3.0-2
+Description: a suite of sparse matrix software
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Filename: dists/termux/extras/binary-aarch64/suitesparse_5.3.0-2_aarch64.deb
+Size: 1432320
+SHA256: fb4dff047a4202a401e5bb9e3bbebcb71e873bac3defc5f5af52aa53754df782
 
 Package: suitesparse
 Architecture: aarch64

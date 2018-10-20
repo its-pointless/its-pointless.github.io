@@ -2285,33 +2285,6 @@ Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.31.0-1_x86_64.deb
 Size: 56362416
 SHA256: 53eac5a8a9fa62b0742926646948cfecd33eac08a3cce6195326e2ca9f62af82
 
-Package: rustc-nightly
-Architecture: x86_64
-Installed-Size: 172888
-Maintainer: @its-pointless
-Version: 1.31.0
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.31.0_x86_64.deb
-Size: 55610052
-SHA256: 499ef7c31a9f7072753178ad4404950c21709d2c06384ec888574f0192709b53
-
-Package: rustc
-Architecture: x86_64
-Installed-Size: 158456
-Maintainer: @its-pointless
-Version: 1.29.1
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang, lld
-Conflicts: rustfmt (>= 1.29.0-1)
-Replaces: rustfmt (>= 1.29.0-1)
-Filename: dists/termux/extras/binary-x86_64/rustc_1.29.1_x86_64.deb
-Size: 51667132
-SHA256: c1bc3cf9b3575ed7d983d5a9424fc2b5b84b22d54915bf7cb9a1b939bc33b3fc
-
 Package: rustc
 Architecture: x86_64
 Installed-Size: 158144
@@ -2426,6 +2399,18 @@ Package: suitesparse-dev
 Architecture: x86_64
 Installed-Size: 1044
 Maintainer:  @its-pointless github
+Version: 5.3.0-2
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-x86_64/suitesparse-dev_5.3.0-2_x86_64.deb
+Size: 127336
+SHA256: 0966a295db3eb209cb15b5610bd73894aa5ea3d80848fb59c4091d919aef75c9
+
+Package: suitesparse-dev
+Architecture: x86_64
+Installed-Size: 1044
+Maintainer:  @its-pointless github
 Version: 5.3.0
 Description: Development files for suitesparse
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
@@ -2433,6 +2418,18 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-x86_64/suitesparse-dev_5.3.0_x86_64.deb
 Size: 127372
 SHA256: 03ba8fcd49828f4b17b0c2a54328db6497a988d80a6fff5a2b5b36313c0c8df4
+
+Package: suitesparse
+Architecture: x86_64
+Installed-Size: 9108
+Maintainer:  @its-pointless github
+Version: 5.3.0-2
+Description: a suite of sparse matrix software
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Filename: dists/termux/extras/binary-x86_64/suitesparse_5.3.0-2_x86_64.deb
+Size: 1749016
+SHA256: 16a829ee953d0aa264d4875fb8cfc1b13b826b09110246a4db5c8105fe4eea18
 
 Package: suitesparse
 Architecture: x86_64

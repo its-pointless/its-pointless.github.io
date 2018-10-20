@@ -2364,33 +2364,6 @@ Filename: dists/termux/extras/binary-arm/rustc-nightly_1.31.0-1_arm.deb
 Size: 52818864
 SHA256: 1a840d609c30a20df0fd69593c62a1112647a6536f82d6830b20e7929ab24804
 
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 129228
-Maintainer: @its-pointless
-Version: 1.31.0
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.31.0_arm.deb
-Size: 52269696
-SHA256: fe632df6a03e5039f07e068c2da0f06b831aae377550f540dc03d2e1ce9a193e
-
-Package: rustc
-Architecture: arm
-Installed-Size: 117064
-Maintainer: @its-pointless
-Version: 1.29.1
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang, lld
-Conflicts: rustfmt (>= 1.29.0-1)
-Replaces: rustfmt (>= 1.29.0-1)
-Filename: dists/termux/extras/binary-arm/rustc_1.29.1_arm.deb
-Size: 47968980
-SHA256: 1913247b587244482492c3368ad302f468bd16636cd6a8cff85f14fec2f9e238
-
 Package: rustc
 Architecture: arm
 Installed-Size: 116788
@@ -2505,6 +2478,18 @@ Package: suitesparse-dev
 Architecture: arm
 Installed-Size: 1044
 Maintainer:  @its-pointless github
+Version: 5.3.0-2
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-arm/suitesparse-dev_5.3.0-2_arm.deb
+Size: 127364
+SHA256: fad009517e5197e1dc05ba8757fffeb26f031c5d656fb051a18441a2ea806f0c
+
+Package: suitesparse-dev
+Architecture: arm
+Installed-Size: 1044
+Maintainer:  @its-pointless github
 Version: 5.3.0
 Description: Development files for suitesparse
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
@@ -2512,6 +2497,18 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-arm/suitesparse-dev_5.3.0_arm.deb
 Size: 127168
 SHA256: 9a26dba0db0d6603209c35608d46879e9e54c74c6b3ed9c6e335dc293ca61917
+
+Package: suitesparse
+Architecture: arm
+Installed-Size: 8376
+Maintainer:  @its-pointless github
+Version: 5.3.0-2
+Description: a suite of sparse matrix software
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Filename: dists/termux/extras/binary-arm/suitesparse_5.3.0-2_arm.deb
+Size: 1190636
+SHA256: aa1b5676af7c846eec7bd5d92d4c20cb847bb734f18c7e44fc8af22987bddce1
 
 Package: suitesparse
 Architecture: arm

@@ -2203,33 +2203,6 @@ Filename: dists/termux/extras/binary-i686/rustc-nightly_1.31.0-1_i686.deb
 Size: 57329988
 SHA256: 60b0a25561833a492cabbadafa253b05f7f34777d4f403c9a2b2656ec9d60ae0
 
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 176144
-Maintainer: @its-pointless
-Version: 1.31.0
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.31.0_i686.deb
-Size: 56739352
-SHA256: 02c889fb10403d9cfa4376ad01e08334e4d8594e91512f1d446f7c41b28402bd
-
-Package: rustc
-Architecture: i686
-Installed-Size: 155556
-Maintainer: @its-pointless
-Version: 1.29.1
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang, lld
-Conflicts: rustfmt (>= 1.29.0-1)
-Replaces: rustfmt (>= 1.29.0-1)
-Filename: dists/termux/extras/binary-i686/rustc_1.29.1_i686.deb
-Size: 51576456
-SHA256: ea475dbe18b7ee87761f1364a841428b87e5a96aa0afc1f361bd04b80fee264e
-
 Package: rustc
 Architecture: i686
 Installed-Size: 155116
@@ -2344,6 +2317,18 @@ Package: suitesparse-dev
 Architecture: i686
 Installed-Size: 1044
 Maintainer:  @its-pointless github
+Version: 5.3.0-2
+Description: Development files for suitesparse
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse
+Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.3.0-2_i686.deb
+Size: 127388
+SHA256: 4d8cc8c11b731e496b4ef245a3d9d1622ded5e5e7533214aa5de46ef99f42ffb
+
+Package: suitesparse-dev
+Architecture: i686
+Installed-Size: 1044
+Maintainer:  @its-pointless github
 Version: 5.3.0
 Description: Development files for suitesparse
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
@@ -2351,6 +2336,18 @@ Depends: suitesparse
 Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.3.0_i686.deb
 Size: 127136
 SHA256: 53fa4461041c0bca474a32645f31eeaa07ee57d05a3e5c2306f29bfb08f5a898
+
+Package: suitesparse
+Architecture: i686
+Installed-Size: 11864
+Maintainer:  @its-pointless github
+Version: 5.3.0-2
+Description: a suite of sparse matrix software
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Filename: dists/termux/extras/binary-i686/suitesparse_5.3.0-2_i686.deb
+Size: 1638820
+SHA256: 425e1f74e7db1391a9ed217abd05c1c9d1d4d41b262be0705540ba7965d5242f
 
 Package: suitesparse
 Architecture: i686
