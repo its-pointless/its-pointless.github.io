@@ -337,6 +337,18 @@ Filename: dists/termux/extras/binary-arm/gforth_0.7.3_arm.deb
 Size: 398464
 SHA256: ff0d41b45f31b98015b6f279761a25faa779081f1963f577dc731ea2a4f49d7e
 
+Package: gforth
+Architecture: arm
+Installed-Size: 6884
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.9.20181011
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://www.gnu.org/software/gforth/
+Depends: clang, bthread, libltdl
+Filename: dists/termux/extras/binary-arm/gforth_0.7.9.20181011_arm.deb
+Size: 1108268
+SHA256: 14ace5a70d8cecc2d67ad2187f09bde7dc8dd6a1eaa2c2893c9b7910fd6bdb81
+
 Package: git-lfs
 Architecture: arm
 Installed-Size: 7892
@@ -1495,6 +1507,18 @@ Depends: libgfortran5
 Filename: dists/termux/extras/binary-arm/openblas_0.3.3_arm.deb
 Size: 2130380
 SHA256: 10ca8a72a41bbca2397f156ca2c10aa3ad61581b6e880fc3de76865c5a81a43e
+
+Package: opencv
+Architecture: arm
+Installed-Size: 28556
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.3
+Description: computer vision image library (with python3 library)
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg. gst-plugins-base
+Filename: dists/termux/extras/binary-arm/opencv_3.4.3_arm.deb
+Size: 6198012
+SHA256: 2fd82061f4c9e679dd6bf392d8806daf23d7302775797cb0fcfc3f015298f5d8
 
 Package: openldap-dev
 Architecture: arm

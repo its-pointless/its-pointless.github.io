@@ -302,6 +302,18 @@ Filename: dists/termux/extras/binary-x86_64/gcc-8_8.2.0-2_x86_64.deb
 Size: 32664144
 SHA256: 7d61a823fd041f7e7f4b0e3f8f1e5c908bfc5dc8bc95729243e0f08627f16766
 
+Package: gforth
+Architecture: x86_64
+Installed-Size: 14108
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.9.20181011
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://www.gnu.org/software/gforth/
+Depends: clang, bthread, libltdl
+Filename: dists/termux/extras/binary-x86_64/gforth_0.7.9.20181011_x86_64.deb
+Size: 1392748
+SHA256: d5b50f7a6f8f35c74a4966c557fa7f0ce021e6f40d3143bcc344fe1dd966ecc2
+
 Package: git-lfs
 Architecture: x86_64
 Installed-Size: 10228
@@ -1392,6 +1404,18 @@ Depends: libgfortran5
 Filename: dists/termux/extras/binary-x86_64/openblas_0.3.3_x86_64.deb
 Size: 3126620
 SHA256: 50e4fc81266689e33de98c87964a26fa9432b440bee2936baae6ad0f6d06cfa6
+
+Package: opencv
+Architecture: x86_64
+Installed-Size: 94932
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.3
+Description: computer vision image library (with python3 library)
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg. gst-plugins-base
+Filename: dists/termux/extras/binary-x86_64/opencv_3.4.3_x86_64.deb
+Size: 15594024
+SHA256: 169b73f09baee03b77b00bed90120451dc264170b4873088a3a98a566ee6d8bf
 
 Package: openldap-dev
 Architecture: x86_64
