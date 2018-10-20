@@ -1359,6 +1359,18 @@ Filename: dists/termux/extras/binary-i686/openblas_0.3.3_i686.deb
 Size: 2898956
 SHA256: e8a44b45b2c718493948dfdb19bb162125f17e7d0694dab77d3134828a8e018a
 
+Package: opencv
+Architecture: i686
+Installed-Size: 33424
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.3
+Description: computer vision image library (with python3 library)
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg, gst-plugins-base
+Filename: dists/termux/extras/binary-i686/opencv_3.4.3_i686.deb
+Size: 6723272
+SHA256: 778584017b14796cd8cd8d0d07e5f303287ee47a781a6ed0c41ee75528cce813
+
 Package: openldap-dev
 Architecture: i686
 Installed-Size: 428
