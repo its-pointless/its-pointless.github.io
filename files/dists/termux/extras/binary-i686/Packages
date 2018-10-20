@@ -315,6 +315,18 @@ Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-3_i686.deb
 Size: 32394408
 SHA256: eda002f45819fda1ff99a43686cbdf7f3917d5a3eb75f6573fedb7cdd63ea73d
 
+Package: gforth
+Architecture: i686
+Installed-Size: 7124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.9.20181011
+Description: GNU R package for totally ordered indexed observations
+Homepage: https://www.gnu.org/software/gforth/
+Depends: clang, bthread, libltdl
+Filename: dists/termux/extras/binary-i686/gforth_0.7.9.20181011_i686.deb
+Size: 1147628
+SHA256: c9f1b0f412ee1b562f54794d16cd23d3cc68eec6c3272d816d0654b5ef592b5c
+
 Package: git-lfs
 Architecture: i686
 Installed-Size: 7936
