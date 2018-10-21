@@ -489,34 +489,6 @@ Filename: dists/termux/extras/binary-aarch64/julia-llvm_6.0.0-1_aarch64.deb
 Size: 19897196
 SHA256: 97ae03c47bd86302fcbc590c0ae2f7a01c1b7927f89ab410ba144bfd705230af
 
-Package: julia-llvm
-Architecture: aarch64
-Installed-Size: 159916
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: llvm with julia patches (only useful if compiling julia itself)
-Homepage: https://clang.llvm.org/
-Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libffi, libllvm-julia
-Conflicts: gcc, clang (<< 3.9.1-3), libclang-dev (<< 6.0.0-2)
-Replaces: gcc
-Filename: dists/termux/extras/binary-aarch64/julia-llvm_6.0.0_aarch64.deb
-Size: 20147128
-SHA256: 95c479f963ab7b080bc48f17110df8a7d478781a8260ef52441fb0124f13d5ed
-
-Package: julia
-Architecture: aarch64
-Installed-Size: 149708
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing beta-2
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-aarch64/julia_1.0.0_aarch64.deb
-Size: 20106284
-SHA256: 8870d6f70e5876bcf8f6d702fec88f28874af12444a8578a138aa1b636b1c6e7
-
 Package: julia
 Architecture: aarch64
 Installed-Size: 149180
@@ -861,17 +833,6 @@ Homepage: https://clang.llvm.org/
 Filename: dists/termux/extras/binary-aarch64/libllvm-julia_6.0.0-1_aarch64.deb
 Size: 8294408
 SHA256: 6e311007f54806756244f7c3072da1dd498e83173b08304759785a8fdf7131a8
-
-Package: libllvm-julia
-Architecture: aarch64
-Installed-Size: 43656
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: patched libllvm for use with julia
-Homepage: https://clang.llvm.org/
-Filename: dists/termux/extras/binary-aarch64/libllvm-julia_6.0.0_aarch64.deb
-Size: 8372112
-SHA256: 3828359217516e4358cc74e1693518aaeb45d961ea70cb8fb0bea875c1d5e906
 
 Package: libmaa-dev
 Architecture: aarch64
@@ -1494,15 +1455,15 @@ SHA256: 32304853ff7413d087216e1d953d5da0dac0a7bae56e50c3dd2096d7dd7b2f64
 
 Package: opencv
 Architecture: aarch64
-Installed-Size: 33576
+Installed-Size: 32604
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.3
 Description: computer vision image library (with python3 library)
 Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
 Filename: dists/termux/extras/binary-aarch64/opencv_3.4.3_aarch64.deb
-Size: 6085020
-SHA256: 70b6cbc134c00053bbf653b911f8de6c2096d64931a44f75035cd365f3d016a5
+Size: 5807900
+SHA256: 1b9979ad958142f4303b9506196fd5b8dd64b18b191238cc1549c119815b7c0d
 
 Package: openldap-dev
 Architecture: aarch64

@@ -466,34 +466,6 @@ Filename: dists/termux/extras/binary-i686/julia-llvm_6.0.0-1_i686.deb
 Size: 20753912
 SHA256: 9612272a889ff13621d32f04239ee87e03ad54b4bcb4cb7b4e0711bf430c16b6
 
-Package: julia-llvm
-Architecture: i686
-Installed-Size: 133840
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: llvm with julia patches (only useful if compiling julia itself)
-Homepage: https://clang.llvm.org/
-Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libffi, libllvm-julia
-Conflicts: gcc, clang (<< 3.9.1-3), libclang-dev (<< 6.0.0-2)
-Replaces: gcc
-Filename: dists/termux/extras/binary-i686/julia-llvm_6.0.0_i686.deb
-Size: 20907060
-SHA256: 6c9446d8c745a72b4d356824cf6e7b26ef902e34250191d98ab310dc25b433d8
-
-Package: julia
-Architecture: i686
-Installed-Size: 129704
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing beta-2
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-i686/julia_1.0.0_i686.deb
-Size: 20341320
-SHA256: 384c5d349bec95ec996810e3fc99268dcb797af0c8e24812f8bd6ad8f4805380
-
 Package: julia
 Architecture: i686
 Installed-Size: 127220
@@ -781,17 +753,6 @@ Homepage: https://clang.llvm.org/
 Filename: dists/termux/extras/binary-i686/libllvm-julia_6.0.0-1_i686.deb
 Size: 9797476
 SHA256: 5a3aa18792452b9144cea4444d41ec88592df51c7b145285864a84e29b01a9d2
-
-Package: libllvm-julia
-Architecture: i686
-Installed-Size: 43984
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: patched libllvm for use with julia
-Homepage: https://clang.llvm.org/
-Filename: dists/termux/extras/binary-i686/libllvm-julia_6.0.0_i686.deb
-Size: 9877580
-SHA256: 6e673a7b4e951db959688a077d91550a6ece028b645086babd2cedd97e0d7d77
 
 Package: libmaa-dev
 Architecture: i686
@@ -1361,15 +1322,15 @@ SHA256: e8a44b45b2c718493948dfdb19bb162125f17e7d0694dab77d3134828a8e018a
 
 Package: opencv
 Architecture: i686
-Installed-Size: 33424
+Installed-Size: 32400
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.3
 Description: computer vision image library (with python3 library)
 Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
 Filename: dists/termux/extras/binary-i686/opencv_3.4.3_i686.deb
-Size: 6723272
-SHA256: 778584017b14796cd8cd8d0d07e5f303287ee47a781a6ed0c41ee75528cce813
+Size: 6424592
+SHA256: 2c5629a91c031447d16d544dec5da9363786216e8f7fe720743a6f5635847cd9
 
 Package: openldap-dev
 Architecture: i686

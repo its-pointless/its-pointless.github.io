@@ -579,34 +579,6 @@ Filename: dists/termux/extras/binary-arm/julia-llvm_6.0.0-1_arm.deb
 Size: 21988292
 SHA256: 635617c5c8d58e9f5f8d4b87c39a9426e9075aa5c89ab4417acc4e3fa8fcc5dd
 
-Package: julia-llvm
-Architecture: arm
-Installed-Size: 175864
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: llvm with julia patches (only useful if compiling julia itself)
-Homepage: https://clang.llvm.org/
-Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libffi, libllvm-julia
-Conflicts: gcc, clang (<< 3.9.1-3), libclang-dev (<< 6.0.0-2)
-Replaces: gcc
-Filename: dists/termux/extras/binary-arm/julia-llvm_6.0.0_arm.deb
-Size: 23184496
-SHA256: c51b8e7afcb874fabf9b3aa2d5a2a3c9aada0761b6b58c126171282e307d0ef2
-
-Package: julia
-Architecture: arm
-Installed-Size: 127476
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0
-Description: Julia is a high-level, high-performance dynamic programming language for numerical computing beta-2
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libunwind
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-arm/julia_1.0.0_arm.deb
-Size: 20159712
-SHA256: 7ef5cb479efea677608fb5843ea6974e6e829af30cfc79bc5e3b84d6bdf99c94
-
 Package: julia
 Architecture: arm
 Installed-Size: 127476
@@ -986,17 +958,6 @@ Homepage: https://clang.llvm.org/
 Filename: dists/termux/extras/binary-arm/libllvm-julia_6.0.0-1_arm.deb
 Size: 8581412
 SHA256: d3ae3fefa1a876ffd36a4f71c9e319b9e4e5167d2ee9dfbed3b67ec95b57eac3
-
-Package: libllvm-julia
-Architecture: arm
-Installed-Size: 34924
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0
-Description: patched libllvm for use with julia
-Homepage: https://clang.llvm.org/
-Filename: dists/termux/extras/binary-arm/libllvm-julia_6.0.0_arm.deb
-Size: 8735364
-SHA256: d78d3e257fb3ce03ce42999cd6e5d170a9f8ffb9b8eb84ae5e4d238993df8bd7
 
 Package: libmaa-dev
 Architecture: arm
@@ -1510,15 +1471,15 @@ SHA256: 10ca8a72a41bbca2397f156ca2c10aa3ad61581b6e880fc3de76865c5a81a43e
 
 Package: opencv
 Architecture: arm
-Installed-Size: 28556
+Installed-Size: 27864
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.3
 Description: computer vision image library (with python3 library)
 Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
 Filename: dists/termux/extras/binary-arm/opencv_3.4.3_arm.deb
-Size: 6208704
-SHA256: 49e4fd540f3bccf68453757b40a7d00f8e9cff879b262a71d75edb48195b55b1
+Size: 5967920
+SHA256: 1fe2a7520ae760b375bb7d0a4be1751b122aba39f68b72f0d885545c2194b5a8
 
 Package: openldap-dev
 Architecture: arm
