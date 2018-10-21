@@ -1184,15 +1184,15 @@ SHA256: 9285f61602b132e4e63de3bf4e008739e24dc792ca4bfffb4659d3d2b6f8f25f
 
 Package: numpy
 Architecture: i686
-Installed-Size: 14780
+Installed-Size: 15852
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.2
+Version: 1.15.2-2
 Description: NumPy is the fundamental package for scientific computing with Python.
 Homepage: http://www.numpy.org/
 Depends: openblas, python-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-i686/numpy_1.15.2_i686.deb
-Size: 2264880
-SHA256: 2748f3e5dc003541b522deaeda03f0b0ce991d04ec2159a31d24916f9dd96253
+Filename: dists/termux/extras/binary-i686/numpy_1.15.2-2_i686.deb
+Size: 2499632
+SHA256: 457d3aa6ceaefcdeaf9dafbf9a94e6824be19835f4ae4bedda5d9198bfde4979
 
 Package: ocaml
 Architecture: i686
@@ -2252,27 +2252,15 @@ SHA256: 4f99199aa7c981d808dc4ba8aa724e398f724f74132f52a07d193158636264ec
 
 Package: scipy
 Architecture: i686
-Installed-Size: 44756
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-4
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Depends: numpy
-Filename: dists/termux/extras/binary-i686/scipy_1.1.0-4_i686.deb
-Size: 9474820
-SHA256: a1b5d8c71c5101cabd4d9a95807226adeb1175edba23ce2462e7d4964ad7837c
-
-Package: scipy
-Architecture: i686
-Installed-Size: 44756
+Installed-Size: 48072
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.1.0-5
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
 Homepage: https://scipy.org/scipylib
 Depends: numpy
 Filename: dists/termux/extras/binary-i686/scipy_1.1.0-5_i686.deb
-Size: 9477488
-SHA256: 200a350eb6fa717639cdc1b0ac62e93466eeb94d6e408fc8730d8a18fe37120f
+Size: 9962760
+SHA256: 868240aba47fdb744ad5b985798070258f6128b17730b15055999313143dbdeb
 
 Package: suitesparse-dev
 Architecture: i686

@@ -1335,27 +1335,15 @@ SHA256: b5ac294e025cc56cce56a1bfaaf453d635c0ee1f4aba0a5295a122e463176623
 
 Package: numpy
 Architecture: aarch64
-Installed-Size: 15436
+Installed-Size: 15448
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.2-1
+Version: 1.15.2-2
 Description: NumPy is the fundamental package for scientific computing with Python.
 Homepage: http://www.numpy.org/
 Depends: openblas, python-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-aarch64/numpy_1.15.2-1_aarch64.deb
-Size: 2319264
-SHA256: aa0a79182db88b41c776276816b511dfca1c72dd97a621af5b0464ec6bd559fb
-
-Package: numpy
-Architecture: aarch64
-Installed-Size: 15432
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.2
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Depends: openblas, python-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-aarch64/numpy_1.15.2_aarch64.deb
-Size: 2318272
-SHA256: 7ade96ae4c14e62240717e34173547af2b0263232218273f1898304fdea1be5d
+Filename: dists/termux/extras/binary-aarch64/numpy_1.15.2-2_aarch64.deb
+Size: 2277312
+SHA256: fa16f72ee359f9ffe6b24c499ee9d35bae70f8c4fae10a3bddcc9ea3e75422fd
 
 Package: ocaml
 Architecture: aarch64
@@ -2445,27 +2433,15 @@ SHA256: 3b28c3d51b423d03fbf507659332ab2406c851a8c1d2965ee2e815af1f107794
 
 Package: scipy
 Architecture: aarch64
-Installed-Size: 46336
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-4
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Depends: numpy
-Filename: dists/termux/extras/binary-aarch64/scipy_1.1.0-4_aarch64.deb
-Size: 9716652
-SHA256: 94a2030890dffefa8de2b3a7bff67ad354eac523eb6bd86294980000ae3ed5e8
-
-Package: scipy
-Architecture: aarch64
-Installed-Size: 46336
+Installed-Size: 46348
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.1.0-5
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
 Homepage: https://scipy.org/scipylib
 Depends: numpy
 Filename: dists/termux/extras/binary-aarch64/scipy_1.1.0-5_aarch64.deb
-Size: 9776252
-SHA256: 0046d9509313d5d758b0d103306c0d075ba6b6baa9752f967fa5cd51a6595af8
+Size: 9778352
+SHA256: ccc797aa1b22f59cf4fa152c525ff0ec6f6c15b20e0e07f1227d7a34eb9a5d3f
 
 Package: suitesparse-dev
 Architecture: aarch64
