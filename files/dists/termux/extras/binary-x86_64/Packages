@@ -1268,18 +1268,6 @@ Package: octave-dev
 Architecture: x86_64
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-2
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-x86_64/octave-dev_4.4.1-2_x86_64.deb
-Size: 359744
-SHA256: b79659402fec804eafba5c1a71dcc4716de30df092a5a274e35ff1eec11b237a
-
-Package: octave-dev
-Architecture: x86_64
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
 Version: 4.4.1-3
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
@@ -1287,18 +1275,6 @@ Depends: octave
 Filename: dists/termux/extras/binary-x86_64/octave-dev_4.4.1-3_x86_64.deb
 Size: 359896
 SHA256: a95d2766af68328ac6c5820a314bf811794f755fe3a27f6e80cb91a75abfcfa5
-
-Package: octave
-Architecture: x86_64
-Installed-Size: 43832
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-2
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-x86_64/octave_4.4.1-2_x86_64.deb
-Size: 9707752
-SHA256: 7f6a19f23d310061821ca987d8e2ee679039481ad0abfa271b7046862e3e32e1
 
 Package: octave
 Architecture: x86_64

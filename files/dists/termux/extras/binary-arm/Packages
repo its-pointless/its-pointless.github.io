@@ -1409,6 +1409,18 @@ Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1-2_arm.deb
 Size: 359848
 SHA256: 417ea6d63359d8a56f01a0cad984c670ab9a9dcac448308bb92ce3a60df135b7
 
+Package: octave-dev
+Architecture: arm
+Installed-Size: 5748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1-3
+Description: Development files for octave
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1-3_arm.deb
+Size: 359944
+SHA256: 7bda1b26cc1b3f0bd85e9195ba12dda1ead6dbfc6eda52c5a912dcf59327355c
+
 Package: octave
 Architecture: arm
 Installed-Size: 36760
@@ -1420,6 +1432,18 @@ Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-gl
 Filename: dists/termux/extras/binary-arm/octave_4.4.1-2_arm.deb
 Size: 9024172
 SHA256: fa589399095356ea843c117db1e01536715b4d547c14d34be2ccb49dbc009181
+
+Package: octave
+Architecture: arm
+Installed-Size: 36760
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1-3
+Description: Scientific Programming Language
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Filename: dists/termux/extras/binary-arm/octave_4.4.1-3_arm.deb
+Size: 9020648
+SHA256: 2d246fd2bf4623a75e5bced06ebaee9fe909389449af3b4be565d2fcdd64bf0a
 
 Package: opam
 Architecture: arm
