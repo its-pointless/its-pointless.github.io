@@ -1493,6 +1493,18 @@ Filename: dists/termux/extras/binary-arm/opencv_3.4.3-1_arm.deb
 Size: 5965712
 SHA256: 19503765e33c0e8a86cee25f62ca969dd3b65e234da8cbc7e2f822ccab76fd42
 
+Package: opencv
+Architecture: arm
+Installed-Size: 27864
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.3-2
+Description: computer vision image library (with python3 library)
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Filename: dists/termux/extras/binary-arm/opencv_3.4.3-2_arm.deb
+Size: 5964816
+SHA256: 800286c05a11f168d132811ee39848f075931bd755f564d98541fb42dce9985f
+
 Package: openldap-dev
 Architecture: arm
 Installed-Size: 436

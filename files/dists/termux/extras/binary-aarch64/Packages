@@ -1477,6 +1477,18 @@ Filename: dists/termux/extras/binary-aarch64/opencv_3.4.3-1_aarch64.deb
 Size: 5821032
 SHA256: f8ea0221b1ced3d5168e0be34d3fbf8e4b2ce82a826495ce1d05191d8922f448
 
+Package: opencv
+Architecture: aarch64
+Installed-Size: 32604
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.3-2
+Description: computer vision image library (with python3 library)
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Filename: dists/termux/extras/binary-aarch64/opencv_3.4.3-2_aarch64.deb
+Size: 5821576
+SHA256: 77fe6abc634a573ac470b598859e811a7b695700f032595791a52200f52a84a9
+
 Package: openldap-dev
 Architecture: aarch64
 Installed-Size: 436
