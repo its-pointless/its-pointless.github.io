@@ -279,42 +279,6 @@ Filename: dists/termux/extras/binary-i686/gcc-7_7.3.0-5_i686.deb
 Size: 30446124
 SHA256: a48165fa6d7e84b20ece71b86cadc527e494fd05238599769f4ad9966647d72b
 
-Package: gcc-8
-Architecture: i686
-Installed-Size: 116188
-Maintainer: @its-pointless github
-Version: 8.2.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-1_i686.deb
-Size: 32402136
-SHA256: 382cf73b40e7010d8f661887110abc75f1bc75160bd929a546cbf5d89be5c214
-
-Package: gcc-8
-Architecture: i686
-Installed-Size: 116180
-Maintainer: @its-pointless github
-Version: 8.2.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-2_i686.deb
-Size: 32393972
-SHA256: f54148e5828441e8e8dc152e24f7b0515ac9590885564528512deb9ed586bca5
-
-Package: gcc-8
-Architecture: i686
-Installed-Size: 116180
-Maintainer: @its-pointless github
-Version: 8.2.0-3
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-3_i686.deb
-Size: 32394408
-SHA256: eda002f45819fda1ff99a43686cbdf7f3917d5a3eb75f6573fedb7cdd63ea73d
-
 Package: gforth
 Architecture: i686
 Installed-Size: 7124
@@ -419,17 +383,6 @@ Homepage: http://htmlcxx.sourceforge.net
 Filename: dists/termux/extras/binary-i686/htmlcxx_0.86_i686.deb
 Size: 67880
 SHA256: 08fc60406ec8b186b59459657690bdb039a6ac827581b5c469d75b9ed85467ed
-
-Package: imapfilter
-Architecture: i686
-Installed-Size: 204
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.6.10
-Description: Filter mail in your IMAP account
-Homepage: https://github.com/lefcha/imapfilter
-Filename: dists/termux/extras/binary-i686/imapfilter_2.6.10_i686.deb
-Size: 42408
-SHA256: b0085295bc430902daf8b9e7c1a5188b58abebc4834f2cebbe21987b7c44a9c9
 
 Package: imapfilter
 Architecture: i686
@@ -705,20 +658,6 @@ Package: libgomp-8
 Architecture: i686
 Installed-Size: 288
 Maintainer: @its-pointless github
-Version: 8.2.0-1
-Description: openmp library for gcc-8
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0-1_i686.deb
-Size: 81224
-SHA256: 1857947a5bcfa0bf20e9d903c53db0e5e0e6d4755d177aec29e6755fa22a476f
-
-Package: libgomp-8
-Architecture: i686
-Installed-Size: 288
-Maintainer: @its-pointless github
 Version: 8.2.0-2
 Description: openmp library for gcc-8
 Homepage: http://gcc.gnu.org/
@@ -728,20 +667,6 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0-2_i686.deb
 Size: 81244
 SHA256: 907e5b51d5a1463c60f407342fef3f3bc284a60256307f8df37be39b6191dcfc
-
-Package: libgomp-8
-Architecture: i686
-Installed-Size: 288
-Maintainer: @its-pointless github
-Version: 8.2.0
-Description: openmp library for gcc-8
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0_i686.deb
-Size: 81272
-SHA256: e7b67cb8a9efa90fa17a6567a252b48907f4cc6ad1119db74baf159e683588c4
 
 Package: libllvm-julia
 Architecture: i686
@@ -847,18 +772,6 @@ Homepage: https://pocoproject.org
 Filename: dists/termux/extras/binary-i686/libpoco_1.9.0_i686.deb
 Size: 2147396
 SHA256: 1f2805cabd84095471d0259d29dc68801f37628351fb901e72239f080a8fe0e7
-
-Package: libsigsegv-dev
-Architecture: i686
-Installed-Size: 12
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.11
-Description: Development files for libsigsegv
-Homepage: https://www.gnu.org/software/libsigsegv/
-Depends: libsigsegv
-Filename: dists/termux/extras/binary-i686/libsigsegv-dev_2.11_i686.deb
-Size: 3684
-SHA256: f5e14e4760e0f36e76f1206e21e5e6fcf172967144790605e4b1027959b78a74
 
 Package: libsigsegv-dev
 Architecture: i686
@@ -1244,34 +1157,6 @@ SHA256: 4c390098e1a1bedc482bc13ff5ab2877605cad245d3a4cfc940c636befd0fbc2
 
 Package: openblas-sandybridge
 Architecture: i686
-Installed-Size: 14348
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.1
-Description: blas library optimized for sandybridge(chromebooks)
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Conflicts: openblas
-Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.1_i686.deb
-Size: 3008932
-SHA256: 302a6f6b0dad727c2d88a407ddd875ebdd54760840fec590ac4394eda252a940
-
-Package: openblas-sandybridge
-Architecture: i686
-Installed-Size: 14368
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.2
-Description: blas library optimized for sandybridge(chromebooks)
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5 (>= 8.2.0-2)
-Conflicts: openblas
-Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.2_i686.deb
-Size: 3012176
-SHA256: 92131cb3d3db3dc3948584ac0ed845c16e72a12255931d56821385d7112dc498
-
-Package: openblas-sandybridge
-Architecture: i686
 Installed-Size: 13520
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.3.3
@@ -1283,30 +1168,6 @@ Provides: openblas
 Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.3_i686.deb
 Size: 2958320
 SHA256: 757f2c9954b09b0c77f5034d3b214eddba717b58557cb74b5d7c6c9d4352d6a3
-
-Package: openblas
-Architecture: i686
-Installed-Size: 14224
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.1
-Description:  Optimized BLAS (linear algebra) library
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-i686/openblas_0.3.1_i686.deb
-Size: 2946108
-SHA256: 6824f6b677d3027727505697efc89abbd8d6bfdc5cafcd9d2334c92a02789206
-
-Package: openblas
-Architecture: i686
-Installed-Size: 14236
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.2-2
-Description:  Optimized BLAS (linear algebra) library
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5 (>= 8.2.0-2)
-Filename: dists/termux/extras/binary-i686/openblas_0.3.2-2_i686.deb
-Size: 2946516
-SHA256: 663058e9e012ad6416feb473bd93db0be3fcd497d75618b9d9d36e7b9abb622d
 
 Package: openblas
 Architecture: i686
@@ -1324,18 +1185,6 @@ Package: opencv
 Architecture: i686
 Installed-Size: 32400
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3-1
-Description: computer vision image library (with python3 library)
-Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
-Filename: dists/termux/extras/binary-i686/opencv_3.4.3-1_i686.deb
-Size: 6424564
-SHA256: 7379a6b1693b5d25a31e9bb992411e885c6ca7c5b976c2a1620e4d19fc69941f
-
-Package: opencv
-Architecture: i686
-Installed-Size: 32400
-Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.3-2
 Description: computer vision image library (with python3 library)
 Homepage: https://opencv.org
@@ -1346,27 +1195,27 @@ SHA256: 1486bdacdf09ed123ceb78f7013f316789aed999596b64fd837f08cb88845ee7
 
 Package: openldap-dev
 Architecture: i686
-Installed-Size: 428
+Installed-Size: 440
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.45
+Version: 2.4.46
 Description: Development files for openldap
 Homepage: https://openldap.org
 Depends: openldap
-Filename: dists/termux/extras/binary-i686/openldap-dev_2.4.45_i686.deb
-Size: 67152
-SHA256: b72ffff6f174c21eb5316064015f3d7e9c36b12282e99bf3d81177b69ee967b8
+Filename: dists/termux/extras/binary-i686/openldap-dev_2.4.46_i686.deb
+Size: 67128
+SHA256: 489e65d7aff0140842be1304dcfc24e2dba096bedf1439daca7b873928e09ae4
 
 Package: openldap
 Architecture: i686
-Installed-Size: 3372
+Installed-Size: 3288
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.45
+Version: 2.4.46
 Description: OpenLDAP server
 Homepage: https://openldap.org
 Depends: libsasl, openssl, libuuid
-Filename: dists/termux/extras/binary-i686/openldap_2.4.45_i686.deb
-Size: 801792
-SHA256: ca95159815d8fe7d87911cf697722c313d03e5e045e898b690910bcd611044cf
+Filename: dists/termux/extras/binary-i686/openldap_2.4.46_i686.deb
+Size: 793196
+SHA256: 5ce9d8e850d198242ec34a10ea52de0252153247de5d47e81e70b492256ef4b9
 
 Package: pacman4console
 Architecture: i686
@@ -2072,18 +1921,6 @@ SHA256: 50858ffb7e565ddaae0da960633a88013aa1c493e3fd6cd828ea5ca321da359e
 
 Package: racket
 Architecture: i686
-Installed-Size: 27920
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.12
-Description: Full-spectrum programming language going beyond Lisp and Scheme
-Homepage: https://racket-lang.org
-Depends: libffi, libandroid-support
-Filename: dists/termux/extras/binary-i686/racket_6.12_i686.deb
-Size: 5156100
-SHA256: 69382e16f7359da5662fe3f9bf2f8685cfbc4fe19a342f2865089298cc59b4cb
-
-Package: racket
-Architecture: i686
 Installed-Size: 29420
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0
@@ -2202,30 +2039,6 @@ Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.31.0-1_i686.deb
 Size: 1665044
 SHA256: fe30f5aebd06d40098b7814112c93aca739a97406264a44583c1d82bf1d63176
 
-Package: rustfmt-nightly
-Architecture: i686
-Installed-Size: 6360
-Maintainer: @its-pointless
-Version: 1.31.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.31.0_i686.deb
-Size: 1669488
-SHA256: 55896b62572d880efc9eefe608222068cfee3d1b722d5f7b4928d01aea7496e1
-
-Package: rustfmt
-Architecture: i686
-Installed-Size: 5848
-Maintainer: @its-pointless
-Version: 0.99.1-2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-i686/rustfmt_0.99.1-2_i686.deb
-Size: 1574372
-SHA256: 88f93f85359e7b39e7573c79a0f20c7bceb050f3067116f6017a0e757905016e
-
 Package: rustfmt
 Architecture: i686
 Installed-Size: 5852
@@ -2286,18 +2099,6 @@ Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.3.0-2_i686.deb
 Size: 127388
 SHA256: 4d8cc8c11b731e496b4ef245a3d9d1622ded5e5e7533214aa5de46ef99f42ffb
 
-Package: suitesparse-dev
-Architecture: i686
-Installed-Size: 1044
-Maintainer:  @its-pointless github
-Version: 5.3.0
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.3.0_i686.deb
-Size: 127136
-SHA256: 53fa4461041c0bca474a32645f31eeaa07ee57d05a3e5c2306f29bfb08f5a898
-
 Package: suitesparse
 Architecture: i686
 Installed-Size: 11864
@@ -2309,29 +2110,6 @@ Depends: openblas
 Filename: dists/termux/extras/binary-i686/suitesparse_5.3.0-2_i686.deb
 Size: 1638820
 SHA256: 425e1f74e7db1391a9ed217abd05c1c9d1d4d41b262be0705540ba7965d5242f
-
-Package: suitesparse
-Architecture: i686
-Installed-Size: 11828
-Maintainer:  @its-pointless github
-Version: 5.3.0
-Description: a suite of sparse matrix software
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Filename: dists/termux/extras/binary-i686/suitesparse_5.3.0_i686.deb
-Size: 1753428
-SHA256: dcd15450268f76a24f70b82dcbbb8adff6b0672cf76313f247fd47e0df41c76a
-
-Package: tzdata
-Architecture: i686
-Installed-Size: 3508
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2018d
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-i686/tzdata_2018d_i686.deb
-Size: 191460
-SHA256: ed9a51105164ab425f8aeda90545e1cdbfec095b01ec4cf4037f710b0a7cea0b
 
 Package: tzdata
 Architecture: i686

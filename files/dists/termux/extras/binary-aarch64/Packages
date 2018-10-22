@@ -302,30 +302,6 @@ Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-5_aarch64.deb
 Size: 21310040
 SHA256: 0ccd80d48e45fd00d626df672c9d21a02f7937b1b271f0625c762acf9b599fbe
 
-Package: gcc-8
-Architecture: aarch64
-Installed-Size: 87752
-Maintainer: @its-pointless github
-Version: 8.2.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-1_aarch64.deb
-Size: 23136644
-SHA256: 3ad3ddf954b0094d69bbef30d54edf80990d61b990f2ed4dfcb15a61f90dcb50
-
-Package: gcc-8
-Architecture: aarch64
-Installed-Size: 87744
-Maintainer: @its-pointless github
-Version: 8.2.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils (>= 2.31.1-1), libgmp (>= 6.1.2-1), libmpfr (>= 4.0.1-1), libmpc (>= 1.1.0), ndk-sysroot (>= 18-8), libisl (>= 0.20), setup-scripts (>= 2.6), libandroid-support (>= 22)
-Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-2_aarch64.deb
-Size: 23134616
-SHA256: ec6a4b8c40dc4c160dcc106c21ce8b63f828d10a6b9ed046fe98dd4e33c2207b
-
 Package: gforth
 Architecture: aarch64
 Installed-Size: 3504
@@ -442,17 +418,6 @@ Homepage: http://htmlcxx.sourceforge.net
 Filename: dists/termux/extras/binary-aarch64/htmlcxx_0.86_aarch64.deb
 Size: 62288
 SHA256: a7d175cb468b58082e6e3e11ec763961176c06e888efd9b85814fc954b7aaf09
-
-Package: imapfilter
-Architecture: aarch64
-Installed-Size: 208
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.6.10
-Description: Filter mail in your IMAP account
-Homepage: https://github.com/lefcha/imapfilter
-Filename: dists/termux/extras/binary-aarch64/imapfilter_2.6.10_aarch64.deb
-Size: 40616
-SHA256: d2d42ed4b73059c65d4b8e2845f485e5b54ff74e16f668971a8b2fbbab927eac
 
 Package: imapfilter
 Architecture: aarch64
@@ -785,20 +750,6 @@ Package: libgomp-8
 Architecture: aarch64
 Installed-Size: 332
 Maintainer: @its-pointless github
-Version: 8.2.0-1
-Description: openmp library for gcc-8
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.2.0-1_aarch64.deb
-Size: 73756
-SHA256: 3a79743dc7ef702e754ced7f3a131eaf523de7954cadf303b18dfc2ef8927235
-
-Package: libgomp-8
-Architecture: aarch64
-Installed-Size: 332
-Maintainer: @its-pointless github
 Version: 8.2.0-2
 Description: openmp library for gcc-8
 Homepage: http://gcc.gnu.org/
@@ -808,20 +759,6 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.2.0-2_aarch64.deb
 Size: 73676
 SHA256: b27c3838dde76a4d8076c6cd51ac6e53c285ed1f8efeb080024cf04e48339ae7
-
-Package: libgomp-8
-Architecture: aarch64
-Installed-Size: 332
-Maintainer: @its-pointless github
-Version: 8.2.0
-Description: openmp library for gcc-8
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.2.0_aarch64.deb
-Size: 73640
-SHA256: 6a566aac9bfe4951a84157f91df7bfc0f4b0c3369882aefa604315fcb9fc9ff0
 
 Package: libllvm-julia
 Architecture: aarch64
@@ -927,18 +864,6 @@ Homepage: https://pocoproject.org
 Filename: dists/termux/extras/binary-aarch64/libpoco_1.9.0_aarch64.deb
 Size: 1935404
 SHA256: 0f2bb7ce2a29a718cb92d57c75b1f5f40a6f602bfe286ff3f1de94809a40469d
-
-Package: libsigsegv-dev
-Architecture: aarch64
-Installed-Size: 12
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.11
-Description: Development files for libsigsegv
-Homepage: https://www.gnu.org/software/libsigsegv/
-Depends: libsigsegv
-Filename: dists/termux/extras/binary-aarch64/libsigsegv-dev_2.11_aarch64.deb
-Size: 3684
-SHA256: cbe40ef7007d82b02508cbb57cc0dfe2635d5c68bba66f1e680a8c3b425d5a28
 
 Package: libsigsegv-dev
 Architecture: aarch64
@@ -1431,30 +1356,6 @@ SHA256: a48a7eff8a3a5f46f12cd12450adc9b6e0ae2db87075b64fecc86ef8b7d19284
 
 Package: openblas
 Architecture: aarch64
-Installed-Size: 10704
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.1
-Description:  Optimized BLAS (linear algebra) library
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-aarch64/openblas_0.3.1_aarch64.deb
-Size: 2085676
-SHA256: 8c7d489ae814d5cb08371bb0550b1b28621f9156dee196ea71e2f9858ee4b725
-
-Package: openblas
-Architecture: aarch64
-Installed-Size: 10292
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.2-1
-Description:  Optimized BLAS (linear algebra) library
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5 (>= 8.2.0-2)
-Filename: dists/termux/extras/binary-aarch64/openblas_0.3.2-1_aarch64.deb
-Size: 2013484
-SHA256: 7b150b2f04aafd510008cb7ad587ce47c314425b172827c2c13c1948ba9f8b20
-
-Package: openblas
-Architecture: aarch64
 Installed-Size: 10036
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.3.3
@@ -1464,18 +1365,6 @@ Depends: libgfortran5
 Filename: dists/termux/extras/binary-aarch64/openblas_0.3.3_aarch64.deb
 Size: 1996108
 SHA256: 32304853ff7413d087216e1d953d5da0dac0a7bae56e50c3dd2096d7dd7b2f64
-
-Package: opencv
-Architecture: aarch64
-Installed-Size: 32604
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3-1
-Description: computer vision image library (with python3 library)
-Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
-Filename: dists/termux/extras/binary-aarch64/opencv_3.4.3-1_aarch64.deb
-Size: 5821032
-SHA256: f8ea0221b1ced3d5168e0be34d3fbf8e4b2ce82a826495ce1d05191d8922f448
 
 Package: opencv
 Architecture: aarch64
@@ -1491,27 +1380,27 @@ SHA256: 77fe6abc634a573ac470b598859e811a7b695700f032595791a52200f52a84a9
 
 Package: openldap-dev
 Architecture: aarch64
-Installed-Size: 436
+Installed-Size: 440
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.45
+Version: 2.4.46
 Description: Development files for openldap
 Homepage: https://openldap.org
 Depends: openldap
-Filename: dists/termux/extras/binary-aarch64/openldap-dev_2.4.45_aarch64.deb
-Size: 67172
-SHA256: 974efd84a45f390c01ea8b272fd1c6d7701c81e1bb71b5c831ef9a1917a53d02
+Filename: dists/termux/extras/binary-aarch64/openldap-dev_2.4.46_aarch64.deb
+Size: 67132
+SHA256: 05ce5d03282d647e6daccd1201d8cdf2f1a644fc561a55b583b829021770da52
 
 Package: openldap
 Architecture: aarch64
-Installed-Size: 3404
+Installed-Size: 3508
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.45
+Version: 2.4.46
 Description: OpenLDAP server
 Homepage: https://openldap.org
 Depends: libsasl, openssl, libuuid
-Filename: dists/termux/extras/binary-aarch64/openldap_2.4.45_aarch64.deb
-Size: 750832
-SHA256: ccd7bbe4a41944851b4aed6e632c3d17ecf03a7b05fd12dbaeb8c9c2f58eb901
+Filename: dists/termux/extras/binary-aarch64/openldap_2.4.46_aarch64.deb
+Size: 747168
+SHA256: b4b15c65a11ee31e8295035e503368bb4442ef8a33d303ca276e139b1de9c40c
 
 Package: pacman4console
 Architecture: aarch64
@@ -2241,18 +2130,6 @@ SHA256: 004d09ab026b104e3c181910494b0af3e2f0644874c09fd75370100f41689e59
 
 Package: racket
 Architecture: aarch64
-Installed-Size: 27196
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.12
-Description: Full-spectrum programming language going beyond Lisp and Scheme
-Homepage: https://racket-lang.org
-Depends: libffi, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/racket_6.12_aarch64.deb
-Size: 4899592
-SHA256: d2691cf704144115469bd9141c8314c17628cad7849f41e33ef93eb5ed2b1f88
-
-Package: racket
-Architecture: aarch64
 Installed-Size: 28816
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0
@@ -2371,30 +2248,6 @@ Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.31.0-1_aarch64.de
 Size: 1357216
 SHA256: 1dd147d0e7ab72975c199218121462a83e12e7cc6584af2b2b6965943f5c6e14
 
-Package: rustfmt-nightly
-Architecture: aarch64
-Installed-Size: 5128
-Maintainer: @its-pointless
-Version: 1.31.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.31.0_aarch64.deb
-Size: 1353016
-SHA256: 0e8386c1e85bd6fa8db45afc22a25b9fc639c0e81d1e98a4b220f00764de599f
-
-Package: rustfmt
-Architecture: aarch64
-Installed-Size: 4640
-Maintainer: @its-pointless
-Version: 0.99.1-2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-aarch64/rustfmt_0.99.1-2_aarch64.deb
-Size: 1260016
-SHA256: c736089500d52a8e79af01f9f23c1177c6581dc7b11e7d866242a5c1b6dbdd9c
-
 Package: rustfmt
 Architecture: aarch64
 Installed-Size: 4640
@@ -2467,18 +2320,6 @@ Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_5.3.0-2_aarch64.deb
 Size: 127016
 SHA256: 3a2f6b15f40aff10017171011fb46e4a66c6b4aec4555197ad873fc3b6c95f1f
 
-Package: suitesparse-dev
-Architecture: aarch64
-Installed-Size: 1044
-Maintainer:  @its-pointless github
-Version: 5.3.0
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_5.3.0_aarch64.deb
-Size: 127464
-SHA256: 0d72ee21094d16e34693b86bcf8970fd4f860066075cc200b6ce6fbb16263964
-
 Package: suitesparse
 Architecture: aarch64
 Installed-Size: 8420
@@ -2490,29 +2331,6 @@ Depends: openblas
 Filename: dists/termux/extras/binary-aarch64/suitesparse_5.3.0-2_aarch64.deb
 Size: 1432320
 SHA256: fb4dff047a4202a401e5bb9e3bbebcb71e873bac3defc5f5af52aa53754df782
-
-Package: suitesparse
-Architecture: aarch64
-Installed-Size: 8416
-Maintainer:  @its-pointless github
-Version: 5.3.0
-Description: a suite of sparse matrix software
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Filename: dists/termux/extras/binary-aarch64/suitesparse_5.3.0_aarch64.deb
-Size: 1429228
-SHA256: 15f35af2e063e28bc9e05d05b69d010059c0020bbc55c300e248bab76221ca68
-
-Package: tzdata
-Architecture: aarch64
-Installed-Size: 3564
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2018d
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-aarch64/tzdata_2018d_aarch64.deb
-Size: 184300
-SHA256: 49dc7d29ad81a11d8606f799949d714d27cdcc85ba192d76616d8b4e16493057
 
 Package: tzdata
 Architecture: aarch64

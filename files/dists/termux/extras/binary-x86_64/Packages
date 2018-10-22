@@ -278,30 +278,6 @@ Filename: dists/termux/extras/binary-x86_64/gcc-7_7.3.0-5_x86_64.deb
 Size: 30707932
 SHA256: e113da46bea86e25a331235a4d6e50bd17c96668cd1c51ff89272b2d0f9e10d1
 
-Package: gcc-8
-Architecture: x86_64
-Installed-Size: 118924
-Maintainer: @its-pointless github
-Version: 8.2.0-1
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-8_8.2.0-1_x86_64.deb
-Size: 32658372
-SHA256: 59b17e80c298aeabcf145e7c5d5cff00eb88ab1dd96938fc32ccb52f712eb635
-
-Package: gcc-8
-Architecture: x86_64
-Installed-Size: 118932
-Maintainer: @its-pointless github
-Version: 8.2.0-2
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils (>= 2.31.1-1), libgmp (>= 6.1.2-1), libmpfr (>= 4.0.1-1), libmpc (>= 1.1.0), ndk-sysroot (>= 18-8), libisl (>= 0.20), setup-scripts (>= 2.6), libandroid-support (>= 22)
-Filename: dists/termux/extras/binary-x86_64/gcc-8_8.2.0-2_x86_64.deb
-Size: 32664144
-SHA256: 7d61a823fd041f7e7f4b0e3f8f1e5c908bfc5dc8bc95729243e0f08627f16766
-
 Package: gforth
 Architecture: x86_64
 Installed-Size: 14108
@@ -406,17 +382,6 @@ Homepage: http://htmlcxx.sourceforge.net
 Filename: dists/termux/extras/binary-x86_64/htmlcxx_0.86_x86_64.deb
 Size: 68868
 SHA256: 51c587b953737d2e4de13b88bec5e5232f6e600dba0f50e918b5b9c9db3334bc
-
-Package: imapfilter
-Architecture: x86_64
-Installed-Size: 204
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.6.10
-Description: Filter mail in your IMAP account
-Homepage: https://github.com/lefcha/imapfilter
-Filename: dists/termux/extras/binary-x86_64/imapfilter_2.6.10_x86_64.deb
-Size: 44268
-SHA256: 3a910ab52a0789fbc66582b86d7b80c1f900ad4e77f5f507ce7fdc682273ecf3
 
 Package: imapfilter
 Architecture: x86_64
@@ -692,20 +657,6 @@ Package: libgomp-8
 Architecture: x86_64
 Installed-Size: 336
 Maintainer: @its-pointless github
-Version: 8.2.0-1
-Description: openmp library for gcc-8
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.2.0-1_x86_64.deb
-Size: 77344
-SHA256: 12c96442fd34a004af002890af2b312d83cd768d2c513299495e8d4e42eb61ee
-
-Package: libgomp-8
-Architecture: x86_64
-Installed-Size: 336
-Maintainer: @its-pointless github
 Version: 8.2.0-2
 Description: openmp library for gcc-8
 Homepage: http://gcc.gnu.org/
@@ -715,20 +666,6 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.2.0-2_x86_64.deb
 Size: 77320
 SHA256: 0f03afa665e7cb4a347a331cd0c1f26ad9ac98c36e92d9e25c00bad1282e574b
-
-Package: libgomp-8
-Architecture: x86_64
-Installed-Size: 336
-Maintainer: @its-pointless github
-Version: 8.2.0
-Description: openmp library for gcc-8
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: libgomp
-Replaces: libgomp
-Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.2.0_x86_64.deb
-Size: 77320
-SHA256: de5aa7e74ff437c5bbb4fb728dc2748543ccf1f3a71e0e458714ddfe45741e60
 
 Package: libllvm-julia
 Architecture: x86_64
@@ -834,18 +771,6 @@ Homepage: https://pocoproject.org
 Filename: dists/termux/extras/binary-x86_64/libpoco_1.9.0_x86_64.deb
 Size: 2200852
 SHA256: aef2aeb25a562bbac1bc1ac2c9d337bf4734c44adea073a1115e9907510c0aaa
-
-Package: libsigsegv-dev
-Architecture: x86_64
-Installed-Size: 12
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.11
-Description: Development files for libsigsegv
-Homepage: https://www.gnu.org/software/libsigsegv/
-Depends: libsigsegv
-Filename: dists/termux/extras/binary-x86_64/libsigsegv-dev_2.11_x86_64.deb
-Size: 3684
-SHA256: 4440c010c56c482ace3919eb6b0d95e05a8889b5bc5fbb58fc23aaa90b68397c
 
 Package: libsigsegv-dev
 Architecture: x86_64
@@ -1290,34 +1215,6 @@ SHA256: 8c316a12ba5179510e84e22e31ff8a55e501dc4ebfdf39858eac4325b9329849
 
 Package: openblas-sandybridge
 Architecture: x86_64
-Installed-Size: 15696
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.1
-Description: blas library optimized for sandybridge(chromebooks)
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Conflicts: openblas
-Provides: openblas
-Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge_0.3.1_x86_64.deb
-Size: 3318032
-SHA256: 0ccd6316aa9ba9b920b59f05b0ebf779d6e32f620d2be4baa4844e6556631711
-
-Package: openblas-sandybridge
-Architecture: x86_64
-Installed-Size: 15760
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.2
-Description: blas library optimized for sandybridge(chromebooks)
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5 (>= 8.2.0-2)
-Conflicts: openblas
-Provides: openblas
-Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge_0.3.2_x86_64.deb
-Size: 3317088
-SHA256: 25f02dc0c17487517f459dd6ef6ec9f062e06e2dfbaf28d13ff24ef5bf7214e5
-
-Package: openblas-sandybridge
-Architecture: x86_64
 Installed-Size: 14704
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.3.3
@@ -1329,30 +1226,6 @@ Provides: openblas
 Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge_0.3.3_x86_64.deb
 Size: 3236528
 SHA256: ac599316e66b672ba88dc348e529adb0e3719a10aeb4fc61b503f0258c1f723b
-
-Package: openblas
-Architecture: x86_64
-Installed-Size: 15296
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.1
-Description:  Optimized BLAS (linear algebra) library
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-x86_64/openblas_0.3.1_x86_64.deb
-Size: 3203860
-SHA256: 50116513f7e29cdbb94a0c457759c023fdd556c9ed1eb619308b95f7dcf18929
-
-Package: openblas
-Architecture: x86_64
-Installed-Size: 15344
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.2-1
-Description:  Optimized BLAS (linear algebra) library
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5 (>= 8.2.0-2)
-Filename: dists/termux/extras/binary-x86_64/openblas_0.3.2-1_x86_64.deb
-Size: 3205696
-SHA256: 09e7dc07cac351a2d091b207e53d09d4a8fff559c200225f5ab4737446df493d
 
 Package: openblas
 Architecture: x86_64
@@ -1370,18 +1243,6 @@ Package: opencv
 Architecture: x86_64
 Installed-Size: 93932
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3-1
-Description: computer vision image library (with python3 library)
-Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
-Filename: dists/termux/extras/binary-x86_64/opencv_3.4.3-1_x86_64.deb
-Size: 15298512
-SHA256: 966a1f5c5a55e3b5f448ac90b0a3cbff685b3a739b153e1296127e1a2827cb03
-
-Package: opencv
-Architecture: x86_64
-Installed-Size: 93932
-Maintainer: Fredrik Fornwall @fornwall
 Version: 3.4.3-2
 Description: computer vision image library (with python3 library)
 Homepage: https://opencv.org
@@ -1392,27 +1253,27 @@ SHA256: ffba1d5a990f26db2e91286804300f7eac19dc80ac47c7ac755d82fc3c6fe408
 
 Package: openldap-dev
 Architecture: x86_64
-Installed-Size: 428
+Installed-Size: 440
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.45
+Version: 2.4.46
 Description: Development files for openldap
 Homepage: https://openldap.org
 Depends: openldap
-Filename: dists/termux/extras/binary-x86_64/openldap-dev_2.4.45_x86_64.deb
-Size: 67188
-SHA256: 707a3e8e219b83206aaca19a2050564fcd4fc377c682b85369624a6e54654b3a
+Filename: dists/termux/extras/binary-x86_64/openldap-dev_2.4.46_x86_64.deb
+Size: 67108
+SHA256: efc3ea1f6b8b66453ef7bd00fe2629d83682fa5ad4d9fa2d5986313327e9476a
 
 Package: openldap
 Architecture: x86_64
-Installed-Size: 3636
+Installed-Size: 3644
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.4.45
+Version: 2.4.46
 Description: OpenLDAP server
 Homepage: https://openldap.org
 Depends: libsasl, openssl, libuuid
-Filename: dists/termux/extras/binary-x86_64/openldap_2.4.45_x86_64.deb
-Size: 888740
-SHA256: 2ba2afe884fb22d440bcd9ab48f6c9942e3403ee247d4654176edaab35701865
+Filename: dists/termux/extras/binary-x86_64/openldap_2.4.46_x86_64.deb
+Size: 892404
+SHA256: 368e4f3c4d631cfeabeca06dabe3615013e8b459c0d9e6cc3076a0608048981b
 
 Package: pacman4console
 Architecture: x86_64
@@ -2142,18 +2003,6 @@ SHA256: 88cc5854663339a7cb54b98783352d1651feb39a0ad08e0fc8bf76e6f7116539
 
 Package: racket
 Architecture: x86_64
-Installed-Size: 27992
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.12
-Description: Full-spectrum programming language going beyond Lisp and Scheme
-Homepage: https://racket-lang.org
-Depends: libffi, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/racket_6.12_x86_64.deb
-Size: 5230636
-SHA256: 9e5f9f4ad5746b7b2875d2e19cf9976e9e7a30aadab6575a269280c4466d5c7c
-
-Package: racket
-Architecture: x86_64
 Installed-Size: 29940
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0
@@ -2272,30 +2121,6 @@ Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.31.0-1_x86_64.deb
 Size: 1593876
 SHA256: 2296c3030194c40af6fde863d07f636b6c73f1fb7912c9664ba42fedbde166a3
 
-Package: rustfmt-nightly
-Architecture: x86_64
-Installed-Size: 5816
-Maintainer: @its-pointless
-Version: 1.31.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.31.0_x86_64.deb
-Size: 1572964
-SHA256: a8c63975056c457e083c6e4ae2805cec2af65639b35fdafcb93c499f61460a5a
-
-Package: rustfmt
-Architecture: x86_64
-Installed-Size: 5348
-Maintainer: @its-pointless
-Version: 0.99.1-2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-x86_64/rustfmt_0.99.1-2_x86_64.deb
-Size: 1466288
-SHA256: be26c0a869efb5e894c8ed2d37fd47c1f4641b05d687f223632479d77a9c7716
-
 Package: rustfmt
 Architecture: x86_64
 Installed-Size: 5352
@@ -2356,18 +2181,6 @@ Filename: dists/termux/extras/binary-x86_64/suitesparse-dev_5.3.0-2_x86_64.deb
 Size: 127336
 SHA256: 0966a295db3eb209cb15b5610bd73894aa5ea3d80848fb59c4091d919aef75c9
 
-Package: suitesparse-dev
-Architecture: x86_64
-Installed-Size: 1044
-Maintainer:  @its-pointless github
-Version: 5.3.0
-Description: Development files for suitesparse
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Filename: dists/termux/extras/binary-x86_64/suitesparse-dev_5.3.0_x86_64.deb
-Size: 127372
-SHA256: 03ba8fcd49828f4b17b0c2a54328db6497a988d80a6fff5a2b5b36313c0c8df4
-
 Package: suitesparse
 Architecture: x86_64
 Installed-Size: 9108
@@ -2379,29 +2192,6 @@ Depends: openblas
 Filename: dists/termux/extras/binary-x86_64/suitesparse_5.3.0-2_x86_64.deb
 Size: 1749016
 SHA256: 16a829ee953d0aa264d4875fb8cfc1b13b826b09110246a4db5c8105fe4eea18
-
-Package: suitesparse
-Architecture: x86_64
-Installed-Size: 9072
-Maintainer:  @its-pointless github
-Version: 5.3.0
-Description: a suite of sparse matrix software
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Filename: dists/termux/extras/binary-x86_64/suitesparse_5.3.0_x86_64.deb
-Size: 1741184
-SHA256: 2a38fb70895d59ada44b19f7fd0a9daecd5df5bf702d2fea828ac166a398ff65
-
-Package: tzdata
-Architecture: x86_64
-Installed-Size: 5088
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2018d
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-x86_64/tzdata_2018d_x86_64.deb
-Size: 188840
-SHA256: 00710e6da4c52f9b8c2e954f8de0f051b2816cfc74fe552dec49a0635cc352dd
 
 Package: tzdata
 Architecture: x86_64
