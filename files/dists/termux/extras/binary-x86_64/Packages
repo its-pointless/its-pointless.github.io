@@ -278,6 +278,18 @@ Filename: dists/termux/extras/binary-x86_64/gcc-7_7.3.0-5_x86_64.deb
 Size: 30707932
 SHA256: e113da46bea86e25a331235a4d6e50bd17c96668cd1c51ff89272b2d0f9e10d1
 
+Package: gcc-8
+Architecture: x86_64
+Installed-Size: 118944
+Maintainer: @its-pointless github
+Version: 8.2.0-3
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-x86_64/gcc-8_8.2.0-3_x86_64.deb
+Size: 32675928
+SHA256: 84e96dc9fe704960719cb26940c635795c2719a0e3626d9f76575c2a3a05aab4
+
 Package: gforth
 Architecture: x86_64
 Installed-Size: 14108
@@ -324,6 +336,18 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-x86_64/glpk_4.65_x86_64.deb
 Size: 352860
 SHA256: 7779ffa2fd8b1d69100a5ae9e684dcdc9e0117016a71a7c060b5b388519a1987
+
+Package: gobjc-8
+Architecture: x86_64
+Installed-Size: 51048
+Maintainer: @its-pointless github
+Version: 8.2.0-3
+Description: GNU Objective-C compiler
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-8
+Filename: dists/termux/extras/binary-x86_64/gobjc-8_8.2.0-3_x86_64.deb
+Size: 14602312
+SHA256: c117e04b7999908cbc1d4d3bc3a7bbd7b27458d129e94bbb327e8afc759503ac
 
 Package: groff
 Architecture: x86_64
@@ -607,6 +631,18 @@ SHA256: cc9540476f02a25b0396ea94726bf4e1cbe4c28a1160811c54e6c7a17c61d94c
 
 Package: libgfortran5
 Architecture: x86_64
+Installed-Size: 2540
+Maintainer: @its-pointless github
+Version: 8.2.0-3
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.2.0-3_x86_64.deb
+Size: 676776
+SHA256: 9e14a012544479a973d06b1dfc63d9a9fded474b3721fb26363edfcd2352fc38
+
+Package: libgfortran5
+Architecture: x86_64
 Installed-Size: 2536
 Maintainer: @its-pointless github
 Version: 8.2.0
@@ -667,6 +703,20 @@ Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.2.0-2_x86_64.deb
 Size: 77320
 SHA256: 0f03afa665e7cb4a347a331cd0c1f26ad9ac98c36e92d9e25c00bad1282e574b
 
+Package: libgomp-8
+Architecture: x86_64
+Installed-Size: 336
+Maintainer: @its-pointless github
+Version: 8.2.0-3
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.2.0-3_x86_64.deb
+Size: 77376
+SHA256: 245e2c226603080a5d1206a0d134d7af97bdfdcdd1dc289be7824167f2c64c9e
+
 Package: libllvm-julia
 Architecture: x86_64
 Installed-Size: 46772
@@ -724,6 +774,17 @@ Depends: openssl
 Filename: dists/termux/extras/binary-x86_64/liboauth_1.0.3_x86_64.deb
 Size: 10844
 SHA256: 36214030b3cb2a5c75e29f0097706fb347f85ca56ccee5193ceed2175578a29a
+
+Package: libobjc4
+Architecture: x86_64
+Installed-Size: 476
+Maintainer: @its-pointless github
+Version: 8.2.0-3
+Description: GNU Objective-C runtime
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-x86_64/libobjc4_8.2.0-3_x86_64.deb
+Size: 74032
+SHA256: eed31e7e2ef4455f82c96f9f23253d2e87710dbe02f3de42fa49e6d5d04ba30a
 
 Package: libopenspecfun-dev
 Architecture: x86_64
