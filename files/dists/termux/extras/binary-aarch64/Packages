@@ -905,6 +905,18 @@ SHA256: 8d001cf3f0a747ca3cc0f792984419f5467d37b40176a69e08f872537b9525c0
 
 Package: libpoco-dev
 Architecture: aarch64
+Installed-Size: 5312
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0-1
+Description: Development files for libpoco
+Homepage: https://pocoproject.org
+Depends: libpoco
+Filename: dists/termux/extras/binary-aarch64/libpoco-dev_1.9.0-1_aarch64.deb
+Size: 472052
+SHA256: a70530025bd75b34fd028f925bf885081466a22d34cfedbc8c81b8dbd02bdbf9
+
+Package: libpoco-dev
+Architecture: aarch64
 Installed-Size: 5308
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.9.0
@@ -914,6 +926,17 @@ Depends: libpoco
 Filename: dists/termux/extras/binary-aarch64/libpoco-dev_1.9.0_aarch64.deb
 Size: 471844
 SHA256: 8dd6e95669c3313efc747741bc61fbcadd5997dcaaad19e99fab4c93792198ac
+
+Package: libpoco
+Architecture: aarch64
+Installed-Size: 10336
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0-1
+Description: C++ Portable Components (POCO)
+Homepage: https://pocoproject.org
+Filename: dists/termux/extras/binary-aarch64/libpoco_1.9.0-1_aarch64.deb
+Size: 1946192
+SHA256: bc8b5da153a77562d27df1b425df77108de01aa3f97a177557b35743fd697ea4
 
 Package: libpoco
 Architecture: aarch64

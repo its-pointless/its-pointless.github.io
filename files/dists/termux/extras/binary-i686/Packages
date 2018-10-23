@@ -813,6 +813,18 @@ SHA256: 8dc7253731621032fef6ddbdf2141eba9553ddf362e8271061bcc8e309ee0451
 
 Package: libpoco-dev
 Architecture: i686
+Installed-Size: 5312
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0-1
+Description: Development files for libpoco
+Homepage: https://pocoproject.org
+Depends: libpoco
+Filename: dists/termux/extras/binary-i686/libpoco-dev_1.9.0-1_i686.deb
+Size: 471872
+SHA256: 0dec73283bb1107bb7edfb391afb9b4144a8226de8dfa9859f4f163935d79461
+
+Package: libpoco-dev
+Architecture: i686
 Installed-Size: 5300
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.9.0
@@ -822,6 +834,17 @@ Depends: libpoco
 Filename: dists/termux/extras/binary-i686/libpoco-dev_1.9.0_i686.deb
 Size: 471876
 SHA256: 3f9b2065269b860d2125c6c6b817a911c7938fea7475e731e082d9e471f9ef1e
+
+Package: libpoco
+Architecture: i686
+Installed-Size: 9164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0-1
+Description: C++ Portable Components (POCO)
+Homepage: https://pocoproject.org
+Filename: dists/termux/extras/binary-i686/libpoco_1.9.0-1_i686.deb
+Size: 2130832
+SHA256: 60a9315fc93b723d937cd8daa5ea72ccb0f28b23ec427210d5ad367417646179
 
 Package: libpoco
 Architecture: i686

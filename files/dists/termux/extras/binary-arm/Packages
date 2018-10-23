@@ -1043,6 +1043,18 @@ SHA256: bbcfb1553f8bb657aedaa227e15fbdc5ff4dec843a3c4519695ef131d7fce98e
 
 Package: libpoco-dev
 Architecture: arm
+Installed-Size: 5312
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0-1
+Description: Development files for libpoco
+Homepage: https://pocoproject.org
+Depends: libpoco
+Filename: dists/termux/extras/binary-arm/libpoco-dev_1.9.0-1_arm.deb
+Size: 472104
+SHA256: a0d1c0903bff8cb4e8e206c6b042d283099ff2ff53ee10d3567865e82772fb31
+
+Package: libpoco-dev
+Architecture: arm
 Installed-Size: 5300
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.9.0
@@ -1052,6 +1064,17 @@ Depends: libpoco
 Filename: dists/termux/extras/binary-arm/libpoco-dev_1.9.0_arm.deb
 Size: 471848
 SHA256: 4cbd9f947c05e082e5d6a5665444b541437cc0aebb58db590c65a9198873b49c
+
+Package: libpoco
+Architecture: arm
+Installed-Size: 7288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0-1
+Description: C++ Portable Components (POCO)
+Homepage: https://pocoproject.org
+Filename: dists/termux/extras/binary-arm/libpoco_1.9.0-1_arm.deb
+Size: 1898676
+SHA256: 65fde276575ca9604658a1269350f42c1b8fe3fd8e3ca9b51afe4412389dcbd1
 
 Package: libpoco
 Architecture: arm

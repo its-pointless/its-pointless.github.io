@@ -814,6 +814,18 @@ Package: libpoco-dev
 Architecture: x86_64
 Installed-Size: 5308
 Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0-1
+Description: Development files for libpoco
+Homepage: https://pocoproject.org
+Depends: libpoco
+Filename: dists/termux/extras/binary-x86_64/libpoco-dev_1.9.0-1_x86_64.deb
+Size: 471948
+SHA256: 9b3a43824ad18515d4e1faa55ab4e8330e87c31c7aef397f6e0ffc6c38e141fd
+
+Package: libpoco-dev
+Architecture: x86_64
+Installed-Size: 5308
+Maintainer: Fredrik Fornwall @fornwall
 Version: 1.9.0
 Description: Development files for libpoco
 Homepage: https://pocoproject.org
@@ -821,6 +833,17 @@ Depends: libpoco
 Filename: dists/termux/extras/binary-x86_64/libpoco-dev_1.9.0_x86_64.deb
 Size: 471936
 SHA256: ffb98d7ace7046c8a7bbc0c683311c0d7bd31cc90c4c0f4232ae6ebea929115d
+
+Package: libpoco
+Architecture: x86_64
+Installed-Size: 9908
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0-1
+Description: C++ Portable Components (POCO)
+Homepage: https://pocoproject.org
+Filename: dists/termux/extras/binary-x86_64/libpoco_1.9.0-1_x86_64.deb
+Size: 2190312
+SHA256: f6ac50743be6ea75364892f4e2183890fbd27dba5afe6d9adb37675d3c581a17
 
 Package: libpoco
 Architecture: x86_64
