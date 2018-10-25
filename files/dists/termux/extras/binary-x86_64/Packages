@@ -1151,6 +1151,18 @@ Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.3_x86_64.deb
 Size: 33067736
 SHA256: 4b11279f93428a231e3f06931dd32ea34f8a7d265159cf7f8a00738d43e48289
 
+Package: motion
+Architecture: x86_64
+Installed-Size: 388
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.1
+Description: capture program supporting motion detection
+Homepage: https://github.com/Motion-Project/motion
+Depends: libandroid-support, libsqlite, bthread, libjpeg-turbo
+Filename: dists/termux/extras/binary-x86_64/motion_4.1.1_x86_64.deb
+Size: 99648
+SHA256: f5829f48bfec11c4b4ba584a63e0fb902509851c92bdce500610c2727d4074c3
+
 Package: mpich
 Architecture: x86_64
 Installed-Size: 6620

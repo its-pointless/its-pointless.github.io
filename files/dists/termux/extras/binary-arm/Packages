@@ -1309,6 +1309,18 @@ Filename: dists/termux/extras/binary-arm/moarvm_2018.09_arm.deb
 Size: 898180
 SHA256: 953f202e48089fa737ce50706b49799ef0739921a0520475c715454a72da4b8c
 
+Package: motion
+Architecture: arm
+Installed-Size: 328
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.1
+Description: capture program supporting motion detection
+Homepage: https://github.com/Motion-Project/motion
+Depends: libandroid-support, libsqlite, bthread, libjpeg-turbo
+Filename: dists/termux/extras/binary-arm/motion_4.1.1_arm.deb
+Size: 93372
+SHA256: bfea92335e833b9edc8c997e231f1d917e503163e93be365e5b6732ffcc94cf5
+
 Package: mpich
 Architecture: arm
 Installed-Size: 5204

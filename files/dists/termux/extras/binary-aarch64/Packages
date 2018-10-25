@@ -1268,6 +1268,18 @@ Filename: dists/termux/extras/binary-aarch64/mongodb_4.1.3_aarch64.deb
 Size: 28097452
 SHA256: af1f6317137a488594b08e41c2d00a8466fd9fd76ad1760bf7f5b2abccded655
 
+Package: motion
+Architecture: aarch64
+Installed-Size: 420
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.1
+Description: capture program supporting motion detection
+Homepage: https://github.com/Motion-Project/motion
+Depends: libandroid-support, libsqlite, bthread, libjpeg-turbo
+Filename: dists/termux/extras/binary-aarch64/motion_4.1.1_aarch64.deb
+Size: 86880
+SHA256: 0e5b28bcb0a7fcc0b8e33ee416de5d6263b222152a214ff9de3e2e01eab43391
+
 Package: mpich
 Architecture: aarch64
 Installed-Size: 6320
