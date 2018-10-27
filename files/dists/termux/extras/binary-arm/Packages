@@ -537,29 +537,29 @@ SHA256: 10a426b928921b17e60730f6fc2ca1d4f38523740abf4c625db243f1b2720a9a
 
 Package: julia-llvm
 Architecture: arm
-Installed-Size: 141376
+Installed-Size: 142800
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0-1
+Version: 6.0.0-2
 Description: llvm with julia patches (only useful if compiling julia itself)
 Homepage: https://clang.llvm.org/
 Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libllvm-julia
-Filename: dists/termux/extras/binary-arm/julia-llvm_6.0.0-1_arm.deb
-Size: 21988292
-SHA256: 635617c5c8d58e9f5f8d4b87c39a9426e9075aa5c89ab4417acc4e3fa8fcc5dd
+Filename: dists/termux/extras/binary-arm/julia-llvm_6.0.0-2_arm.deb
+Size: 22186020
+SHA256: f1be365deae81425216a28d60e725bcd1afcf5e6fb0a0e986ea64cc00a962c7c
 
 Package: julia
 Architecture: arm
-Installed-Size: 127476
+Installed-Size: 126016
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.1
+Version: 1.0.1-1
 Description: high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux, libunwind
 Conflicts: julia-devprev, julia-alpha, julia-beta
 Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-arm/julia_1.0.1_arm.deb
-Size: 20166156
-SHA256: 971595bfafe9d252f4c14ee0cf38ccd460e33a2efe3abb413debfbfcc5d132ff
+Filename: dists/termux/extras/binary-arm/julia_1.0.1-1_arm.deb
+Size: 19864436
+SHA256: d2f11ae036802825fff1960b168e12c6f7e21f9848359384c2c6f87d4065080d
 
 Package: keystone-dev
 Architecture: arm
@@ -916,14 +916,14 @@ SHA256: fb89af717c6f463e6ef92fbf96f3cbbc2ab2c671dce5abd032a433370f73e9ab
 
 Package: libllvm-julia
 Architecture: arm
-Installed-Size: 34352
+Installed-Size: 34576
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0-1
+Version: 6.0.0-2
 Description: patched libllvm for use with julia
 Homepage: https://clang.llvm.org/
-Filename: dists/termux/extras/binary-arm/libllvm-julia_6.0.0-1_arm.deb
-Size: 8581412
-SHA256: d3ae3fefa1a876ffd36a4f71c9e319b9e4e5167d2ee9dfbed3b67ec95b57eac3
+Filename: dists/termux/extras/binary-arm/libllvm-julia_6.0.0-2_arm.deb
+Size: 8649944
+SHA256: fdab218b51096c9436e0652b4ae503e7b94023581c53d31cd31bde450135da33
 
 Package: libmaa-dev
 Architecture: arm

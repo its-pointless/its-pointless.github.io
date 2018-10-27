@@ -399,29 +399,29 @@ SHA256: 997ae1e52b867828c4993be53800b005d7ed5d5d3812d1e5461551bf894eb512
 
 Package: julia-llvm
 Architecture: i686
-Installed-Size: 132296
+Installed-Size: 133496
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0-1
+Version: 6.0.0-2
 Description: llvm with julia patches (only useful if compiling julia itself)
 Homepage: https://clang.llvm.org/
 Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libllvm-julia
-Filename: dists/termux/extras/binary-i686/julia-llvm_6.0.0-1_i686.deb
-Size: 20753912
-SHA256: 9612272a889ff13621d32f04239ee87e03ad54b4bcb4cb7b4e0711bf430c16b6
+Filename: dists/termux/extras/binary-i686/julia-llvm_6.0.0-2_i686.deb
+Size: 20942632
+SHA256: f8b72c506daf5766b17dfbc5d7a6093baf461af650d8c91be05b6b08911841b8
 
 Package: julia
 Architecture: i686
-Installed-Size: 127220
+Installed-Size: 127100
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.1
+Version: 1.0.1-1
 Description: high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
 Conflicts: julia-devprev, julia-alpha, julia-beta
 Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-i686/julia_1.0.1_i686.deb
-Size: 19997888
-SHA256: e9c6ecd6453cdc55dca3cd5d7b908001f29eecba29044641fee9995eff322d09
+Filename: dists/termux/extras/binary-i686/julia_1.0.1-1_i686.deb
+Size: 19742708
+SHA256: 445e185bfa6efcdc94503594dda9a07b35e11d1bfd4561964a405a59e1649a39
 
 Package: keystone-dev
 Architecture: i686
@@ -686,14 +686,14 @@ SHA256: c110180e6bef3edfe915adc4db545c374699379f662a2c8f87c77706502aecca
 
 Package: libllvm-julia
 Architecture: i686
-Installed-Size: 43504
+Installed-Size: 43788
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0-1
+Version: 6.0.0-2
 Description: patched libllvm for use with julia
 Homepage: https://clang.llvm.org/
-Filename: dists/termux/extras/binary-i686/libllvm-julia_6.0.0-1_i686.deb
-Size: 9797476
-SHA256: 5a3aa18792452b9144cea4444d41ec88592df51c7b145285864a84e29b01a9d2
+Filename: dists/termux/extras/binary-i686/libllvm-julia_6.0.0-2_i686.deb
+Size: 9870336
+SHA256: 4b8527de1b42eab7d25084588dcec58279d6f2e5c7844395135079eeb56bef36
 
 Package: libmaa-dev
 Architecture: i686

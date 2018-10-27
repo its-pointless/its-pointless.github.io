@@ -398,29 +398,29 @@ SHA256: 32cefa43b56dd9392ae51c7d539a0ab1d5cb2349917b539fb2ea6ae818fe2122
 
 Package: julia-llvm
 Architecture: x86_64
-Installed-Size: 161452
+Installed-Size: 163048
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0-1
+Version: 6.0.0-2
 Description: llvm with julia patches (only useful if compiling julia itself)
 Homepage: https://clang.llvm.org/
 Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libllvm-julia
-Filename: dists/termux/extras/binary-x86_64/julia-llvm_6.0.0-1_x86_64.deb
-Size: 21457696
-SHA256: d1f97263c18ef3ae7a39eacadaab5be9ad93dec31564f10d76fd02fd7550a2c9
+Filename: dists/termux/extras/binary-x86_64/julia-llvm_6.0.0-2_x86_64.deb
+Size: 21649108
+SHA256: fe6a576dddd6e89dcf2e21ffc636c2d43ec9c281d821a93e7469cc92fcd9fc04
 
 Package: julia
 Architecture: x86_64
-Installed-Size: 149168
+Installed-Size: 149324
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.1
+Version: 1.0.1-1
 Description: high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
 Conflicts: julia-devprev, julia-alpha, julia-beta
 Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-x86_64/julia_1.0.1_x86_64.deb
-Size: 20411556
-SHA256: ab9dc71faa10e66214085ac6648fd74c8615a0ec341c9336a4ac6bb8a7b5f377
+Filename: dists/termux/extras/binary-x86_64/julia_1.0.1-1_x86_64.deb
+Size: 20444968
+SHA256: d9b0f504454e91a86b2f93675fdbbfdcf4ec4b0a4093032359d040ab3d5f742e
 
 Package: keystone-dev
 Architecture: x86_64
@@ -685,14 +685,14 @@ SHA256: 245e2c226603080a5d1206a0d134d7af97bdfdcdd1dc289be7824167f2c64c9e
 
 Package: libllvm-julia
 Architecture: x86_64
-Installed-Size: 46772
+Installed-Size: 47128
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0-1
+Version: 6.0.0-2
 Description: patched libllvm for use with julia
 Homepage: https://clang.llvm.org/
-Filename: dists/termux/extras/binary-x86_64/libllvm-julia_6.0.0-1_x86_64.deb
-Size: 9784388
-SHA256: 5f2fd0f2b08c8af2730ab4441593fd7b9979bdd88246eeb72a78390f63a1ee6e
+Filename: dists/termux/extras/binary-x86_64/libllvm-julia_6.0.0-2_x86_64.deb
+Size: 9870456
+SHA256: 12208ff56e92e2c9da0cd7e517ce67e444920078487614c3deaecf15488ab804
 
 Package: libmaa-dev
 Architecture: x86_64
@@ -1104,18 +1104,6 @@ Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
 Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.3-1_x86_64.deb
 Size: 33119944
 SHA256: cafd47231ecd01f42b6a8e484372b641ea2f4fd40c4ddde64a0a980b2230c54f
-
-Package: mongodb
-Architecture: x86_64
-Installed-Size: 143104
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.3
-Description: mongo db
-Homepage: https://github.com/mongodb/mongo
-Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
-Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.3_x86_64.deb
-Size: 33067736
-SHA256: 4b11279f93428a231e3f06931dd32ea34f8a7d265159cf7f8a00738d43e48289
 
 Package: motion
 Architecture: x86_64
