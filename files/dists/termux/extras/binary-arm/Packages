@@ -1275,29 +1275,17 @@ Filename: dists/termux/extras/binary-arm/moarvm_2018.09_arm.deb
 Size: 898180
 SHA256: 953f202e48089fa737ce50706b49799ef0739921a0520475c715454a72da4b8c
 
-Package: motion
-Architecture: arm
-Installed-Size: 328
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.1
-Description: capture program supporting motion detection
-Homepage: https://github.com/Motion-Project/motion
-Depends: libandroid-support, libsqlite, bthread, libjpeg-turbo
-Filename: dists/termux/extras/binary-arm/motion_4.1.1_arm.deb
-Size: 93372
-SHA256: bfea92335e833b9edc8c997e231f1d917e503163e93be365e5b6732ffcc94cf5
-
 Package: mpich
 Architecture: arm
 Installed-Size: 5204
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.2.1
+Version: 3.2.1-1
 Description: Implementation of the MPI Message Passing Interface standard
 Homepage: http://www.mpich.org
-Depends: libandroid-support (>= 22), gcc-8 (>= 8.2.0-1)
-Filename: dists/termux/extras/binary-arm/mpich_3.2.1_arm.deb
-Size: 1154576
-SHA256: a3b58cc24c59c82c057b9118e1728a46adfb71a8e3bad48fb090dc69ffcc9a41
+Depends: libandroid-support, gcc-8
+Filename: dists/termux/extras/binary-arm/mpich_3.2.1-1_arm.deb
+Size: 1156396
+SHA256: 4cc7fb0ebd4c95aa57fd54c78c46e99be4041df6431eadac2b2554ed29f50c12
 
 Package: nethack
 Architecture: arm

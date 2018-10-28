@@ -1222,29 +1222,17 @@ Filename: dists/termux/extras/binary-aarch64/mongodb_4.1.3-1_aarch64.deb
 Size: 27353504
 SHA256: 0c2cba9c59891726ab833a1b81ff0358c1f0256fc88d0b086df3605e99c5d48d
 
-Package: motion
-Architecture: aarch64
-Installed-Size: 420
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.1
-Description: capture program supporting motion detection
-Homepage: https://github.com/Motion-Project/motion
-Depends: libandroid-support, libsqlite, bthread, libjpeg-turbo
-Filename: dists/termux/extras/binary-aarch64/motion_4.1.1_aarch64.deb
-Size: 86880
-SHA256: 0e5b28bcb0a7fcc0b8e33ee416de5d6263b222152a214ff9de3e2e01eab43391
-
 Package: mpich
 Architecture: aarch64
-Installed-Size: 6320
+Installed-Size: 6580
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.2.1
+Version: 3.2.1-1
 Description: Implementation of the MPI Message Passing Interface standard
 Homepage: http://www.mpich.org
 Depends: libandroid-support, gcc-8
-Filename: dists/termux/extras/binary-aarch64/mpich_3.2.1_aarch64.deb
-Size: 1132984
-SHA256: 0598777af35fe73c0633e39ca445319902d26618e135efd70557ce5b2c57048c
+Filename: dists/termux/extras/binary-aarch64/mpich_3.2.1-1_aarch64.deb
+Size: 1129088
+SHA256: 1eae684fabab4963001c77096c2dc0d2d31c35d6587d9bbd7a2b9d37afe6e00b
 
 Package: nethack
 Architecture: aarch64

@@ -1071,29 +1071,17 @@ Filename: dists/termux/extras/binary-i686/moarvm_2018.09_i686.deb
 Size: 948692
 SHA256: a2f9070e6036ec701eff8b1082804af13061bc3057bb4cedf27a44f148d49645
 
-Package: motion
-Architecture: i686
-Installed-Size: 344
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.1
-Description: capture program supporting motion detection
-Homepage: https://github.com/Motion-Project/motion
-Depends: libandroid-support, libsqlite, bthread, libjpeg-turbo
-Filename: dists/termux/extras/binary-i686/motion_4.1.1_i686.deb
-Size: 90456
-SHA256: c9e5f51a6d614230c7e4e2a664df3082688f3291753958a2134da9897c4c9585
-
 Package: mpich
 Architecture: i686
 Installed-Size: 6708
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.2.1
+Version: 3.2.1-1
 Description: Implementation of the MPI Message Passing Interface standard
 Homepage: http://www.mpich.org
-Depends: libandroid-support (>= 22), gcc-8 (>= 8.2.0-1)
-Filename: dists/termux/extras/binary-i686/mpich_3.2.1_i686.deb
-Size: 1248364
-SHA256: 7cea4eb4a3f289dbb44e6125e04b99299c8215974c472e9f9fe1dd421b5983e5
+Depends: libandroid-support, gcc-8
+Filename: dists/termux/extras/binary-i686/mpich_3.2.1-1_i686.deb
+Size: 1247652
+SHA256: 968542a68be90d04dea01d0bdaf0e3d612806cfeb517694ecb7d4aa5f5968fb4
 
 Package: nethack
 Architecture: i686
