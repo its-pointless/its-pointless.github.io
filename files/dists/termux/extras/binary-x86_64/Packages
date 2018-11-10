@@ -232,6 +232,18 @@ Filename: dists/termux/extras/binary-x86_64/gcc-6_6.4.0-5_x86_64.deb
 Size: 26376192
 SHA256: f436d23e6aab4e09968b49246d635bf874fc83fd79f3dd7e61998c7ff97bfbf8
 
+Package: gcc-6
+Architecture: x86_64
+Installed-Size: 99124
+Maintainer:  @its-pointless github
+Version: 6.5.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Filename: dists/termux/extras/binary-x86_64/gcc-6_6.5.0_x86_64.deb
+Size: 26321852
+SHA256: 7f8a05a73b62e6c27cee87ab20ba899fa723b1c6c23f0e36a630f6d332093dfb
+
 Package: gcc-7
 Architecture: x86_64
 Installed-Size: 111004
@@ -410,17 +422,17 @@ SHA256: fe6a576dddd6e89dcf2e21ffc636c2d43ec9c281d821a93e7469cc92fcd9fc04
 
 Package: julia
 Architecture: x86_64
-Installed-Size: 149324
+Installed-Size: 151676
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.1-1
+Version: 1.0.2
 Description: high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
 Conflicts: julia-devprev, julia-alpha, julia-beta
 Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-x86_64/julia_1.0.1-1_x86_64.deb
-Size: 20444968
-SHA256: d9b0f504454e91a86b2f93675fdbbfdcf4ec4b0a4093032359d040ab3d5f742e
+Filename: dists/termux/extras/binary-x86_64/julia_1.0.2_x86_64.deb
+Size: 20573604
+SHA256: 0bb5523a46e9818e03107b142df708c6eaa92eed33a890e91e54b21d643e77c7
 
 Package: keystone-dev
 Architecture: x86_64
@@ -629,6 +641,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-x86_64/libgfortran_6.4.0-4_x86_64.deb
 Size: 256572
 SHA256: cd7b2dae925ebb3f8b304610c33680376ab87870cba796bfaee14ecc109ca3b8
+
+Package: libgfortran
+Architecture: x86_64
+Installed-Size: 1116
+Maintainer:  @its-pointless github
+Version: 6.5.0
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-x86_64/libgfortran_6.5.0_x86_64.deb
+Size: 256612
+SHA256: 71db1f1904163ca3c1f4403190ecaa712ebca8e816bb0e2a476a3c70516c73a9
 
 Package: libgnuiconv
 Architecture: x86_64

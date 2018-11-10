@@ -233,6 +233,18 @@ Filename: dists/termux/extras/binary-i686/gcc-6_6.4.0-5_i686.deb
 Size: 25852712
 SHA256: 3a26e8391526671a65aa96ef3e3404d35e6d0088e30b6a51672e3c87d0ba04ba
 
+Package: gcc-6
+Architecture: i686
+Installed-Size: 97088
+Maintainer:  @its-pointless github
+Version: 6.5.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Filename: dists/termux/extras/binary-i686/gcc-6_6.5.0_i686.deb
+Size: 25903672
+SHA256: 82fde627df417a723ab06158d9b2097dd10c4e9dff2efae01a8c63e0866ca9d4
+
 Package: gcc-7
 Architecture: i686
 Installed-Size: 107780
@@ -411,17 +423,17 @@ SHA256: f8b72c506daf5766b17dfbc5d7a6093baf461af650d8c91be05b6b08911841b8
 
 Package: julia
 Architecture: i686
-Installed-Size: 127100
+Installed-Size: 128700
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.1-1
+Version: 1.0.2
 Description: high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
 Conflicts: julia-devprev, julia-alpha, julia-beta
 Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-i686/julia_1.0.1-1_i686.deb
-Size: 19742708
-SHA256: 445e185bfa6efcdc94503594dda9a07b35e11d1bfd4561964a405a59e1649a39
+Filename: dists/termux/extras/binary-i686/julia_1.0.2_i686.deb
+Size: 20161864
+SHA256: a21f98bc9234bc98317b1685a2a273241c80b7ea268bddf25f1384d44be29ca4
 
 Package: keystone-dev
 Architecture: i686
@@ -630,6 +642,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-i686/libgfortran_6.4.0-4_i686.deb
 Size: 216912
 SHA256: 5c588e86cd419a8618f6f2ea1b2c4ec84f0e03c79d1e67a3611ddcfc39df127a
+
+Package: libgfortran
+Architecture: i686
+Installed-Size: 880
+Maintainer:  @its-pointless github
+Version: 6.5.0
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-i686/libgfortran_6.5.0_i686.deb
+Size: 216976
+SHA256: 9612730c62a61a7516a75380160652aa69f0ea823d966482c649594e7f9708b6
 
 Package: libgnuiconv
 Architecture: i686

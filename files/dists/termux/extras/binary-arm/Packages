@@ -255,6 +255,18 @@ Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0-5_arm.deb
 Size: 20425600
 SHA256: e784f8d296ea918bfcaa6522c8686edeced231588b07168a499bbe3fe7bd7749
 
+Package: gcc-6
+Architecture: arm
+Installed-Size: 70744
+Maintainer:  @its-pointless github
+Version: 6.5.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Filename: dists/termux/extras/binary-arm/gcc-6_6.5.0_arm.deb
+Size: 20434888
+SHA256: 8195c6a7449319774e08806a2eb18cb09b5d592bb2193d59b48268402fb48613
+
 Package: gcc-7
 Architecture: arm
 Installed-Size: 97904
@@ -549,17 +561,17 @@ SHA256: f1be365deae81425216a28d60e725bcd1afcf5e6fb0a0e986ea64cc00a962c7c
 
 Package: julia
 Architecture: arm
-Installed-Size: 126016
+Installed-Size: 127380
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.1-1
+Version: 1.0.2
 Description: high-performance dynamic programming language for numerical computing
 Homepage: https://julialang.org/
 Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux, libunwind
 Conflicts: julia-devprev, julia-alpha, julia-beta
 Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-arm/julia_1.0.1-1_arm.deb
-Size: 19864436
-SHA256: d2f11ae036802825fff1960b168e12c6f7e21f9848359384c2c6f87d4065080d
+Filename: dists/termux/extras/binary-arm/julia_1.0.2_arm.deb
+Size: 20026224
+SHA256: 745ff2417ab6d688848b94be5950640470599469f570a6d93a3120cd5243d652
 
 Package: keystone-dev
 Architecture: arm
@@ -837,6 +849,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libgfortran_6.4.0-4_arm.deb
 Size: 164684
 SHA256: b564c3cd5c1381372adb1b20d618bc1110cb3871f1a06532c5ff9b13e63661fe
+
+Package: libgfortran
+Architecture: arm
+Installed-Size: 672
+Maintainer:  @its-pointless github
+Version: 6.5.0
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgfortran_6.5.0_arm.deb
+Size: 165400
+SHA256: e0109af7ded2ced112f580c9c8dda3276c8185e6733566cda07f0ed427fd5493
 
 Package: libgme-dev
 Architecture: arm
