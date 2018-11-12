@@ -1238,6 +1238,18 @@ Filename: dists/termux/extras/binary-x86_64/ocaml_4.05.0_x86_64.deb
 Size: 40076880
 SHA256: e674715485d051b5aaa3132652c0a89f6dc5f513e6838c692786a5bd746183bd
 
+Package: ocaml
+Architecture: x86_64
+Installed-Size: 258020
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.07.1
+Description: OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
+Homepage: https://ocaml.org
+Depends: opam
+Filename: dists/termux/extras/binary-x86_64/ocaml_4.07.1_x86_64.deb
+Size: 55422928
+SHA256: 70caff61cda1953ca455c06365343e3759fd6e4a471a4ed94e696d55073436eb
+
 Package: octave-dev
 Architecture: x86_64
 Installed-Size: 5748
@@ -1273,6 +1285,20 @@ Depends: wget, curl, git, patch, tar, gzip, bzip2, xz-utils, rsync, termux-exec
 Filename: dists/termux/extras/binary-x86_64/opam_1.2.2.1_x86_64.deb
 Size: 2723536
 SHA256: 8c316a12ba5179510e84e22e31ff8a55e501dc4ebfdf39858eac4325b9329849
+
+Package: opam
+Architecture: x86_64
+Installed-Size: 12696
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.1
+Description: OPAM is a source-based package manager for OCaml.
+Homepage: http://www.ocaml.org
+Depends: getconf
+Replaces: opam
+Provides: opam
+Filename: dists/termux/extras/binary-x86_64/opam_2.0.1_x86_64.deb
+Size: 2344376
+SHA256: 114d3b94c3599f3bd76a0ea33c269b5ea62d9e290e9a347f7d7102b95eb35203
 
 Package: openblas-sandybridge
 Architecture: x86_64
