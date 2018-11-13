@@ -536,17 +536,6 @@ Filename: dists/termux/extras/binary-arm/imapfilter_2.6.12_arm.deb
 Size: 41940
 SHA256: 7f9c7af5ae30cad941204ee0bb6aa8d4b27e8d4a607a245383827b72b50f0d8a
 
-Package: jbuilder
-Architecture: arm
-Installed-Size: 3140
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.beta20
-Description: ocaml  jbuiler soon to be renamed to dune
-Homepage: https://github.com/ocaml/dune/
-Filename: dists/termux/extras/binary-arm/jbuilder_1.0.beta20_arm.deb
-Size: 826784
-SHA256: 10a426b928921b17e60730f6fc2ca1d4f38523740abf4c625db243f1b2720a9a
-
 Package: julia-llvm
 Architecture: arm
 Installed-Size: 142800
@@ -688,18 +677,6 @@ Filename: dists/termux/extras/binary-arm/libatomic-ops-dev_7.6.6_arm.deb
 Size: 57160
 SHA256: 6d82a6e14c2a846224ee71d5674a7964db40d44d284d5e38fb763418dfe31a07
 
-Package: libboost-python
-Architecture: arm
-Installed-Size: 224
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.65.1-1
-Description: Boost.Python Library
-Homepage: https://boost.org
-Depends: python, boost
-Filename: dists/termux/extras/binary-arm/libboost-python_1.65.1-1_arm.deb
-Size: 63180
-SHA256: be848711c82b39b2c6416730285577fb531002a8fff2ebe4f29c9b1f7bd2d8d3
-
 Package: libbsd-dev
 Architecture: arm
 Installed-Size: 1200
@@ -725,27 +702,27 @@ SHA256: ec0d3660a7e21d530c2f22cc8be32dbd012ec5f853920fef8aa5da3a48cd813c
 
 Package: libcgal-dev
 Architecture: arm
-Installed-Size: 40340
+Installed-Size: 41728
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.12
+Version: 4.13
 Description: Development files for libcgal
 Homepage: https://www.cgal.org
 Depends: libcgal,boost-dev
-Filename: dists/termux/extras/binary-arm/libcgal-dev_4.12_arm.deb
-Size: 4195304
-SHA256: 324701c7c078353ace2d6a70a749ef68d77e2455096c482e741042f8529c8ece
+Filename: dists/termux/extras/binary-arm/libcgal-dev_4.13_arm.deb
+Size: 4380648
+SHA256: cdff67621fdc5411e54d29980d21eb272297d665efdface0118dbe38266a6b23
 
 Package: libcgal
 Architecture: arm
-Installed-Size: 856
+Installed-Size: 804
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.12
+Version: 4.13
 Description: C++ library for computational geometry
 Homepage: https://www.cgal.org
 Depends: boost
-Filename: dists/termux/extras/binary-arm/libcgal_4.12_arm.deb
-Size: 192276
-SHA256: 712ad4b57104c5b5e5a32467fd38e49dc36917e763f6f20485dccac278cf8902
+Filename: dists/termux/extras/binary-arm/libcgal_4.13_arm.deb
+Size: 188196
+SHA256: af061537c7586ebee3eaf9875325c239f2ca7a34323fcbfd611ecf0c5ed15954
 
 Package: libcompiler-rt-termux
 Architecture: arm

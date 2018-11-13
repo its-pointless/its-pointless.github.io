@@ -433,17 +433,6 @@ Filename: dists/termux/extras/binary-aarch64/imapfilter_2.6.12_aarch64.deb
 Size: 40620
 SHA256: 850887ed31b03fe5f99b81b9153d0c465b8888e5dd51b3d56b60d0a5c487b014
 
-Package: jbuilder
-Architecture: aarch64
-Installed-Size: 3844
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.beta20
-Description: ocaml dune jbuiler
-Homepage: https://github.com/ocaml/dune/
-Filename: dists/termux/extras/binary-aarch64/jbuilder_1.0.beta20_aarch64.deb
-Size: 823468
-SHA256: 6c4525c7e0c62986af5f910c8155ba5046d84e8f5f7ab47160826b0ea510e09d
-
 Package: julia-llvm
 Architecture: aarch64
 Installed-Size: 159460
@@ -539,18 +528,6 @@ Filename: dists/termux/extras/binary-aarch64/libatomic-ops-dev_7.6.6_aarch64.deb
 Size: 57052
 SHA256: 338c4c345d4076b904f78797f1cdd2e42a63eb5663f5f1d7ea1b5772bb751d7e
 
-Package: libboost-python
-Architecture: aarch64
-Installed-Size: 332
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.65.1-1
-Description: Boost.Python Library
-Homepage: https://boost.org
-Depends: python, boost
-Filename: dists/termux/extras/binary-aarch64/libboost-python_1.65.1-1_aarch64.deb
-Size: 63360
-SHA256: 3ecf428fde2eea596ebd36eec333bd6da0d8c273b03ed523aaf934515b0d0632
-
 Package: libbsd-dev
 Architecture: aarch64
 Installed-Size: 1188
@@ -576,27 +553,27 @@ SHA256: 3ff7ab16ccbdcd82a0a0e723ef19e0e2a86c68e3d197b7e0942204a1a78abd53
 
 Package: libcgal-dev
 Architecture: aarch64
-Installed-Size: 40348
+Installed-Size: 41728
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.12
+Version: 4.13
 Description: Development files for libcgal
 Homepage: https://www.cgal.org
 Depends: libcgal,boost-dev
-Filename: dists/termux/extras/binary-aarch64/libcgal-dev_4.12_aarch64.deb
-Size: 4195228
-SHA256: 9fa4fa69e77639a10500cd271f83038af4a702e50647ed5f38692a6d5062da0b
+Filename: dists/termux/extras/binary-aarch64/libcgal-dev_4.13_aarch64.deb
+Size: 4380428
+SHA256: 7c6d1635d613865898a0031862d56b8896eeafb755c54a1ec0b7819992fafa2d
 
 Package: libcgal
 Architecture: aarch64
-Installed-Size: 1048
+Installed-Size: 984
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.12
+Version: 4.13
 Description: C++ library for computational geometry
 Homepage: https://www.cgal.org
 Depends: boost
-Filename: dists/termux/extras/binary-aarch64/libcgal_4.12_aarch64.deb
-Size: 193048
-SHA256: 0da354d745bfa06ce8a26d88cdba0350c79c1a017390789872022a24743f10bb
+Filename: dists/termux/extras/binary-aarch64/libcgal_4.13_aarch64.deb
+Size: 191584
+SHA256: fadd909f95a4c55fa0eeccf0ba1d2f10f612502d7cb22122e35bcd5aa14aaa7f
 
 Package: libcompiler-rt-termux
 Architecture: aarch64
