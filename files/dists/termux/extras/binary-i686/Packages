@@ -186,18 +186,6 @@ Filename: dists/termux/extras/binary-i686/ecl_16.1.3-1_i686.deb
 Size: 1539684
 SHA256: c9d6676d1dc2176f5b962a4b40ce840db30819780187c307c40375a03494080b
 
-Package: ecl
-Architecture: i686
-Installed-Size: 5552
-Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1.3
-Description: Embeddable Common-Lisp
-Homepage: https://common-lisp.net/project/ecl
-Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libandroid-support
-Filename: dists/termux/extras/binary-i686/ecl_16.1.3_i686.deb
-Size: 1300316
-SHA256: 1c8fbe35b269340e68fe346da00859ff97310262ecdda2141e1d906b0dc0d2aa
-
 Package: elfutils-ext
 Architecture: i686
 Installed-Size: 1692
@@ -1362,17 +1350,6 @@ SHA256: cb78863da9489a3df90fac492aaa922c4f18b5ecd090c14b2f5f48cd5121486d
 
 Package: python2-numpy
 Architecture: i686
-Installed-Size: 16448
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Filename: dists/termux/extras/binary-i686/python2-numpy_1.15.1_i686.deb
-Size: 2521512
-SHA256: 565502959135f188ad90b808b7ace3165844e1ef8569a9a8eda4ac9a5fa634cd
-
-Package: python2-numpy
-Architecture: i686
 Installed-Size: 16428
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.15.2-1
@@ -1382,29 +1359,6 @@ Depends: openblas, python2-dev, libcrypt-dev
 Filename: dists/termux/extras/binary-i686/python2-numpy_1.15.2-1_i686.deb
 Size: 2521392
 SHA256: 10ac0ff90bd01d9a5271edc39a6df3492f76c1351f54428f6f015b2f9ee9cd11
-
-Package: python2-numpy
-Architecture: i686
-Installed-Size: 16428
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.2
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Depends: openblas, python2-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-i686/python2-numpy_1.15.2_i686.deb
-Size: 2521540
-SHA256: 714755b704cddbecbbad0ff15e621edaf8200276637242f785b6310fa5c62597
-
-Package: python2-scipy
-Architecture: i686
-Installed-Size: 49708
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-2
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Filename: dists/termux/extras/binary-i686/python2-scipy_1.1.0-2_i686.deb
-Size: 10095480
-SHA256: f59d09557ce78a2578f7e71d442d784af71bfa60dbd36b572ebada6d422e6ce2
 
 Package: python2-scipy
 Architecture: i686
@@ -1983,14 +1937,14 @@ SHA256: 339f9f8be0c6d2a88fba9226d8e402509d54641eb4fd72c42ed572740a154f69
 
 Package: re2c
 Architecture: i686
-Installed-Size: 488
+Installed-Size: 464
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.3
+Version: 1.1.1
 Description: re2c is a free and open-source lexer generator for C and C++.
 Homepage: http://re2c.org/
-Filename: dists/termux/extras/binary-i686/re2c_1.0.3_i686.deb
-Size: 158324
-SHA256: 6924620f345bc9a319ddc018f1647a75465fa4fe39425bff2e89eb0a4d996e05
+Filename: dists/termux/extras/binary-i686/re2c_1.1.1_i686.deb
+Size: 156480
+SHA256: aa81f954df17a038b73822662e26feaa2a7d49d00a2278012dfe098c14c206a1
 
 Package: rust-rls-nightly
 Architecture: i686
