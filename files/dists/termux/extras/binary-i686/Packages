@@ -211,18 +211,6 @@ SHA256: 56a0852c1d274d6a66ce4c6ad22cc18911707cad14a7e9a63ec6f9958d97bfbe
 
 Package: gcc-6
 Architecture: i686
-Installed-Size: 96936
-Maintainer:  @its-pointless github
-Version: 6.4.0-5
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-i686/gcc-6_6.4.0-5_i686.deb
-Size: 25852712
-SHA256: 3a26e8391526671a65aa96ef3e3404d35e6d0088e30b6a51672e3c87d0ba04ba
-
-Package: gcc-6
-Architecture: i686
 Installed-Size: 97088
 Maintainer:  @its-pointless github
 Version: 6.5.0
@@ -451,46 +439,12 @@ Package: libatomic-ops-dev
 Architecture: i686
 Installed-Size: 756
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.6.4
-Description: A library for atomic operations
-Homepage: http://www.hboehm.info/gc/
-Filename: dists/termux/extras/binary-i686/libatomic-ops-dev_7.6.4_i686.deb
-Size: 56632
-SHA256: f6b8de967b8e28bd4a66e987b47a456d9a3944dced0caa5b135edafaee86b4f2
-
-Package: libatomic-ops-dev
-Architecture: i686
-Installed-Size: 756
-Maintainer: Fredrik Fornwall @fornwall
 Version: 7.6.6
 Description: A library for atomic operations
 Homepage: http://www.hboehm.info/gc/
 Filename: dists/termux/extras/binary-i686/libatomic-ops-dev_7.6.6_i686.deb
 Size: 56672
 SHA256: 36bc8c41ede3240a0a3c29e4f98c007dfff370e92aeb6c2a1733c0fedd16a451
-
-Package: libbsd-dev
-Architecture: i686
-Installed-Size: 1200
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.1
-Description: Development files for libbsd
-Homepage: https://libbsd.freedesktop.org
-Depends: libbsd
-Filename: dists/termux/extras/binary-i686/libbsd-dev_0.9.1_i686.deb
-Size: 58884
-SHA256: bd8e71b14dc49c0aa16d855c0fdabf2c9c7c0b26131a64b3e08e67d38c988e7c
-
-Package: libbsd
-Architecture: i686
-Installed-Size: 88
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.1
-Description: utility functions from BSD systems
-Homepage: https://libbsd.freedesktop.org
-Filename: dists/termux/extras/binary-i686/libbsd_0.9.1_i686.deb
-Size: 35176
-SHA256: 5115eb9fbbd5a072a981ab94cecc8c2ca92f88f4915a512461bbdb01b2cd46ab
 
 Package: libcgal-dev
 Architecture: i686
@@ -976,18 +930,6 @@ SHA256: bb67a399fd8666ed31d17b47d70423b9b9607c6d3701b4541814ae09d2b58cc7
 
 Package: llvm-libunwind-dev
 Architecture: i686
-Installed-Size: 52
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Description: Development files for llvm-libunwind
-Homepage: https://github.com/llvm-mirror/libunwind
-Depends: llvm-libunwind
-Filename: dists/termux/extras/binary-i686/llvm-libunwind-dev_6.0.1_i686.deb
-Size: 8028
-SHA256: 60bd076383b0bde46f97ce3f6e6f681e2fea22e06e3e97d89583e7ba322771c0
-
-Package: llvm-libunwind-dev
-Architecture: i686
 Installed-Size: 60
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0.0
@@ -997,19 +939,6 @@ Depends: llvm-libunwind
 Filename: dists/termux/extras/binary-i686/llvm-libunwind-dev_7.0.0_i686.deb
 Size: 8352
 SHA256: 97538ff73d7b651443d710dff6c4fd8b7b01ced2c4dd15ff2b98880eff66bf7f
-
-Package: llvm-libunwind
-Architecture: i686
-Installed-Size: 32
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Description: llvm libunwind
-Homepage: https://github.com/llvm-mirror/libunwind
-Conflicts: libunwind
-Provides: libunwind
-Filename: dists/termux/extras/binary-i686/llvm-libunwind_6.0.1_i686.deb
-Size: 11216
-SHA256: 44cdd6a8a990f356ab06fcd29967efb2eca2abecfc2618ac3a05067215b952a9
 
 Package: llvm-libunwind
 Architecture: i686
@@ -1023,18 +952,6 @@ Provides: libunwind
 Filename: dists/termux/extras/binary-i686/llvm-libunwind_7.0.0_i686.deb
 Size: 12896
 SHA256: 4c3cd3e15023d63d0f16aaf9d0817f169eba8ca80248e34104c9672af40fd366
-
-Package: mg
-Architecture: i686
-Installed-Size: 164
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20180927
-Description: microscopic GNU Emacs-style editor
-Homepage: 
-Depends: libbsd, ncurses
-Filename: dists/termux/extras/binary-i686/mg_20180927_i686.deb
-Size: 67620
-SHA256: 5594e8c5a982bff70f66530b633eda7552d7dcf598ff452d09f9245fbb5a6464
 
 Package: mksh
 Architecture: i686
@@ -1144,18 +1061,6 @@ Depends: openblas, python-dev, libcrypt-dev
 Filename: dists/termux/extras/binary-i686/numpy_1.15.2-2_i686.deb
 Size: 2499632
 SHA256: 457d3aa6ceaefcdeaf9dafbf9a94e6824be19835f4ae4bedda5d9198bfde4979
-
-Package: ocaml
-Architecture: i686
-Installed-Size: 171828
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.05.0
-Description: Programming language supporting functional, imperative and object-oriented styles
-Homepage: https://ocaml.org
-Depends: opam
-Filename: dists/termux/extras/binary-i686/ocaml_4.05.0_i686.deb
-Size: 38689636
-SHA256: b1447e84c6ebc8db784e6534d8d368c4cf2ee0d62f05f49783ddcd93142e3807
 
 Package: octave-dev
 Architecture: i686
@@ -1957,6 +1862,17 @@ Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.31.0-2_i686.deb
 Size: 4730868
 SHA256: 286bc0e417c9dc1e76d265a969e9567dbb0b79b92c063578443dc71b3f1a1e2c
 
+Package: rust-rls-nightly
+Architecture: i686
+Installed-Size: 19352
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.32.0_i686.deb
+Size: 4800180
+SHA256: bca013968a32aee2d4b5660862c6374c4a3c761b1024403a1ce577210fb41037
+
 Package: rust-rls
 Architecture: i686
 Installed-Size: 19172
@@ -1981,6 +1897,19 @@ Provides: rustc
 Filename: dists/termux/extras/binary-i686/rustc-nightly_1.31.0-2_i686.deb
 Size: 57645568
 SHA256: 2f8e00de5e3268570f3b17b8376256baaa8df36d91755ec0bf282e7e6ca723ab
+
+Package: rustc-nightly
+Architecture: i686
+Installed-Size: 177092
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly, libgit2, libssh2, libcurl
+Provides: rustc
+Filename: dists/termux/extras/binary-i686/rustc-nightly_1.32.0_i686.deb
+Size: 58560988
+SHA256: 7038b5b860c1f90d3d280f40bbd93b24885c2e305e4cce1c391fa6bf633e7662
 
 Package: rustc
 Architecture: i686
@@ -2008,6 +1937,18 @@ Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.31.0-2_i686.deb
 Size: 1667804
 SHA256: e6a981028286bd0ceff4891fd49f9223ce2ee1c7db655f59126640d9ed9897e2
 
+Package: rustfmt-nightly
+Architecture: i686
+Installed-Size: 6468
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.32.0_i686.deb
+Size: 1740408
+SHA256: 8952260ea59251eeecd8ab9373f4d139c278f84080bf89385b216c0459bb5a3a
+
 Package: rustfmt
 Architecture: i686
 Installed-Size: 5740
@@ -2031,18 +1972,6 @@ Depends:  libandroid-support, bthread
 Filename: dists/termux/extras/binary-i686/sc-im_0.7.0-1_i686.deb
 Size: 109504
 SHA256: e5856c34b47fcfe31287afc4144554c3f143bb09cfc88212451daf6a41ac8de9
-
-Package: sc-im
-Architecture: i686
-Installed-Size: 312
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
-Description: Common Linux command line utilities
-Homepage: http://landley.net/toybox/
-Depends:  libandroid-support, bthread
-Filename: dists/termux/extras/binary-i686/sc-im_0.7.0_i686.deb
-Size: 109392
-SHA256: 4f99199aa7c981d808dc4ba8aa724e398f724f74132f52a07d193158636264ec
 
 Package: scipy
 Architecture: i686
@@ -2090,17 +2019,6 @@ Homepage: https://data.iana.org/time-zones
 Filename: dists/termux/extras/binary-i686/tzdata_2018e-1_i686.deb
 Size: 193284
 SHA256: ff05f9cc3a50efac44f0ba9291471b84956a6b30822de3fe278f26e82280de0f
-
-Package: tzdata
-Architecture: i686
-Installed-Size: 5096
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2018e
-Description: time zone and daylight-saving time data
-Homepage: https://data.iana.org/time-zones
-Filename: dists/termux/extras/binary-i686/tzdata_2018e_i686.deb
-Size: 191956
-SHA256: c331891aa1085fffbb3ffb5cc0cf2f3c8861e90ad7bb2666fa3815ffe056e0e3
 
 Package: unicorn-dev
 Architecture: i686

@@ -22,6 +22,18 @@ Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.31.0-2_all.deb
 Size: 11996348
 SHA256: 53789e7e705ffdb41c038450ee935c78f540dec9d1e61cb82dae523af36ac3c8
 
+Package: rust-docs-nightly
+Architecture: all
+Installed-Size: 326580
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: Rust language documentation
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.32.0_all.deb
+Size: 11432260
+SHA256: 1df93dc5738e5a32fabd4e8dc3907345678d3bfbc0d3de4c4435ca654d899aec
+
 Package: rust-docs
 Architecture: all
 Installed-Size: 320024
@@ -44,6 +56,17 @@ Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.3
 Size: 11638752
 SHA256: a5c6a4f2a41d6264a413b1d7d4a3dcaafde916d3b8486aa3cd5dc391eca49f78
 
+Package: rust-nightly-wasm32-unknown-unknown
+Architecture: all
+Installed-Size: 41076
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.32.0_all.deb
+Size: 11630268
+SHA256: 164d6c69e009f054092c80ccddc1af92c75b5a52ba1497c54011991c8c7f0dca
+
 Package: rust-src-nightly
 Architecture: all
 Installed-Size: 33460
@@ -55,6 +78,18 @@ Depends: rustc
 Filename: dists/termux/extras/binary-all/rust-src-nightly_1.31.0-2_all.deb
 Size: 3446900
 SHA256: 3b594de373417392e9dc88211a3abd18d7c04f1bd848d4bf7182a861a9ba8cba
+
+Package: rust-src-nightly
+Architecture: all
+Installed-Size: 31308
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: rust src
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-all/rust-src-nightly_1.32.0_all.deb
+Size: 3130988
+SHA256: d359d9db34fb76d1aa0c4c32dd231160a28a5741599ca9f31aed9329cbbeb921
 
 Package: rust-src
 Architecture: all
@@ -101,3 +136,15 @@ Homepage: https://github.com/its-pointleaa/gcc_termux
 Filename: dists/termux/extras/binary-all/setup-scripts_2.6_all.deb
 Size: 1748
 SHA256: 8b5478b7742413a1be6dfe43e424465907f32b5820eb99561da2af86452b19cd
+
+Package: x86_64-dummy
+Architecture: all
+Installed-Size: 327076
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: Rust language documentation
+Homepage: https://www.rust-lang.org
+Depends: rustc
+Filename: dists/termux/extras/binary-all/x86_64-dummy_1.32.0_all.deb
+Size: 11942680
+SHA256: 7748f09053b680deab406cef927a142fbecad59a55a8e5c01c62cd4ac1b089f0

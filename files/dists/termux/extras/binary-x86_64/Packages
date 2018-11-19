@@ -210,18 +210,6 @@ SHA256: 3247cd395be801a747344c4c0a6dbacf8eb42ef5fbeeb40f09271f1afb8153e4
 
 Package: gcc-6
 Architecture: x86_64
-Installed-Size: 98956
-Maintainer:  @its-pointless github
-Version: 6.4.0-5
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-x86_64/gcc-6_6.4.0-5_x86_64.deb
-Size: 26376192
-SHA256: f436d23e6aab4e09968b49246d635bf874fc83fd79f3dd7e61998c7ff97bfbf8
-
-Package: gcc-6
-Architecture: x86_64
 Installed-Size: 99124
 Maintainer:  @its-pointless github
 Version: 6.5.0
@@ -450,46 +438,12 @@ Package: libatomic-ops-dev
 Architecture: x86_64
 Installed-Size: 760
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.6.4
-Description: A library for atomic operations
-Homepage: http://www.hboehm.info/gc/
-Filename: dists/termux/extras/binary-x86_64/libatomic-ops-dev_7.6.4_x86_64.deb
-Size: 56968
-SHA256: 4a56dab3d3b8a9fc2f211e5501abc44e4b8bfbe8bb3d111cdc4a17595b974525
-
-Package: libatomic-ops-dev
-Architecture: x86_64
-Installed-Size: 760
-Maintainer: Fredrik Fornwall @fornwall
 Version: 7.6.6
 Description: A library for atomic operations
 Homepage: http://www.hboehm.info/gc/
 Filename: dists/termux/extras/binary-x86_64/libatomic-ops-dev_7.6.6_x86_64.deb
 Size: 57044
 SHA256: 876092f24e5bba0b7a290f81add4f4e74fd808ab1e4e1849c0c54e42f5f46709
-
-Package: libbsd-dev
-Architecture: x86_64
-Installed-Size: 1200
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.1
-Description: Development files for libbsd
-Homepage: https://libbsd.freedesktop.org
-Depends: libbsd
-Filename: dists/termux/extras/binary-x86_64/libbsd-dev_0.9.1_x86_64.deb
-Size: 58884
-SHA256: a4045e536eb01ccd99555eb92a88ceec4b6346ebac0e26ffc97ecc0decde2b00
-
-Package: libbsd
-Architecture: x86_64
-Installed-Size: 84
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.1
-Description: utility functions from BSD systems
-Homepage: https://libbsd.freedesktop.org
-Filename: dists/termux/extras/binary-x86_64/libbsd_0.9.1_x86_64.deb
-Size: 33576
-SHA256: 1bd7f39d6c2b3b50aefa162f984346201aa9e108bbc218138eafda8168f6a2d2
 
 Package: libcgal-dev
 Architecture: x86_64
@@ -998,18 +952,6 @@ SHA256: 1d76c53f0ea5d58d4317e1e6950d3c10db79f2cc1dabdbfab15c87047f7e3981
 
 Package: llvm-libunwind-dev
 Architecture: x86_64
-Installed-Size: 52
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Description: Development files for llvm-libunwind
-Homepage: https://github.com/llvm-mirror/libunwind
-Depends: llvm-libunwind
-Filename: dists/termux/extras/binary-x86_64/llvm-libunwind-dev_6.0.1_x86_64.deb
-Size: 8044
-SHA256: 33a47efec7eff4af7c140f1f9e0074961771d759614114973e16b31a02e58baf
-
-Package: llvm-libunwind-dev
-Architecture: x86_64
 Installed-Size: 60
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0.0
@@ -1019,19 +961,6 @@ Depends: llvm-libunwind
 Filename: dists/termux/extras/binary-x86_64/llvm-libunwind-dev_7.0.0_x86_64.deb
 Size: 8360
 SHA256: b8d48cfef1e316b22e16cddbc520082b8cc35b0f87386406056ca580ac5f42d6
-
-Package: llvm-libunwind
-Architecture: x86_64
-Installed-Size: 32
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Description: llvm libunwind
-Homepage: https://github.com/llvm-mirror/libunwind
-Conflicts: libunwind
-Provides: libunwind
-Filename: dists/termux/extras/binary-x86_64/llvm-libunwind_6.0.1_x86_64.deb
-Size: 11744
-SHA256: 9a9b323261634a827c19f95f93a0eaf25762a9c671d7542bcff8f360eafa7908
 
 Package: llvm-libunwind
 Architecture: x86_64
@@ -1045,18 +974,6 @@ Provides: libunwind
 Filename: dists/termux/extras/binary-x86_64/llvm-libunwind_7.0.0_x86_64.deb
 Size: 13116
 SHA256: 108792f74cb633a388189c034c876ddf451018352aa398779b1174e35d4a7113
-
-Package: mg
-Architecture: x86_64
-Installed-Size: 204
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20180927
-Description: microscopic GNU Emacs-style editor
-Homepage: 
-Depends: libbsd, ncurses
-Filename: dists/termux/extras/binary-x86_64/mg_20180927_x86_64.deb
-Size: 78600
-SHA256: 39e841f47c8bb1662b9851cf63c01a7f266a5404965a5aef3a301640ced15173
 
 Package: mksh
 Architecture: x86_64
@@ -1178,30 +1095,6 @@ Depends: openblas, python-dev, libcrypt-dev
 Filename: dists/termux/extras/binary-x86_64/numpy_1.15.2-2_x86_64.deb
 Size: 2720212
 SHA256: 97c3606991d0b8eb1e323e50e13bbf92aa51ceb679109e15ea3a1ab61e3afaee
-
-Package: ocaml
-Architecture: x86_64
-Installed-Size: 218716
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.05.0-1
-Description: OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
-Homepage: https://ocaml.org
-Depends: opam
-Filename: dists/termux/extras/binary-x86_64/ocaml_4.05.0-1_x86_64.deb
-Size: 48295412
-SHA256: e3bd4bd094c12c18fba79d7ce1d95147124ff1b1fa4b5e7f98c7e755a0c30a91
-
-Package: ocaml
-Architecture: x86_64
-Installed-Size: 186264
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.05.0
-Description: Programming language supporting functional, imperative and object-oriented styles
-Homepage: https://ocaml.org
-Depends: opam
-Filename: dists/termux/extras/binary-x86_64/ocaml_4.05.0_x86_64.deb
-Size: 40076880
-SHA256: e674715485d051b5aaa3132652c0a89f6dc5f513e6838c692786a5bd746183bd
 
 Package: ocaml
 Architecture: x86_64
@@ -2053,6 +1946,17 @@ Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.31.0-2_x86_64.deb
 Size: 4479372
 SHA256: 5586c89de63501a90a4aa70f1aae2f67cf8e992e1121dec2cc5963bf0cb02bc6
 
+Package: rust-rls-nightly
+Architecture: x86_64
+Installed-Size: 17772
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.32.0_x86_64.deb
+Size: 4446864
+SHA256: d7fa58b5401fef647d51009c9dd575307cafacfbdb8bf1fcdab1c728d3336ef2
+
 Package: rust-rls
 Architecture: x86_64
 Installed-Size: 17544
@@ -2077,6 +1981,19 @@ Provides: rustc
 Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.31.0-2_x86_64.deb
 Size: 56634768
 SHA256: a9a7eb7f164360e5f93652894755c77ed75320f181390996a94f9dd9f6f72d6c
+
+Package: rustc-nightly
+Architecture: x86_64
+Installed-Size: 174948
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly, libgit2, libssh2, libcurl
+Provides: rustc
+Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.32.0_x86_64.deb
+Size: 57460748
+SHA256: 2d7b0d1044583442f1f6f3271b4ea48b9df24ee922e9461c096a565db918f7a7
 
 Package: rustc
 Architecture: x86_64
@@ -2104,6 +2021,18 @@ Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.31.0-2_x86_64.deb
 Size: 1598080
 SHA256: 061a6924869270b84c2e54b5bd161f09cbae0ac1e4d5d84a33d134c8d4cdcce8
 
+Package: rustfmt-nightly
+Architecture: x86_64
+Installed-Size: 6028
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.32.0_x86_64.deb
+Size: 1631000
+SHA256: 0ab1978cfa209110f860b5ad44c875661bbda7a573298bbe97cf69f572d5ae38
+
 Package: rustfmt
 Architecture: x86_64
 Installed-Size: 5272
@@ -2127,18 +2056,6 @@ Depends:  libandroid-support, bthread
 Filename: dists/termux/extras/binary-x86_64/sc-im_0.7.0-1_x86_64.deb
 Size: 120312
 SHA256: 43db7ace38d2bfb20bd4f36638c57c2396b2bd52bc8050ff67ec965858bbbcfa
-
-Package: sc-im
-Architecture: x86_64
-Installed-Size: 332
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
-Description: Common Linux command line utilities
-Homepage: http://landley.net/toybox/
-Depends:  libandroid-support, bthread
-Filename: dists/termux/extras/binary-x86_64/sc-im_0.7.0_x86_64.deb
-Size: 120416
-SHA256: dd85fdbfb8b3f954c26ebff7d712aff376fef85a53ea92c56b9915eb0790f8b0
 
 Package: scipy
 Architecture: x86_64
@@ -2186,17 +2103,6 @@ Homepage: https://data.iana.org/time-zones
 Filename: dists/termux/extras/binary-x86_64/tzdata_2018e-1_x86_64.deb
 Size: 190008
 SHA256: 8e5089b0f570e18b9f4e161690b7e89e87abfbb08944bbe1abad20f84d586a2b
-
-Package: tzdata
-Architecture: x86_64
-Installed-Size: 5092
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2018e
-Description: time zone and daylight-saving time data
-Homepage: https://data.iana.org/time-zones
-Filename: dists/termux/extras/binary-x86_64/tzdata_2018e_x86_64.deb
-Size: 189524
-SHA256: a882da041398469ed6774779564a803185bc64ea5fbd49ee541a7c2b91a85852
 
 Package: unicorn-dev
 Architecture: x86_64

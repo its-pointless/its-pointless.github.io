@@ -234,18 +234,6 @@ SHA256: 0c88b177e8e855932d9022e798c65efdec8035d2c0b3ee1bad7ba8d561192971
 
 Package: gcc-6
 Architecture: aarch64
-Installed-Size: 70856
-Maintainer:  @its-pointless github
-Version: 6.4.0-5
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-aarch64/gcc-6_6.4.0-5_aarch64.deb
-Size: 19554008
-SHA256: 6ae437817157de7fa52ebefe5c7c84286dc1f7cb344e7e24e5f1ef7d97245c77
-
-Package: gcc-6
-Architecture: aarch64
 Installed-Size: 71052
 Maintainer:  @its-pointless github
 Version: 6.5.0
@@ -498,46 +486,12 @@ Package: libatomic-ops-dev
 Architecture: aarch64
 Installed-Size: 756
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.6.4
-Description: A library for atomic operations
-Homepage: http://www.hboehm.info/gc/
-Filename: dists/termux/extras/binary-aarch64/libatomic-ops-dev_7.6.4_aarch64.deb
-Size: 56784
-SHA256: 0c429e034bf37429969ada74aef984464778de7792244c6042890ef23206e481
-
-Package: libatomic-ops-dev
-Architecture: aarch64
-Installed-Size: 756
-Maintainer: Fredrik Fornwall @fornwall
 Version: 7.6.6
 Description: A library for atomic operations
 Homepage: http://www.hboehm.info/gc/
 Filename: dists/termux/extras/binary-aarch64/libatomic-ops-dev_7.6.6_aarch64.deb
 Size: 57052
 SHA256: 338c4c345d4076b904f78797f1cdd2e42a63eb5663f5f1d7ea1b5772bb751d7e
-
-Package: libbsd-dev
-Architecture: aarch64
-Installed-Size: 1188
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.1
-Description: Development files for libbsd
-Homepage: https://libbsd.freedesktop.org
-Depends: libbsd
-Filename: dists/termux/extras/binary-aarch64/libbsd-dev_0.9.1_aarch64.deb
-Size: 58888
-SHA256: 8de23671b0028c07d4433417e0cb0873ebf4c9e3150b0df5c5794f3354a0eb10
-
-Package: libbsd
-Architecture: aarch64
-Installed-Size: 76
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.1
-Description: utility functions from BSD systems
-Homepage: https://libbsd.freedesktop.org
-Filename: dists/termux/extras/binary-aarch64/libbsd_0.9.1_aarch64.deb
-Size: 28876
-SHA256: 3ff7ab16ccbdcd82a0a0e723ef19e0e2a86c68e3d197b7e0942204a1a78abd53
 
 Package: libcgal-dev
 Architecture: aarch64
@@ -1091,18 +1045,6 @@ SHA256: 5bfd619e6b5138ea7f287cac85adb6acab258ddb9fb8f6a468984ccedc66d411
 
 Package: llvm-libunwind-dev
 Architecture: aarch64
-Installed-Size: 52
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Description: Development files for llvm-libunwind
-Homepage: https://github.com/llvm-mirror/libunwind
-Depends: llvm-libunwind
-Filename: dists/termux/extras/binary-aarch64/llvm-libunwind-dev_6.0.1_aarch64.deb
-Size: 8024
-SHA256: f7689d8da388542f5f7c272cddbc14e2dc98bff8b79310847e0cf204b447b36f
-
-Package: llvm-libunwind-dev
-Architecture: aarch64
 Installed-Size: 60
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0.0
@@ -1112,19 +1054,6 @@ Depends: llvm-libunwind
 Filename: dists/termux/extras/binary-aarch64/llvm-libunwind-dev_7.0.0_aarch64.deb
 Size: 8356
 SHA256: d3d93148fc837033c7d3fad43ddd1d69607158733ebf73c3dd2dbd3197e7b402
-
-Package: llvm-libunwind
-Architecture: aarch64
-Installed-Size: 36
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Description: llvm libunwind
-Homepage: https://github.com/llvm-mirror/libunwind
-Conflicts: libunwind
-Provides: libunwind
-Filename: dists/termux/extras/binary-aarch64/llvm-libunwind_6.0.1_aarch64.deb
-Size: 10888
-SHA256: de9e90baa17c85ee7a9b4662f4d84353ff25d9a67fb99da23d4302fcfd6b7e35
 
 Package: llvm-libunwind
 Architecture: aarch64
@@ -1162,18 +1091,6 @@ Depends: libandroid-glob, libcrypt
 Filename: dists/termux/extras/binary-aarch64/mailutils_3.2_aarch64.deb
 Size: 652876
 SHA256: 1d8a871da34523465e382ddb88a73be900c7136909e2657aa3a57a7f2f88b0b3
-
-Package: mg
-Architecture: aarch64
-Installed-Size: 240
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20180927
-Description: microscopic GNU Emacs-style editor
-Homepage: 
-Depends: libbsd, ncurses
-Filename: dists/termux/extras/binary-aarch64/mg_20180927_aarch64.deb
-Size: 65516
-SHA256: 624e9ea25949619aa6662f7772a8a03ec42515615587a6ef0d1042b237ca8752
 
 Package: mksh
 Architecture: aarch64
@@ -1298,30 +1215,6 @@ SHA256: fa16f72ee359f9ffe6b24c499ee9d35bae70f8c4fae10a3bddcc9ea3e75422fd
 
 Package: ocaml
 Architecture: aarch64
-Installed-Size: 221424
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.05.0-1
-Description: OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
-Homepage: https://ocaml.org
-Depends: opam
-Filename: dists/termux/extras/binary-aarch64/ocaml_4.05.0-1_aarch64.deb
-Size: 48490320
-SHA256: fc9cafd39638120c68be47ad6733419e5bb037e0ba946f094871bef95e478e5a
-
-Package: ocaml
-Architecture: aarch64
-Installed-Size: 185332
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.05.0
-Description: Programming language supporting functional, imperative and object-oriented styles
-Homepage: https://ocaml.org
-Depends: opam
-Filename: dists/termux/extras/binary-aarch64/ocaml_4.05.0_aarch64.deb
-Size: 39963456
-SHA256: c479622b30a1b32bb03ba576f298afa3d783e0045df225b79993d061d50095e4
-
-Package: ocaml
-Architecture: aarch64
 Installed-Size: 276236
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.07.1
@@ -1336,18 +1229,6 @@ Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-2
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-aarch64/octave-dev_4.4.1-2_aarch64.deb
-Size: 359828
-SHA256: eeb1c65ed2b0a419ba5ae8d92fc5b1e50ab0c5659927561c8e79a41306c8db1e
-
-Package: octave-dev
-Architecture: aarch64
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
 Version: 4.4.1-3
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
@@ -1355,18 +1236,6 @@ Depends: octave
 Filename: dists/termux/extras/binary-aarch64/octave-dev_4.4.1-3_aarch64.deb
 Size: 359876
 SHA256: 84587bc0e747fe8e42e8bda109ae195992c6c793fd9fc17c7e06b13c87f352c0
-
-Package: octave
-Architecture: aarch64
-Installed-Size: 43224
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-2
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-aarch64/octave_4.4.1-2_aarch64.deb
-Size: 8652360
-SHA256: fe43de07f3397af62eef7912bbd6bc0c4c8431850cf7318740675bacc8697343
 
 Package: octave
 Architecture: aarch64
@@ -2180,6 +2049,17 @@ Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.31.0-2_aarch64.d
 Size: 4202484
 SHA256: 841f7a1c4dcf60cfd41ebeb29def0659f88c44aea5b533b089735838864384a2
 
+Package: rust-rls-nightly
+Architecture: aarch64
+Installed-Size: 15108
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.32.0_aarch64.deb
+Size: 3775256
+SHA256: 569146fb24868a2b1fdd72e60c3a41199f6deea7ca6a693adbef3a8921256ebe
+
 Package: rust-rls
 Architecture: aarch64
 Installed-Size: 15068
@@ -2204,6 +2084,19 @@ Provides: rustc
 Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.31.0-2_aarch64.deb
 Size: 54301844
 SHA256: e22b4548c8c0c70f5ae3d6977047111ea0b21fb4a0cfa02f98c410ec3148ca3c
+
+Package: rustc-nightly
+Architecture: aarch64
+Installed-Size: 157372
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly, libgit2, libssh2, libcurl
+Provides: rustc
+Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.32.0_aarch64.deb
+Size: 54714172
+SHA256: ff3bead1c3e6e88dc9b57d8760ed13897ca0d4e0bea37d652a8d860ff88fe7f4
 
 Package: rustc
 Architecture: aarch64
@@ -2231,6 +2124,18 @@ Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.31.0-2_aarch64.de
 Size: 1360428
 SHA256: c29fc41a4af9b1369579e6bde9ed6f3912be8b6cb8edaa739b1728217121ab13
 
+Package: rustfmt-nightly
+Architecture: aarch64
+Installed-Size: 5192
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.32.0_aarch64.deb
+Size: 1389336
+SHA256: 86f0ebeca7788abffe2190827b24afd55bc0f4514322166b7cc4eece3dbfa944
+
 Package: rustfmt
 Architecture: aarch64
 Installed-Size: 4576
@@ -2254,18 +2159,6 @@ Depends:  libandroid-support, bthread
 Filename: dists/termux/extras/binary-aarch64/sc-im_0.7.0-1_aarch64.deb
 Size: 101984
 SHA256: e92bef72ee3e0a612d8d67147d22d61254c5301e9d83e3184629e9a144968ba6
-
-Package: sc-im
-Architecture: aarch64
-Installed-Size: 352
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
-Description: Common Linux command line utilities
-Homepage: http://landley.net/toybox/
-Depends:  libandroid-support, bthread
-Filename: dists/termux/extras/binary-aarch64/sc-im_0.7.0_aarch64.deb
-Size: 101512
-SHA256: a32787410404a7091473774ee72ff672b9f426c565619cdb28e7485837951ca1
 
 Package: sc
 Architecture: aarch64
@@ -2325,17 +2218,6 @@ Homepage: https://data.iana.org/time-zones
 Filename: dists/termux/extras/binary-aarch64/tzdata_2018e-1_aarch64.deb
 Size: 187140
 SHA256: f61e7942df667796038b727e7fe297e0e07f135a2a8a6955c0f34bb00251003f
-
-Package: tzdata
-Architecture: aarch64
-Installed-Size: 5156
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2018e
-Description: time zone and daylight-saving time data
-Homepage: https://data.iana.org/time-zones
-Filename: dists/termux/extras/binary-aarch64/tzdata_2018e_aarch64.deb
-Size: 187448
-SHA256: 6360e9aa23e7291a80e903133ab9a6b7a11a1cd3819fa4fc0b0c662ec2a505ac
 
 Package: unicorn-dev
 Architecture: aarch64

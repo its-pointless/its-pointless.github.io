@@ -233,18 +233,6 @@ SHA256: a351ec0bf44752c9aed516b355248b842209e9a307417e425cb862250b2dc499
 
 Package: gcc-6
 Architecture: arm
-Installed-Size: 70708
-Maintainer:  @its-pointless github
-Version: 6.4.0-5
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-arm/gcc-6_6.4.0-5_arm.deb
-Size: 20425600
-SHA256: e784f8d296ea918bfcaa6522c8686edeced231588b07168a499bbe3fe7bd7749
-
-Package: gcc-6
-Architecture: arm
 Installed-Size: 70744
 Maintainer:  @its-pointless github
 Version: 6.5.0
@@ -368,32 +356,6 @@ SHA256: b3e33b1246ae2fa7fcfcb85e0ce735dfeae80cb36917d1207de779a578e02f83
 
 Package: gnat-8
 Architecture: arm
-Installed-Size: 91400
-Maintainer: @its-pointless github
-Version: 8.2.0-1
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: gnat-7
-Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0-1_arm.deb
-Size: 16219136
-SHA256: d5ed98abf578a6006a59ac2c23de7e4f91ad39fd584e59794ffbb648d746faa1
-
-Package: gnat-8
-Architecture: arm
-Installed-Size: 91420
-Maintainer: @its-pointless github
-Version: 8.2.0-2
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8 (>= 8.2.0-2)
-Conflicts: gnat-7
-Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0-2_arm.deb
-Size: 16218172
-SHA256: 5b0eadd5ae5d8c08dcab6c2133dac91130c619720b485bdd6d7f87d58821a82a
-
-Package: gnat-8
-Architecture: arm
 Installed-Size: 91424
 Maintainer: @its-pointless github
 Version: 8.2.0-3
@@ -404,43 +366,6 @@ Conflicts: gnat-7
 Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0-3_arm.deb
 Size: 16217260
 SHA256: 65aa66345a9ac12b31d5860b1f4c529c23136bd3e2275f9ca2852b7ba6c3c2f2
-
-Package: gnat-8
-Architecture: arm
-Installed-Size: 88580
-Maintainer: @its-pointless github
-Version: 8.2.0
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: gnat-7
-Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0_arm.deb
-Size: 15673276
-SHA256: 0581b841d1f73fc6d74b50ef11e2f61e7f9b33941be2840c0e25aeb4ba4323c3
-
-Package: gnat
-Architecture: arm
-Installed-Size: 71868
-Maintainer: @its-pointless github
-Version: 7.3.0-2
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/gnat_7.3.0-2_arm.deb
-Size: 9592276
-SHA256: 91a5b4fd7b9c4625db073d003055ee517a8b6a6ffe260ed81cf2e564a095073f
-
-Package: gnat
-Architecture: arm
-Installed-Size: 71868
-Maintainer: @its-pointless github
-Version: 7.3.0
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Filename: dists/termux/extras/binary-arm/gnat_7.3.0_arm.deb
-Size: 9594012
-SHA256: cf94ccdfb338f034dd42acca8c672bfc36e2b5bd5b2c236194d532bd97859e9e
 
 Package: gobjc-8
 Architecture: arm
@@ -645,17 +570,6 @@ SHA256: f28c8d31b96e6035609944cdda3858ada80e6995124cd51d6bdb95f8a2a609cf
 
 Package: libatomic-ops-dev
 Architecture: arm
-Installed-Size: 756
-Maintainer: Fredrik Fornwall @fornwall
-Version: 7.6.4
-Description: A library for atomic operations
-Homepage: http://www.hboehm.info/gc/
-Filename: dists/termux/extras/binary-arm/libatomic-ops-dev_7.6.4_arm.deb
-Size: 56784
-SHA256: ae2261e993c0910966ddaa6c5817595b4e12fddb453ae24bc0d27c8ae9094260
-
-Package: libatomic-ops-dev
-Architecture: arm
 Installed-Size: 760
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.6.6
@@ -664,29 +578,6 @@ Homepage: http://www.hboehm.info/gc/
 Filename: dists/termux/extras/binary-arm/libatomic-ops-dev_7.6.6_arm.deb
 Size: 57160
 SHA256: 6d82a6e14c2a846224ee71d5674a7964db40d44d284d5e38fb763418dfe31a07
-
-Package: libbsd-dev
-Architecture: arm
-Installed-Size: 1200
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.1
-Description: Development files for libbsd
-Homepage: https://libbsd.freedesktop.org
-Depends: libbsd
-Filename: dists/termux/extras/binary-arm/libbsd-dev_0.9.1_arm.deb
-Size: 58876
-SHA256: 6c4e59f28d0423bbd095c53ec76033c834de91351eeae58862bc27226fb29c6a
-
-Package: libbsd
-Architecture: arm
-Installed-Size: 80
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.1
-Description: utility functions from BSD systems
-Homepage: https://libbsd.freedesktop.org
-Filename: dists/termux/extras/binary-arm/libbsd_0.9.1_arm.deb
-Size: 41572
-SHA256: ec0d3660a7e21d530c2f22cc8be32dbd012ec5f853920fef8aa5da3a48cd813c
 
 Package: libcgal-dev
 Architecture: arm
@@ -1228,18 +1119,6 @@ Filename: dists/termux/extras/binary-arm/mailutils_3.2_arm.deb
 Size: 642672
 SHA256: b11a9ab367742626e836863c945bf9888962224c8e997f74cc9ddba71fb5c1fe
 
-Package: mg
-Architecture: arm
-Installed-Size: 148
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20180927
-Description: microscopic GNU Emacs-style editor
-Homepage: 
-Depends: libbsd, ncurses
-Filename: dists/termux/extras/binary-arm/mg_20180927_arm.deb
-Size: 70324
-SHA256: f2c5581fd9793d9733ede458bbd320bc7aebb331818868631da4a74b0b874c7c
-
 Package: mksh
 Architecture: arm
 Installed-Size: 396
@@ -1351,18 +1230,6 @@ SHA256: ad9fdd278469b8eb397ace7921b192d2aaaca85f1519056b3639e21e6ec4a1c9
 
 Package: ocaml
 Architecture: arm
-Installed-Size: 203164
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.05.0-1
-Description: OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
-Homepage: https://ocaml.org
-Depends: opam
-Filename: dists/termux/extras/binary-arm/ocaml_4.05.0-1_arm.deb
-Size: 47840388
-SHA256: b6cfa2f65f04fdbda2a7df543e8260c50fc6272a54e9d081117d78b1e6589e69
-
-Package: ocaml
-Architecture: arm
 Installed-Size: 238456
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.07.1
@@ -1377,18 +1244,6 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-2
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1-2_arm.deb
-Size: 359848
-SHA256: 417ea6d63359d8a56f01a0cad984c670ab9a9dcac448308bb92ce3a60df135b7
-
-Package: octave-dev
-Architecture: arm
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
 Version: 4.4.1-3
 Description: Development files for octave
 Homepage: https://www.gnu.org/software/octave/
@@ -1396,18 +1251,6 @@ Depends: octave
 Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1-3_arm.deb
 Size: 359944
 SHA256: 7bda1b26cc1b3f0bd85e9195ba12dda1ead6dbfc6eda52c5a912dcf59327355c
-
-Package: octave
-Architecture: arm
-Installed-Size: 36760
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-2
-Description: Scientific Programming Language
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-arm/octave_4.4.1-2_arm.deb
-Size: 9024172
-SHA256: fa589399095356ea843c117db1e01536715b4d547c14d34be2ccb49dbc009181
 
 Package: octave
 Architecture: arm
@@ -2209,6 +2052,17 @@ Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.31.0-2_arm.deb
 Size: 4019116
 SHA256: 687413a4fe0a27e17470cfa1d7401dca7029043492d78b311352722f5193ad2a
 
+Package: rust-rls-nightly
+Architecture: arm
+Installed-Size: 9936
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.32.0_arm.deb
+Size: 3695008
+SHA256: f0b5374775e04c67686f95ce21c5a912753b09a0412245803845ea1cc28935af
+
 Package: rust-rls
 Architecture: arm
 Installed-Size: 9488
@@ -2233,6 +2087,19 @@ Provides: rustc
 Filename: dists/termux/extras/binary-arm/rustc-nightly_1.31.0-2_arm.deb
 Size: 53598392
 SHA256: 81ae3e723face17b1b1570beb81eb17ff4b249ffc78f49f30b23e8fdfadd6550
+
+Package: rustc-nightly
+Architecture: arm
+Installed-Size: 133452
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly, libgit2, libssh2, libcurl
+Provides: rustc
+Filename: dists/termux/extras/binary-arm/rustc-nightly_1.32.0_arm.deb
+Size: 54084068
+SHA256: 964aa1e8313c1732c48b70cc137b95e501911ba5b5515ba4c4ecbfd8075fa5db
 
 Package: rustc
 Architecture: arm
@@ -2260,6 +2127,18 @@ Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.31.0-2_arm.deb
 Size: 1261336
 SHA256: ec192f65f9d0aac06dcab8903dcaf4449ec42ea19da768490fd75a903de8a80c
 
+Package: rustfmt-nightly
+Architecture: arm
+Installed-Size: 3352
+Maintainer: @its-pointless
+Version: 1.32.0
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.32.0_arm.deb
+Size: 1325900
+SHA256: fb6ab49f257773a40dc15f1b0a106490faf7e69a75c73e9677c6b2bcbdf350c4
+
 Package: rustfmt
 Architecture: arm
 Installed-Size: 2880
@@ -2283,18 +2162,6 @@ Depends:  libandroid-support, bthread
 Filename: dists/termux/extras/binary-arm/sc-im_0.7.0-1_arm.deb
 Size: 118020
 SHA256: 05aac37fcc1b600904e0cbb30e72c51f4bae546181e28806716c4304d1f46f7d
-
-Package: sc-im
-Architecture: arm
-Installed-Size: 292
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.0
-Description: Common Linux command line utilities
-Homepage: http://landley.net/toybox/
-Depends:  libandroid-support, bthread
-Filename: dists/termux/extras/binary-arm/sc-im_0.7.0_arm.deb
-Size: 117992
-SHA256: cc9983094e6df8196b9febb37ba02980398db40b6c0c3af3966ea32d39971f5e
 
 Package: sc
 Architecture: arm
@@ -2354,17 +2221,6 @@ Homepage: https://data.iana.org/time-zones
 Filename: dists/termux/extras/binary-arm/tzdata_2018e-1_arm.deb
 Size: 207940
 SHA256: 6286dc1bf9782da8f174953bea7e354f8353506483048de771b477a71713a01f
-
-Package: tzdata
-Architecture: arm
-Installed-Size: 5156
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2018e
-Description: time zone and daylight-saving time data
-Homepage: https://data.iana.org/time-zones
-Filename: dists/termux/extras/binary-arm/tzdata_2018e_arm.deb
-Size: 206584
-SHA256: a5047bbbe7f0f1baddd6c335a146a34ac22eb559b36f732be481e46518d0a94a
 
 Package: unicorn-dev
 Architecture: arm
