@@ -400,28 +400,28 @@ Filename: dists/termux/extras/binary-i686/julia_1.0.2_i686.deb
 Size: 20161864
 SHA256: a21f98bc9234bc98317b1685a2a273241c80b7ea268bddf25f1384d44be29ca4
 
-Package: keystone-dev
+Package: keystone-engine-dev
 Architecture: i686
-Installed-Size: 48
+Installed-Size: 60
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.9.1
-Description: Development files for keystone
-Homepage: http://www.keystone-engine.org/
-Depends: keystone
-Filename: dists/termux/extras/binary-i686/keystone-dev_0.9.1_i686.deb
-Size: 4872
-SHA256: ac37abb9b4ab41f2cfe41b94411ac8cb6fd692375b120324856d01a07dfbf7fc
+Description: Development files for keystone-engine
+Homepage: http://www.keystone-engine.org
+Depends: keystone-engine
+Filename: dists/termux/extras/binary-i686/keystone-engine-dev_0.9.1_i686.deb
+Size: 4884
+SHA256: a9af32189c5f7250a3648f3ead52dcb8f76281b996b653214fd6645988c1a5e6
 
-Package: keystone
+Package: keystone-engine
 Architecture: i686
-Installed-Size: 4836
+Installed-Size: 12184
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.9.1
 Description: Keystone is a lightweight multi-platform, multi-architecture assembler framework
-Homepage: http://www.keystone-engine.org/
-Filename: dists/termux/extras/binary-i686/keystone_0.9.1_i686.deb
-Size: 821236
-SHA256: a149e3b4581d1fafd45bbf942498360d7ee59817b95803a097efe57a467d959c
+Homepage: http://www.keystone-engine.org
+Filename: dists/termux/extras/binary-i686/keystone-engine_0.9.1_i686.deb
+Size: 1435332
+SHA256: c1f5a16e8618f9421407dd5895fdc2f3c550a18af1f77ab5700c7494ed2bfa85
 
 Package: lgogdownloader
 Architecture: i686
@@ -1853,17 +1853,6 @@ SHA256: aa81f954df17a038b73822662e26feaa2a7d49d00a2278012dfe098c14c206a1
 
 Package: rust-rls-nightly
 Architecture: i686
-Installed-Size: 19676
-Maintainer: @its-pointless
-Version: 1.31.0-2
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.31.0-2_i686.deb
-Size: 4730868
-SHA256: 286bc0e417c9dc1e76d265a969e9567dbb0b79b92c063578443dc71b3f1a1e2c
-
-Package: rust-rls-nightly
-Architecture: i686
 Installed-Size: 19352
 Maintainer: @its-pointless
 Version: 1.32.0
@@ -1884,19 +1873,6 @@ Depends: rustc, libgit2, libssh2, libcurl
 Filename: dists/termux/extras/binary-i686/rust-rls_0.130.5_i686.deb
 Size: 4607944
 SHA256: dc8202baf26b097659cd9683ad3c0c746cb3d9e564f2f1349fc7e594bb5e51f9
-
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 177856
-Maintainer: @its-pointless
-Version: 1.31.0-2
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.31.0-2_i686.deb
-Size: 57645568
-SHA256: 2f8e00de5e3268570f3b17b8376256baaa8df36d91755ec0bf282e7e6ca723ab
 
 Package: rustc-nightly
 Architecture: i686
@@ -1924,18 +1900,6 @@ Replaces: rustfmt (>= 1.29.0-1)
 Filename: dists/termux/extras/binary-i686/rustc_1.30.0_i686.deb
 Size: 54366752
 SHA256: e907fcc066885ca54e8cb6ba951e5d722fdddbdf0cd9a7ab5144ee63172acb38
-
-Package: rustfmt-nightly
-Architecture: i686
-Installed-Size: 6304
-Maintainer: @its-pointless
-Version: 1.31.0-2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.31.0-2_i686.deb
-Size: 1667804
-SHA256: e6a981028286bd0ceff4891fd49f9223ce2ee1c7db655f59126640d9ed9897e2
 
 Package: rustfmt-nightly
 Architecture: i686

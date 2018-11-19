@@ -475,28 +475,28 @@ Filename: dists/termux/extras/binary-arm/julia_1.0.2_arm.deb
 Size: 20026224
 SHA256: 745ff2417ab6d688848b94be5950640470599469f570a6d93a3120cd5243d652
 
-Package: keystone-dev
+Package: keystone-engine-dev
 Architecture: arm
 Installed-Size: 60
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.9.1
-Description: Development files for keystone
-Homepage: http://www.keystone-engine.org/
-Depends: keystone
-Filename: dists/termux/extras/binary-arm/keystone-dev_0.9.1_arm.deb
-Size: 4868
-SHA256: 1896d366760ce32c65012614d8f8a8b98a09a0996defda35933ccc4ec0ef0fa0
+Description: Development files for keystone-engine
+Homepage: http://www.keystone-engine.org
+Depends: keystone-engine
+Filename: dists/termux/extras/binary-arm/keystone-engine-dev_0.9.1_arm.deb
+Size: 4896
+SHA256: 93d9a46f9c8f6e6e7ffbc5dbe3d0686f3ec3c85f83e91d2b72bbcff03a7dfb05
 
-Package: keystone
+Package: keystone-engine
 Architecture: arm
-Installed-Size: 4528
+Installed-Size: 12416
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.9.1
 Description: Keystone is a lightweight multi-platform, multi-architecture assembler framework
-Homepage: http://www.keystone-engine.org/
-Filename: dists/termux/extras/binary-arm/keystone_0.9.1_arm.deb
-Size: 758928
-SHA256: c954b270bc9bee10ef0232e4c5bea8bdb951499a6e5a1790f4cd029edd8fbffa
+Homepage: http://www.keystone-engine.org
+Filename: dists/termux/extras/binary-arm/keystone-engine_0.9.1_arm.deb
+Size: 1533820
+SHA256: 660cb3c233b96526c985c07937ec9c1d425c071b1c8eca3caa9c60f07283a05e
 
 Package: lbzip2
 Architecture: arm
@@ -2043,17 +2043,6 @@ SHA256: a3deb3015ee57714be9a4bc3e6c9e2085fd2e6bab028dbce0bd4c735f927c49d
 
 Package: rust-rls-nightly
 Architecture: arm
-Installed-Size: 10660
-Maintainer: @its-pointless
-Version: 1.31.0-2
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.31.0-2_arm.deb
-Size: 4019116
-SHA256: 687413a4fe0a27e17470cfa1d7401dca7029043492d78b311352722f5193ad2a
-
-Package: rust-rls-nightly
-Architecture: arm
 Installed-Size: 9936
 Maintainer: @its-pointless
 Version: 1.32.0
@@ -2074,19 +2063,6 @@ Depends: rustc, libgit2, libssh2, libcurl
 Filename: dists/termux/extras/binary-arm/rust-rls_0.130.5_arm.deb
 Size: 3499192
 SHA256: c34fcaa5dacba8f9bc38b08608b11193ebb8bdc98d5c35e7a50b67ef3be4cbf6
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 133108
-Maintainer: @its-pointless
-Version: 1.31.0-2
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.31.0-2_arm.deb
-Size: 53598392
-SHA256: 81ae3e723face17b1b1570beb81eb17ff4b249ffc78f49f30b23e8fdfadd6550
 
 Package: rustc-nightly
 Architecture: arm
@@ -2114,18 +2090,6 @@ Replaces: rustfmt (>= 1.29.0-1)
 Filename: dists/termux/extras/binary-arm/rustc_1.30.0_arm.deb
 Size: 50450508
 SHA256: c3ff6223ef4915801c69d13caa7dc4ff7dcd4e18245bbb6047adaac276aaebb7
-
-Package: rustfmt-nightly
-Architecture: arm
-Installed-Size: 3204
-Maintainer: @its-pointless
-Version: 1.31.0-2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.31.0-2_arm.deb
-Size: 1261336
-SHA256: ec192f65f9d0aac06dcab8903dcaf4449ec42ea19da768490fd75a903de8a80c
 
 Package: rustfmt-nightly
 Architecture: arm

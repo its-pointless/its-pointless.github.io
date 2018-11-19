@@ -399,28 +399,28 @@ Filename: dists/termux/extras/binary-x86_64/julia_1.0.2_x86_64.deb
 Size: 20573604
 SHA256: 0bb5523a46e9818e03107b142df708c6eaa92eed33a890e91e54b21d643e77c7
 
-Package: keystone-dev
+Package: keystone-engine-dev
 Architecture: x86_64
-Installed-Size: 48
+Installed-Size: 60
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.9.1
-Description: Development files for keystone
-Homepage: http://www.keystone-engine.org/
-Depends: keystone
-Filename: dists/termux/extras/binary-x86_64/keystone-dev_0.9.1_x86_64.deb
-Size: 4872
-SHA256: ff8126f20c9e7c9c219ea14c5514ca72c7a5aea0eb69687e459c48a99d2ba8c8
+Description: Development files for keystone-engine
+Homepage: http://www.keystone-engine.org
+Depends: keystone-engine
+Filename: dists/termux/extras/binary-x86_64/keystone-engine-dev_0.9.1_x86_64.deb
+Size: 4892
+SHA256: 84632e1660639c9abe04e3c1c8fdd6fa2072014f2db51337530783105440f9ba
 
-Package: keystone
+Package: keystone-engine
 Architecture: x86_64
-Installed-Size: 5740
+Installed-Size: 15372
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.9.1
 Description: Keystone is a lightweight multi-platform, multi-architecture assembler framework
-Homepage: http://www.keystone-engine.org/
-Filename: dists/termux/extras/binary-x86_64/keystone_0.9.1_x86_64.deb
-Size: 813180
-SHA256: d08ee8999f93a1a1600a2a57d236d68bf49bd4fbb5b6db80096e257443ddf8b0
+Homepage: http://www.keystone-engine.org
+Filename: dists/termux/extras/binary-x86_64/keystone-engine_0.9.1_x86_64.deb
+Size: 1662008
+SHA256: 41652e26e51795017e346b80b2c55a7c73f621da73b0868ce18c880d629ac9f4
 
 Package: lgogdownloader
 Architecture: x86_64
@@ -1937,17 +1937,6 @@ SHA256: 1bc67cc7666e547cf9197cf011061ee63bf7c85e51669b5a52a50ba3f0ec6c5f
 
 Package: rust-rls-nightly
 Architecture: x86_64
-Installed-Size: 18228
-Maintainer: @its-pointless
-Version: 1.31.0-2
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.31.0-2_x86_64.deb
-Size: 4479372
-SHA256: 5586c89de63501a90a4aa70f1aae2f67cf8e992e1121dec2cc5963bf0cb02bc6
-
-Package: rust-rls-nightly
-Architecture: x86_64
 Installed-Size: 17772
 Maintainer: @its-pointless
 Version: 1.32.0
@@ -1968,19 +1957,6 @@ Depends: rustc, libgit2, libssh2, libcurl
 Filename: dists/termux/extras/binary-x86_64/rust-rls_0.130.5_x86_64.deb
 Size: 4302588
 SHA256: 0608e185c6222383b9723c8f3125f391a0f68998e100f29d9e316498d20126fb
-
-Package: rustc-nightly
-Architecture: x86_64
-Installed-Size: 175512
-Maintainer: @its-pointless
-Version: 1.31.0-2
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.31.0-2_x86_64.deb
-Size: 56634768
-SHA256: a9a7eb7f164360e5f93652894755c77ed75320f181390996a94f9dd9f6f72d6c
 
 Package: rustc-nightly
 Architecture: x86_64
@@ -2008,18 +1984,6 @@ Replaces: rustfmt (>= 1.29.0-1)
 Filename: dists/termux/extras/binary-x86_64/rustc_1.30.0_x86_64.deb
 Size: 53533788
 SHA256: da58f5d88c345ccd6e5c2238f4ebf3f20384106de53596e30a20136cc3696b80
-
-Package: rustfmt-nightly
-Architecture: x86_64
-Installed-Size: 5884
-Maintainer: @its-pointless
-Version: 1.31.0-2
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.31.0-2_x86_64.deb
-Size: 1598080
-SHA256: 061a6924869270b84c2e54b5bd161f09cbae0ac1e4d5d84a33d134c8d4cdcce8
 
 Package: rustfmt-nightly
 Architecture: x86_64
