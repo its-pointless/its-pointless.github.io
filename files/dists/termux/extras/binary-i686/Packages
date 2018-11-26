@@ -1253,6 +1253,18 @@ Filename: dists/termux/extras/binary-i686/proxychains-ng_4.12_i686.deb
 Size: 15228
 SHA256: cb78863da9489a3df90fac492aaa922c4f18b5ecd090c14b2f5f48cd5121486d
 
+Package: pspp
+Architecture: i686
+Installed-Size: 2268
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0
+Description: Statistical analysis tool
+Homepage: https://www.gnu.org/software/pspp
+Depends: libandroid-support, pango, gsl, readline, libxml2
+Filename: dists/termux/extras/binary-i686/pspp_1.2.0_i686.deb
+Size: 828732
+SHA256: 6e2f958c25573e8023741af986b6e4480ccd335849f6767425d922b7f756727f
+
 Package: python2-numpy
 Architecture: i686
 Installed-Size: 16428

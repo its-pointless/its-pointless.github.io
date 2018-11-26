@@ -1431,6 +1431,18 @@ Filename: dists/termux/extras/binary-arm/proxychains-ng_4.12_arm.deb
 Size: 17528
 SHA256: c638b61954fcc12643c32264b25699c203e4b159d15310638b5b11036432b787
 
+Package: pspp
+Architecture: arm
+Installed-Size: 1940
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0
+Description: Statistical analysis tool
+Homepage: https://www.gnu.org/software/pspp
+Depends: libandroid-support, pango, gsl, readline, libxml2
+Filename: dists/termux/extras/binary-arm/pspp_1.2.0_arm.deb
+Size: 796888
+SHA256: 8188a13d39e556ac655fac5649d522226b1c87c80ed35d9f2a955cce035f6a95
+
 Package: python2-numpy
 Architecture: arm
 Installed-Size: 15240

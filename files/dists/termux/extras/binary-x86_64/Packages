@@ -1000,15 +1000,15 @@ SHA256: e8c79fe50e7c8ce17d89c13f75d0eb1930841bdc06a2143d93b49cbf6c82902d
 
 Package: mongodb
 Architecture: x86_64
-Installed-Size: 143124
+Installed-Size: 145912
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.3-1
+Version: 4.1.5
 Description: mongo db
 Homepage: https://github.com/mongodb/mongo
 Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
-Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.3-1_x86_64.deb
-Size: 33119944
-SHA256: cafd47231ecd01f42b6a8e484372b641ea2f4fd40c4ddde64a0a980b2230c54f
+Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.5_x86_64.deb
+Size: 33587472
+SHA256: 90b513533dabb5ae2b01f71db25b97fdffe94de6f6db19c7a4bf2b38de3e8065
 
 Package: mpich
 Architecture: x86_64
@@ -1324,6 +1324,18 @@ Homepage: https://github.com/rofl0r/proxychains-ng
 Filename: dists/termux/extras/binary-x86_64/proxychains-ng_4.12_x86_64.deb
 Size: 16376
 SHA256: 865955db266f0061a08bdae862f40a81ed4829b65206e20394274b4650e41c92
+
+Package: pspp
+Architecture: x86_64
+Installed-Size: 2544
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0
+Description: Statistical analysis tool
+Homepage: https://www.gnu.org/software/pspp
+Depends: libandroid-support, pango, gsl, readline, libxml2
+Filename: dists/termux/extras/binary-x86_64/pspp_1.2.0_x86_64.deb
+Size: 886320
+SHA256: 022362edd2e48d66f3f8fd41b12c6c3125940393c6286f0392f98c08eb240d30
 
 Package: python2-numpy
 Architecture: x86_64
@@ -2095,25 +2107,25 @@ Package: wiredtiger-dev
 Architecture: x86_64
 Installed-Size: 292
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.0
+Version: 3.1.0-1
 Description: Development files for wiredtiger
 Homepage: https://github.com/wiredtiger/wiredtiger
 Depends: wiredtiger
-Filename: dists/termux/extras/binary-x86_64/wiredtiger-dev_3.1.0_x86_64.deb
-Size: 48812
-SHA256: 8a14da5a5ff856ce91756d2c611860df48e9974b4bbe8afae3bf8895ccdca283
+Filename: dists/termux/extras/binary-x86_64/wiredtiger-dev_3.1.0-1_x86_64.deb
+Size: 48312
+SHA256: 3ba18820ff2178da9d9b1842725c6dded0153e3492bc1def5d16f4d4dcb2d295
 
 Package: wiredtiger
 Architecture: x86_64
-Installed-Size: 1268
+Installed-Size: 1288
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.0
+Version: 3.1.0-1
 Description: high performance, scalable, NoSQL, extensible platform
 Homepage: https://github.com/wiredtiger/wiredtiger
 Depends: libsnappy
-Filename: dists/termux/extras/binary-x86_64/wiredtiger_3.1.0_x86_64.deb
-Size: 402332
-SHA256: a14fb52e13d97d7ddf1882d24a1896b774294a80f7b9c62a496ddb411511ca7a
+Filename: dists/termux/extras/binary-x86_64/wiredtiger_3.1.0-1_x86_64.deb
+Size: 414632
+SHA256: 1301f7f6825652f3bb6b2e804be7754065af85df814e1c2d2847a11b8ea1b416
 
 Package: wordgrinder
 Architecture: x86_64
