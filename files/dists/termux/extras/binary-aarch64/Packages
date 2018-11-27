@@ -1203,15 +1203,15 @@ SHA256: b5ac294e025cc56cce56a1bfaaf453d635c0ee1f4aba0a5295a122e463176623
 
 Package: numpy
 Architecture: aarch64
-Installed-Size: 15448
+Installed-Size: 15580
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.2-2
+Version: 1.15.4
 Description: NumPy is the fundamental package for scientific computing with Python.
 Homepage: http://www.numpy.org/
 Depends: openblas, python-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-aarch64/numpy_1.15.2-2_aarch64.deb
-Size: 2277312
-SHA256: fa16f72ee359f9ffe6b24c499ee9d35bae70f8c4fae10a3bddcc9ea3e75422fd
+Filename: dists/termux/extras/binary-aarch64/numpy_1.15.4_aarch64.deb
+Size: 2310048
+SHA256: 1af157fcd614a2704eeef6bf83d28e750d2091450435d382ee9d583db169b0f8
 
 Package: ocaml
 Architecture: aarch64
@@ -1289,15 +1289,15 @@ SHA256: 32304853ff7413d087216e1d953d5da0dac0a7bae56e50c3dd2096d7dd7b2f64
 
 Package: opencv
 Architecture: aarch64
-Installed-Size: 32604
+Installed-Size: 37680
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3-2
-Description: computer vision image library (with python3 library)
+Version: 4.0.0
+Description: computer vision image library (with python2 python3 libraries
 Homepage: https://opencv.org
 Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
-Filename: dists/termux/extras/binary-aarch64/opencv_3.4.3-2_aarch64.deb
-Size: 5821576
-SHA256: 77fe6abc634a573ac470b598859e811a7b695700f032595791a52200f52a84a9
+Filename: dists/termux/extras/binary-aarch64/opencv_4.0.0_aarch64.deb
+Size: 6209400
+SHA256: 3090068669309f8f2d538618ad5c783fa39ecf86b9c2298a734be7c5bdafb085
 
 Package: openldap-dev
 Architecture: aarch64
@@ -1452,6 +1452,18 @@ Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.15.2-1_aarch64.deb
 Size: 2329288
 SHA256: 053dcd2ee40a2743293ac2f2fc7726132d664c04b7a91cb08dff7d5389b3a193
 
+Package: python2-numpy
+Architecture: aarch64
+Installed-Size: 15916
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15.4
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python2-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.15.4_aarch64.deb
+Size: 2320036
+SHA256: a829f323c807b884fc78a74abfc2b6f70503e2f6210339c2dd134583ba36214e
+
 Package: python2-scipy
 Architecture: aarch64
 Installed-Size: 47672
@@ -1475,6 +1487,18 @@ Depends: python2-numpy
 Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.1.0-4_aarch64.deb
 Size: 9911636
 SHA256: 939842b27087fad32923f7fe46e348d764b3a6b88fd7b77b2145dc9ede9f16c7
+
+Package: python2-scipy
+Architecture: aarch64
+Installed-Size: 49692
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0rc1
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.0rc1_aarch64.deb
+Size: 10442252
+SHA256: 34d18a1a04bb92cdcfc064611be557849f01d2dfedba465ab509065a94abc8b0
 
 Package: qemu-common
 Architecture: aarch64
@@ -2150,15 +2174,15 @@ SHA256: 3b28c3d51b423d03fbf507659332ab2406c851a8c1d2965ee2e815af1f107794
 
 Package: scipy
 Architecture: aarch64
-Installed-Size: 46348
+Installed-Size: 48744
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-5
+Version: 1.2.0rc1
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
 Homepage: https://scipy.org/scipylib
 Depends: numpy
-Filename: dists/termux/extras/binary-aarch64/scipy_1.1.0-5_aarch64.deb
-Size: 9778352
-SHA256: ccc797aa1b22f59cf4fa152c525ff0ec6f6c15b20e0e07f1227d7a34eb9a5d3f
+Filename: dists/termux/extras/binary-aarch64/scipy_1.2.0rc1_aarch64.deb
+Size: 10419404
+SHA256: 3728c837a35ca5b05f0e2abb0a4b658202ed941c5a4f046f7ae6170b3fce3ee7
 
 Package: suitesparse-dev
 Architecture: aarch64

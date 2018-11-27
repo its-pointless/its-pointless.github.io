@@ -1218,15 +1218,15 @@ SHA256: 05423939c6a27cc31e53e4b203b0d92194daacb29ee7e70462622b7c985ac17a
 
 Package: numpy
 Architecture: arm
-Installed-Size: 14652
+Installed-Size: 14936
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.2-2
+Version: 1.15.4
 Description: NumPy is the fundamental package for scientific computing with Python.
 Homepage: http://www.numpy.org/
 Depends: openblas, python-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-arm/numpy_1.15.2-2_arm.deb
-Size: 2434048
-SHA256: ad9fdd278469b8eb397ace7921b192d2aaaca85f1519056b3639e21e6ec4a1c9
+Filename: dists/termux/extras/binary-arm/numpy_1.15.4_arm.deb
+Size: 2566424
+SHA256: e3f5402d670939ac36e42d5e5f2148e84c904d21c7ed1bfe25cc4e9649209278
 
 Package: ocaml
 Architecture: arm
@@ -1304,15 +1304,15 @@ SHA256: 10ca8a72a41bbca2397f156ca2c10aa3ad61581b6e880fc3de76865c5a81a43e
 
 Package: opencv
 Architecture: arm
-Installed-Size: 27864
+Installed-Size: 31840
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.4.3-2
-Description: computer vision image library (with python3 library)
+Version: 4.0.0
+Description: computer vision image library (with python2 python3 libraries
 Homepage: https://opencv.org
 Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
-Filename: dists/termux/extras/binary-arm/opencv_3.4.3-2_arm.deb
-Size: 5964816
-SHA256: 800286c05a11f168d132811ee39848f075931bd755f564d98541fb42dce9985f
+Filename: dists/termux/extras/binary-arm/opencv_4.0.0_arm.deb
+Size: 6483956
+SHA256: 1adef4fbec2a990654548dd18e3936ce3dc110c3227aa558a81c3c64ccdf3a5d
 
 Package: openldap-dev
 Architecture: arm
@@ -1455,6 +1455,18 @@ Filename: dists/termux/extras/binary-arm/python2-numpy_1.15.2-1_arm.deb
 Size: 2529472
 SHA256: ecb78080e7da1cbc8e15e135c1c3c81b0ce595e18484fdfbd201b777765840ee
 
+Package: python2-numpy
+Architecture: arm
+Installed-Size: 15204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15.4
+Description: NumPy is the fundamental package for scientific computing with Python.
+Homepage: http://www.numpy.org/
+Depends: openblas, python2-dev, libcrypt-dev
+Filename: dists/termux/extras/binary-arm/python2-numpy_1.15.4_arm.deb
+Size: 2513108
+SHA256: 613213741d6a3722b03fbc374832f9d023604de425f4193d0636f640c76cdbd1
+
 Package: python2-scipy
 Architecture: arm
 Installed-Size: 43824
@@ -1478,6 +1490,18 @@ Depends: python2-numpy
 Filename: dists/termux/extras/binary-arm/python2-scipy_1.1.0-4_arm.deb
 Size: 10302540
 SHA256: 49a8756784f03b96637c43e7632442b7a2d25dfaf38d00e5062452ff376d0c18
+
+Package: python2-scipy
+Architecture: arm
+Installed-Size: 45844
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0rc1
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Filename: dists/termux/extras/binary-arm/python2-scipy_1.2.0rc1_arm.deb
+Size: 10875316
+SHA256: e9d340ac093083d99c6aa76fb6bb53d723d3228dd47f02d20b555c37deda2071
 
 Package: qemu-common
 Architecture: arm
@@ -2153,15 +2177,15 @@ SHA256: de80d8d3eef3be77c4001109261ac6719b5e9f871b6eddb6aff7290c21ecbe79
 
 Package: scipy
 Architecture: arm
-Installed-Size: 41696
+Installed-Size: 45292
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-5
+Version: 1.2.0rc1
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
 Homepage: https://scipy.org/scipylib
 Depends: numpy
-Filename: dists/termux/extras/binary-arm/scipy_1.1.0-5_arm.deb
-Size: 10027476
-SHA256: f7ee969d0e6cfcb988a47f4f835b71816c0e6ed3c211b68b518ca974917036f0
+Filename: dists/termux/extras/binary-arm/scipy_1.2.0rc1_arm.deb
+Size: 10940780
+SHA256: c1cd34913803d91d4f83e322c6214fad1fc775e06d2e3e5823739cf03b04f3c2
 
 Package: suitesparse-dev
 Architecture: arm
