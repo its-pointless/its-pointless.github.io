@@ -1107,6 +1107,18 @@ Filename: dists/termux/extras/binary-arm/mailutils-dev_3.2_arm.deb
 Size: 65768
 SHA256: c9bea6191cea9da642aac339714962e35b0b0d2fc60cf0f6103583cb4737c930
 
+Package: mailutils-dev
+Architecture: arm
+Installed-Size: 704
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5
+Description: Development files for mailutils
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: mailutils
+Filename: dists/termux/extras/binary-arm/mailutils-dev_3.5_arm.deb
+Size: 68756
+SHA256: a823d26b6bfead721086c9a2f1b89b5c6c1166be6621482faf8b1ef9ae0cfce8
+
 Package: mailutils
 Architecture: arm
 Installed-Size: 2876
@@ -1118,6 +1130,18 @@ Depends: libandroid-glob, libcrypt
 Filename: dists/termux/extras/binary-arm/mailutils_3.2_arm.deb
 Size: 642672
 SHA256: b11a9ab367742626e836863c945bf9888962224c8e997f74cc9ddba71fb5c1fe
+
+Package: mailutils
+Architecture: arm
+Installed-Size: 4144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libgsasl, libandroid-glob, msmtp, python, libandroid-support
+Filename: dists/termux/extras/binary-arm/mailutils_3.5_arm.deb
+Size: 755104
+SHA256: a981375ba760070ce1b612944bfc3f8c4c8eb6ed3dcd8f1f1d8c305ac6a87a43
 
 Package: mksh
 Architecture: arm
@@ -1445,18 +1469,6 @@ SHA256: 8188a13d39e556ac655fac5649d522226b1c87c80ed35d9f2a955cce035f6a95
 
 Package: python2-numpy
 Architecture: arm
-Installed-Size: 15240
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.2-1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Depends: openblas, python2-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-arm/python2-numpy_1.15.2-1_arm.deb
-Size: 2529472
-SHA256: ecb78080e7da1cbc8e15e135c1c3c81b0ce595e18484fdfbd201b777765840ee
-
-Package: python2-numpy
-Architecture: arm
 Installed-Size: 15204
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.15.4
@@ -1466,30 +1478,6 @@ Depends: openblas, python2-dev, libcrypt-dev
 Filename: dists/termux/extras/binary-arm/python2-numpy_1.15.4_arm.deb
 Size: 2513108
 SHA256: 613213741d6a3722b03fbc374832f9d023604de425f4193d0636f640c76cdbd1
-
-Package: python2-scipy
-Architecture: arm
-Installed-Size: 43824
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-3
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Filename: dists/termux/extras/binary-arm/python2-scipy_1.1.0-3_arm.deb
-Size: 10313720
-SHA256: ae8d92e9ac261763ccb29d10282dce23898d877932f890aa17ad43ae92f77ade
-
-Package: python2-scipy
-Architecture: arm
-Installed-Size: 43736
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-4
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Filename: dists/termux/extras/binary-arm/python2-scipy_1.1.0-4_arm.deb
-Size: 10302540
-SHA256: 49a8756784f03b96637c43e7632442b7a2d25dfaf38d00e5062452ff376d0c18
 
 Package: python2-scipy
 Architecture: arm

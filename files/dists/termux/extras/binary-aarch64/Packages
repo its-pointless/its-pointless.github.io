@@ -1080,6 +1080,18 @@ Filename: dists/termux/extras/binary-aarch64/mailutils-dev_3.2_aarch64.deb
 Size: 65744
 SHA256: 59d9af99ec7313e2b1c7781294bf88cdb0bcfc101cc770fee3760d5882de3df9
 
+Package: mailutils-dev
+Architecture: aarch64
+Installed-Size: 716
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5
+Description: Development files for mailutils
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: mailutils
+Filename: dists/termux/extras/binary-aarch64/mailutils-dev_3.5_aarch64.deb
+Size: 68712
+SHA256: 5d9a198b1c6bb1ecee3429412dd7f1f9352a6a10da2196871e9f1e2d760e939c
+
 Package: mailutils
 Architecture: aarch64
 Installed-Size: 3940
@@ -1091,6 +1103,18 @@ Depends: libandroid-glob, libcrypt
 Filename: dists/termux/extras/binary-aarch64/mailutils_3.2_aarch64.deb
 Size: 652876
 SHA256: 1d8a871da34523465e382ddb88a73be900c7136909e2657aa3a57a7f2f88b0b3
+
+Package: mailutils
+Architecture: aarch64
+Installed-Size: 6400
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Depends: libgsasl, libandroid-glob, msmtp, python, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/mailutils_3.5_aarch64.deb
+Size: 762500
+SHA256: 24f4feb432f91391c41e5df3dac321b88e28ead6be98dff58836c7659a2d9873
 
 Package: mksh
 Architecture: aarch64
@@ -1442,18 +1466,6 @@ SHA256: d5f16c219f8d4129ad4c1de1a3b65002ecacf5bb557d5e28cf8de7223c73356b
 
 Package: python2-numpy
 Architecture: aarch64
-Installed-Size: 15980
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.2-1
-Description: NumPy is the fundamental package for scientific computing with Python.
-Homepage: http://www.numpy.org/
-Depends: openblas, python2-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.15.2-1_aarch64.deb
-Size: 2329288
-SHA256: 053dcd2ee40a2743293ac2f2fc7726132d664c04b7a91cb08dff7d5389b3a193
-
-Package: python2-numpy
-Architecture: aarch64
 Installed-Size: 15916
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.15.4
@@ -1463,30 +1475,6 @@ Depends: openblas, python2-dev, libcrypt-dev
 Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.15.4_aarch64.deb
 Size: 2320036
 SHA256: a829f323c807b884fc78a74abfc2b6f70503e2f6210339c2dd134583ba36214e
-
-Package: python2-scipy
-Architecture: aarch64
-Installed-Size: 47672
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-3
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.1.0-3_aarch64.deb
-Size: 9830192
-SHA256: b30ed4b0fcf3b4e85421516d4d6d55b3a3f09363bd2349bd80f9efd7dbe313f5
-
-Package: python2-scipy
-Architecture: aarch64
-Installed-Size: 47672
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.0-4
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.1.0-4_aarch64.deb
-Size: 9911636
-SHA256: 939842b27087fad32923f7fe46e348d764b3a6b88fd7b77b2145dc9ede9f16c7
 
 Package: python2-scipy
 Architecture: aarch64
