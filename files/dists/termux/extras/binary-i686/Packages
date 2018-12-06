@@ -245,6 +245,18 @@ Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-3_i686.deb
 Size: 32385164
 SHA256: 34506863f9a648950d17d82f865a178a6abe53899637ddafa31531ce20497003
 
+Package: gcc-8
+Architecture: i686
+Installed-Size: 124320
+Maintainer: @its-pointless github
+Version: 8.2.0-4
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-4_i686.deb
+Size: 33478288
+SHA256: 8c9672921748a356abae708fe5674db3bda7145bf248b3e39334f482d810d74f
+
 Package: gforth
 Architecture: i686
 Installed-Size: 7124
@@ -303,6 +315,18 @@ Depends: libobjc4, gcc-8
 Filename: dists/termux/extras/binary-i686/gobjc-8_8.2.0-3_i686.deb
 Size: 14459596
 SHA256: 8a9eba362c6e45c7ecd6f63fbf3d2adc4f102de8250b73e9b9332a072658b869
+
+Package: gobjc-8
+Architecture: i686
+Installed-Size: 24432
+Maintainer: @its-pointless github
+Version: 8.2.0-4
+Description: GNU Objective-C compiler
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-8
+Filename: dists/termux/extras/binary-i686/gobjc-8_8.2.0-4_i686.deb
+Size: 6972812
+SHA256: dd10f2978046e36b993bf05e9e81780a78fb781dd7ea40e6ec45272f5804dce2
 
 Package: groff
 Architecture: i686
@@ -541,6 +565,18 @@ SHA256: 46c19cb6db4fc3543b3123f21443349b33f308efad2d21cfead4c895f80e9126
 
 Package: libgfortran5
 Architecture: i686
+Installed-Size: 2184
+Maintainer: @its-pointless github
+Version: 8.2.0-4
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-i686/libgfortran5_8.2.0-4_i686.deb
+Size: 565600
+SHA256: ac838e4ad3d1603a8e05faa81a8881b0adbfb69ed78efc3c93b17e4b0091bd41
+
+Package: libgfortran5
+Architecture: i686
 Installed-Size: 2156
 Maintainer: @its-pointless github
 Version: 8.2.0
@@ -626,6 +662,20 @@ Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0-3_i686.deb
 Size: 81268
 SHA256: c110180e6bef3edfe915adc4db545c374699379f662a2c8f87c77706502aecca
 
+Package: libgomp-8
+Architecture: i686
+Installed-Size: 288
+Maintainer: @its-pointless github
+Version: 8.2.0-4
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0-4_i686.deb
+Size: 81168
+SHA256: 23ff1f2fabcf5761bd96ab25e0eaf61461ee8936e3d6aa569af28d61acdd0baa
+
 Package: libllvm-julia
 Architecture: i686
 Installed-Size: 43788
@@ -694,6 +744,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-i686/libobjc4_8.2.0-3_i686.deb
 Size: 75104
 SHA256: 0f3c39a42a04f3257a702a6b313f7698715f187f950dbdaae79b82fe8c162052
+
+Package: libobjc4
+Architecture: i686
+Installed-Size: 388
+Maintainer: @its-pointless github
+Version: 8.2.0-4
+Description: GNU Objective-C runtime
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-i686/libobjc4_8.2.0-4_i686.deb
+Size: 74864
+SHA256: 0d21784f218d067174623433890eb718fc0efb8549b9614d5d3d5dc6d82fb460
 
 Package: libopenspecfun-dev
 Architecture: i686
@@ -1011,6 +1072,18 @@ Depends: libandroid-support, gcc-8
 Filename: dists/termux/extras/binary-i686/mpich_3.2.1-1_i686.deb
 Size: 1247652
 SHA256: 968542a68be90d04dea01d0bdaf0e3d612806cfeb517694ecb7d4aa5f5968fb4
+
+Package: mpich
+Architecture: i686
+Installed-Size: 7760
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3
+Description: Implementation of the MPI Message Passing Interface standard
+Homepage: http://www.mpich.org
+Depends: libandroid-support, gcc-8
+Filename: dists/termux/extras/binary-i686/mpich_3.3_i686.deb
+Size: 1434740
+SHA256: 05236f0cfca51e982c2eab2b99c985d1f8024b30977ab01f6b575d1ed60b7338
 
 Package: nethack
 Architecture: i686
