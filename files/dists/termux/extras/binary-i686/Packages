@@ -223,18 +223,6 @@ SHA256: 82fde627df417a723ab06158d9b2097dd10c4e9dff2efae01a8c63e0866ca9d4
 
 Package: gcc-7
 Architecture: i686
-Installed-Size: 107780
-Maintainer: @its-pointless github
-Version: 7.3.0-5
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-7_7.3.0-5_i686.deb
-Size: 30446124
-SHA256: a48165fa6d7e84b20ece71b86cadc527e494fd05238599769f4ad9966647d72b
-
-Package: gcc-7
-Architecture: i686
 Installed-Size: 107440
 Maintainer: @its-pointless github
 Version: 7.4.0
@@ -2171,10 +2159,10 @@ Package: wordgrinder
 Architecture: i686
 Installed-Size: 284
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.1
+Version: 0.7.2
 Description: a Unicode-aware character cell word processor
 Homepage: http://cowlark.com/wordgrinder/
 Depends: libandroid-support, ncurses, liblua
-Filename: dists/termux/extras/binary-i686/wordgrinder_0.7.1_i686.deb
-Size: 65132
-SHA256: 9d0971d8b24abf827811916f52639cd643e52460fb3d5cbc93d8d910610c574e
+Filename: dists/termux/extras/binary-i686/wordgrinder_0.7.2_i686.deb
+Size: 65524
+SHA256: 4595b84d4935ce75001533d815471d63789e62fc4ea1967ac3b92f6fd6767136

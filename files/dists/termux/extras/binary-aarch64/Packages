@@ -246,18 +246,6 @@ SHA256: 6dae1794c5294fdf9479f157c5070e6a4ce0996aa24b2e46f8b824b6389a0f00
 
 Package: gcc-7
 Architecture: aarch64
-Installed-Size: 78596
-Maintainer: @its-pointless github
-Version: 7.3.0-5
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.3.0-5_aarch64.deb
-Size: 21310040
-SHA256: 0ccd80d48e45fd00d626df672c9d21a02f7937b1b271f0625c762acf9b599fbe
-
-Package: gcc-7
-Architecture: aarch64
 Installed-Size: 78588
 Maintainer: @its-pointless github
 Version: 7.4.0
@@ -2394,13 +2382,13 @@ Package: wordgrinder
 Architecture: aarch64
 Installed-Size: 328
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.1
+Version: 0.7.2
 Description: a Unicode-aware character cell word processor
 Homepage: http://cowlark.com/wordgrinder/
 Depends: libandroid-support, ncurses, liblua
-Filename: dists/termux/extras/binary-aarch64/wordgrinder_0.7.1_aarch64.deb
-Size: 64392
-SHA256: a2644b27303d3effb1517c531919ac1704a90a9b667544510ce038b3e56e3bda
+Filename: dists/termux/extras/binary-aarch64/wordgrinder_0.7.2_aarch64.deb
+Size: 64736
+SHA256: 5e6c7abafeda0e8fa41980ab7f99a73d6bddfc425a560c705b1a722297422195
 
 Package: yaml-cpp-dev
 Architecture: aarch64
