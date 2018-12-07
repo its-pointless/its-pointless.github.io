@@ -233,6 +233,18 @@ Filename: dists/termux/extras/binary-i686/gcc-7_7.3.0-5_i686.deb
 Size: 30446124
 SHA256: a48165fa6d7e84b20ece71b86cadc527e494fd05238599769f4ad9966647d72b
 
+Package: gcc-7
+Architecture: i686
+Installed-Size: 107440
+Maintainer: @its-pointless github
+Version: 7.4.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-i686/gcc-7_7.4.0_i686.deb
+Size: 30455344
+SHA256: 357133b6c262beb213ab7ca07e11ca39c4e03aee4be5e0481d7704c944c02b2f
+
 Package: gcc-8
 Architecture: i686
 Installed-Size: 116196
@@ -303,6 +315,20 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-i686/glpk_4.65_i686.deb
 Size: 325820
 SHA256: 98c670060492f23c35315a40952d3ded1f39daceae55c60becdec7ec068e59fd
+
+Package: gnat-dummy
+Architecture: i686
+Installed-Size: 0
+Maintainer: @its-pointless github
+Version: 7.4.0
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Conflicts: gnat-8, gnat
+Replaces: gnat
+Filename: dists/termux/extras/binary-i686/gnat-dummy_7.4.0_i686.deb
+Size: 820
+SHA256: e6703b47cce7e53934239f4b71be8091ecdf0639d7cff5e2836dc5ce265ac0c3
 
 Package: gobjc-8
 Architecture: i686
@@ -527,6 +553,17 @@ Filename: dists/termux/extras/binary-i686/libgfortran4_7.3.0-5_i686.deb
 Size: 518864
 SHA256: dbd62767a5d7484845a8d981f5c4e3384904efd509f6f0300103f62ef8b57d64
 
+Package: libgfortran4
+Architecture: i686
+Installed-Size: 1776
+Maintainer: @its-pointless github
+Version: 7.4.0
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-i686/libgfortran4_7.4.0_i686.deb
+Size: 512372
+SHA256: ff1614de46c757d0599fa865c12b437c7103687d86b46a0d68e588f10160e947
+
 Package: libgfortran5
 Architecture: i686
 Installed-Size: 2156
@@ -633,6 +670,20 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-i686/libgomp-7_7.3.0-5_i686.deb
 Size: 80420
 SHA256: 127ee8b31b54d5815a1813d597d2aa2bd9e02f60b3b5754db0b2dd06d7fbdf91
+
+Package: libgomp-7
+Architecture: i686
+Installed-Size: 288
+Maintainer: @its-pointless github
+Version: 7.4.0
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-i686/libgomp-7_7.4.0_i686.deb
+Size: 80264
+SHA256: 51c967e6a42e2e507463290d13418e7a68a6701c0fc79a3c4e28ea1e07344311
 
 Package: libgomp-8
 Architecture: i686

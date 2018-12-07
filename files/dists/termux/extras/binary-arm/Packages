@@ -255,6 +255,18 @@ Filename: dists/termux/extras/binary-arm/gcc-7_7.3.0-5_arm.deb
 Size: 21774676
 SHA256: 116a6dc6297f4eda42ab7e9838687d2bdc57921f69bb449c82073da1f6a5dffb
 
+Package: gcc-7
+Architecture: arm
+Installed-Size: 98076
+Maintainer: @its-pointless github
+Version: 7.4.0
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-arm/gcc-7_7.4.0_arm.deb
+Size: 21835856
+SHA256: fc2fe35031e28474bbd5c57cbb777b314edcf54cb320a9e5381ae8dfc40427a7
+
 Package: gcc-8
 Architecture: arm
 Installed-Size: 104524
@@ -365,6 +377,20 @@ Replaces: gnat
 Filename: dists/termux/extras/binary-arm/gnat-7_7.3.0-5_arm.deb
 Size: 16469196
 SHA256: b3e33b1246ae2fa7fcfcb85e0ce735dfeae80cb36917d1207de779a578e02f83
+
+Package: gnat-7
+Architecture: arm
+Installed-Size: 91676
+Maintainer: @its-pointless github
+Version: 7.4.0
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Conflicts: gnat-8, gnat
+Replaces: gnat
+Filename: dists/termux/extras/binary-arm/gnat-7_7.4.0_arm.deb
+Size: 16469112
+SHA256: 344e8a7233fb2f1106f80f89463be5667ad20c9ed4f0c544609dfb12c8188b63
 
 Package: gnat-8
 Architecture: arm
@@ -673,6 +699,17 @@ Filename: dists/termux/extras/binary-arm/libgfortran4_7.3.0-5_arm.deb
 Size: 194652
 SHA256: 43e82f2426465a0488918ef712f14b6926eff01bdbff43ad070f7a951adc517b
 
+Package: libgfortran4
+Architecture: arm
+Installed-Size: 708
+Maintainer: @its-pointless github
+Version: 7.4.0
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libgfortran4_7.4.0_arm.deb
+Size: 194880
+SHA256: e008c2f7ed1181531cd55624354a9ed2d98e7944d532595306c8c7fec27bd49b
+
 Package: libgfortran5
 Architecture: arm
 Installed-Size: 836
@@ -826,6 +863,20 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-arm/libgomp-7_7.3.0-5_arm.deb
 Size: 66268
 SHA256: eb17df67e2e16390746eb4a9f6bbc4c432043a2e684f7865a4124885ddbb5e6a
+
+Package: libgomp-7
+Architecture: arm
+Installed-Size: 240
+Maintainer: @its-pointless github
+Version: 7.4.0
+Description: openmp library for gcc
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-arm/libgomp-7_7.4.0_arm.deb
+Size: 66292
+SHA256: b2e94f5947a3e07d7a759098db5b20a3528f46583be6fb019fd8cd1d0e06fbad
 
 Package: libgomp-8
 Architecture: arm
