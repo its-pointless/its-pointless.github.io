@@ -1260,6 +1260,18 @@ Filename: dists/termux/extras/binary-i686/openblas_0.3.3_i686.deb
 Size: 2898956
 SHA256: e8a44b45b2c718493948dfdb19bb162125f17e7d0694dab77d3134828a8e018a
 
+Package: openblas
+Architecture: i686
+Installed-Size: 14244
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.4
+Description:  Optimized BLAS (linear algebra) library
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-i686/openblas_0.3.4_i686.deb
+Size: 2934704
+SHA256: 986d9b91fa6b347b5d0bb47f1e019e5dbebb77d64bf1ba28e35b8b482d2e9aeb
+
 Package: opencv
 Architecture: i686
 Installed-Size: 37928

@@ -514,6 +514,20 @@ SHA256: f1be365deae81425216a28d60e725bcd1afcf5e6fb0a0e986ea64cc00a962c7c
 
 Package: julia
 Architecture: arm
+Installed-Size: 126972
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2-1
+Description: high-performance dynamic programming language for numerical computing
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Filename: dists/termux/extras/binary-arm/julia_1.0.2-1_arm.deb
+Size: 19919220
+SHA256: 3b02c5a19fb06caeab29b887d0e48f2c8810fe90b8bcd961cbaf8bf4aede24a0
+
+Package: julia
+Architecture: arm
 Installed-Size: 127380
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.0.2
@@ -1463,6 +1477,18 @@ Depends: libgfortran5
 Filename: dists/termux/extras/binary-arm/openblas_0.3.3_arm.deb
 Size: 2130380
 SHA256: 10ca8a72a41bbca2397f156ca2c10aa3ad61581b6e880fc3de76865c5a81a43e
+
+Package: openblas
+Architecture: arm
+Installed-Size: 10724
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.4
+Description:  Optimized BLAS (linear algebra) library
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Filename: dists/termux/extras/binary-arm/openblas_0.3.4_arm.deb
+Size: 2154788
+SHA256: 8e6a2b4b5f67a384099da7edbf16b87b6254de725d2c3737b1dfefcb97bb3aa9
 
 Package: opencv
 Architecture: arm
