@@ -304,20 +304,6 @@ Filename: dists/termux/extras/binary-i686/glpk_4.65_i686.deb
 Size: 325820
 SHA256: 98c670060492f23c35315a40952d3ded1f39daceae55c60becdec7ec068e59fd
 
-Package: gnat-dummy
-Architecture: i686
-Installed-Size: 0
-Maintainer: @its-pointless github
-Version: 7.4.0
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Conflicts: gnat-8, gnat
-Replaces: gnat
-Filename: dists/termux/extras/binary-i686/gnat-dummy_7.4.0_i686.deb
-Size: 820
-SHA256: e6703b47cce7e53934239f4b71be8091ecdf0639d7cff5e2836dc5ce265ac0c3
-
 Package: gobjc-8
 Architecture: i686
 Installed-Size: 50484
@@ -1248,6 +1234,20 @@ Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.3_i686.deb
 Size: 2958320
 SHA256: 757f2c9954b09b0c77f5034d3b214eddba717b58557cb74b5d7c6c9d4352d6a3
 
+Package: openblas-sandybridge
+Architecture: i686
+Installed-Size: 14372
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.4
+Description: blas library optimized for sandybridge(chromebooks)
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Conflicts: openblas
+Provides: openblas
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.4_i686.deb
+Size: 2997848
+SHA256: fca7e2b7dfaee25ccbc1d6be12ba55fcd408790ee0b5d43533a5c1ebb6d9cac0
+
 Package: openblas
 Architecture: i686
 Installed-Size: 13392
@@ -2013,6 +2013,17 @@ SHA256: aa81f954df17a038b73822662e26feaa2a7d49d00a2278012dfe098c14c206a1
 
 Package: rust-rls-nightly
 Architecture: i686
+Installed-Size: 21100
+Maintainer: @its-pointless
+Version: 1.32.0-1
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.32.0-1_i686.deb
+Size: 5312520
+SHA256: 1179a739ebda73f3120365a80eb6c77e167a997429ab9315b3c1f019d3d5453f
+
+Package: rust-rls-nightly
+Architecture: i686
 Installed-Size: 19352
 Maintainer: @its-pointless
 Version: 1.32.0
@@ -2033,6 +2044,19 @@ Depends: rustc, libgit2, libssh2, libcurl
 Filename: dists/termux/extras/binary-i686/rust-rls_0.130.5_i686.deb
 Size: 4607944
 SHA256: dc8202baf26b097659cd9683ad3c0c746cb3d9e564f2f1349fc7e594bb5e51f9
+
+Package: rustc-nightly
+Architecture: i686
+Installed-Size: 183440
+Maintainer: @its-pointless
+Version: 1.32.0-1
+Description: rust nightly
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly, libgit2, libssh2, libcurl
+Provides: rustc
+Filename: dists/termux/extras/binary-i686/rustc-nightly_1.32.0-1_i686.deb
+Size: 59468896
+SHA256: 7a0f760ff302fcb39dd79d5fba2c4dea3862b094067a3ecc9ae22e6ae9b428df
 
 Package: rustc-nightly
 Architecture: i686
@@ -2060,6 +2084,18 @@ Replaces: rustfmt (>= 1.29.0-1)
 Filename: dists/termux/extras/binary-i686/rustc_1.30.0_i686.deb
 Size: 54366752
 SHA256: e907fcc066885ca54e8cb6ba951e5d722fdddbdf0cd9a7ab5144ee63172acb38
+
+Package: rustfmt-nightly
+Architecture: i686
+Installed-Size: 6560
+Maintainer: @its-pointless
+Version: 1.32.0-1
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.32.0-1_i686.deb
+Size: 1742612
+SHA256: b19b4c0ea188b267af301301b9548878ea5bfb8ca8f56c75cfa440482ee8996b
 
 Package: rustfmt-nightly
 Architecture: i686
