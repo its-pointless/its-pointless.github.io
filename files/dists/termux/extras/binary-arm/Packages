@@ -114,18 +114,6 @@ Filename: dists/termux/extras/binary-arm/capstone_3.0.4_arm.deb
 Size: 364864
 SHA256: fe7485a1a854252917248a5629f0f9aa719287964e0957fb6f737b5440019b2f
 
-Package: cargo
-Architecture: arm
-Installed-Size: 5164
-Maintainer: @its-pointless
-Version: 0.31.0
-Description: Rust package manager
-Homepage: https://www.rust-lang.org
-Depends: rustc, libgit2, libssh2
-Filename: dists/termux/extras/binary-arm/cargo_0.31.0_arm.deb
-Size: 1905236
-SHA256: 290817e28de043a62cbb023b26741f3359aba4cb6ee1851a5f2592f0d7312f66
-
 Package: cksfv
 Architecture: arm
 Installed-Size: 20
@@ -2251,18 +2239,6 @@ Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.32.0_arm.deb
 Size: 3695008
 SHA256: f0b5374775e04c67686f95ce21c5a912753b09a0412245803845ea1cc28935af
 
-Package: rust-rls
-Architecture: arm
-Installed-Size: 9488
-Maintainer: @its-pointless
-Version: 0.130.5
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc, libgit2, libssh2, libcurl
-Filename: dists/termux/extras/binary-arm/rust-rls_0.130.5_arm.deb
-Size: 3499192
-SHA256: c34fcaa5dacba8f9bc38b08608b11193ebb8bdc98d5c35e7a50b67ef3be4cbf6
-
 Package: rustc-nightly
 Architecture: arm
 Installed-Size: 136948
@@ -2289,20 +2265,6 @@ Filename: dists/termux/extras/binary-arm/rustc-nightly_1.32.0_arm.deb
 Size: 54084068
 SHA256: 964aa1e8313c1732c48b70cc137b95e501911ba5b5515ba4c4ecbfd8075fa5db
 
-Package: rustc
-Architecture: arm
-Installed-Size: 125048
-Maintainer: @its-pointless
-Version: 1.30.0
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang, lld
-Conflicts: rustfmt (>= 1.29.0-1)
-Replaces: rustfmt (>= 1.29.0-1)
-Filename: dists/termux/extras/binary-arm/rustc_1.30.0_arm.deb
-Size: 50450508
-SHA256: c3ff6223ef4915801c69d13caa7dc4ff7dcd4e18245bbb6047adaac276aaebb7
-
 Package: rustfmt-nightly
 Architecture: arm
 Installed-Size: 3360
@@ -2326,18 +2288,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.32.0_arm.deb
 Size: 1325900
 SHA256: fb6ab49f257773a40dc15f1b0a106490faf7e69a75c73e9677c6b2bcbdf350c4
-
-Package: rustfmt
-Architecture: arm
-Installed-Size: 2880
-Maintainer: @its-pointless
-Version: 0.99.4
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-arm/rustfmt_0.99.4_arm.deb
-Size: 1178328
-SHA256: d6735b850ceb13471f13b8b6aa582f095dc6b6ab8c7a5a4b9f6c7dfb3f2d310e
 
 Package: sc-im
 Architecture: arm

@@ -126,18 +126,6 @@ Filename: dists/termux/extras/binary-aarch64/capstone_3.0.4_aarch64.deb
 Size: 358380
 SHA256: 48cae51a0cf6ca49bbed17c3fa16c8ad2ecac6a64615dbd842bb00c5b67d685a
 
-Package: cargo
-Architecture: aarch64
-Installed-Size: 7932
-Maintainer: @its-pointless
-Version: 0.31.0
-Description: Rust package manager
-Homepage: https://www.rust-lang.org
-Depends: rustc, libgit2, libssh2
-Filename: dists/termux/extras/binary-aarch64/cargo_0.31.0_aarch64.deb
-Size: 1988504
-SHA256: 38092a7a507062aec499040a0c7798f26e139f4092ec295d870bb055ae840edb
-
 Package: cksfv
 Architecture: aarch64
 Installed-Size: 28
@@ -280,6 +268,18 @@ Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-4_aarch64.deb
 Size: 24215308
 SHA256: 1deb8bbdcbfb0a6ce64b99367d58b46f238ffa8a0e836f38f516476abf774a7a
 
+Package: gcc-8
+Architecture: aarch64
+Installed-Size: 95752
+Maintainer: @its-pointless github
+Version: 8.2.0-5
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-5_aarch64.deb
+Size: 24225860
+SHA256: 9a2ef49a24d6955c52abff84fde32fa281d95dc56f9c01dae620a9fe7e587ea4
+
 Package: gforth
 Architecture: aarch64
 Installed-Size: 3504
@@ -352,6 +352,19 @@ Filename: dists/termux/extras/binary-aarch64/gnat-8_8.2.0-4_aarch64.deb
 Size: 10653196
 SHA256: 2426742b6155a8f1ebc8ec30cbf3e8f2e1ff1c7433184f18b4436c66ed5db37f
 
+Package: gnat-8
+Architecture: aarch64
+Installed-Size: 103524
+Maintainer: @its-pointless github
+Version: 8.2.0-5
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8, libgnat-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-aarch64/gnat-8_8.2.0-5_aarch64.deb
+Size: 16146088
+SHA256: a1b361c913a3a327c51c2baf3ce53fa0aeed38ac3851b7a1376641256f937af1
+
 Package: gobjc-8
 Architecture: aarch64
 Installed-Size: 38568
@@ -375,6 +388,18 @@ Depends: libobjc4, gcc-8
 Filename: dists/termux/extras/binary-aarch64/gobjc-8_8.2.0-4_aarch64.deb
 Size: 5426632
 SHA256: 4b3d637db0b8ffb6a2af54ad6ecaa04a7708e3cfc476befc7e9f3b087f47912a
+
+Package: gobjc-8
+Architecture: aarch64
+Installed-Size: 18628
+Maintainer: @its-pointless github
+Version: 8.2.0-5
+Description: GNU Objective-C compiler
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-8
+Filename: dists/termux/extras/binary-aarch64/gobjc-8_8.2.0-5_aarch64.deb
+Size: 5425960
+SHA256: aef68edd15f18cdd525ac851e7b75c86592af7bf4e2a95680f5eb3715ca95a70
 
 Package: groff
 Architecture: aarch64
@@ -650,6 +675,18 @@ Package: libgfortran5
 Architecture: aarch64
 Installed-Size: 1348
 Maintainer: @its-pointless github
+Version: 8.2.0-5
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-aarch64/libgfortran5_8.2.0-5_aarch64.deb
+Size: 307424
+SHA256: 8dd459cb6a972bcf1f8892a855932c39fd74fff8506b331b90683e91ac74bb49
+
+Package: libgfortran5
+Architecture: aarch64
+Installed-Size: 1348
+Maintainer: @its-pointless github
 Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -738,6 +775,19 @@ Filename: dists/termux/extras/binary-aarch64/libgnat-8_8.2.0-4_aarch64.deb
 Size: 729392
 SHA256: 0fd236a4d30b9a2002df06d98d5ca2663b6592b84713a027d0b9240b1c4a141e
 
+Package: libgnat-8
+Architecture: aarch64
+Installed-Size: 3292
+Maintainer: @its-pointless github
+Version: 8.2.0-5
+Description: libgnat shared libraries
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-aarch64/libgnat-8_8.2.0-5_aarch64.deb
+Size: 729692
+SHA256: f71e3fb4eac6713c3ffaceecda1ad67af27f1636aabbb73a1864a74864a3dc79
+
 Package: libgnuiconv
 Architecture: aarch64
 Installed-Size: 912
@@ -819,6 +869,20 @@ Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.2.0-4_aarch64.deb
 Size: 73444
 SHA256: ad61b824057b4d6ba60faebba7477bd5df7bb1ed73cd3ec0a68fa0ca0726871b
 
+Package: libgomp-8
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @its-pointless github
+Version: 8.2.0-5
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.2.0-5_aarch64.deb
+Size: 73412
+SHA256: 32faee4da0961007cf3621a7cc167b2c6f71585236f17cfbaee9b07dae2f2d0f
+
 Package: libllvm-julia
 Architecture: aarch64
 Installed-Size: 43588
@@ -898,6 +962,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libobjc4_8.2.0-4_aarch64.deb
 Size: 63776
 SHA256: e251916dd6c7da021fccb0c7c835abbe0ac7fb66d05d67d736da7a6ff7757bec
+
+Package: libobjc4
+Architecture: aarch64
+Installed-Size: 424
+Maintainer: @its-pointless github
+Version: 8.2.0-5
+Description: GNU Objective-C runtime
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libobjc4_8.2.0-5_aarch64.deb
+Size: 63704
+SHA256: 6cbc207054915ed4c55bceb8257def072c5b68dde516ea3a2c38c126511dc8b3
 
 Package: libopenspecfun-dev
 Architecture: aarch64
@@ -2220,18 +2295,6 @@ Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.32.0_aarch64.deb
 Size: 3775256
 SHA256: 569146fb24868a2b1fdd72e60c3a41199f6deea7ca6a693adbef3a8921256ebe
 
-Package: rust-rls
-Architecture: aarch64
-Installed-Size: 15068
-Maintainer: @its-pointless
-Version: 0.130.5
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Depends: rustc, libgit2, libssh2, libcurl
-Filename: dists/termux/extras/binary-aarch64/rust-rls_0.130.5_aarch64.deb
-Size: 3675048
-SHA256: 0f2ffb7e5519acb1e6f7cfcd79bb69af9245017bf1ce9b877567a83562408874
-
 Package: rustc-nightly
 Architecture: aarch64
 Installed-Size: 162860
@@ -2258,20 +2321,6 @@ Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.32.0_aarch64.deb
 Size: 54714172
 SHA256: ff3bead1c3e6e88dc9b57d8760ed13897ca0d4e0bea37d652a8d860ff88fe7f4
 
-Package: rustc
-Architecture: aarch64
-Installed-Size: 148664
-Maintainer: @its-pointless
-Version: 1.30.0
-Description: rust toolchain
-Homepage: https://www.rust-lang.org
-Depends: clang, lld
-Conflicts: rustfmt (>= 1.29.0-1)
-Replaces: rustfmt (>= 1.29.0-1)
-Filename: dists/termux/extras/binary-aarch64/rustc_1.30.0_aarch64.deb
-Size: 51059192
-SHA256: 535660cb8aea90954fcf54dbb24fbbf78fe1f1a546b5f5dab78c4764a5a167a7
-
 Package: rustfmt-nightly
 Architecture: aarch64
 Installed-Size: 5256
@@ -2295,18 +2344,6 @@ Depends: rustc-nightly
 Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.32.0_aarch64.deb
 Size: 1389336
 SHA256: 86f0ebeca7788abffe2190827b24afd55bc0f4514322166b7cc4eece3dbfa944
-
-Package: rustfmt
-Architecture: aarch64
-Installed-Size: 4576
-Maintainer: @its-pointless
-Version: 0.99.4
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Filename: dists/termux/extras/binary-aarch64/rustfmt_0.99.4_aarch64.deb
-Size: 1268776
-SHA256: 96e572b9ccd66d111af42bee067031a9ae5ab2e8863c1d9fcb6dcce84fee1ff0
 
 Package: sc-im
 Architecture: aarch64
