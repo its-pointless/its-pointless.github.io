@@ -267,6 +267,18 @@ Filename: dists/termux/extras/binary-arm/gcc-8_8.2.0-4_arm.deb
 Size: 24375956
 SHA256: 2d5768983803b95ba07996b0c190a735ee3ea211b819afc280ad3db6020e7972
 
+Package: gcc-8
+Architecture: arm
+Installed-Size: 112392
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-arm/gcc-8_8.2.0-6_arm.deb
+Size: 24371100
+SHA256: 0b2400e39d2d5fe1832aeeeb13df6c6848039af9fcd79d54e3047064d896a5d3
+
 Package: gforth
 Architecture: arm
 Installed-Size: 3004
@@ -394,6 +406,19 @@ Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0-4_arm.deb
 Size: 10292400
 SHA256: 1353ba725fbdba481ef9e19e1f94e7fd41339153d3fde315b81a735741cb45b6
 
+Package: gnat-8
+Architecture: arm
+Installed-Size: 88592
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8, libgnat-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0-6_arm.deb
+Size: 15670468
+SHA256: 2a5a5a21a1541268b3feb31f9038fdd820d8ba56c14ab84077d8ccab5ee27069
+
 Package: gobjc-8
 Architecture: arm
 Installed-Size: 36472
@@ -417,6 +442,30 @@ Depends: libobjc4, gcc-8
 Filename: dists/termux/extras/binary-arm/gobjc-8_8.2.0-4_arm.deb
 Size: 5433200
 SHA256: 50fe6b30f02d51fb7903c173023ea195bacf1175feec070bceca66db1ce1a592
+
+Package: gobjc-8
+Architecture: arm
+Installed-Size: 17632
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: GNU Objective-C compiler
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-8
+Filename: dists/termux/extras/binary-arm/gobjc-8_8.2.0-6_arm.deb
+Size: 5431324
+SHA256: 728e5ae74b50e71f89e1363584d8c35c82a2817dfa347b388da3b6007e526b9c
+
+Package: gprbuild
+Architecture: arm
+Installed-Size: 14552
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180524
+Description: Flexible, screen-oriented MUD client
+Homepage: http://tinyfugue.sourceforge.net/
+Depends: libandroid-support, xmlada, gnat-8
+Filename: dists/termux/extras/binary-arm/gprbuild_20180524_arm.deb
+Size: 2637272
+SHA256: 84d5eb0d78a6961772bcc20bef6000a98818993b3e471e5727732f01400ac634
 
 Package: groff
 Architecture: arm
@@ -752,6 +801,18 @@ Package: libgfortran5
 Architecture: arm
 Installed-Size: 836
 Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-arm/libgfortran5_8.2.0-6_arm.deb
+Size: 220420
+SHA256: 09441c99dfc26c8a57720dee22656cabcb447f86825c67f8d7a655593528e031
+
+Package: libgfortran5
+Architecture: arm
+Installed-Size: 836
+Maintainer: @its-pointless github
 Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -828,6 +889,19 @@ Conflicts: gnat-7
 Filename: dists/termux/extras/binary-arm/libgnat-8_8.2.0-4_arm.deb
 Size: 688304
 SHA256: 03a27ff7246532c359fab8292108d961ffc72a1dbf13198e7375aab506c98612
+
+Package: libgnat-8
+Architecture: arm
+Installed-Size: 2828
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: libgnat shared libraries
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-arm/libgnat-8_8.2.0-6_arm.deb
+Size: 690792
+SHA256: 9adb90a6e0ba02f19c677b79d6bd55bb8a5be449c8d134701e034169e1a36752
 
 Package: libgnuiconv
 Architecture: arm
@@ -910,6 +984,20 @@ Filename: dists/termux/extras/binary-arm/libgomp-8_8.2.0-4_arm.deb
 Size: 66648
 SHA256: dc19bf3bd79ce6919f49195b397ffb6762d1821cbaa8d99f31d9f2deda8e2c54
 
+Package: libgomp-8
+Architecture: arm
+Installed-Size: 244
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-arm/libgomp-8_8.2.0-6_arm.deb
+Size: 66732
+SHA256: 9f0e9f1215d17343155fea9928e7f7eff88ea38835bbfa5e1994dbd10593544b
+
 Package: libllvm-julia
 Architecture: arm
 Installed-Size: 34576
@@ -989,6 +1077,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-arm/libobjc4_8.2.0-4_arm.deb
 Size: 52752
 SHA256: cfd80838ae97eafaafd748f277152e67dea82ad8126f59e76582472ea6278f4c
+
+Package: libobjc4
+Architecture: arm
+Installed-Size: 296
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: GNU Objective-C runtime
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-arm/libobjc4_8.2.0-6_arm.deb
+Size: 52800
+SHA256: fbc16c3bf63771f09ac79e61d66e13f358d69dd9437912ee9241535c2b582a39
 
 Package: libopenspecfun-dev
 Architecture: arm
@@ -2394,3 +2493,27 @@ Depends: libandroid-support, ncurses, liblua
 Filename: dists/termux/extras/binary-arm/wordgrinder_0.7.2_arm.deb
 Size: 64372
 SHA256: d1fb2c628b44506850f1a152aab4042797e1097c1fce70b9cf728581245b274b
+
+Package: xmlada-dev
+Architecture: arm
+Installed-Size: 8716
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1
+Description: Development files for xmlada
+Homepage: https://www.adacore.com/
+Depends: xmlada
+Filename: dists/termux/extras/binary-arm/xmlada-dev_16.1_arm.deb
+Size: 249172
+SHA256: 2df2faab638386a68b0d687c94245bd93e5f60c3d8eef4c6ae537ec9a3a97a67
+
+Package: xmlada
+Architecture: arm
+Installed-Size: 13968
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1
+Description: XML/Ada, a full XML suite for Ada programmers
+Homepage: https://www.adacore.com/
+Depends: libandroid-support, libgnat-8
+Filename: dists/termux/extras/binary-arm/xmlada_16.1_arm.deb
+Size: 1019336
+SHA256: 7a6a4ba62cde408c74ea9f4333d25b30bd140187f210b42d423dc143093e8c98

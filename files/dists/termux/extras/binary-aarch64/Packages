@@ -280,6 +280,18 @@ Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-5_aarch64.deb
 Size: 24225860
 SHA256: 9a2ef49a24d6955c52abff84fde32fa281d95dc56f9c01dae620a9fe7e587ea4
 
+Package: gcc-8
+Architecture: aarch64
+Installed-Size: 95752
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-6_aarch64.deb
+Size: 24222236
+SHA256: 55410239a99a13dfafab2c7913ad2446f3b1786f757a70d06664992fa0138d70
+
 Package: gforth
 Architecture: aarch64
 Installed-Size: 3504
@@ -365,6 +377,19 @@ Filename: dists/termux/extras/binary-aarch64/gnat-8_8.2.0-5_aarch64.deb
 Size: 16146088
 SHA256: a1b361c913a3a327c51c2baf3ce53fa0aeed38ac3851b7a1376641256f937af1
 
+Package: gnat-8
+Architecture: aarch64
+Installed-Size: 103524
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8, libgnat-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-aarch64/gnat-8_8.2.0-6_aarch64.deb
+Size: 16146344
+SHA256: 2a8044572aaf7a0be747129df89196171b5b61a02d12ca7e7a16e01ce16acb32
+
 Package: gobjc-8
 Architecture: aarch64
 Installed-Size: 38568
@@ -400,6 +425,30 @@ Depends: libobjc4, gcc-8
 Filename: dists/termux/extras/binary-aarch64/gobjc-8_8.2.0-5_aarch64.deb
 Size: 5425960
 SHA256: aef68edd15f18cdd525ac851e7b75c86592af7bf4e2a95680f5eb3715ca95a70
+
+Package: gobjc-8
+Architecture: aarch64
+Installed-Size: 18628
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: GNU Objective-C compiler
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-8
+Filename: dists/termux/extras/binary-aarch64/gobjc-8_8.2.0-6_aarch64.deb
+Size: 5427096
+SHA256: 9df4de1adc761096e404f414f875f3a9ab4a19fe40fd4ce6e56c9079539b64c8
+
+Package: gprbuild
+Architecture: aarch64
+Installed-Size: 15620
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180524
+Description: Flexible, screen-oriented MUD client
+Homepage: http://tinyfugue.sourceforge.net/
+Depends: libandroid-support, xmlada, gnat-8
+Filename: dists/termux/extras/binary-aarch64/gprbuild_20180524_aarch64.deb
+Size: 2598184
+SHA256: 1bb091a60971a4316c5c1d6b522c8a9778921105779eaeb5325eb6dacbe98c2e
 
 Package: groff
 Architecture: aarch64
@@ -687,6 +736,18 @@ Package: libgfortran5
 Architecture: aarch64
 Installed-Size: 1348
 Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-aarch64/libgfortran5_8.2.0-6_aarch64.deb
+Size: 307256
+SHA256: e3ca85188733ce3122030914ffa9fe71b064d7194ec89bf09b34180fd044778a
+
+Package: libgfortran5
+Architecture: aarch64
+Installed-Size: 1348
+Maintainer: @its-pointless github
 Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -788,6 +849,19 @@ Filename: dists/termux/extras/binary-aarch64/libgnat-8_8.2.0-5_aarch64.deb
 Size: 729692
 SHA256: f71e3fb4eac6713c3ffaceecda1ad67af27f1636aabbb73a1864a74864a3dc79
 
+Package: libgnat-8
+Architecture: aarch64
+Installed-Size: 3292
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: libgnat shared libraries
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-aarch64/libgnat-8_8.2.0-6_aarch64.deb
+Size: 726616
+SHA256: 1b54a62add203d4d816317c167324e783933b38889c624e2a4664aa8e9e22aef
+
 Package: libgnuiconv
 Architecture: aarch64
 Installed-Size: 912
@@ -883,6 +957,20 @@ Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.2.0-5_aarch64.deb
 Size: 73412
 SHA256: 32faee4da0961007cf3621a7cc167b2c6f71585236f17cfbaee9b07dae2f2d0f
 
+Package: libgomp-8
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.2.0-6_aarch64.deb
+Size: 73440
+SHA256: 90a313ec23667fc85fa82aa85c30790ef2aab4d83f212c516ecbf2e9b5ca1e57
+
 Package: libllvm-julia
 Architecture: aarch64
 Installed-Size: 43588
@@ -973,6 +1061,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-aarch64/libobjc4_8.2.0-5_aarch64.deb
 Size: 63704
 SHA256: 6cbc207054915ed4c55bceb8257def072c5b68dde516ea3a2c38c126511dc8b3
+
+Package: libobjc4
+Architecture: aarch64
+Installed-Size: 424
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: GNU Objective-C runtime
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-aarch64/libobjc4_8.2.0-6_aarch64.deb
+Size: 63732
+SHA256: edfc64200f9579fc50e317a9f7611159abee53b8bdb9782e79e0f0a9dc3c96c5
 
 Package: libopenspecfun-dev
 Architecture: aarch64
@@ -2474,6 +2573,30 @@ Depends: libandroid-support, ncurses, liblua
 Filename: dists/termux/extras/binary-aarch64/wordgrinder_0.7.2_aarch64.deb
 Size: 64736
 SHA256: 5e6c7abafeda0e8fa41980ab7f99a73d6bddfc425a560c705b1a722297422195
+
+Package: xmlada-dev
+Architecture: aarch64
+Installed-Size: 8716
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1
+Description: Development files for xmlada
+Homepage: https://www.adacore.com/
+Depends: xmlada
+Filename: dists/termux/extras/binary-aarch64/xmlada-dev_16.1_aarch64.deb
+Size: 249332
+SHA256: f923ca03766ed49750decb999558b706c50644f056b88b41cd9993b8c2d18313
+
+Package: xmlada
+Architecture: aarch64
+Installed-Size: 15472
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1
+Description: XML/Ada, a full XML suite for Ada programmers
+Homepage: https://www.adacore.com/
+Depends: libandroid-support, libgnat-8
+Filename: dists/termux/extras/binary-aarch64/xmlada_16.1_aarch64.deb
+Size: 1144464
+SHA256: fd3fdcc6538f44126b168f5b9174d59c2c876ff5d3e90d532262b142ddd32f99
 
 Package: yaml-cpp-dev
 Architecture: aarch64
