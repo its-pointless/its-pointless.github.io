@@ -440,15 +440,15 @@ SHA256: 9df4de1adc761096e404f414f875f3a9ab4a19fe40fd4ce6e56c9079539b64c8
 
 Package: gprbuild
 Architecture: aarch64
-Installed-Size: 15620
+Installed-Size: 15656
 Maintainer: Fredrik Fornwall @fornwall
 Version: 20180524
 Description: Flexible, screen-oriented MUD client
 Homepage: http://tinyfugue.sourceforge.net/
 Depends: libandroid-support, xmlada, gnat-8
 Filename: dists/termux/extras/binary-aarch64/gprbuild_20180524_aarch64.deb
-Size: 2598184
-SHA256: 1bb091a60971a4316c5c1d6b522c8a9778921105779eaeb5325eb6dacbe98c2e
+Size: 2596688
+SHA256: c1a7c23624e61ed43a936aadd7a69bce084211cbd247fef80f95739dd24a4612
 
 Package: groff
 Architecture: aarch64
@@ -2406,19 +2406,6 @@ Provides: rustc
 Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.32.0-1_aarch64.deb
 Size: 55459656
 SHA256: b1833b1c5a04b0a15b87775c40688356c3d0919526e2d95c8c24f6ea032f1456
-
-Package: rustc-nightly
-Architecture: aarch64
-Installed-Size: 157372
-Maintainer: @its-pointless
-Version: 1.32.0
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.32.0_aarch64.deb
-Size: 54714172
-SHA256: ff3bead1c3e6e88dc9b57d8760ed13897ca0d4e0bea37d652a8d860ff88fe7f4
 
 Package: rustfmt-nightly
 Architecture: aarch64
