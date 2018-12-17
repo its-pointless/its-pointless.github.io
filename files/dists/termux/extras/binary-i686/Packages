@@ -245,6 +245,18 @@ Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-4_i686.deb
 Size: 33478288
 SHA256: 8c9672921748a356abae708fe5674db3bda7145bf248b3e39334f482d810d74f
 
+Package: gcc-8
+Architecture: i686
+Installed-Size: 124324
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-6_i686.deb
+Size: 33428636
+SHA256: 8f1e5f9012d0cadee39b15df4fad9b3a0af274be6289e4afa7fc99e26b6ef9e2
+
 Package: gforth
 Architecture: i686
 Installed-Size: 7124
@@ -292,6 +304,19 @@ Filename: dists/termux/extras/binary-i686/glpk_4.65_i686.deb
 Size: 325820
 SHA256: 98c670060492f23c35315a40952d3ded1f39daceae55c60becdec7ec068e59fd
 
+Package: gnat-8
+Architecture: i686
+Installed-Size: 91196
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8, libgnat-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-i686/gnat-8_8.2.0-6_i686.deb
+Size: 21082748
+SHA256: 3c5ab96512bd4acc4b15739c07b04b53ca88d091cb63b5abb4c5cd779c9be737
+
 Package: gobjc-8
 Architecture: i686
 Installed-Size: 50484
@@ -315,6 +340,30 @@ Depends: libobjc4, gcc-8
 Filename: dists/termux/extras/binary-i686/gobjc-8_8.2.0-4_i686.deb
 Size: 6972812
 SHA256: dd10f2978046e36b993bf05e9e81780a78fb781dd7ea40e6ec45272f5804dce2
+
+Package: gobjc-8
+Architecture: i686
+Installed-Size: 24432
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: GNU Objective-C compiler
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-8
+Filename: dists/termux/extras/binary-i686/gobjc-8_8.2.0-6_i686.deb
+Size: 6976520
+SHA256: 9bdd1610dffe532e62d3f346dc28a813d58a008592c2a953398360b5eb19be68
+
+Package: gprbuild
+Architecture: i686
+Installed-Size: 23884
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180524
+Description: Flexible, screen-oriented MUD client
+Homepage: http://tinyfugue.sourceforge.net/
+Depends: libandroid-support, xmlada, gnat-8
+Filename: dists/termux/extras/binary-i686/gprbuild_20180524_i686.deb
+Size: 3957808
+SHA256: 040be3c690c5be28d3c2edd8ab1c706be1716672ad76780a7cdbaea0679d9d6c
 
 Package: groff
 Architecture: i686
@@ -576,6 +625,18 @@ SHA256: ac838e4ad3d1603a8e05faa81a8881b0adbfb69ed78efc3c93b17e4b0091bd41
 
 Package: libgfortran5
 Architecture: i686
+Installed-Size: 2184
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-i686/libgfortran5_8.2.0-6_i686.deb
+Size: 565728
+SHA256: 127a89e9da185bc888a57d198b4879c8d0fe07ec8d5bc596d6f84a423833b841
+
+Package: libgfortran5
+Architecture: i686
 Installed-Size: 2156
 Maintainer: @its-pointless github
 Version: 8.2.0
@@ -607,6 +668,19 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-i686/libgfortran_6.5.0_i686.deb
 Size: 216976
 SHA256: 9612730c62a61a7516a75380160652aa69f0ea823d966482c649594e7f9708b6
+
+Package: libgnat-8
+Architecture: i686
+Installed-Size: 3832
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: libgnat shared libraries
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-i686/libgnat-8_8.2.0-6_i686.deb
+Size: 964160
+SHA256: 9db77c461bd38bb1914a1f07c560e3c29762cc7bbc937de06d39b0d4a813dd8e
 
 Package: libgnuiconv
 Architecture: i686
@@ -689,6 +763,20 @@ Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0-4_i686.deb
 Size: 81168
 SHA256: 23ff1f2fabcf5761bd96ab25e0eaf61461ee8936e3d6aa569af28d61acdd0baa
 
+Package: libgomp-8
+Architecture: i686
+Installed-Size: 288
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-i686/libgomp-8_8.2.0-6_i686.deb
+Size: 81148
+SHA256: a49f617f68ba9b785f0f619f2d414c3c9d52829c471b32896105d356c09a0a5f
+
 Package: libllvm-julia
 Architecture: i686
 Installed-Size: 43788
@@ -768,6 +856,17 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-i686/libobjc4_8.2.0-4_i686.deb
 Size: 74864
 SHA256: 0d21784f218d067174623433890eb718fc0efb8549b9614d5d3d5dc6d82fb460
+
+Package: libobjc4
+Architecture: i686
+Installed-Size: 388
+Maintainer: @its-pointless github
+Version: 8.2.0-6
+Description: GNU Objective-C runtime
+Homepage: http://gcc.gnu.org/
+Filename: dists/termux/extras/binary-i686/libobjc4_8.2.0-6_i686.deb
+Size: 74956
+SHA256: 460f64636dcaa79b2b21714a997e5bc6270fc0027be697c30cd810c54d350ac6
 
 Package: libopenspecfun-dev
 Architecture: i686
@@ -2151,3 +2250,27 @@ Depends: libandroid-support, ncurses, liblua
 Filename: dists/termux/extras/binary-i686/wordgrinder_0.7.2_i686.deb
 Size: 65524
 SHA256: 4595b84d4935ce75001533d815471d63789e62fc4ea1967ac3b92f6fd6767136
+
+Package: xmlada-dev
+Architecture: i686
+Installed-Size: 8716
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1
+Description: Development files for xmlada
+Homepage: https://www.adacore.com/
+Depends: xmlada
+Filename: dists/termux/extras/binary-i686/xmlada-dev_16.1_i686.deb
+Size: 249692
+SHA256: 776aeda3d2b860436bf0c932dda8daceee6ca0e08da52ca383d2bc587387c5fd
+
+Package: xmlada
+Architecture: i686
+Installed-Size: 15052
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1
+Description: XML/Ada, a full XML suite for Ada programmers
+Homepage: https://www.adacore.com/
+Depends: libandroid-support, libgnat-8
+Filename: dists/termux/extras/binary-i686/xmlada_16.1_i686.deb
+Size: 1194388
+SHA256: bfcc21a79b88a2e815a1902554d88063ad30ac24ba229fce6f081ccebde1f034
