@@ -2260,6 +2260,30 @@ Filename: dists/termux/extras/binary-x86_64/wordgrinder_0.7.2_x86_64.deb
 Size: 67908
 SHA256: 714e99a61da7b9de95b44de7a3a569b27c52146183ce793e18bc685285f2640d
 
+Package: xmlada-dev
+Architecture: x86_64
+Installed-Size: 8716
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1
+Description: Development files for xmlada
+Homepage: https://www.adacore.com/
+Depends: xmlada
+Filename: dists/termux/extras/binary-x86_64/xmlada-dev_16.1_x86_64.deb
+Size: 249300
+SHA256: 7467efb78fe070f902eeb0e2c2e2f6e3e7ba7a0566e16497c073d93f2ab2fea0
+
+Package: xmlada
+Architecture: x86_64
+Installed-Size: 15692
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1
+Description: XML/Ada, a full XML suite for Ada programmers
+Homepage: https://www.adacore.com/
+Depends: libandroid-support, libgnat-8
+Filename: dists/termux/extras/binary-x86_64/xmlada_16.1_x86_64.deb
+Size: 1162700
+SHA256: 2407c8d320e5c80b73638df18f97c5f8db957f0efd1918b2c14c38133d047568
+
 Package: yaml-cpp-dev
 Architecture: x86_64
 Installed-Size: 1880
