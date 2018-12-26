@@ -376,6 +376,18 @@ Filename: dists/termux/extras/binary-i686/groff_1.22.3-2_i686.deb
 Size: 1393420
 SHA256: 9d3a5d79571177f8cf393d9e9e2653fdad6b4bf0465355e75adaa67e9f061871
 
+Package: groff
+Architecture: i686
+Installed-Size: 11760
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.22.4
+Description: GNU troff text-formatting program
+Homepage: http://www.gnu.org/software/groff/
+Depends: libandroid-support, uchardet
+Filename: dists/termux/extras/binary-i686/groff_1.22.4_i686.deb
+Size: 1736936
+SHA256: 3c5136bd1a05c7e6d03cbdffa18be8fdc903eac2679857a9563b57e0c93d2818
+
 Package: guile-2.2-dev
 Architecture: i686
 Installed-Size: 756
@@ -1395,6 +1407,29 @@ Filename: dists/termux/extras/binary-i686/openldap_2.4.46_i686.deb
 Size: 793196
 SHA256: 5ce9d8e850d198242ec34a10ea52de0252153247de5d47e81e70b492256ef4b9
 
+Package: ossp-uuid-dev
+Architecture: i686
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.2
+Description: Development files for ossp-uuid
+Homepage: http://www.ossp.org/pkg/lib/uuid/
+Depends: ossp-uuid
+Filename: dists/termux/extras/binary-i686/ossp-uuid-dev_1.6.2_i686.deb
+Size: 2908
+SHA256: 6b6c6aaa1d5ca81e68203ed9bef4aeab6d6ca2c402c0ae7726e3e4db62298899
+
+Package: ossp-uuid
+Architecture: i686
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.2
+Description: ISO-C:1999 uuid generator supporting DCE 1.1, ISO/IEC 11578:1996 and RFC 4122.
+Homepage: http://www.ossp.org/pkg/lib/uuid/
+Filename: dists/termux/extras/binary-i686/ossp-uuid_1.6.2_i686.deb
+Size: 19012
+SHA256: 1c70d932c2edcf796bb9bfca0b781ff3d6477b6b7e29770bc623d03d4c845430
+
 Package: pacman4console
 Architecture: i686
 Installed-Size: 72
@@ -2205,6 +2240,18 @@ Filename: dists/termux/extras/binary-i686/suitesparse_5.3.0-2_i686.deb
 Size: 1638820
 SHA256: 425e1f74e7db1391a9ed217abd05c1c9d1d4d41b262be0705540ba7965d5242f
 
+Package: swi-prolog
+Architecture: i686
+Installed-Size: 19200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.7.25-1
+Description: Most popular and complete prolog implementation
+Homepage: https://swi-prolog.org/
+Depends: readline, libgmp, libcrypt, pcre, libarchive, libyaml, libjpeg-turbo, ncurses, ncurses-ui-libs, ossp-uuid
+Filename: dists/termux/extras/binary-i686/swi-prolog_7.7.25-1_i686.deb
+Size: 2697872
+SHA256: 06e9dc9ae0d4c888dc49b9ce87d7aeaf1f19b62e48ce12beefcdc7fd554ca1f6
+
 Package: tzdata
 Architecture: i686
 Installed-Size: 5096
@@ -2215,6 +2262,29 @@ Homepage: https://data.iana.org/time-zones
 Filename: dists/termux/extras/binary-i686/tzdata_2018e-1_i686.deb
 Size: 193284
 SHA256: ff05f9cc3a50efac44f0ba9291471b84956a6b30822de3fe278f26e82280de0f
+
+Package: uchardet-dev
+Architecture: i686
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.0.6
+Description: Development files for uchardet
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Depends: uchardet
+Filename: dists/termux/extras/binary-i686/uchardet-dev_0.0.6_i686.deb
+Size: 2256
+SHA256: 3ab5bd66dddcbc55081019255d1bd648adc869428c63070d95ced6ad7655d4da
+
+Package: uchardet
+Architecture: i686
+Installed-Size: 172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.0.6
+Description: universal charset detection library
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Filename: dists/termux/extras/binary-i686/uchardet_0.0.6_i686.deb
+Size: 65488
+SHA256: c1808c21782c6e01558f68082b6be6036a05aa2343f5dfda83505575bb66d61a
 
 Package: unicorn-dev
 Architecture: i686
