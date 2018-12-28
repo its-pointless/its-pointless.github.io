@@ -222,27 +222,15 @@ SHA256: a4b296cd6de064b8b3209a596d3164700b37470311451d8a850b5323bfdc3453
 
 Package: gcc-8
 Architecture: x86_64
-Installed-Size: 118944
+Installed-Size: 127584
 Maintainer: @its-pointless github
-Version: 8.2.0-3
+Version: 8.2.0-7
 Description: GNU C compiler
 Homepage: http://gcc.gnu.org/
 Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-8_8.2.0-3_x86_64.deb
-Size: 32675928
-SHA256: 84e96dc9fe704960719cb26940c635795c2719a0e3626d9f76575c2a3a05aab4
-
-Package: gcc-8
-Architecture: x86_64
-Installed-Size: 127520
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-8_8.2.0-4_x86_64.deb
-Size: 33728484
-SHA256: 7571257695eb4e6c2ec4a6341fd0cda1214ef10cd26407b3fc3dca659d798609
+Filename: dists/termux/extras/binary-x86_64/gcc-8_8.2.0-7_x86_64.deb
+Size: 33739840
+SHA256: fb092a4335b3e6a7ac66edcc9a23a8b980a9610688757e53dea7bf1cde4e7f28
 
 Package: gforth
 Architecture: x86_64
@@ -291,6 +279,19 @@ Filename: dists/termux/extras/binary-x86_64/glpk_4.65_x86_64.deb
 Size: 352860
 SHA256: 7779ffa2fd8b1d69100a5ae9e684dcdc9e0117016a71a7c060b5b388519a1987
 
+Package: gnat-8
+Architecture: x86_64
+Installed-Size: 101976
+Maintainer: @its-pointless github
+Version: 8.2.0-7
+Description: the ada compiler
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8, libgnat-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-x86_64/gnat-8_8.2.0-7_x86_64.deb
+Size: 20593304
+SHA256: 22f1de6bf6a0997e4c4c7bfd086ecde33411c86071952da67897c3df11c1f99b
+
 Package: gobjc-8
 Architecture: x86_64
 Installed-Size: 51048
@@ -314,6 +315,18 @@ Depends: libobjc4, gcc-8
 Filename: dists/termux/extras/binary-x86_64/gobjc-8_8.2.0-4_x86_64.deb
 Size: 7033600
 SHA256: b91f0de6e631b620702a9c1d7a8681073908291bb2792f3e302964d7151c5c0d
+
+Package: gobjc-8
+Architecture: x86_64
+Installed-Size: 24848
+Maintainer: @its-pointless github
+Version: 8.2.0-7
+Description: GNU Objective-C compiler
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-8
+Filename: dists/termux/extras/binary-x86_64/gobjc-8_8.2.0-7_x86_64.deb
+Size: 7029704
+SHA256: f4d7d1d470bb39bd30b1b8e4ef4a7aa72cbb8cfb74b452ec0ee0c10ea2f3ac4a
 
 Package: gprbuild
 Architecture: x86_64
@@ -527,6 +540,17 @@ Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_7.0.0_x86_64.deb
 Size: 1770412
 SHA256: 46351bc4b34f82adc8831420addf103e7d7aa7d4276f130b67ab46e425e7ce41
 
+Package: libcompiler-rt
+Architecture: x86_64
+Installed-Size: 21344
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.1
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_7.0.1_x86_64.deb
+Size: 1765156
+SHA256: d468cd23ccea5b72a621ca8958d19e089c18b6544bd075094b3a1ebd6dfd05eb
+
 Package: libgfortran4
 Architecture: x86_64
 Installed-Size: 1956
@@ -601,6 +625,18 @@ Package: libgfortran5
 Architecture: x86_64
 Installed-Size: 2536
 Maintainer: @its-pointless github
+Version: 8.2.0-7
+Description: dynamic library for fortran
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.2.0-7_x86_64.deb
+Size: 676732
+SHA256: 6cb47b5528d9c8c679f75c627d9f62447c2a026a09b0d38c851b34f0e9151fe6
+
+Package: libgfortran5
+Architecture: x86_64
+Installed-Size: 2536
+Maintainer: @its-pointless github
 Version: 8.2.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
@@ -630,6 +666,19 @@ Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-x86_64/libgfortran_6.5.0_x86_64.deb
 Size: 256612
 SHA256: 71db1f1904163ca3c1f4403190ecaa712ebca8e816bb0e2a476a3c70516c73a9
+
+Package: libgnat-8
+Architecture: x86_64
+Installed-Size: 3464
+Maintainer: @its-pointless github
+Version: 8.2.0-7
+Description: libgnat shared libraries
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: gnat-7
+Filename: dists/termux/extras/binary-x86_64/libgnat-8_8.2.0-7_x86_64.deb
+Size: 864244
+SHA256: a1532fe791cad1ca19ef27e215331b2dafa3e465db30ee699516f7859dd4f401
 
 Package: libgnuiconv
 Architecture: x86_64
@@ -711,6 +760,20 @@ Replaces: libgomp
 Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.2.0-4_x86_64.deb
 Size: 77364
 SHA256: 7eec8ace444f2678314e5953cc8868851f0d6075e208b85e7d3f5f8bf287955a
+
+Package: libgomp-8
+Architecture: x86_64
+Installed-Size: 336
+Maintainer: @its-pointless github
+Version: 8.2.0-7
+Description: openmp library for gcc-8
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.2.0-7_x86_64.deb
+Size: 77360
+SHA256: 6d263c220262fe573817138ed43e3a8f08f49856257509ef15218ecea83f91fe
 
 Package: libllvm-julia
 Architecture: x86_64

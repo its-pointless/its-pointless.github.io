@@ -245,30 +245,6 @@ SHA256: fc2fe35031e28474bbd5c57cbb777b314edcf54cb320a9e5381ae8dfc40427a7
 
 Package: gcc-8
 Architecture: arm
-Installed-Size: 104524
-Maintainer: @its-pointless github
-Version: 8.2.0-3
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-arm/gcc-8_8.2.0-3_arm.deb
-Size: 23439128
-SHA256: bfd6892437c14e43f5f86266f34fc0f482fed192f899570bf8a0a665e713edb7
-
-Package: gcc-8
-Architecture: arm
-Installed-Size: 112392
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-arm/gcc-8_8.2.0-4_arm.deb
-Size: 24375956
-SHA256: 2d5768983803b95ba07996b0c190a735ee3ea211b819afc280ad3db6020e7972
-
-Package: gcc-8
-Architecture: arm
 Installed-Size: 112392
 Maintainer: @its-pointless github
 Version: 8.2.0-6
@@ -379,32 +355,6 @@ Replaces: gnat
 Filename: dists/termux/extras/binary-arm/gnat-7_7.4.0_arm.deb
 Size: 16469112
 SHA256: 344e8a7233fb2f1106f80f89463be5667ad20c9ed4f0c544609dfb12c8188b63
-
-Package: gnat-8
-Architecture: arm
-Installed-Size: 91424
-Maintainer: @its-pointless github
-Version: 8.2.0-3
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: gnat-7
-Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0-3_arm.deb
-Size: 16217260
-SHA256: 65aa66345a9ac12b31d5860b1f4c529c23136bd3e2275f9ca2852b7ba6c3c2f2
-
-Package: gnat-8
-Architecture: arm
-Installed-Size: 59320
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8, libgnat-8
-Conflicts: gnat-7
-Filename: dists/termux/extras/binary-arm/gnat-8_8.2.0-4_arm.deb
-Size: 10292400
-SHA256: 1353ba725fbdba481ef9e19e1f94e7fd41339153d3fde315b81a735741cb45b6
 
 Package: gnat-8
 Architecture: arm
@@ -739,6 +689,17 @@ Filename: dists/termux/extras/binary-arm/libcompiler-rt_7.0.0_arm.deb
 Size: 806216
 SHA256: d697ba31f53774638c0b61875fd9c84a3464b73285c423f6f3243aae267bb7b0
 
+Package: libcompiler-rt
+Architecture: arm
+Installed-Size: 8976
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.1
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-arm/libcompiler-rt_7.0.1_arm.deb
+Size: 808764
+SHA256: 92fd8ec887ddfcdcdffece7134c7a9531bece0398f6fb5edc36f724a04ae93cb
+
 Package: libgfortran4
 Architecture: arm
 Installed-Size: 708
@@ -888,19 +849,6 @@ Homepage: https://bitbucket.org/mpyne/game-music-emu
 Filename: dists/termux/extras/binary-arm/libgme_0.6.1_arm.deb
 Size: 95420
 SHA256: 1a940655d9c990266b7d488ba9dfeafbd7fde3ecb5faca0e0214ab39e3cc434e
-
-Package: libgnat-8
-Architecture: arm
-Installed-Size: 2828
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: libgnat shared libraries
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: gnat-7
-Filename: dists/termux/extras/binary-arm/libgnat-8_8.2.0-4_arm.deb
-Size: 688304
-SHA256: 03a27ff7246532c359fab8292108d961ffc72a1dbf13198e7375aab506c98612
 
 Package: libgnat-8
 Architecture: arm
@@ -1670,6 +1618,18 @@ Depends: readline, libgmp
 Filename: dists/termux/extras/binary-arm/pari-gp_2.11.0_arm.deb
 Size: 2999152
 SHA256: 40384e6d0146aa52876d18418be283997813f4794a5a7aa199261a154b0cf87b
+
+Package: picolisp
+Architecture: arm
+Installed-Size: 4076
+Maintainer: Fredrik Fornwall @fornwall
+Version: 18.12.27
+Description: Lisp interpreter and application server framework
+Homepage: https://picolisp.com
+Depends: libcrypt, openssl
+Filename: dists/termux/extras/binary-arm/picolisp_18.12.27_arm.deb
+Size: 692632
+SHA256: d0d634bc643ba18da937652faf32f58741e4d8a3caffb87769563d63ea90b0b9
 
 Package: picolisp
 Architecture: arm

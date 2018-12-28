@@ -246,42 +246,6 @@ SHA256: 22888f095aeee0c13e7610be0f38d6e2138a02d30f0a168aa630cac46f4a2917
 
 Package: gcc-8
 Architecture: aarch64
-Installed-Size: 87736
-Maintainer: @its-pointless github
-Version: 8.2.0-3
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-3_aarch64.deb
-Size: 22941896
-SHA256: 50637234c5d378b4e7d798309b8507465291eb7424696ec0907f5032a574f504
-
-Package: gcc-8
-Architecture: aarch64
-Installed-Size: 95752
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-4_aarch64.deb
-Size: 24215308
-SHA256: 1deb8bbdcbfb0a6ce64b99367d58b46f238ffa8a0e836f38f516476abf774a7a
-
-Package: gcc-8
-Architecture: aarch64
-Installed-Size: 95752
-Maintainer: @its-pointless github
-Version: 8.2.0-5
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-5_aarch64.deb
-Size: 24225860
-SHA256: 9a2ef49a24d6955c52abff84fde32fa281d95dc56f9c01dae620a9fe7e587ea4
-
-Package: gcc-8
-Architecture: aarch64
 Installed-Size: 95752
 Maintainer: @its-pointless github
 Version: 8.2.0-6
@@ -350,32 +314,6 @@ Homepage: https://www.gnu.org/software/glpk/
 Filename: dists/termux/extras/binary-aarch64/glpk_4.65_aarch64.deb
 Size: 287232
 SHA256: dd9c173c889ef384fe2055525f8de1489e695261cb22aabd7491718ac6c970fe
-
-Package: gnat-8
-Architecture: aarch64
-Installed-Size: 63216
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8, libgnat-8
-Conflicts: gnat-7
-Filename: dists/termux/extras/binary-aarch64/gnat-8_8.2.0-4_aarch64.deb
-Size: 10653196
-SHA256: 2426742b6155a8f1ebc8ec30cbf3e8f2e1ff1c7433184f18b4436c66ed5db37f
-
-Package: gnat-8
-Architecture: aarch64
-Installed-Size: 103524
-Maintainer: @its-pointless github
-Version: 8.2.0-5
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8, libgnat-8
-Conflicts: gnat-7
-Filename: dists/termux/extras/binary-aarch64/gnat-8_8.2.0-5_aarch64.deb
-Size: 16146088
-SHA256: a1b361c913a3a327c51c2baf3ce53fa0aeed38ac3851b7a1376641256f937af1
 
 Package: gnat-8
 Architecture: aarch64
@@ -662,6 +600,17 @@ Filename: dists/termux/extras/binary-aarch64/libcompiler-rt_7.0.0_aarch64.deb
 Size: 1756252
 SHA256: b1cbb9b9f755668cd7a4e359c4d437dfb9ab52d994ab920c1c4975d7b1d59bd5
 
+Package: libcompiler-rt
+Architecture: aarch64
+Installed-Size: 23584
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.1
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-aarch64/libcompiler-rt_7.0.1_aarch64.deb
+Size: 1769068
+SHA256: b50e580d729fcc1e97020f0d1e22e004d767be53c30c2b85ee145caded80903d
+
 Package: libgfortran4
 Architecture: aarch64
 Installed-Size: 1156
@@ -834,32 +783,6 @@ Homepage: https://bitbucket.org/mpyne/game-music-emu
 Filename: dists/termux/extras/binary-aarch64/libgme_0.6.1_aarch64.deb
 Size: 97004
 SHA256: 3f707dead8b9c7153b9d38e4c245464ca4d9a0f65b21dccb9e09a40174608947
-
-Package: libgnat-8
-Architecture: aarch64
-Installed-Size: 3292
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: libgnat shared libraries
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: gnat-7
-Filename: dists/termux/extras/binary-aarch64/libgnat-8_8.2.0-4_aarch64.deb
-Size: 729392
-SHA256: 0fd236a4d30b9a2002df06d98d5ca2663b6592b84713a027d0b9240b1c4a141e
-
-Package: libgnat-8
-Architecture: aarch64
-Installed-Size: 3292
-Maintainer: @its-pointless github
-Version: 8.2.0-5
-Description: libgnat shared libraries
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: gnat-7
-Filename: dists/termux/extras/binary-aarch64/libgnat-8_8.2.0-5_aarch64.deb
-Size: 729692
-SHA256: f71e3fb4eac6713c3ffaceecda1ad67af27f1636aabbb73a1864a74864a3dc79
 
 Package: libgnat-8
 Architecture: aarch64

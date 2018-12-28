@@ -223,30 +223,6 @@ SHA256: 357133b6c262beb213ab7ca07e11ca39c4e03aee4be5e0481d7704c944c02b2f
 
 Package: gcc-8
 Architecture: i686
-Installed-Size: 116196
-Maintainer: @its-pointless github
-Version: 8.2.0-3
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-3_i686.deb
-Size: 32385164
-SHA256: 34506863f9a648950d17d82f865a178a6abe53899637ddafa31531ce20497003
-
-Package: gcc-8
-Architecture: i686
-Installed-Size: 124320
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-4_i686.deb
-Size: 33478288
-SHA256: 8c9672921748a356abae708fe5674db3bda7145bf248b3e39334f482d810d74f
-
-Package: gcc-8
-Architecture: i686
 Installed-Size: 124324
 Maintainer: @its-pointless github
 Version: 8.2.0-6
@@ -564,6 +540,17 @@ Homepage: https://ohse.de/uwe/software/lrzsz.html
 Filename: dists/termux/extras/binary-i686/libcompiler-rt_7.0.0_i686.deb
 Size: 770864
 SHA256: 29ee4eae75f9c612ebefaf6ba36a31476478163aea2781cfcd2224bbdbd282d3
+
+Package: libcompiler-rt
+Architecture: i686
+Installed-Size: 8112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.1
+Description: Tools for zmodem/xmodem/ymodem file transfer
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Filename: dists/termux/extras/binary-i686/libcompiler-rt_7.0.1_i686.deb
+Size: 770252
+SHA256: 8f52986bdc77a9b43e1333533bd37a775272968d928f96398099d682258b3d03
 
 Package: libgfortran4
 Architecture: i686
@@ -1452,6 +1439,18 @@ Depends: readline, libgmp
 Filename: dists/termux/extras/binary-i686/pari-gp_2.11.0_i686.deb
 Size: 2358864
 SHA256: c7a13e1e0f640fb3c5339884894f1884ba079448a8bdce29a27cc3a034fa98db
+
+Package: picolisp
+Architecture: i686
+Installed-Size: 4172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 18.12.27
+Description: Lisp interpreter and application server framework
+Homepage: https://picolisp.com
+Depends: libcrypt, openssl
+Filename: dists/termux/extras/binary-i686/picolisp_18.12.27_i686.deb
+Size: 713616
+SHA256: b1923668146b9fd4061ea0e28ca5c82df0805ee567f40d02dc338fa030de28a0
 
 Package: picolisp
 Architecture: i686
