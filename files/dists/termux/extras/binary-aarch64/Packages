@@ -1362,6 +1362,18 @@ SHA256: 9b17158c54583073a820fce8e1b47fd31e2c5a43326506482aceeb320d100a47
 
 Package: mongodb
 Architecture: aarch64
+Installed-Size: 138008
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.5-1
+Description: mongo db
+Homepage: https://github.com/mongodb/mongo
+Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
+Filename: dists/termux/extras/binary-aarch64/mongodb_4.1.5-1_aarch64.deb
+Size: 28166332
+SHA256: a14edf203cf1fa128c811f47b99296c23183f0b7fc2f40134c266237e61d1a08
+
+Package: mongodb
+Architecture: aarch64
 Installed-Size: 137880
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.1.5
@@ -2225,26 +2237,26 @@ SHA256: 813759db64d47a56c7f83ea9a0b1e18032547a1205bc55a434a2148a52446ede
 
 Package: quantlib-dev
 Architecture: aarch64
-Installed-Size: 8004
+Installed-Size: 8048
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13-1
+Version: 1.14
 Description: Development files for quantlib
 Homepage: http://quantlib.org
-Depends: quantlib (>= 1.13-1), boost-dev (>= 1.68.0)
-Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.13-1_aarch64.deb
-Size: 560716
-SHA256: ddfd40a01b456507f004dd66f039ef5aad21badb6a96ff0dc3c55391e4824ffa
+Depends: quantlib,boost-dev
+Filename: dists/termux/extras/binary-aarch64/quantlib-dev_1.14_aarch64.deb
+Size: 564416
+SHA256: 20beba39b9d2c12cd28afeef5ee333d49257d3942bb19b6115480fb3ebc80365
 
 Package: quantlib
 Architecture: aarch64
-Installed-Size: 41156
+Installed-Size: 41288
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13-1
+Version: 1.14
 Description: a comprehensive software framework for quantitative finance
 Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-aarch64/quantlib_1.13-1_aarch64.deb
-Size: 7807796
-SHA256: 81a7a5ba42adfb813a7e71a147057f4110244b06e96ffe91d1ae1063ee57ae74
+Filename: dists/termux/extras/binary-aarch64/quantlib_1.14_aarch64.deb
+Size: 7862508
+SHA256: a534fda2355ec5b4458c4be45449475f33db2cfa498875fad1a8042c7bfda69e
 
 Package: r-base
 Architecture: aarch64

@@ -1185,6 +1185,18 @@ SHA256: e8c79fe50e7c8ce17d89c13f75d0eb1930841bdc06a2143d93b49cbf6c82902d
 
 Package: mongodb
 Architecture: x86_64
+Installed-Size: 146088
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.5-1
+Description: mongo db
+Homepage: https://github.com/mongodb/mongo
+Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
+Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.5-1_x86_64.deb
+Size: 33972084
+SHA256: 65247fa325047e5ef28065ca0e2f85325859205882b6e3164d0f666d80ff471c
+
+Package: mongodb
+Architecture: x86_64
 Installed-Size: 145912
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.1.5
@@ -2076,26 +2088,26 @@ SHA256: 98c6a2e63ea71a3f36b19d785edb02c62481bb0ef958d6fba0d4262d9c36ed23
 
 Package: quantlib-dev
 Architecture: x86_64
-Installed-Size: 8004
+Installed-Size: 8040
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13-1
+Version: 1.14
 Description: Development files for quantlib
 Homepage: http://quantlib.org
-Depends: quantlib (>= 1.13-1), boost-dev (>= 1.68.0)
-Filename: dists/termux/extras/binary-x86_64/quantlib-dev_1.13-1_x86_64.deb
-Size: 560764
-SHA256: 8460751cea5a8aa932814d4f3baaff6820f3642bba61b57cc725413dd91cb4bf
+Depends: quantlib,boost-dev
+Filename: dists/termux/extras/binary-x86_64/quantlib-dev_1.14_x86_64.deb
+Size: 564240
+SHA256: 805ee80c19fa75dc0e20bdc55da69c300bd982eeafa9dabce20c720c1f397659
 
 Package: quantlib
 Architecture: x86_64
-Installed-Size: 43036
+Installed-Size: 43192
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13-1
+Version: 1.14
 Description: a comprehensive software framework for quantitative finance
 Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-x86_64/quantlib_1.13-1_x86_64.deb
-Size: 8691576
-SHA256: 313ca1a20d8c08e9030a8fe30ffb58d5e2039ff9e353d390e19051d8b547eb45
+Filename: dists/termux/extras/binary-x86_64/quantlib_1.14_x86_64.deb
+Size: 8756608
+SHA256: 1a434f084d83a9e62f5ed784cad360f1f039464e313ae88d6fd0b149ecd65169
 
 Package: r-base
 Architecture: x86_64

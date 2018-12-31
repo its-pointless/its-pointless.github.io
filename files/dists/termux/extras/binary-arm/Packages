@@ -2206,26 +2206,26 @@ SHA256: ad09329ea7c4283fb520b09478892520cde8f35cb92b83086e641dba924b709f
 
 Package: quantlib-dev
 Architecture: arm
-Installed-Size: 8004
+Installed-Size: 8048
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13-1
+Version: 1.14
 Description: Development files for quantlib
 Homepage: http://quantlib.org
-Depends: quantlib (>= 1.13-1), boost-dev (>= 1.68.0)
-Filename: dists/termux/extras/binary-arm/quantlib-dev_1.13-1_arm.deb
-Size: 560804
-SHA256: d307d61c04317b6074ed9ec2b71084c94acaaeace8960db4d5c9b76b5856a2da
+Depends: quantlib,boost-dev
+Filename: dists/termux/extras/binary-arm/quantlib-dev_1.14_arm.deb
+Size: 564180
+SHA256: a58f55f9cb15fb0814f8147354d2d446cdc87507e5a522dadc9d015032db78ed
 
 Package: quantlib
 Architecture: arm
-Installed-Size: 29072
+Installed-Size: 29164
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13-1
+Version: 1.14
 Description: a comprehensive software framework for quantitative finance
 Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-arm/quantlib_1.13-1_arm.deb
-Size: 8541848
-SHA256: cd67a626b136f6a355966b958e417b9cf2bb557f6882169f7971fd2218688b22
+Filename: dists/termux/extras/binary-arm/quantlib_1.14_arm.deb
+Size: 8574976
+SHA256: e18ef8e40b535606b5a2960ef88ffe679e6c6abcedc76fe825ff22591d02aa60
 
 Package: r-base
 Architecture: arm

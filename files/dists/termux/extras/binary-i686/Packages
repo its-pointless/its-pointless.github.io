@@ -2027,26 +2027,26 @@ SHA256: 25bdb40c5ae61562111c0c41028f7f919c47d44fbd91dc634475b69fd197d114
 
 Package: quantlib-dev
 Architecture: i686
-Installed-Size: 8004
+Installed-Size: 8048
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13-1
+Version: 1.14
 Description: Development files for quantlib
 Homepage: http://quantlib.org
-Depends: quantlib (>= 1.13-1), boost-dev (>= 1.68.0)
-Filename: dists/termux/extras/binary-i686/quantlib-dev_1.13-1_i686.deb
-Size: 560844
-SHA256: 1ee633a03543e5aa28de903c144fe24f98c41d1820b66af870ab1a07f432bf92
+Depends: quantlib,boost-dev
+Filename: dists/termux/extras/binary-i686/quantlib-dev_1.14_i686.deb
+Size: 564232
+SHA256: 46308c6bea60a2baa58192a854beef180b2a14242af0e202c973632e91ed036f
 
 Package: quantlib
 Architecture: i686
-Installed-Size: 35100
+Installed-Size: 35204
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.13-1
+Version: 1.14
 Description: a comprehensive software framework for quantitative finance
 Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-i686/quantlib_1.13-1_i686.deb
-Size: 8242068
-SHA256: 8d34febe2da0caa7f5cdba69e8f3edbd387d93b60d77c27851b190596739caea
+Filename: dists/termux/extras/binary-i686/quantlib_1.14_i686.deb
+Size: 8301172
+SHA256: e6665086ca75f991819d2d72bdb9533a43be856157cab2b0f9ab67612c36b0eb
 
 Package: r-base
 Architecture: i686
