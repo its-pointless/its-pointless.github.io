@@ -496,6 +496,20 @@ Filename: dists/termux/extras/binary-aarch64/julia_1.0.2_aarch64.deb
 Size: 20105656
 SHA256: 58756f193b75cebcb24227fd89ed1e9ab615c0fe37837c31261a98d47841ca89
 
+Package: julia
+Architecture: aarch64
+Installed-Size: 149692
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: high-performance dynamic programming language for numerical computing
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Filename: dists/termux/extras/binary-aarch64/julia_1.0.3_aarch64.deb
+Size: 20123856
+SHA256: 908435ac10909ca701ef169f06a4690d419af4f07e66b8c819f2863eb3c5f58e
+
 Package: keystone-engine-dev
 Architecture: aarch64
 Installed-Size: 60
@@ -1760,6 +1774,18 @@ Package: python2-scipy
 Architecture: aarch64
 Installed-Size: 49692
 Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.0_aarch64.deb
+Size: 10399776
+SHA256: 4d3a0b645f2419509881bac54307632034eb8780d019ffa8652865a59813cf41
+
+Package: python2-scipy
+Architecture: aarch64
+Installed-Size: 49692
+Maintainer: Fredrik Fornwall @fornwall
 Version: 1.2.0rc1
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
 Homepage: https://scipy.org/scipylib
@@ -2260,64 +2286,64 @@ SHA256: a534fda2355ec5b4458c4be45449475f33db2cfa498875fad1a8042c7bfda69e
 
 Package: r-base
 Architecture: aarch64
-Installed-Size: 60128
+Installed-Size: 63540
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.1-1
+Version: 3.5.2
 Description: a freely available language and environment for statistical computing and graphics
 Homepage: https://cran.r-project.org/
 Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
 Replaces: r-cran
-Filename: dists/termux/extras/binary-aarch64/r-base_3.5.1-1_aarch64.deb
-Size: 38792940
-SHA256: 8acaa8563a857c38c37381a0deda765d74dba00effdd2dfa0d72cf545a5fda39
+Filename: dists/termux/extras/binary-aarch64/r-base_3.5.2_aarch64.deb
+Size: 39568768
+SHA256: 2b7b25bf748b0a7a769decffa3bc42c320c2f431f44e564a978998e0adac968c
 
 Package: r-cran-rcpp
 Architecture: aarch64
-Installed-Size: 11516
+Installed-Size: 11428
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.19
+Version: 1.0.0
 Description: GNU R package for Seamless R and C++ Integration
 Homepage: https://cran.r-project.org/
 Depends: r-base
-Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_0.12.19_aarch64.deb
-Size: 3364312
-SHA256: bfd759731d2349f39a27808713386a1a8792cbe0877fa33dd3b48d65d0cf039f
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_1.0.0_aarch64.deb
+Size: 3290136
+SHA256: d9efe6790ddd4189e2d97cdcdfaf32ce141c265e0d48573037ce5f0729f54e67
 
 Package: r-cran-rquantlib
 Architecture: aarch64
-Installed-Size: 3752
+Installed-Size: 3788
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.5-1
+Version: 0.4.7
 Description: GNU R package interfacing the QuantLib finance library
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
-Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.5-1_aarch64.deb
-Size: 855552
-SHA256: 7186a09ae829282d81425dcf5b08be25f1bda1ebe4d45783795760478fcb56fe
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.7_aarch64.deb
+Size: 860216
+SHA256: 36883a6568b66bdbedf9f9fcaaa74ffa6086a9da4211c6f55fd445fcf5ad0184
 
 Package: r-cran-stringi
 Architecture: aarch64
 Installed-Size: 32096
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.4-1
+Version: 1.2.4-2
 Description: GNU R character string processing facilities
 Homepage: https://cran.r-project.org/
 Depends: r-base, libicu
-Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.2.4-1_aarch64.deb
-Size: 8480428
-SHA256: 8371f75e2d21e131c0cce288c04051bf6ceb39ac5fe58b2dd0d88bb1da1b171e
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.2.4-2_aarch64.deb
+Size: 8482112
+SHA256: 8474492d025e7f7d2ad302beea10d16dcafd928860b83b2eb2c440425c14f786
 
 Package: r-cran-zoo
 Architecture: aarch64
-Installed-Size: 1452
+Installed-Size: 1448
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8-4-0
+Version: 1.8-4-1
 Description: GNU R package for totally ordered indexed observations
 Homepage: https://cran.r-project.org/
 Depends: r-base
-Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-4-0_aarch64.deb
-Size: 1052936
-SHA256: 004d09ab026b104e3c181910494b0af3e2f0644874c09fd75370100f41689e59
+Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-4-1_aarch64.deb
+Size: 1053140
+SHA256: 923bde7a66acbbca0dd70d30026453a6539719bfc1a8661152962fd3257a93ce
 
 Package: racket
 Architecture: aarch64
@@ -2401,6 +2427,18 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-aarch64/sc_7.16_aarch64.deb
 Size: 128420
 SHA256: 3b28c3d51b423d03fbf507659332ab2406c851a8c1d2965ee2e815af1f107794
+
+Package: scipy
+Architecture: aarch64
+Installed-Size: 45100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Filename: dists/termux/extras/binary-aarch64/scipy_1.2.0_aarch64.deb
+Size: 10272060
+SHA256: 89cbc47f94b88641397e2be849a15ee8cc80c34c9627b0865de526d729920a0b
 
 Package: scipy
 Architecture: aarch64

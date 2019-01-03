@@ -449,6 +449,20 @@ Filename: dists/termux/extras/binary-i686/julia_1.0.2_i686.deb
 Size: 20161864
 SHA256: a21f98bc9234bc98317b1685a2a273241c80b7ea268bddf25f1384d44be29ca4
 
+Package: julia
+Architecture: i686
+Installed-Size: 128244
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Description: high-performance dynamic programming language for numerical computing
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Filename: dists/termux/extras/binary-i686/julia_1.0.3_i686.deb
+Size: 20185752
+SHA256: bbd860372a0e5c9619e65750a5291c5885a74b9034069cbad32838207b37d2fa
+
 Package: keystone-engine-dev
 Architecture: i686
 Installed-Size: 60
@@ -1548,6 +1562,18 @@ SHA256: f063b01a1ee4bf70b727bbf3749f5e36caf1d0c0b6a1aa0add40499f3e8e45d5
 
 Package: python2-scipy
 Architecture: i686
+Installed-Size: 51668
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Filename: dists/termux/extras/binary-i686/python2-scipy_1.2.0_i686.deb
+Size: 10690000
+SHA256: cb33be2eff99caa0b1201d6281fde75cdba405f8a512f46c4e00e47efca0c969
+
+Package: python2-scipy
+Architecture: i686
 Installed-Size: 51660
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.2.0rc1
@@ -2050,64 +2076,64 @@ SHA256: e6665086ca75f991819d2d72bdb9533a43be856157cab2b0f9ab67612c36b0eb
 
 Package: r-base
 Architecture: i686
-Installed-Size: 60660
+Installed-Size: 64128
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.1-1
+Version: 3.5.2
 Description: a freely available language and environment for statistical computing and graphics
 Homepage: https://cran.r-project.org/
 Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
 Replaces: r-cran
-Filename: dists/termux/extras/binary-i686/r-base_3.5.1-1_i686.deb
-Size: 39137504
-SHA256: 2e0322da0a8215d0dcf248497f8de02ab910ec56f421c337a131fba0f8048725
+Filename: dists/termux/extras/binary-i686/r-base_3.5.2_i686.deb
+Size: 39914140
+SHA256: 0b0a8cd99ef57620daf72c19c06fc9820b013c3f49bec10f2c86ce11ffe80df6
 
 Package: r-cran-rcpp
 Architecture: i686
-Installed-Size: 11548
+Installed-Size: 11460
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.19
+Version: 1.0.0
 Description: GNU R package for Seamless R and C++ Integration
 Homepage: https://cran.r-project.org/
 Depends: r-base
-Filename: dists/termux/extras/binary-i686/r-cran-rcpp_0.12.19_i686.deb
-Size: 3384656
-SHA256: de92b1b7302e6d2c1817b12ea1463109cb2ea454bf90102b24d956f855f37b14
+Filename: dists/termux/extras/binary-i686/r-cran-rcpp_1.0.0_i686.deb
+Size: 3309064
+SHA256: 86d0ec69a797a658459c49bdc4fe38ac5397e9b363a26d8d5471a4672a511bfb
 
 Package: r-cran-rquantlib
 Architecture: i686
-Installed-Size: 3620
+Installed-Size: 3648
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.5-1
+Version: 0.4.7
 Description: GNU R package interfacing the QuantLib finance library
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
-Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.5-1_i686.deb
-Size: 886928
-SHA256: 08429e7436e2b26d64f4bab3686f6e2c3fad623ac7fc5b3aad82ee0625ce3ef4
+Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.7_i686.deb
+Size: 890980
+SHA256: 67aac5f036447bc51502e24af256ca7f305f9fd0f76b8f06818cbe2b3f218eb7
 
 Package: r-cran-stringi
 Architecture: i686
 Installed-Size: 32660
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.4-1
+Version: 1.2.4-2
 Description: GNU R character string processing facilities
 Homepage: https://cran.r-project.org/
 Depends: r-base, libicu
-Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.2.4-1_i686.deb
-Size: 8805988
-SHA256: c3e0d7a80272be9aac943652fedde2a73597a6285acf15f0413d5d6cacb8ad0e
+Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.2.4-2_i686.deb
+Size: 8807124
+SHA256: e2522624a23e5ab8f7221f860077dc29a45cfb0c8feb2c1aafbe0d238250f4d1
 
 Package: r-cran-zoo
 Architecture: i686
-Installed-Size: 1452
+Installed-Size: 1448
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8-4-0
+Version: 1.8-4-1
 Description: GNU R package for totally ordered indexed observations
 Homepage: https://cran.r-project.org/
 Depends: r-base
-Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-4-0_i686.deb
-Size: 1053132
-SHA256: 50858ffb7e565ddaae0da960633a88013aa1c493e3fd6cd828ea5ca321da359e
+Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-4-1_i686.deb
+Size: 1052420
+SHA256: 8461f7ffc472eb94cfbf3c8f26feea0a4fcd301ca99ffa570fd9dfdc649d5fb7
 
 Package: racket
 Architecture: i686
@@ -2179,6 +2205,18 @@ Depends:  libandroid-support, bthread
 Filename: dists/termux/extras/binary-i686/sc-im_0.7.0-1_i686.deb
 Size: 109504
 SHA256: e5856c34b47fcfe31287afc4144554c3f143bb09cfc88212451daf6a41ac8de9
+
+Package: scipy
+Architecture: i686
+Installed-Size: 50208
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Filename: dists/termux/extras/binary-i686/scipy_1.2.0_i686.deb
+Size: 10579696
+SHA256: 4119772280b5a1b12e518499a6b022a7e327dc8063b89a89fe8ee47c69b23adc
 
 Package: scipy
 Architecture: i686
