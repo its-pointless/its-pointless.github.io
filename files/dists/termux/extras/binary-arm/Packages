@@ -2302,6 +2302,18 @@ Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.2.4-2_arm.deb
 Size: 8356192
 SHA256: 8894e7a6912827c7ce9b2153f00825bc8cd19912ed0d4c71ed7482e5d5510e9f
 
+Package: r-cran-tidyverse
+Architecture: arm
+Installed-Size: 204140
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1
+Description: tidyverse
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Filename: dists/termux/extras/binary-arm/r-cran-tidyverse_1.2.1_arm.deb
+Size: 33605252
+SHA256: 28d4f6ebe9c57690246c18e267b16c8f9a989f64ff089936c399d36f0c8d9717
+
 Package: r-cran-zoo
 Architecture: arm
 Installed-Size: 1444
