@@ -1034,28 +1034,6 @@ Package: libobjc4
 Architecture: arm
 Installed-Size: 296
 Maintainer: @its-pointless github
-Version: 8.2.0-3
-Description: GNU Objective-C runtime
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-arm/libobjc4_8.2.0-3_arm.deb
-Size: 52816
-SHA256: 19d4c093640973f3971910b9f7227aef31bd2511d786f859a72541ce020650d5
-
-Package: libobjc4
-Architecture: arm
-Installed-Size: 296
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: GNU Objective-C runtime
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-arm/libobjc4_8.2.0-4_arm.deb
-Size: 52752
-SHA256: cfd80838ae97eafaafd748f277152e67dea82ad8126f59e76582472ea6278f4c
-
-Package: libobjc4
-Architecture: arm
-Installed-Size: 296
-Maintainer: @its-pointless github
 Version: 8.2.0-6
 Description: GNU Objective-C runtime
 Homepage: http://gcc.gnu.org/
@@ -1529,27 +1507,15 @@ SHA256: db5ee525622a621d089838bdf13c95eea68f41d19c731c851cc2233b14e273cf
 
 Package: openblas
 Architecture: arm
-Installed-Size: 10408
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.3
-Description:  Optimized BLAS (linear algebra) library
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-arm/openblas_0.3.3_arm.deb
-Size: 2130380
-SHA256: 10ca8a72a41bbca2397f156ca2c10aa3ad61581b6e880fc3de76865c5a81a43e
-
-Package: openblas
-Architecture: arm
 Installed-Size: 10724
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.4
+Version: 0.3.5
 Description:  Optimized BLAS (linear algebra) library
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
-Filename: dists/termux/extras/binary-arm/openblas_0.3.4_arm.deb
-Size: 2154788
-SHA256: 8e6a2b4b5f67a384099da7edbf16b87b6254de725d2c3737b1dfefcb97bb3aa9
+Filename: dists/termux/extras/binary-arm/openblas_0.3.5_arm.deb
+Size: 2153776
+SHA256: 31755e3da9128abdd07f892749848488db2b72f58ff7cca015bc4b63b4d2d900
 
 Package: opencv
 Architecture: arm
@@ -1750,18 +1716,6 @@ Depends: python2-numpy
 Filename: dists/termux/extras/binary-arm/python2-scipy_1.2.0_arm.deb
 Size: 10385636
 SHA256: 57d145bd54acc32e11d5755f41703c4fafbddca188297a034b00c4cf44e3a901
-
-Package: python2-scipy
-Architecture: arm
-Installed-Size: 45844
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.0rc1
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Filename: dists/termux/extras/binary-arm/python2-scipy_1.2.0rc1_arm.deb
-Size: 10875316
-SHA256: e9d340ac093083d99c6aa76fb6bb53d723d3228dd47f02d20b555c37deda2071
 
 Package: qemu-common
 Architecture: arm

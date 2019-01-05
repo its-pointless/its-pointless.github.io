@@ -982,28 +982,6 @@ Package: libobjc4
 Architecture: aarch64
 Installed-Size: 424
 Maintainer: @its-pointless github
-Version: 8.2.0-3
-Description: GNU Objective-C runtime
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libobjc4_8.2.0-3_aarch64.deb
-Size: 63696
-SHA256: 29fc8d978b48b601ce7ff9dcd075e5b646499eb8e4602a4be9f86c6cd743a522
-
-Package: libobjc4
-Architecture: aarch64
-Installed-Size: 424
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: GNU Objective-C runtime
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libobjc4_8.2.0-4_aarch64.deb
-Size: 63776
-SHA256: e251916dd6c7da021fccb0c7c835abbe0ac7fb66d05d67d736da7a6ff7757bec
-
-Package: libobjc4
-Architecture: aarch64
-Installed-Size: 424
-Maintainer: @its-pointless github
 Version: 8.2.0-5
 Description: GNU Objective-C runtime
 Homepage: http://gcc.gnu.org/
@@ -1560,27 +1538,15 @@ SHA256: 68272c0f6318e0ac7ca320b61ebb6bd1aff89b3561ebb38f4123718294245851
 
 Package: openblas
 Architecture: aarch64
-Installed-Size: 10036
+Installed-Size: 10876
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.3
+Version: 0.3.5
 Description:  Optimized BLAS (linear algebra) library
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
-Filename: dists/termux/extras/binary-aarch64/openblas_0.3.3_aarch64.deb
-Size: 1996108
-SHA256: 32304853ff7413d087216e1d953d5da0dac0a7bae56e50c3dd2096d7dd7b2f64
-
-Package: openblas
-Architecture: aarch64
-Installed-Size: 10872
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.4
-Description:  Optimized BLAS (linear algebra) library
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-aarch64/openblas_0.3.4_aarch64.deb
-Size: 2104352
-SHA256: ef880560788882cdaf92102c58a27b82a963e34041aa91e95824a5b91648140c
+Filename: dists/termux/extras/binary-aarch64/openblas_0.3.5_aarch64.deb
+Size: 2101368
+SHA256: 52ebae316b1efc5c409208d7527654507be38f0ce05dba42b4dcbe22322132ba
 
 Package: opencv
 Architecture: aarch64
@@ -1781,18 +1747,6 @@ Depends: python2-numpy
 Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.0_aarch64.deb
 Size: 10399776
 SHA256: 4d3a0b645f2419509881bac54307632034eb8780d019ffa8652865a59813cf41
-
-Package: python2-scipy
-Architecture: aarch64
-Installed-Size: 49692
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.0rc1
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.0rc1_aarch64.deb
-Size: 10442252
-SHA256: 34d18a1a04bb92cdcfc064611be557849f01d2dfedba465ab509065a94abc8b0
 
 Package: qemu-common
 Architecture: aarch64

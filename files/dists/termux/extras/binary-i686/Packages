@@ -852,28 +852,6 @@ Package: libobjc4
 Architecture: i686
 Installed-Size: 388
 Maintainer: @its-pointless github
-Version: 8.2.0-3
-Description: GNU Objective-C runtime
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libobjc4_8.2.0-3_i686.deb
-Size: 75104
-SHA256: 0f3c39a42a04f3257a702a6b313f7698715f187f950dbdaae79b82fe8c162052
-
-Package: libobjc4
-Architecture: i686
-Installed-Size: 388
-Maintainer: @its-pointless github
-Version: 8.2.0-4
-Description: GNU Objective-C runtime
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libobjc4_8.2.0-4_i686.deb
-Size: 74864
-SHA256: 0d21784f218d067174623433890eb718fc0efb8549b9614d5d3d5dc6d82fb460
-
-Package: libobjc4
-Architecture: i686
-Installed-Size: 388
-Maintainer: @its-pointless github
 Version: 8.2.0-6
 Description: GNU Objective-C runtime
 Homepage: http://gcc.gnu.org/
@@ -1322,55 +1300,29 @@ SHA256: 4c390098e1a1bedc482bc13ff5ab2877605cad245d3a4cfc940c636befd0fbc2
 
 Package: openblas-sandybridge
 Architecture: i686
-Installed-Size: 13520
+Installed-Size: 14376
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.3
+Version: 0.3.5
 Description: blas library optimized for sandybridge(chromebooks)
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
 Conflicts: openblas
 Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.3_i686.deb
-Size: 2958320
-SHA256: 757f2c9954b09b0c77f5034d3b214eddba717b58557cb74b5d7c6c9d4352d6a3
-
-Package: openblas-sandybridge
-Architecture: i686
-Installed-Size: 14372
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.4
-Description: blas library optimized for sandybridge(chromebooks)
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Conflicts: openblas
-Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.4_i686.deb
-Size: 2997848
-SHA256: fca7e2b7dfaee25ccbc1d6be12ba55fcd408790ee0b5d43533a5c1ebb6d9cac0
-
-Package: openblas
-Architecture: i686
-Installed-Size: 13392
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.3
-Description:  Optimized BLAS (linear algebra) library
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-i686/openblas_0.3.3_i686.deb
-Size: 2898956
-SHA256: e8a44b45b2c718493948dfdb19bb162125f17e7d0694dab77d3134828a8e018a
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.5_i686.deb
+Size: 2969848
+SHA256: d96db262eae636f758a964a0b175da27a7ca80949be9146c2133d61f7dbd2343
 
 Package: openblas
 Architecture: i686
 Installed-Size: 14244
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.4
+Version: 0.3.5
 Description:  Optimized BLAS (linear algebra) library
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
-Filename: dists/termux/extras/binary-i686/openblas_0.3.4_i686.deb
-Size: 2934704
-SHA256: 986d9b91fa6b347b5d0bb47f1e019e5dbebb77d64bf1ba28e35b8b482d2e9aeb
+Filename: dists/termux/extras/binary-i686/openblas_0.3.5_i686.deb
+Size: 2905652
+SHA256: e85b91ac65b5acbe19289e065c1c778879352f8dd1b6cd70519b7b168b5627ec
 
 Package: opencv
 Architecture: i686
@@ -1571,18 +1523,6 @@ Depends: python2-numpy
 Filename: dists/termux/extras/binary-i686/python2-scipy_1.2.0_i686.deb
 Size: 10690000
 SHA256: cb33be2eff99caa0b1201d6281fde75cdba405f8a512f46c4e00e47efca0c969
-
-Package: python2-scipy
-Architecture: i686
-Installed-Size: 51660
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.0rc1
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Filename: dists/termux/extras/binary-i686/python2-scipy_1.2.0rc1_i686.deb
-Size: 10687380
-SHA256: 676ce30bc0af8c769f39d59561918e75190c43d9bf296f7724e9ee30cb77c3fc
 
 Package: qemu-common
 Architecture: i686
