@@ -1414,18 +1414,17 @@ SHA256: a2e3d341b9ead9f2ad1c7b5a4ee78be54545516783bf3c3da2e499f7c67597bd
 
 Package: newsboat-android-5.0
 Architecture: aarch64
-Installed-Size: 1888
+Installed-Size: 7084
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.13
-Description: RSS/Atom feed reader for the text console
+Version: 2.14-1
 Homepage: https://newsboat.org/
 Depends: libandroid-support, libandroid-glob, json-c, libsqlite, libcurl, libxml2, stfl, ncurses, openssl
-Conflicts: newsboat
-Replaces: newsboat
-Provides: newsboat
-Filename: dists/termux/extras/binary-aarch64/newsboat-android-5.0_2.13_aarch64.deb
-Size: 415568
-SHA256: 7c7ca33bcb8ee2903dc887ea15e5bc29629c44e7998debeea95a0766e59f1109
+Conflicts: newsbeuter
+Replaces: newsbeuter
+Description: RSS/Atom feed reader for the text console
+Filename: dists/termux/extras/binary-aarch64/newsboat-android-5.0_2.14-1_aarch64.deb
+Size: 1176752
+SHA256: e8d7a4c025ac80bf57e4c43cd0fa9ecb3eee7da66da51043521c9bca7e947247
 
 Package: nim
 Architecture: aarch64

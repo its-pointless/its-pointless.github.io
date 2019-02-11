@@ -1202,18 +1202,17 @@ SHA256: b81efee6265decd4605d07b687c5e582de5e45953054e00b83511220de819872
 
 Package: newsboat-android-5.0
 Architecture: i686
-Installed-Size: 1896
+Installed-Size: 8228
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.13
-Description: RSS/Atom feed reader for the text console
+Version: 2.14-1
 Homepage: https://newsboat.org/
 Depends: libandroid-support, libandroid-glob, json-c, libsqlite, libcurl, libxml2, stfl, ncurses, openssl
-Conflicts: newsboat
-Replaces: newsboat
-Provides: newsboat
-Filename: dists/termux/extras/binary-i686/newsboat-android-5.0_2.13_i686.deb
-Size: 488636
-SHA256: 33773b7c8a0a8f7d4722f924512442ee8182096266bc5eb9541955538e04c0d5
+Conflicts: newsbeuter
+Replaces: newsbeuter
+Description: RSS/Atom feed reader for the text console
+Filename: dists/termux/extras/binary-i686/newsboat-android-5.0_2.14-1_i686.deb
+Size: 1414886
+SHA256: 9cf945822a0ae1b45f7c180dbde4089c94c068a63244ab9f4d6b579968c42a77
 
 Package: nim
 Architecture: i686
