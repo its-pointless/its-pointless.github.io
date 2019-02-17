@@ -436,20 +436,6 @@ SHA256: fe6a576dddd6e89dcf2e21ffc636c2d43ec9c281d821a93e7469cc92fcd9fc04
 
 Package: julia
 Architecture: x86_64
-Installed-Size: 151676
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.2
-Description: high-performance dynamic programming language for numerical computing
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-x86_64/julia_1.0.2_x86_64.deb
-Size: 20573604
-SHA256: 0bb5523a46e9818e03107b142df708c6eaa92eed33a890e91e54b21d643e77c7
-
-Package: julia
-Architecture: x86_64
 Installed-Size: 241388
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.0.3
@@ -547,17 +533,6 @@ Package: libcompiler-rt
 Architecture: x86_64
 Installed-Size: 21344
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.0.0
-Description: Tools for zmodem/xmodem/ymodem file transfer
-Homepage: https://ohse.de/uwe/software/lrzsz.html
-Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_7.0.0_x86_64.deb
-Size: 1770412
-SHA256: 46351bc4b34f82adc8831420addf103e7d7aa7d4276f130b67ab46e425e7ce41
-
-Package: libcompiler-rt
-Architecture: x86_64
-Installed-Size: 21344
-Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0.1
 Description: Tools for zmodem/xmodem/ymodem file transfer
 Homepage: https://ohse.de/uwe/software/lrzsz.html
@@ -569,47 +544,12 @@ Package: libgfortran4
 Architecture: x86_64
 Installed-Size: 1956
 Maintainer: @its-pointless github
-Version: 7.3.0-5
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.3.0-5_x86_64.deb
-Size: 572412
-SHA256: b38bd0717875e53e85a1cbd829120ef5928b737428e85c19235bef78616152a1
-
-Package: libgfortran4
-Architecture: x86_64
-Installed-Size: 1956
-Maintainer: @its-pointless github
 Version: 7.4.0
 Description: dynamic library for fortran
 Homepage: http://gcc.gnu.org/
 Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.4.0_x86_64.deb
 Size: 572596
 SHA256: 661849c6b08960f8f6f0ef5ce4186d47de6e63778774eac2575877e980e1ca84
-
-Package: libgfortran5
-Architecture: x86_64
-Installed-Size: 2536
-Maintainer: @its-pointless github
-Version: 8.2.0-1
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Replaces: libgfortran4
-Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.2.0-1_x86_64.deb
-Size: 676488
-SHA256: fab0ec60b9a5b3ddcceac97107d50e09cdf46c246266408c0fc704549ade3197
-
-Package: libgfortran5
-Architecture: x86_64
-Installed-Size: 2540
-Maintainer: @its-pointless github
-Version: 8.2.0-2
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Replaces: libgfortran4
-Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.2.0-2_x86_64.deb
-Size: 677056
-SHA256: cc9540476f02a25b0396ea94726bf4e1cbe4c28a1160811c54e6c7a17c61d94c
 
 Package: libgfortran5
 Architecture: x86_64
@@ -693,6 +633,17 @@ Conflicts: gnat-7
 Filename: dists/termux/extras/binary-x86_64/libgnat-8_8.2.0-7_x86_64.deb
 Size: 864244
 SHA256: a1532fe791cad1ca19ef27e215331b2dafa3e465db30ee699516f7859dd4f401
+
+Package: libgnuiconv
+Architecture: x86_64
+Installed-Size: 916
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15-1
+Description: the gnuiconv library to use in place of libandroid-support for R
+Homepage: https://www.gnu.org/software/libiconv/
+Filename: dists/termux/extras/binary-x86_64/libgnuiconv_1.15-1_x86_64.deb
+Size: 492720
+SHA256: 2bddca2f475523dcc35bc233eec41b04e52a2d881e5627c4b736f6f894edc49c
 
 Package: libgnuiconv
 Architecture: x86_64
@@ -1249,18 +1200,6 @@ Filename: dists/termux/extras/binary-x86_64/newsboat-android-5.0_2.14-1_x86_64.d
 Size: 1438252
 SHA256: 1a1f9b29b82833ee26c5d2e615b796f521ac833b686c64cc46f6506a6dac3657
 
-Package: nim
-Architecture: x86_64
-Installed-Size: 11428
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.19.0
-Description: Nim is a systems and applications programming language. Statically typed and compiled, it provides unparalleled performance in an elegant package.
-Homepage: https://nim-lang.org/
-Depends: git, clang, libandroid-glob
-Filename: dists/termux/extras/binary-x86_64/nim_0.19.0_x86_64.deb
-Size: 2250508
-SHA256: 19f9ebd5539f1a8e19ded04e427eceb6d3f39a42a519216a9a5ef17d60b03add
-
 Package: nsnake
 Architecture: x86_64
 Installed-Size: 416
@@ -1331,18 +1270,6 @@ Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-gl
 Filename: dists/termux/extras/binary-x86_64/octave_4.4.1-3_x86_64.deb
 Size: 9706416
 SHA256: a2750b6b7121352438759560bae0862235221a42ea36b15b917e8c298d72ef9a
-
-Package: opam
-Architecture: x86_64
-Installed-Size: 17728
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.2.1
-Description: OPAM is a source-based package manager for OCaml.
-Homepage: http://www.ocaml.org
-Depends: wget, curl, git, patch, tar, gzip, bzip2, xz-utils, rsync, termux-exec
-Filename: dists/termux/extras/binary-x86_64/opam_1.2.2.1_x86_64.deb
-Size: 2723536
-SHA256: 8c316a12ba5179510e84e22e31ff8a55e501dc4ebfdf39858eac4325b9329849
 
 Package: opam
 Architecture: x86_64
@@ -1419,29 +1346,6 @@ Depends: libsasl, openssl, libuuid
 Filename: dists/termux/extras/binary-x86_64/openldap_2.4.46_x86_64.deb
 Size: 892404
 SHA256: 368e4f3c4d631cfeabeca06dabe3615013e8b459c0d9e6cc3076a0608048981b
-
-Package: ossp-uuid-dev
-Architecture: x86_64
-Installed-Size: 24
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.6.2
-Description: Development files for ossp-uuid
-Homepage: http://www.ossp.org/pkg/lib/uuid/
-Depends: ossp-uuid
-Filename: dists/termux/extras/binary-x86_64/ossp-uuid-dev_1.6.2_x86_64.deb
-Size: 2908
-SHA256: 27b8d70f5eb4295ad43cc79bae419ece52af1ddd471b40e46bb953176b67bb80
-
-Package: ossp-uuid
-Architecture: x86_64
-Installed-Size: 72
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.6.2
-Description: ISO-C:1999 uuid generator supporting DCE 1.1, ISO/IEC 11578:1996 and RFC 4122.
-Homepage: http://www.ossp.org/pkg/lib/uuid/
-Filename: dists/termux/extras/binary-x86_64/ossp-uuid_1.6.2_x86_64.deb
-Size: 25496
-SHA256: c52f462c8daf2cb174ab005f7315b91c1ea1369dae06118704912ac372843ac6
 
 Package: pacman4console
 Architecture: x86_64
@@ -1583,438 +1487,6 @@ Depends: python2-numpy
 Filename: dists/termux/extras/binary-x86_64/python2-scipy_1.2.0_x86_64.deb
 Size: 11774936
 SHA256: 2318feedc9870b2fba0b004166e25850795e9794573d675344bd346a5c411d36
-
-Package: qemu-common
-Architecture: x86_64
-Installed-Size: 50996
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu fast processor emulator - common files
-Homepage: http://www.qemu.org
-Depends: glib, libutil, liblzo, libbz2, libnettle, ncurses, libjpeg-turbo, libcurl, libandroid-shmem, libpulseaudio, libsasl, libgnutls, libspice-server, libspice-protocol, libpixman, libpng
-Filename: dists/termux/extras/binary-x86_64/qemu-common_2.12.0_x86_64.deb
-Size: 6236588
-SHA256: 6719017dfe1c8f4dee889692955087876a1615138b7f9f916d07bfe28d8309b3
-
-Package: qemu-guest-additions
-Architecture: x86_64
-Installed-Size: 488
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - sparc and sparc64 system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-guest-additions_2.12.0_x86_64.deb
-Size: 126288
-SHA256: b9ae4142583c7dadda9882ea44b09e959732e4b8b03892b7af1a9e4e723fa549
-
-Package: qemu-system-alpha
-Architecture: x86_64
-Installed-Size: 12348
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - alpha system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-alpha_2.12.0_x86_64.deb
-Size: 2209276
-SHA256: 208f8fc6465460f045086e30388c5feaa63659bef5d1b26206696b8b6682ecee
-
-Package: qemu-system-arm
-Architecture: x86_64
-Installed-Size: 28816
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - arm and aarch64 system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-arm_2.12.0_x86_64.deb
-Size: 5610312
-SHA256: 0e8f84094533e8791897d23fecbbf0b0df5e5a54cbbdcc5915bbbb8d3fde5e5f
-
-Package: qemu-system-cris
-Architecture: x86_64
-Installed-Size: 7372
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - cris system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-cris_2.12.0_x86_64.deb
-Size: 1648280
-SHA256: 818a32148cd0af813b03e29c84fea15ca0b907633fbfb47f508cbc10aaffe175
-
-Package: qemu-system-lm32
-Architecture: x86_64
-Installed-Size: 7588
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - lm32 system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-lm32_2.12.0_x86_64.deb
-Size: 1669680
-SHA256: d9c1a5c2e4df8acf64cdcf33dfd6c1ea6f11fdb85bc3282f8681b952fb298b50
-
-Package: qemu-system-m68k
-Architecture: x86_64
-Installed-Size: 7636
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - m68k system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-m68k_2.12.0_x86_64.deb
-Size: 1698156
-SHA256: c1731db16d600d987d5a36451b837d41bb5bd89e5606f3754ffdaf113c3860bd
-
-Package: qemu-system-microblaze
-Architecture: x86_64
-Installed-Size: 14840
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - microblaze and microblazeel system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-microblaze_2.12.0_x86_64.deb
-Size: 1939244
-SHA256: 3436f5424bf508ce6bfce1eb6f466e002740f147e5736145eee282e0d76e8645
-
-Package: qemu-system-mips
-Architecture: x86_64
-Installed-Size: 52392
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - mips, mips64, mipsel and mips64el system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-mips_2.12.0_x86_64.deb
-Size: 9530260
-SHA256: 05b24969c9255afcc74a97b01e8c77023e7a15ea5e8b4b4c673209389578ce0f
-
-Package: qemu-system-moxie
-Architecture: x86_64
-Installed-Size: 7344
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - moxie system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-moxie_2.12.0_x86_64.deb
-Size: 1635604
-SHA256: 6562f10ebb22e1a57015084e33f6f2fb54aa0fd70a87c85eb272d35e116a61f8
-
-Package: qemu-system-nios2
-Architecture: x86_64
-Installed-Size: 7328
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - nios2 system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-nios2_2.12.0_x86_64.deb
-Size: 1626624
-SHA256: 9db0274d245cf5af58022b24112f0201d336da2f3d19a3ef60e84a4a7d5be52f
-
-Package: qemu-system-or1k
-Architecture: x86_64
-Installed-Size: 7380
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - or1k system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-or1k_2.12.0_x86_64.deb
-Size: 1634108
-SHA256: 6c06ccc04a48f53299047f29adf2f427ad5608948fdc043fcaacbbae4f05d38c
-
-Package: qemu-system-ppc
-Architecture: x86_64
-Installed-Size: 45368
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - ppc, ppc64 and ppcemb system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-ppc_2.12.0_x86_64.deb
-Size: 8306116
-SHA256: 668e3e343129257821cba58737d8aa607389c4af43f9f62ec3b235c5a1b9bcbb
-
-Package: qemu-system-s390x
-Architecture: x86_64
-Installed-Size: 8456
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - s390x system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-s390x_2.12.0_x86_64.deb
-Size: 1930352
-SHA256: 66129f27432234966677ac1d73f0781e5ebdbe0d7acd2500f791ef7e430a774f
-
-Package: qemu-system-sh4
-Architecture: x86_64
-Installed-Size: 24040
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - sh4 and sh4eb system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-sh4_2.12.0_x86_64.deb
-Size: 4302304
-SHA256: d7c8fbb8c76e4af858ee37696d526b569b7ac5f82df66bae7cf8f6d2bb599194
-
-Package: qemu-system-sparc
-Architecture: x86_64
-Installed-Size: 22208
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - sparc and sparc64 system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-sparc_2.12.0_x86_64.deb
-Size: 4011552
-SHA256: 583c24e6bdac81d825a928638672d89a08306ee2567a45fe0f0dd1f03f042164
-
-Package: qemu-system-tricore
-Architecture: x86_64
-Installed-Size: 7408
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - tricore system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-tricore_2.12.0_x86_64.deb
-Size: 1656988
-SHA256: 3a8ec57f28e7f2f3f9c23166e5afaed27ff249b9bb8b4a16bb4dc4717e1422af
-
-Package: qemu-system-unicore32
-Architecture: x86_64
-Installed-Size: 7288
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - unicore32 system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-unicore32_2.12.0_x86_64.deb
-Size: 1622920
-SHA256: 8a33253eda677476a43f2afe25e2776ab7beaedad0af25e9c58a98475afa0899
-
-Package: qemu-system-x86
-Architecture: x86_64
-Installed-Size: 29400
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - x86 and x86_64 system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-x86_2.12.0_x86_64.deb
-Size: 7008684
-SHA256: 05a52ccf622594b5f5bd37c3004d36f7a88d328e2894df98c77a53cad7b77c1f
-
-Package: qemu-system-xtensa
-Architecture: x86_64
-Installed-Size: 16528
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - xtensa and xtensaeb system emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-system-xtensa_2.12.0_x86_64.deb
-Size: 3441348
-SHA256: d35499b2179118e6146a47a7eb331c4a5ea2ad7ca040e4f8fb554e42b3be6e1e
-
-Package: qemu-user-alpha
-Architecture: x86_64
-Installed-Size: 3624
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - alpha user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-alpha_2.12.0_x86_64.deb
-Size: 668288
-SHA256: d1200240fa177b6f883b05d75f3032a0c2434c3f789a4352591848561311d94c
-
-Package: qemu-user-arm
-Architecture: x86_64
-Installed-Size: 12784
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - arm and aarch64 user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-arm_2.12.0_x86_64.deb
-Size: 1345868
-SHA256: baf7033ed1f4424695b844e8d4c1ec77076acad5c5d3a8749004d32aca541562
-
-Package: qemu-user-cris
-Architecture: x86_64
-Installed-Size: 3604
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - cris user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-cris_2.12.0_x86_64.deb
-Size: 673820
-SHA256: ee2b45bdcaef7d49addae54dea0dd0dcedaa7089cd9829cc1f270e474200c41e
-
-Package: qemu-user-hppa
-Architecture: x86_64
-Installed-Size: 3672
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - hppa user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-hppa_2.12.0_x86_64.deb
-Size: 683364
-SHA256: 8bc0b9be7547b7a2d02ab649dc266f3c5d2a4942dbd9fc80b53737f0d71699a2
-
-Package: qemu-user-m68k
-Architecture: x86_64
-Installed-Size: 3892
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - m68k user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-m68k_2.12.0_x86_64.deb
-Size: 732148
-SHA256: c9a2f464f58f3c84672573b81da1c6853a88971884e3ada2cc96bd641c49d696
-
-Package: qemu-user-microblaze
-Architecture: x86_64
-Installed-Size: 7168
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - microblaze(el) user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-microblaze_2.12.0_x86_64.deb
-Size: 815472
-SHA256: 3d5cbfb039e9357758aaf40115e6cd72d8adf940d5b36ad369ba1f623de03a85
-
-Package: qemu-user-mips
-Architecture: x86_64
-Installed-Size: 25336
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - mips(64)(el) user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-mips_2.12.0_x86_64.deb
-Size: 2036048
-SHA256: 36746eabbe60109afb220d21a2768e33d071094b1e9650e31192ea2856233445
-
-Package: qemu-user-nios2
-Architecture: x86_64
-Installed-Size: 3576
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - nios2 user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-nios2_2.12.0_x86_64.deb
-Size: 657396
-SHA256: 35914e630a7b33cdc4fa57d5cf26e68ff951b4e901a8ee67cb1a7b61098707c9
-
-Package: qemu-user-or1k
-Architecture: x86_64
-Installed-Size: 3536
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - or1k user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-or1k_2.12.0_x86_64.deb
-Size: 655676
-SHA256: 7678a99fa0b3d0d24e7573844a53caa4e929ec81694da8ad548ebf5347f73d53
-
-Package: qemu-user-ppc
-Architecture: x86_64
-Installed-Size: 19092
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - ppc and ppc64 user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-ppc_2.12.0_x86_64.deb
-Size: 1745372
-SHA256: 533a96511dfd296e32952547786cf4b5d6d0ab08c44ababaa27783ac8f0e6d49
-
-Package: qemu-user-s390x
-Architecture: x86_64
-Installed-Size: 3912
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - s390x user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-s390x_2.12.0_x86_64.deb
-Size: 725012
-SHA256: c1848d5a4fc7e53400b7d9a2bd94f554b6bf629da173d5a13c0259478a307826
-
-Package: qemu-user-sh4
-Architecture: x86_64
-Installed-Size: 7228
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - sh4(eb) user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-sh4_2.12.0_x86_64.deb
-Size: 824652
-SHA256: f7a4f842aafd464e393371c94fa1acab7d0c6b139957f6dbf48486323b451c41
-
-Package: qemu-user-sparc
-Architecture: x86_64
-Installed-Size: 11628
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - sparc and sparc64 user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-sparc_2.12.0_x86_64.deb
-Size: 1115152
-SHA256: 28d8c8a89c3e23a177f3dc4f43cfe4e676f74b431b939b47af22510bf4702ffe
-
-Package: qemu-user-tilegx
-Architecture: x86_64
-Installed-Size: 3536
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - tilegx user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-tilegx_2.12.0_x86_64.deb
-Size: 654588
-SHA256: 11d76e4f0fa809c76a4fe7a411d77c05b4754d2396d34e3d19620d7956026820
-
-Package: qemu-user-x86
-Architecture: x86_64
-Installed-Size: 7856
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - i386 and x86_64 user emulation
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-user-x86_2.12.0_x86_64.deb
-Size: 1009888
-SHA256: 308cee48281b4e4ab7206f55fa32e37b400adf3b2039c23450a0e6a3b23776e3
-
-Package: qemu-utils
-Architecture: x86_64
-Installed-Size: 3180
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12.0
-Description: Qemu emulator - utilities
-Homepage: http://www.qemu.org
-Depends: qemu-common
-Filename: dists/termux/extras/binary-x86_64/qemu-utils_2.12.0_x86_64.deb
-Size: 651644
-SHA256: 7488610fac5c7fd4434d9e8aec6bc135bc89d26c8ca0ce7510354b5cb2976edb
 
 Package: qhull-dev
 Architecture: x86_64
@@ -2266,18 +1738,6 @@ Filename: dists/termux/extras/binary-x86_64/suitesparse_5.3.0-2_x86_64.deb
 Size: 1749016
 SHA256: 16a829ee953d0aa264d4875fb8cfc1b13b826b09110246a4db5c8105fe4eea18
 
-Package: swi-prolog
-Architecture: x86_64
-Installed-Size: 19752
-Maintainer: Fredrik Fornwall @fornwall
-Version: 7.7.25-1
-Description: Most popular and complete prolog implementation
-Homepage: https://swi-prolog.org/
-Depends: readline, libgmp, libcrypt, pcre, libarchive, libyaml, libjpeg-turbo, ncurses, ncurses-ui-libs, ossp-uuid
-Filename: dists/termux/extras/binary-x86_64/swi-prolog_7.7.25-1_x86_64.deb
-Size: 2737776
-SHA256: 8685b63b9ee7a9c827f99d0a292c4cb1d74ab6bc2e6076de62e8d39f35fc155c
-
 Package: tzdata
 Architecture: x86_64
 Installed-Size: 5092
@@ -2358,18 +1818,6 @@ Depends: libsnappy
 Filename: dists/termux/extras/binary-x86_64/wiredtiger_3.1.0-1_x86_64.deb
 Size: 414632
 SHA256: 1301f7f6825652f3bb6b2e804be7754065af85df814e1c2d2847a11b8ea1b416
-
-Package: wordgrinder
-Architecture: x86_64
-Installed-Size: 296
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7.2
-Description: a Unicode-aware character cell word processor
-Homepage: http://cowlark.com/wordgrinder/
-Depends: libandroid-support, ncurses, liblua
-Filename: dists/termux/extras/binary-x86_64/wordgrinder_0.7.2_x86_64.deb
-Size: 67908
-SHA256: 714e99a61da7b9de95b44de7a3a569b27c52146183ce793e18bc685285f2640d
 
 Package: xmlada-dev
 Architecture: x86_64
