@@ -57,6 +57,21 @@ SHA1: 770295d9d267567db8e44d7eb5a837ed1e6374c7
 SHA256: 460cf8412ac0fb322dedeef0f366164bdf148c4efcd87877fb68e2b14d220670
 SHA512: f3a3e2e2907c3af791f8fab5a226d50d49b1f16ed3c398d47032decb71720786f1b3c931a7958de0c5e555301d8808de1d92bb00f766a7e83fa3c94d2bcf48fa
 
+Package: bastet
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.43.2-4
+Homepage: http://fph.altervista.org/prog/bastet.html
+Depends: boost, ncurses
+Description: bastard tetris
+Filename: dists/termux/extras/binary-aarch64/bastet_0.43.2-4_aarch64.deb
+Size: 55978
+MD5Sum: 3f8cdcd7801e02d3734cabf3a9e24af4
+SHA1: 6053a74b7bc6111ee2ea83ada5dc9e4d0bf847c9
+SHA256: 7a0324f94a4e9c01ab191c6254c3653da95904fffb31e3b60375c137689fd701
+SHA512: 7325981e62bc8d6e80cc0a05f28ca77ee8d67886d408efe8d5be0d07f72195e4795d6cb65b031074357a964a85f799e03bc4e0d6a6e40bfedb89e5ec57625fcd
+
 Package: bcal
 Architecture: aarch64
 Installed-Size: 44
