@@ -204,6 +204,21 @@ SHA512: d69126c25ce93c26f02fd9126d1b0e44af91f981545bf17802d7aadfc66c3e35055d2335
 
 Package: dopewars
 Architecture: x86_64
+Installed-Size: 464
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.5.12-1
+Homepage: https://dopewars.sourceforge.io
+Depends: libandroid-support, ncurses, glib, pcre
+Description: drug-dealing game set in streets of New York City
+Filename: dists/termux/extras/binary-x86_64/dopewars_1.5.12-1_x86_64.deb
+Size: 210160
+MD5Sum: 6c29b962759d718863f52662d987aac4
+SHA1: fb20d757b844d3e6b1e036ee733c34fe3503ac0b
+SHA256: 566cab0d16f8838011bb8f3551b5c7805a0075f3dd01b5e5bf5df9acf01dc517
+SHA512: 29cc6f0ef8d0e66161227245b2f44b2f508c40e2e90ace29892592534c839fb7bfd3069c4a75c6da913319781fef5e7a04b4f370b0650566bd859dfd9e38fb3a
+
+Package: dopewars
+Architecture: x86_64
 Installed-Size: 156
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.5.12
