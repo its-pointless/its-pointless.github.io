@@ -1,32 +1,47 @@
+Package: arpack-ng-dev
+Architecture: x86_64
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0
+Description: Development files for arpack-ng
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: arpack-ng
+Filename: dists/termux/extras/binary-x86_64/arpack-ng-dev_3.7.0_x86_64.deb
+Size: 2224
+MD5Sum: 72fdb168dc4add38f99f6c7a4f7ef591
+SHA1: 981b9564fe53abf5b21cbf2545b90ee7d45bbc75
+SHA256: a814c70a0b8f529e16df7784c06a5241c107ee728cc8d128ddfda7ca48f5866e
+SHA512: a2e83906b33bab92eb59c661865a1cb154cca1432afe7bc9fa45f4f62a78de6185bb2cd0bf91d2ccebe1e2ffe4cdc194b080c1c8723f1ff6dadccf53f4e8d42b
+
 Package: arpack-ng
 Architecture: x86_64
-Installed-Size: 260
+Installed-Size: 508
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.0-2
-Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Version: 3.7.0
 Homepage: https://github.com/opencollab/arpack-ng
 Depends: openblas
-Filename: dists/termux/extras/binary-x86_64/arpack-ng_3.5.0-2_x86_64.deb
-Size: 71944
-MD5Sum: 605589e9d96b9031f86f3ed38eb4729e
-SHA1: a0acde62e9333660516dbe755a503c573e492ed9
-SHA256: 4f284d197c312ac272dcdfcc4e17ec027ea4a3ba29d03e125b73c14743bffd03
-SHA512: c254a4e3d03f229b5c74d3ace69491381410d95cc3a2a73afa0c7917a6a21de41bfbf817a781b53080b7978c44c2d42bb1158abe6c17d36dada3f8ada6da41e5
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Filename: dists/termux/extras/binary-x86_64/arpack-ng_3.7.0_x86_64.deb
+Size: 122266
+MD5Sum: 40a6a5c487ed1588ec5a19e1a91925a0
+SHA1: ba1298678ed6075b0dd497d91a69143192b3bec0
+SHA256: b6d210907088feac242d0720a04d12b08ac92ad8be3d9fdda67846fdaf842fb6
+SHA512: 4623b367156f8a8ead331ce16c90b0a5eba196ac6883fbf147418643af23f67fdb4a5252090024c0679ef8d81afce7f2395111ae4e89dfa14a43f3aa357db98c
 
 Package: asymptote
 Architecture: x86_64
-Installed-Size: 5228
+Installed-Size: 5068
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.47
-Description: script-based vector graphics language inspired by MetaPost
+Version: 2.47-1
 Homepage: https://sourceforge.net/projects/asymptote/
-Depends:  gsl, ncurses, readline, libsigsegv
-Filename: dists/termux/extras/binary-x86_64/asymptote_2.47_x86_64.deb
-Size: 1013264
-MD5Sum: db2a8aaf9913af9610d3f047f087ecfc
-SHA1: bbb47aae540c4e0442c3fbce4d65dca9426c7c21
-SHA256: 6f07a55f622692182f417df82e42b6d6837a7fb713dcd3a5439e425d672d5b37
-SHA512: 1e3f41f26dfefd42c91def71b8de5dc8c6497b498f506fc633ba712a27c4127033fe447534c55f4039fa6c74bfa4b51ed4e7618569e464625de54b1ec80f78d3
+Depends: gsl, ncurses, readline, libsigsegv
+Description: script-based vector graphics language inspired by MetaPost
+Filename: dists/termux/extras/binary-x86_64/asymptote_2.47-1_x86_64.deb
+Size: 1006324
+MD5Sum: 2c1c3209d83f83445e0e7f0e0decb6df
+SHA1: 1393bdd3fa8cf7c8bdb29d11dbcedee08f0e33b0
+SHA256: 5e64dbaa18c00be0fc7d4129ee6d38a61631d958f46b522a9b6a48ed4dc559a3
+SHA512: d60bdeb091daaf678fa1b64505fbc8814ba0062810553ad463e575aa8b2e7055d937afef8c9cc6dbb9201342d8fea272adbae0564210c4ba9e5f837c7e8732c7
 
 Package: bastet
 Architecture: x86_64
@@ -279,6 +294,21 @@ SHA512: bab8df5ee0a3ac93abe672defde7c9b05816ab16eeaf9f4f1141a35701e5b332b9a28797
 
 Package: gcc-6
 Architecture: x86_64
+Installed-Size: 97376
+Maintainer:  @its-pointless github
+Version: 6.5.0-1
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-x86_64/gcc-6_6.5.0-1_x86_64.deb
+Size: 26411966
+MD5Sum: b189165ff06c767f3b5a3e1f4cd202fc
+SHA1: 3841ce7947fd7944c14af289ed7b074d50f031d0
+SHA256: 0437e6e7b98a81d96873d9ad1863780c200d231dc62c55d00e3522f466deab77
+SHA512: 05fdfc0fe3c15c835eaac24cadd4cd1616e8d1d6225f90470407c1e4a9ca88323080dc14c72a5c8fe3a49c1fe25982d1fd561ccc35aa7fb88489af5fa3f330e8
+
+Package: gcc-6
+Architecture: x86_64
 Installed-Size: 99124
 Maintainer:  @its-pointless github
 Version: 6.5.0
@@ -291,6 +321,21 @@ MD5Sum: c15d3e09aab7c2a153b057c9a6356858
 SHA1: f559ad7500a5963e81730ded5eb66a369ce71d17
 SHA256: 7f8a05a73b62e6c27cee87ab20ba899fa723b1c6c23f0e36a630f6d332093dfb
 SHA512: 15cfe4d7016e40fae6b96b7f3745a57c3b07b5072ae96393e2d91df7f5a9958645fe02792c62af522c15d81b1c5422803b2f0911c48ab513d1cade439f76a735
+
+Package: gcc-7
+Architecture: x86_64
+Installed-Size: 109196
+Maintainer: @its-pointless github
+Version: 7.4.0-1
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-x86_64/gcc-7_7.4.0-1_x86_64.deb
+Size: 30821596
+MD5Sum: 70e8d968065c0d4bc059156872e47069
+SHA1: ab06f1c9aecdbb8cb8ce97853885d13ad1009110
+SHA256: f8d3525fd15d398a94da7569f7a3e5b415f63300a9cacb2d3043fbe3744fe9fc
+SHA512: 9dfd56c8c38195a43fad4208460ddeb2a41e5c795dc40bd4ea020247d325c4195c4ee374e1e66a5c78d5c994b85ea2ce865ec9a6b9d9664a64f6ac15be11ea95
 
 Package: gcc-7
 Architecture: x86_64
@@ -321,6 +366,21 @@ MD5Sum: 64510cdd607a41c4dfea5525d9df1c64
 SHA1: 7b87b7e242249891e67cc163c9c6d7d921d9490e
 SHA256: fb092a4335b3e6a7ac66edcc9a23a8b980a9610688757e53dea7bf1cde4e7f28
 SHA512: 00540771ab48041399745325fd560222d7a72de5a716aea6730410209b04f0c860ad926c5c3339f0433b23b3c76e2009ed0fe41d92ae726f568ea2c620ff84c4
+
+Package: gcc-8
+Architecture: x86_64
+Installed-Size: 125732
+Maintainer: @its-pointless github
+Version: 8.3.0
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-x86_64/gcc-8_8.3.0_x86_64.deb
+Size: 33918684
+MD5Sum: 33cb2d801b2e50b4a6d92c9f9cd38d48
+SHA1: 2ed706ac4dae4bdc9ed905fc51160860b6708818
+SHA256: 4d577b7fe1f89eb589c815f7822ab92da6fd89f122362fe2794a3a4c70ba2403
+SHA512: 3a356c02a4a2271b6a5b874583276d0bbe72ae1e7ebf79e8538c5f4dcca2f43ca186d00faedc7b70ac0614a943be974d2b83ee1752776b0493341fb3639d1b3c
 
 Package: gforth
 Architecture: x86_64
@@ -397,6 +457,22 @@ SHA1: c24904e24c51aeec8128cc6e726cdd4f84cb3fb2
 SHA256: 22f1de6bf6a0997e4c4c7bfd086ecde33411c86071952da67897c3df11c1f99b
 SHA512: 538725e20aa22f5fcaab77de68067216d38fb52eb9d253aa628f3447382d9f3ab8269e06c6db4bda2ba42da06e1f138efdbed3549bffbcd70dacc2188ecd4446
 
+Package: gnat-8
+Architecture: x86_64
+Installed-Size: 101932
+Maintainer: @its-pointless github
+Version: 8.3.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8, libgnat-8
+Conflicts: gnat-7
+Description: the ada compiler
+Filename: dists/termux/extras/binary-x86_64/gnat-8_8.3.0_x86_64.deb
+Size: 20592944
+MD5Sum: c073e2b82aa58ab3b9fd93a9eb6d2e6c
+SHA1: 39838a61329d548a2eb5d7b22c31b6b748b8814a
+SHA256: c3a0564aca2ea0fc6a073c7dc68df97bb76889396080162d516cebed90c96cc6
+SHA512: b1714dddb341f5358d5acb8f6c187c034fcf2d4cbe6cc8420ace04bc9c36cca77d4349a4f9b68d8c795aff9eaf1dcfb8b956507fe3613fa9f020d959650dc5e7
+
 Package: gobjc-8
 Architecture: x86_64
 Installed-Size: 51048
@@ -442,6 +518,21 @@ SHA1: 1379fbb0e41229abfb61dbdc16d2762415ebe7bf
 SHA256: f4d7d1d470bb39bd30b1b8e4ef4a7aa72cbb8cfb74b452ec0ee0c10ea2f3ac4a
 SHA512: 4e0518abd31436f4144b723749f65735e3a53f0f38a0af2f4fbb2471f4aafabe2d954f2506810f013d90990d6be812671f25a02a5f517b6baac76e511db1d8c9
 
+Package: gobjc-8
+Architecture: x86_64
+Installed-Size: 24852
+Maintainer: @its-pointless github
+Version: 8.3.0
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-8
+Description: GNU Objective-C compiler
+Filename: dists/termux/extras/binary-x86_64/gobjc-8_8.3.0_x86_64.deb
+Size: 7046332
+MD5Sum: 6566d8af2593f69c5dbd98524311bb3d
+SHA1: a769e974e3654a5838664a6fca85de8020bab286
+SHA256: 92d76c7119102724381f6aaf11d54cdcbec87a6550dbb91493c6e12181ed8965
+SHA512: 83c59a67bd26b588e65013191c597162fd0752c4ed894e8d57d2c1e9e05461e40720a537ddad84bd9f1b5962e0a33347d0b16137295b68e478dbf51a6cf013ef
+
 Package: gprbuild
 Architecture: x86_64
 Installed-Size: 21896
@@ -470,6 +561,21 @@ MD5Sum: 360f6cff957b65737937a1b50e761957
 SHA1: 27cd91637df1e2322762b32aad06172028870f01
 SHA256: ec33b63c7cb988bd07b9b74ebe9664280ad4005800a76822ea216e79f9cefa92
 SHA512: 33b52e1ff7e58dd063bfab15deca7a6c767745cb7c8fd810b0b673f10180baea6f6698b26d8eec93964786395f80e6f0d067e27f2c9f77656320c743df09c8f6
+
+Package: groff
+Architecture: x86_64
+Installed-Size: 11932
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.22.4-1
+Homepage: http://www.gnu.org/software/groff/
+Depends: libandroid-support, uchardet
+Description: GNU troff text-formatting program
+Filename: dists/termux/extras/binary-x86_64/groff_1.22.4-1_x86_64.deb
+Size: 1954036
+MD5Sum: 7cdb9f8cedd4b915591089e402a08841
+SHA1: 18b7d8b9a2dc3e26a7ed888256a5fd8b1abd1f38
+SHA256: 676118d5a65fca21aa800fe52df5e7a5d2ac9ca73232a75be9c8e422d322fdbd
+SHA512: 410a8820c34ccc188935f9939bf2c16274cd665733947b16fc0adae5b37d536af6cd768244d3120fe3761fd9dead65aa9648ad1573551b8054b513d821352cc4
 
 Package: groff
 Architecture: x86_64
@@ -562,18 +668,18 @@ SHA512: 5bfc4ac322857ae50b9f02b2b917174b76620a1d2c8680cdd58dbcc44bfbe0774399d53c
 
 Package: julia-llvm
 Architecture: x86_64
-Installed-Size: 163048
+Installed-Size: 164600
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0-2
-Description: llvm with julia patches (only useful if compiling julia itself)
+Version: 6.0.1
 Homepage: https://clang.llvm.org/
 Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libllvm-julia
-Filename: dists/termux/extras/binary-x86_64/julia-llvm_6.0.0-2_x86_64.deb
-Size: 21649108
-MD5Sum: f8e011afa1a13dc1a61b348f98b4a14b
-SHA1: 5d31ad02cb0641cfe25243f71afef4fdd2135ca0
-SHA256: fe6a576dddd6e89dcf2e21ffc636c2d43ec9c281d821a93e7469cc92fcd9fc04
-SHA512: e68d5fb65d5926133a1ecc29c0f55e02aa043aef80ae4fb99f9f05c1e94ec04a55c265cfdce272b9b3ede9da752901014841b00a28c105bfe0244d1a060de6ec
+Description: llvm with julia patches (only useful if compiling julia itself)
+Filename: dists/termux/extras/binary-x86_64/julia-llvm_6.0.1_x86_64.deb
+Size: 21525516
+MD5Sum: 8da6dfd9936318b7f3a44a2d373f358e
+SHA1: 6cffcb0f9d91f44f12b9d4dcf3082ede941b1c26
+SHA256: 3d361153504f5a4598308baf5465aa0f00c1ecebebb42ea6f5bc8caca618d7d3
+SHA512: 55d8a8efd31b08260926971fa780740f7a3ad917a7c55ca344ea018754f2afc89c61ec1dca888a214931841378798facbe45097833b936cbfa3de8e26f831d91
 
 Package: julia
 Architecture: x86_64
@@ -591,6 +697,23 @@ MD5Sum: a95c09a428c804b28d53e74a8303718d
 SHA1: 09277925562911e2fc18aaa03e84e2f419da7222
 SHA256: 5276b0b42766692774c62801048a26e79ec741dd6cae91bd608a7ee1208a92ba
 SHA512: 0b46d1071bf6f6d48d7c516b3f50907cd7be32c0cea272dfc31618b90bfd830c0c71841e182f387f62a5da1738de725135780c25fd10891e59be90e9335149ea
+
+Package: julia
+Architecture: x86_64
+Installed-Size: 150768
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-x86_64/julia_1.1.0_x86_64.deb
+Size: 20888354
+MD5Sum: a99807a7e0ac97f8fff3c2061a6907b5
+SHA1: 7835a5ec1ebd99d6a5d2c573e31688d4525d6162
+SHA256: 139ad355d29c4e3a1795b96a836feb9220675d58b9a710c2c1a2517f6be26bc1
+SHA512: b6fcc505659771d5b3b6e03a48e7c3a90f451289b8ccd50ed28bce0a23d63817d1f50ea94ca7622f3b6a3f4ddd51d018edd8f811da60ad51b769c86bcb550023
 
 Package: keystone-engine-dev
 Architecture: x86_64
@@ -708,6 +831,50 @@ SHA1: fddccf870e11ec28801a767033b163bd49383dac
 SHA256: d468cd23ccea5b72a621ca8958d19e089c18b6544bd075094b3a1ebd6dfd05eb
 SHA512: acac26965d09c9fb5d54b669ed4c2e4e01cda04ac20f443c151098472379d85e56febc2b24c8657a1332c123672cacf6be26fd91b4a687d7863ff992a6ab495f
 
+Package: libgccjit-8-dev
+Architecture: x86_64
+Installed-Size: 22680
+Maintainer: @its-pointless github
+Version: 8.3.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Description: GCC just-in-time compilation
+Filename: dists/termux/extras/binary-x86_64/libgccjit-8-dev_8.3.0_x86_64.deb
+Size: 6481490
+MD5Sum: 00927d528735126b14aa7ada423af637
+SHA1: 3307c6f535dc2c66c3c7388da89931375d808990
+SHA256: 24ee510604a32354704b3093cb1970e368ca0ad4528b3c1fc0d03ded2d1a0387
+SHA512: 6a836301d26b3e879bedbff0869dac463ec5f74daa8fb411c8665c8ccfe2a98a806b16299da3dc2dbfd286a6c7e207a363981171369e3f73f79844434033ab2f
+
+Package: libgfortran3
+Architecture: x86_64
+Installed-Size: 1116
+Maintainer:  @its-pointless github
+Version: 6.5.0-1
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-x86_64/libgfortran3_6.5.0-1_x86_64.deb
+Size: 256934
+MD5Sum: 1a711b392992ba01b3093f735ed9da7b
+SHA1: e48df49bbba3ed74aae51be8a9f6d61b788e685d
+SHA256: b777cae838b7368a49679b3186fb8993207f2e93a4efa1a5eb66ad15736ecd12
+SHA512: 20cae3cda0fd3525976c3173400067ebf0c793ac76210e22bb73f226dadae21fdc84a20bd36a599e5873c3fb8a38abe97808157ac115f497c3a2e96a04541148
+
+Package: libgfortran4
+Architecture: x86_64
+Installed-Size: 1956
+Maintainer: @its-pointless github
+Version: 7.4.0-1
+Homepage: http://gcc.gnu.org/
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-x86_64/libgfortran4_7.4.0-1_x86_64.deb
+Size: 572792
+MD5Sum: 637990369a8592eef24afe91caec9493
+SHA1: 759342e194f0245f1c8caafe0890e5de3e7c54f7
+SHA256: e92bce0b59ebcf130fa9e6e347f872b1fb944e1634f514641639c272d2ca7231
+SHA512: ae883bb3947e788ee6d09ed37c06bc3214fab492121aa75c1d90aac825ff3914864cfc7a7c8c094ce6fe82ccd185907cf132e1b550c29a1d86cdfc11062e4b53
+
 Package: libgfortran4
 Architecture: x86_64
 Installed-Size: 1956
@@ -782,6 +949,21 @@ SHA1: 67b3a23784adf918ac00112be43eff659a57c9e3
 SHA256: 1b62bc5ad75404ce698c6ee794d25c10288bf78b7e7420813d44894537da769a
 SHA512: 4326c6f0e6e9ca9b40871eeab78f84f7d4ce0e4c8ba0b32436ec03daeff34ddf6d75302838e9aa5df5441315c68a5cacb71c5606dc00be32596d30f89a0ffea6
 
+Package: libgfortran5
+Architecture: x86_64
+Installed-Size: 1624
+Maintainer: @its-pointless github
+Version: 8.3.0
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-x86_64/libgfortran5_8.3.0_x86_64.deb
+Size: 394588
+MD5Sum: 92cd8bccd2a13125a01c3f3ab3bfbb73
+SHA1: a254000be059b4a257ad3a84a2b67a30dcc28936
+SHA256: cd4bb42c907b1ae1d57e287eaddc601bc6c8fe3fe5fdaed5425fea4bda2414a1
+SHA512: 5639e7cbe7d7c50552a25d6d899c2e234be32bd861f561dff9e7a372bb08f1da0b73f23922f35acf6d14a6ccafd0b20efbb41b7e878c5b1bbaf9a6422e5ed49c
+
 Package: libgfortran
 Architecture: x86_64
 Installed-Size: 1116
@@ -825,6 +1007,22 @@ MD5Sum: 9be7f2e9463be4b2086585db6b988655
 SHA1: 2d16c24697c5ea2ce20a6ae9824a964c152a8af9
 SHA256: a1532fe791cad1ca19ef27e215331b2dafa3e465db30ee699516f7859dd4f401
 SHA512: 647d86009b1977a90c519139272ff23299d9945de08bb1530cff005f99da6a6c03044ebd00884deec343c5eb02e19a76cdb01e7265d532a869cfbd954868c2a4
+
+Package: libgnat-8
+Architecture: x86_64
+Installed-Size: 3456
+Maintainer: @its-pointless github
+Version: 8.3.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: gnat-7
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-x86_64/libgnat-8_8.3.0_x86_64.deb
+Size: 863682
+MD5Sum: 1d31b7a7f5bacc998b6c9e1cf3a97112
+SHA1: 48641c72024f58dac9e0e3df11724a0ae3a40b1e
+SHA256: cdcdcb4c815ba485d215e880cacaed93a158694f3ea24fc5ae30de516cbc1508
+SHA512: 43b625e77ec0380099dc1e24feca9e614349ac7f3466364bef24f9c6362853f6eb0a93dac9aaa930b68b00fd2fb184ea7368e2792512129fb7f03b96b3e6094b
 
 Package: libgnuiconv
 Architecture: x86_64
@@ -870,6 +1068,23 @@ MD5Sum: a3aabdd6c1975a39a59b33c3fef6f7b0
 SHA1: 37c792cc1d3d0ba2371d682feca7362ecb311e26
 SHA256: 18f47b3fe6af3af84e8fec4ccb0f58263ac5bcb6bd7670fb0bcc2a338bfce381
 SHA512: a6780fd92d65f00c3ad903a05c765726ea9d7c8ea67602bfc0148c7f92345ba0c6357ee647dcffbf37758e260f2ce5c1e0bf1b951197094bfcad6d4c1bbf1908
+
+Package: libgomp-7
+Architecture: x86_64
+Installed-Size: 332
+Maintainer: @its-pointless github
+Version: 7.4.0-1
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc
+Filename: dists/termux/extras/binary-x86_64/libgomp-7_7.4.0-1_x86_64.deb
+Size: 76444
+MD5Sum: 1098bed1313ad920950f06335052b6ce
+SHA1: f37fb6d541c317e9288495ca84410abd18bc7784
+SHA256: 758edf5ee1e5e704ffcc557c04122480b47622f7a300832ebfac0dbd9bf4af22
+SHA512: f92d82f752981a98bb0382a6a615e946185831f457b48ef982a4c899d110846063edb4f48c13f7dbde3900adf7664fc5c168f088d593db81b9ba7fbdcbb8c6c7
 
 Package: libgomp-7
 Architecture: x86_64
@@ -956,19 +1171,36 @@ SHA1: d6009a4cf5166473e7ee5c0ca00b10402b2e53bf
 SHA256: 6d263c220262fe573817138ed43e3a8f08f49856257509ef15218ecea83f91fe
 SHA512: 3f8f4a266c88c3bfc493f7dc681ef9c540612da95f2e4860e650a2caf743a41c66c08a7bc6d4c041530942749449f9b93ecb7b21feb3b6d6cc0af924948aa0b1
 
+Package: libgomp-8
+Architecture: x86_64
+Installed-Size: 276
+Maintainer: @its-pointless github
+Version: 8.3.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc-8
+Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.3.0_x86_64.deb
+Size: 61410
+MD5Sum: 0664bcd61a7eaea03692fa40ee7ad5ee
+SHA1: bc2f991bee78ad898e8a258230710783265745f3
+SHA256: eaf376263df0d95f72c30b4a713a1934c86bf0b9063c544786c113dab4a421d8
+SHA512: 8d3b67ca260cf274a1a9615b84ada3f7017fa3f31be49d7ef04826ca13d0d8b721dab6dcc9df92453e8b9f2c7f51c8e67d48dbcd05a26bc63779a502308d80f0
+
 Package: libllvm-julia
 Architecture: x86_64
-Installed-Size: 47128
+Installed-Size: 47888
 Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.0-2
-Description: patched libllvm for use with julia
+Version: 6.0.1
 Homepage: https://clang.llvm.org/
-Filename: dists/termux/extras/binary-x86_64/libllvm-julia_6.0.0-2_x86_64.deb
-Size: 9870456
-MD5Sum: ac7f1c5a40225644a670e67b02762bac
-SHA1: 1f848fd8aebf90a79fe0b6273e824d4ad831e11d
-SHA256: 12208ff56e92e2c9da0cd7e517ce67e444920078487614c3deaecf15488ab804
-SHA512: 0309f5b68eb212f6a345bd3f0b58e7892b112b893577ef439c6132c06b846f25f0107bbc42b79208d6c54380b95ecedb4a562e7d07743f55c28d6bea20cc548b
+Description: patched libllvm for use with julia
+Filename: dists/termux/extras/binary-x86_64/libllvm-julia_6.0.1_x86_64.deb
+Size: 9904018
+MD5Sum: 6834ebe9098558f24ea0f8f5e4be63a7
+SHA1: 00528ed7fbac5eb14a50eb8effcfb2a7e125be2c
+SHA256: ebf98634694429e2f247a7e9183c387438edf97a2705acae8314b4922faf199f
+SHA512: b6011800e90d1cfc74fd27f97af8c966c480b4d3de34bf85b012ce37732fd013f65a946b32af2703ff495d51708492d1f8d65be45ec00e750c5aff3e004933b2
 
 Package: libmaa-dev
 Architecture: x86_64
@@ -1028,6 +1260,20 @@ MD5Sum: 90c36b5aa1aa8558f82239cd876e69ed
 SHA1: a2919fa4a7afcaab6ec43d0e9f7e220a5d29851f
 SHA256: 36214030b3cb2a5c75e29f0097706fb347f85ca56ccee5193ceed2175578a29a
 SHA512: 1c933373667ce9ec0b96eaad5618ec880c07c014c5f1260b5d0a2692eaa7fa297fef9de3ec74717bfba22cc13d324741765257cc540139e69c242b39114e9209
+
+Package: libobjc4
+Architecture: x86_64
+Installed-Size: 240
+Maintainer: @its-pointless github
+Version: 8.3.0
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C runtime
+Filename: dists/termux/extras/binary-x86_64/libobjc4_8.3.0_x86_64.deb
+Size: 50588
+MD5Sum: d3f50302fd56787f6309e32014d85be6
+SHA1: 3b1bc5328f9f5bde59ad375021c0955a034949ad
+SHA256: ebbecc03a09f27f0647b78aea0587f4cf13aaed465f7008ff389758fb761f1bb
+SHA512: 49a10335defa473df336eda1c44e73f9879b4582bd72b58c2c4f799634badc61c1ab932263fb4439bc5734316215cab74bdd55e7ada922affbe40c44421a79e3
 
 Package: libopenspecfun-dev
 Architecture: x86_64
@@ -1414,33 +1660,18 @@ SHA512: 56e30e8c08a7f3cced5f1fb10d42eb81d7927a0d55dff8f43486d9a24835e1f28dc81d90
 
 Package: mongodb
 Architecture: x86_64
-Installed-Size: 146088
+Installed-Size: 151580
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.5-1
-Description: mongo db
+Version: 4.1.7
 Homepage: https://github.com/mongodb/mongo
-Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
-Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.5-1_x86_64.deb
-Size: 33972084
-MD5Sum: b8bfdb8bf174dad2313082254b5f5816
-SHA1: 50f4d545409c8172418cf1f34ea10e62ad82c655
-SHA256: 65247fa325047e5ef28065ca0e2f85325859205882b6e3164d0f666d80ff471c
-SHA512: 85750de04d83b6e48ff1f6ad5c649daf65e7e33b11a546f5c18cea4a9cfdbcd38721e551c738eb0c55008bece6f40a9c812cb652b05e73a7bf558624df268fd3
-
-Package: mongodb
-Architecture: x86_64
-Installed-Size: 145912
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.5
+Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp, zstd
 Description: mongo db
-Homepage: https://github.com/mongodb/mongo
-Depends: wiredtiger, boost, pcrecpp, libicu, yaml-cpp
-Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.5_x86_64.deb
-Size: 33587472
-MD5Sum: 0d3d63b48adf181d24246943eebcee09
-SHA1: 617856fa9e4ee3b1585a8196d542da3353915602
-SHA256: 90b513533dabb5ae2b01f71db25b97fdffe94de6f6db19c7a4bf2b38de3e8065
-SHA512: 252046dd6352a2a21b950a7274c678116870c26c76de6c747b47e4fd4dbb1fbc58d16e97e6690404473bd63306a0bc08d5202269a20ab2bd88e060d93d3ed45e
+Filename: dists/termux/extras/binary-x86_64/mongodb_4.1.7_x86_64.deb
+Size: 34613824
+MD5Sum: 5ee776eb3f2e91a0fdb1547814ebe51b
+SHA1: 6aac5654932fcd04a0f69d0aa353b828b7d0d311
+SHA256: 26c58d77b1e714ffcffc6252b698549cd0b6458123f692b416f10e60ca0a23a0
+SHA512: 9ec213da8efca3aa222e6da95e17a727b713b4749fdb33547c6db43fa42d7679047ee3387f40d2cf2a5b114954649b64e07648c461dc3e8a437ad567ac031180
 
 Package: mpich
 Architecture: x86_64
@@ -1520,18 +1751,18 @@ SHA512: d254aefd0c41d91a98cf2f84e3655ccd3d3b04fac08fad95d657c41309bda434175fd93d
 
 Package: numpy
 Architecture: x86_64
-Installed-Size: 17224
+Installed-Size: 17808
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.4
-Description: NumPy is the fundamental package for scientific computing with Python.
+Version: 1.16.1
 Homepage: http://www.numpy.org/
 Depends: openblas, python-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-x86_64/numpy_1.15.4_x86_64.deb
-Size: 2727148
-MD5Sum: 91d07a0170ad59c3d8525e6a85f6e18b
-SHA1: 14a5cb80e0be851d48a1d8429e6f736c84ad5839
-SHA256: 3958d77d4916767a950071e1b0aa92f343dd8dc523f23af4d610c889ade32e04
-SHA512: 814cd29350a5eb8ab5f17bd9f9d65716cb1d291fa04e186b362ebec7a9c489c2d406b094a0b52ab89abca526444e4769975c56d6506fa2eac87876505b349a50
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-x86_64/numpy_1.16.1_x86_64.deb
+Size: 2815968
+MD5Sum: 72e4cca78055e4bd037b1964d2e96d7f
+SHA1: ae6b7ad3d587d1289bd192eed19a6832f98c648a
+SHA256: ed11c3cc46d5e2453d62b5424d1ed63bf6248921ae2c64e83f4959048296b445
+SHA512: 5e1d927a97f5930f427d2b9aa06e7ffb53d0a2f78143929b0336e7b15416f407f7bc24d7a778476b450db06e2dc7da059816a5cac8cbe3a6c46c735a7f0eadc2
 
 Package: ocaml
 Architecture: x86_64
@@ -1563,6 +1794,21 @@ SHA1: e95496df61f7f7630aba06a72912a7876c0a5174
 SHA256: a95d2766af68328ac6c5820a314bf811794f755fe3a27f6e80cb91a75abfcfa5
 SHA512: ef4ca6fa09007069a7424c22293a14601d655c74dc028ae4f8d22e3076c9657ea086ba91f1c6c887571f08d826c5d7da59e2ffdd4542018fab7c546825793a4e
 
+Package: octave-dev
+Architecture: x86_64
+Installed-Size: 5748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1-5
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Description: Development files for octave
+Filename: dists/termux/extras/binary-x86_64/octave-dev_4.4.1-5_x86_64.deb
+Size: 359762
+MD5Sum: 737a133504d69812101a8edd43b707ef
+SHA1: c3851dd4523b543c7f1353835cf2426aa7e8a283
+SHA256: 21e951f67a171516af70626a95a954a05d308c39c576e04fa8d7f9f9f9e4d32d
+SHA512: 7cdfadcab39911d4d395542a1217ddc4b06ef5eb5178a2a27ca3692543c5ee92977385699fe2253eea29c6787bb489d14168b416c78b039801e82c7f0bcb55b5
+
 Package: octave
 Architecture: x86_64
 Installed-Size: 43940
@@ -1577,6 +1823,21 @@ MD5Sum: 16cb7e880e862c152e9bf48b3b04f612
 SHA1: a515ca0f0d6b0a9d5c5f6c7f457e7ed904aefd2b
 SHA256: a2750b6b7121352438759560bae0862235221a42ea36b15b917e8c298d72ef9a
 SHA512: 517dd921160b40627f908921da546d9c22bd3a39ce5d5013458b1cdc64fb284c280a71a7481a2778108f33d4f4b7066ab3be0320d5bee766f4c49157ac722f10
+
+Package: octave
+Architecture: x86_64
+Installed-Size: 44548
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.1-5
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-x86_64/octave_4.4.1-5_x86_64.deb
+Size: 9739556
+MD5Sum: 3c89ac02762c1c252054a9163a38c166
+SHA1: 1e6ae27eee0833a394e544b0d70155b0de0746b2
+SHA256: 3f40685c5a74c0f1bc2ce6d162a1290c71fefae7a68b1b523894b2dce590fc3c
+SHA512: f839621cc616df8cebb2b577c0b03a8e27e62874e8d35374747d7942afb7542e219463cfaee2f1f6e82a3d3c2fff116befe9744ddd9a16581db8241ffbe86064
 
 Package: opam
 Architecture: x86_64
@@ -1626,6 +1887,21 @@ MD5Sum: 3666f412fdc0f25a7799c3eb4a363387
 SHA1: f0bd32cb08da178ce5a782a9d64260a3792071cc
 SHA256: e2506d6e5412acbd87ec01da48bb6d6ee83812499da72671e02e6539dcc206e9
 SHA512: c5b9f57ef0f5c02c293cd3f1b41bd0dd072bcce9c48184d5f4f49e537d4e3ce56311e4175601ce7ad51ccf4f58d4104cf1a3b49ab5f42d634079effe230a5bd2
+
+Package: opencv
+Architecture: x86_64
+Installed-Size: 93116
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.0.0-1
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-x86_64/opencv_4.0.0-1_x86_64.deb
+Size: 17959248
+MD5Sum: 2f3bee2f2bf3084897d1fcd3d17e0d60
+SHA1: fe40b409255696f56a717995544cbc3150c7c90e
+SHA256: 711ce853167cf88c782365772a984ad1a914c4a3a6584b1199314b1456dad716
+SHA512: dea2d73dc104c51f86bfe24b56c185e65eb6c1434e14de53af306a935776a2c8218b4ee31fca5c5ca66320c981270a4dbdfa16a894c47dac3c3a77daee8c9f39
 
 Package: opencv
 Architecture: x86_64
@@ -1716,6 +1992,21 @@ SHA1: 5bec6c8bed29cf527513958c116b212676f679e7
 SHA256: a586e78f5cbb8449290a8a207d67db94de5fff9a462a29c82c1d5d39ecc1491e
 SHA512: d4d81c0aadb8d0344d785bf2442358a5a429d1b35265a5e4af78b24078d701f41e45c3ae572293f4f541c550124641ea46b998f5fbcdf6bc42379872ab9efe9e
 
+Package: pcrecpp-dev
+Architecture: x86_64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.43
+Homepage: https://www.pcre.org
+Depends: pcrecpp
+Description: pcre cpp
+Filename: dists/termux/extras/binary-x86_64/pcrecpp-dev_8.43_x86_64.deb
+Size: 9590
+MD5Sum: dc2a725d9a1ca8a20533a8fb51c07243
+SHA1: be0d306b206c9b2ae0985865db13d127b27c29b2
+SHA256: 687421f8d6b9da2d882a61950acab00d17621b92f6b03022e80a2a23af20d697
+SHA512: a35b13e8a6c62cbe34ac5f90382169952d6af58739554baaf5c394e4a4e780f6006d6dea6966d7f176cbbac806cb6cb744099bda9b8d07944ce805975620f0bd
+
 Package: pcrecpp
 Architecture: x86_64
 Installed-Size: 56
@@ -1730,6 +2021,21 @@ MD5Sum: 3fc5f9ba8038b8efe461b6d6c6b7bd3b
 SHA1: a6bd2160b89a67f941a5a10896b4ae0cedff5aeb
 SHA256: ad53499e3ca77808a87b6dca9fcb4cf3bfeedf7e79b2c54d7d54b8639911ac97
 SHA512: 5fea1b7c435d741e908cf4df7d415c3e4c9ed98bce0bd1bccb8f41c069d9a524d71ad9bfdef802bff8d908700e69b201e13402c85ac5e962f5ebf6644afd159f
+
+Package: pcrecpp
+Architecture: x86_64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.43
+Homepage: https://www.pcre.org
+Depends: pcre
+Description: pcre cpp
+Filename: dists/termux/extras/binary-x86_64/pcrecpp_8.43_x86_64.deb
+Size: 22088
+MD5Sum: c487d95c6c165e44361422458b73871d
+SHA1: d7f2cc8139de50f428706403df3856666295bb51
+SHA256: 6e38ef6d3b4668dd1b78ebb17ccb93efd362de666dc720ebe5222c6eeb0a13e4
+SHA512: d64ca5aef52ec418ea46ad7d495bd8f83f5f4c9043b96db2061417e7b2b06ae70c88cbbc803bbf19e6ea6607e67150b18552b57d7a1918c0321984c673d326b1
 
 Package: portaudio-dev
 Architecture: x86_64
@@ -1790,6 +2096,21 @@ SHA1: 0eb9d40a0d7ed1ec4c2c8cd969d4c3d8c4f41fbc
 SHA256: da382dc103485b5af86266384dc60b9d15dc3d825bce856e8ea80240bc2ef6ce
 SHA512: deb4c37686bc32b07e453bb287dfbc64c62cc8c26f72729d7e5231ead6cbda056c07c162acff8a229a4138e12f5ff4964bb202383a6c4c5b21f72dd12ade517d
 
+Package: povray
+Architecture: x86_64
+Installed-Size: 24912
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.8-2
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Description:  Persistence of Vision Raytracer
+Filename: dists/termux/extras/binary-x86_64/povray_3.7.0.8-2_x86_64.deb
+Size: 11035662
+MD5Sum: 37154470520a66e8ef6bba46e2df6362
+SHA1: 6eb089bce8822d3082429711c235ed05515347d5
+SHA256: 75aeacba7c3cd6eb95be8515e56dfb418e7242407d5ec6b45bada67090e033a0
+SHA512: 363447626ce6ec78b0df530f671b38110b8992943042c8348cd858cb7ab15b741ba568377c81960b939a81916fb1858c4150646458e03e8266954a1d454b12c4
+
 Package: proxychains-ng
 Architecture: x86_64
 Installed-Size: 52
@@ -1821,33 +2142,33 @@ SHA512: 526fc1a9b9e7720f28fa44554409d3843f37d1921afcd9aaa9f234b633e45164dc14695b
 
 Package: python2-numpy
 Architecture: x86_64
-Installed-Size: 17608
+Installed-Size: 18228
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15.4
-Description: NumPy is the fundamental package for scientific computing with Python.
+Version: 1.16.1
 Homepage: http://www.numpy.org/
 Depends: openblas, python2-dev, libcrypt-dev
-Filename: dists/termux/extras/binary-x86_64/python2-numpy_1.15.4_x86_64.deb
-Size: 2740392
-MD5Sum: cfc89cd32b20b4753add54ac083b4b25
-SHA1: 34bc34c123ac85ff6bde2004f22134fc8168ce66
-SHA256: 92d07159672aed12253a6fca83bf5697a7f979631dc688a7891c86118ad3e88d
-SHA512: febd55d5236bbd9e7e25ff03490f3d01379ab899c656d17b3bd6b1dbbad62b92cd2b533fea71f07ad5c2d390b6661ccc4641240f1b7c539b483c6ec1e1b69266
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-x86_64/python2-numpy_1.16.1_x86_64.deb
+Size: 2821380
+MD5Sum: fef795e5d3ac3694fee5616961dbf780
+SHA1: 5f3bcecaf2ac802078f92f7ab13edb82095ac683
+SHA256: 756ffc611ffc785089745f80575edf3a8de5f9f533022ec1d691634504ed710e
+SHA512: c1b98b9a4131e8fdc8a835050feb1c6e613ed3e7582c7a5c68a227a2dad7379147bcb2dbab9c3a513da1a7685ee2e2755b8c1b5689f7da91b842c9a86f7b1678
 
 Package: python2-scipy
 Architecture: x86_64
-Installed-Size: 54784
+Installed-Size: 55024
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.0
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Version: 1.2.1
 Homepage: https://scipy.org/scipylib
 Depends: python2-numpy
-Filename: dists/termux/extras/binary-x86_64/python2-scipy_1.2.0_x86_64.deb
-Size: 11774936
-MD5Sum: ca5431c0a7384ad850cd497b1dbbf923
-SHA1: 033db753c46b05417d52c915e724f4348130c402
-SHA256: 2318feedc9870b2fba0b004166e25850795e9794573d675344bd346a5c411d36
-SHA512: c26f8b2f11b3037ef9ebdaddc49aa609467c4b2b8e8b8ea00e840e86eca64c6009b77b866d420446f51c3e208b79867cd0661b94f61d0dc97456f60cadd814dd
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-x86_64/python2-scipy_1.2.1_x86_64.deb
+Size: 11587316
+MD5Sum: 165f1d6591531d934ecd1150b0782ead
+SHA1: 1f7d78f139bb00db09c1dad49381b66df3874965
+SHA256: 793c63b0da91d30b6f3ba0f55ddfc994e5f0b5524605baccaf7c995f9d5ea983
+SHA512: 2f41112ca7ec0f9c6cc1bcd03a216c3dcb58b7b5374cd7e5f37d0fa786c5de24ae34a781570297e0e539c065a59f32ec97cda2fd0227d1e215af6603fc205505
 
 Package: qhull-dev
 Architecture: x86_64
@@ -1864,6 +2185,21 @@ SHA1: b6f498293efe4124818dba001a70bfde98d05da2
 SHA256: ef675c7e8dc0962971d3db76b6ba234d25cd55b0309477b94f706f5bfdef71f8
 SHA512: bc4136e16c7aebbe2baf4bfe0eea242d3d69d3f4f922e96ab27a7c031ab54eda342b197cc60a40a93cced1fd4c92a8f9f9f7862cd600f45a2ab53633f510d283
 
+Package: qhull-dev
+Architecture: x86_64
+Installed-Size: 872
+Maintainer: @its-pointless
+Version: 7.2.1
+Homepage: https://www.qhull.org
+Depends: qhull
+Description: Development files for qhull
+Filename: dists/termux/extras/binary-x86_64/qhull-dev_7.2.1_x86_64.deb
+Size: 83862
+MD5Sum: 67638aebb4552f69e53307215737949b
+SHA1: c6b01ad75ca39e983119ac2411f9455c9b281fb0
+SHA256: 7af1ce8b70914116c47d1c10ed5caeeef52fb5b4aa0c73bb102ad6f89553f59d
+SHA512: 06dd7b8bbcb805637e281d34fbaa6cae418a4747edda8b68eefaae0cbcaf0e15a718319e808fe237aac89b1e57010c46e73aceb63890ea1232cf04084f5a6eb1
+
 Package: qhull
 Architecture: x86_64
 Installed-Size: 4412
@@ -1878,20 +2214,34 @@ SHA1: 8a0e03daa538e4187a7794ce0530adbd72f46391
 SHA256: 5e41d217210cf30ee49c697a3ab7d004a2cdedc71e3be1f7f8faa287cb74c250
 SHA512: 90e7aee37939fdf16654a1711182651d42c9bb68f2f0535b4feec08a4909b0902a3e00be47ae16d28b5c39dc6a8ec100dc75d185286944ee38d4928606fc2c93
 
+Package: qhull
+Architecture: x86_64
+Installed-Size: 4392
+Maintainer: @its-pointless
+Version: 7.2.1
+Homepage: https://www.qhull.org
+Description: calculate convex hulls and related structures
+Filename: dists/termux/extras/binary-x86_64/qhull_7.2.1_x86_64.deb
+Size: 529078
+MD5Sum: 0115e769e798b5eaa5f67c3c3ebff2a7
+SHA1: 1e0e35832abe0b4e6a8d74b6b6fdb9f90604f975
+SHA256: 492e7f48a66b896b633382c53d336d212d489b6a6aa58dacace4a69feac421a9
+SHA512: eac92ecae00c44a8769060c9c115162cd9228cb407a9b3357e73b53e7689b0aea979f16e600dcbeb2c38e2a5e0b7afa0ff725b2888bc5fa42b019df22b089568
+
 Package: qrupdate
 Architecture: x86_64
-Installed-Size: 144
+Installed-Size: 84
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.1.2-2
-Description: a Fortran library for fast updates of QR and Cholesky decompositions
 Homepage: https://sourceforge.net/projects/qrupdate/
 Depends: openblas
+Description: a Fortran library for fast updates of QR and Cholesky decompositions
 Filename: dists/termux/extras/binary-x86_64/qrupdate_1.1.2-2_x86_64.deb
-Size: 54348
-MD5Sum: f08a6bc40000f40f32817372789d5c7f
-SHA1: d393d88fe4f31ed5bd2374bfcfd5c2bf79cde0ad
-SHA256: 98c6a2e63ea71a3f36b19d785edb02c62481bb0ef958d6fba0d4262d9c36ed23
-SHA512: b586aceda581839e43a99e9020d24d27191c73e01138aab89297c59c92ab6f238133431e822b1fce2f3e455720952419fa639cdbbbc6075b1b2b9ce1cd0d565b
+Size: 28366
+MD5Sum: c996374018c9dc58d045d50d2bb5ae3a
+SHA1: 3f111bc504ef5d2edfd223cb19effb0d38f8fb4b
+SHA256: fa6b9991115c7cdb9637822740ed5726ac83c017d8e8147d948593feb79de6a6
+SHA512: 976fcf75b74322805d94b8940161b9139b6066a216fb4e7710883a7de9c1ceadcda5dc5e59ee40be24b56f52d6754c2dea5dc0f5d77d8546ce5f7fba9ffc45f6
 
 Package: quantlib-dev
 Architecture: x86_64
@@ -1908,6 +2258,21 @@ SHA1: b708f76b0b71280e06c6dfabcaaba13b3a1cd204
 SHA256: 805ee80c19fa75dc0e20bdc55da69c300bd982eeafa9dabce20c720c1f397659
 SHA512: 41424ca748d7ad447baf075271015be85d6ea502dda1f124d1c79b7a5e2924ff336e646cd79b4736c6548cda7e36579b9a097a76a03ed3908f8f0eb279395f54
 
+Package: quantlib-dev
+Architecture: x86_64
+Installed-Size: 8116
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15
+Description: Development files for quantlib
+Homepage: http://quantlib.org
+Depends: quantlib,boost-dev
+Filename: dists/termux/extras/binary-x86_64/quantlib-dev_1.15_x86_64.deb
+Size: 566972
+MD5Sum: 53b1d7ef81145c3d210cfa7ac2b50163
+SHA1: d6597ab30a1393cc9efd521f2dc1728bf05de1e1
+SHA256: 5164951189ca773ef30041a68b1342fb12fa27cf56b40356169b39b3d0593726
+SHA512: 021ffe1277936ff1543c48947df97bb99e8f47d39cb61a12ed1e29bc3b6a0fc3ee32d5f338439bc8550b3243df73970538132a4ed102cfde0f981714815c7468
+
 Package: quantlib
 Architecture: x86_64
 Installed-Size: 43192
@@ -1922,96 +2287,110 @@ SHA1: 792273d33dfd3c15e29d1c0f8e4f83157cdcdf46
 SHA256: 1a434f084d83a9e62f5ed784cad360f1f039464e313ae88d6fd0b149ecd65169
 SHA512: dd8d5915976a3ab32c09cf0035336ca0fc9239ba84140203360bb95d6dc923ad903d946763ef74730ea8f5b7c3b8eb8b7dc085d857a1c151e6a78ceaf2385f09
 
+Package: quantlib
+Architecture: x86_64
+Installed-Size: 43876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15
+Homepage: http://quantlib.org
+Description: a comprehensive software framework for quantitative finance
+Filename: dists/termux/extras/binary-x86_64/quantlib_1.15_x86_64.deb
+Size: 8847430
+MD5Sum: 66d98c182bf3fb6ae61dcab26ab6d897
+SHA1: fe193b180b822d31a83cde617c8317ef00603136
+SHA256: 1b791d9d0de046aae2ca5b604a9d0f1f9360498a76ab9a814cd8081a84c42a29
+SHA512: 8a7ee7050b2a4f7506c57afe40cf70e1da78ef23a6af9e187064438ec4e1045f325cd96a2491f5121e52b5b3a45cebec36335dcfcc76d2b06cc209f3de20442d
+
 Package: r-base
 Architecture: x86_64
-Installed-Size: 65080
+Installed-Size: 65140
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.2
-Description: a freely available language and environment for statistical computing and graphics
+Version: 3.5.2-1
 Homepage: https://cran.r-project.org/
 Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
 Replaces: r-cran
-Filename: dists/termux/extras/binary-x86_64/r-base_3.5.2_x86_64.deb
-Size: 40256524
-MD5Sum: 61c93c93e2b50b0a729e98b351428070
-SHA1: 6c6a5f8bf0a63742e192df454aa233a4d10a46c0
-SHA256: f3ed46e77d357ef7f4659e4f9ee2007a56d0623ac30e608d8b09b7b2f47373d6
-SHA512: c94473d3cf121a13590635f422014b2990fa61e2159ae874e44eef6a62c7a55ceeaca7b94f21f699c088c885eebcc974a60dc9d2c12099024df8ff7c49ae7ec2
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-x86_64/r-base_3.5.2-1_x86_64.deb
+Size: 40256092
+MD5Sum: 577fd2a1be71a3f68b502efbcb49ec65
+SHA1: 2cee1a0625a3e15059a40dfdeca1accfee007df5
+SHA256: f2e8e6b4820f78f5b809ab0835385006c429386e6a47393a6f7091082bdb2858
+SHA512: 1fdd531eb900f0ada3249abdb3f2f160b544e4947417020535c514dcf938b90014ecc5b370c901772d2cc018f93aa33639c61123dbc09ef0e46608de318664c5
 
 Package: r-cran-rcpp
 Architecture: x86_64
-Installed-Size: 11468
+Installed-Size: 11460
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0
-Description: GNU R package for Seamless R and C++ Integration
+Version: 1.0.0-1
 Homepage: https://cran.r-project.org/
 Depends: r-base
-Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_1.0.0_x86_64.deb
-Size: 3313600
-MD5Sum: 1c58594b6499596f1f52ec8579f57e60
-SHA1: 9981cecafa6c2c459295ab304485f18f096f576b
-SHA256: da0f33568b88ddbc3cac0d54bf454d82e8b4caadb5b31ca7f85066c83ad09994
-SHA512: 7c5474a12a5542a04d3cbcc88cf219b75be424316681d28feed56f2922305d7ce5bf11aa7cc99a5c7ce00ee0dcd9c0f711868c1b6b717d46f4ad86992815b103
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_1.0.0-1_x86_64.deb
+Size: 3310880
+MD5Sum: df36bb0f75bb8256f99153201fd22ed1
+SHA1: 8544496227c66c2852f3a405cff80a1745bf5b5d
+SHA256: 3e211f8a73404d415bb3ca980135470ae7af94ea0eeb3145ada9a43e909386be
+SHA512: b32f0765ffa2737c90e80216ab7df6a215a8577de7f528c475653cd92d3499c1604eaf5a5853e0a26662f6aceac758d80532f41e044aaf420b43c5b2e2dc1cb0
 
 Package: r-cran-rquantlib
 Architecture: x86_64
-Installed-Size: 4000
+Installed-Size: 3884
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.7
-Description: GNU R package interfacing the QuantLib finance library
+Version: 0.4.7-1
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
-Filename: dists/termux/extras/binary-x86_64/r-cran-rquantlib_0.4.7_x86_64.deb
-Size: 979480
-MD5Sum: 1070c27b993fa0418a2b844a677b8423
-SHA1: 0757d12b00428c1324a641faee0411574dd9b2c6
-SHA256: 062b58b761a7386a0b253a2efc49beeab76cc44676ee293dab88fd02d6d67eb2
-SHA512: 566de2ed7c77ca9286cda9076ef00305d42ba5894e98c82a04dc6071110b6034ea9a227a08a7bc4d6f51ee7341c7cb0fc4c8761c292104e813f4c8b50d208157
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-x86_64/r-cran-rquantlib_0.4.7-1_x86_64.deb
+Size: 959474
+MD5Sum: 6348bd3b6bf78f68c35fa2cff3f732ed
+SHA1: e53c7932261c9bd653f02074c8ac79280371d308
+SHA256: 35ab344d77dbb5b4d9e1c593f95908a1ae17c5b5ad0c56f2c7b786950fe2523e
+SHA512: 5fa41423b329574f890a866bc8d331212190cab015648dd51db2f10e922e87656d3176957c23035fea76dfc485fde6e4994a0eeb134ddbc72da07d2873309c8d
 
 Package: r-cran-stringi
 Architecture: x86_64
-Installed-Size: 32512
+Installed-Size: 1176
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.4-2
-Description: GNU R character string processing facilities
+Version: 1.3.1
 Homepage: https://cran.r-project.org/
-Depends: r-base, libicu
-Filename: dists/termux/extras/binary-x86_64/r-cran-stringi_1.2.4-2_x86_64.deb
-Size: 8718784
-MD5Sum: 216d7cc31fa524ba4ef6470681628db5
-SHA1: 5966ce9f112153bd3de08929fce773221a6a47c2
-SHA256: 23f8c0288d346d7924ffdd56d16c186308aae4d1f7ef2011789ef3b004b8f01a
-SHA512: 5f658256a9ec7dd242a5bf4f5656bc53463aa6dad03d55bd15c443fca8b41e1c6c61401cd9d6c60a97717046ba3a79c6629c87a46ae868cdbc52fba49bc49ecc
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-x86_64/r-cran-stringi_1.3.1_x86_64.deb
+Size: 668836
+MD5Sum: fda881984f5f859459ada62cc9b2e537
+SHA1: 695970b46e307202dc8f26f5ab18866877bb4161
+SHA256: 7b4583d4309f04373ce6c15d545ba22b0571862e3656a4af76cbab149619a381
+SHA512: 89f072aa4e1060a47efa128f2af5347de034385257c98aa39a52122f7a32437baf6d889c1dc985fede6250ac2f32d409acf99af05b95256c4b17a847dc576464
 
 Package: r-cran-tidyverse
 Architecture: x86_64
-Installed-Size: 205368
+Installed-Size: 220004
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
-Description: tidyverse
+Version: 1.2.1-1
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-rcpp, r-cran-stringi
-Filename: dists/termux/extras/binary-x86_64/r-cran-tidyverse_1.2.1_x86_64.deb
-Size: 33935248
-MD5Sum: d9c7e9579d2b8dae9193c1eedfbe77c1
-SHA1: f069d30de65799eb43a0f25bc247b9b42aaf16aa
-SHA256: d876c8ec7df3e401b7b64f64582f04be51de9b153629a66f73f9914556558e68
-SHA512: c18ccdd6619122010befd690d0e6af2178e12ee7eb53027806aee2c047fe5e3b28b7ae675e495561aaf467eb54f51e467f451ebc5c9f752a3b2e3c92839c8015
+Description: tidyverse
+Filename: dists/termux/extras/binary-x86_64/r-cran-tidyverse_1.2.1-1_x86_64.deb
+Size: 37442734
+MD5Sum: 29bd32551b951f7f2fcf9b5e14f86903
+SHA1: 6b50d4874f2004accec1c7aa9a657f292b7fa709
+SHA256: a42eb312941b4c3026803f8b4d0e2f3fadf25d3635eb8255806dc3a6b033ec78
+SHA512: d10f8adf3b3f0860581d52d9ea84c42afadb31ffad6e7ce2160a68dff99c6aa10be684d56f4274593d7d5f7749ca9f9d8c2aeb0ad59b9cfbfe16e83763597854
 
 Package: r-cran-zoo
 Architecture: x86_64
-Installed-Size: 1448
+Installed-Size: 1456
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8-4-1
-Description: GNU R package for totally ordered indexed observations
+Version: 1.8-4-2
 Homepage: https://cran.r-project.org/
 Depends: r-base
-Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-4-1_x86_64.deb
-Size: 1053632
-MD5Sum: 7ea811b1d51059f39c5757bd37656650
-SHA1: e575fb17be7e0a0c12869ac356b9775dc752d675
-SHA256: 5035fbd8d080a4b728b2450171dc5892b34abba103e32128d0890451f963b934
-SHA512: 55682423e9bd499ee1751e401ac17a9fa26e04f60685b384b139e2eb991242f17f9a1f9d6d8248f7962c7b1c591b9051b6ba3decca88d3721ca71b0177548b38
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-4-2_x86_64.deb
+Size: 1053420
+MD5Sum: 48098b5879914e2a6c34b846df52dc40
+SHA1: 3da7fe05d750d9b923048b7f7ce53b7386497e55
+SHA256: a8109d867914544fa832cf2c09eb0c84ae37722d0e81abc4fdd8b49558750535
+SHA512: de819da48d7a317a7c01d59cec416863ef406949e77c4ec9a0c8d7474756c699a9981a43721e25362d23a411db7166f6d4d99275048e471724e02eb523a6e3af
 
 Package: re2c
 Architecture: x86_64
@@ -2089,63 +2468,48 @@ SHA512: d7a16b6127d98e0be5098601a7dcaf446a433e8365de964b214fa3e9e64370738955d9ea
 
 Package: scipy
 Architecture: x86_64
-Installed-Size: 52740
+Installed-Size: 54080
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.0
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Version: 1.2.1
 Homepage: https://scipy.org/scipylib
 Depends: numpy
-Filename: dists/termux/extras/binary-x86_64/scipy_1.2.0_x86_64.deb
-Size: 11607332
-MD5Sum: 935ab468141fd0d4a20b38eddcaa0642
-SHA1: 790f675797439ee16d817748e0e87cbc5ec9a464
-SHA256: c0d15725465a084b14fb790f1ea5b52bb4184839a16948116113ba1809eb9a6e
-SHA512: a399950a4ed649e2bceaed721345599f7a230b210d797fa362ed719a395d73d4a1a2959f26dffc6a07c0576e8fb7be99f8bd7e80f6cb3330ef865e2c686d2859
-
-Package: scipy
-Architecture: x86_64
-Installed-Size: 53960
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.0rc1
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Homepage: https://scipy.org/scipylib
-Depends: numpy
-Filename: dists/termux/extras/binary-x86_64/scipy_1.2.0rc1_x86_64.deb
-Size: 11990044
-MD5Sum: c2b2adb070173f4ef0b0aba4cd87718d
-SHA1: 4d1e6709f6996c0a9b411f500edee02c6be4a6d3
-SHA256: 9958aa5101dbdf389a81051dc2eeda024aebec9b4967e223766d84af9417a0a0
-SHA512: c085f2c408c904713590915afc2f9440e99bcde68f0eadab60a12863e0dd76200be36e1c8e5880918af50f289d5819cc4e28a03e0c31bafcce190fd35d8b732e
+Filename: dists/termux/extras/binary-x86_64/scipy_1.2.1_x86_64.deb
+Size: 11625110
+MD5Sum: e701d1ed05a5b7a6bd5e5532f5a205ab
+SHA1: f1a5894c6d583b1cec626680d560140fe13fa75f
+SHA256: c64ed5809b09fb9e2a66254b6a77978560290c277d47cc47d3651299a729f0b0
+SHA512: ffbaa75eb506ec2f76fa28f138068c68cf3f2af6e3102f86751f0c0bb083d09ffec7d1384183dd864773760de22dce07620a7a2811c35a438064ac077ed0fab9
 
 Package: suitesparse-dev
 Architecture: x86_64
-Installed-Size: 1044
+Installed-Size: 800
 Maintainer:  @its-pointless github
-Version: 5.3.0-2
+Version: 5.4.0
 Description: Development files for suitesparse
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
 Depends: suitesparse
-Filename: dists/termux/extras/binary-x86_64/suitesparse-dev_5.3.0-2_x86_64.deb
-Size: 127336
-MD5Sum: 38dd09622e44dea12dcd9ca98b5a7aac
-SHA1: 769012e74a96942407070aba14b1df2da95aaf48
-SHA256: 0966a295db3eb209cb15b5610bd73894aa5ea3d80848fb59c4091d919aef75c9
-SHA512: 5119309035260f6af78a5091f3aad5a9189aa934410caf12d1efd565d97f04dd1eed1d598681c7075c88b07e423b2e2003a9c405335ba9d9cedb13e2679035fa
+Filename: dists/termux/extras/binary-x86_64/suitesparse-dev_5.4.0_x86_64.deb
+Size: 104406
+MD5Sum: a95c4a1aabd5b7bda07948f779c693d1
+SHA1: 598b38ecb840eeb4a928e4a11b3d6868f779baea
+SHA256: 174bd62571cc6b1740737116b011273d66fd82656326e8afe8374f6c2bd74a46
+SHA512: 1f6c55a43e8c15e731e2005e01594d8a7861686b0e39b5187d950e61a7fb62d3edba413b2f1ce7139c51aec8ca0303df1e531bcdffafc57e6a34dab2ebfb1f90
 
 Package: suitesparse
 Architecture: x86_64
-Installed-Size: 9108
+Installed-Size: 3400
 Maintainer:  @its-pointless github
-Version: 5.3.0-2
-Description: a suite of sparse matrix software
+Version: 5.4.0
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
 Depends: openblas
-Filename: dists/termux/extras/binary-x86_64/suitesparse_5.3.0-2_x86_64.deb
-Size: 1749016
-MD5Sum: e2079bd345308a7971fe201dfa1a69bb
-SHA1: 2f9e6906a84ea91689c244aab8a543c57a3b07ad
-SHA256: 16a829ee953d0aa264d4875fb8cfc1b13b826b09110246a4db5c8105fe4eea18
-SHA512: fbc74d714e00a11b7a628569e1e0e41b898a23f6b68541cdf892107d578e9354e398f9c5e3fab9fb09d7e5cfa76233390770a133af0a38f53bb4c6ea9f871353
+Description: a suite of sparse matrix software
+Filename: dists/termux/extras/binary-x86_64/suitesparse_5.4.0_x86_64.deb
+Size: 1125762
+MD5Sum: aa01b34b1c6093e397ceb50cd20c3004
+SHA1: 771bde23ee7fc9391c6d1941c6c4dfa6669ab18f
+SHA256: 7b3adaa6195a96be493c36837c68b98ba5296d66c26bdea9b335a0d5dad629b4
+SHA512: c0cc586107500bf24d722e161ffe2acc7ac18f0ba0d87e07da1c02fc426c88026216687fc98d6c36644143febefd697dae21f90b9a4765653f0f10f4f194baf4
 
 Package: tzdata
 Architecture: x86_64
@@ -2279,46 +2643,17 @@ SHA1: f18bd1f6599bb5f28764f5fb2b7e033b9d3001d6
 SHA256: 2407c8d320e5c80b73638df18f97c5f8db957f0efd1918b2c14c38133d047568
 SHA512: 16518150a56d680ea6a6edbeea1d8ea300d9f64eac898ccc38517d4bce61a539ee2b16e95cdced691fc4ed37f104ad41af782e602ded11b9d0a17dfebb24fa55
 
-Package: yaml-cpp-dev
-Architecture: x86_64
-Installed-Size: 1880
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.6.2
-Description: Development files for yaml-cpp
-Homepage: https://github.com/jbeder/yaml-cpp
-Depends: yaml-cpp
-Filename: dists/termux/extras/binary-x86_64/yaml-cpp-dev_0.6.2_x86_64.deb
-Size: 193036
-MD5Sum: 5fd4ed8e87189979e8e457a81aac40f4
-SHA1: b68d6a34ae3bb4c094d1b83afed15ade6d70445c
-SHA256: bfcf8c7b5caac6763df1bfa3c0bfa11a16421fd08818ee4388711b403811bc58
-SHA512: 5864595d76405667536c836801ddbb9f7194d204f8df2be109b75b1066082efb70bbbea037a77c7f0a11f56d12daadd115eadc0340d9b386a76d01d67a097087
-
 Package: yaml-cpp
 Architecture: x86_64
-Installed-Size: 392
+Installed-Size: 380
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.6.2-1
-Description: yaml-cpp
+Version: 0.6.2-2
 Homepage: https://github.com/jbeder/yaml-cpp
-Filename: dists/termux/extras/binary-x86_64/yaml-cpp_0.6.2-1_x86_64.deb
-Size: 96048
-MD5Sum: dd5cb05df09e164e24205b5301245fbe
-SHA1: 6bd14bce127867636d54c96befb90890945bd76d
-SHA256: 1e3b68efbc9480dc3a914899c2d587b35438e69a84e802672b917a0d250dc311
-SHA512: 821805039857c771bb238eb640c57a37ea0aec11af59be7d2167090ce88430f70a8f498758a34bb25d2029f66ccf72c8a5387a61029e7ec6d443946dfadfce2a
-
-Package: yaml-cpp
-Architecture: x86_64
-Installed-Size: 4256
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.6.2
 Description: yaml-cpp
-Homepage: https://github.com/jbeder/yaml-cpp
-Filename: dists/termux/extras/binary-x86_64/yaml-cpp_0.6.2_x86_64.deb
-Size: 286200
-MD5Sum: 0f8fdbd615cc21cf932fbd65bfd6861b
-SHA1: 9deeebebc368d84631301626fb3d78a60c457b05
-SHA256: dd7d36a391862ee49715bc77034c703dad69e13a1eb772e16a4f8ae034f838a4
-SHA512: 6b776a9c44714cb13f4ae871b82e304bdcdec7df6d7751b584787fac97d42f9545387007bbc1deec6ae29b234c96f17031b6ed026a071a8468ff1de65795e9b5
+Filename: dists/termux/extras/binary-x86_64/yaml-cpp_0.6.2-2_x86_64.deb
+Size: 97528
+MD5Sum: de9306dced3d12454033e3e3cc954c96
+SHA1: f09d60572ff845bb0c7b332dc82c4a9f7a7913ea
+SHA256: 997a02a458552b71bbb1232c70b7f7984131a897f45455679c9f8574b3ec3c21
+SHA512: e93c53365527f3320713e3d30a8345158dd1da0bf717ffd348be8dd0fae69d5b9627f24f4ff67746dae42aa0ba717e4a798a8a181096aba75be4a044314dc542
 
