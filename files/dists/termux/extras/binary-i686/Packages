@@ -308,21 +308,6 @@ SHA1: 62377cda7a6082cb9e2243dbe9d000c0136e22bb
 SHA256: 393059bd88f44f7fa33f18a0c5e169ea3b29e1347fc00265b7b00c16b1232bc8
 SHA512: 28baa001a380a371ef0c06767e8be15bdc0013b46925f245f52ab6f815db791fceb6332e33699947bcb6f1e14fad0a4cb2b85c43f0f9174e7e93e4439386e35d
 
-Package: gcc-6
-Architecture: i686
-Installed-Size: 97088
-Maintainer:  @its-pointless github
-Version: 6.5.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-i686/gcc-6_6.5.0_i686.deb
-Size: 25903672
-MD5Sum: fe23f7bf330c147cff5302a25661d059
-SHA1: 8e8d23754e4717e3bb1e8c960d68c2678127fe08
-SHA256: 82fde627df417a723ab06158d9b2097dd10c4e9dff2efae01a8c63e0866ca9d4
-SHA512: 35241171a7e06d1a95b4d360e434bd562572d780a470aa0d9a762931608edb4f8e4050d86bfe368636f0c772f663d63c9e5154b11e5b0c2ff54271969efbce38
-
 Package: gcc-7
 Architecture: i686
 Installed-Size: 105928
@@ -337,36 +322,6 @@ MD5Sum: cf3c5b0cc18c0d71010d86b073459506
 SHA1: 11285d2952bde79cc26042a3b9d320668ec0e33d
 SHA256: 24023a79abb243e78208e87d705555ba19126d9d9608f05227851c8f35116fae
 SHA512: a70616f730710e90ad1c46aa7efdc27ffb6c0d89da5e4bbc9349fe73091b8d23bf3f1c1d4f397bb3f76d8e73e3b0b51123700e3514770fe3b320398d6e2d11a0
-
-Package: gcc-7
-Architecture: i686
-Installed-Size: 107440
-Maintainer: @its-pointless github
-Version: 7.4.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-7_7.4.0_i686.deb
-Size: 30455344
-MD5Sum: 097d6ce4cf7c6ebe9d9745383862cb20
-SHA1: c5d2c4eb195cbcdccc2e2b79ccfb8148e92d3738
-SHA256: 357133b6c262beb213ab7ca07e11ca39c4e03aee4be5e0481d7704c944c02b2f
-SHA512: 98ce8f552d347db38832ff467b875f058436083473a20cdda20f9275ba0c174a7f67ab271e9fb65b055d42dbdfe62c97b9e354ddc0ef45e7c67194d2415fdbfe
-
-Package: gcc-8
-Architecture: i686
-Installed-Size: 124324
-Maintainer: @its-pointless github
-Version: 8.2.0-6
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-i686/gcc-8_8.2.0-6_i686.deb
-Size: 33428636
-MD5Sum: fea1add9e64ba968ec7041cd27876d58
-SHA1: af93d1b4fedbe144679dc17b962315b51e538e1c
-SHA256: 8f1e5f9012d0cadee39b15df4fad9b3a0af274be6289e4afa7fc99e26b6ef9e2
-SHA512: b333404c38bb688c3c44451dde61040913fcb4fa52a66afb5ed87aeb5cd563f0c1fb263cf2ed8092f6831cf3237b30830836abec06b84da451dccdd17cb970dd
 
 Package: gcc-8
 Architecture: i686
@@ -1754,21 +1709,6 @@ Package: octave-dev
 Architecture: i686
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-3
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-i686/octave-dev_4.4.1-3_i686.deb
-Size: 359896
-MD5Sum: 8de4dbe890ad22f315c415a2c92a770a
-SHA1: c3867020ba3fdc4c97e8b94af93f7d92f5f0ba6a
-SHA256: 57ab80bbff154ba3352402fe1ff2e54b96c2d8be64131dda82c30043730eb696
-SHA512: 8ece11213559e82d7bf998aee9fb5378e32906daab27fc0611e117e03d52900f607378063ea1c0d022b24f6404dac48a5013f7e6915024b4ba64db661a35e2a4
-
-Package: octave-dev
-Architecture: i686
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
 Version: 4.4.1-5
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
@@ -1780,20 +1720,20 @@ SHA1: b15f5ea2fe54bd65a4d1b03a13addacbb7b0e477
 SHA256: dcba065835c303ac98eb38d7a2b5f514da8f14d92ae80b823e036012ae693619
 SHA512: 952ec8388bb2c8e62d844befa7b76f7590dc5148b710a924dcb232863aeb9661b2c001b7adf8acabba1912c662eebb40c6c34a20920784f1fc11ca3c5f8aa09c
 
-Package: octave
+Package: octave-dev
 Architecture: i686
-Installed-Size: 43064
+Installed-Size: 5752
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-3
-Description: Scientific Programming Language
+Version: 5.1.0
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-i686/octave_4.4.1-3_i686.deb
-Size: 9697880
-MD5Sum: 2873305d24f5d26dcc61c1e45be5db3b
-SHA1: fdb8777f6c827c07eaa0958974d682bab7672e90
-SHA256: ef4f18c063f3180a80030e99f4dab87d532107e688a2cf14c810cee84bd4ecd2
-SHA512: bb80ffec8291acdfc104deb2fa1d84bdf599994380d5bfd0c58651f2cd9326cd5523af1b376c807b62a9d749a9327ddd10eb150c8d533aa42efb4b5a31de71b3
+Depends: octave
+Description: Development files for octave
+Filename: dists/termux/extras/binary-i686/octave-dev_5.1.0_i686.deb
+Size: 369532
+MD5Sum: dfd479fad619fe227424ce76d25ab53b
+SHA1: 3582bd4733d387cd90b059ef22d6f478c41b9bd1
+SHA256: 663a23103fcc7d2ecebcfa3edd7ba805890c4418bde8f9d756a495520c24c026
+SHA512: 8b5caee78fe57a3daafe40175fad3955d9181c765a19dc726d837a3887459abf1822be635a16630ee4a55b43db5be781f07a741a1c8764ac88f1d6650167fc6f
 
 Package: octave
 Architecture: i686
@@ -1809,6 +1749,21 @@ MD5Sum: 7fb6e3e6e4c7ea18ca2502e33435a9b4
 SHA1: 2e4deb85bbbad3678b024d0680e8cb3e9c7761bc
 SHA256: 93eb3ab4e99c3e1aced2a4b130f6672a646db1cf9e420a02204b4209b6f02c67
 SHA512: 4460f104bae8f952e84ef7ce0067ed9d2bf97b36bcb1b1bdfbe6e235ef6b11d79a85f8d49a521546c0c8e5eeedb28b1dacdd82d622bf2a2db4a03ae363dde63c
+
+Package: octave
+Architecture: i686
+Installed-Size: 52556
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, libandroid-support
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-i686/octave_5.1.0_i686.deb
+Size: 11462106
+MD5Sum: df86454939abe352a085b91f60a41c0e
+SHA1: 949b3b7f018c40e5b6b045273886506a77128f16
+SHA256: c6c3e724b2807287106678da1a24f92dd4f27d2f4c8bdb2085754c885bb1e247
+SHA512: d540961248d8f69226eafe26cb58aee566e2ce0b4165c957be309a83690552ffc93695967d7326a65f9ded746e2c13c7461c5b8745b809263ac338fed1af4181
 
 Package: openblas-sandybridge
 Architecture: i686

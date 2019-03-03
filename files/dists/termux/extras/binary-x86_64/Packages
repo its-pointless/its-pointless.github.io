@@ -307,21 +307,6 @@ SHA1: 3841ce7947fd7944c14af289ed7b074d50f031d0
 SHA256: 0437e6e7b98a81d96873d9ad1863780c200d231dc62c55d00e3522f466deab77
 SHA512: 05fdfc0fe3c15c835eaac24cadd4cd1616e8d1d6225f90470407c1e4a9ca88323080dc14c72a5c8fe3a49c1fe25982d1fd561ccc35aa7fb88489af5fa3f330e8
 
-Package: gcc-6
-Architecture: x86_64
-Installed-Size: 99124
-Maintainer:  @its-pointless github
-Version: 6.5.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-x86_64/gcc-6_6.5.0_x86_64.deb
-Size: 26321852
-MD5Sum: c15d3e09aab7c2a153b057c9a6356858
-SHA1: f559ad7500a5963e81730ded5eb66a369ce71d17
-SHA256: 7f8a05a73b62e6c27cee87ab20ba899fa723b1c6c23f0e36a630f6d332093dfb
-SHA512: 15cfe4d7016e40fae6b96b7f3745a57c3b07b5072ae96393e2d91df7f5a9958645fe02792c62af522c15d81b1c5422803b2f0911c48ab513d1cade439f76a735
-
 Package: gcc-7
 Architecture: x86_64
 Installed-Size: 109196
@@ -336,36 +321,6 @@ MD5Sum: 70e8d968065c0d4bc059156872e47069
 SHA1: ab06f1c9aecdbb8cb8ce97853885d13ad1009110
 SHA256: f8d3525fd15d398a94da7569f7a3e5b415f63300a9cacb2d3043fbe3744fe9fc
 SHA512: 9dfd56c8c38195a43fad4208460ddeb2a41e5c795dc40bd4ea020247d325c4195c4ee374e1e66a5c78d5c994b85ea2ce865ec9a6b9d9664a64f6ac15be11ea95
-
-Package: gcc-7
-Architecture: x86_64
-Installed-Size: 111032
-Maintainer: @its-pointless github
-Version: 7.4.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-7_7.4.0_x86_64.deb
-Size: 30722248
-MD5Sum: d1de16c128489c9da5e723455390459b
-SHA1: 38cc589a966f3e487f94a385ce617612fae3fe57
-SHA256: a4b296cd6de064b8b3209a596d3164700b37470311451d8a850b5323bfdc3453
-SHA512: 3256feb6fb8fe2f254eed5c4decaf08de5b2a2d5f2bdeacb3c3ec7e23e01f84a21f287689f137c3ea32a76c0a467ea94b96050ff41ebf5847b8b52a29b32beee
-
-Package: gcc-8
-Architecture: x86_64
-Installed-Size: 127584
-Maintainer: @its-pointless github
-Version: 8.2.0-7
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-x86_64/gcc-8_8.2.0-7_x86_64.deb
-Size: 33739840
-MD5Sum: 64510cdd607a41c4dfea5525d9df1c64
-SHA1: 7b87b7e242249891e67cc163c9c6d7d921d9490e
-SHA256: fb092a4335b3e6a7ac66edcc9a23a8b980a9610688757e53dea7bf1cde4e7f28
-SHA512: 00540771ab48041399745325fd560222d7a72de5a716aea6730410209b04f0c860ad926c5c3339f0433b23b3c76e2009ed0fe41d92ae726f568ea2c620ff84c4
 
 Package: gcc-8
 Architecture: x86_64
@@ -1675,6 +1630,21 @@ SHA512: 9ec213da8efca3aa222e6da95e17a727b713b4749fdb33547c6db43fa42d7679047ee338
 
 Package: mpich
 Architecture: x86_64
+Installed-Size: 7448
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3-1
+Homepage: http://www.mpich.org
+Depends: libandroid-support, gcc-8
+Description: Implementation of the MPI Message Passing Interface standard
+Filename: dists/termux/extras/binary-x86_64/mpich_3.3-1_x86_64.deb
+Size: 1929468
+MD5Sum: e5c3a99e3b36b333b0bf40c9a7ef9124
+SHA1: 642e5b2a2c674697ff5b63b433429e6d8b8534e8
+SHA256: 3ccd0512ffb75ef3238d245680969c4a9ca03e94d7fad85c943675b0f88f8f7b
+SHA512: 30ec34baecf5195c6717bd6ed8c142f2b4a944f5607ed8367a2a8d820a212d847504e7cfa5fabca9c39846888afb420258c7a781c279e33d9dbb952fc95c0cb8
+
+Package: mpich
+Architecture: x86_64
 Installed-Size: 7560
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.3
@@ -1783,21 +1753,6 @@ Package: octave-dev
 Architecture: x86_64
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-3
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-x86_64/octave-dev_4.4.1-3_x86_64.deb
-Size: 359896
-MD5Sum: f18b4527dde1de43cb8e523101404e9d
-SHA1: e95496df61f7f7630aba06a72912a7876c0a5174
-SHA256: a95d2766af68328ac6c5820a314bf811794f755fe3a27f6e80cb91a75abfcfa5
-SHA512: ef4ca6fa09007069a7424c22293a14601d655c74dc028ae4f8d22e3076c9657ea086ba91f1c6c887571f08d826c5d7da59e2ffdd4542018fab7c546825793a4e
-
-Package: octave-dev
-Architecture: x86_64
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
 Version: 4.4.1-5
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
@@ -1809,20 +1764,20 @@ SHA1: c3851dd4523b543c7f1353835cf2426aa7e8a283
 SHA256: 21e951f67a171516af70626a95a954a05d308c39c576e04fa8d7f9f9f9e4d32d
 SHA512: 7cdfadcab39911d4d395542a1217ddc4b06ef5eb5178a2a27ca3692543c5ee92977385699fe2253eea29c6787bb489d14168b416c78b039801e82c7f0bcb55b5
 
-Package: octave
+Package: octave-dev
 Architecture: x86_64
-Installed-Size: 43940
+Installed-Size: 5752
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-3
-Description: Scientific Programming Language
+Version: 5.1.0
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-x86_64/octave_4.4.1-3_x86_64.deb
-Size: 9706416
-MD5Sum: 16cb7e880e862c152e9bf48b3b04f612
-SHA1: a515ca0f0d6b0a9d5c5f6c7f457e7ed904aefd2b
-SHA256: a2750b6b7121352438759560bae0862235221a42ea36b15b917e8c298d72ef9a
-SHA512: 517dd921160b40627f908921da546d9c22bd3a39ce5d5013458b1cdc64fb284c280a71a7481a2778108f33d4f4b7066ab3be0320d5bee766f4c49157ac722f10
+Depends: octave
+Description: Development files for octave
+Filename: dists/termux/extras/binary-x86_64/octave-dev_5.1.0_x86_64.deb
+Size: 369520
+MD5Sum: ff91237cd8fa2299bd0467115ba0e462
+SHA1: 7c36b95c3e027ad16bc7282c0f1a1626e16741d6
+SHA256: 901c25b4db0edf0eb127bde4cec451edafa54dc48ebee0a91289ec05f862a652
+SHA512: 45b4f4cf42ef6414d3e462ffe5c47a401cf659cfca66b66d509641ad9e1479539c6bf080e8b7d8c20f241c850876f4f3219cc0e23d16d41435ee8e40fb59d33f
 
 Package: octave
 Architecture: x86_64
@@ -1838,6 +1793,21 @@ MD5Sum: 3c89ac02762c1c252054a9163a38c166
 SHA1: 1e6ae27eee0833a394e544b0d70155b0de0746b2
 SHA256: 3f40685c5a74c0f1bc2ce6d162a1290c71fefae7a68b1b523894b2dce590fc3c
 SHA512: f839621cc616df8cebb2b577c0b03a8e27e62874e8d35374747d7942afb7542e219463cfaee2f1f6e82a3d3c2fff116befe9744ddd9a16581db8241ffbe86064
+
+Package: octave
+Architecture: x86_64
+Installed-Size: 53912
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, libandroid-support
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-x86_64/octave_5.1.0_x86_64.deb
+Size: 11606088
+MD5Sum: 64186551b7a2b3b72b63b59f33361dab
+SHA1: 919ee57f6e2bc6bacdeca21bb31c5689db66a24a
+SHA256: 06dc13a59db7b753ee16601ce65e33f53b0265055779bf9857bb3ead46269321
+SHA512: 610da27633efa9f816633a1a726418ebf3363c6a7107f252facf416e0d9ba9b39813dd16a56ee1cefa1ca0ea4afab542e81280a5a4d69005b99d5a4d97722dd6
 
 Package: opam
 Architecture: x86_64
@@ -1855,6 +1825,23 @@ MD5Sum: e0ce30cb1594da997422cc465406369b
 SHA1: 3704eacf51012cb167288cf77a5ee810ad3fc889
 SHA256: 114d3b94c3599f3bd76a0ea33c269b5ea62d9e290e9a347f7d7102b95eb35203
 SHA512: d1475bb51217fc81aa4edef7616bfeafe928b4f7ba886c5375c24f9c369f05bac831b1e0212ca3ea610317c444cdb97a7268a8f54f5c153ca10f7f38670f939f
+
+Package: opam
+Architecture: x86_64
+Installed-Size: 12752
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.3
+Homepage: http://www.ocaml.org
+Depends: getconf
+Replaces: opam
+Provides: opam
+Description: OPAM is a source-based package manager for OCaml.
+Filename: dists/termux/extras/binary-x86_64/opam_2.0.3_x86_64.deb
+Size: 2356334
+MD5Sum: bdf2819e3f239bec9d5fdc3828762373
+SHA1: 488d326fb6563b6c37c61e3532e51ddf0385eaa6
+SHA256: cc6b218a6fdab6e417f004ab2c9633507aefcd805457b28b801647e2d90abcd0
+SHA512: 21278f76bcfd316724063b5d7c99693fd95b9e6360e20c952f656683b60c85201b5cb40ddba0f1a93fe267a93a7c651b0add64200ab563092834e3fa3b143581
 
 Package: openblas-sandybridge
 Architecture: x86_64
@@ -2598,6 +2585,21 @@ SHA1: d167c918964a975d04d4ae731ccf9511dc3d3d17
 SHA256: 3ba18820ff2178da9d9b1842725c6dded0153e3492bc1def5d16f4d4dcb2d295
 SHA512: 0437a7d246fdb5263b63ad9a8686f1fb45d415b115602e9ff019588c824fc3571449ddfdc914a1b8eb2769ab59be1792985b53ff2d0e715a29cb2166761ed55a
 
+Package: wiredtiger-dev
+Architecture: x86_64
+Installed-Size: 280
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.0-2
+Description: Development files for wiredtiger
+Homepage: https://github.com/wiredtiger/wiredtiger
+Depends: wiredtiger
+Filename: dists/termux/extras/binary-x86_64/wiredtiger-dev_3.1.0-2_x86_64.deb
+Size: 48024
+MD5Sum: 6c76c2aedf7b299bb7f055a4cf44c11d
+SHA1: fc6925e3b9d8c9e0d5df71ab570cbcacc9f29be2
+SHA256: ad37583ff6a8d4d4f6a07be701260aa8ecf8cccef2ce9949cefde1950f9c01d8
+SHA512: 25ac9da140355e49fab5e149fc6deac0a4366d79828009e632cff67bce9a380445db4a03943dd6f297aef55967656b40b02f435125b15846265a25df1f71a8bc
+
 Package: wiredtiger
 Architecture: x86_64
 Installed-Size: 1288
@@ -2612,6 +2614,21 @@ MD5Sum: b60cfe77ad178e1ff0f5d1d9f4bace7d
 SHA1: de8f8e3cb5fcee06e6031627ac780482b73c46c8
 SHA256: 1301f7f6825652f3bb6b2e804be7754065af85df814e1c2d2847a11b8ea1b416
 SHA512: a46d60d2d91dab251fe244561d11e3120c472814d186d051041df686be9249932e54998fa6dff4a44cc52d96c9b982dbfc33048f8c4ded822b12d3bc83ccf4ac
+
+Package: wiredtiger
+Architecture: x86_64
+Installed-Size: 1344
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.0-2
+Homepage: https://github.com/wiredtiger/wiredtiger
+Depends: libsnappy
+Description: high performance, scalable, NoSQL, extensible platform
+Filename: dists/termux/extras/binary-x86_64/wiredtiger_3.1.0-2_x86_64.deb
+Size: 427686
+MD5Sum: 4a1400a989469be33e6e1a2c8fbe9681
+SHA1: 1b98a0016fa4c300d31d9a1a1d71a7a7ca2b76d7
+SHA256: ccb37ca5d302c3675a3d91a6939e77580f4b883d3f433e7dfe0361270c08194a
+SHA512: 3e21aa75674140a25414e092f323f0177cb761ec560da365c78972d3a938709b2fecfdc8b960d6e5fd6972f83a174ba48cb07d5e9ec8419b06ed668a2daac074
 
 Package: xmlada-dev
 Architecture: x86_64

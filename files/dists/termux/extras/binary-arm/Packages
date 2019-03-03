@@ -336,21 +336,6 @@ SHA1: 91f0eac8df7c3de3242955273b8b4c2264aac3e7
 SHA256: 66ba92ac96490db69f68a89d682f57f243959e56f553270b9781efb951092e8d
 SHA512: 7969e29c3ba2a4746ba2e9d586a98f1ae1307aa38b2cd44391a5a3195a65310c5107640e38eed7d4b4787697f4a7fae7a27c6fa90dea4020c2d5c2ea6c19c8f5
 
-Package: gcc-6
-Architecture: arm
-Installed-Size: 70744
-Maintainer:  @its-pointless github
-Version: 6.5.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-arm/gcc-6_6.5.0_arm.deb
-Size: 20434888
-MD5Sum: c3ad2bb86dad8bce329094445b4a1b03
-SHA1: 04c295b85061036fc521714e3810806e7c32287d
-SHA256: 8195c6a7449319774e08806a2eb18cb09b5d592bb2193d59b48268402fb48613
-SHA512: d94f322aca0a8241215c708d90071c60d49302c7613d76e3c2cb7ba83462478860514f1dfb230f6e6a0f4be282ab1412dc873dbd3429a23325f0eb607a27378d
-
 Package: gcc-7
 Architecture: arm
 Installed-Size: 96628
@@ -365,36 +350,6 @@ MD5Sum: 0005a9a7c2813954d4a7b635b3f74765
 SHA1: 99b51a4a660ccfad3992e43587f891492d8ea2cf
 SHA256: 9d5c07e1857442fc8d979cdb3248092da90126d5d421c3af1c6f99be457ec81e
 SHA512: 546bd54b4024a8d5a08b37910cb53e5b509dad51d32693558af3c1258376c52618f71b870d825df0871153a307740ac0a9fc8aec4745e82ba424cc794564b9a4
-
-Package: gcc-7
-Architecture: arm
-Installed-Size: 98076
-Maintainer: @its-pointless github
-Version: 7.4.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-arm/gcc-7_7.4.0_arm.deb
-Size: 21835856
-MD5Sum: 16e198b096affff9620b35168b82b8cd
-SHA1: ede05515b04bbeab563e8014cd56dd7f3e43295f
-SHA256: fc2fe35031e28474bbd5c57cbb777b314edcf54cb320a9e5381ae8dfc40427a7
-SHA512: 13f3cb09802588f05eb08a1bfe6241e0f3977cb55b0379b7e8779773ce419bbc7fcf2b1cbbe3639c3321b1976ce073c4994a36c394f5141a64bd2142a8bf8be3
-
-Package: gcc-8
-Architecture: arm
-Installed-Size: 112392
-Maintainer: @its-pointless github
-Version: 8.2.0-6
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-arm/gcc-8_8.2.0-6_arm.deb
-Size: 24371100
-MD5Sum: c1de2eefe33ae026b3d8456ddb513fc0
-SHA1: 1a3d87d8f8a260308aa99e16558911eda8d0f213
-SHA256: 0b2400e39d2d5fe1832aeeeb13df6c6848039af9fcd79d54e3047064d896a5d3
-SHA512: 679f62db2f023baa2b7750dbd010f7e7ca9bca0bb40eb00051a51f9175d244da7132ba58fdd14d2135d273dc04c0cdb5db157876799e41f07176f22e36b835a1
 
 Package: gcc-8
 Architecture: arm
@@ -1920,21 +1875,6 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-3
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1-3_arm.deb
-Size: 359944
-MD5Sum: c2e517c99921c3d4e121fcbda2aebc41
-SHA1: 9e47b84a0362b42752a5ec06ce7017bb2e5fb89b
-SHA256: 7bda1b26cc1b3f0bd85e9195ba12dda1ead6dbfc6eda52c5a912dcf59327355c
-SHA512: bff9e44a986c01ba8777979e1b03d36aa4173057271e7e2488e699aa6c0169de525ffe2d1d8da5fdf33bce56057bcf177030205e01d2bbe6336d2bbfec35e141
-
-Package: octave-dev
-Architecture: arm
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
 Version: 4.4.1-5
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
@@ -1946,20 +1886,20 @@ SHA1: fe7f15ba49dbe35330a03cacf9bd665fec907251
 SHA256: aa79a2f8e82ed18bd33c1d1d4a4e82b1cabb1c2589bd4d8bd5bb838e6c8b851a
 SHA512: 98ba2a3aa8015289c7c38a54f8595f98326a91421972f9f1bba517b0a1804a81f76f26cd83ae1643ad0f5857ca3b3d2b91b1dbdb27331046893ecd9d261ef79c
 
-Package: octave
+Package: octave-dev
 Architecture: arm
-Installed-Size: 36760
+Installed-Size: 5752
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-3
-Description: Scientific Programming Language
+Version: 5.1.0
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-arm/octave_4.4.1-3_arm.deb
-Size: 9020648
-MD5Sum: 9e8db068d13c44c78fdcf3e5e7998bae
-SHA1: 00f39e2cf9cd0fceae23158e5ac9790f3efc5a40
-SHA256: 2d246fd2bf4623a75e5bced06ebaee9fe909389449af3b4be565d2fcdd64bf0a
-SHA512: dadd4788096f88dfa34b2af591ff808e1405b43e10bf68fd9438cc4716cd947742ef132ba1be845b122def46fef431488576a17d779046554e098db4ad988e59
+Depends: octave
+Description: Development files for octave
+Filename: dists/termux/extras/binary-arm/octave-dev_5.1.0_arm.deb
+Size: 369456
+MD5Sum: 118d3a73b2b8c0a59c6dd580b7345168
+SHA1: 609db0f560812453ca53c806de5f18625c2d6a6a
+SHA256: cc56f8f4fcb2de9e02745f172107a3ba104b22c543f012aff20efa8e526ccf86
+SHA512: 8dcb466b647f0754442fd8c20ab1582d3f7b24f9b6e2fc608def4c71dee929872ae655d194e25680c20537489c8760c780f009ce9d5a082dd265cfadf1a5106f
 
 Package: octave
 Architecture: arm
@@ -1975,6 +1915,21 @@ MD5Sum: 292d14b58e37af82269eee6dbf83c522
 SHA1: af26dd3d46f0fc90b74937a17f78113e9742e5f1
 SHA256: 4d1c6ccaaf4588825ff266d9b899601f1829f05e610725830234b0166f8a8408
 SHA512: c75577bd03b5141aaed190d656c92ad259985686dc1c70fb0344dbddd58f27c13cc8b43a995141db4fe0f189419803b0c7618c9abdc6ac5a3c6f67e7ad58400e
+
+Package: octave
+Architecture: arm
+Installed-Size: 42852
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, libandroid-support
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-arm/octave_5.1.0_arm.deb
+Size: 10450950
+MD5Sum: a4666cabbd6d00aae310cb744332d2b4
+SHA1: de5179a75e9a62137b9cd4d172fa2c57df3869e7
+SHA256: 89500c22329f4ebc84da35180ac2464d8dbb54acbf582be96c1d1e8696d820e8
+SHA512: 67a6effd955774ac0a4a00ed182a5e35707cf00cc7e7045626575ae37e155a0c2d919c1398b1420d5232797087a81f6d3e4df0eac7c36af07643c7815f1be4eb
 
 Package: opam
 Architecture: arm
@@ -1992,6 +1947,23 @@ MD5Sum: 17947a586bd5dc9370f183975f2e8add
 SHA1: 2a0d7d91fa899d97857b6e84b3b7c1c9f870e4a6
 SHA256: db5ee525622a621d089838bdf13c95eea68f41d19c731c851cc2233b14e273cf
 SHA512: b54ed21531d65bf22a7ca9fdd4bd49d05b4c6cc8caf574046130dd7fa5cdcc7fd78fd3eb7df263d8b21cf6fba879e5d5accbaa1399a3716119d69cbbd4040042
+
+Package: opam
+Architecture: arm
+Installed-Size: 10584
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.3
+Homepage: http://www.ocaml.org
+Depends: getconf
+Replaces: opam
+Provides: opam
+Description: OPAM is a source-based package manager for OCaml.
+Filename: dists/termux/extras/binary-arm/opam_2.0.3_arm.deb
+Size: 2258964
+MD5Sum: 8c92cf6157ffc7d23f808b62ea104422
+SHA1: c1f10c6b1ee986ba78d4e6a3ec50d5395c74acab
+SHA256: 1c53f916c4ee635cc7ed7c621d3b2c76950386154ec6ffa0cffc10e34a23bcbc
+SHA512: 3661f2c542750c6e025f2005d8af1e8033e2602ce907d7ba0b961ebef2e2ba941e8fdc7fc76b9265b7b92c76bf38a61d936c6c5d9fcabcf31047c380169b94ad
 
 Package: openblas
 Architecture: arm

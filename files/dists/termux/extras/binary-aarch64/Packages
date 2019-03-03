@@ -337,21 +337,6 @@ SHA1: 1ad7a3c081f94ff89d40a4188c8b98182d4b1da6
 SHA256: c5069315d86ba529ca4e95c1e4c11f9ef8ff5cc128d553a069227b541ca9863d
 SHA512: 448e2dfb5a62d7cad6a2ae9e8a81eec8cecdbf9beefeb43ea7c44d2de8ff5970cd30f795b481743aeeefb768a4253a7f482310e506e01cb5899c755a5eb488f9
 
-Package: gcc-6
-Architecture: aarch64
-Installed-Size: 71052
-Maintainer:  @its-pointless github
-Version: 6.5.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Filename: dists/termux/extras/binary-aarch64/gcc-6_6.5.0_aarch64.deb
-Size: 19575144
-MD5Sum: 671279151ff89d300a4552f731142151
-SHA1: 1da1e2e4680f036a7394aa5e7207373c03b5c9f4
-SHA256: 6dae1794c5294fdf9479f157c5070e6a4ce0996aa24b2e46f8b824b6389a0f00
-SHA512: 44c85449823d77388d533df551ccb7560d38850589fad08eb341c471f029cdde171abe64eeb56b6402142275919b279bcdc526149cb86bb294fa9adf3dad157f
-
 Package: gcc-7
 Architecture: aarch64
 Installed-Size: 76856
@@ -366,36 +351,6 @@ MD5Sum: 70acb83e3d3674964ea5b6ff66848c02
 SHA1: 99c6c229f95c9229ac92fa49a15ee8b2ac99e4c1
 SHA256: 5d8eaa4e8e648d21c404ae1ea2de56c5c0c5b1b586c3538d61b8c50c2a3f214b
 SHA512: 7eea72becdc7bde6b24397477eea36aacb51b8772452fd7f9eed777241d6b1e598c6ce4e790328f0cdd161947b6f64bde63b510c2c5f90a12bce1d6400c68bee
-
-Package: gcc-7
-Architecture: aarch64
-Installed-Size: 78588
-Maintainer: @its-pointless github
-Version: 7.4.0
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-7_7.4.0_aarch64.deb
-Size: 21348428
-MD5Sum: 559165f9a6af0235f763a5463e11bda0
-SHA1: d6a606fc0c6c69e880e86521c1c8ffe9ce436010
-SHA256: 22888f095aeee0c13e7610be0f38d6e2138a02d30f0a168aa630cac46f4a2917
-SHA512: 98fded22e24c35a1cac431dfb2a54f50e0310046e85d8b144691438cf6cd1ca4ae80044f6770556f2227451e8062affdd9be00406ff4fc45f25a83c20abdb0ba
-
-Package: gcc-8
-Architecture: aarch64
-Installed-Size: 95752
-Maintainer: @its-pointless github
-Version: 8.2.0-6
-Description: GNU C compiler
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Filename: dists/termux/extras/binary-aarch64/gcc-8_8.2.0-6_aarch64.deb
-Size: 24222236
-MD5Sum: 49450b924e8b0f0937e861032cff4acd
-SHA1: c70d57e08a1d3f7b220fcc5f259218d22d3fec96
-SHA256: 55410239a99a13dfafab2c7913ad2446f3b1786f757a70d06664992fa0138d70
-SHA512: 19fbffaae602e0b102d9c800152980a557a66b9b89c9bd2a414dba28a4840d651deaf048742a487f5335fa0e0cb55336540357d650800205382194d59b8c7038
 
 Package: gcc-8
 Architecture: aarch64
@@ -2020,21 +1975,6 @@ Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-3
-Description: Development files for octave
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Filename: dists/termux/extras/binary-aarch64/octave-dev_4.4.1-3_aarch64.deb
-Size: 359876
-MD5Sum: 622d48c209f78d999f0e56809b662ad6
-SHA1: 48c4567c567b66c154f498f09dd87e5f4bfb065e
-SHA256: 84587bc0e747fe8e42e8bda109ae195992c6c793fd9fc17c7e06b13c87f352c0
-SHA512: eadf2c6fe76b18a436475d4dcd6e596da1f39c82c41ad301ef37cfee4324f8d12b8710b63396a465cfe374f461e591711d87d2ded561d1f7522a6bb7bd1eb05a
-
-Package: octave-dev
-Architecture: aarch64
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
 Version: 4.4.1-5
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
@@ -2046,20 +1986,20 @@ SHA1: 7e560a7c3f7dfea897bdc0bb7382bde2dcf7a929
 SHA256: 539d783a574b2656a1be6b7537a3c5de7eafabf974cf0977f2f2d0504df7eae0
 SHA512: 300c6af2d594cad9a44944339a48c69d4a26a1b901dbdf9cdc731f0de936ff04d589ef015c9b9d66589467db388ca3a4e4e8edff75b6e618c66cecae75989426
 
-Package: octave
+Package: octave-dev
 Architecture: aarch64
-Installed-Size: 43104
+Installed-Size: 5752
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-3
-Description: Scientific Programming Language
+Version: 5.1.0
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Filename: dists/termux/extras/binary-aarch64/octave_4.4.1-3_aarch64.deb
-Size: 8655980
-MD5Sum: bcc996b90e5ec19ff4842e86f4966319
-SHA1: c3bb663297111820e07f0155de1e6e6138e532f0
-SHA256: eecc28acfa99cb7a14d560cc3837130772499d6faa7936d8ec29ac959e6b9e97
-SHA512: b80750d845f58f3c2cb4cdde4fc158b55facc02e2d3270daa97f782467faf836f4bc85e30350112518c480a860bcaf9ec7b68f060c7782780ecc8b751001348a
+Depends: octave
+Description: Development files for octave
+Filename: dists/termux/extras/binary-aarch64/octave-dev_5.1.0_aarch64.deb
+Size: 369586
+MD5Sum: 239717c552f78d0863a83c58a5adb895
+SHA1: 8ac74f348623c75d5d0583d6439ed9f42d4db761
+SHA256: c54742c39c219d7ccbac6e30f9c09e741a4aa3891ed6706185e3967d152ea9ec
+SHA512: 0e2bb44a4a78e05305b0e5eca25d89afede234e6bac2d97feaf140835dca2e07171c2e34ceeb597ca845c2ddfbd83e704ab2c9872c7008449190152399a15a21
 
 Package: octave
 Architecture: aarch64
@@ -2075,6 +2015,21 @@ MD5Sum: fd71b3c99e6719814148ed7fd55a1f5f
 SHA1: e7c48aa6e03a0acc516e9ed9c6cfaa3c8e0d57f9
 SHA256: 949397a6327a8165fe13a0607843d98298c896fbd9b94f66a8be0453e70ab790
 SHA512: 7a78fe47598f1ba42a74a0c140a93bd1f18116c3815f8eea6daa998c10799d8422387b521d53ff4cb7ab28f8c5233a50b83a9edca210df4035b4ef6d7bd5574f
+
+Package: octave
+Architecture: aarch64
+Installed-Size: 52164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, libandroid-support
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-aarch64/octave_5.1.0_aarch64.deb
+Size: 10311892
+MD5Sum: fb93ade4c8cc8c3fabdbdcfd45cd240c
+SHA1: e221df4875b0f0844494967d0a40ff688eddf5ef
+SHA256: e97c7e3b80de352844a2ea359a55296fc07f42b341943185c44f90b4704729f6
+SHA512: 8207b2af328627c55d36b39678f094f643a5f07f9cb791e82f912817a85e77cd7aaed4872051ae6ea86e2a9b6566cc476dd2cf0402b729be3a756d3d95067c1d
 
 Package: opam
 Architecture: aarch64
@@ -2092,6 +2047,23 @@ MD5Sum: ebf6cc150f76d38730a7b6bbaf3427fb
 SHA1: e1ed9d1bef2eddab958c89f298724e812c6dda4d
 SHA256: 68272c0f6318e0ac7ca320b61ebb6bd1aff89b3561ebb38f4123718294245851
 SHA512: 79812e73bc569eea7f8847399186fca06e2b88a5c314973e3078d0e66e698de652a8c21ae412642ae88358995d946d027c964d6266b51e2fdc109a5cff3be4e1
+
+Package: opam
+Architecture: aarch64
+Installed-Size: 15688
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.3
+Homepage: http://www.ocaml.org
+Depends: getconf
+Replaces: opam
+Provides: opam
+Description: OPAM is a source-based package manager for OCaml.
+Filename: dists/termux/extras/binary-aarch64/opam_2.0.3_aarch64.deb
+Size: 2662652
+MD5Sum: 4845fa788a4480b8a2fde73693311f7a
+SHA1: e09f01d193fdd50ee089be72651feaeaa216649a
+SHA256: 3ccb26dd35bf13d51ffa1333c315cdadc969192024c5a6ba79cafbd31fd70756
+SHA512: 8b209674bc7e3ce209d5a2d24988e10cf98a6a37f10a44b02636b62f6bc5e9549dabb7215194cd18721274467cd4e8fd330240eadb894bcdc8bf25f95b7c6406
 
 Package: openblas
 Architecture: aarch64
@@ -2833,6 +2805,21 @@ SHA1: a287b3544a9b5e54c7828160b4575e1d4589cbfe
 SHA256: 2f8d87d0ea4cd93459a10d5703b133a2a5c901df5e33fd8ed083fb6468fc9f78
 SHA512: a9fdf52cde91b532987a3f1b8996fc971252076f04590f3341e1c0e8145c07eeb2c91b86efe13eb75f0707bd4524a78742d11553aaa2d301187849e35933ab47
 
+Package: wiredtiger-dev
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.0-2
+Description: Development files for wiredtiger
+Homepage: https://github.com/wiredtiger/wiredtiger
+Depends: wiredtiger
+Filename: dists/termux/extras/binary-aarch64/wiredtiger-dev_3.1.0-2_aarch64.deb
+Size: 48018
+MD5Sum: e599d0e6ef6fb4faf98be547a80da428
+SHA1: aedebbc651aeb8e640c2ffdc286e57b1ecc38005
+SHA256: a837b3dcf066b9e7701337f5ab3dec19d7918a85c02f51e967fcf763081895d7
+SHA512: 81c1c87e404241e2f8f64470a896b0c11031f7963637d6c90f6c505d340a3fd36a1f46d75e425ecdae6d80715207c4522a2909514ffce5affd195599b28e4e23
+
 Package: wiredtiger
 Architecture: aarch64
 Installed-Size: 1216
@@ -2847,6 +2834,21 @@ MD5Sum: dcd4ea5d99c7e7ece40319081f6e3914
 SHA1: 6ec5a5414608561fe6c6d613231ba0cd35512b29
 SHA256: 7f79c41e0bd2780a907da73faa95354b2ab04625b83446321db2d95d83d298dc
 SHA512: 5b5425d60fa19226dd5638407ec5453c1d156fa227bf169ee3aab3b3b02946563c7fe442b20061e6cff8a58e21f2e43e76383ceda7eb8d08f80f5f940884d858
+
+Package: wiredtiger
+Architecture: aarch64
+Installed-Size: 1148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.0-2
+Homepage: https://github.com/wiredtiger/wiredtiger
+Depends: libsnappy
+Description: high performance, scalable, NoSQL, extensible platform
+Filename: dists/termux/extras/binary-aarch64/wiredtiger_3.1.0-2_aarch64.deb
+Size: 362758
+MD5Sum: 13ad2c565be65c96784985dcc83a4981
+SHA1: b142468bde61e7762275d5644eaff66234fc825c
+SHA256: 1e19810f07d635d7558227b188f078f839645ba615e0e0494e4a937a2ab70399
+SHA512: f0dd5a7e8607668ae526b33748f83cc516e62988318df3668e3b4866a53f13a69f275bd2059c6662cffd89fa6591c66f342619040aa4b669e0a229d5e14270a7
 
 Package: xmlada-dev
 Architecture: aarch64
