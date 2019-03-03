@@ -1,14 +1,14 @@
 Codename: termux
 Version: 1
-Architectures: x86_64 i686 all aarch64 arm
+Architectures: all i686 aarch64 x86_64 arm
 Description: termux repository
 Suite: termux
-Date: Sun, 03 Mar 2019 10:26:50 UTC
+Date: Sun, 03 Mar 2019 23:22:58 UTC
 MD5Sum:
  2caac682e4ec7ebe3d7ce9e53746db94 120758 extras/binary-aarch64/Packages
  571a8b57ba19b610941605eace90f242 37892 extras/binary-aarch64/Packages.xz
- d3fecd5b9515f98e69cd74a7e234c74d 111932 extras/binary-arm/Packages
- bbf940638d605a287c5ca637b9ebefc5 35992 extras/binary-arm/Packages.xz
+ c3801800d87e3aa5d8ecd7d090cbdfcd 111930 extras/binary-arm/Packages
+ de6fcf3ebb8eebb8978e83fa0d90cfd2 35988 extras/binary-arm/Packages.xz
  2c4f37033660345f379cd56aace7c7ba 104821 extras/binary-i686/Packages
  080c688903d7c282cf5fd3ec6a2d9030 33612 extras/binary-i686/Packages.xz
  1933746cb361f37a6e36b46d3cfc4a23 111235 extras/binary-x86_64/Packages
@@ -28,8 +28,8 @@ MD5Sum:
 SHA1:
  0eb7957ebd77fdaa1845cdbddbb0a21fa44e61e8 120758 extras/binary-aarch64/Packages
  4c0a4516325a388712ce1e4b3bf4a6d7e142e613 37892 extras/binary-aarch64/Packages.xz
- d539f0954e494a8e8b5c89402233bcf63dccadae 111932 extras/binary-arm/Packages
- 40cec53bdcab578dcd87f10e419b7c4466421ad3 35992 extras/binary-arm/Packages.xz
+ c1cfe164546858c1a98da6cbcaaaf5c834f61975 111930 extras/binary-arm/Packages
+ a759a62c4575acb9f106783ffca833dbdcd3ee67 35988 extras/binary-arm/Packages.xz
  c365c276f4d18696da3ed444c628a010e5026b17 104821 extras/binary-i686/Packages
  a63031ebe1e6a5a0fa69c6cc6483107e5065149c 33612 extras/binary-i686/Packages.xz
  ea8d4672643ff0a353e97545c6eba3adb759ed76 111235 extras/binary-x86_64/Packages
@@ -49,8 +49,8 @@ SHA1:
 SHA256:
  5bce271c4ec5b5fee7de6f9c800ae55d0ef8d9e2175dbddc15c48f2bf8c06ca5 120758 extras/binary-aarch64/Packages
  9ca1cd8d960c1b7f43f7b5fd03f59e502fe1190cff0cfe60554977e01c4a328d 37892 extras/binary-aarch64/Packages.xz
- d0ac4a875b521cbf58b43d557293afa8c52ab9ae3db22f74a424e9a605ac6cd7 111932 extras/binary-arm/Packages
- 7ece4c339bf16e1c1d8a9ce1db2ce66d9b23b70d0f87953e07851578774c8902 35992 extras/binary-arm/Packages.xz
+ 018d5a4f02bb396e43082322600427afc0af1e8e3ed6b0f760b612a2426c3281 111930 extras/binary-arm/Packages
+ ad33843415852cf5824a6464986c44bc4a0b348262c6316eea9e0cccc764bcd0 35988 extras/binary-arm/Packages.xz
  8b1b6018e592a7ffe689a56f95cd2d7f92aedf92eb35aba263fecca60ac906d0 104821 extras/binary-i686/Packages
  81532ee912128cadb0ea0cc88062284d9c800379bd94a944a295b69d49a7769f 33612 extras/binary-i686/Packages.xz
  08c136689d8d0adfec976804d5865fa1040a3e08b8fc4cfcfd86d43921140a8a 111235 extras/binary-x86_64/Packages
@@ -70,8 +70,8 @@ SHA256:
 SHA512:
  c4519907d39bf8895a823e58157b346d027815594dbd06c9b39dff5c066bd5a0b160a7203269d8ec1adf0f3ec42a329721cb657449b27465694fd725e204244a 120758 extras/binary-aarch64/Packages
  5de25ad67839fa2d43ed5e3579ebbc9454a487343adcea5f23727a29927cc2c038c7cce004dae61cb9d07595311039d55482db00c95c43b108bac34c77ccd765 37892 extras/binary-aarch64/Packages.xz
- 83b4e11e2e517abaf9949a2932df50a76f08fcb11235e9becd6d839df4456cead1a79b222b5b74388ee52c061b252b80395815e8e52efbe54b32b1d5b554714b 111932 extras/binary-arm/Packages
- 23f76c9443d9a3ac4b56b95ab78d5af440deff1683b5afe6335b9cf85f587d6ea95b5cbd119b50ff62724c2b2a5b3e21cf16ca21ba562f91c6bfdb5f5898e9f3 35992 extras/binary-arm/Packages.xz
+ 0a20f5779d2d01a53459b7c6e8536e587aa243d21482e5e5a08bd81c58882413b348c2364e64431a6ebc01975b3a11bb7cac642eb590477ef83c4debca9a7aa8 111930 extras/binary-arm/Packages
+ 7667a9224349832d5619af58348c2c5f2737ef2eb786447cd378d169befd7111d8c154b28efefb38c1673872d31680cb5a1a418980f70f66ada0cbdb2da80c5d 35988 extras/binary-arm/Packages.xz
  72450f89e58a1a2963495503c6f4aafbf38343861c9f2fa71f0f3a3bcf60fb35a7135e380c7f39c96c4dd782f20bb39bfecbf098f8c9619c895b251a0aa5058c 104821 extras/binary-i686/Packages
  f04f5592b5d1c8186addb8628b2b770be18c70608970cea7c3a5925ccee25fdf27fb902fcb95658d972423d15f58a70c02d01ac9ca9e04b2f7f561be0e6b2f3c 33612 extras/binary-i686/Packages.xz
  2b54651ee457bd32f91129d96f59148e7521bd7b1942f434b5b1f6039ba52aafc8e11a135eecc2a39731ff108d64556ef5ff595886908e8b15a3480f7f2531cb 111235 extras/binary-x86_64/Packages
