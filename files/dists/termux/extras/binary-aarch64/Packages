@@ -2349,33 +2349,18 @@ SHA512: 333fce9ea8161c5142d7a5aa60ec88a6325c20478d6bf57dfd42c5124f15adb335eded61
 
 Package: python2-scipy
 Architecture: aarch64
-Installed-Size: 49576
+Installed-Size: 50604
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
+Version: 1.2.1-1
 Homepage: https://scipy.org/scipylib
 Depends: python2-numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.1_aarch64.deb
-Size: 10376052
-MD5Sum: e7200f9694283973814808beae30246c
-SHA1: ac60758a75204475b0df854921c546d29dec48b9
-SHA256: dc7040396bad39d1ed0040a5153b280d626ff60e04b15c45f1f578da3dfa3684
-SHA512: 518ceb5e38f66d41707198c3d9044a73e34b453bbd4b27e4877df12d1d9cc7e3520aa9761b30f6eed240d8adec4867dde96c68ef37d0a33aa783f3050f9ee21e
-
-Package: qhull-dev
-Architecture: aarch64
-Installed-Size: 872
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2015.2
-Description: Development files for qhull
-Homepage: http://ledger-cli.org/
-Depends: qhull
-Filename: dists/termux/extras/binary-aarch64/qhull-dev_2015.2_aarch64.deb
-Size: 83852
-MD5Sum: 8aad97a9b6b1c7cac66366c3947c659f
-SHA1: 653d494daab9bc81cd4e2421df8272531485e02c
-SHA256: 6360ab2f9ed9af4b8ed09275620a752fffce33cddbe08da892a095bd787ba5c8
-SHA512: c26e88158c271669e58abb69eb2e104e6c36bcec62e30e4b2ca3b1588d0d47d27f815e62cbf0e8f780f72d8aecd0e1c9e49b56cf3df6a8273334cc5c6369142d
+Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.1-1_aarch64.deb
+Size: 10416474
+MD5Sum: 0cb36e2e28c3eafd1193a85052aa7683
+SHA1: 5806366980fda896464f67f35405db01b00c4149
+SHA256: 5cdff0ec46f58e5ed66e74608fc4cc2cb2e5f7b09759c99c1e4b52ab3abebbc6
+SHA512: 5beadefe17eff7036ec660ff8c764749eba5d4985ac06d9e643924324f72debc439ed5249e93b8a9a55966f98d6e57d218651e3720ee14277f3cfae0249af7e8
 
 Package: qhull-dev
 Architecture: aarch64
@@ -2391,20 +2376,6 @@ MD5Sum: 0a86b23e7de850d90bf48a9a500c36e8
 SHA1: 239796f972b51c8c879a87a8f6b1fa2272624afd
 SHA256: 777bfb243766f4eb12f40797aa4ff269913045f0ee57b70cc66ce5f3de8dcea5
 SHA512: 1ea0c383015acf226042ff4ca18987c10b935fcb5c8fb9c2f168ad25823c6a2f604b176e461eb76738160bd196c4f99fda7c22838d187e90d72d8f4b580f0f23
-
-Package: qhull
-Architecture: aarch64
-Installed-Size: 3704
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2015.2
-Description: Powerful, double-entry accounting system
-Homepage: http://ledger-cli.org/
-Filename: dists/termux/extras/binary-aarch64/qhull_2015.2_aarch64.deb
-Size: 421408
-MD5Sum: 954392996c0f916e8e66ae5cdf8fe87f
-SHA1: c9b23d6111a0ab7e64a73fb2bc0a621f7a5eccf8
-SHA256: 04537fb832a144a2fd4cd7a59bc75e59051017c577e90b3e3324ac904dc92834
-SHA512: f7ff3765c1fb6dfb57ca771b921433d688f1e97c4dc6b8790146fe9e5d6a1198fa55afde80ae4f0d8e6be16c92892700dffb38b7fb5bcc6227693fbe143b6e1c
 
 Package: qhull
 Architecture: aarch64
@@ -2675,18 +2646,18 @@ SHA512: 5c38fa5092dd83dad1eb9ab6c837bb026174069710574ba38a6cb931f57a0324a5a0259d
 
 Package: scipy
 Architecture: aarch64
-Installed-Size: 48756
+Installed-Size: 49772
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
+Version: 1.2.1-1
 Homepage: https://scipy.org/scipylib
 Depends: numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-aarch64/scipy_1.2.1_aarch64.deb
-Size: 10361880
-MD5Sum: 58ba8b181fef95c4d5ed6aee7bbc5b0f
-SHA1: 206e2247e4f8164200fc931b28d59af3b5dbad44
-SHA256: 239877a6e9813f97092d4807f07108e038bd3377319f63b9c39e6851fcb00b97
-SHA512: bfcf663518656e17ca8331acac2799f47b8e2d31bc1b9779502e247c8cea98b8d64470341d321816fd1335d90a639fcc690aff7fca675f0cae428795c9758400
+Filename: dists/termux/extras/binary-aarch64/scipy_1.2.1-1_aarch64.deb
+Size: 10408880
+MD5Sum: 19a5ef31bd7ad3aa6583f951a84012a8
+SHA1: a5944da8ebb81065ecfdd8191f9c4018224c341b
+SHA256: e02982f2cd7d800e7a49ae413bc796dc3a95a2713cef34491bf6c430a9b84d1d
+SHA512: b89f64bf38488bdc8583f03e0dc48c26284a28f34048ca850ea79491eccfe72ac3441a715be38e07f43d5c0e076eb9627b478d26536861858de0be36ec113907
 
 Package: suitesparse-dev
 Architecture: aarch64

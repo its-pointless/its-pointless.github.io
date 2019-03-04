@@ -2066,33 +2066,18 @@ SHA512: 6b9c3c584994c5ed1ee4ff5fcf5dab365dfb7e5f4afc1f6ec1612c13a9321446a21a4b4c
 
 Package: python2-scipy
 Architecture: i686
-Installed-Size: 50088
+Installed-Size: 51680
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
+Version: 1.2.1-1
 Homepage: https://scipy.org/scipylib
 Depends: python2-numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-i686/python2-scipy_1.2.1_i686.deb
-Size: 10230008
-MD5Sum: 0722ba90a8457106218f4ce932dd2140
-SHA1: 9edfd18cb37beea4f5f955e8cf1614eeaa88348f
-SHA256: 41a8463cb2104da3b8e3abeeb5ba823cd71536046ffbc2f6697ab4e7c3d0ad62
-SHA512: ec9fd8d96bd022423dc180807b03e47f633727ca6a8dd4566a2b86a76985a18221155a5bc12935b056eba31a2376a9ee8fd06a1ca3e03198afaf1fecf6f62b21
-
-Package: qhull-dev
-Architecture: i686
-Installed-Size: 872
-Maintainer: @its-pointless github
-Version: 2015.2
-Description: Development files for qhull
-Homepage: http://ledger-cli.org/
-Depends: qhull
-Filename: dists/termux/extras/binary-i686/qhull-dev_2015.2_i686.deb
-Size: 83888
-MD5Sum: f873f189100cfc6f971573e1c3211788
-SHA1: 0c764f3959f4f7e1b22b54854706699eb2a00b60
-SHA256: 523ed85675c9b92934e11d1a5b72d54c68aaf2a75c638e55d81a056aa4aaee94
-SHA512: e35216b21be865a8c8cf6eecb93a275982f86dbe65d6e287bf4eeaefcf6e2cbf78401235d1dd07f8225d73430f2f336c2f5c9dc551c3bf233754e078f33d7e41
+Filename: dists/termux/extras/binary-i686/python2-scipy_1.2.1-1_i686.deb
+Size: 10698494
+MD5Sum: 87443d92916901c3d585f1c698f433d5
+SHA1: 0559f4730274af1aaf1edf8d62ee8a40f24e3adf
+SHA256: 71d61a2d4c64411b3c63212450a0bd9b32b3500b5ca81ff47af2a45929e5ace6
+SHA512: 6210064c09ef0f2192416bebdc945f4b168f2c706d7b4dfb2921a5cc50b5480b8c5ccdd4d1e6bd71ace40c04c630b1d53bd9222fbf3d9a860140dd549522cb47
 
 Package: qhull-dev
 Architecture: i686
@@ -2108,20 +2093,6 @@ MD5Sum: d58516c5df2ba09421456b20a7f877e0
 SHA1: 0e2adecb85fb3a81729988f8083bbcaf8c42c30d
 SHA256: 267bd2d0b89a158dab89a8036038a1f7f416b0a1dca42814c1b420e8aa4c32cb
 SHA512: 9411a183015f5253e9081574f429f21c65e75c64a79adc51ba66deee6b832742ba7d847a3a405d8f9ceeb4190d57f5ef4bb838642235f9ed406a13020ad5275e
-
-Package: qhull
-Architecture: i686
-Installed-Size: 3936
-Maintainer: @its-pointless github
-Version: 2015.2
-Description: Powerful, double-entry accounting system
-Homepage: http://ledger-cli.org/
-Filename: dists/termux/extras/binary-i686/qhull_2015.2_i686.deb
-Size: 494676
-MD5Sum: 827ad53c1612831fd2f3f38d2f305648
-SHA1: 3f2e240ca7e18ec63bb49648403b53ad9847146c
-SHA256: 3042be087e8eb02d974057b3df1177f39a29c2fac94ce8ac8594516f1a0a6316
-SHA512: 966e7e54b81ed38b61d35420c44e89a267bc9bd5a8d494339c8da6477aa4a54581fe4bfd5599d73560e8480d6723aec5a0af8e4104dddfad6825c9efc52d5748
 
 Package: qhull
 Architecture: i686
@@ -2377,18 +2348,18 @@ SHA512: 78db03470fbb89f729c84f57b9f990a6f14cdc9c5431ea80bb031dc6188091710648fe09
 
 Package: scipy
 Architecture: i686
-Installed-Size: 49360
+Installed-Size: 50212
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
+Version: 1.2.1-1
 Homepage: https://scipy.org/scipylib
 Depends: numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-i686/scipy_1.2.1_i686.deb
-Size: 10213278
-MD5Sum: c08a5cdb669102e5413ccffa213bb680
-SHA1: 2959667c41d8780d771e0b89ffe70dd9a74557b7
-SHA256: 76fe5aeb3ba6dcc40b67f0ddf7c0d0e0c65d01396c62d7d2cbab1292b1f57f82
-SHA512: 979a11a8ffde062f3f4b130751c130e7518c969e320cd78d65aeadadefa73c75b3c1d637eda1484bd3c79658ea5052a834d1fc765e94bcf9e5a03afdc3200c84
+Filename: dists/termux/extras/binary-i686/scipy_1.2.1-1_i686.deb
+Size: 10842214
+MD5Sum: 680d2b013955a19f3a0c767e8516928d
+SHA1: 355805fe8e8efffb4ff9c7e1b02e99931ba1d873
+SHA256: fc25383afbd112cda4e9042ed8fba90c6ed1758d3a8742670235e773c0f73c46
+SHA512: 22073d37e3cdeb55e463745c20aceff671c7110927b137885d0064761baa1d6d2b9231630929bcd3e6989c5846ad1a1e82ec2cbaa1b7f9fae11041dc7c5e0c15
 
 Package: suitesparse-dev
 Architecture: i686

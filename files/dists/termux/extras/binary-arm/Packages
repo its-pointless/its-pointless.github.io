@@ -440,57 +440,6 @@ SHA1: 03596247e880a59580065d4f3424f09a0be292e5
 SHA256: c9c0e071ad44d1501e42f3f8ea53045af9e4c483debf68e19403b954de2bc265
 SHA512: 815abcd93dc12fca6639f94ade3db82c7a7bba2c00cda59e7bf609224c7a86ce9df490edf8c024c990a1828914db89e1714cd401ca3ec32355a9f7b286c76854
 
-Package: gnat-7
-Architecture: arm
-Installed-Size: 91704
-Maintainer: @its-pointless github
-Version: 7.3.0-4
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Conflicts: gnat-8, gnat
-Replaces: gnat
-Filename: dists/termux/extras/binary-arm/gnat-7_7.3.0-4_arm.deb
-Size: 16473672
-MD5Sum: 7d2b6f025189111f6730f6b771af844f
-SHA1: ef6430818e0ba61b9c9ad06d017470074248594b
-SHA256: e3632af799d586307f41a5eefb55bd7aaa5ef195c7f6c961dd4a44ed0986b7da
-SHA512: 5d136c1d3854403743b8001c184c98255dd2be4665ac24eb1b0812ec40e646f2178b2542050863cf92d3b276eec4e137a4d80abc798c52705c54834b7f3f218d
-
-Package: gnat-7
-Architecture: arm
-Installed-Size: 91720
-Maintainer: @its-pointless github
-Version: 7.3.0-5
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Conflicts: gnat-8, gnat
-Replaces: gnat
-Filename: dists/termux/extras/binary-arm/gnat-7_7.3.0-5_arm.deb
-Size: 16469196
-MD5Sum: a82747e1b1646ca09689a03b76765f70
-SHA1: e26d9ba61b3c5cba14acaa6765c5486e1b79a5ea
-SHA256: b3e33b1246ae2fa7fcfcb85e0ce735dfeae80cb36917d1207de779a578e02f83
-SHA512: abd950f074c0c83978b0fd8db958057c910ae221cf49b65cae3167141ac1d0f10b20dfc745bffdb9ec66a9e780d0939fa619149ca965b81c92eb7e10eaab5a28
-
-Package: gnat-7
-Architecture: arm
-Installed-Size: 91676
-Maintainer: @its-pointless github
-Version: 7.4.0
-Description: the ada compiler
-Homepage: http://gcc.gnu.org/
-Depends: gcc-7
-Conflicts: gnat-8, gnat
-Replaces: gnat
-Filename: dists/termux/extras/binary-arm/gnat-7_7.4.0_arm.deb
-Size: 16469112
-MD5Sum: 16f59204e78228fa6548bb5abac39120
-SHA1: 952aef0d074ca1b544638e8ce7eefbf76f8f9666
-SHA256: 344e8a7233fb2f1106f80f89463be5667ad20c9ed4f0c544609dfb12c8188b63
-SHA512: c3677119243c06d0719a70302423900806d19d84be7214d8d29d68e739acd65b51c04cd4e3dc979528bb16006af9f8846f5326f6e5402ed77ed5d8ef8623c209
-
 Package: gnat-8
 Architecture: arm
 Installed-Size: 88592
@@ -2249,33 +2198,18 @@ SHA512: 516712a94364f1092c61165d5380d44e003af83bb39fffd6af26e8e8f19917ae7e8e0858
 
 Package: python2-scipy
 Architecture: arm
-Installed-Size: 44380
+Installed-Size: 45356
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
+Version: 1.2.1-1
 Homepage: https://scipy.org/scipylib
 Depends: python2-numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-arm/python2-scipy_1.2.1_arm.deb
-Size: 10467720
-MD5Sum: d9b162d347bde0e2c9ede4dd8efdeea5
-SHA1: 2a70c3fc0cf2ded1c7609cbc89536144b56150d3
-SHA256: 1f1e53cf6e496082e832e105b13064a62812684d4fb09bd90be3833cfbb67cf6
-SHA512: 35cd9eca0dfb5902f826088d986c23b6de44dfd767144eea4a27ccd75666026b3ea2cd575c0d28b36a71b6f1b681bf500200755803c31b44d9a0719cbe463830
-
-Package: qhull-dev
-Architecture: arm
-Installed-Size: 872
-Maintainer: @its-pointless github
-Version: 2015.2
-Description: Development files for qhull
-Homepage: http://ledger-cli.org/
-Depends: qhull
-Filename: dists/termux/extras/binary-arm/qhull-dev_2015.2_arm.deb
-Size: 83860
-MD5Sum: 349c9c98ed8de0e346b459b0f5e825a6
-SHA1: 7a79e584f8d242d0845f8a4d04dc47d8824fa407
-SHA256: 4d5ff6d68e30a8764125f54b1956de67a895be6e84a893f2cc45e721bed025d8
-SHA512: 3e12fa504c6d1a8fdf14118466316575cd7e0a19848cc4215f847da07d83ff3d4373ecd072620c7d0122b1ac933097b2361690b5bd8ee2a002c1ddf39eba80fb
+Filename: dists/termux/extras/binary-arm/python2-scipy_1.2.1-1_arm.deb
+Size: 10869066
+MD5Sum: bd1c2fdc621c60c93618f06b96c7043d
+SHA1: 35292f70f494de77d21a9cd277a707e75d16852c
+SHA256: 160bf198abced36b3af70f6baa354f94dd5d93b4ce62661348053745badf13fa
+SHA512: 41a4bd2a29524e4d396bc663c5fbcfc193487640ed6a43715392ba73b338cda287d3ebeddd6808de15f510153b0df8d12eb1451823e384cef746e312d97d91cd
 
 Package: qhull-dev
 Architecture: arm
@@ -2291,20 +2225,6 @@ MD5Sum: 682ec1e16b5edb7e393b9d0a7fe2fa74
 SHA1: 209bc22a730d35bf4de7c6819b0f6103918b4882
 SHA256: 144c4f7b91aee7991a6afebab95012390e617ecf7334055ca6d6e26fec5ecb15
 SHA512: 32d95be04c1b69566c740188ff3afc605bc9a4e91f97c03f902d13a8ca5f6663b0085b7fd8509d8b0f03dbe286354067efa8199129b0f591a5338de528b02414
-
-Package: qhull
-Architecture: arm
-Installed-Size: 3316
-Maintainer: @its-pointless github
-Version: 2015.2
-Description: Powerful, double-entry accounting system
-Homepage: http://ledger-cli.org/
-Filename: dists/termux/extras/binary-arm/qhull_2015.2_arm.deb
-Size: 489304
-MD5Sum: 882f7556c6af2c7e923072aa5254b38e
-SHA1: 1c7c7015321a240804e8027a9bb804845ff93d06
-SHA256: 40ec9fcef32ce6085f0c60c9f08f91adfd804e1d08975054c8b692d1fffe0b5d
-SHA512: 21bff487645a9a8b5ed536bab8d48731c8719e5063047e7cdccc28555a2db4694ec72cb91ce78b63e75ed457f53014fe7d1f744c58a4a5fb84751a6dbfc3b04e
 
 Package: qhull
 Architecture: arm
@@ -2575,18 +2495,18 @@ SHA512: b0d24544bdf4a50ce60edf746858968dd2507dcaa79bb3e7b3737a14fd2dc8679b21d4a6
 
 Package: scipy
 Architecture: arm
-Installed-Size: 43836
+Installed-Size: 43856
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
+Version: 1.2.1-1
 Homepage: https://scipy.org/scipylib
 Depends: numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-arm/scipy_1.2.1_arm.deb
-Size: 10504198
-MD5Sum: 23300295aa34dff0944841d0559f3d67
-SHA1: 6fe273b2ce7389ae2e3052a6956f499596ebb7af
-SHA256: 7702bd10a9ded223f2e9e9198f6f79e3e87003926388011c4e6555792cf977a6
-SHA512: 4e4e501599dc6c7e2f25a18ec8148eeaf420c96a79c7aee9ff0e5902e0ddc6e42dabe483d9c6271b75b57367a479ca8d0f8f75b11c58754224741ec3075dbf2c
+Filename: dists/termux/extras/binary-arm/scipy_1.2.1-1_arm.deb
+Size: 10520536
+MD5Sum: b69a3d83c6fd1c948444e414e0639519
+SHA1: 2715933469f4057cbce35cbd8af03aa656f04106
+SHA256: ff899ea708542ea300ce71dc99c7d306a6e3e085d0202fc0e8b0b0b3e016050d
+SHA512: 39e0a0c8443f808418fdf6a2e25087e13728e4122f02e8281a78711432448f71d2c26fa3589f6503c3afead861772a5fa9bce4fb5ba69703e62340a09d9b4d31
 
 Package: suitesparse-dev
 Architecture: arm

@@ -2144,33 +2144,18 @@ SHA512: c1b98b9a4131e8fdc8a835050feb1c6e613ed3e7582c7a5c68a227a2dad7379147bcb2db
 
 Package: python2-scipy
 Architecture: x86_64
-Installed-Size: 55024
+Installed-Size: 54748
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
+Version: 1.2.1-1
 Homepage: https://scipy.org/scipylib
 Depends: python2-numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-x86_64/python2-scipy_1.2.1_x86_64.deb
-Size: 11587316
-MD5Sum: 165f1d6591531d934ecd1150b0782ead
-SHA1: 1f7d78f139bb00db09c1dad49381b66df3874965
-SHA256: 793c63b0da91d30b6f3ba0f55ddfc994e5f0b5524605baccaf7c995f9d5ea983
-SHA512: 2f41112ca7ec0f9c6cc1bcd03a216c3dcb58b7b5374cd7e5f37d0fa786c5de24ae34a781570297e0e539c065a59f32ec97cda2fd0227d1e215af6603fc205505
-
-Package: qhull-dev
-Architecture: x86_64
-Installed-Size: 872
-Maintainer: @its-pointless github
-Version: 2015.2
-Description: Development files for qhull
-Homepage: http://ledger-cli.org/
-Depends: qhull
-Filename: dists/termux/extras/binary-x86_64/qhull-dev_2015.2_x86_64.deb
-Size: 83848
-MD5Sum: 566260310fe9cc51a0cb09dc96ecd63f
-SHA1: b6f498293efe4124818dba001a70bfde98d05da2
-SHA256: ef675c7e8dc0962971d3db76b6ba234d25cd55b0309477b94f706f5bfdef71f8
-SHA512: bc4136e16c7aebbe2baf4bfe0eea242d3d69d3f4f922e96ab27a7c031ab54eda342b197cc60a40a93cced1fd4c92a8f9f9f7862cd600f45a2ab53633f510d283
+Filename: dists/termux/extras/binary-x86_64/python2-scipy_1.2.1-1_x86_64.deb
+Size: 11701378
+MD5Sum: 5f8cb3471a43c057e2eccc3591e89796
+SHA1: 15ed330b09a727b1f5b98531b48141f5a543ebf3
+SHA256: 992080d17944067dd1177ad0a2385797ce81214810f4749cb68ad9e05cfc6188
+SHA512: 0592acd8983171dab0d137257fd209e11cf8816246ce63f32cb228e773668d6e889832f6008172409b8b53f0d89f83af1d6cce34bfaa47010a340a7f5f9b4064
 
 Package: qhull-dev
 Architecture: x86_64
@@ -2186,20 +2171,6 @@ MD5Sum: 67638aebb4552f69e53307215737949b
 SHA1: c6b01ad75ca39e983119ac2411f9455c9b281fb0
 SHA256: 7af1ce8b70914116c47d1c10ed5caeeef52fb5b4aa0c73bb102ad6f89553f59d
 SHA512: 06dd7b8bbcb805637e281d34fbaa6cae418a4747edda8b68eefaae0cbcaf0e15a718319e808fe237aac89b1e57010c46e73aceb63890ea1232cf04084f5a6eb1
-
-Package: qhull
-Architecture: x86_64
-Installed-Size: 4412
-Maintainer: @its-pointless github
-Version: 2015.2
-Description: Powerful, double-entry accounting system
-Homepage: http://ledger-cli.org/
-Filename: dists/termux/extras/binary-x86_64/qhull_2015.2_x86_64.deb
-Size: 524704
-MD5Sum: 1da89b06633fd76672d86e8f7f50cc35
-SHA1: 8a0e03daa538e4187a7794ce0530adbd72f46391
-SHA256: 5e41d217210cf30ee49c697a3ab7d004a2cdedc71e3be1f7f8faa287cb74c250
-SHA512: 90e7aee37939fdf16654a1711182651d42c9bb68f2f0535b4feec08a4909b0902a3e00be47ae16d28b5c39dc6a8ec100dc75d185286944ee38d4928606fc2c93
 
 Package: qhull
 Architecture: x86_64
@@ -2455,18 +2426,18 @@ SHA512: d7a16b6127d98e0be5098601a7dcaf446a433e8365de964b214fa3e9e64370738955d9ea
 
 Package: scipy
 Architecture: x86_64
-Installed-Size: 54080
+Installed-Size: 53832
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
+Version: 1.2.1-1
 Homepage: https://scipy.org/scipylib
 Depends: numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-x86_64/scipy_1.2.1_x86_64.deb
-Size: 11625110
-MD5Sum: e701d1ed05a5b7a6bd5e5532f5a205ab
-SHA1: f1a5894c6d583b1cec626680d560140fe13fa75f
-SHA256: c64ed5809b09fb9e2a66254b6a77978560290c277d47cc47d3651299a729f0b0
-SHA512: ffbaa75eb506ec2f76fa28f138068c68cf3f2af6e3102f86751f0c0bb083d09ffec7d1384183dd864773760de22dce07620a7a2811c35a438064ac077ed0fab9
+Filename: dists/termux/extras/binary-x86_64/scipy_1.2.1-1_x86_64.deb
+Size: 11790382
+MD5Sum: 3c9cedcec2f76e7699501732a3c1bf70
+SHA1: 8d1f04947b311fa6cd108c2a6a9d472e65f45bfc
+SHA256: 962f8d5e65bd2a5c4d62c6fd1fe1b8e9b41a520a2cce99c7589b55fd38dfc602
+SHA512: 7f8c7cb27132113ad3514bd7bdb284957aa337572ad12a3bf38a7c17350b75b7f36c65b726c7df06d3021d6af201a8756d27657395c94aacdce8746c01dc882e
 
 Package: suitesparse-dev
 Architecture: x86_64
