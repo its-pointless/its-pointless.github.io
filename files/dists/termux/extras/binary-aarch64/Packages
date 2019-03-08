@@ -2033,37 +2033,20 @@ SHA512: 8207b2af328627c55d36b39678f094f643a5f07f9cb791e82f912817a85e77cd7aaed487
 
 Package: opam
 Architecture: aarch64
-Installed-Size: 15668
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.1
-Description: OPAM is a source-based package manager for OCaml.
-Homepage: http://www.ocaml.org
-Depends: getconf
-Replaces: opam
-Provides: opam
-Filename: dists/termux/extras/binary-aarch64/opam_2.0.1_aarch64.deb
-Size: 2994344
-MD5Sum: ebf6cc150f76d38730a7b6bbaf3427fb
-SHA1: e1ed9d1bef2eddab958c89f298724e812c6dda4d
-SHA256: 68272c0f6318e0ac7ca320b61ebb6bd1aff89b3561ebb38f4123718294245851
-SHA512: 79812e73bc569eea7f8847399186fca06e2b88a5c314973e3078d0e66e698de652a8c21ae412642ae88358995d946d027c964d6266b51e2fdc109a5cff3be4e1
-
-Package: opam
-Architecture: aarch64
 Installed-Size: 15688
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.3
+Version: 2.0.3-1
 Homepage: http://www.ocaml.org
 Depends: getconf
 Replaces: opam
 Provides: opam
 Description: OPAM is a source-based package manager for OCaml.
-Filename: dists/termux/extras/binary-aarch64/opam_2.0.3_aarch64.deb
-Size: 2662652
-MD5Sum: 4845fa788a4480b8a2fde73693311f7a
-SHA1: e09f01d193fdd50ee089be72651feaeaa216649a
-SHA256: 3ccb26dd35bf13d51ffa1333c315cdadc969192024c5a6ba79cafbd31fd70756
-SHA512: 8b209674bc7e3ce209d5a2d24988e10cf98a6a37f10a44b02636b62f6bc5e9549dabb7215194cd18721274467cd4e8fd330240eadb894bcdc8bf25f95b7c6406
+Filename: dists/termux/extras/binary-aarch64/opam_2.0.3-1_aarch64.deb
+Size: 2999074
+MD5Sum: 07ff64f2a30226d4080524483396084c
+SHA1: 1b07d783a29a233358f5535e443d797274e073dc
+SHA256: 0df30b80581846c13eac76e186a863ba87d04f449bf4703ae5ecdeeffc9685b3
+SHA512: b917d03df85f8b5a8968a8c93c33ea7dfca0b9a38e93f285fcd1317a6cfbe039e2e89a41517cfdcb80164bf9028d39c77c6501600dbae8771b60fadc93133651
 
 Package: openblas
 Architecture: aarch64
