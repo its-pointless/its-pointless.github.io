@@ -1839,6 +1839,21 @@ Package: octave-dev
 Architecture: arm
 Installed-Size: 5752
 Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-1
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Description: Development files for octave
+Filename: dists/termux/extras/binary-arm/octave-dev_5.1.0-1_arm.deb
+Size: 369490
+MD5Sum: eea8f688888db4fd8265843a9eb5a01e
+SHA1: c079df3ae937c3ce570ed1c8c812e5d4adbdf3d2
+SHA256: cee94eb618c794eb39136c5c8667ea2f46dfa1af615c368d25b404cf835e896f
+SHA512: 27d09ea3380344fd534c3abf3c7e39ae39d51bb32c3cffd8e0cea0618e58ddea5ec9f9b51aa50ab1e31f86cf622a75aec502dca77885a64a34172d9aaa4ccc16
+
+Package: octave-dev
+Architecture: arm
+Installed-Size: 5752
+Maintainer: Fredrik Fornwall @fornwall
 Version: 5.1.0
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave
@@ -1864,6 +1879,21 @@ MD5Sum: 292d14b58e37af82269eee6dbf83c522
 SHA1: af26dd3d46f0fc90b74937a17f78113e9742e5f1
 SHA256: 4d1c6ccaaf4588825ff266d9b899601f1829f05e610725830234b0166f8a8408
 SHA512: c75577bd03b5141aaed190d656c92ad259985686dc1c70fb0344dbddd58f27c13cc8b43a995141db4fe0f189419803b0c7618c9abdc6ac5a3c6f67e7ad58400e
+
+Package: octave
+Architecture: arm
+Installed-Size: 42928
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-1
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5, libandroid-support
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-arm/octave_5.1.0-1_arm.deb
+Size: 10463546
+MD5Sum: 16fd7d9d7a9b62374be74fe395bdd552
+SHA1: 1ebdaa850b49d70cba54a6b91126f5ffaa3990f6
+SHA256: 8b210198f9425c90941299d6a5e9b13d22da588f7cd064abdac377d85d66a2f2
+SHA512: 791bf5591612069a9d57769a88c5f381da8fb5d05724994d8c97c7a9e4fc0ce97646d18688e88d9fa062385e0fc78f68499c1761c8ed09383ee2d395945ff24f
 
 Package: octave
 Architecture: arm
