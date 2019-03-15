@@ -353,6 +353,21 @@ SHA512: 546bd54b4024a8d5a08b37910cb53e5b509dad51d32693558af3c1258376c52618f71b87
 
 Package: gcc-8
 Architecture: arm
+Installed-Size: 103092
+Maintainer: @its-pointless github
+Version: 8.3.0-1
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-arm/gcc-8_8.3.0-1_arm.deb
+Size: 23534648
+MD5Sum: b7cb32f0cba387b57e0dbda324ffa892
+SHA1: 4eeca271027006822e0e2b7e3ba1075e228b0bb3
+SHA256: 2c1fe710ac8fae7954988e937be86870964c010305bf73d8699a39bee09a7dcd
+SHA512: d97e2c9e65e75488c0ca4580c4c1c10c52a895582d33e69b37b2f475c15ef18827708cb32d42e6c558e9c033b452204c56de8edaff0491850f491443037ba592
+
+Package: gcc-8
+Architecture: arm
 Installed-Size: 110792
 Maintainer: @its-pointless github
 Version: 8.3.0
@@ -458,6 +473,22 @@ SHA512: ee10f88c03d89f0ed67a8c180492977ab6cf056f839f0ca356b131079ca430f03a2bacb5
 
 Package: gnat-8
 Architecture: arm
+Installed-Size: 73948
+Maintainer: @its-pointless github
+Version: 8.3.0-1
+Homepage: http://gcc.gnu.org/
+Depends: libgnat-8
+Conflicts: gnat-7
+Description: the ada compiler
+Filename: dists/termux/extras/binary-arm/gnat-8_8.3.0-1_arm.deb
+Size: 12880420
+MD5Sum: d92e4a39969f5cf777604632790f8240
+SHA1: a76a6b39cd2fc1785d4df99122fe487e4f4f2d5c
+SHA256: f111234e082ebd4e60b6004af1c2513e0f27bd5fd6754b69b7b50d83b87fdec8
+SHA512: 93f7c50bd99f6699d34c9b1db83ab6017e0cddbfff78f11b8e507be02e439298e209d550bf46221d38dfa74b712611803e5d5f3a8689bbb76f5c52bc396db8a6
+
+Package: gnat-8
+Architecture: arm
 Installed-Size: 88540
 Maintainer: @its-pointless github
 Version: 8.3.0
@@ -516,6 +547,21 @@ MD5Sum: d3b04e71bfa9b9c2f4ec146193b9d152
 SHA1: 57d1b327a6ec2d3d8c9b978bbbdf04fa17028f30
 SHA256: 728e5ae74b50e71f89e1363584d8c35c82a2817dfa347b388da3b6007e526b9c
 SHA512: ab153413ff9d7404ec90e4c0231f3ed7dfac7f713d2fe37dc6a509e7b73eeddd2eaa08d46d2d6a2c6bed6ab853159a83d4afe5829bfbb95e9384cc3e69ba25d9
+
+Package: gobjc-8
+Architecture: arm
+Installed-Size: 17648
+Maintainer: @its-pointless github
+Version: 8.3.0-1
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-8
+Description: GNU Objective-C compiler
+Filename: dists/termux/extras/binary-arm/gobjc-8_8.3.0-1_arm.deb
+Size: 5444730
+MD5Sum: e50090fa5ebf1c9d863b65f107942650
+SHA1: f0ef26a7860a037042cf253fe514a7079a694703
+SHA256: b19fde233520f9b87a687378b316506417be928d9e6188aeab9e2c7adea94fe0
+SHA512: 318b3e78f8844e3d67354c44174b5102be0c999776cf40cf2425118a7855c185d3aa9d48d6ba13aa30b3a01c767356bafba1d28ca7af51573185b98e069d4195
 
 Package: gobjc-8
 Architecture: arm
@@ -849,6 +895,21 @@ Package: libgccjit-8-dev
 Architecture: arm
 Installed-Size: 15916
 Maintainer: @its-pointless github
+Version: 8.3.0-1
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Description: GCC just-in-time compilation
+Filename: dists/termux/extras/binary-arm/libgccjit-8-dev_8.3.0-1_arm.deb
+Size: 4955584
+MD5Sum: 4693540ab78be473cfce5cae0025ac46
+SHA1: 42288483186afbdefa8386e1d835a9b32fa348dc
+SHA256: 0207ce91079671039101902524ce805d531dd2479f82d67b36a8886c2d6f2d07
+SHA512: 8165a2cdb3dd861212aec2be4e93c129b84f8fbe3ef32afbca433c135951c384fbf130d892bc99d8424f6a1c27b423390b76caa0a7bfe4d85c82a367a6d7a1e6
+
+Package: libgccjit-8-dev
+Architecture: arm
+Installed-Size: 15916
+Maintainer: @its-pointless github
 Version: 8.3.0
 Homepage: http://gcc.gnu.org/
 Depends: gcc-8
@@ -967,6 +1028,21 @@ Package: libgfortran5
 Architecture: arm
 Installed-Size: 492
 Maintainer: @its-pointless github
+Version: 8.3.0-1
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-arm/libgfortran5_8.3.0-1_arm.deb
+Size: 168740
+MD5Sum: 4e61c90be7a565a533ac7698125918cf
+SHA1: d61fd7b5eea6fba61c1c44013d9b2dc1392f89ba
+SHA256: 751c7490b0f8ecff55957211aa72d24647d1c1e2c0851c2e6939680bd79d142d
+SHA512: d44bec7bbb402475406dc300ff03e7800ca45bdaf26b983fac2b2eada42875e753f1e82d587a29a0d9cd05218f52cf5c9ca49b85ddec165013ddb923fa7e0ff4
+
+Package: libgfortran5
+Architecture: arm
+Installed-Size: 492
+Maintainer: @its-pointless github
 Version: 8.3.0
 Homepage: http://gcc.gnu.org/
 Replaces: libgfortran4
@@ -1064,6 +1140,22 @@ MD5Sum: a610811cfeb6667a47095b8d60593b17
 SHA1: 2e63c0bed1c227c3c57a3e4c3c09be7933c08e20
 SHA256: 9adb90a6e0ba02f19c677b79d6bd55bb8a5be449c8d134701e034169e1a36752
 SHA512: 18ebdd0deaf307d3c1cc3e38527644018c37aeea3bd7e2b71444435952d6f16bda53186b85eb4ae8a5ae98bce74e8ffcd90882b12b2bef1be5ac7dd4c977f776
+
+Package: libgnat-8
+Architecture: arm
+Installed-Size: 2804
+Maintainer: @its-pointless github
+Version: 8.3.0-1
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: gnat-7
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-arm/libgnat-8_8.3.0-1_arm.deb
+Size: 689198
+MD5Sum: 338d4df3858f550707f32761ceb052bd
+SHA1: 4f6e28f562a35766172295141573da592b7dab7f
+SHA256: e041b56eefb6e29cfbe1a9e0b64c32b1af6e3f19f8d20e0a7e23ac49581346fd
+SHA512: 9e08b8691a59cf1da4fcf329a307f3f235ac789dbf6ed7bceea4f35f742de6827c97711723030688b4e5d4f911d4e86684f0c7a3b6701026ee797de8a5e0f06a
 
 Package: libgnat-8
 Architecture: arm
@@ -1232,6 +1324,23 @@ Package: libgomp-8
 Architecture: arm
 Installed-Size: 180
 Maintainer: @its-pointless github
+Version: 8.3.0-1
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc-8
+Filename: dists/termux/extras/binary-arm/libgomp-8_8.3.0-1_arm.deb
+Size: 55350
+MD5Sum: 502f9658ec8c586ddfba4d84dbe51c76
+SHA1: e161563130dc28ff9eaeee7f0999ef49ca47eef6
+SHA256: e338aa44b41a86a2f685131a60b9f7d723387abd28da8de9d5db5476dbf1e846
+SHA512: 8effb8d2214a06f157f0ad55d64e8d7881ae803bf7bd11b8c3d2ad7cd0a4637a85891333e2537c403cd818436a0472334249f711e0fb46a0043c69f1333cb926
+
+Package: libgomp-8
+Architecture: arm
+Installed-Size: 180
+Maintainer: @its-pointless github
 Version: 8.3.0
 Homepage: http://gcc.gnu.org/
 Depends: gcc-8
@@ -1331,6 +1440,20 @@ MD5Sum: b3dc52a9eb543e603b3a30d3daf57c69
 SHA1: 7e5cdf38912ddb31b68907fcbe672d915ef71b32
 SHA256: fbc16c3bf63771f09ac79e61d66e13f358d69dd9437912ee9241535c2b582a39
 SHA512: 7a11fcab6c7eb23a6129e5415dfc7565aa89291023938af41a2b6b7fd566cbead0557cffdf9b786b1c6f0cc0bea200487b9e1a7435873b281aea4ec5b37cd377
+
+Package: libobjc4
+Architecture: arm
+Installed-Size: 152
+Maintainer: @its-pointless github
+Version: 8.3.0-1
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C runtime
+Filename: dists/termux/extras/binary-arm/libobjc4_8.3.0-1_arm.deb
+Size: 38728
+MD5Sum: e85a70d8f422324fa29e7b191c496aed
+SHA1: 5c955626240ee02487f76bcd181511d3e2e53ce0
+SHA256: b58a126193a3b07355491997fcf7f8a42eecf81ddf4125a7af56ae0e9cadd165
+SHA512: eacfbc00b2b01f2dfe8739bc2c26f032104c355523f62b2992386daea5c33695cefb459704c55f0e803b0c5301f8ac758d3043857246ff1ca94f74f89ae0c29b
 
 Package: libobjc4
 Architecture: arm
