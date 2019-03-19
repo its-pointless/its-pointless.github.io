@@ -281,6 +281,21 @@ SHA512: 16abebdfd095a7e99ac42c6d4436bb029dc805dc0359b5d886e48e8d60cc564b6222c99c
 
 Package: fp-compiler
 Architecture: i686
+Installed-Size: 253816
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20190319
+Homepage: https://www.freepascal.org/
+Depends: binutils
+Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
+Filename: dists/termux/extras/binary-i686/fp-compiler_20190319_i686.deb
+Size: 31620900
+MD5Sum: c08764fc17c93d788c0403b49a5725dc
+SHA1: b016829076bf3c4be066900e1a863826037b7acc
+SHA256: 936a776ac0ceef657ff08eedb28228e8b029045a4dbc211d932bea9ade0c293b
+SHA512: ed9ec11840fc54cd5ff190d6a58548eeb2e603e3db9a4e27eb4251b7a778d85eb95952018979080628a5d84456f448d91b11df6240b6196ecf186cf8cca68413
+
+Package: fp-compiler
+Architecture: i686
 Installed-Size: 78924
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.0.4
@@ -919,34 +934,6 @@ MD5Sum: c367be484a811858366584ac5101050d
 SHA1: fee140826fc22307304abb945216ce682a15fd76
 SHA256: 2a6530d0f81316d15c808e69c034682fb1c12849319fb9113cd2a7a335eb99d7
 SHA512: 9956ab1e2af40fab8e03f5cb6e0edd7bd7728c30e1c6dd8105a2eec107c0ad014ad26a0fcebf10a6d064f974917e230e83ecda2cfd9ce26ad48cd2422417685c
-
-Package: libgfortran
-Architecture: i686
-Installed-Size: 880
-Maintainer:  @its-pointless github
-Version: 6.4.0-4
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libgfortran_6.4.0-4_i686.deb
-Size: 216912
-MD5Sum: 41a2f0033d5496b3cec88c6bac006342
-SHA1: ca4c12c080e0db877a0d6e448b1429a06b80714b
-SHA256: 5c588e86cd419a8618f6f2ea1b2c4ec84f0e03c79d1e67a3611ddcfc39df127a
-SHA512: c5e5e89d488c644b1449a8cd28b589f52cc12374cd8ca45ccdd6b5f81d0e5f747b44853fd179e47711e7db565d7af23b2e1c3f777cb4feef847828c2d2fec45d
-
-Package: libgfortran
-Architecture: i686
-Installed-Size: 880
-Maintainer:  @its-pointless github
-Version: 6.5.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-i686/libgfortran_6.5.0_i686.deb
-Size: 216976
-MD5Sum: 9883b39c81c55503ce4b32286d60d060
-SHA1: 3d91cdd1cf16261f1f9036e7cd33c1d0c53dd493
-SHA256: 9612730c62a61a7516a75380160652aa69f0ea823d966482c649594e7f9708b6
-SHA512: 40003a435ca72a123647ba05f7598415c46f17af4c9270c57e0ef85f2c1d77c9ca8ae131903ec8e60abdd60803647dfc1ea019e04ce677c2e8dab02d7629ce10
 
 Package: libgnat-8
 Architecture: i686

@@ -309,6 +309,21 @@ SHA512: cc347aa2f2c19f79212cf624c7e5725635e07c8d6ef9e21f3f14b46c4c47a52c81888a66
 
 Package: fp-compiler
 Architecture: arm
+Installed-Size: 251360
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20190319
+Homepage: https://www.freepascal.org/
+Depends: binutils
+Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
+Filename: dists/termux/extras/binary-arm/fp-compiler_20190319_arm.deb
+Size: 30687082
+MD5Sum: 4a6609a9bf89b7b505dec81063ff0927
+SHA1: c9962f5d711b4dba9adae905b28f559fb38cedf9
+SHA256: 6286e5d63a08a2cc74dc57ef96c000c3b8ccbd9acb4aa6d2fbc2e581d59e426c
+SHA512: 6dd5cc706a8d13176cc69a015042701e6ae940d3f43ff840371213f7ab4e345e20653c41cfa31a4c51f89dca9e14943d318810809871fe1f71fea6ce207af2b5
+
+Package: fp-compiler
+Architecture: arm
 Installed-Size: 79572
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.0.4
@@ -1053,48 +1068,6 @@ MD5Sum: f97d965e2d24f4249e9e2b228b950bfc
 SHA1: fbb0812ccd4cc48a61e56c312d76b0731c36487c
 SHA256: 303e23e3281f72fac863f9993036bd3ee774b6cfcf7fb716ff1534e895ea71a9
 SHA512: 9906c20c811a46309ad7a8c3ecdfb0e740224eff1e7a65b00c1a083319983772ef8cf6fe4608bf1bb6d460714b6642b59c9ec4669c482bd4c49329d966ea1c8f
-
-Package: libgfortran
-Architecture: arm
-Installed-Size: 1128
-Maintainer:  @its-pointless github
-Version: 6.4.0-1
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-arm/libgfortran_6.4.0-1_arm.deb
-Size: 224224
-MD5Sum: aafd6006a9b0d6fc145969534fda74bf
-SHA1: 9b43d514a0e68aa639702360adf467d42fbc1c45
-SHA256: 24f3955e685334cac384b2ed1aa335bd3a54c7fd470e77019e674eb72ab0c287
-SHA512: ebc8baf2f8c879ec6ddcb43c47c5dd107b8b637a553daca0eead7a693f52d0e4021cef73294db1eec47e73d28a61eedd8a297d8fd783e96efa16eca101c7676d
-
-Package: libgfortran
-Architecture: arm
-Installed-Size: 672
-Maintainer:  @its-pointless github
-Version: 6.4.0-4
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-arm/libgfortran_6.4.0-4_arm.deb
-Size: 164684
-MD5Sum: 83a2d17abd0eef944ba10945569aeb25
-SHA1: 481ebe835a80af5c0193e2f6dd71132fe2f79972
-SHA256: b564c3cd5c1381372adb1b20d618bc1110cb3871f1a06532c5ff9b13e63661fe
-SHA512: 8445169a8569a53624b2fb82f333d6c87379dc9ce28efc62432bb1a1c71536439db042cf0ccaf632bfe6fe00eef54f88446344d582d7a099be62c195b1c869fe
-
-Package: libgfortran
-Architecture: arm
-Installed-Size: 672
-Maintainer:  @its-pointless github
-Version: 6.5.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-arm/libgfortran_6.5.0_arm.deb
-Size: 165400
-MD5Sum: 228270250d97bbbc778b95020f8e393f
-SHA1: 302248b7c6e3595540f2832c4cde250ca2002276
-SHA256: e0109af7ded2ced112f580c9c8dda3276c8185e6733566cda07f0ed427fd5493
-SHA512: cf1367543e22300b90feb298afdf4ef1535118abf6a8e224ec21ed8ff0816d9a30ee7ea00351c254c7dd0c5511a0fafa1941ee0891a7b14d97ffbd84246c6eb8
 
 Package: libgme-dev
 Architecture: arm

@@ -322,6 +322,21 @@ SHA1: aaf04ee19d124f55fa0559110e5c5ec40a3130a9
 SHA256: 0c88b177e8e855932d9022e798c65efdec8035d2c0b3ee1bad7ba8d561192971
 SHA512: 0b1e34522563ee9fa4bd29dc00f97b6b84fe7d480a8092c6ec46d040f4116100150cbbdab8c28f138e8769d954b6a6453791b54cd7592eee213876ca85ac2a9d
 
+Package: fp-compiler
+Architecture: aarch64
+Installed-Size: 293752
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20190319
+Homepage: https://www.freepascal.org/
+Depends: binutils
+Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
+Filename: dists/termux/extras/binary-aarch64/fp-compiler_20190319_aarch64.deb
+Size: 30994578
+MD5Sum: 56e403e132a9028f008d481b6cd3c075
+SHA1: ae682ea0f964be3e9889455205c69f54ed34065a
+SHA256: cbfcf95f286d820e3e39e739bb2e8838065d92933c1386e74e623f08558f2235
+SHA512: 2c28d5fca3771119167b067cc2fb1e1f9800d9bf71035d10c2cbdde35b0a487b31822d6f862a2228ccadea79283e8a6c31c4e3707805f6982426d38ca1a66d1a
+
 Package: gcc-6
 Architecture: aarch64
 Installed-Size: 69344
@@ -1008,62 +1023,6 @@ MD5Sum: 7c1836dfa9d7686b104ac5f4530cbc13
 SHA1: 709fe35eca569c97360d328e356f9c0f16d6284c
 SHA256: b7d145761284e41c04052028bd12f452e4e54d71323fbce1dcc2b0b1b0e29de0
 SHA512: 7fc8511c6492d84d1f2409c08080b9058f291e53119ca7c69e2aa0410f9ab02b954630b08a73912ec76cd08d972cb9ed908e0127e66ee419244415d4acd5fd72
-
-Package: libgfortran
-Architecture: aarch64
-Installed-Size: 1504
-Maintainer:  @its-pointless github
-Version: 6.4.0-1
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran_6.4.0-1_aarch64.deb
-Size: 281704
-MD5Sum: d278f4074ed049e5bb13ecf0f0c180cf
-SHA1: 202df19a47a6326b9da83e9bbd91572310714980
-SHA256: 8164763fbe6c5cb41e5f71c9db1d4752c9c172b623fb97ab6d201a224db036dd
-SHA512: 8102e22119ae5acb9372744739d3721facd5df909472d68efc2c9986fef0949e276a532d9aa21e90032d42409086ef26a288c8ad073d6758dd0fc1cd94006ed5
-
-Package: libgfortran
-Architecture: aarch64
-Installed-Size: 1504
-Maintainer:  @its-pointless github
-Version: 6.4.0-2
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran_6.4.0-2_aarch64.deb
-Size: 281792
-MD5Sum: 8e3681f153682144e10eb809ae2b0910
-SHA1: 337fc45e7719b523f5f80c92cdf2693981b0459c
-SHA256: 3b3a8a36afd9c7650e1cba471cb08ce65346c27f53a54218d0b405e9950b644b
-SHA512: c03e0599fa4df5df1495ee59880b219c3bd497d8ad02b04f24e57f43c923b23defff96eb321484741b55c187fc76994ca89e0c03c48e01e0e8e8fc795cc79805
-
-Package: libgfortran
-Architecture: aarch64
-Installed-Size: 1092
-Maintainer:  @its-pointless github
-Version: 6.4.0-4
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran_6.4.0-4_aarch64.deb
-Size: 229964
-MD5Sum: 665faff178ef1a7747cba060863d1653
-SHA1: 9cfac94f3f672b8a835e30e51ac591c8b4c33d35
-SHA256: f84f0ac445b751fce68ae4e5f13e4893469bc48b52d5b65da9a81c6ca6db9e3c
-SHA512: bc4b56172771e76cc0f47b20ed88c69f2a0321bb6b17480e4d8fa67a7205bbe5502cd8d696aa4d5ef9a2c3d3f650fe7dab75f6882dbe1c1c0a3cd8abd83af9a9
-
-Package: libgfortran
-Architecture: aarch64
-Installed-Size: 1092
-Maintainer:  @its-pointless github
-Version: 6.5.0
-Description: dynamic library for fortran
-Homepage: http://gcc.gnu.org/
-Filename: dists/termux/extras/binary-aarch64/libgfortran_6.5.0_aarch64.deb
-Size: 230340
-MD5Sum: 8302e588c13bfadb38e0b2537be9df41
-SHA1: ab91550165f2e436f19c3aa33d141dee22ab2764
-SHA256: 8a1e6f7c1aefe84ab800c89cd4323353c946623aafa2288b17cfcca24b32d32f
-SHA512: d56a41dd1ff7af36d9666fbf22a7d83255eec10db511c0b95a88abccb2c85a6348bb844c4a6287a21d04696a4ffb7c9ca4e26117a5a0ef59ed79e442865ac892
 
 Package: libgme-dev
 Architecture: aarch64
