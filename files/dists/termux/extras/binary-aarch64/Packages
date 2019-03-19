@@ -307,35 +307,20 @@ SHA1: b5951cbfe56270cbf0413aad112b1ed347eb8ad0
 SHA256: fb43ea784aaacb74863e460bb8928007116fffcc2fa9e123e85caf94227be17c
 SHA512: 0e2d21587d811b8fc54dd511057e60b5e4f3bf9973e61ab2c8d78dddaa4c9c57013ba45ddfdd0280d52bc428a4c689f2a3994a94f2c67822d0648cc3232e1d84
 
-Package: fp-compiler-snapshot
-Architecture: aarch64
-Installed-Size: 295800
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20180630
-Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
-Homepage: https://www.freepascal.org/
-Depends: binutils
-Filename: dists/termux/extras/binary-aarch64/fp-compiler-snapshot_20180630_aarch64.deb
-Size: 31383296
-MD5Sum: 26e2181c7c7d55dd4afebb9b9445df5c
-SHA1: aaf04ee19d124f55fa0559110e5c5ec40a3130a9
-SHA256: 0c88b177e8e855932d9022e798c65efdec8035d2c0b3ee1bad7ba8d561192971
-SHA512: 0b1e34522563ee9fa4bd29dc00f97b6b84fe7d480a8092c6ec46d040f4116100150cbbdab8c28f138e8769d954b6a6453791b54cd7592eee213876ca85ac2a9d
-
 Package: fp-compiler
 Architecture: aarch64
-Installed-Size: 293752
+Installed-Size: 144768
 Maintainer: Fredrik Fornwall @fornwall
 Version: 20190319
 Homepage: https://www.freepascal.org/
 Depends: binutils
 Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
 Filename: dists/termux/extras/binary-aarch64/fp-compiler_20190319_aarch64.deb
-Size: 30994578
-MD5Sum: 56e403e132a9028f008d481b6cd3c075
-SHA1: ae682ea0f964be3e9889455205c69f54ed34065a
-SHA256: cbfcf95f286d820e3e39e739bb2e8838065d92933c1386e74e623f08558f2235
-SHA512: 2c28d5fca3771119167b067cc2fb1e1f9800d9bf71035d10c2cbdde35b0a487b31822d6f862a2228ccadea79283e8a6c31c4e3707805f6982426d38ca1a66d1a
+Size: 16976958
+MD5Sum: 6f424539e5c16f106180b77c472b6c2c
+SHA1: d39b875e7f8f46183183c8c66b8b60c8bd6fd45b
+SHA256: 1ea18702b222fcbf20759393d07b08271393b8042b417cfd8cd03cc834334b8d
+SHA512: 8779cf7f45c4872077bb34b3b73032516cc84855e16845ec940a0fd75c279652241d2712dcdfb22ac154b14e7128e7636ec394c0839ba64201f837b4dbb44949
 
 Package: gcc-6
 Architecture: aarch64

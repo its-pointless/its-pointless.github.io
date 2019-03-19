@@ -309,32 +309,18 @@ SHA512: cc347aa2f2c19f79212cf624c7e5725635e07c8d6ef9e21f3f14b46c4c47a52c81888a66
 
 Package: fp-compiler
 Architecture: arm
-Installed-Size: 251360
+Installed-Size: 128964
 Maintainer: Fredrik Fornwall @fornwall
 Version: 20190319
 Homepage: https://www.freepascal.org/
 Depends: binutils
 Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
 Filename: dists/termux/extras/binary-arm/fp-compiler_20190319_arm.deb
-Size: 30687082
-MD5Sum: 4a6609a9bf89b7b505dec81063ff0927
-SHA1: c9962f5d711b4dba9adae905b28f559fb38cedf9
-SHA256: 6286e5d63a08a2cc74dc57ef96c000c3b8ccbd9acb4aa6d2fbc2e581d59e426c
-SHA512: 6dd5cc706a8d13176cc69a015042701e6ae940d3f43ff840371213f7ab4e345e20653c41cfa31a4c51f89dca9e14943d318810809871fe1f71fea6ce207af2b5
-
-Package: fp-compiler
-Architecture: arm
-Installed-Size: 79572
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.4
-Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
-Homepage: https://www.freepascal.org/
-Filename: dists/termux/extras/binary-arm/fp-compiler_3.0.4_arm.deb
-Size: 10778020
-MD5Sum: 37b497b6ee6a287f0ef671323fd7823a
-SHA1: 5c9f158309d78c58edab690deed5da5eea85df5b
-SHA256: a351ec0bf44752c9aed516b355248b842209e9a307417e425cb862250b2dc499
-SHA512: 4b1ca3e7296e555471bfbbfc1d885f2415ebe458b4079a41eeae1f1f76430c5ecbc03223c6166796a3c29ebc648eb1c7342a2fe9a5fa72147a2c585f72265599
+Size: 17217760
+MD5Sum: f822880d9a8a50790424f765070ffc68
+SHA1: e9fcb6fb05b0fee9aefb085ea6334ce2607152ef
+SHA256: 802765445864f41e7d35818f511f3c3c501badbda4a89cd519922ccfda78f894
+SHA512: 390639fca657fd65636d0822e25f74339025877ca5401d17ec3f4ad0f0c470deff3ee293f96131a36b628230f8ed95d0f98a320ef507ac57a5edb66eabb94b07
 
 Package: gcc-6
 Architecture: arm
