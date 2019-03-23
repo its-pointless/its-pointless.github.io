@@ -1370,33 +1370,18 @@ SHA512: 26437e83c4e7156c0eef80fbd6a31581641a41e103089216b38c8ac9d4bf22a782dd8ea1
 
 Package: mpich
 Architecture: i686
-Installed-Size: 7640
+Installed-Size: 6564
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.3-1
+Version: 3.3-2
 Homepage: http://www.mpich.org
 Depends: libandroid-support, gcc-8
 Description: Implementation of the MPI Message Passing Interface standard
-Filename: dists/termux/extras/binary-i686/mpich_3.3-1_i686.deb
-Size: 1846636
-MD5Sum: 748fd5024878ba00e6ae6cec4ad1a66d
-SHA1: 31838b6319e63dce711b620952685fb8c8788475
-SHA256: c165083359d8f8fffff7d50cda14dc4e779ffd91ec3990fb98383a1c925f787f
-SHA512: 1876a3e7e6c2e790484fcf1f7a3c79ab000a5e6005cfd859c7446e088c3321b979f75330fd4e43712af6d9e1995e0efe3979ff7714e81bf108f68ee541789874
-
-Package: mpich
-Architecture: i686
-Installed-Size: 7760
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.3
-Description: Implementation of the MPI Message Passing Interface standard
-Homepage: http://www.mpich.org
-Depends: libandroid-support, gcc-8
-Filename: dists/termux/extras/binary-i686/mpich_3.3_i686.deb
-Size: 1434740
-MD5Sum: 18af8a30d6c69576718ffdc293f2c038
-SHA1: b57b53c4afc7461404c8135eeaf4a3d5006387af
-SHA256: 05236f0cfca51e982c2eab2b99c985d1f8024b30977ab01f6b575d1ed60b7338
-SHA512: 4ce8c6bd7239c9f4c068f053674964e6f8cefa3e69435c3b6b64b08ad8b3287333fd3a922e6e29806e97b4fa19871797d653610c421f2ddfdc72b215e1740f17
+Filename: dists/termux/extras/binary-i686/mpich_3.3-2_i686.deb
+Size: 1590692
+MD5Sum: fe71615641ee62b0f667940848d00839
+SHA1: f0020a9394f614e4f8eebc36067ee28fe0cfb79a
+SHA256: ea871b94d1b7c961456ceeae1867beb0a128b0b3fd0d46cbe9743fc32c2ca74d
+SHA512: 5c291035863ea3f9114835c51b202acb2666420f7b1bc4bd9882889bbcb6637ba9b173cee7119f02e9074521c75151102e6283a0b17e73bbb7fc62813f87292f
 
 Package: nethack
 Architecture: i686
