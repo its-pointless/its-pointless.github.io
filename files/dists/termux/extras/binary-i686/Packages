@@ -1280,34 +1280,34 @@ SHA512: bd812ca8a04f32deea71e945d86b0ecb57092b2b6a5659b099a642e86ce48af6c604aedc
 
 Package: llvm-libunwind-dev
 Architecture: i686
-Installed-Size: 60
+Installed-Size: 48
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.0.1
-Description: Development files for llvm-libunwind
+Version: 8.0.0
 Homepage: https://github.com/llvm-mirror/libunwind
 Depends: llvm-libunwind
-Filename: dists/termux/extras/binary-i686/llvm-libunwind-dev_7.0.1_i686.deb
-Size: 8360
-MD5Sum: 9328fab6a4f3987f73a84843d720a735
-SHA1: 96209375f4e5bb69050b2c2a38ddd00004063743
-SHA256: d2a5d0cb921d1330c0bf982dd4882322ecbc9b0ef9b81d8a45db2c278d16d8b0
-SHA512: 07b32d9f9a5e826d6f79426744e8ac31a40fd95659adb4ff3c801069e6ebaae2c580bfb96d5e9bed960943ce2b2e3b3d3556436f185e44958d7b5b04617bda3e
+Description: Development files for llvm-libunwind
+Filename: dists/termux/extras/binary-i686/llvm-libunwind-dev_8.0.0_i686.deb
+Size: 8734
+MD5Sum: cfa391d5ea4e5a99f64c2e016dae55bc
+SHA1: 2b328dd7f41844b17220d1e3c421f99b1b68abbe
+SHA256: 9e58e488d5b5fe525ad6d53e3c2ebd0470eddb19df1fec2658865e2ea897a681
+SHA512: bed03c3e19f3766c969b3870cffb410a991e53ceb9cefc8cd67764947806633034f8033f361ca54560fd9955b2552cd092b2ba1c8ba53905a02a632c27e65ee9
 
 Package: llvm-libunwind
 Architecture: i686
 Installed-Size: 36
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.0.1
-Description: llvm libunwind
+Version: 8.0.0
 Homepage: https://github.com/llvm-mirror/libunwind
 Conflicts: libunwind
 Provides: libunwind
-Filename: dists/termux/extras/binary-i686/llvm-libunwind_7.0.1_i686.deb
-Size: 12916
-MD5Sum: da3d66e9c51ac9bc1d8d15fa8eb9dc4d
-SHA1: 7aa09f92553f29e946accb7d708dfd00280e2cf4
-SHA256: 0fa5c8e317faa8bb8fe7ab970513f1efb448e8ff7d1757914823f30eac52b1fd
-SHA512: 69646da75f1eef3e56a0a2d922eba5cf3b38e27c698b88ff9230c5915b42378e75ba2e61d03fead7bc25778446151ae0f2dcedfdbb4be3ed6f4cf491faf40e03
+Description: llvm libunwind
+Filename: dists/termux/extras/binary-i686/llvm-libunwind_8.0.0_i686.deb
+Size: 13016
+MD5Sum: 1b1914038db83104f1a664911dda6983
+SHA1: 806be4b307bee49c48123ecef1495aac3b2b9d5c
+SHA256: 0931a3ba70a813b83c72d5194866db33b5df755b31649d4cc201342f3c4f64fd
+SHA512: e59af908d0117d3839839d6612571089a665c126be2a0273b442e47a3b61cc398385ad1033668d7f774c2ee46d56461cc188ce74da06ed883fc77e0e74b37035
 
 Package: mailutils-dev
 Architecture: i686
@@ -1398,23 +1398,6 @@ SHA1: a3b2fbbc436390bfcf9572e3d6274531f26913c3
 SHA256: b81efee6265decd4605d07b687c5e582de5e45953054e00b83511220de819872
 SHA512: 56e26ddc716be655e554263155f6bd588533a1cce722ce11ca0ec3ebe8f725697c7f9bf140b8ce8d36252fa4dccf83d79330cc55be3350177fa9dea587c69527
 
-Package: newsboat-android-5.0
-Architecture: i686
-Installed-Size: 8228
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.14-1
-Homepage: https://newsboat.org/
-Depends: libandroid-support, libandroid-glob, json-c, libsqlite, libcurl, libxml2, stfl, ncurses, openssl
-Conflicts: newsbeuter
-Replaces: newsbeuter
-Description: RSS/Atom feed reader for the text console
-Filename: dists/termux/extras/binary-i686/newsboat-android-5.0_2.14-1_i686.deb
-Size: 1414886
-MD5Sum: 23f4aefda1c80664c7b29d7464390389
-SHA1: 59fb5c915a06f57494b02ac45bcfbf5ebc7c9ae6
-SHA256: 9cf945822a0ae1b45f7c180dbde4089c94c068a63244ab9f4d6b579968c42a77
-SHA512: 0a7dd9300ce80e662ce77e56aa623baf7263c132d27058cb5353ef1532b830e2469558b6ccecb38cb34154b8100482abe201329567fe2222ba467b7969e4aa9f
-
 Package: nsnake
 Architecture: i686
 Installed-Size: 412
@@ -1461,21 +1444,6 @@ SHA512: 46d52d1bae5d1c6dfee2d441d8b5fd1a09f9cd70f638bbeecba44515a0f4136487d25775
 
 Package: octave-dev
 Architecture: i686
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-5
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Description: Development files for octave
-Filename: dists/termux/extras/binary-i686/octave-dev_4.4.1-5_i686.deb
-Size: 359864
-MD5Sum: 0ef988f9ba06aa807046b9b2e73c18bc
-SHA1: b15f5ea2fe54bd65a4d1b03a13addacbb7b0e477
-SHA256: dcba065835c303ac98eb38d7a2b5f514da8f14d92ae80b823e036012ae693619
-SHA512: 952ec8388bb2c8e62d844befa7b76f7590dc5148b710a924dcb232863aeb9661b2c001b7adf8acabba1912c662eebb40c6c34a20920784f1fc11ca3c5f8aa09c
-
-Package: octave-dev
-Architecture: i686
 Installed-Size: 5752
 Maintainer: Fredrik Fornwall @fornwall
 Version: 5.1.0
@@ -1488,21 +1456,6 @@ MD5Sum: dfd479fad619fe227424ce76d25ab53b
 SHA1: 3582bd4733d387cd90b059ef22d6f478c41b9bd1
 SHA256: 663a23103fcc7d2ecebcfa3edd7ba805890c4418bde8f9d756a495520c24c026
 SHA512: 8b5caee78fe57a3daafe40175fad3955d9181c765a19dc726d837a3887459abf1822be635a16630ee4a55b43db5be781f07a741a1c8764ac88f1d6650167fc6f
-
-Package: octave
-Architecture: i686
-Installed-Size: 43260
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-5
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Description: Scientific Programming Language
-Filename: dists/termux/extras/binary-i686/octave_4.4.1-5_i686.deb
-Size: 9736072
-MD5Sum: 7fb6e3e6e4c7ea18ca2502e33435a9b4
-SHA1: 2e4deb85bbbad3678b024d0680e8cb3e9c7761bc
-SHA256: 93eb3ab4e99c3e1aced2a4b130f6672a646db1cf9e420a02204b4209b6f02c67
-SHA512: 4460f104bae8f952e84ef7ce0067ed9d2bf97b36bcb1b1bdfbe6e235ef6b11d79a85f8d49a521546c0c8e5eeedb28b1dacdd82d622bf2a2db4a03ae363dde63c
 
 Package: octave
 Architecture: i686
@@ -1565,21 +1518,6 @@ MD5Sum: f5a25e18cddd11522e378f7d9a4744b6
 SHA1: 325b026d174a6ea689bdabcd13c70d01f9ea330c
 SHA256: bca5219bda12f59d2d15fb89544b5fbb1eef1730b741adbb80fc614dfe318c33
 SHA512: ace2d047c4a194a83dce7a7ce1dbdf575a4050a0398a646edd2fca096b83f3d8f5e69af14fc18fc1d2c732ed70b991e32fcf182e9a9e851ed06fa95615159b23
-
-Package: opencv
-Architecture: i686
-Installed-Size: 37928
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.0.0
-Description: computer vision image library (with python2 python3 libraries
-Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
-Filename: dists/termux/extras/binary-i686/opencv_4.0.0_i686.deb
-Size: 6853072
-MD5Sum: 9a8dd958df7c09ff493452396dd18bd6
-SHA1: f82fbd811a43d25f737edaa09493ea56a2fd14d5
-SHA256: 3bd4c8ce0b90cd3a161ab6e3f302bc1702b278764b91b71f01b048e0fdd469ae
-SHA512: 71467b604969374081fb2d88f4a264e5c799ab94f18e161b33ea60ec1be42422967bebfd8750f784a1c01bf6b11e80e0ce9e4a28a212914ef7bcd5944ec8691e
 
 Package: openldap-dev
 Architecture: i686
@@ -1746,21 +1684,6 @@ SHA512: a342dbdc515483c00437399d0f416648552b2f979e20b6c6897d247d10c4d64019bcf2be
 
 Package: povray
 Architecture: i686
-Installed-Size: 24888
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.7.0.8-1
-Description:  Persistence of Vision Raytracer
-Homepage: https://povray.org
-Depends: libpng, libtiff, libjpeg-turbo, boost
-Filename: dists/termux/extras/binary-i686/povray_3.7.0.8-1_i686.deb
-Size: 11017556
-MD5Sum: 091e5a29e9b6fb56f62d14b048655e07
-SHA1: b829b9417109b7cb46e57e182dcd7a5286fde0f9
-SHA256: 3cd18c2609f7038c5ba13fce9e21056a77f8f0b97529749ddc40ef24e450cbed
-SHA512: 4d1e050a623dfa34deacfb41ffe5afbbbf399497640900c34a86872a80149d572c38630278ae22482df66649df23c02cc168783600e330fdb8cfb22969c217e1
-
-Package: povray
-Architecture: i686
 Installed-Size: 24900
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.7.0.8-2
@@ -1879,21 +1802,6 @@ SHA512: 8646a3f9bf24ffd795189de108c41eb697112a8a785c8376763dfc8644ab9ccf6cbd170e
 
 Package: quantlib-dev
 Architecture: i686
-Installed-Size: 8048
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.14
-Description: Development files for quantlib
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Filename: dists/termux/extras/binary-i686/quantlib-dev_1.14_i686.deb
-Size: 564232
-MD5Sum: a8ea0a531aa87d4fdaaf5a24d5ed682a
-SHA1: ea88c41b4ba158ad9a65e7f54077a65f335e945f
-SHA256: 46308c6bea60a2baa58192a854beef180b2a14242af0e202c973632e91ed036f
-SHA512: 4483f11bfd9fbe8b1e934fa4c453e0153b0df6d8de7d47c20697bcf43665688b802843ccda7d05232aab01b328462ba4ba57867989926637a226ec0ad4bf00e7
-
-Package: quantlib-dev
-Architecture: i686
 Installed-Size: 8116
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.15
@@ -1906,20 +1814,6 @@ MD5Sum: bf8139c36bb2e51953e90e1c5c99d12e
 SHA1: 0dcf9f80b6f484e186d89307c8dd96454ffebd19
 SHA256: 48333d0d90fc994a7c15b4b21088294f1b2faa5a8b90183e8f6cb4a89b672965
 SHA512: 38ee0bd8cb9afa8b52c372c30f98ea4b86e4858046222184bd99f28def5e93cc2624ffe09f350d944c516121d20b14bed6dc91e68489d2c81092525cc64aab99
-
-Package: quantlib
-Architecture: i686
-Installed-Size: 35204
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.14
-Description: a comprehensive software framework for quantitative finance
-Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-i686/quantlib_1.14_i686.deb
-Size: 8301172
-MD5Sum: 85f1867e14db78416f3e4dece4425ff4
-SHA1: 3355f7a282baf073ba6d95132d4fe9b1f8875b62
-SHA256: e6665086ca75f991819d2d72bdb9533a43be856157cab2b0f9ab67612c36b0eb
-SHA512: a7937e2de63c3a206695353881cbdeb8b89cdc3bf69d0f46050eb29def652719b585b9fdb5b617e5d2b2a50087d8e5255ab4c15c455bba793c3956f8e5247214
 
 Package: quantlib
 Architecture: i686
@@ -1937,94 +1831,124 @@ SHA512: dda0255ad7159c04ff25a32cb65e5b007f5e7c4665b75c53edd782abe266c340ec00bb38
 
 Package: r-base
 Architecture: i686
-Installed-Size: 64140
+Installed-Size: 64196
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.2-1
+Version: 3.5.3
 Homepage: https://cran.r-project.org/
 Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
 Replaces: r-cran
 Description: a freely available language and environment for statistical computing and graphics
-Filename: dists/termux/extras/binary-i686/r-base_3.5.2-1_i686.deb
-Size: 39904842
-MD5Sum: 224b0c5f31f2b9fa1f6a21057dc7a125
-SHA1: d7d70c2bdc08c37042803b8b6f97b03fcea478f9
-SHA256: 59a649dd18089f0dd6a244855ca06ab7d6b6f7ac1815b016e32f73b872d899f1
-SHA512: e74cd8032b36d3a8f745f75152d418b359b3ffc9b62fb047157e42f9e95835a09c3bc70b48a30a784f306b430851caab8cc565ff91dd36a92d85a4b51443711a
+Filename: dists/termux/extras/binary-i686/r-base_3.5.3_i686.deb
+Size: 39999144
+MD5Sum: e23e49d1d51dfc3ce9adb0c8516dfb5d
+SHA1: ecc46c415b0e90aabc1f68862b652d3d4b814e63
+SHA256: 655c1a5a7f4c965b4b3c8739d5dfb91eb643050b8bde8f7ffc2e638926824310
+SHA512: 6b7b27a9111b1bb105f0324c811e78db7ad719f483da2731e5ab0550a7a74952f72b6fb628f7d82d4fb549fb2955bbdc9d990d52436f37efc406bfe15cb099db
 
 Package: r-cran-rcpp
 Architecture: i686
-Installed-Size: 11460
+Installed-Size: 11480
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0-1
+Version: 1.0.1
 Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R package for Seamless R and C++ Integration
-Filename: dists/termux/extras/binary-i686/r-cran-rcpp_1.0.0-1_i686.deb
-Size: 3307334
-MD5Sum: fdeec8af8f86d313d6a6ee07e8c06087
-SHA1: 2569241b5378c98f4149d2d73abbb9a5b0a1e760
-SHA256: 9b089b5fd90046c7bb147b9558783316772f2a1abb096711827169003a426aaa
-SHA512: 8d8404afbff3f5d9bbeede7a720cb10fdec8b149cacc031f7e740a9bd3d2b3acd2d79f34343ceb7f5ebc52f635f9f8c65f650397b8d4c4b305535126b9550a43
+Filename: dists/termux/extras/binary-i686/r-cran-rcpp_1.0.1_i686.deb
+Size: 3321508
+MD5Sum: 73ee3104e908a6101cd77b6416bd9beb
+SHA1: 7b4ef0c47a63a5495d358d2390ee8d2de8210d31
+SHA256: fd8dc4fdeb1370c121f888e14b5310f3268f0ceffc42242701a83f96a4299e3f
+SHA512: bafed25a31302ca82f8bc28c25958b039d9bff88284814eacbf42381a74cb691f3fab7903f505cf66f0a04fe268bfe473f4594f897836066709cb2188a45dc7b
 
 Package: r-cran-rquantlib
 Architecture: i686
-Installed-Size: 3540
+Installed-Size: 3656
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.7-1
+Version: 0.4.8
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
 Description: GNU R package interfacing the QuantLib finance library
-Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.7-1_i686.deb
-Size: 870002
-MD5Sum: df4e4675b56ce69d52dbbd173842b839
-SHA1: 1b9182be6e7b61f615b7b56b62082ccd8153bc0f
-SHA256: 128dc7095aabd2d33519eeb94b2501a3c12060ef5cf261a339553f3a415d0ce0
-SHA512: 8e24ca688d8149f1ee598586ddfbdaa1c42c4bc2f6a22235b540603d9114bd67b572c5a219b74298c076aa2b3a978089edff5602435e42ca7950e7e86fef56cb
+Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.8_i686.deb
+Size: 891038
+MD5Sum: 8463885b28f9669cb2a8e9a49860fbb1
+SHA1: feb508d71895aa3f8e85b7d26b271aea7d97e229
+SHA256: f5f9be4eec91bcc4946331277e19cff53b2a01692740b688343d9861802e7fce
+SHA512: 43a619bb0bc5774951eb36f02f9c94ddfbded4a8b2a6ddbc88aae2d7c0d8c48e25804556455f51237e17888f168da9945fc4954c3fbf51df8e7f693bb3afba77
 
 Package: r-cran-stringi
 Architecture: i686
-Installed-Size: 1156
+Installed-Size: 1188
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.1
+Version: 1.3.1-1
 Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R character string processing facilities
-Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.3.1_i686.deb
-Size: 667898
-MD5Sum: 670dbddae937521e7258638a69576e04
-SHA1: 9e9c303f39067577cc29e0de6d1efb37495519be
-SHA256: 9f7da361f388e9dcf1845091ab11dd305519b471359dd3184fced06dbe6ad9e0
-SHA512: 267c3e2709d589a19013cd002bf8cad97ebf0a551503c2dec5bb3d620731815e9ef8427f7d8645f7aa81ad3b37e5e6af1acc10e0ced4b56bf83c7412e340b667
+Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.3.1-1_i686.deb
+Size: 674068
+MD5Sum: 25ab0a4f496c4e50bd798b7c04aca5e9
+SHA1: 0a932babc26476def42adcf9fca812f95fc09595
+SHA256: 334f32a4dbb50da91c404744175dee1f326cd6b8b8f6b6e0c38506c16d52deda
+SHA512: d826ec3ea417064cf20de87de7b9cc6e3c5bf5c174cdf28ae8b89e34b75d9856610a60fb27891235e0289ac04bac5749c3317f16b885700a1827b66132598db7
+
+Package: r-cran-stringi
+Architecture: i686
+Installed-Size: 1224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.3
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.4.3_i686.deb
+Size: 695986
+MD5Sum: a210ce075a16261f4f9c3e1fe1ffbd9c
+SHA1: 33c3d0cae57bf39910b06a817e1d186e0ca89625
+SHA256: 5e496c5d51f37b753d3166b88f0af2f178ca853e396fc4b62d5adb314c536c39
+SHA512: a98f569728fed6b123af81d5fa6db22d4993030839add40904d229121ea11c66aead6b65970d84bf48cda531bcad99628ddd370e591771f8a08ea121a2c39c9b
 
 Package: r-cran-tidyverse
 Architecture: i686
-Installed-Size: 219584
+Installed-Size: 220336
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-1
+Version: 1.2.1-2
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-rcpp, r-cran-stringi
 Description: tidyverse
-Filename: dists/termux/extras/binary-i686/r-cran-tidyverse_1.2.1-1_i686.deb
-Size: 37291518
-MD5Sum: 24490e25fc0262072d58a5fc5aed4fa4
-SHA1: 8efbc54a8dae2f3af17ec58dc6495011dd53166d
-SHA256: 7985f1035c2f3bb5f9077d13dd1009387598fe6dc9a824f59d067b1544450a06
-SHA512: 56f2a85beec91b0e033af9552ab2f9f940018c2298cc0b0c892896c83bf965674c71a66d0e74d21fdf4a0ea5f9d6031ddd4a302d60787e80a015bbed5b2227a7
+Filename: dists/termux/extras/binary-i686/r-cran-tidyverse_1.2.1-2_i686.deb
+Size: 37042792
+MD5Sum: 34a2703e44722586d7fb6c792b180eb9
+SHA1: 5829634dcfec8e38e87e25891eba018ae1a82790
+SHA256: f4820722d1412d2c4a20f1a99dfe6276cb986ff53cef673af5ee141a76b8894a
+SHA512: 4a814b487c8335b742d673e63dce07b8eaa21f6ff4031c22379ac5b1b7d7934aa4ab75ef5f8fb0a87b70a14ea05d249023a2bbf798c63704c7740b609ea35c2e
 
 Package: r-cran-zoo
 Architecture: i686
-Installed-Size: 1448
+Installed-Size: 1452
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8-4-2
+Version: 1.8-4-3
 Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R package for totally ordered indexed observations
-Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-4-2_i686.deb
-Size: 1052950
-MD5Sum: 7f4c63846245ebd5131505324652da6e
-SHA1: 0a25331d0da88eb0f7377e07e74bd667c7042507
-SHA256: bbf14167c4b6ae58de4f105666056de3befc70335cf8e2b3c37d283601621735
-SHA512: cf7f3471af7a6dfb0b6fe1464b6f9dc7e4ce378a1469b9d77fc230e8b1bde0acc05bd24f158cf8229af03e59fc773ee4f00f7121eb1d6c61a2c4b891765aaaba
+Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-4-3_i686.deb
+Size: 1051974
+MD5Sum: 238a87878356d9e1ca1ceeb56f4b1dda
+SHA1: b5db8481235240b5194021067ce7dbba4ad1b1d2
+SHA256: ee91d6e191af6dd837fd768559b5f5dfccc76f59aef40b1b85091a76c968bc27
+SHA512: e2287e2fe989e1a77908cfa7c107dad4b47f369b7e4c0eaba3aab0083fdfa88036afb1fc80056cdaad40cf9567fcdc58becde5305a87abeaa2fe8c34fcf9db15
+
+Package: r-cran-zoo
+Architecture: i686
+Installed-Size: 1440
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-5-0
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-5-0_i686.deb
+Size: 1051002
+MD5Sum: ce3d0b13a2ac08b1cbbe6c93e6c231d1
+SHA1: 7ba3e076b2bd814bc9e8708abcd70f37c007c954
+SHA256: f6c5191e652f1af4dc256c211f7df764810ac85d63768c8258a2970ab9a75832
+SHA512: d0ed6bec320d261fb95d6b6cade5cf3d0a289602b370cd99cb8e09d9f71405a1453a171faf61ff54651315d5c6a159d843482f638bf3ed70e582deffcbeea748
 
 Package: re2c
 Architecture: i686

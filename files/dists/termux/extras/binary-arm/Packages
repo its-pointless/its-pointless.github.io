@@ -1484,23 +1484,6 @@ SHA1: 7ef044768ba26e978e10b4f79a9906da8891848b
 SHA256: 1c0293f1ab19292e317ddb3e6bce5c3d31d1b2f1df5151510591dee782c33ee2
 SHA512: 8efd0502dc518c7b5d8067b13b8c6a2fd2ce1094daf5e11dcc111b8eee2583b3e23075cc0fdda6c5639edb67a541c171a265b2348459cf2750553c6a4b023151
 
-Package: newsboat-android-5.0
-Architecture: arm
-Installed-Size: 5156
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.14-1
-Homepage: https://newsboat.org/
-Depends: libandroid-support, libandroid-glob, json-c, libsqlite, libcurl, libxml2, stfl, ncurses, openssl
-Conflicts: newsbeuter
-Replaces: newsbeuter
-Description: RSS/Atom feed reader for the text console
-Filename: dists/termux/extras/binary-arm/newsboat-android-5.0_2.14-1_arm.deb
-Size: 1186268
-MD5Sum: 957301211e0af68d0f816573c73532db
-SHA1: eea13de1c4bada2725490d14d312d3da193b395f
-SHA256: 9a566d6cfd74fb50149bb0ccfbf010943ea5aad573734def2d2270ecadb468ea
-SHA512: e4233d9b74fab3628a4e0357539cdd2fa10c342a668d2ecd97900ea1ec6c0c73f0cc0d55f72898e9affce16022385f3619d0d0690a5a7992c9825344c187762b
-
 Package: nsnake
 Architecture: arm
 Installed-Size: 324
@@ -1562,21 +1545,6 @@ SHA512: 5de1ff66835a4d9c85183c40969b021f66b08e833918e939c01d2df07bb219217c444e32
 
 Package: octave-dev
 Architecture: arm
-Installed-Size: 5748
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-5
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Description: Development files for octave
-Filename: dists/termux/extras/binary-arm/octave-dev_4.4.1-5_arm.deb
-Size: 359854
-MD5Sum: 2183313654d5fbe100d7e710edbccb92
-SHA1: fe7f15ba49dbe35330a03cacf9bd665fec907251
-SHA256: aa79a2f8e82ed18bd33c1d1d4a4e82b1cabb1c2589bd4d8bd5bb838e6c8b851a
-SHA512: 98ba2a3aa8015289c7c38a54f8595f98326a91421972f9f1bba517b0a1804a81f76f26cd83ae1643ad0f5857ca3b3d2b91b1dbdb27331046893ecd9d261ef79c
-
-Package: octave-dev
-Architecture: arm
 Installed-Size: 5752
 Maintainer: Fredrik Fornwall @fornwall
 Version: 5.1.0-1
@@ -1604,21 +1572,6 @@ MD5Sum: 118d3a73b2b8c0a59c6dd580b7345168
 SHA1: 609db0f560812453ca53c806de5f18625c2d6a6a
 SHA256: cc56f8f4fcb2de9e02745f172107a3ba104b22c543f012aff20efa8e526ccf86
 SHA512: 8dcb466b647f0754442fd8c20ab1582d3f7b24f9b6e2fc608def4c71dee929872ae655d194e25680c20537489c8760c780f009ce9d5a082dd265cfadf1a5106f
-
-Package: octave
-Architecture: arm
-Installed-Size: 36804
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.4.1-5
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Description: Scientific Programming Language
-Filename: dists/termux/extras/binary-arm/octave_4.4.1-5_arm.deb
-Size: 9020248
-MD5Sum: 292d14b58e37af82269eee6dbf83c522
-SHA1: af26dd3d46f0fc90b74937a17f78113e9742e5f1
-SHA256: 4d1c6ccaaf4588825ff266d9b899601f1829f05e610725830234b0166f8a8408
-SHA512: c75577bd03b5141aaed190d656c92ad259985686dc1c70fb0344dbddd58f27c13cc8b43a995141db4fe0f189419803b0c7618c9abdc6ac5a3c6f67e7ad58400e
 
 Package: octave
 Architecture: arm
@@ -1696,21 +1649,6 @@ MD5Sum: 21d56bc62953f843c2d783af4c5ec3f6
 SHA1: 5c49f8c50bad41fc63785478c571fb0baef37687
 SHA256: 3d6872bede8bf314aced2c3a97bb0b31dae378c5dd4e4390ec81131e6d2198e3
 SHA512: c1d1d8084606d1e83c286980b0b07712f65db9a5d704071e0fe3fc04d0bae63d89a4d04bee1b33038ad4afa983127de9bd04f8251e8f5df87d1e221c04d9f8ff
-
-Package: opencv
-Architecture: arm
-Installed-Size: 31840
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.0.0
-Description: computer vision image library (with python2 python3 libraries
-Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
-Filename: dists/termux/extras/binary-arm/opencv_4.0.0_arm.deb
-Size: 6483956
-MD5Sum: 626c9789ea054da24ebe380f6f7f7f88
-SHA1: 816d9586576f682f0cdc492a02c06338056a9195
-SHA256: 1adef4fbec2a990654548dd18e3936ce3dc110c3227aa558a81c3c64ccdf3a5d
-SHA512: 6094284aaa57754f7fa23b875c6d91dd15b27256e5f208c03a905d7fe954ae841dfa19a8a9a0658bba3292301def2160bee47f1807d9a6bdcdd9b96244062bf3
 
 Package: openldap-dev
 Architecture: arm
@@ -1877,21 +1815,6 @@ SHA512: 71305f889af6d4a517033eeb8201781881c6a835dc14aa9ef2f9d1e4105bcc2a05e053f7
 
 Package: povray
 Architecture: arm
-Installed-Size: 24280
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.7.0.8-1
-Description:  Persistence of Vision Raytracer
-Homepage: https://povray.org
-Depends: libpng, libtiff, libjpeg-turbo, boost
-Filename: dists/termux/extras/binary-arm/povray_3.7.0.8-1_arm.deb
-Size: 10964328
-MD5Sum: 812f1658bd7c403b227418af3494e859
-SHA1: 3077cc4c130b499c32c41ae2ac655e2a8e343254
-SHA256: c952373e2bb2658e830fc0562899f9c228eaf96625448040d7e54212ea242e53
-SHA512: 91c38bb08b76db29d98c79feeb58e93b86b07eb4ff5154a0e47653f4ce75fd098812b73423297a24eb8327407ba62df33707b0b59e1b278a288cfd47360f0db5
-
-Package: povray
-Architecture: arm
 Installed-Size: 24264
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.7.0.8-2
@@ -2010,21 +1933,6 @@ SHA512: 8e98d3fb81c305c084816fa12c1047521c7ef370837f7356874c4b1c7ef0fd8b817e8d05
 
 Package: quantlib-dev
 Architecture: arm
-Installed-Size: 8048
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.14
-Description: Development files for quantlib
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Filename: dists/termux/extras/binary-arm/quantlib-dev_1.14_arm.deb
-Size: 564180
-MD5Sum: 421189a902c65db2537cbce81858bdd7
-SHA1: c56faef66f11be7aa65c6d6e0dd25d217a44f7cd
-SHA256: a58f55f9cb15fb0814f8147354d2d446cdc87507e5a522dadc9d015032db78ed
-SHA512: f4d3497b46c3dbacd06e05044366cf7513f4aa06542f57de6930088e4e054943f13e097427ec65ba8fc69acdebcc8ef047ebce6b9a6ed702231ceec41524e732
-
-Package: quantlib-dev
-Architecture: arm
 Installed-Size: 8116
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.15
@@ -2037,20 +1945,6 @@ MD5Sum: a9cdfcb574c53ba4e115fc65260b350e
 SHA1: 814809ecd6fe9b0af27f93b384dd037edfb83e2c
 SHA256: 3de1bdf9e4403d1d4077541b001dc1aea738b8661f6538fad0f9635a0d711f1b
 SHA512: b113f229cac7d430b1d9233e04550835f12bacab61e8eba7bdf090deb9d14a92234dcc46c02e688572891767da52ad64e96e4f5a45d140b14fe4f5ddb0eddcb1
-
-Package: quantlib
-Architecture: arm
-Installed-Size: 29164
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.14
-Description: a comprehensive software framework for quantitative finance
-Homepage: http://quantlib.org
-Filename: dists/termux/extras/binary-arm/quantlib_1.14_arm.deb
-Size: 8574976
-MD5Sum: fb9f0563e9d57d29523907615c8c0213
-SHA1: a68a95c960f250fcab5befe4d4af1a553905f439
-SHA256: e18ef8e40b535606b5a2960ef88ffe679e6c6abcedc76fe825ff22591d02aa60
-SHA512: 89bd6feb6576353a51d5bdbe537c637a449fbf14591aec129245806091cd3866f0711889fde1d42e7cf5dcfbcc491285f1fc8c8526137f1cf679cc3e192f6957
 
 Package: quantlib
 Architecture: arm
@@ -2068,94 +1962,109 @@ SHA512: 33cbbb841f14492c273393f7f7ef5257de47c7d1eaca6259307938e3a6f5b991f93901a3
 
 Package: r-base
 Architecture: arm
-Installed-Size: 61856
+Installed-Size: 63076
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.2-1
+Version: 3.5.3
 Homepage: https://cran.r-project.org/
 Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
 Replaces: r-cran
 Description: a freely available language and environment for statistical computing and graphics
-Filename: dists/termux/extras/binary-arm/r-base_3.5.2-1_arm.deb
-Size: 39661196
-MD5Sum: 4917979c0e59cd758de2bdd8c17281f2
-SHA1: 4f86bca3d513f21beea77fd5f31581905fbf208a
-SHA256: 5fa2204260e6baa637adf30ba7dfcd2a39c59707149b9d466746a22585c05ce2
-SHA512: a7c1e6eaec5da5b2bd76467b0228ebb1564e4e48301171e2983b9c73d07f1c7c94bc10fc9450932107d80551dad5d4a7e72a020948bd25c350c3624e61a4fad2
+Filename: dists/termux/extras/binary-arm/r-base_3.5.3_arm.deb
+Size: 39660790
+MD5Sum: 0861287db1a2e4f6e0de5ceca27a1dd3
+SHA1: 8af65095b69187db5bba40e721419af21a80f629
+SHA256: cfdae25bc4b107b820bde4e71c5b7ac2285f3dc1bb2cd4e499f61b7b1ad6a9ed
+SHA512: 7c585992294164f02517bc70c8f7bec1306b7667657a1da121cca22fbd51d7de1c30de15ec5143499d33781bb2ed09120be2af17530ca9eb635c44862a38d8a6
 
 Package: r-cran-rcpp
 Architecture: arm
-Installed-Size: 11284
+Installed-Size: 11372
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.0-1
+Version: 1.0.0-2
 Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R package for Seamless R and C++ Integration
-Filename: dists/termux/extras/binary-arm/r-cran-rcpp_1.0.0-1_arm.deb
-Size: 3292536
-MD5Sum: 3e4efde7a2a8e55706e15e77cef6018b
-SHA1: 1f0a9e348f8847ab495bafc61f671054674c9f6f
-SHA256: f06ac06f81370cc4a13b732fa898353fee60901aa05d46676925622f5eec5298
-SHA512: 155a545e781f26aa17ba2ef5b291157e7a6d7d9105de799e912ca7ae59a3848991651b6e415fd2ce35c5121cc3611e55df9dc3f9d960fc949a1d0155cebdc477
+Filename: dists/termux/extras/binary-arm/r-cran-rcpp_1.0.0-2_arm.deb
+Size: 3281148
+MD5Sum: de0c2a5e6ceeb2dcc2415d77b9a46a0a
+SHA1: 454f0fdbb05248ac3df35aabe89511c53c6a57c3
+SHA256: 59db837b83918d0358322666aee325b94bc880f392adf9fab4bb99abe3bdf327
+SHA512: 8471c0e4fb4cb5e47032d8d2729d90ba4152cbb3e578d5d9eef7b64047367331ac476d598a7ad16c395b93b2f4edde3a5145b11af2593716bb3e655a74d7dd0e
+
+Package: r-cran-rcpp
+Architecture: arm
+Installed-Size: 11396
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-arm/r-cran-rcpp_1.0.1_arm.deb
+Size: 3295334
+MD5Sum: e068a7ae33df760336a00da493cd8486
+SHA1: eb42976fff35491024c10da8f9363f815167f9c9
+SHA256: b125e10f2a5b782782052645265cef6375c090e2ccd77921c5c0b1f23c221337
+SHA512: bca611ab3b3daf5336cf5958463e36320adc51fa7a6b44e3d98d24e103583290c8fd8ab7607bb876af9faceb83f12e49285a40c9de6ec91ddbf4636963417afc
 
 Package: r-cran-rquantlib
 Architecture: arm
-Installed-Size: 2544
+Installed-Size: 2956
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.7-1
+Version: 0.4.8
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
 Description: GNU R package interfacing the QuantLib finance library
-Filename: dists/termux/extras/binary-arm/r-cran-rquantlib_0.4.7-1_arm.deb
-Size: 824582
-MD5Sum: 5919c09191da10e09f2b41326c60cdd6
-SHA1: db408ffdeb59704e13d9c96c29bf6920a8f1e068
-SHA256: 70e2b6345445ac41e1974fd4a78b1d5ec9a28cdba4c6c6fc5cea86343eda72f1
-SHA512: b7d45429135ce5685054252fb265fcd4a4dcbf04230f0543b7bd26c2f7dcd93ce7ef352ac164e74fb48ec7bd3ed51b1ea18d7e6aebdba0ccc14e12080bc81b05
+Filename: dists/termux/extras/binary-arm/r-cran-rquantlib_0.4.8_arm.deb
+Size: 810824
+MD5Sum: bb9de368cf292bf8ae1a170b4905c80c
+SHA1: 3c10594957b5b4c6b618f53e1534fa95ee91884c
+SHA256: 42feea269cd5562e5b3435ebf724f7524c51f67c002297cbe32e3465c455729c
+SHA512: 8a4af119cd23b93e9dbb16dee894264b450ee289c25255421592361ea6317685fff522f51107c6ca15b837e5abd9912119bad7d5438dd6b70fb7cf89778dbc8a
 
 Package: r-cran-stringi
 Architecture: arm
-Installed-Size: 1020
+Installed-Size: 1144
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.1
+Version: 1.4.3
 Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R character string processing facilities
-Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.3.1_arm.deb
-Size: 653234
-MD5Sum: 8aef5d103b276332dc975a366abadcc3
-SHA1: 1f8fb540fc8e6489efff9265874644c40b3822b3
-SHA256: aee73e32fffd241ae52636e9c379cfaa50ae4642811bbc3449ee275192251615
-SHA512: d5336d9e243a6cc8be3a1adedb6742f81204f2d7073abdef417eab1b832a2222197b99cf683190aab54c4f165723d115777ba28db452fe7105bfc170cb24b6bb
+Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.4.3_arm.deb
+Size: 673212
+MD5Sum: c160d815e6b800a14dfd438629d59167
+SHA1: 015e3fc1b00c843c65b6f5e487d5ea001524ed8e
+SHA256: 4b640a395efa0885bc686382fbbeffb00b66ab6dfe9f57ad9249200253a4d451
+SHA512: 3a0232f4d3c74592cbc1fbaf30358f5acd2ae1393224f39104b9602f935ad0ca22a1ac0515033646442cf16cae7d514d11a60937d6586f553b188ad98ad9142f
 
 Package: r-cran-tidyverse
 Architecture: arm
-Installed-Size: 217392
+Installed-Size: 219168
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-1
+Version: 1.2.1-2
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-rcpp, r-cran-stringi
 Description: tidyverse
-Filename: dists/termux/extras/binary-arm/r-cran-tidyverse_1.2.1-1_arm.deb
-Size: 37411696
-MD5Sum: 2bf5a5ca887a788513e474fd4ad134bc
-SHA1: 47dc407cc98a3c4f50915f515b6108f7cda5673e
-SHA256: 7bf663d5d666d041344f13bdd13b2f0111177ffd26c1ab2ffdaf7dcf81d00bc0
-SHA512: 459cbc4102c02776d0358682f1ad45396d80e209a42f49a71df4eb9f186e5ac1c16434fab118ede07b241502c4888625ed540981f3d7babbea06adc6e004304c
+Filename: dists/termux/extras/binary-arm/r-cran-tidyverse_1.2.1-2_arm.deb
+Size: 36903020
+MD5Sum: b73600b42ca641804e5a4ebb43e7fd87
+SHA1: f006fc734a1c1494a5c7d5ecbdfddc110924a458
+SHA256: 329f8064c29729f0664c54ee828587ed5b75de740597419e72b1e791d0bcca4b
+SHA512: 05ee6055a54f79e9613cbe68d31972afd020c64ed690acd9a2913346e9daf98860d7bfc2a6e97cde86224bd8a00ace786c6c871b4f40344d2775a2c3484b882f
 
 Package: r-cran-zoo
 Architecture: arm
-Installed-Size: 1444
+Installed-Size: 1436
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8-4-2
+Version: 1.8-5-0
 Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R package for totally ordered indexed observations
-Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.8-4-2_arm.deb
-Size: 1051464
-MD5Sum: 39e5e139583ed25530e33658a7d43442
-SHA1: eb368c5a2dc1a12e957c76ad5b8d261bfbde5e12
-SHA256: fe7d1dda7f720a0162bd5f415b87ee7743b1c3df731b43718b57e33c4f53bf7f
-SHA512: 08e729f5cf1043e8ac38a50d673b68bf0ec151d602fc34df982441a6d71652ea316af2e59117885211580c097da411b74104c6350600235ee06377c7bac76191
+Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.8-5-0_arm.deb
+Size: 1050618
+MD5Sum: f6e0242c6285902d05e002e21be72f75
+SHA1: fe3d2ccac4921d08dc25bea2438d1667890640b8
+SHA256: 8754299078cd62c7af67747e06d6c4e568fdc17abeddba24079ccfff99fa3438
+SHA512: 5a352e9202e3e003ab7b54e54f50d47e91a538077b1a5601c25ce622274cc71493d7c7e4bd28a92ef553257cbcdbb0a9ad5e1c8c510617e1e9c1aa5de2336df8
 
 Package: re2c
 Architecture: arm
