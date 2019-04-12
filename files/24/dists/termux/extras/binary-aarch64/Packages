@@ -28,6 +28,35 @@ SHA1: b9bca30eafdd520eb6bdaa95d711f7d5aeee96f3
 SHA256: 8c97e8f4be178f825477c3682adf3e83f4efc75a6fab308f54937e052352c8ea
 SHA512: d694f6dcdad848ca6abcc9c112e044795afffe6bf0befe401d139a2d6f0219b44b11aeea3d261c7a03d1c317cc32d3bf948e08a48d99e31c1d9e3afc63cde0b1
 
+Package: bthread-dev
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Homepage: https://github.com/tux-mind/libbthread
+Depends: bthread
+Description: Development files for bthread
+Filename: dists/termux/extras/binary-aarch64/bthread-dev_0.2_aarch64.deb
+Size: 988
+MD5Sum: fbe3fd09c8a4b8244066689a10181744
+SHA1: 630e813ff8b0349efd351d6cfbe1bc172e9eaca5
+SHA256: bfbf8a064e27e587e2fd6619618a69c160ee9e578ab61309c260520b2bb16ad2
+SHA512: 9c92d0456d87b516fe26b166a0846cfb2503ee6df337c71f532db1b0dcea7a5b11d920dc7a495b65413fc4deb4cef4820d2e5f787cee1f07688d00b7f9b73525
+
+Package: bthread
+Architecture: aarch64
+Installed-Size: 12
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Homepage: https://github.com/tux-mind/libbthread
+Description: pthread-cancel implimentation
+Filename: dists/termux/extras/binary-aarch64/bthread_0.2_aarch64.deb
+Size: 2538
+MD5Sum: ccd6253e6862d18e6f7d59a97574926a
+SHA1: 059c42296205d0a7c101d604f3ad00491cf919d0
+SHA256: c8011f096d705f635591d78037781f9b42a36873ee8638227d72eb759c4d52dc
+SHA512: 8b689011cfe7d833d36e6b3d8e19e829a708a92d8cbf53a5b413ae824d0fa2731fca90242b817ea8dcca48a63178a9197bc102712c6e421e569457e6f368f3ec
+
 Package: ecl
 Architecture: aarch64
 Installed-Size: 6564
@@ -43,6 +72,21 @@ MD5Sum: 266f4ece74d27cb904e1215839014711
 SHA1: 5233ff565691cca61ff6076ed4f0c806702f730b
 SHA256: c6b89d331fb2cb354eec1d8f00e6ecbf95d72d819b94d888bc3eca0eed1ca0a4
 SHA512: 11a706b527547f5827611baddfa1f6936f8e3c14be979cc93d8f100c1f80544aba64c7a217c79e69f0d6499d6b8c1f87772c7c1b5e4e25cfc424039160025576
+
+Package: efte
+Architecture: aarch64
+Installed-Size: 1356
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1
+Homepage: https://github.com/lanurmi/efte/
+Depends: libandroid-support, ncurses
+Description: eFTE is a fork of FTE  Folding Text Editor
+Filename: dists/termux/extras/binary-aarch64/efte_1.1_aarch64.deb
+Size: 253750
+MD5Sum: 8cca413840b2ab850e101f7d941d684d
+SHA1: eee545a28d2244dd34b3c553691e6c115a864ef6
+SHA256: ab3b6865246592988d20d86631a209f5e7b64653c77137530a114dd866e3722e
+SHA512: 0059edad940c7e9887de60db024df0f90df81188c91981e968cb1cf426bcbe4956c03107d74ca93c129f99954d2139d972caaf52bd354768ac9b8fd334fb06cc
 
 Package: fp-compiler
 Architecture: aarch64
@@ -313,6 +357,21 @@ SHA1: 45c68507316f79f90af10d7ad269aabce16efa40
 SHA256: bba6ad75f84afa5a3c0735abb34d5854df12d123380278975cf02a84024b55a8
 SHA512: 73dbac8bc5da9a9ad1ef543524d8f4a8f9537e7b9a6bcb8c0529a6e1d7cffbf57aee81d17ecf85f3f4ed9b3e3b3a600bcc02bc588c4d2966d46145eb95e8e5da
 
+Package: mongodb
+Architecture: aarch64
+Installed-Size: 161480
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.9
+Homepage: https://github.com/mongodb/mongo
+Depends: libicu, libcurl, libpcap
+Description: mongo db
+Filename: dists/termux/extras/binary-aarch64/mongodb_4.1.9_aarch64.deb
+Size: 34810382
+MD5Sum: b9b0c7dff6e49f078f2794ca683bbd9f
+SHA1: e23113e72fafdc7d435c03cf255c191f338ade51
+SHA256: ee115995922932bb5951e55faf86a3952509d22bd0039a2e66eed9fc45462dd4
+SHA512: f8d8b8efb39aed8b7ab46d88cbedda3ebe6032fbd6494097f701f7b259389f21eaf417d7c3390e5b9822800322da04c0412ef6603e7775a9dc90aac61373c162
+
 Package: mpich
 Architecture: aarch64
 Installed-Size: 7380
@@ -387,6 +446,21 @@ MD5Sum: 19c88a6360a9dbf84755161efa14778d
 SHA1: 79a2753bf8e933e623a5040f559dc7ea4cb1c6d3
 SHA256: b82b37e2dc5a383d4aef205327a06b92489437497e098f44406d849f2ad33631
 SHA512: 760692b6557413458e1c0764593d89629f782ec8c3816a301f09461392b2ff974e422211e61a2eab3bf342b2c9ff448a57377fe861bf258528eb14770ea6fabe
+
+Package: pcrecpp-dev
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.43
+Homepage: https://www.pcre.org
+Depends: pcrecpp
+Description: pcre cpp
+Filename: dists/termux/extras/binary-aarch64/pcrecpp-dev_8.43_aarch64.deb
+Size: 9594
+MD5Sum: 7f63c48d63019a8e21eb95a27df96bc1
+SHA1: 6aa0fc5bfbbbf015148b208cf3145e12295a0eeb
+SHA256: 3d65980334a2ce92aca28c3e20464ab20d997a5d1e3d1b1b76e15da574b941f1
+SHA512: 95a55ab9c42b807f2df2b5541bac416b9f88ecf5cb1acbc8076a61d02b41772d1716ba74f3df94fea54f072e373ff4310a8ad8f1d575efa27c6abfe17ba3b8e9
 
 Package: pcrecpp
 Architecture: aarch64

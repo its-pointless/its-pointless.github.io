@@ -28,6 +28,65 @@ SHA1: 3f1d526ad25c86a1bb92e3be36a314acf7290232
 SHA256: 5785abd19adb4c71945ee4b46e144016fb6f9bc3eb0653892c0f0a4655dbde36
 SHA512: 6e71147d0d2bbd16e7335af8332f74a46d146c46a82e08c8a27321efe17355715bfa1553155d4ee9ee01144d5688a1f1ace9d4d5329a46c984a58ec29348669f
 
+Package: bthread-dev
+Architecture: i686
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Homepage: https://github.com/tux-mind/libbthread
+Depends: bthread
+Description: Development files for bthread
+Filename: dists/termux/extras/binary-i686/bthread-dev_0.2_i686.deb
+Size: 986
+MD5Sum: 32568b5609dc6cc4e640d67391c63190
+SHA1: 51fe2beb3f7b22db5b6efb3ae0106512ad8b7343
+SHA256: 39ce1c55ded9dfbe69186434ada5f52493bb5dbd8dc0a2697810805ead5feb3c
+SHA512: 2d9c87f44fccd61192a581f24a201365b36e0e9165c9270077c2833467562568763dc3c2703b62d41d4c562c12b25e72f9e05e51bf45e372250e5ae846c995ca
+
+Package: bthread
+Architecture: i686
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Homepage: https://github.com/tux-mind/libbthread
+Description: pthread-cancel implimentation
+Filename: dists/termux/extras/binary-i686/bthread_0.2_i686.deb
+Size: 2620
+MD5Sum: 7c648eff1dab55238811a4413384a35c
+SHA1: 5d222738ed7c8fb4f653fc81dbf986f865fb3ab4
+SHA256: 29dd23674c480bf03431f602124f7e03ed8673e8a78ead374bf4af321b4aab8d
+SHA512: 86d1c0be607028c70f3b951f01e2389e741e2d56a41449c2ba48cabedabf498e46eaecaec783590894fd830025a04ab85de3151ed35ca48223ac1dbaa6d6188e
+
+Package: efte
+Architecture: i686
+Installed-Size: 1324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1
+Homepage: https://github.com/lanurmi/efte/
+Depends: libandroid-support, ncurses
+Description: eFTE is a fork of FTE  Folding Text Editor
+Filename: dists/termux/extras/binary-i686/efte_1.1_i686.deb
+Size: 275916
+MD5Sum: 80ce30c1a30171785a5fa0766a7fe3a3
+SHA1: 24d73e237a1f1f5400e464c94a40d2f958edad98
+SHA256: 9c507395b36b39f755afd927aa99348ae9f972e6cc16baaa11b5b18f07973b7c
+SHA512: e358d0d67c1a7b107d94a7a4fa86950c69ddbf9638868d28f66a40426249bed78dd827a2f5e0255394215824c2412015f6fa8bf7e8880f2f31001581ee5007ae
+
+Package: fp-compiler
+Architecture: i686
+Installed-Size: 134428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20190319
+Homepage: https://www.freepascal.org/
+Depends: binutils
+Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
+Filename: dists/termux/extras/binary-i686/fp-compiler_20190319_i686.deb
+Size: 18308464
+MD5Sum: 0fc9e0ef9f75c40b15746257ec51bd3b
+SHA1: 83fe646efb59da87a4b9f7f3fcced0ebd1f74fdb
+SHA256: db1eef2dce0fed2c8bfb21bab922f382c1223f5f3a219141cf1a6fbcbfa9b5d9
+SHA512: ca57c7fd6b61a24a12ca6b0271f501b9d8b7f68dccc7776c935379282533110125e440a111678a829c60253fffa44b2aa17f367e1d4cbde7ac102222dc204361
+
 Package: gcc-8
 Architecture: i686
 Installed-Size: 114532
@@ -268,6 +327,36 @@ MD5Sum: a966554006d016ef7f4e6ad292ad2400
 SHA1: 07821355483c6ab05b3588782405ae53b600c779
 SHA256: 49e856e99b694f6abd6e5f364e3d1c11a2d7edc18d468b60db4cfd882003fede
 SHA512: 16a9c5aff611133113ad9cee82b35b3af261c5827ba29e90c8b7364eca5be0877d7d63ad101ecd5d8dedcffd1c977d142d9fcadcb67c62b61cfcf61018da3746
+
+Package: pcrecpp-dev
+Architecture: i686
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.43
+Homepage: https://www.pcre.org
+Depends: pcrecpp
+Description: pcre cpp
+Filename: dists/termux/extras/binary-i686/pcrecpp-dev_8.43_i686.deb
+Size: 9602
+MD5Sum: 3830ebc5b1e6f0890c95b4d43b2676f7
+SHA1: 2a981bb727e69da80f4e15f38bde00cbdda2add6
+SHA256: 827184ec27ae43957ec37c4aed613acb08a5b898ace89dfbd317603cdf62b723
+SHA512: 8dbd88c3e5f836cf57f6e6f91c5e970dfc07ba218ff759f3de7c4135764aed819515d5d5cb36fc9bbbf043bd021e6c84162192779e09229bd17aea037025b5ac
+
+Package: pcrecpp
+Architecture: i686
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.43
+Homepage: https://www.pcre.org
+Depends: pcre
+Description: pcre cpp
+Filename: dists/termux/extras/binary-i686/pcrecpp_8.43_i686.deb
+Size: 21878
+MD5Sum: a5c664f26ef8157a5727057964621f79
+SHA1: 1964bfffb45083c9c099e6d89b69d176ebdf23ff
+SHA256: f1a563a6df82b694621f26548f553371ca716cbecc3ded49b0e48d7576588e69
+SHA512: 367bc219867159f329cf0a56e7d65d351695f7a60862af215794ab364dcaef7a29c89f5ee2550742b66e1ef0c4b411b95d34e9f53d339651e2197ad7037f1791
 
 Package: qhull-dev
 Architecture: i686

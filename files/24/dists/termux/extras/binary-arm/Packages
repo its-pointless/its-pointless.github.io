@@ -28,6 +28,65 @@ SHA1: 912e0c7fffea36edf9176e9c3fd22f0973ac51dd
 SHA256: 0693e918d3b7259101ea0b7e77adc37ef781e7080f3cd1506712d806e7264539
 SHA512: 13e505044586ea8370f726f9aa3f01eb55e48f76e1dc7d911a5c16c963e62705649c5848dec06b35ecfd5ea235e9f4d6ea25a02088d1d3f15929472bcf0e9a2c
 
+Package: bthread-dev
+Architecture: arm
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Homepage: https://github.com/tux-mind/libbthread
+Depends: bthread
+Description: Development files for bthread
+Filename: dists/termux/extras/binary-arm/bthread-dev_0.2_arm.deb
+Size: 986
+MD5Sum: c55b690c22adb4028c6edf3f050b624f
+SHA1: b5ae6ecd51d7cd0f137e78f896906355fa56d953
+SHA256: 1b03ccf3cf656609ec9ef3bfbb80891c8a5829ee9848c422a1bd8d8950e76d2e
+SHA512: fb4dbe80f099705691b849bc30f157591958659cb0a13b7432c5c0069f770e6ba306b377dc50dd4f5c7408f89e63c7a9ac91da8d8c849557d0e7e5e849e314a1
+
+Package: bthread
+Architecture: arm
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Homepage: https://github.com/tux-mind/libbthread
+Description: pthread-cancel implimentation
+Filename: dists/termux/extras/binary-arm/bthread_0.2_arm.deb
+Size: 2428
+MD5Sum: b1b94f7f9924a795716b4c565cf5db66
+SHA1: 2477e0275a623ac7d5258211015d1da3f78af81f
+SHA256: 01add76f9eb83c131ce4f5611c9735d4f60f354de7e5e029e945bac51e6c66ec
+SHA512: 655a38b0dbb855af9a1abf050a7f940be137e7ae7d688b679a5c7426a086e0d1fdc06847defb5147cafb993b3553cc46b220114aa57cdc4a466e1a9fa52e3908
+
+Package: efte
+Architecture: arm
+Installed-Size: 1156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1
+Homepage: https://github.com/lanurmi/efte/
+Depends: libandroid-support, ncurses
+Description: eFTE is a fork of FTE  Folding Text Editor
+Filename: dists/termux/extras/binary-arm/efte_1.1_arm.deb
+Size: 238552
+MD5Sum: 72a1ea0bc496aa3043ad6f72c0b998be
+SHA1: e91125b05f652a79ea1bf9d89bfab675201e6829
+SHA256: db68b6153dd978098781edf2c3bf6e3897e9c9b3f9c734b86c3efba373bcfa83
+SHA512: b53eeaf872258204cac2dd7069a0dab9d9d1e66e7bb61ec81ebc977a8677f5bec1c5969bfd889b52bb41670d7bf8020a12aa73bfb32847b1c792517a970d4eb7
+
+Package: fp-compiler
+Architecture: arm
+Installed-Size: 134464
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20190319
+Homepage: https://www.freepascal.org/
+Depends: binutils
+Description: Free Pascal is a 32, 64 and 16 bit professional Pascal compiler.
+Filename: dists/termux/extras/binary-arm/fp-compiler_20190319_arm.deb
+Size: 17978430
+MD5Sum: 3d95b31876a43eda48e98a0df7211ee2
+SHA1: 71bdce6232f67327e54de63d1da683128484785a
+SHA256: db63a0682d5b79ddd5e316734ac12819736147fb1e792002b2ede2ef582050e6
+SHA512: 86c033984d7f9a83dc168f09d23a8a363cd0488e0b4c777fbffb069a3682c4015f47a605d21a860d9fac6c05d68bce32ce3b05ca6b9781b8404bd03af40f11a4
+
 Package: gcc-8
 Architecture: arm
 Installed-Size: 103304
@@ -312,6 +371,36 @@ MD5Sum: 4732d6bc66e3a5a52f08a0d718180ba8
 SHA1: 5f206386ea42ab441be6763fe8b6a48dfeef7ce1
 SHA256: f8076e5aa9be20411415edeafd2165f9af4845eb8fe18bc58eef1792ecfd8aff
 SHA512: 33b3c6de624b0e969ebb2ac525da6b7da09679e324429801e5f30c356bbabe14590ff426bd78fc224f9f31fa9a6491dc3524c13732692549f26fd2f3697908f8
+
+Package: pcrecpp-dev
+Architecture: arm
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.43
+Homepage: https://www.pcre.org
+Depends: pcrecpp
+Description: pcre cpp
+Filename: dists/termux/extras/binary-arm/pcrecpp-dev_8.43_arm.deb
+Size: 9590
+MD5Sum: 27cd05c63dc519e37026301aca0a7ef7
+SHA1: 2466e0c363ce460f1fc3ea40976baf48ee5ecdd2
+SHA256: bcb2e1166ebc2d81b588a82e17fad5401ca389c904ac1b25f23a470a9d7cda8b
+SHA512: 2ac4eaf85d5249b520f2cd92f39cb09fc3f29d48e93e6833185a5cafa5fd03819b509602c8fc75ff7e58c0b83bc19cc1bdcf284e30d4873bb7b6ce14a62fc056
+
+Package: pcrecpp
+Architecture: arm
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.43
+Homepage: https://www.pcre.org
+Depends: pcre
+Description: pcre cpp
+Filename: dists/termux/extras/binary-arm/pcrecpp_8.43_arm.deb
+Size: 15046
+MD5Sum: a408c7f0e6678f744702d9a1c03c01c9
+SHA1: f5a19c3052479c098746c518b6ff7ab146c4e79d
+SHA256: 6a2b75f2ad4c746254ddfe03a5bce2a57f9622075c606cde0629b8eafa7d29ca
+SHA512: d94b8c66cb3b040c08b82317a08b213210d459d2c50afaa05e6ee0d16bdd1ac79cd9cd24f4e8fad08db18feaac68270217f8ce79c19dc00fe558ea5480dff688
 
 Package: qhull-dev
 Architecture: arm
