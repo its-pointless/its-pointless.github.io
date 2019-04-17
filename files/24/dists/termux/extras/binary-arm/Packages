@@ -57,6 +57,22 @@ SHA1: 2477e0275a623ac7d5258211015d1da3f78af81f
 SHA256: 01add76f9eb83c131ce4f5611c9735d4f60f354de7e5e029e945bac51e6c66ec
 SHA512: 655a38b0dbb855af9a1abf050a7f940be137e7ae7d688b679a5c7426a086e0d1fdc06847defb5147cafb993b3553cc46b220114aa57cdc4a466e1a9fa52e3908
 
+Package: ecl
+Architecture: arm
+Installed-Size: 5384
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3-1
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libgc, libandroid-support
+Replaces: ecl-ext
+Description: Embeddable Common-Lisp
+Filename: dists/termux/extras/binary-arm/ecl_16.1.3-1_arm.deb
+Size: 1427282
+MD5Sum: f95ab5bbe9ddfd44334283be0ba11a09
+SHA1: cb22a3eaeef8cc586b4bccb1adf56f3e67f009c0
+SHA256: 7c42e698f5229e80dd8ff3bea3b28b5d63b15e7b895d1e255ab39db66961449e
+SHA512: 3180be6bee779817d29aeac32ff6cef3388400dcc841c476b2dc6e6b34ebcdbb7128596c59b9135f674eb4b44c5c98c3ff5081c565e2c41aa6c083356c85902e
+
 Package: efte
 Architecture: arm
 Installed-Size: 1156
@@ -71,6 +87,21 @@ MD5Sum: 72a1ea0bc496aa3043ad6f72c0b998be
 SHA1: e91125b05f652a79ea1bf9d89bfab675201e6829
 SHA256: db68b6153dd978098781edf2c3bf6e3897e9c9b3f9c734b86c3efba373bcfa83
 SHA512: b53eeaf872258204cac2dd7069a0dab9d9d1e66e7bb61ec81ebc977a8677f5bec1c5969bfd889b52bb41670d7bf8020a12aa73bfb32847b1c792517a970d4eb7
+
+Package: elfutils-ext
+Architecture: arm
+Installed-Size: 1508
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.175-1
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, liblzma, libbz2, libelf
+Description: collection of utilities to handle ELF objects
+Filename: dists/termux/extras/binary-arm/elfutils-ext_0.175-1_arm.deb
+Size: 372128
+MD5Sum: 08847c70402da83aecd67a8c172d2b13
+SHA1: 8877d4a366e560d9f26e8963f8c60e7cf354edc5
+SHA256: 551943430c7a534ae0ea9a5859a4de444c267e09124ac1b1d4ccec20316cd3b9
+SHA512: bad283baf19b6e2be62aaf2e2a22a0c1681786469b84374fba5586ace11bda65504ab5b2ed3b9d6ef1086f436ba87e5270580c0a261663070b59985a5dea557e
 
 Package: fp-compiler
 Architecture: arm
@@ -402,6 +433,21 @@ SHA1: f5a19c3052479c098746c518b6ff7ab146c4e79d
 SHA256: 6a2b75f2ad4c746254ddfe03a5bce2a57f9622075c606cde0629b8eafa7d29ca
 SHA512: d94b8c66cb3b040c08b82317a08b213210d459d2c50afaa05e6ee0d16bdd1ac79cd9cd24f4e8fad08db18feaac68270217f8ce79c19dc00fe558ea5480dff688
 
+Package: povray
+Architecture: arm
+Installed-Size: 24264
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.8-2
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Description:  Persistence of Vision Raytracer
+Filename: dists/termux/extras/binary-arm/povray_3.7.0.8-2_arm.deb
+Size: 11009072
+MD5Sum: 447a2de7963ffc1b336c42dd456eff3c
+SHA1: 65793216f00c62db7ff51c2be9d9f7edacded71a
+SHA256: 828f03f19c347654d46fa07608682189d7cd21c1c400fca52ce5b275fc499f58
+SHA512: 3ccc0e48bcc3e5573d6134d6a4d07b6d8fac916e59b2ab3facb5e7036dc5508406e7ab5831cbbac597c5663424c02330322e9b220000fef507dfa37f69a6b374
+
 Package: qhull-dev
 Architecture: arm
 Installed-Size: 872
@@ -474,6 +520,142 @@ MD5Sum: fcd633fec2ea893313e60e4968fb7545
 SHA1: 81a14174f4840cfbd8a52875b2cfc759093e995b
 SHA256: 4223716c3aada0f3846cffb5ce7702ae95e19f99664cc8b4a5888886c70250ac
 SHA512: 5ffc2d3cff1ec3ece821798d99559c1d5acb94dd08d6589d2cde02ef7e342b480944962df3356a0f79576e7e8198253a2d2c11214bc967b83142345f333ba920
+
+Package: r-base
+Architecture: arm
+Installed-Size: 63096
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.3-1
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-arm/r-base_3.5.3-1_arm.deb
+Size: 39657130
+MD5Sum: bc87baff08abbdabf49b2b88a3d0fb4f
+SHA1: 70163596f1e876d5ba8c97c73a907abd353c0279
+SHA256: e854fdc74a04f142dff620339dd2d93e3c0759d6a81659303be6f6a741827d63
+SHA512: 48fe16fe608dda0ba3544900e66daa624d0dc2e028b79e55af849aa7a74380578c80dd3a3a28efa301de5312d56add9f335800866ec7c4fb0f440f61364c2418
+
+Package: r-cran-rcpp
+Architecture: arm
+Installed-Size: 11396
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-arm/r-cran-rcpp_1.0.1-1_arm.deb
+Size: 3295396
+MD5Sum: 4b8f9859605ee39be42c79710562ecfa
+SHA1: fe1b51236cfb8cc780dbc6a00e1cf517f88096bb
+SHA256: aab311f2266af7c6d0dfc428d436f9c938d0f0babab2f1c77779ddf90ce82deb
+SHA512: defcc6956943c2badf4bd96fc95bb057e5c1740a799f88923545c641c767e0d13e68ab2612e2182421c2ddfb9a7b0b8a7c0b066dbafa3436e7701cf34f458004
+
+Package: r-cran-rquantlib
+Architecture: arm
+Installed-Size: 2956
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.8-1
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-arm/r-cran-rquantlib_0.4.8-1_arm.deb
+Size: 811384
+MD5Sum: e1793a9de490e9ae3b4cd028a90b8ddc
+SHA1: eec6e365906bd48581b6a639d1a142054b947442
+SHA256: 5eeab9286a87abadd0ee39fa9e1134e55ab185a7772bffa3008dd15af15d5174
+SHA512: 556fa8f5057d4883f1f0d54fe950a35f1175059cd9c95d40ce10285ab80357c371bf4a5bd1f631614e171cf80567f60dbc7b085844b9052ba2896843ae5ecd72
+
+Package: r-cran-stringi
+Architecture: arm
+Installed-Size: 1144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.3-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.4.3-1_arm.deb
+Size: 672730
+MD5Sum: cf0f0df925a513dddd6aedb4c28d5738
+SHA1: b1a1750d85682f3969ea3efac20f947a1032b7ca
+SHA256: f7f24c692224f334d3bbc6a077265c1e767883814b7484c144ce39b5fb50d63c
+SHA512: 42e4362656bc2282fcd4b8911e8a87d78cc3d29f75e9aaa53650edb75382324e956b2bc57744c4bc949c21ee1292ee2f87046dcb48524656f551d3b8acdf1050
+
+Package: r-cran-tidyverse
+Architecture: arm
+Installed-Size: 219428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1-2
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Description: tidyverse
+Filename: dists/termux/extras/binary-arm/r-cran-tidyverse_1.2.1-2_arm.deb
+Size: 37012676
+MD5Sum: 924daab7c7b683dee64cd4f9c6fe5146
+SHA1: 1d85adb111661e25df18d871faf6b4fdc89f0b4d
+SHA256: c129552e392aca9ed5b3e099927d53eaa660502ec977af4d30854135f4d30714
+SHA512: 907e9b06d6fe89e867980ab0cd3c22d30a5b8a96e9904cfb2c08fe96f187db5eedac1256bf0a7c4a0d41eae7c45b09e746d4d6ba99013f76212b2d8f126ffda8
+
+Package: r-cran-zoo
+Architecture: arm
+Installed-Size: 1436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-5-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-arm/r-cran-zoo_1.8-5-1_arm.deb
+Size: 1050604
+MD5Sum: 60c37361f4031f41eb5835f0f7aaeff2
+SHA1: e4f690ce7c2798a325d81e3f9ba4feafd2bc7946
+SHA256: 77e8060fc579ee0879b0bbea414490a1fd8e2a83202d9e2b608d619de6df0baf
+SHA512: 82820d797203e6915d9b308406d313f5100a4ad770c7a95d850019604b97f6f8d52ee53a4b277c65f9b8973f5bf9ea4ca5a4035c51a8e7ead6625b5b594168bd
+
+Package: rust-rls-nightly
+Architecture: arm
+Installed-Size: 11828
+Maintainer: @its-pointless
+Version: 1.35.0
+Homepage: https://www.rust-lang.org
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.35.0_arm.deb
+Size: 4455896
+MD5Sum: c37eaf3e654212cb16b74e1a25bc9d12
+SHA1: de6c484fc06bae5faca647d929b0c50627d0ee6e
+SHA256: b10281d8b1f7370b6ab99762470c67366d3ea4dc133a12a40dd8e5c1b90825a4
+SHA512: 5c5cda9ddca53986a70d464e33187d24587e04b761515bb11c3b27b519807f7d6b0e7cf87f7429786b1a475d16e297b6bfbf674264d15f71719da39daf3c4f09
+
+Package: rustc-nightly
+Architecture: arm
+Installed-Size: 170992
+Maintainer: @its-pointless
+Version: 1.35.0
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly, libgit2, libssh2, libcurl
+Description: rust nightly
+Provides: rustc
+Filename: dists/termux/extras/binary-arm/rustc-nightly_1.35.0_arm.deb
+Size: 70499798
+MD5Sum: 60e5b0fdf24be47f8eb2a72ac2b8fa79
+SHA1: f3d1f53cca85049a6b33365f52971f57c237a219
+SHA256: 6dab3b9311fe23be5c2e6b5febe0047746e4999ea4bce9492f4a26e3795f37d7
+SHA512: 22eb6bc47b5b5050eaf2c49358f68c56f5eec722d1ef22c36af26b2efa38a8245cf845847bcb1ac5abdb5c6113e4b66c6dd9d768c7214a47236eb678c1c34ffc
+
+Package: rustfmt-nightly
+Architecture: arm
+Installed-Size: 3448
+Maintainer: @its-pointless
+Version: 1.35.0
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Description: A tool for formatting Rust code according to style guidelines
+Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.35.0_arm.deb
+Size: 1359286
+MD5Sum: 04549c07dda1988fc30c1d7d3f9a0a0d
+SHA1: 9749fa2c0981d3b252fd503f1c4c373075295478
+SHA256: 30ee0de3c5b342b80c471d20b82abfb5892031e2ab072aa9515c09ff97833205
+SHA512: ccd31b03c955891d117a59258537f038c8f952ad5395e13cc98344305c246e74eae3348eb38fd5b1225a25885b05c27039d05cdcc8fa46fada4b99f69072a54e
 
 Package: suitesparse-dev
 Architecture: arm

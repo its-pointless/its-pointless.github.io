@@ -57,6 +57,22 @@ SHA1: 5d222738ed7c8fb4f653fc81dbf986f865fb3ab4
 SHA256: 29dd23674c480bf03431f602124f7e03ed8673e8a78ead374bf4af321b4aab8d
 SHA512: 86d1c0be607028c70f3b951f01e2389e741e2d56a41449c2ba48cabedabf498e46eaecaec783590894fd830025a04ab85de3151ed35ca48223ac1dbaa6d6188e
 
+Package: ecl
+Architecture: i686
+Installed-Size: 6068
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3-1
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libgc, libandroid-support
+Replaces: ecl-ext
+Description: Embeddable Common-Lisp
+Filename: dists/termux/extras/binary-i686/ecl_16.1.3-1_i686.deb
+Size: 1510306
+MD5Sum: 6e0193231588a632fc66c8dca424e1e9
+SHA1: f95beac44c6cc01ffaf6fe84413ca119de870551
+SHA256: 97289ef21b001ec243294fbe2ea50aa872774c3f415b117e21fe6c862cfc115e
+SHA512: ce9f8eda365a7d4d3fb0f5bb7c658f5dabc69d29c4a2c762cef404ff4a1badeb755f9d0ec60cd5179002488b3525b368f3a9c61aa808571bfb9b2985959e73c2
+
 Package: efte
 Architecture: i686
 Installed-Size: 1324
@@ -71,6 +87,21 @@ MD5Sum: 80ce30c1a30171785a5fa0766a7fe3a3
 SHA1: 24d73e237a1f1f5400e464c94a40d2f958edad98
 SHA256: 9c507395b36b39f755afd927aa99348ae9f972e6cc16baaa11b5b18f07973b7c
 SHA512: e358d0d67c1a7b107d94a7a4fa86950c69ddbf9638868d28f66a40426249bed78dd827a2f5e0255394215824c2412015f6fa8bf7e8880f2f31001581ee5007ae
+
+Package: elfutils-ext
+Architecture: i686
+Installed-Size: 1708
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.175-1
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, liblzma, libbz2, libelf
+Description: collection of utilities to handle ELF objects
+Filename: dists/termux/extras/binary-i686/elfutils-ext_0.175-1_i686.deb
+Size: 414228
+MD5Sum: fa1a445fd65e3b4be6dc086cefa2254c
+SHA1: a94ae140cd955d162010d0eb37082a55eea748f9
+SHA256: 5bcf781f067036c750bc3b5b5ceec0fe5f015645eb5c7a6edbe9a3bf0d216842
+SHA512: 772392bbe59a5c6ab316e6f6cb7d113084b706df9f84ac600f20989a2206f72a2672ba44c102b6313be3b8b5e1eaa693f97f5b5d319ef7d4ff1078efc2646cbb
 
 Package: fp-compiler
 Architecture: i686
@@ -162,6 +193,21 @@ SHA1: cd1474f1c22e1d7eedfefc0eae6cc0d5aabd80a9
 SHA256: 227e6057fbffe561752ec969bad2412a694f75737d86725dda5203cc572760cc
 SHA512: 41ae165c1097ecbbabe85e39d484561d2b03307ce90f42eb4abc012eb3f4d2395089c3ad6691284f5de057a613ea0a0ac05ed28ff53ff5dca87a4451ce67bb3e
 
+Package: gprbuild
+Architecture: i686
+Installed-Size: 23888
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180524-1
+Homepage: https://github.com/AdaCore/gprbuild
+Depends: libandroid-support, xmlada, gnat-8
+Description: multi-language extensible build tool (gnat)
+Filename: dists/termux/extras/binary-i686/gprbuild_20180524-1_i686.deb
+Size: 3950134
+MD5Sum: b7a5feb762509c3e43eeac5cf584f22b
+SHA1: 4f5da8ac1875eb042be3905591b56a5d95714056
+SHA256: c0bdfd0050c08d77501c99f928bb2765fac713443f097e096420aae082f756c8
+SHA512: 9bf3556a6106733afd547a9f3abc7de62cddbeb6335484b68659be24d0c6bda7100149b0c187f902c27c4f0caadde5e3e822371e161a8452982e987efdd14c54
+
 Package: libgccjit-8-dev
 Architecture: i686
 Installed-Size: 22492
@@ -207,6 +253,20 @@ MD5Sum: a4fea73a5b8e40f4e963799056e4ad9a
 SHA1: c34523a238c5459af9645bf8618dfbb93b27105a
 SHA256: 6b9a9cbcfcf832c559d6712bd44c1855274d5e3fcd5956ee0d04b9c8394792f2
 SHA512: 5eaa116dade660f81b1af1ec097f47f6243e01d687ec68c7e4d35c24d7cd40ab8debbddee2d6412f8cd1e67d255a13e7ab3d7bb97625c0674ecb616c1a7fafac
+
+Package: libgnuiconv
+Architecture: i686
+Installed-Size: 892
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15
+Homepage: https://www.gnu.org/software/libiconv/
+Description: the gnuiconv library to use in place of libandroid-support for R
+Filename: dists/termux/extras/binary-i686/libgnuiconv_1.15_i686.deb
+Size: 488898
+MD5Sum: 9ab3e62ac5f9b39e5b7b3bc92522ce48
+SHA1: 4f52b358ead5660e7bd066954e7e7f55ded8c9b6
+SHA256: a05b8989ced763a0f3575be8e5bc30e90afe1b414c61fc4b41d0aeb0cecfdc8a
+SHA512: c74189c1637e04010f8f7233a0c9fd9a4f73af4460aa6fe4c4b70d1cf6950a9f20004f02bdb139b32ca506374d06a94ec0973eefe816caa54da10c8a1649c0bf
 
 Package: libgomp-8
 Architecture: i686
@@ -358,6 +418,21 @@ SHA1: 1964bfffb45083c9c099e6d89b69d176ebdf23ff
 SHA256: f1a563a6df82b694621f26548f553371ca716cbecc3ded49b0e48d7576588e69
 SHA512: 367bc219867159f329cf0a56e7d65d351695f7a60862af215794ab364dcaef7a29c89f5ee2550742b66e1ef0c4b411b95d34e9f53d339651e2197ad7037f1791
 
+Package: povray
+Architecture: i686
+Installed-Size: 24900
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.8-2
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Description:  Persistence of Vision Raytracer
+Filename: dists/termux/extras/binary-i686/povray_3.7.0.8-2_i686.deb
+Size: 11018612
+MD5Sum: 6d7a5660c4bf924cc586cb707d7537ed
+SHA1: 81aba05ae90c97af81e80efddd35b4a3da404b63
+SHA256: 9f9e073bae844bb6106bcccba045dc83ecf60bce86ee99c6579fb799824cc0ea
+SHA512: 271ad97de729fae0d2a6ccd614740f89ee857c01c7a31c429f70f0168e24c9daf244c1b5419188edcc633fdde7d64adc824b4edc9b83c782cab89a52a52e00d3
+
 Package: qhull-dev
 Architecture: i686
 Installed-Size: 872
@@ -402,6 +477,171 @@ SHA1: bf9013e04badffa5babb38793fb0791e284d12c4
 SHA256: 028fbd634cea4aef2c193873e2ea923d5c5830a01c90bde778e3a6f6356384b4
 SHA512: e1adacbd573083175d1ab2be049d640f14c9a21418c22caddfd070721a2d2dd2b05ac857c6ab213a1d9482c2498445e8c53533b6935474c4d76fb81fa845bfb9
 
+Package: quantlib-dev
+Architecture: i686
+Installed-Size: 8104
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15
+Homepage: http://quantlib.org
+Depends: quantlib,boost-dev
+Description: Development files for quantlib
+Filename: dists/termux/extras/binary-i686/quantlib-dev_1.15_i686.deb
+Size: 566640
+MD5Sum: fcb0d57ac79337de21e9ca2ee85ba084
+SHA1: 3faa3995c1a504148edb80e5864037e3f96b8679
+SHA256: 34ddf35ce9a3320e98e1496d7ee401959f13ddf9f739b2158fdd719e99721116
+SHA512: 42d9e48618142802ec6885b53fe05d50088354c7ee8a90d5c7b231e121b7538fdaca48c0433c4b92d8c6fca4e7459d25dd44b0c68c178459b02b887ef8887565
+
+Package: quantlib
+Architecture: i686
+Installed-Size: 35688
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15
+Homepage: http://quantlib.org
+Description: a comprehensive software framework for quantitative finance
+Filename: dists/termux/extras/binary-i686/quantlib_1.15_i686.deb
+Size: 8389452
+MD5Sum: 042dcf4a9a7022ec16e3d9663e29a7e8
+SHA1: e19876780e30b2fb0c6eb7db36966ca3e58c0286
+SHA256: f53a96ede481ff9d89179f5f1fcc9ac96ca2e0425c321f718bc6d0703be78b24
+SHA512: f0822f27ca1fc1ec04d4eabcc7a15c9b02c6302f2a033256821675bba678974091a36ca2f42c5e7357e40aea0e9c26dc7dbdd8e59b9e38145dabdf2995f2945d
+
+Package: r-base
+Architecture: i686
+Installed-Size: 64168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.3-1
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-i686/r-base_3.5.3-1_i686.deb
+Size: 39971272
+MD5Sum: 08c1a5c4c272db4e667aa26d674b022e
+SHA1: 223e2fea37f852ef0e6e6145a0a57d5d9d5781a2
+SHA256: fcda85b59476f61654105bae36074fa90b2f959e283de7976cf1ce1e87bbb69b
+SHA512: 8652b660e16d603e278ab5aedfab12de881b144e91049d3c2767e7e9d9d7446e64a21fd382e172cfb31b08b72a825a00cfc41be9a98d76375fc6d23d9281d4ca
+
+Package: r-cran-rcpp
+Architecture: i686
+Installed-Size: 11484
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-i686/r-cran-rcpp_1.0.1-1_i686.deb
+Size: 3320994
+MD5Sum: 928539346b2b8c1a3b2e3c151876d633
+SHA1: 0257fca5fc96241cb157035f514a8074f4682228
+SHA256: fcd6f40ecb3239f2cd23b4fa8a47b175c14555c65f3a1f2bf12201c7c106b3f6
+SHA512: 938113e94efed2e83443f74e88459f9f872c29544b4f1feade33926a89ae35422db3292b4f4f88b3e5e741258b1e87cf2da08ba924fc595ddc00adaee8128cca
+
+Package: r-cran-rquantlib
+Architecture: i686
+Installed-Size: 3644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.8-1
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.8-1_i686.deb
+Size: 888736
+MD5Sum: 1a599b21ddb7134c88dce55ced5d9ef1
+SHA1: dda9388fbe9bf6bcc9cbdc93e8a90a50e4bf2edb
+SHA256: 2ce5c8b74627ce89b9d7246fe69db30881da9f77368e46d4f25e741db17425d7
+SHA512: 1967aca58d3c86167829c734aa7ad36b29aee25f9abb080c2b9efaa0150f87a742a634999f01d4de96ae9f6a13f55bb72e9fe4aba5ae7170cbb3cb7731ead5b8
+
+Package: r-cran-stringi
+Architecture: i686
+Installed-Size: 1216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.3-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.4.3-1_i686.deb
+Size: 691116
+MD5Sum: 029a62f5c1a717764fc2ced95e7a27c7
+SHA1: b26e600c5247b7fd374e790b05aa573a81063ff9
+SHA256: d6ed37ae3b32e3c3eb86ee9b798b3b4a2004ea0fbd0088c8ff5002cbac3e85a7
+SHA512: fb69f9e2d3081a4bbd69cc2f949a6d681d2c8856a08e9ff1e7db3469d782c7b1c63cd21268016ab2ac6f1cc795c4789e35b777d6322e0e83084ff7cf17b71aa7
+
+Package: r-cran-tidyverse
+Architecture: i686
+Installed-Size: 220428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1-2
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Description: tidyverse
+Filename: dists/termux/extras/binary-i686/r-cran-tidyverse_1.2.1-2_i686.deb
+Size: 37073052
+MD5Sum: 095ca56b82abf1b7d4ff1a734539a64c
+SHA1: c792085d9a8f6f85b2bcc97f395c977aa6938037
+SHA256: 2ead8122cd9754d865379ca70443de91552791a9fe8e8013ba16628c76d64368
+SHA512: 61197629a4f57bab50fbc5083d11534b961054d38cf9e90d1692fe2ebeba3d2e882589915b726434b403017e4e4ecc8757314776d3c00361ede8079b213a73e7
+
+Package: r-cran-zoo
+Architecture: i686
+Installed-Size: 1444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-5-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-5-1_i686.deb
+Size: 1051758
+MD5Sum: 8233b02994d1b3d12d0e6166783a4a3a
+SHA1: 58920c65fd287d102f721b35c0bf9c2759884f9b
+SHA256: 7a204cdb9077bd7d88e0894fc346e7913ae169ceb7e540bf9f1b18b710e07f23
+SHA512: b8db6594d74459a4560026e74d2b69d2f0fee972d14ead6c69bb094d0c1140d4a50785075516b03af7482d589a4fcc1a055676ea0eb2eb76426c31ed93a5d984
+
+Package: rust-rls-nightly
+Architecture: i686
+Installed-Size: 22796
+Maintainer: @its-pointless
+Version: 1.35.0
+Homepage: https://www.rust-lang.org
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.35.0_i686.deb
+Size: 5723676
+MD5Sum: 311ef3528dbfc5c21fbc0629d2dbf4cd
+SHA1: 5a6a4f93dfaf9b72e7823b9e0a0c24a4efc15c5e
+SHA256: 19816c4a87d6c611bb47f8d8f4cfec09679131ad85179c0d190c0bec34a8c630
+SHA512: 9f06fedf12094c99f0d8238919b392d9f5dad6ea7d0d81795f9a481f4da9640e59e7ec6d66ffc4515ef0f760e75e71159936c312adacf1a1a2e637ad5d1e2af0
+
+Package: rustc-nightly
+Architecture: i686
+Installed-Size: 225404
+Maintainer: @its-pointless
+Version: 1.35.0
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly, libgit2, libssh2, libcurl
+Description: rust nightly
+Provides: rustc
+Filename: dists/termux/extras/binary-i686/rustc-nightly_1.35.0_i686.deb
+Size: 75569022
+MD5Sum: 48e3d23818278866794eadf2d4373e21
+SHA1: 4267c4ae937bf9e364be71337044baa102ae57db
+SHA256: e70dafc1e98e30f3ea303aab6e07d5808e4413f7be7134e16729d7468c844636
+SHA512: 3403f82eb1fe55fa865fac5c13d058dfa0e10cd026fd83d4859af02fb0985d63229a77d768b0378095ab3bbd3725a7498e86fc9cd3723d5242fe6d1f8e05c4c0
+
+Package: rustfmt-nightly
+Architecture: i686
+Installed-Size: 6616
+Maintainer: @its-pointless
+Version: 1.35.0
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Description: A tool for formatting Rust code according to style guidelines
+Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.35.0_i686.deb
+Size: 1771764
+MD5Sum: a7270686dde4c0551d8f5e8106754d47
+SHA1: 44948a69b8a8c61d9f2b84bae0e3b8540e8b4639
+SHA256: 9b32e6f029e1be5f20c1d6ce77e277622b92f51b5b41f63f304bb5c5ebafb4ed
+SHA512: a245505080ee394c2fd0e37f86148db8c71af087c3eb4153dac2ce2c32f34e45c092b6298e8d8665dbf05119bb8640ad9f37c1f64c472bf743d5e25a06da99ab
+
 Package: suitesparse-dev
 Architecture: i686
 Installed-Size: 792
@@ -431,4 +671,34 @@ MD5Sum: cca69f4e354f492d9c36aecb46e7537d
 SHA1: c9541a88c278dc51f6c979573184a21ba7e8a965
 SHA256: f6b9277f98590592caf11ba93b7598199f0047006b8f69751a0d87509832c447
 SHA512: be8569ef8d6729e5496e3177b08ca6e1f461edda64c36c809d0c17bdf15ff219929ac339acdacaa4240d33eda96eb62d3daa9c6bcc734c516e2791442d0f6891
+
+Package: xmlada-dev
+Architecture: i686
+Installed-Size: 8704
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1
+Homepage: https://www.adacore.com/
+Depends: xmlada
+Description: Development files for xmlada
+Filename: dists/termux/extras/binary-i686/xmlada-dev_16.1_i686.deb
+Size: 249320
+MD5Sum: 55f9e4e4b1546252d8ceac1b3c99536e
+SHA1: 6e46787f0b301a71aebbdee161bfcb3665307a34
+SHA256: 0d9f7eba10853e4fdeb509ce8b5c98c65db11c33786fad8cd974ac579796fc63
+SHA512: a43754a625b5abc9f628fcbdbea508d613e8a0c9fab4b66b0cce8b7e3f1b14c1f9f91e357f0a60f4151b2bbfc97dd276da0de27f7655162d5c691a8e1c7c5cd7
+
+Package: xmlada
+Architecture: i686
+Installed-Size: 15020
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1
+Homepage: https://www.adacore.com/
+Depends: libandroid-support, libgnat-8
+Description: XML/Ada, a full XML suite for Ada programmers
+Filename: dists/termux/extras/binary-i686/xmlada_16.1_i686.deb
+Size: 1193622
+MD5Sum: 60471a98ee175b5df62bd9d83b7aecac
+SHA1: 14414b6ace2d2b4535c27b4bf5d63db67523ee0a
+SHA256: 2fdb371977c5838b64654d06eecf80628bb2debba093c1bb31a0d77a3479daf5
+SHA512: 0368c3e01f4688ed71ea70c8a185f5d801ca54e1f445a4a14421b01c6ed205d55fe4f898b85b9edaaa4c797c7dcdc40139dea53534f6024c7a5391fc2d9edaeb
 

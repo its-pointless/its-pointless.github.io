@@ -88,6 +88,21 @@ SHA1: eee545a28d2244dd34b3c553691e6c115a864ef6
 SHA256: ab3b6865246592988d20d86631a209f5e7b64653c77137530a114dd866e3722e
 SHA512: 0059edad940c7e9887de60db024df0f90df81188c91981e968cb1cf426bcbe4956c03107d74ca93c129f99954d2139d972caaf52bd354768ac9b8fd334fb06cc
 
+Package: elfutils-ext
+Architecture: aarch64
+Installed-Size: 2116
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.175-1
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, liblzma, libbz2, libelf
+Description: collection of utilities to handle ELF objects
+Filename: dists/termux/extras/binary-aarch64/elfutils-ext_0.175-1_aarch64.deb
+Size: 386686
+MD5Sum: 8045194eeb5eb8a544f634868414c520
+SHA1: c4888c1c7438260454235f14a180b167536bf366
+SHA256: e19f6a5adf6e406002b9e2edec94c0c861e78c7a861c2e449e7864f5f9df9fc2
+SHA512: 12c31f13506813096e4eb897de7edadd6989fbf49ac64c5a15161d1ed1fbb4d8f1c30386e7bcee55f602708fe4860c92ce24f0061455995f8da5906ae59c7ac1
+
 Package: fp-compiler
 Architecture: aarch64
 Installed-Size: 151112
@@ -477,6 +492,21 @@ SHA1: 3010b89a506fdab45e4e2f2dabd7b3a803ed07e4
 SHA256: fbbccd4861b56628eb5b89fd97a568593a5565b9e34e206571c2ebfe393aa7bf
 SHA512: ba640c1d0f1411395ca9e446a6402e92b7c5c8ae21e628b85a573e32c20cc32362e9c93c77177a0331fc882273251fb016a5fb50db5868fd90def5e39d9fb892
 
+Package: povray
+Architecture: aarch64
+Installed-Size: 24776
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.8-2
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Description:  Persistence of Vision Raytracer
+Filename: dists/termux/extras/binary-aarch64/povray_3.7.0.8-2_aarch64.deb
+Size: 10933574
+MD5Sum: 3d8505c0a5b0a9a37bd4624d0dfbfb87
+SHA1: a2762b0277fe91d2f5ce2e1a958e49f064bea01a
+SHA256: c1531cd3c7faf4922dbe91c514deeeb7057316dba5d6d8b9593a9aaf4689052a
+SHA512: 3782b247dc77fd197c949dc16dfe5f30c9da9b1fe4309ef0ae6e90728ba67341a2856d7d430cc59194995d6da4fad194e3d227ea569c336ce5b8fbfb9a2b0923
+
 Package: qhull-dev
 Architecture: aarch64
 Installed-Size: 872
@@ -549,6 +579,142 @@ MD5Sum: a4fea7004e7bc361aa42e60f1a979cb3
 SHA1: 8910768e0788051dde9227ff02171d2779dd62ca
 SHA256: 6ff6c75df31efed87eb22af57c9b5c9cfcd3804427c25b5480c0e53b0457dfd6
 SHA512: fea2d41a995578e9355b04a4e97630a7ad7ad309f4717a4ccd6ffb72a5cbe2d80ed750301d2eced6ea6021fc7bd71750a5814fd0bb772d1b61e1153d4207caa7
+
+Package: r-base
+Architecture: aarch64
+Installed-Size: 63640
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.3-1
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-aarch64/r-base_3.5.3-1_aarch64.deb
+Size: 39628604
+MD5Sum: d8db7c97bb392b95d7c73f27dd0bd32c
+SHA1: 22d8e20bca67297043fc3311554cd74a352e71d8
+SHA256: b46c259026a77d785fc4c5eea46327c503a068817aa40891e6c7bcdfe3e0c684
+SHA512: 45eaac4e5fd0fff3281dfa18d5472b506e1dc4ee451e98a307acb6b3bee1505219cd02988f9f0b570284701c2a2b5787da28b82fd6f3062de50283e8050ef39f
+
+Package: r-cran-rcpp
+Architecture: aarch64
+Installed-Size: 11448
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_1.0.1-1_aarch64.deb
+Size: 3299896
+MD5Sum: 0e5952fbf44d6a7b3ebdfe9e76f5f2eb
+SHA1: aaf59a884883e27989936bdf9609d67006d689e0
+SHA256: 5c01cebd66f6fbbb2d58e9efdcfa540c0b0086714d22eeec91558de877613bde
+SHA512: 2a1815fec3be0cd6fd004697807a6cc83d7b88d390e842d22ef7994a2e3b3836c31dcfd87bad3705dfce2510aff3c022651f8ffd2b80c3aced75944386bbb42d
+
+Package: r-cran-rquantlib
+Architecture: aarch64
+Installed-Size: 3768
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.8-1
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.8-1_aarch64.deb
+Size: 860156
+MD5Sum: 186be91ab829c7ba35d29a849a30ce01
+SHA1: 0f5205c5caf8fe7b53ca3536bd5420fd45d1a476
+SHA256: ae8db0ab404e614bf7ea3fe7052323b82218ffe4c9ac4eefc1b5930c14f618a4
+SHA512: 09bd9b57017b01d44de19d2e613c3a111ab36dccf74966fe087e7c48daa6456a21878153bca426c19d53aa64218f96fea5cb7ef63913ca565e89127dc4a3b252
+
+Package: r-cran-stringi
+Architecture: aarch64
+Installed-Size: 1168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.3-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.4.3-1_aarch64.deb
+Size: 665674
+MD5Sum: 617efb59697f40315359931c76200dec
+SHA1: b13522318b10ea0bd5ed7cc0ee8c9ae51ef3a096
+SHA256: 7900b425a703c688dd448f8c16661714eec2c724308583e463ead52b15f84483
+SHA512: 8d0de1e7e56783f720e09ff95ce6bcd49c00ed9152b90ac1c35f3e15c5e306fe8ba5d07aa7fdf14c77aa38a04c973b254db2174e8e8b02366cc981774a4129aa
+
+Package: r-cran-tidyverse
+Architecture: aarch64
+Installed-Size: 220292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1-2
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Description: tidyverse
+Filename: dists/termux/extras/binary-aarch64/r-cran-tidyverse_1.2.1-2_aarch64.deb
+Size: 36929854
+MD5Sum: 4959cba8d0046038304ee9465d18cddb
+SHA1: b60c6172f45ec9d445959b72195747def74c6d2a
+SHA256: 7ed7e7eb63e8e5f86a409f934ff633f13a3db13983e14d779dc3f8bbda54dc42
+SHA512: f2a9827fcfa430882017f12cfc39a90369749e4ed451d4c67aa4148668fcd9629c9405eef4cb632c38b2cf3d8b0192288e60a9ebaa683e76cbbefbb8bf4b8b6f
+
+Package: r-cran-zoo
+Architecture: aarch64
+Installed-Size: 1440
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-5-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-5-1_aarch64.deb
+Size: 1050312
+MD5Sum: 46259f543e52cdf6877669ca0d03b135
+SHA1: 3560f537f661a33c3915355f3eeabab080ebd646
+SHA256: 5c4996df52da13c63b380dd475926a99cd518ab3b9ac6ea18ab956c37fcc016f
+SHA512: fe9d561846654267fca0f9a18ba02ea20698ad7c6fb9a4e1e67ace5164517bcfeb859d8f3d6b50b9fa61148a5cc6d0e117acea649b08b98875474fba4f5f3364
+
+Package: rust-rls-nightly
+Architecture: aarch64
+Installed-Size: 17744
+Maintainer: @its-pointless
+Version: 1.35.0
+Homepage: https://www.rust-lang.org
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.35.0_aarch64.deb
+Size: 4502120
+MD5Sum: e30a7941cd5d3d8c8c5ed70b3fd8ebd8
+SHA1: 9dafe7e81b05f687adb671a7f51dc164e4eb4cdd
+SHA256: 8bca4dea753dfe7120f448017ad761c24706f22bad19ee3d79911a36606d47e0
+SHA512: 27d324a6f518d01372e0f1edd70f9e4deeb69fef102eec72aa9aa9c0fc289ae7ca86f67488c7ee7e9f24627a049374d04e6a952e453fe559ea26056b53a384b1
+
+Package: rustc-nightly
+Architecture: aarch64
+Installed-Size: 200428
+Maintainer: @its-pointless
+Version: 1.35.0
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly, libgit2, libssh2, libcurl
+Description: rust nightly
+Provides: rustc
+Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.35.0_aarch64.deb
+Size: 70533094
+MD5Sum: 6225fe080e7ab5f12a9ec7be1f0a9084
+SHA1: 8982955435020adc22b20873ff273f709a498876
+SHA256: a3dfce10922fd5abe03fe8062932aad90bf81673948125a1f0a1fd557fc3789e
+SHA512: 09f4d5e0b029bfb20414e36ac64dbef19db761e14a4fbf942b7bcc77c87ca1d09ed1b027824c9e86ddf38e6c347c11fc13ccb7a1953abce537892c638f77d7a1
+
+Package: rustfmt-nightly
+Architecture: aarch64
+Installed-Size: 5256
+Maintainer: @its-pointless
+Version: 1.35.0
+Homepage: https://www.rust-lang.org
+Depends: rustc-nightly
+Description: A tool for formatting Rust code according to style guidelines
+Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.35.0_aarch64.deb
+Size: 1411284
+MD5Sum: 9a416b99f21d7b8320f8904e40511412
+SHA1: 55a45674511dee5e50469163f7cd084bfcd399f1
+SHA256: 0ceda7bea6fdf52ed05339ccb345a3442fb0dc6dbda4c7d945f347aec32626bb
+SHA512: 6462907a0a8c0c9cee76c56b53610b35d7cf7e27874fe3644c628c34f1cda34dc3149efa432b9fa297eb8daf223264a8f7dbe954817814551ed03919ca65997f
 
 Package: suitesparse-dev
 Architecture: aarch64
