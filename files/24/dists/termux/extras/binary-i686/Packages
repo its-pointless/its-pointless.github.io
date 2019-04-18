@@ -343,6 +343,21 @@ SHA1: 7ae960b1c7d5527e9ed68e8eec888e7f9506719b
 SHA256: f7fd1e9188b720eecf4f63c64b59a6710137b810953eee9e65f23b19b27a964b
 SHA512: 01738b8afaa8c4a979469c68d8d194a60e42693128e92ba926c4f93271559be3bad95abcfa9cacc2784a25d029a928fba570e80e6a473deb56ac5d3c7268693a
 
+Package: numpy
+Architecture: i686
+Installed-Size: 16312
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.16.2
+Homepage: http://www.numpy.org/
+Depends: openblas, python-dev, libcrypt-dev
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-i686/numpy_1.16.2_i686.deb
+Size: 2546296
+MD5Sum: 8980e0e69c061d0f25a5b5e10c8c78b7
+SHA1: 4ca3d3730f4399571b2969a8a1573302b59720b0
+SHA256: a1dfdf235b8a51e6c14183de1e05e788c81718969aeba0a18179bd08b78370c6
+SHA512: e2ec8ffbcb2f1b3e0f4289f370c4e5d978d0942a67f86b582b80d88e2995bae25e0bd839d4f031eb665d7d68e24e24fcfa38d6d47296ea41098d596243d0abba
+
 Package: octave-dev
 Architecture: i686
 Installed-Size: 5740
@@ -388,6 +403,36 @@ SHA1: 07821355483c6ab05b3588782405ae53b600c779
 SHA256: 49e856e99b694f6abd6e5f364e3d1c11a2d7edc18d468b60db4cfd882003fede
 SHA512: 16a9c5aff611133113ad9cee82b35b3af261c5827ba29e90c8b7364eca5be0877d7d63ad101ecd5d8dedcffd1c977d142d9fcadcb67c62b61cfcf61018da3746
 
+Package: opencv
+Architecture: i686
+Installed-Size: 38092
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.0.0-1
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-i686/opencv_4.0.0-1_i686.deb
+Size: 6874586
+MD5Sum: 9503f5f4fa6b05df464e1dc0377d9367
+SHA1: 6fca3d68aed8a09724d768624734c7896902c7d0
+SHA256: 9c231e9b9c42cdcd94bb3fc6206cb14751534c67f4874b7481f8f8e0b5570548
+SHA512: bec79821a253c76d10deb3eecd315e5099b553a7af7b13606e7b6b391666356ccfdc8113a92871ff70f8c3d55d214c9f4a5a3b29639a5685688e48ca10ce21fc
+
+Package: opencv
+Architecture: i686
+Installed-Size: 39020
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.0
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-i686/opencv_4.1.0_i686.deb
+Size: 7061288
+MD5Sum: 631f427beca27cdf87641402cfaa1733
+SHA1: dce65934fbcda485da119a09b38442b64db809d4
+SHA256: 682191dcad7fb475de8aee1a7c8b42dec99cfe0b2112c9905648160d13157568
+SHA512: 4507256aa6eaecccaf8772baaff5c65bf4afccd718d5e1f05e978c253a31ac9abd63357cd830a4b7cb5727e6e723aa55174bbabab0f9e2fa89f6e869bc5cca24
+
 Package: pcrecpp-dev
 Architecture: i686
 Installed-Size: 36
@@ -432,6 +477,36 @@ MD5Sum: 6d7a5660c4bf924cc586cb707d7537ed
 SHA1: 81aba05ae90c97af81e80efddd35b4a3da404b63
 SHA256: 9f9e073bae844bb6106bcccba045dc83ecf60bce86ee99c6579fb799824cc0ea
 SHA512: 271ad97de729fae0d2a6ccd614740f89ee857c01c7a31c429f70f0168e24c9daf244c1b5419188edcc633fdde7d64adc824b4edc9b83c782cab89a52a52e00d3
+
+Package: python2-numpy
+Architecture: i686
+Installed-Size: 16688
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.16.2
+Homepage: http://www.numpy.org/
+Depends: openblas, python2-dev, libcrypt-dev
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-i686/python2-numpy_1.16.2_i686.deb
+Size: 2554290
+MD5Sum: 729483f1e2ab6411ea2acdd20233310c
+SHA1: 9c274f0aa7e758394ae4ddcf59c217aa5577f743
+SHA256: 345d6216725cf8ea436c4765c0929866d983b5e7289f6578a52bd002b341d21a
+SHA512: 94dbf757c14836312e08e33b55fc5796f56949e4583f49fccfdca977914c564b119c9adddc28f2f1b1e31d942171d21a6bfc5d50d9af08d404a22feeee6b8efc
+
+Package: python2-scipy
+Architecture: i686
+Installed-Size: 51628
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1-1
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-i686/python2-scipy_1.2.1-1_i686.deb
+Size: 10708638
+MD5Sum: be93551ff336c1afcab143ff3fc50cc4
+SHA1: 31672cd94e83d3ca3ead4343315579230623c6b2
+SHA256: 6c85abd8186bbf056c66198a73805b7e77123f5446946270f86480e4700a8199
+SHA512: 7aa355c2102619f3fb30780e13866b7c2d14cbde0c0646fed546db1360ec99dd53fef3e2a3d9ec66c52f495fbdb78ea5d5524294b81a073e010772a06f9ac1ad
 
 Package: qhull-dev
 Architecture: i686
@@ -641,6 +716,21 @@ MD5Sum: a7270686dde4c0551d8f5e8106754d47
 SHA1: 44948a69b8a8c61d9f2b84bae0e3b8540e8b4639
 SHA256: 9b32e6f029e1be5f20c1d6ce77e277622b92f51b5b41f63f304bb5c5ebafb4ed
 SHA512: a245505080ee394c2fd0e37f86148db8c71af087c3eb4153dac2ce2c32f34e45c092b6298e8d8665dbf05119bb8640ad9f37c1f64c472bf743d5e25a06da99ab
+
+Package: scipy
+Architecture: i686
+Installed-Size: 50904
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1-1
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-i686/scipy_1.2.1-1_i686.deb
+Size: 10773712
+MD5Sum: 1987ba2c63569b76a89ddfc3b2e22542
+SHA1: 3aa7a8bb16749a7c9ae0f483f0d3a089609144a1
+SHA256: e9cb6bc56a540fe38ec246ae329c15863e9da805ca6ac0388af683ee36f52452
+SHA512: bac5bf751173788681ff1157003a342c0a1b9e1753ffac77f2b0d7df87c1dd02c5851379cd6a6854df4e974829e9c1b0d4b81fbfb86991172fd2b65a9cfe205d
 
 Package: suitesparse-dev
 Architecture: i686
