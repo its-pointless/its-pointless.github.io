@@ -208,6 +208,66 @@ SHA1: e026e9f0910589551041736946939dc4e4694d98
 SHA256: 8b10fd327ce348e6f20aa7ca51e575ca9b17d50cb1f1255ae033aac9600149f3
 SHA512: 5834961fc7197da3f131beeb385bc19fb25523af54da85fe1983cb51a42eb755281c703e6b43642d3a545fc57a25117ac4493fbd101d1eb6fdedb7b68f21252f
 
+Package: julia-llvm
+Architecture: aarch64
+Installed-Size: 159368
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, libllvm-julia
+Description: llvm with julia patches (only useful if compiling julia itself)
+Filename: dists/termux/extras/binary-aarch64/julia-llvm_6.0.1_aarch64.deb
+Size: 20037282
+MD5Sum: b36d78491d9bd827f2966ba9ffc0cc22
+SHA1: b1c541fd12357908a6385a40bf3fb472b6c0179b
+SHA256: d9119fa48c5318100628e4a90a5cf8f0f306f1f5404fc65109057b428517ac8a
+SHA512: 8849478e37b52dce9611ed933a91a6b249d692e1dec2bd0e42f7220030eaa859567487d07f8ef7a787d15d2acfe026997acf93718ce878ca7061ff17fd4ff0c9
+
+Package: julia
+Architecture: aarch64
+Installed-Size: 150180
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-aarch64/julia_1.1.0_aarch64.deb
+Size: 20509462
+MD5Sum: e88df78fa75e3af30ab332d120179f5d
+SHA1: 9e018a6fe2cc00ec19a59e6458293b89365f2f07
+SHA256: 3d80a1039b30bd65720e6e2ac7215d12f36b8d352b9ad07da3f22a0c0abfe192
+SHA512: 5fced71a0e4156b2e9d6e0020baffe8507f90a3e9f0f68d99678f6999ca382387208c8ace374d9283e1fb74d81de0542b57140e2dbc1a12993706e2f4db23c6f
+
+Package: libcompiler-rt-termux
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.0
+Homepage: https://compiler-rt.llvm.org
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Filename: dists/termux/extras/binary-aarch64/libcompiler-rt-termux_8.0.0_aarch64.deb
+Size: 26780
+MD5Sum: 9d1b16f2655b35b9b9944764613115dd
+SHA1: 33ff7905c1e15f1deef3cffd6834c86e08d7111a
+SHA256: 853f22170bf815e034f314802d7f474332564538118435f4ea0b70a4f1215631
+SHA512: d4d3badb02db5dc1cedf422f4fc3fd36b5f478da343f0d590f8857eb0e7ad0459588eb4a303368120110c0fe22dead2d588e5d40975540965ca19e91145604a0
+
+Package: libcompiler-rt
+Architecture: aarch64
+Installed-Size: 22204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.0
+Homepage: https://compiler-rt.llvm.org
+Description: llvm runtime libs
+Filename: dists/termux/extras/binary-aarch64/libcompiler-rt_8.0.0_aarch64.deb
+Size: 1507368
+MD5Sum: d4cd38b7291c6053e3c156a92986d46b
+SHA1: 26bb7f1a50302d92a1a256afbbe087edf59a5e73
+SHA256: 13b3b4bf5cf7a09b67dd59a9b85b4fd399504d4ba9aee95a2f0e6ec6e8516b02
+SHA512: 6b894064361c4bfb8c904c0b7f665595848ede87e06960efb6bf83d698471086daf6e69da546f332bc287ce8702caad0163ae90326da0d845411ab4a20e02aa9
+
 Package: libgccjit-8-dev
 Architecture: aarch64
 Installed-Size: 16624
@@ -284,6 +344,20 @@ MD5Sum: f117e1c729deaa989e44e80734406e8a
 SHA1: c836dc9ec9367a36dc196c1f6284523db8936b6a
 SHA256: 1db3ed6b83426c0070063dad8a5f4dc731f74f9373594fe228a26667a163bc4d
 SHA512: dff8cc572fda563caa42bac95af346e42afc9adf1bbeea853b8b3503f8514d320a42a9c743172a46d34b3ec0daa89a45f1eb469d1bad413f7c671aa0f8bd3a50
+
+Package: libllvm-julia
+Architecture: aarch64
+Installed-Size: 43396
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Homepage: https://clang.llvm.org/
+Description: patched libllvm for use with julia
+Filename: dists/termux/extras/binary-aarch64/libllvm-julia_6.0.1_aarch64.deb
+Size: 8333196
+MD5Sum: 46928b084d53af613a9407ed557c46dd
+SHA1: d1a34e98585ce795c62d953fdb23fcc1cae4d585
+SHA256: b49ffcd0bd6bd3c5b87497ce92e6f29fd38c551700469bea70181079d7f90d66
+SHA512: 50a45a4d9c507f94ea3f6ae54e59005c7e6f72c166ab9811a038c425b343cd568359fcf47f1642e5a6024c8fbf148517c44dfffdc0db606e3b6fd6b3d3121451
 
 Package: libobjc4
 Architecture: aarch64

@@ -208,6 +208,66 @@ SHA1: fa197d3da748167683da4f76fbfcd9f81cfb32a1
 SHA256: 42efb8fb2b2dec944daeb119dac8dd15cace01e3c881adf35233a6e37917b9f8
 SHA512: 1d0c57bb35b391d63a3e2b93d001a4d268053a32abec574e7bf7331754b0b56ea4d7f1d40b110801aa103d9db9bbe1785fa2b000d6280b53c41fc64b875a76bb
 
+Package: julia-llvm
+Architecture: arm
+Installed-Size: 142824
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, libllvm-julia
+Description: llvm with julia patches (only useful if compiling julia itself)
+Filename: dists/termux/extras/binary-arm/julia-llvm_6.0.1_arm.deb
+Size: 22174062
+MD5Sum: 43f6acb126fce8a5b92bbd412285555e
+SHA1: 88a783a22e09b189c83d6be1b483ab391cb59129
+SHA256: 89c5aaf1be8a900e94883b3cfdb2cad08768cbdfc800f5f55db911fb092d4687
+SHA512: 2eaf94b4d64a7b1b2b936df647a0063bdddfa134beea34ad1ae9601e765e529f542f7725b41c3ff7077ff091ee8b5bb8fb2e56632e752a35be1b0d4e9393a950
+
+Package: julia
+Architecture: arm
+Installed-Size: 126744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-arm/julia_1.1.0_arm.deb
+Size: 20413014
+MD5Sum: d9c033ae516445b6548f0a4f2571d2b3
+SHA1: 7bf21f8206abc25c06a06bd28e13c037acae0c80
+SHA256: a3d3e64f98875c6f82ab694e2d1ee5836ec3b55a963e93a23147ad231cc49f16
+SHA512: 125fd1c43d5bb2681b76641509061ef711139ae9c2131025a8a883ef1345f9b2d7f2a9d3046227fa67c33447b4b7cced672ab9a6c0c9e477328cb61adbcfb9fd
+
+Package: libcompiler-rt-termux
+Architecture: arm
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.0
+Homepage: https://compiler-rt.llvm.org
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Filename: dists/termux/extras/binary-arm/libcompiler-rt-termux_8.0.0_arm.deb
+Size: 18544
+MD5Sum: c87574a6f9bbeadc054b53d35615951a
+SHA1: a531fc998878ccf0599f464b8d6aac3c25a1521e
+SHA256: badb5c170b2a4faf81a5bc07fd892ce58e507298371ddc29cd8cfbdf3bbb75c3
+SHA512: 035d6b159eef3a83dfa05996280886f16c065c1eb48fbc54811b0d4b016ff2376cf9ccb65735ed7f88a8c221312d06e748822a409dcf2875ccd5a413f0e53f03
+
+Package: libcompiler-rt
+Architecture: arm
+Installed-Size: 8908
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.0
+Homepage: https://compiler-rt.llvm.org
+Description: llvm runtime libs
+Filename: dists/termux/extras/binary-arm/libcompiler-rt_8.0.0_arm.deb
+Size: 809204
+MD5Sum: 3cd3d4e3764f0b08f9c928576bdc18ff
+SHA1: b989525c358f67ab000b2c2be399cfdd1823f819
+SHA256: a01ca63acf1ac57996eaacd34fdaab25998afa9cef15594f693dd2d30370de98
+SHA512: 05a6080011038fddfc9d9dbfac97d0cf3f371ed86b8a600ea5c23bfb413f805e8c0ad7d144a2d66399242d126e4a34b9b58821dd3c6983a52453e2fbd2045b35
+
 Package: libgccjit-8-dev
 Architecture: arm
 Installed-Size: 15916
@@ -284,6 +344,20 @@ MD5Sum: f1f6a1b7cbbc45985fc3b6e2dc7b3ba5
 SHA1: 790554531b2390b416f713bfc30f273be840e1ca
 SHA256: db60ba3fd462940e6cd70026f7d108e03cc38f36b414f9dce3bf5a74cf1e0cd9
 SHA512: fa8c259dc862fadcd3a0f69ceaf42545dcb0b6ff5e0a31be69b2390b418134cb2ee4fa8f026a102dc12c9e14468c5f7b246c27ceaa4ff2cbaf510cb913a0aaa9
+
+Package: libllvm-julia
+Architecture: arm
+Installed-Size: 34560
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Homepage: https://clang.llvm.org/
+Description: patched libllvm for use with julia
+Filename: dists/termux/extras/binary-arm/libllvm-julia_6.0.1_arm.deb
+Size: 8652010
+MD5Sum: a0d416d5e3ccbdad21c68491259bfa62
+SHA1: 879bdc7e82da9af243b33c57b3d4902ed98f6af8
+SHA256: 3d63b0ee5c04bfb3a2f71731dc7adc80274b168f558a5fd0f7434637a6c8e6cd
+SHA512: f95bc3b8d70a5011fb9c0441c1048cd2f48f947cba9cc7191295b33141fb4d717eab569de1c368105b07f356bbad16d72c4304811680833bf8bddab0c91d344b
 
 Package: libobjc4
 Architecture: arm

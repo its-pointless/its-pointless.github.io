@@ -208,6 +208,66 @@ SHA1: 081aaffb2caa686ad88a743150f09a114e81cb01
 SHA256: 0d8b0a13efa4f03877b07321998fdb19595fe92407428e053f5e7ba09f195e2b
 SHA512: 121b2255017e7fd8c4c1cd911f40b6d59c58e250b2b835f94ed2fdc198e90cfeefac95d4cd1130f89dd31e3cdc710e38d886895f1f3de75bd353500fee79aab0
 
+Package: julia-llvm
+Architecture: x86_64
+Installed-Size: 164604
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, libllvm-julia
+Description: llvm with julia patches (only useful if compiling julia itself)
+Filename: dists/termux/extras/binary-x86_64/julia-llvm_6.0.1_x86_64.deb
+Size: 21833486
+MD5Sum: 637fa6736e9984efc6d905a196e1fe25
+SHA1: f6bad6aa90008d97fc96f8bf7e7f826a8eac9643
+SHA256: 502bf361e872d9f7c491eb7fcfe35b3c8410a0846689460cb2071dfe9747a817
+SHA512: a3db4bae593b88f4808434b9dceb91f127fac1d5355ef14616e6bc4bce205990a2ac984e1e62fd716ea8d95277247fdb126fc32562ef11f1e22aa223f493b846
+
+Package: julia
+Architecture: x86_64
+Installed-Size: 150828
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-x86_64/julia_1.1.0_x86_64.deb
+Size: 20925344
+MD5Sum: dbda5c72785a32afc077aac928f8c4e0
+SHA1: 4065534ea8f172feccca1c5b0c371ff5081316c0
+SHA256: 109bdbce865056a4461f439e3d80fc4b8eac84ac37d6c42f9ae0e696c3cf294d
+SHA512: 21495f509be86e9eb508c9128902bdb75d99dc83f9718136f5062a6f807c8a8f4e7b23894d1ace831075f7f4949956807026d8a10bb41cf43c26afede4ad506e
+
+Package: libcompiler-rt-termux
+Architecture: x86_64
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.0
+Homepage: https://compiler-rt.llvm.org
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Filename: dists/termux/extras/binary-x86_64/libcompiler-rt-termux_8.0.0_x86_64.deb
+Size: 31930
+MD5Sum: 8c78879b884d2a492b1ee0f7f287247d
+SHA1: 81e93f8e2a0996165af2b82f7338b469b9e1b11a
+SHA256: 0734afd096a48c197024c70075badcc287b74860318c9112399c5be9bab5db09
+SHA512: 35649a78e75459814037ec792494462bfd8213530970475e64527d6460bc245fd4be4da053a860d8f57fecda5cc0cec0119691b0ecfc7b33698f184cb348997f
+
+Package: libcompiler-rt
+Architecture: x86_64
+Installed-Size: 20212
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.0
+Homepage: https://compiler-rt.llvm.org
+Description: llvm runtime libs
+Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_8.0.0_x86_64.deb
+Size: 1543136
+MD5Sum: 2faa45e26e1b6e71382daee1f79a3a0e
+SHA1: a0405b3a21a259d1f010795e14129806fbe25919
+SHA256: b3b159d955fa3ca909a71635060ff69470b793920470bb10a67127017b43e740
+SHA512: 9228e0a7d6a7a21258222b98b14afc0ee08d9bb83e7af8abb88e473c430e9fb7d43c90186e2e334d366818deecf232863e6ebc8e36e4a4fa3b60ffa13e0a1f88
+
 Package: libgccjit-8-dev
 Architecture: x86_64
 Installed-Size: 22676
@@ -284,6 +344,20 @@ MD5Sum: bf4647bde9d8a58af4faa45388204a3b
 SHA1: cb14c4407b9e11e871581e15cc3e0041027ca8a2
 SHA256: d72c94de9bba1961f8b77f21e00be36406233d2ed21068f1c56e0ef2a475f400
 SHA512: ae7947ef2a30a3bb1e934fcb3a9cdb56234d918350ac65b98863f6a7775098f753d21d0a7f1becd90e255f2b33b30dbde7d89716f5c0b537a90bf96f65518d6e
+
+Package: libllvm-julia
+Architecture: x86_64
+Installed-Size: 47888
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1
+Homepage: https://clang.llvm.org/
+Description: patched libllvm for use with julia
+Filename: dists/termux/extras/binary-x86_64/libllvm-julia_6.0.1_x86_64.deb
+Size: 9980858
+MD5Sum: 9a3a356650e46ef6cd348d3172b373e5
+SHA1: 1b1e09b7bc6ed2084d145a4ad6ed8e834e840c74
+SHA256: c45802024188de87847d462ca788d5b9d00f5e3f8bcd636cd27702cd356c5b12
+SHA512: 30e388431c7c8dcd115d16ba3cede2d5f37c45e68f6b3979edc37f956169dcf2444141472c1ae15f4f98c6b64d7fbb042731f6f466c01f4760d871c74f4d366f
 
 Package: libobjc4
 Architecture: x86_64
