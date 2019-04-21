@@ -208,6 +208,21 @@ SHA1: 081aaffb2caa686ad88a743150f09a114e81cb01
 SHA256: 0d8b0a13efa4f03877b07321998fdb19595fe92407428e053f5e7ba09f195e2b
 SHA512: 121b2255017e7fd8c4c1cd911f40b6d59c58e250b2b835f94ed2fdc198e90cfeefac95d4cd1130f89dd31e3cdc710e38d886895f1f3de75bd353500fee79aab0
 
+Package: groff
+Architecture: x86_64
+Installed-Size: 10596
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.22.4-1
+Homepage: http://www.gnu.org/software/groff/
+Depends: libandroid-support, uchardet
+Description: GNU troff text-formatting program
+Filename: dists/termux/extras/binary-x86_64/groff_1.22.4-1_x86_64.deb
+Size: 1776826
+MD5Sum: 765835cf3bc732dd41f347aa22898a7b
+SHA1: bee24b2c5686d170fd586570bafd3754f0518bb9
+SHA256: 0b55326a98ce143c3592040704bd5bd4f5cd8070bcc7fcd2c3113da0c2669e70
+SHA512: 05ff93ad2ed4bc22a8a4629e42468c167ba2a118d71fe9fa2491d56aa34072cefd091ce6850a31e1878d1be1ed221fe62843854d3b55e5e9b4e9697f51926758
+
 Package: julia-llvm
 Architecture: x86_64
 Installed-Size: 164604
@@ -239,6 +254,20 @@ MD5Sum: dbda5c72785a32afc077aac928f8c4e0
 SHA1: 4065534ea8f172feccca1c5b0c371ff5081316c0
 SHA256: 109bdbce865056a4461f439e3d80fc4b8eac84ac37d6c42f9ae0e696c3cf294d
 SHA512: 21495f509be86e9eb508c9128902bdb75d99dc83f9718136f5062a6f807c8a8f4e7b23894d1ace831075f7f4949956807026d8a10bb41cf43c26afede4ad506e
+
+Package: libatomic-ops-dev
+Architecture: x86_64
+Installed-Size: 764
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.4
+Homepage: http://www.hboehm.info/gc/
+Description: A library for atomic operations
+Filename: dists/termux/extras/binary-x86_64/libatomic-ops-dev_8.0.4_x86_64.deb
+Size: 57004
+MD5Sum: 61bfcda90a6c710bda3e83d1a65daa84
+SHA1: 2c9c34824bf64f2f56b7cfa4e894f6bbd5381617
+SHA256: 20b7bc963e19ff6b5d9939db5de87cb95f5faf0d05c86d90528a1b5d9c18cdc5
+SHA512: c8ae8cbea7c31d2b3068f649978ecbc02a515d07f0b336de5d0b05aa7f3b2bb78444aa578224349f087e519f15d9318dc636980bc078ba8449555ab708a936e9
 
 Package: libcompiler-rt-termux
 Architecture: x86_64
@@ -372,6 +401,64 @@ MD5Sum: 056673efffa89c2814d195302947258d
 SHA1: a7c8b3d2dbcc61ca9bd801a2ecb78b8169dae823
 SHA256: acf3e1c028100892c128b0e8bb890bb4a0dc5acee3bb823ffeeb67090e0ac18b
 SHA512: 94e50eef0466219f330082e6bb5a5adfc6409c2c326dbe0bfbfb641d61aa17c4a2ec089260a22604c2fa0c5725aa809eeacbeddd6b4bbb550c7ebffe966a853c
+
+Package: libpoco-dev
+Architecture: x86_64
+Installed-Size: 5300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0-2
+Homepage: https://pocoproject.org
+Depends: libpoco
+Description: Development files for libpoco
+Filename: dists/termux/extras/binary-x86_64/libpoco-dev_1.9.0-2_x86_64.deb
+Size: 471798
+MD5Sum: 81088e04b8b92a9dc38967f41e708137
+SHA1: 62313e313dd1a9eefdc7108d8cfe9cc861b83956
+SHA256: 9f19ca27c8c185535faed994e4453ef66a7acf5be1c8ccdc8ba8babd91574a73
+SHA512: 592d79e7f6bd14c08c6d19c7fdbe4c19fb652bdbdfce8c2422fc6a2f59419f1b43c1a6ae3dde7efe07f15a96f93d94364baf66fb756a0bf993f7d1ef6509ce64
+
+Package: libpoco
+Architecture: x86_64
+Installed-Size: 10168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0-2
+Homepage: https://pocoproject.org
+Description: C++ Portable Components (POCO)
+Filename: dists/termux/extras/binary-x86_64/libpoco_1.9.0-2_x86_64.deb
+Size: 2222926
+MD5Sum: 6c797dcc827abbb391db077f4c18d5cc
+SHA1: 2d64d956f7eb8ed9e6c07645084aa26cbcf3ff82
+SHA256: c07456f4218e9122c5c218b191e3b2fdf894e825ca48805f7996cb0f5190333b
+SHA512: b8f3c4ff95bcfa64c6eeffeda9d00fa02d104bc07799a3767d3837808b522f1dc87014ac36b54ab3a7ac2fe9b153c1459f77901b9c9fa894be3b286c939d358d
+
+Package: libsigsegv-dev
+Architecture: x86_64
+Installed-Size: 12
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12
+Homepage: https://www.gnu.org/software/libsigsegv/
+Depends: libsigsegv
+Description: Development files for libsigsegv
+Filename: dists/termux/extras/binary-x86_64/libsigsegv-dev_2.12_x86_64.deb
+Size: 3922
+MD5Sum: 40ffa2403341f8b8a4ae5b2ffb725d60
+SHA1: cb4fe3824e1165a756b5ad82ce1ad2602fa92eb4
+SHA256: 7fbbb49f5e415dfaecdb0d3288cc39249e25728f21d320ca81294c06b3584c0d
+SHA512: 47cad59fccd5a593dd4e48ebe5adca1833d126244dd7b3f807d5b7bb667f44e6042e2201b1d922c482570e7d20572f2def1a1ea0b5ba83c2efbf95c32387e5f4
+
+Package: libsigsegv
+Architecture: x86_64
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12
+Homepage: https://www.gnu.org/software/libsigsegv/
+Description: GNU libsigsegv is a library for handling page faults in user mode
+Filename: dists/termux/extras/binary-x86_64/libsigsegv_2.12_x86_64.deb
+Size: 5182
+MD5Sum: 5b1d6e5660d4b0d9c5f88d905dd46248
+SHA1: f9729e951fb9718284f2bf6099a3b8eb712018a2
+SHA256: 133fd291d070f5d24667bccbd5f0f2149ed953e5435cc72f1974147f4e0d691c
+SHA512: ed9052482564d086ee95b74fa75815e6765aa1974b7d36ca8b6c337ea561478264ef5e0709d28cef7737507d24acb51cf8fc16b294004b11208f75734afb3e15
 
 Package: libsundials-dev
 Architecture: x86_64
@@ -536,6 +623,36 @@ MD5Sum: 5670570c845d66a70047633b487c95e4
 SHA1: abdd9c3e89ca9ddaa9cb464fd71699c2e195476a
 SHA256: 55d5d68082cfa8f7245fc86fe3d1200ea95fc6df8f064798a7f26817406d399e
 SHA512: 50b22b58e414492b66970eb0b03b1dbf0ae327a849297d4dc3d2727f115af7953469841d052f988ef566a04b672d440c1cafa02878ee2d722de9f741f5317733
+
+Package: portaudio-dev
+Architecture: x86_64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180920
+Homepage: http://www.portaudio.com
+Depends: portaudio
+Description: Development files for portaudio
+Filename: dists/termux/extras/binary-x86_64/portaudio-dev_20180920_x86_64.deb
+Size: 14704
+MD5Sum: 01cc85530bf40eb3418e9f6b315dc057
+SHA1: 60702fdaef5acacacfde020e5b11cc0c3395b59e
+SHA256: 2c1f25ef907afd73634de4d019e4ee34cb1b3eb7f3521921efa44de684d5b14a
+SHA512: c4037fea0df21de659de1ce179f1ba5c6c7c29575679b91f6337a5ed36643c2aa8e9a2dd1cfd24628e811503613ce1949a94c2c0510de64e3babf0a78bc0c87a
+
+Package: portaudio
+Architecture: x86_64
+Installed-Size: 812
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180920
+Homepage: http://www.portaudio.com
+Depends: pulseaudio
+Description: portaudio io via pulseaudio
+Filename: dists/termux/extras/binary-x86_64/portaudio_20180920_x86_64.deb
+Size: 87704
+MD5Sum: b0317ed0e8d7513ace9ccc253d8df4e8
+SHA1: aa3b2b4172e366fe6e556788338d8661047a32bb
+SHA256: eb4dc3175ada2d45e1ef1c75e8ad3b100d9ea878f9396d5312503a074be9c865
+SHA512: e8df4e27070628bb713168d641fcd95ae57af4d2ef35be5d1e6955a389dba4eabcfcf9676df00d8970bffe41ff3cc2024c11ed64982fefba520a61ed0e857c28
 
 Package: povray
 Architecture: x86_64
