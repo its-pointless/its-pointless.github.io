@@ -223,6 +223,36 @@ SHA1: bee24b2c5686d170fd586570bafd3754f0518bb9
 SHA256: 0b55326a98ce143c3592040704bd5bd4f5cd8070bcc7fcd2c3113da0c2669e70
 SHA512: 05ff93ad2ed4bc22a8a4629e42468c167ba2a118d71fe9fa2491d56aa34072cefd091ce6850a31e1878d1be1ed221fe62843854d3b55e5e9b4e9697f51926758
 
+Package: guile-2.2-dev
+Architecture: x86_64
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.4-1
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2
+Description: Development files for guile-2.2
+Filename: dists/termux/extras/binary-x86_64/guile-2.2-dev_2.2.4-1_x86_64.deb
+Size: 77698
+MD5Sum: 0cedb78822418619b611aeb1fd9740ab
+SHA1: f0773e24ed3ff4cc4712c7ac40c879a6294649eb
+SHA256: 85c97cda5a42aabe55239e0de1070557c0fd8cb831061839808b15440d00a933
+SHA512: dede83abcd55a62228ecc2ccdc3d699afc50782f085e223aa807891f0f1f406f4a09317fe5ed80942f9aabe559ea4f27cd54ffe10af7e4a154627d054561cafb
+
+Package: guile-2.2
+Architecture: x86_64
+Installed-Size: 45180
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.4-1
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
+Description: GNU extension language and Scheme interpreter
+Filename: dists/termux/extras/binary-x86_64/guile-2.2_2.2.4-1_x86_64.deb
+Size: 4985694
+MD5Sum: a2128269a8fa4c473cfa761a1a26e1de
+SHA1: 2e771d83325d310f303d2461a2ba4186d80c94f3
+SHA256: 130104d5ecb791cbe9724f1704f34e012eb62858539dec18729f201c6bfca410
+SHA512: 435f7ecd90d9544e90a9b85f11114042287b7cd9f09263ee67fe7b40cb9349ccd58d562b9e00c0178e80855c2573eb89dc17902b26e197ec6611dd145311ee5b
+
 Package: julia-llvm
 Architecture: x86_64
 Installed-Size: 164604
