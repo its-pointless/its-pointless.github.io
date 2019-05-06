@@ -28,6 +28,21 @@ SHA1: 7c38f3a25d4757b408a9b764d79b82ab980ea6e3
 SHA256: 3efb1dbbf4ec5777f315eb6722f1e93e1182389947c9446e06c6b10321968619
 SHA512: 2903d7704f33f0aebe9ea0eb8237c8316b54feff65f148d8647ff7599cfd2249dcbf6a060206e6689d925cd1cff1d92567167d4e54c78aa3f65807b07e787e28
 
+Package: asymptote
+Architecture: x86_64
+Installed-Size: 5084
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.49
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends: gsl, ncurses, readline, libsigsegv, fftw
+Description: script-based vector graphics language inspired by MetaPost
+Filename: dists/termux/extras/binary-x86_64/asymptote_2.49_x86_64.deb
+Size: 1008630
+MD5Sum: e01d573c0f1d7c252e1c5a9907d60675
+SHA1: 39f46fa8bc3d64ca0c0ce5a07cbfd14d2994e6d9
+SHA256: ea7d456790bc06acefff9b4ab979d42fe7f77901f90bd97c9410435e75d24c8a
+SHA512: 2eeb5940bf63d201c8d74389e641a84aff6be1e144cc9621b9c28dff0224d4318883b33dd207f84503d8624e1fbc7d86dce66abe9efbd827e3007ec4e45107b3
+
 Package: bthread-dev
 Architecture: x86_64
 Installed-Size: 4
@@ -120,18 +135,33 @@ SHA512: 00ec33269811076f0f1a733338296dc793776750aeff0433c7fdc27510324c52f64ced05
 
 Package: gcc-8
 Architecture: x86_64
-Installed-Size: 117220
+Installed-Size: 117324
 Maintainer: @its-pointless github
-Version: 8.3.0-2
+Version: 8.3.0-3
 Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv
 Description: GNU C compiler
-Filename: dists/termux/extras/binary-x86_64/gcc-8_8.3.0-2_x86_64.deb
-Size: 32599696
-MD5Sum: 94ef71c731ba8298833a0336f9443bec
-SHA1: ada6df524956a4e3262d1eeb4d18423144685860
-SHA256: 59a48e4313075a2d233e3f43718e6f7a50f071b1850560a2835eccd82759231a
-SHA512: 3fe00eb943674c34c2472606f2cda103e70e1515073433df4b95a96cab0eaee38124c366d7187adfda9247b563b0ed3012abf6d39b3e2a5ef73f33204e7d5a6d
+Filename: dists/termux/extras/binary-x86_64/gcc-8_8.3.0-3_x86_64.deb
+Size: 32862850
+MD5Sum: d603079b8607fddd13d0895b5e21670d
+SHA1: facdb4bff666e131f5fcf8e66161d3de23aa8b9c
+SHA256: be93fad45fd2baa9bb6b70b42cb880c1b3325663df440ac1e4542d56a7c84c45
+SHA512: 300625e2dbae5aaa47f08bae7f0e5e77422a5afe451e1e3c12c79aeb4c472faf4bb0bf82a3a2bb5bf5d9e461d79d51663e47f92ac4e177c6b07745c32aaa4d20
+
+Package: gcc-9
+Architecture: x86_64
+Installed-Size: 122396
+Maintainer: @its-pointless github
+Version: 9.1.0
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-x86_64/gcc-9_9.1.0_x86_64.deb
+Size: 33791120
+MD5Sum: 1559872e537c41bf978df6ab36f40743
+SHA1: 87fb3fd32b2995867e4106ee177fd761c86e308d
+SHA256: b24f34dac7b1b2418a84ae599b57ecde226926dd5a1f90ea0f0af985edad3a77
+SHA512: 441f24f38f38931c26db49fca7f0386e14d74d834eb5e9669146433e1f9ca8e566552b14afbbd4471b74f7c1f315dab310aaf804ca4f848f2268705909958293
 
 Package: glpk-dev
 Architecture: x86_64
@@ -164,34 +194,63 @@ SHA512: 6d5f0f8ae1aeee53d293d52c24241fe7d572703ffe97d48674657f85d24be6130db9efd9
 
 Package: gnat-8
 Architecture: x86_64
-Installed-Size: 86504
+Installed-Size: 83364
 Maintainer: @its-pointless github
-Version: 8.3.0-2
+Version: 8.3.0-3
 Homepage: http://gcc.gnu.org/
 Depends: libgnat-8
-Conflicts: gnat-7
 Description: the ada compiler
-Filename: dists/termux/extras/binary-x86_64/gnat-8_8.3.0-2_x86_64.deb
-Size: 16788640
-MD5Sum: cfb024d6bb2f884a076f7e5c6a63fa4c
-SHA1: 9ca26a02e01438ec6df8373f52191b09da3609d3
-SHA256: dbd37a0ae7bf19dc489eaa1bddd68088f7dabff8cbd6daad6e06d030583a03df
-SHA512: 3e4d6cd300310e9ac7d452fb3db85c1eb51819acc1d83f4e4d988a5e473aabb9cd0dc70910ffa1966f04ba43f54fdd6450f67ad3df1cca189829c9867c9ce716
+Filename: dists/termux/extras/binary-x86_64/gnat-8_8.3.0-3_x86_64.deb
+Size: 16894536
+MD5Sum: 2f0449a146bbaa9eb5689eb9475d4ecb
+SHA1: 9e6ecd242c06c98301892d77ec1ffe2a14bc4927
+SHA256: d58bfe9b78c6495757a00686da6c15c64a009c8403972cb3d00027b6f5ff1c7c
+SHA512: 92b2e284494f5c8ba72cd2aa7248e3606dbf495244dc85957058815b8994ec5862458e924334ff1fbc2c24dca75be7a1d6d173d7b3e85d5dec08f4a3709606d4
+
+Package: gnat-9
+Architecture: x86_64
+Installed-Size: 85024
+Maintainer: @its-pointless github
+Version: 9.1.0
+Homepage: http://gcc.gnu.org/
+Depends: libgnat-9
+Description: the ada compiler
+Filename: dists/termux/extras/binary-x86_64/gnat-9_9.1.0_x86_64.deb
+Size: 17196034
+MD5Sum: 462894c3c294be9b0ef613a0bd26ea47
+SHA1: 58cf9116ccf3bd93bcd82cf0b871617cee477c07
+SHA256: d2e3b97afbfdcfe0e4083444b7a35e775d597d813185a675fb8049eac226af5f
+SHA512: 8864d41c7db191def31e294f2b0a3623bf9f46aecb460e1b9239970aa24249dde2d6597a080716ffe829717290c9e9be9a18c0da7688082504ac1b35b935d8ef
 
 Package: gobjc-8
 Architecture: x86_64
 Installed-Size: 24888
 Maintainer: @its-pointless github
-Version: 8.3.0-2
+Version: 8.3.0-3
 Homepage: http://gcc.gnu.org/
 Depends: libobjc4, gcc-8
 Description: GNU Objective-C compiler
-Filename: dists/termux/extras/binary-x86_64/gobjc-8_8.3.0-2_x86_64.deb
-Size: 7039470
-MD5Sum: 297c7c77aac18f1765945db496fa1ca6
-SHA1: d1734c1b5ff75a31e6e9178ca78863119954c904
-SHA256: 37a675b5559a6e12acacdd6f5783165e0af7c579b97d3bc608d194276335877b
-SHA512: 0ca5fbdc1ab871d1b77e9dc06b9fc131d3e86a0d41122d059ddce2bd8ef864b3448803a33263f8067f9490334148242ea988ed5409e4cd1c803fbabf5c4acfe4
+Filename: dists/termux/extras/binary-x86_64/gobjc-8_8.3.0-3_x86_64.deb
+Size: 7041308
+MD5Sum: 73e6fdeabb67c17d9ca655e087c20bfb
+SHA1: f757a140a4557913e152ff14769b42a367a8fbfd
+SHA256: 1b28cade9276d4d6540fbf401b620da62bf54bb64ebc525a5458daf846154fb5
+SHA512: 7ff6359fac5586d5ce5cf495c6afe826acb926ffcb318c1ab71353e7e0bfcaf4073f5485b8eec9e2a1cf70d7f169c82dcf6443d1449d35e324cb7a9dfdd926df
+
+Package: gobjc-9
+Architecture: x86_64
+Installed-Size: 26064
+Maintainer: @its-pointless github
+Version: 9.1.0
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-9
+Description: GNU Objective-C compiler
+Filename: dists/termux/extras/binary-x86_64/gobjc-9_9.1.0_x86_64.deb
+Size: 7271596
+MD5Sum: 17b71be2d94452ec3c9085e1f1cd6d0c
+SHA1: 8b02e2825b79e46fbdcae86d32de2c0b68a1843a
+SHA256: bdd9630273ec714ddd85b0ed8149208b82843ea3c650d01882d80c0ad2d3019f
+SHA512: 3d629a1bafb7ea9eddc978f5818929977fcd5b17bce04bc442b393b2d790a15d9dc176d07c82558738a6b972e5919756edf0b54fcf4bd4cd48b3126541e61310
 
 Package: gprbuild
 Architecture: x86_64
@@ -207,6 +266,21 @@ MD5Sum: 0de337262a3ad3f8b381500710707c75
 SHA1: 081aaffb2caa686ad88a743150f09a114e81cb01
 SHA256: 0d8b0a13efa4f03877b07321998fdb19595fe92407428e053f5e7ba09f195e2b
 SHA512: 121b2255017e7fd8c4c1cd911f40b6d59c58e250b2b835f94ed2fdc198e90cfeefac95d4cd1130f89dd31e3cdc710e38d886895f1f3de75bd353500fee79aab0
+
+Package: gprbuild
+Architecture: x86_64
+Installed-Size: 22360
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20180524-2
+Homepage: https://github.com/AdaCore/gprbuild
+Depends: libandroid-support, xmlada, gnat-9
+Description: multi-language extensible build tool (gnat)
+Filename: dists/termux/extras/binary-x86_64/gprbuild_20180524-2_x86_64.deb
+Size: 3917334
+MD5Sum: 85df5bf78c73778a685da62b34a6e83b
+SHA1: 4af1d5898fa88a68c8b9cc0e739a304fb92217d7
+SHA256: a8fd7a274ba150055a029e6228528c8c24d662bfccabb26939d91636136f79e5
+SHA512: 55a240e91cbe3f70c415abc9be5d221d741efa40157baa560c56a043da2ad04b754c8e78c88be2710349a07837895236e9cb14fe3c110746ae601cfa94425e2d
 
 Package: groff
 Architecture: x86_64
@@ -331,16 +405,46 @@ Package: libgccjit-8-dev
 Architecture: x86_64
 Installed-Size: 22676
 Maintainer: @its-pointless github
-Version: 8.3.0-2
+Version: 8.3.0-3
 Homepage: http://gcc.gnu.org/
 Depends: gcc-8
 Description: GCC just-in-time compilation
-Filename: dists/termux/extras/binary-x86_64/libgccjit-8-dev_8.3.0-2_x86_64.deb
-Size: 6479532
-MD5Sum: 21dae2dbb92719dc63b4c68015a07832
-SHA1: 5d8150e44ac7d2e09b7c848f48b5b6fefedbcdc0
-SHA256: a6b2810b1665c483da392d038ed5ccd0c69e5f4c4832ff5fcadb8f58890dee46
-SHA512: 1a00d9ed943442af810e248dd72617ed1a8d6677b3f4068941acb6b6476dc29709ac6ce35c399fb3219461f9dad1fff05068876af2f45b8dc0c9bacd26d604fb
+Filename: dists/termux/extras/binary-x86_64/libgccjit-8-dev_8.3.0-3_x86_64.deb
+Size: 6479544
+MD5Sum: fad00a5a8b5fff4b50d8ac4890b0a1f1
+SHA1: 0abb44740a59bccfde98f571334821c3cc40b952
+SHA256: dd1ce1905affa17c2472023e9f4e75e80e1c054151efaf627594113c5748ca25
+SHA512: f06a3c38ca02a0445ef369a4c253b4b3aca1e4e437a8c618ac68c170d314606215de3908cf1197b6035834322e65e46c5fe9e024626093163f47c81f81d55181
+
+Package: libgccjit-9-dev
+Architecture: x86_64
+Installed-Size: 23740
+Maintainer: @its-pointless github
+Version: 9.1.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9
+Description: GCC just-in-time compilation
+Filename: dists/termux/extras/binary-x86_64/libgccjit-9-dev_9.1.0_x86_64.deb
+Size: 6667694
+MD5Sum: 60eec761a7b2e6dc5c6aab764b97b242
+SHA1: 277030227663b7609def1139bd983d8b120b9a9e
+SHA256: 7290ec38433597cefc2b6e43a574b5c2aeed63afe09b706bf06b7e7e925ff261
+SHA512: 2e7f1521eecf6aad3e80df070f7366d4637aab840a710dd233ea61ac58224543f2993a5b659a1199609abe4f5070027a61233313f22d923e965f466396a4ab21
+
+Package: libgfortran-8
+Architecture: x86_64
+Installed-Size: 1616
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-x86_64/libgfortran-8_8.3.0-3_x86_64.deb
+Size: 392528
+MD5Sum: e4b6601295cc7434dcace56c57ca622a
+SHA1: a5dfb59cec96bc2e63ff38dbff5ae6a3ec353c89
+SHA256: c16f389f91273d6a7614685cf12eff4336e2105fd78914c6459caf83a314afd8
+SHA512: 2ef1381ebc733d64141dffcb54341b053c2914d616c267218d9ef34127e10dcb3b5dc8470ed61362d6c4917b83491ec94dbf1d2bdf7f554a1e64a1201479ed42
 
 Package: libgfortran5
 Architecture: x86_64
@@ -357,6 +461,21 @@ SHA1: d4bb22bce2b14405d6083145578c22becb6a18a8
 SHA256: 1ff7ac1b48c75d90e22b4e6fac647eed4edd5fe85c1a38a14967b40400997639
 SHA512: e40d80675174dbc51cc0f33989254b249580f27e544e2ba48c11a99d1ddb3f634e152e1a72e461bdd4c48dac8496e391c5d30aae3f4d9d61fa2fa843d523db8d
 
+Package: libgfortran5
+Architecture: x86_64
+Installed-Size: 1740
+Maintainer: @its-pointless github
+Version: 9.1.0
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-x86_64/libgfortran5_9.1.0_x86_64.deb
+Size: 434930
+MD5Sum: bfaea439e875383a0770ebcffdad2151
+SHA1: 3a07da6c0aef93a62ff270e9d2fa3a134fb1462f
+SHA256: 7bd7ae8398e70aa4956edc7aeb3d43bda668fadc5237e6b1cd00cd2283b73366
+SHA512: dbe7eac541e80754e5534644f8ca20c67974a4be4fadd0c059444349f78b3c3043886cb3e9e1f6952517078481df1e5f6d2dd826d993a60eed6b54da3124ef23
+
 Package: libgnat-8
 Architecture: x86_64
 Installed-Size: 3484
@@ -372,6 +491,36 @@ MD5Sum: bf8e17621fbb8b809499359af144d2ea
 SHA1: b2b18cc6be9d80f7895adead950fbc4c14ac6e2f
 SHA256: a3e0a324b47a917dea10f988192feedc3d1c0f3ebe22c3c5d3a8d599f3882f1c
 SHA512: 4eea45a3a67ddbc4fa6025dbb771ffa4153844103dae901d22219c7c19b168a04c1c0d17f570be9194c5190c1bbab3f51db31b77aaad5f1f05cc1d956b2382d6
+
+Package: libgnat-8
+Architecture: x86_64
+Installed-Size: 3484
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-x86_64/libgnat-8_8.3.0-3_x86_64.deb
+Size: 864132
+MD5Sum: a2f69b2f43dd35602b37d519143621b3
+SHA1: d4a6e4ce7be4c75cabf13f2b500dc5f501b89327
+SHA256: 51bc13804cf805e54e8a073aea8914bb4ea9e77b956eec259d2f7ff6e581e349
+SHA512: b27885a23573d50fb5e76ae362c81b2f0acccebd7cd1b9e95f654c9fbb90b355482a7cf3b9cd70e95b6dc7268006f63bb4120a256207e37ec14c7ce0f86fc213
+
+Package: libgnat-9
+Architecture: x86_64
+Installed-Size: 3576
+Maintainer: @its-pointless github
+Version: 9.1.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-x86_64/libgnat-9_9.1.0_x86_64.deb
+Size: 884826
+MD5Sum: 21177a08105b03313781bded93877143
+SHA1: d36ca1a5b1b67da5b2b7bce50626aab1219b2bdf
+SHA256: 119a865672f53b4ae5bfda0720858e903b5a3794a1ad69eae1a703ae676b5e31
+SHA512: ccfbd621bc365f3e85384a189d19a5631a0d855bfc0654a269d0b1f0a0500a38b246e0f697b3503fafac8236f4bc8848547df2ef26384c2f32335dd056491815
 
 Package: libgnuiconv
 Architecture: x86_64
@@ -391,18 +540,35 @@ Package: libgomp-8
 Architecture: x86_64
 Installed-Size: 276
 Maintainer: @its-pointless github
-Version: 8.3.0-2
+Version: 8.3.0-3
 Homepage: http://gcc.gnu.org/
 Depends: gcc-8
 Conflicts: libgomp
 Replaces: libgomp
 Description: openmp library for gcc-8
-Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.3.0-2_x86_64.deb
-Size: 61412
-MD5Sum: bf4647bde9d8a58af4faa45388204a3b
-SHA1: cb14c4407b9e11e871581e15cc3e0041027ca8a2
-SHA256: d72c94de9bba1961f8b77f21e00be36406233d2ed21068f1c56e0ef2a475f400
-SHA512: ae7947ef2a30a3bb1e934fcb3a9cdb56234d918350ac65b98863f6a7775098f753d21d0a7f1becd90e255f2b33b30dbde7d89716f5c0b537a90bf96f65518d6e
+Filename: dists/termux/extras/binary-x86_64/libgomp-8_8.3.0-3_x86_64.deb
+Size: 61402
+MD5Sum: 3ba626057441b08adb1cbd54ab685327
+SHA1: e98938ec1393d51ad5bc64f9f199708e5da3c6e0
+SHA256: 31b5ba93166e854b264053a1416adc2b5bd0478d731b22e9bcb92e6d5768f9ed
+SHA512: 887a1a10e5b34b70a46b16bb6df13b016f70fce479e861405369471a3bfcc3a2906b10aa0f5ab2eea931b112d0b5e2793c9d6b16c28dbe21edc904fda79e71c7
+
+Package: libgomp-9
+Architecture: x86_64
+Installed-Size: 316
+Maintainer: @its-pointless github
+Version: 9.1.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc-9
+Filename: dists/termux/extras/binary-x86_64/libgomp-9_9.1.0_x86_64.deb
+Size: 71784
+MD5Sum: a4bd780c5a33aed90947d0133201c2a4
+SHA1: 3b781625792cd0c11dd0089693b98f80fbc6d71d
+SHA256: 90efae5c39a102dc8f008dfa230d6186ac7f1ff5e6ebad188aeb98eaa758e947
+SHA512: d4d5ec7d4dfe64120738865e2c9bc021681b8ce2245b1acbc7aab1e8ba5e406201c5b785685df13ae1d310bf968d7bebff53555fd7ba3f3a1d44cee35c79d00d
 
 Package: libllvm-julia
 Architecture: x86_64
@@ -418,19 +584,33 @@ SHA1: 1b1e09b7bc6ed2084d145a4ad6ed8e834e840c74
 SHA256: c45802024188de87847d462ca788d5b9d00f5e3f8bcd636cd27702cd356c5b12
 SHA512: 30e388431c7c8dcd115d16ba3cede2d5f37c45e68f6b3979edc37f956169dcf2444141472c1ae15f4f98c6b64d7fbb042731f6f466c01f4760d871c74f4d366f
 
-Package: libobjc4
+Package: libobjc-8
 Architecture: x86_64
 Installed-Size: 236
 Maintainer: @its-pointless github
-Version: 8.3.0-2
+Version: 8.3.0-3
 Homepage: http://gcc.gnu.org/
 Description: GNU Objective-C runtime
-Filename: dists/termux/extras/binary-x86_64/libobjc4_8.3.0-2_x86_64.deb
-Size: 50276
-MD5Sum: 056673efffa89c2814d195302947258d
-SHA1: a7c8b3d2dbcc61ca9bd801a2ecb78b8169dae823
-SHA256: acf3e1c028100892c128b0e8bb890bb4a0dc5acee3bb823ffeeb67090e0ac18b
-SHA512: 94e50eef0466219f330082e6bb5a5adfc6409c2c326dbe0bfbfb641d61aa17c4a2ec089260a22604c2fa0c5725aa809eeacbeddd6b4bbb550c7ebffe966a853c
+Filename: dists/termux/extras/binary-x86_64/libobjc-8_8.3.0-3_x86_64.deb
+Size: 50308
+MD5Sum: 109fc87a1d0937bc85c3c6d91e34fcef
+SHA1: e6414e860e524d7beee41204cd9287b49628e6da
+SHA256: d9066c3841c567fbcee77ce2e7142b3dfbacceb7ca611806b5cde6ea47a000b7
+SHA512: 8668868cb048aecc73042efd40a1b2ca5a7bf93c9a7aa8c01bc6cba9cf395121058f32fca4a7a5253ec651103b2e55a48cb6ab96f7ce4eb2ad0c819a0072f81a
+
+Package: libobjc4
+Architecture: x86_64
+Installed-Size: 244
+Maintainer: @its-pointless github
+Version: 9.1.0
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C runtime
+Filename: dists/termux/extras/binary-x86_64/libobjc4_9.1.0_x86_64.deb
+Size: 50810
+MD5Sum: 2931b1282b351f60656225e652e6be11
+SHA1: f6de00b80432310783bee99d8c44c01efa3ac28c
+SHA256: a73ea2ec9a40e59c47f3b80421ab3ef8a87a6f2f09ac72774492ef5c6c82ae42
+SHA512: be6dd8c711ac22817ee67789d25582027128fa12d03beb832758a2cff20cb8ff54c08373100709a19b279bc7fea2e8654ff10aac607b1dc8a698ba9c4252cacb
 
 Package: libpoco-dev
 Architecture: x86_64
@@ -594,20 +774,37 @@ SHA1: c1b4ec01263dba79b75decd8574e72c2aa904b53
 SHA256: 23989d46f41a634148314499e2a71dbbd053d0c6ef5523269eeb01926930f969
 SHA512: 5b8b2f18b485d1abc086a78c8b9cdd00a1acec6ab39197854ed33b540749863c7b03f324e6ac058101c6ee562bd82439ba715b732f01b8cba34753b1ae5396d7
 
+Package: openblas-sandybridge
+Architecture: x86_64
+Installed-Size: 15828
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.6
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Conflicts: openblas
+Description: blas library optimized for sandybridge(chromebooks)
+Provides: openblas
+Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge_0.3.6_x86_64.deb
+Size: 3346794
+MD5Sum: 7585a47936007a7da8317057e933f57e
+SHA1: 82738b967610a8b6fb49356311577042ada71643
+SHA256: b3e9be449f0acdf559e1f17c3d7ef94ed2158a98a8dee94b8417915e0132d872
+SHA512: bfe71d88365d4ad2ffa48b86d0c40ffcaa8ac957dfd65d8899066c4a18d0950a6a614439329b5e8f87fd08c1e4fae1102460a3d741d8bcf3009f747175363021
+
 Package: openblas
 Architecture: x86_64
-Installed-Size: 15484
+Installed-Size: 15412
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.5
+Version: 0.3.6
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
 Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-x86_64/openblas_0.3.5_x86_64.deb
-Size: 3208040
-MD5Sum: d4f3c6005f5ec9f9baa3c1dd19639cb6
-SHA1: 8d1316284ca8813f62314bde282a392af9ed68d4
-SHA256: abf1cc68d6d3631644ac657c725948c4909d156c4fce289b208ab041f61cd52f
-SHA512: c88dab9957f347e0d64c6665f0cf5437ea8078a803689c871e7cffbbf43fa87b5d68205acc01eec89c4a9b6b31633d98e27db509cfa09e521154a1a2379852ff
+Filename: dists/termux/extras/binary-x86_64/openblas_0.3.6_x86_64.deb
+Size: 3236252
+MD5Sum: 6afb897b8be6e1c39cc96eb73d48351f
+SHA1: 939bb692ca85f5bf00cca110de72a20dbc6f255e
+SHA256: d0d21a1062cd15321e60754ffa8080b0621e787b129db7462db57967173418be
+SHA512: 282f25bfabffb76730fe03c87e3054773da0667fe5c41552007a375f2393653424a0eb83917fb10a28838bb3129767d6ddc0cdbcd7a536248f666288c3ff5917
 
 Package: opencv
 Architecture: x86_64
@@ -804,94 +1001,94 @@ SHA512: c61c229419184eb40a847f80c1228a671fe12eeb0a74b4ba889c21eb8d463d5b5e1b8dcd
 
 Package: r-base
 Architecture: x86_64
-Installed-Size: 65220
+Installed-Size: 66020
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.3-1
+Version: 3.6.0
 Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libgnuiconv, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
 Replaces: r-cran
 Description: a freely available language and environment for statistical computing and graphics
-Filename: dists/termux/extras/binary-x86_64/r-base_3.5.3-1_x86_64.deb
-Size: 40336808
-MD5Sum: fadd290796f908a9263fcfd1f1af753b
-SHA1: 25dec1f5e16e4e2544dd713fec7c5ceeaa35867f
-SHA256: edf16f85a2bde21d46992da4b96857ab78e99f60468167d5f42edd634ad93bd7
-SHA512: 0440154a368dbba530a4a8598a99b5f4e4ec82b34641460049af90715afed71621d0893df3a88be10664ac6ccb0a004bf37be6f7cf6efa05667246361043138c
+Filename: dists/termux/extras/binary-x86_64/r-base_3.6.0_x86_64.deb
+Size: 40972752
+MD5Sum: b79e6aa630f28234e4ee5b0e4ff997a1
+SHA1: 73f576375ecf2340604cf2789aea588292d2c0b6
+SHA256: a638b7b9f1a79b737388bc51f7d719620c203004c22a2fac9b4bf32b0e349a9e
+SHA512: 51fb775b77e27f6fba2a646d1462ffea575ce74b1f0e4c16d83dd129bed98fddecdc6bc7ee69adda35b10840a52149a803c855b31cf75e8c5be35f42d30d8705
 
 Package: r-cran-rcpp
 Architecture: x86_64
-Installed-Size: 11480
+Installed-Size: 11460
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.1-1
+Version: 1.0.1-2
 Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R package for Seamless R and C++ Integration
-Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_1.0.1-1_x86_64.deb
-Size: 3323804
-MD5Sum: 215ac4eb4aa7ea82fa3e4ba73e8196aa
-SHA1: cf2eacd97ea6f45f11f4fd41b0530f5f7cfc08cb
-SHA256: 42034d666230800d6cdbc86b22ba8fbcc929e69680ff3e2b13f1214cecd75f23
-SHA512: f0f59b8287c869772a0630db2fed63442f4a3842e9d89fa02399752943c86c63bfe18f8bb61a468a4af723be65a36b393f25b14801b23d7ede0545f6babda9c4
+Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_1.0.1-2_x86_64.deb
+Size: 3312872
+MD5Sum: 60ddf39c265f9a33c1b69f29f09ca1a7
+SHA1: f73446e0241eca36236c05c12410c777b7335d9f
+SHA256: acb1f8865fa5e8cc662568fb9f84d17064bfab7a17867aae108f4f0725b0efed
+SHA512: a811376a98253410e1cb460bd01e2df3060bfcad03d2397e6fbf14ad18631d4f3ecf3086ed4978d462472846ddf934f7181e06a724f0a667c38e41d126968588
 
 Package: r-cran-rquantlib
 Architecture: x86_64
-Installed-Size: 3892
+Installed-Size: 3896
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.8-1
+Version: 0.4.8-2
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
 Description: GNU R package interfacing the QuantLib finance library
-Filename: dists/termux/extras/binary-x86_64/r-cran-rquantlib_0.4.8-1_x86_64.deb
-Size: 961538
-MD5Sum: e0f52b17a64add67d156376a4fce55c5
-SHA1: f1af0dfa597ab98c6329a906e65b1d756f50c521
-SHA256: 3717df344c419a5b417c8bb125607df74118e62d6ab0fb59b930afc6f73c64a2
-SHA512: eea6731ae025e97d5e54eaaf736aa8523c8aefded33fc9cac56ba64fd58a4c4d961eab3fa59f1db0975819c81e1ea2330cde63ad9d58f0345a411bd5596ac5b9
+Filename: dists/termux/extras/binary-x86_64/r-cran-rquantlib_0.4.8-2_x86_64.deb
+Size: 962586
+MD5Sum: e4091931b4760f6247fd36b4b7a8d09b
+SHA1: 641ce79b3083683f990d66953f7d9d9e6ec8c266
+SHA256: 4f54f74121e4ab4ba9ccf172417bb6435057013ac82a6445334833653c8492b4
+SHA512: 26cd2080bb1b4ad370f5c422561296f0ddb67ed2b09c94b20a062151f1d991e5b4acb988400db6dba48c0f300a6f6d07d0aabc3987acf9ab6da4d413697221c6
 
 Package: r-cran-stringi
 Architecture: x86_64
-Installed-Size: 1208
+Installed-Size: 1216
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4.3-1
+Version: 1.4.3-2
 Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R character string processing facilities
-Filename: dists/termux/extras/binary-x86_64/r-cran-stringi_1.4.3-1_x86_64.deb
-Size: 693854
-MD5Sum: 6b9997554aace1b2dd7ccf65637e4c3e
-SHA1: d35a56f77bbdb8a4231055ed9d7672f9a5287a67
-SHA256: d72ff173cadcfacab201650fa9c3d75bb113f05c8a6a67c988cbf49e808869c5
-SHA512: bc286a021c8dfc2e4e39e5b2f32bd40c1463ed8f27b2c83b447e2105209ed893bf3b77485770a2778861f9043cfa4f0f4dcffb1d228563ffd144d15a3b398f41
+Filename: dists/termux/extras/binary-x86_64/r-cran-stringi_1.4.3-2_x86_64.deb
+Size: 691678
+MD5Sum: 1d7d4fc938a1652d34bcf75936b04f1d
+SHA1: ecc48e5a6f0ebe7dfe43a494645c574fc8c80783
+SHA256: 072287249021df09fec7aaf4f5c3466786c50434741c90f44d925f645803d382
+SHA512: 6ee1bed365c62460e48e0c54d1f4b4624ef0f573c00f8448be4e32535a8d9d60a94327a0dcca9617cd4e5d132ef6d8ee684318b038650897cb73099552afaf49
 
 Package: r-cran-tidyverse
 Architecture: x86_64
-Installed-Size: 220712
+Installed-Size: 220976
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.2.1-2
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-rcpp, r-cran-stringi
 Description: tidyverse
 Filename: dists/termux/extras/binary-x86_64/r-cran-tidyverse_1.2.1-2_x86_64.deb
-Size: 37262154
-MD5Sum: 88412533b0bea7f9a9187f3e09b4af04
-SHA1: 1114c7e15e30995c0a6be7e55877b3199f448e51
-SHA256: 53dba7d410039587bbccdff6a3fdf8f02f2aa07957c6fa2905beb38b4c3011f9
-SHA512: 27121f24616582ed1c94464437a04d608423a4357e3363ebda5ffe9f7a2a2ba2a34a2ba78b6f1ee9cd7b6a02d8199fb85abc8248b4c0479ba2dc55bcff53d41e
+Size: 37372458
+MD5Sum: 62539c6b285e6494b3e135fd1e25f34e
+SHA1: 30a4ef506e3c79948eef22e22de52a464feffe22
+SHA256: 528e8d9b8a68127353cd2bfc6efe0463b23eb3645ed13d6ae760884a302dfc58
+SHA512: 1b25075bc3793a72fb113d6faa64d084ff78e5c63d83b99d084720dad0ca8d110760be86c8142d82e594666c132ccd39da4408532880e940745d84ebbe89f2dc
 
 Package: r-cran-zoo
 Architecture: x86_64
-Installed-Size: 1448
+Installed-Size: 1452
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8-5-1
+Version: 1.8-5-2
 Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R package for totally ordered indexed observations
-Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-5-1_x86_64.deb
-Size: 1052134
-MD5Sum: 218e83e2cc3b806d45c7475f1f161b72
-SHA1: 3293c7a7b8fd733cbbb6df05fee684344cea2fe0
-SHA256: 549c370b1ca38b316c498a816fcded1540958256a7653718fea8989590aca55d
-SHA512: 4c059b09d90c999c790069a1f2c3aff15a1047de4caaa7e00d3906395eebd4ec2842b159899e393d0f331798a0a626322a070defddb21d520a5206f558acf945
+Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-5-2_x86_64.deb
+Size: 1055928
+MD5Sum: a33f981b56be89879665a58b2996c660
+SHA1: 509cb218a3669d6f7e431fe55fb836a3489180ce
+SHA256: 3eabe6e0d5c5b1b427fee7a11c14ddf8d3c4584a935615692f09510a2c61f0c5
+SHA512: 3004c25a0dd21a2f27a7c754e730294727b40b4df753e00ee6bd86995f86970e1f45111282450e2511a1a855a479fdc2baaf9eebd82a63822edf2c67622112fb
 
 Package: rust-rls-nightly
 Architecture: x86_64
@@ -987,29 +1184,29 @@ Package: xmlada-dev
 Architecture: x86_64
 Installed-Size: 8704
 Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1
+Version: 16.1-1
 Homepage: https://www.adacore.com/
 Depends: xmlada
 Description: Development files for xmlada
-Filename: dists/termux/extras/binary-x86_64/xmlada-dev_16.1_x86_64.deb
-Size: 249194
-MD5Sum: 687429824c294d409340ad9c76cb2c94
-SHA1: c74a7f583d7083f7d09f824b45febfcee7de1068
-SHA256: d8cd2dc11e691c7b4c04033affd23cb7a58071a524a27325942f79f062db04d4
-SHA512: ce52df96554e2d1b3e4d90c8b63e882d2dc71f22e11372c74686ebb6054da682e2b70de39fca84f6d1467de899cd5f5fee56d511b61b7416c10c98049956492b
+Filename: dists/termux/extras/binary-x86_64/xmlada-dev_16.1-1_x86_64.deb
+Size: 249048
+MD5Sum: 892f6f4fd5e4608716c8e089b4f39c15
+SHA1: b1cfc002aded623839278282fe578768f1581d4d
+SHA256: f8f4e05b1ea6d1e90af9a521d65ad54403445cdef71f5add15a92b2b858ad026
+SHA512: 7f27f7f8bd8d27f4899350c09046a59d552da1f57ffbc993153ee8e506112790ca9e4036585a4cd239a77bf84a3d157dcea87eb4b3d1650b63a4872a83bb62d5
 
 Package: xmlada
 Architecture: x86_64
-Installed-Size: 15708
+Installed-Size: 15860
 Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1
+Version: 16.1-1
 Homepage: https://www.adacore.com/
 Depends: libandroid-support, libgnat-8
 Description: XML/Ada, a full XML suite for Ada programmers
-Filename: dists/termux/extras/binary-x86_64/xmlada_16.1_x86_64.deb
-Size: 1162142
-MD5Sum: 901f11d6785cb7a138ed108260d0052a
-SHA1: c94dae11f6e45b8f87228993e0258ca379a559d5
-SHA256: b08f7b486ca98284239d6c0e22200cc9d91b9ef645716c0a180362e76a3ed2f6
-SHA512: be8ca7291ca874804aefa0660cfa2cec4d6b99157662209678ea2987d19975d884f494e92288412db75ce6d8cf8ded7cf83a0af38160b1bade6ce39fcc435ae3
+Filename: dists/termux/extras/binary-x86_64/xmlada_16.1-1_x86_64.deb
+Size: 1176380
+MD5Sum: d351ab56ed2c9a356835166e9140cf10
+SHA1: a6837cb08a6e6e5c0f6a0325bfab04c79eaa9348
+SHA256: bd122b87c2c0cc0776825e6e2a2b0e8bdc99504f72054a34cca9c0ee90732c95
+SHA512: e21c8d3e735addb0ef58b09e90b4a1bf8b2b427896f531332f623d3ebe11dd1271e46e473e9f026ddc20205266737176160cfb06cd66dcf86ebf302a6e7f8296
 
