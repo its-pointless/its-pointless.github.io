@@ -148,6 +148,21 @@ SHA1: 0ba5ec3b8632e4c8cfccf28a0eb0e83247b3a50b
 SHA256: 53517e2fa7e4afa3b03bb09e37cbdc161fb6203357c7f67fb639fcc3a7871f20
 SHA512: 264ad7ead2b7c1e19ce8fb208751b96e82f9be8b4d6ba3e8f890a83761838921be4daecf8916e074d172ee2f05e9d78682cfd83e00806b171e74ad02d081c53a
 
+Package: gcc-8
+Architecture: aarch64
+Installed-Size: 86280
+Maintainer: @its-pointless github
+Version: 8.3.0-4
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-aarch64/gcc-8_8.3.0-4_aarch64.deb
+Size: 23307576
+MD5Sum: 545f7f33157518ee7c9bd366bff13e8e
+SHA1: 1801ba94196072a47d0e6d9dd4b3f5405524bc9c
+SHA256: 98bb72423dd7757bc6390c4e664b2b20c411b39d19e51a63d638f8798970e33d
+SHA512: d5b2930b8bbc6b1951d0bd112351b530fdd0dad3a404fbc9b3df7b079a7583a8c46d2e02f42eecebbebf1363cb0b579acd332d9bed8b75e715be18dfc070ee3f
+
 Package: gcc-9
 Architecture: aarch64
 Installed-Size: 91336
@@ -207,6 +222,21 @@ SHA1: 245dec784a72887d9a6267510d4a3cb495de04ca
 SHA256: 282f05f44a3e51182f43e71d44460ab1b28dfedddb40b2fa4233844e9bad9d28
 SHA512: 3b7832a9a34854badcafb8b560803060d5bdb81c84b4585096c3490b56423a9d614512df3587e630e60fbce0af105d82f501e540a4bc69056a84799b2d19f2ca
 
+Package: gnat-8
+Architecture: aarch64
+Installed-Size: 83600
+Maintainer: @its-pointless github
+Version: 8.3.0-4
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8 (= 8.3.0-4), libgnat-8
+Description: the ada compiler
+Filename: dists/termux/extras/binary-aarch64/gnat-8_8.3.0-4_aarch64.deb
+Size: 13691584
+MD5Sum: b581a5be0e48f475ddea23c5456bf5f9
+SHA1: 23fe3227bb162111fadf97bde45444a5cb391c4e
+SHA256: 4933c863aeb7a75a9ebda780ad2ee91bcc9350fa367e68e27139f6ff83f0d6ed
+SHA512: 58d76f815e48b1fd2050b52d00b9ecd4790b956b91e1943f933d42e9ee8ebcbd479b48f6d6e44797ab4f8760cca3682ffbfa3ef4d2e0c5b5e32cb978917cced7
+
 Package: gnat-9
 Architecture: aarch64
 Installed-Size: 89504
@@ -236,6 +266,21 @@ MD5Sum: 56d72e4b2951e6ca74997f62231b678f
 SHA1: 2d5f56f1a086f1b2ac9f9ee5a45b59f784199e77
 SHA256: 44f2de76acbe182fb65332116b8fc2489cd870700e019eff338a461400946574
 SHA512: 06fc904bde07fd8207bfe914c62819d951f96d2d4bf851bf552965903ac48fdc6ab3ab89cae9d0d5ddd82c3f5f6ec2f0b36d17f22885d071f7aef55d4da6d60f
+
+Package: gobjc-8
+Architecture: aarch64
+Installed-Size: 18692
+Maintainer: @its-pointless github
+Version: 8.3.0-4
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8 (= 8.3.0-4), libobjc4, gcc-8
+Description: GNU Objective-C compiler
+Filename: dists/termux/extras/binary-aarch64/gobjc-8_8.3.0-4_aarch64.deb
+Size: 5441456
+MD5Sum: 7d5103f59edf886ca5d18135d66a59d5
+SHA1: 1c4bf0d7e17721f08d94bd0e01d6d23922107e14
+SHA256: e3c32e09eb1d94b8cf8b6cecf585f544dd3a05c899ef9fd89c3415599cc9097f
+SHA512: 2aa68bcb94cf7f01a8941d90a1ec395f630cf0619f64d0c8c59ca640fc90d895c36da1b7588c028559056e39c91e93f9e1885ad6e7549aac2423259588289dd3
 
 Package: gobjc-9
 Architecture: aarch64
@@ -416,6 +461,21 @@ SHA1: d1429a2a2442e5b969e2b65e1a65efa72da25d18
 SHA256: 07866c281942425add3285e711ba8b4dca6731df70af5240d8946870ef198dbb
 SHA512: 10414311b7f03cc6e5fc7b6527cafb59185c0b30fa50580d07065b2819c90295eaa28d28b3a07579c788013a5706036126820cb42c4ff76f9844b83bf73cbb6c
 
+Package: libgccjit-8-dev
+Architecture: aarch64
+Installed-Size: 16624
+Maintainer: @its-pointless github
+Version: 8.3.0-4
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8 (= 8.3.0-4), gcc-8
+Description: GCC just-in-time compilation
+Filename: dists/termux/extras/binary-aarch64/libgccjit-8-dev_8.3.0-4_aarch64.deb
+Size: 4927338
+MD5Sum: 4a1d24fe955366c98c4b531587bed6ba
+SHA1: f452ae682c0cc60da731f8162fa23d4abc8dde21
+SHA256: ca92a653f5cc27d09423c98d32e98f53e268d689e2d2a58dbd4118b8a0187cc0
+SHA512: 2e8e1bfe189d0b16a89f7961bffce5adec8c41e08cc25d2369c906998ef96c26cb097a34c7b6e521215c1e13f21af13da409215675c10264b46a0d6d36597020
+
 Package: libgccjit-9-dev
 Architecture: aarch64
 Installed-Size: 17648
@@ -445,6 +505,22 @@ MD5Sum: 63c45e1db25c29ad30119f5c4a06abc1
 SHA1: fc762258a960f25984d65593c6bd0505d102b455
 SHA256: ad1ab1b3a43b248c56b2bc36fa2a3f6deb85af49a1e544cf64aa98181d8b5ee3
 SHA512: 9324b78808decadef6a04bea04b5a608f5e503f6d29c4ec55bb890673e97cdab10fede02ef7065499bb1c681318883a6cd4e27a1a0097c784588eec0bf73b182
+
+Package: libgfortran-8
+Architecture: aarch64
+Installed-Size: 1028
+Maintainer: @its-pointless github
+Version: 8.3.0-4
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8 (= 8.3.0-4)
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-aarch64/libgfortran-8_8.3.0-4_aarch64.deb
+Size: 217280
+MD5Sum: 8a2fc5db78fefb5ccc718145cfe4fb1d
+SHA1: 6a49d1d2d3f1629826bafa86db9e32426389366c
+SHA256: 6c5c9ce2c1e5346299e4ce3d9206458ecae9fc637af7f235b9d184b640867cec
+SHA512: dd42333e5490e37008c6f508f2b113ea2ea6c50c390d9df143e27f0542458dc9f76aab811172643c658facfa7037c83ac1a6737e1e9a1e560b160bbe4faf7288
 
 Package: libgfortran5
 Architecture: aarch64
@@ -522,6 +598,21 @@ SHA1: 27f377a67bc28289b884f1d8b6f3c1729beded31
 SHA256: fdcc5e913d53ec1138d98e55b65968ccb7d0fe6d28078a3a81028dd43bdb0b95
 SHA512: ebd630fdb2d7eb64cfdf5dc6b7543029a26d44db35cc920de7e2cd0ed590fe773f8b6e0b8cd1f49bc2b7bcd3b583af2079ae496fb6f05867bd624b47439f1bb1
 
+Package: libgnat-8
+Architecture: aarch64
+Installed-Size: 3356
+Maintainer: @its-pointless github
+Version: 8.3.0-4
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8 (= 8.3.0-4), gcc-8
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-aarch64/libgnat-8_8.3.0-4_aarch64.deb
+Size: 738220
+MD5Sum: 731d8a7e6e3de6c771c6a80dc304214b
+SHA1: 2c39dade1ac5539b0d08cd3f21a045dca44bbdc8
+SHA256: d43eca6cfdaed205ee5b680e707014bca7f35396ba874b5ee4ebc00ba25b22dc
+SHA512: f8f9eeb1acbeeeb6405ed7f02eb1cd84422d34aeffab2444efaed2e9c0f1567d8e75d3970204136e1d86d912a92f11fd54bebcf54da7b11f83df346407da61d6
+
 Package: libgnat-9
 Architecture: aarch64
 Installed-Size: 3428
@@ -568,6 +659,23 @@ SHA1: 69deabaadf7fe77642a73e966a647fbf6852b343
 SHA256: 4daa8037e872ee6931c2f2eccb26f0b12e8337c785e1da7e7f58e3dd73b18700
 SHA512: 4c2c5f7d44a16635c7d57e0d7391f8569c9312858b41696f7473991d59aa8f532892cf4fe82412028a9ea3aaa86caef4e5b7f88618d9dd2fd458fdf89d2a399b
 
+Package: libgomp-8
+Architecture: aarch64
+Installed-Size: 292
+Maintainer: @its-pointless github
+Version: 8.3.0-4
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8 (= 8.3.0-4), gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc-8
+Filename: dists/termux/extras/binary-aarch64/libgomp-8_8.3.0-4_aarch64.deb
+Size: 60570
+MD5Sum: 1a32c8b47890d1c7016cfebce1976892
+SHA1: 65240c1f9aa897a29401c7ccb8064678226729f5
+SHA256: d5638ef0b1903b06026c7db0def4453c57cee93fe01cb56aa3b4c03130134861
+SHA512: efe5c9d46ae538bebdca7d7ee3050c99ff336ff3a93a5a87f49811d12d1114ff3b5ad082a719f3a67019181faa967d306a4a41849dfeb35fbcce65ecd43598fe
+
 Package: libgomp-9
 Architecture: aarch64
 Installed-Size: 332
@@ -612,6 +720,21 @@ MD5Sum: f061729542e88a925a9ab9be334f59f6
 SHA1: 83f79a2a3f8b9b2234ab74823fe6383bdea6c253
 SHA256: 3f462d8090da2e0ebaf78512d8ef11fa2d064e703f7d6c54bc09b1aaffe751d5
 SHA512: 5d310eae245f92b958957a592304438153ffdf6424634467745dc12095c9b301f73c87d7370850fa037ae2d804b2aeaabfc4a079900154325b57de3fee79213c
+
+Package: libobjc-8
+Architecture: aarch64
+Installed-Size: 292
+Maintainer: @its-pointless github
+Version: 8.3.0-4
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8 (= 8.3.0-4)
+Description: GNU Objective-C runtime
+Filename: dists/termux/extras/binary-aarch64/libobjc-8_8.3.0-4_aarch64.deb
+Size: 50192
+MD5Sum: 5295abb4e45d4f3e3b9bcde5cb0f56c5
+SHA1: b106ecae5332625bb53499a71ad2deec880d0044
+SHA256: 2a3bc47e4216eb09cea5f8c92823f798b7d119ccddf708a1b9fea2a9f59495f4
+SHA512: c24e1c7e8aece7190ecaa181b18a47398a7d7ed76445bcacff6454ee2ca55d1c4212a2d6ff78fc28c04979cb0053fe6f49bdafa7c0e59038ae22a8507d965471
 
 Package: libobjc4
 Architecture: aarch64
@@ -1119,20 +1242,6 @@ SHA512: 696bc88ca4b8701023a0df4c6699d2cf19155fb06e59ccc7b94535d9ed3029b7e207a834
 
 Package: rust-rls-nightly
 Architecture: aarch64
-Installed-Size: 17744
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.35.0_aarch64.deb
-Size: 4502120
-MD5Sum: e30a7941cd5d3d8c8c5ed70b3fd8ebd8
-SHA1: 9dafe7e81b05f687adb671a7f51dc164e4eb4cdd
-SHA256: 8bca4dea753dfe7120f448017ad761c24706f22bad19ee3d79911a36606d47e0
-SHA512: 27d324a6f518d01372e0f1edd70f9e4deeb69fef102eec72aa9aa9c0fc289ae7ca86f67488c7ee7e9f24627a049374d04e6a952e453fe559ea26056b53a384b1
-
-Package: rust-rls-nightly
-Architecture: aarch64
 Installed-Size: 17360
 Maintainer: @its-pointless
 Version: 1.36.0
@@ -1145,22 +1254,6 @@ MD5Sum: c9e9739a238e698a5a31c6916f6949cf
 SHA1: 55c30c24c1706ec2f8d8ff0c8bd6f91926816c48
 SHA256: 9d992650a4228d59b2cf13aa483661ab8f530dba11e7639470be47fa61cf8058
 SHA512: 2e2c9eda39bdd128031fb8c9d6b3fef72a78f4ab76c14c6c2a9dd0cccb7527179d46a5dc5bde4a534307d0285c88f23237e70dc15b8463cc561dc30a9c0d9922
-
-Package: rustc-nightly
-Architecture: aarch64
-Installed-Size: 200428
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Description: rust nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.35.0_aarch64.deb
-Size: 70533094
-MD5Sum: 6225fe080e7ab5f12a9ec7be1f0a9084
-SHA1: 8982955435020adc22b20873ff273f709a498876
-SHA256: a3dfce10922fd5abe03fe8062932aad90bf81673948125a1f0a1fd557fc3789e
-SHA512: 09f4d5e0b029bfb20414e36ac64dbef19db761e14a4fbf942b7bcc77c87ca1d09ed1b027824c9e86ddf38e6c347c11fc13ccb7a1953abce537892c638f77d7a1
 
 Package: rustc-nightly
 Architecture: aarch64
@@ -1177,21 +1270,6 @@ MD5Sum: 50954907d22cfaf808ced8c001ab2768
 SHA1: 0af7a04d1300df23d080c957c0809dd0e957d90a
 SHA256: bb148442847d05ad17a705179bfd2c4977cd0d7cc56a4c8bb0fbbad1668475d9
 SHA512: d11f64b4c539f234dd55d6b17e204d330f70f54bcba70ac8867e838726039dd8676d8c5d12eb54dffd1c543d56d6509599202c4a66bb00b8969d6f9e32d777ac
-
-Package: rustfmt-nightly
-Architecture: aarch64
-Installed-Size: 5256
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.35.0_aarch64.deb
-Size: 1411284
-MD5Sum: 9a416b99f21d7b8320f8904e40511412
-SHA1: 55a45674511dee5e50469163f7cd084bfcd399f1
-SHA256: 0ceda7bea6fdf52ed05339ccb345a3442fb0dc6dbda4c7d945f347aec32626bb
-SHA512: 6462907a0a8c0c9cee76c56b53610b35d7cf7e27874fe3644c628c34f1cda34dc3149efa432b9fa297eb8daf223264a8f7dbe954817814551ed03919ca65997f
 
 Package: rustfmt-nightly
 Architecture: aarch64

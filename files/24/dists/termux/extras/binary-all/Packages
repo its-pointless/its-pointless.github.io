@@ -1,20 +1,5 @@
 Package: rust-docs-nightly
 Architecture: all
-Installed-Size: 348276
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Description: Rust language documentation
-Filename: dists/termux/extras/binary-all/rust-docs-nightly_1.35.0_all.deb
-Size: 13238564
-MD5Sum: 00efec06d9e42a40a43120b6814ef82e
-SHA1: ce42c6743ad418801b76c3664378efb1213e700d
-SHA256: 42c9cb9b74aebb09f731c7ecd4aa9d8e6eebea361c0735d66ecf35beedcf945e
-SHA512: c71e7f618b7da70cff0c0ec38d778b88058df2ceb5994b0ef61489b5080059cc7a2fb0fb5b9ad9910537bdaa1c77bb1e70f45b1084d02e4922de0625967fc476
-
-Package: rust-docs-nightly
-Architecture: all
 Installed-Size: 350512
 Maintainer: @its-pointless
 Version: 1.36.0
@@ -30,20 +15,6 @@ SHA512: 6d42a6278174e64e9d28ee4f7114bf44a3ebd2a18de27568f8dfbf6e1ad4663f9182555b
 
 Package: rust-nightly-wasm32-unknown-unknown
 Architecture: all
-Installed-Size: 43880
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Description: rust std for wasm32-unknown-unknown target
-Filename: dists/termux/extras/binary-all/rust-nightly-wasm32-unknown-unknown_1.35.0_all.deb
-Size: 13493428
-MD5Sum: 48bed88a09d2b67901b88a88c3cd893e
-SHA1: e36c70c67dcff3aca9b7f66d19b8dae53a700e32
-SHA256: b17a6e6f005514e05d89eb4f936dff93ce231b28c751b4e4a208b7664e46d256
-SHA512: c9c23d848e9702a90b74df478ca56b6f8b638ebb634c3bcf7e1150bff3ec59fbda4e48c9b2e898d632dccd713182d4c314c7f20146c371ac3e5a5732ceeee6a2
-
-Package: rust-nightly-wasm32-unknown-unknown
-Architecture: all
 Installed-Size: 43552
 Maintainer: @its-pointless
 Version: 1.36.0
@@ -56,21 +27,6 @@ MD5Sum: 8297d51b41a879b2ec23a8c7865fa218
 SHA1: d06828143c9466dfdfba6560b27de720bc420e4e
 SHA256: 7a6e4a5402f7a146df7529f8d3479a4ca1d98e0f973761594d113ef16b0f60b3
 SHA512: c06224d4b9eda8732453c66cce5ff0f4abb8baadb245b5d3eca298a6394b214f70f87a01f5a125addfddaebe23e58f14dd9399c57bc3244438e2fd9b6c2650fc
-
-Package: rust-src-nightly
-Architecture: all
-Installed-Size: 39988
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Depends: rustc
-Description: rust src
-Filename: dists/termux/extras/binary-all/rust-src-nightly_1.35.0_all.deb
-Size: 2545146
-MD5Sum: 4bb5fb4d2c84a2b110c35bb1bf8e2b27
-SHA1: 0cd275496d1b8d34808ceddfcd5f6e21f38910be
-SHA256: 87bb4dfc983852515cd2756c11ce5cea2f4eba8cd23c3d0a438e17de324d6578
-SHA512: fce1f07380555711b79a549ca82549a14a7b2d86ffacf3d5cc312446ee8c400f9c0c7a1401fed10d558f207ecf4f2108e282b80fc83f0aa0ed16f2890ea36b68
 
 Package: rust-src-nightly
 Architecture: all
