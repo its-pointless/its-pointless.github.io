@@ -133,6 +133,21 @@ SHA1: 83fe646efb59da87a4b9f7f3fcced0ebd1f74fdb
 SHA256: db1eef2dce0fed2c8bfb21bab922f382c1223f5f3a219141cf1a6fbcbfa9b5d9
 SHA512: ca57c7fd6b61a24a12ca6b0271f501b9d8b7f68dccc7776c935379282533110125e440a111678a829c60253fffa44b2aa17f367e1d4cbde7ac102222dc204361
 
+Package: gcc-7
+Architecture: i686
+Installed-Size: 106116
+Maintainer: @its-pointless github
+Version: 7.4.0-2
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-i686/gcc-7_7.4.0-2_i686.deb
+Size: 30558340
+MD5Sum: e3938baef6cb287b2d007b8df292d7dd
+SHA1: aef0010fe83edd253ad6fb1131a9d4b725345e8a
+SHA256: 3ab51ec0f1554b4c810705ac92bc07b90be079f9416618964a1733275b89f608
+SHA512: 1b815ef38e2476b1794a6cc41dadc31d089d30bf2dedf0a5435e46022577bed1e272973a3bf7c8393efb957adc15e80a37a8f1cc34d3453b58b406da1a8e6d8c
+
 Package: gcc-8
 Architecture: i686
 Installed-Size: 114628
@@ -522,6 +537,21 @@ SHA1: 1ee8fcb656bb2457867fb61ee2558af74ba19a8d
 SHA256: 56dc7d57b6c587dec16925cb1b66a964470de9473c3d434c7b108ed8a0593a69
 SHA512: 2e6096fd913bdcf207367507dbd8e579ac0ecf57d48fa7d1ddf20b05ddb908eb37eac5c3b9934a039653339e97caf5f6afbee2a95f6dc094ee288b0bfdb153a6
 
+Package: libgfortran4
+Architecture: i686
+Installed-Size: 1116
+Maintainer: @its-pointless github
+Version: 7.4.0-2
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7 (= 7.4.0-2)
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-i686/libgfortran4_7.4.0-2_i686.deb
+Size: 333130
+MD5Sum: de6d9f0be7f66a5f18c115652330d479
+SHA1: 97ca2ce358fc58f8c68033dda74a1a05b805d23b
+SHA256: abecf3af3a066a935ec3d83b7f0601d12330778993bd672d851ddaafbac2a3f7
+SHA512: 93671908638db13dced6fad562d484457c78a499273026e03231a48e6f327fe8e114fb7225f630213f6c7e33e2e1c318126d52873870f28ef298d455208048ae
+
 Package: libgfortran5
 Architecture: i686
 Installed-Size: 1300
@@ -626,6 +656,23 @@ MD5Sum: 9ab3e62ac5f9b39e5b7b3bc92522ce48
 SHA1: 4f52b358ead5660e7bd066954e7e7f55ded8c9b6
 SHA256: a05b8989ced763a0f3575be8e5bc30e90afe1b414c61fc4b41d0aeb0cecfdc8a
 SHA512: c74189c1637e04010f8f7233a0c9fd9a4f73af4460aa6fe4c4b70d1cf6950a9f20004f02bdb139b32ca506374d06a94ec0973eefe816caa54da10c8a1649c0bf
+
+Package: libgomp-7
+Architecture: i686
+Installed-Size: 236
+Maintainer: @its-pointless github
+Version: 7.4.0-2
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7 (= 7.4.0-2), gcc-7
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc
+Filename: dists/termux/extras/binary-i686/libgomp-7_7.4.0-2_i686.deb
+Size: 62724
+MD5Sum: c1e04a10a1a783562a802405bf576167
+SHA1: 176f1faee20a82fb7551e3d15edbb3bd94479bfe
+SHA256: b9b22909511ddcd71b3301622d07240171313425cb9bfed396ea8f70db6b1655
+SHA512: 07f7f63a5f011e29ba58a01ff75479b76dd81494468a477e41c03598b78239321146e999640ace00e0b9debccffab5ade1190f06d19ea2921c373310f864d9a5
 
 Package: libgomp-8
 Architecture: i686
@@ -822,6 +869,50 @@ SHA1: d7239ef39ce26871a9452f3c7aa54fe47be515c0
 SHA256: 3d4605a394ed1a4ec72fd17c6b90b20033a0d37aeb48475e2285e440bc5adb9f
 SHA512: b2eb49a60b8302fafe69ebec02c76acf2930464f298044896499c5bf23b9340aaaa1413516565b8558d80489c4d5c0c8d6cdf8773200994ffbe3094261c40ff5
 
+Package: libtommath-dev
+Architecture: i686
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Homepage: https://github.com/libtom/libtommath
+Depends: libtommath (= 1.0.1), libtommath
+Description: Development files for libtommath
+Filename: dists/termux/extras/binary-i686/libtommath-dev_1.0.1_i686.deb
+Size: 8504
+MD5Sum: 8da13cc90b4190ddf47f51ffe130ab55
+SHA1: d3dfa50d0301145992340c61892a63b37ea45665
+SHA256: 960ee09c80552c65ef85c584ddb82164e765d79eac896ad5e9e21b868998f596
+SHA512: c62905bb4ad07bb56b2605f25fd59813dff28aed67f4166269373f8aadc3766f83c4dd07b4d815c503e7695a123257c3568d9fa81f00768a691a7dfdc8a7877e
+
+Package: libtommath
+Architecture: i686
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Homepage: https://github.com/libtom/libtommath
+Description: portable number theoretic multiple-precision integer library written entirely in C
+Filename: dists/termux/extras/binary-i686/libtommath_1.0.1_i686.deb
+Size: 20992
+MD5Sum: 047569643e01776a0726320777f20155
+SHA1: c91361b47e931cb66ea19a36a841221ed9cea801
+SHA256: 76988f71fbad804fa1acc256f49b02a579b8fd36ee6dbc56e5f8f8168bc2663f
+SHA512: 1b8107211d3d7cfb588fcb8b406a68f044f18ae2105c6022b99cf4d4dc94ef27ffe452d5401f90bb0947db29ec6cf92bc98a3858ae2c6587ac4fca97ef1e9e4f
+
+Package: moarvm
+Architecture: i686
+Installed-Size: 6884
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2019.03
+Homepage: https://github.com/MoarVM/MoarVM
+Depends: libtommath, libuv, libandroid-support
+Description: A modern VM built for Rakudo Perl 6
+Filename: dists/termux/extras/binary-i686/moarvm_2019.03_i686.deb
+Size: 978448
+MD5Sum: bc75daccb4de587e7dcff11527ec3e84
+SHA1: f312c686a16ccf3c693002456f7d4e9694d6b34c
+SHA256: 84e69066f1975d8eed687e4129c1f703e35853086061bffcff4923046dc2d5ae
+SHA512: c85722217dbaae7cb4a9641d3420a5757f745ad83c83b49752bd1eaef9916de3c4b2b9d6d716b27074d70c0ddc1b5a407ea17b8b98a5dc8624e9b0dedc1d1fb6
+
 Package: mpich
 Architecture: i686
 Installed-Size: 6552
@@ -867,6 +958,21 @@ SHA1: 472ee0fb3ce3aac3337d2011805044151ba26575
 SHA256: 23e01f8bf3aad62193dc043226cea8b7bff7c113dc23ab9c7ed0d2a67a913052
 SHA512: 14cc52e59e05187b70e9906113321ea4b8cc123e8f6b332ecd14ab04b30a08aae7ad1af6bcd59719ebd699ccf173ccc9d6f465610627ff34aee047ebc047217a
 
+Package: octave-dev
+Architecture: i686
+Installed-Size: 5740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-3
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.1.0-3), octave
+Description: Development files for octave
+Filename: dists/termux/extras/binary-i686/octave-dev_5.1.0-3_i686.deb
+Size: 369494
+MD5Sum: a87711519d6fdb064636278cfc549b64
+SHA1: 7c24be879e5139c73b31c80cf767b2f4cb814461
+SHA256: 41e1eaed93e11cd99f1619d0923362055e5c8a36fe2d4237e924dfa75d409068
+SHA512: e8e9d32783c6403e52f379edb0f6b8e6d691b7f29374def28429b2badb0048eed3dd6b996d66e858a9157d656b0a4485b20696cdea8cfa06e6231f934161e443
+
 Package: octave
 Architecture: i686
 Installed-Size: 52252
@@ -881,6 +987,21 @@ MD5Sum: 58891409949f156f51ec0cc94421c309
 SHA1: d5a2e38c748d5d5ef5985bb58d0c9f3e72e00d6f
 SHA256: 4863666cd9d1731a10a8d57ad840dba94fd27f15389de9ee477a289b1ef335a6
 SHA512: 7811d7d7f7c2fb3b4b72a06fe2496ce7cae0d0b02b3263d79a963a5b160b175dfee2f7f361e352c436825528e6517ac15b9e9810ba9c7b0842b58d8a60064089
+
+Package: octave
+Architecture: i686
+Installed-Size: 51712
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-3
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-i686/octave_5.1.0-3_i686.deb
+Size: 11271338
+MD5Sum: f0c1d01297c0a8d29b0e58007c5892d3
+SHA1: 536df1d57624b2cb339824c66b9f41b55b17ece0
+SHA256: cb1ec4b497f01be10285abba07c6918464374f514893fb635cf4c2e2bea4764e
+SHA512: 807c5d596c714619c4f0addb7ef635df383172e83d1acefa7a9e5b272ea5082d6eeb90e5d640fea52f4d7e03a43a953964b5bccba89c5acdfaf7970fe873b341
 
 Package: openblas-sandybridge
 Architecture: i686
@@ -1003,6 +1124,21 @@ MD5Sum: ad64a5918debfc76080f2496710dd5e5
 SHA1: 117f11bb19f419761e3583ad6903e1927dc149a8
 SHA256: 63e311d2de00f30d51f178fc58b3471fce12dd47cfb82f70069d2211ad6d64cb
 SHA512: d07c6b532bfd3dbbb7438e3c0ae8270ffa0ddaade7dd20a34ffb93ddf37f248090b9144ae2cc0be5c3f5aec2c14a8d7d7722d512924f982635b14de4674d2454
+
+Package: potrace
+Architecture: i686
+Installed-Size: 156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15-1
+Homepage: http://potrace.sourceforge.net
+Depends: zlib
+Description: Tool for transforming a bitmap into a smooth, scalable image
+Filename: dists/termux/extras/binary-i686/potrace_1.15-1_i686.deb
+Size: 62972
+MD5Sum: cf738ff2cd7a2a6d039bf440265bd0dc
+SHA1: 06ba010cd229b23b49942a651bc2b160053cb7aa
+SHA256: a749c6e36f648a843ccbbd5d7506d99b9fdbb8c3dee4b35bf1e1544c8c1df477
+SHA512: f04c55d433141babef56544f12d09fc2d6c9167b2ec55a5da65140f84e605ab1c5879094ad1f7c687611f38eb9c8416bb0f6f88e4993655622f051f233c157c4
 
 Package: povray
 Architecture: i686
@@ -1276,6 +1412,21 @@ SHA512: bac5bf751173788681ff1157003a342c0a1b9e1753ffac77f2b0d7df87c1dd02c5851379
 
 Package: suitesparse-dev
 Architecture: i686
+Installed-Size: 796
+Maintainer:  @its-pointless github
+Version: 5.4.0-1
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse (= 5.4.0-1), suitesparse
+Description: Development files for suitesparse
+Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.4.0-1_i686.deb
+Size: 104404
+MD5Sum: e1fd938f86e359e908776ef61e42fed7
+SHA1: 4d86e7fb12fe3bf261e244495972dd0446ef639b
+SHA256: 5cbc4ea1d5c66ecd6d799446334d723c72586e52a2e35dad123e654eb246822d
+SHA512: 84ae63d4206dacc96c91f5beeae149fa525bd4523253b073605e2adfbf2290cb01f7c3663d69015248e54928664cd44c4e640febdef0804aae573137134e95e6
+
+Package: suitesparse-dev
+Architecture: i686
 Installed-Size: 792
 Maintainer:  @its-pointless github
 Version: 5.4.0
@@ -1288,6 +1439,21 @@ MD5Sum: a6f0ec5226270612bbe9abbf9e396ad9
 SHA1: f5a054e7594bbcad276fcd6b64a6a421d14582a4
 SHA256: 578b614ad38cd2745454af07c8373713fac42ff67e3bb705c8d5276c29f2c810
 SHA512: 1e7280b825368e926f439295574f75945268768cf6d7ef5e87ac799e88691d457e897ae59fe2c1eac13e97e09d1d3d9ffc77bba06db660def68a4df194537c2d
+
+Package: suitesparse
+Architecture: i686
+Installed-Size: 3744
+Maintainer:  @its-pointless github
+Version: 5.4.0-1
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Description: a suite of sparse matrix software
+Filename: dists/termux/extras/binary-i686/suitesparse_5.4.0-1_i686.deb
+Size: 931532
+MD5Sum: 5803f1f475ad3dbf3d44be481bc2e23f
+SHA1: fbada3af32b257bdd577702ab8cbb633c56dbe9f
+SHA256: 46c07266095cc22ef59b6ed4cb26effa34be217331b27ac8377d48d5f543291b
+SHA512: 44e0b3c7d6f6e47565b9da2fa989c8b245cf48bc1a3878aa4acf9be45524b86a09911652b65cf7435356cc0d7a67e32f240a204c2e6044e6379017f0ad8213b2
 
 Package: suitesparse
 Architecture: i686

@@ -133,6 +133,21 @@ SHA1: 0dd48cccb519c806aba800170090fe9c6cff969d
 SHA256: e442cae67f1d5014e4163c26adde99218dd56889c7ce6e418db52bdfc0549f00
 SHA512: 639cda35ecde2f9349781c18fe9d9cf0e41658a231dc10e939a0644a2361cb19905124348629bb7f7928a42095ffa62dd3f1017c0f37f1882f498174decadd3d
 
+Package: gcc-7
+Architecture: aarch64
+Installed-Size: 76892
+Maintainer: @its-pointless github
+Version: 7.4.0-2
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-aarch64/gcc-7_7.4.0-2_aarch64.deb
+Size: 21392012
+MD5Sum: ab7ea78702d92e50d9f7b27519fdb1a8
+SHA1: 59615ab3beed5e7973834b728af9490d55a89fd2
+SHA256: 075bad7a091436adf07bc210c763327d8f57a0b485760cb8a05e6bd133f7e395
+SHA512: 6b9e4ccf9fe9e11a0af7a99fe2772e0f1e1bc99ce38f2873553f95a88efcbcf09bbb44033f70f6bb2fda08efad9b94c64eb4d757f97821593218c6ab24c97817
+
 Package: gcc-8
 Architecture: aarch64
 Installed-Size: 86280
@@ -522,6 +537,21 @@ SHA1: 6a49d1d2d3f1629826bafa86db9e32426389366c
 SHA256: 6c5c9ce2c1e5346299e4ce3d9206458ecae9fc637af7f235b9d184b640867cec
 SHA512: dd42333e5490e37008c6f508f2b113ea2ea6c50c390d9df143e27f0542458dc9f76aab811172643c658facfa7037c83ac1a6737e1e9a1e560b160bbe4faf7288
 
+Package: libgfortran4
+Architecture: aarch64
+Installed-Size: 900
+Maintainer: @its-pointless github
+Version: 7.4.0-2
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7 (= 7.4.0-2)
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-aarch64/libgfortran4_7.4.0-2_aarch64.deb
+Size: 195366
+MD5Sum: e1fa9a7efb8479273f0970b3b473d4ae
+SHA1: 2b8423aaf872297c5462f2e8b671673d0052374f
+SHA256: d5576ef5613b461c965b98dddaa4e2f78b8306369bc216cc14f9bbdcac224989
+SHA512: 21f4d7e71d068c2903593731870854ba5f463c4c6cbe3370c61be41968c0a74764ba488e550a581d00e420ba68e1e3aecfe1a6b696443c1f0fe28d1114dec0f1
+
 Package: libgfortran5
 Architecture: aarch64
 Installed-Size: 1028
@@ -641,6 +671,23 @@ MD5Sum: 7b3ce00eae5fa633f52de4895d0a5e83
 SHA1: c45036ae694825d0d629de7486a5c3975217cfb9
 SHA256: dcac52691ffd358b7b927a97f9f514a348a9b4cbd2178079cfabcb200b59a735
 SHA512: 299ec5618129d575a7b6f6a78b2b62c236249e96ca6f8b6fcda102730e35a749986107b7a866b6bd618bca89d9cdbf16352605ae17bdf507b8d17aeb7b044560
+
+Package: libgomp-7
+Architecture: aarch64
+Installed-Size: 288
+Maintainer: @its-pointless github
+Version: 7.4.0-2
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7 (= 7.4.0-2), gcc-7
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc
+Filename: dists/termux/extras/binary-aarch64/libgomp-7_7.4.0-2_aarch64.deb
+Size: 59612
+MD5Sum: a7e22b6cd16948a472ad458e45d1f0e3
+SHA1: 40dabf438b2af44e06f4e778d7aab21a65819849
+SHA256: 50c991670b65e810e746cef3e1838f21f0f01bcd85e348b466f771acb26147dd
+SHA512: 85a0e8e58f29758aa99ff2f1310113ea2f80b9a332d6dea37357f5f1ee5324dc4ed8aff62eda9d72d603967de403043503ec4b0a69f745a0478a72a8c0012d5a
 
 Package: libgomp-8
 Architecture: aarch64
@@ -866,6 +913,50 @@ SHA1: 1fd157d25bec0719ddbee1cec770eb09ccafa259
 SHA256: 63ce9b9edc839951641c0caa1844bf5a78e044d7bcc6047543b119f5dea6a432
 SHA512: 62345a1b35961ba0b4645a07e41b517f802e6f10371f7ae64391c7ed26c0af0a33b23b0602a1c18c79ffa0cfa973632c485fa861403d5b470bd11d03fece801b
 
+Package: libtommath-dev
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Homepage: https://github.com/libtom/libtommath
+Depends: libtommath
+Description: Development files for libtommath
+Filename: dists/termux/extras/binary-aarch64/libtommath-dev_1.0.1_aarch64.deb
+Size: 8480
+MD5Sum: d3b3a7d76ccab84d0e0b920f2e184329
+SHA1: 5196e6be636d737c4830dd952a444fa82ba5f6c1
+SHA256: 65175f870a69873fdb6be0090d96b6687e7d00a81c2869781d0755ba3f5d9f6f
+SHA512: d5b8787231c069d0b16265dccd711fe5730b09151b85aaa08c7087b2b5a819a40c53762ce602bd40841056a74991734bb12c1d01bcc8236ceca90291dd4212c5
+
+Package: libtommath
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1
+Homepage: https://github.com/libtom/libtommath
+Description: portable number theoretic multiple-precision integer library written entirely in C
+Filename: dists/termux/extras/binary-aarch64/libtommath_1.0.1_aarch64.deb
+Size: 19704
+MD5Sum: a40d9820676153451d98f172538ac908
+SHA1: f1c164bdc91d1df8f34199f40ad8504469d99d88
+SHA256: 08522daf09defe413dee142abef0dc51e93a22b2edef2b32501f7e21ce10d160
+SHA512: 4265b6c1509299d3c35c5eca8318624ff7b3e1996d0d4bd06215b56244b8f884846528a54058f1a86d4499e561da4856c9636c2e4412c64707a5884463d846f2
+
+Package: moarvm
+Architecture: aarch64
+Installed-Size: 8280
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2019.03
+Homepage: https://github.com/MoarVM/MoarVM
+Depends: libtommath, libuv, libandroid-support
+Description: A modern VM built for Rakudo Perl 6
+Filename: dists/termux/extras/binary-aarch64/moarvm_2019.03_aarch64.deb
+Size: 1012806
+MD5Sum: e0e44c746b799400f7ebdb8099359872
+SHA1: ebefccc98c296ce1375efe5943a0d01476378074
+SHA256: 1bf3c40625f7482c21a896a2ad9e50f5ca09ab59a3c27976fdb7dc8ca276a6f6
+SHA512: 4744ea08d2c7bef342cd8f2fd59b8f3b9d7023194a3a86202b68a29b3a7531c1df6e0e37e49f21ab37b74c2811cec222b292da634756a4ca9f204421946b2605
+
 Package: mongodb
 Architecture: aarch64
 Installed-Size: 161480
@@ -926,6 +1017,21 @@ SHA1: 0aab2b5821dd0d2419f21e1e2b00d3b2e942cae6
 SHA256: 699763d45b8988b3ba58350f97d5cb445384c89958944feee0e0a5c31504d821
 SHA512: a62e5fcef037419e3bfcdfca1e8333ebda4079397b059a9c6b962954a511e1b4c04b2fdc53335b72598d84749de5596140244e26a1c0c987cb676be4f254cc00
 
+Package: octave-dev
+Architecture: aarch64
+Installed-Size: 5740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-3
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.1.0-3), octave
+Description: Development files for octave
+Filename: dists/termux/extras/binary-aarch64/octave-dev_5.1.0-3_aarch64.deb
+Size: 369462
+MD5Sum: 7b8f2c3463cf824d55a3420aa6441090
+SHA1: f65d3c0aa9feb3ebf71ddce4f8a10dab553fe801
+SHA256: fa4f78117245b04cba2959d5402caed08f363a04a4c803b668be2a1a6577e5c5
+SHA512: 1bc86134e9b55a578559178dc7c56daed026e669c24cde1d29931659cf3b3457ce420b8766f23c8e8e3e1ff7cc1e3252e09ab267e8b8bd8c6adf074bbbaf9330
+
 Package: octave
 Architecture: aarch64
 Installed-Size: 49480
@@ -940,6 +1046,21 @@ MD5Sum: 2a031ccb7cfede121b1bc5e4296744eb
 SHA1: 388a7c7f0575cb75ae330d635f87335ef02b5b2b
 SHA256: 7ca8e02195e7d579ab88b1f0552b793932d78b0788975b2665054fdc9629b6e3
 SHA512: c82c09132ae4cfa1b13b854f408bb09cb810f8d4adbe81c8c4b051c03af49a204fe6429d6f2c76112297e7c3058e8c9378ea549c619d9947906e800bcb2b37dc
+
+Package: octave
+Architecture: aarch64
+Installed-Size: 46032
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-3
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-aarch64/octave_5.1.0-3_aarch64.deb
+Size: 10056190
+MD5Sum: e5bf905e23058252803f446ffbc3ab8a
+SHA1: d6d42fec4109718822b23ce45c111c7e57b8790a
+SHA256: e280ef298a6ff762ff5d4807a8276f7c62dcc95b87fa42fd89a44c2a0da0e419
+SHA512: 4b2d5bbaa17fb190889350421b36ff13d2bcdda1d6fcfa253ee332b37cd71ca6235a9e069f4c36a0cccc29c65298319f7e34b103c3a3b13773755139b0644712
 
 Package: openblas
 Architecture: aarch64
@@ -1030,6 +1151,21 @@ MD5Sum: 80102cef60c5e464a98eb1049bc1952d
 SHA1: 85535451783472ba65e1a51e83d1cbefaafb68fe
 SHA256: 576131d446ad92c789a4084688458f1b4e3343bf0e28b46987e31298951d6ec4
 SHA512: dcc0aaecdb494940cdc3006d0cbdf535862e00fd31c17007ddad76f3ea2820a2cdcdec8b98d6805f1a86a5cc225a84057a5184c1d372cceda473fdb90e8953f2
+
+Package: potrace
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15-1
+Homepage: http://potrace.sourceforge.net
+Depends: zlib
+Description: Tool for transforming a bitmap into a smooth, scalable image
+Filename: dists/termux/extras/binary-aarch64/potrace_1.15-1_aarch64.deb
+Size: 58374
+MD5Sum: 24ec7004007f9b9a5613545f827eb9e9
+SHA1: 4566e447860092b9ec669cf1fe3cb274383ba871
+SHA256: 9675e223de9ac5d1a4fdce0f5d8d60b9ae3c7bd6bc3f82c95cb0fbe686be58e2
+SHA512: db4747fa445b2735ef6c5c7dd0cc6abdaf95b1ec050f2fe44fe61cafdd69e77ca1c081782c63f30b3048c2d5df940191db7f0c3b621ba34905f017f3196dbf37
 
 Package: povray
 Architecture: aarch64
@@ -1303,6 +1439,21 @@ SHA512: 3a13921c5195f7fa44229ef629970c6d3c62dab0c6fbff993a2c1af7ae9e8e05fddfdb37
 
 Package: suitesparse-dev
 Architecture: aarch64
+Installed-Size: 796
+Maintainer:  @its-pointless github
+Version: 5.4.0-1
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: suitesparse (= 5.4.0-1), suitesparse
+Description: Development files for suitesparse
+Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_5.4.0-1_aarch64.deb
+Size: 104402
+MD5Sum: 442b0b9f2ab4521c23af21f452f3ef99
+SHA1: 977f3fd9162fc080b24fa2f706964a1cf60aeb72
+SHA256: c3a7bc582f938ce8fd8ded02f48356b27f190c08794b1be9c82d8c129f58f3ab
+SHA512: aaeed68ce75a1e0841df4ad13634ffee88a3d4de0eb53370a7d61119cc5872d616e78964fbe94173cfa5a037c9f3a50b764f4c988e52897188b88484b9feff3f
+
+Package: suitesparse-dev
+Architecture: aarch64
 Installed-Size: 792
 Maintainer:  @its-pointless github
 Version: 5.4.0
@@ -1315,6 +1466,21 @@ MD5Sum: e09671492328c6d85878efe794e13b16
 SHA1: aa4ab233ce4ea1f0a326291b38e35749d76e60a9
 SHA256: a007dd77d992bac89835d0d9ac611ad0c25a94af15e0207b276c02755e783e74
 SHA512: 0414b5107cbc8b5911199420cabdfaa01cf00265553c00909467e85b8888be9b7bd429459a9470e0f86327876fd744d28a4eb142b993ab7c0092b52dbf843c5f
+
+Package: suitesparse
+Architecture: aarch64
+Installed-Size: 3456
+Maintainer:  @its-pointless github
+Version: 5.4.0-1
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Description: a suite of sparse matrix software
+Filename: dists/termux/extras/binary-aarch64/suitesparse_5.4.0-1_aarch64.deb
+Size: 934932
+MD5Sum: df07ea4ca431d92bb7a5ed852a1e5c79
+SHA1: 9282fa391d4e67db45e23b2c63e1e135a3991506
+SHA256: 5f3a9ddccb85da4b1530dfb6a6f2cbfe23e467c709bebcf664c1181d567dc72a
+SHA512: aacd225761f36fc936dadc70e98c818dcc2a374616ea22e45604dd7724c1b28758b1f37e9b715544e3e900841c2fda596f8e341f725cfe4c782da7d998f4c94c
 
 Package: suitesparse
 Architecture: aarch64
