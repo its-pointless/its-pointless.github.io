@@ -72,6 +72,20 @@ SHA1: 5d222738ed7c8fb4f653fc81dbf986f865fb3ab4
 SHA256: 29dd23674c480bf03431f602124f7e03ed8673e8a78ead374bf4af321b4aab8d
 SHA512: 86d1c0be607028c70f3b951f01e2389e741e2d56a41449c2ba48cabedabf498e46eaecaec783590894fd830025a04ab85de3151ed35ca48223ac1dbaa6d6188e
 
+Package: cksfv
+Architecture: i686
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.14
+Homepage: http://zakalwe.fi/~shd/foss/cksfv/
+Description: sfv checker and generator
+Filename: dists/termux/extras/binary-i686/cksfv_1.3.14_i686.deb
+Size: 9300
+MD5Sum: 047100cbf286b95c29854464495ba9cc
+SHA1: 59e8fc7b51fe2599c8b9fd7e44342b1d0fc4e8f4
+SHA256: f58bf20649d8610e093d27155ebbf09e0898906d3f2cea8c6cd653661f25dd6c
+SHA512: c7fc6ae159daa83619a0ad1b9aa3b2b11224872f2905668da2b805591676ea31d799a75e679fc5a7dfa88249273d7d1311cf4d15bbd404add88d8465155c37dc
+
 Package: ecl
 Architecture: i686
 Installed-Size: 6068
@@ -433,6 +447,36 @@ SHA1: 8dd8c8862dc5567c4c7001ee2a096277bcfc9905
 SHA256: 05c4ec838e49da02787ca8a67077750b9e257c54b4d3e1c7e52c35c365fca9fc
 SHA512: 2c851bb52b25331bffe6368b956a83acd7946dad9b13de07f8eb1758dad289f182fe313b6bbcdff62a0fa6961a1bc0f4438fc4ee5521818cc105676d32fc9a59
 
+Package: libcgal-dev
+Architecture: i686
+Installed-Size: 41716
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.13
+Homepage: https://www.cgal.org
+Depends: boost-dev, libcgal (= 4.13)
+Description: Development files for libcgal
+Filename: dists/termux/extras/binary-i686/libcgal-dev_4.13_i686.deb
+Size: 4379784
+MD5Sum: 806858add422ce6a462c7abaae5224c4
+SHA1: 7887e9d232299773c45f653350ead0b596bfc843
+SHA256: f5efee8927af5c653b6ee25019838fa70e6d12ba5c691fac9af078e355f92014
+SHA512: 53ef48187aee670f49b94a8a2e100c554ebd20f00043acbce905b1ce93a80935ed1a2642c559b3de955c2fa45ce8755703547f0fdf6f59da36cf2a4e67ebc293
+
+Package: libcgal
+Architecture: i686
+Installed-Size: 828
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.13
+Homepage: https://www.cgal.org
+Depends: boost, libgmp, libmpfr, zlib
+Description: C++ library for computational geometry
+Filename: dists/termux/extras/binary-i686/libcgal_4.13_i686.deb
+Size: 220850
+MD5Sum: 599e7e77150e6bcdece57a8925360207
+SHA1: d13f415eecf2fe1bd5f3198e07a70cbd645e17d5
+SHA256: 44e1edd405c619ee084b91b47288fb19b2cdfda83a8f157ac128e840404d4b29
+SHA512: a4526fffaf14e3883006a85edbbef2a55885b176c0b54641dcd2f8d3515f383767584418d8fc18b5b91a4276b77d01894f4193afb2fb8f8280ecd8c2a9d0e211
+
 Package: libcompiler-rt-termux
 Architecture: i686
 Installed-Size: 56
@@ -782,6 +826,36 @@ SHA1: d2a1e7cf8d1c256eacc993d3b384a443c6b3758f
 SHA256: cf92b742253d4a76bef73a49320616f38d7d2195c97fb1266c84e08da6803f3d
 SHA512: 984a7f5e740cb8addcf66a3de8b9890a4f594a4ca745ab29a10a8302c822b1259eed9185f318603e22ee5e95ccae6da78a28ee93bb581877876addee7f7d64b2
 
+Package: libopenspecfun-dev
+Architecture: i686
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3
+Homepage: https://github.com/JuliaMath/openspecfun
+Depends: libopenspecfun (= 0.5.3)
+Description: Development files for libopenspecfun
+Filename: dists/termux/extras/binary-i686/libopenspecfun-dev_0.5.3_i686.deb
+Size: 1974
+MD5Sum: f1f35dab3af4652acc7e65f08909d23e
+SHA1: e7cfa0bddb0ed6105da85af3fdaa94495acd8792
+SHA256: c0f83716fc3c0a8fe4abbfee24ccc0710958cad2f1bd79dc1d9da8e2b2cdffd7
+SHA512: 413bcf89f69e5b3d5cc17bdd2a0f883651172d4ee56b968462451a9b6f42036c53935b4fca48541483072b2a70749088539bb83f5a2cdd0852102714652692e7
+
+Package: libopenspecfun
+Architecture: i686
+Installed-Size: 156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3
+Homepage: https://github.com/JuliaMath/openspecfun
+Depends: libgfortran5
+Description: A collection of special mathematical functions
+Filename: dists/termux/extras/binary-i686/libopenspecfun_0.5.3_i686.deb
+Size: 65538
+MD5Sum: f3b57d108853582bfbb44d043525cd00
+SHA1: 588ce3fcf05dfe6a174289f22ad0d1f81b28d170
+SHA256: 682bbdd0cd0dd504f89d3afeb2e56d7b1d0a23892aa8678fcf5031a2084334da
+SHA512: 7a20f9e05d761d65d213db46985d3d06b25cf9e754587db26966f0160d373e91c3797ac4ee289b05c8a1325b94f89635c2682dc408c07625adbec1e04ef5d368
+
 Package: libpoco-dev
 Architecture: i686
 Installed-Size: 5300
@@ -897,6 +971,37 @@ MD5Sum: 047569643e01776a0726320777f20155
 SHA1: c91361b47e931cb66ea19a36a841221ed9cea801
 SHA256: 76988f71fbad804fa1acc256f49b02a579b8fd36ee6dbc56e5f8f8168bc2663f
 SHA512: 1b8107211d3d7cfb588fcb8b406a68f044f18ae2105c6022b99cf4d4dc94ef27ffe452d5401f90bb0947db29ec6cf92bc98a3858ae2c6587ac4fca97ef1e9e4f
+
+Package: llvm-libunwind-dev
+Architecture: i686
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.0
+Homepage: https://github.com/llvm-mirror/libunwind
+Depends: llvm-libunwind (= 8.0.0)
+Description: Development files for llvm-libunwind
+Filename: dists/termux/extras/binary-i686/llvm-libunwind-dev_8.0.0_i686.deb
+Size: 8718
+MD5Sum: 7e9adda6f66a58261baffdc8c20a2795
+SHA1: 752a9189827698da0ba7dd8270698795fca7e1e8
+SHA256: cd38cb9042a7c746601943fe292be6ef9385fe5965a9d5608a62ae56d302ebcd
+SHA512: 677a379366757b8392b0a396e1a7168be802bdec7a601e659d24cf3980457097e86fb7e4bc34b6bd74d87f670ad0f347245eb9f039c4be0a06e0934c9a396019
+
+Package: llvm-libunwind
+Architecture: i686
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.0
+Homepage: https://github.com/llvm-mirror/libunwind
+Conflicts: libunwind
+Provides: libunwind
+Description: llvm libunwind
+Filename: dists/termux/extras/binary-i686/llvm-libunwind_8.0.0_i686.deb
+Size: 13196
+MD5Sum: b5db3d9b78374658d60b2f95a3e68650
+SHA1: 1baa5fb15513f95a71ebb62abb2f66ed0e18e725
+SHA256: 298239b5015217b8406a6151502f87a667c11077260ea6b1cc2ec01bf23bfd7e
+SHA512: 652a6c8b7ac8c4d74af41c9bc1c683bbb7e7f1f98470357ed6965c5bd23c1e2a6a69ffc89406cbefbef481c517040139911de0780a6677ef0b0508652fa4bdbe
 
 Package: moarvm
 Architecture: i686

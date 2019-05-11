@@ -43,6 +43,21 @@ SHA1: e2d48d15ef8392e7ec64ad33c365af458ac8043d
 SHA256: c8f1b183414773c58ce2fcd745a91902943eec5e357c34e327164e5d52e1f668
 SHA512: c000fc48446765726077db3ea8b120fcf955b94c0fced7399309355cf5598fd218be08145c3304fa1035ba190ff9f730cc13def29cc6adcf5100700956e6f755
 
+Package: bcal
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9
+Homepage: https://github.com/jarun/bcal
+Depends: readline
+Description: Command-line utility for storage conversions and calculations
+Filename: dists/termux/extras/binary-aarch64/bcal_1.9_aarch64.deb
+Size: 17570
+MD5Sum: 5af077013591ce312e21cf9e6d9a30c4
+SHA1: 24ffa122e944ffb5685c544f889eca803c058d0e
+SHA256: a7bc8d9f24d278c46bde3dad30fd1f13fe920e41ca40f01f7487e85fade208c1
+SHA512: 6dd2971b1e1388e52864c157e34bbbfa1dc67aac4b50d6e1c519f4ee638e9f9eacb32d93abce587f5a2d4308d93a9640dbe231186c802db4dadc900e6ed7aaa6
+
 Package: bthread-dev
 Architecture: aarch64
 Installed-Size: 4
@@ -71,6 +86,20 @@ MD5Sum: ccd6253e6862d18e6f7d59a97574926a
 SHA1: 059c42296205d0a7c101d604f3ad00491cf919d0
 SHA256: c8011f096d705f635591d78037781f9b42a36873ee8638227d72eb759c4d52dc
 SHA512: 8b689011cfe7d833d36e6b3d8e19e829a708a92d8cbf53a5b413ae824d0fa2731fca90242b817ea8dcca48a63178a9197bc102712c6e421e569457e6f368f3ec
+
+Package: cksfv
+Architecture: aarch64
+Installed-Size: 28
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.14
+Homepage: http://zakalwe.fi/~shd/foss/cksfv/
+Description: sfv checker and generator
+Filename: dists/termux/extras/binary-aarch64/cksfv_1.3.14_aarch64.deb
+Size: 9232
+MD5Sum: 797ce6311b40f1f54a03c51f79b04b2c
+SHA1: 8bf718d6d0e67a83ed8ef2bf692b421280820c8a
+SHA256: 3b5089f9c888a4de221e0fb68f0135cd6d9ea2c15fd1efe9b46964d64af4275e
+SHA512: 80f9a256412d22258c34b469bbdba1954db1dece8242d47bebe492b39b45c7ced33c96c237a3cea4e547f67928f142cf59d9284019a632ee0317e9e258dca5a3
 
 Package: ecl
 Architecture: aarch64
@@ -432,6 +461,36 @@ MD5Sum: 8314c199f063bde9fa68384b22045996
 SHA1: 14e53499c798858759ed3c39b0a64a422784dadb
 SHA256: 8f003e08f469b089c0a1e498eaf3c5aff6f36c939506b2ff1c07f16cc023c989
 SHA512: 7f9fa7ba4b8d34365d9869ca1882b7dc7584b95152b144cb2bdb772594b17ed1f7768e0f26807f5ee71352f58e523d0675dcc7ad475c564b6d02d3928afd5735
+
+Package: libcgal-dev
+Architecture: aarch64
+Installed-Size: 41716
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.13
+Homepage: https://www.cgal.org
+Depends: boost-dev, libcgal (= 4.13)
+Description: Development files for libcgal
+Filename: dists/termux/extras/binary-aarch64/libcgal-dev_4.13_aarch64.deb
+Size: 4380198
+MD5Sum: 16dae3f2ca89bfe67b0de2f21c63ad83
+SHA1: e8e28ae96e1727395e35fa417d7191b4a1c12dd5
+SHA256: bfaedcc912a7b18b16d08f364fd8313ee680804d542e72cb441d6d5cab64efdf
+SHA512: 9b8e3fc30e06dd63042ae37a331213bc758b3c77f78257950e0306ab5a30418c94ea90ffcba5401997b10f8be3820f2551c3803e74f67ec7ad727741dfd0f797
+
+Package: libcgal
+Architecture: aarch64
+Installed-Size: 920
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.13
+Homepage: https://www.cgal.org
+Depends: boost, libgmp, libmpfr, zlib
+Description: C++ library for computational geometry
+Filename: dists/termux/extras/binary-aarch64/libcgal_4.13_aarch64.deb
+Size: 186616
+MD5Sum: f08e6555f894926354a17e25a177b127
+SHA1: f74e11ad1ab584459fb62b588282e1066f1fdbfa
+SHA256: f42fc3c4eab36d3bb937d579fa3d62cfd18d15e5b897efa1d7ae86e86b983ed9
+SHA512: a46f0385fc32d1038ee0383b41b14355a43340357c295b24456d394529bc3cfca65ea111d66b76836bd86979d57be2540b087c747b37897bfcf7330f0c091b71
 
 Package: libcompiler-rt-termux
 Architecture: aarch64
@@ -797,6 +856,36 @@ SHA1: ccf3da30eb88aaec5e5596c726747602c7b40467
 SHA256: 6d868c8cb21e73a8b58670015bf3ebd95303a5c2fc555a20e93bbf5a25bb1654
 SHA512: bb33c9ca09705e10596f60dfb609b9596e9ce7e47169e01ad15fcc0d7957d290d8c9859c2eaa068d152e28eef103198197197f6479a084b7cd21f6596cfa7719
 
+Package: libopenspecfun-dev
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3
+Homepage: https://github.com/JuliaMath/openspecfun
+Depends: libopenspecfun (= 0.5.3)
+Description: Development files for libopenspecfun
+Filename: dists/termux/extras/binary-aarch64/libopenspecfun-dev_0.5.3_aarch64.deb
+Size: 1976
+MD5Sum: 34493e2df45c3589693fbc3f10285570
+SHA1: 0d5be229801dff08497d513094d85d98263512ce
+SHA256: 4e94530b01b460dca42974d7860ef493cbc386cc55bb54017a972d55cbcca1f2
+SHA512: 80fab7570dfb486a92fd3a3fdcf9b20fbdaf3f3ee45c60d89d2018ec97634966eace11cd7d884a26b24971878d1b981901a7634f731f53ce4d48beb734566bb6
+
+Package: libopenspecfun
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3
+Homepage: https://github.com/JuliaMath/openspecfun
+Depends: libgfortran5
+Description: A collection of special mathematical functions
+Filename: dists/termux/extras/binary-aarch64/libopenspecfun_0.5.3_aarch64.deb
+Size: 58032
+MD5Sum: 29c74612d1b460ab9f23bb5b6248ba46
+SHA1: a5b2e60372ac1eb15acceb5c575a6fcfb38b71c9
+SHA256: 4c661869e8bfc79de3a3649eac96510ce936e80baba76fba767f7078a02da5f8
+SHA512: f890abacb64858e5df8122e56335d8329d429b537cb1c2f473a230294ad52183bbca579eb56868cfd78e3d8e765ceb2f7f542582b50fa0a54bb882c646101b51
+
 Package: libpoco-dev
 Architecture: aarch64
 Installed-Size: 5300
@@ -941,6 +1030,37 @@ MD5Sum: a40d9820676153451d98f172538ac908
 SHA1: f1c164bdc91d1df8f34199f40ad8504469d99d88
 SHA256: 08522daf09defe413dee142abef0dc51e93a22b2edef2b32501f7e21ce10d160
 SHA512: 4265b6c1509299d3c35c5eca8318624ff7b3e1996d0d4bd06215b56244b8f884846528a54058f1a86d4499e561da4856c9636c2e4412c64707a5884463d846f2
+
+Package: llvm-libunwind-dev
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.0
+Homepage: https://github.com/llvm-mirror/libunwind
+Depends: llvm-libunwind (= 8.0.0)
+Description: Development files for llvm-libunwind
+Filename: dists/termux/extras/binary-aarch64/llvm-libunwind-dev_8.0.0_aarch64.deb
+Size: 8716
+MD5Sum: 355af71fba26892732fce44f84c81591
+SHA1: 834357830a5fe80e9d7c5546dee27e41d2c1fd98
+SHA256: f88178deae8755c5f3b443f0f59b9fcc6fcad42112cf4cfd3cac0db4407741e7
+SHA512: bfa7c7ae7d30971a1b3d8139b8cc90860e1f04f4053a985e00b463e528460dc825775bc91fc9da3428323890139a17a03f82c9a4e90805c850712a73dd6698fa
+
+Package: llvm-libunwind
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.0
+Homepage: https://github.com/llvm-mirror/libunwind
+Conflicts: libunwind
+Provides: libunwind
+Description: llvm libunwind
+Filename: dists/termux/extras/binary-aarch64/llvm-libunwind_8.0.0_aarch64.deb
+Size: 11906
+MD5Sum: 053b712990bd90c92a4dc7034f4fe0b1
+SHA1: 5795049a6d4bb47d8bfee7deb0acf97715c77d24
+SHA256: bf5d9ba6a4dac25bcb2b687507876dacccd457bd7d0ba616f3464a9d24dbe4e3
+SHA512: 3460b96de332f90060c01d547c2d1b70153c63ea64706928e111169c2047a4a68d5c7456df6f9607e1a0334a4a3ccfe0904b97665524e01e57e6c37c9fdb337e
 
 Package: moarvm
 Architecture: aarch64

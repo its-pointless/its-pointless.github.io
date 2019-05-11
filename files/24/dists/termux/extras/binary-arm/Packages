@@ -72,6 +72,20 @@ SHA1: 2477e0275a623ac7d5258211015d1da3f78af81f
 SHA256: 01add76f9eb83c131ce4f5611c9735d4f60f354de7e5e029e945bac51e6c66ec
 SHA512: 655a38b0dbb855af9a1abf050a7f940be137e7ae7d688b679a5c7426a086e0d1fdc06847defb5147cafb993b3553cc46b220114aa57cdc4a466e1a9fa52e3908
 
+Package: cksfv
+Architecture: arm
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.14
+Homepage: http://zakalwe.fi/~shd/foss/cksfv/
+Description: sfv checker and generator
+Filename: dists/termux/extras/binary-arm/cksfv_1.3.14_arm.deb
+Size: 9122
+MD5Sum: 6996d5bbb33509c7c3911902d271b0a7
+SHA1: 18f23207ad1613f9d5f4b558df2020360ed47a4f
+SHA256: f623efc7642e3d844bd24d816c86331f1e88ee0256fee40d6782c0e5a5b32939
+SHA512: 201654c3f89eba5d08e5832cd0f84d3082892d3b4c7a4bec039ab4cedae7741cea383aea715a8688b1c5c1fc4cc48f13ababe8062497887a964606d5867e9041
+
 Package: ecl
 Architecture: arm
 Installed-Size: 5384
@@ -388,6 +402,36 @@ SHA1: 0ad509b9705855bf36697c2da8344a99e7b61510
 SHA256: 4de81999be3e6b2be3d902bebe52dfefb579b8ed9b9afd2a500e3831ad49ad25
 SHA512: 06cc97958bc1f396b586ac149e50956ec3bf071a43af5575679c76c78aef9fb3d83e0fce4fb6b72c71adb4a956d38ec0c70cbf539e01dad7d8d6e2c8323aac39
 
+Package: libcgal-dev
+Architecture: arm
+Installed-Size: 41716
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.13
+Homepage: https://www.cgal.org
+Depends: boost-dev, libcgal (= 4.13)
+Description: Development files for libcgal
+Filename: dists/termux/extras/binary-arm/libcgal-dev_4.13_arm.deb
+Size: 4380080
+MD5Sum: 2d833e55d3b7ba74589944ec88503398
+SHA1: 3cd48b38d6470dd4347db25c48ffcb161eae5b35
+SHA256: d8d40eb7ca8d2fd04a708951cb1cd3f65727a97f616ea710a3d973cec97a228f
+SHA512: b8588811b44c2f9aa76cfa073b396f6c4c964f13015dd2ae1e85119ec19807dde17f7712352ca4d1701fc96b27df9a7de7d17f59185b812b3df3f2e7b96ccf1c
+
+Package: libcgal
+Architecture: arm
+Installed-Size: 724
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.13
+Homepage: https://www.cgal.org
+Depends: boost, libgmp, libmpfr, zlib
+Description: C++ library for computational geometry
+Filename: dists/termux/extras/binary-arm/libcgal_4.13_arm.deb
+Size: 177848
+MD5Sum: 9b3027a07370d1948d456df07369c451
+SHA1: 5f016b7ebbe622a1a3f24e662223f5f6ec92d1f6
+SHA256: 8cef839951fddd7c4ceab59235ea12442dde0ec19e7be7e18fba0690fcf2c0cf
+SHA512: 9970d7291e76578757c2a4dc245e6e59ded0141d59419f768e837b0ad0d9634a51183967f108b5b5a55b996667f7ec14c8e42833f9379052bda5aa2b202b5426
+
 Package: libcompiler-rt-termux
 Architecture: arm
 Installed-Size: 44
@@ -658,6 +702,36 @@ MD5Sum: 7c8da030459f8b59ab5521065eb65049
 SHA1: a2d34586853551a6b98456a729584c40ecf1028b
 SHA256: 3116f1c088ccb6b9869b4cb2886ba5f4b7bc13f38c4419a4d21fe2df928239c5
 SHA512: 619c7a0ddfdda174099e2a72eab8f1057bfda0ad90b4dfbc7a87c4e19f81787421b5fc23bdbb2acac227d12d57beed80f602963001fba233a18a19c9b2dafb1d
+
+Package: libopenspecfun-dev
+Architecture: arm
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3
+Homepage: https://github.com/JuliaMath/openspecfun
+Depends: libopenspecfun (= 0.5.3)
+Description: Development files for libopenspecfun
+Filename: dists/termux/extras/binary-arm/libopenspecfun-dev_0.5.3_arm.deb
+Size: 1972
+MD5Sum: f2efdfaefc913e109ba7a1de5d245e5b
+SHA1: a175000af65f3860bb00447c622afb0b3f798535
+SHA256: 3b146417050c40c390472914320a8e7b24306eb9fe82b4af32bf5bc9be4bda7b
+SHA512: c93dfd9c0d558370c459ecdbee78a2263b0204a40f6a86360626e83c0b3d917f38cbdcb3f1fe1543528ae06e911441814284db62b6f762c5fab6176e4dd4ea83
+
+Package: libopenspecfun
+Architecture: arm
+Installed-Size: 100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.3
+Homepage: https://github.com/JuliaMath/openspecfun
+Depends: libgfortran5
+Description: A collection of special mathematical functions
+Filename: dists/termux/extras/binary-arm/libopenspecfun_0.5.3_arm.deb
+Size: 56656
+MD5Sum: 38245a3f6964e7fdcd2a2a7cdb8ea374
+SHA1: cda5b861bf5ec6421126a668472857f04934ff5a
+SHA256: 49e06feeefd6a97283aeb4cb908318ecc0ec4722b7a4974c4b75961660349dc7
+SHA512: 6c87baa0619c93c70595c4caf5ec10c1727b2dc9c10456b74add7a7543c34917b764cf06d4936935877183a8159c83a3eb09751914ca65180734b546b70114d0
 
 Package: libpoco-dev
 Architecture: arm
