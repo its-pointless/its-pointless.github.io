@@ -1456,49 +1456,49 @@ SHA512: 6f7fe9cc9eb4f3f6bd3a6561f7b554bf91bfbd20b2eda54d52d603ee3a66952a2ffa2093
 
 Package: rust-rls-nightly
 Architecture: i686
-Installed-Size: 22772
+Installed-Size: 22812
 Maintainer: @its-pointless
-Version: 1.36.0
+Version: 1.36.0-1
 Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.36.0)
+Depends: rustc-nightly (= 1.36.0-1)
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.36.0_i686.deb
-Size: 5755894
-MD5Sum: 84434518527ebf213b938e5051fe36d8
-SHA1: fbc1e842a386fd4bd7835b718a143573b757ea73
-SHA256: 7384a8494f36d687e3226791f8e916aa2567593ac0f0cfc22ac975690cc30b5f
-SHA512: e1b197bededc3e4adfc4eb12b3fb2e944e5fd5f52049d99cdca8bff73da2b285bbf5a3352c3c4047263ae26ca21d2f8579d2cbadd6ba072dcc45173ad9189d20
+Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.36.0-1_i686.deb
+Size: 5761048
+MD5Sum: 28f27b6d82fd71dc9b297221ee339c2d
+SHA1: 91fba8c349aacdfb219a65284169464bb4938a7e
+SHA256: d21af5be1ec0a0c0aa864b37294b4ae99138a8f47066d652915f9b52e0065e47
+SHA512: 4c19b9e7554470816be60cac9f20afb66a48dbd90adbbd83f229fb163136e7a9649d35dd05c828191b7545568ad4643bb559d9f75480e055a77d7e469f592b27
 
 Package: rustc-nightly
 Architecture: i686
-Installed-Size: 223008
+Installed-Size: 223244
 Maintainer: @its-pointless
-Version: 1.36.0
+Version: 1.36.0-1
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly, libgit2, libssh2, libcurl
 Description: rust nightly
 Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.36.0_i686.deb
-Size: 76638774
-MD5Sum: bd46e619924596b5b3c10a05d792bb14
-SHA1: 0485995f9af0e4ab71bbbacbae2b8c47e77bcb7f
-SHA256: cc74875fe6d16f0c4490dd8a3fe621063a31679cb1de2d76d3b585ebe480731d
-SHA512: 616d349f2a9a022fde428d496817bc1e3a76fdf84dac9ffcfe1adb3696612f1898db482bf3732f623c014e2ff29cefc50644a1b529762d570ab1022707629725
+Filename: dists/termux/extras/binary-i686/rustc-nightly_1.36.0-1_i686.deb
+Size: 76729982
+MD5Sum: 57779545f3d43a3ae5532f1ea40c63a5
+SHA1: 184a519898a8fbeace45a22d948774d40cd6181f
+SHA256: 85a6c5f5676bc67ace47c6605675a1b7e4ec5ae84061f2f7deae7cdc039490b9
+SHA512: 3f5acc9b82a3dcfaee27f334c18fe444e298e57eef9412462204a1c908c2c0fe1f16a2f3af7bb6e6ab49c71c26b6993bcdac3cdc4810bad3ffd35b1bab261b1a
 
 Package: rustfmt-nightly
 Architecture: i686
 Installed-Size: 6928
 Maintainer: @its-pointless
-Version: 1.36.0
+Version: 1.36.0-1
 Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.36.0), rustc-nightly
+Depends: rustc-nightly, rustc-nightly (= 1.36.0-1)
 Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.36.0_i686.deb
-Size: 1836234
-MD5Sum: bd233e89e04da1d013ac7f2cc3b90e4c
-SHA1: 01c70566ece39ac0f2dc0e26a0cc0dd1619ec17d
-SHA256: 906458e5a729710869aaea7ff4f93fbd987d004c8ffb9646c55fa6d8b188a2ed
-SHA512: 465dcece511bd837bd639b89b18b23c4f764f1415fa72079dc6f9481ea58a5cf68ae3eeab080dfd1fbb3d5738317af653f1de67f10cb29c48e697bc2abb05050
+Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.36.0-1_i686.deb
+Size: 1837600
+MD5Sum: f0e6e359dfd8b0a80879ff3feccbe3ca
+SHA1: 14615324f4d80a13a5bcd3f3b1ff6c76feb2214e
+SHA256: 32a4938b62dae08482ed2735e0674d22fc528e17ce796a0b3b6a51b3718db2ad
+SHA512: 189430a4222d1130d034cbaad4dcb4fba00f526e3fcb64beef6a3b03b588ca2862eff00503fc0d1615cfa7fc05ac797d555a418b4172570c6e722a5c45ccbc82
 
 Package: scipy
 Architecture: i686

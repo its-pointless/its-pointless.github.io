@@ -894,6 +894,21 @@ SHA1: 2f72a12de3cf0f8eae11b08b5a46930b05a66dc2
 SHA256: 5de971d6e2456c695d9fd41c409b58e73eb326f120cb05cd8ea4561387f97bdc
 SHA512: 99f40b4bbafa35da6f776dd86d4638dcb8af357d21ae4abe79d5b6e76a463551b7cc7c0cd6f57410a9920ab1fb7ba45ad5f1a7bee9eb5ee29090616446304f1c
 
+Package: ocaml
+Architecture: arm
+Installed-Size: 238864
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.07.1
+Homepage: https://ocaml.org
+Depends: opam
+Description: OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
+Filename: dists/termux/extras/binary-arm/ocaml_4.07.1_arm.deb
+Size: 54158226
+MD5Sum: 0033e09d737fcd79a529ac168c2e51e2
+SHA1: 0c4b2afe9f0f418cbeaca66abc37753b64fd1d5b
+SHA256: fd207caaf2da00c8fb13d12555670bf360cab5c845fb705e502def44f01df75c
+SHA512: 5721d9dc6dcd2ee5069b23a56beaa20fd878ace9845e556172f577f5aaff43476b3224acf0a526affd255852a0992f40311cf2e9f8192a9d082ba2861468f59b
+
 Package: octave-dev
 Architecture: arm
 Installed-Size: 5740
@@ -953,6 +968,23 @@ MD5Sum: 5ba1610c4f779c616fd675bb8ce90a8e
 SHA1: ae995857ea6fda84073f98e4a00da903653b95d8
 SHA256: 9d21a0f1fc38c8efddca09352170634c6cbf9bd695e546a023b03e2f30000371
 SHA512: 764b62c652afae444af6d96548b432d4c69ea8d7d9033b0ce5a56fa61e90c9b5102c79daaaf709217d989e80d301fe92461d3708c150b493c295034b83ee64d8
+
+Package: opam
+Architecture: arm
+Installed-Size: 10908
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.3-1
+Homepage: http://www.ocaml.org
+Depends: getconf
+Replaces: opam
+Provides: opam
+Description: OPAM is a source-based package manager for OCaml.
+Filename: dists/termux/extras/binary-arm/opam_2.0.3-1_arm.deb
+Size: 2458480
+MD5Sum: c25f375270066e98a60c60f52da28208
+SHA1: 1fc6f73d107486d577fc03fd97334a3144646c85
+SHA256: efd15a79ee468fa966800b423b8478d538e4d748a51af8032006ac55bc56e0a7
+SHA512: 26417d4d9858c3c734b471588d49734be9ac1ae7fbd7fe86f9aad3f4330066bb8be33d3671e139668a2d8900b2ba12af420788d02e254d859ae5673965dd8975
 
 Package: openblas
 Architecture: arm
@@ -1285,49 +1317,49 @@ SHA512: da2d331e20f6a3dbc549eb9d5cbff2f747e9a2baf4fe4634fa5a93628f95671dfca0aac9
 
 Package: rust-rls-nightly
 Architecture: arm
-Installed-Size: 12060
+Installed-Size: 12088
 Maintainer: @its-pointless
-Version: 1.36.0
+Version: 1.36.0-1
 Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.36.0)
+Depends: rustc-nightly (= 1.36.0-1)
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.36.0_arm.deb
-Size: 4508740
-MD5Sum: 0096d93c93bd6e4740193f9309b8cff1
-SHA1: aa32b1abea210acba4c2fae3111622d688a82efa
-SHA256: 9c2952eebfe44cb9d6e6fb974a6ca826aa15d6340dc77edfc0860838c7aff5c3
-SHA512: fb754325a03f23375515d6cd41c3888b13567fd20cca08f3778ed16fe997d5d8567f2758ea4d05b195f4c290c8002395b37eade186e09240cc798731cb95ed81
+Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.36.0-1_arm.deb
+Size: 4503098
+MD5Sum: 4c1e10d0acdf864e7525557b8934601b
+SHA1: 753f1f4eb6f067f8ce5a3476627ca9600500b442
+SHA256: a665f45cc682c564f4699f5e8395801234824902a98ea2aab2c019132c101880
+SHA512: 0b4d1ec8cb212efb813154404e716b697d99a7b3fd8d371c65f198e355b97f62b82a34c275ec8c9bde3eeded81676a4f5f65f0f2b078db31fd94670e66b483ef
 
 Package: rustc-nightly
 Architecture: arm
-Installed-Size: 174176
+Installed-Size: 174012
 Maintainer: @its-pointless
-Version: 1.36.0
+Version: 1.36.0-1
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly, libgit2, libssh2, libcurl
 Description: rust nightly
 Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.36.0_arm.deb
-Size: 71913104
-MD5Sum: f002cdc0ae488dd9a9735cbdf336d10f
-SHA1: 1eee52ad76a19f6155a7d6e8cafb592530e0586b
-SHA256: 0080d63a27284eee0f1a565164208d3e19d1bacd31c020a3d695ccf3988d4c56
-SHA512: f2616eb011608112c2ebd39d6158536daf264f18f80530a959c1c1db2a9ab2b3195a6f36c7528040bfb4cff7bec57483b156a3516d03ed79a348684d985e4b57
+Filename: dists/termux/extras/binary-arm/rustc-nightly_1.36.0-1_arm.deb
+Size: 71914002
+MD5Sum: d2a8c22e31ca9f274a78b8fd6963d689
+SHA1: 0af0d3a1406a1c54dd762713beccf3eeeea339f6
+SHA256: 63f7aee43985e4b49489719e033b573c241b324f51ee4aa5a1a6edb0f43074ce
+SHA512: 9e00dc8f903f5c968f80138c94ef373ae80d7b031815de054362f914d0f61256552de60f885565e9ed13d93230731e259566b5c74f1b8908828e696cc08ef43d
 
 Package: rustfmt-nightly
 Architecture: arm
-Installed-Size: 3608
+Installed-Size: 3604
 Maintainer: @its-pointless
-Version: 1.36.0
+Version: 1.36.0-1
 Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.36.0), rustc-nightly
+Depends: rustc-nightly, rustc-nightly (= 1.36.0-1)
 Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.36.0_arm.deb
-Size: 1409940
-MD5Sum: 8a8f566bc24a79437ccb99ccc34127cd
-SHA1: d4f655985c95d03a0e6a4bcf277cc1e940ec5888
-SHA256: 7cccdbc4bcd72f826a278ed48fff6de507e83eadc690d7a05f53e41275c5d69b
-SHA512: 3541b362fe1b09e345e47f986aea3d7dfcf5714fe6ab540b3656f52570b3754c350c22449bf203534254ea1da5f9044751923acf4be8cade88bdcf8a143ab1b7
+Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.36.0-1_arm.deb
+Size: 1411134
+MD5Sum: 0ad818908bb2b38794b37bac325c1a9a
+SHA1: c8f56295c0e031398f58719606d821cc290567a1
+SHA256: e69e83de39834481c79a9d9fb5aec5ee43c11dec973c1ad015bb6902364f2f24
+SHA512: 6292e10454b036a8d497abaf1d7128e611df011292f41e6522b967f1adea57bcefec8adede15dfd3e371716536a98145cf3ac78eadf4a9974468f3bd3a97dd23
 
 Package: scipy
 Architecture: arm

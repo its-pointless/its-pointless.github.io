@@ -1122,6 +1122,21 @@ SHA1: 8c46d21694a16fdb2394f1ef832f37c62746a522
 SHA256: 9c5870cb462cc620a07746dfb74b26d0583810e36ee909a27f7758d643d4f663
 SHA512: 01be6b6291c522435525df4ade83b496af4f60171fd553e9d78eadb12cef5287ff4b6a910f06fda07266d7d9e154d5aaa1bd2fa2254878b546cf8fb1d911f112
 
+Package: ocaml
+Architecture: aarch64
+Installed-Size: 277176
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.07.1
+Homepage: https://ocaml.org
+Depends: opam
+Description: OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
+Filename: dists/termux/extras/binary-aarch64/ocaml_4.07.1_aarch64.deb
+Size: 57511588
+MD5Sum: f507d84ae2df79f24eda7bb882adeb28
+SHA1: 97a52ad4dd5ba3f43cd007ab8b0a1f4ba2ee1358
+SHA256: 13842464f188aa58fc372740ca96ecb3ac84d2bc6cad66f9ea99c0afdd150de6
+SHA512: f08018730f5494e4cf6af54145c748df24f544a96841a608dbd3cd1abd3419fb89d2dd19c25b44ac64f25453d3d906c1b1b25efa43d09e45d6871dc493675b77
+
 Package: octave-dev
 Architecture: aarch64
 Installed-Size: 5740
@@ -1181,6 +1196,23 @@ MD5Sum: e5bf905e23058252803f446ffbc3ab8a
 SHA1: d6d42fec4109718822b23ce45c111c7e57b8790a
 SHA256: e280ef298a6ff762ff5d4807a8276f7c62dcc95b87fa42fd89a44c2a0da0e419
 SHA512: 4b2d5bbaa17fb190889350421b36ff13d2bcdda1d6fcfa253ee332b37cd71ca6235a9e069f4c36a0cccc29c65298319f7e34b103c3a3b13773755139b0644712
+
+Package: opam
+Architecture: aarch64
+Installed-Size: 16024
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.3-1
+Homepage: http://www.ocaml.org
+Depends: getconf
+Replaces: opam
+Provides: opam
+Description: OPAM is a source-based package manager for OCaml.
+Filename: dists/termux/extras/binary-aarch64/opam_2.0.3-1_aarch64.deb
+Size: 2868060
+MD5Sum: cbab007ca58d92e9207d80bc737c95d3
+SHA1: 164814ca531f0b1a5804113a4238aa13a56062c3
+SHA256: 0b3b66ece87894ee816151dfab1c35dc92ea11822b9a57e978ff3359f9d5a38f
+SHA512: f7f1d6d1c5f8bb0f331b7fd495d1ab4ac9573d15d4f49bf6b36d0eeddde99c3ec3686135ffdfb53f20df3b84f5a4417534aa1438c91a23a105805bd00c24fa4e
 
 Package: openblas
 Architecture: aarch64
@@ -1500,47 +1532,47 @@ Package: rust-rls-nightly
 Architecture: aarch64
 Installed-Size: 17360
 Maintainer: @its-pointless
-Version: 1.36.0
+Version: 1.36.0-1
 Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.36.0)
+Depends: rustc-nightly (= 1.36.0-1)
 Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.36.0_aarch64.deb
-Size: 4492984
-MD5Sum: c9e9739a238e698a5a31c6916f6949cf
-SHA1: 55c30c24c1706ec2f8d8ff0c8bd6f91926816c48
-SHA256: 9d992650a4228d59b2cf13aa483661ab8f530dba11e7639470be47fa61cf8058
-SHA512: 2e2c9eda39bdd128031fb8c9d6b3fef72a78f4ab76c14c6c2a9dd0cccb7527179d46a5dc5bde4a534307d0285c88f23237e70dc15b8463cc561dc30a9c0d9922
+Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.36.0-1_aarch64.deb
+Size: 4490000
+MD5Sum: a8c383886178f4b29dc330e3e2cbe78b
+SHA1: f82825143d8cad0735fad0688aef68c85897379c
+SHA256: 8fd70a3f413e9ec60f3860121426eb6efba0201eedbf915311ae2fcd9a231f65
+SHA512: 245d266e92ed9371f26e8cb463632366866a15c0d1085c7ea9bd5320fc33bd74dfd9ebe289a5c2a7d9bb2222fc6f54eea15274d3d7441840c37abb792af77a32
 
 Package: rustc-nightly
 Architecture: aarch64
-Installed-Size: 199524
+Installed-Size: 200264
 Maintainer: @its-pointless
-Version: 1.36.0
+Version: 1.36.0-1
 Homepage: https://www.rust-lang.org
 Depends: rustc-nightly, libgit2, libssh2, libcurl
 Description: rust nightly
 Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.36.0_aarch64.deb
-Size: 71232250
-MD5Sum: 50954907d22cfaf808ced8c001ab2768
-SHA1: 0af7a04d1300df23d080c957c0809dd0e957d90a
-SHA256: bb148442847d05ad17a705179bfd2c4977cd0d7cc56a4c8bb0fbbad1668475d9
-SHA512: d11f64b4c539f234dd55d6b17e204d330f70f54bcba70ac8867e838726039dd8676d8c5d12eb54dffd1c543d56d6509599202c4a66bb00b8969d6f9e32d777ac
+Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.36.0-1_aarch64.deb
+Size: 71564660
+MD5Sum: 3a132d0389d69e9af3888c76699d5131
+SHA1: 3c5306b3f9a0d0a4a7702ff3dac8f6495d2b235c
+SHA256: 9752d04295d504e3710225742a9c8fd6239bacb85963540bd821776f451a544e
+SHA512: 4ea857ccf84cdb54e476ab282720badbcf332a7b715c4ee9b1ab1a1e96edfc8e2e6c2f4a8f521602966927ca556081bb2beb7f33eae2449ae8bc6e057fad23a6
 
 Package: rustfmt-nightly
 Architecture: aarch64
 Installed-Size: 5448
 Maintainer: @its-pointless
-Version: 1.36.0
+Version: 1.36.0-1
 Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.36.0), rustc-nightly
+Depends: rustc-nightly, rustc-nightly (= 1.36.0-1)
 Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.36.0_aarch64.deb
-Size: 1463020
-MD5Sum: 288020c8fce2125942b6c111df313a4e
-SHA1: b3c997908176023f2e665e339f6c776914f3c2a0
-SHA256: d77889393b243941ed01d0abcd44fbea3655ea4e840e1e89bbd8d6ab48d317bb
-SHA512: 9e4252d6b99f73078a25908b74a21e84c70c6b7fd2886a215bc392b125a088b03deda450ff89797326e90edf56f356ceec3b3d4d784dcc4b7b013dca8eb662fc
+Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.36.0-1_aarch64.deb
+Size: 1462558
+MD5Sum: 32f34021962766d41c2d46d2333b9535
+SHA1: 4634e533708959ee23a950b7602a28420999fe61
+SHA256: 692e34d1bc8b6cc7651063ec63245cdfd5f6a063123dea3318695c757710767e
+SHA512: 2ecaf3aaf15f6442c85f7f9377dd3a1d6bbc55b5672aa558b4ffb1397c158c8513151a10fb440576eed99ce4a15a2cc3954083f37817ecf3586eac6fc82e2c7b
 
 Package: scipy
 Architecture: aarch64
