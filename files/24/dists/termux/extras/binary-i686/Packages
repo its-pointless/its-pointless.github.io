@@ -1079,6 +1079,21 @@ SHA1: 7c24be879e5139c73b31c80cf767b2f4cb814461
 SHA256: 41e1eaed93e11cd99f1619d0923362055e5c8a36fe2d4237e924dfa75d409068
 SHA512: e8e9d32783c6403e52f379edb0f6b8e6d691b7f29374def28429b2badb0048eed3dd6b996d66e858a9157d656b0a4485b20696cdea8cfa06e6231f934161e443
 
+Package: octave-dev
+Architecture: i686
+Installed-Size: 5740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-4
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.1.0-4)
+Description: Development files for octave
+Filename: dists/termux/extras/binary-i686/octave-dev_5.1.0-4_i686.deb
+Size: 369598
+MD5Sum: 660e4fb77e336d26d570626a975f8a89
+SHA1: 0703886ada56af20c0cb4c00b9196431105838ea
+SHA256: c5b0c0962a243c9bd4936287cb32a0e0399a84fca5965f67f021dd28d63659c9
+SHA512: 6083d526c437ed580eb6fea3f6674396e53e3da59a87e86178b96d9252974e3bffcfa445851cafe88c6da93ab27b6c40c713d9ef81ab6e29a31b56202baaef3b
+
 Package: octave
 Architecture: i686
 Installed-Size: 52252
@@ -1108,6 +1123,21 @@ MD5Sum: f0c1d01297c0a8d29b0e58007c5892d3
 SHA1: 536df1d57624b2cb339824c66b9f41b55b17ece0
 SHA256: cb1ec4b497f01be10285abba07c6918464374f514893fb635cf4c2e2bea4764e
 SHA512: 807c5d596c714619c4f0addb7ef635df383172e83d1acefa7a9e5b272ea5082d6eeb90e5d640fea52f4d7e03a43a953964b5bccba89c5acdfaf7970fe873b341
+
+Package: octave
+Architecture: i686
+Installed-Size: 46236
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-4
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-i686/octave_5.1.0-4_i686.deb
+Size: 10859918
+MD5Sum: 2cc700574bbc8ddb432c410413963b81
+SHA1: 4d7aadc3925637ac2867a66820a23679b83da149
+SHA256: 656407e6140eb8e6b8df9f4fb77b7c3cce2ca8e98f87f0b04ccb1d5be0784240
+SHA512: 57c00ac3d5ec4430dff36ff430fb972f7f439a266b06816ee99ea9eb0796926d78dd1af277b3f9882beb8c3a36b86a047d7b509fac2ec56a63e9d82c226ab14e
 
 Package: openblas-sandybridge
 Architecture: i686
