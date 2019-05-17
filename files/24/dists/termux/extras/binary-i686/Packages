@@ -433,6 +433,23 @@ SHA1: 2735ab4c6505d673719620b5479612a31c99f750
 SHA256: 268fc59f462144707dbfecbda3c15ede8a7f93f5342edc6b10a6dd72c2ad44e9
 SHA512: f44f6eb7cc00117ad2d5fa8408dac4614a88682b2bdae42809dc6f92ccc5937f8f7f38cfc4370bca9b9f0f5a5cb52b665f1f8a7dd28d945afb385cccf3dbc0c6
 
+Package: julia
+Architecture: i686
+Installed-Size: 129268
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-i686/julia_1.1.1_i686.deb
+Size: 20598428
+MD5Sum: d7513093a60db900cab68ca1da549ae6
+SHA1: 050115ddd0a0096c65b890b3dee5553f97eb348a
+SHA256: a7c09fd30dd8483eda6ffe19af63207626ca644ee643411ffdf78daf2d0824ea
+SHA512: de6ff5b23f7c8215b7f44bd73d8835c03425b6cba294cd7acc3c744e0bb526f45cd6ca455133fca439173ef91093397390df70856b65670c8b3813bb5b330cb2
+
 Package: libatomic-ops-dev
 Architecture: i686
 Installed-Size: 760
@@ -1305,6 +1322,21 @@ MD5Sum: 6d7a5660c4bf924cc586cb707d7537ed
 SHA1: 81aba05ae90c97af81e80efddd35b4a3da404b63
 SHA256: 9f9e073bae844bb6106bcccba045dc83ecf60bce86ee99c6579fb799824cc0ea
 SHA512: 271ad97de729fae0d2a6ccd614740f89ee857c01c7a31c429f70f0168e24c9daf244c1b5419188edcc633fdde7d64adc824b4edc9b83c782cab89a52a52e00d3
+
+Package: povray
+Architecture: i686
+Installed-Size: 24896
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.8-3
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Description:  Persistence of Vision Raytracer
+Filename: dists/termux/extras/binary-i686/povray_3.7.0.8-3_i686.deb
+Size: 11026064
+MD5Sum: c7d4aa8c2867c4b606e7d62f3b588362
+SHA1: 26425cb95d62c87a885de8833a1bd7a26633571f
+SHA256: c2deaf7e46b6b1041310fbe7fcac569325888694ac2b3395c7cc2556296bedde
+SHA512: 3a1f0861d62f1381c9de9c8a536dcd1bfe121ce05328ce0be7e9d5cc9235a7f49e27c1436ee51ac99a9297e98c4ab22ade974099639f95a724d70f305ba888bc
 
 Package: python2-numpy
 Architecture: i686

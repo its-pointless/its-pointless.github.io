@@ -388,6 +388,23 @@ SHA1: 7bf21f8206abc25c06a06bd28e13c037acae0c80
 SHA256: a3d3e64f98875c6f82ab694e2d1ee5836ec3b55a963e93a23147ad231cc49f16
 SHA512: 125fd1c43d5bb2681b76641509061ef711139ae9c2131025a8a883ef1345f9b2d7f2a9d3046227fa67c33447b4b7cced672ab9a6c0c9e477328cb61adbcfb9fd
 
+Package: julia
+Architecture: arm
+Installed-Size: 127276
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-arm/julia_1.1.1_arm.deb
+Size: 20398702
+MD5Sum: ad41ca46ad233ef20fe9a94a5cd1294a
+SHA1: a0a71098ad09bab078e3f972d42db40b252fc9a8
+SHA256: a616a7583c5954e4df94d1aac51126967516a0f606987a2b7d4da4e2a71e946a
+SHA512: 8fa87e8996beaa28ff128bdc170db211b0c2ce6cb9271d2dcf1b430f204ad691aa293ce9d0d3f70b8a8be1a6b552e84ac768b584685db1d870a70d2189031a7f
+
 Package: libatomic-ops-dev
 Architecture: arm
 Installed-Size: 760
@@ -1136,6 +1153,21 @@ MD5Sum: 447a2de7963ffc1b336c42dd456eff3c
 SHA1: 65793216f00c62db7ff51c2be9d9f7edacded71a
 SHA256: 828f03f19c347654d46fa07608682189d7cd21c1c400fca52ce5b275fc499f58
 SHA512: 3ccc0e48bcc3e5573d6134d6a4d07b6d8fac916e59b2ab3facb5e7036dc5508406e7ab5831cbbac597c5663424c02330322e9b220000fef507dfa37f69a6b374
+
+Package: povray
+Architecture: arm
+Installed-Size: 24276
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.8-3
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Description:  Persistence of Vision Raytracer
+Filename: dists/termux/extras/binary-arm/povray_3.7.0.8-3_arm.deb
+Size: 10972826
+MD5Sum: a0d9d96e680d58e78518855d25de5c6d
+SHA1: fae1e7f5de26a732ac82d2be9ff88e8b36f871a8
+SHA256: a19ff63da90f3ea5bfcc6ef3d33589d07bada5f9c7a18127021fabf7c17a97bb
+SHA512: a1dd298e924039812f01c87d3f6ed4da3fde5c1bbd5255731b3cd1adbb1227306dde8fb92accc56106c5e29cd2f210268bdc22ded67a9088ef08f0a6d9e85232
 
 Package: python2-numpy
 Architecture: arm

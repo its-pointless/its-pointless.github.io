@@ -448,6 +448,23 @@ SHA1: 9e018a6fe2cc00ec19a59e6458293b89365f2f07
 SHA256: 3d80a1039b30bd65720e6e2ac7215d12f36b8d352b9ad07da3f22a0c0abfe192
 SHA512: 5fced71a0e4156b2e9d6e0020baffe8507f90a3e9f0f68d99678f6999ca382387208c8ace374d9283e1fb74d81de0542b57140e2dbc1a12993706e2f4db23c6f
 
+Package: julia
+Architecture: aarch64
+Installed-Size: 150160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-aarch64/julia_1.1.1_aarch64.deb
+Size: 20503190
+MD5Sum: 537e29c203576ed3327297195bfc1e6c
+SHA1: c7acc087cd199c396e0216a3b282f695a650b844
+SHA256: a4299d9cfb94f3d48cb750aea596e1d64da0f5ca0f8dbc8744c165995196de85
+SHA512: fac011a1a5d41e1cee79ef03d14ea1b40a293e3c7c63bceba145b8d924e65273664eac01e4d3554a174d6222aa393781c1ff8c6d4b87e3baa0b8ac66a663412e
+
 Package: libatomic-ops-dev
 Architecture: aarch64
 Installed-Size: 764
@@ -1349,6 +1366,21 @@ MD5Sum: 3d8505c0a5b0a9a37bd4624d0dfbfb87
 SHA1: a2762b0277fe91d2f5ce2e1a958e49f064bea01a
 SHA256: c1531cd3c7faf4922dbe91c514deeeb7057316dba5d6d8b9593a9aaf4689052a
 SHA512: 3782b247dc77fd197c949dc16dfe5f30c9da9b1fe4309ef0ae6e90728ba67341a2856d7d430cc59194995d6da4fad194e3d227ea569c336ce5b8fbfb9a2b0923
+
+Package: povray
+Architecture: aarch64
+Installed-Size: 24776
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.8-3
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Description:  Persistence of Vision Raytracer
+Filename: dists/termux/extras/binary-aarch64/povray_3.7.0.8-3_aarch64.deb
+Size: 10940010
+MD5Sum: a276fb913c825ec22d14022fde98e416
+SHA1: a3686a43d1f5dbc55f4c017d7e725a52a62d279a
+SHA256: 27b5e6f6d6a213418bf1be4263a0f344c0294df3a0b95d774292ac2c82e6bc16
+SHA512: 9f8850e713ba8edd1e5e01fcf8538c721f51ef25f94bd014f6702bbfc1bab0ae49e2d4d05da7116d48a1e87d51bb0e72a986b4043240cf9e0f9ad8a63ce9f9ba
 
 Package: python2-numpy
 Architecture: aarch64

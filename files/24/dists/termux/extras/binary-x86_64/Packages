@@ -403,6 +403,23 @@ SHA1: 4065534ea8f172feccca1c5b0c371ff5081316c0
 SHA256: 109bdbce865056a4461f439e3d80fc4b8eac84ac37d6c42f9ae0e696c3cf294d
 SHA512: 21495f509be86e9eb508c9128902bdb75d99dc83f9718136f5062a6f807c8a8f4e7b23894d1ace831075f7f4949956807026d8a10bb41cf43c26afede4ad506e
 
+Package: julia
+Architecture: x86_64
+Installed-Size: 150928
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-x86_64/julia_1.1.1_x86_64.deb
+Size: 20907568
+MD5Sum: cbd850ef991b066d6649b440613b6684
+SHA1: 9c853bfc47b7a55916618fe08a43ccf5cfc52117
+SHA256: 54994454e01211cd5cfbe014fa0985bc95d54fa320bf3c156bc5dd60149a318d
+SHA512: cfd3ed6e628a436553b4c549d129f33bd954f118ea2ffce756a06ac639be0af6b251be1ebe82ea0b4ec429a4bfa30dfea258e3b3cee0e9967fa3b37930581908
+
 Package: libatomic-ops-dev
 Architecture: x86_64
 Installed-Size: 764
@@ -1199,6 +1216,21 @@ MD5Sum: 6bde00c01301f3b9c924945165e0be79
 SHA1: 5ada0d58df1e0adcec3cbc190e83cd7d7efff28c
 SHA256: 8c09ff58b25ad4374eaf7ba0181f0852047c8212bf9454e68087fc1ffa6b1301
 SHA512: 8ef5bb8c09b485e04535ea2138255c5aed4605e7acae2d9023b892cdcd5945e36dc25f8cf0ca7078649b9034cc3d93792a9ab83f4bd0cbf03a098d2a1816db3c
+
+Package: povray
+Architecture: x86_64
+Installed-Size: 24908
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.8-3
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Description:  Persistence of Vision Raytracer
+Filename: dists/termux/extras/binary-x86_64/povray_3.7.0.8-3_x86_64.deb
+Size: 11037522
+MD5Sum: 69f14255b616bc87053518c41a62e949
+SHA1: 37451646ebccc97c4324f2971878f0f9443e81a0
+SHA256: d4ef17ca4d1d68524b0d74aab2419c4c745873ccae6d83b8aa3f3db0e877b570
+SHA512: fecd0548edbe2f95e10d90c4597bb19ff0bc1cf064e8eb246436dce1e8ca1efea0a45097cdbc5bc1d25905dfdac4f0a0a3840e1984c154d5b6802503ed44f327
 
 Package: python2-numpy
 Architecture: x86_64
