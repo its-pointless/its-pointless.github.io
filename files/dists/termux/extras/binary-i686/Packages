@@ -204,20 +204,6 @@ SHA1: 65fd9904586521bdb6543338efb1b3dada606da4
 SHA256: 9b417746090649e93be374396b49dd35a142986f0f75270e48bd12f922c0ca28
 SHA512: 3136d28b1875fcc8e4eb0cc2c96dc726a4609480f8606ff93d846282b8aacb81a6980f95e5401fec8404678f53b729b9d97c97ac83e59739994b8fdfdc838e69
 
-Package: distcc
-Architecture: i686
-Installed-Size: 288
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.2-rc1-1
-Description: Distributed C/C++ compiler.
-Homepage: http://distcc.org/
-Filename: dists/termux/extras/binary-i686/distcc_3.2-rc1-1_i686.deb
-Size: 92824
-MD5Sum: 246317bcc89133ae356faaea31c14dd8
-SHA1: 0e7aa07b69d12dd6a4445bb29f4f882a986fb684
-SHA256: 677585ace9565cc469a347cd89b9d9abcf11b7c1b603c2ab2dbe8b44eb4857ef
-SHA512: 140fc139e182d7344aac48c317d8b3e532432b33b9628a79f503f23bf99c07a6493cce67d0fd9e62bf377ef2afa4fddd46abe234972b04c0b3a47d9aa9026741
-
 Package: dopewars
 Architecture: i686
 Installed-Size: 428
@@ -324,6 +310,21 @@ SHA1: 11285d2952bde79cc26042a3b9d320668ec0e33d
 SHA256: 24023a79abb243e78208e87d705555ba19126d9d9608f05227851c8f35116fae
 SHA512: a70616f730710e90ad1c46aa7efdc27ffb6c0d89da5e4bbc9349fe73091b8d23bf3f1c1d4f397bb3f76d8e73e3b0b51123700e3514770fe3b320398d6e2d11a0
 
+Package: gcc-7
+Architecture: i686
+Installed-Size: 106056
+Maintainer: @its-pointless github
+Version: 7.4.0-2
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-i686/gcc-7_7.4.0-2_i686.deb
+Size: 30573896
+MD5Sum: d449e15ab2fd8ce89f024439bb28c275
+SHA1: 7e2e2cd8f72771f8fab0fe061797166ad05915eb
+SHA256: f891c7c08e96806dcb5ec1126046956490cbe5178bdc1b1bd439e3c9375a8e5a
+SHA512: ff06a6d73806a60956536316fbe234748ffd28e75246ffb37bd2ae8b6f65d3d22128d96d2ea660fda8d77e8e54b31dbbf558423561bc2e6b8a6091d56a911b26
+
 Package: gcc-8
 Architecture: i686
 Installed-Size: 114372
@@ -338,6 +339,21 @@ MD5Sum: 745b6c459e01365359e688369452d367
 SHA1: 8da869cf941d28931bdfa4d01e5adeab9a1ccd8b
 SHA256: a876ec20b525ab70ae8362120a1d3316725aace86460af25c99e7c115a49008c
 SHA512: 5d38592233b8f0a717948bab8cc0c7bede415887405b43a1638e90c0808e8f8cf4bc1c763a6b458ec4186e7b8a407d13b9dac1ddbbeb235a46677ea61f8c855f
+
+Package: gcc-8
+Architecture: i686
+Installed-Size: 114516
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-i686/gcc-8_8.3.0-3_i686.deb
+Size: 32600680
+MD5Sum: 09311ec5eba27c2c53d9ad9051067977
+SHA1: 4f98f316e934a8cc21c84c9f146c9d828ec56d35
+SHA256: 1d1cc2ac3799e64a883c5ca16c9a882e8c818303fc88af39f79c9ef3b23da6dc
+SHA512: ad3feaf0dd77085873a31834a7130725365bc0624efa7b5a9fd23a22dcbb1e5e528e4fb84bc6b85c124dde14273e43497338a4a57ce1d3748eec652d7fabbdb7
 
 Package: gforth
 Architecture: i686
@@ -414,6 +430,22 @@ SHA1: 54fce3bab765aaa867b9e9d74c47c996a434951d
 SHA256: 6f83f97aa0876826e88ad1817867fd0207d72da3f4b46d62f7a8058bf0a6c644
 SHA512: 9a657d8d3ffc81d9d41c17c4d635e8ac80bfeea7d4a48303dbbcd4e619f2b030402812344604e560d341350d39cedc12fc6b744ff7a07a7d75e52c454a57143d
 
+Package: gnat-8
+Architecture: i686
+Installed-Size: 82792
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Depends: libgnat-8
+Conflicts: gnat-7
+Description: the ada compiler
+Filename: dists/termux/extras/binary-i686/gnat-8_8.3.0-3_i686.deb
+Size: 17785588
+MD5Sum: 8e289eb7578040c618b06498039ef4d2
+SHA1: cf95ae3d3b9e65b41f153163bedd6d466571e87a
+SHA256: 7895f8d04cf8b5c674def7ecef8a8fa13302f82ee5abb3ef4bc2ba59f015a7e3
+SHA512: 4680cc35a85c3ab7996e074231c0ae5caddf41e8137dde22e653136859f6a247d36f5458f09395358dd03c250e80cdc22dace6300ea2cb9b3fa6d4018a622f22
+
 Package: gobjc-8
 Architecture: i686
 Installed-Size: 24556
@@ -428,6 +460,21 @@ MD5Sum: d34ffd09c9c30f4a702d5e95ccff2ea2
 SHA1: 14f1f197670f50826def3d4e269580f549441eb8
 SHA256: 28fcc6156269966f6d2142c8be6dc594b1f4f30eb29292e008b95fc818d9ece4
 SHA512: ce707725a9b14074d315d7f600577e467c7898bfefbe322d932904d7664e35e59e67b77a1b5cda28430f9c9821e6d3f9952067f20530ebbd9560baa0621274f1
+
+Package: gobjc-8
+Architecture: i686
+Installed-Size: 24592
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-8
+Description: GNU Objective-C compiler
+Filename: dists/termux/extras/binary-i686/gobjc-8_8.3.0-3_i686.deb
+Size: 6982978
+MD5Sum: d072dcb613ed475cd4f9bc0a20647cd7
+SHA1: 9e4d695ec19f11dd2630a97df714614cc9b9293d
+SHA256: e57ec332ddf86ef347ec154d54432eb4999103e5875ed5622bd02df76e1511ba
+SHA512: 7b5d3ad3eafaca629473ee519502ba7635d635d8c9bf2877caa37f71683c9f04a7e3bb708d652ac63a1084875389f27c46d0417cdd845f2e0de2b213a09df9ca
 
 Package: gprbuild
 Architecture: i686
@@ -444,35 +491,6 @@ SHA1: 3690a7d96471c6a6b57c8cf3fbf7f53a71895566
 SHA256: 4565df6422950fdc98b9eb84649893ceb76bd2827ccf0073e8ada6e0ca1deeee
 SHA512: 016acff3a2a6801012d193bab4d6e28d73cdcf7d78c15666b08f3faf938b5842a8b92e14e17fa8070e1a9006f83c58aa98ee263875a3a36549013990c3ed0102
 
-Package: gprbuild
-Architecture: i686
-Installed-Size: 23884
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20180524
-Description: Flexible, screen-oriented MUD client
-Homepage: http://tinyfugue.sourceforge.net/
-Depends: libandroid-support, xmlada, gnat-8
-Filename: dists/termux/extras/binary-i686/gprbuild_20180524_i686.deb
-Size: 3957808
-MD5Sum: 7f93cdbabaf7de38897846644316aef5
-SHA1: 6ed7b1ab41c3f3d7facf71ffdbf83cc971b1cd42
-SHA256: 040be3c690c5be28d3c2edd8ab1c706be1716672ad76780a7cdbaea0679d9d6c
-SHA512: c4af9bd41815ad0851019974a937563a8d6239ffa02d2b0b80b113ad003912fd2cbe7fd02c03b5d5ba302d91f6c3687f5ace2ee2b6c7e23ee7df2ab3244e0c3f
-
-Package: groff
-Architecture: i686
-Installed-Size: 9228
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.22.3-2
-Description: GNU troff text-formatting program
-Homepage: http://www.gnu.org/software/groff/
-Filename: dists/termux/extras/binary-i686/groff_1.22.3-2_i686.deb
-Size: 1393420
-MD5Sum: 638331280e3bf733dc48973611da1032
-SHA1: ce0d9fd3df997917759fdea950331877055612cf
-SHA256: 9d3a5d79571177f8cf393d9e9e2653fdad6b4bf0465355e75adaa67e9f061871
-SHA512: 2967f288d871ebd71853896273db962d7616db79db95e6b4a121c31d8765265cfcaa2c4aa6e757f3815ae0233b45315c063afe074ea342e79309fedc5aec5c4b
-
 Package: groff
 Architecture: i686
 Installed-Size: 11000
@@ -487,21 +505,6 @@ MD5Sum: d666311f02d8076b18bf3c4248455b2b
 SHA1: 3186bbffa1f604af7daebf0b62ee81a7bbb8ca66
 SHA256: 878913734de9174eb22f4ef897dcec769d4c1f42262bff4d4cb9434cce4e92d8
 SHA512: 83e30817eaff49a413eb89add92b2d6bcbd2543e1197d3aa97222dd1d7b7b4f8dd60047b7208d7b5b59152e2bb0a0424edd2409e1e107e5fd560848677056602
-
-Package: groff
-Architecture: i686
-Installed-Size: 11760
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.22.4
-Description: GNU troff text-formatting program
-Homepage: http://www.gnu.org/software/groff/
-Depends: libandroid-support, uchardet
-Filename: dists/termux/extras/binary-i686/groff_1.22.4_i686.deb
-Size: 1736936
-MD5Sum: 6d33a50df459945280c196303f499504
-SHA1: e78f5549727de91033ee805e38b68552b33bbf9b
-SHA256: 3c5136bd1a05c7e6d03cbdffa18be8fdc903eac2679857a9563b57e0c93d2818
-SHA512: 86acc61015b4613762d1863f13601ed599cdc3ab4bc7491e89835000851183737da3fb48a07d22276a403ece593bd275f56046df03237cb5d7537184ba9efe70
 
 Package: guile-2.2-dev
 Architecture: i686
@@ -591,23 +594,6 @@ MD5Sum: ffb9b840003331ee33401fb4470a3a38
 SHA1: 89398cd9f7bf79028800282f95d2561795d257ed
 SHA256: 9c243921b5b06d235e0ec4864e66d48d4fb7d610779a9e15fdfd2913ac5afd86
 SHA512: 8fae115cb0045a389e5934f135bec94f4ee1306122287a78e12aa6c30cc3c5007dfa11722410f63e471f26df5c317e978e557b1322a85fbc32538dd6d11e2d74
-
-Package: julia
-Architecture: i686
-Installed-Size: 128244
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.3
-Description: high-performance dynamic programming language for numerical computing
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Filename: dists/termux/extras/binary-i686/julia_1.0.3_i686.deb
-Size: 20185752
-MD5Sum: 236d7ffa728e7d583fda032c2e1e396b
-SHA1: c46dc88360ec50d691cbd2924ce1f47d4768cdfe
-SHA256: bbd860372a0e5c9619e65750a5291c5885a74b9034069cbad32838207b37d2fa
-SHA512: b9946a4492bb159731b273cd54fee0040c189447614c883c5ecb5c2a0f8cd18457bc077700a1b5445e7fc89554a6af3de1cc8be585f41c0062f568cf8b165896
 
 Package: julia
 Architecture: i686
@@ -757,6 +743,21 @@ SHA1: 618fd5ea55d24cbc3844869589cea5a22c731ba9
 SHA256: 47da6c5ceee850692ddcc785c06e0087b3d4bb2f11afbc18d1fa9557526b784d
 SHA512: 77e5814d4f2032fadb6947130554d5a9207fefafa997eede550292a3e4726fc390ef2cd96ab4327bbecd8b32ec55694e831b3ce2c8689d0266e39543251355f0
 
+Package: libgccjit-8-dev
+Architecture: i686
+Installed-Size: 22488
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Description: GCC just-in-time compilation
+Filename: dists/termux/extras/binary-i686/libgccjit-8-dev_8.3.0-3_i686.deb
+Size: 6424114
+MD5Sum: 5e37fd3e908f12a50b2abb991ae0cdfb
+SHA1: 7df7e3ac2cb7e21398697521b0987759533898ac
+SHA256: c6bf2969fc726352ab3763f566c78799ed3a2675a3faf35c691c90d3771273f9
+SHA512: 32fe58337c4e57c073e8628b15e6610e969d83b4f818257fca6195cb5c31778c48829061e20d4b404574002c0c94ab0df3ea9e5f6e1b6ced70e69c04afe2a81f
+
 Package: libgfortran3
 Architecture: i686
 Installed-Size: 884
@@ -788,6 +789,20 @@ SHA512: 5bc1f4cbbd727f9cdb116bc60a428d32ee2e407d68b0a9f808597123d4da29bedd1ad298
 
 Package: libgfortran4
 Architecture: i686
+Installed-Size: 1752
+Maintainer: @its-pointless github
+Version: 7.4.0-2
+Homepage: http://gcc.gnu.org/
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-i686/libgfortran4_7.4.0-2_i686.deb
+Size: 517620
+MD5Sum: b089dc44f96760b78e607e2570847c27
+SHA1: 1b3a254041018c2de64989aa8c78bf159ba6e580
+SHA256: 9e8b07997f8c518a95f8a3a290283bd2d7dcff41e6812db74724517eac17605e
+SHA512: ca3ba6d48a37ce0a85cf8ec07cba13f95d2398464343fb63a291658305ca2e53f09bc6522a5e1ca7e7254281695d6f69e960fe8236bba3f01c876b2893f4cd23
+
+Package: libgfortran4
+Architecture: i686
 Installed-Size: 1776
 Maintainer: @its-pointless github
 Version: 7.4.0
@@ -815,6 +830,21 @@ SHA1: 5bef8e1a8fdde3e7c1ba422a7b6e84fe2d7c04af
 SHA256: 76f7c63a97c8f442f4c00fb3c87f7ddf8e2e12e4d61b04f3893ea753f8a8631f
 SHA512: 32679a57a86dc883535e36bad544d6eb0b0d588b9bd1f94b579ce6ab7aa47591444b05a61793e73326771db9a7ebae46dd0bf3225e9950ea94887e05b4303b38
 
+Package: libgfortran5
+Architecture: i686
+Installed-Size: 1300
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-i686/libgfortran5_8.3.0-3_i686.deb
+Size: 362194
+MD5Sum: 44932463e9bbf805ba7ea3246e812368
+SHA1: 9d4df0af6a9078f178f0249795c2e074e7b48d09
+SHA256: a05c6acd8121c4232322c38c09f5c0ca420df7c3b3f65a932eca56b17a283bd2
+SHA512: 10f54c3bdf0347d00b0ad131bfc4aeece0d2fded526747ce5970bb4e5f29a03e6e93faaa56c5a42477114ccb8afd2eff627df8d26c48a81f91bb673d2bb62613
+
 Package: libgnat-8
 Architecture: i686
 Installed-Size: 3812
@@ -830,6 +860,22 @@ MD5Sum: 11f250f3ac99604e786c4128faa1657c
 SHA1: 8437ff3b71147dd17436610017e24d4fe55695bf
 SHA256: 5adc48d1edcb35c3855755a71ff76e0c8bb73a63756aec0dff6306fc9392f26f
 SHA512: ac7452ccdd202aec34e232fa92599e73bae9186c005d051df7be21014ffecf28841c7d0fa850a27c9b265158598c2273595f3d9511a474841ec1a4a6856799f7
+
+Package: libgnat-8
+Architecture: i686
+Installed-Size: 3840
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: gnat-7
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-i686/libgnat-8_8.3.0-3_i686.deb
+Size: 958154
+MD5Sum: 1973d117ceb8fceda2582cbdc3694ab2
+SHA1: fe16cf78d91906300f516f089484fbef0f3b0e18
+SHA256: 6cdeeafe8ba3904405d531a63c0a1a99be2578c212c0cf9537bfa6c021966fef
+SHA512: edf4eae5bf72ff9ac7b9bae1d85fadf406bc19573d6c1a69e03219a3773f0cf9d806bb57778442f426b65c1bbea07bb0237b15832f783d4dddf892629ccf8ef5
 
 Package: libgnuiconv
 Architecture: i686
@@ -897,6 +943,23 @@ Package: libgomp-7
 Architecture: i686
 Installed-Size: 288
 Maintainer: @its-pointless github
+Version: 7.4.0-2
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc
+Filename: dists/termux/extras/binary-i686/libgomp-7_7.4.0-2_i686.deb
+Size: 80250
+MD5Sum: a6eac15a1859582c433d7288bbf01d96
+SHA1: ad8ae69ed086579e1ab96c1adce2df8fd637b982
+SHA256: e908f9260f9ec973b2e91ccea9b2ee7a24a9752cf76c2533be36fcc14d4fd5e3
+SHA512: e1a84b1689b5c3d0796a2cb60c63eddd8d44b8b0244fa0ae64ab9a27abf0596409aad9df9c672f948c6f6c4e905d5a90d51b3412f461632c39256f011055ecc6
+
+Package: libgomp-7
+Architecture: i686
+Installed-Size: 288
+Maintainer: @its-pointless github
 Version: 7.4.0
 Description: openmp library for gcc
 Homepage: http://gcc.gnu.org/
@@ -926,6 +989,23 @@ MD5Sum: 72d910e177c3fc47b8a833d7caf19f6f
 SHA1: 49ab6af57db104b5b65de984777e8db4934b98b2
 SHA256: e5cd02296f0c4f327803af556f8649e7bdeb36cd21add450a3c9ed5a747d434c
 SHA512: 6075de412e0227ec931a8ce3c68a5f6c7dc6c3e98b6327e48f5947874b13a7b362014d11e1dae7fe9d8e3a7d4f267fba9588b668e79ce2e72625db064ce56d63
+
+Package: libgomp-8
+Architecture: i686
+Installed-Size: 236
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Depends: gcc-8
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc-8
+Filename: dists/termux/extras/binary-i686/libgomp-8_8.3.0-3_i686.deb
+Size: 63410
+MD5Sum: a7eb65131823219cba6937cc29d18899
+SHA1: d646cfe20bf99e2d8d2f2783c2f17b885f8e1700
+SHA256: 1a1abd7fb9d170ee5edd618e0d3a0a8e6d501c9bafc875497b29704f26e1f3ba
+SHA512: aaa7f6ef2d92acfc750a8e9b312f6125fb2445af7b0a18b89342eb093fa316e4b49856dbf143bc93ea18224449fd964df57e40df5c12696442f8cb2d28a6967f
 
 Package: libllvm-julia
 Architecture: i686
@@ -1014,6 +1094,20 @@ SHA1: e097334cac38a8771862675d13b8490fb712abbb
 SHA256: 60ea145a164d8585c6e4ef13d45ff5e37a7a7410e1d1f6a7cb3a427fea03a09f
 SHA512: 830d95e94ed3463b3e10527b53a88ff5188eaa23f70e648cb437c31be7d2b3ca5274bb5ab095373bea4db98f10c481c900c16eb0506d44d781a3ddbfe5a4dd8a
 
+Package: libobjc4
+Architecture: i686
+Installed-Size: 204
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C runtime
+Filename: dists/termux/extras/binary-i686/libobjc4_8.3.0-3_i686.deb
+Size: 51824
+MD5Sum: 7c76af29adf498ee65d8fb034dbcea29
+SHA1: b1f98609fd28db7bfcd99fe9f5bfb383cb416e69
+SHA256: d9fb68e5fed4370b5b453e85015b9b1d50c0feea06665ae81e0ae188d7bdca3c
+SHA512: af6f5c454d4dc47f86a655056cb3322b081f46076cd051a30c03040f4626790a556991c9439bb076e6235be6a6b81c0d932a3149e3973cddda354b50ae940096
+
 Package: libopenspecfun-dev
 Architecture: i686
 Installed-Size: 16
@@ -1101,95 +1195,6 @@ MD5Sum: bfdd7b3bc0f77891aee5d7e40f646064
 SHA1: add143b31bf4c16a93532dbbd0b0e1dcfc1bdf85
 SHA256: 085490854d2f0236af706938ed8269c41c138333d6ccb84f6d0ab4c614fb514b
 SHA512: 89313183185c2a31cf17b6f421df208997c97b8f3685983bebc02083cadde67227ab828c6858cc893a9f1e250c2bd48c8c741d41cb2de126f0aa2deb91a6532d
-
-Package: libsixel-dev
-Architecture: i686
-Installed-Size: 60
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.7.3
-Description: Development files for libsixel
-Homepage: https://github.com/saitoha/libsixel
-Depends: libsixel
-Filename: dists/termux/extras/binary-i686/libsixel-dev_1.7.3_i686.deb
-Size: 9984
-MD5Sum: 54a35096b498db5f46b731fbdc280557
-SHA1: d9b42c95f249998318c3a8aef849460604c8f089
-SHA256: 364eabe6383f24473a8d1d4bb2af5d345e2bb8c51aebce7a9640f428f8cba87f
-SHA512: d93d1a96536063af3406e803ef869657118461c6a55914c87450107785d537117e0bf56b3dc04dc8bfe3f51736625870f1e8e169232127f2edd9018b1c7ca2c4
-
-Package: libsixel
-Architecture: i686
-Installed-Size: 308
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.7.3
-Description: DEC SIXEL graphics codec implementation
-Homepage: https://github.com/saitoha/libsixel
-Depends: libandroid-support, libjpeg-turbo, libcurl, openssl
-Filename: dists/termux/extras/binary-i686/libsixel_1.7.3_i686.deb
-Size: 82492
-MD5Sum: 153e806f1214f0357a7b7e6b1638e1c4
-SHA1: fa521ecee39c45333bea45b6c985d796858449d6
-SHA256: 8b2fae5e6dbcd79ff00cd612b0cc750a62cdbf0799ada3cb4431067f9494fc75
-SHA512: 132664f1fc203047bedbf2b2ddf71fb2d1154900ec174980526f6524f6a3656bb4f671f13aaed71bb9ae98af5d24ecf34deeccf1f63fcd9cd63de78a0165c149
-
-Package: libspice-protocol-dev
-Architecture: i686
-Installed-Size: 128
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.13
-Description: Development files for libspice-protocol
-Homepage: https://www.spice-space.org/
-Depends: libspice-protocol
-Filename: dists/termux/extras/binary-i686/libspice-protocol-dev_0.12.13_i686.deb
-Size: 17144
-MD5Sum: 011fbe66e44bc3a3161a44b2a02eb54a
-SHA1: 3510c1c155f0b2789194365c2ab6c19ae075fad9
-SHA256: 375eddfbbf8159354170bcadec8a9a3dd4ae0812d0483dddac14b780cb471b78
-SHA512: 45fd7fa6b542bfca7936e7cd56ae4df0c9b6e70eda88febcc3325b303fdb35a85537d242cf9ed7c8f3275e8ddf67b8baccdceab4956f97bd57cb0b5392bd301d
-
-Package: libspice-protocol
-Architecture: i686
-Installed-Size: 4
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12.13
-Description: Remote access to virtual machines, protocol definitions
-Homepage: https://www.spice-space.org/
-Filename: dists/termux/extras/binary-i686/libspice-protocol_0.12.13_i686.deb
-Size: 976
-MD5Sum: 8878beb395314f24eba39e67b6419de2
-SHA1: c6c4396b1fb278f2a5884a7f45a148da28a97933
-SHA256: 480f51fb845725b39eb232ceed824454fc407b425aa5237cb7053b21150f008e
-SHA512: e990f1e98591ef221cedadb908b471349bd021ec4edbd9e20edca57c9544174a71386dcb2ac53f4e144d7673aa3fb4a2cc519d5d4141b4201c78ab025d01e107
-
-Package: libspice-server-dev
-Architecture: i686
-Installed-Size: 60
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.14.0
-Description: Development files for libspice-server
-Homepage: https://www.spice-space.org/
-Depends: libspice-server
-Filename: dists/termux/extras/binary-i686/libspice-server-dev_0.14.0_i686.deb
-Size: 6936
-MD5Sum: 652676c32bafab38064aac5d1c9b79a9
-SHA1: 31e87bb26cd394966240cfc8f8d4e0e2a29f42eb
-SHA256: 9df10fbe5055c18389fecb69cd25c669701b538b96f6bc59579670ee7b95ceca
-SHA512: 1d88d20770d45ee21e8937aa3997d01b9c7197801d62b9310c86c647bf40cca4e3a07a3a11c5d2f5e877c19ad6bbb19f5f6b852badf6d1ce197751f8132f4781
-
-Package: libspice-server
-Architecture: i686
-Installed-Size: 948
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.14.0
-Description: Remote access to virtual machines, server part
-Homepage: https://www.spice-space.org/
-Depends: libspice-protocol, libpixman, libsasl, glib, openssl, libjpeg-turbo
-Filename: dists/termux/extras/binary-i686/libspice-server_0.14.0_i686.deb
-Size: 266772
-MD5Sum: 522cb6b3211c5191bec0bdce9445b10e
-SHA1: c8ac6dde92085b6ce14db6ec3e489c3e028b2fd8
-SHA256: 8644f2af4ce17e81c45b7b35d45059488d49ce99cc0a9adddfed1e5609bf4756
-SHA512: 767dfa8f7f23eea543e856472f802b6510ea17238994a5aeed316a251cd05666d4f5565082c7c8edcc9a2b81cd739398ae8f2d172c1166bacd4be4fcf2a1e4a1
 
 Package: libsundials-dev
 Architecture: i686
@@ -1966,20 +1971,6 @@ SHA512: cdbe996a21aa438fcd91795ffdd9ace50c169ef23f60d2187cfe79d4fc5ff2bdd3555e01
 
 Package: rust-rls-nightly
 Architecture: i686
-Installed-Size: 21824
-Maintainer: @its-pointless
-Version: 1.33.0
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Homepage: https://www.rust-lang.org
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.33.0_i686.deb
-Size: 5570852
-MD5Sum: 64a5895c9b80ed6134643a05d48f5017
-SHA1: 313cb5f5a021cbbb59d95423ef9375e40f31615f
-SHA256: 26abbcf02428e118f7fe42a9f9bb43d45924c8257fb346ee5fa2c440145d1e98
-SHA512: 78eb4ec46d91b2aad1e24d515cca69a2cd4da31d3759bb863bf6696a597ecc8730e1cb4a23c7b46366a15836d283f349a87c81bc5363d36169b1978cfdd6f30a
-
-Package: rust-rls-nightly
-Architecture: i686
 Installed-Size: 22616
 Maintainer: @its-pointless
 Version: 1.35.0
@@ -1991,22 +1982,6 @@ MD5Sum: 0bcb17506f0b6ae14ea316840f3fb2f2
 SHA1: 0d1f38d5413e8d64522250b7877cc0472e9bf640
 SHA256: 63dca0cd11929ee6ac484b6f494d9f996b9ee34dfa8d00ceab270924c84cac6d
 SHA512: d4acf146e7042b709c257e44bb363b8c0ad7d2fc9a01a72c1c24ecdae9a7386b247d7b1bfa490e0a2fb268d50cdf5625fd41d84643eb0869184867c09d4bc047
-
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 199756
-Maintainer: @its-pointless
-Version: 1.33.0
-Description: rust nightly
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.33.0_i686.deb
-Size: 65024580
-MD5Sum: f1855f7d7c1c49f49933a247460d6c73
-SHA1: e056b39afb9a56976d536719be8a3ce384b346f2
-SHA256: b7643f45e3114b95eaf0d46612ce45eb4a6304087aa0e9c28c1feedd35072ec6
-SHA512: ae34cc23e1b94633603781ae43b6fcaf618583feb10cfb98ad9944f9d498fc3803330861d42b2ff4f08c4283c7502f58615d23f34c2e745736bf99f758a41544
 
 Package: rustc-nightly
 Architecture: i686
@@ -2023,21 +1998,6 @@ MD5Sum: 01d456fc7d59e54fe8ecd22eeb06a1ae
 SHA1: 3532e6f5274d90d009c972bd1a4e1574f8e9586d
 SHA256: 0df708c649d2d5b48283ccf31484aeba08a1cbc1361e0c4a08a47a3aa4c13cd3
 SHA512: 487e932adb572c27a01de321838744986d708636850f573b661390636bc0b18c348e9f3cb462b25f36ba2aa9a7cc6b733b1330877c51e87285c7a46c5c9d2261
-
-Package: rustfmt-nightly
-Architecture: i686
-Installed-Size: 6584
-Maintainer: @its-pointless
-Version: 1.33.0
-Description: A tool for formatting Rust code according to style guidelines
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.33.0_i686.deb
-Size: 1770332
-MD5Sum: 4b0eb59b13fc3177dd4064983d98ba01
-SHA1: ccd22975d255c99a0771c855998f060c3205d33d
-SHA256: 45b58f8a4e3edfc2b07b78d36b7c3993167450b0b2ecab9b2514c653da4ccbd4
-SHA512: fdc218e034d5d104a6b77e3507d25c5a10754c6edcf1f9af2f3f3a22ae194004fe66de9df0e97952d5139e5c4d2b077e9c9c1e26179c7d69b8457dabebc58d65
 
 Package: rustfmt-nightly
 Architecture: i686
