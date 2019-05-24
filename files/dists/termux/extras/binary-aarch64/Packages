@@ -323,6 +323,21 @@ SHA1: 1ad7a3c081f94ff89d40a4188c8b98182d4b1da6
 SHA256: c5069315d86ba529ca4e95c1e4c11f9ef8ff5cc128d553a069227b541ca9863d
 SHA512: 448e2dfb5a62d7cad6a2ae9e8a81eec8cecdbf9beefeb43ea7c44d2de8ff5970cd30f795b481743aeeefb768a4253a7f482310e506e01cb5899c755a5eb488f9
 
+Package: gcc-6
+Architecture: aarch64
+Installed-Size: 69344
+Maintainer:  @its-pointless github
+Version: 6.5.0-2
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-aarch64/gcc-6_6.5.0-2_aarch64.deb
+Size: 19665378
+MD5Sum: 400b7f460c4cd8a5c7a3b690ec33ad46
+SHA1: 87142f032cfcfd1c14583fb289b1b3affd6477bf
+SHA256: e8f0ab3b4785a40b77be3f7a0e4ad2f318b3a4ac02ffd2df19bdaa61297d4fda
+SHA512: 22b346563895e98e3a8a961b7944aa7bcf39a3d7786e57dd9f11c9c4806977f3d8879b847c324ea577edebf9adc041f68bd761d418bfb9cc87ab36039284bbe8
+
 Package: gcc-7
 Architecture: aarch64
 Installed-Size: 76856
@@ -830,6 +845,21 @@ MD5Sum: 3bbd544f095e1bf1447626b425deaf71
 SHA1: 1637a9fd1451da76899fd8c1a60274b483940c10
 SHA256: a23e936b3793394df359881eb8c59351fe5329afdb94feb9d91323e80de9b5e9
 SHA512: 5788fa29648f5b33abb068f8f21ac1f62f552152f473607412489ad080b15582bdd94fa91c67458da7bb42ef02a172555bdfac8f8a0be9ed38a3708d5a47cd94
+
+Package: libgfortran3
+Architecture: aarch64
+Installed-Size: 1092
+Maintainer:  @its-pointless github
+Version: 6.5.0-2
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-aarch64/libgfortran3_6.5.0-2_aarch64.deb
+Size: 231082
+MD5Sum: 7ed6c3d26dc6e38f114f16c2d4e32ab9
+SHA1: db0a21e1771066258186155909cf4ae48f2a7591
+SHA256: 46f133a48cc02ccf86815188ff5990a1d7106c791ea9496ef0d808fb257c32e0
+SHA512: 41bc12fffc3c2a92da35ac2f69208b8d2e49eabeb727ce62dc32dca51b0b7d8c1734fb7491919e383c3728054d2f6e1cbf83c2ea862b8937f5c85b2338c3d032
 
 Package: libgfortran4
 Architecture: aarch64
@@ -1685,6 +1715,21 @@ SHA1: 6937c356847fd4eb4ce531d35a130a255d4f5fca
 SHA256: 52ebae316b1efc5c409208d7527654507be38f0ce05dba42b4dcbe22322132ba
 SHA512: 9998bcd0d785b48a0674f20e4114c662a033d1f44fba1e2a6fc48c6a28eba5e81d4a063185ec4209c32c044634ce49de393a3cb7a7db9173702c5f5738359590
 
+Package: openblas
+Architecture: aarch64
+Installed-Size: 10864
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.6
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Description:  Optimized BLAS (linear algebra) library
+Filename: dists/termux/extras/binary-aarch64/openblas_0.3.6_aarch64.deb
+Size: 2102092
+MD5Sum: bf5fcaa76f15f703e2c0399110267c24
+SHA1: 018449c23afabba1eef664b8db5da0de55c75b84
+SHA256: 10b15095b8776db125d3a5ec6de48ee97c437b9be15b6f8b9fc34f169a5ab702
+SHA512: a8d49104d361c1fb272ee73fe04d15e65a5ea174876827b4aaba02ec8056eb2652d04a4096ca668ae729429f267c8dff2c34cd5a3c3e85b20acc6cec429224a5
+
 Package: opencv
 Architecture: aarch64
 Installed-Size: 37752
@@ -1877,6 +1922,21 @@ MD5Sum: dad6dc21561531c99770ace2a4878fca
 SHA1: 8ac4e2a92b7e4c694c3b392018846f72d35d747c
 SHA256: f8bc9d5c076b6bd8a5af428055201e7fe6ef127537e4b393dd8c72a1be731b04
 SHA512: 3c1a7e3e5bc92c95bdd9a6025b981382bc7ebbce709ebf9d135dfffc17ef6db9499b4f17a5d59c7d3589b1e13c99003dc4368fb8bafe37413bf53f081bdba343
+
+Package: povray
+Architecture: aarch64
+Installed-Size: 24776
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.8-3
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Description:  Persistence of Vision Raytracer
+Filename: dists/termux/extras/binary-aarch64/povray_3.7.0.8-3_aarch64.deb
+Size: 10936962
+MD5Sum: 3eda2c0029d788f3c2a0b72e6b74fd3c
+SHA1: 642d6201a970a55796235523804370f32dcd0fff
+SHA256: 6912acfa47d8c5626f239fc6ce289441fdcc0960c600b7125c0862f7a840e3ef
+SHA512: e1d63e56e062cd4abfce0688f5f402259d51d3c93d109d856539ee87b1a4551a40e02dba3bd9ce200b89b1311761636bd0bc077b3a51c34be7fb673f5dc9b08f
 
 Package: proxychains-ng
 Architecture: aarch64

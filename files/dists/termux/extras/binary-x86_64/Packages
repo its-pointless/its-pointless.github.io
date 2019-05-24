@@ -308,6 +308,21 @@ SHA1: 3841ce7947fd7944c14af289ed7b074d50f031d0
 SHA256: 0437e6e7b98a81d96873d9ad1863780c200d231dc62c55d00e3522f466deab77
 SHA512: 05fdfc0fe3c15c835eaac24cadd4cd1616e8d1d6225f90470407c1e4a9ca88323080dc14c72a5c8fe3a49c1fe25982d1fd561ccc35aa7fb88489af5fa3f330e8
 
+Package: gcc-6
+Architecture: x86_64
+Installed-Size: 97488
+Maintainer:  @its-pointless github
+Version: 6.5.0-2
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-x86_64/gcc-6_6.5.0-2_x86_64.deb
+Size: 26417082
+MD5Sum: a419fd15d94194a4db1091804d248dc1
+SHA1: adfe3e0dccef12e927681d444499e839098ef414
+SHA256: 4ae91576b99a768efff5d44f3539e9054a4e616e1f9c700183b8e676d47b02fc
+SHA512: e9afa164db01873fbf5ce0e5981cd5726a21ee88521c87a9d0b28d94b7089b82582bcae34620dd4b1aa5f4e6e9d140ccc7adb3235653d153634282a4940aa497
+
 Package: gcc-7
 Architecture: x86_64
 Installed-Size: 109196
@@ -785,6 +800,21 @@ MD5Sum: 1a711b392992ba01b3093f735ed9da7b
 SHA1: e48df49bbba3ed74aae51be8a9f6d61b788e685d
 SHA256: b777cae838b7368a49679b3186fb8993207f2e93a4efa1a5eb66ad15736ecd12
 SHA512: 20cae3cda0fd3525976c3173400067ebf0c793ac76210e22bb73f226dadae21fdc84a20bd36a599e5873c3fb8a38abe97808157ac115f497c3a2e96a04541148
+
+Package: libgfortran3
+Architecture: x86_64
+Installed-Size: 1108
+Maintainer:  @its-pointless github
+Version: 6.5.0-2
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-x86_64/libgfortran3_6.5.0-2_x86_64.deb
+Size: 254040
+MD5Sum: 84705e6a377939aeafdca5f9715c1731
+SHA1: ab2a74a84b71d56bb96def0373f7278bfe486fd2
+SHA256: d963d81364bff0d3a94a1b80bcb21eb6908f488532e1b76a5305ae7df50c7df9
+SHA512: 95150a3b36b5099f6a4e9ea8c8315ced2ff0145bc0090aa2c339a5c1285372cf5cb8dc87a05418b1f7d151c6e2b529ebffa680b450b454866463d5aae04f14b1
 
 Package: libgfortran4
 Architecture: x86_64
@@ -1583,6 +1613,23 @@ SHA1: 0f8808f6848425454d6fb4377e9dbe3986f6ca28
 SHA256: 902459f62dd4e1cabf4d57863a8f6a45afd100fc475ea4b802cb54db04343060
 SHA512: d6cd2252bc4afa18492f0df80ecb337fa7ef8c5ed9604b1cc8819ba6ebff6578d487a1ac926d67c777b399f32b0ee02708d4f893b7a06285b94293693c9efb64
 
+Package: openblas-sandybridge
+Architecture: x86_64
+Installed-Size: 15896
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.6
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Conflicts: openblas
+Description: blas library optimized for sandybridge(chromebooks)
+Provides: openblas
+Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge_0.3.6_x86_64.deb
+Size: 3323818
+MD5Sum: 7f27c965e8cf1a99920418e2cadb637d
+SHA1: d48ba04b736879368ce96c02141f56b414043e87
+SHA256: d73ed205f24cd7a1b055a5cc75e39eedb6b5bbe97e18dfee7a32e98187fbdc7a
+SHA512: 624dba2d7f40a2f1a590ec7412a7ba553084b3f052576c2ea3afbd930dac035b202cae72bec2af4d534dfee0037c5a86b41bcdffbbdce74dbff183d204e0a7ed
+
 Package: openblas
 Architecture: x86_64
 Installed-Size: 15356
@@ -1597,6 +1644,21 @@ MD5Sum: 3666f412fdc0f25a7799c3eb4a363387
 SHA1: f0bd32cb08da178ce5a782a9d64260a3792071cc
 SHA256: e2506d6e5412acbd87ec01da48bb6d6ee83812499da72671e02e6539dcc206e9
 SHA512: c5b9f57ef0f5c02c293cd3f1b41bd0dd072bcce9c48184d5f4f49e537d4e3ce56311e4175601ce7ad51ccf4f58d4104cf1a3b49ab5f42d634079effe230a5bd2
+
+Package: openblas
+Architecture: x86_64
+Installed-Size: 15484
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.6
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Description:  Optimized BLAS (linear algebra) library
+Filename: dists/termux/extras/binary-x86_64/openblas_0.3.6_x86_64.deb
+Size: 3206930
+MD5Sum: 118834f1c6c96a01d8f7ba0154b2b0c6
+SHA1: 801d9973fb106231e1632562c8141bb551cff368
+SHA256: f2cc645e6fb1cf5be0c3a2cc0fece6934b139c5d9afd1989c6fe9178dbd17b28
+SHA512: 48919e1be9aa29bafd89cb1e616d138f7ce887e9a14c4ad163d9082951fb073b7793902013fc222b4ab55d3ef8a75acac69936b7955cbff6f45774076956011f
 
 Package: opencv
 Architecture: x86_64
@@ -1790,6 +1852,21 @@ MD5Sum: 37154470520a66e8ef6bba46e2df6362
 SHA1: 6eb089bce8822d3082429711c235ed05515347d5
 SHA256: 75aeacba7c3cd6eb95be8515e56dfb418e7242407d5ec6b45bada67090e033a0
 SHA512: 363447626ce6ec78b0df530f671b38110b8992943042c8348cd858cb7ab15b741ba568377c81960b939a81916fb1858c4150646458e03e8266954a1d454b12c4
+
+Package: povray
+Architecture: x86_64
+Installed-Size: 24908
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7.0.8-3
+Homepage: https://povray.org
+Depends: libpng, libtiff, libjpeg-turbo, boost
+Description:  Persistence of Vision Raytracer
+Filename: dists/termux/extras/binary-x86_64/povray_3.7.0.8-3_x86_64.deb
+Size: 11030722
+MD5Sum: f5a25f8a329a4054fccaa107aed2f594
+SHA1: dcecab4e785f5ffbb2066129c1c63f6cebd9f1e4
+SHA256: 2012ddd2d9c1818e6a4effe5aef45673dac70ddbd7c6920158dfb643d04871a0
+SHA512: 9dafd1c86d7c61e6327f697b945cf25558597a1d4a12617f4006dbf125e6d3163f548fd15c7c39911076700b5dc69c08acd2b8405d8dbac4b6ff8b80d27acbba
 
 Package: proxychains-ng
 Architecture: x86_64

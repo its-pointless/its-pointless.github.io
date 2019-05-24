@@ -328,18 +328,18 @@ SHA512: 55a240e91cbe3f70c415abc9be5d221d741efa40157baa560c56a043da2ad04b754c8e78
 
 Package: groff
 Architecture: x86_64
-Installed-Size: 10596
+Installed-Size: 11936
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.22.4-1
 Homepage: http://www.gnu.org/software/groff/
-Depends: libandroid-support, uchardet
+Depends: libandroid-support, uchardet, libiconv
 Description: GNU troff text-formatting program
 Filename: dists/termux/extras/binary-x86_64/groff_1.22.4-1_x86_64.deb
-Size: 1776826
-MD5Sum: 765835cf3bc732dd41f347aa22898a7b
-SHA1: bee24b2c5686d170fd586570bafd3754f0518bb9
-SHA256: 0b55326a98ce143c3592040704bd5bd4f5cd8070bcc7fcd2c3113da0c2669e70
-SHA512: 05ff93ad2ed4bc22a8a4629e42468c167ba2a118d71fe9fa2491d56aa34072cefd091ce6850a31e1878d1be1ed221fe62843854d3b55e5e9b4e9697f51926758
+Size: 1961416
+MD5Sum: e42d507542b3702d14551d198f1df4a0
+SHA1: 582b8e97eb227a478ed43a411f35d2e79b19efc4
+SHA256: 79c48eebefe138b05d7b66cd796f41ff80858548945d1e5508f16c096d66951f
+SHA512: cb19a283a0808aa8f6db3e8d6af0ec46204a3aade2912a40f0d4027a18f8ef2df457f966c9bd58d743d1a783da368784825378c6bc64f529cff2921c5e4bf58a
 
 Package: guile-2.2-dev
 Architecture: x86_64
@@ -1608,6 +1608,35 @@ MD5Sum: 8990b9c8085838296321909afe442f3a
 SHA1: 09fbd5ff0fc465642567028c5e880e602d6de0aa
 SHA256: 9f83188732bc52f7968e1f727c36016e57c3b80fb5f1e3be8a4e773e0469e8ef
 SHA512: 66cc8e5241f8c0b2a40c14f88d7ae420b6abf81e3d18e18a308ff687f3fea80324203429b8ada4ef81de2cad4fe9fa1dc0ef4724a74bb71ba8cfbec34d23c804
+
+Package: uchardet-dev
+Architecture: x86_64
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.0.6-1
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Depends: uchardet (= 0.0.6-1)
+Description: Development files for uchardet
+Filename: dists/termux/extras/binary-x86_64/uchardet-dev_0.0.6-1_x86_64.deb
+Size: 2206
+MD5Sum: 7d822ad2c551f7d9325164695cf631b4
+SHA1: f6f5e40054c91db4b045503781c94407f80c762b
+SHA256: dfc862aee5e70fa3321701b31541dc31455acade89f8b50663645046da53e3bf
+SHA512: 09ec8b50b478e4a80b3118bca194a95a255ff48b14214e9fde9d4fda1110a8dedf30fed9df86c5b28a69cd1e0694049f076a2cdba658517b1a13e6cc4a4c9ab9
+
+Package: uchardet
+Architecture: x86_64
+Installed-Size: 192
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.0.6-1
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Description: universal charset detection library
+Filename: dists/termux/extras/binary-x86_64/uchardet_0.0.6-1_x86_64.deb
+Size: 67162
+MD5Sum: 602e6518beb057ee37294f0cad667f4d
+SHA1: 71e2abcf743604e09092d4bc0a9c97a262a53ac9
+SHA256: aa55adf50c74b8e51a58d88df047226ce7c2a03397f282d38a1ce0383cfa4adc
+SHA512: 8e6377c3e678a8aee5a01af2ac325a5ba5334a23d9ad7a479ff94c270d0639022a91139ba7be84bdefd60c66cacda0dafc7bc46d1180b99fb41aceda9e8236cb
 
 Package: xmlada-dev
 Architecture: x86_64
