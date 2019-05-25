@@ -57,6 +57,21 @@ SHA1: 92578eef2c7a445a34fea2b817a0d61c8d9206c4
 SHA256: 1f7deb9cc3eec88475cacf4eb8df9b764a69c9ff33738be26ee213fb8b3ff66b
 SHA512: f5467d70b4fbbc461a38f78c51790e759703ffd3b404d3036bf155b7a1b1413c58796780b103f95530762631549b46622800483eeb10f215135e80a54f0a437f
 
+Package: asymptote
+Architecture: aarch64
+Installed-Size: 4600
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.49
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends: gsl, ncurses, readline, libsigsegv, fftw
+Description: script-based vector graphics language inspired by MetaPost
+Filename: dists/termux/extras/binary-aarch64/asymptote_2.49_aarch64.deb
+Size: 889478
+MD5Sum: 2343f8cb99351dd82a70dcfcef9ccfa3
+SHA1: 7753239a08c6b4a2a341a0a83ae45f9f23050452
+SHA256: 8e670eb844ed294f7f38dfac30962d07f9979ed96d70b5ed4cef0d528c51602c
+SHA512: e1122a8b030ced3ecac675ee66b9f8887a3cf128a81ee3e5699681e2250af62c003a9232ea6a6e164fe39be33906fc77de01cebcea3c359bd7e2d9f3b5a327fc
+
 Package: bastet
 Architecture: aarch64
 Installed-Size: 264
