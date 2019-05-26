@@ -1549,6 +1549,21 @@ SHA1: e8cb989bf2a1ae694d93f0e2f23bfd61a5e19bec
 SHA256: ee00fb02c747a670030c8f8646acb69516e96cb32f8820d213fefe344fba42ed
 SHA512: 63c301eb4051f00719fd3ccc642a8eae7318fde83c2b1acfc66f597b3cbdb56724472ab88d4492882903d49fcf36e637e4983bc5db2d64f9aa290d5218f4969e
 
+Package: scipy
+Architecture: x86_64
+Installed-Size: 55044
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.0
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-x86_64/scipy_1.3.0_x86_64.deb
+Size: 11919894
+MD5Sum: 877fb255b78cf14507256a83830fc139
+SHA1: 93e5d4bb07473bc7d248b72b97c8b68089d16f21
+SHA256: ec0605559cbeca6e1d8abd8ccd99e629323a83a25b891e39198f32dd071f3cc6
+SHA512: 7ffd0114458fa6177c297a34db0a8641703c17b4f034348f95a66df887465fc96dee700963129802b8ab08d4bb9e71ef69cbb34f495e50da0d9814cdc77f9960
+
 Package: suitesparse-dev
 Architecture: x86_64
 Installed-Size: 792
