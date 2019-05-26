@@ -353,6 +353,21 @@ SHA1: 93165ac9df5b404867e9d0be481557665436b25c
 SHA256: d6a8f25384371c2172508239a36ceb86178020c8f1c5d9a710172e35cd5d86ff
 SHA512: d12da7c4453e1e94d5015f356e849485a732173b4642833db0e35d24d5bd8db7e29a575980f7a4fdacd70e2789a0d02aaa17e85ee5a9fab4ffd8e0939e6f3e71
 
+Package: gcc-6
+Architecture: arm
+Installed-Size: 69032
+Maintainer:  @its-pointless github
+Version: 6.5.0-3
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-arm/gcc-6_6.5.0-3_arm.deb
+Size: 20527558
+MD5Sum: f6afaecb68dee70daf2e1ac75dae453a
+SHA1: a7c260eb20996a33c4e0324cd7ff3c9a4aa025aa
+SHA256: ac101c7e97fbe02a9249d8be41966eb642cc4e126a4a5591f0b5d24a1492a1d4
+SHA512: d7bd0f2fb2d4207d2f455c0ec480950982f903cdfd782edae4fee33a2763d93d6e29f14f18b02850a1a985e325d303a656c4de9e4ef277e157a38de8ccd9e119
+
 Package: gcc-7
 Architecture: arm
 Installed-Size: 96628
@@ -382,6 +397,21 @@ MD5Sum: e7920bf648ddeb2066be7ceec76c561d
 SHA1: 6852a4eef27c07dcd18a799bccbe43f3c7871409
 SHA256: 5ecb53fb51819f3721c69b8e0ceb1bff9cd347e8abc5717c75aa638574501221
 SHA512: 2b2c85f4ff58c59c8f817bfd705a6c18cc2c35dfd5d573c76fe6564887ec533697570df0d80355d1e554ace5a83032cff118c081863ed41d22c89c0b3d402ad6
+
+Package: gcc-7
+Architecture: arm
+Installed-Size: 96848
+Maintainer: @its-pointless github
+Version: 7.4.0-3
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-arm/gcc-7_7.4.0-3_arm.deb
+Size: 21979338
+MD5Sum: f16f1b1028e13c8a1674930dc86de409
+SHA1: 36cc6deb612222bea23d2c2c12f7f9c854cda7a5
+SHA256: f2b3282be5e6f2836feac38a695629eac3c883796d6368b366d86ed78dae611c
+SHA512: 2223698d9a3a978cb786545ca8e72cd666bdb5b048b607b462d4c6f508faadb6430792da69141029169c3b279916d13cd327a308e166cfbb9bde012fb9c5a146
 
 Package: gcc-8
 Architecture: arm
@@ -937,6 +967,21 @@ SHA1: 42f013aac4ed400b82ada21db924f3c628f6e467
 SHA256: 7791b9c0d8d43f6d0147073cc199ef9e23caae29f31f4cd239662b0572c48ccc
 SHA512: 00b1c790021a80b988ff5417c0e8cd18aca577646d2b6fb2bf453fc3797acdbea801d9681796114b22376788d31c2e30d3df8671a2b5cdb2f18ae035fb0e05d8
 
+Package: libgfortran3
+Architecture: arm
+Installed-Size: 668
+Maintainer:  @its-pointless github
+Version: 6.5.0-3
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-arm/libgfortran3_6.5.0-3_arm.deb
+Size: 166138
+MD5Sum: 2768845e886261c980beeec57ceb49a1
+SHA1: 69235948bb3a75cabe32ef0551d873e139a4d31d
+SHA256: 8eaa95f238062f4e84bd7a723c37447f23629f9c18f41f10270796bb2119af49
+SHA512: 06452a575072aac4aad4c80eb174f6e478733ba88d27086cc074acdc98eb374bb4f54c9c04eb6a926ca3c592dad1f30d9914cf7fff409ffb89a28f4e5cc0ccb4
+
 Package: libgfortran4
 Architecture: arm
 Installed-Size: 712
@@ -964,6 +1009,20 @@ MD5Sum: ac18bee88549835286570e27bf210e68
 SHA1: 5e5152d55d77698fa6bfe4144933f94ef46154cd
 SHA256: b964aa60b11aedab0f3b72da0a61a8188e8b4b422bfd2c6539df23ac0241074e
 SHA512: 1c2d361f564868fab8a10cbb4cfa739a948edc17dcca55e96031219f91f9dd541f4b6283ced6061ec180da52e195c85f276a12854dd5ddb0893b049e964fdac6
+
+Package: libgfortran4
+Architecture: arm
+Installed-Size: 712
+Maintainer: @its-pointless github
+Version: 7.4.0-3
+Homepage: http://gcc.gnu.org/
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-arm/libgfortran4_7.4.0-3_arm.deb
+Size: 194142
+MD5Sum: e114e773a3f8aaee14b6d979491ff1bc
+SHA1: 6e2dd1e35274053d4aef06ac56384ee6b89d301f
+SHA256: a06ab6ee38ff51fbb9e99ac87b1d5f4f38a0399be5eb7609c668fcf2836ba2ab
+SHA512: 5ea13f0ddab302112b00d257611ee0d4533ec80b5b8586bc10a9b074290b3978e343c671ab528db09056f590ce415f306b5bc047288d4cd2acc106d7186b10d2
 
 Package: libgfortran4
 Architecture: arm
@@ -1179,6 +1238,23 @@ MD5Sum: 70c67263e1cffdb3cbe51de4d6e26bce
 SHA1: 14faa7282d2224d118dccae708bc3749763b5c0e
 SHA256: 0ed3ef67b8b06a458684abf954642008a523e7fa34c1abaed4d8931f96fba47d
 SHA512: 4b0d8db2ad859b05ea427320ff457e8e9d2525beefaaaf7e5cde768053f97b2676c2698e7f0d8a1ff509582492922f81c1c385d83f3089d79ee36433b1aa212b
+
+Package: libgomp-7
+Architecture: arm
+Installed-Size: 240
+Maintainer: @its-pointless github
+Version: 7.4.0-3
+Homepage: http://gcc.gnu.org/
+Depends: gcc-7
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc
+Filename: dists/termux/extras/binary-arm/libgomp-7_7.4.0-3_arm.deb
+Size: 65982
+MD5Sum: f19eb1575e23b600d54ed88f2e68b886
+SHA1: fcc54f61bc820ad1368dee4eda870e563f850a56
+SHA256: f037716ea9c16bb71cc12054fcc395339b28b4d5cbb0b7f862914bdde0ebaac4
+SHA512: ec26af8752f1c8691e0fc1ca518cde6a699479b913b99601ed4c532ced6d54d541775963f0b9bfcbdda7c446f8a3b7ce5c8b5f709b1b9ce1473d92af801aab31
 
 Package: libgomp-7
 Architecture: arm
