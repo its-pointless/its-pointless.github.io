@@ -1425,6 +1425,21 @@ SHA1: 251fe52155f83dec9d5945ac533cbb1d6cb0549c
 SHA256: 279e0543a2023cb1b76c86faa1489545fa4cc671868dd267e88a7ea30a6c3dde
 SHA512: 6f7fe9cc9eb4f3f6bd3a6561f7b554bf91bfbd20b2eda54d52d603ee3a66952a2ffa20933df3defcc2e74c2b2253896b668dc50fdf957f37d4d2709d891ea129
 
+Package: rakudo
+Architecture: i686
+Installed-Size: 85468
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2019.03
+Homepage: https://rakudo.org
+Depends: moarvm
+Description: Perl 6 implementation on top of Moar virtual machine
+Filename: dists/termux/extras/binary-i686/rakudo_2019.03_i686.deb
+Size: 10209124
+MD5Sum: c49542989f7b64e2ee1958ad51a2f8fa
+SHA1: ccbb73aeaff9244fe303023f4428afd4a9660487
+SHA256: 89fc96c68bad0c3246d220d0ffe626057eaccacf4724d107f5809b21e5211b9a
+SHA512: fbeaec5565dc5930fc169febbe02075d784f5aa34d68e59db183531acae1595ca353a6eff75de39ca34e3c736052ba63f26965c04eea5aef9b20001d597b35b9
+
 Package: rust-rls-nightly
 Architecture: i686
 Installed-Size: 22812
