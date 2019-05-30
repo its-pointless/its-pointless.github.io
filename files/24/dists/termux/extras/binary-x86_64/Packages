@@ -147,6 +147,21 @@ SHA1: 729a54d8f958b1b4466bbf1a34d2e88808f5f476
 SHA256: 07837f4fddca7524d1fd9c7d2de1dd0e7d08bc6e800731e72e6c9458975e3b90
 SHA512: 0c58ded7c8a77858c9db7b40cd404826db8a22481f0129482fdc6b5b8ca8a14beb682b03e752bad13f64f76a61504044bccfcb2d18643ff01ec4078d81017e7d
 
+Package: elfutils-ext
+Architecture: x86_64
+Installed-Size: 1872
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.176
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, liblzma, libbz2, libelf
+Description: collection of utilities to handle ELF objects
+Filename: dists/termux/extras/binary-x86_64/elfutils-ext_0.176_x86_64.deb
+Size: 413610
+MD5Sum: 0a4bac6d52e9ec33cee7cbf298788a22
+SHA1: 3a8870e91676714e277d07e091222e29d53eac1b
+SHA256: 0ad93121ac697491838017d34a43ffa5b149172421cf6c375456a3c4f87e58ee
+SHA512: 5a0101adea48cac458f23a32498a28c653c792710dccf927b3205bcff0cb4a54c805df8d38f9364b241d06f222264813a294c7bbcfe7d6a319c6009a10df0765
+
 Package: fp-compiler
 Architecture: x86_64
 Installed-Size: 151864
