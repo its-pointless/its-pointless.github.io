@@ -119,21 +119,6 @@ SHA512: b53eeaf872258204cac2dd7069a0dab9d9d1e66e7bb61ec81ebc977a8677f5bec1c5969b
 
 Package: elfutils-ext
 Architecture: arm
-Installed-Size: 1508
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.175-1
-Homepage: https://sourceware.org/elfutils/
-Depends: libandroid-support, liblzma, libbz2, libelf
-Description: collection of utilities to handle ELF objects
-Filename: dists/termux/extras/binary-arm/elfutils-ext_0.175-1_arm.deb
-Size: 372128
-MD5Sum: 08847c70402da83aecd67a8c172d2b13
-SHA1: 8877d4a366e560d9f26e8963f8c60e7cf354edc5
-SHA256: 551943430c7a534ae0ea9a5859a4de444c267e09124ac1b1d4ccec20316cd3b9
-SHA512: bad283baf19b6e2be62aaf2e2a22a0c1681786469b84374fba5586ace11bda65504ab5b2ed3b9d6ef1086f436ba87e5270580c0a261663070b59985a5dea557e
-
-Package: elfutils-ext
-Architecture: arm
 Installed-Size: 1420
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.176
@@ -1594,21 +1579,6 @@ SHA512: 0067e418e837a6693f5192a791456e3607f2c322504c72a848011e2eb2bb4e56f4af4aa5
 
 Package: scipy
 Architecture: arm
-Installed-Size: 45368
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-1
-Homepage: https://scipy.org/scipylib
-Depends: numpy
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-arm/scipy_1.2.1-1_arm.deb
-Size: 10929198
-MD5Sum: 032b2da1e50743c266508da5f7c74666
-SHA1: 3ff5a146d76065cf6bd9a74871841fb709052bfc
-SHA256: 610c49aadda5a8d6589ccbf93afd142e838fbc254bc6e3f4c6cbecb81c6ed851
-SHA512: 18f7459900b34c88c5eade7eb81d734c949340571110b209218b0633dca0ced28262d308305378d762d461ed1f62c9213c22a117dad67f0008fe3b484930c120
-
-Package: scipy
-Architecture: arm
 Installed-Size: 42268
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.3.0
@@ -1637,21 +1607,6 @@ SHA1: f60f33faec00de21f891f52af5f448c1b8318322
 SHA256: e63d8c89be06ba1176e9d8a74f4439f1e68a046008742448d97ca4f2f2ac7ecf
 SHA512: ee80cef51472a8ff4ef4b62f9a1c04d8599390fdee248ed2af321f4b5a370be1bf055242e2188cda6bbf11f2eb992e9200b8ab54ea11279a7d909b4dd96df6b6
 
-Package: suitesparse-dev
-Architecture: arm
-Installed-Size: 792
-Maintainer:  @its-pointless github
-Version: 5.4.0
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Description: Development files for suitesparse
-Filename: dists/termux/extras/binary-arm/suitesparse-dev_5.4.0_arm.deb
-Size: 104504
-MD5Sum: 48a1725373be824da1bb04020eecef49
-SHA1: 2f1efd534f4b65a61087fb4a326befc6ed4db9e7
-SHA256: 8fe5a2f29b269f759c2aaff910aa50030276e86bc9e102df2ad72ac6606f9b28
-SHA512: 617838c775c07aa6e5c503aead4551a40daeececf0db15cf1c0fc367eb872b8cca258d42abd4359ab9d5864563760cdbeb0bff0b650c2145550ceb55affaff7b
-
 Package: suitesparse
 Architecture: arm
 Installed-Size: 2224
@@ -1666,21 +1621,6 @@ MD5Sum: 8cfd603956e1e8e64710ceb7ffacc94a
 SHA1: 089893e933757477266126e27149d38adcf3698a
 SHA256: 6119eca538e256054e68bf43c4f378886552e899127235a80e67bad52f21d164
 SHA512: ad5ce302d0a9da83d28c4f8bbc314379bde95e7c08402e69839c4c8249722030cbbafe4a4c5bee3db89c0eb3f99c9b0e779a7d89d2997797f23f9f23d83278e5
-
-Package: suitesparse
-Architecture: arm
-Installed-Size: 2216
-Maintainer:  @its-pointless github
-Version: 5.4.0
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Description: a suite of sparse matrix software
-Filename: dists/termux/extras/binary-arm/suitesparse_5.4.0_arm.deb
-Size: 697466
-MD5Sum: 4d6722af3870ce901e9840ae39b3c778
-SHA1: 52d1ff6b9ca69607c454ba27a519ccfd2bba06d1
-SHA256: 9f925bbe82f4e322ebcde5302866bfe6480b8facb17989b46066df58d34c4e27
-SHA512: 29e9904379ee6abb799345a2851b8a4c58fa7dff026bda4368a8c40e024d1fe037cfabfa79a0d1ebd8fb0e74441a4280217013c3492b3a83360af28e2add8dd3
 
 Package: uchardet-dev
 Architecture: arm

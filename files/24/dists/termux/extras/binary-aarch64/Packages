@@ -134,21 +134,6 @@ SHA512: 0059edad940c7e9887de60db024df0f90df81188c91981e968cb1cf426bcbe4956c03107
 
 Package: elfutils-ext
 Architecture: aarch64
-Installed-Size: 2116
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.175-1
-Homepage: https://sourceware.org/elfutils/
-Depends: libandroid-support, liblzma, libbz2, libelf
-Description: collection of utilities to handle ELF objects
-Filename: dists/termux/extras/binary-aarch64/elfutils-ext_0.175-1_aarch64.deb
-Size: 386686
-MD5Sum: 8045194eeb5eb8a544f634868414c520
-SHA1: c4888c1c7438260454235f14a180b167536bf366
-SHA256: e19f6a5adf6e406002b9e2edec94c0c861e78c7a861c2e449e7864f5f9df9fc2
-SHA512: 12c31f13506813096e4eb897de7edadd6989fbf49ac64c5a15161d1ed1fbb4d8f1c30386e7bcee55f602708fe4860c92ce24f0061455995f8da5906ae59c7ac1
-
-Package: elfutils-ext
-Architecture: aarch64
 Installed-Size: 2012
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.176
@@ -1409,6 +1394,21 @@ SHA1: 7fe31763053716d312ad8815311c0aed1d0199e5
 SHA256: 4fb5871a8475fff2ecda3d8cb776332abbc8b3bb1de2c3965cb7d192e20e5001
 SHA512: 1584b35bc391ae1a0bcbdbcda9c62821b6d6c94f97528933d37724e31a7ea33f5f6ea24848d84ba8e1519a0acfbb789f2dadd3b1c285e8c47218657d4a0d12fe
 
+Package: r-cran-rcpp
+Architecture: aarch64
+Installed-Size: 11428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1-3
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_1.0.1-3_aarch64.deb
+Size: 3290300
+MD5Sum: bcdcbfe0662d64304c44e7c85688d2f5
+SHA1: f7f0ec803ad255a5897176b1513b3b22f563257d
+SHA256: 152aecbef7d4867665488500cb8cebd29dc454ac249a15597b34ac948a18011c
+SHA512: 22fe82de2c9ca93d198d187f65bdeaf3f0321de0693cc712d699ec74adfb95ab4b3adcc0e6e04097a2976796df72f9faebb53d887b4b3ff290c5fee62685034a
+
 Package: r-cran-rquantlib
 Architecture: aarch64
 Installed-Size: 3772
@@ -1578,21 +1578,6 @@ SHA512: e69b9ecfcc2c7a46ca0899550f8759e70547e6139d85fd36cf38ae5235f06bb1e9ea9cc9
 
 Package: scipy
 Architecture: aarch64
-Installed-Size: 48744
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-1
-Homepage: https://scipy.org/scipylib
-Depends: numpy
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-aarch64/scipy_1.2.1-1_aarch64.deb
-Size: 10405358
-MD5Sum: f3892ac2ddc3816f2993ed12d51d6225
-SHA1: de40047bcd60ac020c369c59b99c9fc7386e6015
-SHA256: 398890c2366caf0cdd2c37526d800b36fc8d5044886f83a90ef6654991b9017d
-SHA512: 3a13921c5195f7fa44229ef629970c6d3c62dab0c6fbff993a2c1af7ae9e8e05fddfdb37c0e1c1e83a36ed6bbfbec81f18dd148333a56210b0a6f8fd26b53e25
-
-Package: scipy
-Architecture: aarch64
 Installed-Size: 49676
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.3.0
@@ -1621,21 +1606,6 @@ SHA1: 977f3fd9162fc080b24fa2f706964a1cf60aeb72
 SHA256: c3a7bc582f938ce8fd8ded02f48356b27f190c08794b1be9c82d8c129f58f3ab
 SHA512: aaeed68ce75a1e0841df4ad13634ffee88a3d4de0eb53370a7d61119cc5872d616e78964fbe94173cfa5a037c9f3a50b764f4c988e52897188b88484b9feff3f
 
-Package: suitesparse-dev
-Architecture: aarch64
-Installed-Size: 792
-Maintainer:  @its-pointless github
-Version: 5.4.0
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Description: Development files for suitesparse
-Filename: dists/termux/extras/binary-aarch64/suitesparse-dev_5.4.0_aarch64.deb
-Size: 104654
-MD5Sum: e09671492328c6d85878efe794e13b16
-SHA1: aa4ab233ce4ea1f0a326291b38e35749d76e60a9
-SHA256: a007dd77d992bac89835d0d9ac611ad0c25a94af15e0207b276c02755e783e74
-SHA512: 0414b5107cbc8b5911199420cabdfaa01cf00265553c00909467e85b8888be9b7bd429459a9470e0f86327876fd744d28a4eb142b993ab7c0092b52dbf843c5f
-
 Package: suitesparse
 Architecture: aarch64
 Installed-Size: 3456
@@ -1650,21 +1620,6 @@ MD5Sum: df07ea4ca431d92bb7a5ed852a1e5c79
 SHA1: 9282fa391d4e67db45e23b2c63e1e135a3991506
 SHA256: 5f3a9ddccb85da4b1530dfb6a6f2cbfe23e467c709bebcf664c1181d567dc72a
 SHA512: aacd225761f36fc936dadc70e98c818dcc2a374616ea22e45604dd7724c1b28758b1f37e9b715544e3e900841c2fda596f8e341f725cfe4c782da7d998f4c94c
-
-Package: suitesparse
-Architecture: aarch64
-Installed-Size: 3520
-Maintainer:  @its-pointless github
-Version: 5.4.0
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Description: a suite of sparse matrix software
-Filename: dists/termux/extras/binary-aarch64/suitesparse_5.4.0_aarch64.deb
-Size: 957638
-MD5Sum: ff679ebf51f75827f4bfad150ac5f676
-SHA1: 5cac4afddad115f7276d0076b36ec807537f1430
-SHA256: d20003d0fdd24c6c9ceb60da1c818878895b38932e1db5817b7a418b9d6fa94e
-SHA512: 7cf1e3d7428f6319db1f05ff43db36b1fe9351a27ede12b18c8c4e82751a812393f7a760b88030c2b1f8c0cf9779d8b0e71609f12441cc8a6fc03377b06d6fdc
 
 Package: uchardet-dev
 Architecture: aarch64

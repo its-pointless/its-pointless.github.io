@@ -119,21 +119,6 @@ SHA512: e358d0d67c1a7b107d94a7a4fa86950c69ddbf9638868d28f66a40426249bed78dd827a2
 
 Package: elfutils-ext
 Architecture: i686
-Installed-Size: 1708
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.175-1
-Homepage: https://sourceware.org/elfutils/
-Depends: libandroid-support, liblzma, libbz2, libelf
-Description: collection of utilities to handle ELF objects
-Filename: dists/termux/extras/binary-i686/elfutils-ext_0.175-1_i686.deb
-Size: 414228
-MD5Sum: fa1a445fd65e3b4be6dc086cefa2254c
-SHA1: a94ae140cd955d162010d0eb37082a55eea748f9
-SHA256: 5bcf781f067036c750bc3b5b5ceec0fe5f015645eb5c7a6edbe9a3bf0d216842
-SHA512: 772392bbe59a5c6ab316e6f6cb7d113084b706df9f84ac600f20989a2206f72a2672ba44c102b6313be3b8b5e1eaa693f97f5b5d319ef7d4ff1078efc2646cbb
-
-Package: elfutils-ext
-Architecture: i686
 Installed-Size: 1716
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.176
@@ -1380,6 +1365,21 @@ SHA1: 7d202068ebbaaa9cbd814dbd347721511a42d0a2
 SHA256: 6e6617d2185d5246d15b1a870dc3d10db4d76dcdaab545feda390a7745d1a928
 SHA512: 0df7244b9ff8a61110795fd15934405498ef8f9998286c5875a1d739ae3274d6c4ea57b2d497d15f40e683c4909ca90a8aa2bcbfd7a3e8ec6c6c17c733be837e
 
+Package: r-cran-rcpp
+Architecture: i686
+Installed-Size: 11464
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1-3
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-i686/r-cran-rcpp_1.0.1-3_i686.deb
+Size: 3310240
+MD5Sum: 05d0979ee90a522c50d386cbdd156cda
+SHA1: b735fb7956abee017f972de852980d6d2717be76
+SHA256: 531657ae17c8e4f055ca2b788f12d2acb5c03fe3a26ffd4a1d84a8e4419d3de1
+SHA512: 118599ec9923e75906de38a7623a10c095a412a9b093e81a33212d209e65e553497ddab104ec54cfca22bf68dd427b6a2452bb7795c86f6a0c76ee520161cc9c
+
 Package: r-cran-rquantlib
 Architecture: i686
 Installed-Size: 3648
@@ -1549,21 +1549,6 @@ SHA512: 848ff62244292214e346998e9487e3fa85cae4d251d61598a5013edc5df537016d1d69c4
 
 Package: scipy
 Architecture: i686
-Installed-Size: 50904
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-1
-Homepage: https://scipy.org/scipylib
-Depends: numpy
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-i686/scipy_1.2.1-1_i686.deb
-Size: 10773712
-MD5Sum: 1987ba2c63569b76a89ddfc3b2e22542
-SHA1: 3aa7a8bb16749a7c9ae0f483f0d3a089609144a1
-SHA256: e9cb6bc56a540fe38ec246ae329c15863e9da805ca6ac0388af683ee36f52452
-SHA512: bac5bf751173788681ff1157003a342c0a1b9e1753ffac77f2b0d7df87c1dd02c5851379cd6a6854df4e974829e9c1b0d4b81fbfb86991172fd2b65a9cfe205d
-
-Package: scipy
-Architecture: i686
 Installed-Size: 52128
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.3.0
@@ -1592,21 +1577,6 @@ SHA1: 4d86e7fb12fe3bf261e244495972dd0446ef639b
 SHA256: 5cbc4ea1d5c66ecd6d799446334d723c72586e52a2e35dad123e654eb246822d
 SHA512: 84ae63d4206dacc96c91f5beeae149fa525bd4523253b073605e2adfbf2290cb01f7c3663d69015248e54928664cd44c4e640febdef0804aae573137134e95e6
 
-Package: suitesparse-dev
-Architecture: i686
-Installed-Size: 792
-Maintainer:  @its-pointless github
-Version: 5.4.0
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: suitesparse
-Description: Development files for suitesparse
-Filename: dists/termux/extras/binary-i686/suitesparse-dev_5.4.0_i686.deb
-Size: 104512
-MD5Sum: a6f0ec5226270612bbe9abbf9e396ad9
-SHA1: f5a054e7594bbcad276fcd6b64a6a421d14582a4
-SHA256: 578b614ad38cd2745454af07c8373713fac42ff67e3bb705c8d5276c29f2c810
-SHA512: 1e7280b825368e926f439295574f75945268768cf6d7ef5e87ac799e88691d457e897ae59fe2c1eac13e97e09d1d3d9ffc77bba06db660def68a4df194537c2d
-
 Package: suitesparse
 Architecture: i686
 Installed-Size: 3744
@@ -1621,21 +1591,6 @@ MD5Sum: 5803f1f475ad3dbf3d44be481bc2e23f
 SHA1: fbada3af32b257bdd577702ab8cbb633c56dbe9f
 SHA256: 46c07266095cc22ef59b6ed4cb26effa34be217331b27ac8377d48d5f543291b
 SHA512: 44e0b3c7d6f6e47565b9da2fa989c8b245cf48bc1a3878aa4acf9be45524b86a09911652b65cf7435356cc0d7a67e32f240a204c2e6044e6379017f0ad8213b2
-
-Package: suitesparse
-Architecture: i686
-Installed-Size: 3864
-Maintainer:  @its-pointless github
-Version: 5.4.0
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Description: a suite of sparse matrix software
-Filename: dists/termux/extras/binary-i686/suitesparse_5.4.0_i686.deb
-Size: 958848
-MD5Sum: cca69f4e354f492d9c36aecb46e7537d
-SHA1: c9541a88c278dc51f6c979573184a21ba7e8a965
-SHA256: f6b9277f98590592caf11ba93b7598199f0047006b8f69751a0d87509832c447
-SHA512: be8569ef8d6729e5496e3177b08ca6e1f461edda64c36c809d0c17bdf15ff219929ac339acdacaa4240d33eda96eb62d3daa9c6bcc734c516e2791442d0f6891
 
 Package: uchardet-dev
 Architecture: i686
