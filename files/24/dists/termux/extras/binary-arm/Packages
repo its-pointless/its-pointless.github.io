@@ -1487,36 +1487,6 @@ SHA512: d5f822802b955b5ed8669ca2b623e46b55a83423698f7bc6d8c29e3e1734b9144d4fcff2
 
 Package: rust-rls-nightly
 Architecture: arm
-Installed-Size: 12088
-Maintainer: @its-pointless
-Version: 1.36.0-1
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.36.0-1)
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.36.0-1_arm.deb
-Size: 4503098
-MD5Sum: 4c1e10d0acdf864e7525557b8934601b
-SHA1: 753f1f4eb6f067f8ce5a3476627ca9600500b442
-SHA256: a665f45cc682c564f4699f5e8395801234824902a98ea2aab2c019132c101880
-SHA512: 0b4d1ec8cb212efb813154404e716b697d99a7b3fd8d371c65f198e355b97f62b82a34c275ec8c9bde3eeded81676a4f5f65f0f2b078db31fd94670e66b483ef
-
-Package: rust-rls-nightly
-Architecture: arm
-Installed-Size: 12088
-Maintainer: @its-pointless
-Version: 1.36.0-2
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.36.0-2)
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.36.0-2_arm.deb
-Size: 4513582
-MD5Sum: bf7309853d50b468e50e1ef4f8c84625
-SHA1: 2000e03d4bffc15c86ae0089bb29ab9e22f06a88
-SHA256: 2f5597a36b4a09d0840ffc87960828b69e7887f92c0c886da29b4c473d3bb07e
-SHA512: 5a1789dfbec4bad6608b137f02cda735e6b7544d1b54e12a94ca909851bed9ae69160d5ac4ae83c07da5ec50248d13a12e844e8e1d2986a34eebdce280a743f5
-
-Package: rust-rls-nightly
-Architecture: arm
 Installed-Size: 12068
 Maintainer: @its-pointless
 Version: 1.37.0
@@ -1529,38 +1499,6 @@ MD5Sum: 115eef4ce017c79f99c237d1564194fe
 SHA1: 93f6fcd0ac062826697c6e0d8ee92353d7790f3d
 SHA256: 73d36191a59d3fe106500a250f8dcb773c34230a694d111364897fbcb1b8ef46
 SHA512: 8820c3db214db1d3425b90b67322030519d76bf951c3af4b63fb66fb33b64c687be8af4f1a057a35162ee7fa201214a51ede6d08823e72b30a62bc9ca0e7855b
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 174012
-Maintainer: @its-pointless
-Version: 1.36.0-1
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Description: rust nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.36.0-1_arm.deb
-Size: 71914002
-MD5Sum: d2a8c22e31ca9f274a78b8fd6963d689
-SHA1: 0af0d3a1406a1c54dd762713beccf3eeeea339f6
-SHA256: 63f7aee43985e4b49489719e033b573c241b324f51ee4aa5a1a6edb0f43074ce
-SHA512: 9e00dc8f903f5c968f80138c94ef373ae80d7b031815de054362f914d0f61256552de60f885565e9ed13d93230731e259566b5c74f1b8908828e696cc08ef43d
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 174620
-Maintainer: @its-pointless
-Version: 1.36.0-2
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Description: rust nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.36.0-2_arm.deb
-Size: 72125448
-MD5Sum: 1eddaa71f9e23fbc60d6b05093fb4f46
-SHA1: 69d7e260a51b4cb41ca2b01aa8600eb45f249edc
-SHA256: bc629febdbfb99f78dd079aac3ffd658ed3f69e99246124ff0153676fa209b58
-SHA512: 1a1d769f4a1e68131f8f23ac3bf28bf73884515c5941c5412c20e402c471f04e7d9d5d2a412313f5500a96ae070aec7557a722301198b75641d67157505cd5bb
 
 Package: rustc-nightly
 Architecture: arm
@@ -1577,36 +1515,6 @@ MD5Sum: bae070d8234448b4acd0de00067c35f7
 SHA1: c8819e05bf6b61e011a57a3dd48a53c85361bc55
 SHA256: 04c9181e20d30d1a36be9f8cdbafbb7bf6815de234bddcb886650eaa505111af
 SHA512: 450a38ae37cbae18292628ca419823132f03ee1030ced199234acb8fa4c5ef556339a93ddfce893e280c9a5bbe6226a52c0416e2f78c7568132dcd04316befe5
-
-Package: rustfmt-nightly
-Architecture: arm
-Installed-Size: 3604
-Maintainer: @its-pointless
-Version: 1.36.0-1
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, rustc-nightly (= 1.36.0-1)
-Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.36.0-1_arm.deb
-Size: 1411134
-MD5Sum: 0ad818908bb2b38794b37bac325c1a9a
-SHA1: c8f56295c0e031398f58719606d821cc290567a1
-SHA256: e69e83de39834481c79a9d9fb5aec5ee43c11dec973c1ad015bb6902364f2f24
-SHA512: 6292e10454b036a8d497abaf1d7128e611df011292f41e6522b967f1adea57bcefec8adede15dfd3e371716536a98145cf3ac78eadf4a9974468f3bd3a97dd23
-
-Package: rustfmt-nightly
-Architecture: arm
-Installed-Size: 3644
-Maintainer: @its-pointless
-Version: 1.36.0-2
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, rustc-nightly (= 1.36.0-2)
-Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.36.0-2_arm.deb
-Size: 1429106
-MD5Sum: 738e408e9587fa7bb8b24d220411bfc6
-SHA1: eebed7b061cd9a2a4bb7245f93c574e7bef1390c
-SHA256: 09680d2cb4077d4b80337a84c4bc287b69d527b0bea97f3a6d36c3f5c36866db
-SHA512: 0067e418e837a6693f5192a791456e3607f2c322504c72a848011e2eb2bb4e56f4af4aa5b4a716c0076c90aa4160c72a9cec63f1170270f515d647481efa1c3b
 
 Package: rustfmt-nightly
 Architecture: arm
@@ -1696,6 +1604,36 @@ MD5Sum: dcbaef0ffd92d415d7f6bc958ff7e24d
 SHA1: 640e7c8b065deaa190652fbe3f80c516e669c492
 SHA256: c3a81d8b8585d252f9d5c4d12f81f318718ebf9271729ba47e3a9457ceb6eeae
 SHA512: 88db86cf6655ac8296872f350979b82a4eb54392b6bbbe733d253fb0213f8c2d36a730ac5ecd4d90fe15e59ac99c0c2bd2d531d7d12cd4878864c6c11181a3f0
+
+Package: vlc-dev
+Architecture: arm
+Installed-Size: 1144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.6
+Homepage: http://get.videolan.org
+Depends: vlc (= 3.0.6)
+Description: Development files for vlc
+Filename: dists/termux/extras/binary-arm/vlc-dev_3.0.6_arm.deb
+Size: 180994
+MD5Sum: 6099ef3a1a5f44c53ba2a11bb5855030
+SHA1: a01b810ed706d3d15843bdca88658c67c54eca14
+SHA256: b430543ccd8b6cd8ca93f34940412cdd7bafb3d0486761456b2dc33c81365aa6
+SHA512: 0a5d2324704035f136ac7bb60269cbb19b06f6d51c49573c16d91ce95368aed188cb46b5fa1b33cc59e42d9fda7e491ff2a971e4079b00c3e0f71a4387079d86
+
+Package: vlc
+Architecture: arm
+Installed-Size: 8748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.6
+Homepage: http://get.videolan.org
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support
+Description: video lan player
+Filename: dists/termux/extras/binary-arm/vlc_3.0.6_arm.deb
+Size: 2108090
+MD5Sum: e1021732f9c5270b69f01e3090837470
+SHA1: d09bde6af009e7f72bdd85d76e22fd635646c26f
+SHA256: 33a9c3cee84cb869f32868675779434bd5154a306fc25b5c9d8f9d48f0d88585
+SHA512: 1d15e2fc3ec6d64bd3fdb4023b2801ca9315567c508dc5896a88b16f5085f9d0b48e5509726a8f77dce1b684ce660f4c0c3861a75f9d28301ef8f48a2a27e61a
 
 Package: xmlada-dev
 Architecture: arm
