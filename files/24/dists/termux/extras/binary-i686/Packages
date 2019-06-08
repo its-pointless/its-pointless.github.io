@@ -1579,31 +1579,31 @@ Package: vlc-dev
 Architecture: i686
 Installed-Size: 1144
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.6
+Version: 3.0.7
 Homepage: http://get.videolan.org
-Depends: vlc (= 3.0.6)
+Depends: vlc (= 3.0.7)
 Description: Development files for vlc
-Filename: dists/termux/extras/binary-i686/vlc-dev_3.0.6_i686.deb
-Size: 180876
-MD5Sum: eac84c3b3b6b07bdf79a7a28229c28d8
-SHA1: 33ce5177b70f7790d9a36b53ca6ccd267a452461
-SHA256: 2e3396024a5efa1238efc104f79dae2ae933e37873a2b1c4aeca26feda364c28
-SHA512: 7fff2319561f6a25807a7c8644dd3db2f20728ebf2ff37598c7705e8cd514a26fb884e7ca6344808dc17ec1a3c6d97e341b332739a27fe31eba24ff0f45e2b18
+Filename: dists/termux/extras/binary-i686/vlc-dev_3.0.7_i686.deb
+Size: 180784
+MD5Sum: 64b01fad19cee34a25cc97261f71d0dc
+SHA1: fe168d7add28d01eb0cc7025affc76bcdfd4ea77
+SHA256: 8e3fe6fa025cbdc23d530b4a0d28ac30228fc64ed974e91d41c8d1e9e2a22c18
+SHA512: f857b519cef6190e1b709c3929e2d4ceb80e81b8201ae4147ab2f989d6203e5eccf37dac311650d4fdf3430716790c0a3398966b6b255830f129d7a77eef2b5a
 
 Package: vlc
 Architecture: i686
-Installed-Size: 10196
+Installed-Size: 10184
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.6
+Version: 3.0.7
 Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api
 Description: video lan player
-Filename: dists/termux/extras/binary-i686/vlc_3.0.6_i686.deb
-Size: 2324376
-MD5Sum: 3fbb0caa461dd2cf02731bbe8bbe8867
-SHA1: ddae452c827848a803aefa7fd87a87fcdfcf5c2c
-SHA256: 04b3a8771921ec71f2e243ed6d8c10ccc21307ee31ad0739aabc8c10225fab3f
-SHA512: e74fbee0321a88961f725a3692b015e7a8db425b3bc4bf3a0dc6a833a73346b56bfd61a7ba70270f2a41d81397b39ed3af761b4b3b1f2f427e473696382ff4a5
+Filename: dists/termux/extras/binary-i686/vlc_3.0.7_i686.deb
+Size: 2325044
+MD5Sum: 38888660aaf154e644c3b728b6493e59
+SHA1: 3f2f32d23dec8fd4dbccfa8dc3ce2a7dabe97aaf
+SHA256: c1a531c8069d259ff57ec9dc19181c30c934599d6e626a642c31d50292451107
+SHA512: b126fe187c2b8b3c423a1bcfb24aa4fd0d120023751031d782f49f1f3374662301ed4c8d78e35be50dfb3881031a0849ed6adbe3317637529f41802f6aa7be06
 
 Package: xmlada-dev
 Architecture: i686

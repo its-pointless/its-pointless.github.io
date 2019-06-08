@@ -1609,31 +1609,31 @@ Package: vlc-dev
 Architecture: arm
 Installed-Size: 1144
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.6
+Version: 3.0.7
 Homepage: http://get.videolan.org
-Depends: vlc (= 3.0.6)
+Depends: vlc (= 3.0.7)
 Description: Development files for vlc
-Filename: dists/termux/extras/binary-arm/vlc-dev_3.0.6_arm.deb
-Size: 180994
-MD5Sum: 6099ef3a1a5f44c53ba2a11bb5855030
-SHA1: a01b810ed706d3d15843bdca88658c67c54eca14
-SHA256: b430543ccd8b6cd8ca93f34940412cdd7bafb3d0486761456b2dc33c81365aa6
-SHA512: 0a5d2324704035f136ac7bb60269cbb19b06f6d51c49573c16d91ce95368aed188cb46b5fa1b33cc59e42d9fda7e491ff2a971e4079b00c3e0f71a4387079d86
+Filename: dists/termux/extras/binary-arm/vlc-dev_3.0.7_arm.deb
+Size: 180702
+MD5Sum: 5199269e129b2ab47d0bf1ff1bacc9f1
+SHA1: 3c4538335b58df57c89f8492d376138cf0d296bf
+SHA256: 33763cba431e94cd7e5957de2b4f4c422e1b92e7cf689f574248ccc35b0458bb
+SHA512: 1ef5af93581e51590991a318da4d7897c3bb418eb7494c33ecda400571b861e84050be695e62462b8cd19b9bd03ae7fb2d8fbc4fcdc668db55c747ff7dcc8611
 
 Package: vlc
 Architecture: arm
-Installed-Size: 8748
+Installed-Size: 8736
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.6
+Version: 3.0.7
 Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api
 Description: video lan player
-Filename: dists/termux/extras/binary-arm/vlc_3.0.6_arm.deb
-Size: 2108090
-MD5Sum: e1021732f9c5270b69f01e3090837470
-SHA1: d09bde6af009e7f72bdd85d76e22fd635646c26f
-SHA256: 33a9c3cee84cb869f32868675779434bd5154a306fc25b5c9d8f9d48f0d88585
-SHA512: 1d15e2fc3ec6d64bd3fdb4023b2801ca9315567c508dc5896a88b16f5085f9d0b48e5509726a8f77dce1b684ce660f4c0c3861a75f9d28301ef8f48a2a27e61a
+Filename: dists/termux/extras/binary-arm/vlc_3.0.7_arm.deb
+Size: 2109282
+MD5Sum: 921f26afa9113bbeb3d33afd2a49497e
+SHA1: 2ecbdd3f88cdcac0be036e9585482cc4429bea9c
+SHA256: 14128a67a3ab861c4313bcc9216e33d174f688998b58fe842e6ae3bae0671b90
+SHA512: 06e33d58b6639be5282f2e8c72406dad0349874722d69e6d33773ef04e00bdbfdcd1b510c9bcba6c00d4fbfbeab09a7d0d9e51c6ee468ad7c8526b43d9abe50f
 
 Package: xmlada-dev
 Architecture: arm

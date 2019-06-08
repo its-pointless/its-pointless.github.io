@@ -1853,31 +1853,31 @@ Package: vlc-dev
 Architecture: aarch64
 Installed-Size: 1144
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.6
+Version: 3.0.7
 Homepage: http://get.videolan.org
-Depends: vlc (= 3.0.6)
+Depends: vlc (= 3.0.7)
 Description: Development files for vlc
-Filename: dists/termux/extras/binary-aarch64/vlc-dev_3.0.6_aarch64.deb
-Size: 180960
-MD5Sum: d703ad52546de733fe00f9b9ef4a44c4
-SHA1: 710120e8385bf953e6369a6ee674cf14fcba4ed2
-SHA256: e27a9905d40cccbfcb29db1924df13f0e6a538c6b64c418f9cc8c0a329a6c489
-SHA512: b057a833f2256690bc54896223c6f61f1e5522a13e5267255ffd0b1c24aab44cfb8d848aa50905dd90e4f933d35c278cdfe84ef211ca0cd8c2c15af61002ccb9
+Filename: dists/termux/extras/binary-aarch64/vlc-dev_3.0.7_aarch64.deb
+Size: 180772
+MD5Sum: 96f931dfefa438d16502da9f85c319b1
+SHA1: 9bf8caa627a615880914c69f9ad063adeed2a1d0
+SHA256: 59a76dbd887844ca5f5748ff87045b70012be3f59d0f47a9bb82173250529aad
+SHA512: e57195cea9e5e32a938ea17d7abda79c0b93b053d67c733b6b4851dbb25958261eb0ec21935ecfadaf6b84a8ad3df9410d6c9d19364f97761b9b2a75e0cff4bb
 
 Package: vlc
 Architecture: aarch64
-Installed-Size: 11436
+Installed-Size: 11476
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.6
+Version: 3.0.7
 Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api
 Description: video lan player
-Filename: dists/termux/extras/binary-aarch64/vlc_3.0.6_aarch64.deb
-Size: 2108760
-MD5Sum: 19feff950aab1a96cd4f40a57459e5fd
-SHA1: 1291f7e345a18262be057f4677b480438e64f77e
-SHA256: 6b843223e09228f82b62f063abceb9edacf139abb76b9e98a8e09bfddf878a98
-SHA512: 0d30864d7a4e05c056377c84ad19a1c4b8deb540e3985904262ab26c67695d62c1c84a45efdf2699eaaa0851a4a45f51b4bd442a0a15686d4a7294124fbff85d
+Filename: dists/termux/extras/binary-aarch64/vlc_3.0.7_aarch64.deb
+Size: 2107876
+MD5Sum: 436fd18ab3a33fdce28647f50e0e9ed7
+SHA1: 7266ee01e9c8d467df09cd597077d6e780a13180
+SHA256: 75558808c4b477f6749fbcb22e299fe79efa3b73a9ce08fedc82cd0918bdc374
+SHA512: 05464fd53fe5ee42e0fcd9414922a1065d2e359d3b479379804f6d8d81ef5ecabc3fc99457ec63dc1927cb8edd4b805e6ba76402762ef651e26a9bcc5f8636b1
 
 Package: wiredtiger-dev
 Architecture: aarch64

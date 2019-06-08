@@ -1596,31 +1596,31 @@ Package: vlc-dev
 Architecture: x86_64
 Installed-Size: 1144
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.6
+Version: 3.0.7
 Homepage: http://get.videolan.org
-Depends: vlc (= 3.0.6)
+Depends: vlc (= 3.0.7)
 Description: Development files for vlc
-Filename: dists/termux/extras/binary-x86_64/vlc-dev_3.0.6_x86_64.deb
-Size: 181000
-MD5Sum: 33264cf74c2d94f1e06a1cab162a16ce
-SHA1: 1195c9e3e3c0d1cf6a7a232a239b37211e88f7f4
-SHA256: 007a859f98b1416e708ab1a1e26c52e017708325ba3c4cdfa2c150f4c01e6963
-SHA512: 4bb45512b4a5f4ce856c114445f92a981ea36089ec8b077d674c3ec13c336621bf1782ee8dc475f0b2fd70642edfe423d6a62f92683d325571a492ee1764d0ca
+Filename: dists/termux/extras/binary-x86_64/vlc-dev_3.0.7_x86_64.deb
+Size: 180706
+MD5Sum: 14d1b19cf398f7f4ad42982323352d25
+SHA1: f1be60ab76fe1330af78365b8fd44e57597c0922
+SHA256: bdf623c4eed7379f1504cda2ec8a93073ce01f89b2691910e87fdce452bd7699
+SHA512: d4c0d0fe199aa1dfd3b942680c7ca31e5dc3dfaec20c77db73013f2d4312eb44a8540c158b3a4e16027bf6743070a78881c7a3a36821adc5d980f450921cf1f0
 
 Package: vlc
 Architecture: x86_64
-Installed-Size: 10996
+Installed-Size: 10984
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.6
+Version: 3.0.7
 Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api
 Description: video lan player
-Filename: dists/termux/extras/binary-x86_64/vlc_3.0.6_x86_64.deb
-Size: 2432398
-MD5Sum: 9bc90cf42e157391f957c4f5e01bdf26
-SHA1: 5f05457e1693b7692a0fa6918ce0a56e4cf16f3e
-SHA256: 5c196ff97df2f0c01b0758dc464b29ed6cdbb27d87ae1aff6670eeb4b6bc931c
-SHA512: 462198b740e48735ab30808491622351e7238454f43da9d1fdfa687d7bfaa2dc4848c99eea5e41e28d7f1beaf2896f351fc18b86293adcc1f27bada3baea7434
+Filename: dists/termux/extras/binary-x86_64/vlc_3.0.7_x86_64.deb
+Size: 2433188
+MD5Sum: a694bc24cc55f8d7b174bd4adf59d39f
+SHA1: 76ea4853267186c0b45b764e3abb30f37fb486a6
+SHA256: 5298c46e799cd4cf8ef8b29569feace3c3ca32c0d4f14d3cc889c648684a3619
+SHA512: 85ef2692845c4e5142abb233a0756ae8512c9b0660c74149c55f6143467e32815cb16d2587c19d7e8dc74704cc85ec9567dd9f7eff0a04bd72fa0be7e88e611a
 
 Package: xmlada-dev
 Architecture: x86_64
