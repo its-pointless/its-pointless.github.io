@@ -330,31 +330,31 @@ Package: guile-2.2-dev
 Architecture: arm
 Installed-Size: 744
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.4-1
+Version: 2.2.4-2
 Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2
+Depends: guile-2.2 (= 2.2.4-2)
 Description: Development files for guile-2.2
-Filename: dists/termux/extras/binary-arm/guile-2.2-dev_2.2.4-1_arm.deb
-Size: 77698
-MD5Sum: 9f752f55b421abbb653ccab8520f445c
-SHA1: 2a2984d32bfad4d28fea4c7c9b6d804ef29863c3
-SHA256: 4daf3de937aae64a675fbf9b166da61e6c17fce3a4133b9158c4028bb33fc66f
-SHA512: e6d91b220106bfa13befcd79aa7fe8f6495d4b0ed0b599eaa981cb478a16d0b42295525f285afe6b0c8a368ad7d8d21cd2dde422054e3f1ef63b2a2f0f7c19d2
+Filename: dists/termux/extras/binary-arm/guile-2.2-dev_2.2.4-2_arm.deb
+Size: 77720
+MD5Sum: 379dde572c61870ddd72730ea4142928
+SHA1: 891f5afd4f60460ea6aa647a00fa8a8de6814428
+SHA256: e525c67ed2fe8560d96ec659c848cc746c102af4e3e1e6096a8b997b1e27cc3e
+SHA512: 7f6f82794fdeb63bd5c4fe159ad1d0dd87b0e5b9d302622fd4fbd4ed4fb153c84d8f4636b2d77bc06fd11f8a99a952b2d869b4134877a73f17f42b19a097e52b
 
 Package: guile-2.2
 Architecture: arm
 Installed-Size: 41400
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.4-1
+Version: 2.2.4-2
 Homepage: http://www.gnu.org/software/guile/
 Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
 Description: GNU extension language and Scheme interpreter
-Filename: dists/termux/extras/binary-arm/guile-2.2_2.2.4-1_arm.deb
-Size: 4925524
-MD5Sum: ef7257b50060fb3fbedc5c23c908dfb4
-SHA1: 3cd152b9a996915a7e9a7af111e79d00dd136031
-SHA256: d3d89ff8b12685a003c10f4b9600baf92759b622953b9e7e63d7fb63beade39c
-SHA512: 997e953c22df0aa0fb1d3dc5ba9e9a2a95ae807e05dd0bd5c806b3a6c3850bbbed5fcceccfd021ccced14418d0045b81aa1ee86b9573b9c9536abd04de0e3d15
+Filename: dists/termux/extras/binary-arm/guile-2.2_2.2.4-2_arm.deb
+Size: 4970056
+MD5Sum: 43251d7076d54937a8c5f75f5218b550
+SHA1: 7b1a2fffb8db7ddec56f3e0a3ee6dc1fdbd7291a
+SHA256: e4db06f5e1d0c1ee0aab449dd88663cbe7089e8438815973875d177254227584
+SHA512: a55e364219e0522574309d3461dd5aad4a90caea64268a687aed70d17015aeb8ed5bbf57612fec081dca1cf5302046d3d8dd998da3fa637ec859225cea25cc9d
 
 Package: julia-llvm
 Architecture: arm

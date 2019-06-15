@@ -330,31 +330,31 @@ Package: guile-2.2-dev
 Architecture: i686
 Installed-Size: 744
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.4-1
+Version: 2.2.4-2
 Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2
+Depends: guile-2.2 (= 2.2.4-2)
 Description: Development files for guile-2.2
-Filename: dists/termux/extras/binary-i686/guile-2.2-dev_2.2.4-1_i686.deb
-Size: 77674
-MD5Sum: f4ec5f965fd75eab347e5ae9a1483344
-SHA1: 4c8c291d76967747b9a7ad2d56e847c342e59103
-SHA256: 80d234f66f682ec4b4508dffee851317e6e58c6d0a6dabac964ecb2968d8ec1a
-SHA512: 0520bde87bf318a19c0f47fd5b91755d9c28ed5103e7d03c213479408a4418177bc2cd13803d20cc57817a1e889c92f289b7f6f994acc106da8625bb26f033e2
+Filename: dists/termux/extras/binary-i686/guile-2.2-dev_2.2.4-2_i686.deb
+Size: 77716
+MD5Sum: d7f86b1d697814a3b4ae5677072f00ad
+SHA1: e60f633a114be9eb3b1bff08fd0ef8789f4377ce
+SHA256: a0ced5232771de18a3dbc395a42bb0354d584fec18514f2f1c776c540c20fc3e
+SHA512: 871b17ebfe6955178c1ddafe96baf994b931ab450e04cf5dea853616992509938a83d4efb0d8f0a864e8543d66d4c469ef6c1d7498692d8419e6f34faa70feb9
 
 Package: guile-2.2
 Architecture: i686
-Installed-Size: 41644
+Installed-Size: 41636
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.4-1
+Version: 2.2.4-2
 Homepage: http://www.gnu.org/software/guile/
 Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
 Description: GNU extension language and Scheme interpreter
-Filename: dists/termux/extras/binary-i686/guile-2.2_2.2.4-1_i686.deb
-Size: 5000416
-MD5Sum: b3141d1f35afb1d76b387a9215ce875c
-SHA1: 52f6627e96466ca1e1f9ded3057b14056607285f
-SHA256: f6510ad336a89ca8e75aba7694fb701f500b3c66e916754092e2f07943376804
-SHA512: 7469536b8ce18195bbb859fa945e4302a768c9452e8da7a1dd4dae6eabe2075270d4a7cc9f55f7c363e10233ac271938fabb2c1a23b1099fbbf06e948fbd4a0e
+Filename: dists/termux/extras/binary-i686/guile-2.2_2.2.4-2_i686.deb
+Size: 5010348
+MD5Sum: 2926d87092fae288443c4d2f632c4414
+SHA1: dce53983a192ffc8489294ddfc9f536621891138
+SHA256: 12cb7953e00fc50a1eddaaf38db7e689df0a0fa6c703e531dd09f9ac20670e7d
+SHA512: a6a1582223c84a41fb7abd3eff550b82083b0b1896768cd4b4806e6637ed9d338ea6ad1e1f29c802cd289d63e224e61e322c3e2de4fd9f2cebe0c1e6f858e75c
 
 Package: julia-llvm
 Architecture: i686

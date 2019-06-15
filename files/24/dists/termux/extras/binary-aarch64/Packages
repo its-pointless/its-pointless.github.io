@@ -433,33 +433,48 @@ SHA512: 08f6da499f7b3a86cc70f7a7c731d7141daaa544c88edaa8f544053c7ebb15812c819995
 
 Package: guile-2.2-dev
 Architecture: aarch64
-Installed-Size: 744
+Installed-Size: 756
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.2.4-1
 Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2
+Depends: guile-2.2 (= 2.2.4-1)
 Description: Development files for guile-2.2
 Filename: dists/termux/extras/binary-aarch64/guile-2.2-dev_2.2.4-1_aarch64.deb
-Size: 77628
-MD5Sum: e19f7e50be920122f9509c3ca1eb0bd2
-SHA1: 2e6dd7ad8f472629ae55aa4104f24ae855285f0d
-SHA256: 753ed5e25c7d6fe917ef273676d4936b61864a6b8d1ace88c2feb957ddab6154
-SHA512: 0790322d625799b042a054244e4bcb9674e31fe77af655002799fa009245fa8000bf32abf5b3ccb74a6e7891b652763570bea31caa1a5013096cce07e2676b0a
+Size: 77662
+MD5Sum: 79433af1ea487cf942ed02f3d273ff70
+SHA1: 20e636f8ad40b4998e61c1cdf63941cc6af2c4f2
+SHA256: 13b10c6d1475ba344d9bf6f9027d75f2f87408aaa8f8069b95600491762aae2e
+SHA512: bdaa4eda622345bdc64fbb250eb2d6c58d51c0d2e5224eaf93e5a8a776de04f3b05c3563c28f0016134b8c8daa4b4ebad36aa24b6c6191d9efd9c307b376f249
+
+Package: guile-2.2-dev
+Architecture: aarch64
+Installed-Size: 756
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.4-2
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2 (= 2.2.4-2)
+Description: Development files for guile-2.2
+Filename: dists/termux/extras/binary-aarch64/guile-2.2-dev_2.2.4-2_aarch64.deb
+Size: 77698
+MD5Sum: ec77d5c8bd96a6fc4f1c2844fa14c398
+SHA1: 115c668457b53cd8d08ab7a128570168fdc1ac69
+SHA256: 055a7ac0e20e5b9beb382b3c69740e7e3571fd376153eb5cc3432772423ba2bf
+SHA512: 094ea0691c9a709071044621acafa9406a2fbf69a6e7eb6b6bbc1e06945025895d0ff93618c76b53cafb34d4f40f06ef81664401838d356f7ca5eb184c23f814
 
 Package: guile-2.2
 Architecture: aarch64
-Installed-Size: 45124
+Installed-Size: 45128
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.4-1
+Version: 2.2.4-2
 Homepage: http://www.gnu.org/software/guile/
 Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
 Description: GNU extension language and Scheme interpreter
-Filename: dists/termux/extras/binary-aarch64/guile-2.2_2.2.4-1_aarch64.deb
-Size: 4901674
-MD5Sum: 1f9698b07e564a8cbf69be536c6bcbea
-SHA1: 5178cbdf484c7b93e37f44f9aa7211b9857c6a48
-SHA256: b8eabf684ce25d30d218992a29335bfa9ccc8a6a96bad12ec7a5c471e4e0f761
-SHA512: 38c61e754a7ece9197f7e0d6c1485d92e5361c07eff500999b9c9d89c056f8194242466bfbc7a55da8f6b6e90f3c599f8a0d7595945a485a516a7476eb8d0b6a
+Filename: dists/termux/extras/binary-aarch64/guile-2.2_2.2.4-2_aarch64.deb
+Size: 4904388
+MD5Sum: b6bccf6a649dc1b85f8e7a62adea0525
+SHA1: 80243fd99d3d9b1c4038104090d21e45ab1d0767
+SHA256: 002b59be800b3596255c915d2de11c71b3fbc0b9b3774a1afcc45e61ef4e43ed
+SHA512: 7ebda32ed1148f0ea5ed75b593b8b3131035efb527d162724228f67983b16f13ff8e25a814e21615b017c1e16f4f26452b07974ca196603a67e4df7ff1f988ee
 
 Package: julia-llvm
 Architecture: aarch64

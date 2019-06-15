@@ -347,29 +347,44 @@ Installed-Size: 744
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.2.4-1
 Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2
+Depends: guile-2.2 (= 2.2.4-1)
 Description: Development files for guile-2.2
 Filename: dists/termux/extras/binary-x86_64/guile-2.2-dev_2.2.4-1_x86_64.deb
-Size: 77698
-MD5Sum: 0cedb78822418619b611aeb1fd9740ab
-SHA1: f0773e24ed3ff4cc4712c7ac40c879a6294649eb
-SHA256: 85c97cda5a42aabe55239e0de1070557c0fd8cb831061839808b15440d00a933
-SHA512: dede83abcd55a62228ecc2ccdc3d699afc50782f085e223aa807891f0f1f406f4a09317fe5ed80942f9aabe559ea4f27cd54ffe10af7e4a154627d054561cafb
+Size: 77704
+MD5Sum: 3a70286941e8095d0f4a53383ea8083c
+SHA1: df2540f73ffd98cfdd919d58a2444877b6360c92
+SHA256: 69b595e44df0379d143589a104114c445810060f7e0c89d9b80b04386b27f94b
+SHA512: 25ca775a7a606ad81fabfb106b88621725d6e6dffdbf40bec747394874ad107c18a67a16c4487688193a2f9b6ad301c15272537268f3c06b543de996038fdf88
+
+Package: guile-2.2-dev
+Architecture: x86_64
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.4-2
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2 (= 2.2.4-2)
+Description: Development files for guile-2.2
+Filename: dists/termux/extras/binary-x86_64/guile-2.2-dev_2.2.4-2_x86_64.deb
+Size: 77696
+MD5Sum: e8026373bc738ee99bf2729b6bdd1e57
+SHA1: dcce6c73861dd270b5888072b099961055abeed7
+SHA256: 69a33eba88825356b5a230c253e68e0912663be2f78de55e38edbb1c0a842874
+SHA512: 227c638622f8c8120c4d973ec4f8015a0f062911e604f5765a5b0535b2a441b5a991aa05398e64d7fed124d501fcaae11dac2a42ab1f195b5f93d834ab90c3ff
 
 Package: guile-2.2
 Architecture: x86_64
-Installed-Size: 45180
+Installed-Size: 45172
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.4-1
+Version: 2.2.4-2
 Homepage: http://www.gnu.org/software/guile/
 Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
 Description: GNU extension language and Scheme interpreter
-Filename: dists/termux/extras/binary-x86_64/guile-2.2_2.2.4-1_x86_64.deb
-Size: 4985694
-MD5Sum: a2128269a8fa4c473cfa761a1a26e1de
-SHA1: 2e771d83325d310f303d2461a2ba4186d80c94f3
-SHA256: 130104d5ecb791cbe9724f1704f34e012eb62858539dec18729f201c6bfca410
-SHA512: 435f7ecd90d9544e90a9b85f11114042287b7cd9f09263ee67fe7b40cb9349ccd58d562b9e00c0178e80855c2573eb89dc17902b26e197ec6611dd145311ee5b
+Filename: dists/termux/extras/binary-x86_64/guile-2.2_2.2.4-2_x86_64.deb
+Size: 4986988
+MD5Sum: 94a5deca8fbde9835ee989bf0e4154f7
+SHA1: 68804abd6670bf43c36d8abc358cd3d02c6af4f5
+SHA256: f8cd153bd54453e0184c0e3915e6eaaf4c195e0dc81946f1ea27ed139a1b197c
+SHA512: a7f1a1578e15b17b2ec9cd104c66435f6d3daf5eafe39617527900eb059496f7f1509b668a877320693b940a9d62b3b957a94cefa9d9ccaecf94a527de86189c
 
 Package: julia-llvm
 Architecture: x86_64
