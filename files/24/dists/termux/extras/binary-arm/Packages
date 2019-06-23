@@ -311,6 +311,21 @@ SHA1: 818299f4436c9a0007f60b36ad9be59622c33c71
 SHA256: a54a90d928011829cccdc371f744484cb0ea3c39dc2997b432441cbd616a9e7a
 SHA512: 9a97505ebd5cfe2fb5ef34b8b83c7a60e126482a1ac2dc77774c1ec1110147a88f99499fba497fbfbe966d3d4ab06f5116438ae173ebd843aef80d4294e36624
 
+Package: gprbuild
+Architecture: arm
+Installed-Size: 23464
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20190517
+Homepage: https://github.com/AdaCore/gprbuild
+Depends: libandroid-support, xmlada, gnat-9
+Description: multi-language extensible build tool (gnat)
+Filename: dists/termux/extras/binary-arm/gprbuild_20190517_arm.deb
+Size: 4100800
+MD5Sum: 6d1b078bb28c88603d5928fc2f3e3c49
+SHA1: d05abaf5d13371b5fe56398b105a5cbe5ee298bb
+SHA256: a87bec68d3c04d685acb741e549926ca55a17e8ef8c44b4dfeef0f9552cccbbd
+SHA512: c7cc70fceb69c2069c406407299b127823cb3baaef258405efbf3f9c543afb3ad274958054a807b7fb04009de05974bd3752b891763318c25c7661518ea08cae
+
 Package: groff
 Architecture: arm
 Installed-Size: 10328
@@ -341,6 +356,21 @@ SHA1: 891f5afd4f60460ea6aa647a00fa8a8de6814428
 SHA256: e525c67ed2fe8560d96ec659c848cc746c102af4e3e1e6096a8b997b1e27cc3e
 SHA512: 7f6f82794fdeb63bd5c4fe159ad1d0dd87b0e5b9d302622fd4fbd4ed4fb153c84d8f4636b2d77bc06fd11f8a99a952b2d869b4134877a73f17f42b19a097e52b
 
+Package: guile-2.2-dev
+Architecture: arm
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.5
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2 (= 2.2.5)
+Description: Development files for guile-2.2
+Filename: dists/termux/extras/binary-arm/guile-2.2-dev_2.2.5_arm.deb
+Size: 77794
+MD5Sum: ca5c3b8aab8c502c523d7e878d481842
+SHA1: 516092034eacedafb5a14b53b9ee8c14c3fa6079
+SHA256: 20961d9bb756c75eb824336f16e36c1870b12a94dc4f4f3d76f47ae7a75e2a52
+SHA512: 2528c99d1266baa64aff86e20f8e17fcd0f398f59e35780a6fd4f2c9eeed08e5d48edc5ae5f32751df0f501a73f1fc19159b23622f453b09e3d6d4a945f42c03
+
 Package: guile-2.2
 Architecture: arm
 Installed-Size: 41400
@@ -355,6 +385,21 @@ MD5Sum: 43251d7076d54937a8c5f75f5218b550
 SHA1: 7b1a2fffb8db7ddec56f3e0a3ee6dc1fdbd7291a
 SHA256: e4db06f5e1d0c1ee0aab449dd88663cbe7089e8438815973875d177254227584
 SHA512: a55e364219e0522574309d3461dd5aad4a90caea64268a687aed70d17015aeb8ed5bbf57612fec081dca1cf5302046d3d8dd998da3fa637ec859225cea25cc9d
+
+Package: guile-2.2
+Architecture: arm
+Installed-Size: 41408
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.5
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
+Description: GNU extension language and Scheme interpreter
+Filename: dists/termux/extras/binary-arm/guile-2.2_2.2.5_arm.deb
+Size: 4974462
+MD5Sum: 1f5e6912a7f7a6081b6be1207a08ccc5
+SHA1: a7b50bfe712031f7f4a215f1b9767fc2a2ee60e6
+SHA256: 442428cb448df89547676cd5554a22726618fb6d2d44aca12acf2a2bfb6a590c
+SHA512: f85104fe87bdecc21f8483a21eb7383e8722078d7084ec5d74216e1980ecf5d44d4cc5f99de37354ab9e63504a084a3076e86702e947eb3108c61ebfa7262c05
 
 Package: julia-llvm
 Architecture: arm
@@ -1650,6 +1695,21 @@ SHA1: 142e962011150b2945632117965d396909c61460
 SHA256: 86ac3bf20e7aaba6f6f113de00087b12298700b85419ccc14fde5b6dc6a58c25
 SHA512: a27de23445e63ab705ba84c0f5e51a2dc7cb86ed5fcfed89fd1d5b3fef9c1e63d9fcd1552f9ed531e04f26b233ce4be2d2af3530803feb986111ced272471a21
 
+Package: xmlada-dev
+Architecture: arm
+Installed-Size: 14344
+Maintainer: Fredrik Fornwall @fornwall
+Version: 19.2
+Homepage: https://www.adacore.com/
+Depends: xmlada (= 19.2)
+Description: Development files for xmlada
+Filename: dists/termux/extras/binary-arm/xmlada-dev_19.2_arm.deb
+Size: 352570
+MD5Sum: 40a16bf7c381fa5d2ebbabacc55f7e6d
+SHA1: ef90c3d89d55290b2e95c6d23e4e11da934462a3
+SHA256: ded8d9b748045dc687627e1e4e64cd912857b1c66ad9081d20a7a411430968a7
+SHA512: a3ee50139b6a928b929c8cb01ed864dece03515dd42a1a1b35e9dd146fa9447ec49dcb3161e338fbad236eff4181aebc204eebc49f2b0f0aa8578d630fa71b1d
+
 Package: xmlada
 Architecture: arm
 Installed-Size: 14048
@@ -1664,4 +1724,19 @@ MD5Sum: 0101493596c9b2faf006c0e9a53de82d
 SHA1: e97b842b154e50242b0f4ff2eed2e2b193682634
 SHA256: 6e8178a1a2f5920bb7d48a6a416543581b8c3e2263b89024e2d5097604c969dc
 SHA512: c02d08626f785c730caa3abd26792b065831ec0eb2b76a95cb199c93e075a4be7874707edfcc2d6741ab5a2387e41e6fd92705b9a3da14cd264c872c3a48c1da
+
+Package: xmlada
+Architecture: arm
+Installed-Size: 26652
+Maintainer: Fredrik Fornwall @fornwall
+Version: 19.2
+Homepage: https://www.adacore.com/
+Depends: libandroid-support, libgnat-9
+Description: XML/Ada, a full XML suite for Ada programmers
+Filename: dists/termux/extras/binary-arm/xmlada_19.2_arm.deb
+Size: 2400870
+MD5Sum: 3019d2ee0b465f9055f1866e1c22bb63
+SHA1: 58e9dfbd5c2b0c13bbbfe45be4b7bb93db82b725
+SHA256: 7be368456efd4b1bcd71f6a7630d2ae7800c8076652a89d8a7ccc03ba2969f16
+SHA512: 7caca2ae5804b8f1d7ae178a82aadf119ee64446601a48c3f22f991f49b032987fa5ee0d77bfe62e3202d194549a8018f7caee2eb11eb463ece4bdce93a552a4
 
