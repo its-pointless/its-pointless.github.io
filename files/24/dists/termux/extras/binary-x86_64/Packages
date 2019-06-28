@@ -117,6 +117,22 @@ SHA1: 1a080e621a0d87a380425a2fa0539837f6efab04
 SHA256: 8e97fc345b41e10c235c56cda10c1c81b6f3553e78ea29ca2e26c1d9d60e3940
 SHA512: 5beecf5bb95a13dd43457373a3d7b93b660cc377ec626df4840ad33e73e3e58eee1829988b640ee3a8a48b5395366da27a424961eea0b3ad3b02787a80ec0e8e
 
+Package: ecl
+Architecture: x86_64
+Installed-Size: 7404
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3-2
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libgc, libandroid-support
+Replaces: ecl-ext
+Description: Embeddable Common-Lisp
+Filename: dists/termux/extras/binary-x86_64/ecl_16.1.3-2_x86_64.deb
+Size: 1715394
+MD5Sum: efdffb52430639568ce86dd5dc88befa
+SHA1: 70bb64fb1959d4706c5c4845b09a576e00d6be52
+SHA256: b99bd538803771a9bede6ed23c8280de6653ea6b8a73aaeca69c268c89be3941
+SHA512: e378ddaa4606b476efd8e1ac3936ebb5ea013545d9518a9d0ebdc5a0bda1d35cfed2a6be5760ac4a0cbdbfa40e92624a1a39101a71274e61fdf7d916e0338e3a
+
 Package: efte
 Architecture: x86_64
 Installed-Size: 1376
@@ -1172,6 +1188,21 @@ MD5Sum: 8f75f0e31f6227e81ffd0db9a67b7f1c
 SHA1: b8e557a35ae059929de32e2be66d01f00f8d2580
 SHA256: 4304bb56cdef49afea0b6a55b388259694961a8ef3f38e45fe49c379d0062405
 SHA512: 33444568116b7e31d361145312c555775c59349466eb17f0a5273322c414804b65e68a73b5a503aa90f1ee65ab938aa7aef5890a776c1a5e1b21fe7f7f0b6e7e
+
+Package: pari-gp
+Architecture: x86_64
+Installed-Size: 9892
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.11.0
+Homepage: https://pari.math.u-bordeaux.fr
+Depends: readline, libgmp
+Description: PARI/GP Computer Algebra
+Filename: dists/termux/extras/binary-x86_64/pari-gp_2.11.0_x86_64.deb
+Size: 2603912
+MD5Sum: 961026d887d636f6835107f5b61221bb
+SHA1: 1d70986e68af84a8727293a1d021cd0a4a0ca941
+SHA256: 2fd4200ed11431e9d83ddf03eb1a626f98064c8c04ec3ee2711d5178aa897164
+SHA512: f2b137a782b44ecf663a15dc536c52520ac35048ca8857fb7a5f0c4d131a185bec295f206989a22b89826a1fc13cda0355b5e543dc7f135f3dace04827a2c17a
 
 Package: pcrecpp-dev
 Architecture: x86_64
