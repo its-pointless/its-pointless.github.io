@@ -387,6 +387,21 @@ SHA1: 9da118a4b9d2e35a305b2d55420ef40d8d0ce8bf
 SHA256: 6154c367dcee7efda6a72e8b7dc038f8c8f5d41d01bdd3a0df296bf946f021cb
 SHA512: fa9cc6604100cdee63688931c19430f2a472e8c5d8edad99f7c0fbfe5a844f773693bea0e03478aa22d5769a89445eaad0287d527d7bf627e93be8ece15b9b87
 
+Package: guile-2.2-dev
+Architecture: i686
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.6-1
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2 (= 2.2.6-1)
+Description: Development files for guile-2.2
+Filename: dists/termux/extras/binary-i686/guile-2.2-dev_2.2.6-1_i686.deb
+Size: 77776
+MD5Sum: 838984dea9f3bc95b28c7148a8ae57e4
+SHA1: 6a1763867a5bcc4ca60d0aafa634dd1bb1a51380
+SHA256: ef6e98f952085e2fba84261555ad6bcb51d9341f8a7b47b45e0054716ed5303c
+SHA512: 4631b655dbd2615764855f170fc4b79fe9d58eeef4d1648eb1aa5547c7669bc019efde657c64e551abe874218cb1f3e99c7a1e38b091d436a5dc974b837a2f48
+
 Package: guile-2.2
 Architecture: i686
 Installed-Size: 41636
@@ -416,6 +431,21 @@ MD5Sum: ffa62066b99ea9826d97220d45deaefa
 SHA1: 18893a3db09ee253a0605f78002f541af619fc94
 SHA256: 587f5614a2a6c9ee4cfd5eb9a968a2ba3d5d6e0d18193b54d53a51e03b9255ff
 SHA512: 24c38660efda67357587953825944e79f73905e8f053d1e423aebde6349c1114d919555c502b371ff58df5a7f0a0822064738462751d884261b37e1fdfc0416d
+
+Package: guile-2.2
+Architecture: i686
+Installed-Size: 41640
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.6-1
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
+Description: GNU extension language and Scheme interpreter
+Filename: dists/termux/extras/binary-i686/guile-2.2_2.2.6-1_i686.deb
+Size: 5015536
+MD5Sum: ce76e9c14b9618e9309d55cab1a08694
+SHA1: 2d9fcdaebeaa626a2ae80b5ca2f1e6623948daa9
+SHA256: 3299fa41c9c6dc57bc454149b3c2cca99c9017ba872c394bf280d55703eeb61f
+SHA512: 911cadeac6a9cf786ba69b526c4b360790a62592cf362d69b1a9c910073f64a5a528119e6da40b5b7a3b72136d666b5be8b54e15f0558c729364db90846c33c9
 
 Package: julia-llvm
 Architecture: i686

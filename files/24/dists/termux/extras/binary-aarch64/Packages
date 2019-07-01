@@ -507,6 +507,21 @@ SHA1: 637e0713b0585affce4f36ddb94cd3761a54972e
 SHA256: e17ca07fabee221f18504247953be00e1dbf6d53f203119296f20c07a31107d1
 SHA512: a656cba84f6ce44537ba56b97a37a3c3f0c573f1c9f4246e8899b93092ae0ef1a853a777fb7cbb75ae9a0f4c0f0ae08a412de330e7bf3edc8822598b6e1358ed
 
+Package: guile-2.2-dev
+Architecture: aarch64
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.6-1
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2 (= 2.2.6-1)
+Description: Development files for guile-2.2
+Filename: dists/termux/extras/binary-aarch64/guile-2.2-dev_2.2.6-1_aarch64.deb
+Size: 77768
+MD5Sum: 11b13f9a14373a0f891446c5f87e4646
+SHA1: 6b72ddab9784bcab089f60bf2d67b44f99810a62
+SHA256: ae888e99ded9f5907eb7e1ad6e9ebed79b5e3081bf75e2ac38ff2b377848c198
+SHA512: a20e6ad275601af669732e05c42c85f50d9b774760d4abca1726f8bfc9f46af22e60f2c8713243501120a510daaecbdb9e64f2b0d9d1ca6f672f96f763322e30
+
 Package: guile-2.2
 Architecture: aarch64
 Installed-Size: 45128
@@ -536,6 +551,21 @@ MD5Sum: 4c2f99ccf1584d0ca7027f9a01ef8f89
 SHA1: a2afbb0682eeb3c2dd1c84e548a773d730939254
 SHA256: 9b7e1b585df7c6f2326b8a3a470e90ab66e47ea2eb8d6c6d7a310aac9c5c94b9
 SHA512: 7105f627c35d37ef5aad1361061976f848b88573c898de466374a445315618680d0cd42905bd11fe644d7317a3c5ea2b62634dcd44b7b77f5fbfaf4aa4b94bd0
+
+Package: guile-2.2
+Architecture: aarch64
+Installed-Size: 45128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.6-1
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
+Description: GNU extension language and Scheme interpreter
+Filename: dists/termux/extras/binary-aarch64/guile-2.2_2.2.6-1_aarch64.deb
+Size: 4914424
+MD5Sum: 6c1d7846f7e383d3c52b3f7a2239674b
+SHA1: 868b8a1e2cb74b1f8df64b8bd8826df0996ad661
+SHA256: 6536e1bf52d90172005cceb371d9b60e256e7458f6e2a665b0f564078b2b1490
+SHA512: 19b096693072265071716f90bf0bdc252d1e6c6764131e6be67e5998ab34982a06bc4cf245b19bdd5cbfe1acdeb24355379f9b5c892ed4a7216ea1c2ecf8f4fd
 
 Package: julia-llvm
 Architecture: aarch64

@@ -417,6 +417,21 @@ SHA1: 04d806d696323743b5f18cdf64bbc8e026eb283b
 SHA256: 0c298c83459a054b2d67c68cf5ca991e734a8561cbf5dd66a7e49d1538588e03
 SHA512: 517580062e8d57b42fec215e671f19b28be26f8ce69261518df981b43312c115cd42220354bab2be1da95f696202f77229920ee4634eb1e883d08395b7a71acf
 
+Package: guile-2.2-dev
+Architecture: x86_64
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.6-1
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile-2.2 (= 2.2.6-1)
+Description: Development files for guile-2.2
+Filename: dists/termux/extras/binary-x86_64/guile-2.2-dev_2.2.6-1_x86_64.deb
+Size: 77798
+MD5Sum: 9ab58bba7ac390cd2b1843e9d1fe796b
+SHA1: 4a6500c6243eee09c823977689a1f2bbf9474c43
+SHA256: a5a3a12eb6ffe2c8e86a920ac0889166cd3239b5086c608362a6d062dfdbc650
+SHA512: 3a133a9af50d21dae61d14f6abc5d502a91937266bacb2f2eee5476ab02e42c87cfb13f77407ec8144ce1ef38cf4b6ade502cf2eb67847a7c8db63e8379faddf
+
 Package: guile-2.2
 Architecture: x86_64
 Installed-Size: 45172
@@ -446,6 +461,21 @@ MD5Sum: 93ffce0f255ba2e01da6d02969d99fb3
 SHA1: de1cc8ac2399954e4fff0ab596d327e8c1c7be7c
 SHA256: 510b2e943bb22a25a0bb093119e81ed01b1c9edbd87750f22aed36ab7c0a298b
 SHA512: c1d1ca2642f9fbf74d155a7f605fc4f950745e8fe1fd47a7163c1f3b54a29cef77e1a995889f2fc64e5fbaf1dcb8e1bf295084ce33201bd62ce7e522913d42b3
+
+Package: guile-2.2
+Architecture: x86_64
+Installed-Size: 45184
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.6-1
+Homepage: http://www.gnu.org/software/guile/
+Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
+Description: GNU extension language and Scheme interpreter
+Filename: dists/termux/extras/binary-x86_64/guile-2.2_2.2.6-1_x86_64.deb
+Size: 5022438
+MD5Sum: 0f5a7b3c23978c46db77e0904f92f4dc
+SHA1: 65c4317f8fdc380af07e5c03b4de476ddc7d8bc7
+SHA256: 0e2ceb2608b7ac39a4b02158d4a97eb7392e8b4e87ea766ca197df3a846b718d
+SHA512: 30beab42d684c81f441c49a191e29b4a523811a48c2beab049557bdaea27a81df50ce722e9b372cbb53ccb204fc25902b80052e1789813f6401a23d1f8f554b8
 
 Package: julia-llvm
 Architecture: x86_64
