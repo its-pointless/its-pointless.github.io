@@ -1456,6 +1456,22 @@ SHA1: 9ba9b5daf13d2fe8e930e7661ffad71f4a3a41b8
 SHA256: 9671d2a3d353520deffbdbb8916d8bf78846a505310378eb26fb7713f06a1585
 SHA512: 6f4636b2253947af52946e8f5eb5619d90dce378c95525f827d938dfe68748b9889c20e4b31e3beea591dbf601eb4ccf52c6919611ace3fcc6c8cba017b320b8
 
+Package: r-base
+Architecture: i686
+Installed-Size: 67100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.1
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-i686/r-base_3.6.1_i686.deb
+Size: 40331860
+MD5Sum: eeaca4e65dd8c64fcc089ed57cc762c8
+SHA1: a1b3f83d5dc62dbff47c134c6f63c680bdeb6574
+SHA256: 8cb62bf0bddf98bf25bc5f70c66a3bb8a3a52800bb89967c71eafd5dd522dc5f
+SHA512: 1d72f72aece74cdcc965bdf22a1f92304c3ab79990bce3c6e51af966cbf0f4d5c724bfa5bf038e229ee0f916679135730700118b5d21dcf5e7fb27788372012c
+
 Package: r-cran-rcpp
 Architecture: i686
 Installed-Size: 11464
@@ -1486,6 +1502,21 @@ SHA1: b735fb7956abee017f972de852980d6d2717be76
 SHA256: 531657ae17c8e4f055ca2b788f12d2acb5c03fe3a26ffd4a1d84a8e4419d3de1
 SHA512: 118599ec9923e75906de38a7623a10c095a412a9b093e81a33212d209e65e553497ddab104ec54cfca22bf68dd427b6a2452bb7795c86f6a0c76ee520161cc9c
 
+Package: r-cran-rcpp
+Architecture: i686
+Installed-Size: 11888
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1-4
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-i686/r-cran-rcpp_1.0.1-4_i686.deb
+Size: 3353048
+MD5Sum: 67f09f29ac3a5363e8cbd636caa654aa
+SHA1: 4fb724d6d0da37f86a5f36910740d061cf67a5d9
+SHA256: d28d7404fb2aa73fa6dbbb4e782e0d421cd05a9b213f6d8127250bc9fbb23ff0
+SHA512: 98dbbdb5cba8901837cb8d523197b526f3f49288629aad0cb39778144372cf8375bb28e313713f6c221b26dbf9f221b826b378b2dd69cc3dec2955b4bd3c2513
+
 Package: r-cran-rquantlib
 Architecture: i686
 Installed-Size: 3648
@@ -1500,6 +1531,21 @@ MD5Sum: 3d06e264fb6cdaa6e982b57ef7e0e436
 SHA1: aecbe14992cdfeb8dbabf9f0e48a72e81ddb12e7
 SHA256: 21a899e28aa05d725a2cb41856cae1799fce26515ddcfeda4eb172e6d45e8fa0
 SHA512: 7e7b3084a9a4931f03b6d180e500be6d19267ac394da33350bdda37896958aae074ac5530db97e1853f4c63f6bc7329ab5f421d1b051f8570fc9339ada5956f7
+
+Package: r-cran-rquantlib
+Architecture: i686
+Installed-Size: 6164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.9
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-i686/r-cran-rquantlib_0.4.9_i686.deb
+Size: 1209910
+MD5Sum: b3aee30519dfaa13b3ab026707668930
+SHA1: 98f0ae685d718db5f5dbfc89ee0d627437f92f97
+SHA256: d9a71d6eeddc59e0b334285dfe99464d82898af611bd0781c27446fd6e8713f3
+SHA512: fc42821de49212f3f428114c93296d96f7291f2b30428bc4661387241202bef0167d13ba67705da4c1c083f0bdf8fe0c4cc37e277752108b1f0ae58712d0d071
 
 Package: r-cran-stringi
 Architecture: i686
@@ -1516,6 +1562,21 @@ SHA1: ede92704993e6685d344772a39365d50d3123c5f
 SHA256: 15e6845f2278157dd49c0e3e797d122b0835b185aa91712393a28d5e5c653cfd
 SHA512: 4b5bef1ce7375a350fd247bf55254a3ee93192c6404d7af6d8a13c6402d81402f878768b88f62686bd9e856207e273ed2531be12dadc45e0a766a735422f1a5e
 
+Package: r-cran-stringi
+Architecture: i686
+Installed-Size: 1696
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.3-4
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.4.3-4_i686.deb
+Size: 756536
+MD5Sum: f13538b5cc9eee011189db569282048d
+SHA1: 50e78a85625586a19dad9d69dcf58a918834b268
+SHA256: 94ac04a9bb52f25ca3d21be4c4d1c75eca8ac89a2cdaa70cce0df27d53022a8b
+SHA512: 4cce1e92498b1c7481a26a6fc006ae8ad10a17e5ecc7fd40e1f61223ad7e334048b8942acb929581a304ef4a51967de5663d4cc72ff30d2158310071de5c3188
+
 Package: r-cran-tidyverse
 Architecture: i686
 Installed-Size: 220684
@@ -1531,6 +1592,21 @@ SHA1: 534607a4b67b979e61ce23889b9ae2e35f8647a9
 SHA256: 03abb5d911a889325070d8f0234f2d3fb1a0ec9477a9a7ddb9fd6d9af95e6b1c
 SHA512: 21ac0c7162b316ad238199052b37c0cadda05052c92365c488659e4c0dcbe2b71dd416fc072d49f06f2d40f2673729dfa8be0a5bd28fb8edb459f441d09ad061
 
+Package: r-cran-tidyverse
+Architecture: i686
+Installed-Size: 229752
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1-4
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Description: tidyverse
+Filename: dists/termux/extras/binary-i686/r-cran-tidyverse_1.2.1-4_i686.deb
+Size: 38790124
+MD5Sum: a48b31f9f3d2c33e8531f377c8abcc35
+SHA1: 2dbf525f61ad46f8547d9fd837891edd938bed45
+SHA256: fa88dacbc03eb47b20ac760035e1e635ded7e9a07137e67401c771b236be284a
+SHA512: 3463ddee0e4050279f4f8a3fc088ec2eeed073cda5147a75d97d92d016f72b41d1647d6f84fe95ab392a39e12fdd21767b9322e2e9d84a888d0d80306397894c
+
 Package: r-cran-zoo
 Architecture: i686
 Installed-Size: 1448
@@ -1545,6 +1621,21 @@ MD5Sum: 4a6338da41826ae235966e050de0cdfa
 SHA1: 251fe52155f83dec9d5945ac533cbb1d6cb0549c
 SHA256: 279e0543a2023cb1b76c86faa1489545fa4cc671868dd267e88a7ea30a6c3dde
 SHA512: 6f7fe9cc9eb4f3f6bd3a6561f7b554bf91bfbd20b2eda54d52d603ee3a66952a2ffa20933df3defcc2e74c2b2253896b668dc50fdf957f37d4d2709d891ea129
+
+Package: r-cran-zoo
+Architecture: i686
+Installed-Size: 1452
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-6-0
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-i686/r-cran-zoo_1.8-6-0_i686.deb
+Size: 1058534
+MD5Sum: 82fab21195236675324dfc940861e0f1
+SHA1: ca28b7274e64691dceff7f7a6d603627cf217157
+SHA256: 1b4fc08a5c111d5e2846413d9531c7d1b0a73ed178454a340a4903accd0c12b8
+SHA512: b85428ca624dfaf97a07124b3e43e3aad621aa65a4e17f317cab42190ec87f00a690079dd912cff32bca0dcf3419f30f5271809c9f0468b5713947ca7691f509
 
 Package: rakudo
 Architecture: i686

@@ -1809,6 +1809,21 @@ SHA512: 27d09ea3380344fd534c3abf3c7e39ae39d51bb32c3cffd8e0cea0618e58ddea5ec9f9b5
 
 Package: octave-dev
 Architecture: arm
+Installed-Size: 5740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-2
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Description: Development files for octave
+Filename: dists/termux/extras/binary-arm/octave-dev_5.1.0-2_arm.deb
+Size: 369768
+MD5Sum: 3d2baea3e43b6a8c104e32f492866c02
+SHA1: 615e179f88969bfd51b247f0e180b98a2dc818de
+SHA256: bb8aa337e95803aa766b9dc266bba3a47f30c2d4fbba3aef645085e5f1681bc8
+SHA512: d5f6989f95ec73b29672f6160158b9391ec82aac034d0280d783e8e409c059da264fbc93f42fc219ab448a293c4dca8b04857de06859ed10e3b1133f7b85d19c
+
+Package: octave-dev
+Architecture: arm
 Installed-Size: 5752
 Maintainer: Fredrik Fornwall @fornwall
 Version: 5.1.0
@@ -1836,6 +1851,21 @@ MD5Sum: 16fd7d9d7a9b62374be74fe395bdd552
 SHA1: 1ebdaa850b49d70cba54a6b91126f5ffaa3990f6
 SHA256: 8b210198f9425c90941299d6a5e9b13d22da588f7cd064abdac377d85d66a2f2
 SHA512: 791bf5591612069a9d57769a88c5f381da8fb5d05724994d8c97c7a9e4fc0ce97646d18688e88d9fa062385e0fc78f68499c1761c8ed09383ee2d395945ff24f
+
+Package: octave
+Architecture: arm
+Installed-Size: 47880
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-2
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-arm/octave_5.1.0-2_arm.deb
+Size: 11023386
+MD5Sum: 9089e1073b9b8ecb7357386a21f67a61
+SHA1: d92ac28387ba728e17c64d1fbe6404ae0a9939d5
+SHA256: 82e2df4441a3b347aa8a557807308050d9faa1a2175e9e64f76c1dbb31bbc435
+SHA512: f7e425dde247727472a5844c69dc390bb2138f0d109509785c93203423c4f727a20a689c369cf7755345b85aa1f9e404c0ed70c467f9658c8b643a3f90820c96
 
 Package: octave
 Architecture: arm
@@ -2211,6 +2241,21 @@ SHA1: 209bc22a730d35bf4de7c6819b0f6103918b4882
 SHA256: 144c4f7b91aee7991a6afebab95012390e617ecf7334055ca6d6e26fec5ecb15
 SHA512: 32d95be04c1b69566c740188ff3afc605bc9a4e91f97c03f902d13a8ca5f6663b0085b7fd8509d8b0f03dbe286354067efa8199129b0f591a5338de528b02414
 
+Package: qhull-dev
+Architecture: arm
+Installed-Size: 948
+Maintainer: @its-pointless
+Version: 7.3.2
+Homepage: https://www.qhull.org
+Depends: qhull
+Description: Development files for qhull
+Filename: dists/termux/extras/binary-arm/qhull-dev_7.3.2_arm.deb
+Size: 92348
+MD5Sum: 30e6fe60bf818b94cbe2514592763912
+SHA1: 86e54213ae2ffb8acc1d57fe176585119204f423
+SHA256: fa8d1304343d69572ec81d6046d5a626169ca8cc2f38ef857309b71b5bac5e0b
+SHA512: 378d9d01bedce43db044d9058ccffeb5f43f138604a52d32681c17aabee2f4e4f1cbc9fb4caa75b2ddba5ab08bcb38d3158570bcf071b2c5c609720640b02060
+
 Package: qhull
 Architecture: arm
 Installed-Size: 3272
@@ -2224,6 +2269,20 @@ MD5Sum: d41704da995bc11a35484600c6eaa7c5
 SHA1: 28653ccdbb7fabe589bd7e3950a76e0cced2f639
 SHA256: 99bd257f1cf158b81507762fdc81c362537855360fe4ef86c6a0e0103e2a29db
 SHA512: e6f4b8f9917ac591cb2e05ea41034acea24034544a901f7e4085c186d8a3796be6d7ef96b67fd6e4a42f0ad0c15302fd1022ddc8d64f9b808673a10eaa8aa4dd
+
+Package: qhull
+Architecture: arm
+Installed-Size: 4884
+Maintainer: @its-pointless
+Version: 7.3.2
+Homepage: https://www.qhull.org
+Description: calculate convex hulls and related structures
+Filename: dists/termux/extras/binary-arm/qhull_7.3.2_arm.deb
+Size: 739824
+MD5Sum: d307a99ec6e77350d2521346b6152a11
+SHA1: 519af625b9eae73d1f1ba8ad1e9707ab5df52e9f
+SHA256: c9f80914ac120d8f23ddb32a74fdbc8e4082c7e5c0f4fb1123b2c9b0673f9fd1
+SHA512: 057c9dc5daef0eab0a1f1962174b1f9fe34372dcc068cff94a63c96970345b761f968c5d09484ff8894a4bac3b4034e44fcd26fffbda103ab5867000efa7b196
 
 Package: qrupdate
 Architecture: arm

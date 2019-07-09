@@ -1488,6 +1488,22 @@ SHA1: 73f576375ecf2340604cf2789aea588292d2c0b6
 SHA256: a638b7b9f1a79b737388bc51f7d719620c203004c22a2fac9b4bf32b0e349a9e
 SHA512: 51fb775b77e27f6fba2a646d1462ffea575ce74b1f0e4c16d83dd129bed98fddecdc6bc7ee69adda35b10840a52149a803c855b31cf75e8c5be35f42d30d8705
 
+Package: r-base
+Architecture: x86_64
+Installed-Size: 66088
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.1
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-x86_64/r-base_3.6.1_x86_64.deb
+Size: 41018530
+MD5Sum: a4c1f8bc59300aa94eec21e909ba15ab
+SHA1: c0f1e6e6118b0f50f83c4f10ca4ac63d1e78693a
+SHA256: ddd754ab13a8e2cb4d0d388933685aacea83952f48a598ffed773e5555be4429
+SHA512: 0ac374bf20ddc8a2bb5ba5c45aaea26f124158df9c40091e379d6cbfb1e6c09c2db3936aafd6cad03e307830064e0f0887cc58321c634cd3a4cec55e40728498
+
 Package: r-cran-rcpp
 Architecture: x86_64
 Installed-Size: 11460
@@ -1518,6 +1534,21 @@ SHA1: 2671e20baa2e7ce72f50383b335da93296b96888
 SHA256: 6f94ec6e321c37e2b61201f377086848e2a3b84ec6ceddd2c15dc35a6bb38fb0
 SHA512: b314196fa4f4d69258a7f550ae8c77adee1de5f9462c28321a8eddc3d4312022e055170ad7fe28cd34f407c3d300348552c8f8e29db88487d17f4b773f4985ab
 
+Package: r-cran-rcpp
+Architecture: x86_64
+Installed-Size: 11460
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.1-4
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_1.0.1-4_x86_64.deb
+Size: 3312974
+MD5Sum: 2687fb119f6f1c73c60ee638aba8b795
+SHA1: c35b5b4afbc59b525b8e4b5a8a19a19c62790310
+SHA256: 663759d758432597ad0cef1d872d781aeda10634b5a6d2b81661d2d13ee4a174
+SHA512: e4ec3c53970c1e4216e2703a889bb71e36d610f875041e73793734e5ffddae26b3a5ed54265fe9cede9c3dbd80ebcbbf429578cde80e5ef116c83a28769fd768
+
 Package: r-cran-rquantlib
 Architecture: x86_64
 Installed-Size: 3896
@@ -1532,6 +1563,21 @@ MD5Sum: e4091931b4760f6247fd36b4b7a8d09b
 SHA1: 641ce79b3083683f990d66953f7d9d9e6ec8c266
 SHA256: 4f54f74121e4ab4ba9ccf172417bb6435057013ac82a6445334833653c8492b4
 SHA512: 26cd2080bb1b4ad370f5c422561296f0ddb67ed2b09c94b20a062151f1d991e5b4acb988400db6dba48c0f300a6f6d07d0aabc3987acf9ab6da4d413697221c6
+
+Package: r-cran-rquantlib
+Architecture: x86_64
+Installed-Size: 3700
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.9
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-x86_64/r-cran-rquantlib_0.4.9_x86_64.deb
+Size: 935490
+MD5Sum: 43434d5b9ad4cf5c8170501dfe681860
+SHA1: ce8d4bf3d4a531c06f3287bfeecf9cf009548473
+SHA256: 4bce2bcc930c8a736539750ab772d4e45af6ab0936e6967d19135638952f2694
+SHA512: 86e945becfc588d118abbf817624f2ef504dd6d10369b4c6fc8d435306d733f65f7377da2d5fa00596a5afc909ffd117864f5db0aebe6cfeefa9c87bedb8136e
 
 Package: r-cran-stringi
 Architecture: x86_64
@@ -1548,6 +1594,21 @@ SHA1: ecc48e5a6f0ebe7dfe43a494645c574fc8c80783
 SHA256: 072287249021df09fec7aaf4f5c3466786c50434741c90f44d925f645803d382
 SHA512: 6ee1bed365c62460e48e0c54d1f4b4624ef0f573c00f8448be4e32535a8d9d60a94327a0dcca9617cd4e5d132ef6d8ee684318b038650897cb73099552afaf49
 
+Package: r-cran-stringi
+Architecture: x86_64
+Installed-Size: 1216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.3-4
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-x86_64/r-cran-stringi_1.4.3-4_x86_64.deb
+Size: 695090
+MD5Sum: afbc9b4b120de385e40b5f89b2da4e61
+SHA1: 4924ef0857f08a41696b9cef4803fe8f6ab7ccc5
+SHA256: 8e749f59063cc750a27f3fb6d1cf1892f2518e6d22d2f8ad39ffe68d70ddf8a7
+SHA512: 9a80aedb1b2c13601fcc9ec334ff269faaef509500a87cadfd65cbbb7624c68332304270969eac6237817eac4aecb52ed0510b9700ee8b34ab23f3ece93835c3
+
 Package: r-cran-tidyverse
 Architecture: x86_64
 Installed-Size: 220976
@@ -1563,6 +1624,21 @@ SHA1: 30a4ef506e3c79948eef22e22de52a464feffe22
 SHA256: 528e8d9b8a68127353cd2bfc6efe0463b23eb3645ed13d6ae760884a302dfc58
 SHA512: 1b25075bc3793a72fb113d6faa64d084ff78e5c63d83b99d084720dad0ca8d110760be86c8142d82e594666c132ccd39da4408532880e940745d84ebbe89f2dc
 
+Package: r-cran-tidyverse
+Architecture: x86_64
+Installed-Size: 225524
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1-4
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Description: tidyverse
+Filename: dists/termux/extras/binary-x86_64/r-cran-tidyverse_1.2.1-4_x86_64.deb
+Size: 38966638
+MD5Sum: 4f396b2c4f9e52ded86a1522376f8ab7
+SHA1: 1084524a80cfb536a0bfea02af8f075cd36ace51
+SHA256: 25ba4a262e8f66b1dc47fcc0a1fbb6d51078b66a5fd3d12b074c444868a5b5be
+SHA512: 1e90af335b47b0db4cdfa5c1062c53e97b0fc0a8791c032d00934a764c513783f0898af94dc72525f3c595c7e99534904fdc7d60f9f004e86da729bd3f40d9ae
+
 Package: r-cran-zoo
 Architecture: x86_64
 Installed-Size: 1452
@@ -1577,6 +1653,21 @@ MD5Sum: a33f981b56be89879665a58b2996c660
 SHA1: 509cb218a3669d6f7e431fe55fb836a3489180ce
 SHA256: 3eabe6e0d5c5b1b427fee7a11c14ddf8d3c4584a935615692f09510a2c61f0c5
 SHA512: 3004c25a0dd21a2f27a7c754e730294727b40b4df753e00ee6bd86995f86970e1f45111282450e2511a1a855a479fdc2baaf9eebd82a63822edf2c67622112fb
+
+Package: r-cran-zoo
+Architecture: x86_64
+Installed-Size: 1452
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-6-0
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-6-0_x86_64.deb
+Size: 1059034
+MD5Sum: 1da270649666e0655b538c8e0398a54d
+SHA1: 7e6051f2e26d0c393a7698ce9048d37e8918be53
+SHA256: a418919f0a6969456771b21e9606af12cc67b9cbe505acb967a5fdd1b033c8e5
+SHA512: b3aefed82c14564a82841a7d78bf77a34c8f050214e728c82e91093e055eca7e1f8f29761a5cddba571e38c7fc36fbf01f10040567c7cda97f05b64c0a3e67b0
 
 Package: rakudo
 Architecture: x86_64

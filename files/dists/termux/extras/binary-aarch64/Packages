@@ -1670,6 +1670,21 @@ SHA512: fffa5d247e0866906ca1c92754ab15593e2fc9bc969e55c2f4d628ac1e0ecbbcd3cc8a26
 
 Package: octave-dev
 Architecture: aarch64
+Installed-Size: 5740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-2
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave
+Description: Development files for octave
+Filename: dists/termux/extras/binary-aarch64/octave-dev_5.1.0-2_aarch64.deb
+Size: 369638
+MD5Sum: 1c73fe8050c31d016804fc8509186912
+SHA1: 12d23d344284aea6c22bf9c09e338255e04c90ca
+SHA256: ef7944906cc2c514926b3c3bcfed906063da724b3a2f33842ae08e785d2d1375
+SHA512: 57aca7193d266de8a2be2bab7db9645ae720a2a2dfa38e94f35b46a46eacc21a5f58d6bd1d40871fef42dc8ccbce4cbde0cbc65cb8252e020153617bed344662
+
+Package: octave-dev
+Architecture: aarch64
 Installed-Size: 5752
 Maintainer: Fredrik Fornwall @fornwall
 Version: 5.1.0
@@ -1682,6 +1697,21 @@ MD5Sum: 239717c552f78d0863a83c58a5adb895
 SHA1: 8ac74f348623c75d5d0583d6439ed9f42d4db761
 SHA256: c54742c39c219d7ccbac6e30f9c09e741a4aa3891ed6706185e3967d152ea9ec
 SHA512: 0e2bb44a4a78e05305b0e5eca25d89afede234e6bac2d97feaf140835dca2e07171c2e34ceeb597ca845c2ddfbd83e704ab2c9872c7008449190152399a15a21
+
+Package: octave
+Architecture: aarch64
+Installed-Size: 54700
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-2
+Homepage: https://www.gnu.org/software/octave/
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-aarch64/octave_5.1.0-2_aarch64.deb
+Size: 11481254
+MD5Sum: ebd1ca41a9db288b016ddb6be8314856
+SHA1: b20dd9bfedfd53cad04bcc74b1c6c48b04da1e08
+SHA256: 93395f246e8b698182e753a09b3b7146d7875ff86dc8b23c5da5a7e4289df228
+SHA512: 59502717563eaad2bea73ab59e8ad48a30d81caecd7fe0b0b3eb61772848d51da1c1d11f41b40d3680b19c276d1ff485ff82a399a8fbcef6d1b2bbbb9d678d7f
 
 Package: octave
 Architecture: aarch64
@@ -2042,6 +2072,21 @@ SHA1: 239796f972b51c8c879a87a8f6b1fa2272624afd
 SHA256: 777bfb243766f4eb12f40797aa4ff269913045f0ee57b70cc66ce5f3de8dcea5
 SHA512: 1ea0c383015acf226042ff4ca18987c10b935fcb5c8fb9c2f168ad25823c6a2f604b176e461eb76738160bd196c4f99fda7c22838d187e90d72d8f4b580f0f23
 
+Package: qhull-dev
+Architecture: aarch64
+Installed-Size: 948
+Maintainer: @its-pointless
+Version: 7.3.2
+Homepage: https://www.qhull.org
+Depends: qhull
+Description: Development files for qhull
+Filename: dists/termux/extras/binary-aarch64/qhull-dev_7.3.2_aarch64.deb
+Size: 92330
+MD5Sum: 50ca0f4dd46e8606d78c568628f90e4d
+SHA1: 3c1d035c67d608f6af3393061b92f297c001fb5d
+SHA256: 968351d70d4ef8f6669d492848ed0cf76165ab4fc77e709397a7713a790334b9
+SHA512: 3d1df433c45ea060c8782eaeeb5067e01dda23eda19512d499572bac83dd3b38766e47d941147c719d8c7c57531204f3ecc6b72f23183a8a6feed3c7ef40d5d4
+
 Package: qhull
 Architecture: aarch64
 Installed-Size: 4072
@@ -2055,6 +2100,20 @@ MD5Sum: 2f7cd47396af27be60a9e4728c63f83f
 SHA1: c9eba4279de06a25854e8310eaa91f04178a4e57
 SHA256: c248c6b65b69e463ee8e9cf33196f92a2c8e3b8989a3ebda9d5b1fcb93376aee
 SHA512: dd2c93108996be63163cc87d82334e56e5488e52ffdba6eae086e7b60fbb1b9bc7f87d4931d14adff93f8ce4a2684fc393fce894f92d30b1b18561dd6419ba2a
+
+Package: qhull
+Architecture: aarch64
+Installed-Size: 5708
+Maintainer: @its-pointless
+Version: 7.3.2
+Homepage: https://www.qhull.org
+Description: calculate convex hulls and related structures
+Filename: dists/termux/extras/binary-aarch64/qhull_7.3.2_aarch64.deb
+Size: 697782
+MD5Sum: d9873afc8529cf8534ce9d4e55ec8594
+SHA1: 5ab600d59d477c0fa7f52248e0951928d708b5d6
+SHA256: a3b61b4fa731e708b96ba26397c46d1513797e12c608bbc1f183ab466581b97d
+SHA512: 91ff44b047c66f5c34078c2950a6574149f8892aab67ae7ae6f6ed6da21d9bc8cfbe69b083c5182554829ea7e68477aea28d600410d53fa60c9ef9585105883a
 
 Package: qrupdate
 Architecture: aarch64
