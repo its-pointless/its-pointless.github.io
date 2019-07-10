@@ -2191,6 +2191,22 @@ SHA1: be102e036a00270d5a38f137349252395cf7cade
 SHA256: 7ca4e6cc79bd69c79336371e4e0a61d58e59ca64b842dfeceed3cf82453d5f82
 SHA512: 8097ef980a1b5bcc5943dbd19328f7e20fb765670dc6d04de682cc2f9e3c30e813e65d09aeabb1e673d13eec949332d01909b344d662528d7e5cb5b3d35861d2
 
+Package: r-base
+Architecture: aarch64
+Installed-Size: 64388
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.1
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-aarch64/r-base_3.6.1_aarch64.deb
+Size: 40271314
+MD5Sum: 43cd6957f77df958603c8f744374f7aa
+SHA1: 52d42e130e8659568cc032eb97f1e691f7d93e22
+SHA256: d8931d5280c1c81dbd2dec77b329f094fa82697ff11b29e0cf3decee48d21165
+SHA512: 546b04d22d33a8dd851b16a69098ab3deefd04e1b37700f231d4edc1ec6c3bd6858fb4b965d88c5818af1976186c2feb39b66951f93c22bdc54d823855b145c7
+
 Package: r-cran-rcpp
 Architecture: aarch64
 Installed-Size: 11424
