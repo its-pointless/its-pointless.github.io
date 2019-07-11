@@ -279,6 +279,22 @@ SHA1: bed8588b29978788bb52bcef7b3bac07da314812
 SHA256: 7e524f944550122d8448021141cf4a0cc7c765c24ace825c90d4ba2cc4ed35fb
 SHA512: ce490c752263ba469f1c22788c635e98e506102967d0aa86ff67f74d75e89f329775251741f9627866d7bcb9d30b140f7af78a113ddfda04b86331c7ebd067d1
 
+Package: ecl
+Architecture: arm
+Installed-Size: 5540
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3-2
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libgc, libandroid-support
+Replaces: ecl-ext
+Description: Embeddable Common-Lisp
+Filename: dists/termux/extras/binary-arm/ecl_16.1.3-2_arm.deb
+Size: 1490504
+MD5Sum: 81912f7dfcc80638ecbb6f84b4af7052
+SHA1: 63fad727116c823665f105a3f56565cd582ea48b
+SHA256: 0c2094c49901bbe46db63853ea577124596bb28479b15b1b7a922bdb808b7a50
+SHA512: 3465c8a4915f1836ed6bfe470866d6add55d872a186b9cc7df203a5924c6a6de1d6f942740c8c0e7e3cfff1b8f6f79ed1cec9c1304d97181abb44d4e4cb4a61e
+
 Package: elfutils-ext
 Architecture: arm
 Installed-Size: 1420

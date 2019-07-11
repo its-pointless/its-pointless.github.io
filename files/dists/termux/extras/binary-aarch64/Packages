@@ -293,6 +293,22 @@ SHA1: d5fb40fc3e6f19e980624aab6d2deb3ced5601b5
 SHA256: d1e58b42eafa2d77f1f432d28a29359162a2cc6fb69ebea110207eb0d2999b33
 SHA512: cb206b7b751380aa5a501a2125094c8c254875c9b124c04fdc78dd41854a0745bdb5e3d84a3944350af399350895e8bb6da3074def9932b3e290b9eb948ff533
 
+Package: ecl
+Architecture: aarch64
+Installed-Size: 6544
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3-2
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libgc, libandroid-support
+Replaces: ecl-ext
+Description: Embeddable Common-Lisp
+Filename: dists/termux/extras/binary-aarch64/ecl_16.1.3-2_aarch64.deb
+Size: 1471768
+MD5Sum: 53019eaf21ea49fe1f2a0262596cc197
+SHA1: ba2013cb4e08cd5cad168cc24b275cb5ec116e52
+SHA256: d513f78e4dd93cd0994eee8b58c5d3b3668578e56cf235a1d6ff4f965d84a4ce
+SHA512: 190de6c5ce203f98d84c54e1994a9d037b9bd09bcfab46be15affefc15abb51aafefcaac8597a4fb5b51986a38a179fbf6f2285fcdf9ddad75a0c7f2989f0e0a
+
 Package: elfutils-ext
 Architecture: aarch64
 Installed-Size: 2020
@@ -1564,6 +1580,21 @@ SHA1: 11eebdd02ecac80eea52ca0b3454f4daaafb3094
 SHA256: 9b17158c54583073a820fce8e1b47fd31e2c5a43326506482aceeb320d100a47
 SHA512: f6f613272a742b71c567518d185848e7d9305bde64b37fcfc80aa8588c8e3e2faf13f3007aa37b61f9fbca2336e8c2281a57c6617657c6409162f39eec2d490b
 
+Package: moarvm
+Architecture: aarch64
+Installed-Size: 8204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2019.03
+Homepage: https://github.com/MoarVM/MoarVM
+Depends: libtommath, libuv, libandroid-support
+Description: A modern VM built for Rakudo Perl 6
+Filename: dists/termux/extras/binary-aarch64/moarvm_2019.03_aarch64.deb
+Size: 1027238
+MD5Sum: 8fbf296b3940e4111b4554d59b349301
+SHA1: 9c9b178fcba3ba904a4ec96616cd9b85f4bc62b9
+SHA256: 5b85c8e4ef7d3cd0e9e59a84b2ef312562ccecd18447b83adc4ce3e976f69da2
+SHA512: 0dcbb0c035b5124cc0a1c9e072f2bf5a36e6153758fb0dc96a5085a550b8ff6a40f04d65e4f86cdce68f7fb0f4ecb94e694fbea5b9dead8d4a69bfe2c7556d92
+
 Package: mongodb
 Architecture: aarch64
 Installed-Size: 143064
@@ -2193,7 +2224,7 @@ SHA512: 8097ef980a1b5bcc5943dbd19328f7e20fb765670dc6d04de682cc2f9e3c30e813e65d09
 
 Package: r-base
 Architecture: aarch64
-Installed-Size: 64388
+Installed-Size: 64404
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.6.1
 Homepage: https://cran.r-project.org/
@@ -2201,26 +2232,26 @@ Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, lib
 Replaces: r-cran
 Description: a freely available language and environment for statistical computing and graphics
 Filename: dists/termux/extras/binary-aarch64/r-base_3.6.1_aarch64.deb
-Size: 40271314
-MD5Sum: 43cd6957f77df958603c8f744374f7aa
-SHA1: 52d42e130e8659568cc032eb97f1e691f7d93e22
-SHA256: d8931d5280c1c81dbd2dec77b329f094fa82697ff11b29e0cf3decee48d21165
-SHA512: 546b04d22d33a8dd851b16a69098ab3deefd04e1b37700f231d4edc1ec6c3bd6858fb4b965d88c5818af1976186c2feb39b66951f93c22bdc54d823855b145c7
+Size: 40280614
+MD5Sum: bb7960f6171da22d859b93f3d631e133
+SHA1: 4c4edcaad0e3ae0fbe6eb14d835378752f92cb27
+SHA256: 14cbb840deb4d205665ac428e787eea2f13ab4b6d40d3b7cb0e04e3719cc47fd
+SHA512: cf71be50b8447f260c0f796c826ebca8d7cab4d1e378d3e43985e1dd28025f9d5f06e9104fae969ada36a3641fae0866c31d2fcedb9181ce49a7f1d390b4b040
 
 Package: r-cran-rcpp
 Architecture: aarch64
-Installed-Size: 11424
+Installed-Size: 11432
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.0.1-2
 Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R package for Seamless R and C++ Integration
 Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_1.0.1-2_aarch64.deb
-Size: 3290134
-MD5Sum: 3d284c500c266e256c332a2ee2f0d3ec
-SHA1: 871ee6ce9ed3ca079048f3f62dbaa9c422e59079
-SHA256: 90f25890211e8aa4aa96edd7ded6d36dec036c2b8bdfdfdb63ac05a76d257a08
-SHA512: d2fdfb865ad6c23ef5b4cb49079b9cc0bcf428f9d46a664db9980fbecb5bc98195ae4c1873499784680499ce5c92b6e223efabe88b8c0393a6205306f7e90151
+Size: 3290520
+MD5Sum: 7185e55a6f5aa82a1956411ffddd18c6
+SHA1: 3ec59aa5c122d41eb62c3b471bca1ec66c9cb946
+SHA256: ec8dca3092e64f657ccd04236d585671362c8ae08dc133770b970c703a37ef6f
+SHA512: 70114735506776a930d3d481f634a74bd5c5d051a07a80e7d403bf1bdde7b0396c17a8ccdcc03a1ca57c64e58c070a7f371ab486bc5b1b48b871dcc50b11d136
 
 Package: r-cran-rcpp
 Architecture: aarch64
@@ -2267,6 +2298,21 @@ SHA1: a11f0cef49b795c9e65fcdec5927ad580db1dbc4
 SHA256: add0fc0d48bf578cb23f39ec856730ec39c8e826b2e8d560a96c5ac186cde05f
 SHA512: f9c5991192bcbf8c32061291bf956f1a855b4bfac19be22297aaf43271cd9628a159e92e02d242fd54c77c0c5c4fb5f927583dc8af169531a8165d63ecb1fdee
 
+Package: r-cran-rquantlib
+Architecture: aarch64
+Installed-Size: 3604
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.9
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.9_aarch64.deb
+Size: 838828
+MD5Sum: e498b80df243b6a3fbd9755eb9677bde
+SHA1: 6f4075eb1c022af5593362e891e81bfac601144e
+SHA256: 164e8c8c2790e57b8cb808682cd2931dc1c528ff684a26edf50b568bbe721033
+SHA512: 9e0a9eb9f38c863ca991e721218a60b0b102f489aa2a610274fb4431d22fdde6c6cf98c096abc79e7663717a8ee15dbaaf9dc280bfe6474bfd8b21fd172f7801
+
 Package: r-cran-stringi
 Architecture: aarch64
 Installed-Size: 1172
@@ -2286,6 +2332,21 @@ Package: r-cran-stringi
 Architecture: aarch64
 Installed-Size: 1176
 Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.3-3
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.4.3-3_aarch64.deb
+Size: 672030
+MD5Sum: 99d5df3a52f3c8c1076214feb0e6e782
+SHA1: 39ac6543af461b2743df1e794b22c3b8aedd39ca
+SHA256: 4d2df170cff0098ae2f7934f94b5f4f1acebc40f147bcc4fc0a94fce20ce5557
+SHA512: 134d38de3eddf6216533c09a3bd271d91b66afefe48d5e44c8149ad7fcdb13a4affa5d24943ec6c8fa807ac7618cb68efedcec8bda3ac2c5c1ba952b469bc0d8
+
+Package: r-cran-stringi
+Architecture: aarch64
+Installed-Size: 1176
+Maintainer: Fredrik Fornwall @fornwall
 Version: 1.4.3
 Homepage: https://cran.r-project.org/
 Depends: r-base
@@ -2299,18 +2360,18 @@ SHA512: 945021dc8b2f351fd8a9c636714d2987417be7a7b36048295ce31d7b84bb3822174f9d41
 
 Package: r-cran-tidyverse
 Architecture: aarch64
-Installed-Size: 225256
+Installed-Size: 224188
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.2.1-3
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-rcpp, r-cran-stringi
 Description: tidyverse
 Filename: dists/termux/extras/binary-aarch64/r-cran-tidyverse_1.2.1-3_aarch64.deb
-Size: 38491214
-MD5Sum: 9231caa30e4ad4dd13a4a09f6785e931
-SHA1: 4e1aa2cf3be05a5ade79569ddfbfc74e190378b4
-SHA256: 14de6c1d60c80a5ac5abf76df7c1ac27584985e240fcc53eed9b9c5380ddd3da
-SHA512: 3073074d6b4831ad0e10c0cafe7cec5eaefc4adeda263b94d78ab4aa39cad0efd5f47a5dafce86ec6330c53452ba5a64c054ea51f3f692a644ac8bd1ef32e331
+Size: 38239226
+MD5Sum: 601b7af0367527696d340689eb1e4c67
+SHA1: 2f734e1447aff05c1527fc35620fd9a65bf3f06d
+SHA256: c40f3f7d5c1c9f9bf2aa1139f09b968c9f081e685787944b985e12c501a8ef22
+SHA512: ab1543a3480491483c6ca55f0ea594fd896e3d2cbe568bf8283321c9ca2f321b0fa46ec4ff70f7118184534482033434577febcd36629986bb707b1fe7741693
 
 Package: r-cran-zoo
 Architecture: aarch64
@@ -2341,6 +2402,21 @@ MD5Sum: 210b735414ea9a6d5e0af1b1fffd7fbc
 SHA1: a4272cc2f076ee06ae31f97ce399f00d9180dba3
 SHA256: 48d39276fca7de99602a74f4a9cd8accf326df67423374227b77dfff1249af3e
 SHA512: 785be74217d4d982e0e2f859af46c30c32c66dc6b3376442710831c67c9dd802e366796b4dc7b09042cd30c9bbe7968f0f0d3931b6b880da4d72d2d57f54fa30
+
+Package: r-cran-zoo
+Architecture: aarch64
+Installed-Size: 1444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-6-0
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-6-0_aarch64.deb
+Size: 1057946
+MD5Sum: 86e6f62be2ec56e63bd4928ce8ace1ad
+SHA1: b0e10e9fe1915ace3bff8c0e758ae6a766da5036
+SHA256: ad3beb4ea3ced201e6b9d134cfe4f0008c474fac3c49b2e93b1279a1f81ba560
+SHA512: 8ac6bce6f34209ee1a28cd5f59bd6f3288b4d60035748d76e6efc38bf0e85c82fa46e133fa84d083dfd6c40b2ba018558447ea1d7f039f257e0c62945b117c48
 
 Package: re2c
 Architecture: aarch64
