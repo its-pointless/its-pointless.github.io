@@ -1146,6 +1146,35 @@ SHA1: 7f83fec391138dc132bc95d9b11245d6ddf0bf98
 SHA256: f0542f2e5a6fd6febee4dafb3e1fcec72059e37c8510a1f1af46f930c6fb22db
 SHA512: bdc9e68fd0de587c9c988290e8f602560e1844a1561eda57aba4dc6f0c73866879be94137e949d1f624b3bdd7352101e1a480f7a752017ea377e0c6353213a96
 
+Package: libsmb2-dev
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: https://github.com/sahlberg/libsmb2
+Depends: libsmb2 (= 3.0.0)
+Description: Development files for libsmb2
+Filename: dists/termux/extras/binary-aarch64/libsmb2-dev_3.0.0_aarch64.deb
+Size: 11208
+MD5Sum: d906cb906b2f573f27a1758ad80a9c81
+SHA1: 215ff449cd979538fb1e3268bc825dc8e7a6a0f4
+SHA256: f7a53567f4f030769513c8f5316cb59ddbdd86500ca39a002daa210f267eddbb
+SHA512: 6f9f095ef1a4a161edd13da1c849149dec7445a9f8bc3aa75a5ee9307fac9b6a04eec21491a92b72ad4e0bb2bbde090262c3e26b57248a3b8f035202986a5d06
+
+Package: libsmb2
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: https://github.com/sahlberg/libsmb2
+Description: client library for accessing SMB2/SMB3 shares
+Filename: dists/termux/extras/binary-aarch64/libsmb2_3.0.0_aarch64.deb
+Size: 33758
+MD5Sum: f83cb3e2fdd31099b9b1db3120362c43
+SHA1: 9ad8b29d6da22f45478e68ace6597982171a1bbd
+SHA256: a1cedf46eb5fbfa08bf06c5b139a5dad1d654e1e57afd4f6357feac739a4f016
+SHA512: 15304805e5019a52e408402e26577158810eeae5964ec7c923915299142ea21148d637990b68a2265d9e3ba55ce40bbab9b1efb48218dbb40c15a3265cd1c284
+
 Package: libsnappy-dev
 Architecture: aarch64
 Installed-Size: 48

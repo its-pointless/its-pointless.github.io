@@ -871,6 +871,35 @@ SHA1: ba85a0f72fd07c4820a9e28776817edbd8b7ee5a
 SHA256: 51ab9969d98910e5b5c0b0854814a4c945a586513e6b6ed46fa7878e16285f86
 SHA512: 7dfc35e29ce498d92a77fc1157f9500efbeae647f02cce4472db583ad725b53d687819ff9a929df4d97dc52f18e0cf1cc1889fcb2e3ec1d7e305f63b98142bda
 
+Package: libsmb2-dev
+Architecture: i686
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: https://github.com/sahlberg/libsmb2
+Depends: libsmb2 (= 3.0.0)
+Description: Development files for libsmb2
+Filename: dists/termux/extras/binary-i686/libsmb2-dev_3.0.0_i686.deb
+Size: 11214
+MD5Sum: 7cde1350ee3da32b3149bb009d60c0c0
+SHA1: e63451030e5386a6a745ae56ac52c516206d11fc
+SHA256: 1e83f2632f1b86761f081668c2628664e67d7ede9ba25ffc5b293bb4ad834951
+SHA512: 366d8d34510fff7f7324828431ad074c331ac84bcdacde52058c88e8abe9df525e42ecc98b8161b27486669700f44a6558427677abd17386d440be4daf446205
+
+Package: libsmb2
+Architecture: i686
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: https://github.com/sahlberg/libsmb2
+Description: client library for accessing SMB2/SMB3 shares
+Filename: dists/termux/extras/binary-i686/libsmb2_3.0.0_i686.deb
+Size: 37248
+MD5Sum: 2ca043f3a4efd0183a6339328ea164ce
+SHA1: f58150019b6ffd9090029ee84e7f9374c856f469
+SHA256: cf67a9be3fd78b0ca3ab9557984d6ab56883259c03795969352631640c972b10
+SHA512: de174f8fbec8855641abb39ae882d51f79df70a4997c7c5a0322a08448f8923a2850c8b3aaab215e683910f7e9c85118be2129d0fc35fcc17fcff4188d1a57ad
+
 Package: libsundials-dev
 Architecture: i686
 Installed-Size: 1272
@@ -1231,6 +1260,21 @@ MD5Sum: 68a7f89b18a376748c357bb76636fa15
 SHA1: c2b56174e1c8da874abf2d01c657005ad9022c46
 SHA256: 0216f130cca3a230b0fd27591364a1d0330e0000eeb41c783ae2ea7523572577
 SHA512: 92b36dea90db7dbe086b3f85ed42b25a62c2791c59c4ee5ff6d17ab474ce23dd53633f6e654ed9ffb1d17f750b64c47e22161f67fe19e5aeba9f42e5b57a46fd
+
+Package: picolisp
+Architecture: i686
+Installed-Size: 4204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 19.7.6
+Homepage: https://picolisp.com
+Depends: libcrypt, openssl
+Description: Lisp interpreter and application server framework
+Filename: dists/termux/extras/binary-i686/picolisp_19.7.6_i686.deb
+Size: 720470
+MD5Sum: aac52af58af4f82bef249ac8db13b18f
+SHA1: 4699ae339ec9746108070278bed738ef158aa245
+SHA256: f054805ad86b09ca059f14664651cd079a2a2046656e361a3589ec29026768dd
+SHA512: 055290f96f748f0852e0d133679b6dcfc612710dfd7d6fc73b6f7d2d698c90b7fb8722b48f5385aac3bee747a9f2ce45f3dfe12a3c1f04d4e7e46b095494af69
 
 Package: portaudio-dev
 Architecture: i686

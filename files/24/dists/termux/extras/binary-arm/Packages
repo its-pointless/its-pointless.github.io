@@ -871,6 +871,35 @@ SHA1: 2df536554b44eda4c244a41ebed214e74a162ebf
 SHA256: e3a6f6f2a9a280e9024132451ddf87f361211760981441a7c5c7e1cc81f547d3
 SHA512: afdb2848a1876cd4715d0b39abba5890da6c7769376cb12dc91114c6955161cbd7bb91255f7d3938200054a78f6407d5e5bac2c4becde11bdeceddaf10126466
 
+Package: libsmb2-dev
+Architecture: arm
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: https://github.com/sahlberg/libsmb2
+Depends: libsmb2 (= 3.0.0)
+Description: Development files for libsmb2
+Filename: dists/termux/extras/binary-arm/libsmb2-dev_3.0.0_arm.deb
+Size: 11224
+MD5Sum: 194ce6c9a51fad3d7b1c30b66d75ee05
+SHA1: 01d4af51b14117f8959fc101dce6aead7491eef9
+SHA256: 6bac9f82127d9076f3da22fd5f25d2052927443d6be1180c7f2938783048722e
+SHA512: de9e5fe2b256489db766694c861473b0ffb6064ac50b242c09aee201ec597c9ffda0146a4ea04eb1f2c8d7b4c33a0f3ae7b895d232c84485ee2c1636ead68029
+
+Package: libsmb2
+Architecture: arm
+Installed-Size: 72
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: https://github.com/sahlberg/libsmb2
+Description: client library for accessing SMB2/SMB3 shares
+Filename: dists/termux/extras/binary-arm/libsmb2_3.0.0_arm.deb
+Size: 37878
+MD5Sum: 4abd9a32526253e4a0a7f4e9f73e4ff7
+SHA1: f94fed9474e39cb23af607267160b8a2d069350d
+SHA256: 16d8792769eb95c71609728c784e2b5b02ec4353f97cb0e4226f38df04d9df08
+SHA512: cfb6c907ea42616a647063ca469c0b97a99d632f5f8a73b0fb3068ff037d31f0cadd7985f4d7502860c21fa56082fe76261a88b8c88e8741ae15fa9425f18f34
+
 Package: libsundials-dev
 Architecture: arm
 Installed-Size: 1272
@@ -1185,6 +1214,21 @@ MD5Sum: 467e3e7b16063ea527d6fae76459e823
 SHA1: d94e8d2d22fada8d04577e53a2817fd7a6e29ddb
 SHA256: 3205c88a89b5ad93efdf45f7f7813c89e82ba4bb75342dedc1d3479fa498f328
 SHA512: 90e31dd051a47a4d6db858e642872378effb6aaa9863d35180352cd63ac508ca1aa1eefdc2fcab23f479fcf796d198249a4322e07f8d1bea536650a791f2d956
+
+Package: picolisp
+Architecture: arm
+Installed-Size: 4104
+Maintainer: Fredrik Fornwall @fornwall
+Version: 19.7.6
+Homepage: https://picolisp.com
+Depends: libcrypt, openssl
+Description: Lisp interpreter and application server framework
+Filename: dists/termux/extras/binary-arm/picolisp_19.7.6_arm.deb
+Size: 698770
+MD5Sum: 9e5a639ff0d9d65ed8a3bca936949956
+SHA1: a33f2953621726ef223f675fff15be54fb66ec75
+SHA256: e67a4faa14311350319822c3e0deb9667fe2cff78e7febde58bef24c1ecb3997
+SHA512: 4186f31de069f7921fac6c8719695b5ad4366cd522025a05966b5dd4c5e91acc9aad75ff4bd2f104c9fd3b872dd5a1ee901f10b327588d100fffabf23f9f3788
 
 Package: portaudio-dev
 Architecture: arm
