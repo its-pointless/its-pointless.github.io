@@ -1368,6 +1368,21 @@ SHA1: 777953dec9d9b427e21dbbea07b389db6951f014
 SHA256: 24df774c846d9c2ee6b9c12fe4fad678d1958442cd5d0bb3f9eada31e029dcab
 SHA512: 4ec61d98e3b299f01892156284c9c710694ac48cdfb16bac76435a5fdaa697329aea46ef1e855c5d10d4eaf54bbca1c006a56dedd51bfefd34221bff18f8f30f
 
+Package: numpy
+Architecture: aarch64
+Installed-Size: 18580
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.17.0
+Homepage: http://www.numpy.org/
+Depends: openblas, python, libcrypt
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-aarch64/numpy_1.17.0_aarch64.deb
+Size: 2829942
+MD5Sum: f4b3892e86c333932e7a625aa1a07109
+SHA1: 699988768b225ba32c4680e2331f9160ea72f4a6
+SHA256: 039baa234671aad275774f8292eb04ea34e8330cf71bd82fa2dcc4fb3f21ccd2
+SHA512: ac190d62cc033aee0a5f3e2d9193058c96a97f9684082e0114dec4d7dc8e6e7ae61d6892d4c465e4b6887a24dfe136201b29a2435bc681c639cea3cb06670d51
+
 Package: ocaml
 Architecture: aarch64
 Installed-Size: 277208
@@ -1504,6 +1519,21 @@ MD5Sum: beb880f22a3a0f28d5ac5d0d4b7ee63b
 SHA1: a19f85dbbe4a22a67b2aa8d9031c7de6e2bf5a98
 SHA256: 40264dfe731689588359424441235acd9a8d01ea583e46208cd67b0401a89d88
 SHA512: cfa9de58a13fa5d31b1d8b790f5b745c61dfdabf7d45c657fe46333c2dfb7963572f25d841ff45f0db7294001a312f9954ef26ebfd5f1d26cce457c7b7d727a1
+
+Package: opencv
+Architecture: aarch64
+Installed-Size: 38600
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.1
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-aarch64/opencv_4.1.1_aarch64.deb
+Size: 6395240
+MD5Sum: 95a752cba4f7b10e395f44f869921ed1
+SHA1: d75ebd4635b70200428beea30dc9da4f90f377ff
+SHA256: e11194b295bc4e2743448f39e85c7ef5c472659d9280ea60f30bcfeb22bd726a
+SHA512: aaeac2bbd59f5e65542be6b9daaf8c4e40dbc7b114a9615a48501edb78f9db406f62ffa1c2268cb0981a938b1a9eb0330768d4cce00ab8c9d8a81195661bd317
 
 Package: pari-gp
 Architecture: aarch64
@@ -1655,6 +1685,21 @@ SHA1: c830670168830a26bd560c277533e358b34b4469
 SHA256: b0fd7cee9da7f3c7ee067ad72f339ceb0a86d1faf63d659d0f5f9cfa13a8602d
 SHA512: 8dee6486d08cc5beae35e270708abba50e717b451c5a514efad0f3d844ede621f47e8d40b27099e33ce56884d1532760b8f0d6e9a24867380960e42b62d0467d
 
+Package: python2-numpy
+Architecture: aarch64
+Installed-Size: 16420
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.16.4
+Homepage: http://www.numpy.org/
+Depends: openblas, python2-dev, libcrypt-dev
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.16.4_aarch64.deb
+Size: 2409230
+MD5Sum: fecaa9010c7ac87d54baede784bf4792
+SHA1: 1f79d2438aa16938ebe1bede46cda5fb463b3807
+SHA256: 9644d78cbd7eb8f6dc2faf82f883b32cc0377cd4f294c067ee8e7419f39e5cbf
+SHA512: d5f0cad2c67cb3bb158b663408ede3aa96f5d6900515ac0fd75fd1810f92f2ddbdba70f162aab5fc681ab8efb9b322f5633596ff8e1af3515d66cd116c7596e9
+
 Package: python2-scipy
 Architecture: aarch64
 Installed-Size: 49576
@@ -1684,6 +1729,21 @@ MD5Sum: 03f92f941f4bf1f46d81b2810c765d72
 SHA1: 98f2f19114878fb61ec992d4fe785c0822e9669c
 SHA256: af9369e0b05a05087cc8cd8505b2d303e66a91c258213a33cf5883f34aab3ec1
 SHA512: 73b206c037cc98a9de11a5df5e33cddb5171492c5e49b1a616bfa2d6847d6182210398ca652e0129bfac66e4e23134c8dfd872b0f7b0ccf8bc578805cdc19edf
+
+Package: python2-scipy
+Architecture: aarch64
+Installed-Size: 49516
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.2
+Homepage: https://scipy.org/scipylib
+Depends: python2-numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.2_aarch64.deb
+Size: 10402430
+MD5Sum: 12680e5355b58323d9d53bf1fa3c8956
+SHA1: 7402777df8c1a1a2097e83b49b15f7e5640b225f
+SHA256: f1a7b106f9632ff908e68ecba69a3b7fda4e87e405d9676a95ae0f8f25ef0c97
+SHA512: cb8856231d629a10d833028bc4a0b1092745710a96ce51445ad8a61124332e36c299afba472ccf5b76c500ed448abc15a87d597e2ea0622b657bb04c0415e9c6
 
 Package: qhull-dev
 Architecture: aarch64
@@ -2047,18 +2107,18 @@ SHA512: 6f35b3fec7a621ba0b8cf5d7425eb9349e24d5e82894dd7faa85a351816e26062f0d04d6
 
 Package: scipy
 Architecture: aarch64
-Installed-Size: 49676
+Installed-Size: 49688
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.0
+Version: 1.3.0-1
 Homepage: https://scipy.org/scipylib
 Depends: numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-aarch64/scipy_1.3.0_aarch64.deb
-Size: 10513498
-MD5Sum: dda65e7e936ac0902c353d7710672abc
-SHA1: 67fc66b99f84d1e4ba280216caa21cafa4a500ba
-SHA256: b1cfe77c67ccf9cec27a702c048f2e9c4d4f68cbda77f5f395cdf7596ab5ee7c
-SHA512: 6ea943b40d6dd5d2cfe2ad5d4561abce8a7c0754d520fe14b4ca2889c8029337e81129f5562d2bbeddc61497f50b0a11632c69a05fb8449e370ccd005a377c48
+Filename: dists/termux/extras/binary-aarch64/scipy_1.3.0-1_aarch64.deb
+Size: 10569016
+MD5Sum: b92e3a4b3930378ad00f37513f0b7b43
+SHA1: e07d6a70ca98f6563ca8bff3d1e6402f00640e84
+SHA256: de37425d3c7fb8039105e98ec08449802ce2c716b8a44943c30f60b884d0c965
+SHA512: a7c9acc626e168b9683d6d3afd9d2c278af7a8a8aec35abe27dfca1b9080fc7eec5fa93dd795030f559a0d625ce7adac84b97193166cc7e790da5c19e76d7393
 
 Package: suitesparse-dev
 Architecture: aarch64
