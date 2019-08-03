@@ -133,6 +133,22 @@ SHA1: 541532a4225d376fda5bdb6d7be66f218ac12018
 SHA256: fecbb4a6762fca55ce54c4b1c119c21cb25ec1d20d9520ca38c303f95e7fdbfd
 SHA512: fca382d665c74b2b293e6af85945ed2db0262bbdf31c52c4fd3e5ffebaf41dd792fed297ea5b1afc20c2991c1d9e41a2a74fd177041368b14b1c5f99882f14db
 
+Package: ecl
+Architecture: aarch64
+Installed-Size: 9864
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3-3
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi, libgc, libgmp, clang, libgc, libandroid-support
+Replaces: ecl-ext
+Description: Embeddable Common-Lisp
+Filename: dists/termux/extras/binary-aarch64/ecl_16.1.3-3_aarch64.deb
+Size: 1735818
+MD5Sum: 39588e6c64c6a9763c205bcf9ab6cdc3
+SHA1: 40b8f8678644365663eda92601562cbbe233bedb
+SHA256: 3af53208ac7acc12e5099a9dfb766adad79c9ca90746cae25a1095c3cf85ff93
+SHA512: e7fc2e48a293af6e93c805495b07c3e8598bd28835066e3d6e9982c57fd9c915e42ed828afd36f550cc74795e797259b9939ccf50c13a950f4c37927f39aa70b
+
 Package: efte
 Architecture: aarch64
 Installed-Size: 1356
@@ -1832,6 +1848,35 @@ MD5Sum: b23b0230c10aaf209d6c3784bcfe7d00
 SHA1: 78a83642a6b9b5163d6c01b49a273270414dbc93
 SHA256: af9df271efdd9110295794591d7222e44d55d97a6e4b1da3faadea2b10051573
 SHA512: 43152dfc7a2acc4a3a5a9d0e96f66e3e9592d366369bd9af8b84a07d2ed626f4e5c0c63156fb2e3e96d5f5298b67bd7162316e64526617f4799c10b421c45f70
+
+Package: quantlib-static
+Architecture: aarch64
+Installed-Size: 157528
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15-1
+Homepage: http://quantlib.org
+Depends: quantlib (= 1.15-1)
+Description: Static libraries for quantlib
+Filename: dists/termux/extras/binary-aarch64/quantlib-static_1.15-1_aarch64.deb
+Size: 14046454
+MD5Sum: 11af8dd063e346b939ac376370973933
+SHA1: fdd5f48a9d3fed775bcc9a45524e6e7fd99427ba
+SHA256: 2e8a0660a64c1da03b1799c253414e0cb36a22752dfef4557ba62af6edd0b75d
+SHA512: ebd5a55a2de2ceb4f44aede4649dd8e46b878ff93900e94146b075b4fb3c0f10348b79021e7f9fa0572a18bbe2666815676951de2caf0af13d920439b33c236a
+
+Package: quantlib
+Architecture: aarch64
+Installed-Size: 48384
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.15-1
+Homepage: http://quantlib.org
+Description: a comprehensive software framework for quantitative finance
+Filename: dists/termux/extras/binary-aarch64/quantlib_1.15-1_aarch64.deb
+Size: 8728110
+MD5Sum: 9b15ac5885f89c68e85da28c40953fa5
+SHA1: 94ae5620691c36f2052fd5126000b4bf78a76e5b
+SHA256: 5595de33693d4fb2f82c71c65a8918079120b0fb07aa28e7d878cd9a7850b016
+SHA512: 9c18c695f4c25ab56c01dcb28bc27fb19468e6f141ce3f600a893cd11746238bb07862117c0788a5f18ca392ab7a44507422e26139d894c4568257950b29ab66
 
 Package: quantlib
 Architecture: aarch64
