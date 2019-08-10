@@ -133,6 +133,22 @@ SHA1: 70bb64fb1959d4706c5c4845b09a576e00d6be52
 SHA256: b99bd538803771a9bede6ed23c8280de6653ea6b8a73aaeca69c268c89be3941
 SHA512: e378ddaa4606b476efd8e1ac3936ebb5ea013545d9518a9d0ebdc5a0bda1d35cfed2a6be5760ac4a0cbdbfa40e92624a1a39101a71274e61fdf7d916e0338e3a
 
+Package: ecl
+Architecture: x86_64
+Installed-Size: 11172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3-3
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi, libgc, libgmp, clang, libgc, libandroid-support
+Replaces: ecl-ext
+Description: Embeddable Common-Lisp
+Filename: dists/termux/extras/binary-x86_64/ecl_16.1.3-3_x86_64.deb
+Size: 1999126
+MD5Sum: 98ae98e5c22407e3057b106dc9cff03d
+SHA1: 8b1eda6732f11c8cf4214f3ae8a62f00b75301bb
+SHA256: a49fe56ba4e3985ff8f5061888046f8adfb376ce54e7cefc1549e7b64ee18370
+SHA512: e8108f097e866d253a9d2c8356525b6efe7d1049bc53acf25f52cef92f46d2e9fb37993190a5d2e0d00f6900149046fa60865a7a9cb136d1ff06133fdd98375e
+
 Package: efte
 Architecture: x86_64
 Installed-Size: 1376
