@@ -208,6 +208,21 @@ SHA1: fc4ab2e47ae2b85d8853e3ec3e94b83b60eb2e6f
 SHA256: c411189215d0909fb965c9e27f3472d80d372aafe246bee8f5c363a09f54651f
 SHA512: ce0424c01bfa94e6ee93df915fa0f9f2d6906f66e64e7f1059d3b36a413c0708d1202d75018584261a19a30a3632506edb7895a89196127e3d52984881f2b28b
 
+Package: gcc-9
+Architecture: i686
+Installed-Size: 129664
+Maintainer: @its-pointless github
+Version: 9.2.0
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv, libgfortran5
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-i686/gcc-9_9.2.0_i686.deb
+Size: 35423192
+MD5Sum: 3a630f6fb83e64ca874bbc63b91a48d0
+SHA1: 86a87f1d908b511e643aa6cb591b33c000e58d25
+SHA256: 81b4fce6874f766a3e4b03d88dd317c4edbb1115311e5f6209722e3a3ce37fb6
+SHA512: c4d0fd610af2fb44e77a3680bc6c3bb8f349d39203d29d6e0b38effcc5ff090cfd7e4944d8a67d1a81fb06b46ab75dd177eb0ec5e856dda7018feb9d8aad96d1
+
 Package: glpk-dev
 Architecture: i686
 Installed-Size: 40
@@ -267,6 +282,21 @@ SHA1: 7ab5a88f9e3d071c24df2009bfd3d598f8049b14
 SHA256: ff4e50f6ba3158ec404dcf595a89db2070bb0205f0a429845785652d1842e880
 SHA512: 71d02defb62fd7d869d74f58197fa4b90a4ea1a689ff56fecf596f5c7547d7f9bcfe72c830dc3920f3f34a666082a46062f81ac51c222bc7d08523f9c0e3e28c
 
+Package: gnat-9
+Architecture: i686
+Installed-Size: 84844
+Maintainer: @its-pointless github
+Version: 9.2.0
+Homepage: http://gcc.gnu.org/
+Depends: libgnat-9, gcc-9 (= 9.2.0)
+Description: the ada compiler
+Filename: dists/termux/extras/binary-i686/gnat-9_9.2.0_i686.deb
+Size: 18153486
+MD5Sum: 5b385a9c4da2e8aea737595dac43f3de
+SHA1: 47ce21f8d8817a43d4fa949b37850511a44b8365
+SHA256: d497576b7374e6bd74304a76aa3b5185321b3dad6265682c3d086ae1489bc1c1
+SHA512: b7906dead0682f341b18cd4315199c99817f5d71b4747ef54b73f99464ab3687f37c31f6b7457f56fb5dc588f02d7146a882d701f28112d9e5c39240d5584cf9
+
 Package: gobjc-8
 Architecture: i686
 Installed-Size: 24592
@@ -296,6 +326,21 @@ MD5Sum: 37fd0ed05c7443a53de25dbb8343ae98
 SHA1: f22d3a76a5538d181a82bae181f12d36025add06
 SHA256: 7ac22dcff331d4e831b75a3ff038203575e6d64c55c6964b8a9c074bfc6aa794
 SHA512: 29935845ea34724b8fca8cb1d86385a23d9358f004f8ebfe87767128bc6e595c350e0551601f035232be7a7a3d3eb6a6c840aded39c1de7880db242aa8958391
+
+Package: gobjc-9
+Architecture: i686
+Installed-Size: 25792
+Maintainer: @its-pointless github
+Version: 9.2.0
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-9, gcc-9 (= 9.2.0)
+Description: GNU Objective-C compiler
+Filename: dists/termux/extras/binary-i686/gobjc-9_9.2.0_i686.deb
+Size: 7246990
+MD5Sum: 192b22a964ad3eed5e7ef4ef9e10a42d
+SHA1: f6f7449af0cc79f07cc19c0b5346d2aa48c3a354
+SHA256: 6b93a9e6c53c396fa914cb91fd1b08e9da27f98d5f40a117bf339578871956d3
+SHA512: 80464df8d7344d0dc1ce8ee7d1e2d9cda4c6c8f68db194d8276f5562f33d62be79853c6976aaad79b2c4579fbe452b539e81b9b8239d5dcbd508087acac37518
 
 Package: gprbuild
 Architecture: i686
@@ -581,6 +626,21 @@ SHA1: 4ce10cacb500ad70d84f6757cf79d9c279f342d0
 SHA256: eec8fdf0ff919c79757c3dd808aad234daf1c2459cfcfe7c918c3450a1e35c73
 SHA512: 6bc45a255ff3d9f3a46ce8e3f29910a50719b8eb1ed83dc1d8395be741502837f411cfb6eb683c4669a9ab1a8ff81911aed68fb9cd786f0bcb343ca9ad51d2b9
 
+Package: libgccjit-9-dev
+Architecture: i686
+Installed-Size: 23568
+Maintainer: @its-pointless github
+Version: 9.2.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9, gcc-9 (= 9.2.0)
+Description: GCC just-in-time compilation
+Filename: dists/termux/extras/binary-i686/libgccjit-9-dev_9.2.0_i686.deb
+Size: 6652038
+MD5Sum: 4d137e20e432eb2fcfe139dd0991badf
+SHA1: 6853ac280a381a99008e96f54b0cfce05828cf02
+SHA256: 5377a4568f4407c769c46834d5509bd92d30e9e2da4c17976bf26d9b6bf76608
+SHA512: ec3e8b8084d7478f412cc66fe6edcc372b956c65982368f88bd41ffd55eadf8ba9bd842125b9da8486664fc152214c9944f55ae01d72099f450ac6d7e8761d89
+
 Package: libgfortran-8
 Architecture: i686
 Installed-Size: 1300
@@ -642,6 +702,21 @@ SHA1: 9d4b13235b798cf29b2971457f04d35b6d55362e
 SHA256: 539fdc71788e7c07054f0f9300d38ed298e827ca407fa58ac45fb89a18ad142d
 SHA512: 529136e27bbf33655d3179874e5e7db20c3044179c5fcc442741ec9c01ca2a18cb365fd812b216bb236d5f36204dc8460a9a4e5cc8740e86b23fa74cf6843599
 
+Package: libgfortran5
+Architecture: i686
+Installed-Size: 1472
+Maintainer: @its-pointless github
+Version: 9.2.0
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-i686/libgfortran5_9.2.0_i686.deb
+Size: 405416
+MD5Sum: 3e9e47b45fc96cb5de1a4b69d87a7bf9
+SHA1: 3196950f0bc77bd6be2db6659dad463ce17b1227
+SHA256: e473539dea0ecd68a7be0ebd9cad3131b190267651e6d48925f71d126516b747
+SHA512: 06fdb8511848366e830b81854e54a5ed4504bdcb1334f7b741cc10078af0e373f43ba07c5aee5fcdc0f8ccc49b74d8655ce4b0bb440a45a36f8156a18211115f
+
 Package: libgnat-8
 Architecture: i686
 Installed-Size: 3840
@@ -687,6 +762,21 @@ MD5Sum: ed0d4a6d33b625853c829cfa468cf181
 SHA1: 926b7683d8e04ed7e1b34033cab5cec63552f244
 SHA256: 22cdd4b4ba3babaaf047f05ac554711e9f54bac84ecd901808a78cc9468ac5b8
 SHA512: ae07029b6f2c042708cc1eeeaca283bbcd9d152f01e4cce95a1dbd131cba7cc318e62aa2b4c2332cdc7312c1b653af773bebae3497fed9ad11c13614d13d303c
+
+Package: libgnat-9
+Architecture: i686
+Installed-Size: 3908
+Maintainer: @its-pointless github
+Version: 9.2.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9, gcc-9 (= 9.2.0)
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-i686/libgnat-9_9.2.0_i686.deb
+Size: 978768
+MD5Sum: 0ab70a6a449a8b2475d120c041c338cb
+SHA1: a2bd0acbcbc61bbf735d84e187c7f976367e15f6
+SHA256: f9c55430d6b8c102cdd201bc07e4715a8f4a55a5ea9ffd708c06719d7abb9c01
+SHA512: e9db52ac8fc4ec080a1b610fccff8019c7d00db0e91b78192e2532104e7f06619860d2d7bd461b421304cd2c05754023984810bcaf0c2ad4e3badb36dc9ce5e8
 
 Package: libgomp-7
 Architecture: i686
@@ -739,6 +829,23 @@ SHA1: 70ca45943297a9667f479ac4d4dc1ac53cd5154e
 SHA256: 0945eb3af8d69545548ad07f1d52a8ee402d44b418884f02c33051565cecd8c9
 SHA512: d1a3890f62bab8a1144177d3d5b193a710daff9c5692bfaa7074055bb38dc3c40a183c0d31d34766b902901d74b5786fff7c541dfb037581ee5de0d11bddb9a2
 
+Package: libgomp-9
+Architecture: i686
+Installed-Size: 276
+Maintainer: @its-pointless github
+Version: 9.2.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9, gcc-9 (= 9.2.0)
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc-9
+Filename: dists/termux/extras/binary-i686/libgomp-9_9.2.0_i686.deb
+Size: 75692
+MD5Sum: a68c7b3bdebad619737e8a20d32cc2ca
+SHA1: 70c19918fb6d6c6f4674b102496661f4df54e5b1
+SHA256: fd692d9bb6c5555eeecc7c468737a013a48dca1ac41bdb16b6e833584f8b576f
+SHA512: f1d1249ea8e9b7f1c94873564c0a419880e7b2680777f2e7cf98b6f0214701ee8ae9ae4a85d95f92e3e771fb5e29d77c01de74f1cb27afd383f3439e73a6f53f
+
 Package: libllvm-julia
 Architecture: i686
 Installed-Size: 43792
@@ -782,6 +889,21 @@ MD5Sum: d3df330596810398e09118f92311f351
 SHA1: 8442f10ea96ddd2720ad863ec929e901c51972de
 SHA256: 426c8be0b15341524d6d0113eeadadfa41e02293a3bf8c5bd572b74a61e369e5
 SHA512: a3f6435d3fe5b845d6c4c3e771919214f61192bef1f2c5ae165b3753c22f24f62f041320831d83afea1b83d77b40b968e002c93eaa01013c66f8f3a6c38dc57b
+
+Package: libobjc4
+Architecture: i686
+Installed-Size: 208
+Maintainer: @its-pointless github
+Version: 9.2.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9 (= 9.2.0)
+Description: GNU Objective-C runtime
+Filename: dists/termux/extras/binary-i686/libobjc4_9.2.0_i686.deb
+Size: 53236
+MD5Sum: 34dbd211217eb3aa56b0df618870fc7d
+SHA1: baafa42519446721523d37396fb1efb252a93674
+SHA256: 51ec688aeb18719085a7b0ca9e49c3da6fbb46050d93968836509cdcef1fce0d
+SHA512: 96b61d601bac0f20319996e0f5f96dad1e548c211d1cbd0afae34c9fc2d0e81b6a7f899d002a5f715f29d01dffbf40bde8bdfd53c54b7726729b0ac18c6b7ce2
 
 Package: libopenspecfun-dev
 Architecture: i686
