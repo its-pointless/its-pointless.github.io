@@ -2061,6 +2061,21 @@ SHA1: 76ea4853267186c0b45b764e3abb30f37fb486a6
 SHA256: 5298c46e799cd4cf8ef8b29569feace3c3ca32c0d4f14d3cc889c648684a3619
 SHA512: 85ef2692845c4e5142abb233a0756ae8512c9b0660c74149c55f6143467e32815cb16d2587c19d7e8dc74704cc85ec9567dd9f7eff0a04bd72fa0be7e88e611a
 
+Package: vlc
+Architecture: x86_64
+Installed-Size: 12140
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.8
+Homepage: http://get.videolan.org
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api
+Description: video lan player
+Filename: dists/termux/extras/binary-x86_64/vlc_3.0.8_x86_64.deb
+Size: 2601218
+MD5Sum: 9b9cc312a8572e0343b301f4ce758690
+SHA1: 8a815520468399d2c4479bc67b7f700af5fd4c9c
+SHA256: 311231a0fb423478f66495f2b68ac92af31c1de064e33093dac24df3be8286db
+SHA512: fef0fbbc6610463ba119a4bb0cd1f275f3b69189030167296b64bc18b50d98bec4304a1b0cd82a205161ae1b17bb6a14e8ea597324045dadbb4f08d8fa9b2030
+
 Package: xmlada-dev
 Architecture: x86_64
 Installed-Size: 8704
