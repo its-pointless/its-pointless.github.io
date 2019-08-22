@@ -309,6 +309,22 @@ SHA1: ba2013cb4e08cd5cad168cc24b275cb5ec116e52
 SHA256: d513f78e4dd93cd0994eee8b58c5d3b3668578e56cf235a1d6ff4f965d84a4ce
 SHA512: 190de6c5ce203f98d84c54e1994a9d037b9bd09bcfab46be15affefc15abb51aafefcaac8597a4fb5b51986a38a179fbf6f2285fcdf9ddad75a0c7f2989f0e0a
 
+Package: ecl
+Architecture: aarch64
+Installed-Size: 6612
+Maintainer: Fredrik Fornwall @fornwall
+Version: 16.1.3-3
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi, libgc, libgmp, clang, libgc, libandroid-support
+Replaces: ecl-ext
+Description: Embeddable Common-Lisp
+Filename: dists/termux/extras/binary-aarch64/ecl_16.1.3-3_aarch64.deb
+Size: 1491516
+MD5Sum: dae7fb22e6a6be546f6a367a1bce4c7b
+SHA1: 694b556f6d366503ca5f9cdc96ad192182f15c82
+SHA256: 16c3140f9e1e15b15bb5cfaade25f9380802a53cd0948f9a247d9cada7a45b84
+SHA512: 5b79419e78243b6cba2f0852d8c9fdb6060925d6f829125366dd2ac033afbed0525cabb13c951d9c9748c93974590f0cb24478042c62e198d8bff63ae879bd5f
+
 Package: elfutils-ext
 Architecture: aarch64
 Installed-Size: 2020
