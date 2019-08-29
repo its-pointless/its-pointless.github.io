@@ -58,34 +58,35 @@ SHA1: 24ffa122e944ffb5685c544f889eca803c058d0e
 SHA256: a7bc8d9f24d278c46bde3dad30fd1f13fe920e41ca40f01f7487e85fade208c1
 SHA512: 6dd2971b1e1388e52864c157e34bbbfa1dc67aac4b50d6e1c519f4ee638e9f9eacb32d93abce587f5a2d4308d93a9640dbe231186c802db4dadc900e6ed7aaa6
 
-Package: bthread-dev
+Package: bthread-static
 Architecture: aarch64
-Installed-Size: 4
+Installed-Size: 16
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2
+Version: 0.2-1
 Homepage: https://github.com/tux-mind/libbthread
-Depends: bthread
-Description: Development files for bthread
-Filename: dists/termux/extras/binary-aarch64/bthread-dev_0.2_aarch64.deb
-Size: 988
-MD5Sum: fbe3fd09c8a4b8244066689a10181744
-SHA1: 630e813ff8b0349efd351d6cfbe1bc172e9eaca5
-SHA256: bfbf8a064e27e587e2fd6619618a69c160ee9e578ab61309c260520b2bb16ad2
-SHA512: 9c92d0456d87b516fe26b166a0846cfb2503ee6df337c71f532db1b0dcea7a5b11d920dc7a495b65413fc4deb4cef4820d2e5f787cee1f07688d00b7f9b73525
+Depends: bthread (= 0.2-1)
+Description: Static libraries for bthread
+Filename: dists/termux/extras/binary-aarch64/bthread-static_0.2-1_aarch64.deb
+Size: 2742
+MD5Sum: c0193d1d9da7751a70da19f4a30a0d76
+SHA1: b553e53564158a70344107e987c752a2afd63f04
+SHA256: 4d0008dc09afa6050510e6cb316970ef812cf6843c5574a1b2c1d4f03eb152ab
+SHA512: 27130d2b76ce28570a8382171ef423a56dee413ef2dc6bced4b6b6e021c6ec618d3a8348fece80bbe9313c0941c58e003cb2823cb559dec288d597b6596b3b8e
 
 Package: bthread
 Architecture: aarch64
-Installed-Size: 12
+Installed-Size: 28
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2
+Version: 0.2-1
 Homepage: https://github.com/tux-mind/libbthread
+Replaces: bthread-dev
 Description: pthread-cancel implimentation
-Filename: dists/termux/extras/binary-aarch64/bthread_0.2_aarch64.deb
-Size: 2538
-MD5Sum: ccd6253e6862d18e6f7d59a97574926a
-SHA1: 059c42296205d0a7c101d604f3ad00491cf919d0
-SHA256: c8011f096d705f635591d78037781f9b42a36873ee8638227d72eb759c4d52dc
-SHA512: 8b689011cfe7d833d36e6b3d8e19e829a708a92d8cbf53a5b413ae824d0fa2731fca90242b817ea8dcca48a63178a9197bc102712c6e421e569457e6f368f3ec
+Filename: dists/termux/extras/binary-aarch64/bthread_0.2-1_aarch64.deb
+Size: 2954
+MD5Sum: ab9f6288038bf9c68dcf6341cddff82b
+SHA1: 3ec6a660d36ea01d1e1c47b7661d67190bea096c
+SHA256: 3b92df7fa05e0f3e0771be88f2ab1423df88531e9f4eac9c8ba625bfab9ac519
+SHA512: 2956d9f9ac494de21d488befaaf9824e180fa789fd344343f4326660ed27e867b15c1ce2c49fa876ab2105f9e7ebc9fac11b293b1180f27d617ed050b38f54f5
 
 Package: cksfv
 Architecture: aarch64
@@ -628,6 +629,36 @@ SHA1: 868b8a1e2cb74b1f8df64b8bd8826df0996ad661
 SHA256: 6536e1bf52d90172005cceb371d9b60e256e7458f6e2a665b0f564078b2b1490
 SHA512: 19b096693072265071716f90bf0bdc252d1e6c6764131e6be67e5998ab34982a06bc4cf245b19bdd5cbfe1acdeb24355379f9b5c892ed4a7216ea1c2ecf8f4fd
 
+Package: julia-llvm-static
+Architecture: aarch64
+Installed-Size: 117152
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1-1
+Homepage: https://clang.llvm.org/
+Depends: julia-llvm (= 6.0.1-1)
+Description: Static libraries for julia-llvm
+Filename: dists/termux/extras/binary-aarch64/julia-llvm-static_6.0.1-1_aarch64.deb
+Size: 14372216
+MD5Sum: 6d08a676a3f2edc0e545f29a55b89319
+SHA1: fa7d2343711e514f6e00b1d5a23c563ec6032028
+SHA256: 1b063faf80db8cc9ac06b5f82e5c65fde56e469dfbf651b71e2b0bbac019347f
+SHA512: 002e7aaea35f63bf050538fad4e67c8baf6665b6bc34984a301c4fc7f4ba613e010876ccbd70e919c224ada1eeac63329997a87f54cfd39063c37b870952329e
+
+Package: julia-llvm
+Architecture: aarch64
+Installed-Size: 165360
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1-1
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, libllvm-julia
+Description: llvm with julia patches (only useful if compiling julia itself)
+Filename: dists/termux/extras/binary-aarch64/julia-llvm_6.0.1-1_aarch64.deb
+Size: 20747498
+MD5Sum: d9d349f263ad92af9ef1c8b8a3158ba1
+SHA1: ac5024e3d099d1709a0794d08f2ec1b9e51db7d0
+SHA256: 7440024198023e5558afa8c33c3e2a478317329cc9e13c9d498345a7826885fd
+SHA512: a2c79b3109c92ebed193836b79ee9000b34742a262dcd69b11753306a0e280e04a912c8b037a4b02c698f183c8c5565a6b7cd10903c960363d73722e680d005a
+
 Package: julia-llvm
 Architecture: aarch64
 Installed-Size: 159368
@@ -659,6 +690,23 @@ MD5Sum: 537e29c203576ed3327297195bfc1e6c
 SHA1: c7acc087cd199c396e0216a3b282f695a650b844
 SHA256: a4299d9cfb94f3d48cb750aea596e1d64da0f5ca0f8dbc8744c165995196de85
 SHA512: fac011a1a5d41e1cee79ef03d14ea1b40a293e3c7c63bceba145b8d924e65273664eac01e4d3554a174d6222aa393781c1ff8c6d4b87e3baa0b8ac66a663412e
+
+Package: julia
+Architecture: aarch64
+Installed-Size: 170624
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-aarch64/julia_1.2.0_aarch64.deb
+Size: 23668740
+MD5Sum: 7bd780ed4e4a1102a8712e55576c6dc2
+SHA1: b250f506e781027e80506e62077ae98b1235f398
+SHA256: d861d9e6f5deeebbfeaf6a700ac8dd950d39cf6790cd2d3e37bdcda0417613cf
+SHA512: 6cc91223af6708b6af9e9adffe04cf9e3b234b28579acc3e1d8c3f9555c979f136f3317dd5329958dd55ee04be0c670470579a3f01bf3bf50c687139a3325e27
 
 Package: libatomic-ops-dev
 Architecture: aarch64
@@ -718,6 +766,21 @@ SHA1: 33ff7905c1e15f1deef3cffd6834c86e08d7111a
 SHA256: 853f22170bf815e034f314802d7f474332564538118435f4ea0b70a4f1215631
 SHA512: d4d3badb02db5dc1cedf422f4fc3fd36b5f478da343f0d590f8857eb0e7ad0459588eb4a303368120110c0fe22dead2d588e5d40975540965ca19e91145604a0
 
+Package: libcompiler-rt-termux
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.1
+Homepage: https://compiler-rt.llvm.org
+Depends: libcompiler-rt (= 8.0.1)
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Filename: dists/termux/extras/binary-aarch64/libcompiler-rt-termux_8.0.1_aarch64.deb
+Size: 27766
+MD5Sum: 5f97dfe9f9c2ae3c67d7492a7fee400b
+SHA1: e7088071789d02b4c778936c5e072ccbb926a416
+SHA256: 403797f2646c6fd056f322aa52c8c046ae5199cc4e17ed12d9d3ea79dcd14950
+SHA512: d972794e8edc7de43cf132a7265f1c042f7c2debc39515b8184af5cc5f2747d89eea9fc055daa79c14b95b216910e986576c485a7b8474e4c2cf17066c986216
+
 Package: libcompiler-rt
 Architecture: aarch64
 Installed-Size: 22204
@@ -731,6 +794,20 @@ MD5Sum: d4cd38b7291c6053e3c156a92986d46b
 SHA1: 26bb7f1a50302d92a1a256afbbe087edf59a5e73
 SHA256: 13b3b4bf5cf7a09b67dd59a9b85b4fd399504d4ba9aee95a2f0e6ec6e8516b02
 SHA512: 6b894064361c4bfb8c904c0b7f665595848ede87e06960efb6bf83d698471086daf6e69da546f332bc287ce8702caad0163ae90326da0d845411ab4a20e02aa9
+
+Package: libcompiler-rt
+Architecture: aarch64
+Installed-Size: 22096
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.1
+Homepage: https://compiler-rt.llvm.org
+Description: llvm runtime libs
+Filename: dists/termux/extras/binary-aarch64/libcompiler-rt_8.0.1_aarch64.deb
+Size: 1521230
+MD5Sum: 1d35780af11751ba24e5f0ec0ae78a3e
+SHA1: e2ba61ff02b7b67770709460af6351db535b0c37
+SHA256: ebc0611c3d0383188346bb8f55ba457143db38baeb9f2a6c86fa6ffa6b9d663b
+SHA512: 2862cf7658588fd372e2aa3c60f8d894d7c17c11a7eba4848dd683850ff9b68976fcd98157c447d152d869b4447a0836418b5beb3c57467ee653cd5524fc53fc
 
 Package: libgccjit-8-dev
 Architecture: aarch64
@@ -1109,6 +1186,20 @@ SHA512: 1b3206d299ec1ab7fb51e64f8593384572c49bcd17998df4583c7cfdac3e629fd65f11a4
 
 Package: libllvm-julia
 Architecture: aarch64
+Installed-Size: 55280
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1-1
+Homepage: https://clang.llvm.org/
+Description: patched libllvm for use with julia
+Filename: dists/termux/extras/binary-aarch64/libllvm-julia_6.0.1-1_aarch64.deb
+Size: 10047784
+MD5Sum: e1836d6d4dec74de738009b9b3dc5045
+SHA1: 1a1d10d650cd8e67f22e0c9b85e42a56e24758ee
+SHA256: 38576c1939cd9b397a563cdd675bb429c0335cd805cda81754c1a1ceadd76a9a
+SHA512: 72f555474b4492ce638aa144ae7756771bf4625c432f371d426613ea3a54ffcf21094b558484c9a45c86bc990d23ef650eb2a1f0c27edda10daa4376d108b8f6
+
+Package: libllvm-julia
+Architecture: aarch64
 Installed-Size: 43396
 Maintainer: Fredrik Fornwall @fornwall
 Version: 6.0.1
@@ -1478,48 +1569,18 @@ SHA512: b4d964ed9c09521d35cf36e591e00a7a8a2ff2ccbfb537f9504aabd9aac5d5baa5547163
 
 Package: numpy
 Architecture: aarch64
-Installed-Size: 16044
+Installed-Size: 18328
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.2
-Homepage: http://www.numpy.org/
-Depends: openblas, python-dev, libcrypt-dev
-Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-aarch64/numpy_1.16.2_aarch64.deb
-Size: 2395570
-MD5Sum: aa1c7533ef720521b49551eb4ada184d
-SHA1: 8c46d21694a16fdb2394f1ef832f37c62746a522
-SHA256: 9c5870cb462cc620a07746dfb74b26d0583810e36ee909a27f7758d643d4f663
-SHA512: 01be6b6291c522435525df4ade83b496af4f60171fd553e9d78eadb12cef5287ff4b6a910f06fda07266d7d9e154d5aaa1bd2fa2254878b546cf8fb1d911f112
-
-Package: numpy
-Architecture: aarch64
-Installed-Size: 16048
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.3
-Homepage: http://www.numpy.org/
-Depends: openblas, python-dev, libcrypt-dev
-Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-aarch64/numpy_1.16.3_aarch64.deb
-Size: 2397620
-MD5Sum: 80a9654910e7b700c0c22400a8783716
-SHA1: 777953dec9d9b427e21dbbea07b389db6951f014
-SHA256: 24df774c846d9c2ee6b9c12fe4fad678d1958442cd5d0bb3f9eada31e029dcab
-SHA512: 4ec61d98e3b299f01892156284c9c710694ac48cdfb16bac76435a5fdaa697329aea46ef1e855c5d10d4eaf54bbca1c006a56dedd51bfefd34221bff18f8f30f
-
-Package: numpy
-Architecture: aarch64
-Installed-Size: 18580
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.17.0
+Version: 1.17.1
 Homepage: http://www.numpy.org/
 Depends: openblas, python, libcrypt
 Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-aarch64/numpy_1.17.0_aarch64.deb
-Size: 2829942
-MD5Sum: f4b3892e86c333932e7a625aa1a07109
-SHA1: 699988768b225ba32c4680e2331f9160ea72f4a6
-SHA256: 039baa234671aad275774f8292eb04ea34e8330cf71bd82fa2dcc4fb3f21ccd2
-SHA512: ac190d62cc033aee0a5f3e2d9193058c96a97f9684082e0114dec4d7dc8e6e7ae61d6892d4c465e4b6887a24dfe136201b29a2435bc681c639cea3cb06670d51
+Filename: dists/termux/extras/binary-aarch64/numpy_1.17.1_aarch64.deb
+Size: 2823146
+MD5Sum: 1eb5c1d36f3532de8d323be9b5630f77
+SHA1: 5a4a01de7e37390b9f3b8eaa7fc6275d5f8d4f58
+SHA256: 90b6a7a4f0eeecaac1bf465fc8fde42939d43624c003ca7a1e9a5d854c9d9891
+SHA512: 88bc858999f3ad6bdb1ad382a5a9c2771202b7c29255d90aa588838270c601bac8cfa2014a1f5d4e29efd473b98a432365e4dfbf02ed876bc1bf78dd18767a91
 
 Package: ocaml
 Architecture: aarch64
@@ -1613,20 +1674,35 @@ SHA1: 164814ca531f0b1a5804113a4238aa13a56062c3
 SHA256: 0b3b66ece87894ee816151dfab1c35dc92ea11822b9a57e978ff3359f9d5a38f
 SHA512: f7f1d6d1c5f8bb0f331b7fd495d1ab4ac9573d15d4f49bf6b36d0eeddde99c3ec3686135ffdfb53f20df3b84f5a4417534aa1438c91a23a105805bd00c24fa4e
 
+Package: openblas-static
+Architecture: aarch64
+Installed-Size: 22364
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.7
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: openblas (= 0.3.7)
+Description: Static libraries for openblas
+Filename: dists/termux/extras/binary-aarch64/openblas-static_0.3.7_aarch64.deb
+Size: 2246420
+MD5Sum: bc3bd74bad681b1691485d2c561ea114
+SHA1: d374fb6e11971ff635b37322063e0a9de3b204f2
+SHA256: c57d0290d8f37e5aa7efafe8b6d4d03db5a5855f4541472be965bc18b85fbb90
+SHA512: c1d269d96023a40e0e395b964e0a87411f21a3974a542af4ad085753bbfb66b2020ba3334a2af49f6d79fb51c762f61d3432335a4c84eeeeaa3160bd1f2bf7a9
+
 Package: openblas
 Architecture: aarch64
-Installed-Size: 10928
+Installed-Size: 11016
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.6
+Version: 0.3.7
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
 Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-aarch64/openblas_0.3.6_aarch64.deb
-Size: 2131322
-MD5Sum: 87fdd7bc92517dcce124705b1878a564
-SHA1: 8a3584d9515c7456c5c34447519856409f21f4fd
-SHA256: a22208c9a130a4679299a5283b438204247b48b88c01c9317f21824adc1ba6dd
-SHA512: e9460e189938fa71e14648718fec31c84ca020769c0be5b1007b3a35437c3b7df86348d2ca6ed6e6ed4d84a261c8925cd3b8d03dda8f084e299eed1cd95be2e8
+Filename: dists/termux/extras/binary-aarch64/openblas_0.3.7_aarch64.deb
+Size: 2224826
+MD5Sum: 4cf156b64d8f4203ec8111ab3e2aa3d8
+SHA1: 775adfc8390cf3a0de15ebac4debeb6fe93c027c
+SHA256: c2512ce4de587db7fac5deee9e529dc754fbf3740e4f054e07d888db9bceb859
+SHA512: 678006b35ba83d95432c4688b05a0b45bc7a8b5acdd117a719d32cfcdf723ffd524feab0efed59b1874cb1826105d31272c8a5e1db6b5898807aa31e2d1c32f1
 
 Package: opencv
 Architecture: aarch64
@@ -1657,6 +1733,21 @@ MD5Sum: beb880f22a3a0f28d5ac5d0d4b7ee63b
 SHA1: a19f85dbbe4a22a67b2aa8d9031c7de6e2bf5a98
 SHA256: 40264dfe731689588359424441235acd9a8d01ea583e46208cd67b0401a89d88
 SHA512: cfa9de58a13fa5d31b1d8b790f5b745c61dfdabf7d45c657fe46333c2dfb7963572f25d841ff45f0db7294001a312f9954ef26ebfd5f1d26cce457c7b7d727a1
+
+Package: opencv
+Architecture: aarch64
+Installed-Size: 38984
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.1-1
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-aarch64/opencv_4.1.1-1_aarch64.deb
+Size: 6467934
+MD5Sum: 4a6b8f1fb10f6146088f5bbae51e00a8
+SHA1: d82a269e0ba6afb3c712656edb1bce6cfa883edc
+SHA256: 36cc28dda11a741ae7b53dbfd2460ff37f2d484a21faff0bb8b5fc25a2c1fe54
+SHA512: 80887f67c07e11febbc2f1d6f2d8217ac8f0bec9b0a75071f24f2db7b8bac9f7236087a0f7d2044994bd1e0d65fe6f4c28f43614cd9bcf43bc2f0d7576031616
 
 Package: opencv
 Architecture: aarch64
@@ -1795,33 +1886,18 @@ SHA512: 9f8850e713ba8edd1e5e01fcf8538c721f51ef25f94bd014f6702bbfc1bab0ae49e2d4d0
 
 Package: python2-numpy
 Architecture: aarch64
-Installed-Size: 16416
+Installed-Size: 16420
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.2
+Version: 1.16.4-1
 Homepage: http://www.numpy.org/
-Depends: openblas, python2-dev, libcrypt-dev
+Depends: openblas, python2, libcrypt
 Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.16.2_aarch64.deb
-Size: 2402404
-MD5Sum: 7292277bb76bb1815d91b384cc430ca6
-SHA1: a3a830521b211da6e256e5acd04e75155a9f199c
-SHA256: e84b20c66cbeb2fba1dbad066727ae002eebc644e7b1ba3261c4ca2c2b76553d
-SHA512: fd89c26b7af1dde886dd6e1a71ec44d8aea37f033e340e3bf5301b9e514b1b98e1202560b002f6f7de51d65998b1884bf892646f5b5e718b2e71fcfced9f4799
-
-Package: python2-numpy
-Architecture: aarch64
-Installed-Size: 16416
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.3
-Homepage: http://www.numpy.org/
-Depends: openblas, python2-dev, libcrypt-dev
-Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.16.3_aarch64.deb
-Size: 2405302
-MD5Sum: 08c9b0b2c74a08bf888688a3ce94007d
-SHA1: c830670168830a26bd560c277533e358b34b4469
-SHA256: b0fd7cee9da7f3c7ee067ad72f339ceb0a86d1faf63d659d0f5f9cfa13a8602d
-SHA512: 8dee6486d08cc5beae35e270708abba50e717b451c5a514efad0f3d844ede621f47e8d40b27099e33ce56884d1532760b8f0d6e9a24867380960e42b62d0467d
+Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.16.4-1_aarch64.deb
+Size: 2408260
+MD5Sum: 59973e7f803c77911bfc762d86dbf86b
+SHA1: 7c57bf01ae762b7965a1ca372c1a1d14c8340e3c
+SHA256: 04742345c11ce46dca205c3d7d73d9c5230cf96152925d6e629829bc971b331d
+SHA512: 21b1bfb85a1da8351098b6b6340270f5bfea980b9c467bd9afd2c837f5cf757cc21a993431817247e02b6819bd8e8b90d7cac07da0e56085606623ef916e14b0
 
 Package: python2-numpy
 Architecture: aarch64
@@ -1840,48 +1916,18 @@ SHA512: d5f0cad2c67cb3bb158b663408ede3aa96f5d6900515ac0fd75fd1810f92f2ddbdba70f1
 
 Package: python2-scipy
 Architecture: aarch64
-Installed-Size: 49576
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-1
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.1-1_aarch64.deb
-Size: 10359774
-MD5Sum: 17b4edcfc8683e831c5454d711f4acb5
-SHA1: 118ce42be54b59a3ca3da3374cd82e4d602302f4
-SHA256: cb7c2c6b794eec934df252b0466c33997a07f1001b33a00dfb28a11b43b1953c
-SHA512: 49c3dc0d343e7ea23ff4db62dc2c63ebd9057b311613da8020b571e1372e3303958068717c3fac17db54a15e1d0cd05d001aeb649f326e44055c13b502a19d2e
-
-Package: python2-scipy
-Architecture: aarch64
-Installed-Size: 49548
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-2
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.1-2_aarch64.deb
-Size: 10416498
-MD5Sum: 03f92f941f4bf1f46d81b2810c765d72
-SHA1: 98f2f19114878fb61ec992d4fe785c0822e9669c
-SHA256: af9369e0b05a05087cc8cd8505b2d303e66a91c258213a33cf5883f34aab3ec1
-SHA512: 73b206c037cc98a9de11a5df5e33cddb5171492c5e49b1a616bfa2d6847d6182210398ca652e0129bfac66e4e23134c8dfd872b0f7b0ccf8bc578805cdc19edf
-
-Package: python2-scipy
-Architecture: aarch64
-Installed-Size: 49516
+Installed-Size: 51556
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.2.2
 Homepage: https://scipy.org/scipylib
 Depends: python2-numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
 Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.2_aarch64.deb
-Size: 10402430
-MD5Sum: 12680e5355b58323d9d53bf1fa3c8956
-SHA1: 7402777df8c1a1a2097e83b49b15f7e5640b225f
-SHA256: f1a7b106f9632ff908e68ecba69a3b7fda4e87e405d9676a95ae0f8f25ef0c97
-SHA512: cb8856231d629a10d833028bc4a0b1092745710a96ce51445ad8a61124332e36c299afba472ccf5b76c500ed448abc15a87d597e2ea0622b657bb04c0415e9c6
+Size: 11101200
+MD5Sum: d41887c3ff89b24eda31ed938c744696
+SHA1: 82d79656d087b3c395302070b8c42b3520e8b3fb
+SHA256: fbedeef2af541f3ad5e7b5a65233abd705c8a1f98cc0d5cf93c9a85fa3f32aea
+SHA512: 959cd9d50b08a7f5158fdbd471727eef3b1fbdfbdfe73119541067c74bda6955bbdaf2a90a82507bd6caca5417f66774a3e3f90fab3d6b51f122fb3f628b541a
 
 Package: qhull-dev
 Architecture: aarch64
@@ -2287,6 +2333,21 @@ SHA1: e07d6a70ca98f6563ca8bff3d1e6402f00640e84
 SHA256: de37425d3c7fb8039105e98ec08449802ce2c716b8a44943c30f60b884d0c965
 SHA512: a7c9acc626e168b9683d6d3afd9d2c278af7a8a8aec35abe27dfca1b9080fc7eec5fa93dd795030f559a0d625ce7adac84b97193166cc7e790da5c19e76d7393
 
+Package: scipy
+Architecture: aarch64
+Installed-Size: 50740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.1-1
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-aarch64/scipy_1.3.1-1_aarch64.deb
+Size: 11090424
+MD5Sum: 78f2640236207f215277a163dd716cc3
+SHA1: 44791f4df72d96978760c997a417b90a20221527
+SHA256: 6e325aef138952d1a7d27150c3a6c5b3019d7a2c7863f41cbb6f0fe8906c768c
+SHA512: b795a1fff5791e94120fef51546c5a64f525d8c106ea2e01690525a3b81c13008f23a9daa3b5192862fd7f11053e30ffe04913351c3f3ad96da1252875f02c0e
+
 Package: suitesparse-dev
 Architecture: aarch64
 Installed-Size: 796
@@ -2345,36 +2406,6 @@ MD5Sum: 2388744925ac76016b06c07f20c4f91a
 SHA1: 275e6e6233332c59e5677caec9e20d46823880c1
 SHA256: 4b323c3b8cef4941b39be75ad913580980723f64886459de20436ffbf375348f
 SHA512: af6a2e94721e4f0102cc737fbda7e7dc6609d579b93b20619f82f57a8e09bfd79348cb5a96e5ec96322b524d4eeb6325c2f7175db309faa8cc8d4ee29003b025
-
-Package: vlc-dev
-Architecture: aarch64
-Installed-Size: 1144
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.7
-Homepage: http://get.videolan.org
-Depends: vlc (= 3.0.7)
-Description: Development files for vlc
-Filename: dists/termux/extras/binary-aarch64/vlc-dev_3.0.7_aarch64.deb
-Size: 180772
-MD5Sum: 96f931dfefa438d16502da9f85c319b1
-SHA1: 9bf8caa627a615880914c69f9ad063adeed2a1d0
-SHA256: 59a76dbd887844ca5f5748ff87045b70012be3f59d0f47a9bb82173250529aad
-SHA512: e57195cea9e5e32a938ea17d7abda79c0b93b053d67c733b6b4851dbb25958261eb0ec21935ecfadaf6b84a8ad3df9410d6c9d19364f97761b9b2a75e0cff4bb
-
-Package: vlc
-Architecture: aarch64
-Installed-Size: 11476
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.7
-Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api
-Description: video lan player
-Filename: dists/termux/extras/binary-aarch64/vlc_3.0.7_aarch64.deb
-Size: 2107876
-MD5Sum: 436fd18ab3a33fdce28647f50e0e9ed7
-SHA1: 7266ee01e9c8d467df09cd597077d6e780a13180
-SHA256: 75558808c4b477f6749fbcb22e299fe79efa3b73a9ce08fedc82cd0918bdc374
-SHA512: 05464fd53fe5ee42e0fcd9414922a1065d2e359d3b479379804f6d8d81ef5ecabc3fc99457ec63dc1927cb8edd4b805e6ba76402762ef651e26a9bcc5f8636b1
 
 Package: vlc
 Architecture: aarch64

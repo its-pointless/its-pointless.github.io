@@ -43,34 +43,35 @@ SHA1: 34d06e1b2b19cf90a65d08d428971bc030564ce1
 SHA256: 7183f4a3eba7e1d9140d172438a376fb90cdefc8474593af3c9b43c557b118de
 SHA512: de4a130dd674cb2f2f7bd1ef6a7b7b6e6a61396e93ace85d7934a4adb5fda7489003fe80ed47fa96a41ca85cfbeb08265637b8d6f397a29dd9d5d691b4bdb972
 
-Package: bthread-dev
+Package: bthread-static
 Architecture: i686
-Installed-Size: 4
+Installed-Size: 12
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2
+Version: 0.2-1
 Homepage: https://github.com/tux-mind/libbthread
-Depends: bthread
-Description: Development files for bthread
-Filename: dists/termux/extras/binary-i686/bthread-dev_0.2_i686.deb
-Size: 986
-MD5Sum: 32568b5609dc6cc4e640d67391c63190
-SHA1: 51fe2beb3f7b22db5b6efb3ae0106512ad8b7343
-SHA256: 39ce1c55ded9dfbe69186434ada5f52493bb5dbd8dc0a2697810805ead5feb3c
-SHA512: 2d9c87f44fccd61192a581f24a201365b36e0e9165c9270077c2833467562568763dc3c2703b62d41d4c562c12b25e72f9e05e51bf45e372250e5ae846c995ca
+Depends: bthread (= 0.2-1)
+Description: Static libraries for bthread
+Filename: dists/termux/extras/binary-i686/bthread-static_0.2-1_i686.deb
+Size: 2656
+MD5Sum: 53046f1e12796fce64ca2e33e61fc644
+SHA1: 2b6256e98227fcb087351f28617b3b0a8a75291d
+SHA256: 58a58ea4196646c74425a2d05829715626396be27240562846ae51d54de6fdf8
+SHA512: c512512a478f1fc8b1644c5e97d00542380c4fd2d9695156c6a1be921ff40e07881a5a0c07e28ac6574e188a24543e0530a4ad85c4ff50c10135a0918a31af9d
 
 Package: bthread
 Architecture: i686
-Installed-Size: 8
+Installed-Size: 12
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.2
+Version: 0.2-1
 Homepage: https://github.com/tux-mind/libbthread
+Replaces: bthread-dev
 Description: pthread-cancel implimentation
-Filename: dists/termux/extras/binary-i686/bthread_0.2_i686.deb
-Size: 2620
-MD5Sum: 7c648eff1dab55238811a4413384a35c
-SHA1: 5d222738ed7c8fb4f653fc81dbf986f865fb3ab4
-SHA256: 29dd23674c480bf03431f602124f7e03ed8673e8a78ead374bf4af321b4aab8d
-SHA512: 86d1c0be607028c70f3b951f01e2389e741e2d56a41449c2ba48cabedabf498e46eaecaec783590894fd830025a04ab85de3151ed35ca48223ac1dbaa6d6188e
+Filename: dists/termux/extras/binary-i686/bthread_0.2-1_i686.deb
+Size: 2958
+MD5Sum: 5c64f631826d5d3ecbe4e459ffdf6c07
+SHA1: 1a8fb5363330fc1c8231ca9a4d94511cc0780ae1
+SHA256: cd6a90219933facf1b15cd5bb139a41690b2c0833d8ace518408ce056933fbe8
+SHA512: 6d54b13e05521ba848bce9151414ff35d4b6317d90886f17cea1078d2c190222b90fae6f22b5d02fa209c98ac20355ee2bf40b4941a0b99e3f2a9c377881a976
 
 Package: cksfv
 Architecture: i686
@@ -494,6 +495,21 @@ SHA512: 911cadeac6a9cf786ba69b526c4b360790a62592cf362d69b1a9c910073f64a5a528119e
 
 Package: julia-llvm
 Architecture: i686
+Installed-Size: 140288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1-1
+Homepage: https://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, libllvm-julia
+Description: llvm with julia patches (only useful if compiling julia itself)
+Filename: dists/termux/extras/binary-i686/julia-llvm_6.0.1-1_i686.deb
+Size: 21773610
+MD5Sum: 6412061eb4d3161f0d00e47fb2cd8297
+SHA1: 32e0d06e2de27512c69589cc7b2143d86a7fc9d5
+SHA256: a90d005a8fd19544fe8f360340d8d4d1b1f1ab9e8a4ae9f1ce52a334a76a8ff0
+SHA512: 4884c80c3cff1fadab011066e38ed1bdac113ae2b4695e72e2bff92fafa7f24fcc0624e74fb49318506d034bcb8c024d53e720772e0cdf3d6387ac9829316e86
+
+Package: julia-llvm
+Architecture: i686
 Installed-Size: 133564
 Maintainer: Fredrik Fornwall @fornwall
 Version: 6.0.1
@@ -523,6 +539,23 @@ MD5Sum: d7513093a60db900cab68ca1da549ae6
 SHA1: 050115ddd0a0096c65b890b3dee5553f97eb348a
 SHA256: a7c09fd30dd8483eda6ffe19af63207626ca644ee643411ffdf78daf2d0824ea
 SHA512: de6ff5b23f7c8215b7f44bd73d8835c03425b6cba294cd7acc3c744e0bb526f45cd6ca455133fca439173ef91093397390df70856b65670c8b3813bb5b330cb2
+
+Package: julia
+Architecture: i686
+Installed-Size: 157580
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.0
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-i686/julia_1.2.0_i686.deb
+Size: 25717282
+MD5Sum: 8c54a8470e517e32c2863837e6f2f7cc
+SHA1: bd8a898b8dee564e0c867e24586b544ceea3f0e6
+SHA256: 3bcb2fe15797493cffd557a41d3000e4e536f1bab019aa564047f9d64564bfcc
+SHA512: 992f8d730d89f00bc24782818259691b3ac65b4c38ebb91456739d26c2e8099c8c1980b04c558af2dc7d2d81e0f08e467b752023fe398ef3aa9fe8f74e7cea33
 
 Package: libatomic-ops-dev
 Architecture: i686
@@ -582,6 +615,21 @@ SHA1: 50c3b2a9f265635c1caf3582c7427bcd3ec729ac
 SHA256: 581604dae20f05ac6b21437d02a0fa8f98b89a0b85ca935a3be82fced2f429c7
 SHA512: 057cf4a73796f53ef7ffde409b364aaad3ed7be1e5bb9a9141479ad1d91cf1bffe1c0caea843e885bbae0d820b1438896434b2761c71368cb05d794ebc76452b
 
+Package: libcompiler-rt-termux
+Architecture: i686
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.1
+Homepage: https://compiler-rt.llvm.org
+Depends: libcompiler-rt (= 8.0.1)
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Filename: dists/termux/extras/binary-i686/libcompiler-rt-termux_8.0.1_i686.deb
+Size: 25550
+MD5Sum: 6a3f30f40b154def4258db15023493c4
+SHA1: 23431864c895855ba8d83991bb06edfaa0d8277e
+SHA256: 52cc2206747109ab67b90d9c2fe41d919c9f09815fadda1529385d117da7c011
+SHA512: 48ae3149198e71323fd7c5d9092d1d2ec1adf6fce84b3e7dd8ef01ac5c6da6947988fab70d8eba99c95f57ebe8cbf3bcaa93beab50d35a2d5fa62f5ee7405f1a
+
 Package: libcompiler-rt
 Architecture: i686
 Installed-Size: 8088
@@ -595,6 +643,20 @@ MD5Sum: 03b45a61cea5ed214a301cc4e36c1aa2
 SHA1: 73a2fe426b4c57473d2309b4f3ae2e537606a90b
 SHA256: ea31fee1f67b37c06498542ad9c1c28ea2e017426a6df54e2010bda40cb0bc32
 SHA512: 78e29d5f33a557057d92e4a170a4318f8965595effbf98f252e3ab831ebaa42fa13fcf007eefafa8a4463a64471d196dfc7560a52120259cdc7623949859928f
+
+Package: libcompiler-rt
+Architecture: i686
+Installed-Size: 8108
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.1
+Homepage: https://compiler-rt.llvm.org
+Description: llvm runtime libs
+Filename: dists/termux/extras/binary-i686/libcompiler-rt_8.0.1_i686.deb
+Size: 787908
+MD5Sum: 1687669efe0f9848c95b8c8706e3ac4f
+SHA1: be3c4bcdd5aff26193bba37e2848cf6473dd3f5f
+SHA256: 57c12cadcaf8cbb089339a1223cf78b6a0fc4d6e9ee58c05f97e52a61b8d0425
+SHA512: 5c98754063256bcb00c4d7105f8ad51d34fb67203d74ee99f9e853922747242b1da4077146752425fa308928a2c8d1cad9ef26c3f5b3a8b5a275f123ab758ee2
 
 Package: libgccjit-8-dev
 Architecture: i686
@@ -845,6 +907,20 @@ MD5Sum: a68c7b3bdebad619737e8a20d32cc2ca
 SHA1: 70c19918fb6d6c6f4674b102496661f4df54e5b1
 SHA256: fd692d9bb6c5555eeecc7c468737a013a48dca1ac41bdb16b6e833584f8b576f
 SHA512: f1d1249ea8e9b7f1c94873564c0a419880e7b2680777f2e7cf98b6f0214701ee8ae9ae4a85d95f92e3e771fb5e29d77c01de74f1cb27afd383f3439e73a6f53f
+
+Package: libllvm-julia
+Architecture: i686
+Installed-Size: 53124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.1-1
+Homepage: https://clang.llvm.org/
+Description: patched libllvm for use with julia
+Filename: dists/termux/extras/binary-i686/libllvm-julia_6.0.1-1_i686.deb
+Size: 11422048
+MD5Sum: 79f11379a3aba3a56dd43e6fc86043f5
+SHA1: 3affc08d89ba4483f457f613d78e2ecfb19f1145
+SHA256: 7f818a5f7dc8953907100786c9e7232391d3b38e0d901e387c2bab62a7bd1f74
+SHA512: 39b3da084715ca30a58b4d5799ec1c46c82ff6b823663e5d99f9c87c0f28dc9a03c3c5608c62b8ca3e9d1ff4dc20bae17fdb9d1515391f703805107069897925
 
 Package: libllvm-julia
 Architecture: i686
@@ -1143,48 +1219,18 @@ SHA512: 01738b8afaa8c4a979469c68d8d194a60e42693128e92ba926c4f93271559be3bad95abc
 
 Package: numpy
 Architecture: i686
-Installed-Size: 16312
+Installed-Size: 18528
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.2
-Homepage: http://www.numpy.org/
-Depends: openblas, python-dev, libcrypt-dev
-Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-i686/numpy_1.16.2_i686.deb
-Size: 2546296
-MD5Sum: 8980e0e69c061d0f25a5b5e10c8c78b7
-SHA1: 4ca3d3730f4399571b2969a8a1573302b59720b0
-SHA256: a1dfdf235b8a51e6c14183de1e05e788c81718969aeba0a18179bd08b78370c6
-SHA512: e2ec8ffbcb2f1b3e0f4289f370c4e5d978d0942a67f86b582b80d88e2995bae25e0bd839d4f031eb665d7d68e24e24fcfa38d6d47296ea41098d596243d0abba
-
-Package: numpy
-Architecture: i686
-Installed-Size: 16308
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.3
-Homepage: http://www.numpy.org/
-Depends: openblas, python-dev, libcrypt-dev
-Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-i686/numpy_1.16.3_i686.deb
-Size: 2545616
-MD5Sum: 58a794a54704582fd3fc97a48dac6ca8
-SHA1: f3b6f3437de42ed21cf89dadecb9bbe553331418
-SHA256: b14bdd993117ca4bf73c5a5b9c0e7efd87923a0362beb9b289a9a90b5c78e318
-SHA512: 008ac0796b0d5ca52a21bba1781d41fced94e80551f79b91cfc9d07ad1b76a859df181487098d892e4fbe9e06afb83497ab1ff3bd0cfa7823137514ed13da611
-
-Package: numpy
-Architecture: i686
-Installed-Size: 18520
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.17.0
+Version: 1.17.1
 Homepage: http://www.numpy.org/
 Depends: openblas, python, libcrypt
 Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-i686/numpy_1.17.0_i686.deb
-Size: 2984150
-MD5Sum: 43a387a70ef4fc9826d0daa47165b23d
-SHA1: ce13f26804b84755da45d6f4e296dbaf55cdac15
-SHA256: 83e617e87db5e7ead498dd94838f2a634ae767798379d850c6ad505ff2460a88
-SHA512: 0fb359f7194df112d97d2f2f1c4e0244ebccfa19f4aea3b5dee3c0a0bec63cb6fc35c65fd33ddc604ef9743850b6b37bfd21ab5cd0d0e29ca2f04ce1f42e8b78
+Filename: dists/termux/extras/binary-i686/numpy_1.17.1_i686.deb
+Size: 2983452
+MD5Sum: 3d1bf5af43557fdcf0fabc9b5a216218
+SHA1: 41e00c08230f9fb023b95cfac785b265958c3fdd
+SHA256: a359782f2456c7bab865c54039577d589ca4ee61863ae7fc5078ef8672902591
+SHA512: 473eda5361e331d3aab0515be5f6693e8608bd87a2235eb0c3eb6e18e36c74a6d1af7c1b0bb7896e1d1eecc941681346c2cd7480e911175e7928bd4dbc22015a
 
 Package: octave-dev
 Architecture: i686
@@ -1276,37 +1322,67 @@ SHA1: 4d7aadc3925637ac2867a66820a23679b83da149
 SHA256: 656407e6140eb8e6b8df9f4fb77b7c3cce2ca8e98f87f0b04ccb1d5be0784240
 SHA512: 57c00ac3d5ec4430dff36ff430fb972f7f439a266b06816ee99ea9eb0796926d78dd1af277b3f9882beb8c3a36b86a047d7b509fac2ec56a63e9d82c226ab14e
 
+Package: openblas-sandybridge-static
+Architecture: i686
+Installed-Size: 23524
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.7
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: openblas-sandybridge (= 0.3.7)
+Description: Static libraries for openblas-sandybridge
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge-static_0.3.7_i686.deb
+Size: 3142190
+MD5Sum: 325c5710941c37e3c0041bb1d596e3a9
+SHA1: 6fccd8a32346e4fe1cfb944edd68808b31d1887e
+SHA256: 027f0595778e090f1ff11319471577d9e484637e13291ab02479b4d7947beeee
+SHA512: 4d28ea0ea4ae6cf6d6c78978c726b6bf17286f681367696997b7eae318a0e0c3979dc9fc1d46d502b6ebcca8eb672fded0b9f0250c41f04fa3a1c27e31bd3ae3
+
 Package: openblas-sandybridge
 Architecture: i686
-Installed-Size: 14300
+Installed-Size: 14788
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.6
+Version: 0.3.7
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
 Conflicts: openblas
 Description: blas library optimized for sandybridge(chromebooks)
 Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.6_i686.deb
-Size: 2916352
-MD5Sum: 1da31b5a426cc63211fe700bb992866e
-SHA1: cb8a7f7c3b1fbbe68539647a4506731feb52f24e
-SHA256: 6b60b320a346c97080fed1938e9e5a97bc4a7fa6ac6a869ed355cef07673df94
-SHA512: 1da481f3ff831c9246f4c7910e392e6fd4cd5c427e12953e6349326be366e5556ac8575024129b158ea4ff160a410df343341c7a1ea74e3e64094245f642f9ae
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.7_i686.deb
+Size: 3119940
+MD5Sum: ae01ab420010b4ce8e8968da096b9452
+SHA1: 68bbcc71cb9a8e6d55efed04af60014b108cb87b
+SHA256: 55e845877b1206e445a018ae1f82a5664b50bb181d87034bfac3f38d4346f3e6
+SHA512: 0407c0194fa62c2b23a79b1a1468164f07237ff0f461467e5a161d81ec46f9ffaa974a492a941de3d208cafd2ddaef0e35f8c1dd0f6024977b814719058fe635
+
+Package: openblas-static
+Architecture: i686
+Installed-Size: 23428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.7
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: openblas (= 0.3.7)
+Description: Static libraries for openblas
+Filename: dists/termux/extras/binary-i686/openblas-static_0.3.7_i686.deb
+Size: 3074982
+MD5Sum: f991628b0e5e8e78bb9484dff568a14e
+SHA1: ad9104ff9dc2e0f829cd4ea32b44ae3522850bfb
+SHA256: 6dd73e617464404598c7b51877427c8c6d51cdb5752dad37014b751fb0079213
+SHA512: bd026a310e1f8daa6f5ee9cd3cc499aa5fea6992f63900e32e798171f4ff097699ddcb62be4e45415e7f994073d9d31cff8d8ea45917c11eb00e375819f018cf
 
 Package: openblas
 Architecture: i686
-Installed-Size: 14172
+Installed-Size: 14668
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.6
+Version: 0.3.7
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
 Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-i686/openblas_0.3.6_i686.deb
-Size: 2855948
-MD5Sum: b226008a59d8073284320d44c689994c
-SHA1: 9b1db34cb0b6156db92364e809b9caf587aa8a6b
-SHA256: 9e557cdb4fd2278efe75c8864950d64ac7f2452fdd57c4708dcf697ef419e877
-SHA512: 7c827c91f41c75031a122b5b96d0defbd8d550d87edd7284d647e3f456643cf8fe7f2e5b18c05cee4273b10eb977ceabcbba59be0af8eef7692807447ef9ea9e
+Filename: dists/termux/extras/binary-i686/openblas_0.3.7_i686.deb
+Size: 3061312
+MD5Sum: aefb165386a3fffd62ae16e618de5ae3
+SHA1: ced03b331c7b64a433ae099d97b13f2c0cf58e60
+SHA256: 1f276871176f1270b84701cd2097858a532c801fdcf505779a50a7b0dd22f071
+SHA512: 0b63c522be09d560bf6772fe99235332a72c9947078746a563acf5b315c6494c265ec1df7d02dfe3c6adc62b13f68f14baef30eccd8d5dbd0535ce02d3ae3650
 
 Package: opencv
 Architecture: i686
@@ -1337,6 +1413,21 @@ MD5Sum: 631f427beca27cdf87641402cfaa1733
 SHA1: dce65934fbcda485da119a09b38442b64db809d4
 SHA256: 682191dcad7fb475de8aee1a7c8b42dec99cfe0b2112c9905648160d13157568
 SHA512: 4507256aa6eaecccaf8772baaff5c65bf4afccd718d5e1f05e978c253a31ac9abd63357cd830a4b7cb5727e6e723aa55174bbabab0f9e2fa89f6e869bc5cca24
+
+Package: opencv
+Architecture: i686
+Installed-Size: 39604
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.1-1
+Homepage: https://opencv.org
+Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-i686/opencv_4.1.1-1_i686.deb
+Size: 7202504
+MD5Sum: 4465c3e57e539a00536f2f2e67df8183
+SHA1: 8cfe63f425b2a60a687237dd479d9e59e14f938b
+SHA256: cd1d8fb1f74dec94b0923dcac4b7bf6394eab2ca30c96d2efdddd9f8e11f0887
+SHA512: 4b1d1b9e688b5e452009a49af319c3e4ea150ded6687b0aa4067a5b6e3929eb98cae01568bfab7188fa261326f19794bda5a85332b03d4dadd8b3c932897edaa
 
 Package: opencv
 Architecture: i686
@@ -1507,31 +1598,16 @@ Package: python2-numpy
 Architecture: i686
 Installed-Size: 16688
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.2
+Version: 1.16.4-1
 Homepage: http://www.numpy.org/
-Depends: openblas, python2-dev, libcrypt-dev
+Depends: openblas, python2, libcrypt
 Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-i686/python2-numpy_1.16.2_i686.deb
-Size: 2554290
-MD5Sum: 729483f1e2ab6411ea2acdd20233310c
-SHA1: 9c274f0aa7e758394ae4ddcf59c217aa5577f743
-SHA256: 345d6216725cf8ea436c4765c0929866d983b5e7289f6578a52bd002b341d21a
-SHA512: 94dbf757c14836312e08e33b55fc5796f56949e4583f49fccfdca977914c564b119c9adddc28f2f1b1e31d942171d21a6bfc5d50d9af08d404a22feeee6b8efc
-
-Package: python2-numpy
-Architecture: i686
-Installed-Size: 16684
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.3
-Homepage: http://www.numpy.org/
-Depends: openblas, python2-dev, libcrypt-dev
-Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-i686/python2-numpy_1.16.3_i686.deb
-Size: 2562048
-MD5Sum: 46da7f30e49a104b8f40aed4b9689521
-SHA1: b8dac6bc881c19c23541aa28e93e4b86690d97f6
-SHA256: ef9082fc05c68bee1308f066b07e4250aa2b5775fbe2b809e5b5e702f1a9ad48
-SHA512: 3e2c61cb8c1278f2532af2e7a184da46e6991b627c7e9eaca0c8767e185bf6853ca6f1acc5dd325aa794f88c8a24b6609a512cef41f49067203c221975026d02
+Filename: dists/termux/extras/binary-i686/python2-numpy_1.16.4-1_i686.deb
+Size: 2559922
+MD5Sum: 06cd7938e0f8c6e2f96ee252d2bf0d53
+SHA1: a98549510e21859c858737b175e20597f2c21d31
+SHA256: 2b5c5ed0d09eb00ae8e480c24a347127f7e0876b0d7636088f146fc628adaf96
+SHA512: 0844902e6ff6ba94c99648978c518abc51f8b034ccbd972efb22f7e1828dd80e32ebf72a73b2d8573c9dcd9c18cbc50463ebab79d77526701970a999f9fbd260
 
 Package: python2-numpy
 Architecture: i686
@@ -1550,48 +1626,18 @@ SHA512: faf91c7388397ddd91c21a6206cbe9ef1f9e41cfc4c2964e4a0827a11e8613a54fa8df3d
 
 Package: python2-scipy
 Architecture: i686
-Installed-Size: 51628
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-1
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-i686/python2-scipy_1.2.1-1_i686.deb
-Size: 10708638
-MD5Sum: be93551ff336c1afcab143ff3fc50cc4
-SHA1: 31672cd94e83d3ca3ead4343315579230623c6b2
-SHA256: 6c85abd8186bbf056c66198a73805b7e77123f5446946270f86480e4700a8199
-SHA512: 7aa355c2102619f3fb30780e13866b7c2d14cbde0c0646fed546db1360ec99dd53fef3e2a3d9ec66c52f495fbdb78ea5d5524294b81a073e010772a06f9ac1ad
-
-Package: python2-scipy
-Architecture: i686
-Installed-Size: 51836
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-2
-Homepage: https://scipy.org/scipylib
-Depends: python2-numpy
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-i686/python2-scipy_1.2.1-2_i686.deb
-Size: 10788442
-MD5Sum: af67f7fca934bb135c45126439130b56
-SHA1: 043cca9aeac7edbb1c3192e61ef3becfd7a6142c
-SHA256: 80e7fa5248c3df63eb5f2f49135b40985c63a7a8807b4db67fa9cbc72edb7edd
-SHA512: 7e6779b60422dbd2dc5fa4f521e6335d7d58dfee23e106358b514ef4de5947845cb0d2ab552c3772a9078c4180650960d508e44457e417e066a9d136627310a0
-
-Package: python2-scipy
-Architecture: i686
-Installed-Size: 51820
+Installed-Size: 51812
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.2.2
 Homepage: https://scipy.org/scipylib
 Depends: python2-numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
 Filename: dists/termux/extras/binary-i686/python2-scipy_1.2.2_i686.deb
-Size: 10746924
-MD5Sum: 986d7b4ec7fcec60f6a2bd3e4e74d870
-SHA1: 559a41ffb7ded625be8fb012857c6f1a5c23ffe4
-SHA256: b7c33ee10a719b41e68a8444d03e9f3e96133d3d6a0f16f855d7b12e6fd33b07
-SHA512: e671c67cc990edc748ff8f7e37d2b60beb8a8e18ae598fd1b7513339d68c864292ecb88f75bbd182d59ec028b01b9459da204db1f0d01a29da8f83a16d9b2dca
+Size: 10789514
+MD5Sum: fd3a67cc1da1fa35025c8d0dfdd5f8bf
+SHA1: 1898b8b1709661f9c362c2ce09b71972d538b5df
+SHA256: 6a404506176b07af1a73be5f104967a1bce7eb67a63ae25192ddbeae0d86fc73
+SHA512: f2b850d9e07272a0f82d28d18df56a136cc1d673182b1e681a668028dc38dbd9db9f4ba4db13a6bfd36a42250c9ddd536454f9303d3ff466c3b468dd617b2f7a
 
 Package: qhull-dev
 Architecture: i686
@@ -1939,6 +1985,21 @@ SHA1: a8800032ce5318f70e3da886a88ecf012d05aea8
 SHA256: c647eb250e7d6ba0a412e4efc541631234311e4ae6c1bb559a7e1eac2474f909
 SHA512: e2d2fddb217b042c1d67120b7581c7b2f63cab2fd9422faabac9394a2f34b2fc7d96a6b96251279303625af0b7b1a297dceb3260d7e599dca86d24b2331a048b
 
+Package: scipy
+Architecture: i686
+Installed-Size: 52204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.1-1
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-i686/scipy_1.3.1-1_i686.deb
+Size: 11014738
+MD5Sum: 04f2552951366753b2875fcfdd268dab
+SHA1: f2fc38b07e0c581abd5645c73dcf9d90358fdf52
+SHA256: ae0da59d98d1dd8883980a35c5e797feec6a46941ca2029f5e1ddff361b8d52f
+SHA512: 90a130c20db2f77c909e0a0c33c2c3aea98a25baef8373e5da137674e5a09994deea46e1c4dd447af7255fa06974e1e827ef6107d66b786b4f92ab61af6b0cf4
+
 Package: suitesparse-dev
 Architecture: i686
 Installed-Size: 796
@@ -1997,36 +2058,6 @@ MD5Sum: a2d489d552575e4ca12cecfd8f0afbc3
 SHA1: 5f35533fbca3e0f95ff23e94d3d4a6e5b486b7a2
 SHA256: eb48dc7d5c6121aca5212b646740d12d18259d217fc69230037d5809d26ebdf4
 SHA512: bbd7ce47e4e1f3edcde90b6e901b1a5b5fab942cb71ecb66cb72e6f064d39c8084cdedf1acf1f36da393fd88ddc54264dfdab370143fb72ed57a8dc3495c65eb
-
-Package: vlc-dev
-Architecture: i686
-Installed-Size: 1144
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.7
-Homepage: http://get.videolan.org
-Depends: vlc (= 3.0.7)
-Description: Development files for vlc
-Filename: dists/termux/extras/binary-i686/vlc-dev_3.0.7_i686.deb
-Size: 180784
-MD5Sum: 64b01fad19cee34a25cc97261f71d0dc
-SHA1: fe168d7add28d01eb0cc7025affc76bcdfd4ea77
-SHA256: 8e3fe6fa025cbdc23d530b4a0d28ac30228fc64ed974e91d41c8d1e9e2a22c18
-SHA512: f857b519cef6190e1b709c3929e2d4ceb80e81b8201ae4147ab2f989d6203e5eccf37dac311650d4fdf3430716790c0a3398966b6b255830f129d7a77eef2b5a
-
-Package: vlc
-Architecture: i686
-Installed-Size: 10184
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.7
-Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api
-Description: video lan player
-Filename: dists/termux/extras/binary-i686/vlc_3.0.7_i686.deb
-Size: 2325044
-MD5Sum: 38888660aaf154e644c3b728b6493e59
-SHA1: 3f2f32d23dec8fd4dbccfa8dc3ce2a7dabe97aaf
-SHA256: c1a531c8069d259ff57ec9dc19181c30c934599d6e626a642c31d50292451107
-SHA512: b126fe187c2b8b3c423a1bcfb24aa4fd0d120023751031d782f49f1f3374662301ed4c8d78e35be50dfb3881031a0849ed6adbe3317637529f41802f6aa7be06
 
 Package: vlc
 Architecture: i686
