@@ -104,22 +104,6 @@ SHA512: 80f9a256412d22258c34b469bbdba1954db1dece8242d47bebe492b39b45c7ced33c96c2
 
 Package: ecl
 Architecture: aarch64
-Installed-Size: 6564
-Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1.3-1
-Homepage: https://common-lisp.net/project/ecl
-Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libgc, libandroid-support
-Replaces: ecl-ext
-Description: Embeddable Common-Lisp
-Filename: dists/termux/extras/binary-aarch64/ecl_16.1.3-1_aarch64.deb
-Size: 1449472
-MD5Sum: 266f4ece74d27cb904e1215839014711
-SHA1: 5233ff565691cca61ff6076ed4f0c806702f730b
-SHA256: c6b89d331fb2cb354eec1d8f00e6ecbf95d72d819b94d888bc3eca0eed1ca0a4
-SHA512: 11a706b527547f5827611baddfa1f6936f8e3c14be979cc93d8f100c1f80544aba64c7a217c79e69f0d6499d6b8c1f87772c7c1b5e4e25cfc424039160025576
-
-Package: ecl
-Architecture: aarch64
 Installed-Size: 6540
 Maintainer: Fredrik Fornwall @fornwall
 Version: 16.1.3-2
@@ -239,36 +223,6 @@ MD5Sum: 75121e3ddd296f56b68c1426c7faf22a
 SHA1: 98d746176670ed0f756fbc4bea44d45b8f360646
 SHA256: 8ae4b6f6ddf98731295c90138b29f8711db824a4ad2df17ca11fb4f8b33fd053
 SHA512: bf9b09c43ff053d614f97f47e60089bdf35020d0a245bb5e11808c35fc31dacc600704bdab9980d06afcfbbc38b1cc96b68a7e598e1fe737627bda9e971ca58a
-
-Package: gcc-9
-Architecture: aarch64
-Installed-Size: 91240
-Maintainer: @its-pointless github
-Version: 9.1.0-1
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv, libgfortran5
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-aarch64/gcc-9_9.1.0-1_aarch64.deb
-Size: 24142382
-MD5Sum: 0209d837d23f93d7ab84fda11732ed71
-SHA1: 428fc5ef4208a3cc886737bb9064d77c63f9b75e
-SHA256: ef35b3aef1f68a126cde868ff9e49e279d97d44b7dada7ee306481188c26c8eb
-SHA512: 1db3fd0c354e7dbbb55ba33e3c31ac96be96e52f2cd7129fdba839b9023eff93cf4149baa2fe331443e8cf2adf3ed85871c30f8d2521c952586b56a017e5bb86
-
-Package: gcc-9
-Architecture: aarch64
-Installed-Size: 91240
-Maintainer: @its-pointless github
-Version: 9.1.0-2
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv, libgfortran5
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-aarch64/gcc-9_9.1.0-2_aarch64.deb
-Size: 24155406
-MD5Sum: 5eb15bcfa5c7cd4c03677fde32b673e9
-SHA1: 71faca944b7d1c71dcbcc32b6d2023469e4318f2
-SHA256: 85a601f7c346cbdc4f53cb43607702cc105e8b108b3c98d3a99db4dd444dc4c3
-SHA512: e96d056158036cc126abf2e473559b8641f6b832b4a3ec2d52c50e94ed585156ca96a23dc7dd6cd3274f7eb6f24ff3368100b7e7d58b883cce9d43c3de228971
 
 Package: gcc-9
 Architecture: aarch64
@@ -628,21 +582,6 @@ MD5Sum: 6c1d7846f7e383d3c52b3f7a2239674b
 SHA1: 868b8a1e2cb74b1f8df64b8bd8826df0996ad661
 SHA256: 6536e1bf52d90172005cceb371d9b60e256e7458f6e2a665b0f564078b2b1490
 SHA512: 19b096693072265071716f90bf0bdc252d1e6c6764131e6be67e5998ab34982a06bc4cf245b19bdd5cbfe1acdeb24355379f9b5c892ed4a7216ea1c2ecf8f4fd
-
-Package: julia-llvm-static
-Architecture: aarch64
-Installed-Size: 117152
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1-1
-Homepage: https://clang.llvm.org/
-Depends: julia-llvm (= 6.0.1-1)
-Description: Static libraries for julia-llvm
-Filename: dists/termux/extras/binary-aarch64/julia-llvm-static_6.0.1-1_aarch64.deb
-Size: 14372216
-MD5Sum: 6d08a676a3f2edc0e545f29a55b89319
-SHA1: fa7d2343711e514f6e00b1d5a23c563ec6032028
-SHA256: 1b063faf80db8cc9ac06b5f82e5c65fde56e469dfbf651b71e2b0bbac019347f
-SHA512: 002e7aaea35f63bf050538fad4e67c8baf6665b6bc34984a301c4fc7f4ba613e010876ccbd70e919c224ada1eeac63329997a87f54cfd39063c37b870952329e
 
 Package: julia-llvm
 Architecture: aarch64
@@ -2062,22 +2001,6 @@ SHA512: fea2d41a995578e9355b04a4e97630a7ad7ad309f4717a4ccd6ffb72a5cbe2d80ed75030
 
 Package: r-base
 Architecture: aarch64
-Installed-Size: 64380
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.6.0
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
-Replaces: r-cran
-Description: a freely available language and environment for statistical computing and graphics
-Filename: dists/termux/extras/binary-aarch64/r-base_3.6.0_aarch64.deb
-Size: 40226078
-MD5Sum: e74b7f4d31cb17d2affc2c661bcce9b2
-SHA1: ec85cdf1cadb438594aa0cd89077be2819af3e5d
-SHA256: 192a5632fa99cb736790cc2e2057f8a3d0750fa278f7c3ded8c647e29c0fef22
-SHA512: 3f8099071fac9231177c2b7c8f72b4a508cd52bb9c5bc8406d96d7b7a3b8ee4e937591e98183321ee6fdce2f72f5388945da6ae1e5031b5272c8700cbcd39c59
-
-Package: r-base
-Architecture: aarch64
 Installed-Size: 64400
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.6.1
@@ -2226,21 +2149,6 @@ MD5Sum: 598d2cc0bf48e4eb1d746617caf51bf4
 SHA1: 3d9c2d7d01de793911adfb146d0eb16d31f6536b
 SHA256: 95db2949daf70897e90fb248682861b6f1cbad3be53e67131827f9bf7c302692
 SHA512: 383b568f5c3857c8974642dd45813246a3f715710dd7762d7833461ece5e091e04e7dd061ecd65243c7ad1a08b20efa38a96524a8a0434a0bb0e717c527d8ac4
-
-Package: r-cran-zoo
-Architecture: aarch64
-Installed-Size: 1444
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8-5-2
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Description: GNU R package for totally ordered indexed observations
-Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-5-2_aarch64.deb
-Size: 1055206
-MD5Sum: 49d2b56f9ba75ac5612c6ef23dd06136
-SHA1: be54f302ec92d6349aa8e57f37ec3041f4c6772c
-SHA256: ed001f2408318fa9e0153f77ef2b5665d5cc3b8d550c1a13d846abb3c8827308
-SHA512: 696bc88ca4b8701023a0df4c6699d2cf19155fb06e59ccc7b94535d9ed3029b7e207a83415e92dba6dcae6b6cb534eec7fcc0ef16cfdbeb8f0e2fac4932179b0
 
 Package: r-cran-zoo
 Architecture: aarch64
@@ -2454,21 +2362,6 @@ SHA512: fde5e1b448ab5ff211bf474e705ca5dd1c36a86752ba27a06c77dc5188837c729258324c
 
 Package: xmlada-dev
 Architecture: aarch64
-Installed-Size: 8704
-Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1-1
-Homepage: https://www.adacore.com/
-Depends: xmlada
-Description: Development files for xmlada
-Filename: dists/termux/extras/binary-aarch64/xmlada-dev_16.1-1_aarch64.deb
-Size: 249620
-MD5Sum: 588a2c4e1eb49bfcb43e2328e516df99
-SHA1: dd6ee4c509c1e596cbeff2b7d883d75b8a054df0
-SHA256: fca23b66dc2ab130b2141a0a6a68a57f25d5f3339cc5f174d5551b0d4691b24a
-SHA512: 1ef7008f7c72821853bb0931d88904ff0a1a97aa72de67843ae166486f8c63687f0a745d4334f49aae25180e8a0461e4a9cfa357e400596a482ff5711984456e
-
-Package: xmlada-dev
-Architecture: aarch64
 Installed-Size: 14344
 Maintainer: Fredrik Fornwall @fornwall
 Version: 19.2
@@ -2481,21 +2374,6 @@ MD5Sum: 73bb4e03c843e01ea9627687b9adc3b0
 SHA1: 427d84840a54eaf3112db9a032abbfe869201bf4
 SHA256: eb679c520020c4dffdd26523cdb244be57f4ea838400f4a4cd1d93d28c3a078b
 SHA512: f1203f1f19ff4a2552440710dc099d9691a8562e10a44b63202b38b444a0d55b384126b00de7a131e79688cf5e79c660df171c252b5e68c2b886799952738348
-
-Package: xmlada
-Architecture: aarch64
-Installed-Size: 15568
-Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1-1
-Homepage: https://www.adacore.com/
-Depends: libandroid-support, libgnat-8
-Description: XML/Ada, a full XML suite for Ada programmers
-Filename: dists/termux/extras/binary-aarch64/xmlada_16.1-1_aarch64.deb
-Size: 1157222
-MD5Sum: 6b8b80396596d5cc60e5164d3e54f03a
-SHA1: 18cbbb94e9a29b5149fb26978eb8cc0a0e35c987
-SHA256: 1a72dccbc5551df1b3c54567a90d09c183f3e46fca4ee5011022e9b88ad6f24d
-SHA512: e39b432a87aae6a24fd53dbdfbc364a1ecc01426b732bb82531b78a5633ac3608bc7c6c032864a35473cdcb5043dcb0d15856b64253fc07911fe29239cac354b
 
 Package: xmlada
 Architecture: aarch64

@@ -104,22 +104,6 @@ SHA512: 3d9fc67db22761919d6d8d4866767ddd76930708ee40e09009753aca652ff8182d527953
 
 Package: ecl
 Architecture: x86_64
-Installed-Size: 7416
-Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1.3-1
-Homepage: https://common-lisp.net/project/ecl
-Depends: libffi-dev, libgc-dev, libgmp-dev, clang, libgc, libandroid-support
-Replaces: ecl-ext
-Description: Embeddable Common-Lisp
-Filename: dists/termux/extras/binary-x86_64/ecl_16.1.3-1_x86_64.deb
-Size: 1704930
-MD5Sum: 3473cbc5a2e498a5a47b120c76b90130
-SHA1: 1a080e621a0d87a380425a2fa0539837f6efab04
-SHA256: 8e97fc345b41e10c235c56cda10c1c81b6f3553e78ea29ca2e26c1d9d60e3940
-SHA512: 5beecf5bb95a13dd43457373a3d7b93b660cc377ec626df4840ad33e73e3e58eee1829988b640ee3a8a48b5395366da27a424961eea0b3ad3b02787a80ec0e8e
-
-Package: ecl
-Architecture: x86_64
 Installed-Size: 7404
 Maintainer: Fredrik Fornwall @fornwall
 Version: 16.1.3-2
@@ -224,21 +208,6 @@ MD5Sum: 2a33c06c0caa590e9d827b58cb6d021c
 SHA1: 06b9db5943fd14f9076df9e55fc271de7bf593f2
 SHA256: 780b9951e1634908fecb5e647c658bc779063ed80324bd93b77f262e8cc9d0d1
 SHA512: 62fb73ec5df2e4d502762650ebc162a7359d7e88a9aaefe81cee5c66b86972e145182b43935694797cbef18704b183a80364d2488e60b245a43f2ab61141f5e2
-
-Package: gcc-9
-Architecture: x86_64
-Installed-Size: 122300
-Maintainer: @its-pointless github
-Version: 9.1.0-1
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv, libgfortran5
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-x86_64/gcc-9_9.1.0-1_x86_64.deb
-Size: 33794682
-MD5Sum: f697b3fa7ba698089185b5dc56e83e87
-SHA1: a8cf0a798eacfb878556bb15a85533fe2ce30ba9
-SHA256: 56af4587a27baf543f0da4684a78b0ceeef07268a182cc672f246063b79423bd
-SHA512: 8050f93f926f2c4a1b93318e7b3aa418f238077d5134a143bfaf3ebe999be7750f616a6851323a9ff14af0a64e6e172f97600bb643111751b57ac5368b45e0e9
 
 Package: gcc-9
 Architecture: x86_64
@@ -1747,22 +1716,6 @@ SHA512: c61c229419184eb40a847f80c1228a671fe12eeb0a74b4ba889c21eb8d463d5b5e1b8dcd
 
 Package: r-base
 Architecture: x86_64
-Installed-Size: 66020
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.6.0
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
-Replaces: r-cran
-Description: a freely available language and environment for statistical computing and graphics
-Filename: dists/termux/extras/binary-x86_64/r-base_3.6.0_x86_64.deb
-Size: 40972752
-MD5Sum: b79e6aa630f28234e4ee5b0e4ff997a1
-SHA1: 73f576375ecf2340604cf2789aea588292d2c0b6
-SHA256: a638b7b9f1a79b737388bc51f7d719620c203004c22a2fac9b4bf32b0e349a9e
-SHA512: 51fb775b77e27f6fba2a646d1462ffea575ce74b1f0e4c16d83dd129bed98fddecdc6bc7ee69adda35b10840a52149a803c855b31cf75e8c5be35f42d30d8705
-
-Package: r-base
-Architecture: x86_64
 Installed-Size: 66088
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.6.1
@@ -1911,21 +1864,6 @@ MD5Sum: 4f396b2c4f9e52ded86a1522376f8ab7
 SHA1: 1084524a80cfb536a0bfea02af8f075cd36ace51
 SHA256: 25ba4a262e8f66b1dc47fcc0a1fbb6d51078b66a5fd3d12b074c444868a5b5be
 SHA512: 1e90af335b47b0db4cdfa5c1062c53e97b0fc0a8791c032d00934a764c513783f0898af94dc72525f3c595c7e99534904fdc7d60f9f004e86da729bd3f40d9ae
-
-Package: r-cran-zoo
-Architecture: x86_64
-Installed-Size: 1452
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8-5-2
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Description: GNU R package for totally ordered indexed observations
-Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-5-2_x86_64.deb
-Size: 1055928
-MD5Sum: a33f981b56be89879665a58b2996c660
-SHA1: 509cb218a3669d6f7e431fe55fb836a3489180ce
-SHA256: 3eabe6e0d5c5b1b427fee7a11c14ddf8d3c4584a935615692f09510a2c61f0c5
-SHA512: 3004c25a0dd21a2f27a7c754e730294727b40b4df753e00ee6bd86995f86970e1f45111282450e2511a1a855a479fdc2baaf9eebd82a63822edf2c67622112fb
 
 Package: r-cran-zoo
 Architecture: x86_64
@@ -2109,21 +2047,6 @@ SHA512: fef0fbbc6610463ba119a4bb0cd1f275f3b69189030167296b64bc18b50d98bec4304a1b
 
 Package: xmlada-dev
 Architecture: x86_64
-Installed-Size: 8704
-Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1-1
-Homepage: https://www.adacore.com/
-Depends: xmlada
-Description: Development files for xmlada
-Filename: dists/termux/extras/binary-x86_64/xmlada-dev_16.1-1_x86_64.deb
-Size: 249048
-MD5Sum: 892f6f4fd5e4608716c8e089b4f39c15
-SHA1: b1cfc002aded623839278282fe578768f1581d4d
-SHA256: f8f4e05b1ea6d1e90af9a521d65ad54403445cdef71f5add15a92b2b858ad026
-SHA512: 7f27f7f8bd8d27f4899350c09046a59d552da1f57ffbc993153ee8e506112790ca9e4036585a4cd239a77bf84a3d157dcea87eb4b3d1650b63a4872a83bb62d5
-
-Package: xmlada-dev
-Architecture: x86_64
 Installed-Size: 14344
 Maintainer: Fredrik Fornwall @fornwall
 Version: 19.2
@@ -2136,21 +2059,6 @@ MD5Sum: c0e861a0478105cc3541cc8489dfe868
 SHA1: 575a6053bff5fa6b3e38780610e812fc5d981d95
 SHA256: 3d8a9ee269b0fdbc3268e87a2fa4d32380dd31e75db40752f7390f9e1e7cfca4
 SHA512: ffe7d5f2214a8e8790728a045db4bdf83dbbd4b6d86a8d7e104024b1dba428fcb2f1973e62629388a4e6c080126a3d147040f7b0ec0e94ffe8368230d847652c
-
-Package: xmlada
-Architecture: x86_64
-Installed-Size: 15860
-Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1-1
-Homepage: https://www.adacore.com/
-Depends: libandroid-support, libgnat-8
-Description: XML/Ada, a full XML suite for Ada programmers
-Filename: dists/termux/extras/binary-x86_64/xmlada_16.1-1_x86_64.deb
-Size: 1176380
-MD5Sum: d351ab56ed2c9a356835166e9140cf10
-SHA1: a6837cb08a6e6e5c0f6a0325bfab04c79eaa9348
-SHA256: bd122b87c2c0cc0776825e6e2a2b0e8bdc99504f72054a34cca9c0ee90732c95
-SHA512: e21c8d3e735addb0ef58b09e90b4a1bf8b2b427896f531332f623d3ebe11dd1271e46e473e9f026ddc20205266737176160cfb06cd66dcf86ebf302a6e7f8296
 
 Package: xmlada
 Architecture: x86_64
