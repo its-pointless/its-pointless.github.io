@@ -1360,34 +1360,35 @@ SHA1: 4d9a5ad89f0fc972628f051edf77162a5dc32ad0
 SHA256: 172ec6aba1cd6fee7796ff06456ecfd1c88c08b8771363e96cec471991b50fd3
 SHA512: 2f4fc1354cece8abfe58e60827cbe5076e098bac15dd682e179496995e4c188418d150027b0853e45e178b44464298a5515839d19d9d034d738f9a7fecaaa9b5
 
-Package: libsmb2-dev
+Package: libsmb2-static
 Architecture: aarch64
-Installed-Size: 80
+Installed-Size: 236
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.0
+Version: 3.0.0-1
 Homepage: https://github.com/sahlberg/libsmb2
-Depends: libsmb2 (= 3.0.0)
-Description: Development files for libsmb2
-Filename: dists/termux/extras/binary-aarch64/libsmb2-dev_3.0.0_aarch64.deb
-Size: 11204
-MD5Sum: d638183ca7dd955ba27a81677fd943a9
-SHA1: acd264a0089d9c0ae8e959ddc28dedfe3ae2071d
-SHA256: 2abbb0b9014becf751c72d15c49b5f923563c368ffa5234dda21c8d6670aea1d
-SHA512: 3e2f3f86901607ca8513434baaeac815c92a9157daf7faaf1f3111cdacfd354804a7212db616ca4a74219c53114c6eae70123f17672dbc0f765aa70a88632b36
+Depends: libsmb2 (= 3.0.0-1)
+Description: Static libraries for libsmb2
+Filename: dists/termux/extras/binary-aarch64/libsmb2-static_3.0.0-1_aarch64.deb
+Size: 48578
+MD5Sum: 93c16e18884a21efb3a27476af6bc77f
+SHA1: 44e4319a35596f2f65104ba8114a8bb3b0a21995
+SHA256: ba7526bc4a7446b1a8e3f947d630b99ccc67675216db02f22fb221c3830792a2
+SHA512: 1bfdc3cab1b4d1af8ad06b7fa28d3d9c995f593847e8db3dd656191a0c6389c5841e3412d9c00bea71565652c4883ac9e30096533b269ac42f45aa4710b4f507
 
 Package: libsmb2
 Architecture: aarch64
-Installed-Size: 132
+Installed-Size: 212
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.0
+Version: 3.0.0-1
 Homepage: https://github.com/sahlberg/libsmb2
+Replaces: libsmb2-dev
 Description: client library for accessing SMB2/SMB3 shares
-Filename: dists/termux/extras/binary-aarch64/libsmb2_3.0.0_aarch64.deb
-Size: 33756
-MD5Sum: 3e287333d0293ee2eadde132758bb49c
-SHA1: ef084ca3d4b1564ec3110c2084804147b41eee3c
-SHA256: 4c68ed94cde6315a58a5588fa8e60cb157c661f22c35c180e48011a49146e81d
-SHA512: 039f25c4d893dbb4398df6ad6f02df6976fefc4bc699044b98e567a7a57e30aad1fd48f11603950a676ba0aa82a142691d66001e0be7c7507fb1ed08df15ec9b
+Filename: dists/termux/extras/binary-aarch64/libsmb2_3.0.0-1_aarch64.deb
+Size: 44762
+MD5Sum: d8431a13e18a061e86e883a094107f46
+SHA1: 4d780d7c8e689aca2c2cf3df644c37b33dc5f784
+SHA256: 1f8d6c24265489a59ec503f34fe8edd032e15bbe33e8783da3d7c33be3ffccb2
+SHA512: 17f43b34f6b1b5685acba18ccb711d59a1b44176e10267b245f9251c820db54e76dc047a4d4775944873f47369a5cdd5d3769fcb97699e6c7eb31267ade62eb5
 
 Package: libsnappy-dev
 Architecture: aarch64
@@ -1642,6 +1643,21 @@ SHA512: 0dcbb0c035b5124cc0a1c9e072f2bf5a36e6153758fb0dc96a5085a550b8ff6a40f04d65
 
 Package: mongodb
 Architecture: aarch64
+Installed-Size: 128792
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.3
+Homepage: https://github.com/mongodb/mongo
+Depends: libicu, libcurl, libpcap, wiredtiger
+Description: mongo db
+Filename: dists/termux/extras/binary-aarch64/mongodb_4.1.3_aarch64.deb
+Size: 28089818
+MD5Sum: 7c16b011e10177d074675a064a959914
+SHA1: 7c284d70216228bb026d21744bd701e221f02636
+SHA256: 689bcf424b95f602d33874d00ebe31d2bdd74864327b35aa69b6ac4a9f677b3b
+SHA512: 9299508e4764fd57598f78642e3bfdf2776c630b3304571d7ac7957f0898720a9cc2e55e9f42ca37126a4ab0c43ccdcc9c8c748df38b545d1854bf1b49faa42d
+
+Package: mongodb
+Architecture: aarch64
 Installed-Size: 143064
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.1.7
@@ -1836,35 +1852,35 @@ SHA1: 1b07d783a29a233358f5535e443d797274e073dc
 SHA256: 0df30b80581846c13eac76e186a863ba87d04f449bf4703ae5ecdeeffc9685b3
 SHA512: b917d03df85f8b5a8968a8c93c33ea7dfca0b9a38e93f285fcd1317a6cfbe039e2e89a41517cfdcb80164bf9028d39c77c6501600dbae8771b60fadc93133651
 
-Package: openblas
+Package: openblas-static
 Architecture: aarch64
-Installed-Size: 10876
+Installed-Size: 21284
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.5
-Description:  Optimized BLAS (linear algebra) library
+Version: 0.3.7
 Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-aarch64/openblas_0.3.5_aarch64.deb
-Size: 2101368
-MD5Sum: dd20501d8d210bbeca15b439b59417de
-SHA1: 6937c356847fd4eb4ce531d35a130a255d4f5fca
-SHA256: 52ebae316b1efc5c409208d7527654507be38f0ce05dba42b4dcbe22322132ba
-SHA512: 9998bcd0d785b48a0674f20e4114c662a033d1f44fba1e2a6fc48c6a28eba5e81d4a063185ec4209c32c044634ce49de393a3cb7a7db9173702c5f5738359590
+Depends: openblas (= 0.3.7)
+Description: Static libraries for openblas
+Filename: dists/termux/extras/binary-aarch64/openblas-static_0.3.7_aarch64.deb
+Size: 2183614
+MD5Sum: d32b3777d4834721b644d22694e3f559
+SHA1: 469e92ba58d14055bcc07e880ffb6e7d056106da
+SHA256: a590a02de36f9a0cd9cfd9de56267de1e365169beddd8af126833d83974fa9e6
+SHA512: 67a1536713f62f9f4de014f2d3c47a85da1069fdb2b0ef52f0b9d115f489e5554b4e6369778e870758d14d4385b853976a1033cc2c6b82271af98f4442c2b45b
 
 Package: openblas
 Architecture: aarch64
-Installed-Size: 10864
+Installed-Size: 11016
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.6
+Version: 0.3.7
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
 Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-aarch64/openblas_0.3.6_aarch64.deb
-Size: 2102092
-MD5Sum: bf5fcaa76f15f703e2c0399110267c24
-SHA1: 018449c23afabba1eef664b8db5da0de55c75b84
-SHA256: 10b15095b8776db125d3a5ec6de48ee97c437b9be15b6f8b9fc34f169a5ab702
-SHA512: a8d49104d361c1fb272ee73fe04d15e65a5ea174876827b4aaba02ec8056eb2652d04a4096ca668ae729429f267c8dff2c34cd5a3c3e85b20acc6cec429224a5
+Filename: dists/termux/extras/binary-aarch64/openblas_0.3.7_aarch64.deb
+Size: 2211282
+MD5Sum: 601def9bd14ade5980dfea83df1a4a98
+SHA1: 1769cdf0a5c873a916d694f2e1aaf425b616fa98
+SHA256: 3c7b4568914fbb2cdf621431532cf14fe44a202af647d58e10b29f5d28c76366
+SHA512: 7495ed053eca8873875ccee923e273d644eba7cbd647b35ee62830b81fcfcce87c57e1fe61adb0d13d2e1d9b5041b14f0be901d682866f9d4517a342d6154eb7
 
 Package: opencv
 Architecture: aarch64

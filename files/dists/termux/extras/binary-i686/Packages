@@ -1774,21 +1774,6 @@ SHA512: 6470258553edb61e74983697bd0c419881eaa54a9ff6d16be38ba5dae8d614406ae9fdd8
 
 Package: openblas
 Architecture: i686
-Installed-Size: 14244
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.5
-Description:  Optimized BLAS (linear algebra) library
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-i686/openblas_0.3.5_i686.deb
-Size: 2905652
-MD5Sum: 17e5787492005ce0880f8d35df8534ea
-SHA1: e4aa1243b0a550fb512dc7fdd24789a9458956bf
-SHA256: e85b91ac65b5acbe19289e065c1c778879352f8dd1b6cd70519b7b168b5627ec
-SHA512: 52021d2c4977708e9e7c407bbd3b8b64ad209d1d0ea687bee79e6783216305066e508664f3ed95a97a7d28601051f30d6e85fbe80483850af30605030eb8d724
-
-Package: openblas
-Architecture: i686
 Installed-Size: 14228
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.3.6-1
@@ -1801,21 +1786,6 @@ MD5Sum: e77b7bd66472c02577db68a4729dc0eb
 SHA1: 6ad82bb6b69b940225effb76fcbb3d80ebb0a0cf
 SHA256: cb9b412ed333808db5d1988d62f2127dadd2fd8acd343c69c3aaf0c9f43bc290
 SHA512: 5d5f3051ad9e36e8985f95f9885bb73eaac4fe264f4a9389b137f96303e5093343b9a7c08ba50eb995a57a00d2bb0eb79e4979f969068957d6a2b7ef109125c0
-
-Package: openblas
-Architecture: i686
-Installed-Size: 14228
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.6
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-i686/openblas_0.3.6_i686.deb
-Size: 2901760
-MD5Sum: c983ed8055d5140b6f0f19ec8bab1740
-SHA1: 6ef52ea240f90c50e0a688b661fa06e4017e309f
-SHA256: 4d4b3deae407970dcb9dd188eb927ca099c44c7a4c4e767939b12b83ea3093a7
-SHA512: 675bf9635f1156273a2d7a07dab60c17471392f4c7f2fe6860e176021e2e4dac74ef3ed99a7ecb913663c0bec73433866df3c7e327bee78a71eda6f850cd2ca9
 
 Package: opencv
 Architecture: i686

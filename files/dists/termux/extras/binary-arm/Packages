@@ -1559,34 +1559,35 @@ SHA1: 7922d9021a6bf1634a1a0b1cb49b0f6f42e827a6
 SHA256: 6be216455bca8f6c8e0d812ca81f4e2d4d6423aa2f9ecd62e09925001b8cb713
 SHA512: 5720742b5624b55927eb3102baebd545925d2a7a884a49dbbeeb970b5ed7aecd04960269e36a78b7f03f4ff39fe127595d25649282c6bf6911e41711213fdaba
 
-Package: libsmb2-dev
+Package: libsmb2-static
 Architecture: arm
-Installed-Size: 80
+Installed-Size: 172
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.0
+Version: 3.0.0-1
 Homepage: https://github.com/sahlberg/libsmb2
-Depends: libsmb2 (= 3.0.0)
-Description: Development files for libsmb2
-Filename: dists/termux/extras/binary-arm/libsmb2-dev_3.0.0_arm.deb
-Size: 11210
-MD5Sum: 2b818efb78fc350d5b32b510ef3c866d
-SHA1: 417455fdfd94d56a24dcc29b2f0b2ac870e06fd3
-SHA256: dafecdd546a24a58e5a5ea3b88ce4ced1ddb5040689a5d88cdb5fd61a8ce6058
-SHA512: 09af9d95aa2eb2d297f9f8ed7f45dcba2832a908dff4413b7d6456a414768a5d03f5e4c28359089a0d5f64586812da2a8154d67134b72683dc6f8463db721800
+Depends: libsmb2 (= 3.0.0-1)
+Description: Static libraries for libsmb2
+Filename: dists/termux/extras/binary-arm/libsmb2-static_3.0.0-1_arm.deb
+Size: 49450
+MD5Sum: e56ea8c643f1ab38f52a0212752b8501
+SHA1: 9ca2e084ecbcb5a5c5dbdebca72f022b0d64ae7c
+SHA256: e190f931d1f1b015e49c6f2f547819d139e56227fa7d677173fdd34e0870977a
+SHA512: 590842c3a2ad1ac597e2fe9201758a7bee4a901f875a2ecb15f8ecaf161d40afdddc8b64635f06495a9ce486bef2029d37fdaa20d26a92b8065418020d74eed8
 
 Package: libsmb2
 Architecture: arm
-Installed-Size: 76
+Installed-Size: 156
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.0
+Version: 3.0.0-1
 Homepage: https://github.com/sahlberg/libsmb2
+Replaces: libsmb2-dev
 Description: client library for accessing SMB2/SMB3 shares
-Filename: dists/termux/extras/binary-arm/libsmb2_3.0.0_arm.deb
-Size: 38008
-MD5Sum: 5dbc42ba582210957e4ed2835d12addc
-SHA1: 81a1f713f5d6fc63867a1e03ec5b75365e2b399c
-SHA256: ba3e01a1a6235cf6d339025ba0c8d9cb205944d40306be4452a2ed1bf7b927f9
-SHA512: 89624066088175eb93d041d676f860d8496513d18877c83e1d283c208cffc42a182129268f8a2808c34eb22c515f1071c32e5fe2a8e9896e596d3838784d1899
+Filename: dists/termux/extras/binary-arm/libsmb2_3.0.0-1_arm.deb
+Size: 48266
+MD5Sum: 8346931ffd65919b43df8a4de9a8389e
+SHA1: b4534caa87159f9fc18713c1002549df08fa2a79
+SHA256: 05cfc74237e17b7c327f0f24aae9d7b0e8a068f808507cef643b77bc61df54ef
+SHA512: d6eb30d9c7d94f978bfe30971df46a7072139f1c8863931b010163348d8abcd32daa682d4472425fb72cc75a729bd6a227e20bf492dd21d1f8e80e46024f1d38
 
 Package: libsundials-dev
 Architecture: arm
@@ -1975,20 +1976,20 @@ SHA1: 0d429a9762d468a1ff5420fc80ebf53431446cd0
 SHA256: ed68a608ff246b670e7914b50b6a8bcec9f8077c49f6163c44ba1edde803fb4c
 SHA512: dfa1fec7e39d45b955f877a4cb337f039c2027c338b85e1c027f71d9fa28385434ff8036c56a1e799fe8ccdf5826e1c24d4f6fb7006839bc05f030440c1e243b
 
-Package: openblas
+Package: openblas-static
 Architecture: arm
-Installed-Size: 10724
+Installed-Size: 18232
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.5
-Description:  Optimized BLAS (linear algebra) library
+Version: 0.3.7
 Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Filename: dists/termux/extras/binary-arm/openblas_0.3.5_arm.deb
-Size: 2153776
-MD5Sum: 42854c1b6b967053ad32e08deef7ac6e
-SHA1: e51f16ce21cb82708b956ae60be49273d935ff4f
-SHA256: 31755e3da9128abdd07f892749848488db2b72f58ff7cca015bc4b63b4d2d900
-SHA512: 14a8e003688024c5280edba698d6236e521ae60ebef8b946523de7bbab50e9a0f0d798f4ba79bc128c94ffe865a88821718bd1c69b5ca4d1f176329e68f87401
+Depends: openblas (= 0.3.7)
+Description: Static libraries for openblas
+Filename: dists/termux/extras/binary-arm/openblas-static_0.3.7_arm.deb
+Size: 2250076
+MD5Sum: 3afc8ce9f390ec7f0e2db13d23d1ac2a
+SHA1: ed86e4f338cce963d923307f6889b0be47cbcdcb
+SHA256: d1c2622e9039e33f62644e348942fee40a4cb5f0198152c8ed28f109dfe561ae
+SHA512: a6ed5a323a966a6ef4b7a53f800d56590f039c8455296afe67ad3969c9bdbbffd1f1bcbb91d3f78e5b3d417b56aedf6c24524e5901f4328d0a8df8f36eea76f5
 
 Package: openblas
 Architecture: arm
@@ -2007,18 +2008,18 @@ SHA512: 4c1eb7cdc55bd1ce4234f1cc5affeac14e3d6fa590d9ba0244698708455cddc22d62d871
 
 Package: openblas
 Architecture: arm
-Installed-Size: 10720
+Installed-Size: 10980
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.6
+Version: 0.3.7
 Homepage: http://github.com/xianyi/OpenBLAS
 Depends: libgfortran5
 Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-arm/openblas_0.3.6_arm.deb
-Size: 2154124
-MD5Sum: 3b4ec7f4f962356f87ab4b9560b89027
-SHA1: 40d35e31203faf3f63a081994f509aee8ea4cad6
-SHA256: b939b13db3f32957567804a6f96d4df4dab8efe7c57878c5d8c2d5aa579914bd
-SHA512: 506b4fd21c59edb626f26c58776fa58853da0218dabcfa356985d7cb886d4273b84fdb10a64012d5b6d4e5c07aaac832d14fb29ca5e47f276deb69df3c62ccb7
+Filename: dists/termux/extras/binary-arm/openblas_0.3.7_arm.deb
+Size: 2232336
+MD5Sum: 9ada70d7c169ba17567f20160a3a428e
+SHA1: a5a2505bf38b0b3c8f8e625faac22e334e7c9fc9
+SHA256: 820d64d11515ad181da0162a9388428e4934d600eb6542b99263e84e22eb20ed
+SHA512: beafa7918ae99c59925ce0d130a259c2e30d7d7b2b30183cfc3d21ba9343a3176c79d309ee049428da3bdecd5b153b2a701053e814e18e7e25a86bf29a5463e0
 
 Package: opencv
 Architecture: arm
