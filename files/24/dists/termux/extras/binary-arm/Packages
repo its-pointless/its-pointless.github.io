@@ -1800,6 +1800,22 @@ SHA1: d369f7c5f1515d0367c6e0c4bdef26ae18fab1af
 SHA256: 53c13632412e3506de83a10988e778f15cab463e28f6f603beb2baf5bde213ce
 SHA512: 242847d1c29a1b63a5a6984a87b59ae0480ef6d0471ef56958d3bea3040e460ba8e2373fd624bedbefc1c7fc8ccf31cd8beb0c74f066bd5c9ee7c38d7a9e0fb0
 
+Package: suitesparse
+Architecture: arm
+Installed-Size: 6188
+Maintainer:  @its-pointless github
+Version: 5.4.0-2
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Replaces: suitesparse-dev
+Description: a suite of sparse matrix software
+Filename: dists/termux/extras/binary-arm/suitesparse_5.4.0-2_arm.deb
+Size: 3260206
+MD5Sum: 8317026469585a82b2d68c6cb25d95df
+SHA1: ff786e22fd17918977c8fcb8089c46099244439b
+SHA256: fad22f7ba4fc91d23c28574598774ec6c1b5ce6ea633e0b9531268c9b230a94b
+SHA512: 1bdad4d93abc856d47a4f3ee44db52ab782072b58e8ec1563fa005e81d8a814e338247a785a7506f6ee59dc2dd53817bcc3d444660b33fd270123ee716656074
+
 Package: uchardet-dev
 Architecture: arm
 Installed-Size: 8

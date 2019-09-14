@@ -1817,6 +1817,22 @@ SHA1: f2fc38b07e0c581abd5645c73dcf9d90358fdf52
 SHA256: ae0da59d98d1dd8883980a35c5e797feec6a46941ca2029f5e1ddff361b8d52f
 SHA512: 90a130c20db2f77c909e0a0c33c2c3aea98a25baef8373e5da137674e5a09994deea46e1c4dd447af7255fa06974e1e827ef6107d66b786b4f92ab61af6b0cf4
 
+Package: suitesparse
+Architecture: i686
+Installed-Size: 7316
+Maintainer:  @its-pointless github
+Version: 5.4.0-2
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Replaces: suitesparse-dev
+Description: a suite of sparse matrix software
+Filename: dists/termux/extras/binary-i686/suitesparse_5.4.0-2_i686.deb
+Size: 3388256
+MD5Sum: 2117bd43f94375b8918e8b7ffbd7ab04
+SHA1: cd2c70276f2a2c0d06c877ab47558d9c413ec5f6
+SHA256: 24a90dd075390b63fb4ada0eaf54785a2adb2d9b30a65282b2a98fd97c8848e5
+SHA512: 451d1b71a5da17f46f87be1c534073e946b0631e21ecd14340b2b754e3449840adfb29c1fe6ea0705532ea10bd7fc080cf6a667f172794a9976b9303b4b0f1c1
+
 Package: uchardet-dev
 Architecture: i686
 Installed-Size: 8
