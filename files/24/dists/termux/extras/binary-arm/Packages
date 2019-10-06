@@ -269,21 +269,6 @@ SHA512: ec8e50f556cdefc86ffca2c136e1cda0d13fd915c5eabfbabc3d9a3b3ee71a5058e4f322
 
 Package: gobjc-9
 Architecture: arm
-Installed-Size: 18320
-Maintainer: @its-pointless github
-Version: 9.1.0-1
-Homepage: http://gcc.gnu.org/
-Depends: libobjc4, gcc-9, gcc-9 (= 9.1.0-1)
-Description: GNU Objective-C compiler
-Filename: dists/termux/extras/binary-arm/gobjc-9_9.1.0-1_arm.deb
-Size: 5611354
-MD5Sum: a846535c93db5a74ae62aac63f57744d
-SHA1: 081569339bca69e72506325990bde1c6f4800301
-SHA256: 0576d36a8777bc34b440d61bfd6e474aba4e3070e7bd1c9977cd29ade39faea4
-SHA512: 5720012f1e1d3ef09a6b1581bea091bbbf69e7dbeddc766bd79a91934f6d81427bd3bf9963c1e17a2ecdfcda6b6669e92e1ed76f98aa6b6f4ac30ccc704dea06
-
-Package: gobjc-9
-Architecture: arm
 Installed-Size: 18336
 Maintainer: @its-pointless github
 Version: 9.2.0
@@ -374,36 +359,6 @@ SHA512: 47e0513b2b0e0052fd15f4492eaefd0a623ee9af8e23e1cff74df89e2ab9ae52a9545797
 
 Package: guile-2.2
 Architecture: arm
-Installed-Size: 41400
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.4-2
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
-Description: GNU extension language and Scheme interpreter
-Filename: dists/termux/extras/binary-arm/guile-2.2_2.2.4-2_arm.deb
-Size: 4970056
-MD5Sum: 43251d7076d54937a8c5f75f5218b550
-SHA1: 7b1a2fffb8db7ddec56f3e0a3ee6dc1fdbd7291a
-SHA256: e4db06f5e1d0c1ee0aab449dd88663cbe7089e8438815973875d177254227584
-SHA512: a55e364219e0522574309d3461dd5aad4a90caea64268a687aed70d17015aeb8ed5bbf57612fec081dca1cf5302046d3d8dd998da3fa637ec859225cea25cc9d
-
-Package: guile-2.2
-Architecture: arm
-Installed-Size: 41408
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.5
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
-Description: GNU extension language and Scheme interpreter
-Filename: dists/termux/extras/binary-arm/guile-2.2_2.2.5_arm.deb
-Size: 4974462
-MD5Sum: 1f5e6912a7f7a6081b6be1207a08ccc5
-SHA1: a7b50bfe712031f7f4a215f1b9767fc2a2ee60e6
-SHA256: 442428cb448df89547676cd5554a22726618fb6d2d44aca12acf2a2bfb6a590c
-SHA512: f85104fe87bdecc21f8483a21eb7383e8722078d7084ec5d74216e1980ecf5d44d4cc5f99de37354ab9e63504a084a3076e86702e947eb3108c61ebfa7262c05
-
-Package: guile-2.2
-Architecture: arm
 Installed-Size: 41408
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.2.6-1
@@ -446,23 +401,6 @@ MD5Sum: 43f6acb126fce8a5b92bbd412285555e
 SHA1: 88a783a22e09b189c83d6be1b483ab391cb59129
 SHA256: 89c5aaf1be8a900e94883b3cfdb2cad08768cbdfc800f5f55db911fb092d4687
 SHA512: 2eaf94b4d64a7b1b2b936df647a0063bdddfa134beea34ad1ae9601e765e529f542f7725b41c3ff7077ff091ee8b5bb8fb2e56632e752a35be1b0d4e9393a950
-
-Package: julia
-Architecture: arm
-Installed-Size: 127276
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.1
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Description: high-performance dynamic programming language for numerical computing
-Filename: dists/termux/extras/binary-arm/julia_1.1.1_arm.deb
-Size: 20398702
-MD5Sum: ad41ca46ad233ef20fe9a94a5cd1294a
-SHA1: a0a71098ad09bab078e3f972d42db40b252fc9a8
-SHA256: a616a7583c5954e4df94d1aac51126967516a0f606987a2b7d4da4e2a71e946a
-SHA512: 8fa87e8996beaa28ff128bdc170db211b0c2ce6cb9271d2dcf1b430f204ad691aa293ce9d0d3f70b8a8be1a6b552e84ac768b584685db1d870a70d2189031a7f
 
 Package: julia
 Architecture: arm
@@ -529,20 +467,6 @@ Package: libcompiler-rt-termux
 Architecture: arm
 Installed-Size: 44
 Maintainer: Fredrik Fornwall @fornwall
-Version: 8.0.0
-Homepage: https://compiler-rt.llvm.org
-Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
-Filename: dists/termux/extras/binary-arm/libcompiler-rt-termux_8.0.0_arm.deb
-Size: 18544
-MD5Sum: c87574a6f9bbeadc054b53d35615951a
-SHA1: a531fc998878ccf0599f464b8d6aac3c25a1521e
-SHA256: badb5c170b2a4faf81a5bc07fd892ce58e507298371ddc29cd8cfbdf3bbb75c3
-SHA512: 035d6b159eef3a83dfa05996280886f16c065c1eb48fbc54811b0d4b016ff2376cf9ccb65735ed7f88a8c221312d06e748822a409dcf2875ccd5a413f0e53f03
-
-Package: libcompiler-rt-termux
-Architecture: arm
-Installed-Size: 44
-Maintainer: Fredrik Fornwall @fornwall
 Version: 8.0.1-1
 Homepage: https://compiler-rt.llvm.org
 Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
@@ -552,35 +476,6 @@ MD5Sum: 94289b44f6bc31f34f11ece60240b2b6
 SHA1: 3915206cd77d6e85a4d721ee452317fb7baf020e
 SHA256: 9bd507b6a77ef9f27b07300cd93662c72d87726300810a978d996b64d240dabe
 SHA512: 160ac1bd4f7dd8de6c6975f31528d64f287796611456a723b9942c99342a2d45d2c3570726fc7aac9b52f0859b788b1037f0a14005b7bbc7b42f519e4d647db0
-
-Package: libcompiler-rt-termux
-Architecture: arm
-Installed-Size: 44
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.0.1
-Homepage: https://compiler-rt.llvm.org
-Depends: libcompiler-rt (= 8.0.1)
-Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
-Filename: dists/termux/extras/binary-arm/libcompiler-rt-termux_8.0.1_arm.deb
-Size: 19492
-MD5Sum: 8d3b459a48e55dc12c9dc4fd855bd33c
-SHA1: 6c8bb88ae3a9398fe91b9005a7452374bef59724
-SHA256: 2c10dfe34a5be7a4217b1ca156e422660761720e48c563f99a8d06ee7f0120c1
-SHA512: 3dc50cd7b7930c36cf08110aad69719a044d0dbc5328f6083d10cd5a5b28acaaa4f393d2dcf6bf41ef5c2325199d10932381fda97bcaa0df5d0706af91b766de
-
-Package: libcompiler-rt
-Architecture: arm
-Installed-Size: 8908
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.0.0
-Homepage: https://compiler-rt.llvm.org
-Description: llvm runtime libs
-Filename: dists/termux/extras/binary-arm/libcompiler-rt_8.0.0_arm.deb
-Size: 809204
-MD5Sum: 3cd3d4e3764f0b08f9c928576bdc18ff
-SHA1: b989525c358f67ab000b2c2be399cfdd1823f819
-SHA256: a01ca63acf1ac57996eaacd34fdaab25998afa9cef15594f693dd2d30370de98
-SHA512: 05a6080011038fddfc9d9dbfac97d0cf3f371ed86b8a600ea5c23bfb413f805e8c0ad7d144a2d66399242d126e4a34b9b58821dd3c6983a52453e2fbd2045b35
 
 Package: libcompiler-rt
 Architecture: arm
@@ -610,21 +505,6 @@ MD5Sum: dc1a930c920f5b0f2618e17e9ad133b6
 SHA1: 89aee90de97f7771a1c737d9b60f46f8a1932833
 SHA256: 63bddc698f49e2befaa039cbb5d692111ec9e19800d880418c3368063dc8bd68
 SHA512: 560e327d0c9bbccf3266611cd39eff0f6447973c368235d333d99115b3c617acbd990d1a48ba37963d8f533ecd4392a985c89c06a79303c35d075b99421881cb
-
-Package: libgccjit-9-dev
-Architecture: arm
-Installed-Size: 16408
-Maintainer: @its-pointless github
-Version: 9.1.0-1
-Homepage: http://gcc.gnu.org/
-Depends: gcc-9, gcc-9 (= 9.1.0-1)
-Description: GCC just-in-time compilation
-Filename: dists/termux/extras/binary-arm/libgccjit-9-dev_9.1.0-1_arm.deb
-Size: 5085800
-MD5Sum: 05b12e74d33b9ecea63afeb44276141c
-SHA1: 403b5e751f498ee66ed653a291762db2310def38
-SHA256: 60600cd3f34a816781e08cdf20d0f991e23519c2e25576ac9b4821f97e41c88e
-SHA512: adb2482f8d708a5433eac8aa132a2ec88d2528766a5755c892e267349046f921db2c11103b83c57217f20c2073251fbbb0581a20d23aaeb01f0b1af96babbe5c
 
 Package: libgccjit-9-dev
 Architecture: arm
@@ -811,23 +691,6 @@ MD5Sum: 45b49f37b7a2588ecfe404426f81cb58
 SHA1: d444f6e15e1f75b89ffd7cb04e15ce4ee4dd484c
 SHA256: 8afbf7d9be6468ba860e65b0b49749ea2c8bfaab85c9294e888395835c77502e
 SHA512: 30a97530cb5ba5dd8c14bff8498da8f0dfa23936896a125def3c9d3c3825305b37a8b3ea0be57fde18881a958011d5a41bba537b9f0d961566d99eb14fdb797e
-
-Package: libgomp-9
-Architecture: arm
-Installed-Size: 204
-Maintainer: @its-pointless github
-Version: 9.1.0-1
-Homepage: http://gcc.gnu.org/
-Depends: gcc-9, gcc-9 (= 9.1.0-1)
-Conflicts: libgomp
-Replaces: libgomp
-Description: openmp library for gcc-9
-Filename: dists/termux/extras/binary-arm/libgomp-9_9.1.0-1_arm.deb
-Size: 63626
-MD5Sum: 8b2bb96a7f1389855a838a23c844cdc2
-SHA1: c2f8217bf9e88b2d495622c0f4496e13c295c1be
-SHA256: a2aa209cffcf38b8c2a550a80d43729ca6685f5fc23d231a86c3f1fa994845b0
-SHA512: 9a58a3c1931cd7a7e2fd0ca7aad83924e4fc99a1917040b90fc8606ab9162136db923e2078dc631dc5659392892e7beb5042766343c1280b120158c2b17ed90c
 
 Package: libgomp-9
 Architecture: arm
@@ -1442,21 +1305,6 @@ SHA1: 5e72afa0c965a82e8eb586fe089fdd8fbcb7843e
 SHA256: 4ee94c7021f0435f6c07c4e0cb9e3f59706799affcfc5718f9470e6f76a8d95a
 SHA512: 3ddf40384bb30f08b04b085fbaa0159e45e5456881b4d6534a0cb37649c92c9764ead5e235055cc3c8b33fb980ce9673192e1582b899eea88a20689efdc6efca
 
-Package: python2-numpy
-Architecture: arm
-Installed-Size: 15816
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.4
-Homepage: http://www.numpy.org/
-Depends: openblas, python2-dev, libcrypt-dev
-Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-arm/python2-numpy_1.16.4_arm.deb
-Size: 2650976
-MD5Sum: d5b2d194f2869908df3581890b92bf84
-SHA1: 19e2168a922a7ebf667348a5186d315a2b9e3381
-SHA256: f68521d08ffcdda2de5fede545ce1a97613028e8673e352fd3a663cab5414c08
-SHA512: b8da80d55b72f4e13dca554c9a176f7951bce1895d2d7ff923710a0fed32ba6024a03765353c7810597413c0fe140fe438d1af7228d3055afc34ce9b141b9fd2
-
 Package: python2-scipy
 Architecture: arm
 Installed-Size: 45808
@@ -1501,36 +1349,6 @@ SHA1: 26d3bceeec40805a51dbbd8bb82d9da1b5c7215a
 SHA256: ca208d54914dc49a52221a8af6270ebb67b1bea2a4585d2e335b2e641f9558d4
 SHA512: dfaf71357645040884a735961f4002558892c77129f55c6e0ed05d257118cd1251f61c4a80d3229c88397e0cf9aef74195755805da8629032e4bb5628e388b7e
 
-Package: quantlib-dev
-Architecture: arm
-Installed-Size: 8104
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15
-Homepage: http://quantlib.org
-Depends: quantlib,boost-dev
-Description: Development files for quantlib
-Filename: dists/termux/extras/binary-arm/quantlib-dev_1.15_arm.deb
-Size: 566862
-MD5Sum: 918806796d0ec826b094ad92cc1e88ea
-SHA1: df7efe92e38511a600df0521d59d23479652cf7e
-SHA256: a3438aabf9e4e3eb48f15eb15d93d6fba76fbef29a04d1c296a42a00f31dea97
-SHA512: 4077dd420a9eb65791dffba0028b1095754a3de1384664a51f864fece9644cb28aafbdc2feae6668d874c6a8830c367f729378a70bfd64a2f6043203d224613f
-
-Package: quantlib-static
-Architecture: arm
-Installed-Size: 156820
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15-1
-Homepage: http://quantlib.org
-Depends: quantlib (= 1.15-1)
-Description: Static libraries for quantlib
-Filename: dists/termux/extras/binary-arm/quantlib-static_1.15-1_arm.deb
-Size: 16610664
-MD5Sum: daceda411ca47680858277ffb75d93b1
-SHA1: 755bd9b6168a7c9a4f0dcbf1a9557ab377e4eb08
-SHA256: 4942a2111cec26c0eedb7e0a3e49c5113435d4367c45c4dc26c2ebee4e6262ac
-SHA512: e9e50116bb6696c4259c5e47eb086aef7ccdd6e98b5669969d9e0432a92c43477c1381af0b3b51ca553998eb2874aa47fa705eec73268eb2d90a4fa820ca0ca8
-
 Package: quantlib-static
 Architecture: arm
 Installed-Size: 161496
@@ -1545,34 +1363,6 @@ MD5Sum: 3ac1ccdb9a32057831a40b4f63f23abb
 SHA1: a3ec1d52de6da57d01a5a4590c2cd841dfa3bb32
 SHA256: adc7fb4db8a68877980251c2df6833fe9669e9e6d0f10ea8efad0fc171fe72e0
 SHA512: 420d71d564f6b40279bdbea4f1df0fab0fd1fef6274fa7ecdccd7e1a0bdc56c3d2764652423660967b35de312c1dfdfbd419061aebc3881e5aec7ec5169cb7ae
-
-Package: quantlib
-Architecture: arm
-Installed-Size: 34860
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15-1
-Homepage: http://quantlib.org
-Description: a comprehensive software framework for quantitative finance
-Filename: dists/termux/extras/binary-arm/quantlib_1.15-1_arm.deb
-Size: 8476020
-MD5Sum: f1c0114174e9f50996279a779f4bd756
-SHA1: a9c2039a4746dc5ebceab062139d963c2c8c8449
-SHA256: 402f16ca170ec22894aa47dad636ae73be13b25569321ddee38528b73ef710b3
-SHA512: 491d983786db11a07e52b1fe18851fc21c4f499d20b9a9d994150f78e41b20b16160cb1dcc263fce7a274c34d22cd7be7a627ac374c0688b65bb7637f1332a51
-
-Package: quantlib
-Architecture: arm
-Installed-Size: 29392
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15
-Homepage: http://quantlib.org
-Description: a comprehensive software framework for quantitative finance
-Filename: dists/termux/extras/binary-arm/quantlib_1.15_arm.deb
-Size: 8599900
-MD5Sum: fcd633fec2ea893313e60e4968fb7545
-SHA1: 81a14174f4840cfbd8a52875b2cfc759093e995b
-SHA256: 4223716c3aada0f3846cffb5ce7702ae95e19f99664cc8b4a5888886c70250ac
-SHA512: 5ffc2d3cff1ec3ece821798d99559c1d5acb94dd08d6589d2cde02ef7e342b480944962df3356a0f79576e7e8198253a2d2c11214bc967b83142345f333ba920
 
 Package: quantlib
 Architecture: arm
