@@ -2282,6 +2282,21 @@ SHA1: c1f143f7e545d73b44d71bb0d45e1dd04efa7c5c
 SHA256: 02be004703dea09ff8a9105aecb707b50584a2d084ce69fde2f6dafe3c36ed1c
 SHA512: 26ca3750cae2491613d261253e1c9713a4980d0df0624cf0b028df41ff3384844ca19eb887a789177a1d8fa0e69e5d9551db956286e57154ae42817ec7d5ff32
 
+Package: quantlib-static
+Architecture: aarch64
+Installed-Size: 161860
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.16
+Homepage: http://quantlib.org
+Depends: quantlib (= 1.16)
+Description: Static libraries for quantlib
+Filename: dists/termux/extras/binary-aarch64/quantlib-static_1.16_aarch64.deb
+Size: 14398896
+MD5Sum: a8324a6d38ec779a0d409008f1156ef2
+SHA1: 3dfff70d96b75a9b7283817f4835e8c7f346ecf4
+SHA256: 5d3091afa121d7f0e5253dc7dff8b16a81315d146af360ebb3490494d7550e4a
+SHA512: 58b1970d49e67cce73a728e0d92ae90796290fd11156f1960219d902285e958bc09cfc29e84cb3de299889c9c1f7d25ea9aec838b4cdafca7abdd6a224e8fbf0
+
 Package: quantlib
 Architecture: aarch64
 Installed-Size: 41480
@@ -2295,6 +2310,20 @@ MD5Sum: 53b9d0fb71338e3f56839bb2eb11f94a
 SHA1: 8d2dd406b442c7d91d65bfd91a8ac43bb8972b7b
 SHA256: 35daa4d58fe3cba4b5c51bb3aff1f075bae71368f8f21d73cae00dc08025005f
 SHA512: 972cb84ae049c18dab2cdb329e54a036bc37e22c394b92e7a81a4d1d922158f863b6b9fba6dbaffd6037d9540146623a896260e25299387f705763843e1ecd99
+
+Package: quantlib
+Architecture: aarch64
+Installed-Size: 49508
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.16
+Homepage: http://quantlib.org
+Description: a comprehensive software framework for quantitative finance
+Filename: dists/termux/extras/binary-aarch64/quantlib_1.16_aarch64.deb
+Size: 8990406
+MD5Sum: 799c201591355c945c59eb1b5ed9a6e2
+SHA1: 3c697fa51714e8669502b2d77b4cb08e15f93167
+SHA256: 70350834e47146289a0aa59b3d1f8046ce22a8449880d6a09888a91700b37dfd
+SHA512: 2706eff2ab29964b84129c4b7fba4b33c4d3a1191bec12113d4cd77da3bb38b04d92ce621985945aef3b39eccc7edfc1d28b668711b01437d3be19d3be75b18c
 
 Package: r-base
 Architecture: aarch64
@@ -2346,6 +2375,22 @@ SHA512: d99ec8b4c9718501730be2702ec69c5ac3f15322b3d595124d3661570283f94587d47c04
 
 Package: r-base
 Architecture: aarch64
+Installed-Size: 61524
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.1-2
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-aarch64/r-base_3.6.1-2_aarch64.deb
+Size: 39821494
+MD5Sum: 6915debb14cd3900f9e88f7e79e94058
+SHA1: 61549f8bd8668dd7740cfe192831c7e9c45e6583
+SHA256: e3dcaa28bedb6a6572ac0dc73b7eded6a36b76a2695f4b5fe47ee00a222bca60
+SHA512: e17271a2214f912015683ef36d4238ef7acd16fd42637efae4f0b184a95ebd6b333cbe678ee3b251da85e24f7e7094932e344dd912ac37533cd6a227f512e6b8
+
+Package: r-base
+Architecture: aarch64
 Installed-Size: 64404
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.6.1
@@ -2389,6 +2434,36 @@ MD5Sum: ab6a4b5772019c3f6bb5b5bb32d663d9
 SHA1: 968da1cf4c2315cd0beb06573f0bae7af91d8864
 SHA256: 5afee33ff5d4a89b1a41fa01120b67a9c26c85655e06bcea1ce5222ec7020740
 SHA512: ae3237a80029fac61cd971099cab144aa0664765da387037336234d0b6c375ed82f9daa3ccdd95042e2921525a283091b0c333f4fec5abc98500e17191d5c759
+
+Package: r-cran-rcpp
+Architecture: aarch64
+Installed-Size: 11476
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_1.0.2_aarch64.deb
+Size: 3345276
+MD5Sum: 09b834b5b4a313e1a75669ba672c8aa3
+SHA1: b8dcb899ce1a80d7fe547c424a2f03e6b9822c49
+SHA256: 33798f2b17d8c7d2d02ca8d383d7d28195ae30daac8cbf8bcc094d2616306e8d
+SHA512: 5045585c23c36b1a14378068c392bff62ca7d915ab31fb566e1dbf9a57291f0ee6a0eb769063bf669322e9c88b0cc10701ee1d50353fc001158075e04d9635f9
+
+Package: r-cran-rquantlib
+Architecture: aarch64
+Installed-Size: 3608
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.10
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.10_aarch64.deb
+Size: 840000
+MD5Sum: e6fb23b84042f93cf6fad07653fe8d6e
+SHA1: d2ddd109b1168ecf303bc416117ba7456257944f
+SHA256: 86910af7ed45ab9a0bb957c047b593a42f16cbe47463606f1545b2e3eb35d0b0
+SHA512: 9ee975c961c6e5e760144b8122fb31ad83382c7e700c664fcb27bac995a2cc11da50c56e51ce1c33b84f2c0dc961855f2980adad33c94b35fdd9e95db62b553a
 
 Package: r-cran-rquantlib
 Architecture: aarch64
@@ -2469,6 +2544,21 @@ Package: r-cran-stringi
 Architecture: aarch64
 Installed-Size: 1176
 Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.3-4
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.4.3-4_aarch64.deb
+Size: 671618
+MD5Sum: 7504f7b55ad3da217be708462ce6bd71
+SHA1: f617145188f079f1c0fbabe63e12627090b69fd0
+SHA256: 625d8f038ac54e21d3ad6a7352ed60c78d6ac9fa1247aff1a723815b182aed5e
+SHA512: ccc089f520a1e52fd3698e9b334d3ba8d80c054511b193edc786ffb86b77b5eb530a429211f49c3768ab84da9d5cf41fc6244a78ccabf14d6631660f88b35598
+
+Package: r-cran-stringi
+Architecture: aarch64
+Installed-Size: 1176
+Maintainer: Fredrik Fornwall @fornwall
 Version: 1.4.3
 Homepage: https://cran.r-project.org/
 Depends: r-base
@@ -2539,6 +2629,21 @@ MD5Sum: 86e6f62be2ec56e63bd4928ce8ace1ad
 SHA1: b0e10e9fe1915ace3bff8c0e758ae6a766da5036
 SHA256: ad3beb4ea3ced201e6b9d134cfe4f0008c474fac3c49b2e93b1279a1f81ba560
 SHA512: 8ac6bce6f34209ee1a28cd5f59bd6f3288b4d60035748d76e6efc38bf0e85c82fa46e133fa84d083dfd6c40b2ba018558447ea1d7f039f257e0c62945b117c48
+
+Package: r-cran-zoo
+Architecture: aarch64
+Installed-Size: 1444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8-6-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-6-1_aarch64.deb
+Size: 1057784
+MD5Sum: 13d78a8f7b38ffea24c3a4105034eda1
+SHA1: 4db699fed93cfdfacbc150ad4679afd8acf6c553
+SHA256: 24d827be3235fbb6263a9797ca01187a9823f0c164da41d098186ebc404d33c3
+SHA512: ec6d66ec50b177fe0245a3512efa949304e680b5038d3a25f99e547aac93605979ca6ff90cc90226479bcb5bd29c7df65660a4a3e8bbc8ad507a5b05310ee49c
 
 Package: re2c
 Architecture: aarch64

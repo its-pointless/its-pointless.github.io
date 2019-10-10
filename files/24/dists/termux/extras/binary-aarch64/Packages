@@ -374,51 +374,6 @@ SHA512: 08f6da499f7b3a86cc70f7a7c731d7141daaa544c88edaa8f544053c7ebb15812c819995
 
 Package: guile-2.2-dev
 Architecture: aarch64
-Installed-Size: 756
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.4-1
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2 (= 2.2.4-1)
-Description: Development files for guile-2.2
-Filename: dists/termux/extras/binary-aarch64/guile-2.2-dev_2.2.4-1_aarch64.deb
-Size: 77662
-MD5Sum: 79433af1ea487cf942ed02f3d273ff70
-SHA1: 20e636f8ad40b4998e61c1cdf63941cc6af2c4f2
-SHA256: 13b10c6d1475ba344d9bf6f9027d75f2f87408aaa8f8069b95600491762aae2e
-SHA512: bdaa4eda622345bdc64fbb250eb2d6c58d51c0d2e5224eaf93e5a8a776de04f3b05c3563c28f0016134b8c8daa4b4ebad36aa24b6c6191d9efd9c307b376f249
-
-Package: guile-2.2-dev
-Architecture: aarch64
-Installed-Size: 756
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.4-2
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2 (= 2.2.4-2)
-Description: Development files for guile-2.2
-Filename: dists/termux/extras/binary-aarch64/guile-2.2-dev_2.2.4-2_aarch64.deb
-Size: 77698
-MD5Sum: ec77d5c8bd96a6fc4f1c2844fa14c398
-SHA1: 115c668457b53cd8d08ab7a128570168fdc1ac69
-SHA256: 055a7ac0e20e5b9beb382b3c69740e7e3571fd376153eb5cc3432772423ba2bf
-SHA512: 094ea0691c9a709071044621acafa9406a2fbf69a6e7eb6b6bbc1e06945025895d0ff93618c76b53cafb34d4f40f06ef81664401838d356f7ca5eb184c23f814
-
-Package: guile-2.2-dev
-Architecture: aarch64
-Installed-Size: 744
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.5
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2 (= 2.2.5)
-Description: Development files for guile-2.2
-Filename: dists/termux/extras/binary-aarch64/guile-2.2-dev_2.2.5_aarch64.deb
-Size: 77804
-MD5Sum: 973436bce068bfae9a421de3b53f45fe
-SHA1: 637e0713b0585affce4f36ddb94cd3761a54972e
-SHA256: e17ca07fabee221f18504247953be00e1dbf6d53f203119296f20c07a31107d1
-SHA512: a656cba84f6ce44537ba56b97a37a3c3f0c573f1c9f4246e8899b93092ae0ef1a853a777fb7cbb75ae9a0f4c0f0ae08a412de330e7bf3edc8822598b6e1358ed
-
-Package: guile-2.2-dev
-Architecture: aarch64
 Installed-Size: 744
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.2.6-1
@@ -1261,6 +1216,20 @@ SHA1: 80b8cd0c096ff3618d5f4de9201193f1d757b140
 SHA256: d7ac2e5930e44fd3a432654f9d29fed4575a2f5917b5a5aa1fa725f24da248cb
 SHA512: b4d964ed9c09521d35cf36e591e00a7a8a2ff2ccbfb537f9504aabd9aac5d5baa55471638cc1519abe592e3d5f1fea9396d382ee9fad1e494f8ddd16699dbe56
 
+Package: nbtscan
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.5.1
+Homepage: https://packages.debian.org/sid/nbtscan
+Description: scan networks searching for NetBIOS information
+Filename: dists/termux/extras/binary-aarch64/nbtscan_1.5.1_aarch64.deb
+Size: 9568
+MD5Sum: 22b158eddaf6316d939d3b3a406e42b5
+SHA1: 3df9610080befa94f0d832e2e1a7335c02a30120
+SHA256: bcccfd6f7136d801fc4b99b4ab3a54e1fc1d65cd631e2c04d5d722e2987271d2
+SHA512: 67c2792b2589e3976ae0c23638089561c5bd00e702de6f9c43b1ab11ac79329b576d57953dd86049e746ecee6bb53d7b10c53dd54658f7a0c946aa271992776f
+
 Package: numpy
 Architecture: aarch64
 Installed-Size: 18328
@@ -1428,36 +1397,6 @@ SHA1: 2fe6bc3b4f3c213a948cc0e4b5ceacc7bf10f5cf
 SHA256: f0a83752ecd6b176179dbcad138c4beabb9702c014e27fc0c797497519d742c3
 SHA512: ad3a83554321d663fc090335605894ae56ba2435aa7395a5d3f8b83b3c807bf6b4ab75e7d20f3175c322632efde9683cf8453b17437618a31f21dba233e6b622
 
-Package: pcrecpp-dev
-Architecture: aarch64
-Installed-Size: 36
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.43
-Homepage: https://www.pcre.org
-Depends: pcrecpp
-Description: pcre cpp
-Filename: dists/termux/extras/binary-aarch64/pcrecpp-dev_8.43_aarch64.deb
-Size: 9594
-MD5Sum: 7f63c48d63019a8e21eb95a27df96bc1
-SHA1: 6aa0fc5bfbbbf015148b208cf3145e12295a0eeb
-SHA256: 3d65980334a2ce92aca28c3e20464ab20d997a5d1e3d1b1b76e15da574b941f1
-SHA512: 95a55ab9c42b807f2df2b5541bac416b9f88ecf5cb1acbc8076a61d02b41772d1716ba74f3df94fea54f072e373ff4310a8ad8f1d575efa27c6abfe17ba3b8e9
-
-Package: pcrecpp
-Architecture: aarch64
-Installed-Size: 64
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.43
-Homepage: https://www.pcre.org
-Depends: pcre
-Description: pcre cpp
-Filename: dists/termux/extras/binary-aarch64/pcrecpp_8.43_aarch64.deb
-Size: 20870
-MD5Sum: 09d57724885ee12831a4d2ea5e70466b
-SHA1: 3010b89a506fdab45e4e2f2dabd7b3a803ed07e4
-SHA256: fbbccd4861b56628eb5b89fd97a568593a5565b9e34e206571c2ebfe393aa7bf
-SHA512: ba640c1d0f1411395ca9e446a6402e92b7c5c8ae21e628b85a573e32c20cc32362e9c93c77177a0331fc882273251fb016a5fb50db5868fd90def5e39d9fb892
-
 Package: portaudio-dev
 Architecture: aarch64
 Installed-Size: 68
@@ -1502,21 +1441,6 @@ MD5Sum: 24ec7004007f9b9a5613545f827eb9e9
 SHA1: 4566e447860092b9ec669cf1fe3cb274383ba871
 SHA256: 9675e223de9ac5d1a4fdce0f5d8d60b9ae3c7bd6bc3f82c95cb0fbe686be58e2
 SHA512: db4747fa445b2735ef6c5c7dd0cc6abdaf95b1ec050f2fe44fe61cafdd69e77ca1c081782c63f30b3048c2d5df940191db7f0c3b621ba34905f017f3196dbf37
-
-Package: povray
-Architecture: aarch64
-Installed-Size: 24776
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.7.0.8-2
-Homepage: https://povray.org
-Depends: libpng, libtiff, libjpeg-turbo, boost
-Description:  Persistence of Vision Raytracer
-Filename: dists/termux/extras/binary-aarch64/povray_3.7.0.8-2_aarch64.deb
-Size: 10933574
-MD5Sum: 3d8505c0a5b0a9a37bd4624d0dfbfb87
-SHA1: a2762b0277fe91d2f5ce2e1a958e49f064bea01a
-SHA256: c1531cd3c7faf4922dbe91c514deeeb7057316dba5d6d8b9593a9aaf4689052a
-SHA512: 3782b247dc77fd197c949dc16dfe5f30c9da9b1fe4309ef0ae6e90728ba67341a2856d7d430cc59194995d6da4fad194e3d227ea569c336ce5b8fbfb9a2b0923
 
 Package: povray
 Architecture: aarch64
@@ -1636,37 +1560,6 @@ MD5Sum: e853b188f404ee578a0d5ef34dc09530
 SHA1: eb0af106ec7a8ef34c6377e612c14cab5d611d43
 SHA256: 049fa98ff9fd3b06423b3a92fe4dfdc168110b1842fdac160c7d463e204956cd
 SHA512: 47054235edc653ceffe302e80f105617cc00665e4d1185b4a4353aee3bd10edf3254b9fb31c356d11baba0159932a84715aeaebeb026e6cf8df436b7594979f8
-
-Package: r-base
-Architecture: aarch64
-Installed-Size: 64400
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.6.1
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
-Replaces: r-cran
-Description: a freely available language and environment for statistical computing and graphics
-Filename: dists/termux/extras/binary-aarch64/r-base_3.6.1_aarch64.deb
-Size: 40278218
-MD5Sum: 64cc05a383dab4e941b963c68b207374
-SHA1: a03dbb100aa4f1fe5f0dda7b04f11d1a564cf4b8
-SHA256: 0d2fe817eac7b9bf47807ff4a1e6960e96eedddc4fcda66a89ebb35cfee42b76
-SHA512: 1dc5f31f505a42105d4c565531102f6896b49b4b37f7ab09e25d093ee9a03f6f0ccff1cfdfbfcc99d0313f3830fbb761377921618eb803aa3988de32aa803b36
-
-Package: r-cran-rcpp
-Architecture: aarch64
-Installed-Size: 11432
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.1-4
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Description: GNU R package for Seamless R and C++ Integration
-Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_1.0.1-4_aarch64.deb
-Size: 3290638
-MD5Sum: 5fccaaa438d920a5c1eb0ff0e4754bd2
-SHA1: 89e3670b293f1078fa6c6104d947290a38599018
-SHA256: 4a209190c49cf7473e7d4bb4b7ba5fe39fe9e9c80941110969dcb2b3ccad5663
-SHA512: 6de5a4f7844e2dedf3cb5a8b08e9c105be0820b2075d6035cc3ffabe6feaa8341275b5f787df633842452fe14945e19951aaf159a7eb1ebff0a84c8402c8ff0b
 
 Package: r-cran-rcpp
 Architecture: aarch64

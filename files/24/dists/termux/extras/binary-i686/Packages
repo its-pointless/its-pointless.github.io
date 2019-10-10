@@ -316,36 +316,6 @@ Package: guile-2.2-dev
 Architecture: i686
 Installed-Size: 744
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.4-2
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2 (= 2.2.4-2)
-Description: Development files for guile-2.2
-Filename: dists/termux/extras/binary-i686/guile-2.2-dev_2.2.4-2_i686.deb
-Size: 77716
-MD5Sum: d7f86b1d697814a3b4ae5677072f00ad
-SHA1: e60f633a114be9eb3b1bff08fd0ef8789f4377ce
-SHA256: a0ced5232771de18a3dbc395a42bb0354d584fec18514f2f1c776c540c20fc3e
-SHA512: 871b17ebfe6955178c1ddafe96baf994b931ab450e04cf5dea853616992509938a83d4efb0d8f0a864e8543d66d4c469ef6c1d7498692d8419e6f34faa70feb9
-
-Package: guile-2.2-dev
-Architecture: i686
-Installed-Size: 744
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.5
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2 (= 2.2.5)
-Description: Development files for guile-2.2
-Filename: dists/termux/extras/binary-i686/guile-2.2-dev_2.2.5_i686.deb
-Size: 77850
-MD5Sum: e3c777ed3b78e4a534be90e596dc3754
-SHA1: 9da118a4b9d2e35a305b2d55420ef40d8d0ce8bf
-SHA256: 6154c367dcee7efda6a72e8b7dc038f8c8f5d41d01bdd3a0df296bf946f021cb
-SHA512: fa9cc6604100cdee63688931c19430f2a472e8c5d8edad99f7c0fbfe5a844f773693bea0e03478aa22d5769a89445eaad0287d527d7bf627e93be8ece15b9b87
-
-Package: guile-2.2-dev
-Architecture: i686
-Installed-Size: 744
-Maintainer: Fredrik Fornwall @fornwall
 Version: 2.2.6-1
 Homepage: http://www.gnu.org/software/guile/
 Depends: guile-2.2 (= 2.2.6-1)
@@ -1019,6 +989,20 @@ SHA1: 7ae960b1c7d5527e9ed68e8eec888e7f9506719b
 SHA256: f7fd1e9188b720eecf4f63c64b59a6710137b810953eee9e65f23b19b27a964b
 SHA512: 01738b8afaa8c4a979469c68d8d194a60e42693128e92ba926c4f93271559be3bad95abcfa9cacc2784a25d029a928fba570e80e6a473deb56ac5d3c7268693a
 
+Package: nbtscan
+Architecture: i686
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.5.1
+Homepage: https://packages.debian.org/sid/nbtscan
+Description: scan networks searching for NetBIOS information
+Filename: dists/termux/extras/binary-i686/nbtscan_1.5.1_i686.deb
+Size: 9840
+MD5Sum: 659ceba67b4fbf45b28db5be9d5a0efc
+SHA1: a8394342e6e13a31d7837f2dbeb29461301121fc
+SHA256: 118a9dce93b58b74c98aa5788baa381f9a5f6de2b20c218db7063fac6624dff7
+SHA512: 29018c6f9752123d7e3dd6d264afbcca79a834f97da6e3948b3b5e3aa178ece7a0a8faf3d88169627a6c36c9e33b7fd1fc0f044272c5148326ecb3af15997a7e
+
 Package: numpy
 Architecture: i686
 Installed-Size: 18528
@@ -1216,36 +1200,6 @@ SHA1: 27ab3d23f9047a10c2ec6e30e7a8e8f062e155be
 SHA256: 231a6e407517be7ae2c7366144cf4ab0020edb01ea5999b906e829a59ae899a0
 SHA512: 94e9daa43deef5105fc873810cf403eb3deb675b102b035702630511b0c6e1c556aaca1e8b01d82a103187e7d8798559e51fa4299adfa33f2da0a95dde324573
 
-Package: pcrecpp-dev
-Architecture: i686
-Installed-Size: 36
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.43
-Homepage: https://www.pcre.org
-Depends: pcrecpp
-Description: pcre cpp
-Filename: dists/termux/extras/binary-i686/pcrecpp-dev_8.43_i686.deb
-Size: 9602
-MD5Sum: 3830ebc5b1e6f0890c95b4d43b2676f7
-SHA1: 2a981bb727e69da80f4e15f38bde00cbdda2add6
-SHA256: 827184ec27ae43957ec37c4aed613acb08a5b898ace89dfbd317603cdf62b723
-SHA512: 8dbd88c3e5f836cf57f6e6f91c5e970dfc07ba218ff759f3de7c4135764aed819515d5d5cb36fc9bbbf043bd021e6c84162192779e09229bd17aea037025b5ac
-
-Package: pcrecpp
-Architecture: i686
-Installed-Size: 56
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.43
-Homepage: https://www.pcre.org
-Depends: pcre
-Description: pcre cpp
-Filename: dists/termux/extras/binary-i686/pcrecpp_8.43_i686.deb
-Size: 21878
-MD5Sum: a5c664f26ef8157a5727057964621f79
-SHA1: 1964bfffb45083c9c099e6d89b69d176ebdf23ff
-SHA256: f1a563a6df82b694621f26548f553371ca716cbecc3ded49b0e48d7576588e69
-SHA512: 367bc219867159f329cf0a56e7d65d351695f7a60862af215794ab364dcaef7a29c89f5ee2550742b66e1ef0c4b411b95d34e9f53d339651e2197ad7037f1791
-
 Package: picolisp
 Architecture: i686
 Installed-Size: 4180
@@ -1320,21 +1274,6 @@ MD5Sum: cf738ff2cd7a2a6d039bf440265bd0dc
 SHA1: 06ba010cd229b23b49942a651bc2b160053cb7aa
 SHA256: a749c6e36f648a843ccbbd5d7506d99b9fdbb8c3dee4b35bf1e1544c8c1df477
 SHA512: f04c55d433141babef56544f12d09fc2d6c9167b2ec55a5da65140f84e605ab1c5879094ad1f7c687611f38eb9c8416bb0f6f88e4993655622f051f233c157c4
-
-Package: povray
-Architecture: i686
-Installed-Size: 24900
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.7.0.8-2
-Homepage: https://povray.org
-Depends: libpng, libtiff, libjpeg-turbo, boost
-Description:  Persistence of Vision Raytracer
-Filename: dists/termux/extras/binary-i686/povray_3.7.0.8-2_i686.deb
-Size: 11018612
-MD5Sum: 6d7a5660c4bf924cc586cb707d7537ed
-SHA1: 81aba05ae90c97af81e80efddd35b4a3da404b63
-SHA256: 9f9e073bae844bb6106bcccba045dc83ecf60bce86ee99c6579fb799824cc0ea
-SHA512: 271ad97de729fae0d2a6ccd614740f89ee857c01c7a31c429f70f0168e24c9daf244c1b5419188edcc633fdde7d64adc824b4edc9b83c782cab89a52a52e00d3
 
 Package: povray
 Architecture: i686
@@ -1454,37 +1393,6 @@ MD5Sum: 9d3dfd7fac64d03fbdef54bd8111e43f
 SHA1: ed499bbc98ae84a46fba3431a9db026583e885ba
 SHA256: 42f7fbc9fae7b9422e6b4a32c7373a1e8ca751b9fa39ab0a522115d50b8b4694
 SHA512: 9f71302dcd6002bdee4bccfda0f5ce75390787c61d5559429be3a93135e3d3d888029712db73736e5c2a691b53d5c25b032e071075ec733ffee0c3536c68d953
-
-Package: r-base
-Architecture: i686
-Installed-Size: 67100
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.6.1
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
-Replaces: r-cran
-Description: a freely available language and environment for statistical computing and graphics
-Filename: dists/termux/extras/binary-i686/r-base_3.6.1_i686.deb
-Size: 40331860
-MD5Sum: eeaca4e65dd8c64fcc089ed57cc762c8
-SHA1: a1b3f83d5dc62dbff47c134c6f63c680bdeb6574
-SHA256: 8cb62bf0bddf98bf25bc5f70c66a3bb8a3a52800bb89967c71eafd5dd522dc5f
-SHA512: 1d72f72aece74cdcc965bdf22a1f92304c3ab79990bce3c6e51af966cbf0f4d5c724bfa5bf038e229ee0f916679135730700118b5d21dcf5e7fb27788372012c
-
-Package: r-cran-rcpp
-Architecture: i686
-Installed-Size: 11888
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.1-4
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Description: GNU R package for Seamless R and C++ Integration
-Filename: dists/termux/extras/binary-i686/r-cran-rcpp_1.0.1-4_i686.deb
-Size: 3353048
-MD5Sum: 67f09f29ac3a5363e8cbd636caa654aa
-SHA1: 4fb724d6d0da37f86a5f36910740d061cf67a5d9
-SHA256: d28d7404fb2aa73fa6dbbb4e782e0d421cd05a9b213f6d8127250bc9fbb23ff0
-SHA512: 98dbbdb5cba8901837cb8d523197b526f3f49288629aad0cb39778144372cf8375bb28e313713f6c221b26dbf9f221b826b378b2dd69cc3dec2955b4bd3c2513
 
 Package: r-cran-rcpp
 Architecture: i686
