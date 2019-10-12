@@ -252,6 +252,35 @@ SHA1: 47ce21f8d8817a43d4fa949b37850511a44b8365
 SHA256: d497576b7374e6bd74304a76aa3b5185321b3dad6265682c3d086ae1489bc1c1
 SHA512: b7906dead0682f341b18cd4315199c99817f5d71b4747ef54b73f99464ab3687f37c31f6b7457f56fb5dc588f02d7146a882d701f28112d9e5c39240d5584cf9
 
+Package: gnustep-base
+Architecture: i686
+Installed-Size: 14888
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.26.0
+Homepage: https://github.com/gnustep/libs-base
+Depends: libdispatch, libxml2, zlib, libffi, libgnutls, libobjc4, libxslt
+Description: https://github.com/gnustep/libs-base/releases/download/base-1_26_0/gnustep-base-1.26.0.tar.gz
+Filename: dists/termux/extras/binary-i686/gnustep-base_1.26.0_i686.deb
+Size: 1653886
+MD5Sum: 8f2beb64fceb306a85044979f9e11b90
+SHA1: 02655ce9f9a206c68834fd5d89c70ef4160163c2
+SHA256: 4226dafde02c4bd93ba4ca30718519889872e4f4c64d60c56576137314f6b219
+SHA512: 27d72fc5cbfbca9a033c5ad65dbb800e18a3a01bb3ebe32c93fb511fd0b1722bb538bd2d3ed7b34287d50c11d6e68336d956c7ea8c2007a753c7608bea2c2d44
+
+Package: gnustep-make
+Architecture: i686
+Installed-Size: 1196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.0
+Homepage: https://github.com/gnustep/tools-make
+Description: GNUstep build system
+Filename: dists/termux/extras/binary-i686/gnustep-make_2.7.0_i686.deb
+Size: 160208
+MD5Sum: d348eea25ab02a5763fc8c2e0b6eb585
+SHA1: ec1ab89fa01785dd26747b6838da34236f64a45c
+SHA256: 40051472d21747d2669f1a9b807f614cbdbf90bf01bee6f037b891b85d4a3084
+SHA512: d98e9f890bac1dd11bbcd7bfb6347bcd3d2085ff0f5a62dd2e551324d371c60f8dcffbd8c8013642c9014f3ce1b2fd247b4c4961a1b342d6edc8d2c829f506d5
+
 Package: gobjc-8
 Architecture: i686
 Installed-Size: 24592
@@ -1486,18 +1515,18 @@ SHA512: dcb9865315e8ad257b89c090447164f82753a7e7208dc0d721accf714cc8c7c33d08d942
 
 Package: r-cran-tidyverse
 Architecture: i686
-Installed-Size: 229752
+Installed-Size: 232144
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-4
+Version: 1.2.1-5
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-rcpp, r-cran-stringi
 Description: tidyverse
-Filename: dists/termux/extras/binary-i686/r-cran-tidyverse_1.2.1-4_i686.deb
-Size: 38790124
-MD5Sum: a48b31f9f3d2c33e8531f377c8abcc35
-SHA1: 2dbf525f61ad46f8547d9fd837891edd938bed45
-SHA256: fa88dacbc03eb47b20ac760035e1e635ded7e9a07137e67401c771b236be284a
-SHA512: 3463ddee0e4050279f4f8a3fc088ec2eeed073cda5147a75d97d92d016f72b41d1647d6f84fe95ab392a39e12fdd21767b9322e2e9d84a888d0d80306397894c
+Filename: dists/termux/extras/binary-i686/r-cran-tidyverse_1.2.1-5_i686.deb
+Size: 39278036
+MD5Sum: d1235fd348115b1ef93b1560e7c68abd
+SHA1: 0423a9b7a5db18843071479d79f4ec0625fd0917
+SHA256: 56874ab934ae2fb561615de1194157f6c329b6144356c1e9ee1a0456fcb6dae3
+SHA512: e6848a6d93c03cb6529b4836195837718a0982b703472ae8418487549538d5eb49575d4c30688d90b43c9276e544f62e1aa532d8415e6971de9bcc4ffcd1f679
 
 Package: r-cran-zoo
 Architecture: i686

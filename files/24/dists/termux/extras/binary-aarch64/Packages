@@ -297,6 +297,35 @@ SHA1: b325e01624f1cfb6ff5c3dc3a92a0e58994475e8
 SHA256: 79824d2d0ee20c8e80a0ace0cf345bf04a29d92d0ccfbc61eddd5f4f68cc022f
 SHA512: 6f04fb7642995c1c012554e1b4ebf4a7859669a4a6f56b2ee9bf7bf8b1a8d67508b9e0d5a523c152cf1362c0d247063e4bdacc2d6ce0d772c01532150a05d371
 
+Package: gnustep-base
+Architecture: aarch64
+Installed-Size: 16308
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.26.0
+Homepage: https://github.com/gnustep/libs-base
+Depends: libdispatch, libxml2, zlib, libffi, libgnutls, libobjc4, libxslt
+Description: https://github.com/gnustep/libs-base/releases/download/base-1_26_0/gnustep-base-1.26.0.tar.gz
+Filename: dists/termux/extras/binary-aarch64/gnustep-base_1.26.0_aarch64.deb
+Size: 1725492
+MD5Sum: 2cc1d9ee82ea23849367440ffcc98490
+SHA1: cc60e68ed099f0f5ad7053769f68b7dfd0ac49b3
+SHA256: 9da1e21aa1e85c6125c3151c4621ddbff696c71b7de44c38c5195a7fb340ef12
+SHA512: 10ad401cd91f82dec6c8adc6a1a2d11d76582ad3e0f830767e7c8759401cd8fbe0f2bfacce6bb1f3f08107bef73241f94b4b48eab0747b24deb86fea03cfb2ee
+
+Package: gnustep-make
+Architecture: aarch64
+Installed-Size: 1208
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.0
+Homepage: https://github.com/gnustep/tools-make
+Description: GNUstep build system
+Filename: dists/termux/extras/binary-aarch64/gnustep-make_2.7.0_aarch64.deb
+Size: 160252
+MD5Sum: eabfb31a49db10b630b63f1788520899
+SHA1: d44d3c999c62e4d540f620e4664a51e39fc90b05
+SHA256: c828a3233c37d10796bbe36696daa10d88ba0e39651d5ead4dd35cfc1b9fb5d0
+SHA512: 9130b663118dca0fcfff00bf32a4fc8e0b39be685bf10628395dab32291bf12bae7760027d394a5f50d6a9821ffa70e1e2d63836f70c80600803730529e207b4
+
 Package: gobjc-8
 Architecture: aarch64
 Installed-Size: 18692
@@ -1561,6 +1590,22 @@ SHA1: eb0af106ec7a8ef34c6377e612c14cab5d611d43
 SHA256: 049fa98ff9fd3b06423b3a92fe4dfdc168110b1842fdac160c7d463e204956cd
 SHA512: 47054235edc653ceffe302e80f105617cc00665e4d1185b4a4353aee3bd10edf3254b9fb31c356d11baba0159932a84715aeaebeb026e6cf8df436b7594979f8
 
+Package: r-base
+Architecture: aarch64
+Installed-Size: 61536
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.1-2
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-aarch64/r-base_3.6.1-2_aarch64.deb
+Size: 39825238
+MD5Sum: 40874c9e76c0cbaa3ed03989f2576472
+SHA1: 5215647ff1fc5f370b4aab52971ece4e4ac18643
+SHA256: 4595768148a113794811c2141552a325f77881d5ad40142026de1b61b3bd65a6
+SHA512: 0c523c65bf68992c43b798aa6bc50ed432e6fa49f76d24b72be08d10d1437efbfe9335ca61cf097494cf94e85f94658ed89b5b4eb32065607b723b87eb6f57da
+
 Package: r-cran-rcpp
 Architecture: aarch64
 Installed-Size: 11480
@@ -1653,18 +1698,18 @@ SHA512: 9d809bb1db4c2e37d34839220da5df3774bd344a6185e2133787c00c3878f3cd6c47024d
 
 Package: r-cran-tidyverse
 Architecture: aarch64
-Installed-Size: 224128
+Installed-Size: 226496
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1-4
+Version: 1.2.1-5
 Homepage: https://cran.r-project.org/
 Depends: r-base, r-cran-rcpp, r-cran-stringi
 Description: tidyverse
-Filename: dists/termux/extras/binary-aarch64/r-cran-tidyverse_1.2.1-4_aarch64.deb
-Size: 38189640
-MD5Sum: 598d2cc0bf48e4eb1d746617caf51bf4
-SHA1: 3d9c2d7d01de793911adfb146d0eb16d31f6536b
-SHA256: 95db2949daf70897e90fb248682861b6f1cbad3be53e67131827f9bf7c302692
-SHA512: 383b568f5c3857c8974642dd45813246a3f715710dd7762d7833461ece5e091e04e7dd061ecd65243c7ad1a08b20efa38a96524a8a0434a0bb0e717c527d8ac4
+Filename: dists/termux/extras/binary-aarch64/r-cran-tidyverse_1.2.1-5_aarch64.deb
+Size: 38599290
+MD5Sum: f8316d440ea84c57999397d04608598e
+SHA1: 3d1c2652dabdc2196a3fdf28292d823fe892382f
+SHA256: 9db0db1801476b3adbc610903a1fe02c8be1ffcb79ae107d49f90d7ba0431789
+SHA512: 0b1d5dee6d029d43e878b5be451f913937a0e7fb157161078192874e444728101dcad6ca164caa7dc598f0e89d567cbbbf5c0936ad8195b8b8b00df9c180e5d7
 
 Package: r-cran-zoo
 Architecture: aarch64
