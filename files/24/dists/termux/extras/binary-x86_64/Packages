@@ -133,20 +133,35 @@ SHA1: 19b7fb1f172f25d1eb75ae06aec4836230a4f691
 SHA256: 702a563bff7647961a883341083d88840cbc19356ba59810c0e62e6782485ba6
 SHA512: 7c37df025562ebae34bbbee60d50e61ab02e25f1702dc076b533e89f69a8863207b47225b356c4a226aa38ac2d3b0b6c1caf09ca584ce2d5c026fbb2d94b8040
 
+Package: elfutils-ext-static
+Architecture: x86_64
+Installed-Size: 1148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.177
+Homepage: https://sourceware.org/elfutils/
+Depends: elfutils-ext (= 0.177)
+Description: Static libraries for elfutils-ext
+Filename: dists/termux/extras/binary-x86_64/elfutils-ext-static_0.177_x86_64.deb
+Size: 188132
+MD5Sum: 94f0e75bd2f17c034dd3d55800407cc5
+SHA1: 8b52b95531d4ef316770a554384292286200d48e
+SHA256: 96c0c5f1f1504bb2676a784993caef736970244ebf3a864fe01cbdaac29fe6c0
+SHA512: ac4d566d561ed9ace9ecb9338381c05c526f88b1fd4195f1f3d66c7f1b12f8edc7027b07204dc08171fe97ae3607786d7297f46b2b7d731a2df2115e276b92d6
+
 Package: elfutils-ext
 Architecture: x86_64
-Installed-Size: 1872
+Installed-Size: 1972
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.176
+Version: 0.177
 Homepage: https://sourceware.org/elfutils/
 Depends: libandroid-support, liblzma, libbz2, libelf
 Description: collection of utilities to handle ELF objects
-Filename: dists/termux/extras/binary-x86_64/elfutils-ext_0.176_x86_64.deb
-Size: 413610
-MD5Sum: 0a4bac6d52e9ec33cee7cbf298788a22
-SHA1: 3a8870e91676714e277d07e091222e29d53eac1b
-SHA256: 0ad93121ac697491838017d34a43ffa5b149172421cf6c375456a3c4f87e58ee
-SHA512: 5a0101adea48cac458f23a32498a28c653c792710dccf927b3205bcff0cb4a54c805df8d38f9364b241d06f222264813a294c7bbcfe7d6a319c6009a10df0765
+Filename: dists/termux/extras/binary-x86_64/elfutils-ext_0.177_x86_64.deb
+Size: 431836
+MD5Sum: 2e7430b819031b8978d8f9b9ce551019
+SHA1: d377b108a8d80b72dfc99ce70e3ae0071d2dec75
+SHA256: f8c6d761c6d1b2bbd08634137006c169eaaed586ff7d41265a85982f0dd1913e
+SHA512: 08015dbdfda0ebbf2fe5de3dd7298d145368eda4b3266bded612fab5ec15ae7efe34d210cf5473700e8a885f2b06eec575bf2541c7caf5b6e33e7fa20fddaae8
 
 Package: fp-compiler
 Architecture: x86_64
@@ -1559,52 +1574,6 @@ MD5Sum: b1e73a5b6d37f095e6d720e8eac109a2
 SHA1: b78221049db2ffc04b7acb6e536ae3dd38b1f012
 SHA256: 18cdf03b98225fce1951c237758b1ed1e4054a9a69c5ac863732e934616e63f2
 SHA512: b5ceb5095856bc65df257ba2bc5daf134c4de15fde476bb1d92206305fa9c6c32bd686e23726290a05d337c3a0555cc51b3045ecc248a19b2043b9b2dba83cad
-
-Package: rust-rls-nightly
-Architecture: x86_64
-Installed-Size: 20868
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.37.0)
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.37.0_x86_64.deb
-Size: 5333686
-MD5Sum: c7696ff72705e25c7309794e2a222e84
-SHA1: 9f383b797aadd15ce26caa7e88eff60459339e50
-SHA256: 5e91b3d66c5d5a745fb09d060f8f8f6f866c27c11acb519f53b59832675f1a16
-SHA512: 2c82e7445dc6243f30a56cfbc63c9414999b277c838901262c75f725d31cd6bb648d4fc2e4e0cd2876f622d24ce4d5d5591f1e230eacacdb56080e56f0d0ba9a
-
-Package: rustc-nightly
-Architecture: x86_64
-Installed-Size: 207328
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Description: rust nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.37.0_x86_64.deb
-Size: 70356392
-MD5Sum: 48c5cedfd00cb4bb83f8939a5255b026
-SHA1: af1a671633736ed69ed0605e1e9696c83c4030bd
-SHA256: 2bbae17d43786294a855a6ab1e469ec13efd26fd6431da357bc8b7f4c1d1a37c
-SHA512: 302ee6dae87d2014389f6997c026a31461265089b6d7d202ca0ae02081a63518c941aeb262cd5311411628a34d1279c51764ee45e937828cad79db336e63adff
-
-Package: rustfmt-nightly
-Architecture: x86_64
-Installed-Size: 6492
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, rustc-nightly (= 1.37.0)
-Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.37.0_x86_64.deb
-Size: 1729410
-MD5Sum: 07481422f2d2df5f3571eacc21f233a3
-SHA1: c0b165f3fbb587a579de6cab0c3df214fc53f07a
-SHA256: 4637eb8718064e794ab19aa9be9905cd5d770e9a649c5f3a4975e49917198b6f
-SHA512: 6ec93eeec9e862bc57fd5af122dafd90378e65b21e5975686deb5c4d0c522e1e284252b2ee8ef826cd995c90f4996ee62e6ecbd6bae642fbb407fcf1ea4b6311
 
 Package: scipy
 Architecture: x86_64

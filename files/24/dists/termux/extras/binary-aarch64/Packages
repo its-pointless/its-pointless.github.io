@@ -133,20 +133,35 @@ SHA1: eee545a28d2244dd34b3c553691e6c115a864ef6
 SHA256: ab3b6865246592988d20d86631a209f5e7b64653c77137530a114dd866e3722e
 SHA512: 0059edad940c7e9887de60db024df0f90df81188c91981e968cb1cf426bcbe4956c03107d74ca93c129f99954d2139d972caaf52bd354768ac9b8fd334fb06cc
 
+Package: elfutils-ext-static
+Architecture: aarch64
+Installed-Size: 1160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.177
+Homepage: https://sourceware.org/elfutils/
+Depends: elfutils-ext (= 0.177)
+Description: Static libraries for elfutils-ext
+Filename: dists/termux/extras/binary-aarch64/elfutils-ext-static_0.177_aarch64.deb
+Size: 182142
+MD5Sum: f022a15f62fbeb54c44ad6f87361a06a
+SHA1: 9e2e2196dd3d2d59baadba7940142a8745d97b86
+SHA256: 40eaef4d9cd18428839d99b3f7a698ed9cf62c0d5b5a161f3584222a8dc6937c
+SHA512: 532fcba24a376b38ddf289353422c4b168a1c436cbd0f136f2d948ae9e6049f39f4b47a215f743babe4e709f1278a0abf6e979326aad1b8c30f3e315d17297e1
+
 Package: elfutils-ext
 Architecture: aarch64
-Installed-Size: 2012
+Installed-Size: 2096
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.176
+Version: 0.177
 Homepage: https://sourceware.org/elfutils/
 Depends: libandroid-support, liblzma, libbz2, libelf
 Description: collection of utilities to handle ELF objects
-Filename: dists/termux/extras/binary-aarch64/elfutils-ext_0.176_aarch64.deb
-Size: 380178
-MD5Sum: af8b2e3ca7a80ad024fdd53b6047eecc
-SHA1: 7986232398e17204d1fd8c0a40e331d3a6c48bba
-SHA256: 153503ff6e8e509c9f4ef766e479ad40150e42203ada1371f437ba9aefd2ae39
-SHA512: d51798a1ae3700232db72f99b9422df3b06b6ee8886e98ca2ef3988d8ea9a92825283d8e7e3a1d69be3ba21ea33380f819462e05fe420e124cb49fbeca611316
+Filename: dists/termux/extras/binary-aarch64/elfutils-ext_0.177_aarch64.deb
+Size: 400158
+MD5Sum: 78d4245675bcd5a6ffe8e07214d54572
+SHA1: b5f3fbfeea3f0fe31f4a659a86206286bfc620bb
+SHA256: e88d7eabeee1031358bb78ec8eae029f1cffc4f6d27f737731a8d1c80c53452b
+SHA512: 8bbe3a0309cf71a732bbec17ed80a00892f7c01639d03861ebb323515817520cfd3ee3562a186a7844f11ebad6de42f0bf6246c0651d07cf4ae03a3f302a6500
 
 Package: fp-compiler
 Architecture: aarch64
@@ -1740,52 +1755,6 @@ MD5Sum: 07e999d19c78b7d35df197184e70e150
 SHA1: 0b13b1e8a4441f21159ab36c86d90fa1f9dfb630
 SHA256: 9718788be5f495bff70292cc1a6bddf9d41968803859379d85b82ba088c29706
 SHA512: 82e1b4a3887a2ef79319daa97b035e03843223c9dd400553fe2c79ce89b97679917c674b4f169cd6bebbe7b083d82831a3ac9560f37aafe1e89e21931db51672
-
-Package: rust-rls-nightly
-Architecture: aarch64
-Installed-Size: 17360
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.37.0)
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-aarch64/rust-rls-nightly_1.37.0_aarch64.deb
-Size: 4495184
-MD5Sum: 9e17402997605248cf0a52810df98610
-SHA1: 5d2b14956add46b80dcdbbf89bf8a4ab9c4e1a8f
-SHA256: f0f280eac547fbb066bc23a17522d0f31e0298800d27a3742e09e57f7a03b8cf
-SHA512: f73877941ec504933b205b985c0b4464cb5c8d3011542f932dc299886115574744f6f452cf1dd15f7c552c4b028da5eef5d0e22547e0159651cb035cd383b875
-
-Package: rustc-nightly
-Architecture: aarch64
-Installed-Size: 185832
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Description: rust nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-aarch64/rustc-nightly_1.37.0_aarch64.deb
-Size: 66603958
-MD5Sum: c7aa117dcbf0dcfde92744ae1e70eca6
-SHA1: 362d06d59db291ee2f377ed76fb8b9d8d3d156b7
-SHA256: d69b90831710e6d9dbf9cfe582514c916ece3724806ea1c60d5fdb47f1cd66dc
-SHA512: e4e40158e1360009d5741210990c48d1ebc3d1adefdf597415af736ac916395c1a5c08e4a9660ab5a6cdad9b8403d6c0344860ca98c8ac71f1a7fe520f11794a
-
-Package: rustfmt-nightly
-Architecture: aarch64
-Installed-Size: 5512
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, rustc-nightly (= 1.37.0)
-Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-aarch64/rustfmt-nightly_1.37.0_aarch64.deb
-Size: 1469660
-MD5Sum: 248aa011e5f616d47d72957de50c4e23
-SHA1: 0e65f27e53f4e960848d70e8f7cfb5e22d3dae35
-SHA256: ed200c7b41bff7e39ee19d18b86953e4ef8c32b7f48ffc63fd506e4d6ff99ba3
-SHA512: 6f35b3fec7a621ba0b8cf5d7425eb9349e24d5e82894dd7faa85a351816e26062f0d04d6fab5e3fbe50f236f0d4d0708916549b925df04f13fb0787682b6c9fc
 
 Package: scipy
 Architecture: aarch64

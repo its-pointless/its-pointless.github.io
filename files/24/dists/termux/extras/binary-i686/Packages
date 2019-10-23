@@ -118,20 +118,35 @@ SHA1: 24d73e237a1f1f5400e464c94a40d2f958edad98
 SHA256: 9c507395b36b39f755afd927aa99348ae9f972e6cc16baaa11b5b18f07973b7c
 SHA512: e358d0d67c1a7b107d94a7a4fa86950c69ddbf9638868d28f66a40426249bed78dd827a2f5e0255394215824c2412015f6fa8bf7e8880f2f31001581ee5007ae
 
+Package: elfutils-ext-static
+Architecture: i686
+Installed-Size: 1000
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.177
+Homepage: https://sourceware.org/elfutils/
+Depends: elfutils-ext (= 0.177)
+Description: Static libraries for elfutils-ext
+Filename: dists/termux/extras/binary-i686/elfutils-ext-static_0.177_i686.deb
+Size: 210046
+MD5Sum: 9f3bb7eeda82bb9cbf54bbf8584a2b5a
+SHA1: bb13e1dbdf22406d6471260c1a1efc552ef30bfa
+SHA256: 8b69ab3ee8e87bf9e34d4686be374c9beb2e089550c9d5a2855fa2d09ebb81e5
+SHA512: 49227e9fc0a53c0743b1521e50213829a22e14bbaf863a7821386387296acb3144083e7c17ba1ee51122aa34ba6813727bac57e37021311112d8e5deca433b04
+
 Package: elfutils-ext
 Architecture: i686
-Installed-Size: 1716
+Installed-Size: 1828
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.176
+Version: 0.177
 Homepage: https://sourceware.org/elfutils/
 Depends: libandroid-support, liblzma, libbz2, libelf
 Description: collection of utilities to handle ELF objects
-Filename: dists/termux/extras/binary-i686/elfutils-ext_0.176_i686.deb
-Size: 417126
-MD5Sum: 379d748f5a4c85a14c1b6894ae135fa1
-SHA1: 6b3990dd552147c8d80113af17b9a74922bcf2bf
-SHA256: 94b8352cd931105ea0b97c0377f715610f047b6cdb207b7547b90036199069c1
-SHA512: 31cce1fd6240c40f13d80e28e6fd48c1d2a5e2c9f590c76f5abd80454fb78d6d702f71a78f0cd2b450ce8d28ea3eff475c221622edadb08b7dedfef5f58775fb
+Filename: dists/termux/extras/binary-i686/elfutils-ext_0.177_i686.deb
+Size: 436326
+MD5Sum: 2225e12593ee2e139f2c946513c4317b
+SHA1: 42a36f361c15a0f8b3e5112322752f529e2b6726
+SHA256: ee50665e77886cb8a6d39b9bee0c7889674e034fa9abbdb5c667ee0ceb8cccbb
+SHA512: b34e6a8f583e7223be8088064be83a46033c617510b5e8f61a9b3fbea643bc46a05d7348f30884966d566bec274a47843cb3c7060e6b4f7288a6e68a1547d326
 
 Package: fp-compiler
 Architecture: i686
@@ -1557,52 +1572,6 @@ MD5Sum: c49542989f7b64e2ee1958ad51a2f8fa
 SHA1: ccbb73aeaff9244fe303023f4428afd4a9660487
 SHA256: 89fc96c68bad0c3246d220d0ffe626057eaccacf4724d107f5809b21e5211b9a
 SHA512: fbeaec5565dc5930fc169febbe02075d784f5aa34d68e59db183531acae1595ca353a6eff75de39ca34e3c736052ba63f26965c04eea5aef9b20001d597b35b9
-
-Package: rust-rls-nightly
-Architecture: i686
-Installed-Size: 22792
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.37.0)
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.37.0_i686.deb
-Size: 5763010
-MD5Sum: d0f45ad3e50ba87439d6c909fcf61ea3
-SHA1: 261081eecc4915419f9cff93ba6f22b268dd0099
-SHA256: a7b4808fa0da654400f5322d260847bcb93b9e808271bd0782c85acf3b08a671
-SHA512: 6ea26b1031c90196a2a84a07acfd199c5b490aa44dfb57f3c77d7ab820ddb27c48efcfdb38e80c6b0ba17fe5e8a330c61e3805deceffc4057651c1ecfc81368d
-
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 213548
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Description: rust nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.37.0_i686.deb
-Size: 71984636
-MD5Sum: 38b40d240d8143482ccc2823f74d08f3
-SHA1: bb901b9cba864e3ba01f7b5c075dcae32f163b85
-SHA256: ada11e0fab9bd84ddeb01fa0cc8a0f424e7939b0e2f4f2a1e9322b0b8f5c9636
-SHA512: 1d3ad8dbfb5542d012ed0ed6555afd87b976a83bc31e9fd6e080061b5fb5d6f85a99b70b62ab1d48e5364d5b387e81d9c9d195f9e8c1a5517cebc7b920dc31b8
-
-Package: rustfmt-nightly
-Architecture: i686
-Installed-Size: 6936
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, rustc-nightly (= 1.37.0)
-Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.37.0_i686.deb
-Size: 1845040
-MD5Sum: d6082ec273bf9bcd90daba56e8d2b248
-SHA1: 8fbb8ca6ad32ec422a27ab4a1e94746ae5940b41
-SHA256: 931969849aca61e870c0cc2ee2e00be1302a92495a4c08f2c229e99c25234cf0
-SHA512: 15dc7ba6205d6fbbc2e01ca7f6d0cff4f30c812c9d1b3184d883d9aac3a95b182a2fcf60e9a4c383bd49c0ae66010e9c596c53514c7166c5882d14fdb7c9c2a1
 
 Package: scipy
 Architecture: i686

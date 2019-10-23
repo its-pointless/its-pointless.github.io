@@ -118,20 +118,35 @@ SHA1: e91125b05f652a79ea1bf9d89bfab675201e6829
 SHA256: db68b6153dd978098781edf2c3bf6e3897e9c9b3f9c734b86c3efba373bcfa83
 SHA512: b53eeaf872258204cac2dd7069a0dab9d9d1e66e7bb61ec81ebc977a8677f5bec1c5969bfd889b52bb41670d7bf8020a12aa73bfb32847b1c792517a970d4eb7
 
+Package: elfutils-ext-static
+Architecture: arm
+Installed-Size: 760
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.177
+Homepage: https://sourceware.org/elfutils/
+Depends: elfutils-ext (= 0.177)
+Description: Static libraries for elfutils-ext
+Filename: dists/termux/extras/binary-arm/elfutils-ext-static_0.177_arm.deb
+Size: 177172
+MD5Sum: 2887602f40564bc29baf21fd945719c9
+SHA1: 4eab6d243b7bf9e0f1b6727c13bb4d24d2b7aaf3
+SHA256: e65cd6643f48bfc3688d58aadd892505be553e6c2ef653c042ed6c647832a4d3
+SHA512: 91d3f93990090dad9291e8cc1361f1fbfcae9f55548740503e79b1a2e968ba7b13aa3cd4c3be467a4cde982110df7c3bde7483fb455fcabc8e29bcf103cd1e36
+
 Package: elfutils-ext
 Architecture: arm
-Installed-Size: 1420
+Installed-Size: 1492
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.176
+Version: 0.177
 Homepage: https://sourceware.org/elfutils/
 Depends: libandroid-support, liblzma, libbz2, libelf
 Description: collection of utilities to handle ELF objects
-Filename: dists/termux/extras/binary-arm/elfutils-ext_0.176_arm.deb
-Size: 368940
-MD5Sum: 2452ad048bee4c3b1cdc5f542be17f15
-SHA1: 4833bf05b96c6dca1f30f53a4dff39f3b12b50b6
-SHA256: b1f91799bd69d54096eba0b98a08db12f3ad1cfa2638ff97c948571f1849da52
-SHA512: a606c815a0923b66ecd718874bfc5dd309db7d3e656407e9e6785a1c1e39866526cec129cb20a91e7482ae825091343aa0184d0530f3f8730c47231ce8a101e6
+Filename: dists/termux/extras/binary-arm/elfutils-ext_0.177_arm.deb
+Size: 390296
+MD5Sum: 4e1faffc2fe5c534aeadb4a3c428831d
+SHA1: 18d47001128a34cf9f37f27258e25d5670786400
+SHA256: 4cd01c12d7cc2bc430bffd13b47ff3009f5109d705e4438be5c6681366591a4b
+SHA512: 4144e847546d0172a3ced75ed252979c64be5c631e0ed0ff978d21700db7bd22032c34e621562732d34c651948d25a1e8c245be40d57a7c39333f39555663585
 
 Package: fp-compiler
 Architecture: arm
@@ -1512,52 +1527,6 @@ MD5Sum: 613cad45b156ef6cf6b83e5a55c18422
 SHA1: e4589febaf5d6f392f553d3a077666bafb4d1f08
 SHA256: 4412ed7ca1cd242e684fa6a6e1c4fd09879203640b3f3da03cf717bf77486c5c
 SHA512: d5f822802b955b5ed8669ca2b623e46b55a83423698f7bc6d8c29e3e1734b9144d4fcff24ff5f1909cb3e8ebb0a32e8b7a1ba65fc6e7203df59f9a28302116ef
-
-Package: rust-rls-nightly
-Architecture: arm
-Installed-Size: 12068
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly (= 1.37.0)
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-arm/rust-rls-nightly_1.37.0_arm.deb
-Size: 4512798
-MD5Sum: 115eef4ce017c79f99c237d1564194fe
-SHA1: 93f6fcd0ac062826697c6e0d8ee92353d7790f3d
-SHA256: 73d36191a59d3fe106500a250f8dcb773c34230a694d111364897fbcb1b8ef46
-SHA512: 8820c3db214db1d3425b90b67322030519d76bf951c3af4b63fb66fb33b64c687be8af4f1a057a35162ee7fa201214a51ede6d08823e72b30a62bc9ca0e7855b
-
-Package: rustc-nightly
-Architecture: arm
-Installed-Size: 164648
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Description: rust nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-arm/rustc-nightly_1.37.0_arm.deb
-Size: 67026596
-MD5Sum: bae070d8234448b4acd0de00067c35f7
-SHA1: c8819e05bf6b61e011a57a3dd48a53c85361bc55
-SHA256: 04c9181e20d30d1a36be9f8cdbafbb7bf6815de234bddcb886650eaa505111af
-SHA512: 450a38ae37cbae18292628ca419823132f03ee1030ced199234acb8fa4c5ef556339a93ddfce893e280c9a5bbe6226a52c0416e2f78c7568132dcd04316befe5
-
-Package: rustfmt-nightly
-Architecture: arm
-Installed-Size: 3616
-Maintainer: @its-pointless
-Version: 1.37.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, rustc-nightly (= 1.37.0)
-Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-arm/rustfmt-nightly_1.37.0_arm.deb
-Size: 1419254
-MD5Sum: e8362abfb7ddf6ebf08a5fc5f5de9447
-SHA1: d48888d3fa645e8746b45b56b1e893eaa675f36f
-SHA256: 3e26f7384eaefb559db4edeb5228bd12445897a05f7d7bbe849172dd8a004481
-SHA512: a03f255a322cb73bf210b448bf9b718ac181e3dcdd3f606d979edf6d06ee5046da414884dc583e48cc2110ba9da4a15667703f1c6b1e2d78eed3d0a0a9eaa880
 
 Package: scipy
 Architecture: arm
