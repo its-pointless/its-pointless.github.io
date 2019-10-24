@@ -30,21 +30,6 @@ SHA512: 76e9f6a9447a777967a5dc80eafa5020525c57ee195e06115a0daf65f595eb5b826635e7
 
 Package: asymptote
 Architecture: i686
-Installed-Size: 5588
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.47-1
-Homepage: https://sourceforge.net/projects/asymptote/
-Depends: gsl, ncurses, readline, libsigsegv, fftw
-Description: script-based vector graphics language inspired by MetaPost
-Filename: dists/termux/extras/binary-i686/asymptote_2.47-1_i686.deb
-Size: 1018900
-MD5Sum: 241eda58f111ed0ca74e25b6cbe4f840
-SHA1: ad9b896b51961fe2f71629f3ce5239add89705f0
-SHA256: 9197512ff4a26bc38d7cd01c68ca08fa5bf4976e3b9217e41c3e134ddf4f8d0e
-SHA512: 719ed4e6ecd39073cc25d5b8bd92c1688ab00af481f72d48c8b9cd663e4bd3c332fde0f3e6157e2222279679faa53a8a7251fcedaa8608f984bf8be410999ad2
-
-Package: asymptote
-Architecture: i686
 Installed-Size: 5604
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.49
@@ -297,21 +282,6 @@ SHA512: d4cdd87dadd423fc5540957479b8a4a462c2b69e478452997b1aee3e30f180c787c0f4f2
 
 Package: gcc-6
 Architecture: i686
-Installed-Size: 95352
-Maintainer:  @its-pointless github
-Version: 6.5.0-1
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-i686/gcc-6_6.5.0-1_i686.deb
-Size: 26016138
-MD5Sum: 20a8585763fdfe9010127e8dfecf7b0f
-SHA1: 62377cda7a6082cb9e2243dbe9d000c0136e22bb
-SHA256: 393059bd88f44f7fa33f18a0c5e169ea3b29e1347fc00265b7b00c16b1232bc8
-SHA512: 28baa001a380a371ef0c06767e8be15bdc0013b46925f245f52ab6f815db791fceb6332e33699947bcb6f1e14fad0a4cb2b85c43f0f9174e7e93e4439386e35d
-
-Package: gcc-6
-Architecture: i686
 Installed-Size: 95468
 Maintainer:  @its-pointless github
 Version: 6.5.0-2
@@ -342,36 +312,6 @@ SHA512: abce5823edd26e67e301c867ad1fd2a52afa2fa307a16d526a3455adbce2c9eff8ae4f31
 
 Package: gcc-7
 Architecture: i686
-Installed-Size: 105928
-Maintainer: @its-pointless github
-Version: 7.4.0-1
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-i686/gcc-7_7.4.0-1_i686.deb
-Size: 30582720
-MD5Sum: cf3c5b0cc18c0d71010d86b073459506
-SHA1: 11285d2952bde79cc26042a3b9d320668ec0e33d
-SHA256: 24023a79abb243e78208e87d705555ba19126d9d9608f05227851c8f35116fae
-SHA512: a70616f730710e90ad1c46aa7efdc27ffb6c0d89da5e4bbc9349fe73091b8d23bf3f1c1d4f397bb3f76d8e73e3b0b51123700e3514770fe3b320398d6e2d11a0
-
-Package: gcc-7
-Architecture: i686
-Installed-Size: 106056
-Maintainer: @its-pointless github
-Version: 7.4.0-2
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-i686/gcc-7_7.4.0-2_i686.deb
-Size: 30573896
-MD5Sum: d449e15ab2fd8ce89f024439bb28c275
-SHA1: 7e2e2cd8f72771f8fab0fe061797166ad05915eb
-SHA256: f891c7c08e96806dcb5ec1126046956490cbe5178bdc1b1bd439e3c9375a8e5a
-SHA512: ff06a6d73806a60956536316fbe234748ffd28e75246ffb37bd2ae8b6f65d3d22128d96d2ea660fda8d77e8e54b31dbbf558423561bc2e6b8a6091d56a911b26
-
-Package: gcc-7
-Architecture: i686
 Installed-Size: 105932
 Maintainer: @its-pointless github
 Version: 7.4.0-3
@@ -384,21 +324,6 @@ MD5Sum: f3b09d1ed19f2ea24c1a7bb3f427043c
 SHA1: a22f9290491e861d21c976a6d67b59cf26522521
 SHA256: 03ccec9e814638c66e843374620afe618eae03ae09e4420f3be09c80cee94d7e
 SHA512: 595089f4466af5ad4e327d81bd760d0a42f3d3a3fa071016414aaa89dd1e60dccaebb7547c1a67a88a57bdfa4e9db135079a34302de5acac5eb7958a8103a307
-
-Package: gcc-8
-Architecture: i686
-Installed-Size: 114372
-Maintainer: @its-pointless github
-Version: 8.3.0-2
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-i686/gcc-8_8.3.0-2_i686.deb
-Size: 32589920
-MD5Sum: 745b6c459e01365359e688369452d367
-SHA1: 8da869cf941d28931bdfa4d01e5adeab9a1ccd8b
-SHA256: a876ec20b525ab70ae8362120a1d3316725aace86460af25c99e7c115a49008c
-SHA512: 5d38592233b8f0a717948bab8cc0c7bede415887405b43a1638e90c0808e8f8cf4bc1c763a6b458ec4186e7b8a407d13b9dac1ddbbeb235a46677ea61f8c855f
 
 Package: gcc-8
 Architecture: i686
@@ -491,22 +416,6 @@ SHA512: 4da367919f9833a3f4008e567f4f41ddee9e071f95e64638cb9c9d35bd480e2997690007
 
 Package: gnat-8
 Architecture: i686
-Installed-Size: 82732
-Maintainer: @its-pointless github
-Version: 8.3.0-2
-Homepage: http://gcc.gnu.org/
-Depends: libgnat-8
-Conflicts: gnat-7
-Description: the ada compiler
-Filename: dists/termux/extras/binary-i686/gnat-8_8.3.0-2_i686.deb
-Size: 17777348
-MD5Sum: 89c02417c1bab0aa79a48ecfc357aa20
-SHA1: 54fce3bab765aaa867b9e9d74c47c996a434951d
-SHA256: 6f83f97aa0876826e88ad1817867fd0207d72da3f4b46d62f7a8058bf0a6c644
-SHA512: 9a657d8d3ffc81d9d41c17c4d635e8ac80bfeea7d4a48303dbbcd4e619f2b030402812344604e560d341350d39cedc12fc6b744ff7a07a7d75e52c454a57143d
-
-Package: gnat-8
-Architecture: i686
 Installed-Size: 82792
 Maintainer: @its-pointless github
 Version: 8.3.0-3
@@ -536,21 +445,6 @@ MD5Sum: 129bfb0174f978d604f972e89d1844f8
 SHA1: 96605ce5f2b947236bd53578bb4e60cbb6b237cc
 SHA256: af05979fcd7f497347d7f890240438f2a1e9c824a73723efa2cce48d7bffb8eb
 SHA512: cb150ae2748fbda55141843b876fd16f51ae647987cdcdbf2e0ded022ebd25c5d034b90e38813f95a74011dd106b4ca713ef3a8ed9f813fa1eedc12f7f437dd6
-
-Package: gobjc-8
-Architecture: i686
-Installed-Size: 24556
-Maintainer: @its-pointless github
-Version: 8.3.0-2
-Homepage: http://gcc.gnu.org/
-Depends: libobjc4, gcc-8
-Description: GNU Objective-C compiler
-Filename: dists/termux/extras/binary-i686/gobjc-8_8.3.0-2_i686.deb
-Size: 6983056
-MD5Sum: d34ffd09c9c30f4a702d5e95ccff2ea2
-SHA1: 14f1f197670f50826def3d4e269580f549441eb8
-SHA256: 28fcc6156269966f6d2142c8be6dc594b1f4f30eb29292e008b95fc818d9ece4
-SHA512: ce707725a9b14074d315d7f600577e467c7898bfefbe322d932904d7664e35e59e67b77a1b5cda28430f9c9821e6d3f9952067f20530ebbd9560baa0621274f1
 
 Package: gobjc-8
 Architecture: i686
@@ -881,21 +775,6 @@ SHA512: 49cfde63468a37d0f90be625ff9cdc2f65c779b37e4d434823ec69fd058cea367bde3932
 
 Package: libgfortran3
 Architecture: i686
-Installed-Size: 884
-Maintainer:  @its-pointless github
-Version: 6.5.0-1
-Homepage: http://gcc.gnu.org/
-Replaces: libgfortran
-Description: dynamic library for fortran
-Filename: dists/termux/extras/binary-i686/libgfortran3_6.5.0-1_i686.deb
-Size: 217362
-MD5Sum: 35a69d22d53fb5114bfa6706a60f3e37
-SHA1: ab9eedaae113aec7596e2b4282557546ddacd29f
-SHA256: afe72cc033838b449efa2709d3d4f2f028f7037348ef423ce8fcc48fe2937322
-SHA512: 01954c94e6435a584f6278754fb55064324f72525efa35d124614c661a9002f03cc6701a79a539c14dac6c01e0fd040fbf5c60c7fe58242ce4aef91570372141
-
-Package: libgfortran3
-Architecture: i686
 Installed-Size: 876
 Maintainer:  @its-pointless github
 Version: 6.5.0-2
@@ -1072,34 +951,6 @@ MD5Sum: 5112f4a7beb61ce4a4afcc8bb6633517
 SHA1: 4c792cf16f5bc6da65b5d6f3d5baf2ef3dbf7e2b
 SHA256: 8ac047f63cbc029cd6eade89f9f7025f00042c7df27f33d03776c505aa559970
 SHA512: d4f31a2be265ce03f40c9604c83e62ab122ef3a11977e96886a448086f06bfb7339febc5d101951ed392620d105fe61f0e3eab5bb5577e5fdc4cffa4732af68f
-
-Package: libgnuiconv
-Architecture: i686
-Installed-Size: 892
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15-1
-Description: the gnuiconv library to use in place of libandroid-support for R
-Homepage: https://www.gnu.org/software/libiconv/
-Filename: dists/termux/extras/binary-i686/libgnuiconv_1.15-1_i686.deb
-Size: 490056
-MD5Sum: 53811a696ce7b6607444fe917c10b15e
-SHA1: 4616d03b85adf4bb069f40acfd0d08a477fb6f3c
-SHA256: b330357247cc7cbccdefbe258d7b56a0b3e07e09e792e725c55af4e1afdd36a2
-SHA512: 8d7902ac32a17b03d21f869b910c52d466c1ffada502828b4825ccb015eb5963a2d5ab65aa8eacb8c3669995a694a9656aceba436858b46f3c818a49c0be1ad1
-
-Package: libgnuiconv
-Architecture: i686
-Installed-Size: 892
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15
-Description: the gnuiconv library to use in place of libandroid-support for R
-Homepage: https://www.gnu.org/software/libiconv/
-Filename: dists/termux/extras/binary-i686/libgnuiconv_1.15_i686.deb
-Size: 488664
-MD5Sum: 8d1a197cc10b534eefeecab92c4266aa
-SHA1: 614c45123099b756aefa542148c071447f8787ff
-SHA256: 3446d32b99c845876024e0daa327ad25297f0a8dc90e9446f4a4e4f18aa118ee
-SHA512: 852cdeaa23d21e2c3589828a9f1dfae4a518729c71ce36ffd52842f15567cd0c8caa1cd2814d4d427232010083fcb26f93e7d8285b92b59feb3b98fa72fd1859
 
 Package: libgomp-7
 Architecture: i686
@@ -1789,21 +1640,6 @@ SHA512: 5d5f3051ad9e36e8985f95f9885bb73eaac4fe264f4a9389b137f96303e5093343b9a7c0
 
 Package: opencv
 Architecture: i686
-Installed-Size: 38224
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.0.0-1
-Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
-Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-i686/opencv_4.0.0-1_i686.deb
-Size: 6913814
-MD5Sum: f5a25e18cddd11522e378f7d9a4744b6
-SHA1: 325b026d174a6ea689bdabcd13c70d01f9ea330c
-SHA256: bca5219bda12f59d2d15fb89544b5fbb1eef1730b741adbb80fc614dfe318c33
-SHA512: ace2d047c4a194a83dce7a7ce1dbdf575a4050a0398a646edd2fca096b83f3d8f5e69af14fc18fc1d2c732ed70b991e32fcf182e9a9e851ed06fa95615159b23
-
-Package: opencv
-Architecture: i686
 Installed-Size: 38964
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.1.0-1
@@ -2190,21 +2026,6 @@ SHA512: 43a619bb0bc5774951eb36f02f9c94ddfbded4a8b2a6ddbc88aae2d7c0d8c48e25804556
 
 Package: r-cran-stringi
 Architecture: i686
-Installed-Size: 1188
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.1-1
-Homepage: https://cran.r-project.org/
-Depends: r-base
-Description: GNU R character string processing facilities
-Filename: dists/termux/extras/binary-i686/r-cran-stringi_1.3.1-1_i686.deb
-Size: 674068
-MD5Sum: 25ab0a4f496c4e50bd798b7c04aca5e9
-SHA1: 0a932babc26476def42adcf9fca812f95fc09595
-SHA256: 334f32a4dbb50da91c404744175dee1f326cd6b8b8f6b6e0c38506c16d52deda
-SHA512: d826ec3ea417064cf20de87de7b9cc6e3c5bf5c174cdf28ae8b89e34b75d9856610a60fb27891235e0289ac04bac5749c3317f16b885700a1827b66132598db7
-
-Package: r-cran-stringi
-Architecture: i686
 Installed-Size: 1224
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.4.3
@@ -2276,51 +2097,6 @@ MD5Sum: 56b921613c38b920279fcef75a5178f2
 SHA1: 72fe4e6ad2fd77b7f5e2334af591a2abed52f05b
 SHA256: aa81f954df17a038b73822662e26feaa2a7d49d00a2278012dfe098c14c206a1
 SHA512: cdbe996a21aa438fcd91795ffdd9ace50c169ef23f60d2187cfe79d4fc5ff2bdd3555e011aa1bff79720256e7214e836c71214c1808e6c748756b1f8f5a1d1d0
-
-Package: rust-rls-nightly
-Architecture: i686
-Installed-Size: 22616
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-i686/rust-rls-nightly_1.35.0_i686.deb
-Size: 5646004
-MD5Sum: 0bcb17506f0b6ae14ea316840f3fb2f2
-SHA1: 0d1f38d5413e8d64522250b7877cc0472e9bf640
-SHA256: 63dca0cd11929ee6ac484b6f494d9f996b9ee34dfa8d00ceab270924c84cac6d
-SHA512: d4acf146e7042b709c257e44bb363b8c0ad7d2fc9a01a72c1c24ecdae9a7386b247d7b1bfa490e0a2fb268d50cdf5625fd41d84643eb0869184867c09d4bc047
-
-Package: rustc-nightly
-Architecture: i686
-Installed-Size: 222768
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Description: rust nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-i686/rustc-nightly_1.35.0_i686.deb
-Size: 74894142
-MD5Sum: 01d456fc7d59e54fe8ecd22eeb06a1ae
-SHA1: 3532e6f5274d90d009c972bd1a4e1574f8e9586d
-SHA256: 0df708c649d2d5b48283ccf31484aeba08a1cbc1361e0c4a08a47a3aa4c13cd3
-SHA512: 487e932adb572c27a01de321838744986d708636850f573b661390636bc0b18c348e9f3cb462b25f36ba2aa9a7cc6b733b1330877c51e87285c7a46c5c9d2261
-
-Package: rustfmt-nightly
-Architecture: i686
-Installed-Size: 6644
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-i686/rustfmt-nightly_1.35.0_i686.deb
-Size: 1764588
-MD5Sum: 166ebcf263ff01ea160ef6367c1a24ad
-SHA1: 7c08f19c6ff7543c5ef5cd130711b29cfe330b30
-SHA256: b878f5652ebb26e6d0d116b3a82536bd32470c86cb49ee8c4cc7effc1d9b0d5e
-SHA512: 6af03a1e8166d3e9d256eeecc5002739c87fd1f058f4ca26bc0ca50bb35bf64570f2304639b53289b2383073d72ba1930f2403e76fe26b2ef2b68d5be7422e2e
 
 Package: sc-im
 Architecture: i686

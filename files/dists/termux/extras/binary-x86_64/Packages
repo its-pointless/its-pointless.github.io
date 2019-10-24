@@ -30,21 +30,6 @@ SHA512: 4623b367156f8a8ead331ce16c90b0a5eba196ac6883fbf147418643af23f67fdb4a5252
 
 Package: asymptote
 Architecture: x86_64
-Installed-Size: 5068
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.47-1
-Homepage: https://sourceforge.net/projects/asymptote/
-Depends: gsl, ncurses, readline, libsigsegv
-Description: script-based vector graphics language inspired by MetaPost
-Filename: dists/termux/extras/binary-x86_64/asymptote_2.47-1_x86_64.deb
-Size: 1006324
-MD5Sum: 2c1c3209d83f83445e0e7f0e0decb6df
-SHA1: 1393bdd3fa8cf7c8bdb29d11dbcedee08f0e33b0
-SHA256: 5e64dbaa18c00be0fc7d4129ee6d38a61631d958f46b522a9b6a48ed4dc559a3
-SHA512: d60bdeb091daaf678fa1b64505fbc8814ba0062810553ad463e575aa8b2e7055d937afef8c9cc6dbb9201342d8fea272adbae0564210c4ba9e5f837c7e8732c7
-
-Package: asymptote
-Architecture: x86_64
 Installed-Size: 5084
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.49
@@ -310,21 +295,6 @@ SHA512: b3f5ae6bf696acad9f2d919346328ae9735d7f1b1e2060796f2e2eb5b7bbe3b4a70af741
 
 Package: gcc-6
 Architecture: x86_64
-Installed-Size: 97376
-Maintainer:  @its-pointless github
-Version: 6.5.0-1
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-x86_64/gcc-6_6.5.0-1_x86_64.deb
-Size: 26411966
-MD5Sum: b189165ff06c767f3b5a3e1f4cd202fc
-SHA1: 3841ce7947fd7944c14af289ed7b074d50f031d0
-SHA256: 0437e6e7b98a81d96873d9ad1863780c200d231dc62c55d00e3522f466deab77
-SHA512: 05fdfc0fe3c15c835eaac24cadd4cd1616e8d1d6225f90470407c1e4a9ca88323080dc14c72a5c8fe3a49c1fe25982d1fd561ccc35aa7fb88489af5fa3f330e8
-
-Package: gcc-6
-Architecture: x86_64
 Installed-Size: 97488
 Maintainer:  @its-pointless github
 Version: 6.5.0-2
@@ -355,21 +325,6 @@ SHA512: 76940de837df24c65b6058c4483e047d85369d341b3883463089799fa9f2b33e22e66de2
 
 Package: gcc-7
 Architecture: x86_64
-Installed-Size: 109196
-Maintainer: @its-pointless github
-Version: 7.4.0-1
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-x86_64/gcc-7_7.4.0-1_x86_64.deb
-Size: 30821596
-MD5Sum: 70e8d968065c0d4bc059156872e47069
-SHA1: ab06f1c9aecdbb8cb8ce97853885d13ad1009110
-SHA256: f8d3525fd15d398a94da7569f7a3e5b415f63300a9cacb2d3043fbe3744fe9fc
-SHA512: 9dfd56c8c38195a43fad4208460ddeb2a41e5c795dc40bd4ea020247d325c4195c4ee374e1e66a5c78d5c994b85ea2ce865ec9a6b9d9664a64f6ac15be11ea95
-
-Package: gcc-7
-Architecture: x86_64
 Installed-Size: 109336
 Maintainer: @its-pointless github
 Version: 7.4.0-2
@@ -397,21 +352,6 @@ MD5Sum: 9f61e497e90e417e680e52f61724c79c
 SHA1: 5680d353202cc7b6cb64e112d32c1880daa34128
 SHA256: 1e49cc7f908923270693cf806965ef938f79c0c68d6e6c8ea3bc76b216b3a66a
 SHA512: 61b8a96abd049a58f0f5224829d0e54b2c26e59f65fd96541b83e0556bef413df19f7e8b782fd6e61c502a418cb5715b30464570616e81219ae9ffbdae39d816
-
-Package: gcc-8
-Architecture: x86_64
-Installed-Size: 117072
-Maintainer: @its-pointless github
-Version: 8.3.0-2
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-x86_64/gcc-8_8.3.0-2_x86_64.deb
-Size: 32864208
-MD5Sum: 5ddbb40866ee2358275d1b9e5def547e
-SHA1: 527d4239c8f5e7e243e524f97c4ad219d0afe7a8
-SHA256: 61bc19fdacd34c2eec36eae8e3b64d491eb29e06ecc07ae05cc471866b8bcea7
-SHA512: 34050dddf147ea5023464396688a3c6e127c71fcfe562a27a34a553f172f8debfa61d7ae44a23bccb8daf28fc5bf3bb1544c9bce707bc2d67e85ee6c16bdb362
 
 Package: gcc-8
 Architecture: x86_64
@@ -504,22 +444,6 @@ SHA512: 79422156064b0dd78d462ac26900b2f5f4d6b497b50f2164c5210d049da039664ece37f7
 
 Package: gnat-8
 Architecture: x86_64
-Installed-Size: 86416
-Maintainer: @its-pointless github
-Version: 8.3.0-2
-Homepage: http://gcc.gnu.org/
-Depends: libgnat-8
-Conflicts: gnat-7
-Description: the ada compiler
-Filename: dists/termux/extras/binary-x86_64/gnat-8_8.3.0-2_x86_64.deb
-Size: 17353090
-MD5Sum: b0ea8d83e798425d13b40fa37e457e68
-SHA1: edf96885c990e4a99939b41e72f44e91db15777b
-SHA256: 1d4d7e8e3feaeeaf3d01f5c2daaa23d912d554421d9ba24aed10eaea5249b7cd
-SHA512: e7e0fdface08a840a04206f734af243fb928101dd4bdee719b44787b25663d0c3d888e14953aabcfc15dbad56655c6d9e1b8f6291bb41d4c7ca0ed5b783d784c
-
-Package: gnat-8
-Architecture: x86_64
 Installed-Size: 86472
 Maintainer: @its-pointless github
 Version: 8.3.0-3
@@ -549,21 +473,6 @@ MD5Sum: 7c2618ff9c0197e7079ca62f4c8db897
 SHA1: 6b69bb8daf3dc074178f4ffde52db180c60a3ecc
 SHA256: 79d318298d917401a432cd913762a327d08e5c9c21052a1ece34330f8767291c
 SHA512: 4d2315334505bc2eb6db3b974904ccb4898b0b5267a80abb93d0456bbbc26125cfcf9d8c5d5cc48452a022ff314170fbb90ad0e02bc4cab70eab9488b0474337
-
-Package: gobjc-8
-Architecture: x86_64
-Installed-Size: 24852
-Maintainer: @its-pointless github
-Version: 8.3.0-2
-Homepage: http://gcc.gnu.org/
-Depends: libobjc4, gcc-8
-Description: GNU Objective-C compiler
-Filename: dists/termux/extras/binary-x86_64/gobjc-8_8.3.0-2_x86_64.deb
-Size: 7046502
-MD5Sum: aac02a278f37e39619a28402f6796297
-SHA1: a55e6f112cf46e6212d701e38f1bd6067f57b9a3
-SHA256: b1a325818e13918ef21a070414018c7294f3311ecc2757187566f80a6504e9b2
-SHA512: d6505d9bd58f4da65a8a4366bb712f2f9c768873ce43827f5a494f278f684fb3fadc4134cd16eeb2d3f02be884a61b72c77e8c2214091a310cffb331e47b6f19
 
 Package: gobjc-8
 Architecture: x86_64
@@ -894,21 +803,6 @@ SHA512: feaf6b0ba44beb1956f842fd5f781e7bb78c4c05dca80271626e5fecb29fc631452eadae
 
 Package: libgfortran3
 Architecture: x86_64
-Installed-Size: 1116
-Maintainer:  @its-pointless github
-Version: 6.5.0-1
-Homepage: http://gcc.gnu.org/
-Replaces: libgfortran
-Description: dynamic library for fortran
-Filename: dists/termux/extras/binary-x86_64/libgfortran3_6.5.0-1_x86_64.deb
-Size: 256934
-MD5Sum: 1a711b392992ba01b3093f735ed9da7b
-SHA1: e48df49bbba3ed74aae51be8a9f6d61b788e685d
-SHA256: b777cae838b7368a49679b3186fb8993207f2e93a4efa1a5eb66ad15736ecd12
-SHA512: 20cae3cda0fd3525976c3173400067ebf0c793ac76210e22bb73f226dadae21fdc84a20bd36a599e5873c3fb8a38abe97808157ac115f497c3a2e96a04541148
-
-Package: libgfortran3
-Architecture: x86_64
 Installed-Size: 1108
 Maintainer:  @its-pointless github
 Version: 6.5.0-2
@@ -1085,34 +979,6 @@ MD5Sum: b08ffa9bd693458e75615129814d69b4
 SHA1: ac4afcf195224368ec13fa6063d6e0717ed41853
 SHA256: d7115b23372501668af4523322d31c77bffc156a5ba0c5693ec257f90ea0d33b
 SHA512: a67538ae0f596363bca5712e5b81b3cd8e6223a935df9b8e844fbd66f8b246dc52498f14d38bd4872c427f2ef25bd8428d4fff92c6bf91c120da73ed1952ee71
-
-Package: libgnuiconv
-Architecture: x86_64
-Installed-Size: 916
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15-1
-Description: the gnuiconv library to use in place of libandroid-support for R
-Homepage: https://www.gnu.org/software/libiconv/
-Filename: dists/termux/extras/binary-x86_64/libgnuiconv_1.15-1_x86_64.deb
-Size: 492720
-MD5Sum: b0455a27589c1b5a7de63aab4a6f7854
-SHA1: 32ef860e73be2a5b28366db34050f1cbc699c47a
-SHA256: 2bddca2f475523dcc35bc233eec41b04e52a2d881e5627c4b736f6f894edc49c
-SHA512: 30b01de4d800f7a0b7db14a7ace770f704846ee2a0fbaaa2c23d282e70aebff85d478a4c5909202b8b88ae24869310b6f249b13251cebd1de0f21a873bfba25d
-
-Package: libgnuiconv
-Architecture: x86_64
-Installed-Size: 912
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.15
-Description: the gnuiconv library to use in place of libandroid-support for R
-Homepage: https://www.gnu.org/software/libiconv/
-Filename: dists/termux/extras/binary-x86_64/libgnuiconv_1.15_x86_64.deb
-Size: 492512
-MD5Sum: 0fc6a76a623ef6e04b51ba9fe48f0611
-SHA1: 6c1a2025c393e72095d6372035081a59f1d39cf1
-SHA256: 5bde5cb6d4c08f2c557f1bc1f2c36d4e630cf685b6c11b452ce8572caafc2ec6
-SHA512: e7481739819c48461c8cc63caa178b383d91cf48964c1eb575681b1e964e4aba9f90fceb3739773933011c4bba7a75a9005d5bf974698b1a9a7b04a2918ae811
 
 Package: libgomp-7
 Architecture: x86_64
@@ -1878,21 +1744,6 @@ SHA512: 4991898e3ca5d3ad657a9eb79415b4964019cea8394ee3abbc16e411e89b4fa388e4f722
 
 Package: opencv
 Architecture: x86_64
-Installed-Size: 93116
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.0.0-1
-Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
-Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-x86_64/opencv_4.0.0-1_x86_64.deb
-Size: 17959248
-MD5Sum: 2f3bee2f2bf3084897d1fcd3d17e0d60
-SHA1: fe40b409255696f56a717995544cbc3150c7c90e
-SHA256: 711ce853167cf88c782365772a984ad1a914c4a3a6584b1199314b1456dad716
-SHA512: dea2d73dc104c51f86bfe24b56c185e65eb6c1434e14de53af306a935776a2c8218b4ee31fca5c5ca66320c981270a4dbdfa16a894c47dac3c3a77daee8c9f39
-
-Package: opencv
-Architecture: x86_64
 Installed-Size: 111780
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.1.0-1
@@ -2335,51 +2186,6 @@ MD5Sum: 4395d5bfaf856146426724069a50bcca
 SHA1: ba060a537ad67e2a120c67d1c4d3d813e296b32d
 SHA256: 1bc67cc7666e547cf9197cf011061ee63bf7c85e51669b5a52a50ba3f0ec6c5f
 SHA512: 09d1bbc2dbc534b1a2a9e98b8c43d8f2164bce335ed79c19c418a58395e7e998086ca43bd930577abcdbf2af491acd5a92c1876b24fd2d4947c5db10599ceeaf
-
-Package: rust-rls-nightly
-Architecture: x86_64
-Installed-Size: 20704
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Description: server that provides IDEs, editors, and other tools with information about Rust programs
-Filename: dists/termux/extras/binary-x86_64/rust-rls-nightly_1.35.0_x86_64.deb
-Size: 5277448
-MD5Sum: 0e33dfac9b94225e7acbe3497c48bfaf
-SHA1: da9fea3b3851ca96cdeff856a827802e3d45d13f
-SHA256: df4d73d328e2de4af4d62fec7c3888cc0f4786a8e417a82690c8f1dac4cc775e
-SHA512: 026255d96e81ecef4bc3f46f1b94151edf9b35a2001ad1af52436a1bd311336ce2c56a749c9d41efe0a8955089e1d0ead75f953ef8e7a6c95fce79459f8e5ffc
-
-Package: rustc-nightly
-Architecture: x86_64
-Installed-Size: 219832
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly, libgit2, libssh2, libcurl
-Description: rust nightly
-Provides: rustc
-Filename: dists/termux/extras/binary-x86_64/rustc-nightly_1.35.0_x86_64.deb
-Size: 73540400
-MD5Sum: 75ad9677ee0b1c4a2b8a0c02370ca5d5
-SHA1: 7df94c6f20a04a92dd49feca50677cc434f21aa6
-SHA256: 3695f35b64caa4c3bbdc610979d1344f69cd1d541d76bb265f5738de55a999dd
-SHA512: 48732da8a11e5111e72ffb0305834f50c50c47bbf72d055381def4ffd65381dd6182d7baf13d3c624eafdd5343859fc6658fe2eace787b5c12e623b4f8323717
-
-Package: rustfmt-nightly
-Architecture: x86_64
-Installed-Size: 6196
-Maintainer: @its-pointless
-Version: 1.35.0
-Homepage: https://www.rust-lang.org
-Depends: rustc-nightly
-Description: A tool for formatting Rust code according to style guidelines
-Filename: dists/termux/extras/binary-x86_64/rustfmt-nightly_1.35.0_x86_64.deb
-Size: 1653130
-MD5Sum: fdbd11a72f09ddc66e108d8b689976fd
-SHA1: 1c41bb3a30b4a94d816abc91aeb3119da4f84467
-SHA256: 3bce6e0d39bc28f1c247ccb82dcd6d46ca324cd9b6af06aa9bc330d6e9bafadc
-SHA512: ea0d2bbcc0d52553b1ca13a964993d63ab2bfccc90c34ff090d1bc4fa7976f65ff0b186728106300cf453efc32e45ad2eaf4bd5f55a0fccb599aacad77f1cf7a
 
 Package: sc-im
 Architecture: x86_64
