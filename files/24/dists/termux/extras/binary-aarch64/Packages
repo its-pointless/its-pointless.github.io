@@ -416,36 +416,6 @@ SHA1: e24faea13f924c7fdc969b913bf32c027a144983
 SHA256: 7cd77953f675b532292f8a412c61605dcc822f1875e80575f658028848fc066a
 SHA512: 08f6da499f7b3a86cc70f7a7c731d7141daaa544c88edaa8f544053c7ebb15812c8199955b0c435a79a36b43b7dcfa31ef62a43631931c16d5b4242ec26c9fca
 
-Package: guile-2.2-dev
-Architecture: aarch64
-Installed-Size: 744
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.6-1
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2 (= 2.2.6-1)
-Description: Development files for guile-2.2
-Filename: dists/termux/extras/binary-aarch64/guile-2.2-dev_2.2.6-1_aarch64.deb
-Size: 77768
-MD5Sum: 11b13f9a14373a0f891446c5f87e4646
-SHA1: 6b72ddab9784bcab089f60bf2d67b44f99810a62
-SHA256: ae888e99ded9f5907eb7e1ad6e9ebed79b5e3081bf75e2ac38ff2b377848c198
-SHA512: a20e6ad275601af669732e05c42c85f50d9b774760d4abca1726f8bfc9f46af22e60f2c8713243501120a510daaecbdb9e64f2b0d9d1ca6f672f96f763322e30
-
-Package: guile-2.2
-Architecture: aarch64
-Installed-Size: 45128
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.6-1
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
-Description: GNU extension language and Scheme interpreter
-Filename: dists/termux/extras/binary-aarch64/guile-2.2_2.2.6-1_aarch64.deb
-Size: 4914424
-MD5Sum: 6c1d7846f7e383d3c52b3f7a2239674b
-SHA1: 868b8a1e2cb74b1f8df64b8bd8826df0996ad661
-SHA256: 6536e1bf52d90172005cceb371d9b60e256e7458f6e2a665b0f564078b2b1490
-SHA512: 19b096693072265071716f90bf0bdc252d1e6c6764131e6be67e5998ab34982a06bc4cf245b19bdd5cbfe1acdeb24355379f9b5c892ed4a7216ea1c2ecf8f4fd
-
 Package: julia-llvm
 Architecture: aarch64
 Installed-Size: 165360
@@ -551,6 +521,20 @@ SHA1: 91eef8bba5cedcecd815ef9cf9570cc61b32dad6
 SHA256: 8886842ef06bd26d4fa152e05cb6d03a52ecebdbbb5f888a7a702ba583100c95
 SHA512: 502e79fd6683f79f81bc0aeb80e4cf1a34d630fac4431f62cfe678dde31b4d324a60e7ece3333bc6d65e3705a598d33f8891f4a56c0ddc26143f6478cd98793e
 
+Package: libcompiler-rt-termux
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0
+Homepage: https://compiler-rt.llvm.org
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Filename: dists/termux/extras/binary-aarch64/libcompiler-rt-termux_9.0.0_aarch64.deb
+Size: 27788
+MD5Sum: 9556b0335145bab8f035b0e611744784
+SHA1: 93d635e38520a93722b0f494403bd8da379bca40
+SHA256: 88da16bc604a4442c5aaac5e52196eb4e6696fb24b8b7f8c8421bc95ce5f0c7c
+SHA512: 9c59f1dc154adf48cf63a33769c06adceddb4bb30b7b7586af069e2781a47be3fd204c014c44e14a498c5b1ee756e2f52fa5a881086bc90855b013d219716c79
+
 Package: libcompiler-rt
 Architecture: aarch64
 Installed-Size: 22096
@@ -564,6 +548,20 @@ MD5Sum: 1d35780af11751ba24e5f0ec0ae78a3e
 SHA1: e2ba61ff02b7b67770709460af6351db535b0c37
 SHA256: ebc0611c3d0383188346bb8f55ba457143db38baeb9f2a6c86fa6ffa6b9d663b
 SHA512: 2862cf7658588fd372e2aa3c60f8d894d7c17c11a7eba4848dd683850ff9b68976fcd98157c447d152d869b4447a0836418b5beb3c57467ee653cd5524fc53fc
+
+Package: libcompiler-rt
+Architecture: aarch64
+Installed-Size: 23284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0
+Homepage: https://compiler-rt.llvm.org
+Description: llvm runtime libs
+Filename: dists/termux/extras/binary-aarch64/libcompiler-rt_9.0.0_aarch64.deb
+Size: 1755504
+MD5Sum: ecda370a410431f8dc5fe935f15daf51
+SHA1: 379720082e52b3f6b5bb7880fee482539aff79cf
+SHA256: 8b46b91414bc46d3686de639a6945b346e0e77bcbcfb0ff341c30f7d85cd8f8c
+SHA512: fe78d8227cb47266ae787bd0e2b53cc25de958d221f574f2aec19b4efd3c1475a6ffbed7f2d2362e9cb74152c62ae6a8472e8245389145aaad9d815f086f4083
 
 Package: libgccjit-8-dev
 Architecture: aarch64

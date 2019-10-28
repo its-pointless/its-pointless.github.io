@@ -356,36 +356,6 @@ SHA1: 5524ad1624a01104a721dacedcf1dcb4eac942bc
 SHA256: 366e47d0c11f2d433fc833af0fe7c45b3c17d5e0e076fbef3a1008b1425552bd
 SHA512: 50f3b1822cb36852fd1ce2c9e2ea5136dab795b55878d692e442cbedbebbae8c955d8e7479eba2cb2a0534c4615170d959b6f1d7e1a4ee5c1f9640777dfef06e
 
-Package: guile-2.2-dev
-Architecture: arm
-Installed-Size: 744
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.6-1
-Homepage: http://www.gnu.org/software/guile/
-Depends: guile-2.2 (= 2.2.6-1)
-Description: Development files for guile-2.2
-Filename: dists/termux/extras/binary-arm/guile-2.2-dev_2.2.6-1_arm.deb
-Size: 77812
-MD5Sum: 0c0883a11949bf12042b005a5791bf14
-SHA1: 12a4d7985bd6d04abd75d9d32bc03b07f903c01d
-SHA256: ba9f50c8e1e4046d83276bc0b342e51d0798346fd12607b808ebccb19b70b8e7
-SHA512: 47e0513b2b0e0052fd15f4492eaefd0a623ee9af8e23e1cff74df89e2ab9ae52a9545797ef7fb19de83fe34c07fb53dfa8e8c90ff8c43a8a4f25a9ec478ae37e
-
-Package: guile-2.2
-Architecture: arm
-Installed-Size: 41408
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.6-1
-Homepage: http://www.gnu.org/software/guile/
-Depends: libgmp, libunistring, libffi, libandroid-support, libgc, libltdl, libcrypt
-Description: GNU extension language and Scheme interpreter
-Filename: dists/termux/extras/binary-arm/guile-2.2_2.2.6-1_arm.deb
-Size: 4975076
-MD5Sum: 7fe6210ca9c664fda3bba33dc1393a70
-SHA1: b7cf4e967fc15c4538ebf7c48b48e5de5955a8f9
-SHA256: 28ccca31d35d335f5a273d56eb558f56a172a832a96c80bd70ae7521a5236de0
-SHA512: 0f37018f04a681c9baccc899427bca10b7834b9620232d73d833e146f998abbebd4d6bdd160630e13ee1a001e478091484c4b71758ec64256b938eda8316c593
-
 Package: julia-llvm
 Architecture: arm
 Installed-Size: 152248
@@ -491,6 +461,20 @@ SHA1: 3915206cd77d6e85a4d721ee452317fb7baf020e
 SHA256: 9bd507b6a77ef9f27b07300cd93662c72d87726300810a978d996b64d240dabe
 SHA512: 160ac1bd4f7dd8de6c6975f31528d64f287796611456a723b9942c99342a2d45d2c3570726fc7aac9b52f0859b788b1037f0a14005b7bbc7b42f519e4d647db0
 
+Package: libcompiler-rt-termux
+Architecture: arm
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0
+Homepage: https://compiler-rt.llvm.org
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Filename: dists/termux/extras/binary-arm/libcompiler-rt-termux_9.0.0_arm.deb
+Size: 19496
+MD5Sum: dfbfbf329f3bb8d16fbb5c4718defd6c
+SHA1: caebf2d6805890f09feb7d7641e3422bd6caebec
+SHA256: 4babba7c3eb5c34e5b3c5cef67168554cc5e7826a0db38aa6ae364b63d60a36d
+SHA512: 0abb95db211668a422b3469d055c9d56e68bbadba32e5e3c4e0bf1e95c0769102190269e6a2e30391a7ed7dbb0ba6ff76645b785f117e8147209eae9267cf3f8
+
 Package: libcompiler-rt
 Architecture: arm
 Installed-Size: 8916
@@ -504,6 +488,20 @@ MD5Sum: 55b259db2abd54db2a90f237c4ef6c5d
 SHA1: acdf4b03952b3d37662e4703c2fdb2132f12c8fa
 SHA256: 2897b03100c4b96fda1fd09d1b1307464a1bef2610d1aef74c2e20cc08ed3eb0
 SHA512: 69b60c830ba85d16145d9dc0c6d5323f032da11c0e7d31014d9bbae1589f0401bd1e32bfdabc62909350325d400abb848c544a93321f6d9cdf857d1ae2cd3908
+
+Package: libcompiler-rt
+Architecture: arm
+Installed-Size: 8452
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0
+Homepage: https://compiler-rt.llvm.org
+Description: llvm runtime libs
+Filename: dists/termux/extras/binary-arm/libcompiler-rt_9.0.0_arm.deb
+Size: 769260
+MD5Sum: dc7b2c51112f2e861b5aec101b0cedb9
+SHA1: 9623215e0fa5ec1241b6ddd95c1696cdcb9401fe
+SHA256: 9aa88b8054d18e1896846571d1d00023ddaaf8fd594b4c0b51edb45517aed96e
+SHA512: 66eecc0f254bc4c57cbdebd18c26d2a097848a172d775b3c024f4998f3ba932ad177a4b71cb66b8f36d8a7a90b9a5b645273827e18391fc62d5b0cbe6bfdac61
 
 Package: libgccjit-8-dev
 Architecture: arm
