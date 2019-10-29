@@ -970,37 +970,6 @@ SHA1: c91361b47e931cb66ea19a36a841221ed9cea801
 SHA256: 76988f71fbad804fa1acc256f49b02a579b8fd36ee6dbc56e5f8f8168bc2663f
 SHA512: 1b8107211d3d7cfb588fcb8b406a68f044f18ae2105c6022b99cf4d4dc94ef27ffe452d5401f90bb0947db29ec6cf92bc98a3858ae2c6587ac4fca97ef1e9e4f
 
-Package: llvm-libunwind-dev
-Architecture: i686
-Installed-Size: 48
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.0.0
-Homepage: https://github.com/llvm-mirror/libunwind
-Depends: llvm-libunwind (= 8.0.0)
-Description: Development files for llvm-libunwind
-Filename: dists/termux/extras/binary-i686/llvm-libunwind-dev_8.0.0_i686.deb
-Size: 8718
-MD5Sum: 7e9adda6f66a58261baffdc8c20a2795
-SHA1: 752a9189827698da0ba7dd8270698795fca7e1e8
-SHA256: cd38cb9042a7c746601943fe292be6ef9385fe5965a9d5608a62ae56d302ebcd
-SHA512: 677a379366757b8392b0a396e1a7168be802bdec7a601e659d24cf3980457097e86fb7e4bc34b6bd74d87f670ad0f347245eb9f039c4be0a06e0934c9a396019
-
-Package: llvm-libunwind
-Architecture: i686
-Installed-Size: 40
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.0.0
-Homepage: https://github.com/llvm-mirror/libunwind
-Conflicts: libunwind
-Provides: libunwind
-Description: llvm libunwind
-Filename: dists/termux/extras/binary-i686/llvm-libunwind_8.0.0_i686.deb
-Size: 13196
-MD5Sum: b5db3d9b78374658d60b2f95a3e68650
-SHA1: 1baa5fb15513f95a71ebb62abb2f66ed0e18e725
-SHA256: 298239b5015217b8406a6151502f87a667c11077260ea6b1cc2ec01bf23bfd7e
-SHA512: 652a6c8b7ac8c4d74af41c9bc1c683bbb7e7f1f98470357ed6965c5bd23c1e2a6a69ffc89406cbefbef481c517040139911de0780a6677ef0b0508652fa4bdbe
-
 Package: moarvm
 Architecture: i686
 Installed-Size: 6884

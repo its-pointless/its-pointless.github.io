@@ -985,37 +985,6 @@ SHA1: d3b7c6bd87f20d4f97e388fc6e9388ab897f1497
 SHA256: 40e82314dde9c52642b0a662f7c44652638ddeee4b2ded841197186ee7e210eb
 SHA512: 3aa2ad540504fd7f77a4a8de913bf307f3a1a8f650cbe242e5a0fdbf6150e24f5f53e52121b69bba1ccd1d6a5c8c0692bb1a5d3e706f0d167fd724191cdbb5e4
 
-Package: llvm-libunwind-dev
-Architecture: x86_64
-Installed-Size: 48
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.0.0
-Homepage: https://github.com/llvm-mirror/libunwind
-Depends: llvm-libunwind (= 8.0.0)
-Description: Development files for llvm-libunwind
-Filename: dists/termux/extras/binary-x86_64/llvm-libunwind-dev_8.0.0_x86_64.deb
-Size: 8722
-MD5Sum: 697ce7225c89999aa838a3f4aab021dc
-SHA1: eb896501d95ce5bdffa563c1a491fba10153cc32
-SHA256: 8e2fd58a7c2578a8af4317c0d6f5c34c5a801ca80f78fb4a62f09d53cc4d072e
-SHA512: 82029e21adea6d0dc88cc5529fcba3a214d5b32bd3b14491a373bb9c9cfdeb44efce7ead4e2c214192728deb1f33de6f7796225abf288f44120aa33b94aededa
-
-Package: llvm-libunwind
-Architecture: x86_64
-Installed-Size: 40
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.0.0
-Homepage: https://github.com/llvm-mirror/libunwind
-Conflicts: libunwind
-Provides: libunwind
-Description: llvm libunwind
-Filename: dists/termux/extras/binary-x86_64/llvm-libunwind_8.0.0_x86_64.deb
-Size: 13456
-MD5Sum: 81752810297830fb99ee2c66da6f63ac
-SHA1: 2eace42e65a2d49cca883fa6e934e1df4cac16e0
-SHA256: 2285361e745c3cf512f468d5f1a9d8e4d8436efd9fba83a90cb3a25f914636e4
-SHA512: 11949f3a239624dd2d22ef62963a659003f413c98ba1bccc1192745277b5f87e35fd3c73f694c125474de32613ce8584fe7e82fbe9ef815217d5bd141b185f8b
-
 Package: moarvm
 Architecture: x86_64
 Installed-Size: 8416
@@ -1181,6 +1150,22 @@ MD5Sum: c7b6b5d44b060a597dd1d6c6eb407a02
 SHA1: a755b0b0e6ebba5116198bd8f8de11a90d90e550
 SHA256: b3fd6f0b83c5252660fafb917778024f4f8354195c09374bd14b4965773dfe93
 SHA512: 8550135a705e23a52dd3303639f9aca2c4b661a3aea72bc75efd23bc4d4c7e76d60b66c38a37038bb53dc563537f4dc498d05a4ee04bbcee6cb5aae0a0cd6b32
+
+Package: opam
+Architecture: x86_64
+Installed-Size: 12840
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.0.5
+Homepage: http://www.ocaml.org
+Depends: getconf
+Provides: opam
+Description: OPAM is a source-based package manager for OCaml.
+Filename: dists/termux/extras/binary-x86_64/opam_2.0.5_x86_64.deb
+Size: 2519498
+MD5Sum: a1699709cef5cd12a079e65805c8aea7
+SHA1: 44aeb7ff18a04423dc9655b8784616770d108a22
+SHA256: 3c8232af943d00a2b12f8c38b563b10361107a999e39d897ed01e1a76812b34c
+SHA512: fcf4941b65aadc559a22e9d2af9973b6c5addff00c25d66ab0ddd548541c2015f18b6547d48077794095ddaf327a9a45b5a94451ceed718d23784b3515bcf93d
 
 Package: openblas-sandybridge-static
 Architecture: x86_64
