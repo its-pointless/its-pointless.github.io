@@ -1,32 +1,34 @@
-Package: arpack-ng-dev
+Package: arpack-ng-static
 Architecture: i686
-Installed-Size: 20
+Installed-Size: 460
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.7.0
+Version: 3.7.0-1
 Homepage: https://github.com/opencollab/arpack-ng
-Depends: arpack-ng
-Description: Development files for arpack-ng
-Filename: dists/termux/extras/binary-i686/arpack-ng-dev_3.7.0_i686.deb
-Size: 1772
-MD5Sum: d10fddcbaa40bc61af38b46525e79662
-SHA1: ad0832bae460dd67e0f931fc6cc8b0c3d882da8b
-SHA256: 0484394e228369665e0a96980a81c44790bee8c2bf075736ad2c02daa3902ae8
-SHA512: cd138614555c9319fa2f94976cb3974a8606d541da07a8ca08e850ff3c72a26dead3381e036f211e1944aa3a9219a35e27ab141af6e00c4f5c192c9076ec9490
+Depends: arpack-ng (= 3.7.0-1)
+Description: Static libraries for arpack-ng
+Filename: dists/termux/extras/binary-i686/arpack-ng-static_3.7.0-1_i686.deb
+Size: 81382
+MD5Sum: 31e6aba710a43cfb2797fc314dc819df
+SHA1: 21649b8ed07968e7fefbb706a5791c3e70b5dbfd
+SHA256: aa170a33134c6be6bacecef2f4e2a7dfca612722e90eb98737932b8ce6954741
+SHA512: 1aecd33ede6e26e0e2cf1ac6552ffa2eed73459a4bc5cc522bde582949858276ba71d0eb96d670c267b7d890c52a7c450fb23dacfc156de5ce44e9fb75c87869
 
 Package: arpack-ng
 Architecture: i686
-Installed-Size: 472
+Installed-Size: 252
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.7.0
+Version: 3.7.0-1
 Homepage: https://github.com/opencollab/arpack-ng
+Breaks: arpack-ng-dev
 Depends: openblas
+Replaces: arpack-ng-dev
 Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-Filename: dists/termux/extras/binary-i686/arpack-ng_3.7.0_i686.deb
-Size: 112660
-MD5Sum: 004953dcf106151e377acdc54c4efb5c
-SHA1: 3f1d526ad25c86a1bb92e3be36a314acf7290232
-SHA256: 5785abd19adb4c71945ee4b46e144016fb6f9bc3eb0653892c0f0a4655dbde36
-SHA512: 6e71147d0d2bbd16e7335af8332f74a46d146c46a82e08c8a27321efe17355715bfa1553155d4ee9ee01144d5688a1f1ace9d4d5329a46c984a58ec29348669f
+Filename: dists/termux/extras/binary-i686/arpack-ng_3.7.0-1_i686.deb
+Size: 71286
+MD5Sum: ba977c5a57a93dfcb3c859540a004ba7
+SHA1: a8ad225604f799b841cedd5ac27632a3eef38969
+SHA256: 9fd1d680aa80747825ec714b107895729a06e45659eab37327e50de3f3755a09
+SHA512: 6fb8f95e6e817e6c06ce1f3a0c39457aad20ccfc62f929ee63a6a09407479fe09b52a8ff3415d28aaeaa83a651651dffa96e288008cf1bdf9c6a5877b1595f25
 
 Package: asymptote
 Architecture: i686
@@ -86,6 +88,21 @@ MD5Sum: 047100cbf286b95c29854464495ba9cc
 SHA1: 59e8fc7b51fe2599c8b9fd7e44342b1d0fc4e8f4
 SHA256: f58bf20649d8610e093d27155ebbf09e0898906d3f2cea8c6cd653661f25dd6c
 SHA512: c7fc6ae159daa83619a0ad1b9aa3b2b11224872f2905668da2b805591676ea31d799a75e679fc5a7dfa88249273d7d1311cf4d15bbd404add88d8465155c37dc
+
+Package: clangd
+Architecture: i686
+Installed-Size: 19908
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 9.0.0)
+Description: Language server that provides IDE-like features to editors
+Filename: dists/termux/extras/binary-i686/clangd_9.0.0_i686.deb
+Size: 5096140
+MD5Sum: 9bcab8fbc25b86c9adc29a77e8472477
+SHA1: 01ea040d9c6135ea8dcbc6fdc1cba27ed3c9ae28
+SHA256: a5fe181fcb5e666440422c2b3c804cd34aba4eef2589f88380ec87609a922a37
+SHA512: 77ed9bade7d4669ecd0f7a9ef26f96e6639fde22dca8d399200c3c33897e0f40054d75d90ff9d26b71f4563d6b11c6d8685ae2eadd89b04d73610ad430547d90
 
 Package: ecl
 Architecture: i686
@@ -1029,95 +1046,37 @@ SHA1: 41e00c08230f9fb023b95cfac785b265958c3fdd
 SHA256: a359782f2456c7bab865c54039577d589ca4ee61863ae7fc5078ef8672902591
 SHA512: 473eda5361e331d3aab0515be5f6693e8608bd87a2235eb0c3eb6e18e36c74a6d1af7c1b0bb7896e1d1eecc941681346c2cd7480e911175e7928bd4dbc22015a
 
-Package: octave-dev
+Package: octave-static
 Architecture: i686
-Installed-Size: 5740
+Installed-Size: 82300
 Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.0-2
+Version: 5.1.0-5
 Homepage: https://www.gnu.org/software/octave/
-Depends: octave
-Description: Development files for octave
-Filename: dists/termux/extras/binary-i686/octave-dev_5.1.0-2_i686.deb
-Size: 369574
-MD5Sum: a8aeac8e560701f297fb3e2f186cf439
-SHA1: 472ee0fb3ce3aac3337d2011805044151ba26575
-SHA256: 23e01f8bf3aad62193dc043226cea8b7bff7c113dc23ab9c7ed0d2a67a913052
-SHA512: 14cc52e59e05187b70e9906113321ea4b8cc123e8f6b332ecd14ab04b30a08aae7ad1af6bcd59719ebd699ccf173ccc9d6f465610627ff34aee047ebc047217a
-
-Package: octave-dev
-Architecture: i686
-Installed-Size: 5740
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.0-3
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave (= 5.1.0-3), octave
-Description: Development files for octave
-Filename: dists/termux/extras/binary-i686/octave-dev_5.1.0-3_i686.deb
-Size: 369494
-MD5Sum: a87711519d6fdb064636278cfc549b64
-SHA1: 7c24be879e5139c73b31c80cf767b2f4cb814461
-SHA256: 41e1eaed93e11cd99f1619d0923362055e5c8a36fe2d4237e924dfa75d409068
-SHA512: e8e9d32783c6403e52f379edb0f6b8e6d691b7f29374def28429b2badb0048eed3dd6b996d66e858a9157d656b0a4485b20696cdea8cfa06e6231f934161e443
-
-Package: octave-dev
-Architecture: i686
-Installed-Size: 5740
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.0-4
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave (= 5.1.0-4)
-Description: Development files for octave
-Filename: dists/termux/extras/binary-i686/octave-dev_5.1.0-4_i686.deb
-Size: 369598
-MD5Sum: 660e4fb77e336d26d570626a975f8a89
-SHA1: 0703886ada56af20c0cb4c00b9196431105838ea
-SHA256: c5b0c0962a243c9bd4936287cb32a0e0399a84fca5965f67f021dd28d63659c9
-SHA512: 6083d526c437ed580eb6fea3f6674396e53e3da59a87e86178b96d9252974e3bffcfa445851cafe88c6da93ab27b6c40c713d9ef81ab6e29a31b56202baaef3b
+Depends: octave (= 5.1.0-5)
+Description: Static libraries for octave
+Filename: dists/termux/extras/binary-i686/octave-static_5.1.0-5_i686.deb
+Size: 8345140
+MD5Sum: 08bca7c7e76ce871241c2fcf3ee414b2
+SHA1: 13264419adc556313b2ae4b8732ba2ab2315e008
+SHA256: 7fe1a66e9c671aa0ee4d84f147d0ee298dc6c73ca5a69a5eedffc605b9e06f41
+SHA512: e8297e00f06d4ad8d0ae893e18e50354d69c6857c9ef5a149a50936419c87db762932daeb7fb0e85409ca9c679f73faeb29528a7ea1d9792ac503441b299f040
 
 Package: octave
 Architecture: i686
-Installed-Size: 52252
+Installed-Size: 55956
 Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.0-2
+Version: 5.1.0-5
 Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick++, fftw, texinfo, libhdf5
-Description: Scientific Programming Language
-Filename: dists/termux/extras/binary-i686/octave_5.1.0-2_i686.deb
-Size: 11214090
-MD5Sum: 58891409949f156f51ec0cc94421c309
-SHA1: d5a2e38c748d5d5ef5985bb58d0c9f3e72e00d6f
-SHA256: 4863666cd9d1731a10a8d57ad840dba94fd27f15389de9ee477a289b1ef335a6
-SHA512: 7811d7d7f7c2fb3b4b72a06fe2496ce7cae0d0b02b3263d79a963a5b160b175dfee2f7f361e352c436825528e6517ac15b9e9810ba9c7b0842b58d8a60064089
-
-Package: octave
-Architecture: i686
-Installed-Size: 51712
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.0-3
-Homepage: https://www.gnu.org/software/octave/
+Breaks: octave-dev
 Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Replaces: octave-dev
 Description: Scientific Programming Language
-Filename: dists/termux/extras/binary-i686/octave_5.1.0-3_i686.deb
-Size: 11271338
-MD5Sum: f0c1d01297c0a8d29b0e58007c5892d3
-SHA1: 536df1d57624b2cb339824c66b9f41b55b17ece0
-SHA256: cb1ec4b497f01be10285abba07c6918464374f514893fb635cf4c2e2bea4764e
-SHA512: 807c5d596c714619c4f0addb7ef635df383172e83d1acefa7a9e5b272ea5082d6eeb90e5d640fea52f4d7e03a43a953964b5bccba89c5acdfaf7970fe873b341
-
-Package: octave
-Architecture: i686
-Installed-Size: 46236
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.0-4
-Homepage: https://www.gnu.org/software/octave/
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
-Description: Scientific Programming Language
-Filename: dists/termux/extras/binary-i686/octave_5.1.0-4_i686.deb
-Size: 10859918
-MD5Sum: 2cc700574bbc8ddb432c410413963b81
-SHA1: 4d7aadc3925637ac2867a66820a23679b83da149
-SHA256: 656407e6140eb8e6b8df9f4fb77b7c3cce2ca8e98f87f0b04ccb1d5be0784240
-SHA512: 57c00ac3d5ec4430dff36ff430fb972f7f439a266b06816ee99ea9eb0796926d78dd1af277b3f9882beb8c3a36b86a047d7b509fac2ec56a63e9d82c226ab14e
+Filename: dists/termux/extras/binary-i686/octave_5.1.0-5_i686.deb
+Size: 12037758
+MD5Sum: 3539ab4c607bc73df0158d4f31dbfe4d
+SHA1: d5955337162d687836f11176d38a51cfc12d8886
+SHA256: d478f0833a36b0497fcef7cc4cdf172dd4e04f9bfec6aee66aae5e0129cc603e
+SHA512: bc717cf87693947cbdff78b8c7cd3f6356770d5654178f9c922440d520f60f679360b9422ee5cdbd8b44203585620f7c6baee2b52b9cc23b7d59fc4fa11149c9
 
 Package: openblas-sandybridge-static
 Architecture: i686
@@ -1542,21 +1501,6 @@ SHA512: fbeaec5565dc5930fc169febbe02075d784f5aa34d68e59db183531acae1595ca353a6ef
 
 Package: scipy
 Architecture: i686
-Installed-Size: 52128
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.0-1
-Homepage: https://scipy.org/scipylib
-Depends: numpy
-Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-i686/scipy_1.3.0-1_i686.deb
-Size: 10885980
-MD5Sum: 4c3dec614375398ffe6dbc61f7d48cf8
-SHA1: a8800032ce5318f70e3da886a88ecf012d05aea8
-SHA256: c647eb250e7d6ba0a412e4efc541631234311e4ae6c1bb559a7e1eac2474f909
-SHA512: e2d2fddb217b042c1d67120b7581c7b2f63cab2fd9422faabac9394a2f34b2fc7d96a6b96251279303625af0b7b1a297dceb3260d7e599dca86d24b2331a048b
-
-Package: scipy
-Architecture: i686
 Installed-Size: 52204
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.3.1-1
@@ -1585,6 +1529,22 @@ MD5Sum: 2117bd43f94375b8918e8b7ffbd7ab04
 SHA1: cd2c70276f2a2c0d06c877ab47558d9c413ec5f6
 SHA256: 24a90dd075390b63fb4ada0eaf54785a2adb2d9b30a65282b2a98fd97c8848e5
 SHA512: 451d1b71a5da17f46f87be1c534073e946b0631e21ecd14340b2b754e3449840adfb29c1fe6ea0705532ea10bd7fc080cf6a667f172794a9976b9303b4b0f1c1
+
+Package: suitesparse
+Architecture: i686
+Installed-Size: 7212
+Maintainer:  @its-pointless github
+Version: 5.6.0
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Replaces: suitesparse-dev
+Description: a suite of sparse matrix software
+Filename: dists/termux/extras/binary-i686/suitesparse_5.6.0_i686.deb
+Size: 3334524
+MD5Sum: 9131c868eab2b67eecdbf771694bc07a
+SHA1: 9b9626571008e4fb55c4fc00efb10340074340d8
+SHA256: 9587f2309d602eab73bc39825c07da87f847a27727c646ac31bd8bb27e2e5bcc
+SHA512: 55f1ddb1b66f6b5c35c7fa6f2e06efd250e3e99007edd53ab1dae89b0fcf19dbaa28e23da36fb01304385b588171f5eda845667f7196639652f2cf7908fb5c56
 
 Package: uchardet-dev
 Architecture: i686
