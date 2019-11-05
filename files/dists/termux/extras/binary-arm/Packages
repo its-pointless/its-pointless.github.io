@@ -2331,6 +2331,22 @@ SHA1: 42ecb6cf2c88ad7c07ded6d66a42d71ad509e3e3
 SHA256: 03eb7dc9f7b98047511c45ad7491d0f0cad22c64d98515500880afc0912d3ea4
 SHA512: 07e91e64e805750faa2dad5833b0977294dbec236ebc7a14ccd5a30e856e87e58e5e760714a6fd1630404191d76110f2af0ca4067d01976effacf62daa81c0ff
 
+Package: r-base
+Architecture: arm
+Installed-Size: 60668
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.1-4
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-arm/r-base_3.6.1-4_arm.deb
+Size: 39366702
+MD5Sum: 7342dd5692bca1bf4936e1c351cbb94c
+SHA1: 2516531079de16e459edb3142174d68479c40405
+SHA256: eb7bc432f18e22050251446d9fe9c652c1530559b0468d2d69dd83729b7f64a4
+SHA512: 7c196697d071c7236ee0d269ecbecc4ac3d5fc046fa7de4c01d725224df3c974800dfffa82ca5405d4a40741580cdd206ad415a843df00b1f9910481ad7ebfba
+
 Package: r-cran-rcpp
 Architecture: arm
 Installed-Size: 11276
@@ -2475,11 +2491,11 @@ Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R character string processing facilities
 Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.4.3-4_arm.deb
-Size: 697854
-MD5Sum: 981eeb51719fcb326e8d7dc2a2926212
-SHA1: d729bd30a12ae090a1541a814055bcb4708167a2
-SHA256: 5d67fb1a04b1e976ae1585fbe716359c1bf4e73d9cd6902c64c379893497a8ac
-SHA512: cda022065493a58827773cc478188075b313a1999743670913b99ac6893df24c6b5bdac4975298b59288b22f23bdcd3d678dbe468b56651b081125d961fc5e9a
+Size: 699772
+MD5Sum: 6bd8476d383dd52a885ff39eff757c3b
+SHA1: 1d7042ea5b976b6431720024e3f23ded1805d810
+SHA256: a969899ad7bb5cf627dfacdad056edc6e37b8f85c8346783f52a581638c58bf9
+SHA512: 6aad8dd6e515bfb0af21fe2e71223d26d8c8e17e1c145ea2d433a4d3438e8345d4c3211b11c47e03d377bfd648f150f742ca2ea7a6948c5578aef03695ee0239
 
 Package: r-cran-stringi
 Architecture: arm

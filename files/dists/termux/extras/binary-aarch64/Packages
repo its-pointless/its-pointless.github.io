@@ -2226,6 +2226,22 @@ SHA512: fb137d1a26f8de7d92a7b78f38726bd422b127847e165904f60a1ef3eb9e97d494aa639f
 
 Package: r-base
 Architecture: aarch64
+Installed-Size: 61536
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.1-4
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-aarch64/r-base_3.6.1-4_aarch64.deb
+Size: 39840052
+MD5Sum: d0b434e8472fbcaec6b18eff2b112da2
+SHA1: 31c244c4c3e77e1c2de5a0a1e2b9072b6eed35ff
+SHA256: c192bb0a2c78dc1918858389aa06598ade4875fb7947ce67247cb3701b35f789
+SHA512: 3be6c5d4b56e29dde3e487bb243102df7c6278046143f205eb955de7e15a1de0bed2e623877edce5721f545deeaeb12c33c610453ddc70f643c78d06d56da938
+
+Package: r-base
+Architecture: aarch64
 Installed-Size: 64404
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.6.1
@@ -2384,11 +2400,11 @@ Homepage: https://cran.r-project.org/
 Depends: r-base
 Description: GNU R character string processing facilities
 Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.4.3-4_aarch64.deb
-Size: 671618
-MD5Sum: 7504f7b55ad3da217be708462ce6bd71
-SHA1: f617145188f079f1c0fbabe63e12627090b69fd0
-SHA256: 625d8f038ac54e21d3ad6a7352ed60c78d6ac9fa1247aff1a723815b182aed5e
-SHA512: ccc089f520a1e52fd3698e9b334d3ba8d80c054511b193edc786ffb86b77b5eb530a429211f49c3768ab84da9d5cf41fc6244a78ccabf14d6631660f88b35598
+Size: 673270
+MD5Sum: 3c641c82e5ea6dd8a4301b8ad9696b03
+SHA1: 39118559758b717bec2346473e8b209aa3a79eeb
+SHA256: e788aec1d875e73562f430803e1da8b1d704833ffc73c944c9f404f901f6753b
+SHA512: 9ad2094b5575e442ae936dfc516312a1f9d0948042537628b435bd72706970c8a1cb4a0d7f82fbc2a9e798a5773d25e8b89389004604003a0521673ec174198e
 
 Package: r-cran-stringi
 Architecture: aarch64
