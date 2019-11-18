@@ -108,6 +108,21 @@ Package: clangd
 Architecture: aarch64
 Installed-Size: 19796
 Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0-1
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 9.0.0-1)
+Description: Language server that provides IDE-like features to editors
+Filename: dists/termux/extras/binary-aarch64/clangd_9.0.0-1_aarch64.deb
+Size: 4199410
+MD5Sum: 9d005b5d0eb9f1a0fb12ce9c3764ec20
+SHA1: 292ebc123eba275d53f5e7fb3db93c32e89d4c91
+SHA256: 7379a3bca967e9104053f8c281fd63a44e6567e5114a5c41cbdff9576895db58
+SHA512: 1b8765551f642a6991183ab6d045d4a90f8e2103d85282cdd29074405781e348aa379749c37cc9d910bba53c7a779b774d56405c799797d1970368f5b3b43333
+
+Package: clangd
+Architecture: aarch64
+Installed-Size: 19796
+Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.0
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.0)
@@ -1258,20 +1273,34 @@ SHA1: 3df9610080befa94f0d832e2e1a7335c02a30120
 SHA256: bcccfd6f7136d801fc4b99b4ab3a54e1fc1d65cd631e2c04d5d722e2987271d2
 SHA512: 67c2792b2589e3976ae0c23638089561c5bd00e702de6f9c43b1ab11ac79329b576d57953dd86049e746ecee6bb53d7b10c53dd54658f7a0c946aa271992776f
 
+Package: nbtscan
+Architecture: aarch64
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6
+Homepage: https://packages.debian.org/sid/nbtscan
+Description: scan networks searching for NetBIOS information
+Filename: dists/termux/extras/binary-aarch64/nbtscan_1.6_aarch64.deb
+Size: 12938
+MD5Sum: 9c77cbb35580df2fff61ddf0ca76c363
+SHA1: d0e52edd42d78824229ad28c08e1764692f54b8d
+SHA256: c845ee1b4e0e770c41e368ad45acea71f3c90a9d21940531cf5668659831182e
+SHA512: 3b0b615c0c7aa869b7a370e27a92bd208da54e10a80f7074947b8b6fe7af0729abed913ead4497c3252944845713721e7585b60dc2af12437abacb7251c2460f
+
 Package: numpy
 Architecture: aarch64
-Installed-Size: 18328
+Installed-Size: 18148
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.17.1
+Version: 1.17.4
 Homepage: http://www.numpy.org/
 Depends: openblas, python, libcrypt
 Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-aarch64/numpy_1.17.1_aarch64.deb
-Size: 2823146
-MD5Sum: 1eb5c1d36f3532de8d323be9b5630f77
-SHA1: 5a4a01de7e37390b9f3b8eaa7fc6275d5f8d4f58
-SHA256: 90b6a7a4f0eeecaac1bf465fc8fde42939d43624c003ca7a1e9a5d854c9d9891
-SHA512: 88bc858999f3ad6bdb1ad382a5a9c2771202b7c29255d90aa588838270c601bac8cfa2014a1f5d4e29efd473b98a432365e4dfbf02ed876bc1bf78dd18767a91
+Filename: dists/termux/extras/binary-aarch64/numpy_1.17.4_aarch64.deb
+Size: 2848730
+MD5Sum: d866ad9d312a84c2b68214f83917cc64
+SHA1: 3e1269a234e94bb9ced69509c45bc7e36fc665e3
+SHA256: dd6ce4166ccfc622561756f7ce524dae7d0dbbd5cb08a90e5a065e7a6f83d1ce
+SHA512: 535443abfcd7aab30aa1d3021c93e44443d3b11f8fe3470a268a09f409dc6b7a8f9538237ca4defef6c3de1b51e6861177d71014d2c95c37bc678814760c4cd1
 
 Package: ocaml
 Architecture: aarch64
@@ -1475,33 +1504,33 @@ SHA512: 9f8850e713ba8edd1e5e01fcf8538c721f51ef25f94bd014f6702bbfc1bab0ae49e2d4d0
 
 Package: python2-numpy
 Architecture: aarch64
-Installed-Size: 16420
+Installed-Size: 16540
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.4-1
+Version: 1.16.5
 Homepage: http://www.numpy.org/
 Depends: openblas, python2, libcrypt
 Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.16.4-1_aarch64.deb
-Size: 2408260
-MD5Sum: 59973e7f803c77911bfc762d86dbf86b
-SHA1: 7c57bf01ae762b7965a1ca372c1a1d14c8340e3c
-SHA256: 04742345c11ce46dca205c3d7d73d9c5230cf96152925d6e629829bc971b331d
-SHA512: 21b1bfb85a1da8351098b6b6340270f5bfea980b9c467bd9afd2c837f5cf757cc21a993431817247e02b6819bd8e8b90d7cac07da0e56085606623ef916e14b0
+Filename: dists/termux/extras/binary-aarch64/python2-numpy_1.16.5_aarch64.deb
+Size: 2430868
+MD5Sum: 04a9df16051578ebf996e93b65fe16cd
+SHA1: 6f93fcd9ec6eedce73a59f694392e0155e7cea75
+SHA256: 443d0619ded97e37d0ca45aa88930d250ce2510da46b6f3b2cc256ca2aec42f4
+SHA512: e999b88f95d68ece1c1517a244baa04a636bb7b24dd9a59b55582e5c64c7d9eb2e28abd45a4367d4f66d12209460b34c3bc74d65835e5353920266ce9ee0591c
 
 Package: python2-scipy
 Architecture: aarch64
-Installed-Size: 51556
+Installed-Size: 49844
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.2.2
 Homepage: https://scipy.org/scipylib
 Depends: python2-numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
 Filename: dists/termux/extras/binary-aarch64/python2-scipy_1.2.2_aarch64.deb
-Size: 11101200
-MD5Sum: d41887c3ff89b24eda31ed938c744696
-SHA1: 82d79656d087b3c395302070b8c42b3520e8b3fb
-SHA256: fbedeef2af541f3ad5e7b5a65233abd705c8a1f98cc0d5cf93c9a85fa3f32aea
-SHA512: 959cd9d50b08a7f5158fdbd471727eef3b1fbdfbdfe73119541067c74bda6955bbdaf2a90a82507bd6caca5417f66774a3e3f90fab3d6b51f122fb3f628b541a
+Size: 10471030
+MD5Sum: f4e793f33f5d7ac58a5baea46456218a
+SHA1: a4a2e0a1c263c083df675a43e43fa2457264de12
+SHA256: d31371f1c6b6dd7c3f174f45879edb07c306f46fbc28c792e029aed8d2f5a94f
+SHA512: c1d61aab6a02107b7c497c88c0eb802c50e656ab645a091687c2cebd5291b329c86c4e0d6fab17310b53b853a60b4ae5d8db22f924331ede310b89c9dea36acf
 
 Package: qhull
 Architecture: aarch64
@@ -1730,18 +1759,18 @@ SHA512: 82e1b4a3887a2ef79319daa97b035e03843223c9dd400553fe2c79ce89b97679917c674b
 
 Package: scipy
 Architecture: aarch64
-Installed-Size: 50740
+Installed-Size: 49844
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.1-1
+Version: 1.3.2
 Homepage: https://scipy.org/scipylib
 Depends: numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-aarch64/scipy_1.3.1-1_aarch64.deb
-Size: 11090424
-MD5Sum: 78f2640236207f215277a163dd716cc3
-SHA1: 44791f4df72d96978760c997a417b90a20221527
-SHA256: 6e325aef138952d1a7d27150c3a6c5b3019d7a2c7863f41cbb6f0fe8906c768c
-SHA512: b795a1fff5791e94120fef51546c5a64f525d8c106ea2e01690525a3b81c13008f23a9daa3b5192862fd7f11053e30ffe04913351c3f3ad96da1252875f02c0e
+Filename: dists/termux/extras/binary-aarch64/scipy_1.3.2_aarch64.deb
+Size: 10729000
+MD5Sum: 3f69f642aa28a1e78d2f2922c390f937
+SHA1: d2d85f88c94d6b65e9475029c63e934192cec9df
+SHA256: 4851e514dd9d2f61e64d807115b20f7db3328a825c50b18a49a36cc912e6853a
+SHA512: f18f0ecd206b34f66b7799d1cf71c7e339702af253e3c89c50356638a030af45f2262d49c42852e1cd50313ac95243746991566004e5ffffe5fe0e351889dec7
 
 Package: suitesparse
 Architecture: aarch64
