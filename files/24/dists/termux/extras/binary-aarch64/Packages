@@ -1231,6 +1231,21 @@ SHA512: 4744ea08d2c7bef342cd8f2fd59b8f3b9d7023194a3a86202b68a29b3a7531c1df6e0e37
 
 Package: mongodb
 Architecture: aarch64
+Installed-Size: 193796
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.0-1
+Homepage: https://github.com/mongodb/mongo
+Depends: libicu, libcurl, libpcap
+Description: mongo db
+Filename: dists/termux/extras/binary-aarch64/mongodb_4.2.0-1_aarch64.deb
+Size: 42355932
+MD5Sum: 3c4349420216d21c753e779439187f3d
+SHA1: 471a1338f527178452e49c9a97b88d9aaa6c3eed
+SHA256: 76d5dafbe5c2b6238747c2d527ba0d61d07e9296563ccb816aa29d0955436c6f
+SHA512: 7fa2cabb99177442a8cefde377e949572e1e25c51cce4176e27febd31fec0be537c25ec8e73f8f4e2d58624da62d520e778e5d34081cc4936459f2c6092792ae
+
+Package: mongodb
+Architecture: aarch64
 Installed-Size: 193808
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.2.0
@@ -1414,18 +1429,18 @@ SHA512: 678006b35ba83d95432c4688b05a0b45bc7a8b5acdd117a719d32cfcdf723ffd524feab0
 
 Package: opencv
 Architecture: aarch64
-Installed-Size: 38984
+Installed-Size: 40116
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.1-1
+Version: 4.1.2
 Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
 Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-aarch64/opencv_4.1.1-1_aarch64.deb
-Size: 6467934
-MD5Sum: 4a6b8f1fb10f6146088f5bbae51e00a8
-SHA1: d82a269e0ba6afb3c712656edb1bce6cfa883edc
-SHA256: 36cc28dda11a741ae7b53dbfd2460ff37f2d484a21faff0bb8b5fc25a2c1fe54
-SHA512: 80887f67c07e11febbc2f1d6f2d8217ac8f0bec9b0a75071f24f2db7b8bac9f7236087a0f7d2044994bd1e0d65fe6f4c28f43614cd9bcf43bc2f0d7576031616
+Filename: dists/termux/extras/binary-aarch64/opencv_4.1.2_aarch64.deb
+Size: 6784294
+MD5Sum: 1dbb38668efcab247e469d2ee7ba17d2
+SHA1: 25072e05b2ed0b521dc0641b673b74cd6357a3ee
+SHA256: 312488ec16721ef1a1bc1ace98f19dbac705407e1c3984f2350d9d6de4d787c3
+SHA512: 03e60e279a23dd8081643ad6c6a7e8677430b33725bae4326f7175d75e281ee373cd00951cb6f68310a4489076e05a5bf890a41a0426159edfac4316352149c8
 
 Package: pari-gp
 Architecture: aarch64

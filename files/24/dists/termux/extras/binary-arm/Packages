@@ -93,6 +93,21 @@ Package: clangd
 Architecture: arm
 Installed-Size: 13216
 Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0-1
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 9.0.0-1)
+Description: Language server that provides IDE-like features to editors
+Filename: dists/termux/extras/binary-arm/clangd_9.0.0-1_arm.deb
+Size: 4317386
+MD5Sum: a61da87e8af9285c050cf87d16ccc1f8
+SHA1: f6268159a96b39e59db82862adddfd0f4a572966
+SHA256: 9808617875873019eaf29ac969b1a764824004248432ef5a39533320f31d7a95
+SHA512: 1e0d31fe86c5d27863c04e57d72e05e14fca1fa2d4b378c56d312fba226e9f1d8887c8ef7f4fb80681ef967302aa2ad7eb64ad8d5e2c718e2ddbbe688f7116c3
+
+Package: clangd
+Architecture: arm
+Installed-Size: 13216
+Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.0
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.0)
@@ -1172,18 +1187,18 @@ SHA512: 3493572b0f125f97820e52014243f485a804c9a023b1aecb9b6e37bf37c47d2bb31f91b7
 
 Package: opencv
 Architecture: arm
-Installed-Size: 33344
+Installed-Size: 34268
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.1-1
+Version: 4.1.2
 Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
 Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-arm/opencv_4.1.1-1_arm.deb
-Size: 6745336
-MD5Sum: 60dac5cadc3a43ee0617fcce627920b9
-SHA1: ee606aae177f683facd91208f359eb672a334531
-SHA256: c7d3372948e785bc3ddd18b4fd0a0ef032710d3b0bd4cd7987bd8aef66930cc2
-SHA512: 4fdf7abfd9166c0125b7792dde408b45974a6292d92a2c9c9b4ba339c6a21de899de201be20abefe3a00a9068fde3e551dfb21773808e47d067ecfb13ec5528d
+Filename: dists/termux/extras/binary-arm/opencv_4.1.2_arm.deb
+Size: 7044832
+MD5Sum: 0533c510ac43247b47b520a40672bd20
+SHA1: 543fd543d8741c0038a21fc371b1406bf5c22ead
+SHA256: fdbaa48c763ad8fa540f0b79c9e8663302ec4f6a41022e6d90876729ba20fc3d
+SHA512: 08c34f7843d8f413e8f97378186d7bf06e49992f0da64cc7dc86ffa59a9b8cbb4ba1fd126cfd2923565b4bc63b7e1de0b7e05a7c7d693fb99149e22765870394
 
 Package: pari-gp
 Architecture: arm

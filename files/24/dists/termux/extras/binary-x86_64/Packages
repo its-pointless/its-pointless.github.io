@@ -108,6 +108,21 @@ Package: clangd
 Architecture: x86_64
 Installed-Size: 22640
 Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0-1
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 9.0.0-1)
+Description: Language server that provides IDE-like features to editors
+Filename: dists/termux/extras/binary-x86_64/clangd_9.0.0-1_x86_64.deb
+Size: 5148222
+MD5Sum: b20223b72f9e84519115c05126da5fd0
+SHA1: 73e389a235f341a9771c8c8764d9717676f42e46
+SHA256: 9243af178ec94e45bfc0931c88a6d980169bf7554efb357dc03b10a82c9d2ccd
+SHA512: b9ed83f7f4ae27132106ec9a0e006ced0754b68f18f400e5a982b51c3b80f514b8c4a46e897c617c6431d52cae7fd0179c88dee8df7a8d31f0f302f914268968
+
+Package: clangd
+Architecture: x86_64
+Installed-Size: 22640
+Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.0
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.0)
@@ -1019,6 +1034,21 @@ SHA512: b024003d2ecdd44f504083900bc31c353e4b1028199c95d8a7ed7bd9cba02bee94777a47
 
 Package: mongodb
 Architecture: x86_64
+Installed-Size: 204844
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.2.0-1
+Homepage: https://github.com/mongodb/mongo
+Depends: libicu, libcurl, libpcap
+Description: mongo db
+Filename: dists/termux/extras/binary-x86_64/mongodb_4.2.0-1_x86_64.deb
+Size: 48669080
+MD5Sum: c7d1eecc973ededeb8fc3e43c724f71a
+SHA1: 9541d9e07801a4b1673b4382ed3bc51561dac145
+SHA256: 190ca69d850bf1c3eda59be32376335367cece1246e886513cdf9d2a7eb7ca45
+SHA512: 307cd17c6b6ed99f132d95cb653ede0490dbde5ba2f1542df26383bf88ab7e70d7e604074629b4801fc8c602e265362a26bacdaab668690912b19b45b02bf83c
+
+Package: mongodb
+Architecture: x86_64
 Installed-Size: 204820
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.2.0
@@ -1234,18 +1264,18 @@ SHA512: 28ade44c82b1ea4e4bc3753263be13efdd8a2703910e6ce4dde95f37aa8b444b6aac6038
 
 Package: opencv
 Architecture: x86_64
-Installed-Size: 118700
+Installed-Size: 102516
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.1-1
+Version: 4.1.2
 Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
 Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-x86_64/opencv_4.1.1-1_x86_64.deb
-Size: 20829172
-MD5Sum: 99f2fed39a734836524a75f82e820e77
-SHA1: bb2519137d9d2c3d854f5162e72b13cd73b04dbf
-SHA256: 7237e04fcaeed56039c9d85eaa92c1845500df1521d8a527ef98fad9f70803c4
-SHA512: 90d4a9abf63a08da7a624f1f00e0e30a6fb377a1a6c2a196a3c33ec3b514b04dc83faed8b6fc339a208f2a7f1e902f6b662fdf7001f1c1f5ac71bac855cb9232
+Filename: dists/termux/extras/binary-x86_64/opencv_4.1.2_x86_64.deb
+Size: 19729332
+MD5Sum: c17c522f5df28c7aed489a68adf9323e
+SHA1: 6d719c9d176bd2a79829c6fe63cbb09042063e16
+SHA256: 7f9c0423b13b8accbe06d8a595465a0d9ad688e1075c7539bc4d3b2b8fb6c988
+SHA512: d848dd6682fe3699f7fd44770261229056268d2ae96edcc3336453e9fd1733eff0c38e9a9a4876dfe33face0d00479407843807d49e44d6343a1cb35a2927314
 
 Package: pari-gp
 Architecture: x86_64

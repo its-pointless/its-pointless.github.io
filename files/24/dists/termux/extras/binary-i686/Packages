@@ -93,6 +93,21 @@ Package: clangd
 Architecture: i686
 Installed-Size: 19908
 Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0-1
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 9.0.0-1)
+Description: Language server that provides IDE-like features to editors
+Filename: dists/termux/extras/binary-i686/clangd_9.0.0-1_i686.deb
+Size: 5094420
+MD5Sum: f744ada9db3cb8ddfd7cc828db15277f
+SHA1: 35002edf1d2859b91de7d120e12e9f1b94accb38
+SHA256: eb1d84327293b9c9df90136e4eb2bd96ca45f9e997d6267002f8072edc4f4e10
+SHA512: 44677ba3236ba891031e7cb401dd1f73ae39edd97dbc66f7f80d6fb09466e76b1ddcd18d2cca7ef32ca705b1e8628982763d8424d46d15823267fe4260c41676
+
+Package: clangd
+Architecture: i686
+Installed-Size: 19908
+Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.0
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.0)
@@ -1156,18 +1171,18 @@ SHA512: 0b63c522be09d560bf6772fe99235332a72c9947078746a563acf5b315c6494c265ec1df
 
 Package: opencv
 Architecture: i686
-Installed-Size: 39604
+Installed-Size: 40796
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.1-1
+Version: 4.1.2
 Homepage: https://opencv.org
-Depends: numpy, ffmpeg, gst-plugins-base, libjasper, libwebp, libprotobuf, libpng, libtiff
+Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
 Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-i686/opencv_4.1.1-1_i686.deb
-Size: 7202504
-MD5Sum: 4465c3e57e539a00536f2f2e67df8183
-SHA1: 8cfe63f425b2a60a687237dd479d9e59e14f938b
-SHA256: cd1d8fb1f74dec94b0923dcac4b7bf6394eab2ca30c96d2efdddd9f8e11f0887
-SHA512: 4b1d1b9e688b5e452009a49af319c3e4ea150ded6687b0aa4067a5b6e3929eb98cae01568bfab7188fa261326f19794bda5a85332b03d4dadd8b3c932897edaa
+Filename: dists/termux/extras/binary-i686/opencv_4.1.2_i686.deb
+Size: 7534046
+MD5Sum: 8aa0194bff565adfa940a398131bc31f
+SHA1: 0903d1c4e363fb2556ba7152a6bbbc53dcdc8c77
+SHA256: 505ba19f05655c800ce463c74498cbb6dbe18ced0c7d09f592cae5d283b2adb4
+SHA512: fe7deb122dc8437739f8863428358c4f344c6976acbe0e0fb576fda2c581ee36a5bf235e4b4a9e978157f1314c35a065a4efdb25b1bf5d332b4fa5ed0bb74165
 
 Package: pari-gp
 Architecture: i686
