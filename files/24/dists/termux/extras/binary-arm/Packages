@@ -1232,6 +1232,21 @@ SHA512: 90e31dd051a47a4d6db858e642872378effb6aaa9863d35180352cd63ac508ca1aa1eefd
 
 Package: picolisp
 Architecture: arm
+Installed-Size: 4124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 19.11.11
+Homepage: https://picolisp.com
+Depends: libcrypt, openssl
+Description: Lisp interpreter and application server framework
+Filename: dists/termux/extras/binary-arm/picolisp_19.11.11_arm.deb
+Size: 705744
+MD5Sum: 39d19dee421d039c949a6c8b679d6fe7
+SHA1: 6d98388da6063c6d9d55c1ad2398e885d35b5215
+SHA256: cdb2fb24bffee37a41e0ffa23d630e2d9290df3442640720b510b2ee89899d9c
+SHA512: 021b1e282ae28bb1c60ef033bfb694e13378b8d3ba5164d9cb1a56cacb61b48f3f73a91b42e8f055aa3ae1f813ebb0e716d4edba0923e88c9a4edaa107765e6e
+
+Package: picolisp
+Architecture: arm
 Installed-Size: 4104
 Maintainer: Fredrik Fornwall @fornwall
 Version: 19.7.6

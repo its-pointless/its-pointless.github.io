@@ -1216,6 +1216,21 @@ SHA512: 92b36dea90db7dbe086b3f85ed42b25a62c2791c59c4ee5ff6d17ab474ce23dd53633f6e
 
 Package: picolisp
 Architecture: i686
+Installed-Size: 4216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 19.11.11
+Homepage: https://picolisp.com
+Depends: libcrypt, openssl
+Description: Lisp interpreter and application server framework
+Filename: dists/termux/extras/binary-i686/picolisp_19.11.11_i686.deb
+Size: 724678
+MD5Sum: cec6981c254e6af908ce005dbec1d54d
+SHA1: 780df3e296a9097c139114691a5e189fa7dbdab9
+SHA256: 022a2b7bf0913d6d653a8bc9d825fe47b1625264b0aeb35580e3b064328b7918
+SHA512: e374254b0389da243b2da719839d140a9f54f353e02459f161fbf4a9cb5f4a802d2fbf0a023cececa5fd9099640bd1b015eca43fa7ec7d335e0aa48f503ad7b5
+
+Package: picolisp
+Architecture: i686
 Installed-Size: 4204
 Maintainer: Fredrik Fornwall @fornwall
 Version: 19.7.6
