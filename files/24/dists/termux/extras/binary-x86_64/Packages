@@ -1135,6 +1135,21 @@ SHA1: 860cf6aa0ede3c1a39ab8ed65eb5e59cc87fe164
 SHA256: d69c8c32523648d8db9aea9908ed0399fb239a2bfd80b758d6825e0870ac507c
 SHA512: af77ce440239bf409226b119ae1ce547e7d1a2ac35212279a9cde805dcbec6fe2ea4ea00b55ffc1c12026aec27e3216e0ff40374ffbae7b2f6ad1cdd8896e3f9
 
+Package: ocaml
+Architecture: x86_64
+Installed-Size: 334288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.09.0
+Homepage: https://ocaml.org
+Depends: clang
+Description: OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
+Filename: dists/termux/extras/binary-x86_64/ocaml_4.09.0_x86_64.deb
+Size: 75465864
+MD5Sum: dd17fd679166ab27a96d682a1b3aa943
+SHA1: b367791248463fa5cafd9a666167219ca884572f
+SHA256: 89eeb5a52b78c92d8234888338c7f071d5b42e9a5ef050e72d3f408fbe5ad2f8
+SHA512: 61aad477aaad20153a12bfaac5e90e33fd397bca297954a609420b1e8d44462a7ed4628be1c8ecf4447f91f96fc30f5ca096745b397328c809ee6c4cf83175b1
+
 Package: octave-static
 Architecture: x86_64
 Installed-Size: 109528

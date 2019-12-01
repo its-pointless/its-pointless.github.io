@@ -1090,6 +1090,21 @@ SHA1: 2c3c80433f29f4afef030b54a86b932613e8d7d8
 SHA256: 8a3927ad65789cf9a61436e272b0c83134149945455b39a1aa9a85b8ddad8d7b
 SHA512: 37e46180e2b651187af4983fc118f96a732ab835dae990075dabf878621a4049233c3151dbede72f135988cd4f78623f720704f63b1a106d6e3475b545598931
 
+Package: ocaml
+Architecture: arm
+Installed-Size: 314772
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.09.0
+Homepage: https://ocaml.org
+Depends: clang
+Description: OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
+Filename: dists/termux/extras/binary-arm/ocaml_4.09.0_arm.deb
+Size: 75635234
+MD5Sum: f042cb0a6ceeae5e3b47e64411e38950
+SHA1: 97f7ee6390d18a87c838e45ab2e1dbae6bc78f69
+SHA256: 27e1a7b51139b86715a50cabbe1ab7dc8bb984cf5bf5ecb72013676beca37f18
+SHA512: 8dc66b3d5c7779471cb55d842de6da632d11087ea67c1185a8b8c2fe97d739584600f40786d22b760f661ee3f5f5af278d8c26143c7a6189f7988288de8f5254
+
 Package: octave-static
 Architecture: arm
 Installed-Size: 103096
@@ -1244,6 +1259,21 @@ MD5Sum: 39d19dee421d039c949a6c8b679d6fe7
 SHA1: 6d98388da6063c6d9d55c1ad2398e885d35b5215
 SHA256: cdb2fb24bffee37a41e0ffa23d630e2d9290df3442640720b510b2ee89899d9c
 SHA512: 021b1e282ae28bb1c60ef033bfb694e13378b8d3ba5164d9cb1a56cacb61b48f3f73a91b42e8f055aa3ae1f813ebb0e716d4edba0923e88c9a4edaa107765e6e
+
+Package: picolisp
+Architecture: arm
+Installed-Size: 4124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 19.11.25
+Homepage: https://picolisp.com
+Depends: libcrypt, openssl
+Description: Lisp interpreter and application server framework
+Filename: dists/termux/extras/binary-arm/picolisp_19.11.25_arm.deb
+Size: 705930
+MD5Sum: 96df4423d56c069a4b15460e8a0112b3
+SHA1: c8410c47236e148ab2b812e598b46fa5dca86826
+SHA256: 41ef8fedc9d162d99f1a259ce6ac279effe07038714187206a82303dcca83b9f
+SHA512: 092ae11ca9efd75a10835ab792021242861f79e5036f6cc426a53d28d11b30e96c6f929dfbc21aa10d979a7072ff20ba60e7beb43041dfc3e85b84560fcedc53
 
 Package: picolisp
 Architecture: arm
