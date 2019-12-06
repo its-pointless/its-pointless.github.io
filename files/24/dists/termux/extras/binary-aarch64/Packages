@@ -123,6 +123,21 @@ Package: clangd
 Architecture: aarch64
 Installed-Size: 19796
 Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0-2
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 9.0.0-2)
+Description: Language server that provides IDE-like features to editors
+Filename: dists/termux/extras/binary-aarch64/clangd_9.0.0-2_aarch64.deb
+Size: 4195678
+MD5Sum: 4124a7df97e7a1b1fcc6fdbeca72b883
+SHA1: 9c826bbef2ea813d9253626101eb23d360f7c281
+SHA256: 2071db31cbf23e749b83079f06082e4a51f63cc54023755d8e350d8644ad0ca9
+SHA512: 50253468649df9cfacd51f01e3bdc89363de81a07bb672a3a04718fc17229d540229a5c3e32878437015225085c7850ca9e61a34d1fb1f2849377eeda1b3c29a
+
+Package: clangd
+Architecture: aarch64
+Installed-Size: 19796
+Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.0
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.0)

@@ -108,6 +108,21 @@ Package: clangd
 Architecture: arm
 Installed-Size: 13216
 Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.0-2
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 9.0.0-2)
+Description: Language server that provides IDE-like features to editors
+Filename: dists/termux/extras/binary-arm/clangd_9.0.0-2_arm.deb
+Size: 4312250
+MD5Sum: d75c2f1675cbafedae5a4665a45b280c
+SHA1: bdd7db25efbe957f8b41f3dd98621209d6cecb57
+SHA256: eb5b5770f9666dd2834ba95f2566729304bba6b5d309f8e4e06e7e0a71e469a4
+SHA512: 12b3f6c68798f70a06c7acbb35eb9a17b14c67c412d636a0865372a487b284886a99d8110f55c3ca2374dbfed39b547655d48d905c325144cc776745bdfbe1d2
+
+Package: clangd
+Architecture: arm
+Installed-Size: 13216
+Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.0
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.0)
@@ -1061,6 +1076,21 @@ MD5Sum: 3e3287f5630f2afa038f2b98e3ca0358
 SHA1: 3867fa3ad8354199dfc3cc6fdec2472e681971ea
 SHA256: 8f21c45f05e9e8428eacc59f37ad6ee5b5e1a0d9ef400b7b9b0b4c9c2f0a871d
 SHA512: dd326cc7808b8db7a290e19518a979acd885bb18cada6aad03d81cd7335e8d7216850a6a87aa48cbd8a7a051dbfe9ad838b608b8dabb913001d4276e936d06b6
+
+Package: numpy
+Architecture: arm
+Installed-Size: 17736
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.17.4-1
+Homepage: http://www.numpy.org/
+Depends: openblas, python, libcrypt
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-arm/numpy_1.17.4-1_arm.deb
+Size: 3277764
+MD5Sum: 2ea19ce60888892ec02e659983ddccfe
+SHA1: 3e7698201b2bccf11d7009c24dd6dea802caba22
+SHA256: 9c3c4d5bf2c4ee28f539fc974d57c344e9eb609ce9976bd159605123d8f666ad
+SHA512: c3cb51e8a17593a4cee8936a9e8a406fd2b220b3efa7afff8f56a727729b24b04b533f3c756ea5bc30bec55672b5641f55ef1191c54b53d904cd57dca27052aa
 
 Package: numpy
 Architecture: arm
