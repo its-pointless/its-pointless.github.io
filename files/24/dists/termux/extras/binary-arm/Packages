@@ -375,6 +375,21 @@ SHA512: 83bbdb62609d51707df6737e5752df03cb6e899ea7ac1e618763d4760e7c6e389f462b4a
 
 Package: gprbuild
 Architecture: arm
+Installed-Size: 23544
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20190517-1
+Homepage: https://github.com/AdaCore/gprbuild
+Depends: libandroid-support, xmlada, gnat-9
+Description: multi-language extensible build tool (gnat)
+Filename: dists/termux/extras/binary-arm/gprbuild_20190517-1_arm.deb
+Size: 4099468
+MD5Sum: 58469adc236338c675a710a2d4a60016
+SHA1: 2d8c3d781372c460c94da675737a49f8610153c8
+SHA256: 3423d0bea046a1f9393f6abf7d31ef4826dc17db3b29cb0168909b18d400bf6a
+SHA512: 3dfd45317c3bd50c13ce39184785848cfbf995496c9fc8f66562847730aa9c899028f1ce945da67276b9a8517f260d5ba80a72d9fe56c02aa91a0323d914c21e
+
+Package: gprbuild
+Architecture: arm
 Installed-Size: 23464
 Maintainer: Fredrik Fornwall @fornwall
 Version: 20190517
@@ -1772,6 +1787,38 @@ MD5Sum: 40a16bf7c381fa5d2ebbabacc55f7e6d
 SHA1: ef90c3d89d55290b2e95c6d23e4e11da934462a3
 SHA256: ded8d9b748045dc687627e1e4e64cd912857b1c66ad9081d20a7a411430968a7
 SHA512: a3ee50139b6a928b929c8cb01ed864dece03515dd42a1a1b35e9dd146fa9447ec49dcb3161e338fbad236eff4181aebc204eebc49f2b0f0aa8578d630fa71b1d
+
+Package: xmlada-static
+Architecture: arm
+Installed-Size: 12040
+Maintainer: Fredrik Fornwall @fornwall
+Version: 19.2-1
+Homepage: https://www.adacore.com/
+Depends: xmlada (= 19.2-1)
+Description: Static libraries for xmlada
+Filename: dists/termux/extras/binary-arm/xmlada-static_19.2-1_arm.deb
+Size: 583584
+MD5Sum: 2386bbf471a8a0f3d158d06c84d7de40
+SHA1: 231e5fccee60fb2caf52f2209dbd30229da3ba6a
+SHA256: 7f4aae252e59b0998c88410e914cdcb0fe6d6d9177710b759c17ddce37cc8252
+SHA512: 9b140ff481d269d2042f47c527966ca4b0bd4f8c3e610b730fbabdc8651e7c24f6a79c7593eee6e190bd4b8404cee6f996a2ed73dce4bfc998e00a7fda766f41
+
+Package: xmlada
+Architecture: arm
+Installed-Size: 28964
+Maintainer: Fredrik Fornwall @fornwall
+Version: 19.2-1
+Homepage: https://www.adacore.com/
+Depends: libandroid-support, libgnat-9
+Conflicts: xmlada-dev
+Replaces: xmlada-dev
+Description: XML/Ada, a full XML suite for Ada programmers
+Filename: dists/termux/extras/binary-arm/xmlada_19.2-1_arm.deb
+Size: 1850352
+MD5Sum: 121a12a9cba2c1492689a39b660dfbfd
+SHA1: bbad8760e3c7bec88ccb81c3c193e9af59bb6b5e
+SHA256: b882ad1ef62dd9c47c1348e69446703e7233f1f19204b5b7bbda0ade0ffd93aa
+SHA512: 190fe62990b722ab8bb72ffa93dad618b41d7dcaff96ed302aff2d7aa3c7d57d258b0b1f3b27d13a49bf9fd26c0090bd0e2f809993cad6fc009bad82ab3a6e85
 
 Package: xmlada
 Architecture: arm
