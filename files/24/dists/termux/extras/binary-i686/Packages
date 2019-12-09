@@ -403,38 +403,6 @@ SHA1: 32e0d06e2de27512c69589cc7b2143d86a7fc9d5
 SHA256: a90d005a8fd19544fe8f360340d8d4d1b1f1ab9e8a4ae9f1ce52a334a76a8ff0
 SHA512: 4884c80c3cff1fadab011066e38ed1bdac113ae2b4695e72e2bff92fafa7f24fcc0624e74fb49318506d034bcb8c024d53e720772e0cdf3d6387ac9829316e86
 
-Package: julia-llvm
-Architecture: i686
-Installed-Size: 133564
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Homepage: https://clang.llvm.org/
-Depends: binutils, ncurses, ndk-sysroot, libllvm-julia
-Description: llvm with julia patches (only useful if compiling julia itself)
-Filename: dists/termux/extras/binary-i686/julia-llvm_6.0.1_i686.deb
-Size: 20931200
-MD5Sum: 8a501db57cc4151412c15d480e5de35e
-SHA1: d7131094a360a610a22023bff8c351b0928b9a6a
-SHA256: 04bca4fa73535ad9bf4b0be5ca2a15d31448a1249efbd73493fc42bfb8f9b118
-SHA512: 9cbd472edc90d78c66f57fa7ea04d3be77c5de5462e3e9d42db10a99377027e6610898ad93400bddbb639140133611242f331ca601f43d0310e65a5386b1f375
-
-Package: julia
-Architecture: i686
-Installed-Size: 157580
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.0
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Description: high-performance dynamic programming language for numerical computing
-Filename: dists/termux/extras/binary-i686/julia_1.2.0_i686.deb
-Size: 25717282
-MD5Sum: 8c54a8470e517e32c2863837e6f2f7cc
-SHA1: bd8a898b8dee564e0c867e24586b544ceea3f0e6
-SHA256: 3bcb2fe15797493cffd557a41d3000e4e536f1bab019aa564047f9d64564bfcc
-SHA512: 992f8d730d89f00bc24782818259691b3ac65b4c38ebb91456739d26c2e8099c8c1980b04c558af2dc7d2d81e0f08e467b752023fe398ef3aa9fe8f74e7cea33
-
 Package: julia
 Architecture: i686
 Installed-Size: 154064
@@ -784,20 +752,6 @@ MD5Sum: 79f11379a3aba3a56dd43e6fc86043f5
 SHA1: 3affc08d89ba4483f457f613d78e2ecfb19f1145
 SHA256: 7f818a5f7dc8953907100786c9e7232391d3b38e0d901e387c2bab62a7bd1f74
 SHA512: 39b3da084715ca30a58b4d5799ec1c46c82ff6b823663e5d99f9c87c0f28dc9a03c3c5608c62b8ca3e9d1ff4dc20bae17fdb9d1515391f703805107069897925
-
-Package: libllvm-julia
-Architecture: i686
-Installed-Size: 43792
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Homepage: https://clang.llvm.org/
-Description: patched libllvm for use with julia
-Filename: dists/termux/extras/binary-i686/libllvm-julia_6.0.1_i686.deb
-Size: 9898878
-MD5Sum: 5f6e4c28662b7e21cdf7b0ec90ee2bf4
-SHA1: 18cb63598adf920e7dc4485b46726c7776b7ae74
-SHA256: f92e463f9f675aecd669884098e0e725f206a004899997108182c18481a7015b
-SHA512: 70027b47a1a66a423794d7f2ad4a44faf27d60a2bc39b247e8900e4d8564147880bd537b094930c8d1a445da7f1c7f4673880a412217cd17e91a68154e13830b
 
 Package: libobjc-8
 Architecture: i686
@@ -1232,6 +1186,21 @@ MD5Sum: aefb165386a3fffd62ae16e618de5ae3
 SHA1: ced03b331c7b64a433ae099d97b13f2c0cf58e60
 SHA256: 1f276871176f1270b84701cd2097858a532c801fdcf505779a50a7b0dd22f071
 SHA512: 0b63c522be09d560bf6772fe99235332a72c9947078746a563acf5b315c6494c265ec1df7d02dfe3c6adc62b13f68f14baef30eccd8d5dbd0535ce02d3ae3650
+
+Package: opencv
+Architecture: i686
+Installed-Size: 40292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.2-1
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-i686/opencv_4.1.2-1_i686.deb
+Size: 7286396
+MD5Sum: 18b1ffc4a6a60f2aa30760e9a7e03f9d
+SHA1: bec53edc4a460ecb334a98f10263bf2362fe566f
+SHA256: 0d567e384e0a3139058c245f1325a9a6aa6bed99276e3819f6d7710b04b1ed1d
+SHA512: 6e05bdbed5d7366b876514cb918d1beb1c1f6849649b03ddfb61e2c850b9164752ac1eeb38c49d6a8ff2250f661e3596fdabee0247e19491e60100f4a028beff
 
 Package: opencv
 Architecture: i686

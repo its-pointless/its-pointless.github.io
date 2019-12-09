@@ -403,38 +403,6 @@ SHA1: 97f466ac3d9d9b24d01761c41d39b44ca36af4d7
 SHA256: e99661567ecab4e93db39d3963de21919b535706a72efc4b6295621737e032e1
 SHA512: 13c07300b4c42e1a6bafe781793d1094b24756ebd97e82675e0ccf54a0708c08c4c541585204e242e49116b179c9d4821158aa67165bd68bf581f391bc413773
 
-Package: julia-llvm
-Architecture: arm
-Installed-Size: 142824
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Homepage: https://clang.llvm.org/
-Depends: binutils, ncurses, ndk-sysroot, libllvm-julia
-Description: llvm with julia patches (only useful if compiling julia itself)
-Filename: dists/termux/extras/binary-arm/julia-llvm_6.0.1_arm.deb
-Size: 22174062
-MD5Sum: 43f6acb126fce8a5b92bbd412285555e
-SHA1: 88a783a22e09b189c83d6be1b483ab391cb59129
-SHA256: 89c5aaf1be8a900e94883b3cfdb2cad08768cbdfc800f5f55db911fb092d4687
-SHA512: 2eaf94b4d64a7b1b2b936df647a0063bdddfa134beea34ad1ae9601e765e529f542f7725b41c3ff7077ff091ee8b5bb8fb2e56632e752a35be1b0d4e9393a950
-
-Package: julia
-Architecture: arm
-Installed-Size: 144148
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.0
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Description: high-performance dynamic programming language for numerical computing
-Filename: dists/termux/extras/binary-arm/julia_1.2.0_arm.deb
-Size: 23583182
-MD5Sum: fa21a60aae4a3b7e7cc91383255594e0
-SHA1: 57c4548d698082aeff5c5f8aaf43ac1d87e4265a
-SHA256: 462de6964a67ab9a091d6796b5eb0c5c289d13c3560b56692e64af10dfd34777
-SHA512: 3d51579fd4034b76c9dcf6f630cfa1f59ff1db3dcca132b61d318484736de57cda354e892f1233e8e8fe4de07afd0dc67bdca0063373895ae38600f052b15cb8
-
 Package: julia
 Architecture: arm
 Installed-Size: 152288
@@ -784,20 +752,6 @@ MD5Sum: c785463fd5730e23c31b82328abe87ab
 SHA1: c1f91143f18226f2662d2728d292873c94192858
 SHA256: 9154a74f18751d74cf23a1c856b2eb93a27b068ac527e7fba0a22725a653648d
 SHA512: 6909e0606b8e9b40157cc3c86beb4975f9618900b166c946e9d0333ef49ee3730c6dc3123b27cd35ae4d51921c5901cb0af6ff4016a497b093a84f6879d9f836
-
-Package: libllvm-julia
-Architecture: arm
-Installed-Size: 34560
-Maintainer: Fredrik Fornwall @fornwall
-Version: 6.0.1
-Homepage: https://clang.llvm.org/
-Description: patched libllvm for use with julia
-Filename: dists/termux/extras/binary-arm/libllvm-julia_6.0.1_arm.deb
-Size: 8652010
-MD5Sum: a0d416d5e3ccbdad21c68491259bfa62
-SHA1: 879bdc7e82da9af243b33c57b3d4902ed98f6af8
-SHA256: 3d63b0ee5c04bfb3a2f71731dc7adc80274b168f558a5fd0f7434637a6c8e6cd
-SHA512: f95bc3b8d70a5011fb9c0441c1048cd2f48f947cba9cc7191295b33141fb4d717eab569de1c368105b07f356bbad16d72c4304811680833bf8bddab0c91d344b
 
 Package: libobjc-8
 Architecture: arm
