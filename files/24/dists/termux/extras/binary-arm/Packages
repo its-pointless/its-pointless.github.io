@@ -93,21 +93,6 @@ Package: clangd
 Architecture: arm
 Installed-Size: 13216
 Maintainer: Fredrik Fornwall @fornwall
-Version: 9.0.0-1
-Homepage: https://clang.llvm.org/
-Depends: libllvm (= 9.0.0-1)
-Description: Language server that provides IDE-like features to editors
-Filename: dists/termux/extras/binary-arm/clangd_9.0.0-1_arm.deb
-Size: 4317386
-MD5Sum: a61da87e8af9285c050cf87d16ccc1f8
-SHA1: f6268159a96b39e59db82862adddfd0f4a572966
-SHA256: 9808617875873019eaf29ac969b1a764824004248432ef5a39533320f31d7a95
-SHA512: 1e0d31fe86c5d27863c04e57d72e05e14fca1fa2d4b378c56d312fba226e9f1d8887c8ef7f4fb80681ef967302aa2ad7eb64ad8d5e2c718e2ddbbe688f7116c3
-
-Package: clangd
-Architecture: arm
-Installed-Size: 13216
-Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.0-2
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.0-2)
@@ -118,21 +103,6 @@ MD5Sum: d75c2f1675cbafedae5a4665a45b280c
 SHA1: bdd7db25efbe957f8b41f3dd98621209d6cecb57
 SHA256: eb5b5770f9666dd2834ba95f2566729304bba6b5d309f8e4e06e7e0a71e469a4
 SHA512: 12b3f6c68798f70a06c7acbb35eb9a17b14c67c412d636a0865372a487b284886a99d8110f55c3ca2374dbfed39b547655d48d905c325144cc776745bdfbe1d2
-
-Package: clangd
-Architecture: arm
-Installed-Size: 13216
-Maintainer: Fredrik Fornwall @fornwall
-Version: 9.0.0
-Homepage: https://clang.llvm.org/
-Depends: libllvm (= 9.0.0)
-Description: Language server that provides IDE-like features to editors
-Filename: dists/termux/extras/binary-arm/clangd_9.0.0_arm.deb
-Size: 4315150
-MD5Sum: 2c2d7f35122268a36d110c120007ed52
-SHA1: 89c7cc0b3b42f978667ebc73a657e0e42d200665
-SHA256: 7e0431826562541c684c4dbda398c6a5694857081162590e277359c769182fa3
-SHA512: cb2a2d1c73d3330cf2a4107b606bccd350f2f6912507f486ca72b0df2ee964c2927014185aa6fb74e51f33bd8fce76fa6c586c00346572b743efacd3533958a7
 
 Package: ecl
 Architecture: arm
@@ -1276,6 +1246,21 @@ MD5Sum: 50d82832185dc33178c064b05e16fc93
 SHA1: 17dc27e9492b529ee673225b09146f9fc78c5c39
 SHA256: 762dc9fc17cdf136f7bc3e9bdfdf2d9d85854f8d171a241a87ee4099aa4ae7a9
 SHA512: 3493572b0f125f97820e52014243f485a804c9a023b1aecb9b6e37bf37c47d2bb31f91b79e7c312747930ab8d2423ede7cdeedb0c159334d4f87e9eb425c0295
+
+Package: opencv
+Architecture: arm
+Installed-Size: 33944
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.2-1
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-arm/opencv_4.1.2-1_arm.deb
+Size: 6861408
+MD5Sum: 5cf5fbb71678c75bfa3d6ac6b2aa0e30
+SHA1: 6642af91ef433e27c437c27679a13a794231c2a2
+SHA256: 9b462e55c948c40bf9ae03a624fab5b7507539cb4862f8a6d663520e4c027a8b
+SHA512: 220586f142d310c7bab63a00d656f71543189f818f98201f6910dc0d94772d8c0062f0c73380a4e019ee8d94843dc652d6c65295e079c608a86d7398eefa3cad
 
 Package: opencv
 Architecture: arm

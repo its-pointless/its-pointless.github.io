@@ -93,21 +93,6 @@ Package: clangd
 Architecture: i686
 Installed-Size: 19908
 Maintainer: Fredrik Fornwall @fornwall
-Version: 9.0.0-1
-Homepage: https://clang.llvm.org/
-Depends: libllvm (= 9.0.0-1)
-Description: Language server that provides IDE-like features to editors
-Filename: dists/termux/extras/binary-i686/clangd_9.0.0-1_i686.deb
-Size: 5094420
-MD5Sum: f744ada9db3cb8ddfd7cc828db15277f
-SHA1: 35002edf1d2859b91de7d120e12e9f1b94accb38
-SHA256: eb1d84327293b9c9df90136e4eb2bd96ca45f9e997d6267002f8072edc4f4e10
-SHA512: 44677ba3236ba891031e7cb401dd1f73ae39edd97dbc66f7f80d6fb09466e76b1ddcd18d2cca7ef32ca705b1e8628982763d8424d46d15823267fe4260c41676
-
-Package: clangd
-Architecture: i686
-Installed-Size: 19908
-Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.0-2
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.0-2)
@@ -118,21 +103,6 @@ MD5Sum: c64fbddd864cddfbed1d46fdd0d4f28a
 SHA1: 4fcbdf798f30d1985344351ad1acfc0024114d47
 SHA256: f546a5482f30c6028d814854ff13382d896609cbd802c07bac6912ba5d6d232b
 SHA512: a02fafb14f74af64453618771a46e84c6e99dda1785f4e7b6057e773b01756a3a0e641d9d39a1e9a4d9c5e2c0e8af64a3b0c370c96df4a2d855b30996d7ebebb
-
-Package: clangd
-Architecture: i686
-Installed-Size: 19908
-Maintainer: Fredrik Fornwall @fornwall
-Version: 9.0.0
-Homepage: https://clang.llvm.org/
-Depends: libllvm (= 9.0.0)
-Description: Language server that provides IDE-like features to editors
-Filename: dists/termux/extras/binary-i686/clangd_9.0.0_i686.deb
-Size: 5096140
-MD5Sum: 9bcab8fbc25b86c9adc29a77e8472477
-SHA1: 01ea040d9c6135ea8dcbc6fdc1cba27ed3c9ae28
-SHA256: a5fe181fcb5e666440422c2b3c804cd34aba4eef2589f88380ec87609a922a37
-SHA512: 77ed9bade7d4669ecd0f7a9ef26f96e6639fde22dca8d399200c3c33897e0f40054d75d90ff9d26b71f4563d6b11c6d8685ae2eadd89b04d73610ad430547d90
 
 Package: ecl
 Architecture: i686

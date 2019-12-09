@@ -108,21 +108,6 @@ Package: clangd
 Architecture: aarch64
 Installed-Size: 19796
 Maintainer: Fredrik Fornwall @fornwall
-Version: 9.0.0-1
-Homepage: https://clang.llvm.org/
-Depends: libllvm (= 9.0.0-1)
-Description: Language server that provides IDE-like features to editors
-Filename: dists/termux/extras/binary-aarch64/clangd_9.0.0-1_aarch64.deb
-Size: 4199410
-MD5Sum: 9d005b5d0eb9f1a0fb12ce9c3764ec20
-SHA1: 292ebc123eba275d53f5e7fb3db93c32e89d4c91
-SHA256: 7379a3bca967e9104053f8c281fd63a44e6567e5114a5c41cbdff9576895db58
-SHA512: 1b8765551f642a6991183ab6d045d4a90f8e2103d85282cdd29074405781e348aa379749c37cc9d910bba53c7a779b774d56405c799797d1970368f5b3b43333
-
-Package: clangd
-Architecture: aarch64
-Installed-Size: 19796
-Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.0-2
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.0-2)
@@ -133,21 +118,6 @@ MD5Sum: 4124a7df97e7a1b1fcc6fdbeca72b883
 SHA1: 9c826bbef2ea813d9253626101eb23d360f7c281
 SHA256: 2071db31cbf23e749b83079f06082e4a51f63cc54023755d8e350d8644ad0ca9
 SHA512: 50253468649df9cfacd51f01e3bdc89363de81a07bb672a3a04718fc17229d540229a5c3e32878437015225085c7850ca9e61a34d1fb1f2849377eeda1b3c29a
-
-Package: clangd
-Architecture: aarch64
-Installed-Size: 19796
-Maintainer: Fredrik Fornwall @fornwall
-Version: 9.0.0
-Homepage: https://clang.llvm.org/
-Depends: libllvm (= 9.0.0)
-Description: Language server that provides IDE-like features to editors
-Filename: dists/termux/extras/binary-aarch64/clangd_9.0.0_aarch64.deb
-Size: 4189972
-MD5Sum: 92f38bcd7f7a73928c091333114aef24
-SHA1: fa577eb6bcc09786e163385539c45eb441eb8933
-SHA256: b5cead8e6268b830396cc7900ca1aefb045416a02e813f77f096aadaf026d407
-SHA512: 5ec3f74ff42da1a98f1687ee4bb733952c93e38a827c52e239d507e1b4b5b220d4d47f78da0f9be1f34b640212d2ca9dff577db4989c622b9b537f422a708267
 
 Package: ecl
 Architecture: aarch64
@@ -1458,6 +1428,21 @@ MD5Sum: 4cf156b64d8f4203ec8111ab3e2aa3d8
 SHA1: 775adfc8390cf3a0de15ebac4debeb6fe93c027c
 SHA256: c2512ce4de587db7fac5deee9e529dc754fbf3740e4f054e07d888db9bceb859
 SHA512: 678006b35ba83d95432c4688b05a0b45bc7a8b5acdd117a719d32cfcdf723ffd524feab0efed59b1874cb1826105d31272c8a5e1db6b5898807aa31e2d1c32f1
+
+Package: opencv
+Architecture: aarch64
+Installed-Size: 39708
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.2-1
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-aarch64/opencv_4.1.2-1_aarch64.deb
+Size: 6607162
+MD5Sum: 8b24f763059bbe3e98a83e3b82d604f6
+SHA1: 8e9b95523a5056b66ac53e54b8d576c08a19f78c
+SHA256: 1178afb703c6353f99fb4a65bc7c6f3445c2b80316d9f601bf0aab0d8fecafdd
+SHA512: 23d10cd28a549de285282f8af922a2c71d226ca4d9b83876387f11c8f06edd7faeaa32774b9f95e02f796cc6a2510c7286c735747a2d105ff6e9d26a1ac21524
 
 Package: opencv
 Architecture: aarch64

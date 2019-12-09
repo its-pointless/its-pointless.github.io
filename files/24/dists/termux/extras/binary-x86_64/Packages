@@ -108,21 +108,6 @@ Package: clangd
 Architecture: x86_64
 Installed-Size: 22640
 Maintainer: Fredrik Fornwall @fornwall
-Version: 9.0.0-1
-Homepage: https://clang.llvm.org/
-Depends: libllvm (= 9.0.0-1)
-Description: Language server that provides IDE-like features to editors
-Filename: dists/termux/extras/binary-x86_64/clangd_9.0.0-1_x86_64.deb
-Size: 5148222
-MD5Sum: b20223b72f9e84519115c05126da5fd0
-SHA1: 73e389a235f341a9771c8c8764d9717676f42e46
-SHA256: 9243af178ec94e45bfc0931c88a6d980169bf7554efb357dc03b10a82c9d2ccd
-SHA512: b9ed83f7f4ae27132106ec9a0e006ced0754b68f18f400e5a982b51c3b80f514b8c4a46e897c617c6431d52cae7fd0179c88dee8df7a8d31f0f302f914268968
-
-Package: clangd
-Architecture: x86_64
-Installed-Size: 22640
-Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.0-2
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.0-2)
@@ -133,21 +118,6 @@ MD5Sum: 803c53418cce09a6c16eba3e8960d6f2
 SHA1: accce617521e09fc3ea5d5dba5cf8fdfddfe1221
 SHA256: ddc76e03857847fe905a9b6ec0d317057738f701a01d23c1809b9cff7066470a
 SHA512: 7b6be60e9e4e9f1a97371ca756cfd55fae54fd594ad542a3e953852b4d6ee675ded2453fc884b8f8a4b7c15bc1060942724a5ee175a727b93310c3b4487d11a6
-
-Package: clangd
-Architecture: x86_64
-Installed-Size: 22640
-Maintainer: Fredrik Fornwall @fornwall
-Version: 9.0.0
-Homepage: https://clang.llvm.org/
-Depends: libllvm (= 9.0.0)
-Description: Language server that provides IDE-like features to editors
-Filename: dists/termux/extras/binary-x86_64/clangd_9.0.0_x86_64.deb
-Size: 5142462
-MD5Sum: 805502c49879c8dbc26b90370d581fba
-SHA1: 450f16bc4836cc07c70024947f914435971cf5ce
-SHA256: ab06157a97f3aff8403bcf5f8f8c7b0a2c749a8baffe4c4a364b086c9d4b234d
-SHA512: cb1ddf110cf4fc11a4aee219bd2886a5fa25ebacf99ec8591beb2714db54169ba18679d7476ea33ac6dbc0e25620f565168d11db80de98aa4c6489c164cce75e
 
 Package: ecl
 Architecture: x86_64
@@ -1370,6 +1340,21 @@ MD5Sum: fe7673a397759acad827655e88f72308
 SHA1: a41fa7d946eabcd3fea76eb0026ac10205b1552b
 SHA256: a7be7c5c325c8fd8d5411d5eaaea2bfcc01d10d138bc07c4f0652f51c4a7d8a3
 SHA512: 28ade44c82b1ea4e4bc3753263be13efdd8a2703910e6ce4dde95f37aa8b444b6aac6038a26832e613763c43a3ed82fd3bfd2bc78fa716a6aa7373e4c59625a4
+
+Package: opencv
+Architecture: x86_64
+Installed-Size: 101968
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.1.2-1
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-x86_64/opencv_4.1.2-1_x86_64.deb
+Size: 18603302
+MD5Sum: 24615277a987ee76ecd72b1a74ec3af0
+SHA1: 1faa907a21f8a7215a077046e791e1640df9d53f
+SHA256: 759887c306a8239cb42a3a2122cfeebbf4ad420f4c59fcda86b3bce5799d8195
+SHA512: 60f86b5c045950d7fec2ee8b5ad58aa7fcac5867afa874253a0c3cc38a3272b394db58f7c1894a8d5cec298771f3e0643086e9b3cb4cdaaf98941424eb94713d
 
 Package: opencv
 Architecture: x86_64
