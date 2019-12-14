@@ -165,6 +165,21 @@ SHA1: 8b52b95531d4ef316770a554384292286200d48e
 SHA256: 96c0c5f1f1504bb2676a784993caef736970244ebf3a864fe01cbdaac29fe6c0
 SHA512: ac4d566d561ed9ace9ecb9338381c05c526f88b1fd4195f1f3d66c7f1b12f8edc7027b07204dc08171fe97ae3607786d7297f46b2b7d731a2df2115e276b92d6
 
+Package: elfutils-ext-static
+Architecture: x86_64
+Installed-Size: 1756
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.178
+Homepage: https://sourceware.org/elfutils/
+Depends: elfutils-ext (= 0.178)
+Description: Static libraries for elfutils-ext
+Filename: dists/termux/extras/binary-x86_64/elfutils-ext-static_0.178_x86_64.deb
+Size: 264170
+MD5Sum: 210fcfd5ffc903152607f4f492416d08
+SHA1: fa947fa2a97806d46f711611e914bc186f6aa2ea
+SHA256: 4d6f2af4799491249a64b431f77eaf410c960bce27e1eeebd060c2c944f70196
+SHA512: 8c99b46767b651c4351947b4c15b15afd46ed66ae8755f337a229f2c82bae9142c63e18897e3f18be59f517e7ac6dd3aa7c788c2292271ecc48655e9b7238204
+
 Package: elfutils-ext
 Architecture: x86_64
 Installed-Size: 1972
@@ -179,6 +194,21 @@ MD5Sum: 2e7430b819031b8978d8f9b9ce551019
 SHA1: d377b108a8d80b72dfc99ce70e3ae0071d2dec75
 SHA256: f8c6d761c6d1b2bbd08634137006c169eaaed586ff7d41265a85982f0dd1913e
 SHA512: 08015dbdfda0ebbf2fe5de3dd7298d145368eda4b3266bded612fab5ec15ae7efe34d210cf5473700e8a885f2b06eec575bf2541c7caf5b6e33e7fa20fddaae8
+
+Package: elfutils-ext
+Architecture: x86_64
+Installed-Size: 3448
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.178
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, liblzma, libbz2, libelf
+Description: collection of utilities to handle ELF objects
+Filename: dists/termux/extras/binary-x86_64/elfutils-ext_0.178_x86_64.deb
+Size: 524194
+MD5Sum: 29c2522dd93a413fcd6c8281cf9fc0b6
+SHA1: e41dab515bcb39e635dcaea9b671c1378b36d2ff
+SHA256: 316d8a950843029cab5892b5fa191341df8a0418999a6abb3fcce0a27cea204d
+SHA512: 4927d54aad42ba361ca243f145ae44350e050a5f0c19db936145e1ace191673aa58ef6a364f22e908d42d69f89e487c9f7d0fd5c2c739e2bec5783eb395fe9dc
 
 Package: fp-compiler
 Architecture: x86_64
@@ -372,21 +402,6 @@ MD5Sum: 6233abb3a511364250705b810aa8c123
 SHA1: 4ac81d57a45f666dfbd20ee30140bc88d9c295a6
 SHA256: 8b51f6bb040c83a1eb802882f0053c859c348193188d58c261074e5a4ce26679
 SHA512: 89702bbeea91685fb98a2f1cf22c49b1dae62d74c1e80827b78765f751aac76d76e10c322795ec0ae0c169fce13a7bb7636ae3b470e5f3bfdccf48a1aac940f6
-
-Package: gprbuild
-Architecture: x86_64
-Installed-Size: 25920
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20190517
-Homepage: https://github.com/AdaCore/gprbuild
-Depends: libandroid-support, xmlada, gnat-9
-Description: multi-language extensible build tool (gnat)
-Filename: dists/termux/extras/binary-x86_64/gprbuild_20190517_x86_64.deb
-Size: 5051524
-MD5Sum: 8940c988ce61c4752a3aee786221ef87
-SHA1: a0b57579d08f505fce6378e4e4dcb243c0b1d0de
-SHA256: bb9fc7a2c7d0cb4bd02111609e71e161a1b564f71128585f475080715b1f0b2a
-SHA512: ef70da76ef42c775241043ec4f26b7714afed711219f735059edf713157879153d7f1e92151c883b05bcfbab1d376c80970d8f394db868c67f377cfd8adb02c8
 
 Package: groff
 Architecture: x86_64
@@ -754,6 +769,20 @@ SHA1: 12995c247d745a61fa87559f574ae88c9599b76d
 SHA256: 680d96d68dc8c216ae3a4f385b8a43534a6e3141a26ce5edbb293dd86bf3a48a
 SHA512: 22320cfb7445381cc7184a6a495dd3fe65a0f7ef29941f81f6626c76602b6184113212854f82d142ac0fb16e1cc11be144d38caea883dd6474d949626b56c137
 
+Package: libiberty-dev
+Architecture: x86_64
+Installed-Size: 584
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20190907
+Homepage: https://gcc.gnu.org/
+Description: libraey
+Filename: dists/termux/extras/binary-x86_64/libiberty-dev_20190907_x86_64.deb
+Size: 132162
+MD5Sum: ecc0133a491b9ac9655d78bec9433d28
+SHA1: dac9c8a2f5b513a044992b74bbf79b62cdcf063d
+SHA256: 4be3a144e5f6c38e8ca64179a4bd4c33835d73a8b2707397b099e483ca14386b
+SHA512: 7ecc707fe1b97ac7ddabdadba5890999afc015c58687918eb82c4c0098c93ac0efa7415ea8922c0ef0b5a672ddb2c10a368300f5e4e75d47763134d92eb20411
+
 Package: libllvm-julia
 Architecture: x86_64
 Installed-Size: 58044
@@ -972,6 +1001,35 @@ MD5Sum: ab6d27ee29888aba0ff57f81e4099435
 SHA1: d3b7c6bd87f20d4f97e388fc6e9388ab897f1497
 SHA256: 40e82314dde9c52642b0a662f7c44652638ddeee4b2ded841197186ee7e210eb
 SHA512: 3aa2ad540504fd7f77a4a8de913bf307f3a1a8f650cbe242e5a0fdbf6150e24f5f53e52121b69bba1ccd1d6a5c8c0692bb1a5d3e706f0d167fd724191cdbb5e4
+
+Package: lightning-static
+Architecture: x86_64
+Installed-Size: 260
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1.3
+Homepage: https://www.gnu.org/software/lightning
+Depends: lightning (= 2.1.3)
+Description: Static libraries for lightning
+Filename: dists/termux/extras/binary-x86_64/lightning-static_2.1.3_x86_64.deb
+Size: 51820
+MD5Sum: 105e4dad8b030add83bb922331a9503c
+SHA1: 80f26dcf2095883a777014243b04455865ef4264
+SHA256: 8ca2f327452bbe76f47a0469047d3af8ca0d555ef0224790dcda277e7cc3dd8b
+SHA512: be8be29cf3aec6b74eeae6118463b57c085f036de53b5bed6cd30fc10c7147c028257370e3788647db0b2ec30086a6c8d64427ca62919d32bf752fee869ac440
+
+Package: lightning
+Architecture: x86_64
+Installed-Size: 324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1.3
+Homepage: https://www.gnu.org/software/lightning
+Description: library that generates assembly language code at run-time
+Filename: dists/termux/extras/binary-x86_64/lightning_2.1.3_x86_64.deb
+Size: 74168
+MD5Sum: 14d5f1a4bee13324d528c8cd4c3d8242
+SHA1: 61294e657df35bc37b4e7165e43687cdae5abb84
+SHA256: b047ba1398e9fd557d5d4b1e30ecd69604fd67c5a0d413a5b879ff33758a708b
+SHA512: b1bbff43cb9788c46d844a8db4001ec1cfd7df31ca3e259b2620ede072a0711ca61a9b70e8e01c2a32daa6ad2928856e666e6a3b28affaa5e4efc4db7f513015
 
 Package: moarvm
 Architecture: x86_64
@@ -1310,21 +1368,6 @@ SHA1: 1faa907a21f8a7215a077046e791e1640df9d53f
 SHA256: 759887c306a8239cb42a3a2122cfeebbf4ad420f4c59fcda86b3bce5799d8195
 SHA512: 60f86b5c045950d7fec2ee8b5ad58aa7fcac5867afa874253a0c3cc38a3272b394db58f7c1894a8d5cec298771f3e0643086e9b3cb4cdaaf98941424eb94713d
 
-Package: opencv
-Architecture: x86_64
-Installed-Size: 102516
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.2
-Homepage: https://opencv.org
-Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
-Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-x86_64/opencv_4.1.2_x86_64.deb
-Size: 19729332
-MD5Sum: c17c522f5df28c7aed489a68adf9323e
-SHA1: 6d719c9d176bd2a79829c6fe63cbb09042063e16
-SHA256: 7f9c0423b13b8accbe06d8a595465a0d9ad688e1075c7539bc4d3b2b8fb6c988
-SHA512: d848dd6682fe3699f7fd44770261229056268d2ae96edcc3336453e9fd1733eff0c38e9a9a4876dfe33face0d00479407843807d49e44d6343a1cb35a2927314
-
 Package: pari-gp
 Architecture: x86_64
 Installed-Size: 9892
@@ -1656,22 +1699,6 @@ SHA512: 341197e241a342e10b547a6ce1c8da15a78d69304fc31e260139c86d2ea91b1a476cba30
 
 Package: suitesparse
 Architecture: x86_64
-Installed-Size: 8064
-Maintainer:  @its-pointless github
-Version: 5.4.0-2
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Replaces: suitesparse-dev
-Description: a suite of sparse matrix software
-Filename: dists/termux/extras/binary-x86_64/suitesparse_5.4.0-2_x86_64.deb
-Size: 3872314
-MD5Sum: 7a31872cc992f8dbad324296a3deda19
-SHA1: 1e7e46a87134edd0659f01a9cc1a3991aa4b67c3
-SHA256: 1a8c2cc5e936bbe0dd2560713a5d31a73835f1ed00637411b6ea35d9bdeaaa15
-SHA512: deea7e378baf2f28962c4e2533f67e8969a39d42eef3575731aab6083e83e56af16d48c4b91fc42e22715b412f21b234d03165d7dc7a2eb56c9f772df18dda4a
-
-Package: suitesparse
-Architecture: x86_64
 Installed-Size: 8068
 Maintainer:  @its-pointless github
 Version: 5.6.0
@@ -1730,21 +1757,6 @@ SHA1: 8a815520468399d2c4479bc67b7f700af5fd4c9c
 SHA256: 311231a0fb423478f66495f2b68ac92af31c1de064e33093dac24df3be8286db
 SHA512: fef0fbbc6610463ba119a4bb0cd1f275f3b69189030167296b64bc18b50d98bec4304a1b0cd82a205161ae1b17bb6a14e8ea597324045dadbb4f08d8fa9b2030
 
-Package: xmlada-dev
-Architecture: x86_64
-Installed-Size: 14344
-Maintainer: Fredrik Fornwall @fornwall
-Version: 19.2
-Homepage: https://www.adacore.com/
-Depends: xmlada (= 19.2)
-Description: Development files for xmlada
-Filename: dists/termux/extras/binary-x86_64/xmlada-dev_19.2_x86_64.deb
-Size: 352348
-MD5Sum: c0e861a0478105cc3541cc8489dfe868
-SHA1: 575a6053bff5fa6b3e38780610e812fc5d981d95
-SHA256: 3d8a9ee269b0fdbc3268e87a2fa4d32380dd31e75db40752f7390f9e1e7cfca4
-SHA512: ffe7d5f2214a8e8790728a045db4bdf83dbbd4b6d86a8d7e104024b1dba428fcb2f1973e62629388a4e6c080126a3d147040f7b0ec0e94ffe8368230d847652c
-
 Package: xmlada-static
 Architecture: x86_64
 Installed-Size: 13888
@@ -1776,19 +1788,4 @@ MD5Sum: 44f25e50c88d2eebf0bd980add008bc9
 SHA1: 9ea9da7eb2d28b3c4aeb1a147ca03eae627e7c1c
 SHA256: b08eb029a81bc30a458778afc28de08318a2260286ff9fa8e4ba67faaef21893
 SHA512: 00c300567fc2c60514c94dd684b8efb32abd63ca541bfa006e07880fc5febeeacda768b2e0f66a6afd1c2c52a3c44b579d3331d5778d2c1cf7202278d1334700
-
-Package: xmlada
-Architecture: x86_64
-Installed-Size: 28996
-Maintainer: Fredrik Fornwall @fornwall
-Version: 19.2
-Homepage: https://www.adacore.com/
-Depends: libandroid-support, libgnat-9
-Description: XML/Ada, a full XML suite for Ada programmers
-Filename: dists/termux/extras/binary-x86_64/xmlada_19.2_x86_64.deb
-Size: 2651420
-MD5Sum: 778738d91cd5ee0c1142eebedfa67ba2
-SHA1: bbc285ee6aefaf2bb77dd7e4ae4e5dd769655829
-SHA256: eaf35f7c6c4739a11e7210013611ae9b933affe4537bbb8ad2aee07cbe58d2c7
-SHA512: 04fe1a9dd029c8a4f185ceed70caf230eb53a8838186f1e927b92efebb07b66e826890ac70dbd285501fa2f848ba5dd63cf8f37378a02da463ffd7227c89b2ae
 

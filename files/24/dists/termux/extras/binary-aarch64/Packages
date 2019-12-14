@@ -165,6 +165,21 @@ SHA1: 9e2e2196dd3d2d59baadba7940142a8745d97b86
 SHA256: 40eaef4d9cd18428839d99b3f7a698ed9cf62c0d5b5a161f3584222a8dc6937c
 SHA512: 532fcba24a376b38ddf289353422c4b168a1c436cbd0f136f2d948ae9e6049f39f4b47a215f743babe4e709f1278a0abf6e979326aad1b8c30f3e315d17297e1
 
+Package: elfutils-ext-static
+Architecture: aarch64
+Installed-Size: 1784
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.178
+Homepage: https://sourceware.org/elfutils/
+Depends: elfutils-ext (= 0.178)
+Description: Static libraries for elfutils-ext
+Filename: dists/termux/extras/binary-aarch64/elfutils-ext-static_0.178_aarch64.deb
+Size: 256640
+MD5Sum: 33cdc9782cebf88674583db6f3bfeef7
+SHA1: 8c44cc6dc4d908b6b14845884d35eee73c70228a
+SHA256: dbaa406613985f964e2483021216997904e89ab4804c696ff477568529fba437
+SHA512: 3348ada4d76e8299c07ebf22a66eb9c1997a9b563477ee6a163432da052897315c8feb98360994ffd3af49e72cde55d5e585ccec22953c444616797b6e4816d3
+
 Package: elfutils-ext
 Architecture: aarch64
 Installed-Size: 2096
@@ -179,6 +194,21 @@ MD5Sum: 78d4245675bcd5a6ffe8e07214d54572
 SHA1: b5f3fbfeea3f0fe31f4a659a86206286bfc620bb
 SHA256: e88d7eabeee1031358bb78ec8eae029f1cffc4f6d27f737731a8d1c80c53452b
 SHA512: 8bbe3a0309cf71a732bbec17ed80a00892f7c01639d03861ebb323515817520cfd3ee3562a186a7844f11ebad6de42f0bf6246c0651d07cf4ae03a3f302a6500
+
+Package: elfutils-ext
+Architecture: aarch64
+Installed-Size: 3764
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.178
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, liblzma, libbz2, libelf
+Description: collection of utilities to handle ELF objects
+Filename: dists/termux/extras/binary-aarch64/elfutils-ext_0.178_aarch64.deb
+Size: 500734
+MD5Sum: aa29061bb3a7e690e1be5d84f856533e
+SHA1: d4e31704ce127816a3707775a59373080b2dc124
+SHA256: 89f6ef1f62c89016b2c7544739e0fe65f8174d01a426f2c18efb06af97bd1479
+SHA512: 732ee37fb5caaf093790f4fa76657fee80886df13ed4e54da283e3ec68956b2fdd9f9c3a27e86eb2083123ca27f4744fc89bd3735251cd118f5a975a18b909c3
 
 Package: fp-compiler
 Architecture: aarch64
@@ -417,21 +447,6 @@ MD5Sum: 73008daf408c5f8b3f78cf49dd2e6153
 SHA1: a25c7af12acd2f45f5dafcab62885457084f5f3a
 SHA256: 8e2edfa696932772eb69e06e182414e931020052d5ae01db26cc6b2bb8297dfb
 SHA512: 00c291e0f156282a5ef353c00a7b8b569bf8156cd9fd1042b7a92252eb0ec006719a2b9a5e62add0e650f637f1cffeb26151e54d229e498993c6e62abde0c87e
-
-Package: gprbuild
-Architecture: aarch64
-Installed-Size: 25608
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20190517
-Homepage: https://github.com/AdaCore/gprbuild
-Depends: libandroid-support, xmlada, gnat-9
-Description: multi-language extensible build tool (gnat)
-Filename: dists/termux/extras/binary-aarch64/gprbuild_20190517_aarch64.deb
-Size: 4447726
-MD5Sum: 19aa9be5fc12ce3e817bf9b7c18d87bb
-SHA1: 11c5fe3d19416431cd195e85fe64e4526d9e053a
-SHA256: 43b658a7d5f6d7b72bd37b4122b18665ed070f60c359c0145a82743628dbd097
-SHA512: 7b07f05361988a0655f1db32941203084d27a56a3deebc1d3697cc8f497f61b67a88636ea153f022d07f193409ca867112980e9f5a6e7f3317fd6e35c0ff7fd8
 
 Package: groff
 Architecture: aarch64
@@ -862,6 +877,20 @@ SHA1: 0cb4ee1b0aef15bb452fd27f6a44492fb985e79b
 SHA256: d0a45633717b69cf19c546ed3734e96bc1e9cc44e986c95b7fb74a6d9184be49
 SHA512: 205c72edc33f9f44885e7d8ce2a45b8a59938066a7a2d7a21f8569855a6739f5cb61e47f03c0f60f310429bc848d28a372523efbe77bbd282a6ed296e252dfd5
 
+Package: libiberty-dev
+Architecture: aarch64
+Installed-Size: 540
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20190907
+Homepage: https://gcc.gnu.org/
+Description: libraey
+Filename: dists/termux/extras/binary-aarch64/libiberty-dev_20190907_aarch64.deb
+Size: 121446
+MD5Sum: 4fd05cbc0d1f2504c719bb1739d5f773
+SHA1: 3edd45442f616f8c2c24ca8f03c4563dd9cc9c70
+SHA256: b1af94897821e9894346ed159f7892b31dd35a446b1537c9567e96388cf37a01
+SHA512: 7969df5fb1360496ca76e61f305814a86916995c446d4c1655a0a69478c2f907fa4a9ec48b2c820d27af1c1caca5a9b7c2ad9ad3da332a4ec9bf0c54f23122b4
+
 Package: libllvm-julia
 Architecture: aarch64
 Installed-Size: 55280
@@ -1124,6 +1153,35 @@ MD5Sum: a40d9820676153451d98f172538ac908
 SHA1: f1c164bdc91d1df8f34199f40ad8504469d99d88
 SHA256: 08522daf09defe413dee142abef0dc51e93a22b2edef2b32501f7e21ce10d160
 SHA512: 4265b6c1509299d3c35c5eca8318624ff7b3e1996d0d4bd06215b56244b8f884846528a54058f1a86d4499e561da4856c9636c2e4412c64707a5884463d846f2
+
+Package: lightning-static
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1.3
+Homepage: https://www.gnu.org/software/lightning
+Depends: lightning (= 2.1.3)
+Description: Static libraries for lightning
+Filename: dists/termux/extras/binary-aarch64/lightning-static_2.1.3_aarch64.deb
+Size: 37372
+MD5Sum: 6eaa1ecc2a105546d1a5941acdbced6e
+SHA1: 0125df3db7114a5bebb19856c3030d9e62bc1371
+SHA256: ebb48265837c980893607d06101fdd762b61a6b83f645c5bde027b278630e477
+SHA512: 252cdc0d9d404605bbba2be85dc0ed5841219b9942acdf47cd9aa36ae04f60e5dc426c2b5e3f4662872bee1fa3181b7bb965fea7080c6e3c1c713e085c961a3b
+
+Package: lightning
+Architecture: aarch64
+Installed-Size: 260
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1.3
+Homepage: https://www.gnu.org/software/lightning
+Description: library that generates assembly language code at run-time
+Filename: dists/termux/extras/binary-aarch64/lightning_2.1.3_aarch64.deb
+Size: 55486
+MD5Sum: be91de910ff42831dcbd32f45da7061c
+SHA1: 2e4c0c3b7c7d298387b9c03bdc73282e598f438b
+SHA256: e77d8aa16d0a4d57dfbfde9e011ad00cb48cfd3c0069c7283b752414698961cc
+SHA512: 579eee952c8c017645847835dbe2660990204e543fa88dcbb25db6317a5210767ee3273a352fbfa6139cd43fa876ff109d9980adb9673cc547d448434308aea6
 
 Package: moarvm
 Architecture: aarch64
@@ -1397,21 +1455,6 @@ MD5Sum: 8b24f763059bbe3e98a83e3b82d604f6
 SHA1: 8e9b95523a5056b66ac53e54b8d576c08a19f78c
 SHA256: 1178afb703c6353f99fb4a65bc7c6f3445c2b80316d9f601bf0aab0d8fecafdd
 SHA512: 23d10cd28a549de285282f8af922a2c71d226ca4d9b83876387f11c8f06edd7faeaa32774b9f95e02f796cc6a2510c7286c735747a2d105ff6e9d26a1ac21524
-
-Package: opencv
-Architecture: aarch64
-Installed-Size: 40116
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.2
-Homepage: https://opencv.org
-Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
-Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-aarch64/opencv_4.1.2_aarch64.deb
-Size: 6784294
-MD5Sum: 1dbb38668efcab247e469d2ee7ba17d2
-SHA1: 25072e05b2ed0b521dc0641b673b74cd6357a3ee
-SHA256: 312488ec16721ef1a1bc1ace98f19dbac705407e1c3984f2350d9d6de4d787c3
-SHA512: 03e60e279a23dd8081643ad6c6a7e8677430b33725bae4326f7175d75e281ee373cd00951cb6f68310a4489076e05a5bf890a41a0426159edfac4316352149c8
 
 Package: pari-gp
 Architecture: aarch64
@@ -1760,22 +1803,6 @@ SHA512: f18f0ecd206b34f66b7799d1cf71c7e339702af253e3c89c50356638a030af45f2262d49
 
 Package: suitesparse
 Architecture: aarch64
-Installed-Size: 7012
-Maintainer:  @its-pointless github
-Version: 5.4.0-2
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Replaces: suitesparse-dev
-Description: a suite of sparse matrix software
-Filename: dists/termux/extras/binary-aarch64/suitesparse_5.4.0-2_aarch64.deb
-Size: 3390144
-MD5Sum: 3c766a35731448ddee2ade177083c3c2
-SHA1: cb10c12bb4d8b55b3c7b680b5b2ac3a17c3f1da0
-SHA256: 2cfe2fefb19b8aaf2ffc0fff4bb3b627b1ce10adee8354960c75044fa3dc5d73
-SHA512: 15e72a381d2568cdefdebfb33a94767db5dd809662e9f24789ba353f1e43f89912d4c92caeb80912121e4b06159a3e7795cffde2f54a54e46250e144c1efaedc
-
-Package: suitesparse
-Architecture: aarch64
 Installed-Size: 7008
 Maintainer:  @its-pointless github
 Version: 5.6.0
@@ -1864,21 +1891,6 @@ SHA1: 3da61b2776430d06b0d53b212fe4e0445e1e0412
 SHA256: 4cc47c8efad64d5daaf8bdc263cda78f01d7f1066afae6666a626e8f8e17cb4d
 SHA512: fde5e1b448ab5ff211bf474e705ca5dd1c36a86752ba27a06c77dc5188837c729258324c0883b4518d0b56870d650c578dbe6ed4905ccd27d62ef4cc65e279e0
 
-Package: xmlada-dev
-Architecture: aarch64
-Installed-Size: 14344
-Maintainer: Fredrik Fornwall @fornwall
-Version: 19.2
-Homepage: https://www.adacore.com/
-Depends: xmlada (= 19.2)
-Description: Development files for xmlada
-Filename: dists/termux/extras/binary-aarch64/xmlada-dev_19.2_aarch64.deb
-Size: 352248
-MD5Sum: 73bb4e03c843e01ea9627687b9adc3b0
-SHA1: 427d84840a54eaf3112db9a032abbfe869201bf4
-SHA256: eb679c520020c4dffdd26523cdb244be57f4ea838400f4a4cd1d93d28c3a078b
-SHA512: f1203f1f19ff4a2552440710dc099d9691a8562e10a44b63202b38b444a0d55b384126b00de7a131e79688cf5e79c660df171c252b5e68c2b886799952738348
-
 Package: xmlada-static
 Architecture: aarch64
 Installed-Size: 13712
@@ -1910,21 +1922,6 @@ MD5Sum: 2b084b014ee38838cb6a60cca16bde99
 SHA1: 8420bd83c9393ff66d73497da693fe80bb9d203e
 SHA256: 9dfd9e906ed3d8f64fc9f5b6966ee0da846200877a3b33c4d34728cd2911ce6d
 SHA512: eb2c4fdcdd60bb7bc7573c2e7823f02624f0eaa89918a8be6dee69652c97dc84c99b9d739b4680ec6a30866122396068924730ed4b2fe4074ce0769db42df8df
-
-Package: xmlada
-Architecture: aarch64
-Installed-Size: 28684
-Maintainer: Fredrik Fornwall @fornwall
-Version: 19.2
-Homepage: https://www.adacore.com/
-Depends: libandroid-support, libgnat-9
-Description: XML/Ada, a full XML suite for Ada programmers
-Filename: dists/termux/extras/binary-aarch64/xmlada_19.2_aarch64.deb
-Size: 2537358
-MD5Sum: 1d1a3fd1c59ac1c7f8a64388e2b5b1f3
-SHA1: dd84655d4900c8c366bd67e9d9805d91f3edbd89
-SHA256: fecf8ba2f28f3fc059caab7bea502a7fa7f688e0b760988c5650badd43439a32
-SHA512: 0031ce34b4176ac0c884c6a585b9649d36ca2706f5fa33132347da322dfd21822a46e29737c19f23b11a3792473ab13d1f4e65af182f3622626289ffa9af7e8f
 
 Package: yaml-cpp-dev
 Architecture: aarch64
