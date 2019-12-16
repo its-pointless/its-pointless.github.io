@@ -45,6 +45,21 @@ SHA1: 39f46fa8bc3d64ca0c0ce5a07cbfd14d2994e6d9
 SHA256: ea7d456790bc06acefff9b4ab979d42fe7f77901f90bd97c9410435e75d24c8a
 SHA512: 2eeb5940bf63d201c8d74389e641a84aff6be1e144cc9621b9c28dff0224d4318883b33dd207f84503d8624e1fbc7d86dce66abe9efbd827e3007ec4e45107b3
 
+Package: asymptote
+Architecture: x86_64
+Installed-Size: 10216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.61
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends: gsl, ncurses, readline, libsigsegv, fftw
+Description: script-based vector graphics language inspired by MetaPost
+Filename: dists/termux/extras/binary-x86_64/asymptote_2.61_x86_64.deb
+Size: 3338890
+MD5Sum: ca4a82becf661b693888a9908fa75986
+SHA1: e6c6f74997162d56103ab7b298735c0cc4fe2436
+SHA256: 215931e5087813a99a216fd6555b43ef7d84ac88f7330fdbbf36e5a7ad4f273a
+SHA512: 01e096f89623e89d5a3c915b0d7403dcc4c1b739655c96e203b0a7aa8a999af7258ffb6ef7dd19eab2fc2a8c6e23ec29f6a90d16c614f5c4127724f5810500ac
+
 Package: bcal
 Architecture: x86_64
 Installed-Size: 44
@@ -152,21 +167,6 @@ SHA512: 7c37df025562ebae34bbbee60d50e61ab02e25f1702dc076b533e89f69a8863207b47225
 
 Package: elfutils-ext-static
 Architecture: x86_64
-Installed-Size: 1148
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.177
-Homepage: https://sourceware.org/elfutils/
-Depends: elfutils-ext (= 0.177)
-Description: Static libraries for elfutils-ext
-Filename: dists/termux/extras/binary-x86_64/elfutils-ext-static_0.177_x86_64.deb
-Size: 188132
-MD5Sum: 94f0e75bd2f17c034dd3d55800407cc5
-SHA1: 8b52b95531d4ef316770a554384292286200d48e
-SHA256: 96c0c5f1f1504bb2676a784993caef736970244ebf3a864fe01cbdaac29fe6c0
-SHA512: ac4d566d561ed9ace9ecb9338381c05c526f88b1fd4195f1f3d66c7f1b12f8edc7027b07204dc08171fe97ae3607786d7297f46b2b7d731a2df2115e276b92d6
-
-Package: elfutils-ext-static
-Architecture: x86_64
 Installed-Size: 1756
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.178
@@ -179,21 +179,6 @@ MD5Sum: 210fcfd5ffc903152607f4f492416d08
 SHA1: fa947fa2a97806d46f711611e914bc186f6aa2ea
 SHA256: 4d6f2af4799491249a64b431f77eaf410c960bce27e1eeebd060c2c944f70196
 SHA512: 8c99b46767b651c4351947b4c15b15afd46ed66ae8755f337a229f2c82bae9142c63e18897e3f18be59f517e7ac6dd3aa7c788c2292271ecc48655e9b7238204
-
-Package: elfutils-ext
-Architecture: x86_64
-Installed-Size: 1972
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.177
-Homepage: https://sourceware.org/elfutils/
-Depends: libandroid-support, liblzma, libbz2, libelf
-Description: collection of utilities to handle ELF objects
-Filename: dists/termux/extras/binary-x86_64/elfutils-ext_0.177_x86_64.deb
-Size: 431836
-MD5Sum: 2e7430b819031b8978d8f9b9ce551019
-SHA1: d377b108a8d80b72dfc99ce70e3ae0071d2dec75
-SHA256: f8c6d761c6d1b2bbd08634137006c169eaaed586ff7d41265a85982f0dd1913e
-SHA512: 08015dbdfda0ebbf2fe5de3dd7298d145368eda4b3266bded612fab5ec15ae7efe34d210cf5473700e8a885f2b06eec575bf2541c7caf5b6e33e7fa20fddaae8
 
 Package: elfutils-ext
 Architecture: x86_64
@@ -826,35 +811,37 @@ SHA1: 5310ccf762d9fe012391763f36f00b1f03c8f70d
 SHA256: 818a81ad53a6144017b23afdff51382f20fb13d9f70ce1f85fd52a999ff90ad1
 SHA512: 65996f07c8a7e4ea6b692f1062c9ef7a44eab00a805c2860f822eaccac3f90c73eaa637c3b1bb71f1b1dd0a868748f84c3e9ad0be6d41ee4e65dc50a5f0e9c87
 
-Package: libopenspecfun-dev
+Package: libopenspecfun-static
 Architecture: x86_64
-Installed-Size: 4
+Installed-Size: 376
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.5.3
+Version: 0.5.3-1
 Homepage: https://github.com/JuliaMath/openspecfun
-Depends: libopenspecfun (= 0.5.3)
-Description: Development files for libopenspecfun
-Filename: dists/termux/extras/binary-x86_64/libopenspecfun-dev_0.5.3_x86_64.deb
-Size: 1976
-MD5Sum: a0109bcdb19e1b2f8566d222fcbccbfc
-SHA1: 02ca33582096d551037256e439b1ae508ec2ed52
-SHA256: 42ae45983ef0a2ea2358960452a0dbae0a2f1e38761ecabc03667f81fe43d9ae
-SHA512: ea723a0d04bb9ae717fd57143a7bf6c7b48616a540e0d590cc2a3cdc4838c46058abc91772aab29ad87cec8216f2e357e5977c0690e850da1790d9ebfadbc12a
+Depends: libopenspecfun (= 0.5.3-1)
+Description: Static libraries for libopenspecfun
+Filename: dists/termux/extras/binary-x86_64/libopenspecfun-static_0.5.3-1_x86_64.deb
+Size: 82812
+MD5Sum: 736ff9bd22af3b75dfbd96a8e2357907
+SHA1: b739e8a6a74b93905efa72c71b050f6f3d2addf0
+SHA256: 183aaee338d89d30abbe4ec2f53b516bab7e166bc84e88ba5b2e6f1eeb2e56c1
+SHA512: b191aa41722746632a219b0f6bbacfc038d2643e51c692f32ed644d5bb5b7e826f6b123e16f5f80b024ceedbfc9d1efea754619d2a18da9263255ca9a7b933f0
 
 Package: libopenspecfun
 Architecture: x86_64
-Installed-Size: 148
+Installed-Size: 152
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.5.3
+Version: 0.5.3-1
 Homepage: https://github.com/JuliaMath/openspecfun
 Depends: libgfortran5
+Conflicts: libopenspecfun-dev
+Replaces: libopenspecfun-dev
 Description: A collection of special mathematical functions
-Filename: dists/termux/extras/binary-x86_64/libopenspecfun_0.5.3_x86_64.deb
-Size: 66942
-MD5Sum: a668a30776b6d32c76ccf257dd9e6ec5
-SHA1: cae21d18a5e93fa4984dd3baf81dda50dc5e74f2
-SHA256: 2e6d217905dbe3d95f1b3ce83ffaa8c3ea2a7c9fc7f99247f94ad293a9ed285b
-SHA512: c6196db4f0cdb6851971acd0bc2d81b876cf22ebabe7e3d5219cdde7ec312fdc05dba815d6fb1975f8bdb392c3363e163c3822a734b8e2dfe1287cccb6641c9e
+Filename: dists/termux/extras/binary-x86_64/libopenspecfun_0.5.3-1_x86_64.deb
+Size: 69440
+MD5Sum: 1645763631ab116753f2db766a84bb03
+SHA1: 4d251d1826e4642054f4068771cb242a9a38cbde
+SHA256: 9ea07ca89b36d3b8da479a397cbf647f305d1b0a6b2af482738a17d79394764d
+SHA512: e055c0c7d6afb58e77ef91ece7831c0643fbfccc697d82adb3b1ec2afedb402a1c417a232cae6028b1a044448f76e4ce99eb06c992c86bac1483996ec417a9d0
 
 Package: libpoco-dev
 Architecture: x86_64
@@ -1308,21 +1295,6 @@ SHA1: b1a5fa937397948efe62813df098f126b91f3360
 SHA256: b50538e8041b3e00e6a9cf4eb8eaa5012086593958c43606c55ac649b737094c
 SHA512: 471fb837e1d8e9ea02d7667ceec1e789be83ec8e3d436554dbb1e972380ef9f384b5511a88a8b36204f5354918c5c143bfab7d00466ef62ceecc131374641d7a
 
-Package: openblas-static
-Architecture: x86_64
-Installed-Size: 30460
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas (= 0.3.7)
-Description: Static libraries for openblas
-Filename: dists/termux/extras/binary-x86_64/openblas-static_0.3.7_x86_64.deb
-Size: 3358296
-MD5Sum: 94646332187641beb10104c2d393ef20
-SHA1: e28d432bafc07f815879e3a15e816b01f3e98802
-SHA256: 161668aaebaf6f2143f36e14e933202e9334bccfb88c4f290e4689b3f0231a61
-SHA512: 9ecf5505044c00e3a90ae78a07868fdfb32a576bac7dde51a140185d3f85adbd17468868abfc809393802584daa272a878c5a4ce5998b4d8baabc8dd5cfc910a
-
 Package: openblas
 Architecture: x86_64
 Installed-Size: 15592
@@ -1337,21 +1309,6 @@ MD5Sum: 94b620cf8458c6ad7fb12c113ad2f391
 SHA1: 220eef14fed2572e317eb0622c2a8004569d81de
 SHA256: 7f83215dfe17d2a96c1a38dfc941b42c75cff95a144fad5e68c6eb02ce134eae
 SHA512: 6e013a2d5704b8c9bfa3898931269c69a9755d914f059cd9b213ffc9cdf98d77e90d4f1785b75bdea7c426f27b5f403624d9b4354d0a5bd28301edeeab321d15
-
-Package: openblas
-Architecture: x86_64
-Installed-Size: 15592
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-x86_64/openblas_0.3.7_x86_64.deb
-Size: 3365724
-MD5Sum: fe7673a397759acad827655e88f72308
-SHA1: a41fa7d946eabcd3fea76eb0026ac10205b1552b
-SHA256: a7be7c5c325c8fd8d5411d5eaaea2bfcc01d10d138bc07c4f0652f51c4a7d8a3
-SHA512: 28ade44c82b1ea4e4bc3753263be13efdd8a2703910e6ce4dde95f37aa8b444b6aac6038a26832e613763c43a3ed82fd3bfd2bc78fa716a6aa7373e4c59625a4
 
 Package: opencv
 Architecture: x86_64

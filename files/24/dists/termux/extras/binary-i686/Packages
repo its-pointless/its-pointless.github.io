@@ -45,6 +45,21 @@ SHA1: 34d06e1b2b19cf90a65d08d428971bc030564ce1
 SHA256: 7183f4a3eba7e1d9140d172438a376fb90cdefc8474593af3c9b43c557b118de
 SHA512: de4a130dd674cb2f2f7bd1ef6a7b7b6e6a61396e93ace85d7934a4adb5fda7489003fe80ed47fa96a41ca85cfbeb08265637b8d6f397a29dd9d5d691b4bdb972
 
+Package: asymptote
+Architecture: i686
+Installed-Size: 10560
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.61
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends: gsl, ncurses, readline, libsigsegv, fftw
+Description: script-based vector graphics language inspired by MetaPost
+Filename: dists/termux/extras/binary-i686/asymptote_2.61_i686.deb
+Size: 3369904
+MD5Sum: 7bc042cd3a251c4a443a8c7e204feba1
+SHA1: d6be6b046bec9268bcfac61a4906328b82977cdc
+SHA256: 5bcd0259fd3a64f6e266da747b129c1406e4a7bac81df3c980a030306796f030
+SHA512: 42d78788d7ef14f191374130aeb3bd053ccc50114aa4e7932fd5a2d430942516b39a13a3adca8675014173343a327418bb9272d16f4ca970cdd3a54c982e9cc6
+
 Package: bthread-static
 Architecture: i686
 Installed-Size: 12
@@ -137,21 +152,6 @@ SHA512: e358d0d67c1a7b107d94a7a4fa86950c69ddbf9638868d28f66a40426249bed78dd827a2
 
 Package: elfutils-ext-static
 Architecture: i686
-Installed-Size: 1000
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.177
-Homepage: https://sourceware.org/elfutils/
-Depends: elfutils-ext (= 0.177)
-Description: Static libraries for elfutils-ext
-Filename: dists/termux/extras/binary-i686/elfutils-ext-static_0.177_i686.deb
-Size: 210046
-MD5Sum: 9f3bb7eeda82bb9cbf54bbf8584a2b5a
-SHA1: bb13e1dbdf22406d6471260c1a1efc552ef30bfa
-SHA256: 8b69ab3ee8e87bf9e34d4686be374c9beb2e089550c9d5a2855fa2d09ebb81e5
-SHA512: 49227e9fc0a53c0743b1521e50213829a22e14bbaf863a7821386387296acb3144083e7c17ba1ee51122aa34ba6813727bac57e37021311112d8e5deca433b04
-
-Package: elfutils-ext-static
-Architecture: i686
 Installed-Size: 1496
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.178
@@ -164,21 +164,6 @@ MD5Sum: 73725e0c0757c6cd78db45c8c82b2211
 SHA1: df409e8c189483157b59910c988325c7896cf858
 SHA256: 4797581bc6af7861e7ca0c475a230a0d13ab389fd4adcbc6573e30b6abaaa46f
 SHA512: 699aaaaa9b14a25d28869e09397c63ab3ecc68abe0d67b89f189147c38813461ad86c18094085259aa3dee82a489b009162888fa66f2fa43ece77764e88061fc
-
-Package: elfutils-ext
-Architecture: i686
-Installed-Size: 1828
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.177
-Homepage: https://sourceware.org/elfutils/
-Depends: libandroid-support, liblzma, libbz2, libelf
-Description: collection of utilities to handle ELF objects
-Filename: dists/termux/extras/binary-i686/elfutils-ext_0.177_i686.deb
-Size: 436326
-MD5Sum: 2225e12593ee2e139f2c946513c4317b
-SHA1: 42a36f361c15a0f8b3e5112322752f529e2b6726
-SHA256: ee50665e77886cb8a6d39b9bee0c7889674e034fa9abbdb5c667ee0ceb8cccbb
-SHA512: b34e6a8f583e7223be8088064be83a46033c617510b5e8f61a9b3fbea643bc46a05d7348f30884966d566bec274a47843cb3c7060e6b4f7288a6e68a1547d326
 
 Package: elfutils-ext
 Architecture: i686
@@ -811,35 +796,37 @@ SHA1: 791a83a327dabc0cf77c1e3d1a05da62881ef73a
 SHA256: b4a79c217539be02b96709305600bf8421a7b4079740c3d881e757dba5eb2c7e
 SHA512: aa95782290993756d560945df4f562b5e3775e7118b81efcc3ac12b8ca3e64dadbd80485230a85b389997e627672999bdcecd7caefb600b8d06f2a4c82815b96
 
-Package: libopenspecfun-dev
+Package: libopenspecfun-static
 Architecture: i686
-Installed-Size: 4
+Installed-Size: 296
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.5.3
+Version: 0.5.3-1
 Homepage: https://github.com/JuliaMath/openspecfun
-Depends: libopenspecfun (= 0.5.3)
-Description: Development files for libopenspecfun
-Filename: dists/termux/extras/binary-i686/libopenspecfun-dev_0.5.3_i686.deb
-Size: 1974
-MD5Sum: f1f35dab3af4652acc7e65f08909d23e
-SHA1: e7cfa0bddb0ed6105da85af3fdaa94495acd8792
-SHA256: c0f83716fc3c0a8fe4abbfee24ccc0710958cad2f1bd79dc1d9da8e2b2cdffd7
-SHA512: 413bcf89f69e5b3d5cc17bdd2a0f883651172d4ee56b968462451a9b6f42036c53935b4fca48541483072b2a70749088539bb83f5a2cdd0852102714652692e7
+Depends: libopenspecfun (= 0.5.3-1)
+Description: Static libraries for libopenspecfun
+Filename: dists/termux/extras/binary-i686/libopenspecfun-static_0.5.3-1_i686.deb
+Size: 82020
+MD5Sum: b4af9b4efd9134f1462222a84a59b771
+SHA1: 6f5af81145d26855d8cec5407cca4c8b4a17c5ca
+SHA256: 012c67954aad038ba46c2be1bd17373c4e56bc86abcbb4e9dbdf48b9ddf3f708
+SHA512: bc325c7b1502dfa55ef8335a6dd2a1eef7323e4333cd33677e87e2aea1bdaf2855ab93385785df75c8cbaef94fdcd5aca9d3be9234bb4ad07f6c2138d41c2aaa
 
 Package: libopenspecfun
 Architecture: i686
-Installed-Size: 156
+Installed-Size: 160
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.5.3
+Version: 0.5.3-1
 Homepage: https://github.com/JuliaMath/openspecfun
 Depends: libgfortran5
+Conflicts: libopenspecfun-dev
+Replaces: libopenspecfun-dev
 Description: A collection of special mathematical functions
-Filename: dists/termux/extras/binary-i686/libopenspecfun_0.5.3_i686.deb
-Size: 65538
-MD5Sum: f3b57d108853582bfbb44d043525cd00
-SHA1: 588ce3fcf05dfe6a174289f22ad0d1f81b28d170
-SHA256: 682bbdd0cd0dd504f89d3afeb2e56d7b1d0a23892aa8678fcf5031a2084334da
-SHA512: 7a20f9e05d761d65d213db46985d3d06b25cf9e754587db26966f0160d373e91c3797ac4ee289b05c8a1325b94f89635c2682dc408c07625adbec1e04ef5d368
+Filename: dists/termux/extras/binary-i686/libopenspecfun_0.5.3-1_i686.deb
+Size: 67038
+MD5Sum: 1f57b518443bf06e9508f4daf4935946
+SHA1: 22120f3da786265877f767be64ca53722340384e
+SHA256: 2dfd9201d938aae06952202469c78db8f80fb3ae287c79bfcf041ea0fcb97860
+SHA512: 7cf391c2d3e8712f105c5d427a8a968cf543a1067d7f2f9099e8baa97efff9181bd3ec9ab0f4fca9c006d087b15b016a3cce83e5bff88070c5baae91f1268239
 
 Package: libpoco-dev
 Architecture: i686
@@ -1200,21 +1187,6 @@ SHA1: 189ef7eb198d2a2200a42407bd4e6a6b01e60d7c
 SHA256: d17b6e251069e6f3b4d021b17216983ea40991d1ed548057f5c61aed66df1275
 SHA512: 5a1b831f03b421f0ecaf7fa83e6ea76e682f7e73a3567797c73bd4d20ef4c6f24f2963c45aac89492e4b52e34a19f374e1a27a3455cd21b127dfbf09b04c33b7
 
-Package: openblas-static
-Architecture: i686
-Installed-Size: 23428
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas (= 0.3.7)
-Description: Static libraries for openblas
-Filename: dists/termux/extras/binary-i686/openblas-static_0.3.7_i686.deb
-Size: 3074982
-MD5Sum: f991628b0e5e8e78bb9484dff568a14e
-SHA1: ad9104ff9dc2e0f829cd4ea32b44ae3522850bfb
-SHA256: 6dd73e617464404598c7b51877427c8c6d51cdb5752dad37014b751fb0079213
-SHA512: bd026a310e1f8daa6f5ee9cd3cc499aa5fea6992f63900e32e798171f4ff097699ddcb62be4e45415e7f994073d9d31cff8d8ea45917c11eb00e375819f018cf
-
 Package: openblas
 Architecture: i686
 Installed-Size: 14668
@@ -1229,21 +1201,6 @@ MD5Sum: e3aebc7407e4710d5c4b52496401aa2a
 SHA1: 2cff036f6f756bf9ee59b729788993d7de677673
 SHA256: ada366920774a8260a95a0a5930cf081b4485caa39c215f2f46be74b7bd8c374
 SHA512: bdc69105ec02c4a3e6f238977cfd5b7864124ca99af7565ff11804393f75e947c3b1a909b5faba99491ba4888353ca167d038201335ad38383b5bf4b3dd9e18a
-
-Package: openblas
-Architecture: i686
-Installed-Size: 14668
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-i686/openblas_0.3.7_i686.deb
-Size: 3061312
-MD5Sum: aefb165386a3fffd62ae16e618de5ae3
-SHA1: ced03b331c7b64a433ae099d97b13f2c0cf58e60
-SHA256: 1f276871176f1270b84701cd2097858a532c801fdcf505779a50a7b0dd22f071
-SHA512: 0b63c522be09d560bf6772fe99235332a72c9947078746a563acf5b315c6494c265ec1df7d02dfe3c6adc62b13f68f14baef30eccd8d5dbd0535ce02d3ae3650
 
 Package: opencv
 Architecture: i686
@@ -1294,21 +1251,6 @@ Package: picolisp
 Architecture: i686
 Installed-Size: 4216
 Maintainer: Fredrik Fornwall @fornwall
-Version: 19.11.11
-Homepage: https://picolisp.com
-Depends: libcrypt, openssl
-Description: Lisp interpreter and application server framework
-Filename: dists/termux/extras/binary-i686/picolisp_19.11.11_i686.deb
-Size: 724678
-MD5Sum: cec6981c254e6af908ce005dbec1d54d
-SHA1: 780df3e296a9097c139114691a5e189fa7dbdab9
-SHA256: 022a2b7bf0913d6d653a8bc9d825fe47b1625264b0aeb35580e3b064328b7918
-SHA512: e374254b0389da243b2da719839d140a9f54f353e02459f161fbf4a9cb5f4a802d2fbf0a023cececa5fd9099640bd1b015eca43fa7ec7d335e0aa48f503ad7b5
-
-Package: picolisp
-Architecture: i686
-Installed-Size: 4216
-Maintainer: Fredrik Fornwall @fornwall
 Version: 19.11.25
 Homepage: https://picolisp.com
 Depends: libcrypt, openssl
@@ -1319,21 +1261,6 @@ MD5Sum: 4489786bcfdad305258b950f7abada24
 SHA1: 69d86ddfe2491727b9e09417cdb9fbdf1aa9ec98
 SHA256: eb4b27bd965dc06dfd2f5387ffa2b9d18c620049d5b13bf67aaaa0a1facca527
 SHA512: d7064f0acb5b70b3dda2fc5a29c481e721c0aed9a2a0499e01cf8a5ffa35007becdb20ba3e82c2b115848c913b4e1c200d9b81c8aaa248c3100f352c94a50fc0
-
-Package: picolisp
-Architecture: i686
-Installed-Size: 4204
-Maintainer: Fredrik Fornwall @fornwall
-Version: 19.7.6
-Homepage: https://picolisp.com
-Depends: libcrypt, openssl
-Description: Lisp interpreter and application server framework
-Filename: dists/termux/extras/binary-i686/picolisp_19.7.6_i686.deb
-Size: 720470
-MD5Sum: aac52af58af4f82bef249ac8db13b18f
-SHA1: 4699ae339ec9746108070278bed738ef158aa245
-SHA256: f054805ad86b09ca059f14664651cd079a2a2046656e361a3589ec29026768dd
-SHA512: 055290f96f748f0852e0d133679b6dcfc612710dfd7d6fc73b6f7d2d698c90b7fb8722b48f5385aac3bee747a9f2ce45f3dfe12a3c1f04d4e7e46b095494af69
 
 Package: portaudio-dev
 Architecture: i686

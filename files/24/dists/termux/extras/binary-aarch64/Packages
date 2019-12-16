@@ -45,6 +45,21 @@ SHA1: e2d48d15ef8392e7ec64ad33c365af458ac8043d
 SHA256: c8f1b183414773c58ce2fcd745a91902943eec5e357c34e327164e5d52e1f668
 SHA512: c000fc48446765726077db3ea8b120fcf955b94c0fced7399309355cf5598fd218be08145c3304fa1035ba190ff9f730cc13def29cc6adcf5100700956e6f755
 
+Package: asymptote
+Architecture: aarch64
+Installed-Size: 9848
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.61
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends: gsl, ncurses, readline, libsigsegv, fftw
+Description: script-based vector graphics language inspired by MetaPost
+Filename: dists/termux/extras/binary-aarch64/asymptote_2.61_aarch64.deb
+Size: 3232628
+MD5Sum: d644422f8ee543efb95a2c9226fed234
+SHA1: b86d263bf91f87b56ec33708d231fbd17ba8ca9d
+SHA256: 61cc52ccf6ee195baba3b725608c21549061ba5e1c9253736b7c89d7d28562d6
+SHA512: eedf35ab3e12fe7322ced38e0a549259b9259c4618c8d45189d78631a16dbae0136329c7cbabfec6296df3e9b4e1be854953b72f806b6308e8ed2c4cc8704f30
+
 Package: bcal
 Architecture: aarch64
 Installed-Size: 44
@@ -152,21 +167,6 @@ SHA512: 0059edad940c7e9887de60db024df0f90df81188c91981e968cb1cf426bcbe4956c03107
 
 Package: elfutils-ext-static
 Architecture: aarch64
-Installed-Size: 1160
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.177
-Homepage: https://sourceware.org/elfutils/
-Depends: elfutils-ext (= 0.177)
-Description: Static libraries for elfutils-ext
-Filename: dists/termux/extras/binary-aarch64/elfutils-ext-static_0.177_aarch64.deb
-Size: 182142
-MD5Sum: f022a15f62fbeb54c44ad6f87361a06a
-SHA1: 9e2e2196dd3d2d59baadba7940142a8745d97b86
-SHA256: 40eaef4d9cd18428839d99b3f7a698ed9cf62c0d5b5a161f3584222a8dc6937c
-SHA512: 532fcba24a376b38ddf289353422c4b168a1c436cbd0f136f2d948ae9e6049f39f4b47a215f743babe4e709f1278a0abf6e979326aad1b8c30f3e315d17297e1
-
-Package: elfutils-ext-static
-Architecture: aarch64
 Installed-Size: 1784
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.178
@@ -179,21 +179,6 @@ MD5Sum: 33cdc9782cebf88674583db6f3bfeef7
 SHA1: 8c44cc6dc4d908b6b14845884d35eee73c70228a
 SHA256: dbaa406613985f964e2483021216997904e89ab4804c696ff477568529fba437
 SHA512: 3348ada4d76e8299c07ebf22a66eb9c1997a9b563477ee6a163432da052897315c8feb98360994ffd3af49e72cde55d5e585ccec22953c444616797b6e4816d3
-
-Package: elfutils-ext
-Architecture: aarch64
-Installed-Size: 2096
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.177
-Homepage: https://sourceware.org/elfutils/
-Depends: libandroid-support, liblzma, libbz2, libelf
-Description: collection of utilities to handle ELF objects
-Filename: dists/termux/extras/binary-aarch64/elfutils-ext_0.177_aarch64.deb
-Size: 400158
-MD5Sum: 78d4245675bcd5a6ffe8e07214d54572
-SHA1: b5f3fbfeea3f0fe31f4a659a86206286bfc620bb
-SHA256: e88d7eabeee1031358bb78ec8eae029f1cffc4f6d27f737731a8d1c80c53452b
-SHA512: 8bbe3a0309cf71a732bbec17ed80a00892f7c01639d03861ebb323515817520cfd3ee3562a186a7844f11ebad6de42f0bf6246c0651d07cf4ae03a3f302a6500
 
 Package: elfutils-ext
 Architecture: aarch64
@@ -949,35 +934,37 @@ SHA1: ada9af85ac8bb5bd00226b37c3d383eec6e767c0
 SHA256: f4798196b470e777aeb4780f6c3a254aa94b803cf72d533e2b0e832cb0668c4f
 SHA512: 8b4b9008154629c7a373809216bbc5f409a077efccbf359d8583fe2c56610efa538181eeca6992aeb8513d7a5b7c01ff8d7ee387285093f8ff9a9e01d84dbc4e
 
-Package: libopenspecfun-dev
+Package: libopenspecfun-static
 Architecture: aarch64
-Installed-Size: 4
+Installed-Size: 296
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.5.3
+Version: 0.5.3-1
 Homepage: https://github.com/JuliaMath/openspecfun
-Depends: libopenspecfun (= 0.5.3)
-Description: Development files for libopenspecfun
-Filename: dists/termux/extras/binary-aarch64/libopenspecfun-dev_0.5.3_aarch64.deb
-Size: 1976
-MD5Sum: 34493e2df45c3589693fbc3f10285570
-SHA1: 0d5be229801dff08497d513094d85d98263512ce
-SHA256: 4e94530b01b460dca42974d7860ef493cbc386cc55bb54017a972d55cbcca1f2
-SHA512: 80fab7570dfb486a92fd3a3fdcf9b20fbdaf3f3ee45c60d89d2018ec97634966eace11cd7d884a26b24971878d1b981901a7634f731f53ce4d48beb734566bb6
+Depends: libopenspecfun (= 0.5.3-1)
+Description: Static libraries for libopenspecfun
+Filename: dists/termux/extras/binary-aarch64/libopenspecfun-static_0.5.3-1_aarch64.deb
+Size: 69052
+MD5Sum: 32c1b270d68301f23568b873bb664eb8
+SHA1: 88390ae771db33cad12d4d456475d5169c0207fd
+SHA256: 9bd9eb150d4498cc184f75bec36af4ac075d1bb05c58c728cca6753528c25b8b
+SHA512: 91bfb7bdc5291fadffa55b709e9f92bba76c7cfae1dda323abae83b92200b26e7641d58d7c2e15c2b78d41574ba185fc008c7da27ee43bb8b2f6f7ea1449fd04
 
 Package: libopenspecfun
 Architecture: aarch64
-Installed-Size: 132
+Installed-Size: 136
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.5.3
+Version: 0.5.3-1
 Homepage: https://github.com/JuliaMath/openspecfun
 Depends: libgfortran5
+Conflicts: libopenspecfun-dev
+Replaces: libopenspecfun-dev
 Description: A collection of special mathematical functions
-Filename: dists/termux/extras/binary-aarch64/libopenspecfun_0.5.3_aarch64.deb
-Size: 58032
-MD5Sum: 29c74612d1b460ab9f23bb5b6248ba46
-SHA1: a5b2e60372ac1eb15acceb5c575a6fcfb38b71c9
-SHA256: 4c661869e8bfc79de3a3649eac96510ce936e80baba76fba767f7078a02da5f8
-SHA512: f890abacb64858e5df8122e56335d8329d429b537cb1c2f473a230294ad52183bbca579eb56868cfd78e3d8e765ceb2f7f542582b50fa0a54bb882c646101b51
+Filename: dists/termux/extras/binary-aarch64/libopenspecfun_0.5.3-1_aarch64.deb
+Size: 60540
+MD5Sum: efcfe290fe8939d1b7c849161c13222a
+SHA1: e7ce8151143542173fd959672ab60b27de2d5a57
+SHA256: f904b662e268c29c88b7ec15e97c6f605a104a8f842366a28e86c5ad03b9d26a
+SHA512: 35da5b96d5f4754a875e55f4a2b121088102228511d693375fd244537b62c3cbdb9a279e82f561a7401759bffb2e2e8a0376861cd87960e4203dba1b481d39c1
 
 Package: libpoco-dev
 Architecture: aarch64
@@ -1396,21 +1383,6 @@ SHA1: b9423114fba0850863a3dde996e8cd64fab5ac97
 SHA256: 6e80a965b89beb7b197ae7ea9f576e4400e2ebea6b51e58dfd726fd1c5b5a3d0
 SHA512: ce77c3edc13fc3f5f31f550ec47482866ec6e7fa69a83005421a1666955e8b4c279f2b838b50bce2dd77b38f8a699a66f46b27e2509db2cc97c5d469e31f6a5e
 
-Package: openblas-static
-Architecture: aarch64
-Installed-Size: 22364
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas (= 0.3.7)
-Description: Static libraries for openblas
-Filename: dists/termux/extras/binary-aarch64/openblas-static_0.3.7_aarch64.deb
-Size: 2246420
-MD5Sum: bc3bd74bad681b1691485d2c561ea114
-SHA1: d374fb6e11971ff635b37322063e0a9de3b204f2
-SHA256: c57d0290d8f37e5aa7efafe8b6d4d03db5a5855f4541472be965bc18b85fbb90
-SHA512: c1d269d96023a40e0e395b964e0a87411f21a3974a542af4ad085753bbfb66b2020ba3334a2af49f6d79fb51c762f61d3432335a4c84eeeeaa3160bd1f2bf7a9
-
 Package: openblas
 Architecture: aarch64
 Installed-Size: 11016
@@ -1425,21 +1397,6 @@ MD5Sum: c31be9c9401564acf17f2e3b228e38be
 SHA1: aecbee8ca829d11726ec6f24daffbe41a511f532
 SHA256: 08c1b7b03ca736315cd2f0760cf7ac00a724e359d9ce0c9c0b55dc4165cf762f
 SHA512: 51cb242c19966fc22208aaf43e9d85da419597b0e5f2f004510b8959c5e4adb13e520f546347a3a1c857a3a19ae89ad97bb9aeff8007f542d086c007626e77cc
-
-Package: openblas
-Architecture: aarch64
-Installed-Size: 11016
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-aarch64/openblas_0.3.7_aarch64.deb
-Size: 2224826
-MD5Sum: 4cf156b64d8f4203ec8111ab3e2aa3d8
-SHA1: 775adfc8390cf3a0de15ebac4debeb6fe93c027c
-SHA256: c2512ce4de587db7fac5deee9e529dc754fbf3740e4f054e07d888db9bceb859
-SHA512: 678006b35ba83d95432c4688b05a0b45bc7a8b5acdd117a719d32cfcdf723ffd524feab0efed59b1874cb1826105d31272c8a5e1db6b5898807aa31e2d1c32f1
 
 Package: opencv
 Architecture: aarch64
