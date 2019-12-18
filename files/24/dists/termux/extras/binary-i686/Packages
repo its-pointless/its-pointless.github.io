@@ -32,21 +32,6 @@ SHA512: 6fb8f95e6e817e6c06ce1f3a0c39457aad20ccfc62f929ee63a6a09407479fe09b52a8ff
 
 Package: asymptote
 Architecture: i686
-Installed-Size: 5608
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.49
-Homepage: https://sourceforge.net/projects/asymptote/
-Depends: gsl, ncurses, readline, libsigsegv, fftw
-Description: script-based vector graphics language inspired by MetaPost
-Filename: dists/termux/extras/binary-i686/asymptote_2.49_i686.deb
-Size: 1020514
-MD5Sum: c206e8a4f0c86a431c7a8baeb00ef46c
-SHA1: 34d06e1b2b19cf90a65d08d428971bc030564ce1
-SHA256: 7183f4a3eba7e1d9140d172438a376fb90cdefc8474593af3c9b43c557b118de
-SHA512: de4a130dd674cb2f2f7bd1ef6a7b7b6e6a61396e93ace85d7934a4adb5fda7489003fe80ed47fa96a41ca85cfbeb08265637b8d6f397a29dd9d5d691b4bdb972
-
-Package: asymptote
-Architecture: i686
 Installed-Size: 10560
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.61
@@ -1426,6 +1411,22 @@ SHA1: ed499bbc98ae84a46fba3431a9db026583e885ba
 SHA256: 42f7fbc9fae7b9422e6b4a32c7373a1e8ca751b9fa39ab0a522115d50b8b4694
 SHA512: 9f71302dcd6002bdee4bccfda0f5ce75390787c61d5559429be3a93135e3d3d888029712db73736e5c2a691b53d5c25b032e071075ec733ffee0c3536c68d953
 
+Package: r-base
+Architecture: i686
+Installed-Size: 66088
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.2
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-i686/r-base_3.6.2_i686.deb
+Size: 41556638
+MD5Sum: 1fe52f6b40b0606fd8c44adc0eadcdb8
+SHA1: f42f055c188e17af1098b8fed0c89524e1c8ca3a
+SHA256: 1d946fa22708fdc109d3b255d44036e719d70fb6ea1db19e5a5de65c3742c280
+SHA512: 1cc39cf6975d9ca35a4e9d77f37f4f5593948bd98e3c6cd9fb345c633ac2b703c744c3f7d3349cdf432b33c2d2411a57810ac077c9adbcfe05e1176e5ba7c417
+
 Package: r-cran-rcpp
 Architecture: i686
 Installed-Size: 11936
@@ -1440,6 +1441,21 @@ MD5Sum: 34b75a5c10ed0da2b29bc37a0f152acb
 SHA1: 799d3e1a3c71f6a2cde20314c862585c34ca04f3
 SHA256: d173896bbb6e38650f7e105c71c209be90a9270bca1a88e381da1ccdea0ab8fd
 SHA512: 11e82cbed7be7e1fd3063d9fbcfb7e2546fc181398163a4f858754becaf6d17ee2368ae60df9f184a6d009fb0fbc38450f846983792e0bdee011ba937e9dc538
+
+Package: r-cran-rcpp
+Architecture: i686
+Installed-Size: 10224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-i686/r-cran-rcpp_1.0.3_i686.deb
+Size: 1904142
+MD5Sum: ed8e8f093668544d98aa7a7699d62bcf
+SHA1: b3b7c4c4fccd7b2ffde272490e4508b191f2f8e3
+SHA256: 6d09b04aa59d32168affd9ea3335947c0a12c0780cf75e3c966cb12c1fbb83aa
+SHA512: bf66dbbbeb9de294c569a980c7ff72c555d4cdef25bf6c8883496c845131b4eb26012822fa645b78e402f4b0352e0abe1e1ca1f53c6cd9b29de2731d3f44ba5f
 
 Package: r-cran-rquantlib
 Architecture: i686
@@ -1530,6 +1546,21 @@ MD5Sum: d1235fd348115b1ef93b1560e7c68abd
 SHA1: 0423a9b7a5db18843071479d79f4ec0625fd0917
 SHA256: 56874ab934ae2fb561615de1194157f6c329b6144356c1e9ee1a0456fcb6dae3
 SHA512: e6848a6d93c03cb6529b4836195837718a0982b703472ae8418487549538d5eb49575d4c30688d90b43c9276e544f62e1aa532d8415e6971de9bcc4ffcd1f679
+
+Package: r-cran-tidyverse
+Architecture: i686
+Installed-Size: 215304
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.0
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Description: tidyverse
+Filename: dists/termux/extras/binary-i686/r-cran-tidyverse_1.3.0_i686.deb
+Size: 40676710
+MD5Sum: 6bd84c477e19ae66c70043c72d8d9806
+SHA1: 4e7f83d5dbcf1fe24063da0bdb5159ee25764964
+SHA256: c162c28a5f0b1f72343c2991874769aaf8e02852e390551857086587db5690eb
+SHA512: 9ce135ce41f4934196749485e2dbd83a9acad9c4fd9da083fb7f40b04ccb5ed751a09b4b253a459b0d1453a05c40cfdb59341e2b4be364b6dc6b9de601eeba4b
 
 Package: r-cran-zoo
 Architecture: i686

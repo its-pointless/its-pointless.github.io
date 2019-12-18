@@ -32,21 +32,6 @@ SHA512: 15bd4e92f5c509f958668a6694c3145db2a9db1be5bf0daeea32bf3b5dd2aa2f4c4e69fa
 
 Package: asymptote
 Architecture: aarch64
-Installed-Size: 4600
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.49
-Homepage: https://sourceforge.net/projects/asymptote/
-Depends: gsl, ncurses, readline, libsigsegv, fftw
-Description: script-based vector graphics language inspired by MetaPost
-Filename: dists/termux/extras/binary-aarch64/asymptote_2.49_aarch64.deb
-Size: 889324
-MD5Sum: 5ea50980d79f10e05fb36c9dfce78c76
-SHA1: e2d48d15ef8392e7ec64ad33c365af458ac8043d
-SHA256: c8f1b183414773c58ce2fcd745a91902943eec5e357c34e327164e5d52e1f668
-SHA512: c000fc48446765726077db3ea8b120fcf955b94c0fced7399309355cf5598fd218be08145c3304fa1035ba190ff9f730cc13def29cc6adcf5100700956e6f755
-
-Package: asymptote
-Architecture: aarch64
 Installed-Size: 9848
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.61
@@ -1608,6 +1593,22 @@ SHA1: 5215647ff1fc5f370b4aab52971ece4e4ac18643
 SHA256: 4595768148a113794811c2141552a325f77881d5ad40142026de1b61b3bd65a6
 SHA512: 0c523c65bf68992c43b798aa6bc50ed432e6fa49f76d24b72be08d10d1437efbfe9335ca61cf097494cf94e85f94658ed89b5b4eb32065607b723b87eb6f57da
 
+Package: r-base
+Architecture: aarch64
+Installed-Size: 63544
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.2
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-aarch64/r-base_3.6.2_aarch64.deb
+Size: 41558692
+MD5Sum: 10cb75feb823ac84d734eb33b5fe6bee
+SHA1: 51b165bcd586dd9c8d699dd7f0e81f30c30dda8d
+SHA256: 55b61b5b2838cbbc36d3cc75e48e06392197f3e25cb2476c5995766128cd14fe
+SHA512: e0b59bbe0ccfe99a4d3109b611e38f15a2e1dc14cf58d7a93ef2b6dad500cf05f237d836454869b66146767cd70bf18495f7a65665178ba8a83efffd4ece4ef9
+
 Package: r-cran-rcpp
 Architecture: aarch64
 Installed-Size: 11480
@@ -1622,6 +1623,21 @@ MD5Sum: 5a9f6938108846964f3e95b62de40f5d
 SHA1: 4747046321fa575ae222b62b0716bfa93eeb92a8
 SHA256: cd5f5be215d60cfd1d0cc78c9c7c6b9b25e2a6368a50aee150a8f952b020c8ab
 SHA512: 758f75de446ce2a41739a16b7d759d48c5ea60993e7718454ab8949ef292f33b8560cb99c95b44ac520f4cd8c56f22bb89226fef83eb2ad0c620ab7b4394f420
+
+Package: r-cran-rcpp
+Architecture: aarch64
+Installed-Size: 9776
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_1.0.3_aarch64.deb
+Size: 1845378
+MD5Sum: 0e1b93e9af8b21f32f28ee84488ccd37
+SHA1: dab16954013eba8c669e37dc75cdb497d2de4e82
+SHA256: 3e226c921606738fe44c64014b8d23443a468c0259f6acabe9c680a89d6e12e7
+SHA512: 8f51494e04bb2d4126eccd7f40ce446246e2b2d4b2c9e93a244257323e3927a053f398b0dc270cb0a3865bc5b2d664a9494dc49625072368324ed980f39fd90c
 
 Package: r-cran-rquantlib
 Architecture: aarch64
@@ -1712,6 +1728,21 @@ MD5Sum: f8316d440ea84c57999397d04608598e
 SHA1: 3d1c2652dabdc2196a3fdf28292d823fe892382f
 SHA256: 9db0db1801476b3adbc610903a1fe02c8be1ffcb79ae107d49f90d7ba0431789
 SHA512: 0b1d5dee6d029d43e878b5be451f913937a0e7fb157161078192874e444728101dcad6ca164caa7dc598f0e89d567cbbbf5c0936ad8195b8b8b00df9c180e5d7
+
+Package: r-cran-tidyverse
+Architecture: aarch64
+Installed-Size: 209256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.0
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Description: tidyverse
+Filename: dists/termux/extras/binary-aarch64/r-cran-tidyverse_1.3.0_aarch64.deb
+Size: 40003828
+MD5Sum: a2497c7664b220201b57f11df336dffd
+SHA1: fb7013011ac886e80a0c5655fa4fb9854bf8aa39
+SHA256: 70d59390e87279ca6edc802a757faeda76b34a652967f559757275f84c4916c8
+SHA512: 33c95e0db28c92f820a6f352b9ec2d0c4989b8cf4d926bbee18a3e1cb9b670adccff61ccaf13849c475f638a842083773254c886c34d8502d8d01824d4f348de
 
 Package: r-cran-zoo
 Architecture: aarch64
