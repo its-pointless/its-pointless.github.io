@@ -492,6 +492,20 @@ SHA1: a6c7caaae96ffd187019ca8f57edb3a5ae4f69c7
 SHA256: faaf52c0a53994e38c29f36a752a58ce43f3002bf446ae3998472a6888c17aff
 SHA512: 25ed38d651b03c6b1c12655c3055a79937b35a41579154996953aa1dacf0d34cfb9299b1e5272d3609532d4fd1ac4deb6ec5b2b97da9240e81f04d9762ef3da2
 
+Package: libcompiler-rt-termux
+Architecture: x86_64
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.1
+Homepage: https://compiler-rt.llvm.org
+Description: libcompiler_rt that avoids possible buggy system/libcompiler-rt.so
+Filename: dists/termux/extras/binary-x86_64/libcompiler-rt-termux_9.0.1_x86_64.deb
+Size: 33900
+MD5Sum: c222f62a188a4307dff796c606461357
+SHA1: 754c2df67ab37e9b16e717e3357eec5adad37eb7
+SHA256: 36ed5e3c0fdd2e6b97525dc0067492af2fbb295f1e05af21272f482a002d184d
+SHA512: 8776708d781b0d6c033f0d2608bbe2013c445faac910e8c1b0babc0e6d2ebd612d5cca6474e9ea890560e8e5e0d1ca0c404c421e7418da1fe491cf416249be28
+
 Package: libcompiler-rt
 Architecture: x86_64
 Installed-Size: 20188
@@ -519,6 +533,20 @@ MD5Sum: a2c21325c5a430597f3d3002dd9c6221
 SHA1: 6aa586dae9830091f75613e3cdd2b4b5978000cb
 SHA256: 7302bb71abac83bc1484b2791bc932693b8f3dc7f89b161687cf702b66bdfbf4
 SHA512: 920a1250f9b6c0c6d5794a9481b0ce72cafa951edf92389eeae2e117ddfab98d238058366c87d08a7dc665ba9bfbb8cf8ee2319e6004a393628b89248f67df77
+
+Package: libcompiler-rt
+Architecture: x86_64
+Installed-Size: 21516
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.1
+Homepage: https://compiler-rt.llvm.org
+Description: llvm runtime libs
+Filename: dists/termux/extras/binary-x86_64/libcompiler-rt_9.0.1_x86_64.deb
+Size: 1586660
+MD5Sum: 57e385dd2ccff1ef872f40b9c2f9a98f
+SHA1: c8ecb7b7a9cd01d18bde842f88dcc38f3c6dac34
+SHA256: fd5f2aaeac92ad3f8e8bc9d5066bc51de4485a8b3e8d96389ca77b407105bdce
+SHA512: 3a6a4a7a1f9da9d7d7a0fef3f9f4080b8810f12471ef3dbb461989d6676436862f8b8e0d29464d6a65fa10521d094f20260db4f8df474ead12a6c179d8ad4a65
 
 Package: libgccjit-8-dev
 Architecture: x86_64
