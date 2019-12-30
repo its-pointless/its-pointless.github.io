@@ -1106,6 +1106,21 @@ SHA512: 051c19ea4541523645ca022985865f42b7a67fb38480f813184deb22a8e772e28b1a1730
 
 Package: numpy
 Architecture: arm
+Installed-Size: 17900
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.18.0-1
+Homepage: http://www.numpy.org/
+Depends: openblas, python, libcrypt
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-arm/numpy_1.18.0-1_arm.deb
+Size: 3334520
+MD5Sum: 6a3e91cccfd1915ecafb49f3114d29c6
+SHA1: bdce71647de06f71863a172dddeaa82a9338b848
+SHA256: a90c25c6ccb8e4f48cce980d6c2062ea2efa015e156ecdc927ca5b11a590691b
+SHA512: ff82e417e8fe3af546160c40bd8d26b21e936142d3c83e205ccc577ab71e1a09a81af409284ec33802dd1275b6558fadb11846063ffc1f5d5515f516e152209b
+
+Package: numpy
+Architecture: arm
 Installed-Size: 17908
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.18.0
