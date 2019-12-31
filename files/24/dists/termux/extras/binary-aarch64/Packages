@@ -1471,35 +1471,35 @@ SHA1: 2fe6bc3b4f3c213a948cc0e4b5ceacc7bf10f5cf
 SHA256: f0a83752ecd6b176179dbcad138c4beabb9702c014e27fc0c797497519d742c3
 SHA512: ad3a83554321d663fc090335605894ae56ba2435aa7395a5d3f8b83b3c807bf6b4ab75e7d20f3175c322632efde9683cf8453b17437618a31f21dba233e6b622
 
-Package: portaudio-dev
+Package: portaudio-static
 Architecture: aarch64
-Installed-Size: 68
+Installed-Size: 108
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20180920
+Version: 20180920-1
 Homepage: http://www.portaudio.com
-Depends: portaudio
-Description: Development files for portaudio
-Filename: dists/termux/extras/binary-aarch64/portaudio-dev_20180920_aarch64.deb
-Size: 14712
-MD5Sum: 1fd84bd7a1db939b9f7afdd56c3210cc
-SHA1: 8d27783710d297fd07b61961782557bdfccc01d1
-SHA256: 4908835a9b3aeff1a04059f1b58edba296cd0c7b00bd8f387018e8cb68c49975
-SHA512: 8546a82b43fd769e8e5da285fa16f5ec1dcdffe7b3e1ad2b550653834aaf9007e7dcb9032927b9ab8b6e08060fc2ea9833145d5bf2778899209d8cfdea5cdadc
+Depends: portaudio (= 20180920-1)
+Description: Static libraries for portaudio
+Filename: dists/termux/extras/binary-aarch64/portaudio-static_20180920-1_aarch64.deb
+Size: 24692
+MD5Sum: 0ba3f7e15e9a746316168decc79d72e6
+SHA1: 66be2103e9d95e73f5f19f15007d6d2485613545
+SHA256: dbb44535d5d8def56e969a7e3039c65925aa4d34aca9b9d0f846e8ee6f60b57c
+SHA512: a3c8fe28ddccf774f77450e4e6b3aec85cd7ec65a7cd7861879724b594788116a23cc2aee180821c27a3ba7413ba2b84e0e6747a2d41fd046c566addcde92502
 
 Package: portaudio
 Architecture: aarch64
-Installed-Size: 820
+Installed-Size: 148
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20180920
+Version: 20180920-1
 Homepage: http://www.portaudio.com
 Depends: pulseaudio
 Description: portaudio io via pulseaudio
-Filename: dists/termux/extras/binary-aarch64/portaudio_20180920_aarch64.deb
-Size: 63138
-MD5Sum: 80102cef60c5e464a98eb1049bc1952d
-SHA1: 85535451783472ba65e1a51e83d1cbefaafb68fe
-SHA256: 576131d446ad92c789a4084688458f1b4e3343bf0e28b46987e31298951d6ec4
-SHA512: dcc0aaecdb494940cdc3006d0cbdf535862e00fd31c17007ddad76f3ea2820a2cdcdec8b98d6805f1a86a5cc225a84057a5184c1d372cceda473fdb90e8953f2
+Filename: dists/termux/extras/binary-aarch64/portaudio_20180920-1_aarch64.deb
+Size: 34762
+MD5Sum: 675e50032df790fc4459056e8d36fd57
+SHA1: b772453f63f995bf24a83d3b147ce3f552a369eb
+SHA256: 4ca901d210fc5b99ee815584291b4010ec09b315125b5577c46b140acb56ea32
+SHA512: 5e0935a9faffa7d9412680854a9f8bb18cc334f07b1301c26a5104b4c5d043b234f77e8231f4e87e18c1ad330dc3fd179eb57a871a8cd16f5b2e8e6ff39543f2
 
 Package: potrace
 Architecture: aarch64

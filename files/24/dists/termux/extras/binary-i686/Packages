@@ -1305,35 +1305,35 @@ SHA1: 69d86ddfe2491727b9e09417cdb9fbdf1aa9ec98
 SHA256: eb4b27bd965dc06dfd2f5387ffa2b9d18c620049d5b13bf67aaaa0a1facca527
 SHA512: d7064f0acb5b70b3dda2fc5a29c481e721c0aed9a2a0499e01cf8a5ffa35007becdb20ba3e82c2b115848c913b4e1c200d9b81c8aaa248c3100f352c94a50fc0
 
-Package: portaudio-dev
+Package: portaudio-static
 Architecture: i686
-Installed-Size: 68
+Installed-Size: 88
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20180920
+Version: 20180920-1
 Homepage: http://www.portaudio.com
-Depends: portaudio
-Description: Development files for portaudio
-Filename: dists/termux/extras/binary-i686/portaudio-dev_20180920_i686.deb
-Size: 14706
-MD5Sum: 4855110d80a170e5088c18b91fc359bc
-SHA1: 291bcf43d36a332f78d53ff5245b40d0ace6046a
-SHA256: 0a2ee92ff10d72e1b03e3ec081ea2b1e6f93725f1054b5bdf199fe0f979d7946
-SHA512: df5a53a8d62d6f6f78851662895361e4b8e0d1d21c0ebfb076eb652e543768970b5660fd18fb8b62c20e38581ee93a0f01cd12af95f5043c03e2670282bb436e
+Depends: portaudio (= 20180920-1)
+Description: Static libraries for portaudio
+Filename: dists/termux/extras/binary-i686/portaudio-static_20180920-1_i686.deb
+Size: 26080
+MD5Sum: 7cfee241390251b10e79b7d08606cea9
+SHA1: 018ef32fbdb884fcbab3416c25aa34a1860bdf73
+SHA256: 47e93c201c38ae4bdbb339ac6df78744bde639071621feb76f628359ba026f21
+SHA512: d75370ba5353da30e6dd6d8711f0831385fd16ad10e146323dd7784f9365a8dc55f3af71ae2c9f9c445e3e0d8fe820c2d626f37b72f5a1c598a1ceaa7b22008f
 
 Package: portaudio
 Architecture: i686
-Installed-Size: 708
+Installed-Size: 132
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20180920
+Version: 20180920-1
 Homepage: http://www.portaudio.com
 Depends: pulseaudio
 Description: portaudio io via pulseaudio
-Filename: dists/termux/extras/binary-i686/portaudio_20180920_i686.deb
-Size: 69684
-MD5Sum: ad64a5918debfc76080f2496710dd5e5
-SHA1: 117f11bb19f419761e3583ad6903e1927dc149a8
-SHA256: 63e311d2de00f30d51f178fc58b3471fce12dd47cfb82f70069d2211ad6d64cb
-SHA512: d07c6b532bfd3dbbb7438e3c0ae8270ffa0ddaade7dd20a34ffb93ddf37f248090b9144ae2cc0be5c3f5aec2c14a8d7d7722d512924f982635b14de4674d2454
+Filename: dists/termux/extras/binary-i686/portaudio_20180920-1_i686.deb
+Size: 37178
+MD5Sum: 19ecb57de1a02cc33f91ce5a4364881d
+SHA1: a7a1c2c4b8c91926940895976bc9b9a50c828cc2
+SHA256: 7b70efe395c77dd781d9303b4cb7c5d6c29b09cd7b93230d4b51f8b938349b17
+SHA512: 6075771889a4d2badc2b05e94375cdc3b710b2b5f8bac8c5a85576c6f8ec4b08a601a4459aeba71c26362b219baf83b77ac8793b46ed0ea0a5df0c17ae6c9fb0
 
 Package: potrace
 Architecture: i686

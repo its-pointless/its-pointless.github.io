@@ -1383,35 +1383,35 @@ SHA1: 1d70986e68af84a8727293a1d021cd0a4a0ca941
 SHA256: 2fd4200ed11431e9d83ddf03eb1a626f98064c8c04ec3ee2711d5178aa897164
 SHA512: f2b137a782b44ecf663a15dc536c52520ac35048ca8857fb7a5f0c4d131a185bec295f206989a22b89826a1fc13cda0355b5e543dc7f135f3dace04827a2c17a
 
-Package: portaudio-dev
+Package: portaudio-static
 Architecture: x86_64
-Installed-Size: 68
+Installed-Size: 124
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20180920
+Version: 20180920-1
 Homepage: http://www.portaudio.com
-Depends: portaudio
-Description: Development files for portaudio
-Filename: dists/termux/extras/binary-x86_64/portaudio-dev_20180920_x86_64.deb
-Size: 14704
-MD5Sum: 01cc85530bf40eb3418e9f6b315dc057
-SHA1: 60702fdaef5acacacfde020e5b11cc0c3395b59e
-SHA256: 2c1f25ef907afd73634de4d019e4ee34cb1b3eb7f3521921efa44de684d5b14a
-SHA512: c4037fea0df21de659de1ce179f1ba5c6c7c29575679b91f6337a5ed36643c2aa8e9a2dd1cfd24628e811503613ce1949a94c2c0510de64e3babf0a78bc0c87a
+Depends: portaudio (= 20180920-1)
+Description: Static libraries for portaudio
+Filename: dists/termux/extras/binary-x86_64/portaudio-static_20180920-1_x86_64.deb
+Size: 27760
+MD5Sum: 0e3d091429f535e520672f66b3085d4b
+SHA1: 2ff69486e30ccf7685ceac11a54e9e72271af7c3
+SHA256: da559331419123dd151e9deb3c26aac1a37fccdb2f6f219d89397ecabb5a512f
+SHA512: 3b25c4008f923f1e39ac255dcb11b2f54f6b7150109f2373b3629d8be3f7d738cbf1791a1fa28d7923690481ae959ccd04de52f81421e280e7c54d41fb8658b7
 
 Package: portaudio
 Architecture: x86_64
-Installed-Size: 812
+Installed-Size: 156
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20180920
+Version: 20180920-1
 Homepage: http://www.portaudio.com
 Depends: pulseaudio
 Description: portaudio io via pulseaudio
-Filename: dists/termux/extras/binary-x86_64/portaudio_20180920_x86_64.deb
-Size: 87704
-MD5Sum: b0317ed0e8d7513ace9ccc253d8df4e8
-SHA1: aa3b2b4172e366fe6e556788338d8661047a32bb
-SHA256: eb4dc3175ada2d45e1ef1c75e8ad3b100d9ea878f9396d5312503a074be9c865
-SHA512: e8df4e27070628bb713168d641fcd95ae57af4d2ef35be5d1e6955a389dba4eabcfcf9676df00d8970bffe41ff3cc2024c11ed64982fefba520a61ed0e857c28
+Filename: dists/termux/extras/binary-x86_64/portaudio_20180920-1_x86_64.deb
+Size: 39008
+MD5Sum: 9fabb66c0da6150e4a2f2098085af80a
+SHA1: d64c92391cb8f9b9e1873c4d1576dd4249650985
+SHA256: 001aaf8012b99d6025c0f1af2529ededeef7b1e28b7be451cab5809594bc0bbc
+SHA512: 8f225f7d0484f312a7fcad36a25a6d31a241ddc7cb8af5cfdb6ab8ae00ae667cbaff4d12dfd177588838cbf4b60f9c76cf45318b4b6da89b3ce03ded76954ca5
 
 Package: potrace
 Architecture: x86_64

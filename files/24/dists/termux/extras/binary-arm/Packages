@@ -1334,35 +1334,35 @@ SHA1: c8410c47236e148ab2b812e598b46fa5dca86826
 SHA256: 41ef8fedc9d162d99f1a259ce6ac279effe07038714187206a82303dcca83b9f
 SHA512: 092ae11ca9efd75a10835ab792021242861f79e5036f6cc426a53d28d11b30e96c6f929dfbc21aa10d979a7072ff20ba60e7beb43041dfc3e85b84560fcedc53
 
-Package: portaudio-dev
+Package: portaudio-static
 Architecture: arm
-Installed-Size: 68
+Installed-Size: 88
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20180920
+Version: 20180920-1
 Homepage: http://www.portaudio.com
-Depends: portaudio
-Description: Development files for portaudio
-Filename: dists/termux/extras/binary-arm/portaudio-dev_20180920_arm.deb
-Size: 14700
-MD5Sum: 7f7b751f1d43bf329de97a984e581414
-SHA1: 1222208900138fe1bf6e85510913871ba83ab801
-SHA256: b55e2da79319fdd53efb2002be5dc8afbf2e663dfa2d814656f94457c5f5bb12
-SHA512: 68d7961bf4d63bd8e4e11189190d4ce2d65734bc4aa0c19d61a4752429ceecf36bd6e8e60bac1c29f8280d00738f7c4ce5239e8d8258d82519c8c59e47b74d27
+Depends: portaudio (= 20180920-1)
+Description: Static libraries for portaudio
+Filename: dists/termux/extras/binary-arm/portaudio-static_20180920-1_arm.deb
+Size: 26194
+MD5Sum: 2a716dc50e5b24838eec947531b3092e
+SHA1: 6cc37db243fa8eb9a06840512e59ffee4331d636
+SHA256: c14173a392b5988818ddda60515cec7ee84e8b00b6781d7fc53e068606edc8be
+SHA512: c7dc3d7457d69a3829b9b4f6bbb9c04f9acbc0f972b1e02eb065c869c7a0c42da81cbc82db27e522f76d01a6d8d67cc12a4bb09c458e64d8275b0e2bbc6ac601
 
 Package: portaudio
 Architecture: arm
-Installed-Size: 644
+Installed-Size: 124
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20180920
+Version: 20180920-1
 Homepage: http://www.portaudio.com
 Depends: pulseaudio
 Description: portaudio io via pulseaudio
-Filename: dists/termux/extras/binary-arm/portaudio_20180920_arm.deb
-Size: 62226
-MD5Sum: df16b00681271a422e5657f524c01f2e
-SHA1: 601feb4015d737cfd3213d202fd655def4cc8cf5
-SHA256: 7edf867587411d31014f5eccd263e76458e05df67530f2ff68a77059bbe1517f
-SHA512: aa3a74f625648c5af11946c77cc5bfc9c9b558cc8735f66268a5493d432a495d5551511826e8ac9bc61da1cd3f6493c351d338b26d65a2401f9d9a2be0afeaa5
+Filename: dists/termux/extras/binary-arm/portaudio_20180920-1_arm.deb
+Size: 39124
+MD5Sum: 299006ba659f0066e590b84ce735d053
+SHA1: 2e5824e4e58fb4c36eab92f2d5f2a0a87e226936
+SHA256: e264215a2a60bba08fb0fed1f2be9434246afe5f27839e8f3e5e7b42557f5d7a
+SHA512: 5d151b6e1f9a02498697cf04d30c26f5f21b1cf89b114881dda65db8f651ce22a96a5e97c6021e69060e2ad468f77a54821e342728246e28d0a0d41aa88abf03
 
 Package: potrace
 Architecture: arm
