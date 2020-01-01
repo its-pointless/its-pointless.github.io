@@ -465,6 +465,23 @@ SHA1: 49cfce8481d1c7a14f72cb3155dec24bf4532523
 SHA256: e0b4707d902cdc4f3c5657b13c54277f93d1b862f49a8fd8aebbee4a000f0dee
 SHA512: dea7ace06c4e020320e200a66678cc796067137f335c560145c11f008c6bbbcd1e3a1e1ff2a680593bfc0d1011306cb6af07c7ed2717c935ceea90e76ad170da
 
+Package: julia
+Architecture: aarch64
+Installed-Size: 180436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.1
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-aarch64/julia_1.3.1_aarch64.deb
+Size: 24753624
+MD5Sum: df691bfe6489f841d2572d17a5c527cf
+SHA1: f46855446e1b6c26cab4ac85e77b28bf014aaa36
+SHA256: 8b18d1574f5ad3dec064690c618676eee69bfa4bd75aefc5f2524e88a0b4213f
+SHA512: ea5e889c398d2fb49611e92535a6a0ee2081ad54d171e34f386d03c3c222a282e53f0404f9a70e2554fc39805c6e3d5df5b9672c6edcfd5cdb577a26f932964b
+
 Package: libatomic-ops-dev
 Architecture: aarch64
 Installed-Size: 764
