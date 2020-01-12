@@ -450,23 +450,6 @@ SHA512: a2c79b3109c92ebed193836b79ee9000b34742a262dcd69b11753306a0e280e04a912c8b
 
 Package: julia
 Architecture: aarch64
-Installed-Size: 178920
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.0
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Description: high-performance dynamic programming language for numerical computing
-Filename: dists/termux/extras/binary-aarch64/julia_1.3.0_aarch64.deb
-Size: 24632456
-MD5Sum: 0fc283dddcdff7b5c3a2df306fcbcff7
-SHA1: 49cfce8481d1c7a14f72cb3155dec24bf4532523
-SHA256: e0b4707d902cdc4f3c5657b13c54277f93d1b862f49a8fd8aebbee4a000f0dee
-SHA512: dea7ace06c4e020320e200a66678cc796067137f335c560145c11f008c6bbbcd1e3a1e1ff2a680593bfc0d1011306cb6af07c7ed2717c935ceea90e76ad170da
-
-Package: julia
-Architecture: aarch64
 Installed-Size: 180436
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.3.1
@@ -1025,35 +1008,6 @@ SHA1: 3763efc1cf576c6d612716a2df6e73bf1d8f00de
 SHA256: 19f6e6973a645c61cb99cb1586ac37efb0556f54a0e0c4a68f5ad5785812129e
 SHA512: 0849bee7282ff5cde15e99240a011e34cb7efd30a65fcf4d8c0663622dddfa9838f2a415abbeb98350547d37bec87b988abe735b5d16ba91fb8bfaa322b1b9ef
 
-Package: libsigsegv-dev
-Architecture: aarch64
-Installed-Size: 12
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12
-Homepage: https://www.gnu.org/software/libsigsegv/
-Depends: libsigsegv
-Description: Development files for libsigsegv
-Filename: dists/termux/extras/binary-aarch64/libsigsegv-dev_2.12_aarch64.deb
-Size: 3916
-MD5Sum: 22a1c3317a210878ed5862d64fc3a2a3
-SHA1: 06e126b32ac80c48fcc365400824a815dfc2cb6d
-SHA256: f9c9010ffc3856918f6693974d6880ae2f5922b8b2442dcdf8190c99f0fa7f9c
-SHA512: 205ac5ba6a3de93f92df1aaf2e351694a90561295e86409317552ad7d70fbde743e27ac0b58148e39207475e9081a8b4359a104f24234af47010dd119aa7ab1f
-
-Package: libsigsegv
-Architecture: aarch64
-Installed-Size: 16
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12
-Homepage: https://www.gnu.org/software/libsigsegv/
-Description: GNU libsigsegv is a library for handling page faults in user mode
-Filename: dists/termux/extras/binary-aarch64/libsigsegv_2.12_aarch64.deb
-Size: 4584
-MD5Sum: bcee48125321525210e0386c3d44fa79
-SHA1: 7f83fec391138dc132bc95d9b11245d6ddf0bf98
-SHA256: f0542f2e5a6fd6febee4dafb3e1fcec72059e37c8510a1f1af46f930c6fb22db
-SHA512: bdc9e68fd0de587c9c988290e8f602560e1844a1561eda57aba4dc6f0c73866879be94137e949d1f624b3bdd7352101e1a480f7a752017ea377e0c6353213a96
-
 Package: libsmb2-static
 Architecture: aarch64
 Installed-Size: 236
@@ -1245,6 +1199,21 @@ SHA1: 14c77544146ca33f4a4257174f59bd5409fcaca2
 SHA256: e1e3177ee0befc10fd86b3bef73a2cb4a05a284eaf3c837b023f188b252aa0ec
 SHA512: d6a1a27e830f5a0c58a014df7fcfe84762fcb3d8a5b8b9626e236a81bc0edd5fbb49c0e72d233e58e6683ce327155edbbecee9a0cf5c8015f953841f72374498
 
+Package: mpich-static
+Architecture: aarch64
+Installed-Size: 8272
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.2
+Homepage: http://www.mpich.org
+Depends: mpich (= 3.3.2)
+Description: Static libraries for mpich
+Filename: dists/termux/extras/binary-aarch64/mpich-static_3.3.2_aarch64.deb
+Size: 1095618
+MD5Sum: db420b6bcbac9490af4ad35d62992e6e
+SHA1: f81dae63ca7f970bd05bcea5b759bd070ff98ce9
+SHA256: 408d032a32cc3af0f7076bc145ef5e94d8989c4a6ffa835ed4cc0a02554c0a0f
+SHA512: 4528d947cf580ccecbd9da08aa4ae00304b286485a77031766f7e5f4369bc766cff235d56611796a11b4e6b6eaf893c96c5e9f133299743348c124aad07c9a88
+
 Package: mpich
 Architecture: aarch64
 Installed-Size: 6860
@@ -1259,6 +1228,21 @@ MD5Sum: f43c7923dddf8f8e45e9dc9f2bcb4721
 SHA1: 80b8cd0c096ff3618d5f4de9201193f1d757b140
 SHA256: d7ac2e5930e44fd3a432654f9d29fed4575a2f5917b5a5aa1fa725f24da248cb
 SHA512: b4d964ed9c09521d35cf36e591e00a7a8a2ff2ccbfb537f9504aabd9aac5d5baa55471638cc1519abe592e3d5f1fea9396d382ee9fad1e494f8ddd16699dbe56
+
+Package: mpich
+Architecture: aarch64
+Installed-Size: 10436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.2
+Homepage: http://www.mpich.org
+Depends: libandroid-support, libgfortran5
+Description: Implementation of the MPI Message Passing Interface standard
+Filename: dists/termux/extras/binary-aarch64/mpich_3.3.2_aarch64.deb
+Size: 1799340
+MD5Sum: d8ba2eee8b404fded5e41ef3bcfe1d01
+SHA1: 964e4ac483279a6837a484e180d67127f1701319
+SHA256: 25477445e8c163eda48f77f5bec6b1e61a9cb143a96087ad3b730768171a631a
+SHA512: 178f58758b7fa9c2bb9906aa1af17343174a3ad3e5d6d0d85108b8133e0b5be7fa8eaf06ef5558d9021d1bd033dcc15aac702eed263c96ca1ec92cc64e836b0e
 
 Package: nbtscan
 Architecture: aarch64

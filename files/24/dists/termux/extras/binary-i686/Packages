@@ -390,23 +390,6 @@ SHA512: 4884c80c3cff1fadab011066e38ed1bdac113ae2b4695e72e2bff92fafa7f24fcc0624e7
 
 Package: julia
 Architecture: i686
-Installed-Size: 154064
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.0
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Description: high-performance dynamic programming language for numerical computing
-Filename: dists/termux/extras/binary-i686/julia_1.3.0_i686.deb
-Size: 24633368
-MD5Sum: a7b1d29edcb0f76c0c17ddb1b4ff2b78
-SHA1: c9a12dc4639920a944903ceaa94aaa673d31d504
-SHA256: 6b46e0725cc985d541a65ac40d28ddcc186146b1b2054bd11f9cad9545a2d48b
-SHA512: f4b43e89f8946a5292638c7bfcc68c51cb8cc72c88b5b753c28ceac415417a571135e316f130a40247b63f48f4e35f99fe705db74ebabdec5f374ee4fc60e4cc
-
-Package: julia
-Architecture: i686
 Installed-Size: 154272
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.3.1
@@ -887,35 +870,6 @@ SHA1: ab054a12a208cb885b40249843efe49edaa035d3
 SHA256: 16394332e53f60907bca6abc22f0dd243c3833851cbcff1c62a33977b247fa32
 SHA512: b5f9f1c772bec076ad666c40611e43ea9bfe542d291f26eaf4ef2595edde52f7088d5ee56a32cd6b4aec581e230ef02a47a2b7ab4051cee33591372c86bbdf02
 
-Package: libsigsegv-dev
-Architecture: i686
-Installed-Size: 12
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12
-Homepage: https://www.gnu.org/software/libsigsegv/
-Depends: libsigsegv
-Description: Development files for libsigsegv
-Filename: dists/termux/extras/binary-i686/libsigsegv-dev_2.12_i686.deb
-Size: 3916
-MD5Sum: 8b4a998dd1d480a07967e9e240a3e190
-SHA1: a05371460a3466938acfab3001d6ce18d91dd640
-SHA256: 4bdad186763802862f9bb893c2f80a7fd4b0d7dc1692ad2ef68621bdfa5e9151
-SHA512: 93ba1510a8e745eed1432b70ecf173c10f33bebdcee54fae93a120d062cbbc01956730f8aa212ff799bd4ce62f4e8301f4d312f6618de522547f81620812dcdb
-
-Package: libsigsegv
-Architecture: i686
-Installed-Size: 12
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.12
-Homepage: https://www.gnu.org/software/libsigsegv/
-Description: GNU libsigsegv is a library for handling page faults in user mode
-Filename: dists/termux/extras/binary-i686/libsigsegv_2.12_i686.deb
-Size: 4794
-MD5Sum: 10170f6705185c8cb10cd3ae1e458c12
-SHA1: ba85a0f72fd07c4820a9e28776817edbd8b7ee5a
-SHA256: 51ab9969d98910e5b5c0b0854814a4c945a586513e6b6ed46fa7878e16285f86
-SHA512: 7dfc35e29ce498d92a77fc1157f9500efbeae647f02cce4472db583ad725b53d687819ff9a929df4d97dc52f18e0cf1cc1889fcb2e3ec1d7e305f63b98142bda
-
 Package: libsmb2-static
 Architecture: i686
 Installed-Size: 176
@@ -1048,6 +1002,21 @@ SHA1: f312c686a16ccf3c693002456f7d4e9694d6b34c
 SHA256: 84e69066f1975d8eed687e4129c1f703e35853086061bffcff4923046dc2d5ae
 SHA512: c85722217dbaae7cb4a9641d3420a5757f745ad83c83b49752bd1eaef9916de3c4b2b9d6d716b27074d70c0ddc1b5a407ea17b8b98a5dc8624e9b0dedc1d1fb6
 
+Package: mpich-static
+Architecture: i686
+Installed-Size: 5844
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.2
+Homepage: http://www.mpich.org
+Depends: mpich (= 3.3.2)
+Description: Static libraries for mpich
+Filename: dists/termux/extras/binary-i686/mpich-static_3.3.2_i686.deb
+Size: 1107604
+MD5Sum: db839a172d9c7092b942101da24128dd
+SHA1: 320d4f8571e33f1f57326f633cd9ea382f836853
+SHA256: 86012fd031dfa254995d8c53958f2debbd783c82facd675936e26378cb6456e1
+SHA512: c492596ac801b1a64041b6d33ac1717df01d2c1b8db5c133b0bce653aec3640b93456784eb0e71d20ad22908d8db9f924727aa8d1e5371b8a454d9055b4c7830
+
 Package: mpich
 Architecture: i686
 Installed-Size: 6552
@@ -1062,6 +1031,21 @@ MD5Sum: bdd3abb98d206ef5863d1f69c95f0804
 SHA1: 7ae960b1c7d5527e9ed68e8eec888e7f9506719b
 SHA256: f7fd1e9188b720eecf4f63c64b59a6710137b810953eee9e65f23b19b27a964b
 SHA512: 01738b8afaa8c4a979469c68d8d194a60e42693128e92ba926c4f93271559be3bad95abcfa9cacc2784a25d029a928fba570e80e6a473deb56ac5d3c7268693a
+
+Package: mpich
+Architecture: i686
+Installed-Size: 10184
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.2
+Homepage: http://www.mpich.org
+Depends: libandroid-support, libgfortran5
+Description: Implementation of the MPI Message Passing Interface standard
+Filename: dists/termux/extras/binary-i686/mpich_3.3.2_i686.deb
+Size: 1859282
+MD5Sum: 6b8b6fcaf402e1e81cffd94b39c37b87
+SHA1: 9a5f1670a0d5ea0b71f0aa51f7cd5a8f03e20366
+SHA256: bcdd9e0a0e168a7d3c6fe5eba78aa5e7795644d50bbb0afcd15e48e63e252e9b
+SHA512: 5fa37ff5b50fe7a909e72e2628d4788458d21e3d71d970c65f18d84068e7be2178c155f4fedc213222b43e9f38787622f4ac54f2ba461676b1b63cd465eb7919
 
 Package: nbtscan
 Architecture: i686
