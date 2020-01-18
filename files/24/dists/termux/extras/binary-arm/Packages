@@ -1182,18 +1182,18 @@ SHA512: 5f7667095c9ac8d687819cb1903e6e954a26da179e8dc19226210cd27b455e5063495c2e
 
 Package: octave-static
 Architecture: arm
-Installed-Size: 103100
+Installed-Size: 102652
 Maintainer: Fredrik Fornwall @fornwall
 Version: 5.1.0-6
 Homepage: https://www.gnu.org/software/octave/
 Depends: octave (= 5.1.0-6)
 Description: Static libraries for octave
 Filename: dists/termux/extras/binary-arm/octave-static_5.1.0-6_arm.deb
-Size: 10645858
-MD5Sum: e9cb8151bfae6b2bca39d377ca32716d
-SHA1: 8f25f1646b9b503a48dfe2a95ba60d3d30378e56
-SHA256: ba0a65964ed5cbaff0aa8cc3671677cb3136a5ae523214f79e6bf1157baec652
-SHA512: 81849b7a1b4129ae9b6093ad1aa8e1b64569d599d62085d652b2d8cc51bc5ad8353688b498919a5788bb07df6591c5c2417261d93ff08753576792ab12016ab8
+Size: 10574410
+MD5Sum: ca4d28368fb11752c715647a5964cde4
+SHA1: b8b2eefa12ab1f00c4b7b05c8601e22b708c6f95
+SHA256: 922cc6389f326dddb089a17100200298396d82c4742c25eb98388107dc22318a
+SHA512: 79f1a1d18b99c770787c300ad212e118e3b8007261e697e20627e27b1d4db7cf56ed87c8b8839af3089e4df12ed244ef88ff3fb2a71dc6eccd5ea6792f3f36cd
 
 Package: octave
 Architecture: arm
@@ -1214,7 +1214,7 @@ SHA512: b1f5583d347918baf137b5c43571b4475c1faec72dfc706a05bf8b9d3af54f5e5629c741
 
 Package: octave
 Architecture: arm
-Installed-Size: 48060
+Installed-Size: 47916
 Maintainer: Fredrik Fornwall @fornwall
 Version: 5.1.0-6
 Homepage: https://www.gnu.org/software/octave/
@@ -1223,11 +1223,11 @@ Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-gl
 Replaces: octave-dev
 Description: Scientific Programming Language
 Filename: dists/termux/extras/binary-arm/octave_5.1.0-6_arm.deb
-Size: 11095940
-MD5Sum: a8da715ece885c46578460c513ba2018
-SHA1: 2bf2a6b5f718d83c51f8538b9482f36acd589d52
-SHA256: 5cf787688a58540f4510c8f5afa13968f03fe19c0a31263fda3ef817e0a674f6
-SHA512: eb691fbec11c13aa76f154c10d2c247947540a4e66d51fa00e329bc4293ae1b24b67f20efd613057c8447f7fee9402fa9d7ef37462264bdfde39541d38738d58
+Size: 11035282
+MD5Sum: 5cba9c8e7c52fe404841aa256bbed626
+SHA1: 9caf5d695872fd3b7bbe7325c0b39279e8abecba
+SHA256: 387123341013472e118467f2b277ecbe78736f32c88d13b39ffcb0d166cd2a02
+SHA512: 9b36d4e9b1e3cd76a4a98a87240b5b1ffdbe7f3ebd6a902ce17b27c1469a348efb5eefef846639768319575aab37d4a7a4815601fa011772d6cf7afa298ec9ec
 
 Package: opam
 Architecture: arm
