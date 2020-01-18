@@ -1180,6 +1180,21 @@ SHA1: 29392b60420e95c8eddd057d48ea95ca45f9ac70
 SHA256: 966426cf8f01901466c0be3dc572a83d46c61c629870a44ea314291b8e2f5d26
 SHA512: 5f7667095c9ac8d687819cb1903e6e954a26da179e8dc19226210cd27b455e5063495c2e6b52d93bc87200118af46dc549628f68facc2ee7afe2631524be4258
 
+Package: octave-static
+Architecture: arm
+Installed-Size: 103100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-6
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.1.0-6)
+Description: Static libraries for octave
+Filename: dists/termux/extras/binary-arm/octave-static_5.1.0-6_arm.deb
+Size: 10645858
+MD5Sum: e9cb8151bfae6b2bca39d377ca32716d
+SHA1: 8f25f1646b9b503a48dfe2a95ba60d3d30378e56
+SHA256: ba0a65964ed5cbaff0aa8cc3671677cb3136a5ae523214f79e6bf1157baec652
+SHA512: 81849b7a1b4129ae9b6093ad1aa8e1b64569d599d62085d652b2d8cc51bc5ad8353688b498919a5788bb07df6591c5c2417261d93ff08753576792ab12016ab8
+
 Package: octave
 Architecture: arm
 Installed-Size: 48048
@@ -1196,6 +1211,23 @@ MD5Sum: d852dae4c662bc1aacc58eed95f0ec70
 SHA1: 2f085cb002dfba006ff50d489b858ff028764d3a
 SHA256: 09814b463b137582f5b01bee93b662dd522fb995e3f953e5543a6e454f8a3099
 SHA512: b1f5583d347918baf137b5c43571b4475c1faec72dfc706a05bf8b9d3af54f5e5629c74119ab272e6402051ab355d202b8196616cc249fa33412302c6eb08ae9
+
+Package: octave
+Architecture: arm
+Installed-Size: 48060
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-6
+Homepage: https://www.gnu.org/software/octave/
+Breaks: octave-dev
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Replaces: octave-dev
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-arm/octave_5.1.0-6_arm.deb
+Size: 11095940
+MD5Sum: a8da715ece885c46578460c513ba2018
+SHA1: 2bf2a6b5f718d83c51f8538b9482f36acd589d52
+SHA256: 5cf787688a58540f4510c8f5afa13968f03fe19c0a31263fda3ef817e0a674f6
+SHA512: eb691fbec11c13aa76f154c10d2c247947540a4e66d51fa00e329bc4293ae1b24b67f20efd613057c8447f7fee9402fa9d7ef37462264bdfde39541d38738d58
 
 Package: opam
 Architecture: arm

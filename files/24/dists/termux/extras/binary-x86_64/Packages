@@ -1195,6 +1195,21 @@ SHA1: 8d32151a09908ac79e29dd7cdab511778b7a6de9
 SHA256: 49ded8e9c48b258c62e5544cdf1d32c9ea27d002ceaaffee0f5d27c4d8f2d68e
 SHA512: a1c3acf608eb2562a0f0270a7466753443092ac683ca24345995703ccba4e044297411e1d9c6e7675f52234c295780abc6ad8d148f2762f29d9a0eb9e03a169f
 
+Package: octave-static
+Architecture: x86_64
+Installed-Size: 109528
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-6
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.1.0-6)
+Description: Static libraries for octave
+Filename: dists/termux/extras/binary-x86_64/octave-static_5.1.0-6_x86_64.deb
+Size: 8546500
+MD5Sum: 3ace6a5921668b3e5a17f8047756b2d9
+SHA1: 314c60562a859e7bcc8b2ff4019106ce4d9e7179
+SHA256: 7639539b0256245da1736ee376cac1a990dd321762201a49c6e49da45046ffaf
+SHA512: 4a67c60d91314c8a404f8e91dcd858b043b3dfe0a44ce431d303ac9d07bba52e2d1b1c1c757f8b40e1a69e1fcbc2ff99a57e3150d59de72ae2f3631f9b96716a
+
 Package: octave
 Architecture: x86_64
 Installed-Size: 57508
@@ -1211,6 +1226,23 @@ MD5Sum: fb47576dbe2c230bb614e0fb39f83f76
 SHA1: a7ccb54dd9efdaa802a8569d8b5c6638f946d333
 SHA256: 7d585d9cadb1f4d02fe1d4f977affb5dca25454e03ca536a0f00978ebf8d6d98
 SHA512: aeba4127934904632e3c8a5a37bf9ca070a08452a1b28fa4688eec3af8ce4d7419308908acc47f3b3847fc4226869d821a6b1ffc46afb5b44ad43fc8a9b0f104
+
+Package: octave
+Architecture: x86_64
+Installed-Size: 57520
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0-6
+Homepage: https://www.gnu.org/software/octave/
+Breaks: octave-dev
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Replaces: octave-dev
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-x86_64/octave_5.1.0-6_x86_64.deb
+Size: 12116694
+MD5Sum: 3b3c0f3c73efba774ae34d8175bafa97
+SHA1: 8d1ae5d006827c419b87e1879b447a93571765e0
+SHA256: 7be9708038b2bdaabafcebe6f0530df7ca31f105dfde26fb321c9abf2e239312
+SHA512: b1d8c52a4170cce1ce12a95b9bb2bdcbefeabc6c4950eae8740268c32e786daecc440b5cf5b5e30365796d2858b7c2de1f05c33587960037253c4062771a50b9
 
 Package: opam
 Architecture: x86_64
