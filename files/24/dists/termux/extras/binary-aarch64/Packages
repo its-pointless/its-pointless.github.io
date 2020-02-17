@@ -1955,6 +1955,21 @@ SHA1: fc443555f623b7502d7ec4660a19a3c05a7c8b59
 SHA256: 060f992b1dd3edc7bfc891adadc1a09a021b51fecea63c448cfa2e39a6b87a30
 SHA512: 5a709f6301ae006ef98170dcd49445ea85608b312b3594f03e861b48ca3a0f3c1d93c14d6aa82c01320660768dbbe907453dbbb440973a5c8d0b754cabb85e21
 
+Package: vlc
+Architecture: aarch64
+Installed-Size: 13344
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.9
+Homepage: http://get.videolan.org
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api, libsmb2, libandroid-glob, libarchive, libiconv, pulseaudio, openal-soft, zlib,  libandroid-spawn
+Description: video lan player
+Filename: dists/termux/extras/binary-aarch64/vlc_3.0.9_aarch64.deb
+Size: 2241494
+MD5Sum: 55f5167360a27c20926413b96de1f6e9
+SHA1: ff40cea7b365915f5202958f7ee0191175b14b42
+SHA256: 664f0309f0a1beedf61e2c79074224b4f802a5dc908eafd0422926bc2af7c8bb
+SHA512: a095ccaa4b7225b0c6ce9b90ee928e0622a3e5780480675ba737675fb3802b9844ef71d6c5513a2bb8b8f28b6d4cddcf9020a951e4ea11915ab00f7f58dae006
+
 Package: wiredtiger-dev
 Architecture: aarch64
 Installed-Size: 276
