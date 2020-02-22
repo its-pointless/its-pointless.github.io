@@ -593,6 +593,35 @@ SHA1: 1e6ccde89244cf62b16cf8476d81e8b97852fe8d
 SHA256: 5b146ab1950b2e7b46cee01c67d7683a690e61d29516663001ad8a1a7cbd4643
 SHA512: f9285a735ee6e142dd3d6fec22972bc3b085b9e05a48cbf0b039364e4533a405d1b25fafc65daddc52fafb5d38b309c59eeeb3650d2bfc61dfbe6b41180e6f2d
 
+Package: libdvbpsi-static
+Architecture: aarch64
+Installed-Size: 288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.3
+Homepage: https://www.videolan.org/developers/libdvbpsi.html
+Depends: libdvbpsi (= 1.3.3)
+Description: Static libraries for libdvbpsi
+Filename: dists/termux/extras/binary-aarch64/libdvbpsi-static_1.3.3_aarch64.deb
+Size: 40442
+MD5Sum: 8cdda7df0dd6933c691af71e0fd51372
+SHA1: bc068c4955db7dc0702cbc2896271d06850a14e4
+SHA256: f3739777c6fa3c1883a7e9d3fc603d9e3ea8e5c80290ba0e5512000de678edea
+SHA512: 73fabfb7744985c361d0200d102d79cd7bfa37c0b5fd93c025187b13eaf189d6293c395c0d13f681826ce3604ce28a427c2e93f88e843e0ce3d961a95fa1c286
+
+Package: libdvbpsi
+Architecture: aarch64
+Installed-Size: 672
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.3
+Homepage: https://www.videolan.org/developers/libdvbpsi.html
+Description: library designed for decoding and generation of MPEG TS and DVB PSI tables
+Filename: dists/termux/extras/binary-aarch64/libdvbpsi_1.3.3_aarch64.deb
+Size: 68326
+MD5Sum: 4f4782c4c9f6200e0cd32c64feb72648
+SHA1: 347b3d4baddbaf10b89de3446b0b870f56a0053e
+SHA256: 664afdd45675818d660b78c0f955248a229478ab220dda7a73c3dd1cb5da007c
+SHA512: 22e981de3d36d22e668506b3ef87a754ba2e19e470a04ca741afc5675852458f1c16af54d3a347cd6ab085add34495a44bb3303551ae2302d6de92aa023bc484
+
 Package: libgccjit-8-dev
 Architecture: aarch64
 Installed-Size: 16624
@@ -902,6 +931,35 @@ MD5Sum: e1836d6d4dec74de738009b9b3dc5045
 SHA1: 1a1d10d650cd8e67f22e0c9b85e42a56e24758ee
 SHA256: 38576c1939cd9b397a563cdd675bb429c0335cd805cda81754c1a1ceadd76a9a
 SHA512: 72f555474b4492ce638aa144ae7756771bf4625c432f371d426613ea3a54ffcf21094b558484c9a45c86bc990d23ef650eb2a1f0c27edda10daa4376d108b8f6
+
+Package: libmpeg2-static
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.1
+Homepage: http://libmpeg2.sourceforge.net
+Depends: libmpeg2 (= 0.5.1)
+Description: Static libraries for libmpeg2
+Filename: dists/termux/extras/binary-aarch64/libmpeg2-static_0.5.1_aarch64.deb
+Size: 46192
+MD5Sum: 855aada229da858a6dab19ce14027428
+SHA1: e23797daf3871b2821057970c339c949de25908c
+SHA256: 801bdbdfb472f4a388238b52cd70802cb7bdb74eadc3eed7e60a84651e29c229
+SHA512: ffcb7473bf4d5df0aa40b0e7438231d92f69a654a94f2d6963f3f6e50d5ea4f246cfff2f441c8a8ef91c8efd858894002a29d8e6c058bc8c28359cef8265afba
+
+Package: libmpeg2
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.1
+Homepage: http://libmpeg2.sourceforge.net
+Description: MPEG1 and MPEG2 video decoder library
+Filename: dists/termux/extras/binary-aarch64/libmpeg2_0.5.1_aarch64.deb
+Size: 59456
+MD5Sum: 7e9285c6b7a23b0e0d7cea2891005390
+SHA1: 982faa5373d292763d35f8f5c78edebff99b611a
+SHA256: 9f160c286658dde798a79c05d9b747bdd84cd84520f386784cc5e0e7381ad20c
+SHA512: 813405430c7c7fa6c6a4b89b04c4ba82323a3166c948c9f4ea4820844f375cd8074608ae412797e4013678290073f451ab6f80c7243a29e928e3dea2ae09e8ca
 
 Package: libobjc-8
 Architecture: aarch64
@@ -1954,6 +2012,21 @@ MD5Sum: 4bffdff9537dcfb3bb9f0c05533139ee
 SHA1: fc443555f623b7502d7ec4660a19a3c05a7c8b59
 SHA256: 060f992b1dd3edc7bfc891adadc1a09a021b51fecea63c448cfa2e39a6b87a30
 SHA512: 5a709f6301ae006ef98170dcd49445ea85608b312b3594f03e861b48ca3a0f3c1d93c14d6aa82c01320660768dbbe907453dbbb440973a5c8d0b754cabb85e21
+
+Package: vlc
+Architecture: aarch64
+Installed-Size: 13744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.9-1
+Homepage: http://get.videolan.org
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api, libsmb2, libandroid-glob, libarchive, libiconv, pulseaudio, openal-soft, zlib,  libandroid-spawn, libandroid-support, libmpeg2
+Description: video lan player
+Filename: dists/termux/extras/binary-aarch64/vlc_3.0.9-1_aarch64.deb
+Size: 2331094
+MD5Sum: ac22e27af3af2ff671634a8acd3f687a
+SHA1: 52b2a8a5e82929116db3279d5e19d18cb9bef9d2
+SHA256: 23098ae490f5a5828237b0aeb2acaa8eeaa5485629180ba941369e23e4c4588d
+SHA512: 6334fc0ab9c85e8526ed4d2d72f93cfdf82db4b37f431236d08cc3ba1a1d5edad4789a263b40192171d4beb468cc7f552534560e355ed4df54ab95b8315d2e3f
 
 Package: vlc
 Architecture: aarch64

@@ -533,6 +533,35 @@ SHA1: 789c129e77242512d7e9c093848a3e9ede1e0c55
 SHA256: c689bb78dd4cfaf190f1d2b322ed83bd53c122635763463b9cba983747d17eeb
 SHA512: ba896a5225172436f7a30fe6d928fe1f2c044ec10a952263b4a8cdc90ef29fe610dd020d2de47b10b4b7af37e0036866c8abeeef1a106374aa1691f82be0024e
 
+Package: libdvbpsi-static
+Architecture: arm
+Installed-Size: 224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.3
+Homepage: https://www.videolan.org/developers/libdvbpsi.html
+Depends: libdvbpsi (= 1.3.3)
+Description: Static libraries for libdvbpsi
+Filename: dists/termux/extras/binary-arm/libdvbpsi-static_1.3.3_arm.deb
+Size: 40630
+MD5Sum: af8ace395eaa5c7fe462313799ea9f4f
+SHA1: ea70217426bb85ccf66263f394d223c62dba8ca7
+SHA256: d38cde77cf82f51518462db2eb14f268e81a086fe340f71a000719d965540127
+SHA512: 4a1bc99cefbf35187c09f0a921c73d8068d9b63e673bfed058ff9fb5c7da485b84b4ba26dd202f13895a09c76e98807dbd88d5ed6f46705852f6a23c3a6de54e
+
+Package: libdvbpsi
+Architecture: arm
+Installed-Size: 628
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.3
+Homepage: https://www.videolan.org/developers/libdvbpsi.html
+Description: library designed for decoding and generation of MPEG TS and DVB PSI tables
+Filename: dists/termux/extras/binary-arm/libdvbpsi_1.3.3_arm.deb
+Size: 71760
+MD5Sum: 3ebb7ff8177e66a98a5c9961037bde60
+SHA1: 22c88347c2564983781a69698ee11b51d4c06751
+SHA256: 3beb58db3a1c0d6a1f33f0edabfe1eb935786c65d3a3ae0e082bc5d19665c9fb
+SHA512: f27b13d05d9f325e890627de31a58d530ee7cc619b7fe602fd8c857276db83da3be31ed77f3c789ccba45e24745b2f56edf81442de493f0e080a99aafab7d97f
+
 Package: libgccjit-8-dev
 Architecture: arm
 Installed-Size: 15924
@@ -779,6 +808,35 @@ MD5Sum: c785463fd5730e23c31b82328abe87ab
 SHA1: c1f91143f18226f2662d2728d292873c94192858
 SHA256: 9154a74f18751d74cf23a1c856b2eb93a27b068ac527e7fba0a22725a653648d
 SHA512: 6909e0606b8e9b40157cc3c86beb4975f9618900b166c946e9d0333ef49ee3730c6dc3123b27cd35ae4d51921c5901cb0af6ff4016a497b093a84f6879d9f836
+
+Package: libmpeg2-static
+Architecture: arm
+Installed-Size: 188
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.1
+Homepage: http://libmpeg2.sourceforge.net
+Depends: libmpeg2 (= 0.5.1)
+Description: Static libraries for libmpeg2
+Filename: dists/termux/extras/binary-arm/libmpeg2-static_0.5.1_arm.deb
+Size: 52862
+MD5Sum: 33401bb6313a1fa7fd536ee7499a3d2a
+SHA1: c222ad498b0d5a98d1741ee31a40fa3fbd32dd22
+SHA256: 50fc8374ed2f39383388972ca407ca6c8ad841a7f5d0e2c2ab16b92450e4fe4e
+SHA512: 30552c3d9d2a812dd05b6439238f2b8fa8937ee397fb626118f0bed03d7908111d7c808202b571cc077407cfbfe8b6424bee2ba4cc3244a967f68e1ee89e77ca
+
+Package: libmpeg2
+Architecture: arm
+Installed-Size: 236
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.1
+Homepage: http://libmpeg2.sourceforge.net
+Description: MPEG1 and MPEG2 video decoder library
+Filename: dists/termux/extras/binary-arm/libmpeg2_0.5.1_arm.deb
+Size: 69484
+MD5Sum: 6f557ed5c45150b8aa9ed0b0297fdb34
+SHA1: 1bd2fbab443472948b0ff68411657a0b7b0cca1a
+SHA256: 21efbaf4a3bd5b556e9207d1776bc3ea5ee62f06a9ae19da197566e361dbfe61
+SHA512: 647c126937e90bb1629ba2b93de57773cafbf00b3eb1ea97e37f8730ed7c15621585c7e3200ae5e299f7a005acabbd38c51d474261c912b99df597c52ca20aa0
 
 Package: libobjc-8
 Architecture: arm
@@ -1367,6 +1425,21 @@ SHA1: c8410c47236e148ab2b812e598b46fa5dca86826
 SHA256: 41ef8fedc9d162d99f1a259ce6ac279effe07038714187206a82303dcca83b9f
 SHA512: 092ae11ca9efd75a10835ab792021242861f79e5036f6cc426a53d28d11b30e96c6f929dfbc21aa10d979a7072ff20ba60e7beb43041dfc3e85b84560fcedc53
 
+Package: picolisp
+Architecture: arm
+Installed-Size: 4124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20.2.9
+Homepage: https://picolisp.com
+Depends: libcrypt, openssl
+Description: Lisp interpreter and application server framework
+Filename: dists/termux/extras/binary-arm/picolisp_20.2.9_arm.deb
+Size: 706304
+MD5Sum: b8b2607b5617c8d983523270870ff74a
+SHA1: fc694cefb350dbee3dc62b2d95f73c5d8b1bd5fc
+SHA256: 2131a95ab8b9f6a0af5b035d948699e5211f3fe8e2751b1425be31bf3af4cf2e
+SHA512: 8ab6063605ff9f5c063b87a3258e6e6c2d9e3cb8ca432f4803b66edb5b167854d5eb14e4eba22147e01aa788f280c5f20d4cbfbdc8d5d94b760e1ab57f8e81da
+
 Package: portaudio-static
 Architecture: arm
 Installed-Size: 88
@@ -1817,6 +1890,21 @@ MD5Sum: ca137732b27176926145feb6a0ad2340
 SHA1: fa7ff33549e85fcfeb9beef34f2d800ffb11fbc5
 SHA256: b7ea41411d21496ae55f09f8a4b14e40685cbdd942ab0a8639a38566136155d7
 SHA512: 0a775947282292428d43e40370d3b4d192d1a28994eef001eb40d94cdd986dfdfac282cea0e26e615e0d9ca9324d9653ce64d983fbf1c42ff3acd2fccc5803ee
+
+Package: vlc
+Architecture: arm
+Installed-Size: 11480
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.9-1
+Homepage: http://get.videolan.org
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api, libsmb2, libandroid-glob, libarchive, libiconv, pulseaudio, openal-soft, zlib,  libandroid-spawn, libandroid-support, libmpeg2, libdvbpsi
+Description: video lan player
+Filename: dists/termux/extras/binary-arm/vlc_3.0.9-1_arm.deb
+Size: 2404828
+MD5Sum: dce65f0f2d32b29f4aac3c56d2dca080
+SHA1: 36197c05df507f1092aab1466a10a792efc77c6a
+SHA256: 0dccf0f770000b0c7ea2c9b983f5756f854fe02c960225a3f662729ef4df873e
+SHA512: 8bed9caf1ed746bdac3d61872f7635f2fb17bd6c79dfc5156f17468c8a0e3dbb3d4c02ff49fc31d6306531fbb46dc40ebc76c9a5b88d478b57ab77261abfbba1
 
 Package: vlc
 Architecture: arm
