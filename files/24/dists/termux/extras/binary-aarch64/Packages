@@ -2015,18 +2015,18 @@ SHA512: 5a709f6301ae006ef98170dcd49445ea85608b312b3594f03e861b48ca3a0f3c1d93c14d
 
 Package: vlc
 Architecture: aarch64
-Installed-Size: 13744
+Installed-Size: 13840
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.0.9-1
 Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api, libsmb2, libandroid-glob, libarchive, libiconv, pulseaudio, openal-soft, zlib,  libandroid-spawn, libandroid-support, libmpeg2
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api, libsmb2, libandroid-glob, libarchive, libiconv, pulseaudio, openal-soft, zlib,  libandroid-spawn, libandroid-support, libmpeg2, libdvbpsi
 Description: video lan player
 Filename: dists/termux/extras/binary-aarch64/vlc_3.0.9-1_aarch64.deb
-Size: 2331094
-MD5Sum: ac22e27af3af2ff671634a8acd3f687a
-SHA1: 52b2a8a5e82929116db3279d5e19d18cb9bef9d2
-SHA256: 23098ae490f5a5828237b0aeb2acaa8eeaa5485629180ba941369e23e4c4588d
-SHA512: 6334fc0ab9c85e8526ed4d2d72f93cfdf82db4b37f431236d08cc3ba1a1d5edad4789a263b40192171d4beb468cc7f552534560e355ed4df54ab95b8315d2e3f
+Size: 2352340
+MD5Sum: aaa8611d294a756d9b471530333ccfd5
+SHA1: 4603b0f6671b4628b59c712c8852de73313d1313
+SHA256: 383e87df08e13ac4518afbededb94966ebf6490a1f83dab8bde778db62a26513
+SHA512: c0f8428ce926662d70a841a721045d19f78cf9b914d738d49aa3ef0ea407f5609216aaebf2cb8f18a66fc1f062cba2880b93a7de06104f4bd8064d3d5c95624f
 
 Package: vlc
 Architecture: aarch64
