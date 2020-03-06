@@ -108,6 +108,21 @@ Package: clangd
 Architecture: x86_64
 Installed-Size: 22640
 Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.1-1
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 9.0.1-1)
+Description: Language server that provides IDE-like features to editors
+Filename: dists/termux/extras/binary-x86_64/clangd_9.0.1-1_x86_64.deb
+Size: 5148002
+MD5Sum: 14581f6884c55125b0591779845cb011
+SHA1: 9c0a837b0b1d61d5c7f56c3e22c8c16e5e345016
+SHA256: 777b35dcbbf3a0a087fc4156988f0cc4a0f9823dc2e3a084cb9a35d6434bb4b8
+SHA512: 9794b9e0dea028c28be95bd4040d252ee14bdcd3faab82677c7a1ff86a5cfdc00319d3082a07f957ba394514ae7cc23fc92e029bdd54c8efa73d78f6deb361b9
+
+Package: clangd
+Architecture: x86_64
+Installed-Size: 22640
+Maintainer: Fredrik Fornwall @fornwall
 Version: 9.0.1
 Homepage: https://clang.llvm.org/
 Depends: libllvm (= 9.0.1)
@@ -1075,6 +1090,23 @@ SHA1: cea7af58ccb2a2b541cfb6a46abf7ea91883e7ea
 SHA256: b5fa0504e01f3e127a6157d5a8074ac2c3ba8fee742b295adb5d5e285ba2704d
 SHA512: b024003d2ecdd44f504083900bc31c353e4b1028199c95d8a7ed7bd9cba02bee94777a47ca6d5794b98656e50189212189001e7b5efdcf5697a60875c83c68ef
 
+Package: moarvm
+Architecture: x86_64
+Installed-Size: 9968
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2020.02
+Homepage: https://github.com/MoarVM/MoarVM
+Breaks: libtommath-dev, libtommath
+Depends: libuv, libandroid-support, libffi
+Replaces: libtommath-dev, libtommath
+Description: A modern VM built for Rakudo Perl 6
+Filename: dists/termux/extras/binary-x86_64/moarvm_2020.02_x86_64.deb
+Size: 1335644
+MD5Sum: b1515bcede75891b25fed7ae6a14174d
+SHA1: ba8a5a5b64b580f90b916d3e4692ad553c27b59f
+SHA256: 470ed04ea50c09045b6301b305322601233111fb077cfd4f922c948cd359ea62
+SHA512: 6c7645cd048337e44d23a8ef95ca5d55949cb13478709862ec63b4fc0f26423af63d3b802c1cd3e3c33984d1048e1e218bbe65316af99d40935169a562fcd6e1
+
 Package: mongodb
 Architecture: x86_64
 Installed-Size: 204844
@@ -1414,6 +1446,21 @@ SHA1: b1a5fa937397948efe62813df098f126b91f3360
 SHA256: b50538e8041b3e00e6a9cf4eb8eaa5012086593958c43606c55ac649b737094c
 SHA512: 471fb837e1d8e9ea02d7667ceec1e789be83ec8e3d436554dbb1e972380ef9f384b5511a88a8b36204f5354918c5c143bfab7d00466ef62ceecc131374641d7a
 
+Package: openblas-static
+Architecture: x86_64
+Installed-Size: 30968
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.8
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: openblas (= 0.3.8)
+Description: Static libraries for openblas
+Filename: dists/termux/extras/binary-x86_64/openblas-static_0.3.8_x86_64.deb
+Size: 3372704
+MD5Sum: ba0861369ae4501934ba43acbf866b69
+SHA1: eb7764ae997b4f52adeaf75ef4d95a7de41d28c6
+SHA256: 0726f411315bd867691f8114381de3c1f2ae912162edff6375d972017c50afb1
+SHA512: f437f2e93f5f3b3198f539d603590cb72534ba2163dda0c4f22014420220654d4e9fab2373c3d64b38c808d07f446b4a098b0f59481ae539351dec7358180124
+
 Package: openblas
 Architecture: x86_64
 Installed-Size: 15592
@@ -1428,6 +1475,21 @@ MD5Sum: 94b620cf8458c6ad7fb12c113ad2f391
 SHA1: 220eef14fed2572e317eb0622c2a8004569d81de
 SHA256: 7f83215dfe17d2a96c1a38dfc941b42c75cff95a144fad5e68c6eb02ce134eae
 SHA512: 6e013a2d5704b8c9bfa3898931269c69a9755d914f059cd9b213ffc9cdf98d77e90d4f1785b75bdea7c426f27b5f403624d9b4354d0a5bd28301edeeab321d15
+
+Package: openblas
+Architecture: x86_64
+Installed-Size: 15792
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.8
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Description:  Optimized BLAS (linear algebra) library
+Filename: dists/termux/extras/binary-x86_64/openblas_0.3.8_x86_64.deb
+Size: 3416796
+MD5Sum: bf5479109753d3ffee9f12057e704c5e
+SHA1: 760ace7574df68cb280ceea74c1236736a66bc5b
+SHA256: 63b197c59efe75893fa30876308e164e6480ab876c3b73437e034839d2e329b1
+SHA512: 6364580f424499539677e703026b9187e3fed957b145fa39865fc0b10443360d9425e888d7c17e7be29b4d071e84e5b48664106b52534b0fa13765b21432bd91
 
 Package: opencv
 Architecture: x86_64
@@ -1818,6 +1880,21 @@ MD5Sum: b1e73a5b6d37f095e6d720e8eac109a2
 SHA1: b78221049db2ffc04b7acb6e536ae3dd38b1f012
 SHA256: 18cdf03b98225fce1951c237758b1ed1e4054a9a69c5ac863732e934616e63f2
 SHA512: b5ceb5095856bc65df257ba2bc5daf134c4de15fde476bb1d92206305fa9c6c32bd686e23726290a05d337c3a0555cc51b3045ecc248a19b2043b9b2dba83cad
+
+Package: rakudo
+Architecture: x86_64
+Installed-Size: 88212
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2020.01
+Homepage: https://rakudo.org
+Depends: moarvm
+Description: Perl 6 implementation on top of Moar virtual machine
+Filename: dists/termux/extras/binary-x86_64/rakudo_2020.01_x86_64.deb
+Size: 10431732
+MD5Sum: 1bfa3d49aeaa762322c8a9ee3cee9cdb
+SHA1: aea28e8caf0e6fae309298a214b5a58c00047749
+SHA256: 9ea6b6baf8db2f7e9e4dfd9be2ba77ae417a29513e93d608cf20296bfa9f1033
+SHA512: 6b2ea8a36600f4f5c7909a78866bc8cb4b5e3b640c03be7575a4fdedc51109a64e00aae1ebc97cb5a94e0bd4427afd64567d8ebcc2ae6c2be3e4874ac1ac1032
 
 Package: scipy
 Architecture: x86_64
