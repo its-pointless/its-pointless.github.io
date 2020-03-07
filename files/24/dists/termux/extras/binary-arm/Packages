@@ -1895,6 +1895,21 @@ SHA512: d5f822802b955b5ed8669ca2b623e46b55a83423698f7bc6d8c29e3e1734b9144d4fcff2
 
 Package: rakudo
 Architecture: arm
+Installed-Size: 90944
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2020.01-1
+Homepage: https://rakudo.org
+Depends: moarvm
+Description: Perl 6 implementation on top of Moar virtual machine
+Filename: dists/termux/extras/binary-arm/rakudo_2020.01-1_arm.deb
+Size: 10946266
+MD5Sum: ab2971705c7f22cfeb381313da73e440
+SHA1: 9e1bd3585cb7f9299680387aa4d31c3e9035f6fe
+SHA256: 62ba2007dba98a003b569f1e26fff01fb40457d9b4de65282895e7905690e36d
+SHA512: 3e0dcc53a0fc275b463ab31e1c04ce6eb2e16d7e73f4531e5a235c78a6eb4831eeef4d97e5aec1914bbfe8b2650e8575e6cf039e5bb2bb2b6f114f6f4a222ada
+
+Package: rakudo
+Architecture: arm
 Installed-Size: 91432
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2020.01

@@ -1885,6 +1885,21 @@ Package: rakudo
 Architecture: x86_64
 Installed-Size: 88212
 Maintainer: Fredrik Fornwall @fornwall
+Version: 2020.01-1
+Homepage: https://rakudo.org
+Depends: moarvm
+Description: Perl 6 implementation on top of Moar virtual machine
+Filename: dists/termux/extras/binary-x86_64/rakudo_2020.01-1_x86_64.deb
+Size: 10429186
+MD5Sum: 2f0d1f65982dc62482f7ad49760232c2
+SHA1: 010a1dca93c2a42d108aa00b26f2df3964477361
+SHA256: 88d2a05537d9effda5c6fc1e3f03f274f5190ca5e5eb54cd43da5fb00fe36e48
+SHA512: 0aaff0b34a7ac96daccc59cf1f7f9ff3d645723aa4d85b411cd2c5cba7612d31f56c1efd2becf98d1f45c0a9713e0f2a4a69d83934a618135a61dcd4761999a5
+
+Package: rakudo
+Architecture: x86_64
+Installed-Size: 88212
+Maintainer: Fredrik Fornwall @fornwall
 Version: 2020.01
 Homepage: https://rakudo.org
 Depends: moarvm
