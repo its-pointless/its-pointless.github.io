@@ -6,7 +6,7 @@ apt-get --assume-yes install coreutils gnupg
 # Make the sources.list.d directory
 mkdir -p $PREFIX/etc/apt/sources.list.d
 # Write the needed source file
-if apt-cache policy | grep -q "https://termux.org/packages" ; then
+if apt-cache policy | grep -q "termux.*24\|termux.org" ; then
 echo "deb https://its-pointless.github.io/files/24 termux extras" > $PREFIX/etc/apt/sources.list.d/pointless.list
 else
 echo "deb https://its-pointless.github.io/files/ termux extras" > $PREFIX/etc/apt/sources.list.d/pointless.list
