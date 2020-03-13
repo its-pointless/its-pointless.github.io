@@ -104,21 +104,6 @@ SHA1: ade0aa2a36237ae87d433d9d97fffb1e17b5479c
 SHA256: 99cdaba9832b467ab7a40c3c420755cb52b2732cd6ab0904d2563ea4f5c9540f
 SHA512: efb7e07121daef00f89d677cb8f1fdf80ac7a207f59ebd9d50e91f7703c1a854d5a160d3edbf2a529d521c4474de2521c57d36a7f939fcd53f4c2179c104fee7
 
-Package: clangd
-Architecture: i686
-Installed-Size: 19908
-Maintainer: Fredrik Fornwall @fornwall
-Version: 9.0.1
-Homepage: https://clang.llvm.org/
-Depends: libllvm (= 9.0.1)
-Description: Language server that provides IDE-like features to editors
-Filename: dists/termux/extras/binary-i686/clangd_9.0.1_i686.deb
-Size: 5096084
-MD5Sum: 4df28c844a5c2040c28412c77244550b
-SHA1: cc22067d32b163b05ccdda74ebe6f1faddd21837
-SHA256: b7d3f27180f5f0b49ae3a36e9c94c2483aa740a0dce99d0de8e588f08cf51bc4
-SHA512: b527e01f29864d5029d2d423e6f1cbe5c8bf2f175abd7ba73e730b3f4d5df6856fc651e06812cb1553a36b4473baee8ef03b59f8e6b55fbc5dc5835a8080c90c
-
 Package: ecl
 Architecture: i686
 Installed-Size: 8488
@@ -212,18 +197,20 @@ SHA512: 83d68b22e8204c6937e5190e2e0fc66c92ce6850e464929516ce71c0dd7dc3299eb69cea
 
 Package: gcc-8
 Architecture: i686
-Installed-Size: 114536
+Installed-Size: 122940
 Maintainer: @its-pointless github
-Version: 8.3.0-5
+Version: 8.4.0
 Homepage: http://gcc.gnu.org/
 Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv, libgfortran5
+Conflicts: libgnat-8
+Replaces: libgnat-8
 Description: GNU C compiler
-Filename: dists/termux/extras/binary-i686/gcc-8_8.3.0-5_i686.deb
-Size: 32605062
-MD5Sum: 905a0ea981cd21065ccece681ea45e66
-SHA1: d6bc901fc68cec5933508943a26c8a28a3acd656
-SHA256: ac9566b325f0c5607fff103da50ee5d8e6ea42174dd7fc0c5307e7cc35c643b8
-SHA512: 9ac27dc2b4e742b0b3093c0c545806d48959b755579c7dc3c12cb286a71b98c3cffe51e63ef3e6b14546b5e2095d483c0d9d516537f10e8d82d4b0d519da9ea3
+Filename: dists/termux/extras/binary-i686/gcc-8_8.4.0_i686.deb
+Size: 33960498
+MD5Sum: fbd30701c4cc1a22ddf256207f2c9c02
+SHA1: 1435de04c73a163fa2721b4d00e4e4d5c46df288
+SHA256: 4b2b7d4f2f555e7ef52f74470ce1284b8772fe3bb58d46db5a70f6cb912fd6b9
+SHA512: ee27782bafe88ffe00e6bf45d3170eed3d0fa78d9fe299fbb8670f984037023e83634aa65531d624076c8a7d8cf0078b69adb39d4099963a0d0170b721b7f059
 
 Package: gcc-9
 Architecture: i686
@@ -240,6 +227,21 @@ SHA1: 28fee8004309cfe327c5db0c6cc3bb7e61bf04b6
 SHA256: 0bbb7a39ee693c4ecdd6f2fce9d481ce8f58e7fadc9d59f8208f13309eaf1129
 SHA512: 246eb1a278048c0be19755137f6a6ba3d281ca87ddaa96a1e96d338d5398194149642cd86c8b36d44d62032045433c0c292e45b2c851388d697f4b31487cae94
 
+Package: gcc-9
+Architecture: i686
+Installed-Size: 129736
+Maintainer: @its-pointless github
+Version: 9.3.0
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv, libgfortran5
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-i686/gcc-9_9.3.0_i686.deb
+Size: 35452548
+MD5Sum: b9598a4856cdab72cd98e06e4d327220
+SHA1: ca43aad0ed0b214eec259fdc06fdb821e6bf3e9f
+SHA256: f5e07ccb7600331a2d50d899d6d96655b279d46d2935ef87815729ac3b1b23a3
+SHA512: fea63daca1ea9b29fd303465c31f7836048668b6d120591f926aaa1c993e076cc0e7b260502c805b84f783ac9184b66a1d8ecfd1c997e1ff511c7f6d02c2c5a6
+
 Package: glpk-dev
 Architecture: i686
 Installed-Size: 40
@@ -255,34 +257,34 @@ SHA1: e63fd0542fcfebc2c3405ed7b91f1d326fa82ed8
 SHA256: 531f71859d31481f5be8c1255b740765b550bdfae7c2c9421a778ee20d82a856
 SHA512: 4a74167abced99fd2e637f3878ec06761294a6f1c79efb390e5c51ef4684ca4ad37aa996cabba11d51c9272c8b91f054e862300de3e39c58fd17c57dd5cb425d
 
+Package: glpk-static
+Architecture: i686
+Installed-Size: 1364
+Maintainer: @its-pointless github
+Version: 4.65-1
+Homepage: https://www.gnu.org/software/glpk/
+Depends: glpk (= 4.65-1)
+Description: Static libraries for glpk
+Filename: dists/termux/extras/binary-i686/glpk-static_4.65-1_i686.deb
+Size: 400558
+MD5Sum: 6a64393e0cc941852fbe532b57379c78
+SHA1: cc6f861a7ac8e3c57d925f17016b6cb979bdfe8b
+SHA256: a23b44d294793c794c93450f2af2b9d8ce2725cdee85d1f6b5066cd9deb68aa3
+SHA512: bf8d3635cd519123ad0446110230bf62c0c170d3f77ff5d5697783e2b333029e0936243083da735e43423780560ecbdaa0f786ce3150ef65467071c319e0eae9
+
 Package: glpk
 Architecture: i686
-Installed-Size: 812
+Installed-Size: 852
 Maintainer: @its-pointless github
-Version: 4.65
+Version: 4.65-1
 Homepage: https://www.gnu.org/software/glpk/
 Description: The GLPK (GNU Linear Programming Kit)
-Filename: dists/termux/extras/binary-i686/glpk_4.65_i686.deb
-Size: 323874
-MD5Sum: 2599aca59d29f13af6c1bf60db3aba50
-SHA1: 1a35d23f35202e6289b932dc61299cd17aaa051c
-SHA256: ee93458cbbf0f2be4705772624883b30cba1a4f5975fd6d7ba52320250474d74
-SHA512: 6e14265cbde4f90d3561de23f5e3c6a039746ceb6da32081d22b36e990a36dc6391e9785b53fa99f3b488682aec5307ea5416eb577c83a66690ec40d59e2d78e
-
-Package: gnat-8
-Architecture: i686
-Installed-Size: 79000
-Maintainer: @its-pointless github
-Version: 8.3.0-5
-Homepage: http://gcc.gnu.org/
-Depends: libgnat-8, gcc-8 (= 8.3.0-5)
-Description: the ada compiler
-Filename: dists/termux/extras/binary-i686/gnat-8_8.3.0-5_i686.deb
-Size: 17235218
-MD5Sum: 6d488ef5476859ffce51eca4afc65abb
-SHA1: d2bd5aa9709dcaa876e18d1c6bba3d289d607b6a
-SHA256: 64e6576219e323544ca1c22e7567e7c7049a4b3261f7858711ce66ca25f0cc17
-SHA512: ae045216d26b84c0904bc993e60fe9777064c3acfb2448e4ca29c9c2aeb98cda692e2a97814c6a42d62580feb77b6e4e60575f24027f8e185c4053ed4abd82ae
+Filename: dists/termux/extras/binary-i686/glpk_4.65-1_i686.deb
+Size: 333864
+MD5Sum: 7592b8a262eb77987e7920cf704187b6
+SHA1: c331fa0db0f1385a9735fdbb28f5a53ca516043b
+SHA256: 7ab935bac49af64ebd4399325c46725c60aa98d752ebd4fd38ad3ceaeb9b301a
+SHA512: 2e51529c6fc518bd4e6658c48bd318b060d786213c2ae02140a9e2578abcbdac330cbfce893564a8d35c82a3a19b9bcdbaeef75a513e3fa9a482d2eea6fc3658
 
 Package: gnat-9
 Architecture: i686
@@ -298,6 +300,21 @@ MD5Sum: 381654dd7ac197142bfd14478573b667
 SHA1: c2a68228c9950338b8e5212efe478e2f142c4c8f
 SHA256: bff3bfcc3dc4390e63d91b420e5ac730927266c144fd3f361153f91ab768389c
 SHA512: 5bbb8be11729d141ce8907acad009c1147d6f4a8fc1422bbf44f520324ca1bcf05e963c498ced1eae4e1732e6b5d0281597a8c5f16f55705d96c342f24f726db
+
+Package: gnat-9
+Architecture: i686
+Installed-Size: 80956
+Maintainer: @its-pointless github
+Version: 9.3.0
+Homepage: http://gcc.gnu.org/
+Depends: libgnat-9, gcc-9 (= 9.3.0)
+Description: the ada compiler
+Filename: dists/termux/extras/binary-i686/gnat-9_9.3.0_i686.deb
+Size: 17569796
+MD5Sum: d84be41d68dfd16818585d8057195c0e
+SHA1: 22841e528256b6410540cc66b67ac2ba680a58d4
+SHA256: e67feedb2bb24551bca3b38d5001db1f7a446d378cd97e0e731a7a5e582f12c9
+SHA512: d82580b16f2d48b60239d73749c0b80fef991ea08beb0b71da386ed683c612493f7004626781b4d5ae6dd583de630a4c32b3d500fcc080a45e5af17dc71bc946
 
 Package: gnustep-base
 Architecture: i686
@@ -330,18 +347,18 @@ SHA512: d98e9f890bac1dd11bbcd7bfb6347bcd3d2085ff0f5a62dd2e551324d371c60f8dcffbd8
 
 Package: gobjc-8
 Architecture: i686
-Installed-Size: 24592
+Installed-Size: 24800
 Maintainer: @its-pointless github
-Version: 8.3.0-5
+Version: 8.4.0
 Homepage: http://gcc.gnu.org/
-Depends: libobjc4, gcc-8, gcc-8 (= 8.3.0-5)
+Depends: libobjc4, gcc-8, gcc-8 (= 8.4.0)
 Description: GNU Objective-C compiler
-Filename: dists/termux/extras/binary-i686/gobjc-8_8.3.0-5_i686.deb
-Size: 6979818
-MD5Sum: 0faa0694cb2f45c6374ead20a44bd71f
-SHA1: 6929bf1cb09a5c4c1f1fd51a5ee7dac53beb3337
-SHA256: 1ce689ae6aaa2ba06098892c07b761c6e22ed50fe69b59e2084b95c8ee42f4a9
-SHA512: f3ffe745c2fb5e619def5047e6113d4e2f8429d5080a9a5d14dedc52aa1e2138c775b4e0bdcef9184af05e05d9efccb48e73d5ddf4bd04d4b11f0b9bbbda3b74
+Filename: dists/termux/extras/binary-i686/gobjc-8_8.4.0_i686.deb
+Size: 7012062
+MD5Sum: 462a70c8c555ffe94bf8227a8f36e327
+SHA1: ac01e0b63a3a37bdbc8102fcf7d1f96120aea4d7
+SHA256: 52cf00989af9a5dab1a7fa7120410c5b93197d109e0eeb1f1c6996932b103476
+SHA512: 718f6bc3013102b1412550a9d0cf445cf3349721d3e833c39fbf1942549bd7928e0b79110f45c07f17a61e4bd74eef52bc4d70ad725b81fecf444751d8744cf5
 
 Package: gobjc-9
 Architecture: i686
@@ -357,6 +374,21 @@ MD5Sum: 57e480fb956ea0c9cd953537b4a654c6
 SHA1: bf51b62e4ca6c4388a819145908d6558a9f0ad8f
 SHA256: 9a911476809a9299a3fbf3bd833dc38b4da9546165db26f4e6658357dd15233b
 SHA512: 026734955cbd82c7fbf2364a33a68940c5c09378ffc30758582b40c73852c5cb948e3d3fc89a7cc01d69e242b271d0641ecaa394cc30a4324fc26c8a1d416221
+
+Package: gobjc-9
+Architecture: i686
+Installed-Size: 25804
+Maintainer: @its-pointless github
+Version: 9.3.0
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-9, gcc-9 (= 9.3.0)
+Description: GNU Objective-C compiler
+Filename: dists/termux/extras/binary-i686/gobjc-9_9.3.0_i686.deb
+Size: 7254842
+MD5Sum: 8a4f3dc91af277d0916bb5aa3391409a
+SHA1: ed27e78ce53be04ccdc92a7f1fccf7c2285dc566
+SHA256: 9a24de29419dc82d4415ab712b13fff19ae324ac240cce14c0e6673256a3cb01
+SHA512: 4d6c769f4826fcd7108b814179c4ad2df9fd11ea51e9d2ecd43a1e923b542dbde4db8192447e363af11de9c4baeb1f01f749a99f8ba99ae1390260a432ea9005
 
 Package: gprbuild
 Architecture: i686
@@ -579,18 +611,18 @@ SHA512: 8627ac016ab2dc8cc496788ef3faef9a8c960063531b31cb90248b4a805f218fbb0e0698
 
 Package: libgccjit-8-dev
 Architecture: i686
-Installed-Size: 22492
+Installed-Size: 22696
 Maintainer: @its-pointless github
-Version: 8.3.0-5
+Version: 8.4.0
 Homepage: http://gcc.gnu.org/
-Depends: gcc-8, gcc-8 (= 8.3.0-5)
+Depends: gcc-8, gcc-8 (= 8.4.0)
 Description: GCC just-in-time compilation
-Filename: dists/termux/extras/binary-i686/libgccjit-8-dev_8.3.0-5_i686.deb
-Size: 6427814
-MD5Sum: da9d2d54b3303351445cca1e1d2b3a46
-SHA1: 0a3bb7156916b54db95db8bc15e7f64471f435bb
-SHA256: 387ab6746d5c10befe2b1d0d3e4fef33be2828ff6a0fb1d33167c0f263e860ad
-SHA512: 37eee37bc2c11e9f1a6a0457b1e5145dfdb3f53da01a1fad2de77ec632ccccd84f9ff4ff85f7c0747d6e5c75b9f4f6d62eaa2d6e5e2dfc651b459e7a2113b196
+Filename: dists/termux/extras/binary-i686/libgccjit-8-dev_8.4.0_i686.deb
+Size: 6460686
+MD5Sum: 778ae1593a53dfcae5a8a98b09255e5c
+SHA1: 9c13f821cd6716859a6a07ba81128ed9edea29d7
+SHA256: dd1b4d39253b835d0e1fe996a912dcfcbcc7349414b055b056182f5dbc09783d
+SHA512: 5c6266977300cf7c942aa1524ee5a0be734558ed428a5093fc394ddb1a732b70752e6aec05fbcf890a9c0940dbeb5a30a6dacd9b56c6eadeec65284978bdd4ce
 
 Package: libgccjit-9-dev
 Architecture: i686
@@ -607,21 +639,35 @@ SHA1: ce67d71f7f12715ad704fcac11a99a3375451b14
 SHA256: 6f978221ad13dd5ed764b549b260255f0464ebcbaa367b8c263b9f480283e4a6
 SHA512: b8c2a3f9fa08a5ce2a80523300ef0a1dbb4c3961be9339b2cdb6ba735509366415e5779559fde5ee63d6e28792bb78cce1f5aaa4d07f95cc66cb7f7c3586b8e7
 
+Package: libgccjit-9-dev
+Architecture: i686
+Installed-Size: 23576
+Maintainer: @its-pointless github
+Version: 9.3.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9, gcc-9 (= 9.3.0)
+Description: GCC just-in-time compilation
+Filename: dists/termux/extras/binary-i686/libgccjit-9-dev_9.3.0_i686.deb
+Size: 6654674
+MD5Sum: 6e700b5059b934c6038beb7910fd0d8d
+SHA1: d87974eac55ebbe18d782f83c42de241b1a3c48f
+SHA256: d02b8590d0744a78f289b4e77e4fcf666892a51afc932c26c320a5c998edc972
+SHA512: bdef27670022ecfac72476047e6dc48553ae11653fe30403312baf33aaad7329e47c9a8673369e6855850932bde4e9f60b838827796766c84985c2a619c0e94b
+
 Package: libgfortran-8
 Architecture: i686
-Installed-Size: 1300
+Installed-Size: 1364
 Maintainer: @its-pointless github
-Version: 8.3.0-5
+Version: 8.4.0
 Homepage: http://gcc.gnu.org/
-Depends: gcc-8 (= 8.3.0-5)
 Replaces: libgfortran4
 Description: dynamic library for fortran
-Filename: dists/termux/extras/binary-i686/libgfortran-8_8.3.0-5_i686.deb
-Size: 362390
-MD5Sum: c3d0af5dd1d392836124c630be164bff
-SHA1: 68387618df85c3ec8f0c4630b60c3b8bd43147fa
-SHA256: 19f3edc76d185a3ecc4ab3cf948880b2bce0840116e8aaf1b26ce27293b2f281
-SHA512: f52edd7460c1370b3ca0f935fed8a0daf3d71eb4549b5f77ad8b91b60f1a2f027f42a98045653df10f934cc2b5b51d0b9d1a356024733e996dd3603f90281fb8
+Filename: dists/termux/extras/binary-i686/libgfortran-8_8.4.0_i686.deb
+Size: 372136
+MD5Sum: e33d338f4f3ede0f2f45c655e9de7676
+SHA1: 9c725df423fa7f3f4aea00657822ed2d3c482f28
+SHA256: 601c7ee9e861fdad7b32a85bcfc7b66904ad03faa471ef0c36f8371c7192abf2
+SHA512: 12e195a7160d10039aebaf4542bf3bf8c909dacf6726663c2f0f03d1003dcc58f0720d9e717af30728d35024e09f1b059d59a95f23c1ac573c1cd00dba7fc851
 
 Package: libgfortran4
 Architecture: i686
@@ -654,21 +700,6 @@ SHA512: 8385c2750b46c129d8647dda42645ea28710850a46943f0f0b53e1734ca4ed1c31748a3a
 
 Package: libgfortran5
 Architecture: i686
-Installed-Size: 1300
-Maintainer: @its-pointless github
-Version: 8.3.0-2
-Homepage: http://gcc.gnu.org/
-Replaces: libgfortran4
-Description: dynamic library for fortran
-Filename: dists/termux/extras/binary-i686/libgfortran5_8.3.0-2_i686.deb
-Size: 362402
-MD5Sum: b3b57b6a73cb8f5760390f039cdb3b2d
-SHA1: 03f087ecadd1c7cb508a05707d57678185af33d0
-SHA256: 0c4e3a496f7b073958ac6018367c3b086b0abc4d04d9d4c8f3cf11b63d53f537
-SHA512: e4bcd09115e74670847f547fa936eb2aedfb11e86ecab27085f3a4afdecab49ee5fe2bef90620ebc2966565ea0ca604b9dad7e23fa515fab640ee6af6204980d
-
-Package: libgfortran5
-Architecture: i686
 Installed-Size: 1472
 Maintainer: @its-pointless github
 Version: 9.2.0-1
@@ -682,36 +713,20 @@ SHA1: e8d172fd3c43f368593b956ebbff92bc8334a97d
 SHA256: 8df2df3e099df17be843842429e82398a43fe12507c2e489900626745e79c770
 SHA512: 0e3c463523a0f8bdc9a426ee927df34c0cf258d8375f2d963bc5836b522c1bf613413664b3e18fcb231350fca495b16542f7dd61a45891967ed532ac42c63387
 
-Package: libgnat-8
+Package: libgfortran5
 Architecture: i686
-Installed-Size: 3840
+Installed-Size: 1476
 Maintainer: @its-pointless github
-Version: 8.3.0-2
+Version: 9.3.0
 Homepage: http://gcc.gnu.org/
-Depends: gcc-8
-Conflicts: gnat-7
-Description: libgnat shared libraries
-Filename: dists/termux/extras/binary-i686/libgnat-8_8.3.0-2_i686.deb
-Size: 958530
-MD5Sum: a4fea73a5b8e40f4e963799056e4ad9a
-SHA1: c34523a238c5459af9645bf8618dfbb93b27105a
-SHA256: 6b9a9cbcfcf832c559d6712bd44c1855274d5e3fcd5956ee0d04b9c8394792f2
-SHA512: 5eaa116dade660f81b1af1ec097f47f6243e01d687ec68c7e4d35c24d7cd40ab8debbddee2d6412f8cd1e67d255a13e7ab3d7bb97625c0674ecb616c1a7fafac
-
-Package: libgnat-8
-Architecture: i686
-Installed-Size: 3840
-Maintainer: @its-pointless github
-Version: 8.3.0-5
-Homepage: http://gcc.gnu.org/
-Depends: gcc-8, gcc-8 (= 8.3.0-5)
-Description: libgnat shared libraries
-Filename: dists/termux/extras/binary-i686/libgnat-8_8.3.0-5_i686.deb
-Size: 958472
-MD5Sum: c60fe381fd9bed07f8b14953bc9eac75
-SHA1: c11f1194cea43f3532c160469b52ef17a6868e7b
-SHA256: b9dfda62c873a750446ef6dece6be8da6318c3808d7c6533a481ac09c4b75911
-SHA512: 67894cb28f7b616e38b455113daf185f065003466eadf48f1025cea95e45a9c181de0e36f1ff40191f926d111ecb4e95b52bcc1213fae5a49add9006ece2a55c
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-i686/libgfortran5_9.3.0_i686.deb
+Size: 406916
+MD5Sum: d242dd0ef0fe0a1508ae2a817197012e
+SHA1: e6325e9211aa7c6e4515301123bed75cedaa39bc
+SHA256: b7952c847e62c5ddcffff2373efd40fd4e75089e80911898073e3440fe3cd6ab
+SHA512: f86154a24ecf6b603b1a8dad2e93005bbdc04f4e8a7073eee9d677f6eb9be81dcad79f32c07b06413a9af717ffaef685e909b3caf22ffd3a02884b0fa352c89b
 
 Package: libgnat-9
 Architecture: i686
@@ -727,6 +742,21 @@ MD5Sum: e29c5e92f4e6a97c84e1ffda246a54f6
 SHA1: a8eb2aa9c8828d95d7ade6cc602db9565d382787
 SHA256: cd5f99b589670e6ec03e38330c05b16aab91b75c8ea4c87af743ec37df3b6ad3
 SHA512: 99a34e2f976e1986789bc69d2fbbf9de8f690fff6de9351f4cfc2189b92a1e7008aee645dfde50e0936d4bd528d07cef953a8297d9b33832fabf65d5a1b7d582
+
+Package: libgnat-9
+Architecture: i686
+Installed-Size: 3904
+Maintainer: @its-pointless github
+Version: 9.3.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-i686/libgnat-9_9.3.0_i686.deb
+Size: 978510
+MD5Sum: 4d1a310154b42e0817381cc1bc29d2be
+SHA1: 601f24b86564fb9c734e9c6495e5e316534c06f2
+SHA256: 81166578a2679278fe25a703bdfa4d6980bddee5b0f1710f6b9c23afa152b598
+SHA512: 8b229ec3aa38bd2cdc46bbee76844457e3db7d856a0006160976450a144f4c89c08ffdbf91489403619b9c1645a4bb4d6ebfa52a880a1c8af2e964f587efede0
 
 Package: libgomp-7
 Architecture: i686
@@ -764,20 +794,20 @@ SHA512: 64d858abfbf89c3203aa65eb3be136469a15ba106f22be851d255f364834910ec20e408e
 
 Package: libgomp-8
 Architecture: i686
-Installed-Size: 236
+Installed-Size: 244
 Maintainer: @its-pointless github
-Version: 8.3.0-5
+Version: 8.4.0
 Homepage: http://gcc.gnu.org/
-Depends: gcc-8, gcc-8 (= 8.3.0-5)
+Depends: gcc-8, gcc-8 (= 8.4.0)
 Conflicts: libgomp
 Replaces: libgomp
 Description: openmp library for gcc-8
-Filename: dists/termux/extras/binary-i686/libgomp-8_8.3.0-5_i686.deb
-Size: 63446
-MD5Sum: fcc45d16c61411f638f95b9700d22086
-SHA1: 5f4fa3db764897e11b9d8c5e41cfe0edee2c1fd8
-SHA256: 6585ee733383cc7ea9f907f1f2e37904b106b3d3031aeeedbd85b4e3980abcff
-SHA512: d71439730c1d82bad7f9ffa193c82d84464530a396c88dc1406820d96365de0214cac40e94b950afad82d38f95b4ebbf8ef9ce16517c2a9076c2f7ee5a8a9b73
+Filename: dists/termux/extras/binary-i686/libgomp-8_8.4.0_i686.deb
+Size: 65416
+MD5Sum: 17e0db6da6a441f67bece0e76a5b6861
+SHA1: d26de691a78ec14658410bb1906d75a0b7275750
+SHA256: 687389572b8e09acd5fb1dbd2cabb4464d597d8f7b0192bd837a288c3dbdb3b5
+SHA512: adbda7d99fa54dd4b819a8f14828e4de5129f84486a4216e410b1888c99ccfd1b1693f22583b7ff9204816a3d496145dbbd8c4138be587ed145426d274f7a004
 
 Package: libgomp-9
 Architecture: i686
@@ -795,6 +825,23 @@ MD5Sum: f8a6328d7a94b868deebe522558da214
 SHA1: 9f16ff18080358eddf2635ce0006128f3ca1ec7d
 SHA256: 79479e5312ccf202c3eb6cce5a410a471c3b140e230bdca251c01c214b2bb069
 SHA512: 810b56345797b54d490f7df3356874223248ce7eacd5278fd6f9d31c4f8227b1ee7a86e6dbc2896aa83ecc0f585a622b535e1185954188a5baba5aed77dff022
+
+Package: libgomp-9
+Architecture: i686
+Installed-Size: 276
+Maintainer: @its-pointless github
+Version: 9.3.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9, gcc-9 (= 9.3.0)
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc-9
+Filename: dists/termux/extras/binary-i686/libgomp-9_9.3.0_i686.deb
+Size: 75756
+MD5Sum: 738ea179cc7554639a5059a4f23a025b
+SHA1: cde3a19ae5b10ca1ad4ef5954ee7e2d86990fc7b
+SHA256: b28f4a017435364b2acd8c39bbf79cb979027cbffca554ca83bd48850fd5b73b
+SHA512: 5103452d41a7e1b4afdef18eecd1a71b518920cd3636c5ef828cf64a5df21fc6309926d0372dca244d524364bcfe7b0d8f5b25cf25ae923ff6d07d80552ec4ca
 
 Package: libiberty-dev
 Architecture: i686
@@ -855,18 +902,17 @@ SHA512: eeb1f43eb7d06d5b03c1d4cfff31bfc6c7b5b38e75f7d9f22f963fc6000d3c01a1f01720
 
 Package: libobjc-8
 Architecture: i686
-Installed-Size: 204
+Installed-Size: 208
 Maintainer: @its-pointless github
-Version: 8.3.0-5
+Version: 8.4.0
 Homepage: http://gcc.gnu.org/
-Depends: gcc-8 (= 8.3.0-5)
 Description: GNU Objective-C runtime
-Filename: dists/termux/extras/binary-i686/libobjc-8_8.3.0-5_i686.deb
-Size: 51846
-MD5Sum: 7b8fdf9949376e867c4b080d8391f848
-SHA1: ec3cf455bc145306712a4152398ac4f212e46676
-SHA256: b331dcfa404e2ad45f703b59af3285db4edaafcfb9b8d5a2f880071c29bc6b49
-SHA512: 7e7ed2921bb97a4eae063445c98277f3ef73a11f9bb4f1bb2084f47ee95b2101c079be2f485fa003ddce5d37a89adb6c427d9f5f8167b5f9c458ee85418a32ec
+Filename: dists/termux/extras/binary-i686/libobjc-8_8.4.0_i686.deb
+Size: 53140
+MD5Sum: 188003def3d3e48e3539619e7538327b
+SHA1: c2bdca62f3dbc7fef9e5d50a25bf39d3bc518023
+SHA256: 7ac9764512c5f83ddc77e842b80b7b71e17f23dc8f3200b94e33e692978cea6e
+SHA512: d28ea320c7b5e0c213fdc36ed8f5b4c7956541abd66116f4eafca5037d6932de2d6b182fffbb84cc8f9612de92e360195c0c5612172141e875c44afd8d3ee5ca
 
 Package: libobjc4
 Architecture: i686
@@ -881,6 +927,20 @@ MD5Sum: 5fc8f0ba85131d0a9a305b673f4b9cd6
 SHA1: 791a83a327dabc0cf77c1e3d1a05da62881ef73a
 SHA256: b4a79c217539be02b96709305600bf8421a7b4079740c3d881e757dba5eb2c7e
 SHA512: aa95782290993756d560945df4f562b5e3775e7118b81efcc3ac12b8ca3e64dadbd80485230a85b389997e627672999bdcecd7caefb600b8d06f2a4c82815b96
+
+Package: libobjc4
+Architecture: i686
+Installed-Size: 208
+Maintainer: @its-pointless github
+Version: 9.3.0
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C runtime
+Filename: dists/termux/extras/binary-i686/libobjc4_9.3.0_i686.deb
+Size: 53232
+MD5Sum: 2ee58bd8b6f29648ea6edb527224a2ee
+SHA1: 96bbd3a01af503e23a9eb497bb538fd55caca233
+SHA256: 01fcbba463fa86b6ef49a5d1d9ea232bdd1c45986aa8dc51026f3cc9f8deaada
+SHA512: 2fdbf805071b6f7425e251821288084ef1a1658f585f5fc2deace39cd803d48f2a8ed1416f0afada34324359db000f16660b32066bea33523cdd9f57a3a205ea
 
 Package: libopenspecfun-static
 Architecture: i686
@@ -913,35 +973,6 @@ MD5Sum: 1f57b518443bf06e9508f4daf4935946
 SHA1: 22120f3da786265877f767be64ca53722340384e
 SHA256: 2dfd9201d938aae06952202469c78db8f80fb3ae287c79bfcf041ea0fcb97860
 SHA512: 7cf391c2d3e8712f105c5d427a8a968cf543a1067d7f2f9099e8baa97efff9181bd3ec9ab0f4fca9c006d087b15b016a3cce83e5bff88070c5baae91f1268239
-
-Package: libpoco-dev
-Architecture: i686
-Installed-Size: 5300
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.9.0-2
-Homepage: https://pocoproject.org
-Depends: libpoco
-Description: Development files for libpoco
-Filename: dists/termux/extras/binary-i686/libpoco-dev_1.9.0-2_i686.deb
-Size: 471934
-MD5Sum: f2d2c16f53fc7f6893bd34a46fd7cd75
-SHA1: f8031f64008a13c26e489536b52b339ad7af99c9
-SHA256: 860418bc67780700a4c9ed234fec2af63b131109fded03d7dfd69cebc55e5076
-SHA512: 81c85dac677dcb864fc8209dd0cc0a166408b6a72e39e40180a9e677d2239c19b2e572a5d450714db1ce0b5024e1825e5b0a654d90dc583197768ffc2531547c
-
-Package: libpoco
-Architecture: i686
-Installed-Size: 9304
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.9.0-2
-Homepage: https://pocoproject.org
-Description: C++ Portable Components (POCO)
-Filename: dists/termux/extras/binary-i686/libpoco_1.9.0-2_i686.deb
-Size: 2156822
-MD5Sum: b1ef39bfdeca57893634251ddaab8b00
-SHA1: ab054a12a208cb885b40249843efe49edaa035d3
-SHA256: 16394332e53f60907bca6abc22f0dd243c3833851cbcff1c62a33977b247fa32
-SHA512: b5f9f1c772bec076ad666c40611e43ea9bfe542d291f26eaf4ef2595edde52f7088d5ee56a32cd6b4aec581e230ef02a47a2b7ab4051cee33591372c86bbdf02
 
 Package: libsmb2-static
 Architecture: i686
@@ -1225,6 +1256,21 @@ SHA1: 484dbf70d5fa206a0dd8600e38c7ef9d101dee24
 SHA256: 4791ec2c2f0f0923d12daa4930dd20dfb88803419dd30bb542b025ab563aa1d0
 SHA512: 51e14737e041567597ba2eaf3a27d51e8843720a2951aad3dab5c34680b7af3c9fd35e062510a0411dff8bb0eb914865dbadc83fe0a06bec74bbf64cc7446cd9
 
+Package: octave-static
+Architecture: i686
+Installed-Size: 82340
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.0
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.2.0)
+Description: Static libraries for octave
+Filename: dists/termux/extras/binary-i686/octave-static_5.2.0_i686.deb
+Size: 8362600
+MD5Sum: 66002e93aeeb568a54fe7cd919de0760
+SHA1: dd2f0e1cda73ef1d9a174e764ea791aa930da471
+SHA256: 3c0c9b47ea17d821c9bf3860cce43bf977feb8a26bf19459ab717bf7bd2fe0d5
+SHA512: f563e829b8221b38aec2831c08d33091c61aa8e3426c06db1cbb0d3142dd539034ec341fecc78c4ce6063a78ab594d4e02c16099e5a6e00b09e968b88bb826fd
+
 Package: octave
 Architecture: i686
 Installed-Size: 55956
@@ -1259,6 +1305,23 @@ SHA1: fef49a452739017ead23cf85a075d98055135eaf
 SHA256: 40cfee01ce769a7cfeb8b9dc7d8cba53bbcc0b04ecab1bf13122dd1c7bfd02aa
 SHA512: aaa7e87511661e8b2e95711246234ac8baa70220b5d5fb206e03daed2839393e430bbea96bb31a13cddce1bc10e4a7b4751e4e57ea8da6188af80f9f225ff6f2
 
+Package: octave
+Architecture: i686
+Installed-Size: 55660
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.0
+Homepage: https://www.gnu.org/software/octave/
+Breaks: octave-dev
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Replaces: octave-dev
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-i686/octave_5.2.0_i686.deb
+Size: 12116562
+MD5Sum: c358ac68a8a031bae00123c3a0f7a459
+SHA1: 1c9afd009dbcdcd13ee5fc2931f9c7ac41d02f73
+SHA256: 1435ed1abaa4f93fd1d3cf459a6c52766d03998d6738ead6c85b93ac2d3bc4d0
+SHA512: 2f757b80d1fb221663fa51bf6b6da600eb45805b9583a38ec14a0f0bb07d03aeb481a68f3e3e160abb5204be8140b04abf25fda8cbcae2c940b62f7755173a19
+
 Package: openblas-sandybridge-static
 Architecture: i686
 Installed-Size: 23524
@@ -1288,6 +1351,21 @@ MD5Sum: 325c5710941c37e3c0041bb1d596e3a9
 SHA1: 6fccd8a32346e4fe1cfb944edd68808b31d1887e
 SHA256: 027f0595778e090f1ff11319471577d9e484637e13291ab02479b4d7947beeee
 SHA512: 4d28ea0ea4ae6cf6d6c78978c726b6bf17286f681367696997b7eae318a0e0c3979dc9fc1d46d502b6ebcca8eb672fded0b9f0250c41f04fa3a1c27e31bd3ae3
+
+Package: openblas-sandybridge-static
+Architecture: i686
+Installed-Size: 23932
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.8
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: openblas-sandybridge (= 0.3.8)
+Description: Static libraries for openblas-sandybridge
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge-static_0.3.8_i686.deb
+Size: 3188658
+MD5Sum: 83ebbdd69f236d00307d20b5e6b5f23f
+SHA1: 43f2de16caa27e302fb14428cb5d59bae768f009
+SHA256: 084880ddb146f02d9b9f3aa76e9f3504726bdd2fba147e8ccb4ee5ce94117ba5
+SHA512: fbbff904f38e8cf534d7cc8646debcabef32c2bc2bb36f6167801d21891af51ac62a835c9e6e5a2d553c09331afaa94c08ce7190c76155b034ff5625cfe23e8c
 
 Package: openblas-sandybridge
 Architecture: i686
@@ -1323,6 +1401,23 @@ SHA1: 68bbcc71cb9a8e6d55efed04af60014b108cb87b
 SHA256: 55e845877b1206e445a018ae1f82a5664b50bb181d87034bfac3f38d4346f3e6
 SHA512: 0407c0194fa62c2b23a79b1a1468164f07237ff0f461467e5a161d81ec46f9ffaa974a492a941de3d208cafd2ddaef0e35f8c1dd0f6024977b814719058fe635
 
+Package: openblas-sandybridge
+Architecture: i686
+Installed-Size: 15004
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.8
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Conflicts: openblas
+Description: blas library optimized for sandybridge(chromebooks)
+Provides: openblas
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.8_i686.deb
+Size: 3167240
+MD5Sum: 54b6028e21814d7e0e4db6cc044c36af
+SHA1: eaa297757d057dd9bba81ca3a34533617fa778d9
+SHA256: ac121b2d1db03a17477a146aff6f0d1fd7d2e9ef64b17057ad14eae846ecd0d6
+SHA512: 158dc84727df1ab00eafb951b3393213debae6a5b3710e800c2a1c228ff7f3980d52a13c1b04f9cd5091b97675713547f7151897e66edabb89bd629aa7544644
+
 Package: openblas-static
 Architecture: i686
 Installed-Size: 23428
@@ -1355,21 +1450,6 @@ SHA512: b2e779fa4032e8d8bdc3dc1b687e66ef0efde6fbb4728065786d98e78b27407b042d21a4
 
 Package: openblas
 Architecture: i686
-Installed-Size: 14668
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7-1
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-i686/openblas_0.3.7-1_i686.deb
-Size: 3061330
-MD5Sum: e3aebc7407e4710d5c4b52496401aa2a
-SHA1: 2cff036f6f756bf9ee59b729788993d7de677673
-SHA256: ada366920774a8260a95a0a5930cf081b4485caa39c215f2f46be74b7bd8c374
-SHA512: bdc69105ec02c4a3e6f238977cfd5b7864124ca99af7565ff11804393f75e947c3b1a909b5faba99491ba4888353ca167d038201335ad38383b5bf4b3dd9e18a
-
-Package: openblas
-Architecture: i686
 Installed-Size: 14880
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.3.8
@@ -1382,21 +1462,6 @@ MD5Sum: 2d3e301628eccf8d2229fd5f0f949921
 SHA1: 7b26d61a40abd1b6500884a8952a873320763e6a
 SHA256: a49a3e7bf34980768306b4cb438be1b846ddf61853f2c49fbfbe44a8c07a57b8
 SHA512: 8feb28fbaa897f9f92b982f23729495d8a06e5e3b152768168698b3a892ac8de1cbc45cb7cb1d6935107169a2c07ad4fea7353f305e42e2477335ad5280e83a0
-
-Package: opencv
-Architecture: i686
-Installed-Size: 40292
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.1.2-1
-Homepage: https://opencv.org
-Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
-Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-i686/opencv_4.1.2-1_i686.deb
-Size: 7286396
-MD5Sum: 18b1ffc4a6a60f2aa30760e9a7e03f9d
-SHA1: bec53edc4a460ecb334a98f10263bf2362fe566f
-SHA256: 0d567e384e0a3139058c245f1325a9a6aa6bed99276e3819f6d7710b04b1ed1d
-SHA512: 6e05bdbed5d7366b876514cb918d1beb1c1f6849649b03ddfb61e2c850b9164752ac1eeb38c49d6a8ff2250f661e3596fdabee0247e19491e60100f4a028beff
 
 Package: opencv
 Architecture: i686
@@ -1653,6 +1718,22 @@ SHA1: f42f055c188e17af1098b8fed0c89524e1c8ca3a
 SHA256: 1d946fa22708fdc109d3b255d44036e719d70fb6ea1db19e5a5de65c3742c280
 SHA512: 1cc39cf6975d9ca35a4e9d77f37f4f5593948bd98e3c6cd9fb345c633ac2b703c744c3f7d3349cdf432b33c2d2411a57810ac077c9adbcfe05e1176e5ba7c417
 
+Package: r-base
+Architecture: i686
+Installed-Size: 65744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.3
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-i686/r-base_3.6.3_i686.deb
+Size: 41398944
+MD5Sum: 1ab872a67ff8ca06632277d590055ec9
+SHA1: f43afbc40b426c6fb96abeba13ae24fd6bcaa153
+SHA256: dd234ff58eb2cac9d20e5e4d84a2d2691fd7afc28ff9b5dfbaf3aad3f7cc04b6
+SHA512: f619fc9ed22b92de59ae7e11dfc74761241b1b4b1481c0aedbe6bff7ecd749b30228b400df4045980059924f7daf5992e717816be1820616eda750058b185e2f
+
 Package: r-cran-rcpp
 Architecture: i686
 Installed-Size: 11936
@@ -1805,21 +1886,6 @@ SHA512: 857f5b8815d0cd45a95208911535e46fee6d62ec356207397adbe02799b3a026f2035ae2
 
 Package: rakudo
 Architecture: i686
-Installed-Size: 85468
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2019.03
-Homepage: https://rakudo.org
-Depends: moarvm
-Description: Perl 6 implementation on top of Moar virtual machine
-Filename: dists/termux/extras/binary-i686/rakudo_2019.03_i686.deb
-Size: 10209124
-MD5Sum: c49542989f7b64e2ee1958ad51a2f8fa
-SHA1: ccbb73aeaff9244fe303023f4428afd4a9660487
-SHA256: 89fc96c68bad0c3246d220d0ffe626057eaccacf4724d107f5809b21e5211b9a
-SHA512: fbeaec5565dc5930fc169febbe02075d784f5aa34d68e59db183531acae1595ca353a6eff75de39ca34e3c736052ba63f26965c04eea5aef9b20001d597b35b9
-
-Package: rakudo
-Architecture: i686
 Installed-Size: 91020
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2020.01-1
@@ -1832,21 +1898,6 @@ MD5Sum: c33364bdce2a2d576f1b7c438434becd
 SHA1: d437fd12ee49de2858f2ad3ab84f578431eb3dbd
 SHA256: 13915114437bb5e278141b3ecb63a956caacebcab6417c8b8814d31ca90a3a5d
 SHA512: 877dc0a8717662795316cd3569acc58677841f5b96c3c33dd7295e203f7e952ad63841fa63c8d30bfee9600d3d4070f48c5935607114c97eb09e1deb354d4d42
-
-Package: rakudo
-Architecture: i686
-Installed-Size: 91020
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2020.01
-Homepage: https://rakudo.org
-Depends: moarvm
-Description: Perl 6 implementation on top of Moar virtual machine
-Filename: dists/termux/extras/binary-i686/rakudo_2020.01_i686.deb
-Size: 10984784
-MD5Sum: e12b86ab791360066d47bd3054af760f
-SHA1: 6ccb523fcf9bea8107d805899431bfdf17026f66
-SHA256: d5376b22175a0794e1c47e3caa3890aaccc954c6f1e5e25962576b358540b0fc
-SHA512: a80e1f96b2c167387d6b9a72b1874c7cd5242f9493274a6d42da4fc7ecfcf09a0ad1af4c007039e56e6a21780019288eff4ec95d42fa991ee922fcbf680091c2
 
 Package: scipy
 Architecture: i686
@@ -1925,21 +1976,6 @@ SHA512: bbd7ce47e4e1f3edcde90b6e901b1a5b5fab942cb71ecb66cb72e6f064d39c8084cdedf1
 
 Package: vlc
 Architecture: i686
-Installed-Size: 11288
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.8
-Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api
-Description: video lan player
-Filename: dists/termux/extras/binary-i686/vlc_3.0.8_i686.deb
-Size: 2488412
-MD5Sum: cbf772129e356d9a0cd27376e6a58a9e
-SHA1: 207b0f6186227948d609722824fd1130012889ed
-SHA256: 8dc81c2f2e39868a5927201d8690030e503eb0bf7772e269b0916f3a4746dba9
-SHA512: 48f9ce804b73225807b18f6e317522e2afa86f27213a41ca4084070f4a8c141a559c4700e502c81b1ba031a91e24167eaed1c7d6e891b577ec89c7f6616929a1
-
-Package: vlc
-Architecture: i686
 Installed-Size: 12720
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.0.9-1
@@ -1952,21 +1988,6 @@ MD5Sum: 7c9f74f96fb7e16d95904b20cb3be457
 SHA1: a7ce5b5a339b55e32ee728e710133d7f96e07b7c
 SHA256: 28e2c7d486938485b3458eaba047c62a3b6591d4e0f3a8c9bb59de752e0669a2
 SHA512: daf838865ab2e7b678f6906694a0f251ce7e3beeb0474cf42c760a207e159401eed5d1a0f0d95d31a80b8f1570bf1c596b5206ec5cfea7bac75563a626c190aa
-
-Package: vlc
-Architecture: i686
-Installed-Size: 12432
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.9
-Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api, libsmb2, libandroid-glob, libarchive, libiconv, pulseaudio, openal-soft, zlib,  libandroid-spawn
-Description: video lan player
-Filename: dists/termux/extras/binary-i686/vlc_3.0.9_i686.deb
-Size: 2473526
-MD5Sum: 96b8d60db1c78548d8e7dd194eda33b5
-SHA1: 190c66c9eb9279ebe7d2d91e690591af5badaaab
-SHA256: 950e46189c046eb514170fe3efc8b0690659065d875be8eda559f0dabde55d04
-SHA512: c007af18445c7074f8b90eef72e084591b01bc45cf2dcad95248be1f70f687fa4820e0694fa13384773566850c6e202bbb46a918d8c71fc0bab3609eaa944fbc
 
 Package: xmlada-static
 Architecture: i686
