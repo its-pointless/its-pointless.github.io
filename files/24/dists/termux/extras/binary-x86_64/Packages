@@ -1034,6 +1034,21 @@ SHA1: 25262c5d04de132139170fc0a2a103fa9d9d7f21
 SHA256: 8863f3ba77a9a7ebc905b0192d985d370ce75fba2b6f1697470f1a44c9da1e10
 SHA512: 85b002a08d779db427493966092d1a08c9b65ae36ba0965db0e06bbbbd0e26c0d2d9af347548da38eec5eae30a5ea6569e92f9e7fa94a49017f23b7f968f518c
 
+Package: libsundials-static
+Architecture: x86_64
+Installed-Size: 3076
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0
+Homepage: https://computation.llnl.gov
+Depends: libsundials (= 5.1.0)
+Description: Static libraries for libsundials
+Filename: dists/termux/extras/binary-x86_64/libsundials-static_5.1.0_x86_64.deb
+Size: 292692
+MD5Sum: 85afeaa233ef00a48b6334cb437b7cd1
+SHA1: 9bbe8692eb22ac4c833bf21467e770f8599fb606
+SHA256: 9246a0e11c1b1e03bbffd3fa39160b11426a566070315f1a5347e369bcdfcd8b
+SHA512: c2c0b2c1d548f9d83de8a9f23d1caff8afe52ac90ac79eda8a9d0be88be9ea43ed798c3c4f43ecd456bd4663d82f1436273d540d5f4f116f9286a7f8a3d1249a
+
 Package: libsundials
 Architecture: x86_64
 Installed-Size: 2708
@@ -1047,6 +1062,20 @@ MD5Sum: edbcd43bfab3e3cba371dc3b7ed351f3
 SHA1: ae801e50e8bc10578f6328961b277c3c889cc22a
 SHA256: 4744dde62d7aa948d88a2e3f8345c78e171cba2ca8acaf6d6fe8df97d636d263
 SHA512: b459a01087243fa85b368c5a710c104cdce4503ac01435896d4832792bbfe8fca8be6376c9ea8e9a912e69c9255a227a16a66b2791105f19ad300cc0c20be56d
+
+Package: libsundials
+Architecture: x86_64
+Installed-Size: 5896
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0
+Homepage: https://computation.llnl.gov
+Description: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers
+Filename: dists/termux/extras/binary-x86_64/libsundials_5.1.0_x86_64.deb
+Size: 563408
+MD5Sum: 0b131609a04c53a2434b0599639e2435
+SHA1: db5c3ceeedcae4a0a5757637cdde6130427ef22a
+SHA256: f8ce740732e0e9eda71e932885ef889cf6f0829aa4cfb57d043c9b4ab605cc34
+SHA512: 4d3901ed2ed2fb5f87ee94bddbcf4c8511bc69d2203e10a17db78162371c7b2b6f20e98b896bb28e1b60692b9f7f4ee96a9dbff932ed0844e9b47f34bd2a5021
 
 Package: libtommath-dev
 Architecture: x86_64
@@ -1333,6 +1362,21 @@ SHA512: 4a67c60d91314c8a404f8e91dcd858b043b3dfe0a44ce431d303ac9d07bba52e2d1b1c1c
 
 Package: octave-static
 Architecture: x86_64
+Installed-Size: 109424
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.0-1
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.2.0-1)
+Description: Static libraries for octave
+Filename: dists/termux/extras/binary-x86_64/octave-static_5.2.0-1_x86_64.deb
+Size: 8531752
+MD5Sum: 319d31a1a9d373fab45bd1683408af32
+SHA1: 90a7a9490477d02e60134419dde37b4bfb951cb9
+SHA256: e85e2d199e46bc9f89b48d527ec5e70aa241b84adcdefb9f814910529aa18e06
+SHA512: 88883fa46fa06bec9f0c6b666356a41becef308fc8f5f4544da71f65a319c83d4b99154dfdc843e4948c5d028b87701d849b6a4d6d65dbc8d832d2349f2cfa4c
+
+Package: octave-static
+Architecture: x86_64
 Installed-Size: 109576
 Maintainer: Fredrik Fornwall @fornwall
 Version: 5.2.0
@@ -1379,6 +1423,23 @@ MD5Sum: 3b3c0f3c73efba774ae34d8175bafa97
 SHA1: 8d1ae5d006827c419b87e1879b447a93571765e0
 SHA256: 7be9708038b2bdaabafcebe6f0530df7ca31f105dfde26fb321c9abf2e239312
 SHA512: b1d8c52a4170cce1ce12a95b9bb2bdcbefeabc6c4950eae8740268c32e786daecc440b5cf5b5e30365796d2858b7c2de1f05c33587960037253c4062771a50b9
+
+Package: octave
+Architecture: x86_64
+Installed-Size: 56748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.0-1
+Homepage: https://www.gnu.org/software/octave/
+Breaks: octave-dev
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Replaces: octave-dev
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-x86_64/octave_5.2.0-1_x86_64.deb
+Size: 12072150
+MD5Sum: 1bf1c0bf0745133e79e722bb2443617f
+SHA1: b0fb139a06891e0d955b15ab0fac7c6f9aa837c6
+SHA256: 8bbe1aae8c15e9ccbcd81c09e7a44f0644d3c07c11250d58c237f3f749ac98ce
+SHA512: 687277840e328938d9dad6e85ff2301dcbdc289540955711079d3da5b679c7d6add7cd84d626cbe194573e7cf30d83e3ff8d218d6466a018bf3dee4574a4ec4b
 
 Package: octave
 Architecture: x86_64

@@ -1034,6 +1034,21 @@ SHA1: f706ad72aa38723b18a19e353045f839a3938006
 SHA256: 458e1408abccca224cdbace2ef033b27469c56c437e44162fa9e6b159e8323f2
 SHA512: 5349fb34ed5d0e98c7d8a81e52a00fff32b1b602953bb8fba4044b9a339c8d884f450d5cd14539c485ae7e2d4c52b4ef7ade9cdab4322329ef55e4b88dbe6c8d
 
+Package: libsundials-static
+Architecture: aarch64
+Installed-Size: 2624
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0
+Homepage: https://computation.llnl.gov
+Depends: libsundials (= 5.1.0)
+Description: Static libraries for libsundials
+Filename: dists/termux/extras/binary-aarch64/libsundials-static_5.1.0_aarch64.deb
+Size: 245056
+MD5Sum: 9e6e6e409a5c6674de97707efb61807c
+SHA1: 9dc4d0d78e2c29e192085834c239342cf3e3d685
+SHA256: d6f74cd36f2e9e0f902039f1d414f04bdf047dc761141e97ec611df541f522a4
+SHA512: 2546bd06c41ac04e978f166ad6f2c18a7d0aa49356779133218ce8f29aaeceb4983660baad6e288253fc83d99eec14fb5ca8c175b1c40164c58dee9cc265f815
+
 Package: libsundials
 Architecture: aarch64
 Installed-Size: 2808
@@ -1047,6 +1062,20 @@ MD5Sum: e58a4eb46e42947cbe518c745a597cb0
 SHA1: 1fd157d25bec0719ddbee1cec770eb09ccafa259
 SHA256: 63ce9b9edc839951641c0caa1844bf5a78e044d7bcc6047543b119f5dea6a432
 SHA512: 62345a1b35961ba0b4645a07e41b517f802e6f10371f7ae64391c7ed26c0af0a33b23b0602a1c18c79ffa0cfa973632c485fa861403d5b470bd11d03fece801b
+
+Package: libsundials
+Architecture: aarch64
+Installed-Size: 5792
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0
+Homepage: https://computation.llnl.gov
+Description: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers
+Filename: dists/termux/extras/binary-aarch64/libsundials_5.1.0_aarch64.deb
+Size: 463348
+MD5Sum: 259eaa7c16a0b97563d686741a56bdc7
+SHA1: db3421e3a5510c2a4dba07c64deae1f6a89f039c
+SHA256: 1f7d5b7ee15eda8133ef6fcd7cf0a38a697a16bc3850214fa69fa0d8c7631e78
+SHA512: 38d386984eea8c899aeee5dec8f0b41d54a78eab30c6be36ade0a34004f69a060513ad4c52265a81e151d5563c2a3a7ed9d6be7c4b9f8e25dcebf536df735615
 
 Package: libtommath-dev
 Architecture: aarch64
@@ -1333,6 +1362,21 @@ SHA512: e580b60fdb0033b176a41266508392f4f5a506cc2748cb3cb47423a6330ce4735985922c
 
 Package: octave-static
 Architecture: aarch64
+Installed-Size: 111616
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.0-1
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.2.0-1)
+Description: Static libraries for octave
+Filename: dists/termux/extras/binary-aarch64/octave-static_5.2.0-1_aarch64.deb
+Size: 8770890
+MD5Sum: b12f6217e408a3f6e827237833c5c621
+SHA1: 61d221cede638c99e45f55dfe5c68799c570dfc6
+SHA256: 8f33fd634153b36c77fe68e4a893b3b66aaad29701255100ed91f1a597f59cd5
+SHA512: 8709d4624abeccec6432e62dc574cded43d231eafe6124206638b29d046dd33ebc51f7c657f17d44db6e489c7de5efebb001b08a5ce667c35e60a88c6d4bdc1e
+
+Package: octave-static
+Architecture: aarch64
 Installed-Size: 111764
 Maintainer: Fredrik Fornwall @fornwall
 Version: 5.2.0
@@ -1379,6 +1423,23 @@ MD5Sum: 6db40ff2691818bc7dacc4ef4f8a96f5
 SHA1: 6e92866c8631b6e86e254510d4d3c140cf081941
 SHA256: 7cc31d104fd25e75c5d27bdcf7833d6f48acc5e960136c81f5d27ae2333a6d9f
 SHA512: de4a94920d1a7ee993cebe87192cf75b878a1bbe97a6b352666fce6a0dc62e59ae24b9086a5d805569a55f44bdbc3e61fb603fbcf0c3c8a5b892270b61203fb5
+
+Package: octave
+Architecture: aarch64
+Installed-Size: 55428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.0-1
+Homepage: https://www.gnu.org/software/octave/
+Breaks: octave-dev
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Replaces: octave-dev
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-aarch64/octave_5.2.0-1_aarch64.deb
+Size: 11307324
+MD5Sum: 04d5113d05cb88e8344aab5dc8749d62
+SHA1: 25d57dcb950ebad990b302eec1205fc7fcc60650
+SHA256: 5fe7f1a312dde1b739644e4cc859c80737b6376514d8057a860e8fafbc06d3ea
+SHA512: 6ea586b868232cc8a635023b67d801b44c9e6eba00b2d862c8726836093b98c3760b4bf60a79f9c6456146bf53db9e84cc5cc8688f83df7d38bee7103a3c863d
 
 Package: octave
 Architecture: aarch64

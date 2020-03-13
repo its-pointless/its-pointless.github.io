@@ -1019,6 +1019,21 @@ SHA1: c362cd2a7b1c04de59ab4bc75f6b274080f82331
 SHA256: 05b023bb20bba12215a20ff6c2032fc1c24c2970af80f3167714d240f572b1c2
 SHA512: 5c9082dd6cc5943b918308cb4698c68bfab6554c0604357d161b468d6b9ea8d871b0b26c36b3378c8fbfa32303a9d85131dc0782b3bee3fe88ccdb5aba284ee3
 
+Package: libsundials-static
+Architecture: arm
+Installed-Size: 2056
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0
+Homepage: https://computation.llnl.gov
+Depends: libsundials (= 5.1.0)
+Description: Static libraries for libsundials
+Filename: dists/termux/extras/binary-arm/libsundials-static_5.1.0_arm.deb
+Size: 294612
+MD5Sum: 51ed3fb75b422b9d094b4311341d6c28
+SHA1: 86b66cdcb3522ea23044845bd38e72fec70a55fb
+SHA256: eb0e54b87ab2884ac45b972df4c65a1891612c2f364726a7c63eba6324a821aa
+SHA512: 959b002166ff45e6155c2490beca12f8cf348dcede3a61fa353b3dfc73fea428d76e8621693115582a009ee179b7f2881e31fed3385be37a1cc04c4e708e8db3
+
 Package: libsundials
 Architecture: arm
 Installed-Size: 2484
@@ -1032,6 +1047,20 @@ MD5Sum: be5887895e203b7b26f394bb04395402
 SHA1: b1fbdf11adfe4ff49ec4dfa85bdf88fcfe252bfb
 SHA256: bed648094bae908a7e59ad1b4691ec81cf091fb0aaeafa013d7f2b93862769c9
 SHA512: d00d52dcb3098456f7abdc98c8873cb8277362c79916f0a969fb117d055720da7706e62e0040ed6d292ec8617a4fd458c74f8812e6b24b872fbb7ed8dc92cb9d
+
+Package: libsundials
+Architecture: arm
+Installed-Size: 5428
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.0
+Homepage: https://computation.llnl.gov
+Description: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers
+Filename: dists/termux/extras/binary-arm/libsundials_5.1.0_arm.deb
+Size: 513176
+MD5Sum: 543d91364c61096f0f79f91df50df389
+SHA1: 8c66b9abe0904efd4b80ee51a20638cb6a2f31a1
+SHA256: 2235b9d2227578134d80e2ac11f43a1b593ff9ae96b3736f8e9897cbf7e00e99
+SHA512: 125802a65f76eb824a0f7f767d08f0fce5050671e65eef806539d0f4942c1fb9caefcafd60fca7b17d118fa344fd80bc35e6dab249e855a390e11d93fc98ab58
 
 Package: libtommath-dev
 Architecture: arm
@@ -1333,6 +1362,21 @@ SHA512: 79f1a1d18b99c770787c300ad212e118e3b8007261e697e20627e27b1d4db7cf56ed87c8
 
 Package: octave-static
 Architecture: arm
+Installed-Size: 102996
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.0-1
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.2.0-1)
+Description: Static libraries for octave
+Filename: dists/termux/extras/binary-arm/octave-static_5.2.0-1_arm.deb
+Size: 10644976
+MD5Sum: 27f30e09babba6eddc1a45efb8e88a0a
+SHA1: 7de5a42edcecf5bb6abbae65e89804bb282cc180
+SHA256: bfd7d6bf0ca4d08d59eb0399fe20b3cbd93a54de453e81b6e111825b241459ba
+SHA512: 532c90cb856472b54bede3624b42a8ecb53418cf0681753052392bb6200d78ccceaca8afd7cd20f71dd34542a15f2e38df02583f81ba9c92f50d1bfd0857df4b
+
+Package: octave-static
+Architecture: arm
 Installed-Size: 103132
 Maintainer: Fredrik Fornwall @fornwall
 Version: 5.2.0
@@ -1379,6 +1423,23 @@ MD5Sum: 5cba9c8e7c52fe404841aa256bbed626
 SHA1: 9caf5d695872fd3b7bbe7325c0b39279e8abecba
 SHA256: 387123341013472e118467f2b277ecbe78736f32c88d13b39ffcb0d166cd2a02
 SHA512: 9b36d4e9b1e3cd76a4a98a87240b5b1ffdbe7f3ebd6a902ce17b27c1469a348efb5eefef846639768319575aab37d4a7a4815601fa011772d6cf7afa298ec9ec
+
+Package: octave
+Architecture: arm
+Installed-Size: 48256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.0-1
+Homepage: https://www.gnu.org/software/octave/
+Breaks: octave-dev
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Replaces: octave-dev
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-arm/octave_5.2.0-1_arm.deb
+Size: 11153402
+MD5Sum: fa65454b00ead71bf806021a6e36ba14
+SHA1: 31dfa22b9743a891df27873da95d3b1d71f4e393
+SHA256: df75f263a3c4f6ee4e305c69990a8964b55fe890cc2348d4ff478b591d8a3d58
+SHA512: e9b79b41287ba62d25d4823397a99bcde179cd116a58552d9be339eb14c207f01f0f99d348e6d06bf7f55a927cbcd05c3511cac17cf41bc2616fd02c2ac9dbb2
 
 Package: octave
 Architecture: arm
