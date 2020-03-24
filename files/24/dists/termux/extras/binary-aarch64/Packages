@@ -1169,48 +1169,18 @@ SHA512: 9df923e0a2d4edd414403618e4ae18139c7124b0b15ff32eaf31c3b8c998fec6e3fdbf2c
 
 Package: mongodb
 Architecture: aarch64
-Installed-Size: 193796
+Installed-Size: 187192
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.0-1
+Version: 4.2.4-1
 Homepage: https://github.com/mongodb/mongo
 Depends: libicu, libcurl, libpcap
 Description: mongo db
-Filename: dists/termux/extras/binary-aarch64/mongodb_4.2.0-1_aarch64.deb
-Size: 42355932
-MD5Sum: 3c4349420216d21c753e779439187f3d
-SHA1: 471a1338f527178452e49c9a97b88d9aaa6c3eed
-SHA256: 76d5dafbe5c2b6238747c2d527ba0d61d07e9296563ccb816aa29d0955436c6f
-SHA512: 7fa2cabb99177442a8cefde377e949572e1e25c51cce4176e27febd31fec0be537c25ec8e73f8f4e2d58624da62d520e778e5d34081cc4936459f2c6092792ae
-
-Package: mongodb
-Architecture: aarch64
-Installed-Size: 193808
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.0
-Homepage: https://github.com/mongodb/mongo
-Depends: libicu, libcurl, libpcap
-Description: mongo db
-Filename: dists/termux/extras/binary-aarch64/mongodb_4.2.0_aarch64.deb
-Size: 42352144
-MD5Sum: b035cb419bb339745e4fc4a5d15dfaf3
-SHA1: 14c77544146ca33f4a4257174f59bd5409fcaca2
-SHA256: e1e3177ee0befc10fd86b3bef73a2cb4a05a284eaf3c837b023f188b252aa0ec
-SHA512: d6a1a27e830f5a0c58a014df7fcfe84762fcb3d8a5b8b9626e236a81bc0edd5fbb49c0e72d233e58e6683ce327155edbbecee9a0cf5c8015f953841f72374498
-
-Package: mongodb
-Architecture: aarch64
-Installed-Size: 187256
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.4
-Homepage: https://github.com/mongodb/mongo
-Depends: libicu, libcurl, libpcap
-Description: mongo db
-Filename: dists/termux/extras/binary-aarch64/mongodb_4.2.4_aarch64.deb
-Size: 44477932
-MD5Sum: 4aebfee5e3c059f13595638aa004a51f
-SHA1: 1cf89246e914bb4dd9c6a0d60f7e26634ba641b1
-SHA256: 09369d8f7e5d409eeb99f3881635cc420d2c61468079e444f7288ae2efe4bbd1
-SHA512: 5721747df3522861791b718e0b53614067d0bf9e45d47d5c77b2eeaa4102d0ed125552bcf2ca3093ce377d1b5f422edb8f3f771c43920fdc8f380427cdc52f70
+Filename: dists/termux/extras/binary-aarch64/mongodb_4.2.4-1_aarch64.deb
+Size: 44484018
+MD5Sum: 4985c9d40760635927e3f43ff45c4302
+SHA1: 4faf2fa4937eedd3d35947cc9a9e58caa6bfc94a
+SHA256: eb4540c9255dc4a5abb2e6d56feab04a7fff964bfc9f9e5db78cfd38de4e3fa6
+SHA512: 24e1f79dae44960f2763bc281c567c581bda2e51be2755a2dfc629e9b79812772427126cde7446b1a75f85f33259eda6e8e835bb8ef23777aade2524d58f955f
 
 Package: mpich-static
 Architecture: aarch64

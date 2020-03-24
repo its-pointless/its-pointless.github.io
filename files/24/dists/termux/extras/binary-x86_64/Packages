@@ -1169,48 +1169,18 @@ SHA512: 6c7645cd048337e44d23a8ef95ca5d55949cb13478709862ec63b4fc0f26423af63d3b80
 
 Package: mongodb
 Architecture: x86_64
-Installed-Size: 204844
+Installed-Size: 200324
 Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.0-1
+Version: 4.2.4-1
 Homepage: https://github.com/mongodb/mongo
 Depends: libicu, libcurl, libpcap
 Description: mongo db
-Filename: dists/termux/extras/binary-x86_64/mongodb_4.2.0-1_x86_64.deb
-Size: 48669080
-MD5Sum: c7d1eecc973ededeb8fc3e43c724f71a
-SHA1: 9541d9e07801a4b1673b4382ed3bc51561dac145
-SHA256: 190ca69d850bf1c3eda59be32376335367cece1246e886513cdf9d2a7eb7ca45
-SHA512: 307cd17c6b6ed99f132d95cb653ede0490dbde5ba2f1542df26383bf88ab7e70d7e604074629b4801fc8c602e265362a26bacdaab668690912b19b45b02bf83c
-
-Package: mongodb
-Architecture: x86_64
-Installed-Size: 204820
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.0
-Homepage: https://github.com/mongodb/mongo
-Depends: libicu, libcurl, libpcap
-Description: mongo db
-Filename: dists/termux/extras/binary-x86_64/mongodb_4.2.0_x86_64.deb
-Size: 48653738
-MD5Sum: 75f1d4dc65a5cb05dca738b527fcfdd6
-SHA1: 1bcadefca652d82fe864222d53f8e9fdd4505e92
-SHA256: 0ef715f293bd6c2dc081ef56f6f64825419c4c79e1195d13d2f1e5469f02b9b5
-SHA512: 580d10d415e3edd5ae686baee9bb9baebf41a24aca4fe85bd2c6668d9a161517bc82ecd8226d44de4d8dc7e960f822d503f89d75d364bcb43bec4e7bfaa9df30
-
-Package: mongodb
-Architecture: x86_64
-Installed-Size: 200356
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.4
-Homepage: https://github.com/mongodb/mongo
-Depends: libicu, libcurl, libpcap
-Description: mongo db
-Filename: dists/termux/extras/binary-x86_64/mongodb_4.2.4_x86_64.deb
-Size: 51257856
-MD5Sum: f9860071b45aee8794541a97145a05f8
-SHA1: a8a87d8e74156143e054be6a544c735f1051b3af
-SHA256: 7c641e4d22baa348160f3d95915ff161377424c6c934e865fc477be9ae937231
-SHA512: 00f3152c01358c2f1dc0ac5701f7b81a610e712857378e75f574b687ef59f6d702dc421e9d8fe897bd011616f055beee8874a038b77ddd4066e5e549f9618e8e
+Filename: dists/termux/extras/binary-x86_64/mongodb_4.2.4-1_x86_64.deb
+Size: 51202118
+MD5Sum: 8da63eb0a236363d56c9e75f1653e9ea
+SHA1: 3733212947e2b9a96f8f8c2d3b09d11d305b8b82
+SHA256: b7b4f5014450abd927dcd57178a0bceb195eaae65cf2a434487e024c196101ba
+SHA512: 9f4f93f333111956e2e129e288cdd1c20b6e96ca618d65b0c0f8ca1030e20528e1a15dc1001fd96ed0767ddec4c21b27521a5ad865ad0da4c0a084e352e66bfd
 
 Package: mpich-static
 Architecture: x86_64
