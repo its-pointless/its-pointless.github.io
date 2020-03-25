@@ -119,6 +119,21 @@ SHA1: 3cc36abaf998b7d7599b041abc189f693c193a09
 SHA256: 5b1903e1b35e9340075f3325bb9f4b34ef2743e35f599c691033daa18620281e
 SHA512: d5df183c5964bcda6178b82e6e4ab1341f01f7ed090fae0b28f673cc4448b327172bc9582c00d8d3612b30bd7ce4dbab205e781b9f6baec72853de259807d817
 
+Package: clangd
+Architecture: aarch64
+Installed-Size: 19796
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.1-2
+Homepage: https://clang.llvm.org/
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Description: Language server that provides IDE-like features to editors
+Filename: dists/termux/extras/binary-aarch64/clangd_9.0.1-2_aarch64.deb
+Size: 4195430
+MD5Sum: d53c294eaf194a97eca8910a95c3662d
+SHA1: 9c533fd52889fe24ff9b703d9d456416bce93617
+SHA256: 3bcdbf380125d440f43e39755bac9b57cbaae34c9b82f31e29d42fbf7a7ab377
+SHA512: 005de3c7874f173dd8dad5acf7733fe426e57e67518ca322447fd7c045ea5f4e072ee4615aee97d035a6779893ef2c164b7f595ad62374848702932409baf79c
+
 Package: ecl
 Architecture: aarch64
 Installed-Size: 9864

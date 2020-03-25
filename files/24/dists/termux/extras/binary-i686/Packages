@@ -104,6 +104,21 @@ SHA1: ade0aa2a36237ae87d433d9d97fffb1e17b5479c
 SHA256: 99cdaba9832b467ab7a40c3c420755cb52b2732cd6ab0904d2563ea4f5c9540f
 SHA512: efb7e07121daef00f89d677cb8f1fdf80ac7a207f59ebd9d50e91f7703c1a854d5a160d3edbf2a529d521c4474de2521c57d36a7f939fcd53f4c2179c104fee7
 
+Package: clangd
+Architecture: i686
+Installed-Size: 19912
+Maintainer: Fredrik Fornwall @fornwall
+Version: 9.0.1-2
+Homepage: https://clang.llvm.org/
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Description: Language server that provides IDE-like features to editors
+Filename: dists/termux/extras/binary-i686/clangd_9.0.1-2_i686.deb
+Size: 5099826
+MD5Sum: 7d38b2a6d1a44ecf1dae7bd633e53390
+SHA1: 87813037f8f3b6031ec7639ae3bdde477c4a17da
+SHA256: 4f09f9fc968809fcf860cc23a71b74c2bc6b8ff52fc8e5a7157386421e9f4e97
+SHA512: d6b2996050d894f2ec03c1b8ad1e98d59bb10feeca5f597e98832f65f08c684a9783ce16244099400a6e6e0090b1e0e485edd4783710b0ca6333f366d3d8652f
+
 Package: ecl
 Architecture: i686
 Installed-Size: 8488
