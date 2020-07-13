@@ -2065,6 +2065,22 @@ SHA1: f06b279fdb41012bffbfbc09eb0caf62c82715cb
 SHA256: 51ee83680457654db2f2eccbf09a67b2800cb4ead18dd68ab5fe2596be3f6282
 SHA512: 6f46146a42977aa3cc12e452db5aed793d86140d7090f61333607a60afa228da100434a54e062f6e68e7cda8677c58999aaed603659d9682eb2d42952fd8e448
 
+Package: r-base
+Architecture: x86_64
+Installed-Size: 68384
+Maintainer: Termux members @termux
+Version: 4.0.2
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-x86_64/r-base_4.0.2_x86_64.deb
+Size: 42900910
+MD5Sum: e3901d1b48e1f2b1ea552b58afe58bf9
+SHA1: 3ac7ca9554f12754a05e9f7c4592b6838b8bb715
+SHA256: 0e9f459de581f4ecb8f1250ecebcb183e338b66898525287c8f9aa732a94a46b
+SHA512: d7fcb44cb81abbc6a55a301b85e8316a5a7f7688be0a24a152e7d1fe31d74af894a039faf6db112a712b222767a007d03a33b9934a267d8e7205129c548220f5
+
 Package: r-cran-rcpp
 Architecture: x86_64
 Installed-Size: 11508
@@ -2110,6 +2126,21 @@ SHA1: 5e9d57557f469588ae24ba8c857ded0b2c4e336d
 SHA256: b61abdb0a666172610b5ab28aa136a4b3c4653932c4929df085372c7c113944d
 SHA512: 87bc4a2fead4f21c96c4d4b7f4e62ef3a62a9a6d986fdf67ecfeb2bef0d8968b64eadbc8621d9d38eb631e20ec5f9120a3796332a3beea1901beaadd0fbc333e
 
+Package: r-cran-rcpp
+Architecture: x86_64
+Installed-Size: 9936
+Maintainer: Termux members @termux
+Version: 1.0.5
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-x86_64/r-cran-rcpp_1.0.5_x86_64.deb
+Size: 1942220
+MD5Sum: eef5c065fb38bb8e22f70ead31ec9353
+SHA1: 6bec7ec31deaacda505c553b1424003f59a475da
+SHA256: 1da916f148f6757068d6c126a12a844dae0aa4c48353bc85b4925659495e114a
+SHA512: 4e01def5941e9c61f515bfba34bc58e670e2b73354d03ad437eafb99a5ee98e2d21a17276e2b5b18f0de3324802a774927e648133ea52a868607f4420df1b44b
+
 Package: r-cran-rquantlib
 Architecture: x86_64
 Installed-Size: 3700
@@ -2139,6 +2170,21 @@ MD5Sum: 710ad86101cbbe7ae2e21561d6201ece
 SHA1: 96c5c55272ad33ba4fcec736bb26f1fceb63cd16
 SHA256: 6fb96ea57656aeec11b5cecc4a13efbcd843e10267b8a0576fcdb67b61b5351e
 SHA512: 86c17ec520c4883995da98ab9ecc38986a8425f282bcdefd960f2c1cd28808d96692facdb2a06116af57ad536c08cbb56439b4a3a9afafb3a8ee13c02b64eb26
+
+Package: r-cran-rquantlib
+Architecture: x86_64
+Installed-Size: 3460
+Maintainer: Termux members @termux
+Version: 0.4.12
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-x86_64/r-cran-rquantlib_0.4.12_x86_64.deb
+Size: 891490
+MD5Sum: 69c8778aff46c7876c2751e014e80ece
+SHA1: 52035607660455e80166461f24487ee60634dc2a
+SHA256: 1df5f4b0a51aadda38ce64f5288f6c9bc14c15e272c4ad7d076c371c0ec8eb7f
+SHA512: feb67ea0e7aafa6507546fe9169b7390dc58b8b09e65fd1f3a584a3ac574c12532b0319700fc1af58c28d6695d9150d42cfa00d3040bee9faa1a3ea67eeea64a
 
 Package: r-cran-rquantlib
 Architecture: x86_64
@@ -2202,6 +2248,21 @@ SHA512: 111da43b13644422b1536e622f137d3b392d2bccb055e13588d3c412ca85deba96312d30
 
 Package: r-cran-stringi
 Architecture: x86_64
+Installed-Size: 1212
+Maintainer: Termux members @termux
+Version: 1.4.6-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-x86_64/r-cran-stringi_1.4.6-1_x86_64.deb
+Size: 696282
+MD5Sum: 1f399c1da99ae00e3d1ec08a02423cf8
+SHA1: 9429657057787f4e7821ca509f23c1e68ee283c8
+SHA256: 54022cf9ef1f33bf4c001f41f949489911458c0e251d7868ab198f03d5947104
+SHA512: 83a43d1cfa2a2cc6e9cdbbee6efa723d9e3251512039c6d44efe39aa5efbc8d9cda9edef60676bcecb1b15113ceb5a98dd65f48a31365ed4b3e80efc3ae6846d
+
+Package: r-cran-stringi
+Architecture: x86_64
 Installed-Size: 1224
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.4.6
@@ -2229,6 +2290,21 @@ MD5Sum: 16c3b905b2da5830d5744273d0e685ad
 SHA1: 12645c1194e36bd7c564eb65bcbf8febadc8429a
 SHA256: 321c436ae50c610c726bf384b0c630afd3983ad967e1a4b2966bf3654c8e603e
 SHA512: 7a100fd02a49ca22fd01ae135d9add03eb4a99c0aec84e57442f984c261e75eea105595bc7c6af1b9aa86c554334c69f890ff7002a1a4e2dd6cfd2b95bb9debc
+
+Package: r-cran-tidyverse
+Architecture: x86_64
+Installed-Size: 211192
+Maintainer: Termux members @termux
+Version: 1.3.0-2
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Description: tidyverse
+Filename: dists/termux/extras/binary-x86_64/r-cran-tidyverse_1.3.0-2_x86_64.deb
+Size: 43346920
+MD5Sum: 7ff5aaaf8ebfc70d4ca9fcfc3350343f
+SHA1: 1fa54e228459cf6e94780d97c0f81870e72fcbf0
+SHA256: de9dbb3fea7c0276b4faf4611fbf47208822a6c7cf800263030cd2438eb6a9c0
+SHA512: 786ca35813780785eb201784e838c44c049e707556a230b4fef0fc74af16aae2bb2cc7e75f555033d8cb76abd887f8ea16f3e7c2f9689029820eadcc0d97096d
 
 Package: r-cran-zoo
 Architecture: x86_64
@@ -2259,6 +2335,21 @@ MD5Sum: 6796daf6a0fa5c46b414905076e8e052
 SHA1: 640e13696cbad7c630c15f6727c50ef654087c3f
 SHA256: 83e288f00dc7927c81d9213386ba46bc7a6cebd4bfb50e9c3d2c16d8c46a1ad0
 SHA512: bdb9efea0fe874c91eb36d0e7f207a00b16802baafbdbb7636bb78d72bfea6f0066578e738b8153c790219ec1071e10ad1199f7ac6d85750e1d2de79f6dab158
+
+Package: r-cran-zoo
+Architecture: x86_64
+Installed-Size: 1460
+Maintainer: Termux members @termux
+Version: 1.8-8-0
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-x86_64/r-cran-zoo_1.8-8-0_x86_64.deb
+Size: 1049664
+MD5Sum: 6ac61d039b87f88acff17b4d9ebaa46b
+SHA1: 76415a1e2043a0810c579e64639a3a4825f75342
+SHA256: 27610ed7b8f797aaa84b124755b099c0f038de312a3be473b7f4445b6aa7433b
+SHA512: 90e304b407f640484572dea54f8f34380da8a5f60378b27c5fd8d6e4203918b1a42a092121d462e9db6bb00e950cecb011358cad985dc79ced4152af572654d6
 
 Package: rakudo
 Architecture: x86_64
