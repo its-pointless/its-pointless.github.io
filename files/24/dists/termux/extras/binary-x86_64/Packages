@@ -104,6 +104,21 @@ SHA1: 4a2e9da6a6c0c905b9772952dab46b6e90a30403
 SHA256: 922df497b869e680859cc8ef449925252be60106c1390442c160984ce7c33231
 SHA512: 3d9fc67db22761919d6d8d4866767ddd76930708ee40e09009753aca652ff8182d527953d112b279d238aa174c70743f022a4404e0fb1ceec40df6d25df03cf7
 
+Package: ecl-static
+Architecture: x86_64
+Installed-Size: 3700
+Maintainer: Termux members @termux
+Version: 20.4.24
+Homepage: https://common-lisp.net/project/ecl
+Depends: ecl (= 20.4.24)
+Description: Static libraries for ecl
+Filename: dists/termux/extras/binary-x86_64/ecl-static_20.4.24_x86_64.deb
+Size: 563972
+MD5Sum: 1cd712a972da9dc911338af4eab940b8
+SHA1: 707c1a4a56bf3d41888f07e9d2912b420b7d369d
+SHA256: 5490ea3960f39fc0e116066c1aa2804db47ab782db564af62f747edb9642844e
+SHA512: d73561c9159516f11170a7cd34a9b4e9b7e88e3a321496bcce8319a4b8924553d75604caedf887acb67fe8b1d28ee7357ad9c7e39b987b6c80b7f340503f4fd4
+
 Package: ecl
 Architecture: x86_64
 Installed-Size: 11172
@@ -119,6 +134,22 @@ MD5Sum: 98ae98e5c22407e3057b106dc9cff03d
 SHA1: 8b1eda6732f11c8cf4214f3ae8a62f00b75301bb
 SHA256: a49fe56ba4e3985ff8f5061888046f8adfb376ce54e7cefc1549e7b64ee18370
 SHA512: e8108f097e866d253a9d2c8356525b6efe7d1049bc53acf25f52cef92f46d2e9fb37993190a5d2e0d00f6900149046fa60865a7a9cb136d1ff06133fdd98375e
+
+Package: ecl
+Architecture: x86_64
+Installed-Size: 7732
+Maintainer: Termux members @termux
+Version: 20.4.24
+Homepage: https://common-lisp.net/project/ecl
+Depends: libffi, libgc, libgmp, clang, libgc, libandroid-support, libandroid-shmem
+Replaces: ecl-ext
+Description: Embeddable Common-Lisp
+Filename: dists/termux/extras/binary-x86_64/ecl_20.4.24_x86_64.deb
+Size: 1773976
+MD5Sum: b181b05b89ab224159bfc9d417e80c32
+SHA1: 60b1e43018e4cd67ba9b6efe6a6c72fc5655df40
+SHA256: ad7d0d002123add7a97a7d01c9bb37d00f37ad1304b9d26c45165e5e258edbcd
+SHA512: f4f42cca59805757d886fb9f52f76888a811abb93bb486378ed6193125cd61e8dcdd5f09e385aeec813d7de695fc2739c4ec248d861c0a1ba9372e881dfa497b
 
 Package: efte
 Architecture: x86_64
@@ -181,21 +212,6 @@ MD5Sum: d583f1fc1c4f66486c27837c9f4dc593
 SHA1: 777fe8dc57ba972722d6e323680c321c038aec77
 SHA256: b0be42a9effa4381d26606987cbf190780967463547fc7a5603d5bda140fe88c
 SHA512: 9b022f4d6cfedc14ff462ac902e24bd2c4050d3485e074ef8ee32e95e7ad123e3adb46b0661b576d9e96abdf7a317701f6a73380271ed6c9b13d59cd0c6db0c3
-
-Package: gcc-9
-Architecture: x86_64
-Installed-Size: 132420
-Maintainer: @its-pointless github
-Version: 9.2.0-1
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv, libgfortran5
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-x86_64/gcc-9_9.2.0-1_x86_64.deb
-Size: 35511500
-MD5Sum: b9fa06f82aea4e482fe2ba93335ba010
-SHA1: cd1c805b0dabc27c81a9cb841db7b2d5246728e7
-SHA256: 26a41c9596e79110e5164b14748a698f207401fa2f1e649ece1bcddbe6102e4c
-SHA512: 36a41e33e09151a485cb9a0cdd483852328889da5e9da064f62961cf0c583fa60df4e765d340191fb9ca4ceb84041cead32454d81f0f28538768ce05e92a40d3
 
 Package: gcc-9
 Architecture: x86_64
@@ -2016,38 +2032,6 @@ MD5Sum: ed02726df1bdcd75b5ade60162c2a973
 SHA1: 843a7e0126ff89cf985c05a7f28cee556b554b0f
 SHA256: a88f378ae0a2d8741bd9b598ad761125861b1b54d4394333555e63090516ccba
 SHA512: 93f8ace1ccbccad6261332ce5a43d7f8889c7360deb997fc09654558da587c41ab486d91af1cc0ebe958f35f35f00f4a04454f0b5542ae17bf8355f7b36891a7
-
-Package: r-base
-Architecture: x86_64
-Installed-Size: 65720
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.6.1-1
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
-Replaces: r-cran
-Description: a freely available language and environment for statistical computing and graphics
-Filename: dists/termux/extras/binary-x86_64/r-base_3.6.1-1_x86_64.deb
-Size: 40967458
-MD5Sum: 96b3f8622738b88507ab1725a5022612
-SHA1: 1dbd5a6fe4938ab72a6998e2bb5256df47260d73
-SHA256: a7b1e18df6ae04f85e302b4a043726293bb635fc822c472811c5a17f8839455b
-SHA512: 342e0ce324ac6b18bcfecddc6aa38f60bb61c43d24e4d1fb26e26dcec1a7501dce6e546d5fde55b57edd64a3b5f52e3ac32f5e22fd5a3d7339b32b52c07678d1
-
-Package: r-base
-Architecture: x86_64
-Installed-Size: 65104
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.6.2
-Homepage: https://cran.r-project.org/
-Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
-Replaces: r-cran
-Description: a freely available language and environment for statistical computing and graphics
-Filename: dists/termux/extras/binary-x86_64/r-base_3.6.2_x86_64.deb
-Size: 42296806
-MD5Sum: 113b1a564c79d74c8ca9ea4206fed8f9
-SHA1: 7a77acdc360f414d040f23ffa3c7808bbfa64180
-SHA256: cb64294a554f958f0efb2b3755cf7180875fc372a552affb364a4744fb6216bd
-SHA512: bc2cd8a8f0bba7fead2876720c7a0dedc17861c15f71d1f209d7c2a50fae21d97b64822c7fdd541f26b05469e3a317a52346fea3cd41fb4d49aeed06aaeda638
 
 Package: r-base
 Architecture: x86_64
