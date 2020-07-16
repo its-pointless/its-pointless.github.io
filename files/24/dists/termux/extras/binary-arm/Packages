@@ -13,6 +13,21 @@ SHA1: ef4ee5837051b8e95bac002c79d00ba49bcfc6cd
 SHA256: bb92d2f8dccebdd3c650cee15ebe749b88201978b16d56b175d16da26506819c
 SHA512: 4d7dadfddadacc6f26129ebb59d71be17803418a66d1be6046cdf24f1c35ffa4b5b8b70803c04e6fd533c8c7825f5c620c791ed1cf1ab89dc7f77dd4ee8201ed
 
+Package: arpack-ng-static
+Architecture: arm
+Installed-Size: 360
+Maintainer: Termux members @termux
+Version: 3.7.0-2
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: arpack-ng (= 3.7.0-2)
+Description: Static libraries for arpack-ng
+Filename: dists/termux/extras/binary-arm/arpack-ng-static_3.7.0-2_arm.deb
+Size: 72366
+MD5Sum: c4ee1c8009e64f47c1b8902c20385702
+SHA1: c215c24d8deec7dc2aa7bcf0596e31409b6f6374
+SHA256: 56810c51078fab7d4c523c6b1716d22ae319b0eab99faa09a90c7cfdb90f97cb
+SHA512: abcf8ccf82ae717f7bdeef653aa74fee2395bfb324785460739e7698b96432b09d1d4e039f9bfcd8db491454bd3e6200f9cbb8a53fa2053baf77d88eb46cd0dd
+
 Package: arpack-ng
 Architecture: arm
 Installed-Size: 188
@@ -29,6 +44,23 @@ MD5Sum: 4c26f2d97f72ade9d04f5c47887da869
 SHA1: 09e756eb052d6b9b18e42674aa686305ba86c46d
 SHA256: def5927cbd71d9b55a91e656899bdca66d9cb4972cd6e57761a8ea7d06ac4cd3
 SHA512: 831e9638aa5ebd4c654322ae234da2da04eb52377df3da3b6a0593ebb740e0d044cc0b8958c9dbe3a94d646b35f607816bd8aad42c2cc189ec44fefd18c21c09
+
+Package: arpack-ng
+Architecture: arm
+Installed-Size: 192
+Maintainer: Termux members @termux
+Version: 3.7.0-2
+Homepage: https://github.com/opencollab/arpack-ng
+Breaks: arpack-ng-dev
+Depends: openblas
+Replaces: arpack-ng-dev
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Filename: dists/termux/extras/binary-arm/arpack-ng_3.7.0-2_arm.deb
+Size: 65676
+MD5Sum: b9816a21bc08f3e840b8cc0459e81acb
+SHA1: b3d957506d6751eae91e0fe71ecd44d9a60e67c3
+SHA256: 62907dff3eb1744a55789dafb575669f920a8f28c88d5f388d962a4ab4c2608c
+SHA512: 575bb56cfa1d5109def389b422d4bd1438988ab3f60a86e7a11b7b2460fd91c3fa1af23a47c2de747b67e983d331c7245c9f159963e37cceeaf991a64307ed96
 
 Package: asymptote
 Architecture: arm
@@ -1529,6 +1561,21 @@ SHA1: 7de5a42edcecf5bb6abbae65e89804bb282cc180
 SHA256: bfd7d6bf0ca4d08d59eb0399fe20b3cbd93a54de453e81b6e111825b241459ba
 SHA512: 532c90cb856472b54bede3624b42a8ecb53418cf0681753052392bb6200d78ccceaca8afd7cd20f71dd34542a15f2e38df02583f81ba9c92f50d1bfd0857df4b
 
+Package: octave-static
+Architecture: arm
+Installed-Size: 103504
+Maintainer: Termux members @termux
+Version: 5.2.0-2
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.2.0-2)
+Description: Static libraries for octave
+Filename: dists/termux/extras/binary-arm/octave-static_5.2.0-2_arm.deb
+Size: 10665882
+MD5Sum: c9746ab2122e10441716050313a61b2e
+SHA1: 663da2974e3724f03576d2604522093e55b9b7cb
+SHA256: d2f2011e7a12ebc84157c94900bfab8aaf8dcbe1510865c634025b23d8b7db91
+SHA512: 7c9c4d0e30283571637d40d937770a3b115a1e60141b33c22d2cd56f36bd4f8b94f52fa2bc4185ded01fecbe38b308d2aaa98f32fc071ac736789701db39d9a5
+
 Package: octave
 Architecture: arm
 Installed-Size: 48256
@@ -1545,6 +1592,23 @@ MD5Sum: fa65454b00ead71bf806021a6e36ba14
 SHA1: 31dfa22b9743a891df27873da95d3b1d71f4e393
 SHA256: df75f263a3c4f6ee4e305c69990a8964b55fe890cc2348d4ff478b591d8a3d58
 SHA512: e9b79b41287ba62d25d4823397a99bcde179cd116a58552d9be339eb14c207f01f0f99d348e6d06bf7f55a927cbcd05c3511cac17cf41bc2616fd02c2ac9dbb2
+
+Package: octave
+Architecture: arm
+Installed-Size: 48536
+Maintainer: Termux members @termux
+Version: 5.2.0-2
+Homepage: https://www.gnu.org/software/octave/
+Breaks: octave-dev
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Replaces: octave-dev
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-arm/octave_5.2.0-2_arm.deb
+Size: 11277122
+MD5Sum: 38d91b2684429daf43e4c1cf39decb19
+SHA1: a8ddb9e8f3028fca07ba2c1769ef9f47bc6d901f
+SHA256: d208bc7524c67f09f490198bd746849cbc255e9e22b38e4111e5105c0e82c87e
+SHA512: 235985010ace07aad7dc0ed3fc44c1fb231101e4b29f869bde0841aacf0832e2dbc922b16bfcb0ee3f4f7330b92da5800bf86b1ca64e84832ac02dc6a72130fc
 
 Package: opam
 Architecture: arm
@@ -1594,36 +1658,6 @@ SHA1: c64c303559e9ca1db6b1cc8c6cc01f4efd0cd5fd
 SHA256: dda9e45445b3db797e7815937d211d01444bd3b30e5cb7304f5562be82c9c116
 SHA512: c096f60eace645458690ca49a518eaf53fe36fef434de4360b6c5df281448b32cdf3e6908c8465998a9bfdee3afc60f223c58b1ab2c48ceffb266f25cfc81b16
 
-Package: openblas-static
-Architecture: arm
-Installed-Size: 18864
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7-1
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas (= 0.3.7-1)
-Description: Static libraries for openblas
-Filename: dists/termux/extras/binary-arm/openblas-static_0.3.7-1_arm.deb
-Size: 2346370
-MD5Sum: 2353b7040969fa58d2783307e44ebdf2
-SHA1: 4f380bbf5e9d6e6db3c593377242f4d99f00efcd
-SHA256: c3b7a78783af278e7c1c5932180e1caadf678478d9f0b2ac10aa5edcffe42b02
-SHA512: 59cabd833c4e66b94afc7e0ee29590091eaedb4930af98ff0a82f4727e5a36750ee7008accbe4a1d2608da7abd5fcfd1c2814737618c34160256d19471190791
-
-Package: openblas-static
-Architecture: arm
-Installed-Size: 19160
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.8
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas (= 0.3.8)
-Description: Static libraries for openblas
-Filename: dists/termux/extras/binary-arm/openblas-static_0.3.8_arm.deb
-Size: 2380688
-MD5Sum: 128aef316a38bb0327d2b7b931e4d4a9
-SHA1: 4dd333c985d4659d8720d1d7dcca20d9d783c773
-SHA256: a6149ed2747df3d8dec31cafa35aa0f74a4009c2bb54f1a82d325f00aa1b71e1
-SHA512: a94788af31b63d9c7e6df1fa322362588105012cddf007abfa85547294e0c52fa83636548515146e7af285499a882b7e029cc621addaa448df52da81df2ade52
-
 Package: openblas
 Architecture: arm
 Installed-Size: 11180
@@ -1638,21 +1672,6 @@ MD5Sum: 3dbc13b74d48c82955f26a16f118884e
 SHA1: 63f14429a3068bf20d4f7b5eb030339f2125511d
 SHA256: efc37ae5b7054ff406520dc2ba412421d0fd719778c21e1eff5c1effff1582ad
 SHA512: db2c980faa8fd03a0e3da2eb6ed3afdb7dac4d2ce1d1a98b2bff29b5d8bb4f75ca9ada45187b485fc516207241e3bff77c28694af1bcb11c9b1d4e8f303e15e8
-
-Package: openblas
-Architecture: arm
-Installed-Size: 11232
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.8
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-arm/openblas_0.3.8_arm.deb
-Size: 2347240
-MD5Sum: 359dcb94b74483bbd4d8850c2245bf3f
-SHA1: ae46c12dd41cde2ee4706120a7bf0fa113c24f18
-SHA256: 9de3c075fe3bada309051b4a0d03c69bc9f7783d8ad843888830c3dde97b3180
-SHA512: a179c5d8a5b53baefdc6a22abff570cbef8d9735ecabab9c9c8ad5659c062cc97f5a75186dc4258b486474b603a9ef63727bc78dda878af8f45635e009952838
 
 Package: opencv
 Architecture: arm
@@ -1684,21 +1703,6 @@ SHA1: 957ef8c6de10031d11bbb534d3fe6cbc5025e64e
 SHA256: 5f620ab43df6f4aea5e213f7d735d8e37824dc327fa3bfd5f7f04a6447e023d2
 SHA512: e318e5639eee58b10a36fdccbe8560f18cfce1a20e2a152c471c5a5dea9cf5420213de439848109eb0a56a043248276a4a365d48f84160f9c5fd86375c0ad844
 
-Package: opencv
-Architecture: arm
-Installed-Size: 33332
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.0
-Homepage: https://opencv.org
-Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
-Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-arm/opencv_4.2.0_arm.deb
-Size: 6759364
-MD5Sum: a242fe61be652e3912a93a6f1043920b
-SHA1: c7be956108e1122e8d55fbb654796049b78ddfdf
-SHA256: b901bb0bbc1d35300ce54181fd04a737d3ee820601c6ae829e1dc019f483d53d
-SHA512: 6e039ab5c2dff0e1abf1ab470a43e4200dff2a35fda377178a643446b13ab4c9730274ba86ea321659b75604a11b38f317be0e1d52c815d66b195a7f5fd75b99
-
 Package: pari-gp
 Architecture: arm
 Installed-Size: 9060
@@ -1713,36 +1717,6 @@ MD5Sum: 35f06f3bf47c7bc8c8ac889ea6816ae7
 SHA1: 8a2b0b4b674fe2859288c0b2ca9b397a56dca258
 SHA256: b2bf7c942fed565fd57864645a07c8f81775950105ac529a780cf24326a3c66a
 SHA512: 55cfa65666c1c837a9745a7243568f8ecdbe1dbc74b4b75b20d1034f26bb9917f211d0e6b42380050498d78ea6b963b66c2196757ed11f62acd3c2870e12cc2d
-
-Package: picolisp
-Architecture: arm
-Installed-Size: 4080
-Maintainer: Fredrik Fornwall @fornwall
-Version: 18.12.27
-Homepage: https://picolisp.com
-Depends: libcrypt, openssl
-Description: Lisp interpreter and application server framework
-Filename: dists/termux/extras/binary-arm/picolisp_18.12.27_arm.deb
-Size: 694146
-MD5Sum: 467e3e7b16063ea527d6fae76459e823
-SHA1: d94e8d2d22fada8d04577e53a2817fd7a6e29ddb
-SHA256: 3205c88a89b5ad93efdf45f7f7813c89e82ba4bb75342dedc1d3479fa498f328
-SHA512: 90e31dd051a47a4d6db858e642872378effb6aaa9863d35180352cd63ac508ca1aa1eefdc2fcab23f479fcf796d198249a4322e07f8d1bea536650a791f2d956
-
-Package: picolisp
-Architecture: arm
-Installed-Size: 4124
-Maintainer: Fredrik Fornwall @fornwall
-Version: 19.11.25
-Homepage: https://picolisp.com
-Depends: libcrypt, openssl
-Description: Lisp interpreter and application server framework
-Filename: dists/termux/extras/binary-arm/picolisp_19.11.25_arm.deb
-Size: 705930
-MD5Sum: 96df4423d56c069a4b15460e8a0112b3
-SHA1: c8410c47236e148ab2b812e598b46fa5dca86826
-SHA256: 41ef8fedc9d162d99f1a259ce6ac279effe07038714187206a82303dcca83b9f
-SHA512: 092ae11ca9efd75a10835ab792021242861f79e5036f6cc426a53d28d11b30e96c6f929dfbc21aa10d979a7072ff20ba60e7beb43041dfc3e85b84560fcedc53
 
 Package: picolisp
 Architecture: arm
@@ -1863,50 +1837,35 @@ SHA1: e7b66ee6ad9d629249c83c8581a9286abb7cb752
 SHA256: fd7f22ce9ceaa883dcf7ea5366993d7022545616d2c667874ea37457c2a657a2
 SHA512: 3aa0b94e30e33755f5d27bfbcd620e0e0018f323040687f4d23b614548894664fee100beb48afe0b836eb282806f7a0930792535a98c2c6f373a1afc2e54212e
 
+Package: qrupdate-static
+Architecture: arm
+Installed-Size: 148
+Maintainer: Termux members @termux
+Version: 1.1.2-2
+Homepage: https://sourceforge.net/projects/qrupdate/
+Depends: qrupdate (= 1.1.2-2)
+Description: Static libraries for qrupdate
+Filename: dists/termux/extras/binary-arm/qrupdate-static_1.1.2-2_arm.deb
+Size: 24282
+MD5Sum: 5b1bc54c35adcb3998978d2da36de00e
+SHA1: 319cb3319d080dbaf6dd948cf43c8aa4e6177a13
+SHA256: 8a7e5da6b0635553dac21fd7eea0e11da8d2632c49cf343671ded64971f4d6a4
+SHA512: 2a98f6b24538fda0ddcf464eea3a9c20af35f72a80f3d7e4fdd1838eba4a75be31763830a3922088f708eb8593363bcab58f87e33ef0f0a161fb169c3a23ac5c
+
 Package: qrupdate
 Architecture: arm
-Installed-Size: 52
-Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 56
+Maintainer: Termux members @termux
 Version: 1.1.2-2
 Homepage: https://sourceforge.net/projects/qrupdate/
 Depends: openblas
 Description: a Fortran library for fast updates of QR and Cholesky decompositions
 Filename: dists/termux/extras/binary-arm/qrupdate_1.1.2-2_arm.deb
-Size: 21132
-MD5Sum: 5d2c433c458d5ce4151956cd770e735e
-SHA1: 26d3bceeec40805a51dbbd8bb82d9da1b5c7215a
-SHA256: ca208d54914dc49a52221a8af6270ebb67b1bea2a4585d2e335b2e641f9558d4
-SHA512: dfaf71357645040884a735961f4002558892c77129f55c6e0ed05d257118cd1251f61c4a80d3229c88397e0cf9aef74195755805da8629032e4bb5628e388b7e
-
-Package: quantlib-static
-Architecture: arm
-Installed-Size: 161496
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16
-Homepage: http://quantlib.org
-Depends: quantlib (= 1.16)
-Description: Static libraries for quantlib
-Filename: dists/termux/extras/binary-arm/quantlib-static_1.16_arm.deb
-Size: 17148610
-MD5Sum: 3ac1ccdb9a32057831a40b4f63f23abb
-SHA1: a3ec1d52de6da57d01a5a4590c2cd841dfa3bb32
-SHA256: adc7fb4db8a68877980251c2df6833fe9669e9e6d0f10ea8efad0fc171fe72e0
-SHA512: 420d71d564f6b40279bdbea4f1df0fab0fd1fef6274fa7ecdccd7e1a0bdc56c3d2764652423660967b35de312c1dfdfbd419061aebc3881e5aec7ec5169cb7ae
-
-Package: quantlib-static
-Architecture: arm
-Installed-Size: 161028
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.17
-Homepage: http://quantlib.org
-Depends: quantlib (= 1.17)
-Description: Static libraries for quantlib
-Filename: dists/termux/extras/binary-arm/quantlib-static_1.17_arm.deb
-Size: 17109278
-MD5Sum: ae5c381312cf55538fad7e4bc118cda1
-SHA1: 9ad49c4b9abcc8e5c30f23369736a09e05d30246
-SHA256: 7b84035753a52ad9727cce75f19d02fc154469872f0066a0e1c88ebc1c308d02
-SHA512: b34f45f7f75c050262db6235b081dc6b1e632e6f62b1e70a8b721b129ed776b0cbf798d6c7e3498d7959800618504ca4ab1c025a1da8660818b72b765fa66dbf
+Size: 22186
+MD5Sum: 23ed02fec5e9318456aa50a8a7c47f06
+SHA1: 0b3b28168f39c041bb15c7a929e98272ae183ce2
+SHA256: 83bbf6f00807bc7ac8b39f58caabebf5003ed7cbf0020d4923fc90c306819a62
+SHA512: 0c168f5a88e8c2fd2f1d5d5d3de83d55c08801f6e5fa97781fbb2eab15ebf470b04cb7a32ec72a287cd890ba6ffd28cd51916eaa038dec62ebd842615dfcc2ce
 
 Package: quantlib-static
 Architecture: arm
@@ -1922,34 +1881,6 @@ MD5Sum: fe6a48819381f64439d01c76cca69c27
 SHA1: 7f95d52b4242c853d4de8b7f8e9224f626c16f7e
 SHA256: cf2627ff15b16f2a7028312e30d602b036f1b090015ae3ffe40514f0ce3e0f82
 SHA512: 7ea0c172e5df685ccc54e8ffcb05c518ab51952ed559a48c8db17c32d0b86987597bcde5ef329c3df05a85d87d247f96419a1e59e944f3788cbd98c3274362e9
-
-Package: quantlib
-Architecture: arm
-Installed-Size: 35524
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16
-Homepage: http://quantlib.org
-Description: a comprehensive software framework for quantitative finance
-Filename: dists/termux/extras/binary-arm/quantlib_1.16_arm.deb
-Size: 8665666
-MD5Sum: 1b0807ca799f0a21d3e89b42a9141f29
-SHA1: 7ebe0de7d25e11331b004397e8d8552103b7d903
-SHA256: 3a1fb1c50dbdbde6efe7b6abebc3b04c0c2bf47fd82ed41d1a03815f455f55ec
-SHA512: 28694ef3415b7f349e8e8d9c105fc9f25009697e9f514ccffa904710bd7ead4cc7f10d518a6abddb81f32306424e70a1710ad43c34a190e0eb989cb35d9ec170
-
-Package: quantlib
-Architecture: arm
-Installed-Size: 35468
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.17
-Homepage: http://quantlib.org
-Description: a comprehensive software framework for quantitative finance
-Filename: dists/termux/extras/binary-arm/quantlib_1.17_arm.deb
-Size: 8661978
-MD5Sum: 1c69152fb70b560a7c705541e9fb0d3c
-SHA1: 40d6d114e59f0e5d0e6d19fbad39ebf8fd3bd684
-SHA256: 2360f91f5c7b3a6052a7ff10e38200a72e4c9daeee33c539cec1ffd055e968bb
-SHA512: 14a8dfe3159d708219fadb00fc4482d29cf3aaee79acfe50054340a02c4931c1e46a6aadf89089950dc538c619ba13a3cefc5f685f77be41ca12bea23f42b0bd
 
 Package: quantlib
 Architecture: arm
@@ -2359,7 +2290,23 @@ SHA512: 61d7567c5d3d6ea4964167650ccdc9dd3376b66ebee7ce19fa3b226668b4dc5deb4ba23b
 
 Package: suitesparse
 Architecture: arm
-Installed-Size: 6192
+Installed-Size: 5832
+Maintainer:  @its-pointless github
+Version: 5.6.0-1
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Replaces: suitesparse-dev
+Description: a suite of sparse matrix software
+Filename: dists/termux/extras/binary-arm/suitesparse_5.6.0-1_arm.deb
+Size: 3156802
+MD5Sum: 2c7a3d991b475dc40386040b8026baff
+SHA1: cdfb96e5907e5c8fc54ea8fb97b027c0b0a8256a
+SHA256: 9fa3cb12c9ea186d38c1cfeab6df214efd1cf428e670ee0328f459365a40a6a8
+SHA512: 2f2d82601ecbf7709969d2007159b5ffb6738f87152c1b927d31fa6de67223aff717d03a91c164e6b4cee1c8c2a4b14c90a8722a856b7fdcf25833ed7a9b7ebd
+
+Package: suitesparse
+Architecture: arm
+Installed-Size: 5808
 Maintainer:  @its-pointless github
 Version: 5.6.0
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
@@ -2367,11 +2314,11 @@ Depends: openblas
 Replaces: suitesparse-dev
 Description: a suite of sparse matrix software
 Filename: dists/termux/extras/binary-arm/suitesparse_5.6.0_arm.deb
-Size: 3263320
-MD5Sum: 8fb8d56acea72e432399f504e2ce7d7f
-SHA1: 2a96b6c9e322dcde2eea827443c5fd4e324de879
-SHA256: baa1c4df0dc097977876021b82ec4224b4be9677dabb4760f5feb9da6d792ac5
-SHA512: f2c628e50e078e55bb14a48d367b1403bbfd8ff97813f7b1d0eb95c15deefe7c84a8e918ca18a2448a94709d381f6ab4193906ca5a2474d51e7c13a67e686c03
+Size: 3169156
+MD5Sum: 88f5755e8b17aaa73989ce42377bdce9
+SHA1: c4ee20ed06f75e1b7e017996faf7ccbab2418fd9
+SHA256: 57c5c095376f24eeef578c44d2171d296f254a1beb1ab267ada8f327a36863a2
+SHA512: 335f52d3690b317fb51a7b2efd1d0a417ef827f7290d91f83eb5f05f44f92156db155e6b5bd3552f020f6a54415be334e28badbfce4b7ea14b9ddb709a886625
 
 Package: uchardet-dev
 Architecture: arm
@@ -2416,21 +2363,6 @@ MD5Sum: 615bdadec75ca5f88f315ffa121a1d28
 SHA1: 2094d80ec53c24beece2f452574fbc4bc00aab43
 SHA256: aee1e5907f9e4cd0adb3c4eb370a2506f8f4f64090b2b3fe1e905df57e17d662
 SHA512: 6bb57193192eb821597afaf848ad2d5d9bd6ea717f5e86c8b687f6f390a0dafa7a486a12bfe96c22ade4cccf881fff5d19d0da6c7130c80cbdafb44c78460676
-
-Package: vlc
-Architecture: arm
-Installed-Size: 11480
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.9-1
-Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api, libsmb2, libandroid-glob, libarchive, libiconv, pulseaudio, openal-soft, zlib,  libandroid-spawn, libandroid-support, libmpeg2, libdvbpsi
-Description: video lan player
-Filename: dists/termux/extras/binary-arm/vlc_3.0.9-1_arm.deb
-Size: 2404828
-MD5Sum: dce65f0f2d32b29f4aac3c56d2dca080
-SHA1: 36197c05df507f1092aab1466a10a792efc77c6a
-SHA256: 0dccf0f770000b0c7ea2c9b983f5756f854fe02c960225a3f662729ef4df873e
-SHA512: 8bed9caf1ed746bdac3d61872f7635f2fb17bd6c79dfc5156f17468c8a0e3dbb3d4c02ff49fc31d6306531fbb46dc40ebc76c9a5b88d478b57ab77261abfbba1
 
 Package: xmlada-static
 Architecture: arm

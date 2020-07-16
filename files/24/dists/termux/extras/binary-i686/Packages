@@ -13,6 +13,21 @@ SHA1: 21649b8ed07968e7fefbb706a5791c3e70b5dbfd
 SHA256: aa170a33134c6be6bacecef2f4e2a7dfca612722e90eb98737932b8ce6954741
 SHA512: 1aecd33ede6e26e0e2cf1ac6552ffa2eed73459a4bc5cc522bde582949858276ba71d0eb96d670c267b7d890c52a7c450fb23dacfc156de5ce44e9fb75c87869
 
+Package: arpack-ng-static
+Architecture: i686
+Installed-Size: 456
+Maintainer: Termux members @termux
+Version: 3.7.0-2
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: arpack-ng (= 3.7.0-2)
+Description: Static libraries for arpack-ng
+Filename: dists/termux/extras/binary-i686/arpack-ng-static_3.7.0-2_i686.deb
+Size: 79998
+MD5Sum: eadc6227d9e37ca19f4c0116221c745a
+SHA1: ab082a3080b2dbfb15870d16e60863e50068e9bd
+SHA256: 946d89e099e54762c3fcaecbb0b49d359833369905e7e0941ed38289c1ced034
+SHA512: 5c293418e5d3241e4f6e3cded5c721f4ab7cc3d4bddb6536194061635b287c9e111a8444cd60241773d3c524dbe9fe70b17002f70cff515fe934614b5a33c5b6
+
 Package: arpack-ng
 Architecture: i686
 Installed-Size: 252
@@ -29,6 +44,23 @@ MD5Sum: ba977c5a57a93dfcb3c859540a004ba7
 SHA1: a8ad225604f799b841cedd5ac27632a3eef38969
 SHA256: 9fd1d680aa80747825ec714b107895729a06e45659eab37327e50de3f3755a09
 SHA512: 6fb8f95e6e817e6c06ce1f3a0c39457aad20ccfc62f929ee63a6a09407479fe09b52a8ff3415d28aaeaa83a651651dffa96e288008cf1bdf9c6a5877b1595f25
+
+Package: arpack-ng
+Architecture: i686
+Installed-Size: 252
+Maintainer: Termux members @termux
+Version: 3.7.0-2
+Homepage: https://github.com/opencollab/arpack-ng
+Breaks: arpack-ng-dev
+Depends: openblas
+Replaces: arpack-ng-dev
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Filename: dists/termux/extras/binary-i686/arpack-ng_3.7.0-2_i686.deb
+Size: 71208
+MD5Sum: 42927a9b76ca0dde433682a36773358d
+SHA1: b797539991e4923301bab30046995fd086c95902
+SHA256: 54b568b763b500d7599e2f00764ef5873817f6b52d7db91e2a74a4e8fb8d8cd3
+SHA512: fedb91a0f409ba37fbbc85aab2b2bc0f429db660a2095d29a224267e9a251e4c922fcb9d0b33a26c2a0b859845cc14a81650d21fd260d28e9c66c6f70a607328
 
 Package: asymptote
 Architecture: i686
@@ -1469,6 +1501,21 @@ SHA1: e5100229cc3ebb7e757e8ab75bdbd16d253f4355
 SHA256: b8f359ad984229be12b5b31f21d2352cb457415238c24656d5e0c39896f865f8
 SHA512: c8a058c23cece036eba28803657d50f058406041333fbea7c2835fbc49bd924274d73ce10ccb3301a7ebc457861d2cc65d3993fa32409f3f1899bc543414723e
 
+Package: octave-static
+Architecture: i686
+Installed-Size: 82208
+Maintainer: Termux members @termux
+Version: 5.2.0-2
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.2.0-2)
+Description: Static libraries for octave
+Filename: dists/termux/extras/binary-i686/octave-static_5.2.0-2_i686.deb
+Size: 8318964
+MD5Sum: 3f78e7e0532c5f735fe8c3bd4f36fbb5
+SHA1: 95e03e9764e4ba0e2bde6b63b51ad4ee8999e855
+SHA256: 4aa3cc75e312be9f228f22fb0b781a89180b621c6adb2babce9ab62d3f21d504
+SHA512: bc9591e053844be666a727c67477e20ecf2436197d44735c6350287db82575e61a467028dbe573fd58468fd670fe88ce4121485eab09d5d08011d68e53c57035
+
 Package: octave
 Architecture: i686
 Installed-Size: 55580
@@ -1486,6 +1533,23 @@ SHA1: 48f1888511988f7e26cc1bffa04c9d319ed7ab25
 SHA256: 2034b84f916e20bb3f0522a915fa62307d177ee130ca85fb89565ed29b9c0be1
 SHA512: b8211e6d61ed0968b3432ba95354c57db2f970c05e401c7d3de764f4b02472b7b0ae382a22ed12efa509a0947489b70ff5639ef5b3972bd2b1572e90aabf4da0
 
+Package: octave
+Architecture: i686
+Installed-Size: 56656
+Maintainer: Termux members @termux
+Version: 5.2.0-2
+Homepage: https://www.gnu.org/software/octave/
+Breaks: octave-dev
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Replaces: octave-dev
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-i686/octave_5.2.0-2_i686.deb
+Size: 12306448
+MD5Sum: 20a25c188654db6bf127777168a844dd
+SHA1: c2cb6e357701cbe76682bd6a46bde102a7450115
+SHA256: 8df7ddef9a612464b7451386e2355a2c5b7756e9f0be55eda2d525f24e8339cb
+SHA512: 3c3d25f8be61e0ac8e2b610d7af3ad65cc67f5632c87078dfdbc27e4bea8a5cedab7d941e9b3d1da39afcb5dbf391d0d2bd1f4147eba113897cf5c02568857a0
+
 Package: openblas-sandybridge-static
 Architecture: i686
 Installed-Size: 23436
@@ -1500,51 +1564,6 @@ MD5Sum: dd724f6e15eeae9c34854adc0fe4da41
 SHA1: 4817248636d8a5782f0730494fd8f597a5a0f424
 SHA256: c96402c0efeb996f7c0ea83c263afbb8561b0de2483e133f6386ec5ca03c9ce6
 SHA512: 6ff7a5eddc60baef0b4c10de2d312670fdbb826beabffa5dc2c62a703dcc8065f18ba57591f762b900d48e21ea7e4bb4cccd5694051823a27df5cf2f055ce924
-
-Package: openblas-sandybridge-static
-Architecture: i686
-Installed-Size: 23524
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7-1
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas-sandybridge (= 0.3.7-1)
-Description: Static libraries for openblas-sandybridge
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge-static_0.3.7-1_i686.deb
-Size: 3142558
-MD5Sum: cffd415af9c02100142452f3893d1a87
-SHA1: a0fdfcbd9bc71bc537a7a9d71b3866adf4836384
-SHA256: 85ebae0316bc896d8145d31ed8bfc2a7773ef263ecd54c00816707b3aa27f11a
-SHA512: 4b888a5ffe44fb808390f947c16bf6afee543785861d11f8400a4360b24112cc846b056c49b81d031b90a8aef8aab0527c3071a20cc353a96e4eb62781ace96c
-
-Package: openblas-sandybridge-static
-Architecture: i686
-Installed-Size: 23524
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas-sandybridge (= 0.3.7)
-Description: Static libraries for openblas-sandybridge
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge-static_0.3.7_i686.deb
-Size: 3142190
-MD5Sum: 325c5710941c37e3c0041bb1d596e3a9
-SHA1: 6fccd8a32346e4fe1cfb944edd68808b31d1887e
-SHA256: 027f0595778e090f1ff11319471577d9e484637e13291ab02479b4d7947beeee
-SHA512: 4d28ea0ea4ae6cf6d6c78978c726b6bf17286f681367696997b7eae318a0e0c3979dc9fc1d46d502b6ebcca8eb672fded0b9f0250c41f04fa3a1c27e31bd3ae3
-
-Package: openblas-sandybridge-static
-Architecture: i686
-Installed-Size: 23932
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.8
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas-sandybridge (= 0.3.8)
-Description: Static libraries for openblas-sandybridge
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge-static_0.3.8_i686.deb
-Size: 3188658
-MD5Sum: 83ebbdd69f236d00307d20b5e6b5f23f
-SHA1: 43f2de16caa27e302fb14428cb5d59bae768f009
-SHA256: 084880ddb146f02d9b9f3aa76e9f3504726bdd2fba147e8ccb4ee5ce94117ba5
-SHA512: fbbff904f38e8cf534d7cc8646debcabef32c2bc2bb36f6167801d21891af51ac62a835c9e6e5a2d553c09331afaa94c08ce7190c76155b034ff5625cfe23e8c
 
 Package: openblas-sandybridge
 Architecture: i686
@@ -1563,57 +1582,6 @@ SHA1: 8f12f8eab504ae65d4164228b89a1ea69bdc799e
 SHA256: 04e5fb34066ba164090a01c9e4e6635bb8033abfea47ee32398fe65f181f5d5e
 SHA512: e11ce945fa65ab4a4e69aa9a4a7cd0cc7f00cc1b42c8d088a67a2410c19ab25e9cb079ad9de89305ff043f3b774034d9427e756b0d3c6347a7894b4bd6c93039
 
-Package: openblas-sandybridge
-Architecture: i686
-Installed-Size: 14788
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7-1
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Conflicts: openblas
-Description: blas library optimized for sandybridge(chromebooks)
-Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.7-1_i686.deb
-Size: 3120000
-MD5Sum: 72b5d4ce9c49c160a8c1b22dacbfd213
-SHA1: 71b48eb8e529e0a7fe869ce203b8f9a6694733fa
-SHA256: 2ce1df53b8fc9c723f8aff2d067b58f18b97dd3d1538f6eea7eba0b96ab61dd0
-SHA512: 8dba2d4f98cbc96c1fa9237e5e69a695b165f1e3994b32046b00da8f07b0bce79ad1e723faf7842d00528fd90288d6073244db5c294cf155179aa593706fc2f9
-
-Package: openblas-sandybridge
-Architecture: i686
-Installed-Size: 14788
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Conflicts: openblas
-Description: blas library optimized for sandybridge(chromebooks)
-Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.7_i686.deb
-Size: 3119940
-MD5Sum: ae01ab420010b4ce8e8968da096b9452
-SHA1: 68bbcc71cb9a8e6d55efed04af60014b108cb87b
-SHA256: 55e845877b1206e445a018ae1f82a5664b50bb181d87034bfac3f38d4346f3e6
-SHA512: 0407c0194fa62c2b23a79b1a1468164f07237ff0f461467e5a161d81ec46f9ffaa974a492a941de3d208cafd2ddaef0e35f8c1dd0f6024977b814719058fe635
-
-Package: openblas-sandybridge
-Architecture: i686
-Installed-Size: 15004
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.8
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Conflicts: openblas
-Description: blas library optimized for sandybridge(chromebooks)
-Provides: openblas
-Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.8_i686.deb
-Size: 3167240
-MD5Sum: 54b6028e21814d7e0e4db6cc044c36af
-SHA1: eaa297757d057dd9bba81ca3a34533617fa778d9
-SHA256: ac121b2d1db03a17477a146aff6f0d1fd7d2e9ef64b17057ad14eae846ecd0d6
-SHA512: 158dc84727df1ab00eafb951b3393213debae6a5b3710e800c2a1c228ff7f3980d52a13c1b04f9cd5091b97675713547f7151897e66edabb89bd629aa7544644
-
 Package: openblas-static
 Architecture: i686
 Installed-Size: 23456
@@ -1628,36 +1596,6 @@ MD5Sum: cdd9e894bf4f7c0c8a4ce1f5abd0372b
 SHA1: f3ca94faa1fa2adef110e53e12c391c920b5e61b
 SHA256: a3d3b0ac994bc60d27ac99706d0aa9cbec981ff339e03ce681e8795b6ed81e0a
 SHA512: 108829ed35b52b2cbb862b65a85be7e0555415c7c730728bab464484040c2f8f06ab71a186d64f202bfc2074f624e6a41da775385f0bffa59bc35a4725ceeebc
-
-Package: openblas-static
-Architecture: i686
-Installed-Size: 23428
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7-1
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas (= 0.3.7-1)
-Description: Static libraries for openblas
-Filename: dists/termux/extras/binary-i686/openblas-static_0.3.7-1_i686.deb
-Size: 3073610
-MD5Sum: b84a49e2f9981952af2eec9c8d7c56a9
-SHA1: 189ef7eb198d2a2200a42407bd4e6a6b01e60d7c
-SHA256: d17b6e251069e6f3b4d021b17216983ea40991d1ed548057f5c61aed66df1275
-SHA512: 5a1b831f03b421f0ecaf7fa83e6ea76e682f7e73a3567797c73bd4d20ef4c6f24f2963c45aac89492e4b52e34a19f374e1a27a3455cd21b127dfbf09b04c33b7
-
-Package: openblas-static
-Architecture: i686
-Installed-Size: 23832
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.8
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas (= 0.3.8)
-Description: Static libraries for openblas
-Filename: dists/termux/extras/binary-i686/openblas-static_0.3.8_i686.deb
-Size: 3120736
-MD5Sum: 9653420f6d434c188592cded395453f9
-SHA1: 8a3d7a20f894d1a9f942290790f38b940d0172a4
-SHA256: 6b6dab4002f7393b4c6910771947674115d6fac2f27a6433b0874e5f0478b0a8
-SHA512: b2e779fa4032e8d8bdc3dc1b687e66ef0efde6fbb4728065786d98e78b27407b042d21a4fa945ddfce98de5af467d171da5baf5501b40cfaa2b2b64836364aba
 
 Package: openblas
 Architecture: i686
@@ -1674,21 +1612,6 @@ SHA1: 1cd2147b492bf440bfc6a857e3696a52096b688d
 SHA256: efac75fba2d739f7dbc0493b3d9b18ec436bddae6cf37b65f4e1f6459e8b8539
 SHA512: 9dafb61951ca9c6bb42eb302d69deab3fc3257150aa13395d4da5c6aab341a703af954b35bd351e56a6135bfd9b9709397452ba51b5255e5787291d46e266233
 
-Package: openblas
-Architecture: i686
-Installed-Size: 14880
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.8
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-i686/openblas_0.3.8_i686.deb
-Size: 3106548
-MD5Sum: 2d3e301628eccf8d2229fd5f0f949921
-SHA1: 7b26d61a40abd1b6500884a8952a873320763e6a
-SHA256: a49a3e7bf34980768306b4cb438be1b846ddf61853f2c49fbfbe44a8c07a57b8
-SHA512: 8feb28fbaa897f9f92b982f23729495d8a06e5e3b152768168698b3a892ac8de1cbc45cb7cb1d6935107169a2c07ad4fea7353f305e42e2477335ad5280e83a0
-
 Package: opencv
 Architecture: i686
 Installed-Size: 45056
@@ -1704,21 +1627,6 @@ SHA1: e80ddc9049717910f1b4fe5ccc2784977105a17b
 SHA256: 91007a24536849154c1c9f934ba09b9bb4bbc66b92c1878770c1c2b8fc7de676
 SHA512: d8ba294f4733d65c2d0b66bf19c96b561d7a8d04e3bbbe6449bc1fd9539c0c89b8b12aa3e7c0495d386a9e9974c0355c4498203b28712c9ee20152fe33d8dc16
 
-Package: opencv
-Architecture: i686
-Installed-Size: 39152
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.0
-Homepage: https://opencv.org
-Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
-Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-i686/opencv_4.2.0_i686.deb
-Size: 7162712
-MD5Sum: 1658b632594925d3f561e7dd3c4d3eb5
-SHA1: 29307ca73e45a286593cd150b60ade00d66f9295
-SHA256: c7ec62ed6ba6f275599dcb645f5bef707cec30f7be391fbb2eb249275cc8fbac
-SHA512: 90ce4c97d8d5213ef5af509e7bbfc15bd4ed270f1247d9e88df3a5dcb94b8ce81b83c2d069ea7fadcf4d5d75bc4014eebfdc0b408ed33f528a551707d837e1ae
-
 Package: pari-gp
 Architecture: i686
 Installed-Size: 8620
@@ -1733,36 +1641,6 @@ MD5Sum: 7356e9379228342f02898beedccb9ad7
 SHA1: 27ab3d23f9047a10c2ec6e30e7a8e8f062e155be
 SHA256: 231a6e407517be7ae2c7366144cf4ab0020edb01ea5999b906e829a59ae899a0
 SHA512: 94e9daa43deef5105fc873810cf403eb3deb675b102b035702630511b0c6e1c556aaca1e8b01d82a103187e7d8798559e51fa4299adfa33f2da0a95dde324573
-
-Package: picolisp
-Architecture: i686
-Installed-Size: 4180
-Maintainer: Fredrik Fornwall @fornwall
-Version: 18.12.27
-Homepage: https://picolisp.com
-Depends: libcrypt, openssl
-Description: Lisp interpreter and application server framework
-Filename: dists/termux/extras/binary-i686/picolisp_18.12.27_i686.deb
-Size: 715488
-MD5Sum: 68a7f89b18a376748c357bb76636fa15
-SHA1: c2b56174e1c8da874abf2d01c657005ad9022c46
-SHA256: 0216f130cca3a230b0fd27591364a1d0330e0000eeb41c783ae2ea7523572577
-SHA512: 92b36dea90db7dbe086b3f85ed42b25a62c2791c59c4ee5ff6d17ab474ce23dd53633f6e654ed9ffb1d17f750b64c47e22161f67fe19e5aeba9f42e5b57a46fd
-
-Package: picolisp
-Architecture: i686
-Installed-Size: 4216
-Maintainer: Fredrik Fornwall @fornwall
-Version: 19.11.25
-Homepage: https://picolisp.com
-Depends: libcrypt, openssl
-Description: Lisp interpreter and application server framework
-Filename: dists/termux/extras/binary-i686/picolisp_19.11.25_i686.deb
-Size: 724668
-MD5Sum: 4489786bcfdad305258b950f7abada24
-SHA1: 69d86ddfe2491727b9e09417cdb9fbdf1aa9ec98
-SHA256: eb4b27bd965dc06dfd2f5387ffa2b9d18c620049d5b13bf67aaaa0a1facca527
-SHA512: d7064f0acb5b70b3dda2fc5a29c481e721c0aed9a2a0499e01cf8a5ffa35007becdb20ba3e82c2b115848c913b4e1c200d9b81c8aaa248c3100f352c94a50fc0
 
 Package: picolisp
 Architecture: i686
@@ -1883,50 +1761,35 @@ SHA1: 61d0f28b46b21411cae2719e1084ef6f1beeccf1
 SHA256: d4ebdc6e6129f74a78cf3dc57c8a3219485fb7058ff9dd71b412115aefa5b886
 SHA512: 97cd6d8fb89d5a148388ff0ac41826af17d8d62d4a2242948f97e65ce412f2b8ffa913faa80b18e1252a8689fe3bf98302909ae477632cc619317411f87e18aa
 
+Package: qrupdate-static
+Architecture: i686
+Installed-Size: 192
+Maintainer: Termux members @termux
+Version: 1.1.2-2
+Homepage: https://sourceforge.net/projects/qrupdate/
+Depends: qrupdate (= 1.1.2-2)
+Description: Static libraries for qrupdate
+Filename: dists/termux/extras/binary-i686/qrupdate-static_1.1.2-2_i686.deb
+Size: 32620
+MD5Sum: 796d0462b9cf056a4a09718fda8ce195
+SHA1: 36d0dce9a2c3da0d9d007d94b54499806224b6a5
+SHA256: 81e211ed5d9915afdba263f2b583bd0c30f80e02a4672e0e0827373671d453e1
+SHA512: 37a856ce0ff9059a83193e37872703312faf49091ee123e2b14376f706bf34fbc2da09da7ac2b8bdac688d72c11b37cc17d757743c010bf8b6cb02479ecaec7f
+
 Package: qrupdate
 Architecture: i686
-Installed-Size: 72
-Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 76
+Maintainer: Termux members @termux
 Version: 1.1.2-2
 Homepage: https://sourceforge.net/projects/qrupdate/
 Depends: openblas
 Description: a Fortran library for fast updates of QR and Cholesky decompositions
 Filename: dists/termux/extras/binary-i686/qrupdate_1.1.2-2_i686.deb
-Size: 27674
-MD5Sum: 861126d57922a044a9a4f396236e2538
-SHA1: bf9013e04badffa5babb38793fb0791e284d12c4
-SHA256: 028fbd634cea4aef2c193873e2ea923d5c5830a01c90bde778e3a6f6356384b4
-SHA512: e1adacbd573083175d1ab2be049d640f14c9a21418c22caddfd070721a2d2dd2b05ac857c6ab213a1d9482c2498445e8c53533b6935474c4d76fb81fa845bfb9
-
-Package: quantlib-static
-Architecture: i686
-Installed-Size: 121868
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16
-Homepage: http://quantlib.org
-Depends: quantlib (= 1.16)
-Description: Static libraries for quantlib
-Filename: dists/termux/extras/binary-i686/quantlib-static_1.16_i686.deb
-Size: 13246284
-MD5Sum: b842d64a3ca5c8379385fc568c98f419
-SHA1: d6d9c435461e7625b4de07ffc65aef6ff83e4e88
-SHA256: d68f134f300a2c9ee63dcc105cb0f4e4d7e004e0b2c74fdabdfc6e617eda9cc9
-SHA512: f88d32e4c7dacb35256cf7e7e620d36e381d398291471fb0e7000d16dc850cfd9ccd5ef7609be7e1896f372ed21c10e6990dadb16ff2d018ee61df57bfde1468
-
-Package: quantlib-static
-Architecture: i686
-Installed-Size: 121544
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.17
-Homepage: http://quantlib.org
-Depends: quantlib (= 1.17)
-Description: Static libraries for quantlib
-Filename: dists/termux/extras/binary-i686/quantlib-static_1.17_i686.deb
-Size: 13194560
-MD5Sum: d97689b2128cdea4724c0cd06a5912af
-SHA1: 8ede190102f76e26f71aa4aa5f52be692aa89356
-SHA256: 118e1d9cc429cc113e86fc885e1a6766b7ccb71cc7c700aa6546513d99a5a56f
-SHA512: bf9f643112d88769a205f61aa0971f3752e27e4947037da31548c3b6f511e6d12377543f4fb2ee1e72a6c17fb0b6b3fc19271b38407f829eab834b4732af8790
+Size: 29138
+MD5Sum: 27fed99459fd59e31f3b1aaa2300b457
+SHA1: 75c6f2cb091430ec58040df69e0abed772f0f294
+SHA256: af274cd33834489160d6624c532db0849e6159aafeda32eeb6300d6adee77789
+SHA512: a375ee6fe650455b0963bbda61388e106b177a51c5f8e199b9558b9d029a7b2879f9809b9d3cbfb4f32fdd4442d25f7ae55007f9401b1b86fdcaa8601ec2f856
 
 Package: quantlib-static
 Architecture: i686
@@ -1942,34 +1805,6 @@ MD5Sum: fc7c3b4574704aa651f949ebe849e5de
 SHA1: f57ab44166c59f63b794c92019f18e7f9792cfce
 SHA256: b812903a26462f60e968d0fd8812174f10aadde308370257815fde2a98bd99e2
 SHA512: 5f1b5225c031c4359b959bc6999a254d5c6bd8771e82dffb3f848c401753640bccc0965432f89848aaa29c7169507813ad616577a3268e86e71016afb2b1afe6
-
-Package: quantlib
-Architecture: i686
-Installed-Size: 43364
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16
-Homepage: http://quantlib.org
-Description: a comprehensive software framework for quantitative finance
-Filename: dists/termux/extras/binary-i686/quantlib_1.16_i686.deb
-Size: 9121272
-MD5Sum: 85d1a005f0572a887a022219717dfd63
-SHA1: 76f2f96e819dd6d9a4443d8a51e0d2a8b9d6ec3a
-SHA256: 4a5be81e3f043ddffdade938aa98b6ecf030da115714edfa43703886ae727153
-SHA512: 99a132d5329c83bc4973c77a50e6cf54cf89270853e999478086fdaa8a627d6496ffc0703a9465bf90f981409253b37e8445cd063b2a6a3a6f1804d98972c8b1
-
-Package: quantlib
-Architecture: i686
-Installed-Size: 43264
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.17
-Homepage: http://quantlib.org
-Description: a comprehensive software framework for quantitative finance
-Filename: dists/termux/extras/binary-i686/quantlib_1.17_i686.deb
-Size: 9111832
-MD5Sum: 9a08b007a06b58ef816826f4d40cce32
-SHA1: 9a8e84da8b36b3d3d41c89b8d7755d7a02600bfb
-SHA256: 3a9c210f9b0ae8165544a4eee7d08823c610298f61f85881c864ac0ae1bbc28c
-SHA512: 550a6b7ac20472ac2166e7d139da401a03665e7d43f93fc21895ba6dadca0f642443b2f827a073698be4898a47168447f3b9fc9efc73b6eda042553d3c820532
 
 Package: quantlib
 Architecture: i686
@@ -2349,7 +2184,23 @@ SHA512: fd09a95e37d1b7c0630607264265cf05a9f2dddc3ba4d4423d29d10e566fc3e3d6ca107c
 
 Package: suitesparse
 Architecture: i686
-Installed-Size: 7212
+Installed-Size: 7260
+Maintainer:  @its-pointless github
+Version: 5.6.0-1
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Replaces: suitesparse-dev
+Description: a suite of sparse matrix software
+Filename: dists/termux/extras/binary-i686/suitesparse_5.6.0-1_i686.deb
+Size: 3337216
+MD5Sum: a320bf5b13ed0b9c8b718007ca35d6ad
+SHA1: c6654bdeba4d0ab84bab5897bbed90c90bdfa006
+SHA256: 81aaab633446a7ea5ae5de8da31a1f44d89b051fcdcfc0568c26bf465835d7dd
+SHA512: 31e56e035c22ed61fa7fc24facfe71892ee2506427798d46c111e6c07737ebcdc63eee704cfa977bbd52242860fc6cdcf73d5e14f7ffbb13dc5caa245a2bc8cf
+
+Package: suitesparse
+Architecture: i686
+Installed-Size: 7260
 Maintainer:  @its-pointless github
 Version: 5.6.0
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
@@ -2357,11 +2208,11 @@ Depends: openblas
 Replaces: suitesparse-dev
 Description: a suite of sparse matrix software
 Filename: dists/termux/extras/binary-i686/suitesparse_5.6.0_i686.deb
-Size: 3334524
-MD5Sum: 9131c868eab2b67eecdbf771694bc07a
-SHA1: 9b9626571008e4fb55c4fc00efb10340074340d8
-SHA256: 9587f2309d602eab73bc39825c07da87f847a27727c646ac31bd8bb27e2e5bcc
-SHA512: 55f1ddb1b66f6b5c35c7fa6f2e06efd250e3e99007edd53ab1dae89b0fcf19dbaa28e23da36fb01304385b588171f5eda845667f7196639652f2cf7908fb5c56
+Size: 3337280
+MD5Sum: 0ca9b5b51679687f98c61761ffb0671b
+SHA1: 4157a41cecb078bb4a20afeead8ba6cad5e4fc23
+SHA256: e19c793c2d0fe68408891a1fe5076eea00809632fbb2eb2c77319c2b92d03010
+SHA512: 4a38e458b76244bc64c8b8762b4e3fa091c35d0d8c8971f6e727f9455fd2d74bcc52a22069dd3775333caa27b730c933c813cda670acdc47b2987387eb8e2254
 
 Package: uchardet-dev
 Architecture: i686
@@ -2406,21 +2257,6 @@ MD5Sum: 9303ad14a93d18f66d36dfee523a8b2a
 SHA1: bd0c1291a761c943b6cd35773c75b2a43913d76b
 SHA256: 2fd672ea8b25ba48b44dd2c7b469d1cfedaec546fd4316cf884f7fc399898146
 SHA512: ba8516601e5da5591ad7f06c99cc2609ba71a91fe41b2953b1d57986f924053e2718da325860d43ddbed1c2f08a0bef7315d5e0a2a359412a65025ef7366f5f9
-
-Package: vlc
-Architecture: i686
-Installed-Size: 12720
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.9-1
-Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api, libsmb2, libandroid-glob, libarchive, libiconv, pulseaudio, openal-soft, zlib,  libandroid-spawn, libandroid-support, libmpeg2, libdvbpsi
-Description: video lan player
-Filename: dists/termux/extras/binary-i686/vlc_3.0.9-1_i686.deb
-Size: 2565294
-MD5Sum: 7c9f74f96fb7e16d95904b20cb3be457
-SHA1: a7ce5b5a339b55e32ee728e710133d7f96e07b7c
-SHA256: 28e2c7d486938485b3458eaba047c62a3b6591d4e0f3a8c9bb59de752e0669a2
-SHA512: daf838865ab2e7b678f6906694a0f251ce7e3beeb0474cf42c760a207e159401eed5d1a0f0d95d31a80b8f1570bf1c596b5206ec5cfea7bac75563a626c190aa
 
 Package: xmlada-static
 Architecture: i686

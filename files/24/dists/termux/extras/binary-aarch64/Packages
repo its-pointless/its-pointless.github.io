@@ -13,6 +13,21 @@ SHA1: 2161a82622681922285af74509932a8ec07570e7
 SHA256: 964f0aee5e80aa58a9e6836b5d6f745e599e32e0d17e67e7210f33f7b84bfdc2
 SHA512: 32cf331cd64e84555c5d20953c1ec72302dad6e6c4d4ec42343af91a2d2d1159d45510ba64d1333523100c1840be312d79e88442dd9e1dcc44fa937f2973d516
 
+Package: arpack-ng-static
+Architecture: aarch64
+Installed-Size: 564
+Maintainer: Termux members @termux
+Version: 3.7.0-2
+Homepage: https://github.com/opencollab/arpack-ng
+Depends: arpack-ng (= 3.7.0-2)
+Description: Static libraries for arpack-ng
+Filename: dists/termux/extras/binary-aarch64/arpack-ng-static_3.7.0-2_aarch64.deb
+Size: 64654
+MD5Sum: 71791b6a3da5e4e897abf6ac60ab3dce
+SHA1: 4dcc4f947ac083a5102ddf500714630b0c2d45dc
+SHA256: 7e7bb65141b2a442b7001467f356d535268c2418fed4d920596ad7a845eeaf18
+SHA512: 5b24c1f1db5e05dd124e821c06044be91aa511cc0a355bacd4d80d72e0f998dd89e4b7f746a4add248783d0ad39a095c97a3d43ce2a569e3599bec798f46948a
+
 Package: arpack-ng
 Architecture: aarch64
 Installed-Size: 276
@@ -29,6 +44,23 @@ MD5Sum: 9d418a4104e79bdedc37f9c62d10c524
 SHA1: f9b9d01a91cddfbad619ab2d6d9e8bd6c44cf6f9
 SHA256: cdca0a4c129898fea49469322a283ab23979aac13dccb51033d74e53e3c37ed6
 SHA512: 15bd4e92f5c509f958668a6694c3145db2a9db1be5bf0daeea32bf3b5dd2aa2f4c4e69fa90c371cf9800af1584e7688aaa5cfc3a48b4743f0e8bc0b836ed1a56
+
+Package: arpack-ng
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: Termux members @termux
+Version: 3.7.0-2
+Homepage: https://github.com/opencollab/arpack-ng
+Breaks: arpack-ng-dev
+Depends: openblas
+Replaces: arpack-ng-dev
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+Filename: dists/termux/extras/binary-aarch64/arpack-ng_3.7.0-2_aarch64.deb
+Size: 60380
+MD5Sum: 1bf30ae499bb4f4e1c96fe46183e530f
+SHA1: 7fcedd0758b66b8159a5bbd0586afbef1f89f24a
+SHA256: 6f9e345f700a0c200d9bae37e41d552f659f1256ad5b0a1806801a3f5c33849a
+SHA512: 672815cf734a47a8df6db9ab0394ad1729ddb3ea7233b9d5ead1a4d5f162447a95a542b7d0dc49df661e69aa747c5d8936ccf90392c4738d6b161c62d9aaf68d
 
 Package: asymptote
 Architecture: aarch64
@@ -1515,6 +1547,21 @@ SHA1: 61d221cede638c99e45f55dfe5c68799c570dfc6
 SHA256: 8f33fd634153b36c77fe68e4a893b3b66aaad29701255100ed91f1a597f59cd5
 SHA512: 8709d4624abeccec6432e62dc574cded43d231eafe6124206638b29d046dd33ebc51f7c657f17d44db6e489c7de5efebb001b08a5ce667c35e60a88c6d4bdc1e
 
+Package: octave-static
+Architecture: aarch64
+Installed-Size: 110600
+Maintainer: Termux members @termux
+Version: 5.2.0-2
+Homepage: https://www.gnu.org/software/octave/
+Depends: octave (= 5.2.0-2)
+Description: Static libraries for octave
+Filename: dists/termux/extras/binary-aarch64/octave-static_5.2.0-2_aarch64.deb
+Size: 8948468
+MD5Sum: 0bb34f722a12c48a62252db6fd2ba938
+SHA1: 5207f59109ad66c68188d56eaa1d50bc433b201d
+SHA256: e670c3a43b60229ffa5bca9118a86dde521c44cfca9024bef3b1bed225500061
+SHA512: f117ef919ed1f071ca938d8868a81d59457bd3d504e5d6e853e10985f4a51a6e8fb4aa7faf8ddf2c40700b888c6da7410a9db65569417cef011dd790c5c7712e
+
 Package: octave
 Architecture: aarch64
 Installed-Size: 55428
@@ -1531,6 +1578,23 @@ MD5Sum: 04d5113d05cb88e8344aab5dc8749d62
 SHA1: 25d57dcb950ebad990b302eec1205fc7fcc60650
 SHA256: 5fe7f1a312dde1b739644e4cc859c80737b6376514d8057a860e8fafbc06d3ea
 SHA512: 6ea586b868232cc8a635023b67d801b44c9e6eba00b2d862c8726836093b98c3760b4bf60a79f9c6456146bf53db9e84cc5cc8688f83df7d38bee7103a3c863d
+
+Package: octave
+Architecture: aarch64
+Installed-Size: 55264
+Maintainer: Termux members @termux
+Version: 5.2.0-2
+Homepage: https://www.gnu.org/software/octave/
+Breaks: octave-dev
+Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
+Replaces: octave-dev
+Description: Scientific Programming Language
+Filename: dists/termux/extras/binary-aarch64/octave_5.2.0-2_aarch64.deb
+Size: 11518784
+MD5Sum: e929c33bfcf78ca30f4cb5ebec938537
+SHA1: 0f9d1e10aaec3f1af876cab3ce97d5c28f8f557c
+SHA256: d36bc6c62d27e8518ecb0df1de7da004c4655c166b9f53c02c5327f057593593
+SHA512: f12651b247695a4a6b3702fcc4a3c920ccc7401f9346aa42a04d05a16fc07d0bd7db484dd2ca86720b37bd34bbd011709f2bf0c9c888469677188d08e70c5c21
 
 Package: opam
 Architecture: aarch64
@@ -1580,36 +1644,6 @@ SHA1: 39a0265e2f5476085926388c72868e563fff7f0a
 SHA256: 9c90058ee53a23443746050ab6834937da08f31836232e4954a32020aff900cc
 SHA512: d41c53696fc725400fb02fdee076b5b9d50764c73fa26ec4a840b6649096dd782fdd1e684a6e44d0f4a76bfa917f3b48cf0b25e34cb6ade04a63056596b2bb1a
 
-Package: openblas-static
-Architecture: aarch64
-Installed-Size: 22364
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.7-1
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas (= 0.3.7-1)
-Description: Static libraries for openblas
-Filename: dists/termux/extras/binary-aarch64/openblas-static_0.3.7-1_aarch64.deb
-Size: 2246236
-MD5Sum: 52c1ef5fe46da92640f0578b4508e5cd
-SHA1: b9423114fba0850863a3dde996e8cd64fab5ac97
-SHA256: 6e80a965b89beb7b197ae7ea9f576e4400e2ebea6b51e58dfd726fd1c5b5a3d0
-SHA512: ce77c3edc13fc3f5f31f550ec47482866ec6e7fa69a83005421a1666955e8b4c279f2b838b50bce2dd77b38f8a699a66f46b27e2509db2cc97c5d469e31f6a5e
-
-Package: openblas-static
-Architecture: aarch64
-Installed-Size: 22724
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.8
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas (= 0.3.8)
-Description: Static libraries for openblas
-Filename: dists/termux/extras/binary-aarch64/openblas-static_0.3.8_aarch64.deb
-Size: 2277896
-MD5Sum: 050deb03b93ba7b4171d4c3fd5143395
-SHA1: 881b2b7309db186596010f8992d58440abb88ad1
-SHA256: 466794dacdf582e74365aa7c7eb418438c7641ed5f94a40bd6f4d807639b947e
-SHA512: 7b80c8529f503fd368e8e5e201df0048d82a90bb735c746154044ade66eb8b8aaf132df0256c8479d7cfa572ef189774d26b1fdd10f2f69f8c77fec5d46dc30b
-
 Package: openblas
 Architecture: aarch64
 Installed-Size: 11128
@@ -1625,21 +1659,6 @@ SHA1: db65b0c060b76146e1b706450514f3ded41e34ff
 SHA256: 2a3b763f5a704166ae5c27c3e383b9ed99bc6d7b7a5fc09ee88a32dffd49df66
 SHA512: 8a049363455f02d8161a7240ad36e3a6a8d93a819aa2a1cda18ed680156d9142c2b438c7942555b52e87d200b6a570d2233a26b957028a4b0b04743988ea6e3e
 
-Package: openblas
-Architecture: aarch64
-Installed-Size: 11168
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.8
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Description:  Optimized BLAS (linear algebra) library
-Filename: dists/termux/extras/binary-aarch64/openblas_0.3.8_aarch64.deb
-Size: 2250766
-MD5Sum: 17688aa3dc27bf282f02541c381b291f
-SHA1: 8170d2bc8198fc5d1511732cba64a04198399853
-SHA256: 9f0cabc06677ed6a045014ecec82ecab894adee45069af8f19ea7da633cfd011
-SHA512: 274a8a16034c155adee3a3fe695dfe6c3ab4e01b6ec56ee248aace528c8525bd4ff14eaabbaac10f86b51602f9a5d212d77aa050e97c24709ca08afd4ac8ac13
-
 Package: opencv
 Architecture: aarch64
 Installed-Size: 41296
@@ -1654,21 +1673,6 @@ MD5Sum: 48cf4e56797b3d276b34c0e172325eb4
 SHA1: 65309d241053d337ed3f5e6a675f97a3a39c22a4
 SHA256: c707fd7bacfee2f24c9500881811e73b094f71b8bc4a1707fa829832a5c11bd7
 SHA512: b91d263cb36c52e384cf96f82c698ba251289e3c634f1d6f662671f63e5f4f7549113d74c79a6213cb4c3f60fafd9e06be097f35867b654fee5f0d6d35990a4e
-
-Package: opencv
-Architecture: aarch64
-Installed-Size: 38944
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.2.0
-Homepage: https://opencv.org
-Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff
-Description: computer vision image library (with python2 python3 libraries
-Filename: dists/termux/extras/binary-aarch64/opencv_4.2.0_aarch64.deb
-Size: 6584916
-MD5Sum: a6b0dfa60fdfc5dcd64c4f7b31ea3e7e
-SHA1: d199609d8591ddb5df7f84ce9d4a7b2a1fd7f281
-SHA256: 9f1c1e2895a4993a6bb8d511beb469ea8e8860363fbbd9896f9922f3940e4830
-SHA512: 6db226be37e51529dc1aaf5fbdd70594a296f33a38fb344f63077c43e08c863ffb923b6a70a89771d320e4efd718599f2541f258b518697a90c31e0d5303cd9c
 
 Package: pari-gp
 Architecture: aarch64
@@ -1789,50 +1793,35 @@ SHA1: 0bb2c309429685401aaec7025f049d2012aa7e7e
 SHA256: dc22859a23b2fcea6e77bdce943a75f0aa5cad216b7bbe641b39eb218b346a7b
 SHA512: cbd215940c1420cb83703c1967afe9968d5d82a0d72194e87b03aaab2bf52e043ecc5e0f7c73996c9e99d91126e604fff68514188e08c526f6902a07e8ca6c2b
 
+Package: qrupdate-static
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: Termux members @termux
+Version: 1.1.2-2
+Homepage: https://sourceforge.net/projects/qrupdate/
+Depends: qrupdate (= 1.1.2-2)
+Description: Static libraries for qrupdate
+Filename: dists/termux/extras/binary-aarch64/qrupdate-static_1.1.2-2_aarch64.deb
+Size: 24100
+MD5Sum: 048e31bdfa509a0990d2adc17908fcd0
+SHA1: 02b4a2ac1799220ff198a87273d2d518da6a5086
+SHA256: 6fc64199c2478398f8352e7f17f0e1205927548fe2f35d09078ee5c54a715d67
+SHA512: ddb93846f6353eb1c9698479929ee0026c9371d62ec3f72ba3a394b076affa5af3940998c06656293961ce586c18e60bfb93b34c3c18c1591e5966977cacf3ed
+
 Package: qrupdate
 Architecture: aarch64
 Installed-Size: 132
-Maintainer: Fredrik Fornwall @fornwall
+Maintainer: Termux members @termux
 Version: 1.1.2-2
 Homepage: https://sourceforge.net/projects/qrupdate/
 Depends: openblas
 Description: a Fortran library for fast updates of QR and Cholesky decompositions
 Filename: dists/termux/extras/binary-aarch64/qrupdate_1.1.2-2_aarch64.deb
-Size: 22978
-MD5Sum: 5809cea0caf8ff9dc6c866504ecdf4a9
-SHA1: 246fe0e518158b520b2386be989cc2529416443e
-SHA256: d7b917dc70c4927b3b8235b34e5138ad14809121e6c63c7a49cbcd280997662e
-SHA512: 6f41cf1afb04db4b4ec2eecbbea2bf5e29e983796199956ef1ff042fad96902ed3ce959ce003287814676dd3e63b4f271ff699c6677bcefa0d357d4d06ef4d23
-
-Package: quantlib-static
-Architecture: aarch64
-Installed-Size: 161860
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16
-Homepage: http://quantlib.org
-Depends: quantlib (= 1.16)
-Description: Static libraries for quantlib
-Filename: dists/termux/extras/binary-aarch64/quantlib-static_1.16_aarch64.deb
-Size: 14401970
-MD5Sum: dcf8a3820e0146796a9fed17a4774c33
-SHA1: 83617eb81eddd3deb7d24f1ecf584f09d27d8441
-SHA256: 947685c4c15ebbbe39bae82a5168800ca28aa26e9df781cc4d8edd9605261943
-SHA512: cc845967baa38a899b6ece3988a83c4f1e1df78617a8b9c0d2f69c0a61c1bb05588358ea96954f2c0db108da7c6b1cf9f25c1e0bca028abb547e3f2b4add66bd
-
-Package: quantlib-static
-Architecture: aarch64
-Installed-Size: 161532
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.17
-Homepage: http://quantlib.org
-Depends: quantlib (= 1.17)
-Description: Static libraries for quantlib
-Filename: dists/termux/extras/binary-aarch64/quantlib-static_1.17_aarch64.deb
-Size: 14385962
-MD5Sum: 7e99c1489ad2e8901f76ee2f0989d07c
-SHA1: 7a8b6a847283073c0e4a5b5a1c06d1769f1a3deb
-SHA256: 3d794518c86e74284a9b0aa71fbc9918dbc2ee1a2aea7e81f5778bd58549eb74
-SHA512: 602085de7f443336735b2a7566b759e145b73d555fd745f39852e431f63ab9fa0e609aed2ce78b4cda2bfa586c1acb13f74041c421a23b72c794c2d23074194a
+Size: 22858
+MD5Sum: b667142ebb0a0c4af32be1f1c710b3c7
+SHA1: bc7fad3e1c6902af4246927daa549898647d3cec
+SHA256: 9e67069e8344509dd6a4e5fa339ac3952388aaeaf0e6cd095ad8648f67ef6114
+SHA512: 342522a2fb4e1dbb5f1f04e98baa8c6cd7427203b8dd02922c4869463903fa88d38262e3037dfd4803156b4245015cd3f3d047fb055cc9d70288f70af8700894
 
 Package: quantlib-static
 Architecture: aarch64
@@ -1848,34 +1837,6 @@ MD5Sum: 946810130bc00b0d31b341f0bcda2a71
 SHA1: 63af638dab5ea492f43f73d551c2d11b6252f09c
 SHA256: 794d83b5106dc81f647842651e89391bcff9be03e12de190db1fcacca8769953
 SHA512: f1c5ce1ecec5c6b18fdde7f66a918f0d9929d417e198ea19a459a1848b7864785cb2c4a77ed68ed580fbb6d5562c2c3b0cb1eca57fd1fc863d764c3a1a6f3577
-
-Package: quantlib
-Architecture: aarch64
-Installed-Size: 49184
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16
-Homepage: http://quantlib.org
-Description: a comprehensive software framework for quantitative finance
-Filename: dists/termux/extras/binary-aarch64/quantlib_1.16_aarch64.deb
-Size: 8877048
-MD5Sum: fadb9afbfd95d988daa078fafe3d9cb6
-SHA1: fbdad12a3103bff362f7a5f8b3f4ab1caba7a7e1
-SHA256: 71ac366619e1d994fc15b366fbd820951bb2f406256286c5819b7b06b8ee2c59
-SHA512: 1d259a53d260cdbe0f4612ba06048043325d9c69c8097395a06998e6b92ae1445e073d07a4e0e67def16eb1d2e887000b1645a91ccca4f9b5984f6fa5d20893b
-
-Package: quantlib
-Architecture: aarch64
-Installed-Size: 49148
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.17
-Homepage: http://quantlib.org
-Description: a comprehensive software framework for quantitative finance
-Filename: dists/termux/extras/binary-aarch64/quantlib_1.17_aarch64.deb
-Size: 8904778
-MD5Sum: dc757f0eea2ba4b99f320b424e23fd01
-SHA1: 9eb2078191e57fca822e67dfc704a6039096ffc1
-SHA256: f46d435403543841b1a36115231af0da961b979c6c72a337f8e58215029f4f3a
-SHA512: 1b49a82acc3dc0a259378c5ed987eae3c9a35b3c9102ee84fd623f5f3f1d864fa93175f1eecdd4ec58fb87ef96181f8a39261d68ee587aedf8d932a08ff39cd9
 
 Package: quantlib
 Architecture: aarch64
@@ -2271,7 +2232,23 @@ SHA512: e82b34e63de2eaebfac0fa8b6e6a9d7ff750eb83d5e4de39bd40c9ae462a8e533a6585f7
 
 Package: suitesparse
 Architecture: aarch64
-Installed-Size: 7008
+Installed-Size: 6904
+Maintainer:  @its-pointless github
+Version: 5.6.0-1
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas
+Replaces: suitesparse-dev
+Description: a suite of sparse matrix software
+Filename: dists/termux/extras/binary-aarch64/suitesparse_5.6.0-1_aarch64.deb
+Size: 3429008
+MD5Sum: 6365c4009ad3acafa82749b96120c17d
+SHA1: f5164fca1787caf394d474827dff08bdf422016b
+SHA256: 93553ca1b0d6ac329ca893d2ae0ced39f02d464bf8747e859ad1722dd25337a6
+SHA512: 5bf8d0a4f1531c6c37268415325039ec9cb9cdc8e52b5f52abdee664efa3b7e2c26f6424761500ba59208d7dad65b35ddcfd7eb91a0488c2662aa8e42024b9e6
+
+Package: suitesparse
+Architecture: aarch64
+Installed-Size: 6432
 Maintainer:  @its-pointless github
 Version: 5.6.0
 Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
@@ -2279,11 +2256,11 @@ Depends: openblas
 Replaces: suitesparse-dev
 Description: a suite of sparse matrix software
 Filename: dists/termux/extras/binary-aarch64/suitesparse_5.6.0_aarch64.deb
-Size: 3393502
-MD5Sum: 00657fac957c2f1496dd933a663e7dfa
-SHA1: eca96221c42edaeb4a9ca8416e50c2dc7831b668
-SHA256: 9459a272e425e041fdc8a2a300bd813b666f03fff111e17353ee5389e629b5a7
-SHA512: 2e4c65449cd875d1344a9b197b181184ccbca95eda115589ca98bf71ee9d4eeb2baa337c048649a79a6707b1b229f6079a6473becefa94bb06836d7342119ed3
+Size: 3289528
+MD5Sum: 36b71afd3885671551e29354cc094767
+SHA1: 13e59e5495271627824984a3e0f2aefffaf930ba
+SHA256: b68142b652958d685969d91a292809b1c12e1ebab0f0c9bb50a5c9073126c560
+SHA512: 20f083986f8725cc3ef9a989eaa837492eb8de3be9af1dbf427af251b59fbf8ef1c2ec32697b9212cbf0fdf6c20532cd2b2108728ecde14f31686295492d013f
 
 Package: uchardet-dev
 Architecture: aarch64
@@ -2328,51 +2305,6 @@ MD5Sum: eb7311907397e383ae3180184a8a5ec2
 SHA1: b09bb59453e468a9ac15107603f33a8511b720f8
 SHA256: e3b1a656c7aca950af4b1bbd555068e5ef25de65e3f84fc2034ca0747052d5f3
 SHA512: 9bc089c9b10b814a48e4dd0e3864f5c4e2ab5dc490abb6c385e5c46ff5f2b7ece9bf71fa68a3a280091b1d9973caafb2303cc6fb0bcff0918020255d6d1dca6f
-
-Package: vlc
-Architecture: aarch64
-Installed-Size: 13840
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.0.9-1
-Homepage: http://get.videolan.org
-Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api, libsmb2, libandroid-glob, libarchive, libiconv, pulseaudio, openal-soft, zlib,  libandroid-spawn, libandroid-support, libmpeg2, libdvbpsi
-Description: video lan player
-Filename: dists/termux/extras/binary-aarch64/vlc_3.0.9-1_aarch64.deb
-Size: 2352340
-MD5Sum: aaa8611d294a756d9b471530333ccfd5
-SHA1: 4603b0f6671b4628b59c712c8852de73313d1313
-SHA256: 383e87df08e13ac4518afbededb94966ebf6490a1f83dab8bde778db62a26513
-SHA512: c0f8428ce926662d70a841a721045d19f78cf9b914d738d49aa3ef0ea407f5609216aaebf2cb8f18a66fc1f062cba2880b93a7de06104f4bd8064d3d5c95624f
-
-Package: wiredtiger-dev
-Architecture: aarch64
-Installed-Size: 276
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.0
-Homepage: https://github.com/wiredtiger/wiredtiger
-Depends: wiredtiger
-Description: Development files for wiredtiger
-Filename: dists/termux/extras/binary-aarch64/wiredtiger-dev_3.1.0_aarch64.deb
-Size: 49448
-MD5Sum: 36c42c880e3a280b4f9422a02aa4c8b4
-SHA1: 40bb1980aa7e42290bd3c4c6aa8cd65c17c451b1
-SHA256: e3860eb8aa15b8406ed36b067f68c3545093a479b13698602b3e6460af26697f
-SHA512: 30551dd837e6efa7c8f151b842862c13b17964a070f6c78fa59cc7ed689c82005ed7597dea0e75323382889caaa0b8e74f59480443593228ef98ccc1af9fa75e
-
-Package: wiredtiger
-Architecture: aarch64
-Installed-Size: 1088
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.0
-Homepage: https://github.com/wiredtiger/wiredtiger
-Depends: libsnappy
-Description: high performance, scalable, NoSQL, extensible platform
-Filename: dists/termux/extras/binary-aarch64/wiredtiger_3.1.0_aarch64.deb
-Size: 348248
-MD5Sum: 62ff9db0c22ca2b567f99e6327d67c39
-SHA1: 3da61b2776430d06b0d53b212fe4e0445e1e0412
-SHA256: 4cc47c8efad64d5daaf8bdc263cda78f01d7f1066afae6666a626e8f8e17cb4d
-SHA512: fde5e1b448ab5ff211bf474e705ca5dd1c36a86752ba27a06c77dc5188837c729258324c0883b4518d0b56870d650c578dbe6ed4905ccd27d62ef4cc65e279e0
 
 Package: xmlada-static
 Architecture: aarch64
