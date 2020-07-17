@@ -338,21 +338,6 @@ SHA512: c1c3423da61db4ba8c047b09f572bf6a5f157d9ea060148bb9e8cd780e428da1fd812594
 
 Package: gnat-9
 Architecture: x86_64
-Installed-Size: 85076
-Maintainer: @its-pointless github
-Version: 9.2.0-1
-Homepage: http://gcc.gnu.org/
-Depends: libgnat-9, gcc-9 (= 9.2.0-1)
-Description: the ada compiler
-Filename: dists/termux/extras/binary-x86_64/gnat-9_9.2.0-1_x86_64.deb
-Size: 17208378
-MD5Sum: 3b959a1c16a99785ab248764d7c24f94
-SHA1: db317045a01b51506911237d90be9331ffcb25db
-SHA256: ff2e16a19dfee7b06e515723ec3f38ff005613e8ad0c0ee317f8844f01a67293
-SHA512: 8920b5500af870398510088bf9a5e94eb6740a42c23ebff52264388644fe5f058444a0a1fdb9b11bbead63d7b95b3ddbca794f3f9d0e34498a8c495ffa0ba9ad
-
-Package: gnat-9
-Architecture: x86_64
 Installed-Size: 103504
 Maintainer: @its-pointless github
 Version: 9.3.0-1
@@ -365,21 +350,6 @@ MD5Sum: 84feb5686d6964028d95802edc1674f5
 SHA1: 85ae36c13c8e8db97094eda465169b5cd3b43548
 SHA256: 92da639c200fd0d7a179f528a133bbe0f1b8115b8c3057f1658a2e06f2f4689b
 SHA512: 039795d502aadc2cbeb549fd4f220d940a0725a8e077cb8b4c3b36929aea824ea20ec4313580c57adffa0dca6438e380602bd6e0c5e395e2148d1fd3c987aa89
-
-Package: gnat-9
-Architecture: x86_64
-Installed-Size: 85104
-Maintainer: @its-pointless github
-Version: 9.3.0
-Homepage: http://gcc.gnu.org/
-Depends: libgnat-9, gcc-9 (= 9.3.0)
-Description: the ada compiler
-Filename: dists/termux/extras/binary-x86_64/gnat-9_9.3.0_x86_64.deb
-Size: 17208414
-MD5Sum: 180b720fae6eaddb8c15c20d69222f91
-SHA1: ea46b0ed9f3068f49063a0c05ecc056145ac840d
-SHA256: 771fa286c5ffd0cc02baed3a647200fe7f4a4bc4a903fe6460ed39aa1d86d32f
-SHA512: 33ed993ad17f09ace8300d57da3009084a6064ac639b29863814440033ea583cc6bf1a0a993e19ac658117052e3bd084b44a13720ff954b3e13669ba39ea5af9
 
 Package: gnustep-base
 Architecture: x86_64
@@ -530,6 +500,24 @@ SHA1: be1c0daa6fb9185afb33c1608805be22de437a83
 SHA256: a3c69ca839ae72dce7cf3f040e9b5d97fd181e815789f33e61b1656798267cae
 SHA512: e0bc1b88a38b39a9cbfb5f237a7aec989578a15a14dd55b7a87e5cce76ac0aafca2824f813a2b8d06a4f33472ff8fd28998a4b85c1e188458ab53cfbe527cb41
 
+Package: julia-llvm
+Architecture: x86_64
+Installed-Size: 232116
+Maintainer: Termux members @termux
+Version: 9.0.1
+Homepage: https://clang.llvm.org/
+Breaks: libclang, libclang-dev, libllvm-dev
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Conflicts: gcc, clang (<< 3.9.1-3)
+Replaces: gcc, libclang, libclang-dev, libllvm-dev
+Description: Modular compiler and toolchain technologies library
+Filename: dists/termux/extras/binary-x86_64/julia-llvm_9.0.1_x86_64.deb
+Size: 36082446
+MD5Sum: e183e302ed2aad5ec649b47652d3dd4d
+SHA1: 5f6dc0789f1106af5c1faa058b9692b101f72033
+SHA256: 4eca506f0e652d3b40fd15cda5f118e2862ddd940709186172d91bcb3e80b741
+SHA512: fe76c4a30ee5593008a3537deb4a608c9643008f4d5283dd57a3e0c97eca46a768a55609dc8982521c5414829530f1e25f71b8803d873fce09b2291597d6e6dd
+
 Package: julia
 Architecture: x86_64
 Installed-Size: 182028
@@ -546,6 +534,23 @@ MD5Sum: f631ea742ea78f54b7755322be9d0df2
 SHA1: 5513f9f34e4a425de0d46dedea1b2e98397a708b
 SHA256: d45a65a99beb0dce48418c13494b1966ad1e9e53e769973b65c35b70d565a56c
 SHA512: 804ef7c13c4d4718e3f10eb13582663222248013227923db2d7cbb38ab63e881144558e3c6352b17a8f77018b3827be1ac3c1133e0edf742634b7e7cd0d5fd4b
+
+Package: julia
+Architecture: x86_64
+Installed-Size: 189652
+Maintainer: Termux members @termux
+Version: 1.4.2
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-x86_64/julia_1.4.2_x86_64.deb
+Size: 26305118
+MD5Sum: 93d471bd7ea53c3b1807e6063f85d126
+SHA1: d62d633a52af678348186465c892effda825607f
+SHA256: caa614f69e35d1e696b40c7392f0247b6f304f4c06c60d4eb91b66683032f997
+SHA512: 2543c30d883e1a3588685add3fed463b680c82e330da1d140ef2984c430e50177f0c23f815b9c676c44c6e0cf42616df199d2bd5db134f75d3bab4082eb0b83e
 
 Package: libatomic-ops-dev
 Architecture: x86_64
@@ -899,21 +904,6 @@ SHA512: 5036ae67ccb5c6c5b9542d46017702e52a848b6e19285503df212e521a6dcdd39b5d98db
 
 Package: libgnat-9
 Architecture: x86_64
-Installed-Size: 3580
-Maintainer: @its-pointless github
-Version: 9.2.0-1
-Homepage: http://gcc.gnu.org/
-Depends: gcc-9
-Description: libgnat shared libraries
-Filename: dists/termux/extras/binary-x86_64/libgnat-9_9.2.0-1_x86_64.deb
-Size: 888356
-MD5Sum: 2f992a8752283832f9ecd78df00d260e
-SHA1: 537bd1454281ca57cb18493bc6468711ba36968e
-SHA256: f470b2b04666cfc3d7a1457c26b85f309adcb72b64331c9839d56fe6e9ce7386
-SHA512: aabb1025bb66fffc8319891de596ccb655307b4dfb065ebee7ae4dead49d945cdf780445cea2e382728468ff828b2fc4b4903d963a60fadcb933e7b15ac48dfd
-
-Package: libgnat-9
-Architecture: x86_64
 Installed-Size: 3576
 Maintainer: @its-pointless github
 Version: 9.3.0-1
@@ -1088,6 +1078,20 @@ MD5Sum: 9d86efbc386acc94e5f7737a9bf74f63
 SHA1: 2025d0245c0ecdb25a620387c23540d82170cff4
 SHA256: f3ca2fffba15f29716aa1e07d15453899ea0ae35ce43e1671731d566f1b7cd50
 SHA512: c5bb29d648ce994ab1c474192fb34f63d5dc40c1156f2167003da8b9bc7f07e52b4b1e4441eba31b0a49ca7ef74fbe41e1375c5d65dc21d164b33e1d40c01f57
+
+Package: libllvm-julia
+Architecture: x86_64
+Installed-Size: 78888
+Maintainer: Termux members @termux
+Version: 9.0.1
+Homepage: https://clang.llvm.org/
+Description: patched libllvm for use with julia
+Filename: dists/termux/extras/binary-x86_64/libllvm-julia_9.0.1_x86_64.deb
+Size: 16618788
+MD5Sum: 011d1604fc3d8f9f45501619c8c8b9cd
+SHA1: 9333d6ec48df72fe9c1abfbb0c210a818035a16c
+SHA256: bdd2321d0ba66e0b85c5e6335a6259a1b05e887c8cbb13ba3a9fbe4e67e60267
+SHA512: 2ee408a5e214e984919b8c8c99edbe203068b2a8dd7f06977bbdd86f275a5670b8457a882d0ea0499fadb28b381b1804543702de080c1c7795037a852d174488
 
 Package: libmpeg2-static
 Architecture: x86_64

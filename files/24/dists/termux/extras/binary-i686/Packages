@@ -323,21 +323,6 @@ SHA512: dc64423383026e4c562fa3fb44663f666f4e053325af211b4c7e4d2aff8d810b6de4bd81
 
 Package: gnat-9
 Architecture: i686
-Installed-Size: 80956
-Maintainer: @its-pointless github
-Version: 9.2.0-1
-Homepage: http://gcc.gnu.org/
-Depends: libgnat-9, gcc-9 (= 9.2.0-1)
-Description: the ada compiler
-Filename: dists/termux/extras/binary-i686/gnat-9_9.2.0-1_i686.deb
-Size: 17569824
-MD5Sum: 381654dd7ac197142bfd14478573b667
-SHA1: c2a68228c9950338b8e5212efe478e2f142c4c8f
-SHA256: bff3bfcc3dc4390e63d91b420e5ac730927266c144fd3f361153f91ab768389c
-SHA512: 5bbb8be11729d141ce8907acad009c1147d6f4a8fc1422bbf44f520324ca1bcf05e963c498ced1eae4e1732e6b5d0281597a8c5f16f55705d96c342f24f726db
-
-Package: gnat-9
-Architecture: i686
 Installed-Size: 93124
 Maintainer: @its-pointless github
 Version: 9.3.0-1
@@ -350,21 +335,6 @@ MD5Sum: ee23f26c9f63c14822b93908ad373e83
 SHA1: 3c91fd0e07604bfe68d1ec3f0b299c9620cfda03
 SHA256: 7db3cb1be57f5e8add63017dbdab0d3df0d346c431e62329024ef1e57c8d1dd8
 SHA512: 3ff34fe0f49088e68ab1dbee9a80f159680b2835bd71d9b648a8dd4c43204bac7df21c128f09be5d76d581861add341b6b1e5ad2ba351b80bc2a5d50bbfa66cf
-
-Package: gnat-9
-Architecture: i686
-Installed-Size: 80956
-Maintainer: @its-pointless github
-Version: 9.3.0
-Homepage: http://gcc.gnu.org/
-Depends: libgnat-9, gcc-9 (= 9.3.0)
-Description: the ada compiler
-Filename: dists/termux/extras/binary-i686/gnat-9_9.3.0_i686.deb
-Size: 17569796
-MD5Sum: d84be41d68dfd16818585d8057195c0e
-SHA1: 22841e528256b6410540cc66b67ac2ba680a58d4
-SHA256: e67feedb2bb24551bca3b38d5001db1f7a446d378cd97e0e731a7a5e582f12c9
-SHA512: d82580b16f2d48b60239d73749c0b80fef991ea08beb0b71da386ed683c612493f7004626781b4d5ae6dd583de630a4c32b3d500fcc080a45e5af17dc71bc946
 
 Package: gnustep-base
 Architecture: i686
@@ -515,6 +485,24 @@ SHA1: 32e0d06e2de27512c69589cc7b2143d86a7fc9d5
 SHA256: a90d005a8fd19544fe8f360340d8d4d1b1f1ab9e8a4ae9f1ce52a334a76a8ff0
 SHA512: 4884c80c3cff1fadab011066e38ed1bdac113ae2b4695e72e2bff92fafa7f24fcc0624e74fb49318506d034bcb8c024d53e720772e0cdf3d6387ac9829316e86
 
+Package: julia-llvm
+Architecture: i686
+Installed-Size: 195360
+Maintainer: Termux members @termux
+Version: 9.0.1
+Homepage: https://clang.llvm.org/
+Breaks: libclang, libclang-dev, libllvm-dev
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Conflicts: gcc, clang (<< 3.9.1-3)
+Replaces: gcc, libclang, libclang-dev, libllvm-dev
+Description: Modular compiler and toolchain technologies library
+Filename: dists/termux/extras/binary-i686/julia-llvm_9.0.1_i686.deb
+Size: 35240804
+MD5Sum: c192def840738987d9be1f1374df0994
+SHA1: 1b143913903d1873a002026d73ccd44c2f04b908
+SHA256: 04777526293d2a41a9727b1e7373bdef87338ba182918c3da74cfd041dc58e6c
+SHA512: 57ed7075aaccda6ed82d66f668e3987fbc319644dfb739fe357ef6af890a3296f59419c08113efeb88196c9be76932e98ddf802cf98070b3bd9cf34e51e358f0
+
 Package: julia
 Architecture: i686
 Installed-Size: 154272
@@ -531,6 +519,23 @@ MD5Sum: d24fb5c83cdff68bf02ca927209cf1e8
 SHA1: 1d8858633d9f1fd6dc692ea6b9ab47a8d4f235a8
 SHA256: 634ce2d921f9954a3295ff6c05cf045f6be4776be5a710a0193c0444b9c222f8
 SHA512: 63f1a48f22736bc0e08a3328022fb31cc27a21ba6a600973fc48d7306033ecd0e9d3acd5bb8ecad60e4d5157b2e9f5050238b7f8f8e194004a8f595c0d50aff3
+
+Package: julia
+Architecture: i686
+Installed-Size: 159484
+Maintainer: Termux members @termux
+Version: 1.4.2
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-i686/julia_1.4.2_i686.deb
+Size: 25446878
+MD5Sum: fdbb1a8703bd77d4059cc18afb1e490e
+SHA1: 6172cf359904489a34d02344245df753a19f28ee
+SHA256: 8c3897459780f911cc508823573213a08628e2c12084808a7f7bf00704245d3d
+SHA512: 7f1a3332e5315da4cffeaa6191f68b2d9a268e366c0a7fe03672a64a04b0f31cfa94482a3d01e8c7dee0dde5335432d8774f6131a8bb6ebad103e2c6f6167930
 
 Package: libatomic-ops-dev
 Architecture: i686
@@ -884,21 +889,6 @@ SHA512: 7781e6b35ee99ed36c7d67d66549ca27fce9c121aebfa90acb5f55447b9adde38f98b542
 
 Package: libgnat-9
 Architecture: i686
-Installed-Size: 3908
-Maintainer: @its-pointless github
-Version: 9.2.0-1
-Homepage: http://gcc.gnu.org/
-Depends: gcc-9
-Description: libgnat shared libraries
-Filename: dists/termux/extras/binary-i686/libgnat-9_9.2.0-1_i686.deb
-Size: 979356
-MD5Sum: e29c5e92f4e6a97c84e1ffda246a54f6
-SHA1: a8eb2aa9c8828d95d7ade6cc602db9565d382787
-SHA256: cd5f99b589670e6ec03e38330c05b16aab91b75c8ea4c87af743ec37df3b6ad3
-SHA512: 99a34e2f976e1986789bc69d2fbbf9de8f690fff6de9351f4cfc2189b92a1e7008aee645dfde50e0936d4bd528d07cef953a8297d9b33832fabf65d5a1b7d582
-
-Package: libgnat-9
-Architecture: i686
 Installed-Size: 3904
 Maintainer: @its-pointless github
 Version: 9.3.0-1
@@ -1073,6 +1063,20 @@ MD5Sum: 79f11379a3aba3a56dd43e6fc86043f5
 SHA1: 3affc08d89ba4483f457f613d78e2ecfb19f1145
 SHA256: 7f818a5f7dc8953907100786c9e7232391d3b38e0d901e387c2bab62a7bd1f74
 SHA512: 39b3da084715ca30a58b4d5799ec1c46c82ff6b823663e5d99f9c87c0f28dc9a03c3c5608c62b8ca3e9d1ff4dc20bae17fdb9d1515391f703805107069897925
+
+Package: libllvm-julia
+Architecture: i686
+Installed-Size: 73924
+Maintainer: Termux members @termux
+Version: 9.0.1
+Homepage: https://clang.llvm.org/
+Description: patched libllvm for use with julia
+Filename: dists/termux/extras/binary-i686/libllvm-julia_9.0.1_i686.deb
+Size: 16611728
+MD5Sum: b567217ea586774a1c1079657532e4e3
+SHA1: 802506c7e72588c77231811f2f2b473f18413de0
+SHA256: e8c619a70708592c3af14405e24ae049909aa573c92275acd36a327ce5955b0a
+SHA512: e78ebe054a487588391186d12e748d7a9fc4190cb39c66ee301b2c43bf55812e7b02060c6229c3331f138b645a50b01a9507e6dcb316d0ea58df662786853e2b
 
 Package: libmpeg2-static
 Architecture: i686
@@ -1800,25 +1804,25 @@ Homepage: http://quantlib.org
 Depends: quantlib (= 1.18)
 Description: Static libraries for quantlib
 Filename: dists/termux/extras/binary-i686/quantlib-static_1.18_i686.deb
-Size: 13069914
-MD5Sum: fc7c3b4574704aa651f949ebe849e5de
-SHA1: f57ab44166c59f63b794c92019f18e7f9792cfce
-SHA256: b812903a26462f60e968d0fd8812174f10aadde308370257815fde2a98bd99e2
-SHA512: 5f1b5225c031c4359b959bc6999a254d5c6bd8771e82dffb3f848c401753640bccc0965432f89848aaa29c7169507813ad616577a3268e86e71016afb2b1afe6
+Size: 13115818
+MD5Sum: 80bd51bee617336f158c998f7079a170
+SHA1: 002e308d235b67278cda21b9d3fa560d7b094eba
+SHA256: b5c6e8dac9460e1042bfaa668f031f43791167e69ab69e5f773fb4b5cb0ac4fc
+SHA512: 906877bad36c8c8a40119d42deed0da4466f684dbb0296d7236fcdae0ea7371116ea0cd9048bed602896be49ec27ea6e3bc338e3c7cf8c5e8a83efea8965a600
 
 Package: quantlib
 Architecture: i686
-Installed-Size: 43812
+Installed-Size: 43848
 Maintainer: Termux members @termux
 Version: 1.18
 Homepage: http://quantlib.org
 Description: a comprehensive software framework for quantitative finance
 Filename: dists/termux/extras/binary-i686/quantlib_1.18_i686.deb
-Size: 9278754
-MD5Sum: f36c970447f11c42a1780e9e07a68da1
-SHA1: 675bca30501cd1059d9098002b119e5f977a3fcb
-SHA256: 068b397663cbecd391170a8605641906b73ed2e2010c601762b3188d66865295
-SHA512: b1a3c80c7f828d8e8ea9abee2d53bfb132dd6bc88b9b9317b353c0defabfa59dd109717f887340f0a07eac96c844fb05228e74fc5b9139228a26ecbe4a8013f9
+Size: 9317196
+MD5Sum: 0ee27cdb30aae942d20449172b63014d
+SHA1: 522d88612fd986710f1aaedc053a05751e294421
+SHA256: 7d20bab21e5d3af0a48f9595e88ce299e25359dfe375a79930c10558cbb6122f
+SHA512: 1af2de206ad98d9819dc5288709f6084fc3c9b54a2244154291db91eba3235dce68a617b5cb88b8cb371bfed2c9e954b63e442b68d03e093b9bc34fc6b72a5a1
 
 Package: r-base
 Architecture: i686
