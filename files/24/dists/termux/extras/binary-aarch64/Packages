@@ -228,6 +228,21 @@ SHA1: 703d3e8bdf578466d20fbe3b949785baae5526af
 SHA256: 9dc570f22878c014f7055a83896baa47814601fa813d3fd4a743d93e1b969f59
 SHA512: 7527d297760a8487407add0084ce7008c1be7b2a80c813d5215542eb469ae96d584125069675ee269b960ac2f384277ce0a9d937c2526667a036c8a8980fa797
 
+Package: gcc-10
+Architecture: aarch64
+Installed-Size: 149628
+Maintainer: @its-pointless github
+Version: 10.2.0
+Homepage: http://gcc.gnu.org/
+Depends: libgmp, libmpfr, libmpc, ndk-sysroot, libisl, libiconv, binutils, setup-scripts, zstd
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-aarch64/gcc-10_10.2.0_aarch64.deb
+Size: 36874724
+MD5Sum: cd793071aeca61396018ceebcfebb281
+SHA1: 0bee6955afe536f6805989c775c22cb5fd1878e0
+SHA256: 16769493a7805b027f4945ea42a69746af682e58cafda98adb8ae11c3a2012b0
+SHA512: 43d344119c178f743dcaa3a1c80025c501475e9db653afbdff55f9125d06d13f637638a5053c4bc2bdd5e0ab8cf00902a113229c239676870b05defded2fa6e5
+
 Package: gcc-8
 Architecture: aarch64
 Installed-Size: 93284
@@ -336,6 +351,22 @@ SHA1: 548ff1bceadc345eadd88b98c13f34f38f6a8d09
 SHA256: 190042431aed4c77791c5fd59f5eb8994ca591190fc24364bd4caad86d5d5a6d
 SHA512: 4d182e7365803eeda66b405e4b74d4127158c7f95af4946e4f7a55a16f748aebb52019fb4112bc434345b84978417cbfaa04b71a9174417e191ba3824c367a11
 
+Package: gnat-10
+Architecture: aarch64
+Installed-Size: 96484
+Maintainer: @its-pointless github
+Version: 10.2.0
+Homepage: http://gcc.gnu.org/
+Depends: libgnat-10, gcc-10 (= 10.2.0)
+Conflicts: gnat-9
+Description: the ada compiler
+Filename: dists/termux/extras/binary-aarch64/gnat-10_10.2.0_aarch64.deb
+Size: 15444768
+MD5Sum: cba250f7ad46df0f6a3f3ae33ea7bb98
+SHA1: de16500a5ee54e643d8bb9ab415a82601a716024
+SHA256: 6c69b9153d49332a54831e23bafda900fd5b179a9e0a147efd7a90aeb929f285
+SHA512: 1be971368a33752de185e8c5fa6d13b948278d977ffdf7d231774e979e42e79eea0fe9e36cce791b44077a2bc84b7fb4ea401a5c90a2da7dc1676a615870574e
+
 Package: gnat-9
 Architecture: aarch64
 Installed-Size: 106600
@@ -394,6 +425,21 @@ MD5Sum: 1107b49515b6dfb42bee8ac55781053d
 SHA1: cad6915d32a139433e3931d23603d6c9997c875d
 SHA256: b92fddb4f3e1afebb32fdeb57d42c9933b89cbc740ae02eb42b6b4cf334c3ec6
 SHA512: 39ca7acb74805544f7858788ddc766141d45a15c99a99541d639f5fb852378a7b12074d2ac2d3987535e33b3129286065da6bc53f576c9b95c91ecd4bfdd44b1
+
+Package: gobjc-10
+Architecture: aarch64
+Installed-Size: 25736
+Maintainer: @its-pointless github
+Version: 10.2.0
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-10, gcc-10 (= 10.2.0)
+Description: GNU Objective-C compiler
+Filename: dists/termux/extras/binary-aarch64/gobjc-10_10.2.0_aarch64.deb
+Size: 6749032
+MD5Sum: a49b38e65965496c3ed6bb277317cace
+SHA1: cea707cc5f3757bcb9bb4e65cde85cc690cd5f6c
+SHA256: faa2b92ac294a650090c115276d011b0377284e13247bf8451368ed7f79a4eef
+SHA512: 3254f09e4c83207e6a2d13e9706b9ffe09d7877b73da815ac352b7e0d5263e67260cb1f39f1b3e8931ff72d2fc10dd9929e270dc5ba232bdef1f9323e2087cc2
 
 Package: gobjc-8
 Architecture: aarch64
@@ -724,6 +770,21 @@ SHA1: 8b6c47c00df871aa1d78cb5f02ca6cf656a32586
 SHA256: 5a94033216b7a7835ca0a427fd8cac5def47f06e61875b6b3b25235e4cebc780
 SHA512: cd1d16d5a1b7f4ad252c2ef61e6d0b8f6994d1c91f852df0c1b62e698bf238617624962621bd15c476a21b2fe796a3f5225a5662528593587082523b189093fb
 
+Package: libgccjit-10-dev
+Architecture: aarch64
+Installed-Size: 22840
+Maintainer: @its-pointless github
+Version: 10.2.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-10, gcc-10 (= 10.2.0)
+Description: GCC just-in-time compilation
+Filename: dists/termux/extras/binary-aarch64/libgccjit-10-dev_10.2.0_aarch64.deb
+Size: 6101298
+MD5Sum: 0ec3f63863e21355d9fbd5494fce324b
+SHA1: ae8d7f24fc3f9a227d987904c4bbb38fb64bef65
+SHA256: 7338fed7045ab8e4c143db1a282d6819cbe445a52f2f48abd2658ad5ff743eb2
+SHA512: 3f8b4165e813ea24406cc72d9d73c3f682c4fdafeb76840b210c45a1a129c826c069e07387956b8a1c5ed8d2c16e9d40b0135238327f8e9005c088459d14c4e7
+
 Package: libgccjit-8-dev
 Architecture: aarch64
 Installed-Size: 16432
@@ -859,6 +920,21 @@ SHA512: a78913727820fbf88ba27b980fb4c459218aaced657cb6cedd661d2d1985b9194e8c1e85
 
 Package: libgfortran5
 Architecture: aarch64
+Installed-Size: 1216
+Maintainer: @its-pointless github
+Version: 10.2.0
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-aarch64/libgfortran5_10.2.0_aarch64.deb
+Size: 261188
+MD5Sum: 23fe568332e2a74b3a956d0f82935ef9
+SHA1: 79f8c1fa60b26156d11d145948a87b86924ee987
+SHA256: 97f5c2bdf96c76949e6faf2e7c3eab5acaf7cd30891c20fb6d181273bc67fa85
+SHA512: 184cab754de5a8cc429da4977b9233df2eb4e507db494c538bce8631030381bd882428eb5c04904bfdea112c1c739e21d43da76f4b62199b622ddc8a071789c8
+
+Package: libgfortran5
+Architecture: aarch64
 Installed-Size: 1220
 Maintainer: @its-pointless github
 Version: 9.2.0-1
@@ -901,6 +977,21 @@ MD5Sum: ea8adb8cbd3a4d8c3450f9be98ade136
 SHA1: 02006f33261d207d920401302b720f28be7e5008
 SHA256: 92b14b0feb03df86129299eea35372088e2f66cedc4fab219f074fe105814e3f
 SHA512: 3ba29b7b9ff62285385757ebdb66a8b51624345675099691d5570f846f46f53ecc86edecb82689bf2e9998d39f63711ddde99a57082e270a96b4beb99d399f72
+
+Package: libgnat-10
+Architecture: aarch64
+Installed-Size: 3620
+Maintainer: @its-pointless github
+Version: 10.2.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-10
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-aarch64/libgnat-10_10.2.0_aarch64.deb
+Size: 798188
+MD5Sum: cc4fad8a58ade5bfb5ab2b3f0f10fe3b
+SHA1: d062391276bcf5cb68942404f13a7f11480e9239
+SHA256: acbc71f71c965dac0d4ca91f12e4e93e17cf1c24cf21a069ee00ae69e343fac0
+SHA512: 23fd60e74279656573a3d8f659bdaf6a0fe27234f086d16dc2f00c98d610c4dc95b2f888bc5a060e818872d4cdce3b9c1ab6bfb30a2a597c029943859d305078
 
 Package: libgnat-9
 Architecture: aarch64
@@ -948,6 +1039,23 @@ MD5Sum: 55a891d4c6ce06082fdd8491da79c4ec
 SHA1: df6483c5e832d5e1fa88170c948a2c4eaff59339
 SHA256: dabd414c7d30484afebb87bbe84aca802dfefd7d8029e9650a20fd559caf949b
 SHA512: 90dceaeb5f23a91b92cb7694f9d380161f84f4f82540bb263f0cb7acf7a2a68ea66af02fcc15f3eb2fa393af20390e7434c9096c6f72556f8d075692f67e1a4d
+
+Package: libgomp-10
+Architecture: aarch64
+Installed-Size: 404
+Maintainer: @its-pointless github
+Version: 10.2.0
+Homepage: http://gcc.gnu.org/
+Depends: gcc-10, gcc-10 (= 10.2.0)
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc-10
+Filename: dists/termux/extras/binary-aarch64/libgomp-10_10.2.0_aarch64.deb
+Size: 84116
+MD5Sum: 3d78dfc151860742b7fbce98443fe97a
+SHA1: c565abb109280f3a050b4f53b56abd2a12410f54
+SHA256: 645d2911830b15d70cdf07860403a02f0f12fc4b47817cf9d67fa907d5380716
+SHA512: 12d388a53e04a388605ac68300956ceef0c430acd19b203e6d8450f1bbd06a2f7c9eec2d06295701ccb5b6b67cdfa292b93f47bb64ab2535da7bd35bfd7b20f4
 
 Package: libgomp-7
 Architecture: aarch64
@@ -1149,6 +1257,20 @@ MD5Sum: 273331b332e847fc2f75d2d986f049ed
 SHA1: 5a888a00cc4050f21c6661a3b81d2bc28b4ebad8
 SHA256: 454363ca96ddf398fa1c9fb05b706b9254e4c735bf4040e28921bfee7a8a69d7
 SHA512: 0c400430d321c172a8276f8432230f62ab27d7c81b3968de75eb21f9af284bca5cf4e2da559b2bfac5e6a315297d47e838fd46222d47e8a33b07f1d34bd91609
+
+Package: libobjc4
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: @its-pointless github
+Version: 10.2.0
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C runtime
+Filename: dists/termux/extras/binary-aarch64/libobjc4_10.2.0_aarch64.deb
+Size: 51232
+MD5Sum: 965566fa4b0f5f573a5c9afd7bbada74
+SHA1: f5df6ce2fb4189acc7c2cb645aaadbee298224d5
+SHA256: a049313aec7e746e14a3a9ca5c2f995a658828ceeee10971c5a21b50ac77a8fd
+SHA512: 0a112529c7b4ae95ef6fd664a88af46d6ca724b43cbacf87ed43c62f7daa169ab83cfd4de4099bd7cf326d6860c644823eb02093ee33889d872df7a78c4be18b
 
 Package: libobjc4
 Architecture: aarch64
