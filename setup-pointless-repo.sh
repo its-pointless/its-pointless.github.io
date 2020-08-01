@@ -9,7 +9,7 @@ mkdir -p $PREFIX/etc/apt/sources.list.d
 if apt-cache policy | grep -q "termux.*24\|termux.org" ; then
 echo "deb https://its-pointless.github.io/files/24 termux extras" > $PREFIX/etc/apt/sources.list.d/pointless.list
 else
-echo "deb https://its-pointless.github.io/files/ termux extras" > $PREFIX/etc/apt/sources.list.d/pointless.list
+echo "deb https://its-pointless.github.io/files/21 termux extras" > $PREFIX/etc/apt/sources.list.d/pointless.list
 fi
 # Add signing key from https://its-pointless.github.io/pointless.gpg
 if [ -n $(command -v curl) ]; then
