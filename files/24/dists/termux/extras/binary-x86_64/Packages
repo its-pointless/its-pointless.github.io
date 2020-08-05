@@ -77,6 +77,21 @@ SHA1: e6c6f74997162d56103ab7b298735c0cc4fe2436
 SHA256: 215931e5087813a99a216fd6555b43ef7d84ac88f7330fdbbf36e5a7ad4f273a
 SHA512: 01e096f89623e89d5a3c915b0d7403dcc4c1b739655c96e203b0a7aa8a999af7258ffb6ef7dd19eab2fc2a8c6e23ec29f6a90d16c614f5c4127724f5810500ac
 
+Package: asymptote
+Architecture: x86_64
+Installed-Size: 10548
+Maintainer: Termux members @termux
+Version: 2.65
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends: gsl, ncurses, readline, libsigsegv, fftw
+Description: script-based vector graphics language inspired by MetaPost
+Filename: dists/termux/extras/binary-x86_64/asymptote_2.65_x86_64.deb
+Size: 3369302
+MD5Sum: 47d54600629541fae3a82d69a61666c5
+SHA1: 1f445326120cad66c2dafb56f039df3528af9640
+SHA256: fd65b51859bdb1df62817417b6d24b7b1076a594d1e8a2a6d9278a0db3e169d3
+SHA512: 7d49d3baf72060b2cb585dc662a055daab980e2f096db560e4847f03ab812c7c557f790564e1bb3bd410cdc977885e27962ac61e53bcd446dc5cedabf8cfce53
+
 Package: bcal
 Architecture: x86_64
 Installed-Size: 44
@@ -212,21 +227,6 @@ MD5Sum: 42180a557bed4193d7d220cf48e8115f
 SHA1: f0b9c3b9560e291f74ae4890567f18c1dc5ecf98
 SHA256: 5a506a1dedd11ae74a8e13578c6c9d63151b9c534bb9c82044bd42e4ac465547
 SHA512: 00ec33269811076f0f1a733338296dc793776750aeff0433c7fdc27510324c52f64ced05b752c6262de363e8b3704e5d7b3796bc3e44a9402adcf3d3f3b13445
-
-Package: gcc-10
-Architecture: x86_64
-Installed-Size: 167296
-Maintainer: @its-pointless github
-Version: 10.1.0
-Homepage: http://gcc.gnu.org/
-Depends: libgmp, libmpfr, libmpc, ndk-sysroot, libisl, libiconv, binutils, setup-scripts, zstd
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-x86_64/gcc-10_10.1.0_x86_64.deb
-Size: 44656390
-MD5Sum: eaf75161286e781cbb99777bfdf2f119
-SHA1: 773717d26e91fdbe33cfc2f90b336f66c2efbf1e
-SHA256: 5e322cbb863bc6dc397697a5b85f8d44760da116c8263d5845c1baaa60c99cdb
-SHA512: 27bbf4415bd6618c0bb945b69d3eff97b41e3a0dbca0f0f93831d91277b54201d3783282b62cf6c6ae880a7d3a6052eac4614473911981311ac69107714f54dc
 
 Package: gcc-10
 Architecture: x86_64
@@ -597,6 +597,23 @@ MD5Sum: 93d471bd7ea53c3b1807e6063f85d126
 SHA1: d62d633a52af678348186465c892effda825607f
 SHA256: caa614f69e35d1e696b40c7392f0247b6f304f4c06c60d4eb91b66683032f997
 SHA512: 2543c30d883e1a3588685add3fed463b680c82e330da1d140ef2984c430e50177f0c23f815b9c676c44c6e0cf42616df199d2bd5db134f75d3bab4082eb0b83e
+
+Package: julia
+Architecture: x86_64
+Installed-Size: 187732
+Maintainer: Termux members @termux
+Version: 1.5.0
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-x86_64/julia_1.5.0_x86_64.deb
+Size: 27162486
+MD5Sum: 14fd9647fc2f2c3826ec6e147075ae7e
+SHA1: 4e5942d0cc22799bcc67499f57835629a0e4863d
+SHA256: 9047dd6735bc98721319fdea2f0f036699824305c6c4ba86ca677e85ea24d887
+SHA512: 6a5eaf6c7f82e76f49f96d71e785bc674b4cbc3891f0663ae314d35d37ebca8df26cb9ab28f5239621bb344580d4c9c701ef486df7b54239681a5b24f5476347
 
 Package: libatomic-ops-dev
 Architecture: x86_64
