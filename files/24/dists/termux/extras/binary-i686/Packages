@@ -1528,48 +1528,33 @@ SHA512: 0bc1fd2c58e8fde2fd2accb9e91368b48d9216db99957abb60016a45d3af15d3a5d0e2b1
 
 Package: mpich-static
 Architecture: i686
-Installed-Size: 5844
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.3.2
+Installed-Size: 5772
+Maintainer: Termux members @termux
+Version: 3.3.2-1
 Homepage: http://www.mpich.org
-Depends: mpich (= 3.3.2)
+Depends: mpich (= 3.3.2-1)
 Description: Static libraries for mpich
-Filename: dists/termux/extras/binary-i686/mpich-static_3.3.2_i686.deb
-Size: 1107604
-MD5Sum: db839a172d9c7092b942101da24128dd
-SHA1: 320d4f8571e33f1f57326f633cd9ea382f836853
-SHA256: 86012fd031dfa254995d8c53958f2debbd783c82facd675936e26378cb6456e1
-SHA512: c492596ac801b1a64041b6d33ac1717df01d2c1b8db5c133b0bce653aec3640b93456784eb0e71d20ad22908d8db9f924727aa8d1e5371b8a454d9055b4c7830
+Filename: dists/termux/extras/binary-i686/mpich-static_3.3.2-1_i686.deb
+Size: 1109448
+MD5Sum: e687bc2c044b01c839e4c5999a546640
+SHA1: fb1964efa81db3bcb045cd665de279576453392c
+SHA256: 49059d06607456d9171890b1af3fed01a0a8cd286383dd9598ac73a89cbad794
+SHA512: c06e4f94116b71e063e2b4730124ebfe60a8a27b580a0a5d65f9b06575b53769b6fa3581eb703d7a3161cc28bb7b94ad6fa583a898aee19c11886c944820ffbd
 
 Package: mpich
 Architecture: i686
-Installed-Size: 6552
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.3-2
-Homepage: http://www.mpich.org
-Depends: libandroid-support, gcc-8
-Description: Implementation of the MPI Message Passing Interface standard
-Filename: dists/termux/extras/binary-i686/mpich_3.3-2_i686.deb
-Size: 1593470
-MD5Sum: bdd3abb98d206ef5863d1f69c95f0804
-SHA1: 7ae960b1c7d5527e9ed68e8eec888e7f9506719b
-SHA256: f7fd1e9188b720eecf4f63c64b59a6710137b810953eee9e65f23b19b27a964b
-SHA512: 01738b8afaa8c4a979469c68d8d194a60e42693128e92ba926c4f93271559be3bad95abcfa9cacc2784a25d029a928fba570e80e6a473deb56ac5d3c7268693a
-
-Package: mpich
-Architecture: i686
-Installed-Size: 10184
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.3.2
+Installed-Size: 10152
+Maintainer: Termux members @termux
+Version: 3.3.2-1
 Homepage: http://www.mpich.org
 Depends: libandroid-support, libgfortran5
 Description: Implementation of the MPI Message Passing Interface standard
-Filename: dists/termux/extras/binary-i686/mpich_3.3.2_i686.deb
-Size: 1859282
-MD5Sum: 6b8b6fcaf402e1e81cffd94b39c37b87
-SHA1: 9a5f1670a0d5ea0b71f0aa51f7cd5a8f03e20366
-SHA256: bcdd9e0a0e168a7d3c6fe5eba78aa5e7795644d50bbb0afcd15e48e63e252e9b
-SHA512: 5fa37ff5b50fe7a909e72e2628d4788458d21e3d71d970c65f18d84068e7be2178c155f4fedc213222b43e9f38787622f4ac54f2ba461676b1b63cd465eb7919
+Filename: dists/termux/extras/binary-i686/mpich_3.3.2-1_i686.deb
+Size: 1859084
+MD5Sum: 82de1c93c8a0153af11f34f12240dec2
+SHA1: 718838cfdd7b191e02ec0c19553008723049f813
+SHA256: 365992b3737e8a241cc104e338dc66b62bee14d68d8b78a2d2d3e6585875e9d7
+SHA512: 30e31926edae1d8445278d5adfb6fc9a2bfbb1812a052aac133cf2187020e20c41be9b036d7064b1fc909beed077697b6f4665b33e4662bfd37fd963baaf8a98
 
 Package: nbtscan
 Architecture: i686

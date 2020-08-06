@@ -1544,48 +1544,33 @@ SHA512: 24e1f79dae44960f2763bc281c567c581bda2e51be2755a2dfc629e9b79812772427126c
 
 Package: mpich-static
 Architecture: aarch64
-Installed-Size: 8272
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.3.2
+Installed-Size: 8180
+Maintainer: Termux members @termux
+Version: 3.3.2-1
 Homepage: http://www.mpich.org
-Depends: mpich (= 3.3.2)
+Depends: mpich (= 3.3.2-1)
 Description: Static libraries for mpich
-Filename: dists/termux/extras/binary-aarch64/mpich-static_3.3.2_aarch64.deb
-Size: 1095618
-MD5Sum: db420b6bcbac9490af4ad35d62992e6e
-SHA1: f81dae63ca7f970bd05bcea5b759bd070ff98ce9
-SHA256: 408d032a32cc3af0f7076bc145ef5e94d8989c4a6ffa835ed4cc0a02554c0a0f
-SHA512: 4528d947cf580ccecbd9da08aa4ae00304b286485a77031766f7e5f4369bc766cff235d56611796a11b4e6b6eaf893c96c5e9f133299743348c124aad07c9a88
+Filename: dists/termux/extras/binary-aarch64/mpich-static_3.3.2-1_aarch64.deb
+Size: 1096728
+MD5Sum: 225e6066c721184aaafbfbe29d24fbfb
+SHA1: 2469bb77d41045016dbacc6132865f4a11576eb2
+SHA256: ac155dbc619934f9e46665dfae662069d8779e2288c493b48c23bb92260ddbab
+SHA512: a15b0b9cda601c79d1e8ffa2b3c8a87f325db181bfa962b4e7c9a2b28106b4a6137e0b19677dfbda5a7668701e5b5693a10fe4bc5c7f861f7e0f2c365d26bd4e
 
 Package: mpich
 Architecture: aarch64
-Installed-Size: 6860
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.3-2
-Homepage: http://www.mpich.org
-Depends: libandroid-support, gcc-8
-Description: Implementation of the MPI Message Passing Interface standard
-Filename: dists/termux/extras/binary-aarch64/mpich_3.3-2_aarch64.deb
-Size: 1530808
-MD5Sum: f43c7923dddf8f8e45e9dc9f2bcb4721
-SHA1: 80b8cd0c096ff3618d5f4de9201193f1d757b140
-SHA256: d7ac2e5930e44fd3a432654f9d29fed4575a2f5917b5a5aa1fa725f24da248cb
-SHA512: b4d964ed9c09521d35cf36e591e00a7a8a2ff2ccbfb537f9504aabd9aac5d5baa55471638cc1519abe592e3d5f1fea9396d382ee9fad1e494f8ddd16699dbe56
-
-Package: mpich
-Architecture: aarch64
-Installed-Size: 10436
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.3.2
+Installed-Size: 10160
+Maintainer: Termux members @termux
+Version: 3.3.2-1
 Homepage: http://www.mpich.org
 Depends: libandroid-support, libgfortran5
 Description: Implementation of the MPI Message Passing Interface standard
-Filename: dists/termux/extras/binary-aarch64/mpich_3.3.2_aarch64.deb
-Size: 1799340
-MD5Sum: d8ba2eee8b404fded5e41ef3bcfe1d01
-SHA1: 964e4ac483279a6837a484e180d67127f1701319
-SHA256: 25477445e8c163eda48f77f5bec6b1e61a9cb143a96087ad3b730768171a631a
-SHA512: 178f58758b7fa9c2bb9906aa1af17343174a3ad3e5d6d0d85108b8133e0b5be7fa8eaf06ef5558d9021d1bd033dcc15aac702eed263c96ca1ec92cc64e836b0e
+Filename: dists/termux/extras/binary-aarch64/mpich_3.3.2-1_aarch64.deb
+Size: 1800354
+MD5Sum: efd6e6e0c6c219652fd57ab1e5aa0cd2
+SHA1: e1f9def6913768b8b89ec5953750027f8a17367c
+SHA256: 488f82c900001a38aa0a38ac1f730287dbf455f00eb6568474a6a44ce7cdf458
+SHA512: d742574c2f84dba68080641f1d807d3c345aaae9b5602ea3afd55fc7f00efc2c14fece4c7b824de18b6afd67b8a48f06c404d3e8b486a4efb82a8bc471b4e55d
 
 Package: nbtscan
 Architecture: aarch64
