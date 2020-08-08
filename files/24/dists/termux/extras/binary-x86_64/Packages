@@ -247,6 +247,21 @@ SHA512: 583ad95eb86d9ad4d21fd50215ceb6cbb28f3c69839231f7e61f2e48db232dfcf7ad9905
 
 Package: gcc-9
 Architecture: x86_64
+Installed-Size: 122616
+Maintainer: @its-pointless github
+Version: 9.3.0-2
+Homepage: http://gcc.gnu.org/
+Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv, libgfortran5
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-x86_64/gcc-9_9.3.0-2_x86_64.deb
+Size: 33869290
+MD5Sum: 85b245fcdfd6ccd64897b6804923fa84
+SHA1: a22148393d500aa7aab7b570e112a46a18425e78
+SHA256: 7e5c13fb7ea35d3ee386a2a183a3f12a8e1ab3c81ccc63139f47939f6e9308bb
+SHA512: 66267b7439e5c251bc1ccd76e90e03695bb8e515a130f34e9b51b250c71d76da63c99d0985ec31392ce30e92079d491372747483904df29e37fc5bcd421705fd
+
+Package: gcc-9
+Architecture: x86_64
 Installed-Size: 132524
 Maintainer: @its-pointless github
 Version: 9.3.0
@@ -335,6 +350,21 @@ SHA1: 85ae36c13c8e8db97094eda465169b5cd3b43548
 SHA256: 92da639c200fd0d7a179f528a133bbe0f1b8115b8c3057f1658a2e06f2f4689b
 SHA512: 039795d502aadc2cbeb549fd4f220d940a0725a8e077cb8b4c3b36929aea824ea20ec4313580c57adffa0dca6438e380602bd6e0c5e395e2148d1fd3c987aa89
 
+Package: gnat-9
+Architecture: x86_64
+Installed-Size: 103504
+Maintainer: @its-pointless github
+Version: 9.3.0-2
+Homepage: http://gcc.gnu.org/
+Depends: libgnat-9, gcc-9 (= 9.3.0-2)
+Description: the ada compiler
+Filename: dists/termux/extras/binary-x86_64/gnat-9_9.3.0-2_x86_64.deb
+Size: 21068710
+MD5Sum: f86b27e518dc7aafdd49e4910067f49b
+SHA1: f1ebb7f632ef18c5017da79ab3df655cfa6a149c
+SHA256: e6a3ec18f27620d37ea1818c42be9ec5c6472d4019c666a49865fbc8912ad3c9
+SHA512: 5d23501bc505985572b821b6d1c0dc80b01938385121ab4ad23db4fab505af3468ff69aac01b0ba7edbccbd5f245295fcfaaa11aa84bae6d296f1cea0863a379
+
 Package: gnustep-base
 Architecture: x86_64
 Installed-Size: 16408
@@ -409,6 +439,21 @@ SHA1: b35982c50867d28471a8b0dc26f10ceb68da5188
 SHA256: c7a3def0a851441d0fbc8d8dace9ff6108cd93ada02bcc31b4682630ad4caadc
 SHA512: d1e35505565090244ab0c2016e221deeb999c1b98f44d3338e30bb6b7c922f2486463453b0a203072bf8db3378c8e42244058b2b642935467fb2c040de433ccf
 
+Package: gobjc-9
+Architecture: x86_64
+Installed-Size: 26128
+Maintainer: @its-pointless github
+Version: 9.3.0-2
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-9, gcc-9 (= 9.3.0-2)
+Description: GNU Objective-C compiler
+Filename: dists/termux/extras/binary-x86_64/gobjc-9_9.3.0-2_x86_64.deb
+Size: 7288218
+MD5Sum: f3c864e0bee924347f89860e777f4b68
+SHA1: 5032f71768f2cf4fedce4efde5175dcd36dc90fe
+SHA256: e02c6e0f603069c3ccc7656dc46545a663d54443721bc9957708781ec6b48a22
+SHA512: 5a9f633fc84a7c1e1213931b7bb9688ad6510061282c690bb198b7495135eff9685c87896615ed37d375c449d38f092a49ed1315d726ae128a2c5b2edeca9483
+
 Package: gprbuild
 Architecture: x86_64
 Installed-Size: 25964
@@ -423,6 +468,21 @@ MD5Sum: 6233abb3a511364250705b810aa8c123
 SHA1: 4ac81d57a45f666dfbd20ee30140bc88d9c295a6
 SHA256: 8b51f6bb040c83a1eb802882f0053c859c348193188d58c261074e5a4ce26679
 SHA512: 89702bbeea91685fb98a2f1cf22c49b1dae62d74c1e80827b78765f751aac76d76e10c322795ec0ae0c169fce13a7bb7636ae3b470e5f3bfdccf48a1aac940f6
+
+Package: gprbuild
+Architecture: x86_64
+Installed-Size: 25916
+Maintainer: Termux members @termux
+Version: 20190517-2
+Homepage: https://github.com/AdaCore/gprbuild
+Depends: libandroid-support, xmlada, libgnat-9
+Description: multi-language extensible build tool (gnat)
+Filename: dists/termux/extras/binary-x86_64/gprbuild_20190517-2_x86_64.deb
+Size: 5054602
+MD5Sum: b55fb9416f66721a5d83b6302df6b8d2
+SHA1: 8790d8bd02c17036d296c1e248c1bc3ec1d3b842
+SHA256: ff047bf895c65c138d79ed5f8593fed11307ce1a53c266d8c55f4e4727c3669a
+SHA512: e404ce38eff15e5d262384d795e03599e2d0f5880a337028c5b0056d628e52c9107657cb50f06e3c0792ce877ffa02f972525c6665d08ca12ac91e24114fcea9
 
 Package: groff
 Architecture: x86_64
@@ -730,6 +790,23 @@ SHA512: 0a0289d7e428e63dca2c16cead901f9cbd0ad226291cff0678b0600916bfdf1e2438960b
 
 Package: libgccjit-9-dev
 Architecture: x86_64
+Installed-Size: 0
+Maintainer: @its-pointless github
+Version: 9.3.0-2
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9 (= 9.3.0-2)
+Conflicts: libgccjit-10-dev
+Replaces: libgccjit-10-dev
+Description: GCC just-in-time compilation
+Filename: dists/termux/extras/binary-x86_64/libgccjit-9-dev_9.3.0-2_x86_64.deb
+Size: 782
+MD5Sum: 77ad96885b16e80e5f0099b7658e7035
+SHA1: 741e740e0ce050c7e819a63efea89af305b6ccb2
+SHA256: 971de4e7db76df4466007668407c80467c2096c2b82e231ced70826b9235183f
+SHA512: 578f4e655262c037c16e947e76d34d4c01e575ddddaae4dac205a7d50ede23b55002528cb203b3761425a0b3b543322ab516cdeb445426a486b36395ac191c60
+
+Package: libgccjit-9-dev
+Architecture: x86_64
 Installed-Size: 23800
 Maintainer: @its-pointless github
 Version: 9.3.0
@@ -801,6 +878,20 @@ SHA1: 3db421ea77043fdd00cafbe28e01bce95bbf509f
 SHA256: eb490ab2a0d8633b2dfc24968c1fa88465bd56f0a71500d66c852113934b83e2
 SHA512: 5a324fe938f4ba604ff75a30e8834f1b0651e2d53eda31f3fc3b769af62a4f63e297d95fa5070d08c52a47dd350ad042e5734437d29dcfcc79a72ff3413d1ac2
 
+Package: libgfortran5-9
+Architecture: x86_64
+Installed-Size: 1792
+Maintainer: @its-pointless github
+Version: 9.3.0-2
+Homepage: http://gcc.gnu.org/
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-x86_64/libgfortran5-9_9.3.0-2_x86_64.deb
+Size: 450066
+MD5Sum: 52cf52a3a36c8353c454cc6d0f1b1216
+SHA1: 0d9c7333300390d98ee5a364cbd63b9f37ba12b9
+SHA256: 46b3e216ccaba286e2aa5566e789e8f14da5496bd4e27439a5ec37e358c538c2
+SHA512: c550f374e47e5f41fa06bad69a7b1405cb015a577f244a4bae4c529285d23eff81fe648a74214cf43c2770255fd9130472cda81a17253ac228381b9a8a8e5e25
+
 Package: libgfortran5
 Architecture: x86_64
 Installed-Size: 1820
@@ -860,6 +951,21 @@ MD5Sum: 03528569b3fc3122a227934ef99d11d7
 SHA1: 931a257a962fa7e5ed13192ab5efe6708a822f3e
 SHA256: e580641161e98de56880bf21b1fb5ebb7708f214fa4a6b49b2b72076f9605f43
 SHA512: 0ad17fd022f5f9727a5643c0c627a6ddc67b3f13b05772adb12414af3f78970d8cda7b55c58e5fd362f2fb1bdaf056260c8ad883a12f85053966e2bbce06ee62
+
+Package: libgnat-9
+Architecture: x86_64
+Installed-Size: 3576
+Maintainer: @its-pointless github
+Version: 9.3.0-2
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-x86_64/libgnat-9_9.3.0-2_x86_64.deb
+Size: 887230
+MD5Sum: 98254a54749b00dec84f4f4eab79262e
+SHA1: 84957d5f271bd2beb47f825c6bf22ba1e74b2228
+SHA256: f835be7a9c5aa117d47556eedd6ef54b9e8843cc97706a1fb25a529a78923554
+SHA512: e22ebd1b3cee69d81d62a4fd441aa02e0349ee63c6052f2669001baab34f5721b9ffb9acba7377db25405fe5f93c0fcc863529cf7852c056b51d4487e406f670
 
 Package: libgnat-9
 Architecture: x86_64
@@ -999,6 +1105,23 @@ Package: libgomp-9
 Architecture: x86_64
 Installed-Size: 324
 Maintainer: @its-pointless github
+Version: 9.3.0-2
+Homepage: http://gcc.gnu.org/
+Depends: gcc-9, gcc-9 (= 9.3.0-2)
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc-9
+Filename: dists/termux/extras/binary-x86_64/libgomp-9_9.3.0-2_x86_64.deb
+Size: 73224
+MD5Sum: 47a8cec0fae1371ec655bbae6687f118
+SHA1: 0f7c45c7115a5c733ef8a27bc2e435d6915226cb
+SHA256: a287fbb7bcf697f89d0d8221561dbd40ba40f13dd272c4eaaa1af5f2a4b3ffb8
+SHA512: 7c14fcf5466ac1695f05b72009f7d871e5bd0e12549feac90d2bc004301203ec412a3ff89d4406c4b6182163690a78e28663d334ab055662c6c7fe3da127f04f
+
+Package: libgomp-9
+Architecture: x86_64
+Installed-Size: 324
+Maintainer: @its-pointless github
 Version: 9.3.0
 Homepage: http://gcc.gnu.org/
 Depends: gcc-9, gcc-9 (= 9.3.0)
@@ -1124,6 +1247,20 @@ MD5Sum: c9525fc003d972e0d006551a2ec6c3c5
 SHA1: aee5552fc8f8bd8ced9acd8a81fd5ee1912bee82
 SHA256: 6b40d7606dd7f6c4bfa5fd86e8546ebbb6eeb2c86f849b7dca749bb19d70c699
 SHA512: 0dc81bf10f35fca5e9357b9b37fa95e9d2d3035d0e3962739c7ded3aa66f11b5a37a1512fc9ec6d8edd9af8d200eed4a3407c2b1834aa19b088e17ffcfd02e10
+
+Package: libobjc4-9
+Architecture: x86_64
+Installed-Size: 244
+Maintainer: @its-pointless github
+Version: 9.3.0-2
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C runtime
+Filename: dists/termux/extras/binary-x86_64/libobjc4-9_9.3.0-2_x86_64.deb
+Size: 51228
+MD5Sum: 6af92adb752a7b4ce3e3d8ad048d64d6
+SHA1: 7f118c0f8ca527fa85d909e1e2131dfb761191b7
+SHA256: c3e90799686ece0ebbf10d1fbd0d98602223ded3e4e2d6b17a1bc5a1226708e7
+SHA512: 87157b2c499c4e92b4b3016e2b03ce22b7d2214daa192b5b459b9006f4b482f3c738c005759ae8fb6a0bda16f48ff74074a8377ce05b4c0cb4dfad2b9881cf05
 
 Package: libobjc4
 Architecture: x86_64
@@ -1361,6 +1498,23 @@ MD5Sum: b1515bcede75891b25fed7ae6a14174d
 SHA1: ba8a5a5b64b580f90b916d3e4692ad553c27b59f
 SHA256: 470ed04ea50c09045b6301b305322601233111fb077cfd4f922c948cd359ea62
 SHA512: 6c7645cd048337e44d23a8ef95ca5d55949cb13478709862ec63b4fc0f26423af63d3b802c1cd3e3c33984d1048e1e218bbe65316af99d40935169a562fcd6e1
+
+Package: moarvm
+Architecture: x86_64
+Installed-Size: 10004
+Maintainer: Termux members @termux
+Version: 2020.05
+Homepage: https://github.com/MoarVM/MoarVM
+Breaks: libtommath-dev, libtommath
+Depends: libuv, libandroid-support, libffi
+Replaces: libtommath-dev, libtommath
+Description: A modern VM built for Rakudo Perl 6
+Filename: dists/termux/extras/binary-x86_64/moarvm_2020.05_x86_64.deb
+Size: 1345970
+MD5Sum: 5261a73de4cae92f99ebf28cf5559cf9
+SHA1: f8df025dff3b724e8c12a98de0e47fdccbc22695
+SHA256: 7dbf5b213ddfb823968666ea73ece4c004843a2fd7dd34f5b3dd1d5c4ed08dee
+SHA512: d49ce0ff6a0c3758404873d535a4f814992b8282022ca45bc3cbec9c08eefbe9b36de7985c4b0079abec2dda81fd15774eda5bc3d29c747bfb15a4bc57e11839
 
 Package: mongodb
 Architecture: x86_64
@@ -1952,6 +2106,21 @@ MD5Sum: 2f0d1f65982dc62482f7ad49760232c2
 SHA1: 010a1dca93c2a42d108aa00b26f2df3964477361
 SHA256: 88d2a05537d9effda5c6fc1e3f03f274f5190ca5e5eb54cd43da5fb00fe36e48
 SHA512: 0aaff0b34a7ac96daccc59cf1f7f9ff3d645723aa4d85b411cd2c5cba7612d31f56c1efd2becf98d1f45c0a9713e0f2a4a69d83934a618135a61dcd4761999a5
+
+Package: rakudo
+Architecture: x86_64
+Installed-Size: 36880
+Maintainer: Termux members @termux
+Version: 2020.05
+Homepage: https://rakudo.org
+Depends: moarvm
+Description: Perl 6 implementation on top of Moar virtual machine
+Filename: dists/termux/extras/binary-x86_64/rakudo_2020.05_x86_64.deb
+Size: 5060798
+MD5Sum: 4bf140c93a5c28bc54e5acb299f14c51
+SHA1: 7437036536fcfd95e4f5b601b2c5ddd993f9fe36
+SHA256: 81f4368287732a2a47e78f5c28f51f6e9c4a0c43c2eb5113367a0b9abc54e2ab
+SHA512: 4f0817dc7a033d9a8f75a76f4d57bdce19260571bec68c204e2e532daa7f31597d9719afd1778ff62c97458df9052d5daeae394cfc6a16c35524834bcad11883
 
 Package: scipy
 Architecture: x86_64
