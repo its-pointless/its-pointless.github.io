@@ -1747,6 +1747,21 @@ SHA512: 94e9daa43deef5105fc873810cf403eb3deb675b102b035702630511b0c6e1c556aaca1e
 
 Package: picolisp
 Architecture: i686
+Installed-Size: 4220
+Maintainer: Termux members @termux
+Version: 20.2.9-2
+Homepage: https://picolisp.com/wiki/?home
+Depends: libcrypt, openssl
+Description: Lisp interpreter and application server framework
+Filename: dists/termux/extras/binary-i686/picolisp_20.2.9-2_i686.deb
+Size: 725348
+MD5Sum: 1bdb6e734af66e7f0611a175dab95b41
+SHA1: 79b8d00c8ca18492f750289b3c0a8a15174c0a16
+SHA256: c98aed82d70aee5c6f182f83224ba536e859b65690044cb77cad45b1bb4a3eef
+SHA512: fc7e094f6300fc3d0ed837337bcb33036d41b5c89e3d77ed92763ff1fc3d33c20d597c41e3bc24d6aaa6209dbc9ca1ffa9c254669ca80ac6e1ec45441791013c
+
+Package: picolisp
+Architecture: i686
 Installed-Size: 4216
 Maintainer: Fredrik Fornwall @fornwall
 Version: 20.2.9
