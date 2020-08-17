@@ -1531,6 +1531,21 @@ SHA1: 3733212947e2b9a96f8f8c2d3b09d11d305b8b82
 SHA256: b7b4f5014450abd927dcd57178a0bceb195eaae65cf2a434487e024c196101ba
 SHA512: 9f4f93f333111956e2e129e288cdd1c20b6e96ca618d65b0c0f8ca1030e20528e1a15dc1001fd96ed0767ddec4c21b27521a5ad865ad0da4c0a084e352e66bfd
 
+Package: mongodb
+Architecture: x86_64
+Installed-Size: 187544
+Maintainer: Termux members @termux
+Version: 4.2.4-2
+Homepage: https://github.com/mongodb/mongo
+Depends: libicu, libcurl, libpcap
+Description: mongo db
+Filename: dists/termux/extras/binary-x86_64/mongodb_4.2.4-2_x86_64.deb
+Size: 47626602
+MD5Sum: 563aad74b277ef9d164d85efd6dbb1e1
+SHA1: 701603a6cb352b53c04ce4e9adb9c69d61fc9625
+SHA256: c0e43ae49556ba371e14526d2481d8095631b0825450d1cb951fea3a6c5fa207
+SHA512: fe49289fc54c9fa8db543bb4896d84a0c71c3e76f7e8ea7ed82d3790401b21569894920832cf2233792b9544561ca86dbf003421f0682d1c17f52c028a90fcd0
+
 Package: mpich-static
 Architecture: x86_64
 Installed-Size: 8428
