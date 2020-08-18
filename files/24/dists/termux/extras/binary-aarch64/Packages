@@ -1988,6 +1988,22 @@ SHA512: d8d48552767fc7fc398fd590163be2c408406510ad3ac40c84af6c2ce39a2e06d38a61e8
 
 Package: r-base
 Architecture: aarch64
+Installed-Size: 66352
+Maintainer: Termux members @termux
+Version: 4.0.2-2
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-aarch64/r-base_4.0.2-2_aarch64.deb
+Size: 42141040
+MD5Sum: 39f647b0d0a0c2ad64f49d852afe4255
+SHA1: b0a4173a90ce9dd02844acf2744a315bbd0633a1
+SHA256: 88e094ee36cae90d45e14c7d8c9cae8449bd0e7aa57343a76ead4fb5eefb6c48
+SHA512: 8942c63167f3d0fc8427385e97a544241510893249aafd14e871b0e590e94da0827d49d586df370ed11f2ee23275fdb5f15db00f7beed2ac7966052666b93d6b
+
+Package: r-base
+Architecture: aarch64
 Installed-Size: 66744
 Maintainer: Termux members @termux
 Version: 4.0.2

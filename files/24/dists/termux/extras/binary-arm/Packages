@@ -2018,6 +2018,22 @@ Package: r-base
 Architecture: arm
 Installed-Size: 62908
 Maintainer: Termux members @termux
+Version: 4.0.2-2
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-arm/r-base_4.0.2-2_arm.deb
+Size: 41256434
+MD5Sum: e348f99ee93011ef83867891d973f3e8
+SHA1: 074f313bf383dfd641982f01fbd08da33debc55d
+SHA256: b4d9765fd9ae63adff3420365a99e418bd2045f665adeaa72ad0c805c3d9e538
+SHA512: b03dc557dc20b0d028d9e79a1a51ab666e7b118597cbbae8b2220871a8c35f8dfc4641d1613e0c7e4b61f4230b7e9c392dd7d0c493d0ea167d43467cbba9708f
+
+Package: r-base
+Architecture: arm
+Installed-Size: 62908
+Maintainer: Termux members @termux
 Version: 4.0.2
 Homepage: https://cran.r-project.org/
 Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
