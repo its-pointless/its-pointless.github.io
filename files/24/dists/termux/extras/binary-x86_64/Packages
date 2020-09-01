@@ -598,6 +598,23 @@ SHA1: 4e5942d0cc22799bcc67499f57835629a0e4863d
 SHA256: 9047dd6735bc98721319fdea2f0f036699824305c6c4ba86ca677e85ea24d887
 SHA512: 6a5eaf6c7f82e76f49f96d71e785bc674b4cbc3891f0663ae314d35d37ebca8df26cb9ab28f5239621bb344580d4c9c701ef486df7b54239681a5b24f5476347
 
+Package: julia
+Architecture: x86_64
+Installed-Size: 187808
+Maintainer: Termux members @termux
+Version: 1.5.1
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-x86_64/julia_1.5.1_x86_64.deb
+Size: 27147050
+MD5Sum: c6762be421f89c359e333a74f960a429
+SHA1: 7ab56d5384786103d687d11ad268061f72e1e023
+SHA256: 34343842a56834c8027d1c4e22226e0ea886ea24539b4db0e819501713d16bce
+SHA512: 2e4fa5f75276fbcd7182b466c203dc9679ac3f7a0f2bd8a00da89416a765d5b6120bd0d4310ec3984d8a68dcaaad836420ab98081649d7701c19e0e0d1e718ef
+
 Package: libatomic-ops-dev
 Architecture: x86_64
 Installed-Size: 764

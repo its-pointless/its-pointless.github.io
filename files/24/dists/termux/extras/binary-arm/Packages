@@ -583,6 +583,23 @@ SHA1: 58f621ea8a6075d7e424fb537b44b306a167bc22
 SHA256: 467b5fc7b97d48f0223aeda030bc27f4038bbb4400160bc30c1171efee5c3bd9
 SHA512: dc6abbf5517f2ccc8ab85aad62eb84200a8fb969828a5d900e3d6401360f281bc27595ef05ccb0e6469a65482bb074644a7ac0b06aea3393c6ce61d4a88dea8c
 
+Package: julia
+Architecture: arm
+Installed-Size: 159844
+Maintainer: Termux members @termux
+Version: 1.5.1
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-arm/julia_1.5.1_arm.deb
+Size: 26757116
+MD5Sum: 6bc2b6e12017eff8b6a955a9b202dd91
+SHA1: f1a442d0ac953075bf2b94d80cdd0dfda918579f
+SHA256: a896b369b196b8bd162880ef7f0e5924ae9a50efbbaf57aaf51a1eefa55bb3ad
+SHA512: 85d78df157566ec7b84f4d4572247f6a5bf99f3983400e10adacc3ab4b6211861d2b64cb676d84843d5f7e79691504e3cce443525027be5872b4c5b1273064d0
+
 Package: libatomic-ops-dev
 Architecture: arm
 Installed-Size: 760
