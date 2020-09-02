@@ -60,6 +60,21 @@ SHA1: 1f445326120cad66c2dafb56f039df3528af9640
 SHA256: fd65b51859bdb1df62817417b6d24b7b1076a594d1e8a2a6d9278a0db3e169d3
 SHA512: 7d49d3baf72060b2cb585dc662a055daab980e2f096db560e4847f03ab812c7c557f790564e1bb3bd410cdc977885e27962ac61e53bcd446dc5cedabf8cfce53
 
+Package: asymptote
+Architecture: x86_64
+Installed-Size: 10648
+Maintainer: Termux members @termux
+Version: 2.67
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends: gsl, ncurses, readline, libsigsegv, fftw
+Description: script-based vector graphics language inspired by MetaPost
+Filename: dists/termux/extras/binary-x86_64/asymptote_2.67_x86_64.deb
+Size: 3381054
+MD5Sum: 2e38d4d9197aaa7c038c32bbc0604e9c
+SHA1: 73643410b3e88f09fe52a88af825017c2be9efbf
+SHA256: 257ab25e6806d20f1a02736c4427395b5d9c2b8aeb30890c13292f921cda6a30
+SHA512: 5c86c6c32588a104b47a6bff9864765fb991213a862e5eab228d2d0136f0929a3ea12ec6ddd0fc3fb951d045ea8eb32abeba8e9ce2813d031dfccae53eba76e7
+
 Package: bcal
 Architecture: x86_64
 Installed-Size: 44

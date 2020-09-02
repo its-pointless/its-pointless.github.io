@@ -60,6 +60,21 @@ SHA1: 88b7caac4b367175ef1a4fd2c09a2cd8ad1949c2
 SHA256: 8ba03899bdccbfa1b96af438632e011ba3b8a9722a6704b798247252ff47a652
 SHA512: a794241dc933bce59449e498bb5b8c5a2fe743be0fdc26ce5c0a96dafd3df5bff0ed0b59841284bbaad26e41b615546c1805f8db9effcf19524842bdcc952e97
 
+Package: asymptote
+Architecture: arm
+Installed-Size: 9396
+Maintainer: Termux members @termux
+Version: 2.67
+Homepage: https://sourceforge.net/projects/asymptote/
+Depends: gsl, ncurses, readline, libsigsegv, fftw
+Description: script-based vector graphics language inspired by MetaPost
+Filename: dists/termux/extras/binary-arm/asymptote_2.67_arm.deb
+Size: 3252756
+MD5Sum: fb90f4d966ea96484807d18bace1c1f3
+SHA1: a7881931098659017dfabfb63c687cef0fbe8df9
+SHA256: b0561b627386a38f456eb8f63eb3f06db635743401e6ad8f444fcf8942b41f29
+SHA512: cd41cfe5cbd7785cae81433c7c81f35188c864f42f7d8c82d735c6c4750d1872fdd8902230af493c6f79e1641ff4c75a6399feda199d5f868b060f635fa01c19
+
 Package: bthread-static
 Architecture: arm
 Installed-Size: 16
