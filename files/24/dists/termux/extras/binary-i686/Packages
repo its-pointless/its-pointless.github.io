@@ -519,40 +519,6 @@ SHA512: 57ed7075aaccda6ed82d66f668e3987fbc319644dfb739fe357ef6af890a3296f59419c0
 
 Package: julia
 Architecture: i686
-Installed-Size: 154272
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.1
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Description: high-performance dynamic programming language for numerical computing
-Filename: dists/termux/extras/binary-i686/julia_1.3.1_i686.deb
-Size: 24784454
-MD5Sum: d24fb5c83cdff68bf02ca927209cf1e8
-SHA1: 1d8858633d9f1fd6dc692ea6b9ab47a8d4f235a8
-SHA256: 634ce2d921f9954a3295ff6c05cf045f6be4776be5a710a0193c0444b9c222f8
-SHA512: 63f1a48f22736bc0e08a3328022fb31cc27a21ba6a600973fc48d7306033ecd0e9d3acd5bb8ecad60e4d5157b2e9f5050238b7f8f8e194004a8f595c0d50aff3
-
-Package: julia
-Architecture: i686
-Installed-Size: 159484
-Maintainer: Termux members @termux
-Version: 1.4.2
-Homepage: https://julialang.org/
-Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libgit2, libllvm-julia, libcompiler-rt-termux
-Conflicts: julia-devprev, julia-alpha, julia-beta
-Replaces: julia-devprev, julia-alpha, julia-beta
-Description: high-performance dynamic programming language for numerical computing
-Filename: dists/termux/extras/binary-i686/julia_1.4.2_i686.deb
-Size: 25446878
-MD5Sum: fdbb1a8703bd77d4059cc18afb1e490e
-SHA1: 6172cf359904489a34d02344245df753a19f28ee
-SHA256: 8c3897459780f911cc508823573213a08628e2c12084808a7f7bf00704245d3d
-SHA512: 7f1a3332e5315da4cffeaa6191f68b2d9a268e366c0a7fe03672a64a04b0f31cfa94482a3d01e8c7dee0dde5335432d8774f6131a8bb6ebad103e2c6f6167930
-
-Package: julia
-Architecture: i686
 Installed-Size: 161336
 Maintainer: Termux members @termux
 Version: 1.5.0
@@ -1305,6 +1271,21 @@ SHA1: 96bbd3a01af503e23a9eb497bb538fd55caca233
 SHA256: 01fcbba463fa86b6ef49a5d1d9ea232bdd1c45986aa8dc51026f3cc9f8deaada
 SHA512: 2fdbf805071b6f7425e251821288084ef1a1658f585f5fc2deace39cd803d48f2a8ed1416f0afada34324359db000f16660b32066bea33523cdd9f57a3a205ea
 
+Package: libopencv-contrib
+Architecture: i686
+Installed-Size: 16692
+Maintainer: Termux members @termux
+Version: 4.4.0-1
+Homepage: https://opencv.org
+Depends: opencv, opencv (= 4.4.0-1)
+Description: computer vision contrlib libraries
+Filename: dists/termux/extras/binary-i686/libopencv-contrib_4.4.0-1_i686.deb
+Size: 4810804
+MD5Sum: cba79cb4df7c1e1f0842befdabc02547
+SHA1: 4ffe1a00f24872aea2c6b3bea209d7ac0e683253
+SHA256: 8d4909757690b6128ad1ed4ba293e5bc15cde9b329f9daa1a03a37b5aa4b27af
+SHA512: 9ba862dfdd6cdab923b8362184d60c7411172f89e876b373ef358e927f91726187737567914bb96c2b5f1a5ff3c4d11e1bcaba12ee917cc41576a224a8d526d4
+
 Package: libopenspecfun-static
 Architecture: i686
 Installed-Size: 296
@@ -1731,6 +1712,21 @@ MD5Sum: 7ddd2355d8377e2958f1354371cb523e
 SHA1: e80ddc9049717910f1b4fe5ccc2784977105a17b
 SHA256: 91007a24536849154c1c9f934ba09b9bb4bbc66b92c1878770c1c2b8fc7de676
 SHA512: d8ba294f4733d65c2d0b66bf19c96b561d7a8d04e3bbbe6449bc1fd9539c0c89b8b12aa3e7c0495d386a9e9974c0355c4498203b28712c9ee20152fe33d8dc16
+
+Package: opencv
+Architecture: i686
+Installed-Size: 54352
+Maintainer: Termux members @termux
+Version: 4.4.0-1
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libwebp, libprotobuf, libpng, libtiff, openjpeg
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-i686/opencv_4.4.0-1_i686.deb
+Size: 9569944
+MD5Sum: d855bb9438f7eda74866cfbcdec8cd0c
+SHA1: e002128d6b0c400a2c84272639462ad682b5ea1b
+SHA256: 6d28ccedcecab2538930ed69dda3507e1d2842084cb59d5a2634a52789ce76d9
+SHA512: 0ad06c737bd2f23229320fec6a6f1c4b7ac70e7304837f95b619783c23dc87c3390c37fa55ada27a25dcdf94935713ef497e00e5b8da7330740e8915981b1cf9
 
 Package: opencv
 Architecture: i686
