@@ -32,36 +32,6 @@ SHA512: fedb91a0f409ba37fbbc85aab2b2bc0f429db660a2095d29a224267e9a251e4c922fcb9d
 
 Package: asymptote
 Architecture: i686
-Installed-Size: 10560
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.61
-Homepage: https://sourceforge.net/projects/asymptote/
-Depends: gsl, ncurses, readline, libsigsegv, fftw
-Description: script-based vector graphics language inspired by MetaPost
-Filename: dists/termux/extras/binary-i686/asymptote_2.61_i686.deb
-Size: 3369904
-MD5Sum: 7bc042cd3a251c4a443a8c7e204feba1
-SHA1: d6be6b046bec9268bcfac61a4906328b82977cdc
-SHA256: 5bcd0259fd3a64f6e266da747b129c1406e4a7bac81df3c980a030306796f030
-SHA512: 42d78788d7ef14f191374130aeb3bd053ccc50114aa4e7932fd5a2d430942516b39a13a3adca8675014173343a327418bb9272d16f4ca970cdd3a54c982e9cc6
-
-Package: asymptote
-Architecture: i686
-Installed-Size: 11052
-Maintainer: Termux members @termux
-Version: 2.65
-Homepage: https://sourceforge.net/projects/asymptote/
-Depends: gsl, ncurses, readline, libsigsegv, fftw
-Description: script-based vector graphics language inspired by MetaPost
-Filename: dists/termux/extras/binary-i686/asymptote_2.65_i686.deb
-Size: 3411908
-MD5Sum: 12b10a9229616f60b0d39041bd36ab7d
-SHA1: 7f6b3ecd57c7ffe2ad67cbc2809a44ca381fde47
-SHA256: 40aee82a7cc24149bdbeb904fcc7d8e64dea8652eed644757da3411b4b45ae3d
-SHA512: 54e1aa2dbc4b0b6cd53f4340501052f18da791dce4cd9d6a66546bdd159d0b9c2e863ba987ed25d6e3749703df6da4f3a72284f8df0f636d72a2f62887398b07
-
-Package: asymptote
-Architecture: i686
 Installed-Size: 11152
 Maintainer: Termux members @termux
 Version: 2.67
@@ -1761,6 +1731,21 @@ MD5Sum: 7ddd2355d8377e2958f1354371cb523e
 SHA1: e80ddc9049717910f1b4fe5ccc2784977105a17b
 SHA256: 91007a24536849154c1c9f934ba09b9bb4bbc66b92c1878770c1c2b8fc7de676
 SHA512: d8ba294f4733d65c2d0b66bf19c96b561d7a8d04e3bbbe6449bc1fd9539c0c89b8b12aa3e7c0495d386a9e9974c0355c4498203b28712c9ee20152fe33d8dc16
+
+Package: opencv
+Architecture: i686
+Installed-Size: 47104
+Maintainer: Termux members @termux
+Version: 4.4.0
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libwebp, libprotobuf, libpng, libtiff, openjpeg
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-i686/opencv_4.4.0_i686.deb
+Size: 8678498
+MD5Sum: ee85d5fc8354c054d92d61b7a6adb1f9
+SHA1: e5cb92ae6723dc1821e4da20ab458319be6248e4
+SHA256: 382c98c24e9d02f146f3af560b4d0142004a7a7c0f251c2e124fd7538f7bf406
+SHA512: a5fdbf5e220d24b9597822ec25459b82e5c679ba1102162a17c0d12427f2fc89fc2397c09fb107260dc6f87bd76bb25f7491cf229e109b19c1645d6a84581563
 
 Package: pari-gp
 Architecture: i686

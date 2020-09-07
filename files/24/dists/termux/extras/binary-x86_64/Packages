@@ -32,36 +32,6 @@ SHA512: 50b1a79c447d68919684cdc9f3e5c579cadf75322a12c3df028b0fe84f2e24ca11b13850
 
 Package: asymptote
 Architecture: x86_64
-Installed-Size: 10216
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.61
-Homepage: https://sourceforge.net/projects/asymptote/
-Depends: gsl, ncurses, readline, libsigsegv, fftw
-Description: script-based vector graphics language inspired by MetaPost
-Filename: dists/termux/extras/binary-x86_64/asymptote_2.61_x86_64.deb
-Size: 3338890
-MD5Sum: ca4a82becf661b693888a9908fa75986
-SHA1: e6c6f74997162d56103ab7b298735c0cc4fe2436
-SHA256: 215931e5087813a99a216fd6555b43ef7d84ac88f7330fdbbf36e5a7ad4f273a
-SHA512: 01e096f89623e89d5a3c915b0d7403dcc4c1b739655c96e203b0a7aa8a999af7258ffb6ef7dd19eab2fc2a8c6e23ec29f6a90d16c614f5c4127724f5810500ac
-
-Package: asymptote
-Architecture: x86_64
-Installed-Size: 10548
-Maintainer: Termux members @termux
-Version: 2.65
-Homepage: https://sourceforge.net/projects/asymptote/
-Depends: gsl, ncurses, readline, libsigsegv, fftw
-Description: script-based vector graphics language inspired by MetaPost
-Filename: dists/termux/extras/binary-x86_64/asymptote_2.65_x86_64.deb
-Size: 3369302
-MD5Sum: 47d54600629541fae3a82d69a61666c5
-SHA1: 1f445326120cad66c2dafb56f039df3528af9640
-SHA256: fd65b51859bdb1df62817417b6d24b7b1076a594d1e8a2a6d9278a0db3e169d3
-SHA512: 7d49d3baf72060b2cb585dc662a055daab980e2f096db560e4847f03ab812c7c557f790564e1bb3bd410cdc977885e27962ac61e53bcd446dc5cedabf8cfce53
-
-Package: asymptote
-Architecture: x86_64
 Installed-Size: 10648
 Maintainer: Termux members @termux
 Version: 2.67
@@ -1578,6 +1548,21 @@ SHA1: 701603a6cb352b53c04ce4e9adb9c69d61fc9625
 SHA256: c0e43ae49556ba371e14526d2481d8095631b0825450d1cb951fea3a6c5fa207
 SHA512: fe49289fc54c9fa8db543bb4896d84a0c71c3e76f7e8ea7ed82d3790401b21569894920832cf2233792b9544561ca86dbf003421f0682d1c17f52c028a90fcd0
 
+Package: mongodb
+Architecture: x86_64
+Installed-Size: 188504
+Maintainer: Termux members @termux
+Version: 4.2.9
+Homepage: https://github.com/mongodb/mongo
+Depends: libicu, libcurl, libpcap
+Description: mongo db
+Filename: dists/termux/extras/binary-x86_64/mongodb_4.2.9_x86_64.deb
+Size: 47965884
+MD5Sum: 8fb029ad592c72d0361c5d1d9fc31d13
+SHA1: 05437b49169298bfd1e912d0e5ccedd9d58f3d52
+SHA256: f866f5c6f1495dbafebf651792c81b15c71e76f7bd839f657e68a2a9e222f738
+SHA512: 0f7babaeccd3d3ccc97ae02d13bd867a571ad39e13953b2852599f9a6d088e4403be7a0a9253492bc2f75aba0a26e4616e6023970abea8f0751dec54e8a822dd
+
 Package: mpich-static
 Architecture: x86_64
 Installed-Size: 8428
@@ -1869,6 +1854,21 @@ MD5Sum: 465f63f60590b053c37331d6338734bb
 SHA1: 93d33025d00cd987b654851aea77087c369b8cc6
 SHA256: 1c5397c381aefdf0751897c19bb7e7e5c8efed5cd45768997dcc3f37d1982ea2
 SHA512: cf2daefaff921381853fb0f46a8e16156936887ea0621a98f826db4e34d7e431e444755b3967d22056c7f5f14439b1ed604c6584b6e563fbe67736c72a4570ad
+
+Package: opencv
+Architecture: x86_64
+Installed-Size: 82344
+Maintainer: Termux members @termux
+Version: 4.4.0
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libwebp, libprotobuf, libpng, libtiff, openjpeg
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-x86_64/opencv_4.4.0_x86_64.deb
+Size: 17348574
+MD5Sum: e8a98dd33a9753e9416c496b77bf9a52
+SHA1: 739b4a75e070c67e11ab5d4710a86bce71a89ad8
+SHA256: 632a6283f0e0e6ab0568b1f9345281d07d09062f7a4629bd87ce21933aca4eef
+SHA512: a0d69804421d0314f983e47cd882e1f5966d64e37dd1eb1229c7a323f9c6a864c2b676a275e446da6ddb79923899141d8736fd6cf916fb89b07efbd5c2345d2a
 
 Package: pari-gp
 Architecture: x86_64

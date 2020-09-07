@@ -32,36 +32,6 @@ SHA512: 575bb56cfa1d5109def389b422d4bd1438988ab3f60a86e7a11b7b2460fd91c3fa1af23a
 
 Package: asymptote
 Architecture: arm
-Installed-Size: 9172
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.61
-Homepage: https://sourceforge.net/projects/asymptote/
-Depends: gsl, ncurses, readline, libsigsegv, fftw
-Description: script-based vector graphics language inspired by MetaPost
-Filename: dists/termux/extras/binary-arm/asymptote_2.61_arm.deb
-Size: 3231928
-MD5Sum: d45690ea9277fac0a09b782e5ad67bea
-SHA1: 7aef1a2cfe09b53db60e43b5f66a68423202136d
-SHA256: 5d7fc129d46161a43b54614996295f3dc0718a1fe67b2e9f9bf094e63e76537e
-SHA512: 36341a01d9e1858b205f56fbaa63c9ec9b68647e3ba009c8283ee8e45983df277ca51ea6b7b51f7731adc61ff94853fa7f6a79ee0f5b31abcf34bc1337cbefe8
-
-Package: asymptote
-Architecture: arm
-Installed-Size: 9300
-Maintainer: Termux members @termux
-Version: 2.65
-Homepage: https://sourceforge.net/projects/asymptote/
-Depends: gsl, ncurses, readline, libsigsegv, fftw
-Description: script-based vector graphics language inspired by MetaPost
-Filename: dists/termux/extras/binary-arm/asymptote_2.65_arm.deb
-Size: 3241914
-MD5Sum: 19e1c2fc7717ded4e7e0506a35f6e732
-SHA1: 88b7caac4b367175ef1a4fd2c09a2cd8ad1949c2
-SHA256: 8ba03899bdccbfa1b96af438632e011ba3b8a9722a6704b798247252ff47a652
-SHA512: a794241dc933bce59449e498bb5b8c5a2fe743be0fdc26ce5c0a96dafd3df5bff0ed0b59841284bbaad26e41b615546c1805f8db9effcf19524842bdcc952e97
-
-Package: asymptote
-Architecture: arm
 Installed-Size: 9396
 Maintainer: Termux members @termux
 Version: 2.67
@@ -1837,6 +1807,21 @@ MD5Sum: e1691aa354127ec55f42fc66acaab359
 SHA1: 957ef8c6de10031d11bbb534d3fe6cbc5025e64e
 SHA256: 5f620ab43df6f4aea5e213f7d735d8e37824dc327fa3bfd5f7f04a6447e023d2
 SHA512: e318e5639eee58b10a36fdccbe8560f18cfce1a20e2a152c471c5a5dea9cf5420213de439848109eb0a56a043248276a4a365d48f84160f9c5fd86375c0ad844
+
+Package: opencv
+Architecture: arm
+Installed-Size: 36724
+Maintainer: Termux members @termux
+Version: 4.4.0
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libjasper, libwebp, libprotobuf, libpng, libtiff, openjpeg
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-arm/opencv_4.4.0_arm.deb
+Size: 7944762
+MD5Sum: bd3fc5efa44c49291f839f4b3faf4205
+SHA1: de92a2142e5f3881f0d12cb46e11dfc2a854524f
+SHA256: 94043369b868d6e497dea6c19b22a9fec0a1aa690dec42967d674863e7eebb20
+SHA512: 11ebc9804bccc488e1e553c22f811a541f90bb4d05e798dacec56b5f45c90dc89ee2eb81db9fc6695b5712fcef42d44047a375e96931e9a1b9d8487ede1079d0
 
 Package: pari-gp
 Architecture: arm
