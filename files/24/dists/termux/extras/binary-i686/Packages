@@ -170,6 +170,21 @@ Package: gcc-10
 Architecture: i686
 Installed-Size: 164376
 Maintainer: @its-pointless github
+Version: 10.2.0-1
+Homepage: http://gcc.gnu.org/
+Depends: libgmp, libmpfr, libmpc, ndk-sysroot, libisl, libiconv, binutils, setup-scripts, zstd, libgfortran5
+Description: GNU C compiler
+Filename: dists/termux/extras/binary-i686/gcc-10_10.2.0-1_i686.deb
+Size: 44499440
+MD5Sum: 7f27eb9be5119cb5ec0341e61ce24ff1
+SHA1: 270dc74e812fb2967182788e5be2d7d943e70de8
+SHA256: e9ad29656b3b40d7827abea19cad8e5faf21f7ca15e8aba44671c35f07a88b5f
+SHA512: 02670f1cecbd2c51ee640b6e0bf0a0fcd5c159f6ca02256227dd4ee42554d81a3e0ba7ff727402dfda1cb9089a206bf7876aa117b2b07847d2ee4179e740db3e
+
+Package: gcc-10
+Architecture: i686
+Installed-Size: 164376
+Maintainer: @its-pointless github
 Version: 10.2.0
 Homepage: http://gcc.gnu.org/
 Depends: libgmp, libmpfr, libmpc, ndk-sysroot, libisl, libiconv, binutils, setup-scripts, zstd
@@ -293,6 +308,21 @@ Package: gnat-10
 Architecture: i686
 Installed-Size: 86180
 Maintainer: @its-pointless github
+Version: 10.2.0-1
+Homepage: http://gcc.gnu.org/
+Depends: libgnat-10, gcc-10 (= 10.2.0-1)
+Description: the ada compiler
+Filename: dists/termux/extras/binary-i686/gnat-10_10.2.0-1_i686.deb
+Size: 18670176
+MD5Sum: c2ab48de8f3ed7be44bbffca80ab4396
+SHA1: 3f8011aeb110ed40f9ef2dd7ceb0b4fdb9528a2a
+SHA256: c26d5a679d4c29d8682bb9c830a8c446add22c6e07a6779217c2e9c28778ff8a
+SHA512: 1219823af770a9915487e13f4171b905c666db612eebaecb899a1ec91be9317cae5198b633f6151242490f0589aab6666e951976bcaa5682699c2361d1fa84af
+
+Package: gnat-10
+Architecture: i686
+Installed-Size: 86180
+Maintainer: @its-pointless github
 Version: 10.2.0
 Homepage: http://gcc.gnu.org/
 Depends: libgnat-10, gcc-10 (= 10.2.0)
@@ -363,6 +393,21 @@ MD5Sum: d348eea25ab02a5763fc8c2e0b6eb585
 SHA1: ec1ab89fa01785dd26747b6838da34236f64a45c
 SHA256: 40051472d21747d2669f1a9b807f614cbdbf90bf01bee6f037b891b85d4a3084
 SHA512: d98e9f890bac1dd11bbcd7bfb6347bcd3d2085ff0f5a62dd2e551324d371c60f8dcffbd8c8013642c9014f3ce1b2fd247b4c4961a1b342d6edc8d2c829f506d5
+
+Package: gobjc-10
+Architecture: i686
+Installed-Size: 27836
+Maintainer: @its-pointless github
+Version: 10.2.0-1
+Homepage: http://gcc.gnu.org/
+Depends: libobjc4, gcc-10, gcc-10 (= 10.2.0-1)
+Description: GNU Objective-C compiler
+Filename: dists/termux/extras/binary-i686/gobjc-10_10.2.0-1_i686.deb
+Size: 7735164
+MD5Sum: 2febac580213bd07fec4c4c7035e0bb2
+SHA1: 4e1c0d2db6ff99dce903519897d878a2c5dd9d74
+SHA256: c7ce29a5d472b98ca67e3826167e26f35342e2893914189040a8250baac289d0
+SHA512: 3484ee603531ee77df4b5e34e31cb7234e6a41c542367d06dd53d4c9d9e6912a80b22ccdf479d362883d0bd0c2e168835db1d796c9f6a368354ca58a732e6153
 
 Package: gobjc-10
 Architecture: i686
@@ -536,6 +581,23 @@ SHA512: 40fd323dc1c96cbe46518082570ace7b621d37252b68ec165d64299d797a47ce1725d08c
 
 Package: julia
 Architecture: i686
+Installed-Size: 161424
+Maintainer: Termux members @termux
+Version: 1.5.1-1
+Homepage: https://julialang.org/
+Depends: openblas, suitesparse, clang, libllvm, patchelf, libgmp, libmpfr, libssh2, pcre2, bthread, libllvm-julia, libcompiler-rt-termux
+Conflicts: julia-devprev, julia-alpha, julia-beta
+Replaces: julia-devprev, julia-alpha, julia-beta
+Description: high-performance dynamic programming language for numerical computing
+Filename: dists/termux/extras/binary-i686/julia_1.5.1-1_i686.deb
+Size: 26812564
+MD5Sum: c16277c565d49d477578cf77b60d5bcb
+SHA1: 187f81d901942d32e46378c6a62ff8c0129ce4d1
+SHA256: a32b08fdb253c1cb9db97096e8da2eab006b7e7ab9f9695c6e8da1b39a0a5ac1
+SHA512: d71bdc1e7e0dd0c36acebf670e46086b38749882bb2f67f2e8c2c9889af8f29fa6a2bcae1188f9cc42c24203c10d4cd671903d824cad3e71800bc5e625cb0ddc
+
+Package: julia
+Architecture: i686
 Installed-Size: 161392
 Maintainer: Termux members @termux
 Version: 1.5.1
@@ -680,6 +742,23 @@ MD5Sum: 87825ad6c03ef7c37120eacb26f75759
 SHA1: 15c9dabe5b3f7d1b669eca128924dfd9f707f92a
 SHA256: 31bfd4f6ecaf384fe663c65fb6a1bf71b84b8a52671fcc00c256beeef5360680
 SHA512: 7181ef9038c61c036b6ee81775b483d2fa2fa77271bd6aedd5824ed7436f45884dc2aeebd8dc9a07c1d464a23aa49a84e14b7932250fbc797d945c70cb8008c3
+
+Package: libgccjit-10-dev
+Architecture: i686
+Installed-Size: 25376
+Maintainer: @its-pointless github
+Version: 10.2.0-1
+Homepage: http://gcc.gnu.org/
+Depends: gcc-10 (= 10.2.0-1)
+Conflicts: libgccjit-9-dev
+Replaces: libgccjit-9-dev
+Description: GCC just-in-time compilation
+Filename: dists/termux/extras/binary-i686/libgccjit-10-dev_10.2.0-1_i686.deb
+Size: 7085358
+MD5Sum: c859c06f65d77a91b2e0962cfc5e8afe
+SHA1: c0f31e263976372c33d2f15356f58eaffee01338
+SHA256: bf2f2d09d283693d5fc6d24798845501f0ef75fc5e2f64a4211d02f6582c88f7
+SHA512: 4a43e566e475ef902211727310703be2c7dbf4de65efa1a52dd584b1d598dc4d55e0c808af65b3ef97aac01c31cc0c818ef6390da2b87206accb135407c271e6
 
 Package: libgccjit-10-dev
 Architecture: i686
@@ -849,6 +928,21 @@ Package: libgfortran5
 Architecture: i686
 Installed-Size: 1484
 Maintainer: @its-pointless github
+Version: 10.2.0-1
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-i686/libgfortran5_10.2.0-1_i686.deb
+Size: 414692
+MD5Sum: c7a6034b2fdf211181cab36979a8b58c
+SHA1: 7c20c75a024886652334c92a8086706248e76972
+SHA256: 2a5f189f2e79783f9930930c6a447988da66238e1663ede8ffe8331201e09f96
+SHA512: e398f6058c29c043635032879ca8cc621a330c2948dfaf9e105eaafea0e2f25f115d55a69a50c2ef3d85bc23d5768d903abf8b9d825850f110fde6ec8981c0e3
+
+Package: libgfortran5
+Architecture: i686
+Installed-Size: 1484
+Maintainer: @its-pointless github
 Version: 10.2.0
 Homepage: http://gcc.gnu.org/
 Replaces: libgfortran4
@@ -874,6 +968,21 @@ MD5Sum: e1089b9e8aca5e0bb188c03f7681dc97
 SHA1: 7bc4a95335409c3f8a5e9fd920894ad5e4f16822
 SHA256: 56564696ee4f0e0042376d77c86490986cfd5941e8528be59e802b38004b480f
 SHA512: 7781e6b35ee99ed36c7d67d66549ca27fce9c121aebfa90acb5f55447b9adde38f98b54237b7ea93910991098f5c43eab1934caf7cf504311f8098671ff80cd5
+
+Package: libgnat-10
+Architecture: i686
+Installed-Size: 4104
+Maintainer: @its-pointless github
+Version: 10.2.0-1
+Homepage: http://gcc.gnu.org/
+Depends: gcc-10
+Description: libgnat shared libraries
+Filename: dists/termux/extras/binary-i686/libgnat-10_10.2.0-1_i686.deb
+Size: 1030056
+MD5Sum: 7997b40a0e3f05218cd52380d439abdd
+SHA1: 65f77fd718ad50172998f9bd6026158afd26b39f
+SHA256: 115134883418d7511bc391d942e431f233800175a3116e9de43a580e80b4daf1
+SHA512: cc789c045cac2049ead7e712a50a2f4fa6a2bc9d73be1fed57f5874b1787a4b7dbfac60fdd504149dfb862aec834eb2425f317bcdb8d1aa9396ea0e63f6d712b
 
 Package: libgnat-10
 Architecture: i686
@@ -951,6 +1060,23 @@ MD5Sum: 2f98906d8daea37ef1983f36794a6d7a
 SHA1: 21bd645e5a3e8dc5be25affc004790cbc6099b7c
 SHA256: f318776c654008a57529a490b7209a5b83b77e5a3906b05f296c95d2257f1828
 SHA512: a5551d2e1b247026d6f5f0cf4749f5b47668d64a5346a9e5bbd0fe7fac8382d4fbafa2b26a515153b9896476c9b63d6fd6d4728d87053cc61276ca790dff5e1b
+
+Package: libgomp-10
+Architecture: i686
+Installed-Size: 320
+Maintainer: @its-pointless github
+Version: 10.2.0-1
+Homepage: http://gcc.gnu.org/
+Depends: gcc-10, gcc-10 (= 10.2.0-1)
+Conflicts: libgomp
+Replaces: libgomp
+Description: openmp library for gcc-10
+Filename: dists/termux/extras/binary-i686/libgomp-10_10.2.0-1_i686.deb
+Size: 87700
+MD5Sum: 28cf50f2bf42b414e3457acff7715aae
+SHA1: 740eabd81899a370fc5e83ac168814e627679716
+SHA256: 93dca4be316cc14f2707fae2a5c5a723c3ec9c163b1e9e4ad8097587c1e00ee6
+SHA512: 7016dbc13a50df3eeeacce7f37577a9c2fb3237d65f4ac9c7f59e2baaf1a6968eea9212e4fffe663f2bc174a3996f964473388dc506bffbc726f862e2577f2d4
 
 Package: libgomp-10
 Architecture: i686
@@ -1228,6 +1354,20 @@ MD5Sum: a9490c16a5703d0b8cb739f256ad08ee
 SHA1: 3225dd06e859fef47246b6468be65fe29a6c3606
 SHA256: 8af96e72e17b98a3a6af3c57c3a548338a3dff7490c6b2f5b06fa8926c645640
 SHA512: f14ac276d3a6e1b6e9df64031cc1bbe939a4381c0c6a7bb105804b834aa9280de2960c23b73f2e1e43f99c1d2a615c31d082ed403204e0d581b48bc35aaaa88e
+
+Package: libobjc4
+Architecture: i686
+Installed-Size: 212
+Maintainer: @its-pointless github
+Version: 10.2.0-1
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C runtime
+Filename: dists/termux/extras/binary-i686/libobjc4_10.2.0-1_i686.deb
+Size: 54608
+MD5Sum: 2b0247d5851511da4baf707cb922f619
+SHA1: b6ddcc82498ab1b248b3c65f0ac28f46a14d4eb4
+SHA256: 18e751710015992dba659ec5c834e7b7f03964fa5c63589e6dfa14dca752da99
+SHA512: 85d5b4f8268d9403e15433fc0b5ffe0b8b3ac6c827e74829a3dc0f41c4c9739ea47ea652c44b1e3487602224261fd483a70ae350b8b5186617f4fd368ac98897
 
 Package: libobjc4
 Architecture: i686
@@ -2239,6 +2379,22 @@ MD5Sum: 0ca9b5b51679687f98c61761ffb0671b
 SHA1: 4157a41cecb078bb4a20afeead8ba6cad5e4fc23
 SHA256: e19c793c2d0fe68408891a1fe5076eea00809632fbb2eb2c77319c2b92d03010
 SHA512: 4a38e458b76244bc64c8b8762b4e3fa091c35d0d8c8971f6e727f9455fd2d74bcc52a22069dd3775333caa27b730c933c813cda670acdc47b2987387eb8e2254
+
+Package: suitesparse
+Architecture: i686
+Installed-Size: 108076
+Maintainer:  @its-pointless github
+Version: 5.8.1
+Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
+Depends: openblas, libgfortran5
+Replaces: suitesparse-dev
+Description: a suite of sparse matrix software
+Filename: dists/termux/extras/binary-i686/suitesparse_5.8.1_i686.deb
+Size: 14485852
+MD5Sum: e367d353ec42af12cd00237069aa1a64
+SHA1: 021d9c691e4bd373ce179d4ec7bea40b7dc57aca
+SHA256: 08da0f18cf6d8d48c3eff45fe4d7206a9647cc446e853fe90dad904cd76d23de
+SHA512: bd5972eda52172c6df98f7ced8787ba99117864ae7b863bd37768e7496ecab274efaec6e986ac027957f78bc58121f17261ac5f8e0713fa7b948af7f280b9106
 
 Package: uchardet-dev
 Architecture: i686
