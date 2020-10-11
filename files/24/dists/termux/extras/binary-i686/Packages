@@ -1426,6 +1426,21 @@ SHA1: 4ffe1a00f24872aea2c6b3bea209d7ac0e683253
 SHA256: 8d4909757690b6128ad1ed4ba293e5bc15cde9b329f9daa1a03a37b5aa4b27af
 SHA512: 9ba862dfdd6cdab923b8362184d60c7411172f89e876b373ef358e927f91726187737567914bb96c2b5f1a5ff3c4d11e1bcaba12ee917cc41576a224a8d526d4
 
+Package: libopencv-contrib
+Architecture: i686
+Installed-Size: 16228
+Maintainer: Termux members @termux
+Version: 4.4.0-2
+Homepage: https://opencv.org
+Depends: opencv, opencv (= 4.4.0-2)
+Description: computer vision contrlib libraries
+Filename: dists/termux/extras/binary-i686/libopencv-contrib_4.4.0-2_i686.deb
+Size: 4849320
+MD5Sum: 42f5672a978b334ad014e0a01d095a99
+SHA1: 3acc6b9625d55f3e2ffdfa57d7dd83b1a52f2ff5
+SHA256: 2707898ee4c55d3c041abce8f57b3c3355b8227cdab342c3c0beedd1d29fc505
+SHA512: 164d5956e454eeae4b7dc6d871b0a0854844cf25c50d75af9cac61cc563a0ed4b11ad33e6afc2c8b80669f57c21683d15fccbb13f7ceb1770a89e3d70ad9df91
+
 Package: libopenspecfun-static
 Architecture: i686
 Installed-Size: 296
@@ -1712,6 +1727,21 @@ SHA1: 041f76faf4d4096811f7a7e8e8d3457028a8c3f3
 SHA256: 7280a6e948b8ea134414e80002306a52378ffdb6d31237e5c0d0561b8046534c
 SHA512: e73deff1497d5f553a781f490b2282f28cfa08805bd8f32c03277c72776a85cee9c423d97ac536c95bb22d003338328174fec60d4f12dcb8f54657f3b0296074
 
+Package: numpy
+Architecture: i686
+Installed-Size: 22356
+Maintainer: Termux members @termux
+Version: 1.19.2
+Homepage: http://www.numpy.org/
+Depends: openblas, python, libcrypt
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-i686/numpy_1.19.2_i686.deb
+Size: 3813346
+MD5Sum: db9e78776484dcdc2cf2177ddca66d10
+SHA1: a1708c8b24f993a2b20353938108fef164ba265f
+SHA256: 65afb062b230f4b5fa1b02eccb57f20cbd8452a6f5fcd830c4ca7023c2bc3bf6
+SHA512: 3a568a4389d9140a53085046dba7ff4e4c8307bac1fe41ebb4d4e50dd0640634fe00886957cb52ba701ad6e07907f3062dd1dfcdc6a4b76339ae5c0f73061c2b
+
 Package: octave-static
 Architecture: i686
 Installed-Size: 82228
@@ -1867,6 +1897,21 @@ MD5Sum: d855bb9438f7eda74866cfbcdec8cd0c
 SHA1: e002128d6b0c400a2c84272639462ad682b5ea1b
 SHA256: 6d28ccedcecab2538930ed69dda3507e1d2842084cb59d5a2634a52789ce76d9
 SHA512: 0ad06c737bd2f23229320fec6a6f1c4b7ac70e7304837f95b619783c23dc87c3390c37fa55ada27a25dcdf94935713ef497e00e5b8da7330740e8915981b1cf9
+
+Package: opencv
+Architecture: i686
+Installed-Size: 53900
+Maintainer: Termux members @termux
+Version: 4.4.0-2
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libwebp, libprotobuf, libpng, libtiff, openjpeg
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-i686/opencv_4.4.0-2_i686.deb
+Size: 9596404
+MD5Sum: 82601470ad4a96ef4ff7eb10923329d0
+SHA1: 9f99d0bed8d6ef3d3bba0586ea5e2507b7dfb416
+SHA256: 6911b30618a58d58638da22284a9cddee4938dcc9978d1082af901840841cd2a
+SHA512: 4f35ed4247129fb6523255bc65e230251b756b0f3a57aa3e055daf1e90655589a4195ccb9fa4e3818511f527b8d0d4ada059f463bb199ec8c640eca564bfca8a
 
 Package: opencv
 Architecture: i686
@@ -2347,6 +2392,21 @@ MD5Sum: 50cd61f3002d339c85fbae0d6bdc4576
 SHA1: 180cef132b7d0e7c4f20c2ff894f54f743792c7d
 SHA256: c89210242f879d5cee722ffb1cc52b2fd99447a2ad3615a5d5f58c51c6262cc6
 SHA512: fd09a95e37d1b7c0630607264265cf05a9f2dddc3ba4d4423d29d10e566fc3e3d6ca107cbe9a4023f8d1a20cd7685ae8dea0f1607c1ba3b2b512d7664d018d5d
+
+Package: scipy
+Architecture: i686
+Installed-Size: 56072
+Maintainer: Termux members @termux
+Version: 1.5.2
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-i686/scipy_1.5.2_i686.deb
+Size: 11774590
+MD5Sum: cbb4e4a3a4edca6341701372bd650b05
+SHA1: 431bd769be6443ddb8f69edeff65512097e22136
+SHA256: ee4160784cfffaa567171ca65cfbd4bcd336728410418e7d25ed0f33970f790c
+SHA512: 5615b162e7437a41440a8f4364e9b0c9224495f08a316c5c050785595541c7fb0750d0a09efe34c5d5a45898a999b174b57aa2baf1e461bf38df84a77d6ecafe
 
 Package: suitesparse
 Architecture: i686

@@ -1441,6 +1441,21 @@ SHA1: 6d47f60d0add565b372471f0a3c6fe6c4d6f70b2
 SHA256: 298228af6ea47fdf3a351e81fdfd6da3f08113ee3ee51e0954821bf35567c99f
 SHA512: 0d4d2e85d33ddbf5f256ff1b5fb3569128ae6d817cdff3d5c0aafb8cea6e207b3f24c0a468c72f198694fc9fbd5277b56199dcedf11282aa4f0628adf4fe880b
 
+Package: libopencv-contrib
+Architecture: x86_64
+Installed-Size: 16268
+Maintainer: Termux members @termux
+Version: 4.4.0-2
+Homepage: https://opencv.org
+Depends: opencv, opencv (= 4.4.0-2)
+Description: computer vision contrlib libraries
+Filename: dists/termux/extras/binary-x86_64/libopencv-contrib_4.4.0-2_x86_64.deb
+Size: 4996332
+MD5Sum: 305c6df34f4d918da5365b00e4b5efa8
+SHA1: ba9e19d494f17ad9be5a80fdbe4fbbd43e02dbac
+SHA256: a9c7b1ce6189c8044ffc65ce3ba777f40891319e56919f21baa0f16cd10c8874
+SHA512: 2b2901e315a54c26ddea2be2510be340481214a6a5623202b1eb5bbd5cf04c6233b90b45768b576e27950822e1d24947582c9eec60dfc0e3516bff8ae5581122
+
 Package: libopenspecfun-static
 Architecture: x86_64
 Installed-Size: 376
@@ -2005,6 +2020,21 @@ MD5Sum: 5e8eeed73401b33b85549d007e6fc7c3
 SHA1: 4d4558ddc589df7dbbd424896ce06ac6f47814e5
 SHA256: d68f4db10f32ec1ecf74b02e1966ae2a242fbe6bdaaedb59e74c0e7640a36bdc
 SHA512: 7d221c76d6cdaee8eeb765470ab825c36d1a79d8fdd179f316deab014b0adb344361456924b040db55b364903f017be2235df1c3ad815fb4905a2e8f7c61f849
+
+Package: opencv
+Architecture: x86_64
+Installed-Size: 89808
+Maintainer: Termux members @termux
+Version: 4.4.0-2
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libwebp, libprotobuf, libpng, libtiff, openjpeg
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-x86_64/opencv_4.4.0-2_x86_64.deb
+Size: 18877028
+MD5Sum: 0bbb61d4bb50c23d7a5d82eb7b3a8d8b
+SHA1: ed4eff70374603e1314baee03ae80716f06af5fd
+SHA256: a95810a9ec2170ac19cc45a4e354548fe6a993c20794b10757b442df80c2f93f
+SHA512: dfcd3515300eb09da8240867c9424a1791dba994e74b4bfbe33b443cccdf7f8a433e5d707f4413c15b61d373337e89a3a3952e095c414fd4227e119bbc961886
 
 Package: opencv
 Architecture: x86_64

@@ -1426,6 +1426,21 @@ SHA1: 15f6b20ec70dbbe47a316c123c748ebf5efa04d8
 SHA256: 523a364bbedafc0d2eca0aa3553d46ad899225d5636cf1c3403b984d44cc9cbc
 SHA512: 76c7021721df48621ed4d6a8a7eb99d67330127ab6259942a5c2943e6c3d2af5b59a2a8563a0e234ee38d3ed80967ab0373cf4a0e6b45693e11f7c9e1d25d3cf
 
+Package: libopencv-contrib
+Architecture: arm
+Installed-Size: 12412
+Maintainer: Termux members @termux
+Version: 4.4.0-2
+Homepage: https://opencv.org
+Depends: opencv, opencv (= 4.4.0-2)
+Description: computer vision contrlib libraries
+Filename: dists/termux/extras/binary-arm/libopencv-contrib_4.4.0-2_arm.deb
+Size: 4573074
+MD5Sum: 21b80b4463e50738dd956062aa939b62
+SHA1: 1c426be4080f399c2eeca67b87f4a11ea078dfe3
+SHA256: feee202327a9b7e4fcb13a995dba204643116c05c80a00b1535c86851e9ff627
+SHA512: 0c1e5578baf6f80d5a659f58d1c3ea71b9bab82097e68d3a7c324f7cbbf1fa03a81070f73fe582b192dd73a5b82a95d5148c05374384bb1aa9f25ebd7fa4a19d
+
 Package: libopenspecfun-static
 Architecture: arm
 Installed-Size: 152
@@ -1742,6 +1757,21 @@ SHA1: 4c9e27898e32d6017baa729e31de92cfe226bb0f
 SHA256: f93551c68f44cbdc786bd100b9bb39b253459f7f28d2c3ed477d548f53613baa
 SHA512: 362e471a62bcee71d6478b3040bbb5c50d838faaf15efac7c05c5837be46f7806c79bedc2a6fefb7dfab9bf80ce58401af67b3d0549055b7ffbcbeb6a4fa3929
 
+Package: numpy
+Architecture: arm
+Installed-Size: 21096
+Maintainer: Termux members @termux
+Version: 1.19.2
+Homepage: http://www.numpy.org/
+Depends: openblas, python, libcrypt
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-arm/numpy_1.19.2_arm.deb
+Size: 3941708
+MD5Sum: eb3e22b6b9764f864094a325570d0d04
+SHA1: c6b2b83cc19038b8af0dce953dc9737c33e1ef42
+SHA256: 4d2465c393f711f5eb654eeb12855e3699c59663b273a16a5425542e917b8880
+SHA512: 67aefedc077583831c7cf13e877f84898e425533ac363980716fa9151c791157600b5cf8e5f2325b0aa4b8f115d535a7ab4474359e3dd5b142567ed968d124b9
+
 Package: ocaml
 Architecture: arm
 Installed-Size: 238904
@@ -1943,6 +1973,21 @@ MD5Sum: 31c9908f3ad8972369841428c90493bb
 SHA1: b1c0061a8b8754d778879ebb256436c668ec05c8
 SHA256: 0eb67061fc8f18803fe597ed7b3f5d846e4ebe0b25c1d425aeaee0e8596403dd
 SHA512: da2db0cca31e0643f030bd468ff49c07f1f7bd2b0bdf54b836cac03eaba378401bff5a41b49e53dfd3930b7d93a2160830c66c29108898547283a5410a4bd0fa
+
+Package: opencv
+Architecture: arm
+Installed-Size: 42040
+Maintainer: Termux members @termux
+Version: 4.4.0-2
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libwebp, libprotobuf, libpng, libtiff, openjpeg
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-arm/opencv_4.4.0-2_arm.deb
+Size: 8929162
+MD5Sum: 15760907971f7294274bedd0a480c384
+SHA1: c3e017f60539fe1646720fb9ff6f5fa8274fa9e6
+SHA256: 34876c5ddceb15c04eb34767c8586a4a6a264daa5aa1c42fad79315bdd5d0455
+SHA512: 9914fe2e863987fe08d193fa4acde5ffa377eeb7804e56ff74a9149deab600cb41adc8c7ce3c6a6a787ed5debff21700d27f3c3aee46340411ef9dc8f6783124
 
 Package: opencv
 Architecture: arm
@@ -2453,6 +2498,21 @@ MD5Sum: 1c9b15e3045f4e12548b5a462a665c9b
 SHA1: d4750a815145dce2e83f503565a0435d3c6d3acb
 SHA256: cf0ca7655ad70118d49bf13a6db4311426ccad7b5e91a423cee55426e2825dba
 SHA512: 61d7567c5d3d6ea4964167650ccdc9dd3376b66ebee7ce19fa3b226668b4dc5deb4ba23b45c616d61b33b03045115477054ac103b306f571451194f49f69d6ce
+
+Package: scipy
+Architecture: arm
+Installed-Size: 49336
+Maintainer: Termux members @termux
+Version: 1.5.2
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-arm/scipy_1.5.2_arm.deb
+Size: 11876920
+MD5Sum: e40eb3e8ee4f5f601d015f543e0ef8da
+SHA1: 8003ca86606192a783d0491070e11295f45f75d1
+SHA256: d5700c2aae3cfc2f10002c2c439467064ee34590268ab25bb3ac2861a9236f74
+SHA512: eabf42c2a217e57d9c17d0fb63bc93195db2d3b7e9afcd7b0d734208784a385f3e91a46f7385f991e6c8c7ee9bec5c63ddfe35b09a3c96763bdec0cc8a866d57
 
 Package: suitesparse
 Architecture: arm

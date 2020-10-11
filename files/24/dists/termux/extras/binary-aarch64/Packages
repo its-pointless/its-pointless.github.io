@@ -1427,6 +1427,21 @@ SHA1: be77015eb0e95522ff3a1fa3368d7f55cfa8c43c
 SHA256: e78928bdbe7c696bf4f1cb9c5cc9a7423294f2604f34a502c94c190d79dace48
 SHA512: adcd4b99fdc1ba8165c54b8527790fa701881ad358cf82f1089d717586430ff7130e6b289a0c13d5b27d2d6046ae866ec32092e8e346192d53c8dc926e667bbd
 
+Package: libopencv-contrib
+Architecture: aarch64
+Installed-Size: 14316
+Maintainer: Termux members @termux
+Version: 4.4.0-2
+Homepage: https://opencv.org
+Depends: opencv, opencv (= 4.4.0-2)
+Description: computer vision contrlib libraries
+Filename: dists/termux/extras/binary-aarch64/libopencv-contrib_4.4.0-2_aarch64.deb
+Size: 4460506
+MD5Sum: a23b200289ff186a6e304f3c01e7193c
+SHA1: c31f93ea945c278d0c93aaeb41b23e29d3139740
+SHA256: 5fe7fbb05610c7dcf8ddb427392d75dc5a9cd8f8e69adee4251fe185d8bb6d65
+SHA512: 6d10efd23940ef8a3714c6f73a018dad22328657b58a1f91af182ecf41e73683941bc6d194f9ec85151aeb2e3ef95a422dbd442252fda59750250988cbb1a967
+
 Package: libopenspecfun-static
 Architecture: aarch64
 Installed-Size: 296
@@ -1959,6 +1974,21 @@ MD5Sum: da7c54d3a989373dac9ba05ffb399fab
 SHA1: 14d6b26994d6b712a6bbd5143e5d8c233b23a2d2
 SHA256: f3f89b28596ec35283deff99f469498bd0aceabde42d27464991480d4ecab134
 SHA512: 8a8857a5b29852d51014ebd7f584bfff86bd766c587e434c83e890651bb2b18bd053953f8aea41715ec0a61c3c3b16c43f56c64151ff25adfc2c879b79de12fc
+
+Package: opencv
+Architecture: aarch64
+Installed-Size: 49128
+Maintainer: Termux members @termux
+Version: 4.4.0-2
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libwebp, libprotobuf, libpng, libtiff, openjpeg
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-aarch64/opencv_4.4.0-2_aarch64.deb
+Size: 8634838
+MD5Sum: 73ae4f144986fd773c9e41cf6f79c051
+SHA1: 6201f6bfe56999396f1503ad4212a2e7ba5c7901
+SHA256: 92d30eba334e634192ac271542f35dbad330071952af0f5d146308c1231ec124
+SHA512: b57a21463a01c8a92fc3aa1a0da69b36c2636b9976df732545bb65672a198b23e40fbc5c8f6c913179af5e9279b6eebb5f8be7a6a44d4e7f524e2d1cecb86434
 
 Package: opencv
 Architecture: aarch64
