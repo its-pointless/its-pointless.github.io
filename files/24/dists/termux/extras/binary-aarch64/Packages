@@ -1758,6 +1758,21 @@ SHA1: 39082ddee3356644af78eaa6b33af682c06048a7
 SHA256: 541fb988548492e1602ad2dc68b8a9361f8b0111e4c7eb7f426cc58945372af8
 SHA512: ad3c42804cf65328fa07b4ed72e30ab019d9459241c5117a31e5510a06e718c759d6ff52cc44d3bae41d85b43129449778457cc9ac9829d7392d6ed081805133
 
+Package: numpy
+Architecture: aarch64
+Installed-Size: 21940
+Maintainer: Termux members @termux
+Version: 1.19.2
+Homepage: http://www.numpy.org/
+Depends: openblas, python, libcrypt
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-aarch64/numpy_1.19.2_aarch64.deb
+Size: 3587992
+MD5Sum: f5ce4503291519b2b5869646918185b4
+SHA1: 5de5b38629cb7cee99de01c0f800018b4350ea33
+SHA256: fb05c5c406ee82b64c9279883badf071b20a8e7ecb36f5b5924d0b090cd6bf0f
+SHA512: e34d96b7b52a0c91de0d8f19e44c1c9abae39cc3575086b00f2717c8e3d7acad3fb3b36f16e0d1afe2648f02969c77e0e1ff3253df121911f8486712d018e11e
+
 Package: ocaml
 Architecture: aarch64
 Installed-Size: 277208
@@ -2425,6 +2440,21 @@ MD5Sum: af0ee797d5387346649817e83879f16e
 SHA1: 7cf6947d0bfd21ca7bde55b24b11871fbae1b285
 SHA256: 704e60fbb6573b17e4f3bf6fe7f3a87ea0dec2227a761c9a2228bfeaeede2bbc
 SHA512: e82b34e63de2eaebfac0fa8b6e6a9d7ff750eb83d5e4de39bd40c9ae462a8e533a6585f7d202a112f140e93558d56dc56a852fa4fa76818417ce5a22048713bb
+
+Package: scipy
+Architecture: aarch64
+Installed-Size: 53224
+Maintainer: Termux members @termux
+Version: 1.5.2
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-aarch64/scipy_1.5.2_aarch64.deb
+Size: 11286310
+MD5Sum: 0579c7bb5c7b2e5cc0d0dec7a2404eba
+SHA1: 41c0d3742f6444d77572257108a40024a2849b05
+SHA256: 2c3a7b0cbfb62130f373b61c53f6309db2d827e7579e07ff1d826207d289185f
+SHA512: 25496820f9b582877143db28c216ec700e7e9764dda9b64b7732216980e1cf67e37583a8eff1b2f50ea716fd291cda516268047a9190ba7c8bf1687089ccb2b5
 
 Package: suitesparse
 Architecture: aarch64

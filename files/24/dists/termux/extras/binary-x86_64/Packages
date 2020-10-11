@@ -1772,6 +1772,21 @@ SHA1: 23cc257393c0963ceccdaded9cd54d93a8161dde
 SHA256: c149c3ba1273250e7de2b0f93b7d8541a3bb5f4c9f81d37486894e6855ee061e
 SHA512: 051724eb5e91fffe5dbdf828b7d6b73edc5e6123b94a781942ce31cd71b2b3c9837ffdf754df9a8118244639ff393640926997d4822df5093464e44a9d9e9641
 
+Package: numpy
+Architecture: x86_64
+Installed-Size: 23992
+Maintainer: Termux members @termux
+Version: 1.19.2
+Homepage: http://www.numpy.org/
+Depends: openblas, python, libcrypt
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-x86_64/numpy_1.19.2_x86_64.deb
+Size: 4092046
+MD5Sum: 338eb21d00387b9bd28cef8900c031d9
+SHA1: a1979c9dd8a98ac09fad8ed525bb8b13536f39a0
+SHA256: 0b6ef18e5ad2761fdb4268acc3b434c27224447df6f6ee8d53ef36def2330e8f
+SHA512: 64af624bc7f0445b13323f4e08aaea10653a137f5489d7374cc9cab925ed9ef36b0bb081a26c69351d690e4a949c3d4acbcf52f1655886890f9e62ee1c36b8e3
+
 Package: ocaml
 Architecture: x86_64
 Installed-Size: 258548
@@ -2455,6 +2470,21 @@ MD5Sum: ed93481dca92ccbd2250bb4fefda2ccd
 SHA1: 0d91f3c54ba90508e5245d5cafb6f032e82660df
 SHA256: 8f0e6fcb61b6730741c316d222507f0c1ef71441ced21ff0e82f96c7cd4db627
 SHA512: 71851d91a2ee0b978fb5034d84ffc56ce6ea1c26c8bd639bde99ecc10ee2c71d1c2d62c4b7bebcbcea5695308644901f32c7cf0daa7abe95882d0f42a2347255
+
+Package: scipy
+Architecture: x86_64
+Installed-Size: 59248
+Maintainer: Termux members @termux
+Version: 1.5.2
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-x86_64/scipy_1.5.2_x86_64.deb
+Size: 12765674
+MD5Sum: e598d00e860f7b8985b12c5a55d5419e
+SHA1: 67a3821bce2630c3e56cb136e520add18752cd86
+SHA256: fff66b24bb20a5e45a434575aa28db4d506055a38109b675c6186e47341a3e2f
+SHA512: e1ef5c109320984111ca24fa2c563b5ac182c48f789605d672d6107ecb417dbf0b2d623142e23dd4b9ff75ab09599a3f35a252e63178d3e5929790078fa9150c
 
 Package: suitesparse
 Architecture: x86_64
