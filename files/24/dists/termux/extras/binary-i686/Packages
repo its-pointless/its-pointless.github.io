@@ -1821,6 +1821,21 @@ SHA1: 4817248636d8a5782f0730494fd8f597a5a0f424
 SHA256: c96402c0efeb996f7c0ea83c263afbb8561b0de2483e133f6386ec5ca03c9ce6
 SHA512: 6ff7a5eddc60baef0b4c10de2d312670fdbb826beabffa5dc2c62a703dcc8065f18ba57591f762b900d48e21ea7e4bb4cccd5694051823a27df5cf2f055ce924
 
+Package: openblas-sandybridge-static
+Architecture: i686
+Installed-Size: 23540
+Maintainer: Termux members @termux
+Version: 0.3.12
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: openblas-sandybridge (= 0.3.12)
+Description: Static libraries for openblas-sandybridge
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge-static_0.3.12_i686.deb
+Size: 3213142
+MD5Sum: 17ef178217ccb629ec53b7e5c7d6e797
+SHA1: 0e278c4f3bfe01a2f7affba37e77834434d1eed3
+SHA256: 13457442e421a603f20b46db150d8c257f9432a2fdd606e03f26bf913143568a
+SHA512: a6bc45bd9b8e437a2a674eda737ca06392e4ded1ebf766215bc837d349c8ce7294388e8f22d2d25086691d39f1c5cb3779e2e1152eb78450553e45e832a571ea
+
 Package: openblas-sandybridge
 Architecture: i686
 Installed-Size: 15032
@@ -1838,6 +1853,23 @@ SHA1: 8f12f8eab504ae65d4164228b89a1ea69bdc799e
 SHA256: 04e5fb34066ba164090a01c9e4e6635bb8033abfea47ee32398fe65f181f5d5e
 SHA512: e11ce945fa65ab4a4e69aa9a4a7cd0cc7f00cc1b42c8d088a67a2410c19ab25e9cb079ad9de89305ff043f3b774034d9427e756b0d3c6347a7894b4bd6c93039
 
+Package: openblas-sandybridge
+Architecture: i686
+Installed-Size: 15140
+Maintainer: Termux members @termux
+Version: 0.3.12
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Conflicts: openblas
+Description: blas library optimized for sandybridge(chromebooks) with lapack
+Provides: openblas
+Filename: dists/termux/extras/binary-i686/openblas-sandybridge_0.3.12_i686.deb
+Size: 3207696
+MD5Sum: 3a4c57b2edef80fee43e5ccb8505c0cc
+SHA1: 0c0f67de2b99871c79f8bc76d57ada8e5088d0be
+SHA256: fecdedd3ab3356ebd7fa5a76a21ee32f552202a3c90b4f7815fa2f5d9182be59
+SHA512: 560cc5fe2d6fe84c15830488ce2f46acf92890397ac003e9d9a63708a0efabdce94cbd2a747c3ddca0b64b3ee9cfa8ac73ea6dd43ce5987349161aaba3c2006d
+
 Package: openblas-static
 Architecture: i686
 Installed-Size: 23456
@@ -1853,6 +1885,21 @@ SHA1: f3ca94faa1fa2adef110e53e12c391c920b5e61b
 SHA256: a3d3b0ac994bc60d27ac99706d0aa9cbec981ff339e03ce681e8795b6ed81e0a
 SHA512: 108829ed35b52b2cbb862b65a85be7e0555415c7c730728bab464484040c2f8f06ab71a186d64f202bfc2074f624e6a41da775385f0bffa59bc35a4725ceeebc
 
+Package: openblas-static
+Architecture: i686
+Installed-Size: 23464
+Maintainer: Termux members @termux
+Version: 0.3.12
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: openblas (= 0.3.12)
+Description: Static libraries for openblas
+Filename: dists/termux/extras/binary-i686/openblas-static_0.3.12_i686.deb
+Size: 3148888
+MD5Sum: 2e3a784ce30a22983c1ff5452a77d687
+SHA1: 6d468401ab49c985a9b915b289cceb3a37ee6fc2
+SHA256: 8a33f4a750a6403642dd7a90b5f82ac22420304afaace5e60f6b8525b2cb0306
+SHA512: 241e71809141f818d2150f388b021323e328f3d480a90765c35e50bd61e4fa81f141de0ea1004a732a266bf35ef258fa6429fa6dc73956df6bd79e4f83ac9bca
+
 Package: openblas
 Architecture: i686
 Installed-Size: 15036
@@ -1867,6 +1914,21 @@ MD5Sum: d5280a46f266f13aea91bd6b76ef1825
 SHA1: 1cd2147b492bf440bfc6a857e3696a52096b688d
 SHA256: efac75fba2d739f7dbc0493b3d9b18ec436bddae6cf37b65f4e1f6459e8b8539
 SHA512: 9dafb61951ca9c6bb42eb302d69deab3fc3257150aa13395d4da5c6aab341a703af954b35bd351e56a6135bfd9b9709397452ba51b5255e5787291d46e266233
+
+Package: openblas
+Architecture: i686
+Installed-Size: 15044
+Maintainer: Termux members @termux
+Version: 0.3.12
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Description: Optimized BLAS (linear algebra) library with lapack
+Filename: dists/termux/extras/binary-i686/openblas_0.3.12_i686.deb
+Size: 3151008
+MD5Sum: 355b7061c52fd4e28d1ff3f0c40940f5
+SHA1: fcfecaf89ca857246ed73cce2407440bf5092be8
+SHA256: f7d2976f7ef84aa79959e88fe86a37be19cd700bba5d2ca54daf8d1fa88411e3
+SHA512: e93a4088a58e4f3c4d03a6eef626f7d962091072ae2785e2fdcdac0ebf1902365717d78c37c9e1afdcb2f8caa766212cd57d17054957bdee0cd2a127854e3834
 
 Package: opencv
 Architecture: i686

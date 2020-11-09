@@ -1930,6 +1930,21 @@ SHA1: 39a0265e2f5476085926388c72868e563fff7f0a
 SHA256: 9c90058ee53a23443746050ab6834937da08f31836232e4954a32020aff900cc
 SHA512: d41c53696fc725400fb02fdee076b5b9d50764c73fa26ec4a840b6649096dd782fdd1e684a6e44d0f4a76bfa917f3b48cf0b25e34cb6ade04a63056596b2bb1a
 
+Package: openblas-static
+Architecture: aarch64
+Installed-Size: 22272
+Maintainer: Termux members @termux
+Version: 0.3.12
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: openblas (= 0.3.12)
+Description: Static libraries for openblas
+Filename: dists/termux/extras/binary-aarch64/openblas-static_0.3.12_aarch64.deb
+Size: 2241610
+MD5Sum: 25782875fa85d33b5229acc9b7a61006
+SHA1: 912802f4395c44a1e2e7aafd174d47be11d828e6
+SHA256: 58ffe40d4e05e554e42e69b06c5022ee4155f8802b6ac07069c2598b0e4f1824
+SHA512: 489b21f477694827206e5784b3ce3bc6a089a867e2e3f205d59d7339bb2a92577f4a1c2334ca1d6121c43c492e21e9c90c0c33a0edc5470a4dcb0163bb619d33
+
 Package: openblas
 Architecture: aarch64
 Installed-Size: 11128
@@ -1944,6 +1959,21 @@ MD5Sum: cce172b7b88bd976354c07eb93bf2ba8
 SHA1: db65b0c060b76146e1b706450514f3ded41e34ff
 SHA256: 2a3b763f5a704166ae5c27c3e383b9ed99bc6d7b7a5fc09ee88a32dffd49df66
 SHA512: 8a049363455f02d8161a7240ad36e3a6a8d93a819aa2a1cda18ed680156d9142c2b438c7942555b52e87d200b6a570d2233a26b957028a4b0b04743988ea6e3e
+
+Package: openblas
+Architecture: aarch64
+Installed-Size: 11128
+Maintainer: Termux members @termux
+Version: 0.3.12
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Description: Optimized BLAS (linear algebra) library with lapack
+Filename: dists/termux/extras/binary-aarch64/openblas_0.3.12_aarch64.deb
+Size: 2241072
+MD5Sum: 17076685a6e0eb1b36ae2a03334bb746
+SHA1: 982dbb15ecf8734ed9dd9ecd929be3f7be13ccfe
+SHA256: d36f95cf8ac3975d41158f23bc7cd67124323aca291a65e499e490bae1a57388
+SHA512: ae95fdb4f776fd9a5f80dfe599bda1b13907b9de539e44bcddc8287a67d36c91d740c17a6f052f987d121da464055ae45708b6d02dd59ef3967d117343c30351
 
 Package: opencv
 Architecture: aarch64

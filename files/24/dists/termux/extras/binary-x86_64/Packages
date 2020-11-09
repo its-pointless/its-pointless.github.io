@@ -1944,6 +1944,21 @@ SHA1: e6dc8d1bb8c5612975caa0d9e3603b10f7437fed
 SHA256: 5efd16271a8a7369d5124f599a11f7c6cb81d3f8fce2f585eacbddc3c1852f30
 SHA512: b8581be5cd5371d0ba39523edf899d1aeda09d45993b4864d7fbdda66780e3cfd6616c29e7d2a6faa10b7128dfa8d5381a0607c34a2687fb359f6451bfdb92c6
 
+Package: openblas-sandybridge-static
+Architecture: x86_64
+Installed-Size: 30804
+Maintainer: Termux members @termux
+Version: 0.3.12
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: openblas-sandybridge (= 0.3.12)
+Description: Static libraries for openblas-sandybridge
+Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge-static_0.3.12_x86_64.deb
+Size: 3451780
+MD5Sum: 291650b84b78ed3d1b3fe14fea408d2c
+SHA1: dcf4d14dc00b4cd21e6fb82eee4e9ec5aa5fa3a5
+SHA256: 55f4c64530ecf51e1b9b664c22f7c70c75e783b641cce279ab3c647431b6f4ca
+SHA512: e531c3de1b972601c6a0cc11d4ea8087781c8991fe4bdd490c305ebe6b98c89090331999c9b66eac88d12ac69a9d1363226500508e6bf9da82a1fa2f6f578000
+
 Package: openblas-sandybridge
 Architecture: x86_64
 Installed-Size: 16184
@@ -1961,6 +1976,23 @@ SHA1: 74ffdb74100ca0e85b9e80680bef33ab33342694
 SHA256: 0790427a76bcc69e1a85c385ab9807900517bb11ed17b47af15b5b07b8b97ecb
 SHA512: 6b655ecef63966f1128a5eb0973b4fc167198a3bda179b2217d879966f5d1d8dfbe1a66364be06fe2bb1dc26855f62fbc8ff9224d291e952b0caec84d0827217
 
+Package: openblas-sandybridge
+Architecture: x86_64
+Installed-Size: 16192
+Maintainer: Termux members @termux
+Version: 0.3.12
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Conflicts: openblas
+Description: blas library optimized for sandybridge(chromebooks) with lapack
+Provides: openblas
+Filename: dists/termux/extras/binary-x86_64/openblas-sandybridge_0.3.12_x86_64.deb
+Size: 3511808
+MD5Sum: c5f8d90c1921244e6847b71b7642fbe3
+SHA1: bcc142575a9d17604b866b43843f3c9d2cd567b2
+SHA256: 721103adef532b702d873aa002818f8869a1f454990d4084f9f0417ab1b0d13b
+SHA512: 3abda1f79b17864eef8fb3315e0d275c49b589ba439fbb7353cda40905c0adab5a412b23065b319f0d7304ed738a0a502aa9bed2855fb2f309a67d450c33c738
+
 Package: openblas-static
 Architecture: x86_64
 Installed-Size: 30500
@@ -1976,6 +2008,21 @@ SHA1: 2a3709ba752e1a40944fac38b3ea0b5e1d414209
 SHA256: 35b4252f315a4c5297984e231c8b8bdc2cd3d175a7ae474e702b016f256f392d
 SHA512: ae554ccbcb4375c76f56711e6506227d3f1fe7d5300dd22bccb39a36605bf6bea43eea89fd8e1acdeec1b8e94d2bb0130ce1a4c0ad22bf7fad858e4eed0ababc
 
+Package: openblas-static
+Architecture: x86_64
+Installed-Size: 30508
+Maintainer: Termux members @termux
+Version: 0.3.12
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: openblas (= 0.3.12)
+Description: Static libraries for openblas
+Filename: dists/termux/extras/binary-x86_64/openblas-static_0.3.12_x86_64.deb
+Size: 3361814
+MD5Sum: b509d6836016738df480ce5b4638db22
+SHA1: 680b2efcbfc5b2b9eefbc1a02285e3d0e2890659
+SHA256: 4623912ac556ddddf17bc23ba14b77c4359fee8630e2f07ef9fb9e3f5a318e3d
+SHA512: 5cec9f23451b6750c483074c27dee6f0300a3c02e1af1ca6238d76a90cdf0fb4cdd926aa4f6ce5c2404079e88530502dc2e00deb08af22ac486bd6d3bffe46e1
+
 Package: openblas
 Architecture: x86_64
 Installed-Size: 15816
@@ -1990,6 +2037,21 @@ MD5Sum: b5e3e2ef26c2a7df427aaec04a0bb35e
 SHA1: 593643b1ba64ad597c779e18b96b2da7d6981865
 SHA256: ee25eb6f033583322412d95e5add2704f9c490c93aac4b84294d9713c78b1a90
 SHA512: a7ccda2ed1135c3008146ff2d106f3276559273165e5c195448b38d1855562b398278a8201b8fd6322254856f5b05e81a1b85d4fea60cb688ae3fe3ebafebb6a
+
+Package: openblas
+Architecture: x86_64
+Installed-Size: 15820
+Maintainer: Termux members @termux
+Version: 0.3.12
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Description: Optimized BLAS (linear algebra) library with lapack
+Filename: dists/termux/extras/binary-x86_64/openblas_0.3.12_x86_64.deb
+Size: 3408674
+MD5Sum: 58646c5b6db6f9fea187f639d5fcc981
+SHA1: c31cdda170c28936796ddc0a06a2f1f9a9bb789d
+SHA256: 728d7529b442aeb6a9552dc53033f923d69c1e5f57ce6b3d78c90d57c6f240f9
+SHA512: ad346e6af51312ebc1e41fbf0e8d1e5890d973a16aa830d70c1014b6d239b188df0b2aa19e67d47129310ec1a7a05049f62e8aba8be2ac5e4287899043baf368
 
 Package: opencv
 Architecture: x86_64
