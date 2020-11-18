@@ -1772,6 +1772,21 @@ SHA1: c6b2b83cc19038b8af0dce953dc9737c33e1ef42
 SHA256: 4d2465c393f711f5eb654eeb12855e3699c59663b273a16a5425542e917b8880
 SHA512: 67aefedc077583831c7cf13e877f84898e425533ac363980716fa9151c791157600b5cf8e5f2325b0aa4b8f115d535a7ab4474359e3dd5b142567ed968d124b9
 
+Package: numpy
+Architecture: arm
+Installed-Size: 21112
+Maintainer: Termux members @termux
+Version: 1.19.4
+Homepage: http://www.numpy.org/
+Depends: openblas, python, libcrypt
+Description: NumPy is the fundamental package for scientific computing with Python.
+Filename: dists/termux/extras/binary-arm/numpy_1.19.4_arm.deb
+Size: 3937772
+MD5Sum: a8b8b79122a140af73c70255661afb0e
+SHA1: 30f4400711633504ead7da15e27341a65ce25163
+SHA256: 8d2b02cb562ab068a85b44d9ccc973474f7ca0ca63c04ca4459e37766c264b16
+SHA512: 5b16a91f2b1e8c1e56cb36e255b8300ec0467af295a3ad0d7838b84eb2bf22b0f4c8e6649aa0693898d079a35e3aef309c6db7d5f644a35a3d7a3c78342b4e50
+
 Package: ocaml
 Architecture: arm
 Installed-Size: 238904
@@ -2034,6 +2049,23 @@ SHA1: de92a2142e5f3881f0d12cb46e11dfc2a854524f
 SHA256: 94043369b868d6e497dea6c19b22a9fec0a1aa690dec42967d674863e7eebb20
 SHA512: 11ebc9804bccc488e1e553c22f811a541f90bb4d05e798dacec56b5f45c90dc89ee2eb81db9fc6695b5712fcef42d44047a375e96931e9a1b9d8487ede1079d0
 
+Package: opencv
+Architecture: arm
+Installed-Size: 55924
+Maintainer: Termux members @termux
+Version: 4.5.0
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libwebp, libprotobuf, libpng, libtiff, openjpeg
+Conflicts: libopencv-contrib
+Replaces: libopencv-contrib
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-arm/opencv_4.5.0_arm.deb
+Size: 13847582
+MD5Sum: 12da6c9ffb551ceeb5531216320dfcb5
+SHA1: 318163954924d9fc83610713498d51eeacbc1ce4
+SHA256: 9c2386e35d4caacc996107d50793adcf9ad51e27b82e5a1ed27acea75b29067e
+SHA512: 6ae704adfbf6b8915791626e203b303e40cbf98f26f9534d0d66212e4e5786a7104c51e59a81e5434147b2424780c1b130915be593af9719390d5fe65d999a1c
+
 Package: pari-gp
 Architecture: arm
 Installed-Size: 9060
@@ -2228,6 +2260,21 @@ SHA1: 7f95d52b4242c853d4de8b7f8e9224f626c16f7e
 SHA256: cf2627ff15b16f2a7028312e30d602b036f1b090015ae3ffe40514f0ce3e0f82
 SHA512: 7ea0c172e5df685ccc54e8ffcb05c518ab51952ed559a48c8db17c32d0b86987597bcde5ef329c3df05a85d87d247f96419a1e59e944f3788cbd98c3274362e9
 
+Package: quantlib-static
+Architecture: arm
+Installed-Size: 163284
+Maintainer: Termux members @termux
+Version: 1.20
+Homepage: http://quantlib.org
+Depends: quantlib (= 1.20)
+Description: Static libraries for quantlib
+Filename: dists/termux/extras/binary-arm/quantlib-static_1.20_arm.deb
+Size: 17312604
+MD5Sum: 5d1dd15e10a90bc5de35df2735a26a81
+SHA1: 2d300a8d643bac0d7b47a08e2ea4d1d8aeba38dc
+SHA256: 3fef4a73e9d037ad294a889703ff23f445c9e1f4062b65696cff00b2cbcde29a
+SHA512: 2f8e6ab5588b69c2047b774ef594030673fabc0e3f01fe7f26c54e0299a6520d13d92965b22f78b85a54d33f7c0e5b796439394e6b3c454ba7f8fadc54b4f881
+
 Package: quantlib
 Architecture: arm
 Installed-Size: 35604
@@ -2241,6 +2288,20 @@ MD5Sum: ea6053fe7c1efd5a2a46a78d923908df
 SHA1: 86d3a237a83f0fe53c7c5d551fc4cb3c6177fb3a
 SHA256: 05134fc89474756990f88ad84a5711fd127d7f2efb9790baafe5d89ae33f68f2
 SHA512: 88b0248bf351df05c9bfae273e08e725e547824ab68584a332f7ccaf810cfafb81c2a220a58d123a188c30c1a4e24e5e7d476c228038e008ac202d9995efeb0b
+
+Package: quantlib
+Architecture: arm
+Installed-Size: 36388
+Maintainer: Termux members @termux
+Version: 1.20
+Homepage: http://quantlib.org
+Description: a comprehensive software framework for quantitative finance
+Filename: dists/termux/extras/binary-arm/quantlib_1.20_arm.deb
+Size: 8878568
+MD5Sum: 3ffdf083db05939f3083514cb4559c76
+SHA1: b364cd25ff20b749e77d4a3cfa7d725bb5e4c8bb
+SHA256: 984fa757c504a6ca92a291b418b9b189770b3d50db8acd49a404113fea7fd8da
+SHA512: 3d4945f20415c25ae3aa94a32d44cad105b4323f0b6ad8f61c9864eb68f41575ae98609c120e45dc421b3c4f8a5fd006ce7870faef0911d2d9896fcd4a88e03a
 
 Package: r-base
 Architecture: arm
@@ -2273,6 +2334,22 @@ MD5Sum: d9acf0641c6b7f6c6f8dc65ec802f747
 SHA1: 85818f99d3191c3a8cbf30f7e9ae0e50541514a8
 SHA256: 8102b417db95c2595ce908b27ade9a1bb485243288d0c8f4665a9546319acc1c
 SHA512: c376c17ee6e240cabb88dbd3f8fbd68966b9a4c9e839d5f9e21ef9c78c2f1c4ad9f14a74b7ce0fefa74362ce09dd17a469366a28b23010690b679390a648078c
+
+Package: r-base
+Architecture: arm
+Installed-Size: 63552
+Maintainer: Termux members @termux
+Version: 4.0.3
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-arm/r-base_4.0.3_arm.deb
+Size: 41694106
+MD5Sum: 968f91611c8574950ac5a386d57a39dd
+SHA1: d6d4b33ffda4289b38c362fef58b52a4216730d0
+SHA256: 97229ea32a1bf211bf4583ac55a63fdb971ad8ddc1c2f2121c294cbda107310d
+SHA512: cc72d6e386cc35fe021844aae273d12ae53304fc774e48049dce74a9134442401fe081b6ce0a4467fe8e2f5925f347b8f85dcf1d88cd088ddd133bec5a05ffe5
 
 Package: r-cran-rcpp
 Architecture: arm
@@ -2321,6 +2398,21 @@ SHA512: 0742c3d28f97bc58d3c3b74ddfe5c6849b26323e8aa90ccdae7584e57854c35e19462431
 
 Package: r-cran-rquantlib
 Architecture: arm
+Installed-Size: 5032
+Maintainer: Termux members @termux
+Version: 0.4.12-2
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-arm/r-cran-rquantlib_0.4.12-2_arm.deb
+Size: 1065250
+MD5Sum: ec607422ca795fdec58f196cf13898ce
+SHA1: f79587e6ba3acde5463e1d4e7871758914cdb226
+SHA256: 44bf6a6aab9e78d18bcc9a609a68395bb12454a408d3064e2be0ae1e306835bf
+SHA512: c6df96a6ed3cb4027039e0bccd2bde5620330345f866219ae70c102c41c37fbbc3188f7872088065b817e76b07e465c33838952e82b45e3acd252cf32e641446
+
+Package: r-cran-rquantlib
+Architecture: arm
 Installed-Size: 4584
 Maintainer: Termux members @termux
 Version: 0.4.12
@@ -2364,6 +2456,21 @@ SHA1: 828d254328e745764b61e820ec44a45cb2bf532c
 SHA256: a44f54cee0770d7ad592c9abd047a7e653924f84a5bd56a03ba061f4b785421e
 SHA512: aa9ada9974dc3806957d9f072092f8c9103f1c011231721dd5d0e4375b9a6f4ebf7f35638a3e7aa1d23f2e0ef6b85ea7e60eb11c12a345644216cc09b335ea52
 
+Package: r-cran-stringi
+Architecture: arm
+Installed-Size: 1508
+Maintainer: Termux members @termux
+Version: 1.5.3
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-arm/r-cran-stringi_1.5.3_arm.deb
+Size: 739704
+MD5Sum: e3199a4cb0bf468f7c887d0d38b53ff0
+SHA1: d66089793d09379c329000a012c3031b35269e16
+SHA256: cf674bdd0f27ce0700ce1da1f433a4957d4c14797f97f50f04f7a9520fe85787
+SHA512: 61a39a49c58399beb7412cbd7dd6cb5394bd6af06b5a3f2d3482223e6f70b982e183536219e071a509ac0b108fe27b0c075a3792ba688ec6e55cc908ee9c703f
+
 Package: r-cran-tidyverse
 Architecture: arm
 Installed-Size: 212152
@@ -2393,6 +2500,21 @@ MD5Sum: 12dc4b5ee2e5054458a96ff9fe1b128e
 SHA1: 904b58a068e83fe849cc09e40648a3256fd9546a
 SHA256: 8b6af4a7c6db0f3105a4bd19dfbc49a7158ff34e30b4948653cf4aa09be3d051
 SHA512: f15885ba160f9277be3a4652e375aa194b1e09d54959169ffc37a43ab494e1db28a3c1bad7e98d7770e62ac9904666e95971c71c44b72125fe553894c90cf926
+
+Package: r-cran-tidyverse
+Architecture: arm
+Installed-Size: 218104
+Maintainer: Termux members @termux
+Version: 1.3.0-5
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Description: tidyverse
+Filename: dists/termux/extras/binary-arm/r-cran-tidyverse_1.3.0-5_arm.deb
+Size: 46617008
+MD5Sum: 89eb1d68f2da9887c7e7b8e5c28b8de7
+SHA1: 121dd37ae5cfe35f2befbf49ae1d73c3b1ffe81a
+SHA256: c6f0eae4d902dcaef539c9e2fd68f09dd3facf7a6950d7b07aac4e5d0a8b43ae
+SHA512: 1706c27cefafbdda878af0e003f0d53d64208b03993308b52336342e6e30075a8e9a136de2426c9a2f2ccbafb9d9eb2cc82badf26df2be3917677a43df81b9fc
 
 Package: r-cran-zoo
 Architecture: arm
@@ -2468,6 +2590,21 @@ MD5Sum: e9e250d7d010e26bf4907b11a240df7c
 SHA1: 426ac8c924a16890f165e008eccbbfdb080da22b
 SHA256: bcdc181ff456890760f506f1383c3975f359f3380ea57ce24930ab983bed7685
 SHA512: 011a91a43c2b63c0ada960f31763a64ef7481d5fa5af6aab752ad85f574841457a3c3b742fe76081d25a0072ea5983f987417dbddb8f1ff85313ca8efbae96ea
+
+Package: scipy
+Architecture: arm
+Installed-Size: 49400
+Maintainer: Termux members @termux
+Version: 1.5.4
+Homepage: https://scipy.org/scipylib
+Depends: numpy
+Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+Filename: dists/termux/extras/binary-arm/scipy_1.5.4_arm.deb
+Size: 11886412
+MD5Sum: 8072afa4511e93c1ec4226fca3b6c731
+SHA1: 64828a227fa8ac04e5f6f09717d928cbce7d6896
+SHA256: 69a9c93c01a54f621ea1287fbfe6759ff06695b7487615b813c8f5e89152bc74
+SHA512: 2c814aac42560d391945d792e203e7492beb25fe3e064204036eead7e2d42ecb9e7959a738be34c81a3544157a640f33e100125faead295f7c867a73a7d4f329
 
 Package: suitesparse
 Architecture: arm
