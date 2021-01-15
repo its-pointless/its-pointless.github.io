@@ -794,21 +794,6 @@ SHA512: 3226b5d1a40c5a3d004ce0cbfc8c3807cab5cf427ee214165cb3a9d275d0498b1981db8e
 
 Package: libgccjit-9-dev
 Architecture: x86_64
-Installed-Size: 23780
-Maintainer: @its-pointless github
-Version: 9.2.0-1
-Homepage: http://gcc.gnu.org/
-Depends: gcc-9, gcc-9 (= 9.2.0-1)
-Description: GCC just-in-time compilation
-Filename: dists/termux/extras/binary-x86_64/libgccjit-9-dev_9.2.0-1_x86_64.deb
-Size: 6678008
-MD5Sum: 9cc87fb008d705ccf7b2c395d585bf8f
-SHA1: 3fff8b77e74b26005e04abf78950e72cb3d0e671
-SHA256: 7c3050c6ec417d12823a1941121f4466dbf6a21b9b465067c56b53dbbecacbe2
-SHA512: 936d20a2deb84d2fc5c32a11ad1cc4611ee912cfe1e486236811078114ec9c266c4e5b13a8a38f20ddb5c03fafd5c5c6e7f126e971d872cb0b4b594e816105e9
-
-Package: libgccjit-9-dev
-Architecture: x86_64
 Installed-Size: 0
 Maintainer: @its-pointless github
 Version: 9.3.0-1
@@ -1167,23 +1152,6 @@ Package: libgomp-9
 Architecture: x86_64
 Installed-Size: 324
 Maintainer: @its-pointless github
-Version: 9.2.0-1
-Homepage: http://gcc.gnu.org/
-Depends: gcc-9, gcc-9 (= 9.2.0-1)
-Conflicts: libgomp
-Replaces: libgomp
-Description: openmp library for gcc-9
-Filename: dists/termux/extras/binary-x86_64/libgomp-9_9.2.0-1_x86_64.deb
-Size: 73132
-MD5Sum: 39bdf08164f19456db1d7795172d80b1
-SHA1: 12995c247d745a61fa87559f574ae88c9599b76d
-SHA256: 680d96d68dc8c216ae3a4f385b8a43534a6e3141a26ce5edbb293dd86bf3a48a
-SHA512: 22320cfb7445381cc7184a6a495dd3fe65a0f7ef29941f81f6626c76602b6184113212854f82d142ac0fb16e1cc11be144d38caea883dd6474d949626b56c137
-
-Package: libgomp-9
-Architecture: x86_64
-Installed-Size: 324
-Maintainer: @its-pointless github
 Version: 9.3.0-1
 Homepage: http://gcc.gnu.org/
 Depends: gcc-9, gcc-9 (= 9.3.0-1)
@@ -1404,20 +1372,6 @@ Package: libobjc4
 Architecture: x86_64
 Installed-Size: 244
 Maintainer: @its-pointless github
-Version: 9.2.0-1
-Homepage: http://gcc.gnu.org/
-Description: GNU Objective-C runtime
-Filename: dists/termux/extras/binary-x86_64/libobjc4_9.2.0-1_x86_64.deb
-Size: 51308
-MD5Sum: 0ae680f668cdf8c8d1b620d5750d3fe4
-SHA1: 5310ccf762d9fe012391763f36f00b1f03c8f70d
-SHA256: 818a81ad53a6144017b23afdff51382f20fb13d9f70ce1f85fd52a999ff90ad1
-SHA512: 65996f07c8a7e4ea6b692f1062c9ef7a44eab00a805c2860f822eaccac3f90c73eaa637c3b1bb71f1b1dd0a868748f84c3e9ad0be6d41ee4e65dc50a5f0e9c87
-
-Package: libobjc4
-Architecture: x86_64
-Installed-Size: 244
-Maintainer: @its-pointless github
 Version: 9.3.0
 Homepage: http://gcc.gnu.org/
 Description: GNU Objective-C runtime
@@ -1427,36 +1381,6 @@ MD5Sum: b01456893b9353f0d8e5c3bb671b72d2
 SHA1: 9df9f249ae0a943168da50a89941ae2f9a846f29
 SHA256: a6cefb101ba3dcbb3ab3ac69c56569eda54995190ea849a02ed297ea9aaae0d3
 SHA512: 8acf42071b458690c212dd200572edd02fc7c64418e9039d25a516aa0d6d62af7e339a3e97a521bb8047feca204e3d4068bd2e8d249300294bb1dfa16769e135
-
-Package: libopencv-contrib
-Architecture: x86_64
-Installed-Size: 15828
-Maintainer: Termux members @termux
-Version: 4.4.0-1
-Homepage: https://opencv.org
-Depends: opencv, opencv (= 4.4.0-1)
-Description: computer vision contrlib libraries
-Filename: dists/termux/extras/binary-x86_64/libopencv-contrib_4.4.0-1_x86_64.deb
-Size: 4862984
-MD5Sum: 97cba2185681d18e92167537f317284d
-SHA1: 6d47f60d0add565b372471f0a3c6fe6c4d6f70b2
-SHA256: 298228af6ea47fdf3a351e81fdfd6da3f08113ee3ee51e0954821bf35567c99f
-SHA512: 0d4d2e85d33ddbf5f256ff1b5fb3569128ae6d817cdff3d5c0aafb8cea6e207b3f24c0a468c72f198694fc9fbd5277b56199dcedf11282aa4f0628adf4fe880b
-
-Package: libopencv-contrib
-Architecture: x86_64
-Installed-Size: 16268
-Maintainer: Termux members @termux
-Version: 4.4.0-2
-Homepage: https://opencv.org
-Depends: opencv, opencv (= 4.4.0-2)
-Description: computer vision contrlib libraries
-Filename: dists/termux/extras/binary-x86_64/libopencv-contrib_4.4.0-2_x86_64.deb
-Size: 4996332
-MD5Sum: 305c6df34f4d918da5365b00e4b5efa8
-SHA1: ba9e19d494f17ad9be5a80fdbe4fbbd43e02dbac
-SHA256: a9c7b1ce6189c8044ffc65ce3ba777f40891319e56919f21baa0f16cd10c8874
-SHA512: 2b2901e315a54c26ddea2be2510be340481214a6a5623202b1eb5bbd5cf04c6233b90b45768b576e27950822e1d24947582c9eec60dfc0e3516bff8ae5581122
 
 Package: libopenspecfun-static
 Architecture: x86_64
@@ -2165,6 +2089,23 @@ SHA512: 560dad72edea7237780f0c04d67f5a9581227e5a588e0a3b2a74226469f46205106660ef
 
 Package: opencv
 Architecture: x86_64
+Installed-Size: 108384
+Maintainer: default
+Version: 4.5.0-1
+Homepage: https://opencv.org
+Depends: gst-plugins-base, numpy, ffmpeg, libwebp, libprotobuf, libpng, libtiff, openjpeg
+Conflicts: libopencv-contrib
+Replaces: libopencv-contrib
+Description: computer vision image library (with python2 python3 libraries
+Filename: dists/termux/extras/binary-x86_64/opencv_4.5.0-1_x86_64.deb
+Size: 24409758
+MD5Sum: 6e880565ef3075f4b65ca77b3bcede97
+SHA1: 6b6ffc3ad77266c000b6c009d9543d8c6e3f3060
+SHA256: dd53deeffff4012ce650525fb8815ae0e196c119a2498c61ec9bee11a9aa6212
+SHA512: 41437adf70abb367861e79954cf5a7f4af10e93b4d87cbcbcf1ace3f9f668c2ac344b86fd488f52b5fe8d6beaae3297077f9846abc6818a263d4838986b3b02a
+
+Package: opencv
+Architecture: x86_64
 Installed-Size: 108400
 Maintainer: Termux members @termux
 Version: 4.5.0
@@ -2554,51 +2495,6 @@ MD5Sum: ba961930d610fbe20ba960ac61dbe159
 SHA1: da1020a48597448167076804a337836624234b57
 SHA256: 7d742bd7a68ebd4743c80043b29ec2fd879841cb23df3c496826228962f1722f
 SHA512: 42ebc4866d60cc75bdda34e07c2f4a993c47f56212c444ed41dc6960405b3d3bef402c8ee9fa89fc9c114502f3d99db3eca5e53dd42f36a4dd58f1da8bd362c2
-
-Package: r-cran-tidyverse
-Architecture: x86_64
-Installed-Size: 211192
-Maintainer: Termux members @termux
-Version: 1.3.0-2
-Homepage: https://cran.r-project.org/
-Depends: r-base, r-cran-rcpp, r-cran-stringi
-Description: tidyverse
-Filename: dists/termux/extras/binary-x86_64/r-cran-tidyverse_1.3.0-2_x86_64.deb
-Size: 43346920
-MD5Sum: 7ff5aaaf8ebfc70d4ca9fcfc3350343f
-SHA1: 1fa54e228459cf6e94780d97c0f81870e72fcbf0
-SHA256: de9dbb3fea7c0276b4faf4611fbf47208822a6c7cf800263030cd2438eb6a9c0
-SHA512: 786ca35813780785eb201784e838c44c049e707556a230b4fef0fc74af16aae2bb2cc7e75f555033d8cb76abd887f8ea16f3e7c2f9689029820eadcc0d97096d
-
-Package: r-cran-tidyverse
-Architecture: x86_64
-Installed-Size: 211180
-Maintainer: Termux members @termux
-Version: 1.3.0-3
-Homepage: https://cran.r-project.org/
-Depends: r-base, r-cran-rcpp, r-cran-stringi
-Description: tidyverse
-Filename: dists/termux/extras/binary-x86_64/r-cran-tidyverse_1.3.0-3_x86_64.deb
-Size: 43350622
-MD5Sum: cab640d138929505578f2df2236b0861
-SHA1: 40b6ae0451fc32f20093c3be3319d993ff5886df
-SHA256: 71693b008d2bcdacc7d725d2a1e30425c6e9ecee49b932736feaf5296e44aafa
-SHA512: fcc2eae06c2874236f7d78f49e6f4216bad4791ff3c759e498837e10743a2400612dbc2ab8c424260a30084d7d8d6ca0940e1d94a270dd7ea6432f148950cdcb
-
-Package: r-cran-tidyverse
-Architecture: x86_64
-Installed-Size: 213124
-Maintainer: Termux members @termux
-Version: 1.3.0-4
-Homepage: https://cran.r-project.org/
-Depends: r-base, r-cran-rcpp, r-cran-stringi
-Description: tidyverse
-Filename: dists/termux/extras/binary-x86_64/r-cran-tidyverse_1.3.0-4_x86_64.deb
-Size: 44333698
-MD5Sum: 8944de7fa6a8573cbd79beb3c498ad23
-SHA1: af62977be45b62d0bcaf9483831f8e29b06a14cb
-SHA256: db87954ab6148ffd47751cd9bb4e0677beb8608f123c92681e944c9ba964d562
-SHA512: eb04f7fd89f4bcd18366b1ba31d3c6eaa9796738f77158054d74d2286b2b9a495c385ddd5e305901d147936c58ddf8623e7ab189cdb5209875b11ca794fd189e
 
 Package: r-cran-tidyverse
 Architecture: x86_64
