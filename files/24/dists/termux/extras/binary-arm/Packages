@@ -196,21 +196,6 @@ SHA1: 3ccc6fa178aaaf24f5450c4afe5924205b73b759
 SHA256: 45ba39df8897c4b56ca52eb2668a9708c66c7056a1d64b042b3e8963bc710fcf
 SHA512: f090fc7918f815ead21a27f4945b0fc3b96b44b31f4eef3ad5c079a5e2eecb758353510a6f20ff431824f25f2cac32cc34eb6a695a50a9e4390939546285dbed
 
-Package: gcc-10
-Architecture: arm
-Installed-Size: 129820
-Maintainer: @its-pointless github
-Version: 10.2.0
-Homepage: http://gcc.gnu.org/
-Depends: libgmp, libmpfr, libmpc, ndk-sysroot, libisl, libiconv, binutils, setup-scripts, zstd
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-arm/gcc-10_10.2.0_arm.deb
-Size: 33353550
-MD5Sum: 2f08d8e4f4b7913a5e7ab97d38f4ffa6
-SHA1: 5eb82e0e2dfb5f855dc108d2834791bece51dde5
-SHA256: ba1a73a9b8a56f8e5d347507e0597fc9407fb77119e5c8f0cb24068aa9aff26a
-SHA512: 75bd73b2b59239e3896711e2fcf795448db9b2ec274969dcd29ab2ade2c38cabc0e0c4cdc33e449484c5cb707df040848183ce19a12ea1480a5021d352643459
-
 Package: gcc-8
 Architecture: arm
 Installed-Size: 111252
@@ -259,21 +244,6 @@ MD5Sum: 11e569435ee29b81e53c4733a3c705a8
 SHA1: 82a80d0954cad15b3ae9495233371f000d544f30
 SHA256: 0ee3e7530cf53938d3fd9b39d17f960458d4c7af3f2693af5bc88620dbecfb53
 SHA512: cc4dad39ddd8e96ab3e66111d5d92da5ea0083477e76435c7518b6c63fe4a4c4e64b5611056cc4a69ef11991f66e0e476a063dc83a485a23086b9d20e585ff8e
-
-Package: gcc-9
-Architecture: arm
-Installed-Size: 114304
-Maintainer: @its-pointless github
-Version: 9.3.0
-Homepage: http://gcc.gnu.org/
-Depends: binutils, libgmp, libmpfr, libmpc, ndk-sysroot,  libisl, setup-scripts, libandroid-support, libiconv, libgfortran5
-Description: GNU C compiler
-Filename: dists/termux/extras/binary-arm/gcc-9_9.3.0_arm.deb
-Size: 25804500
-MD5Sum: f3feb6c7f92016d35ccdce1211087f2c
-SHA1: 0e520ee029bbf1608991a6c4a2e21939507ecd08
-SHA256: d83ddc1ca3b1e5afb1279730a26c49b158a44a001d177a5585477fc092ec664e
-SHA512: deaf3fc31275e9e7ddd0a2f60bffab6a4a49baaa30220c0ce14b504da01f29cdcbbd9135f92e3311e2610e4045fbaaf22fa5df14d5b2d85e1ca1b5004d413544
 
 Package: glpk-static
 Architecture: arm
@@ -333,22 +303,6 @@ MD5Sum: 3770ad9dd261d68badd4b602f88afe1e
 SHA1: 84cc32ce1b7ac5553fa293ee73a7f22c956a0dfe
 SHA256: bc2488018886d4de719f081fde7642a1d6bf7074f8b8c8d57f9bbf139b0987c6
 SHA512: 0aee12c280b97f47d39a8aee2e90cedf74ce0c7d4b60426305572b39dc08b04d57947fa7617dd6ebe41d49e06b9e47eef08e91aa9db2cf0d5414551bd0a2cbc7
-
-Package: gnat-10
-Architecture: arm
-Installed-Size: 81984
-Maintainer: @its-pointless github
-Version: 10.2.0
-Homepage: http://gcc.gnu.org/
-Depends: libgnat-10, gcc-10 (= 10.2.0)
-Conflicts: gnat-9
-Description: the ada compiler
-Filename: dists/termux/extras/binary-arm/gnat-10_10.2.0_arm.deb
-Size: 14429232
-MD5Sum: 596037d2a71c4598c71b45e5c2312b49
-SHA1: d5633c3e3d7e6f086d3acf827df89e28672fee99
-SHA256: 5ff05a2dd6a3375fae1e57ca857d0ea1189c547684ecbbd49674bee8547cfe03
-SHA512: 64120108e9bf796a9b76f439e414b729b381416e429aae2b5924980be4b6acb10ebbbb712635f0941fcdbf1d8f2a3242c33b321e2ee903f91d617968349c6920
 
 Package: gnat-9
 Architecture: arm
@@ -438,21 +392,6 @@ MD5Sum: ffbc05797bf6a053c01ee98d8a2d8298
 SHA1: 35a989ac26cc98a6eba724d7687312203effaa7e
 SHA256: bf2d9e71e8171bcd002630d95887e2a8d8cfcbef42936fdaf4b7390fe37097bf
 SHA512: b9247f395ba39614b5a1afd26d471d815fe35d6033bc09d618e63c8dbb6619b81a84218f2b0aa4db8fa32ccab9cf226ca8319e4973133baea924cf173a67990a
-
-Package: gobjc-10
-Architecture: arm
-Installed-Size: 20768
-Maintainer: @its-pointless github
-Version: 10.2.0
-Homepage: http://gcc.gnu.org/
-Depends: libobjc4, gcc-10, gcc-10 (= 10.2.0)
-Description: GNU Objective-C compiler
-Filename: dists/termux/extras/binary-arm/gobjc-10_10.2.0_arm.deb
-Size: 6105358
-MD5Sum: 82ce8d0bef422ca446976170b4341a5a
-SHA1: 3698920f888c57ebb1a317a71b78c534b286bd85
-SHA256: d7f06a1e80bbdf378a59267d34f39e139c7397b7363328b225671745985b0e1d
-SHA512: 43d9ae674197b59dfbd675ae664e34b6ed43b569e3985b61e075a7de884755fc7b406c75f0f7feb968b6885563bb0028e8a133a315780160a3dec81220d3c30d
 
 Package: gobjc-8
 Architecture: arm
@@ -558,6 +497,21 @@ MD5Sum: 1794446bd1b5a0a3cb78cea412196863
 SHA1: ce24c1d0e3ef5c3203f2978070243ae4bf2efce8
 SHA256: 848bca78f09b8c288ac61464a2ad6d97ec534f633e582bb13034f59dedb96e89
 SHA512: 447e48a6c1ebd18e1efe884d821473b5f991868e8be1359959831ffe9531acc817d1f7fb21182830f61cc9af5b47e14bb769a63a751896754af6a67cc151dbad
+
+Package: groff
+Architecture: arm
+Installed-Size: 9264
+Maintainer: default
+Version: 1.22.4-3
+Homepage: http://www.gnu.org/software/groff/
+Depends: libandroid-support, uchardet, libiconv
+Description: GNU troff text-formatting program
+Filename: dists/termux/extras/binary-arm/groff_1.22.4-3_arm.deb
+Size: 1614196
+MD5Sum: e3be268b7d68f0acc631310264b3fa4b
+SHA1: 044378410decd083e3517c02d8f4c8a265b12fc3
+SHA256: 1d6f44982ef9b4643dff7cad3c2e8f0a756bf09442bc7d7b335ca89ec7da98f0
+SHA512: dbffa67757af734aa5c59c05859d1303bb051c12dedc2a1245e68ec601caa3ced3da5028c6b2a3b9df6dca8562dec126700bca97bb7bdfe0acd1bc64ca2d1d08
 
 Package: julia-llvm
 Architecture: arm
@@ -747,21 +701,6 @@ SHA1: da403f29a6aa0e5e53db34a55bc313d6b193b9f7
 SHA256: a42e988110c5b0f3f474b54a21b465ce9c657448ffe7200a63faede1c1da8e29
 SHA512: c2036cfa2e600769460aca16856cbf3844eee43d3381cfe55b2203c4f29165b441ab1382492a903c5e6ad2b3bbebdf233bd91b818da53d368abdf906c5196bda
 
-Package: libgccjit-10-dev
-Architecture: arm
-Installed-Size: 18444
-Maintainer: @its-pointless github
-Version: 10.2.0
-Homepage: http://gcc.gnu.org/
-Depends: gcc-10, gcc-10 (= 10.2.0)
-Description: GCC just-in-time compilation
-Filename: dists/termux/extras/binary-arm/libgccjit-10-dev_10.2.0_arm.deb
-Size: 5499688
-MD5Sum: 84e6a50884f779f438df2238477aa337
-SHA1: c41c89fbc9d381921abc8cd6dfb795e2c0026272
-SHA256: 73f4c100fbc8c1c74c3e2616129c8a06ac979dbc46ffc14f86d3c2d80e354350
-SHA512: b2ea898950c8407090f3e3597bad991a796bd96fd3e1bf6874b0c474124352ff039e5fc7f0c29c0ca4356d21a10306d306e39fc88fdbd50e053d9439c4b9a835
-
 Package: libgccjit-8-dev
 Architecture: arm
 Installed-Size: 15972
@@ -808,21 +747,6 @@ MD5Sum: 5a7d143636a1b20e18cc246bb83c1211
 SHA1: 87f65aaa1f17bc10646b92fa766544633c03ed4e
 SHA256: f6f734bb5897f4d2252915f9e13402b8e64a40ff592353778ee98aeebe59a7a8
 SHA512: 1459f87ee29045e13c3630d3f2ffe8ad02064f2e06f57a91e677cf68962ac9fea0852878d60b23a01571a143733f4b249da2fa00712edb915cd8893e0eab284d
-
-Package: libgccjit-9-dev
-Architecture: arm
-Installed-Size: 16444
-Maintainer: @its-pointless github
-Version: 9.3.0
-Homepage: http://gcc.gnu.org/
-Depends: gcc-9, gcc-9 (= 9.3.0)
-Description: GCC just-in-time compilation
-Filename: dists/termux/extras/binary-arm/libgccjit-9-dev_9.3.0_arm.deb
-Size: 5096538
-MD5Sum: 75795ae54e77d6cb098ed20aa5ec30e8
-SHA1: 215c4a119b4e601e8c3157889810c073c142641e
-SHA256: d73b3459be6af8713013f02ad8c1aba4c36cb5a71143f8e944169bf62bfdd858
-SHA512: 696a5d3642cf82060eafebe0d35335d7481b33a2db3c6168672d52e1d5564ff82bc00cb7b50e89a457e5beb3fc29b93493b75a9cebdf76b12fabf321d46842d0
 
 Package: libgfortran-8
 Architecture: arm
@@ -926,21 +850,6 @@ SHA1: 4caa0887a37523bb2a5f0a95033d3de15f0ccd0d
 SHA256: bd2754b962f7086b629a3d6e4d78a3aaaeb2925d066623ab66631e76497caaa6
 SHA512: 322b3c265845c0664d3a7cc34040421102aa2e82a9c91fb9013a83d6954dc48ca6a76017c451b4ef85c3cbc4184b5d907dda296193f43b02c82e3a9c457f6d6c
 
-Package: libgfortran5
-Architecture: arm
-Installed-Size: 592
-Maintainer: @its-pointless github
-Version: 10.2.0
-Homepage: http://gcc.gnu.org/
-Replaces: libgfortran4
-Description: dynamic library for fortran
-Filename: dists/termux/extras/binary-arm/libgfortran5_10.2.0_arm.deb
-Size: 206748
-MD5Sum: 5ab9a3a8fe4d8b11678f49b690635cc9
-SHA1: 6a1115b245f4970c9aceb06f4772821af8d0f1e3
-SHA256: 858337d3eaf612170c62cc5a3b84ed6a749f359811a943a0e569275b36fa1d2e
-SHA512: 417d5aa6b9693d61ba60be9ed65aec9f043e57fbcabf60558a6ac14417e00dc76aaff8b04b7fc844a4dfad5ed6754d233bc392e71483e04edc99a7094321217f
-
 Package: libgnat-10
 Architecture: arm
 Installed-Size: 3024
@@ -971,21 +880,6 @@ SHA1: 123dc76de5a26c41bcd179d7a90c4538b7db299c
 SHA256: c41b89c4dd0e8413228d77beb8eadac3abc30d178cc6d02ef18654f03a04bfb3
 SHA512: d218dac6bf6ff07fa2bcb6fffdfdfa1ebb7ddd8c03adaab488757f1f9e7a155d4e551e2db631b9d98166907d55d421ed602169583ea6fbad963abf9791f9d86a
 
-Package: libgnat-10
-Architecture: arm
-Installed-Size: 3024
-Maintainer: @its-pointless github
-Version: 10.2.0
-Homepage: http://gcc.gnu.org/
-Depends: gcc-10
-Description: libgnat shared libraries
-Filename: dists/termux/extras/binary-arm/libgnat-10_10.2.0_arm.deb
-Size: 736606
-MD5Sum: b4abb6a7cf85f76e532853614555fde4
-SHA1: 31868b3b5c07332484c8d13a29e75172f2136ac4
-SHA256: 0a4daf5099371ee6f5b78e068a166f3a7d4999648af2c65011f35bc87d2080e6
-SHA512: 6c20f20512876aa16fcaf77532e81fc1a486ee6ab4337468804d40013b8eba3d8955f2331ea36cf0264cbd8872d7421038f7b0234e702e90278c83131cceeed0
-
 Package: libgnat-9
 Architecture: arm
 Installed-Size: 2912
@@ -1015,21 +909,6 @@ MD5Sum: bab81c21dbf91383e538ca738382c2cc
 SHA1: 6a6a9613448e61a7ae70e6fd294059973b6da778
 SHA256: 0b1deb181477355339afb0c126bc8ec74eaffa7729456497d1444239c5f10989
 SHA512: 0b2c5b1d4a6329c783adb25791157d96e662e7540686e0780d258dde005aa51dd470bacfe37357b0f73e35eab4e1c8769071deb187102161c9c68d9d67356946
-
-Package: libgnat-9
-Architecture: arm
-Installed-Size: 2912
-Maintainer: @its-pointless github
-Version: 9.3.0
-Homepage: http://gcc.gnu.org/
-Depends: gcc-9
-Description: libgnat shared libraries
-Filename: dists/termux/extras/binary-arm/libgnat-9_9.3.0_arm.deb
-Size: 708626
-MD5Sum: b686948ed613a3431e67ce322f74e6da
-SHA1: 2ad1df5ec9988236598df130ad0ee2b1e343461f
-SHA256: b4eeffb92b58d871b03834b29ac090558134948bee638a386dc7cfc939edf8a0
-SHA512: 0d268437c919d8a3f49a06c153571ad5501b3198c32d2852c7cb9414f139c69b823964e021e52526f4c7051cfda23d8121279cae1888d518d66247e4be762b57
 
 Package: libgomp-10
 Architecture: arm
@@ -1064,23 +943,6 @@ MD5Sum: 846745a7a546f56d6c0388512816947c
 SHA1: 96ff9919f355131e6449d5a21bd20b40e8ef1da6
 SHA256: b73d1152136a6d8671d191cfa39d905131232db178a2d176066b1502bffe7115
 SHA512: 3f61d851c31247a817af872ae131a6e5a79b08a9f65edb5781796364b949139ced226ce48b499b9c3d7852ba67377ccf271c803bfbb1a323b85f7bc91621d5b1
-
-Package: libgomp-10
-Architecture: arm
-Installed-Size: 244
-Maintainer: @its-pointless github
-Version: 10.2.0
-Homepage: http://gcc.gnu.org/
-Depends: gcc-10, gcc-10 (= 10.2.0)
-Conflicts: libgomp
-Replaces: libgomp
-Description: openmp library for gcc-10
-Filename: dists/termux/extras/binary-arm/libgomp-10_10.2.0_arm.deb
-Size: 76564
-MD5Sum: 3c9608ae2277d1aadd242cc0a7ffc418
-SHA1: 96d59f7ffdbecdce818721efef8ee3400b110304
-SHA256: 3c4f5c525649a4d67cb53668d37f0fa701419283f412f711bce9d046651a61cb
-SHA512: 580645166d4cbd5f3a6aff619cb0fca0bb7f6d9669e1540871efd3bd7ce2dd4fdb25005dd199d6f7ec64d504ec3c9071e270a45e6a6585ce860e8f5c7732a989
 
 Package: libgomp-7
 Architecture: arm
@@ -1166,23 +1028,6 @@ MD5Sum: ffd8a6266f1d63a61bda6442d9352bd3
 SHA1: f65827957fea276503d58cac6f41465ab9b37c4f
 SHA256: 55cf221eb09629cb0ee8706aff4209292c4e10ad695341be507e2b5733e2f326
 SHA512: c0acc06be9342c2c5944deebeca7704b70c184495429a67eca50773249a3fd4bb7054549b6b69835c018552ca64a5e2915732f52f024df98e976b727cc3d45db
-
-Package: libgomp-9
-Architecture: arm
-Installed-Size: 212
-Maintainer: @its-pointless github
-Version: 9.3.0
-Homepage: http://gcc.gnu.org/
-Depends: gcc-9, gcc-9 (= 9.3.0)
-Conflicts: libgomp
-Replaces: libgomp
-Description: openmp library for gcc-9
-Filename: dists/termux/extras/binary-arm/libgomp-9_9.3.0_arm.deb
-Size: 66094
-MD5Sum: 36c6132ae4b3a3dc516260a61ecce3b7
-SHA1: e12ec0443e7b7889aca68ebc63ec708447f8a7f3
-SHA256: 588aeccc025ac9fe0b28d83cd58dc7695af3da7233f1cb1c1e9e8f024f07da1f
-SHA512: 7a5e96362a17d7f049a5bc0c1a6fe7802862daa386c4afcc64ff5db01858cee774c8b0fe3fae792385deee693ac9782227ef29d7c7bdb571a1beba9fadaf6ef5
 
 Package: libiberty-dev
 Architecture: arm
@@ -1338,34 +1183,6 @@ MD5Sum: 214cda339f8c770a56920da4ac2ace4a
 SHA1: 8ded75d09b87cc91304a42534f64162758d19270
 SHA256: 7395288dbc1cbdd4de4d07bf2a5a3b84682934127d30daff7be43dbac0b1f85c
 SHA512: e7547deb859daaae748fc2ec5d9c50b471b75faefe159213b0d96e84ef67e3c7b540da30d7c5bc9ce2eff7eba340826730ec29fbf658ea095559cd0a8111b59e
-
-Package: libobjc4
-Architecture: arm
-Installed-Size: 160
-Maintainer: @its-pointless github
-Version: 10.2.0
-Homepage: http://gcc.gnu.org/
-Description: GNU Objective-C runtime
-Filename: dists/termux/extras/binary-arm/libobjc4_10.2.0_arm.deb
-Size: 40022
-MD5Sum: d2935322ba58948e2d3ff9efbea1ad83
-SHA1: ca638f18ffc04682188e7c03971af54f2d1333b0
-SHA256: f614c03352ef20994f26a2e4c6eb009a8ab1d329a3fcb5e1693296511dc5d86e
-SHA512: a31c8c42fe417daddcf5092d46ef735e91faa9ae17911b3e9d62375c41cb1b9b5b022fbb9eea1a1110307e01eb0c6e5484851dc03118293dfebc2870b80f00ff
-
-Package: libobjc4
-Architecture: arm
-Installed-Size: 152
-Maintainer: @its-pointless github
-Version: 9.3.0
-Homepage: http://gcc.gnu.org/
-Description: GNU Objective-C runtime
-Filename: dists/termux/extras/binary-arm/libobjc4_9.3.0_arm.deb
-Size: 39702
-MD5Sum: 68ad36f7ca2a87968d846475c0400d31
-SHA1: cef42c287dece477e2ff3206d195822d141dabeb
-SHA256: 7e07a1e34114e3269b472b2b17e5b797241aaaf8e5a9d8978c8c511bb4d2a3e3
-SHA512: 26fa4b53ee628ee68b9e9df6c8e0c989fb131ad1948263d055203adca11009d22c7befc1abfa7894310e3ed0b3203f12b7527a8dd9bc9b90634fd87c3b1736d8
 
 Package: libopenspecfun-static
 Architecture: arm
@@ -1774,36 +1591,6 @@ SHA512: 8dc66b3d5c7779471cb55d842de6da632d11087ea67c1185a8b8c2fe97d739584600f407
 
 Package: octave-static
 Architecture: arm
-Installed-Size: 102996
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.2.0-1
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave (= 5.2.0-1)
-Description: Static libraries for octave
-Filename: dists/termux/extras/binary-arm/octave-static_5.2.0-1_arm.deb
-Size: 10644976
-MD5Sum: 27f30e09babba6eddc1a45efb8e88a0a
-SHA1: 7de5a42edcecf5bb6abbae65e89804bb282cc180
-SHA256: bfd7d6bf0ca4d08d59eb0399fe20b3cbd93a54de453e81b6e111825b241459ba
-SHA512: 532c90cb856472b54bede3624b42a8ecb53418cf0681753052392bb6200d78ccceaca8afd7cd20f71dd34542a15f2e38df02583f81ba9c92f50d1bfd0857df4b
-
-Package: octave-static
-Architecture: arm
-Installed-Size: 103504
-Maintainer: Termux members @termux
-Version: 5.2.0-2
-Homepage: https://www.gnu.org/software/octave/
-Depends: octave (= 5.2.0-2)
-Description: Static libraries for octave
-Filename: dists/termux/extras/binary-arm/octave-static_5.2.0-2_arm.deb
-Size: 10665882
-MD5Sum: c9746ab2122e10441716050313a61b2e
-SHA1: 663da2974e3724f03576d2604522093e55b9b7cb
-SHA256: d2f2011e7a12ebc84157c94900bfab8aaf8dcbe1510865c634025b23d8b7db91
-SHA512: 7c9c4d0e30283571637d40d937770a3b115a1e60141b33c22d2cd56f36bd4f8b94f52fa2bc4185ded01fecbe38b308d2aaa98f32fc071ac736789701db39d9a5
-
-Package: octave-static
-Architecture: arm
 Installed-Size: 106536
 Maintainer: default
 Version: 6.1.0
@@ -1816,40 +1603,6 @@ MD5Sum: bddca26330f5a42ef5f244e13eebe469
 SHA1: 8e1e908818946c3b30be264ca69c9a105eb06368
 SHA256: 13af1f824c904f49861f9696836458b2bcdf32264b264d87eff0dce208183017
 SHA512: 497db8b53262906d7b9fcf5f7ad65d30aa21b5fd30c46047d7205bb515580e8df34da489104463c8fda646d31f21f634b827cca0f090e68c2102c691128ff1f9
-
-Package: octave
-Architecture: arm
-Installed-Size: 48256
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.2.0-1
-Homepage: https://www.gnu.org/software/octave/
-Breaks: octave-dev
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
-Replaces: octave-dev
-Description: Scientific Programming Language
-Filename: dists/termux/extras/binary-arm/octave_5.2.0-1_arm.deb
-Size: 11153402
-MD5Sum: fa65454b00ead71bf806021a6e36ba14
-SHA1: 31dfa22b9743a891df27873da95d3b1d71f4e393
-SHA256: df75f263a3c4f6ee4e305c69990a8964b55fe890cc2348d4ff478b591d8a3d58
-SHA512: e9b79b41287ba62d25d4823397a99bcde179cd116a58552d9be339eb14c207f01f0f99d348e6d06bf7f55a927cbcd05c3511cac17cf41bc2616fd02c2ac9dbb2
-
-Package: octave
-Architecture: arm
-Installed-Size: 48536
-Maintainer: Termux members @termux
-Version: 5.2.0-2
-Homepage: https://www.gnu.org/software/octave/
-Breaks: octave-dev
-Depends: libbz2, curl, libxml2, pcre, openblas, liblzma, readline, libandroid-glob, libc++, libcrypt, libcurl, gnuplot, libgfortran5, fontconfig, arpack-ng, suitesparse, qrupdate, glpk, qhull, graphicsmagick, fftw, texinfo, libhdf5
-Replaces: octave-dev
-Description: Scientific Programming Language
-Filename: dists/termux/extras/binary-arm/octave_5.2.0-2_arm.deb
-Size: 11277122
-MD5Sum: 38d91b2684429daf43e4c1cf39decb19
-SHA1: a8ddb9e8f3028fca07ba2c1769ef9f47bc6d901f
-SHA256: d208bc7524c67f09f490198bd746849cbc255e9e22b38e4111e5105c0e82c87e
-SHA512: 235985010ace07aad7dc0ed3fc44c1fb231101e4b29f869bde0841aacf0832e2dbc922b16bfcb0ee3f4f7330b92da5800bf86b1ca64e84832ac02dc6a72130fc
 
 Package: octave
 Architecture: arm
@@ -1904,21 +1657,6 @@ SHA512: 21155b4b02de1835c3b3cd840a338b9e521624d2c66abcfe39f634ad1ba88c2c3848a23e
 Package: openblas-static
 Architecture: arm
 Installed-Size: 19156
-Maintainer: Termux members @termux
-Version: 0.3.12
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: openblas (= 0.3.12)
-Description: Static libraries for openblas
-Filename: dists/termux/extras/binary-arm/openblas-static_0.3.12_arm.deb
-Size: 2269262
-MD5Sum: bfe0834147eaccf650d5a4fad01316c5
-SHA1: 012ad47cef6e3a89d23b5fa38314a21bbf7877ae
-SHA256: af1ba2bf70629b4b7cf56cc289487c094820cf367b48dbe3d79c698aaa7786f3
-SHA512: 8fbe8d0d7881d16f113e7de24d9d8977630aa9f1a399f2704fb2fb706cd05653357a70c77bc163baf29744d0a8542f356db79e418a82d6126e4d0297f54333e3
-
-Package: openblas-static
-Architecture: arm
-Installed-Size: 19156
 Maintainer: default
 Version: 0.3.13
 Homepage: http://github.com/xianyi/OpenBLAS
@@ -1930,21 +1668,6 @@ MD5Sum: 154a008ad21bc5fff730b2af2f66b097
 SHA1: 1a8036abc7b6e16eb6e6603cfcedcd3c8c261bb4
 SHA256: c97f1e809079906e13ff309071bd120d5a740e2905fbfce3b2487d66a82ec354
 SHA512: 02a63f7b75ec2f3a1b38fd649bee672182b068675c957a273e5fb1c97aff011122048f479d8b07685dc2a479d9a15eae62fe72b58f13075dbd33c0bd70f55e18
-
-Package: openblas
-Architecture: arm
-Installed-Size: 11208
-Maintainer: Termux members @termux
-Version: 0.3.12
-Homepage: http://github.com/xianyi/OpenBLAS
-Depends: libgfortran5
-Description: Optimized BLAS (linear algebra) library with lapack
-Filename: dists/termux/extras/binary-arm/openblas_0.3.12_arm.deb
-Size: 2245350
-MD5Sum: c9f7156e8b50b34e906e871126abac2d
-SHA1: 3d04c146df97e8a372212c9f46830cd1cfaab29d
-SHA256: c17c614aa616848951e9aacba064d7a4a250c6868d3ad632d273393959b9d4cf
-SHA512: 5677f125a9bb91830786bcc6f2aa385b45802bb8b71b2ce07429424a7b5ae417b05173e42c32d0f586b98c39ded0b61d397a5191b4752ddb486c27083d141a55
 
 Package: openblas
 Architecture: arm
@@ -2507,38 +2230,6 @@ SHA512: 2c814aac42560d391945d792e203e7492beb25fe3e064204036eead7e2d42ecb9e7959a7
 
 Package: suitesparse
 Architecture: arm
-Installed-Size: 5832
-Maintainer:  @its-pointless github
-Version: 5.6.0-1
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Replaces: suitesparse-dev
-Description: a suite of sparse matrix software
-Filename: dists/termux/extras/binary-arm/suitesparse_5.6.0-1_arm.deb
-Size: 3156802
-MD5Sum: 2c7a3d991b475dc40386040b8026baff
-SHA1: cdfb96e5907e5c8fc54ea8fb97b027c0b0a8256a
-SHA256: 9fa3cb12c9ea186d38c1cfeab6df214efd1cf428e670ee0328f459365a40a6a8
-SHA512: 2f2d82601ecbf7709969d2007159b5ffb6738f87152c1b927d31fa6de67223aff717d03a91c164e6b4cee1c8c2a4b14c90a8722a856b7fdcf25833ed7a9b7ebd
-
-Package: suitesparse
-Architecture: arm
-Installed-Size: 5808
-Maintainer:  @its-pointless github
-Version: 5.6.0
-Homepage: http://faculty.cse.tamu.edu/davis/suitesparse.html
-Depends: openblas
-Replaces: suitesparse-dev
-Description: a suite of sparse matrix software
-Filename: dists/termux/extras/binary-arm/suitesparse_5.6.0_arm.deb
-Size: 3169156
-MD5Sum: 88f5755e8b17aaa73989ce42377bdce9
-SHA1: c4ee20ed06f75e1b7e017996faf7ccbab2418fd9
-SHA256: 57c5c095376f24eeef578c44d2171d296f254a1beb1ab267ada8f327a36863a2
-SHA512: 335f52d3690b317fb51a7b2efd1d0a417ef827f7290d91f83eb5f05f44f92156db155e6b5bd3552f020f6a54415be334e28badbfce4b7ea14b9ddb709a886625
-
-Package: suitesparse
-Architecture: arm
 Installed-Size: 69396
 Maintainer:  @its-pointless github
 Version: 5.8.1
@@ -2610,6 +2301,21 @@ MD5Sum: f8a154473423f48b29914ecb28d75875
 SHA1: 2def78a1be5ad7234e9b66d57c4bafd41738252a
 SHA256: b497142988eec422182b9d326fa7eb51cfa8400d46a5c1f239b96928663f05c7
 SHA512: d4d62bbda8d5c4af56fe90395c3dedae38c134f46527924e715be8ce2dad74f8587e14264727bbca95279e3dd2b1c4deb7c5948269e90dfe51f73ea8a758a2e9
+
+Package: vlc
+Architecture: arm
+Installed-Size: 11784
+Maintainer: default
+Version: 3.0.11-1
+Homepage: http://get.videolan.org
+Depends: libidn, libsoxr, ncurses, libcaca, jq, ffmpeg, liblua52, libandroid-support, termux-api, libsmb2, libandroid-glob, libarchive, libiconv, pulseaudio, openal-soft, zlib,  libandroid-spawn, libandroid-support, libmpeg2, libdvbpsi
+Description: video lan player
+Filename: dists/termux/extras/binary-arm/vlc_3.0.11-1_arm.deb
+Size: 2477870
+MD5Sum: d1e89a5af2ffd73b82d8544ce35a9cc5
+SHA1: 38481769513191da5949fadffc8d26dd9ec88937
+SHA256: fb974334b499c30e9d8a2346da70ea34cf48faf087b4e4a6535db9764049e7ff
+SHA512: a9afa6acc08cfccdf2557376a3d5d1cdc1dda7591d73663f7aeae3066b28e5cca9a474ec0111ec67983b985e5aaae7d6438b820b36a3ad8e5e9d06bbd20fefc1
 
 Package: vlc
 Architecture: arm
