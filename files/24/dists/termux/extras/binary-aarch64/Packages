@@ -104,53 +104,6 @@ SHA1: 8bf718d6d0e67a83ed8ef2bf692b421280820c8a
 SHA256: 3b5089f9c888a4de221e0fb68f0135cd6d9ea2c15fd1efe9b46964d64af4275e
 SHA512: 80f9a256412d22258c34b469bbdba1954db1dece8242d47bebe492b39b45c7ced33c96c237a3cea4e547f67928f142cf59d9284019a632ee0317e9e258dca5a3
 
-Package: ecl-static
-Architecture: aarch64
-Installed-Size: 3304
-Maintainer: Termux members @termux
-Version: 20.4.24
-Homepage: https://common-lisp.net/project/ecl
-Depends: ecl (= 20.4.24)
-Description: Static libraries for ecl
-Filename: dists/termux/extras/binary-aarch64/ecl-static_20.4.24_aarch64.deb
-Size: 560996
-MD5Sum: 562d4ed67a7abb5109f4ed604af70286
-SHA1: f6a688380f78807cd93b664819f293bb8217634c
-SHA256: fda94bad521d27ebc259f26d92315000da5d2f3c7abcfcec8ca49d60e3cf4cc1
-SHA512: 05fa9cc4acb7bf732ff7dc5e7070477461c4015c10bddfe9f8d5aa8b3a883aaaad8573abf5d1c9c305178a7c57525706914cefa65be99edb4c9c2833e20fface
-
-Package: ecl
-Architecture: aarch64
-Installed-Size: 9864
-Maintainer: Fredrik Fornwall @fornwall
-Version: 16.1.3-3
-Homepage: https://common-lisp.net/project/ecl
-Depends: libffi, libgc, libgmp, clang, libgc, libandroid-support
-Replaces: ecl-ext
-Description: Embeddable Common-Lisp
-Filename: dists/termux/extras/binary-aarch64/ecl_16.1.3-3_aarch64.deb
-Size: 1735818
-MD5Sum: 39588e6c64c6a9763c205bcf9ab6cdc3
-SHA1: 40b8f8678644365663eda92601562cbbe233bedb
-SHA256: 3af53208ac7acc12e5099a9dfb766adad79c9ca90746cae25a1095c3cf85ff93
-SHA512: e7fc2e48a293af6e93c805495b07c3e8598bd28835066e3d6e9982c57fd9c915e42ed828afd36f550cc74795e797259b9939ccf50c13a950f4c37927f39aa70b
-
-Package: ecl
-Architecture: aarch64
-Installed-Size: 6548
-Maintainer: Termux members @termux
-Version: 20.4.24
-Homepage: https://common-lisp.net/project/ecl
-Depends: libffi, libgc, libgmp, clang, libgc, libandroid-support, libandroid-shmem
-Replaces: ecl-ext
-Description: Embeddable Common-Lisp
-Filename: dists/termux/extras/binary-aarch64/ecl_20.4.24_aarch64.deb
-Size: 1520376
-MD5Sum: b9973ab6428edeb54d56fe233e9c367e
-SHA1: ad06e165e96aa4373f4619c6f87fcbc048f9b2dd
-SHA256: 8d4b8694e17b982452d4ed53ed94e190dbc005830c4e1b6f6dca9a1e587e5a77
-SHA512: f5537fdba440265ec02f87ebd2a7919a0f7de6e0945b1ca7a9b0a097b5ff572b61b74d5361ce8fd67de1d3b084f2a7e24fdff8053429858daf430183273c31f9
-
 Package: efte
 Architecture: aarch64
 Installed-Size: 1356
@@ -1913,6 +1866,21 @@ SHA1: c5f0852ff26d4e299041f52b0cccc7ee0be77730
 SHA256: 32fa7f7204d6638c809b5b585dfba76e0d5ea5a184765cb11f816626f24bb2b4
 SHA512: 847055677689ad5762c7002993581837ed8b205ba0ae6e0f8745ff40fd952c541bcc963529520dcbaa10020ed6987fd651d44c1919fc816d098e291d9d41ea22
 
+Package: quantlib-static
+Architecture: aarch64
+Installed-Size: 163064
+Maintainer: default
+Version: 1.21
+Homepage: http://quantlib.org
+Depends: quantlib (= 1.21)
+Description: Static libraries for quantlib
+Filename: dists/termux/extras/binary-aarch64/quantlib-static_1.21_aarch64.deb
+Size: 14637792
+MD5Sum: 31d8fa2e82c4025faa063f9de5fa1dac
+SHA1: eacad5e31a9e1c146f2c33350290a94cc36889ae
+SHA256: 4111602503076bbac26acf5727dc2206db5dd5d860ba1a0fb5f695f7f4cec33e
+SHA512: fe6bcf41c06d22a3b597e04c6c9b3076eeca667c03ec208b1c70b49b2845a40e453712b161b1773ae3e4825c85fdd6b9b98be07f446b9b92e338774e2bf24c6a
+
 Package: quantlib
 Architecture: aarch64
 Installed-Size: 49368
@@ -1940,6 +1908,20 @@ MD5Sum: 5ab72d793ef26040005a4f1d9ba8ca4f
 SHA1: a6f412f54091b1f51baedbbbc0bbf2cab236a4d8
 SHA256: ce4c828982824f731c7792a13734721841a80577fc9cc38cf6482eac4aaf2d79
 SHA512: 59b9c654c0109fae2982f37fcd9de45154ac33bb22101532b94480cdee645f95cf48d61ffae74f9d32395b4b311c0966ee8b8a0ad0c32c8df1ad5d55e9ee1b18
+
+Package: quantlib
+Architecture: aarch64
+Installed-Size: 50992
+Maintainer: default
+Version: 1.21
+Homepage: http://quantlib.org
+Description: a comprehensive software framework for quantitative finance
+Filename: dists/termux/extras/binary-aarch64/quantlib_1.21_aarch64.deb
+Size: 9373866
+MD5Sum: 1dd783ad2184b921ea833a1ca4556170
+SHA1: 40f5f420a1b5a348389c53230698e93c8856866c
+SHA256: 72ad4bb18e4bda985d0935f80ddbf13273b1d4a57d4004ee63c1181071a61be0
+SHA512: 0862bb980027cc6d73509833da6198acbcc81bb37f7d1562ddf718ef697dfbd59f8b81ccfa86bcc3c0d081b1ca3066135d30eeaacaf9137fee6fb51a685d96f6
 
 Package: r-base
 Architecture: aarch64
@@ -1991,6 +1973,22 @@ SHA512: 2d90e8932c706ac4f8915eb69cb894c0b33b87569a7d26a8c31735c067e920d8c99993c2
 
 Package: r-base
 Architecture: aarch64
+Installed-Size: 66864
+Maintainer: default
+Version: 4.0.3-1
+Homepage: https://cran.r-project.org/
+Depends: libicu, pcre2, libcairo, openblas, sed, grep, libgfortran5, libbz2, liblzma, libandroid-glob, libcurl, readline, pcre, libjpeg-turbo, libpng, libuuid, debianutils
+Replaces: r-cran
+Description: a freely available language and environment for statistical computing and graphics
+Filename: dists/termux/extras/binary-aarch64/r-base_4.0.3-1_aarch64.deb
+Size: 42548274
+MD5Sum: 173a9b4b209409da2bc679a824610985
+SHA1: a868db897ca340a6798caf861ac87108ce4b11af
+SHA256: 8a6cd374ea0145ce4d9caf3744e95b6ffc807c02a24b7581206cdff8dccd15ef
+SHA512: 7397a6c57f85a312dfa71e794f125808825b36ae4444896860154c1a8171ce9a0107b974193f01c5fbbc8f3ecf27661e3bce75cb27d5c24951e5f4110e6c4829
+
+Package: r-base
+Architecture: aarch64
 Installed-Size: 66828
 Maintainer: Termux members @termux
 Version: 4.0.3
@@ -2035,6 +2033,21 @@ SHA1: 34007642b64dc2c3b7cdddbd571fee3d65df03ad
 SHA256: 4bd76fc95d6c02374d975cf91b5737c2199a2e56cd0bef223b7ad030ce908b31
 SHA512: 6d2338524e4857abed1ab2470230f9a84cd79987db558a38c70372813ac2ba5d361fe2440d2d5afdf0a9e62911bc53c5070413b8d7f8b054617961a5006e53d2
 
+Package: r-cran-rcpp
+Architecture: aarch64
+Installed-Size: 9904
+Maintainer: default
+Version: 1.0.6
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for Seamless R and C++ Integration
+Filename: dists/termux/extras/binary-aarch64/r-cran-rcpp_1.0.6_aarch64.deb
+Size: 1912028
+MD5Sum: 629258ffd95fbaf41479d5b679fa9599
+SHA1: 578c097c29fe4ef613e6f1bfe19294ba5ad718de
+SHA256: 3ae48a5150ca11e027e3e3a52a2335fb4ffe9ad271ce27ff558eb16606d46415
+SHA512: fee513caac7ceddf74dadad7940c833552e2b0c607013bac4e5f81c7507c5e165300bc9ebd8e80598845f5fed1cb9b937daf6bcd6242e86bb55756d57636eb4e
+
 Package: r-cran-rquantlib
 Architecture: aarch64
 Installed-Size: 3524
@@ -2064,6 +2077,21 @@ MD5Sum: fd95a62f19fe34451d18dc391be1a9e6
 SHA1: 6856796c78e8643f4c3d206ac43a7af4456877e6
 SHA256: cbf9f570283927e214d72d8afc33ba37951974dfa7b90726bdc61bbe83be166d
 SHA512: dda33ef8b46da2d9ae6e45a5a85f6bc908cc69dea0a7e84f74a96cbf36efe8bd7c4fc1dc701be07a857691f2600f99d7754c46ac00a4b0760b3c922f79dab4aa
+
+Package: r-cran-rquantlib
+Architecture: aarch64
+Installed-Size: 3568
+Maintainer: default
+Version: 0.4.12-3
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-zoo, r-cran-rcpp, quantlib
+Description: GNU R package interfacing the QuantLib finance library
+Filename: dists/termux/extras/binary-aarch64/r-cran-rquantlib_0.4.12-3_aarch64.deb
+Size: 829064
+MD5Sum: 0cb73dee8613278d2ca153e4a163319c
+SHA1: 46045bc6bafe31e756dc07ce727be1ca2e94a81c
+SHA256: 1c69b3eb7ef42ad5bff44f4834bede9cfefa42a038b9add78a0e184167fd522e
+SHA512: 02591e139e39b40a1ec22c5baf89af16d3e24c72469765aa6556b79b67fd63a812dca0349bef13e023c812329bf3951a5057cd65808d3c1a501f06f161a420f6
 
 Package: r-cran-rquantlib
 Architecture: aarch64
@@ -2113,6 +2141,21 @@ SHA512: d0e01dcb4ec68e688abdd6fe063d59066345b6c4596fcc73b688db1917b5f3bd201cd023
 Package: r-cran-stringi
 Architecture: aarch64
 Installed-Size: 1204
+Maintainer: default
+Version: 1.5.3-1
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R character string processing facilities
+Filename: dists/termux/extras/binary-aarch64/r-cran-stringi_1.5.3-1_aarch64.deb
+Size: 687864
+MD5Sum: 2d66b4ce89decdd0c72150f66881faa3
+SHA1: a515135e35879c33f42a6cf52d09ecf4cc3a69f0
+SHA256: 92a1c027df2cf4644914bb07a6b5c1529be3e720199be9b04b783c753169fc83
+SHA512: c68ae7b4149d6e304c575b6e8a3ca98cf35bec864082b26099900eec1b0317982e67a8eeaaf358b05d2cb6d067f5ec90e9c1387c59767fbae9d137ea435cc68a
+
+Package: r-cran-stringi
+Architecture: aarch64
+Installed-Size: 1204
 Maintainer: Termux members @termux
 Version: 1.5.3
 Homepage: https://cran.r-project.org/
@@ -2139,6 +2182,21 @@ MD5Sum: aff74ffa0efc36ebe83e029c3b5cc4f4
 SHA1: bb46be165650286cc66e9cc6cdc3bfa53d7e85ea
 SHA256: 67b339ab033795d27a04d352ed4a84e4f7fdc363159b8aa64005c09990975655
 SHA512: 28de075c8b8ba2741a59a4e3714632a5e89051bf3985353e92321d20b6cdf6bcff1b63b5d7a48de9c40147db306a7d55514d16af81d33ca30e00f8c2036b8b73
+
+Package: r-cran-tidyverse
+Architecture: aarch64
+Installed-Size: 226468
+Maintainer: default
+Version: 1.3.0-6
+Homepage: https://cran.r-project.org/
+Depends: r-base, r-cran-rcpp, r-cran-stringi
+Description: tidyverse
+Filename: dists/termux/extras/binary-aarch64/r-cran-tidyverse_1.3.0-6_aarch64.deb
+Size: 46549598
+MD5Sum: c1add01502e6697a8d638e80754efd9d
+SHA1: 56e3738b6871d417bfceabc58bd6909249d9e32f
+SHA256: e262133a0a5957d549394dd21b8762c9923ea20eed2027029b3b4bc5fc8bfd1c
+SHA512: 010de587de04c5685720c79608457494b6b1a0f1fbac3b9b0621f2525c258a7154aa90521f193fc605e101adef185f8e73c65e1ad2219f2bb72f67b6ffdd5d04
 
 Package: r-cran-zoo
 Architecture: aarch64
@@ -2169,6 +2227,21 @@ MD5Sum: 0bbaa7ed4ffd3dddcf2496fe9ce7e2f1
 SHA1: 5759c8e15dd45a0a850bbde6f2b1a1a878a6a644
 SHA256: 59d2fb8491a9ba1a0e3c5792048b0fbb80e52a7f7372c86851d0134df66cc7ef
 SHA512: fbf9baae21295e7b0180f5a43f4f317af1f78911319cd3c96ca406d5ac4e9d892dd99b77e161b3c331a7d6c34450cd50b94ab682421dbcae03ab21c8a7de18db
+
+Package: r-cran-zoo
+Architecture: aarch64
+Installed-Size: 1452
+Maintainer: default
+Version: 1.8-8-2
+Homepage: https://cran.r-project.org/
+Depends: r-base
+Description: GNU R package for totally ordered indexed observations
+Filename: dists/termux/extras/binary-aarch64/r-cran-zoo_1.8-8-2_aarch64.deb
+Size: 1047992
+MD5Sum: 572c62a620ee42355bbb0870b93813e7
+SHA1: 9e0c10eb5e05015080b6d4cd953661efe7d32092
+SHA256: 99cc047b0a44400cf7c1421b4148e5fce0e6202d87f86a30290e2df7737295b2
+SHA512: e43f751d85bbac5bc202756010e3bd647e6b7210163bf74b5f0620ed9d00d608b3d2823d231eb5dcd574597e904bb448223db4dc0ffd3eabe8bebda7b616671d
 
 Package: rakudo
 Architecture: aarch64
