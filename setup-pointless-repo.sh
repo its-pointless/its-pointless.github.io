@@ -12,11 +12,10 @@ else
 echo "deb https://its-pointless.github.io/files/21 termux extras" > $PREFIX/etc/apt/sources.list.d/pointless.list
 fi
 # Add signing key from https://its-pointless.github.io/pointless.gpg
-mkdir -p $PREFIX/etc/apt/trusted.gpg.d
 if [ -n $(command -v curl) ]; then
-curl -sL https://its-pointless.github.io/pointless.gpg | gpg --dearmor - > $PREFIX/etc/apt/trusted.gpg.d/pointless.gpg
+curl -sLo $PREFIX/etc/apt/trusted.gpg.d/pointless.gpg --create-dirs https://its-pointless.github.io/pointless.gpg
 elif [ -n $(command -v wget) ]; then
-wget -qO - https://its-pointless.github.io/pointless.gpg | gpg --dearmor - > $PREFIX/etc/apt/trusted.gpg.d/pointless.gpg
+wget -qP $PREFIX/etc/apt/trusted.gpg.d https://its-pointless.github.io/pointless.gpg
 fi
 # Update apt
 apt update
