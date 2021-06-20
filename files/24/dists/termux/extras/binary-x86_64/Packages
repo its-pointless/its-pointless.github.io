@@ -1540,6 +1540,21 @@ SHA512: d49ce0ff6a0c3758404873d535a4f814992b8282022ca45bc3cbec9c08eefbe9b36de798
 
 Package: mongodb
 Architecture: x86_64
+Installed-Size: 180152
+Maintainer: default
+Version: 4.2.12-1
+Homepage: https://github.com/mongodb/mongo
+Depends: libicu, libcurl, libpcap
+Description: mongo db
+Filename: dists/termux/extras/binary-x86_64/mongodb_4.2.12-1_x86_64.deb
+Size: 46132568
+MD5Sum: a1a3233aeb7fe7b446f6267f3259549b
+SHA1: 1662cc64f6a7b9402847ecd428e2757184df0c03
+SHA256: 29acffcf095968ba9af3163ab37ee90412b409dba783b6da277b1b7e3b616225
+SHA512: 98445dc6f51f5da18ac13dfe60f8491f736fd73bc73af2ebaff736aa7f44e46f4926c2724d4540e9ccdb25417d6c8a1076fdf9d55c83fcaf8fc6c0a94f08a209
+
+Package: mongodb
+Architecture: x86_64
 Installed-Size: 180128
 Maintainer: default
 Version: 4.2.12

@@ -1540,6 +1540,21 @@ SHA512: 4947be72aedf7e054c1c98c6bdccf226ae8e3af693089286a2bc8eae73f1c6cf032efb5b
 
 Package: mongodb
 Architecture: aarch64
+Installed-Size: 166448
+Maintainer: default
+Version: 4.2.12-1
+Homepage: https://github.com/mongodb/mongo
+Depends: libicu, libcurl, libpcap
+Description: mongo db
+Filename: dists/termux/extras/binary-aarch64/mongodb_4.2.12-1_aarch64.deb
+Size: 38341624
+MD5Sum: 0ef438d43ed0c74669353e781104e188
+SHA1: 8d468f06b6f399080850fad4bb3ab4222e7b9bae
+SHA256: e171252558f4c18888d699fd212d09209d6e8032740333961e396b8cb533a155
+SHA512: a23b3540bc88a10ce7d59ac67d4a53b57fe3ca4b171e644ea1ef1d2bbe14e24a52ea54169323772bf1d5dcdffd78fe11b16561a22ed00423d7484788a76433a1
+
+Package: mongodb
+Architecture: aarch64
 Installed-Size: 166440
 Maintainer: default
 Version: 4.2.12
